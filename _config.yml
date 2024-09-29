@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-repository: sungheeyun/sungheeyun.github.io
+repository: sunghee-yun/sunghee-yun.github.io
 
 title: Mr. Funnybunny's Homepage
 email: sunghee.yun@gmail.com
@@ -84,7 +84,7 @@ author:
       url: "https://facebook.com/sunghee.yun1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sungheeyun"
+      url: "https://github.com/sunghee-yun/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/sunghee.yun/"
@@ -110,7 +110,7 @@ footer:
       url: "https://facebook.com/sunghee.yun1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sungheeyun"
+      url: "https://github.com/sunghee-yun/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/sunghee.yun/"
