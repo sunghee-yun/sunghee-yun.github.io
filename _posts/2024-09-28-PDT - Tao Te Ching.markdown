@@ -65,6 +65,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 무無를 단순히 유有가 아닌 것으로 정의하는 것은 무의미하다.
 일반적으로 우리가 알 수 있는 것은 오직 유有이므로 무無는 "알 수 없는 것"이라는 의미를 내포한다.
 
+<div class="img-container">
+	<!--img src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png"-->
+	<img src="/assets/images/lao-tzu/oriental-style-painting-mountains.jpeg">
+</div>
+
 그렇다면 노자는 도대체 어떤 방법으로 무無를 알았을까?
 도덕경道德經은 성인聖人이 무無를 알아가는 여정旅程으로 구성되어 있으며
 이때 성인聖人은 단순히 무無를 알아가는 여정에 오른 사람들 일반을 가리키는 용어이다.
@@ -228,6 +233,10 @@ Main text
 	모든 신비의 문이로다.
 </span>
 </p>
+</div>
+
+<div class="img-container">
+	<img src="/assets/images/lao-tzu/crane.png">
 </div>
 
 <h2 id="2">
