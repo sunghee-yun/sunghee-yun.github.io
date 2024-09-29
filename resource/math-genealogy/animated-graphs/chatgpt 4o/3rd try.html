@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node circle {
+            fill: #69b3a2;
+            stroke: #000;
+            stroke-width: 1.5px;
+        }
+        .node text {
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .link {
+            fill: none;
+            stroke: #999;
+            stroke-width: 1.5px;
+        }
+    </style>
+</head>
+<body>
+    <svg width="1960" height="1000"></svg>
+
+    <script>
+        // Load the JSON data from an external file
+        fetch('my_math_gen.json')
+            .then(response => response.json())
+            .then(json => {
+                const data = {
+                    "nodes": [],
+                    "links": []
+                };
+
+                const nodesMap = new Map();
+
+                // Populate nodes
+                for (const id in json) {
+                    const person = json[id];
+                    const node = { id: person.id, name: person.name, height: person.height };
+                    data.nodes.push(node);
+                    nodesMap.set(person.id, node);
+                }
+
+                // Populate links with actual node references
+                for (const id in json) {
+                    const person = json[id];
+                    person.advisors.forEach(advisor => {
+                        if (nodesMap.has(advisor.id)) {
+                            data.links.push({ source: nodesMap.get(advisor.id), target: nodesMap.get(person.id) });
+                        }
+                    });
+                }
+
+                const svg = d3.select("svg"),
+                    width = +svg.attr("width"),
+                    height = +svg.attr("height");
+
+                const simulation = d3.forceSimulation()
+                    .force("link", d3.forceLink().id(d => d.id).distance(100))
+                    .force("charge", d3.forceManyBody().strength(-300))
+                    .force("center", d3.forceCenter(width / 2, height / 2));
+
+                const link = svg.append("g")
+                    .attr("class", "links")
+                    .selectAll("line")
+                    .data(data.links)
+                    .enter().append("line")
+                    .attr("class", "link");
+
+                const node = svg.append("g")
+                    .attr("class", "nodes")
+                    .selectAll("g")
+                    .data(data.nodes)
+                    .enter().append("g")
+                    .call(d3.drag()
+                        .on("start", dragstarted)
+                        .on("drag", dragged)
+                        .on("end", dragended));
+
+                node.append("circle")
+                    .attr("r", 10);
+
+                node.append("text")
+                    .attr("x", 12)
+                    .attr("dy", ".35em")
+                    .text(d => d.name);
+
+                simulation
+                    .nodes(data.nodes)
+                    .on("tick", ticked);
+
+                simulation.force("link")
+                    .links(data.links);
+
+                function ticked() {
+                    link
+                        .attr("x1", d => d.source.x)
+                        .attr("y1", d => d.source.y)
+                        .attr("x2", d => d.target.x)
+                        .attr("y2", d => d.target.y);
+
+                    node
+                        .attr("transform", d => `translate(${d.x},${d.y})`);
+                }
+
+                function dragstarted(event, d) {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                }
+
+                function dragged(event, d) {
+                    d.fx = event.x;
+                    d.fy = event.y;
+                }
+
+                function dragended(event, d) {
+                    if (!event.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                }
+            })
+            .catch(error => {
+                console.error("Error loading the JSON data:", error);
+            });
+    </script>
+</body>
+</html>

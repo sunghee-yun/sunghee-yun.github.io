@@ -1,0 +1,23 @@
+main:
+  - title: "about"
+    url: /about
+  - title: "articles"
+    url: /articles
+  - title: "blog"
+    url: /posts
+  - title: "books"
+    url: /books
+#  - title: "categories"
+#    url: /categories
+#  - title: "lectures"
+#    url: /lectures
+#  - title: "miscellaneous"
+#    url: /miscellaneous
+#  - title: "music"
+#    url: /music
+  - title: "papers"
+    url: /papers
+  - title: "tags"
+    url: /tags
+  - title: "todo-list"
+    url: /todo-list

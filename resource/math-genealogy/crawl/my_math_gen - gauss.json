@@ -1,0 +1,139 @@
+{
+  "283283": {
+    "id": "283283",
+    "name": "Sunghee Yun",
+    "advisors": [
+      {
+        "name": "Stephen Poythress Boyd",
+        "id": "68473"
+      },
+      {
+        "name": "Abbas A. El Gamal",
+        "id": "71449"
+      }
+    ],
+    "height": 0
+  },
+  "68473": {
+    "id": "68473",
+    "name": "Stephen Poythress Boyd",
+    "advisors": [
+      {
+        "name": "Charles Auguste Desoer",
+        "id": "92886"
+      },
+      {
+        "name": "S. Shankar (Sosale Shankara) Sastry",
+        "id": "70150"
+      },
+      {
+        "name": "Leon Ong Chua",
+        "id": "130989"
+      }
+    ],
+    "height": 1
+  },
+  "92886": {
+    "id": "92886",
+    "name": "Charles Auguste Desoer",
+    "advisors": [
+      {
+        "name": "Robert Mario Fano",
+        "id": "64848"
+      }
+    ],
+    "height": 2
+  },
+  "64848": {
+    "id": "64848",
+    "name": "Robert Mario Fano",
+    "advisors": [
+      {
+        "name": "Ernst Adolph Guillemin",
+        "id": "63061"
+      }
+    ],
+    "height": 3
+  },
+  "63061": {
+    "id": "63061",
+    "name": "Ernst Adolph Guillemin",
+    "advisors": [
+      {
+        "name": "Arnold Johannes Wilhelm Sommerfeld",
+        "id": "31357"
+      }
+    ],
+    "height": 4
+  },
+  "31357": {
+    "id": "31357",
+    "name": "Arnold Johannes Wilhelm Sommerfeld",
+    "advisors": [
+      {
+        "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+        "id": "7404"
+      }
+    ],
+    "height": 5
+  },
+  "7404": {
+    "id": "7404",
+    "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+    "advisors": [
+      {
+        "name": "C. Felix (Christian) Klein",
+        "id": "7401"
+      }
+    ],
+    "height": 6
+  },
+  "7401": {
+    "id": "7401",
+    "name": "C. Felix (Christian) Klein",
+    "advisors": [
+      {
+        "name": "Julius Pl\u00fccker",
+        "id": "7402"
+      },
+      {
+        "name": "Rudolf Otto Sigismund Lipschitz",
+        "id": "19964"
+      }
+    ],
+    "height": 7
+  },
+  "7402": {
+    "id": "7402",
+    "name": "Julius Pl\u00fccker",
+    "advisors": [
+      {
+        "name": "Christian Ludwig Gerling",
+        "id": "29642"
+      }
+    ],
+    "height": 8
+  },
+  "29642": {
+    "id": "29642",
+    "name": "Christian Ludwig Gerling",
+    "advisors": [
+      {
+        "name": "Carl Friedrich Gau\u00df",
+        "id": "18231"
+      }
+    ],
+    "height": 9
+  },
+  "18231": {
+    "id": "18231",
+    "name": "Carl Friedrich Gau\u00df",
+    "advisors": [
+      {
+        "name": "Johann Friedrich Pfaff",
+        "id": "18230"
+      }
+    ],
+    "height": 10
+  }
+}

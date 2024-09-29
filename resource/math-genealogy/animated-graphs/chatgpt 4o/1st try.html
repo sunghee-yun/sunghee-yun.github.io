@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node circle {
+            fill: #69b3a2;
+            stroke: #000;
+            stroke-width: 1.5px;
+        }
+        .node text {
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+        .link {
+            fill: none;
+            stroke: #999;
+            stroke-width: 1.5px;
+        }
+    </style>
+</head>
+<body>
+    <svg width="960" height="600"></svg>
+
+    <script>
+        // Load the JSON data
+        const data = {
+            "nodes": [],
+            "links": []
+        };
+
+        const jsonData = `{
+  "283283": {
+    "id": "283283",
+    "name": "Sunghee  Yun",
+    "advisors": [
+      {
+        "name": "Stephen Poythress Boyd",
+        "id": "68473"
+      },
+      {
+        "name": "Abbas A. El Gamal",
+        "id": "71449"
+      }
+    ],
+    "height": 10
+  },
+  "68473": {
+    "id": "68473",
+    "name": "Stephen Poythress Boyd",
+    "advisors": [
+      {
+        "name": "Charles Auguste Desoer",
+        "id": "92886"
+      },
+      {
+        "name": "S. Shankar (Sosale Shankara) Sastry",
+        "id": "70150"
+      },
+      {
+        "name": "Leon Ong Chua",
+        "id": "130989"
+      }
+    ],
+    "height": 9
+  },
+  "92886": {
+    "id": "92886",
+    "name": "Charles Auguste Desoer",
+    "advisors": [
+      {
+        "name": "Robert Mario Fano",
+        "id": "64848"
+      }
+    ],
+    "height": 8
+  },
+  "64848": {
+    "id": "64848",
+    "name": "Robert Mario Fano",
+    "advisors": [
+      {
+        "name": "Ernst Adolph Guillemin",
+        "id": "63061"
+      }
+    ],
+    "height": 7
+  },
+  "63061": {
+    "id": "63061",
+    "name": "Ernst Adolph Guillemin",
+    "advisors": [
+      {
+        "name": "Arnold Johannes Wilhelm Sommerfeld",
+        "id": "31357"
+      }
+    ],
+    "height": 6
+  },
+  "31357": {
+    "id": "31357",
+    "name": "Arnold Johannes Wilhelm Sommerfeld",
+    "advisors": [
+      {
+        "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+        "id": "7404"
+      }
+    ],
+    "height": 5
+  },
+  "7404": {
+    "id": "7404",
+    "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+    "advisors": [
+      {
+        "name": "C. Felix (Christian) Klein",
+        "id": "7401"
+      }
+    ],
+    "height": 4
+  },
+  "7401": {
+    "id": "7401",
+    "name": "C. Felix (Christian) Klein",
+    "advisors": [
+      {
+        "name": "Julius  Pl\u00fccker",
+        "id": "7402"
+      },
+      {
+        "name": "Rudolf Otto Sigismund Lipschitz",
+        "id": "19964"
+      }
+    ],
+    "height": 3
+  },
+  "7402": {
+    "id": "7402",
+    "name": "Julius  Pl\u00fccker",
+    "advisors": [
+      {
+        "name": "Christian Ludwig Gerling",
+        "id": "29642"
+      }
+    ],
+    "height": 2
+  },
+  "29642": {
+    "id": "29642",
+    "name": "Christian Ludwig Gerling",
+    "advisors": [
+      {
+        "name": "Carl Friedrich Gau\u00df",
+        "id": "18231"
+      }
+    ],
+    "height": 1
+  },
+  "18231": {
+    "id": "18231",
+    "name": "Carl Friedrich Gau\u00df",
+    "advisors": [
+      {
+        "name": "Johann Friedrich Pfaff",
+        "id": "18230"
+      }
+    ],
+    "height": 0
+  },
+  "19964": {
+    "id": "19964",
+    "name": "Rudolf Otto Sigismund Lipschitz",
+    "advisors": [
+      {
+        "name": "Gustav Peter Lejeune Dirichlet",
+        "id": "17946"
+      },
+      {
+        "name": "Martin  Ohm",
+        "id": "47064"
+      }
+    ],
+    "height": 2
+  },
+  "17946": {
+    "id": "17946",
+    "name": "Gustav Peter Lejeune Dirichlet",
+    "advisors": [
+      {
+        "name": "Sim\u00e9on Denis Poisson",
+        "id": "17865"
+      },
+      {
+        "name": "Jean-Baptiste Joseph Fourier",
+        "id": "17981"
+      }
+    ],
+    "height": 1
+  },
+  "17865": {
+    "id": "17865",
+    "name": "Sim\u00e9on Denis Poisson",
+    "advisors": [
+      {
+        "name": "Joseph Louis Lagrange",
+        "id": "17864"
+      },
+      {
+        "name": "Pierre-Simon  Laplace",
+        "id": "108295"
+      }
+    ],
+    "height": 0
+  },
+  "17981": {
+    "id": "17981",
+    "name": "Jean-Baptiste Joseph Fourier",
+    "advisors": [
+      {
+        "name": "Joseph Louis Lagrange",
+        "id": "17864"
+      }
+    ],
+    "height": 0
+  },
+  "47064": {
+    "id": "47064",
+    "name": "Martin  Ohm",
+    "advisors": [
+      {
+        "name": "Karl Christian von Langsdorf",
+        "id": "47025"
+      }
+    ],
+    "height": 1
+  },
+  "47025": {
+    "id": "47025",
+    "name": "Karl Christian von Langsdorf",
+    "advisors": [
+      {
+        "name": "Abraham Gotthelf K\u00e4stner",
+        "id": "66476"
+      }
+    ],
+    "height": 0
+  },
+  "70150": {
+    "id": "70150",
+    "name": "S. Shankar (Sosale Shankara) Sastry",
+    "advisors": [
+      {
+        "name": "Charles Auguste Desoer",
+        "id": "92886"
+      }
+    ],
+    "height": 8
+  },
+  "130989": {
+    "id": "130989",
+    "name": "Leon Ong Chua",
+    "advisors": [
+      {
+        "name": "Mac Elwyn Van Valkenburg",
+        "id": "71536"
+      }
+    ],
+    "height": 8
+  },
+  "71536": {
+    "id": "71536",
+    "name": "Mac Elwyn Van Valkenburg",
+    "advisors": [
+      {
+        "name": "Oswald Garrison Villard",
+        "id": "127735"
+      },
+      {
+        "name": "Laurence Albert Manning",
+        "id": "138514"
+      }
+    ],
+    "height": 7
+  },
+  "127735": {
+    "id": "127735",
+    "name": "Oswald Garrison Villard",
+    "advisors": [
+      {
+        "name": "Frederick Emmons Terman",
+        "id": "127736"
+      }
+    ],
+    "height": 6
+  },
+  "127736": {
+    "id": "127736",
+    "name": "Frederick Emmons Terman",
+    "advisors": [
+      {
+        "name": "Vannevar  Bush",
+        "id": "84507"
+      }
+    ],
+    "height": 5
+  },
+  "84507": {
+    "id": "84507",
+    "name": "Vannevar  Bush",
+    "advisors": [
+      {
+        "name": "Arthur Edwin Kennelly",
+        "id": "24154"
+      },
+      {
+        "name": "Dugald Caleb Jackson",
+        "id": "205173"
+      }
+    ],
+    "height": 4
+  },
+  "138514": {
+    "id": "138514",
+    "name": "Laurence Albert Manning",
+    "advisors": [
+      {
+        "name": "Robert Arthur Helliwell",
+        "id": "139939"
+      }
+    ],
+    "height": 6
+  },
+  "139939": {
+    "id": "139939",
+    "name": "Robert Arthur Helliwell",
+    "advisors": [
+      {
+        "name": "Karl Rudolph Spangenberg",
+        "id": "76967"
+      }
+    ],
+    "height": 5
+  },
+  "76967": {
+    "id": "76967",
+    "name": "Karl Rudolph Spangenberg",
+    "advisors": [
+      {
+        "name": "William Littell Everitt",
+        "id": "83975"
+      }
+    ],
+    "height": 4
+  },
+  "83975": {
+    "id": "83975",
+    "name": "William Littell Everitt",
+    "advisors": [
+      {
+        "name": "Frederic Columbus Blake",
+        "id": "84005"
+      }
+    ],
+    "height": 3
+  },
+  "84005": {
+    "id": "84005",
+    "name": "Frederic Columbus Blake",
+    "advisors": [
+      {
+        "name": "Ernest Fox Nichols",
+        "id": "84012"
+      }
+    ],
+    "height": 2
+  },
+  "84012": {
+    "id": "84012",
+    "name": "Ernest Fox Nichols",
+    "advisors": [
+      {
+        "name": "Edward Leamington Nichols",
+        "id": "84010"
+      }
+    ],
+    "height": 1
+  },
+  "84010": {
+    "id": "84010",
+    "name": "Edward Leamington Nichols",
+    "advisors": [
+      {
+        "name": "Johann Benedict Listing",
+        "id": "19953"
+      }
+    ],
+    "height": 0
+  },
+  "71449": {
+    "id": "71449",
+    "name": "Abbas A. El Gamal",
+    "advisors": [
+      {
+        "name": "Thomas Merrill Cover",
+        "id": "39910"
+      }
+    ],
+    "height": 9
+  },
+  "39910": {
+    "id": "39910",
+    "name": "Thomas Merrill Cover",
+    "advisors": [
+      {
+        "name": "Norman Manuel Abramson",
+        "id": "757"
+      }
+    ],
+    "height": 8
+  },
+  "757": {
+    "id": "757",
+    "name": "Norman Manuel Abramson",
+    "advisors": [
+      {
+        "name": "Willis W. Harman",
+        "id": "74544"
+      }
+    ],
+    "height": 7
+  },
+  "74544": {
+    "id": "74544",
+    "name": "Willis W. Harman",
+    "advisors": [
+      {
+        "name": "Karl Rudolph Spangenberg",
+        "id": "76967"
+      }
+    ],
+    "height": 6
+	  }
+        }`;
+
+        const json = JSON.parse(jsonData);
+
+        // Populate nodes and links
+        for (const id in json) {
+            const person = json[id];
+            data.nodes.push({ id: person.id, name: person.name, height: person.height });
+            person.advisors.forEach(advisor => {
+                data.links.push({ source: advisor.id, target: person.id });
+            });
+        }
+
+        const svg = d3.select("svg"),
+            width = +svg.attr("width"),
+            height = +svg.attr("height");
+
+        const simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        const link = svg.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(data.links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        const node = svg.append("g")
+            .attr("class", "nodes")
+            .selectAll("g")
+            .data(data.nodes)
+            .enter().append("g")
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+
+        node.append("circle")
+            .attr("r", 10);
+
+        node.append("text")
+            .attr("x", 12)
+            .attr("dy", ".35em")
+            .text(d => d.name);
+
+        simulation
+            .nodes(data.nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(data.links);
+
+        function ticked() {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+
+            node
+                .attr("transform", d => `translate(${d.x},${d.y})`);
+        }
+
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+</body>
+</html>
+

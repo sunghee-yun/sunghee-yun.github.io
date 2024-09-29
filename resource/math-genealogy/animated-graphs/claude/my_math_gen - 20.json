@@ -1,0 +1,1349 @@
+{
+  "283283": {
+    "id": "283283",
+    "name": "Sunghee Yun",
+    "advisors": [
+      {
+        "name": "Stephen Poythress Boyd",
+        "id": "68473"
+      },
+      {
+        "name": "Abbas A. El Gamal",
+        "id": "71449"
+      }
+    ],
+    "height": 0
+  },
+  "68473": {
+    "id": "68473",
+    "name": "Stephen Poythress Boyd",
+    "advisors": [
+      {
+        "name": "Charles Auguste Desoer",
+        "id": "92886"
+      },
+      {
+        "name": "S. Shankar (Sosale Shankara) Sastry",
+        "id": "70150"
+      },
+      {
+        "name": "Leon Ong Chua",
+        "id": "130989"
+      }
+    ],
+    "height": 1
+  },
+  "92886": {
+    "id": "92886",
+    "name": "Charles Auguste Desoer",
+    "advisors": [
+      {
+        "name": "Robert Mario Fano",
+        "id": "64848"
+      }
+    ],
+    "height": 2
+  },
+  "64848": {
+    "id": "64848",
+    "name": "Robert Mario Fano",
+    "advisors": [
+      {
+        "name": "Ernst Adolph Guillemin",
+        "id": "63061"
+      }
+    ],
+    "height": 3
+  },
+  "63061": {
+    "id": "63061",
+    "name": "Ernst Adolph Guillemin",
+    "advisors": [
+      {
+        "name": "Arnold Johannes Wilhelm Sommerfeld",
+        "id": "31357"
+      }
+    ],
+    "height": 4
+  },
+  "31357": {
+    "id": "31357",
+    "name": "Arnold Johannes Wilhelm Sommerfeld",
+    "advisors": [
+      {
+        "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+        "id": "7404"
+      }
+    ],
+    "height": 5
+  },
+  "7404": {
+    "id": "7404",
+    "name": "C. L. Ferdinand (Carl Louis) Lindemann",
+    "advisors": [
+      {
+        "name": "C. Felix (Christian) Klein",
+        "id": "7401"
+      }
+    ],
+    "height": 6
+  },
+  "7401": {
+    "id": "7401",
+    "name": "C. Felix (Christian) Klein",
+    "advisors": [
+      {
+        "name": "Julius Pl\u00fccker",
+        "id": "7402"
+      },
+      {
+        "name": "Rudolf Otto Sigismund Lipschitz",
+        "id": "19964"
+      }
+    ],
+    "height": 7
+  },
+  "7402": {
+    "id": "7402",
+    "name": "Julius Pl\u00fccker",
+    "advisors": [
+      {
+        "name": "Christian Ludwig Gerling",
+        "id": "29642"
+      }
+    ],
+    "height": 8
+  },
+  "29642": {
+    "id": "29642",
+    "name": "Christian Ludwig Gerling",
+    "advisors": [
+      {
+        "name": "Carl Friedrich Gau\u00df",
+        "id": "18231"
+      }
+    ],
+    "height": 9
+  },
+  "18231": {
+    "id": "18231",
+    "name": "Carl Friedrich Gau\u00df",
+    "advisors": [
+      {
+        "name": "Johann Friedrich Pfaff",
+        "id": "18230"
+      }
+    ],
+    "height": 10
+  },
+  "18230": {
+    "id": "18230",
+    "name": "Johann Friedrich Pfaff",
+    "advisors": [
+      {
+        "name": "Abraham Gotthelf K\u00e4stner",
+        "id": "66476"
+      },
+      {
+        "name": "Johann Elert Bode",
+        "id": "127710"
+      }
+    ],
+    "height": 11
+  },
+  "66476": {
+    "id": "66476",
+    "name": "Abraham Gotthelf K\u00e4stner",
+    "advisors": [
+      {
+        "name": "Christian August Hausen",
+        "id": "57670"
+      }
+    ],
+    "height": 12
+  },
+  "57670": {
+    "id": "57670",
+    "name": "Christian August Hausen",
+    "advisors": [
+      {
+        "name": "Johann Christoph Wichmannshausen",
+        "id": "72669"
+      },
+      {
+        "name": "Johann Andreas Planer",
+        "id": "128986"
+      }
+    ],
+    "height": 13
+  },
+  "72669": {
+    "id": "72669",
+    "name": "Johann Christoph Wichmannshausen",
+    "advisors": [
+      {
+        "name": "Otto Mencke",
+        "id": "21235"
+      }
+    ],
+    "height": 14
+  },
+  "21235": {
+    "id": "21235",
+    "name": "Otto Mencke",
+    "advisors": [
+      {
+        "name": "Jakob Thomasius",
+        "id": "137705"
+      }
+    ],
+    "height": 15
+  },
+  "137705": {
+    "id": "137705",
+    "name": "Jakob Thomasius",
+    "advisors": [
+      {
+        "name": "Friedrich Leibniz",
+        "id": "143630"
+      }
+    ],
+    "height": 16
+  },
+  "128986": {
+    "id": "128986",
+    "name": "Johann Andreas Planer",
+    "advisors": [
+      {
+        "name": "Johann Pasch",
+        "id": "128046"
+      },
+      {
+        "name": "Rudolf Jakob Camerarius",
+        "id": "128938"
+      }
+    ],
+    "height": 14
+  },
+  "128046": {
+    "id": "128046",
+    "name": "Johann Pasch",
+    "advisors": [
+      {
+        "name": "Michael d. J. Walther",
+        "id": "127962"
+      }
+    ],
+    "height": 15
+  },
+  "127962": {
+    "id": "127962",
+    "name": "Michael d. J. Walther",
+    "advisors": [
+      {
+        "name": "Aegidius Strauch",
+        "id": "127801"
+      },
+      {
+        "name": "Constantin Ziegra",
+        "id": "230796"
+      }
+    ],
+    "height": 16
+  },
+  "127801": {
+    "id": "127801",
+    "name": "Aegidius Strauch",
+    "advisors": [
+      {
+        "name": "Nicolaus Zapf",
+        "id": "127734"
+      }
+    ],
+    "height": 17
+  },
+  "127734": {
+    "id": "127734",
+    "name": "Nicolaus Zapf",
+    "advisors": [
+      {
+        "name": "Erasmus Schmidt",
+        "id": "127424"
+      },
+      {
+        "name": "Abraham Heinecke",
+        "id": "189659"
+      },
+      {
+        "name": "Jacobus Martini",
+        "id": "127848"
+      }
+    ],
+    "height": 18
+  },
+  "127424": {
+    "id": "127424",
+    "name": "Erasmus Schmidt",
+    "advisors": [
+      {
+        "name": "Sethus Calvisius",
+        "id": "127898"
+      },
+      {
+        "name": "Petrus Otto",
+        "id": "127942"
+      }
+    ],
+    "height": 19
+  },
+  "127898": {
+    "id": "127898",
+    "name": "Sethus Calvisius",
+    "advisors": [
+      {
+        "name": "Nikolaus Selnecker",
+        "id": "127864"
+      },
+      {
+        "name": "Moritz Valentin Steinmetz",
+        "id": "127790"
+      }
+    ],
+    "height": 20
+  },
+  "127848": {
+    "id": "127848",
+    "name": "Jacobus Martini",
+    "advisors": [
+      {
+        "name": "Cornelius Martini",
+        "id": "128105"
+      }
+    ],
+    "height": 19
+  },
+  "128105": {
+    "id": "128105",
+    "name": "Cornelius Martini",
+    "advisors": [
+      {
+        "name": "Albert Clampius",
+        "id": "200006"
+      },
+      {
+        "name": "Duncan Liddel",
+        "id": "128122"
+      }
+    ],
+    "height": 20
+  },
+  "128938": {
+    "id": "128938",
+    "name": "Rudolf Jakob Camerarius",
+    "advisors": [
+      {
+        "name": "Georg Balthasar Metzger",
+        "id": "123974"
+      },
+      {
+        "name": "Elias Rudolph Camerarius, Sr.",
+        "id": "76481"
+      }
+    ],
+    "height": 15
+  },
+  "123974": {
+    "id": "123974",
+    "name": "Georg Balthasar Metzger",
+    "advisors": [
+      {
+        "name": "Gottfried M\u00f6bius",
+        "id": "182089"
+      },
+      {
+        "name": "Johann Jakob von Brunn",
+        "id": "182088"
+      }
+    ],
+    "height": 16
+  },
+  "182089": {
+    "id": "182089",
+    "name": "Gottfried M\u00f6bius",
+    "advisors": [
+      {
+        "name": "Werner Rolfinck",
+        "id": "125154"
+      }
+    ],
+    "height": 17
+  },
+  "125154": {
+    "id": "125154",
+    "name": "Werner Rolfinck",
+    "advisors": [
+      {
+        "name": "Daniel Sennert",
+        "id": "126111"
+      },
+      {
+        "name": "Adriaan van den Spieghel",
+        "id": "125006"
+      }
+    ],
+    "height": 18
+  },
+  "126111": {
+    "id": "126111",
+    "name": "Daniel Sennert",
+    "advisors": [
+      {
+        "name": "Jacobus Martini",
+        "id": "127848"
+      },
+      {
+        "name": "Jan Jessenius",
+        "id": "127278"
+      }
+    ],
+    "height": 19
+  },
+  "125006": {
+    "id": "125006",
+    "name": "Adriaan van den Spieghel",
+    "advisors": [
+      {
+        "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+        "id": "125109"
+      }
+    ],
+    "height": 19
+  },
+  "125109": {
+    "id": "125109",
+    "name": "Hieronymus (Girolamo Fabrici d'Acquapendente) Fabricius",
+    "advisors": [
+      {
+        "name": "Gabriele Falloppio",
+        "id": "125142"
+      }
+    ],
+    "height": 20
+  },
+  "182088": {
+    "id": "182088",
+    "name": "Johann Jakob von Brunn",
+    "advisors": [
+      {
+        "name": "Johannes Nicolaus Stupanus",
+        "id": "125048"
+      }
+    ],
+    "height": 17
+  },
+  "125048": {
+    "id": "125048",
+    "name": "Johannes Nicolaus Stupanus",
+    "advisors": [
+      {
+        "name": "Theodor Zwinger",
+        "id": "125148"
+      }
+    ],
+    "height": 18
+  },
+  "125148": {
+    "id": "125148",
+    "name": "Theodor Zwinger",
+    "advisors": [
+      {
+        "name": "Petrus (Pierre de La Ram\u00e9e) Ramus",
+        "id": "125047"
+      },
+      {
+        "name": "Bassiano Landi",
+        "id": "152906"
+      },
+      {
+        "name": "Vittore Trincavelli",
+        "id": "152905"
+      }
+    ],
+    "height": 19
+  },
+  "125047": {
+    "id": "125047",
+    "name": "Petrus (Pierre de La Ram\u00e9e) Ramus",
+    "advisors": [
+      {
+        "name": "Johannes (Johann Sturm) Sturmius",
+        "id": "125665"
+      },
+      {
+        "name": "Jacques Toussain",
+        "id": "131546"
+      }
+    ],
+    "height": 20
+  },
+  "152906": {
+    "id": "152906",
+    "name": "Bassiano Landi",
+    "advisors": [
+      {
+        "name": "Giovanni Battista della Monte",
+        "id": "152904"
+      },
+      {
+        "name": "Vittore Trincavelli",
+        "id": "152905"
+      }
+    ],
+    "height": 20
+  },
+  "152905": {
+    "id": "152905",
+    "name": "Vittore Trincavelli",
+    "advisors": [
+      {
+        "name": "Pietro Pomponazzi",
+        "id": "152903"
+      }
+    ],
+    "height": 20
+  },
+  "76481": {
+    "id": "76481",
+    "name": "Elias Rudolph Camerarius, Sr.",
+    "advisors": [
+      {
+        "name": "Georg Balthasar Metzger",
+        "id": "123974"
+      }
+    ],
+    "height": 16
+  },
+  "127710": {
+    "id": "127710",
+    "name": "Johann Elert Bode",
+    "advisors": [
+      {
+        "name": "Johann Georg B\u00fcsch",
+        "id": "127668"
+      }
+    ],
+    "height": 12
+  },
+  "127668": {
+    "id": "127668",
+    "name": "Johann Georg B\u00fcsch",
+    "advisors": [
+      {
+        "name": "Johann Andreas Segner",
+        "id": "60782"
+      },
+      {
+        "name": "Siegmund Jakob Baumgarten",
+        "id": "208259"
+      }
+    ],
+    "height": 13
+  },
+  "60782": {
+    "id": "60782",
+    "name": "Johann Andreas Segner",
+    "advisors": [
+      {
+        "name": "Georg Erhard Hamberger",
+        "id": "125886"
+      },
+      {
+        "name": "Georg Erhard Hamberger",
+        "id": "125886"
+      },
+      {
+        "name": "Simon Paul Hilscher",
+        "id": "125971"
+      },
+      {
+        "name": "Simon Paul Hilscher",
+        "id": "125971"
+      }
+    ],
+    "height": 14
+  },
+  "125971": {
+    "id": "125971",
+    "name": "Simon Paul Hilscher",
+    "advisors": [
+      {
+        "name": "Rudolf Wilhelm Krause",
+        "id": "124000"
+      }
+    ],
+    "height": 15
+  },
+  "124000": {
+    "id": "124000",
+    "name": "Rudolf Wilhelm Krause",
+    "advisors": [
+      {
+        "name": "Gerardus Leonardus Blasius",
+        "id": "208258"
+      },
+      {
+        "name": "Franciscus de le Bo\u00eb Sylvius",
+        "id": "101860"
+      }
+    ],
+    "height": 16
+  },
+  "101860": {
+    "id": "101860",
+    "name": "Franciscus de le Bo\u00eb Sylvius",
+    "advisors": [
+      {
+        "name": "Adolph Vorstius",
+        "id": "125023"
+      },
+      {
+        "name": "Emmanuel Stupanus",
+        "id": "125125"
+      }
+    ],
+    "height": 17
+  },
+  "125023": {
+    "id": "125023",
+    "name": "Adolph Vorstius",
+    "advisors": [
+      {
+        "name": "Gilbert Jacchaeus",
+        "id": "114992"
+      },
+      {
+        "name": "Adriaan van den Spieghel",
+        "id": "125006"
+      }
+    ],
+    "height": 18
+  },
+  "125125": {
+    "id": "125125",
+    "name": "Emmanuel Stupanus",
+    "advisors": [
+      {
+        "name": "Petrus Ryff",
+        "id": "130248"
+      }
+    ],
+    "height": 18
+  },
+  "130248": {
+    "id": "130248",
+    "name": "Petrus Ryff",
+    "advisors": [
+      {
+        "name": "Felix Plater",
+        "id": "182090"
+      }
+    ],
+    "height": 19
+  },
+  "182090": {
+    "id": "182090",
+    "name": "Felix Plater",
+    "advisors": [
+      {
+        "name": "Guillaume Rondelet",
+        "id": "158329"
+      }
+    ],
+    "height": 20
+  },
+  "208259": {
+    "id": "208259",
+    "name": "Siegmund Jakob Baumgarten",
+    "advisors": [
+      {
+        "name": "Christian Benedict Michaelis",
+        "id": "146035"
+      }
+    ],
+    "height": 14
+  },
+  "146035": {
+    "id": "146035",
+    "name": "Christian Benedict Michaelis",
+    "advisors": [
+      {
+        "name": "Johann Heinrich Michaelis",
+        "id": "145770"
+      }
+    ],
+    "height": 15
+  },
+  "145770": {
+    "id": "145770",
+    "name": "Johann Heinrich Michaelis",
+    "advisors": [
+      {
+        "name": "August Hermann Francke",
+        "id": "146034"
+      },
+      {
+        "name": "Hiob Ludolf",
+        "id": "145708"
+      }
+    ],
+    "height": 16
+  },
+  "145708": {
+    "id": "145708",
+    "name": "Hiob Ludolf",
+    "advisors": [
+      {
+        "name": "Johann M\u00f6ller",
+        "id": "146374"
+      },
+      {
+        "name": "Jacobus Golius",
+        "id": "125408"
+      },
+      {
+        "name": "Constantijn l\u2019Empereur van Oppyck",
+        "id": "145707"
+      }
+    ],
+    "height": 17
+  },
+  "125408": {
+    "id": "125408",
+    "name": "Jacobus Golius",
+    "advisors": [
+      {
+        "name": "Willebrord (Snel van Royen) Snellius",
+        "id": "125302"
+      },
+      {
+        "name": "Thomas Erpenius",
+        "id": "125378"
+      }
+    ],
+    "height": 18
+  },
+  "125302": {
+    "id": "125302",
+    "name": "Willebrord (Snel van Royen) Snellius",
+    "advisors": [
+      {
+        "name": "Ludolph van Ceulen",
+        "id": "125232"
+      },
+      {
+        "name": "Rudolph (Snel van Royen) Snellius",
+        "id": "125181"
+      }
+    ],
+    "height": 19
+  },
+  "125181": {
+    "id": "125181",
+    "name": "Rudolph (Snel van Royen) Snellius",
+    "advisors": [
+      {
+        "name": "Valentine Naibod",
+        "id": "125160"
+      },
+      {
+        "name": "Immanuel Tremellius",
+        "id": "125159"
+      }
+    ],
+    "height": 20
+  },
+  "125378": {
+    "id": "125378",
+    "name": "Thomas Erpenius",
+    "advisors": [
+      {
+        "name": "Joseph Justus Scaliger",
+        "id": "131577"
+      }
+    ],
+    "height": 19
+  },
+  "131577": {
+    "id": "131577",
+    "name": "Joseph Justus Scaliger",
+    "advisors": [
+      {
+        "name": "Adrien Turn\u00e8be",
+        "id": "131606"
+      }
+    ],
+    "height": 20
+  },
+  "145707": {
+    "id": "145707",
+    "name": "Constantijn l\u2019Empereur van Oppyck",
+    "advisors": [
+      {
+        "name": "Johannes (van den Driesche) Drusius",
+        "id": "130913"
+      }
+    ],
+    "height": 18
+  },
+  "130913": {
+    "id": "130913",
+    "name": "Johannes (van den Driesche) Drusius",
+    "advisors": [
+      {
+        "name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+        "id": "130995"
+      }
+    ],
+    "height": 19
+  },
+  "130995": {
+    "id": "130995",
+    "name": "Raoul (Rodolphus Cavellerius) le Chevalier",
+    "advisors": [
+      {
+        "name": "Fran\u00e7ois Vatable",
+        "id": "131235"
+      },
+      {
+        "name": "Paul (Paul B\u00fcchlein) Fagius",
+        "id": "131236"
+      }
+    ],
+    "height": 20
+  },
+  "19964": {
+    "id": "19964",
+    "name": "Rudolf Otto Sigismund Lipschitz",
+    "advisors": [
+      {
+        "name": "Gustav Peter Lejeune Dirichlet",
+        "id": "17946"
+      },
+      {
+        "name": "Martin Ohm",
+        "id": "47064"
+      }
+    ],
+    "height": 8
+  },
+  "17946": {
+    "id": "17946",
+    "name": "Gustav Peter Lejeune Dirichlet",
+    "advisors": [
+      {
+        "name": "Sim\u00e9on Denis Poisson",
+        "id": "17865"
+      },
+      {
+        "name": "Jean-Baptiste Joseph Fourier",
+        "id": "17981"
+      }
+    ],
+    "height": 9
+  },
+  "17865": {
+    "id": "17865",
+    "name": "Sim\u00e9on Denis Poisson",
+    "advisors": [
+      {
+        "name": "Joseph Louis Lagrange",
+        "id": "17864"
+      },
+      {
+        "name": "Pierre-Simon Laplace",
+        "id": "108295"
+      }
+    ],
+    "height": 10
+  },
+  "17864": {
+    "id": "17864",
+    "name": "Joseph Louis Lagrange",
+    "advisors": [
+      {
+        "name": "Leonhard Euler",
+        "id": "38586"
+      },
+      {
+        "name": "Giovanni Battista (Giambattista) Beccaria",
+        "id": "146036"
+      }
+    ],
+    "height": 11
+  },
+  "38586": {
+    "id": "38586",
+    "name": "Leonhard Euler",
+    "advisors": [
+      {
+        "name": "Johann Bernoulli",
+        "id": "53410"
+      }
+    ],
+    "height": 12
+  },
+  "53410": {
+    "id": "53410",
+    "name": "Johann Bernoulli",
+    "advisors": [
+      {
+        "name": "Jacob Bernoulli",
+        "id": "54440"
+      },
+      {
+        "name": "Nikolaus Eglinger",
+        "id": "129628"
+      }
+    ],
+    "height": 13
+  },
+  "54440": {
+    "id": "54440",
+    "name": "Jacob Bernoulli",
+    "advisors": [
+      {
+        "name": "Peter Werenfels",
+        "id": "143084"
+      },
+      {
+        "name": "Nicolas Malebranche",
+        "id": "143011"
+      }
+    ],
+    "height": 14
+  },
+  "143084": {
+    "id": "143084",
+    "name": "Peter Werenfels",
+    "advisors": [
+      {
+        "name": "Theodor Zwinger, Jr.",
+        "id": "143083"
+      }
+    ],
+    "height": 15
+  },
+  "143083": {
+    "id": "143083",
+    "name": "Theodor Zwinger, Jr.",
+    "advisors": [
+      {
+        "name": "Sebastian Beck",
+        "id": "143082"
+      }
+    ],
+    "height": 16
+  },
+  "143082": {
+    "id": "143082",
+    "name": "Sebastian Beck",
+    "advisors": [
+      {
+        "name": "Johann Jacob Grynaeus",
+        "id": "143045"
+      }
+    ],
+    "height": 17
+  },
+  "143045": {
+    "id": "143045",
+    "name": "Johann Jacob Grynaeus",
+    "advisors": [
+      {
+        "name": "Simon Sulzer",
+        "id": "182092"
+      },
+      {
+        "name": "Jacob Andreae",
+        "id": "143044"
+      }
+    ],
+    "height": 18
+  },
+  "182092": {
+    "id": "182092",
+    "name": "Simon Sulzer",
+    "advisors": [
+      {
+        "name": "Wolfgang Fabricius Capito",
+        "id": "131399"
+      },
+      {
+        "name": "Simon Grynaeus",
+        "id": "182045"
+      }
+    ],
+    "height": 19
+  },
+  "131399": {
+    "id": "131399",
+    "name": "Wolfgang Fabricius Capito",
+    "advisors": [
+      {
+        "name": "Ulrich Zasius",
+        "id": "126659"
+      },
+      {
+        "name": "Desiderius Erasmus",
+        "id": "125938"
+      }
+    ],
+    "height": 20
+  },
+  "182045": {
+    "id": "182045",
+    "name": "Simon Grynaeus",
+    "advisors": [
+      {
+        "name": "Johann (Johannes Kapnion) Reuchlin",
+        "id": "125760"
+      },
+      {
+        "name": "Philipp Melanchthon",
+        "id": "126956"
+      }
+    ],
+    "height": 20
+  },
+  "143044": {
+    "id": "143044",
+    "name": "Jacob Andreae",
+    "advisors": [
+      {
+        "name": "Jakob Beuerlin",
+        "id": "152648"
+      }
+    ],
+    "height": 19
+  },
+  "152648": {
+    "id": "152648",
+    "name": "Jakob Beuerlin",
+    "advisors": [
+      {
+        "name": "Balthasar Kaeuffelin",
+        "id": "152647"
+      }
+    ],
+    "height": 20
+  },
+  "129628": {
+    "id": "129628",
+    "name": "Nikolaus Eglinger",
+    "advisors": [
+      {
+        "name": "Emmanuel Stupanus",
+        "id": "125125"
+      },
+      {
+        "name": "Johann Caspar Bauhin",
+        "id": "129708"
+      }
+    ],
+    "height": 14
+  },
+  "129708": {
+    "id": "129708",
+    "name": "Johann Caspar Bauhin",
+    "advisors": [
+      {
+        "name": "Emmanuel Stupanus",
+        "id": "125125"
+      }
+    ],
+    "height": 15
+  },
+  "108295": {
+    "id": "108295",
+    "name": "Pierre-Simon Laplace",
+    "advisors": [
+      {
+        "name": "Jean Le Rond d'Alembert",
+        "id": "108266"
+      }
+    ],
+    "height": 11
+  },
+  "108266": {
+    "id": "108266",
+    "name": "Jean Le Rond d'Alembert",
+    "advisors": [
+      {
+        "name": "L\u00e9onor Caron",
+        "id": "294942"
+      }
+    ],
+    "height": 12
+  },
+  "294942": {
+    "id": "294942",
+    "name": "L\u00e9onor Caron",
+    "advisors": [
+      {
+        "name": "Pierre Varignon",
+        "id": "112689"
+      }
+    ],
+    "height": 13
+  },
+  "112689": {
+    "id": "112689",
+    "name": "Pierre Varignon",
+    "advisors": [
+      {
+        "name": "Nicolas Malebranche",
+        "id": "143011"
+      }
+    ],
+    "height": 14
+  },
+  "17981": {
+    "id": "17981",
+    "name": "Jean-Baptiste Joseph Fourier",
+    "advisors": [
+      {
+        "name": "Joseph Louis Lagrange",
+        "id": "17864"
+      }
+    ],
+    "height": 10
+  },
+  "47064": {
+    "id": "47064",
+    "name": "Martin Ohm",
+    "advisors": [
+      {
+        "name": "Karl Christian von Langsdorf",
+        "id": "47025"
+      }
+    ],
+    "height": 9
+  },
+  "47025": {
+    "id": "47025",
+    "name": "Karl Christian von Langsdorf",
+    "advisors": [
+      {
+        "name": "Abraham Gotthelf K\u00e4stner",
+        "id": "66476"
+      }
+    ],
+    "height": 10
+  },
+  "70150": {
+    "id": "70150",
+    "name": "S. Shankar (Sosale Shankara) Sastry",
+    "advisors": [
+      {
+        "name": "Charles Auguste Desoer",
+        "id": "92886"
+      }
+    ],
+    "height": 2
+  },
+  "130989": {
+    "id": "130989",
+    "name": "Leon Ong Chua",
+    "advisors": [
+      {
+        "name": "Mac Elwyn Van Valkenburg",
+        "id": "71536"
+      }
+    ],
+    "height": 2
+  },
+  "71536": {
+    "id": "71536",
+    "name": "Mac Elwyn Van Valkenburg",
+    "advisors": [
+      {
+        "name": "Oswald Garrison Villard",
+        "id": "127735"
+      },
+      {
+        "name": "Laurence Albert Manning",
+        "id": "138514"
+      }
+    ],
+    "height": 3
+  },
+  "127735": {
+    "id": "127735",
+    "name": "Oswald Garrison Villard",
+    "advisors": [
+      {
+        "name": "Frederick Emmons Terman",
+        "id": "127736"
+      }
+    ],
+    "height": 4
+  },
+  "127736": {
+    "id": "127736",
+    "name": "Frederick Emmons Terman",
+    "advisors": [
+      {
+        "name": "Vannevar Bush",
+        "id": "84507"
+      }
+    ],
+    "height": 5
+  },
+  "84507": {
+    "id": "84507",
+    "name": "Vannevar Bush",
+    "advisors": [
+      {
+        "name": "Arthur Edwin Kennelly",
+        "id": "24154"
+      },
+      {
+        "name": "Dugald Caleb Jackson",
+        "id": "205173"
+      }
+    ],
+    "height": 6
+  },
+  "138514": {
+    "id": "138514",
+    "name": "Laurence Albert Manning",
+    "advisors": [
+      {
+        "name": "Robert Arthur Helliwell",
+        "id": "139939"
+      }
+    ],
+    "height": 4
+  },
+  "139939": {
+    "id": "139939",
+    "name": "Robert Arthur Helliwell",
+    "advisors": [
+      {
+        "name": "Karl Rudolph Spangenberg",
+        "id": "76967"
+      }
+    ],
+    "height": 5
+  },
+  "76967": {
+    "id": "76967",
+    "name": "Karl Rudolph Spangenberg",
+    "advisors": [
+      {
+        "name": "William Littell Everitt",
+        "id": "83975"
+      }
+    ],
+    "height": 6
+  },
+  "83975": {
+    "id": "83975",
+    "name": "William Littell Everitt",
+    "advisors": [
+      {
+        "name": "Frederic Columbus Blake",
+        "id": "84005"
+      }
+    ],
+    "height": 7
+  },
+  "84005": {
+    "id": "84005",
+    "name": "Frederic Columbus Blake",
+    "advisors": [
+      {
+        "name": "Ernest Fox Nichols",
+        "id": "84012"
+      }
+    ],
+    "height": 8
+  },
+  "84012": {
+    "id": "84012",
+    "name": "Ernest Fox Nichols",
+    "advisors": [
+      {
+        "name": "Edward Leamington Nichols",
+        "id": "84010"
+      }
+    ],
+    "height": 9
+  },
+  "84010": {
+    "id": "84010",
+    "name": "Edward Leamington Nichols",
+    "advisors": [
+      {
+        "name": "Johann Benedict Listing",
+        "id": "19953"
+      }
+    ],
+    "height": 10
+  },
+  "19953": {
+    "id": "19953",
+    "name": "Johann Benedict Listing",
+    "advisors": [
+      {
+        "name": "Carl Friedrich Gau\u00df",
+        "id": "18231"
+      }
+    ],
+    "height": 11
+  },
+  "71449": {
+    "id": "71449",
+    "name": "Abbas A. El Gamal",
+    "advisors": [
+      {
+        "name": "Thomas Merrill Cover",
+        "id": "39910"
+      }
+    ],
+    "height": 1
+  },
+  "39910": {
+    "id": "39910",
+    "name": "Thomas Merrill Cover",
+    "advisors": [
+      {
+        "name": "Norman Manuel Abramson",
+        "id": "757"
+      }
+    ],
+    "height": 2
+  },
+  "757": {
+    "id": "757",
+    "name": "Norman Manuel Abramson",
+    "advisors": [
+      {
+        "name": "Willis W. Harman",
+        "id": "74544"
+      }
+    ],
+    "height": 3
+  },
+  "74544": {
+    "id": "74544",
+    "name": "Willis W. Harman",
+    "advisors": [
+      {
+        "name": "Karl Rudolph Spangenberg",
+        "id": "76967"
+      }
+    ],
+    "height": 4
+  }
+}

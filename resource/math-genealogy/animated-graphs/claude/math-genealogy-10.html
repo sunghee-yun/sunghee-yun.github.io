@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Math Genealogy - starting from Mr. Funnybunny - depth 10</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Genealogy Graph</title>
+    <!-- Include D3.js from a CDN -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node {
+            //fill: rgba(0, 0, 255, .8);
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+        .link {
+            stroke: rgba(0, 0, 0, .5);
+			stroke-width: 1.5px;
+        }
+        .node-label {
+            font-size: 22px;
+            pointer-events: none;
+        }
+        .tooltip {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Math Genealogy - starting from Mr. Funnybunny - depth 10</h1>
+    <div id="graph"></div>
+    <script src="math-genealogy-graph-10.js"></script>
+</body>
+</html>
+
