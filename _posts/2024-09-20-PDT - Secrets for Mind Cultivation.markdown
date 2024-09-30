@@ -407,6 +407,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<div class="img-container">
+	<img src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg">
+</div>
+
 <h2 id="originally">
 	마음은 본래 스스로 원만한 것
 </h2>
