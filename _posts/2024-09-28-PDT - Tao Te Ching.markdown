@@ -66,8 +66,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 일반적으로 우리가 알 수 있는 것은 오직 유有이므로 무無는 "알 수 없는 것"이라는 의미를 내포한다.
 
 <div class="img-container">
-	<!--img width="50%" src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png"-->
-	<img width="50%" src="/assets/images/lao-tzu/oriental-style-painting-mountains.jpeg">
+	<img width="70%" src="/assets/images/lao-tzu/oriental-style-painting-mountains.jpeg">
 </div>
 
 그렇다면 노자는 도대체 어떤 방법으로 무無를 알았을까?
@@ -235,9 +234,7 @@ Main text
 </p>
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/crane.png">
-</div>
+<img width="60%" src="/assets/images/lao-tzu/crane.png">
 
 <h2 id="2">
 	제2장 - 관요觀徼
@@ -340,9 +337,7 @@ Main text
 </p>
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/mountain-02.jpeg">
-</div>
+<img width="60%" src="/assets/images/lao-tzu/mountain-02.jpeg">
 
 <h2 id="3">
 	제3장
@@ -444,9 +439,7 @@ Main text
 </p>
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/girl-with-peaceful-face-having-glowing-light-ball-in-her-heart.png">
-</div>
+<img width="60%" src="/assets/images/lao-tzu/girl-with-peaceful-face-having-glowing-light-ball-in-her-heart.png">
 
 <h2 id="4">
 	제4장
@@ -517,9 +510,7 @@ Main text
 </p>
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/bright-empty-screen-with-plants.png">
-</div>
+<img width="60%" src="/assets/images/lao-tzu/bright-empty-screen-with-plants.png">
 
 <h2 id="5">
 	제5장
@@ -596,9 +587,7 @@ Main text
 </p>
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png">
-</div>
+<img width="60%" src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png">
 
 <h2 id="6">
 	제6장
@@ -638,304 +627,1206 @@ Main text
 	써도 써도 다할 줄을 모른다.
 </span>
 </p>
-
 </div>
 
-<div class="img-container">
-	<img width="50%" src="/assets/images/lao-tzu/woman-smiling-with-heart-in-hands.png">
+<img width="60%" src="/assets/images/lao-tzu/woman-smiling-with-heart-in-hands.png">
+
+<h2 id="7">
+	제7장
+	-
+	무사無私
+</h2>
+
+<blockquote>
+	"나"라는 생각이 진정으로 진실할까?
+	<br>
+	그 생각이 없어도 나는 숨을 쉰다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	天長地久
+<span class="chinese-korean-transliteration">
+	천장지구
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅은 영원하다.
+</span>
+</p>
+
+<p>
+	天地所以能長且久者
+	以其不自生
+	故能長生
+<span class="chinese-korean-transliteration">
+	천지소이능장차구자
+	이기불자생
+	고능장생
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅이 영원한 까닭은
+	<br>
+	자기 스스로를 위해 살지 않기 때문이라.
+	<br>
+	그러기에 능히 장생하는 것이다.
+</span>
+</p>
+
+<p>
+	是以聖人後其身而身先
+	外其身而身存
+<span class="chinese-korean-transliteration">
+	시이성인후기신이신선
+	외기신이신존
+</span>
+<span class="chinese-korean-translation">
+	성인도 마찬가지
+	<br>
+	자기를 앞세우지 않기에 앞서게 되고
+	<br>
+	자기를 버리기에 자기를 보존한다.
+</span>
+</p>
+
+<p>
+	非以其無私邪
+	故能成其私
+<span class="chinese-korean-transliteration">
+	비이기무사사
+	고능성기사
+</span>
+<span class="chinese-korean-translation">
+	사사로운 나라 하지 않기에
+	<br>
+	진정으로 나를 완성하는 것 아니겠는가?
+</span>
+</p>
 </div>
 
+<img width="60%" src="/assets/images/lao-tzu/flowers-on-stones-on-pond.png">
+
+<h2 id="8">
+	제8장
+	-
+	약수若水
+</h2>
+
+<blockquote>
+	물은 현실과 다투지 않는다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	上善若水
+<span class="chinese-korean-transliteration">
+	상선약수
+</span>
+<span class="chinese-korean-translation">
+	가장 훌륭한 것은 물처럼 되는 것이다.
+</span>
+</p>
+
+<p>
+	水善利萬物而不爭
+	處衆人之所惡
+<span class="chinese-korean-transliteration">
+	수선리만물이불쟁
+	처중인지소악
+</span>
+<span class="chinese-korean-translation">
+	물은 만물을 이롭게만 할 뿐
+	<br>
+	만물과 다투는 일이 없고
+	<br>
+	모두가 싫어하는 낮은 곳을 향하여 흐를 뿐이다.
+</span>
+</p>
+
+<p>
+	故幾於道
+<span class="chinese-korean-transliteration">
+	고기어도
+</span>
+<span class="chinese-korean-translation">
+	그러기에 물은 도에 가장 가까운 것이다.
+</span>
+</p>
+
+<p>
+	居善地
+	心善淵
+	與善仁
+	言善信
+	正善治
+	事善能
+	動善時
+	夫唯不爭
+	故無尤
+<span class="chinese-korean-transliteration">
+	거선지
+	심선연
+	여선인
+	언선신
+	정선치
+	사선능
+	동선시
+	부유불쟁
+	고무우
+</span>
+<span class="chinese-korean-translation">
+	낮은 데를 찾아가 사는 지혜
+	<br>
+	깊은 연못을 닮은 마음
+	<br>
+	사람됨을 갖춘 사귐
+	<br>
+	믿음직한 말
+	<br>
+	정의로운 다스림
+	<br>
+	힘을 다한 섬김
+	<br>
+	때를 가린 움직임
+	<br>
+	겨루는 일이 없으니
+	<br>
+	허물이 없다.
+</span>
+</p>
+
+<p>
+<span class="chinese-korean-transliteration">
+</span>
+<span class="chinese-korean-translation">
+</span>
+</p>
+
+<p>
+<span class="chinese-korean-transliteration">
+</span>
+<span class="chinese-korean-translation">
+</span>
+</p>
+
+<p>
+<span class="chinese-korean-transliteration">
+</span>
+<span class="chinese-korean-translation">
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/cottage-reflecting-on-pond.png">
+
+<h2 id="9">
+	제9장
+	-
+	지영持盈
+</h2>
+
+<blockquote>
+	그대가 가진것을 얼마나 오래 가질 수 있는가?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	持而盈之
+	不如其已
+	揣而銳之
+	不可長保
+<span class="chinese-korean-transliteration">
+	지이영지
+	불여기이
+	췌이예지
+	불가장보
+</span>
+<span class="chinese-korean-translation">
+	넘치도록 가득 채우는 것은
+	<br>
+	적당할 때 멈추는 것보다는 못하고
+	<br>
+	너무 날카롭게 벼리고 갈면
+	<br>
+	오래 보존하지 못한다.
+</span>
+</p>
+
+<p>
+	金玉滿堂
+	莫之能守
+	富貴而驕
+	自遺其咎
+<span class="chinese-korean-transliteration">
+	금옥만당
+	막지능수
+	부귀이교
+	자유기구
+</span>
+<span class="chinese-korean-translation">
+	금과 옥이 집에 가득하면
+	<br>
+	이를 지킬 수가 없고
+	<br>
+	재산과 명예로 교만해짐은
+	<br>
+	그 허물을 자기에게 보내는 짓이다.
+</span>
+</p>
+
+<p>
+	功遂身退
+	天之道
+<span class="chinese-korean-transliteration">
+	공수신퇴
+	천지도
+</span>
+<span class="chinese-korean-translation">
+	일이 이루어졌으면 물러나는 것이 하늘의 도다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/fruits.png">
+
+<h2 id="10">
+	제10장
+	-
+	현덕玄德
+</h2>
+
+<blockquote>
+	"알지 못하는 것"이 진짜다.
+</blockquote>
+
+<div class="translation-container">
+<p>
+	載營魄抱一
+	能無離乎
+<span class="chinese-korean-transliteration">
+	재영백포일
+	능무리호
+</span>
+<span class="chinese-korean-translation">
+	혼백을 하나로 감싸안아
+	<br>
+	떨어져 나가지 않도록 할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	專氣致柔
+	能嬰兒乎
+<span class="chinese-korean-transliteration">
+	전기치유
+	능영아호
+</span>
+<span class="chinese-korean-translation">
+	기에 전심하여 더없이 부드러워져서
+	<br>
+	갓난아이 같은 상태를 유지할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	滌除玄覽
+	能無疵乎
+<span class="chinese-korean-transliteration">
+	척제현람
+	능무자호
+</span>
+<span class="chinese-korean-translation">
+	마음의 거울을 깨끗이 닦아
+	<br>
+	티가 없게 할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	愛民治國
+	能無知乎
+<span class="chinese-korean-transliteration">
+	애민치국
+	능무지호
+</span>
+<span class="chinese-korean-translation">
+	백성을 사랑하고 나라를 다스림에
+	<br>
+	“무위”를 실천할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	天門開闔
+	能無雌乎
+<span class="chinese-korean-transliteration">
+	천문개합
+	능무자호
+</span>
+<span class="chinese-korean-translation">
+	하늘 문을 열고 닫음에
+	<br>
+	여인과 같을 수 있겠는가?
+</span>
+</p>
+
+<p>
+	明白四達
+	能無知乎
+<span class="chinese-korean-transliteration">
+	명백사달
+	능무위호
+</span>
+<span class="chinese-korean-translation">
+	밝은 깨닭음 사방으로 비춰 나가
+	<br>
+	무지의 경지를 이룰 수 있겠는가?
+</span>
+</p>
+
+<p>
+	生之畜之
+	生而不有
+	爲而不恃
+	長而不宰
+<span class="chinese-korean-transliteration">
+	생지축지
+	생이불유
+	위이불시
+	장이불재
+</span>
+<span class="chinese-korean-translation">
+	낳고 기르시오.
+	<br>
+	낳았으되 가지려 하지 마시오.
+	<br>
+	모든 것 이루나 거기 기대려고 하지 마시오.
+	<br>
+	지도자가 되어도 지배하려 하지 마시오.
+</span>
+</p>
+
+<p>
+	是謂玄德
+<span class="chinese-korean-transliteration">
+	시위현덕
+</span>
+<span class="chinese-korean-translation">
+	이를 일컬어 그윽한 덕이라 합니다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/mirror-of-mind-05.png">
+
+<h2 id="11">
+	제11장
+	-
+	허중虛中
+</h2>
+
+<blockquote>
+	비어있어야 쓸 수 있다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	三十輻共一轂
+	當其無
+	有車之用
+<span class="chinese-korean-transliteration">
+	삼십폭공일곡
+	당기무
+	유차지용
+</span>
+<span class="chinese-korean-translation">
+	서른 개 바퀴살이 한 군데로 모여 바퀴통을 만드는데
+	<br>
+	그 가운데 아무것도 없음 때문에
+	<br>
+	수레의 쓸모가 생겨납니다.
+</span>
+</p>
+
+<p>
+	埏埴以爲器
+	當其無
+	有器之用
+<span class="chinese-korean-transliteration">
+	연식이위기
+	당기무
+	유기지용
+</span>
+<span class="chinese-korean-translation">
+	흙을 빚어 그릇을 만드는데
+	<br>
+	그 가운데 아무것도 없음 때문에
+	<br>
+	그릇의 쓸모가 생겨납니다.
+</span>
+</p>
+
+<p>
+	鑿戶牖以爲室
+	當其無
+	有室之用
+<span class="chinese-korean-transliteration">
+	착호유이위실
+	당기무
+	유실지용
+</span>
+<span class="chinese-korean-translation">
+	문과 창을 뚫어 방을 만드는데
+	<br>
+	그 가운데 아무것도 없음 때문에
+	<br>
+	방의 쓸모가 생겨납니다.
+</span>
+</p>
+
+<p>
+	<font class="emph">
+	故有之以爲利
+	無之以爲用
+	</font>
+<span class="chinese-korean-transliteration">
+	<font class="emph">
+	고유지이위리
+	무지이위용
+	</font>
+</span>
+<span class="chinese-korean-translation">
+	<font class="emph">
+	그러므로 있음은 이로움을 위한 것이지만
+	<br>
+	없음은 쓸모가 생겨나게 하는 것이다.
+	</font>
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/empty-bottle-02.jpeg">
+
+<h2 id="12">
+	제12장
+	-
+	위복爲腹
+</h2>
+
+<blockquote>
+	밖을 보지 말고 안을 살피라
+</blockquote>
+
+<div class="translation-container">
+<p>
+	五色令人目盲
+	五音令人耳聾
+	五味令人口爽
+<span class="chinese-korean-transliteration">
+	오색령인목맹
+	오음령인이롱
+	오미령인구상
+</span>
+<span class="chinese-korean-translation">
+	다섯 가지 색깔로 사람의 눈이 멀게 되고
+	<br>
+	다섯 가지 음으로 사람의 귀가 멀게 되고
+	<br>
+	다섯 가지 맛으로 사람의 입맛이 고약해진다.
+</span>
+</p>
+
+<p>
+	馳騁畋獵令人心發狂
+	難得之貨令人行妨
+<span class="chinese-korean-transliteration">
+	치빙전렵령인심발광
+	난득지화령인행방
+</span>
+<span class="chinese-korean-translation">
+	말달리기 사냥하기로 사람의 마음이 광분하고
+	<br>
+	얻기 어려운 재물로 사람의 행동이 그르게 된다.
+</span>
+</p>
+
+<p>
+	是以聖人爲腹
+	不爲目
+	故去彼取此
+<span class="chinese-korean-transliteration">
+	시이성인위복
+	불위목
+	고거피취차
+</span>
+<span class="chinese-korean-translation">
+	성인은 배를 위하고
+	<br>
+	눈을 위하지 않는다.
+	<br>
+	그러므로 후자는 뒤로하고 전자를 취한다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/five-colors-01.jpeg">
+
+<h2 id="13">
+	제13장
+	-
+	총욕寵辱
+</h2>
+
+<blockquote>
+	나의 몸이 없다면 무슨 병이 있겠는가?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	寵辱若驚
+	貴大患若身
+<span class="chinese-korean-transliteration">
+	총욕약경
+	귀대환약신
+</span>
+<span class="chinese-korean-translation">
+	총애를 받음과 굴욕을 당함은 모두 놀랄 일이나
+	<br>
+	고난도 내 몸처럼 귀하게 여기시오.
+</span>
+</p>
+
+<p>
+	何謂寵辱若驚
+	寵爲下
+	得之若驚
+	失之若驚
+	是謂寵辱若驚
+<span class="chinese-korean-transliteration">
+	하위총욕약경
+	총위하
+	득지약경
+	실지약경
+	시위총욕약경
+</span>
+<span class="chinese-korean-translation">
+	무엇을 일러서 총애를 받음과 굴욕을 당함이 모두 놀랄 일이라 하는가?
+	<br>
+	총애를 받음은 하등의 일이라 총애를 얻어도 놀랄일이요
+	<br>
+	총애를 잃어도 그저 놀랄 일이라.
+	<br>
+	이것을 일러 총애를 입음과 굴욕을 당함이 모두 단순히 놀랠일이라고 하는 것이다.
+</span>
+</p>
+
+<p>
+	何謂貴大患若身
+	吾所以有大患者
+	爲吾有身
+	及吾無身
+	吾有何患
+<span class="chinese-korean-transliteration">
+	하위귀대환약신
+	오소이유대환자
+	위오유신
+	급오무신
+	오유하환
+</span>
+<span class="chinese-korean-translation">
+	고난을 내 몸처럼 귀하게 여긴다 함은 무엇을 두고 하는 말인가?
+	<br>
+	고난을 당하는 까닭은 몸이 있기 때문이니
+	<br>
+	내 몸이 없어진다면 무슨 고난이 있겠는가?
+</span>
+</p>
+
+<p>
+	故貴以身爲天下
+	若可寄天下
+	愛以身爲天下
+	若可託天下
+<span class="chinese-korean-transliteration">
+	고귀이신위천하
+	약가기천하
+	애이신위천하
+	약가탁천하
+</span>
+<span class="chinese-korean-translation">
+	내 몸을 귀하게 여기는 것처럽 세상을 귀히 여기는 사람은
+	<br>
+	가히 세상을 맡을 수 있고
+	<br>
+	내 몸을 사람하듯이 세상을 사랑하는 사람은
+	<br>
+	가히 세상을 떠맡을 수 있을 것이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/love-world-and-people-01.png">
+
+<h2 id="14">
+	제14장
+	-
+	도기道紀
+</h2>
+
+<blockquote>
+	보아도 보이지 않고
+	<br>
+	들어도 들리지 않으면
+	<br>
+	잡으려해도 잡히지 않는 것
+	<br>
+	<br>
+	결국 아무 것도 없는 것이라
+</blockquote>
+
+<div class="translation-container">
+<p>
+	視之不見
+	名曰夷
+	聽之不聞
+	名曰希
+	搏之不得
+	名曰微
+<span class="chinese-korean-transliteration">
+	시지불견
+	명왈이
+	청지불문
+	명왈희
+	박지불득
+	명왈미
+</span>
+<span class="chinese-korean-translation">
+	보아도 보이지 않는 것을
+	<br>
+	이름하여 "이"라 하여 보자.
+	<br>
+	들어도 들리지 않는 것을
+	<br>
+	이름하여 "희"라 하여 보자.
+	<br>
+	잡아도 잡히지 않는 것을
+	<br>
+	이름하여 "미"라 하여 보자.
+</span>
+</p>
+
+<p>
+	此三者
+	不可致詰
+	故混而爲一
+	其上不曒
+	其下不昧
+<span class="chinese-korean-transliteration">
+	차삼자
+	불가치힐
+	고혼이위일
+	기상불교
+	기하불매
+</span>
+<span class="chinese-korean-translation">
+	이 세 가지로도 밝혀 낼 수 없는 것
+	<br>
+	그래서 세 가지가 하나로 혼연 일체를 이룬 상태
+	<br>
+	그 위라서 더 밝은 것도 아니고
+	<br>
+	그 아래라서 더 어두운 것도 아니다.
+</span>
+</p>
+
+<p>
+	繩繩不可名
+<span class="chinese-korean-transliteration">
+	승승불가명
+</span>
+<span class="chinese-korean-translation">
+	끝없이 이어지니 무어라 이름 붙일 수도 없다.
+</span>
+</p>
+
+<p>
+	復歸於無物
+	是謂無狀之狀
+	無物之象
+<span class="chinese-korean-transliteration">
+	복귀어무물
+	시위무상지상
+	무물지상
+</span>
+<span class="chinese-korean-translation">
+	결국 "없음"의 세계로 돌아간다.
+	<br>
+	이를 일러 "모양 없는 모양"이고
+	<br>
+	"아무것도 없음의 형상"이라 한다.
+</span>
+</p>
+
+<p>
+	是謂惚恍
+	迎之不見其首
+	隨之不見其後
+<span class="chinese-korean-transliteration">
+	시위홀황
+	영지불견기수
+	수지불견기후
+</span>
+<span class="chinese-korean-translation">
+	이것을 "황홀"이라 하겠다.
+	<br>
+	앞에서 맞이해도 그 머리를 볼 수 없고
+	<br>
+	뒤에서 좇아도 그 뒤를 볼 수 없다.
+</span>
+</p>
+
+<p>
+	執古之道
+	以御今之有
+	能知古始
+<span class="chinese-korean-transliteration">
+	집고지도
+	이어금지유
+	능지고시
+</span>
+<span class="chinese-korean-translation">
+	태고의 도를 가지고
+	<br>
+	오늘의 일을 처리하라.
+	<br>
+	태고의 시원을 알 수 있을 것이다.
+</span>
+</p>
+
+<p>
+	是謂道紀
+<span class="chinese-korean-transliteration">
+	시위도기
+</span>
+<span class="chinese-korean-translation">
+	이를 일컬어 "도의 실마리"라 한다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/beautiful-mountain-road.png">
+
+<h2 id="15">
+	제15장
+	-
+	불영不盈
+</h2>
+
+<blockquote>
+	현자는 흙탕물이 맑아질 때까지 기다릴 줄 안다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	古之善爲道者
+	微妙玄通
+	深不可識
+<span class="chinese-korean-transliteration">
+	고지선위도자
+	미묘현통
+	심불가식
+</span>
+<span class="chinese-korean-translation">
+	도를 체득한 훌륭한 옛사람은
+	<br>
+	미묘현통하여 그 깊이를 알 수 없다.
+</span>
+</p>
+
+<p>
+	夫唯不可識
+	故强爲之容
+<span class="chinese-korean-transliteration">
+	부유불가식
+	고강위지용
+</span>
+<span class="chinese-korean-translation">
+	그 깊이를 알 수 없으니
+	<br>
+	드러난 모습을 가지고 억지로 형용을 하라 한다면
+</span>
+</p>
+
+<p>
+	豫焉若冬涉川
+	猶兮若畏四隣
+	儼兮其若客
+	渙兮若氷之將釋
+	敦兮其若樸
+	曠兮其若谷
+	混兮其若濁
+<span class="chinese-korean-transliteration">
+	예언약동섭천
+	유혜약외사린
+	엄혜기약객
+	환혜약빙지장석
+	돈혜기약박
+	광혜기약곡
+	혼혜기약탁
+</span>
+<span class="chinese-korean-translation">
+	겨울에 강을 건너듯 머뭇거리고
+	<br>
+	사방의 이웃을 대하듯 주춤거리고
+	<br>
+	손님처러 어려워하고
+	<br>
+	녹으려는 얼음처럼 맺힘이 없고
+	<br>
+	다듬지 않은 통나무처럼 소박하고
+	<br>
+	계곡처럼 트이고
+	<br>
+	흙탕물처럼 탁하다.
+</span>
+</p>
+
+<p>
+	孰能濁以靜之徐淸
+<span class="chinese-korean-transliteration">
+	숙능탁이정지서청
+</span>
+<span class="chinese-korean-translation">
+	누가 탁한 것을 고요히 하여 점점 맑아지게 할 수 있을까?
+</span>
+</p>
+
+<p>
+	孰能安以久動之徐生
+<span class="chinese-korean-transliteration">
+	숙능안이구동지서생
+</span>
+<span class="chinese-korean-translation">
+	누가 능히 가만히 있던 것을 움직여 점점 생동하게 할 수 있을까?
+</span>
+</p>
+
+<p>
+	保此道者
+	不欲盈
+<span class="chinese-korean-transliteration">
+	보차도자
+	불욕영
+</span>
+<span class="chinese-korean-translation">
+	도를 체득한 사람은
+	채워지기를 원하지 않는다.
+</span>
+</p>
+
+<p>
+	<font class="emph">
+	夫唯不盈
+	故能蔽而新成
+	</font>
+<span class="chinese-korean-transliteration">
+	<font class="emph">
+	부유불영
+	고능폐이신성
+	</font>
+</span>
+<span class="chinese-korean-translation">
+	<font class="emph">
+	채워지기를 원하지 않기 때문에
+	능히 옛것을 덮고 새것을 이룰 수 있다.
+	</font>
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/ship-filled-with-books.png">
+
+<h2 id="16">
+	제16장
+	-
+	복명復命
+</h2>
+
+<blockquote>
+	영원히 비고 고요할 수 있겠는가?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	致虛極
+	守靜篤
+<span class="chinese-korean-transliteration">
+	치허극
+	수정독
+</span>
+<span class="chinese-korean-translation">
+	완전한 비움에 이르게 하고
+	<br>
+	참된 고요함을 지키라.
+</span>
+</p>
+
+<p>
+	萬物竝作
+	吾以觀復
+<span class="chinese-korean-transliteration">
+	만물병작
+	오이관복
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 어울려 생겨날 때
+	<br>
+	나는 그들의 되돌아감을 눈여겨 본다.
+</span>
+</p>
+
+<p>
+	夫物芸芸
+	各復歸其根
+<span class="chinese-korean-transliteration">
+	부물운운
+	각복귀기근
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 무성하게 뻗어 가나
+	<br>
+	결국 모두 그 뿌리로 돌아가게 되도다.
+</span>
+</p>
+
+<p>
+	歸根曰靜
+	是謂復命
+<span class="chinese-korean-transliteration">
+	귀근왈정
+	시위복명
+</span>
+<span class="chinese-korean-translation">
+	그 뿌리로 돌아감은 고요함을 찾음이다.
+	<br>
+	이를 일러 제 목숨을 찾아감이라 한다.
+</span>
+</p>
+
+<p>
+	復命曰常
+	知常曰明
+<span class="chinese-korean-transliteration">
+	복명왈상
+	지상왈명
+</span>
+<span class="chinese-korean-translation">
+	제 목숨을 찾아감이 영원한 것이며,
+	<br>
+	영원한 것을 아는 것이 밝아짐이다.
+</span>
+</p>
+
+<p>
+	不知常
+	妄作凶
+<span class="chinese-korean-transliteration">
+	불지상
+	망작흉
+</span>
+<span class="chinese-korean-translation">
+	영원한 것을 알지 못하면
+	<br>
+	미망으로 흉한 꼴을 만든다.
+</span>
+</p>
+
+<p>
+	知常容
+	容乃公
+	公乃王
+	王乃天
+<span class="chinese-korean-transliteration">
+	지상용
+	용내공
+	공내왕
+	왕내천
+</span>
+<span class="chinese-korean-translation">
+	영원한 것을 알면 모든 것을 포용하게 되고
+	<br>
+	모든 것을 포용하면 공평해지며
+	<br>
+	공평해지면 왕같이 되고
+	<br>
+	왕같이 되면 하늘같이 된다.
+</span>
+</p>
+
+<p>
+	天乃道
+	道乃久
+	沒身不殆
+<span class="chinese-korean-transliteration">
+	천내도
+	도내구
+	몰신불태
+</span>
+<span class="chinese-korean-translation">
+	하늘같이 되면 도같이 되고
+	<br>
+	도같이 되면 영원히 사는 것이니
+	<br>
+	몸이 다하더라도 위험하지 않을 것이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/live-forever-with-tao.png">
+
+<h2 id="17">
+	제17장
+	-
+	지유知有
+</h2>
+
+<blockquote>
+	놀랍구나 모든 것이 저절로 이루어졌도다!
+</blockquote>
+
+<div class="translation-container">
+<p>
+	太上不知有之
+	其次親而譽之
+	其次畏之
+<span class="chinese-korean-transliteration">
+	태상부지유지
+	기차친이예지
+	기차외지
+</span>
+<span class="chinese-korean-translation">
+	가장 훌륭한 지도자는 사람들이 있는지를 모르게 하는 지도자이고
+	<br>
+	그 다음은 사람들이 가까이하고 칭찬하는 지도자이며
+	<br>
+	그 다음은 사람들이 두려워하는 지도자로다.
+</span>
+</p>
+
+<p>
+	其次侮之
+	信不足焉
+	有不信焉
+<span class="chinese-korean-transliteration">
+	기차모지
+	신불족언
+	유불신언
+</span>
+<span class="chinese-korean-translation">
+	가장 좋지 못한 것은 사람들의 업신여김을 받는 지도자라
+	<br>
+	지도자에게 신의가 모자라면
+	사람들의 불신이 따르게 된다.
+</span>
+</p>
+
+<p>
+	悠兮其貴言
+<span class="chinese-korean-transliteration">
+	유혜기귀언
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 지도자는 말을 삼가고 아낀다.
+</span>
+</p>
+
+<p>
+	功成事遂
+	百姓皆謂我自然
+<span class="chinese-korean-transliteration">
+	공성사수
+	백성개위아자연
+</span>
+<span class="chinese-korean-translation">
+	지도자가 할 일을 다하여 모든 일 잘 이루어지면
+	<br>
+	백성들은 "이 모두가 우리에게 저절로 된 것이다"고 한다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/cute-girl-playing-guitar.png">
+
+<h2 id="18">
+	제18장
+	-
+	사유四有
+</h2>
+
+<blockquote>
+	선함도 경건함도 도가 잊혀질 때 나타나는 것
+</blockquote>
+
+<div class="translation-container">
+<p>
+	<font class="emph">
+	大道廢
+	有仁義
+	慧智出
+	有大僞
+	</font>
+<span class="chinese-korean-transliteration">
+	<font class="emph">
+	대도폐
+	유인의
+	혜지출
+	유대위
+	</font>
+</span>
+<span class="chinese-korean-translation">
+	<font class="emph">
+	대도가 폐하면
+	<br>
+	인이니 의니 하는 것이 나서고
+	<br>
+	지략이니 지모니 하는 것이 설치면
+	<br>
+	엄청난 위선이 만연하게 된다.
+	</font>
+</span>
+</p>
+
+<p>
+	<font class="emph">
+	六親不和
+	有孝慈
+	國家昏亂
+	有忠臣
+	</font>
+<span class="chinese-korean-transliteration">
+	<font class="emph">
+	륙친불화
+	유효자
+	국가혼란
+	유충신
+	</font>
+</span>
+<span class="chinese-korean-translation">
+	<font class="emph">
+	여섯가지 친족이 불화하면
+	<br>
+	효니 자니 하는 것이 나서고
+	<br>
+	나라가 어지러워지면
+	<br>
+	충신이 생겨난다.
+	</font>
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/scary-girl.png">
 
 <!--
-7. 無私(무사)
-
-
-
-'나'라는 생각이 진정으로 진실할까?
-
-그 생각이 없어도 나는 숨을 쉰다.
-
-
-天長地久(천장지구) : 하늘과 땅은 영원하니
-天地所以能長且久者(천지소이능장차구자) : 하늘과 땅이 영원한 까닭은
-以其不自生(이기불자생) : 자기 스스로를 위해 살지 않기 때문이라,
-故能長生(고능장생) : 그러기에 능히 장생하는 것이다.
-是以聖人後其身而身先(시이성인후기신이신선) : 성인도 마찬가지 자기를 앞세우지 않기에 앞서게 되고
-外其身而身存(외기신이신존) : 자기를 버리기에 자기를 보존한다.
-非以其無私邪(비이기무사사) : 사사로운 나라 하지 않기에
-故能成其私(고능성기사) : 진정으로 나를 완성하는 것 아니겠는가?
-
-
-
-8. 若水(약수)
-
-
-
-물은 현실과 다투지 않는다.
-
-
-上善若水(상선약수) : 가장 훌륭한 것은 물처럼 되는 것이다.
-水善利萬物而不爭(수선리만물이불쟁) : 물은 만물을 이롭게만 할 뿐, 만물과 다투는 일이  없고,
-處衆人之所惡(처중인지소악) : 모두가 싫어하는 낮은 곳을 향하여 흐를 뿐이다.
-故幾於道(고기어도) : 그러기에 물은 도에 가장 가까운 것이다.
-居善地(거선지) : 낮은 데를 찾아가 사는 지혜
-心善淵(심선연) : 깊은 연못을 닮은 마음
-與善仁(여선인) : 사람됨을 갖춘 사귐
-言善信(언선신) : 믿음직한 말
-正善治(정선치) : 정의로운 다스림
-事善能(사선능) : 힘을 다한 섬김
-動善時(동선시) : 때를 가린 움직임
-夫唯不爭(부유불쟁) : 겨루는 일이 없으니
-故無尤(고무우) : 허물이 없다.
-
-
-
-9.  持盈(지영)
-
-
-
-그대가 가진것을 얼마나 오래 가질 수 있는가?
-
-
-持而盈之(지이영지) : 넘치도록 가득 채우는 것은
-不如其已(불여기이) : 적당할 때 멈추는 것보다는 못하고,
-揣而銳之(췌이예지) : 너무 날카롭게 벼리고 갈면
-不可長保(불가장보) : 오래 보존하지 못한다.
-金玉滿堂(금옥만당) : 금과 옥이 집에 가득하면
-莫之能守(막지능수) : 이를 지킬 수가 없고,
-富貴而驕(부귀이교) : 재산과 명예로 교만해짐은
-自遺其咎(자유기구) : 그 허물을 자기에게 보내는 짓이다.
-功遂身退(공수신퇴) : 일이 이루어졌으면 물러나는 것이
-天之道(천지도) : 하늘의 도다.
-
-
-
-10. 玄德(현덕)
-
-
-
-'알지 못하는 것'이 진짜다.
-
-
-載營魄抱一(재영백포일) : 혼백을 하나로 감싸안아
-能無離乎(능무리호) : 떨어져 나가지 않도록 할 수 있겠는가?
-專氣致柔(전기치유) : 기에 전심하여 더없이 부드러워져서
-能嬰兒乎(능영아호) : 갓난아이 같은 상태를 유지할 수 있겠는가?
-滌除玄覽(척제현람) : 마음의 거울을 깨끗이 닦아
-能無疵乎(능무자호) : 티가 없게 할 수 있겠는가?
-愛民治國(애민치국) : 백성을 사랑하고 나라를 다스림에
-能無知乎(능무지호) : “무위”를 실천할 수 있겠는가?
-天門開闔(천문개합) : 하늘 문을 열고 닫음에
-能無雌乎(능무자호) : 여인과 같을 수 있겠는가?
-明白四達(명백사달) : 밝은 깨닭음 사방으로 비춰 나가
-能無知乎(능무위호) : 무지의 경지를 이룰 수 있겠는가?
-生之畜之(생지축지) : 낳고 기르시오
-生而不有(생이불유) : 낳았으되 가지려 하지 마시오.
-爲而不恃(위이불시) : 모든 것 이루나 거기 기대려고 하지 마시오.
-長而不宰(장이불재) : 지도자가 되어도 지배하려 하지 마시오.
-是謂玄德(시위현덕) : 이를 일컬어 그윽한 덕이라 합니다.
-
-
-
-11. 虛中(허중)
-
-
-
-비어있어야 쓸 수 있다.
-
-
-三十輻共一轂(삼십폭공일곡) : 서른 개 바퀴살이 한 군데로 모여 바퀴통을 만드는데
-當其無(당기무) : 그 가운데 아무것도 없음 때문에
-有車之用(유차지용) : 수레의 쓸모가 생겨납니다.
-埏埴以爲器(연식이위기) : 흙을 빚어 그릇을 만드는데
-當其無(당기무) : 그 가운데 아무것도 없음 때문에
-有器之用(유기지용) : 그릇의 쓸모가 생겨납니다.
-鑿戶牖以爲室(착호유이위실) : 문과 창을 뚫어 방을 만드는데
-當其無(당기무) : 그 가운데 아무것도 없음 때문에
-有室之用(유실지용) : 방의 쓸모가 생겨납니다.
-故有之以爲利(고유지이위리) : 그러므로 있음은 이로움을 위한 것이지만,
-無之以爲用(무지이위용) : 없음은 쓸모가 생겨나게 하는 것이다.
-
-
-
-12. 爲腹(위복)
-
-
-
-밖을 보지 말고 안을 살피라.
-
-
-五色令人目盲(오색령인목맹) : 다섯 가지 색깔로 사람의 눈이 멀게 되고
-五音令人耳聾(오음령인이롱) : 다섯 가지 음으로 사람의 귀가 멀게 되고
-五味令人口爽(오미령인구상) : 다섯 가지 맛으로 사람의 입맛이 고약해진다.
-馳騁畋獵令人心發狂(치빙전렵령인심발광) : 말달리기 사냥하기로 사람의 마음이 광분하고
-難得之貨令人行妨(난득지화령인행방) : 얻기 어려운 재물로 사람의 행동이 그르게 된다.
-是以聖人爲腹(시이성인위복) : 성인은 배를 위하고
-不爲目(불위목) : 눈을 위하지 않는다.
-故去彼取此(고거피취차) : 그러므로 후자는 뒤로하고 전자를 취한다.
-
-
-
-13. 寵辱(총욕)
-
-
-
-나의 몸이 없다면 무슨 병이 있겠는가?
-
-
-寵辱若驚(총욕약경) : 총애를 받음과 굴욕을 당함은 모두 놀랄 일이요,
-貴大患若身(귀대환약신) : 고난도 내 몸처럼 귀하게 여기시오.
-何謂寵辱若驚(하위총욕약경) : 무엇을 일러서 총애를 받음과 굴욕을 당함이 모두 놀랄 일이라 하는가?
-寵爲下(총위하) : 총애를 받음은 하등의 일이라,
-得之若驚(득지약경) : 총애를 얻어도 놀랄일이요,
-失之若驚(실지약경) : 총애를 잃어도 그저 놀랄 일이라.
-是謂寵辱若驚(시위총욕약경) : 이것을 일러 총애를 입음과 굴욕을 당함이 모두 단순히 놀랠일이라고 하는 것이다.
-何謂貴大患若身(하위귀대환약신) : 고난을 내 몸처럼 귀하게 여긴다 함은 무엇을 두고 하는 말인가
-吾所以有大患者(오소이유대환자) : 고난을 당하는 까닭은
-爲吾有身(위오유신) :내 몸이 있기 때문이니,
-及吾無身(급오무신) : 내 몸이 없어진다면
-吾有何患(오유하환) : 무슨 고난이 있겠는가?
-故貴以身爲天下(고귀이신위천하) : 내 몸을 귀하게 여기는 것처럽 세상을 귀히 여기는 사람은
-若可寄天下(약가기천하) : 가히 세상을 맡을 수 있고,
-愛以身爲天下(애이신위천하) : 내 몸을 사람하듯이 세상을 사랑하는 사람은
-若可託天下(약가탁천하) : 가히 세상을 떠맡을 수 있을 것이다.
-
-
-
-14. 道紀(도기)
-
-
-
-보아도 보이지 않고,
-
-들어도 들리지 않으면,
-
-잡으려해도 잡히지 않는 것...
-
-
-
-결국 아무 것도 없는 것이라.
-
-
-視之不見(시지불견) : 보아도 보이지 않는 것을
-名曰夷(명왈이) : 이름하여 <이>라 하여 보자 ,
-聽之不聞(청지불문) : 들어도 들리지 않는 것을
-名曰希(명왈희) : 이름하여 <희>라 하여 보자,
-搏之不得(박지불득) : 잡아도 잡히지 않는 것을
-名曰微(명왈미) : 이름하여 <미>라 하여 보자,
-此三者(차삼자) : 이 세 가지로도
-不可致詰(불가치힐) : 밝혀 낼 수 없는 것
-故混而爲一(고혼이위일) : 그래서 세 가지가 하나로 혼연 일체를 이룬 상태
-其上不曒(기상불교) : 그 위라서 더 밝은 것도 아니고
-其下不昧(기하불매) : 그 아래라서 더 어두운 것도 아니다.
-繩繩不可名(승승불가명) : 끝없이 이어지니 무어라 이름 붙일 수도 없다.
-復歸於無物(복귀어무물) : 결국, <없음>의 세계로 돌아간다.
-是謂無狀之狀(시위무상지상) : 이를 일러 <모양 없는 모양>이고
-無物之象(무물지상) : <아무것도 없음의 형상>이라 한다.
-是謂惚恍(시위홀황) : 이것을 <황홀>이라 하겠다.
-迎之不見其首(영지불견기수) : 앞에서 맞이해도 그 머리를 볼 수 없고
-隨之不見其後(수지불견기후) : 뒤에서 좇아도 그 뒤를 볼 수 없다.
-執古之道(집고지도) : 태고의 도를 가지고
-以御今之有(이어금지유) : 오늘의 일을 처리하라.
-能知古始(능지고시) : 태고의 시원을 알 수 있을 것이다.
-是謂道紀(시위도기) : 이를 일컬어 <도의 실마리>라 한다.
-
-
-
-15. 不盈(불영)
-
-
-
-현자는 흙탕물이 맑아질 때까지 기다릴 줄 안다.
-
-
-古之善爲道者(고지선위도자) : 도를 체득한 훌륭한 옛사람은
-微妙玄通(미묘현통) : 미묘현통하여
-深不可識(심불가식) : 그 깊이를 알 수 없다.
-夫唯不可識(부유불가식) : 그 깊이를 알 수 없으니
-故强爲之容(고강위지용) : 드러난 모습을 가지고 억지로 형용을 하라 한다면
-豫焉若冬涉川(예언약동섭천) : 겨울에 강을 건너듯 머뭇거리고
-猶兮若畏四隣(유혜약외사린) : 사방의 이웃을 대하듯 주춤거리고
-儼兮其若客(엄혜기약객) : 손님처러 어려워하고
-渙兮若氷之將釋(환혜약빙지장석) : 녹으려는 얼음처럼 맺힘이 없고
-敦兮其若樸(돈혜기약박) : 다듬지 않은 통나무처럼 소박하고
-曠兮其若谷(광혜기약곡) : 계곡처럼 트이고
-混兮其若濁(혼혜기약탁) : 흙탕물처럼 탁하다.
-孰能濁以靜之徐淸(숙능탁이정지서청) : 누가 탁한 것을 고요히 하여 점점 맑아지게 할 수 있을까?
-孰能安以久動之徐生(숙능안이구동지서생) : 누가 능히 가만히 있던 것을 움직여 점점 생동하게 할 수 있을까?
-保此道者(보차도자) : 도를 체득한 사람은
-不欲盈(불욕영) : 채워지기를 원하지 않는다.
-夫唯不盈(부유불영) : 채워지기를 원하지 않기 때문에
-故能蔽而新成(고능폐이신성) : 능히 옛것을 덮고 새것을 이룰 수 있다.
-
-
-
-16. 復命(복명)
-
-
-
-영원히 비고 고요할 수 있겠는가?
-
-
-致虛極(치허극) : 완전한 비움에 이르게 하고
-守靜篤(수정독) : 참된 고요함을 지키라.
-萬物竝作(만물병작) : 온갖 것 어울려 생겨날 때
-吾以觀復(오이관복) : 나는 그들의 되돌아감을 눈여겨 본다.
-夫物芸芸(부물운운) : 온갖 것 무성하게 뻗어 가나
-各復歸其根(각복귀기근) : 결국 모두 그 뿌리로 돌아가게 되도다.
-歸根曰靜(귀근왈정) : 그 뿌리로 돌아감은 고요함을 찾음이다.
-是謂復命(시위복명) : 이를 일러 제 목숨을 찾아감이라 한다.
-復命曰常(복명왈상) : 제 목숨을 찾아감이 영원한 것이며,
-知常曰明(지상왈명) : 영원한 것을 아는 것이 밝아짐이다.
-不知常(불지상) : 영원한 것을 알지 못하면
-妄作凶(망작흉) : 미망으로 흉한 꼴을 만든다.
-知常容(지상용) : 영원한 것을 알면 모든 것을 포용하게 되고,
-容乃公(용내공) : 모든 것을 포용하면 공평해지며,
-公乃王(공내왕) : 공평해지면 왕같이 되고,
-王乃天(왕내천) : 왕같이 되면 하늘같이 된다.
-天乃道(천내도) : 하늘같이 되면 도같이 되고,
-道乃久(도내구) : 도같이 되면 영원히 사는 것이니,
-沒身不殆(몰신불태) : 몸이 다하더라도 위험하지 않을 것이다.
-
-
-
-17. 知有(지유)
-
-
-
-놀랍구나 모든 것이 저절로 이루어졌도다!
-
-
-太上不知有之(태상부지유지) : 가장 훌륭한 지도자는 사람들이 있는지를 모르게 하는 지도자이고,
-其次親而譽之(기차친이예지) : 그 다음은 사람들이 가까이하고 칭찬하는 지도자이며,
-其次畏之(기차외지) : 그 다음은 사람들이 두려워하는 지도자로다.
-其次侮之(기차모지) : 가장 좋지 못한 것은 사람들의 업신여김을 받는 지도자라,
-信不足焉(신불족언) : 지도자에게 신의가 모자라면
-有不信焉(유불신언) : 사람들의 불신이 따르게 된다.
-悠兮其貴言(유혜기귀언) : 훌륭한 지도자는 말을 삼가고 아낀다.
-功成事遂(공성사수) : 지도자가 할 일을 다하여 모든 일 잘 이루어지면
-百姓皆謂我自然(백성개위아자연) : 백성들은 <이 모두가 우리에게 저절로 된 것이다>고 한다.
-
-
-
-18. 四有(사유)
-
-
-
-선함도 경건함도 도가 잊혀질 때 나타나는 것.
-
-
-大道廢(대도폐) : 대도가 폐하면
-有仁義(유인의) : 인이니 의니 하는 것이 나서고,
-慧智出(혜지출) : 지략이니 지모니 하는 것이 설치면
-有大僞(유대위) : 엄청난 위선이 만연하게 된다.
-六親不和(륙친불화) : 여섯가지 친족이 불화하면,
-有孝慈(유효자) : 효니 자니 하는 것이 나서고,
-國家昏亂(국가혼란) : 나라가 어지러워지면
-有忠臣(유충신) : 충신이 생겨난다.
-
-
-
 19. 樸素(박소)
 
 
@@ -1703,7 +2594,7 @@ Main text
 取天下(취천하) : 천하를 얻으려면
 常以無事(상이무사) : 억지로 일을 꾸미지 않을 때만 가능하나니,
 及其有事(급기유사) : 억지 일을 꾸미면
-不足以取天下(불족이취천하) : 천하를  얻기엔 부족하다.
+不足以取天下(불족이취천하) : 천하를 얻기엔 부족하다.
 
 
 
@@ -1877,7 +2768,7 @@ Main text
 以家觀家(이가관가) : 자신의 가정으로 다른가정을 보고
 以鄕觀鄕(이향관향) : 자신의 마을로 다른마을을 보고
 以國觀國(이국관국) : 자신의 나라로 다른나라를 보고
-以天下觀天下(이천하관천하) :  이 세상으로 다른세상을 보라.
+以天下觀天下(이천하관천하) : 이 세상으로 다른세상을 보라.
 吾何以知天下然哉(오하이지천하연재) : 내가 천하가 이러함을 어떻게 알 수 있겠는가?
 以此(이차) : 이를 통해서이다.
 
