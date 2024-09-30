@@ -160,10 +160,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <div class="text-highlight">
 <p>
 	<a href="#courage-and-vigor"><font class="emph">
-		願諸求道之人 莫生怯弱 須發勇猛之心
+		諸求道之人 莫生怯弱 須發勇猛之心
 	</font></a>
 	<br>
-	원제구도지인 막생겁약 수발용맹지심
+	제구도지인 막생겁약 수발용맹지심
 </p>
 	도를 구하는 사람은 겁내거나 약한 마음을 내지 말고
 	부디 용맹스런 마음을 내어야 한다.
@@ -193,6 +193,39 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
+	<a href="#you-are-the-buddha"><font class="emph">
+		卽汝是
+	</font></a>
+	<br>
+	즉여시
+</p>
+	그대가 바로 부처이니라!
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#who-asks"><font class="emph">
+		汝今問我者 是汝空寂靈知之心
+	</font></a>
+	<br>
+	여금문아자 시여공적영지지심
+</p>
+	그대가 지금 나에게 묻는 그것이 바로 그대의 공적하고 신령스럽게 아는 마음이다.
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#see-eyes-with-eyes"><font class="emph">
+		比如有人 不見自眼 以謂無眼 更欲求見
+	</font></a>
+	<br>
+	비여유인 불견자안 이위무안 갱욕구견
+</p>
+	그것은 마치 어떤 사람이 자신의 눈을 보지 못하고 눈이 없다고 하면서 다시 보려고 하는 것과 같다.
+</div>
+
+<div class="text-highlight">
+<p>
 	<a href="#only-if-know-cannot-know"><font class="emph">
 		但知不會 是卽見性
 	</font></a>
@@ -215,6 +248,17 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
+	<a href="#dharma-not-belong-to-know-and-not-know"><font class="emph">
+		道不屬知不知
+	</font></a>
+	<br>
+	도불속지부지
+</p>
+	도는 알고 모르는데 속하는 것이 아니다.
+</div>
+
+<div class="text-highlight">
+<p>
 	<a href="#no-mind-for-good-or-evil"><font class="emph">
 		於善於惡 不斷不受
 	</font></a>
@@ -222,6 +266,30 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	어선어악 부단불수
 </p>
 	악을 끊거나 선을 닦는다는 생각도 없다.
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#stillness-and-presence"><font class="emph">
+		云六根攝境 心不隨緣 謂之定 心境俱空 照鑑無惑 謂之慧
+	</font></a>
+	<br>
+	운육근섭경 심불수령 위지정 심경구공 조감무혹 위지혜
+</p>
+	육근이 경계를 대해도 마음이 반연을 따르지 않는 것을 선정禪定이라 하고
+	<br>
+	마음과 경계가 함께 공해서 미혹됨이 없음을 비추어 아는 것을 지혜라 한다.
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#feed-ox"><font class="emph">
+		天下善知識 悟後牧牛行是也
+	</font></a>
+	<br>
+	천하선지식 오후목우행시야
+</p>
+	천하의 선지식이 깨달은 뒤에 소먹이는 행이 바로 이 때문이다.
 </div>
 
 <div class="text-highlight">
@@ -237,28 +305,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#see-eyes-with-eyes"><font class="emph">
-		比如有人 不見自眼 以謂無眼 更欲求見
-	</font></a>
-	<br>
-	비여유인 불견자안 이위무안 갱욕구견
-</p>
-	그것은 마치 어떤 사람이 자신의 눈을 보지 못하고 눈이 없다고 하면서 다시 보려고 하는 것과 같다.
-</div>
-
-<div class="text-highlight">
-<p>
-	<a href="#who-asks"><font class="emph">
-		汝今問我者 是汝空寂靈知之心
-	</font></a>
-	<br>
-	여금문아자 시여공적영지지심
-</p>
-	그대가 지금 나에게 묻는 그것이 바로 그대의 공적하고 신령스럽게 아는 마음이다.
-</div>
-
-<div class="text-highlight">
-<p>
 	<a href="#already-know-where-treasure-is"><font class="emph">
 		知其寶所 反不求之 長怨孤貧
 	</font></a>
@@ -270,13 +316,26 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#feed-ox"><font class="emph">
-		天下善知識 悟後牧牛行是也
+	<a href="#burning-fire-on-head"><font class="emph">
+		如救頭然 不忘照顧
 	</font></a>
 	<br>
-	천하선지식 오후목우행시야
+	여구두연 불망조고
 </p>
-	천하의 선지식이 깨달은 뒤에 소먹이는 행이 바로 이 때문이다.
+	머리에 타는 불을 끄듯이 살피고 돌아보는 것을 잊지 말라.
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#blind-turtle-and-mustard-seed-needle"><font class="emph">
+		實謂盲龜遇木 纖芥投鍼 其爲慶幸 曷勝道哉
+	</font></a>
+	<br>
+	실위맹구우목 섬개투침 기위경행 갈승도재
+</p>
+	실로 눈먼 거북이 나무를 만나고 작은 겨자씨가 바늘에 꽂힘과 같으니
+	<br>
+	그 다행함을 어찌 말로 다 하겠는가?
 </div>
 
 
@@ -510,7 +569,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	단지 허망한 인연을 떠나기만 하면 곧 항상 그대로인 부처인 것이다.
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/buddhism/searching-books.png">
+
+<div class="translation-container">
 <p>
 	問若佛性 現在此身 旣在身中 不離凡夫 因何我今 不見佛性 更爲消釋 悉令開悟
 <span class="chinese-korean-transliteration">
@@ -656,6 +719,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img width="60%" src="/assets/images/buddhism/searching-inside-01.png">
+
 <h2 id="buddha-exists-in-functioning">
 	불성은 작용하는 가운데 있습니다
 </h2>
@@ -722,6 +787,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	왕이 물었다.
+	<br>
 	"그 불성은 어디에 있습니까."
 </span>
 </p>
@@ -783,6 +849,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	존자가 말했다.
 	<br>
 	"만약 왕께서 작용하고 있다면 불성 아닌 것이 없지만
+	<br>
 	왕께서 만약 그것이 작용하지 않는다면 몸도 또한 보기 어렵습니다."
 </span>
 </p>
@@ -832,13 +899,20 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	존자가 말했다.
 	<br>
 	"태胎 안에 있으면 몸이라 하고
+	<br>
 	세상에 나오면 사람이라 하며
+	<br>
 	눈에 있으면 보는 놈이라 하고
+	<br>
 	귀에 있으면 듣는 놈이라 하고
+	<br>
 	코에 있으면 냄새를 맡고
+	<br>
 	혀에 있을 땐 말을 하고
+	<br>
 	손에 있으면 붙잡으며
-	발에 있으면 부지런히 걷습니다&hellip;
+	<br>
+	발에 있으면 부지런히 걷습니다.
 </span>
 </p>
 
@@ -848,8 +922,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	현구해사계 수섭재일미진
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 두루 나타나면 온 세계를 다 감싸지만 거두어들이면 하나의 티끌 속에 있습니다
-	&hellip;
+	두루 나타나면 온 세계를 다 감싸지만
+	<br>
+	거두어들이면 하나의 티끌 속에 있습니다.
 </span>
 </p>
 
@@ -859,7 +934,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	식자지시불성 불식자환작정혼
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 아는 자는 이것이 곧 불성인줄을 알지만 모르는 자들은 정혼情魂이라 부릅니다."
+	아는 자는 이것이 곧 불성인줄을 알지만
+	<br>
+	모르는 자들은 정혼情魂이라 부릅니다."
 </span>
 </p>
 
@@ -910,18 +987,19 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 
 <p>
-	師云 卽汝是
+	師云 <font class="emph" id="you-are-the-buddha">卽汝是</font>
 <span class="chinese-korean-transliteration">
-	사운 즉여시
+	사운 <font class="emph">즉여시</font>
 </span>
 <span class="chinese-korean-translation">
 	화상이 말했다.
 	<br>
-	"그대가 바로 부처이니라."
+	<font class="emph">"그대가 바로 부처이니라."</font>
 </span>
 </p>
-
 </div>
+
+<img width="60%" src="/assets/images/buddhism/you-are-buddha.png">
 
 <h2 id="how-to-preserve-awareness">
 	어떻게 보림保任해야 합니까?
@@ -972,7 +1050,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	상래소거고성 입도인연 명백간이 불방성력
 </span>
 <span class="chinese-korean-translation">
-	위에서 말한 옛 성현이 도에 들어간 이야기가 명백하고 간단하여 수고로움을 덜기에 도움이 될 것이다.
+	위에서 말한 옛 성현이 도에 들어간 이야기가 명백하고 간단하여
+	<br>
+	수고로움을 덜기에 도움이 될 것이다.
 </span>
 </p>
 
@@ -982,7 +1062,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	인차공안 약유신해처 즉여고성 파수공행
 </span>
 <span class="chinese-korean-translation">
-	이러한 공안公案<sup><a href="#footnote07" id="ref07">7</a></sup>을 의지해서 믿음과 이해가 있게 되면 바로 옛 성현들과 손을 잡고 함께 갈 것이다.
+	이러한 공안公案<sup><a href="#footnote07" id="ref07">7</a></sup>을 의지해서
+	믿음과 이해가 있게 되면
+	<br>
+	바로 옛 성현들과 손을 잡고 함께 갈 것이다.
 </span>
 </p>
 
@@ -994,8 +1077,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	물었다.
 	<br>
-	"스님은 성품을 보았다고 하시는데 만일 참으로 성품을 보았다면 바로 성인이시라 신통변화를 나타내어 보통 사람과는 다를 것입니다
-	&hellip;
+	스님은 성품을 보았다고 하시는데 만일 참으로 성품을 보았다면
+	<br>
+	바로 성인이시라 신통변화를 나타내어 보통 사람과는 다를 것입니다.
 </span>
 </p>
 
@@ -1005,8 +1089,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	하고금시수심지배 무유일인 발현신통 변화야
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	그런데 어째서 요즈음 마음 닦는 사람들은 한 사람도 신통변화를 나타내는 사람이 없습니까?"
+	그런데 어째서 요즈음 마음 닦는 사람들은
+	<br>
+	한 사람도 신통변화를 나타내는 사람이 없습니까?
 </span>
 </p>
 
@@ -1018,7 +1103,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	대답하다.
 	<br>
-	"그대는 함부로 미친 소리를 하지 말라. 사邪와 정正을 분별하지 못하면 이는 미혹에 빠진 사람이다 &hellip;
+	그대는 함부로 미친 소리를 하지 말라.
+	<br>
+	사邪와 정正을 분별하지 못하면 이는 미혹에 빠진 사람이다.
 </span>
 </p>
 
@@ -1028,10 +1115,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	금시학도지인 구담진리 심생퇴굴 반타무분지실자 개여소의
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	요즘은 도를 배우는 사람들이 입으로는 진리를 말하지만 마음은 포기상태여서
-	도리어 분수에 없다는 잘못(無分之失)<sup><a href="#footnote08" id="ref08">8</a></sup>에 떨어진 자들은 다 그대가 의심하는 것과 같다
-	&hellip;
+	요즘은 도를 배우는 사람들이
+	<br>
+	입으로는 진리를 말하지만 마음은 포기상태여서
+	<br>
+	도리어 분수에 없다는 잘못(無分之失)<sup><a href="#footnote08" id="ref08">8</a></sup>에 떨어진 자들은
+	<br>
+	다 그대가 의심하는 것과 같다.
 </span>
 </p>
 
@@ -1041,8 +1131,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	학도이부지선후 설리이불분본말자 시명사견 불명수학
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	도를 배우되 선후를 알지 못하고 진리를 말하되 본말本末을 분간하지 못하면 이를 일컬어 사견邪見이라 하지 수행이라고 하지 않는다.
+	도를 배우되 선후를 알지 못하고
+	<br>
+	진리를 말하되 본말本末을 분간하지 못하면
+	<br>
+	이를 일컬어 사견邪見이라 하지 수행이라고 하지 않는다.
 </span>
 </p>
 
@@ -1052,8 +1145,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	비유자오 겸역오타 기가불신여
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 이런 이는 자신만 그르칠 뿐만 아니라 겸하여 남도 잘못되게 만드는 것이니 삼가지 않아서 되겠는가?
-	&hellip;
+	이런 이는 자신만 그르칠 뿐만 아니라
+	<br>
+	겸하여 남도 잘못되게 만드는 것이니
+	<br>
+	삼가지 않아서 되겠는가?
 </span>
 </p>
 
@@ -1063,8 +1159,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	부입도다문 이요언지 불출돈오점수양문이
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 대개 도에 들어가는 문은 많지만 요약해서 말하면 돈오頓悟와 점수漸修의 두 가지 문에 지나지 않는다.
-	&hellip;
+	대개 도에 들어가는 문은 많지만 요약해서 말하면
+	<br>
+	돈오頓悟와 점수漸修의 두 가지 문에 지나지 않는다.
 </span>
 </p>
 
@@ -1074,9 +1171,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수왈돈오돈수 시최상근기득입야 약추과거 이시 다생 의오이수 점훈이래
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 비록 돈오와 점수는 최상의 근기根機를 가진 사람만이 들어갈 수 있다고 하지만
+	비록 돈오와 점수는 최상의 근기根機를 가진 사람만이 들어갈 수 있다고 하지만
+	<br>
 	과거를 미루어보면 이미 여러 생애에 걸쳐 깨달음에 의지해 닦고 차츰 익혀왔으므로
-	&hellip;
 </span>
 </p>
 
@@ -1086,8 +1183,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	지어금생 문즉발오 일시돈필
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 금생에 이르러 진리를 들으면 즉시 깨닫게 되어 일시에 모든 것을 끝낸다.
-	&hellip;
+	금생에 이르러 진리를 들으면
+	<br>
+	즉시 깨닫게 되어 일시에 모든 것을 끝낸다.
 </span>
 </p>
 
@@ -1097,10 +1195,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	이실이논 시역선오후수지기야 즉이차
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 하지만 사실 이것 역시 먼저 깨달고 뒤에 닦은 근기이다."
+	하지만 사실 이것 역시 먼저 깨달고 뒤에 닦은 근기이다.
 </span>
 </p>
-
 </div>
 
 <h2 id="gradual-cultivation-relying-on-enlightment">
@@ -1130,7 +1227,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉종상제성 막불선오후수 인수내증
 </span>
 <span class="chinese-korean-translation">
-	과거의 모든 성인도 먼저 깨닫고 뒤에 닦아나갔고 그 닦음에 의해 증득하지 않음이 없었다.
+	과거의 모든 성인도 먼저 깨닫고 뒤에 닦아나갔고
+	<br>
+	그 닦음에 의해 증득하지 않음이 없었다.
 </span>
 </p>
 
@@ -1140,7 +1239,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	소언신통변화 의오이수 점훈소현 비위오시 즉발현야
 </span>
 <span class="chinese-korean-translation">
-	그대가 말한 신통변화는 깨달음에 의지해서 닦고 차츰 익혀야 나타나는 것이지 깨달은 즉시 나타나는 것이 아니다.
+	그대가 말한 신통변화는
+	<br>
+	깨달음에 의지해서 닦고 차츰 익혀야 나타나는 것이지
+	<br>
+	깨달은 즉시 나타나는 것이 아니다.
 </span>
 </p>
 
@@ -1150,7 +1253,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	여경운 이즉돈오 승오병소 사비돈제 인차제진
 </span>
 <span class="chinese-korean-translation">
-	경에 이르기를 "이치로는 돈오頓悟하여 깨달음과 동시에 모든 번뇌가 사라지지만 사실에 있어서는 일시에 사라지는 것이 아니라 차례차례로 없어진다"하였다.
+	경에 이르기를
+	<br>
+	"이치로는 돈오頓悟하여 깨달음과 동시에 모든 번뇌가 사라지지만
+	<br>
+	사실에 있어서는 일시에 사라지는 것이 아니라 차례차례로 없어진다"하였다.
 </span>
 </p>
 
@@ -1170,8 +1277,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	식빙지이전수 차양기이용소 오범부이즉불 자법력이훈수
 </span>
 <span class="chinese-korean-translation">
-	"얼어 있는 연못이 순전히 물인줄 알지마는 햇빛을 받아야 녹고 범부가 곧 부처인줄을 알지마는 법의 힘을 빌려서 익히고 닦아야 한다
-	&hellip;
+	"얼어 있는 연못이 순전히 물인줄 알지마는
+	햇빛을 받아야 녹고
+	<br>
+	범부가 곧 부처인줄을 알지마는 법의 힘을 빌려서 익히고 닦아야 한다.
 </span>
 </p>
 
@@ -1181,7 +1290,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	빙소즉수유윤 방정개척지공 망진즉심영통 응현통광 지용
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 얼음이 녹아 물이 흘러야 바야흐로 그 물에 씻는 보람이 나타나고
+	얼음이 녹아 물이 흘러야 바야흐로 그 물에 씻는 보람이 나타나고
+	<br>
 	망상이 사라지면 마음이 신령하게 통하여 신통과 광명의 작용이 나타난다"고 하였다.
 </span>
 </p>
@@ -1192,7 +1302,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	시지사상신통변화 비일일지능성 내점훈이발현야
 </span>
 <span class="chinese-korean-translation">
-	그러므로 사실상 신통변화는 하루아침에 이루어지는 것이 아니라 차츰 익히고 닦아야 나타나는 것임을 알 수 있다.
+	그러므로 사실상 신통변화는 하루아침에 이루어지는 것이 아니라
+	<br>
+	차츰 익히고 닦아야 나타나는 것임을 알 수 있다.
 </span>
 </p>
 
@@ -1202,7 +1314,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	황사상신통 어달인분상 유위요괴지사
 </span>
 <span class="chinese-korean-translation">
-	더욱이 사실상의 신통이란 깨달은 사람의 경지에서는 오히려 요사하고 괴이한 일이고
+	더욱이 사실상의 신통이란
+	<br>
+	깨달은 사람의 경지에서는 오히려 요사하고 괴이한 일이고
 </span>
 </p>
 
@@ -1212,7 +1326,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	역시성말변사 수혹현지 불가요용
 </span>
 <span class="chinese-korean-translation">
-	또한 성인에게도 말단의 일이라서 혹 그것이 나타나더라도 사용하지 않는다.
+	또한 성인에게도 말단의 일이라서
+	<br>
+	혹 그것이 나타나더라도 사용하지 않는다.
 </span>
 </p>
 
@@ -1223,6 +1339,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그런데 요즘 어리석은 무리들은 망령되이 말하기를
+	<br>
 	"한 생각 깨달으면 즉시 한량없는 묘한 작용과 신통변화를 나타낸다"고 하고 있다.
 </span>
 </p>
@@ -1233,7 +1350,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약작시해 소위부지선후 역불분본말야
 </span>
 <span class="chinese-korean-translation">
-	만약 이런 견해를 가진다면 이른바 선후를 알지 못하고 본말을 분간하지 못한다는 것이요
+	만약 이런 견해를 가진다면
+	<br>
+	이른바 선후를 알지 못하고 본말을 분간하지 못한다는 것이요
 </span>
 </p>
 
@@ -1243,7 +1362,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기불지선후본말 욕구불도 여장방목 두원공야 기비대착
 </span>
 <span class="chinese-korean-translation">
-	이미 선후와 본말을 알지 못하고 불도를 구하려 한다면 마치 모난 나무를 가지고 둥근 구멍에 끼는 것과 같으니 어찌 큰 잘못이 아니겠는가?
+	이미 선후와 본말을 알지 못하고 불도를 구하려 한다면
+	<br>
+	마치 모난 나무를 가지고 둥근 구멍에 끼는 것과 같으니
+	<br>
+	어찌 큰 잘못이 아니겠는가?
 </span>
 </p>
 
@@ -1254,6 +1377,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	이미 방편을 모르기 때문에 절벽을 바라보는 듯 한 생각을 내어
+	<br>
 	스스로 포기하여 부처의 종성種性을 끊는 이가 적지 않다.
 </span>
 </p>
@@ -1264,7 +1388,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기자미명 역미신타인 유해오처 견무신통자 내생경만
 </span>
 <span class="chinese-korean-translation">
-	이미 스스로가 밝지 못함으로써 다른 사람의 깨달음까지도 믿지 않고
+	이미 스스로가 밝지 못함으로써
+	<br>
+	다른 사람의 깨달음까지도 믿지 않고
 	신통이 없는 이를 보고는 곧 업신여긴다.
 </span>
 </p>
@@ -1299,8 +1425,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	물었다.
 	<br>
-	"스님께서는 돈오와 점수의 두 문이 모든 성인이 밟아온 길이라 하였습니다
-	&hellip;
+	스님께서는 돈오와 점수의 두 문이 모든 성인이 밟아온 길이라 하였습니다.
 </span>
 </p>
 
@@ -1310,10 +1435,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	오기돈오 하가점수 수약점수 하언돈오
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	깨달았다면 이미 돈오한 것인데 어째서 점점 닦아야 하며
+	<br>
 	그 닦음이 만약 점점 닦아야 할 것이라면 어째서 돈오라고 말할 수 있습니까?
-	&hellip;
 </span>
 </p>
 
@@ -1323,7 +1447,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	점수이의 갱위선설 영절여의
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 돈오와 점수의 두 가지 뜻을 다시 설명하여 남은 의심을 끊게 해주십시오.”
+	돈오와 점수의 두 가지 뜻을 다시 설명하여 남은 의심을 끊게 해주십시오.
 </span>
 </p>
 </div>
@@ -1335,9 +1459,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	답돈오자 범부미시 사대위신 망상위심 부지자성 시진법신
 </span>
 <span class="chinese-korean-translation">
-	답하다.<br>
-	"돈오라는 것은 범부가 미혹했을 때 사대四大를 몸으로 삼고 망상을 마음이라 하여 자기의 성품이 참 법신法身임을 알지 못하고
-	&hellip;
+	답하다.
+	<br>
+	돈오라는 것은 범부가 미혹했을 때 사대四大를 몸으로 삼고
+	<br>
+	망상을 마음이라 하여 자기의 성품이 참 법신法身임을 알지 못하고
 </span>
 </p>
 
@@ -1347,8 +1473,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	부지자기영지 시진불야 심외멱불 파파낭주
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 자기의 신령한 지혜가 참 부처인줄을 알지 못해서 마음 밖에서 부처를 찾아 물결치듯이 흘러다니다가
-	&hellip;
+	자기의 신령한 지혜가 참 부처인줄을 알지 못해서
+	<br>
+	마음 밖에서 부처를 찾아 물결치듯이 흘러다니다가
 </span>
 </p>
 
@@ -1358,8 +1485,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	홀피선지식 지시입로 일념회광 견자본성
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 갑자기 선지식의 가르침으로 바른 길로 들어가 한 생각에 심광心光을 돌이켜서 자기의 본성을 보면
-	&hellip;
+	갑자기 선지식의 가르침으로 바른 길로 들어가
+	<br>
+	한 생각에 심광心光을 돌이켜서 자기의 본성을 보면
 </span>
 </p>
 
@@ -1369,9 +1497,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	이차성지 원무번뇌 무루지성 본자구족 즉여제불 분호불수 고운돈오야
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	이 성품에는 본래 번뇌가 없고 번뇌가 없는 지혜의 성품이 본래 스스로 갖추어져 있어서
-	모든 부처님과 더불어 털끝만큼도 다르지 않기 때문에 돈오라 하는 것이다."
+	<br>
+	모든 부처님과 더불어 털끝만큼도 다르지 않기 때문에 돈오라 하는 것이다.
 </span>
 </p>
 
@@ -1381,8 +1509,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	점수자 수오본성 여불무수 무시습기 졸난돈제고
 </span>
 <span class="chinese-korean-translation">
-	"점수라는 것은 비록 본래의 성품이 부처와 다르지 않음을 깨달았으나 오랜 세월의 습기習氣는 갑자기 제거하기 어려우므로
-	&hellip;
+	점수라는 것은
+	<br>
+	비록 본래의 성품이 부처와 다르지 않음을 깨달았으나
+	<br>
+	오랜 세월의 습기習氣는 갑자기 제거하기 어려우므로
 </span>
 </p>
 
@@ -1392,8 +1523,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	의오이수 점훈공성 장양성시 구구성성 고운점수야
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 그 깨달음에 의지해 닦고 점점 익혀서 공을 이루고
-	또 오랜 동안 성인의 자질을 잘 길러나가야 성인이 되는 것이므로 점수라 하는 것이다."
+	그 깨달음에 의지해 닦고 점점 익혀서 공을 이루고
+	<br>
+	또 오랜 동안 성인의 자질을 잘 길러나가야 성인이 되는 것이므로
+	<br>
+	점수라 하는 것이다.
 </span>
 </p>
 
@@ -1403,8 +1537,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	비여해자 초생지일 제근구족 여타무이
 </span>
 <span class="chinese-korean-translation">
-	"비유하자면 어린아이가 처음 태어났을 때 모든 기관이 갖추어져 어른과 다르지 않지만
-	&hellip;
+	비유하자면 어린아이가 처음 태어났을 때
+	<br>
+	모든 기관이 갖추어져 어른과 다르지 않지만
 </span>
 </p>
 
@@ -1414,8 +1549,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	연기력미충 파경세월 방시성인
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	그 힘은 충실하지 못하므로 어느 정도 세월이 지나야 비로소 성인成人이 되는 것과 같다.”
+	그 힘은 충실하지 못하므로
+	<br>
+	어느 정도 세월이 지나야 비로소 성인成人이 되는 것과 같다.
 </span>
 </p>
 </div>
@@ -1429,7 +1565,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	물었다.
 	<br>
-	"어떤 방편을 써야 한 생각의 기틀을 돌려 자성自性을 깨달을 수 있겠습니까?"
+	어떤 방편을 써야 한 생각의 기틀을 돌려 자성自性을 깨달을 수 있겠습니까?
 </span>
 </p>
 
@@ -1441,9 +1577,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	대답했다.
 	<br>
-	"오직 그대 자신의 마음인데
+	오직 그대 자신의 마음인데
 	다시 무슨 방편을 쓴다는 말인가?
-	&hellip;
 </span>
 </p>
 
@@ -1453,9 +1588,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약작방편 갱구허회
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	만약 방편을 써서 다시 알려고 한다면
-	&hellip;
 </span>
 </p>
 
@@ -1465,11 +1598,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font class="emph">비여유인 불견자안 이위무안 갱욕구견</font>
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	<font class="emph">
-	그것은 마치 어떤 사람이 자신의 눈을 보지 못하고 눈이 없다고 하면서 다시 보려고 하는 것과 같다.
+	그것은 마치 어떤 사람이 자신의 눈을 보지 못하고
+	<br>
+	눈이 없다고 하면서 다시 보려고 하는 것과 같다.
 	</font>
-	&hellip;
 </span>
 </p>
 
@@ -1479,10 +1612,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font class="emph">기시자안 여하갱견 약지불실 즉위견안</font>
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	<font class="emph">이미 자신의 눈인데 어째서 다시 보려고 하는가?
-	만약 잃지 않았음을 알면 그것이 곧 눈을 보는 것이다.</font>
-	&hellip;
+	<font class="emph">
+	이미 자신의 눈인데 어째서 다시 보려고 하는가?
+	<br>
+	만약 잃지 않았음을 알면 그것이 곧 눈을 보는 것이다.
+	</font>
 </span>
 </p>
 
@@ -1492,8 +1626,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	갱무구견지심 기유불견지상
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 다시 보려는 마음이 없다면 어찌 보지 못한다는 마음이 있겠는가?
-	&hellip;
+	다시 보려는 마음이 없다면 어찌 보지 못한다는 마음이 있겠는가?
 </span>
 </p>
 
@@ -1503,7 +1636,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	자기영지 역부여시 기시자심
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 자신의 신령스런 앎도 역시 그와 같아 이미 자신의 마음인데 어째서 알려고 하는가?"
+	자신의 신령스런 앎도 역시 그와 같아 이미 자신의 마음인데 어째서 알려고 하는가?
 </span>
 </p>
 </div>
@@ -1552,21 +1685,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	물었다.
 	<br>
-	"지혜가 뛰어난 사람은 들은 즉시 쉽게 알겠지만 중하의 사람은 의혹이 없지 않을 것이니 다시 방편을 설하여 모르는 사람들을 깨닫도록 해주십시오."
+	지혜가 뛰어난 사람은 들은 즉시 쉽게 알겠지만
+	<br>
+	중하의 사람은 의혹이 없지 않을 것이니
+	<br>
+	다시 방편을 설하여 모르는 사람들을 깨닫도록 해주십시오.
 </span>
 </p>
 
 <p>
-	答道不屬知不知 汝除却將迷待悟之心
+	答<font class="emph" id="dharma-not-belong-to-know-and-not-know">道不屬知不知</font> 汝除却將迷待悟之心
 <span class="chinese-korean-transliteration">
-	답도불속지부지 여제각장미대오지심
+	답<font class="emph">도불속지부지</font> 여제각장미대오지심
 </span>
 <span class="chinese-korean-translation">
 	답하다.
 	<br>
-	"도는 알고 모르는데 속하는 것이 아니다.
+	<font class="emph">
+	도는 알고 모르는데 속하는 것이 아니다.
+	</font>
+	<br>
 	그대는 어리석게도 깨닫기를 기다리는 마음을 버리고 나의 말을 잘 들어라.
-	&hellip;
 </span>
 </p>
 
@@ -1576,8 +1715,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	청아언설 제법여몽 역여환화
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 모든 법은 꿈과 같고 허수아비와 같다.
-	&hellip;
+	모든 법은 꿈과 같고 허수아비와 같다.
 </span>
 </p>
 
@@ -1587,9 +1725,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	고망념본적 진경본공
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	그러므로 망녕된 생각은 본래 고요하고 진경塵境<sup><a href="#footnote10" id="ref10">10</a></sup>은 본래 공한 것이다.
-	&hellip;
+	그러므로 망녕된 생각은 본래 고요하고
+	<br>
+	진경塵境<sup><a href="#footnote10" id="ref10">10</a></sup>은 본래 공한 것이다.
 </span>
 </p>
 
@@ -1599,9 +1737,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	제법 개공지처 영지불매
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	모든 법이 다 공한 곳에는 신령스런 지혜가 어둡지 않으니
-	&hellip;
 </span>
 </p>
 
@@ -1611,9 +1747,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font>즉차공적영지지심 시여본래면목</font>
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	이 공하고 고요한 신령스런 지혜의 마음이 바로 그대의 본래면목本來面目<sup><a href="#footnote11" id="ref11">11</a></sup>이며
-	&hellip;
 </span>
 </p>
 
@@ -1623,9 +1757,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	역시삼세제불 역대조사 천하선지식 밀밀 상전저법인야
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	삼세의 모든 부처님과 역대의 조사들과 천하의 선지식이 은밀하게 서로 전한 진리法印이다.
-	&hellip;
 </span>
 </p>
 
@@ -1635,10 +1767,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약오차심 진소위불천계제 경등불지 보보초삼계 귀가돈절의
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	만약 이 이런 마음을 깨친다면 참으로 단계를 거치지 않고 바로 부처의 경지에 올라
+	<br>
 	걸음걸음이 삼계를 초월하고 집에 돌아가(歸家<sup><a href="#footnote12" id="ref12">12</a></sup>) 단박에 의심을 끊을 것이다.
-	&hellip;
 </span>
 </p>
 
@@ -1648,11 +1779,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	변여인천위사 비지상자 구족이리 감수인천공양 일소만량황금
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	그래서 인간과 천상의 스승이 되고
+	<br>
 	대비大悲와 지혜가 서로 도와 자기도 이롭고 남도 이롭게 하므로
-	하루에 만량의 황금을 소비하듯이 한량없이 귀한 공양을 인간과 천상으로부터 받게 될 것이다.
-	&hellip;
+	<br>
+	하루에 만량의 황금을 소비하듯이
+	<br>
+	한량없이 귀한 공양을 인간과 천상으로부터 받게 될 것이다.
 </span>
 </p>
 
@@ -1662,8 +1795,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	여약여시 진대장부 일생능사 기필의
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	그대가 만약 이와 같으면 참다운 대장부로서 일생의 할 일을 다 마쳤다 하겠다."
+	그대가 만약 이와 같으면 참다운 대장부로서 일생의 할 일을 다 마쳤다 하겠다.
 </span>
 </p>
 
@@ -1675,7 +1807,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	물었다.
 	<br>
-	"저의 입장에서 본다면 어떤 것이 공적空寂하고 신령스럽게 아는 영지靈知의 마음입니까?"
+	저의 입장에서 본다면 어떤 것이 공적空寂하고 신령스럽게 아는 영지靈知의 마음입니까?
 </span>
 </p>
 
@@ -1687,7 +1819,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	대답했다.
 	<br>
-	<font class="emph">"그대가 지금 나에게 묻는 그것이 바로 그대의 공적하고 신령스럽게 아는 마음이다."</font>
+	<font class="emph">그대가 지금 나에게 묻는 그것이 바로 그대의 공적하고 신령스럽게 아는 마음이다.</font>
 </span>
 </p>
 
@@ -1697,8 +1829,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	하불반조 유위외멱
 </span>
 <span class="chinese-korean-translation">
-	"어째서 돌이켜 비추지 않고 밖에서 찾는가?
-	&hellip;
+	어째서 돌이켜 비추지 않고 밖에서 찾는가?
 </span>
 </p>
 
@@ -1708,9 +1839,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	아금거여분상 직지본심 영여변오 여수정심
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
-	내가 지금 그대의 입장에 의거해서 바로 본래의 마음을 가리켜 그대를 깨닫게 할 것이니
-	그대는 마음을 깨끗이 하고 내 말을 잘 들어라."
+	내가 지금 그대의 입장에 의거해서
+	<br>
+	바로 본래의 마음을 가리켜 그대를 깨닫게 할 것이니
+	<br>
+	그대는 마음을 깨끗이 하고 내 말을 잘 들어라.
 </span>
 </p>
 </div>
@@ -1730,7 +1863,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	청아언설 종조지모 십이시중 혹견혹문 혹소혹어 혹진혹희
 </span>
 <span class="chinese-korean-translation">
-	아침부터 저녁까지 하루 종일 보고, 듣고, 웃고, 말하며
+	아침부터 저녁까지 하루 종일 보고 듣고 웃고 말하며
 	혹은 성내거나 기뻐하거나
 </span>
 </p>
@@ -1741,7 +1874,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	혹시혹비 종종시위운전 차도필 경시수 능이마운전시위야
 </span>
 <span class="chinese-korean-translation">
-	또는 옳다, 그르다 하는 갖가지의 행위와 동작은 필경 누가 그렇게 하게 하는가를 말해보라.
+	또는 옳다 그르다 하는 갖가지의 행위와 동작은 필경 누가 그렇게 하게 하는가를 말해보라.
 </span>
 </p>
 
@@ -1762,7 +1895,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉안부자견 이불능문 비불변향 설부담론 신부동요 수불집착 족불운분야
 </span>
 <span class="chinese-korean-translation">
-	눈은 보지 못하고, 귀는 듣지 못하고, 코는 냄새를 맡지 못하고, 혀는 말을 하지 못하고, 몸은 움직이지 못하고, 손은 잡지 못하고, 발은 걷지 못하는가?
+	눈은 보지 못하고 귀는 듣지 못하고 코는 냄새를 맡지 못하고 혀는 말을 하지 못하고
+	<br>
+	몸은 움직이지 못하고 손은 잡지 못하고 발은 걷지 못하는가?
 </span>
 </p>
 
@@ -1772,7 +1907,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	시지능견문박작 필시여본심 불시여색신야
 </span>
 <span class="chinese-korean-translation">
-	이러므로 보고, 듣고, 동작하는 것은 반드시 그대의 본심이지 그대의 육신이 아님을 알 수 있다.
+	이러므로 보고 듣고 동작하는 것은 반드시 그대의 본심이지 그대의 육신이 아님을 알 수 있다.
 </span>
 </p>
 
@@ -1794,7 +1929,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기능요요상지 명명불매 감이수통항사묘용야
 </span>
 <span class="chinese-korean-translation">
-	어떻게 항상 뚜렷이 알고 분명하고 어둡지 않아 갠지스강의 모래 수같이 한량없는 묘한 작용을 일으킬 수 있겠느냐?
+	어떻게 항상 뚜렷이 알고 분명하고 어둡지 않아
+	<br>
+	갠지스강의 모래 수같이 한량없는 묘한 작용을 일으킬 수 있겠느냐?
 </span>
 </p>
 
@@ -1840,7 +1977,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	왈여반문여문성 환유허다성마
 </span>
 <span class="chinese-korean-translation">
-	그대는 돌이켜서 그대가 듣고 있다는 성품을 들어 보아라. 거기에도 많은 소리가 있는가?
+	그대는 돌이켜서 그대가 듣고 있다는 성품을 들어 보아라.
+	<br>
+	거기에도 많은 소리가 있는가?
 </span>
 </p>
 
@@ -1861,6 +2000,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	기특하고 기특하구나.
+	<br>
 	이것이 바로 관음보살이 진리에 들어간 문이다.
 </span>
 </p>
@@ -1874,6 +2014,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	내가 다시 그대에게 묻는다.
+	<br>
 	그대는 거기에 일체의 소리와 일체의 분별도 얻을 수 없다고 하였다.
 	<br>
 	이미 아무 것도 얻을 수 없다면 그러한 때는 허공과 같은 것이 아니겠는가?
@@ -1938,7 +2079,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	고운재성지이불휘 은범심이불매
 </span>
 <span class="chinese-korean-translation">
-	그러므로 "성인의 지혜라고 해서 빛나는 것도 아니고 범부의 마음에 숨어 있다고 해서 어둡지 않다"고 하였다.
+	그러므로
+	<br>
+	"성인의 지혜라고 해서 빛나는 것도 아니고 범부의 마음에 숨어 있다고 해서 어둡지 않다"고 하였다.
 </span>
 </p>
 
@@ -1948,8 +2091,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기부증어성 불소어범 불조해이이어인
 </span>
 <span class="chinese-korean-translation">
-	이미 성인이라 해서 불어나는 것도 아니오
+	이미 성인이라 해서 불어나는 것도 아니고
+	<br>
 	범부라 해서 줄어드는 것이 아니라면
+	<br>
 	부처나 조사들이 어찌 보통 사람과 다르겠는가?
 </span>
 </p>
@@ -1970,7 +2115,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	여약신득급 의정돈식 출장부지지 발진정견해 친상기미 자도자긍지지
 </span>
 <span class="chinese-korean-translation">
-	그대가 만약 이 말을 믿어서 의심이 담박 없어지고 대장부의 뜻을 내어 참되고 바른 견해를 일으켜서 직접 그 맛을 보고 스스로 긍정하는 경지에 이른다면
+	그대가 만약 이 말을 믿어서 의심이 담박 없어지고
+	<br>
+	대장부의 뜻을 내어 참되고 바른 견해를 일으켜서
+	<br>
+	직접 그 맛을 보고 스스로 긍정하는 경지에 이른다면
 </span>
 </p>
 
@@ -2000,7 +2149,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	여운어신인중 계제불과덕 분호불수 방성신야
 </span>
 <span class="chinese-korean-translation">
-	이것은 "믿음의 요인이 모든 부처의 과덕果德<sup><a href="#footnote15" id="ref15">15</a></sup>과
+	이것은
+	<br>
+	"믿음의 요인이 모든 부처의 과덕果德<sup><a href="#footnote15" id="ref15">15</a></sup>과
 	일치하여 조금의 차이도 없어야 비로소 믿음을 성취할 수 있다"고 한 말과 같다.
 </span>
 </p>
@@ -2011,7 +2162,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	문기오차리 갱무계급 하가후수 점훈점성야
 </span>
 <span class="chinese-korean-translation">
-	묻는다. - 이미 이런 이치를 깨달아서 다시는 계급이 없다면 어째서 깨친 뒤에도 닦아서 점차로 익히고 점차로 이루려고 합니까?
+	묻는다.
+	<br>
+	이미 이런 이치를 깨달아서 다시는 계급이 없다면
+	<br>
+	어째서 깨친 뒤에도 닦아서 점차로 익히고 점차로 이루려고 합니까?
 </span>
 </p>
 
@@ -2022,7 +2177,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	답한다.
-	-
+	<br>
 	깨달은 뒤에 점차로 닦아야 하는 뜻은 앞에서 이미 말했다.
 </span>
 </p>
@@ -2034,6 +2189,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 의심을 풀지 못했으니 거듭 설명하겠다.
+	<br>
 	그대는 마음을 깨끗이 하고 자세히 들으라.
 </span>
 </p>
@@ -2044,7 +2200,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	범부 무시광대겁래 지어금일 유전오도 생래사거
 </span>
 <span class="chinese-korean-translation">
-	범부는 시작이 없는 아득한 옛날부터 지금까지 다섯 갈래의 세계(五道)에 흘러다니며 태어나고 죽고 하되
+	범부는 시작이 없는 아득한 옛날부터 지금까지
+	<br>
+	다섯 갈래의 세계(五道)에 흘러다니며 태어나고 죽고 하되
 </span>
 </p>
 
@@ -2075,8 +2233,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	이차구습 졸난제단 고 봉역순경 진희시비 치연기감
 </span>
 <span class="chinese-korean-translation">
-	오랫동안 익혀온 습성은 갑자기 없애기가 어렵기 때문에 역경이나 순경을 만나면
-	성내거나 기뻐하며, 옳다, 그르다 하는 생각이 불처럼 일어났다 없어졌다 하여
+	오랫동안 익혀온 습성은 갑자기 없애기가 어렵기 때문에
+	<br>
+	역경이나 순경을 만나면
+	<br>
+	성내거나 기뻐하며 옳다 그르다 하는 생각이 불처럼 일어났다 없어졌다 하여
 </span>
 </p>
 
@@ -2096,7 +2257,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약불이반야 가공착력 언능대치무명
 </span>
 <span class="chinese-korean-translation">
-	그러므로 만약 지혜로써 공들이고 노력하지 않는다면
+	그러므로
+	<br>
+	만약 지혜로써 공들이고 노력하지 않는다면
+	<br>
 	어떻게 이 무명을 다스려 크게 쉬는 경지에 이를 수 있겠는가?
 </span>
 </p>
@@ -2119,8 +2283,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	득도대휴대헐지지 여운돈오수동불 다생습기심
 </span>
 <span class="chinese-korean-translation">
-	이것은 "단박 깨치면 부처와 같지만 여러 생의 습기가 깊구나
-	&hellip;
+	이것은
+	"단박 깨치면 부처와 같지만 여러 생의 습기가 깊구나.
 </span>
 </p>
 
@@ -2130,7 +2294,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	풍정파상용 이현념유침
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 바람은 그쳤으나 물결은 아직 출렁이고
+	바람은 그쳤으나 물결은 아직 출렁이고
 	이치는 나타났으나 망념은 엄습한다"고 하는 말과 같다.
 </span>
 </p>
@@ -2142,8 +2306,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	또 대혜종고 선사도
-	"가끔 영리한 무리들은 별로 힘들이지 않고 이런 이치를 알고는 아주 쉽다는 생각을 내어 다시는 닦지 않는다
-	&hellip;
+	<br>
+	"가끔 영리한 무리들은 별로 힘들이지 않고 이런 이치를 알고는
+	<br>
+	아주 쉽다는 생각을 내어 다시는 닦지 않는다.
 </span>
 </p>
 
@@ -2153,7 +2319,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	일구월심 의전유랑 미면윤회
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 그대로 세월이 가면 그전처럼 유랑하게 되어 윤회를 면치 못하게 된다"고 하였다.
+	그대로 세월이 가면 그전처럼 유랑하게 되어 윤회를 면치 못하게 된다"고 하였다.
 </span>
 </p>
 
@@ -2205,7 +2371,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </span>
 <span class="chinese-korean-translation">
-	비록 뒤에 닦는다고는 하지만 이미 망념이 본래 공하고 심성은 본래 청정한 것임을 먼저 깨쳤기 때문에
+	비록 뒤에 닦는다고는 하지만
+	<br>
+	이미 망념이 본래 공하고 심성은 본래 청정한 것임을 먼저 깨쳤기 때문에
 </span>
 </p>
 
@@ -2216,6 +2384,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	악을 끊되 끊어도 끊음이 없고 선을 닦되 닦아도 닦음이 없어야
+	<br>
 	이것이 참다운 닦음이고 참다운 끊음이 되는 것이다.
 </span>
 </p>
@@ -2247,9 +2416,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	"이 성품은 원래 번뇌가 없고
+	<br>
 	완전한 지혜와 성품이 본래 갖추어져 부처와 다름이 없음을 담박 깨닫고
+	<br>
 	이 깨침에 의해 수행하면
-	&hellip;
 </span>
 </p>
 
@@ -2259,8 +2429,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	시명최상승선 역명여래청정선야
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 이것을 일러 최상승선最上乘禪 또는 여래청정선如來淸淨禪이라 한다.
-	&hellip;
+	이것을 일러 최상승선最上乘禪 또는 여래청정선如來淸淨禪이라 한다.
 </span>
 </p>
 
@@ -2270,9 +2439,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약능염염수습 자연점득백천삼매
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	만약 생각 생각에 닦고 익히면 저절로 차츰 차츰 백천삼매를 얻을 것이니
-	&hellip;
 </span>
 </p>
 
@@ -2282,7 +2449,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	달마문하 전전상전자 시차선야
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	달마 문하에서 서로 전하여 내려온 것이 바로 이런 선禪이다"고 하였다.
 </span>
 </p>
@@ -2293,7 +2459,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉돈오점수지의 여거이륜 궐일불가
 </span>
 <span class="chinese-korean-translation">
-	그러므로 돈오頓悟와 점수漸修의 이치는 마치 수레의 두 바퀴와 같아서 하나라도 없으면 안 된다.
+	그러므로 돈오頓悟와 점수漸修의 이치는
+	<br>
+	마치 수레의 두 바퀴와 같아서 하나라도 없으면 안 된다.
 </span>
 </p>
 
@@ -2303,7 +2471,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	혹자 부지선악성공 견좌부동
 </span>
 <span class="chinese-korean-translation">
-	혹 어떤 사람은 선과 악의 성품이 빈 것임을 알지 못하고 굳게 앉아 움직이지 않으면서
+	혹 어떤 사람은 선과 악의 성품이 빈 것임을 알지 못하고
+	<br>
+	굳게 앉아 움직이지 않으면서
 </span>
 </p>
 
@@ -2313,7 +2483,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	날복신심 여걱압초 이위수심 시대혹의
 </span>
 <span class="chinese-korean-translation">
-	몸과 마음을 조복받기를 마치 돌로 풀을 누르듯 하면서 마음을 닦는다고 하는데
+	몸과 마음을 조복받기를
+	<br>
+	마치 돌로 풀을 누르듯 하면서 마음을 닦는다고 하는데
+	<br>
 	이는 크게 잘못된 것이다.
 </span>
 </p>
@@ -2324,10 +2497,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	고운성문 심심단혹 능단 지심시적
 </span>
 <span class="chinese-korean-translation">
-	그러므로 "성문은 마음마다 미혹을 끊으려 하지만 그 끊으려는 마음이 바로 도적이다"고 하였다.
+	그러므로
+	<br>
+	"성문은 마음마다 미혹을 끊으려 하지만 그 끊으려는 마음이 바로 도적이다"고 하였다.
 </span>
 </p>
-
 </div>
 
 <h2 id="immediate-awareness">
@@ -2348,8 +2522,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	다만 살생하고 도적질하고 음행하고 거짓말하는 것이
-	성품으로부터 일어난 것임을
-	자세히 관조한다면 일어남이 곧 일어남이 없는 것이다.
+	<br>
+	성품으로부터 일어난 것임을 자세히 관조한다면
+	<br>
+	일어남이 곧 일어남이 없는 것이다.
 </span>
 </p>
 
@@ -2369,7 +2545,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	소이운 불파염기 유공각지
 </span>
 <span class="chinese-korean-translation">
-	그러므로 "생각이 일어남을 두려워말고 다만 깨달음이 늦을까를 두려워하라"고 하였고
+	그러므로
+	<br>
+	"생각이 일어남을 두려워말고 다만 깨달음이 늦을까를 두려워하라"고 하였고
 </span>
 </p>
 
@@ -2379,7 +2557,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	우운염기즉각 각지즉무
 </span>
 <span class="chinese-korean-translation">
-	또 "생각이 일어나거 던 곧 깨달아라. 깨달으면 곧 없어진다"고 하였다.
+	또
+	<br>
+	"생각이 일어나거 던 곧 깨달아라. 깨달으면 곧 없어진다"고 하였다.
 </span>
 </p>
 
@@ -2389,7 +2569,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	고오인분상 수유객진번뇌 구성제호
 </span>
 <span class="chinese-korean-translation">
-	그러므로 깨친 사람의 입장에서는 비록 일시적인 번뇌가 있다 해도그것은 다 제호醍醐<sup><a href="#footnote18" id="ref18">18</a></sup>를 이룬다.
+	그러므로 깨친 사람의 입장에서는
+	<br>
+	비록 일시적인 번뇌가 있다 해도그것은 다 제호醍醐<sup><a href="#footnote18" id="ref18">18</a></sup>를 이룬다.
 </span>
 </p>
 
@@ -2400,8 +2582,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	다만 미혹이란 근본이 없는 것임을 관조하여 알면
+	<br>
 	허공의 꽃<sup><a href="#footnote06" id="ref06-02">6</a></sup>처럼 실체가 없는 삼계三界는
 	바람에 사라지는 연기와 같고
+	<br>
 	허수아비와 같은 객관 세계는 마치 끓는 물에 녹는 얼음과 같을 것이다.
 </span>
 </p>
@@ -2413,7 +2597,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만일 이처럼 생각 생각에 닦고 익히며
+	<br>
 	마음을 관조하기를 잊지 않고
+	<br>
 	선정과 지혜를 평등하게 가지면
 </span>
 </p>
@@ -2425,6 +2611,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	곧 사랑하고 미워하는 마음이 자연히 없어지고
+	<br>
 	자비와 지혜가 자연히 밝게 드러날 것이다.
 </span>
 </p>
@@ -2436,7 +2623,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	죄업이 자연히 없어지고
+	<br>
 	공덕이 절로 늘어나서
+	<br>
 	번뇌가 다할 때에는 생사도 끊어질 것이다.
 </span>
 </p>
@@ -2447,8 +2636,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약미세유주영단 원각대지낭연독존 즉현천백억화신 어십방국중 부감응기
 </span>
 <span class="chinese-korean-translation">
-	만약 미세한 번뇌의 흐름도 영원히 끊어져서 원만히 깨달은 지혜가 홀로 밝게 드러나면
-	곧 천 백억 화신을 나타내되 시방세계 중생들의 근기에 감응하게 되니
+	만약 미세한 번뇌의 흐름도 영원히 끊어져서
+	<br>
+	원만히 깨달은 지혜가 홀로 밝게 드러나면
+	<br>
+	곧 천 백억 화신을 나타내되
+	<br>
+	시방세계 중생들의 근기에 감응하게 되니
 </span>
 </p>
 
@@ -2469,7 +2663,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	이처럼 응용應用이 무궁하여 인연 있는 중생을 제도하고
+	<br>
 	즐거움만 있고 근심이 없으리니
+	<br>
 	이를 일러 크게 깨친 세존世尊이라 한다.
 </span>
 </p>
@@ -2481,8 +2677,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	물었다.
-	-
-	깨친 뒤에 닦아나가는 문중에서는 선정과 지혜를 동등히 가진다는 뜻은 아직 잘 모르겠습니다.
+	<br>
+	깨친 뒤에 닦아나가는 문중에서는
+	<br>
+	선정과 지혜를 동등히 가진다는 뜻은 아직 잘 모르겠습니다.
 </span>
 </p>
 
@@ -2503,8 +2701,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	답하다.
-	-
+	<br>
 	만약 법과 그 뜻을 말한다면
+	<br>
 	진리에 들어가는 천 가지 문은 선정과 지혜 아님이 없다.
 </span>
 </p>
@@ -2516,7 +2715,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그 요강을 든다면
+	<br>
 	단지 자기 성품의 본체와 작용의 두 가지 뜻이니
+	<br>
 	앞에서 말한 비고 고요함과 신령스럽게 아는 것이 그것이다.
 </span>
 </p>
@@ -2530,7 +2731,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font class="emph">선정은 곧 본체요 지혜는 작용이다.</font>
 </span>
 </p>
-
 </div>
 
 <h2 id="neither-evil-nor-good">
@@ -2550,8 +2750,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉체지용고 혜불리정 즉용지체고 정불리혜
 </span>
 <span class="chinese-korean-translation">
-	그래서 본체를 떠나지 않는 작용이므로 지혜는 선정을 떠나지 않았고
-	작용을 떠나지 않은 본체이므로 선정은 지혜를 떠나지 않았다.
+	그래서 본체를 떠나지 않는 작용이므로
+	<br>
+	지혜는 선정을 떠나지 않았고
+	<br>
+	작용을 떠나지 않은 본체이므로
+	<br>
+	선정은 지혜를 떠나지 않았다.
 </span>
 </p>
 
@@ -2562,6 +2767,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	따라서 선정은 곧 지혜이므로 고요하면서도 항상 아는 것이고
+	<br>
 	지혜는 곧 선정이므로 알면서도 항상 고요한 것이다.
 </span>
 </p>
@@ -2573,7 +2779,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그래서 조계스님이
+	<br>
 	"마음에 산란함이 없는 것이 자기 성품의 선정이요
+	<br>
 	마음이 어리석지 않음이 자기 성품의 지혜이다"라고 하신 말과 같다.
 </span>
 </p>
@@ -2585,7 +2793,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 이처럼 깨달아서 고요함과 아는 것에 자유로워서
+	<br>
 	선정(遮)과 지혜(照)가 둘이 아니게 된다면
+	<br>
 	이것이 곧 돈문에 들어간 뛰어난 사람이 선정과 지혜를 아울러 닦는 것이 된다.
 </span>
 </p>
@@ -2597,6 +2807,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 만일 고요함으로써 반연하는 생각들을 다스리고
+	<br>
 	그 다음에 깨어있는 정신으로 혼미함을 다스려야 한다고 하면서
 </span>
 </p>
@@ -2607,7 +2818,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	선후대치 균조혼란 이입어정자 시위점문열기소행야
 </span>
 <span class="chinese-korean-translation">
-	선후를 따라 다스려 혼미함과 산란함을 가라앉혀 고요함에 들어가는 사람은
+	선후를 따라 다스려
+	<br>
+	혼미함과 산란함을 가라앉혀 고요함에 들어가는 사람은
+	<br>
 	점문의 열등한 근기의 수행이다.
 </span>
 </p>
@@ -2618,8 +2832,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수운성적등지 미면취정위행즉 기위요사인 불리본적본지 임운쌍수자야
 </span>
 <span class="chinese-korean-translation">
-	그는 비록 깨어있음과 고요함을 평등하게 한다고 하지만 고요함만을 취하는 수행을 면하지 못하니
-	어찌 깨달은 사람이 본래의 고요함과 본래의 앎을 떠나지 않고 자유롭게 두 가지를 함께 닦는 것이라 하겠는가?
+	그는 비록 깨어있음과 고요함을 평등하게 한다고 하지만
+	<br>
+	고요함만을 취하는 수행을 면하지 못하니
+	<br>
+	어찌 깨달은 사람이 본래의 고요함과 본래의 앎을 떠나지 않고
+	<br>
+	자유롭게 두 가지를 함께 닦는 것이라 하겠는가?
 </span>
 </p>
 
@@ -2630,8 +2849,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로 조계스님은
+	<br>
 	"스스로가 깨쳐서 수행하는 것은 따지는 데 있지 않다.
-	만약 선후를 따지면 그는 미혹된 사람이다’라고 하셨다.
+	<br>
+	만약 선후를 따지면 그는 미혹된 사람이다"라고 하셨다.
 </span>
 </p>
 
@@ -2641,8 +2862,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉달인분상 정혜등지지의 불락공용 원자무위 갱무특지시절
 </span>
 <span class="chinese-korean-translation">
-	그러므로 깨친 사람의 경지에서 선정과 지혜를 평등하게 가진다는
-	뜻은 애써 노력하는 것도 아니고
+	그러므로 깨친 사람의 경지에서
+	<br>
+	선정과 지혜를 평등하게 가진다는 뜻은
+	<br>
+	애써 노력하는 것도 아니고
 	원래 무위라서 어떤 특별한 때도 없다.
 </span>
 </p>
@@ -2654,7 +2878,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	즉 빛을 보고 소리를 들을 때에도 그러하고
+	<br>
 	옷 입고 밥 먹을 때에도 그러하고
+	<br>
 	똥 누고 오줌 눌 때에도 그러하고
 </span>
 </p>
@@ -2666,9 +2892,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	남과 이야기할 때에도 그러하고
+	<br>
 	내지 걷거나 서 있거나 앉거나 눕거나 말하거나 침묵하거나
-	혹은 기뻐하거나 성낼때도
-	언제든지 항상 그러하다.
+	<br>
+	혹은 기뻐하거나 성낼때도 언제든지 항상 그러하다.
 </span>
 </p>
 
@@ -2679,7 +2906,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	마치 빈 배가 물결을 따라 올랐다 내렸다 하고
+	<br>
 	흐르는 물이 산을 돌아나갈 때 굽이돌아 가기도 하고
+	<br>
 	바로 흘러가기도 하듯이 마음 마음이 알음알이가 없는 것이다.
 </span>
 </p>
@@ -2691,6 +2920,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그리하여 오늘도 무심하여 자유롭고
+	<br>
 	내일도 무심하여 자유로워서
 </span>
 </p>
@@ -2702,12 +2932,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	온갖 반연을 따라도 아무런 장애가 없고
+	<br>
 	<font class="emph">
 	악을 끊거나 선을 닦는다는 생각도 없다.
 	</font>
 </span>
 </p>
-
 </div>
 
 <h2 id="liberation">
@@ -2726,7 +2956,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	또한 순박 솔직하고 거짓이 없으며
+	<br>
 	보고 들음에 무심하여 한 티끌도 상대하는 것이 없으니
+	<br>
 	어찌 번뇌를 버리려는 노력이 필요하겠으며
 </span>
 </p>
@@ -2737,7 +2969,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	일념이생정 불가망연지력
 </span>
 <span class="chinese-korean-translation">
-	한 생각의 망령된 감정도 일어남이 없으니 반연을 잊으려 힘쓸 필요도 없다.
+	한 생각의 망령된 감정도 일어남이 없으니
+	<br>
+	반연을 잊으려 힘쓸 필요도 없다.
 </span>
 </p>
 
@@ -2748,8 +2982,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 업의 장애는 두텁고 습기는 무거우며
+	<br>
 	관행觀行은 약하고 마음은 들떠서
+	<br>
 	무명의 힘은 크고 지혜의 힘은 적으며
+	<br>
 	선악의 경계에서는 마음이 동요하기도 하고 고요하기도 하여
 </span>
 </p>
@@ -2765,14 +3002,18 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 
 <p>
-	如云六根攝境 心不隨緣 謂之定 心境俱空 照鑑無惑 謂之慧
+	如<font class="emph" id="stillness-and-presence">云六根攝境 心不隨緣 謂之定 心境俱空 照鑑無惑 謂之慧</font>
 <span class="chinese-korean-transliteration">
-	여운육근섭경 심불수령 위지정 심경구공 조감무혹 위지혜
+	여<font class="emph">운육근섭경 심불수령 위지정 심경구공 조감무혹 위지혜</font>
 </span>
 <span class="chinese-korean-translation">
 	그러므로
+	<br>
+	<font class="emph">
 	육근이 경계를 대해도 마음이 반연을 따르지 않는 것을 선정禪定이라 하고
+	<br>
 	마음과 경계가 함께 공해서 미혹됨이 없음을 비추어 아는 것을 지혜라 한다.
+	</font>
 </span>
 </p>
 
@@ -2784,7 +3025,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	이것은 비록
 	수상문隨相門<sup><a href="#footnote19" id="ref19">19</a></sup>의 선정과 지혜이고
+	<br>
 	점문漸門의 열등한 근기의 수행이라지만
+	<br>
 	경계에 따라 다스려야 하는 사람으로서는 없을 수가 없다.
 </span>
 </p>
@@ -2797,6 +3040,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	만약 망상이 들끓거든
 	먼저 선정의 이치대로 산란한 마음을 거두어서
+	<br>
 	마음이 반연을 따르지 않고
 	본래의 고요함에 계합하게 하며
 </span>
@@ -2809,6 +3053,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 혼침이 더욱 많으면 이젠 지혜로써 법에 따라 공空함을 관조하여
+	<br>
 	미혹됨이 없음을 비추어서 본래의 앎에 계합하도록 해야 한다.
 </span>
 </p>
@@ -2820,6 +3065,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	이렇게 선정으로써 어지러운 생각을 다스리고 지혜로써 멍청함(無記)을 다스려서
+	<br>
 	동요함도 고요함도 서로 없어지고 경계에 따라 다스려야 하는 노력도 없어지면
 </span>
 </p>
@@ -2830,7 +3076,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉대경이염염귀종 우연이심심계도 임운쌍수 방위<font class="emph">무사인</font>
 </span>
 <span class="chinese-korean-translation">
-	경계에 대하여 생각 생각이 근본으로 돌아가고 반연을 만나도 마음 마음이 도에 계합하는 등
+	경계에 대하여 생각 생각이 근본으로 돌아가고
+	<br>
+	반연을 만나도 마음 마음이 도에 계합하는 등
+	<br>
 	마음대로 안팎을 닦아나가야 비로소 <font class="emph">걸림 없는 자유인</font>이 될 것이다.
 </span>
 </p>
@@ -2841,7 +3090,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약여시즉진가위정혜등지 명견 불성자야
 </span>
 <span class="chinese-korean-translation">
-	만약 이렇게 하면 참으로 선정과 지혜를 평등하게 가져 불성을 밝게 본 사람이라 할 수 있다.
+	만약 이렇게 하면 참으로 선정과 지혜를 평등하게 가져
+	<br>
+	불성을 밝게 본 사람이라 할 수 있다.
 </span>
 </p>
 
@@ -2852,9 +3103,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	물었다.
-	-
+	<br>
 	스님의 말씀대로
 	깨친 뒤에 닦는 방법을 보면
+	<br>
 	선정과 지혜를 평등하게 가진다는 말에는 두 가지 뜻이 있습니다.
 </span>
 </p>
@@ -2866,6 +3118,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	첫째는 자기 성품(自性)의 선정과 지혜이고
+	<br>
 	둘째는 상相을 따르는 선정과 지혜입니다.
 </span>
 </p>
@@ -2889,7 +3142,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	자기 성품이란
-	걸림 없는 고요함과 아는 것이 원래 무위여서 하나의 티끌도 상대함이 없으니
+	<br>
+	걸림 없는 고요함과 아는 것이 원래 무위여서
+	<br>
+	하나의 티끌도 상대함이 없으니
+	<br>
 	어찌 번뇌를 없애려는 노력이 필요하겠으며
 </span>
 </p>
@@ -2900,7 +3157,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	무일념이생정 불가망연지공
 </span>
 <span class="chinese-korean-translation">
-	한 생각의 망령된 정情도 일어남이 없으니 반연을 잊으려 힘쓸 필요도 없다.
+	한 생각의 망령된 정情도 일어남이 없으니
+	<br>
+	반연을 잊으려 힘쓸 필요도 없다.
 </span>
 </p>
 
@@ -2911,7 +3170,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	따라서
-	이것이 담박에 깨닫는 문(頓門)에 들어간 사람이 자기 성품을 떠나지 않고 선정과 지혜를 평등하게 가지는 것이다.
+	<br>
+	이것이 담박에 깨닫는 문(頓門)에 들어간 사람이
+	<br>
+	자기 성품을 떠나지 않고 선정과 지혜를 평등하게 가지는 것이다.
 </span>
 </p>
 
@@ -2921,9 +3183,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수상문즉왈 칭리섭산 택법관공 균조혼란 이입무위
 </span>
 <span class="chinese-korean-translation">
-	그리고
-	상을 따르는 문(隨相門)은
-	이치에 따라 산란한 마음을 거두어 법에 따라 공을 관조하여 혼침과 산란을 고루 다스려서 무위에 들어간다
+	그리고 상을 따르는 문(隨相門)은
+	<br>
+	이치에 따라 산란한 마음을 거두어 법에 따라 공을 관조하여
+	<br>
+	혼침과 산란을 고루 다스려서 무위에 들어간다.
 </span>
 </p>
 
@@ -2953,8 +3217,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약언일인소행야 위부선의자성문 정혜쌍수연후 갱용수상문대치지공야
 </span>
 <span class="chinese-korean-translation">
-	말하자면 어떤 사람이 수행함에 있어서 먼저 자기 성품의 선정과 지혜를 고루 닦은 뒤에
-	다시 수상문, 즉, 상相을 따르는 방법으로 경계를 다스려나가야 합니까?
+	말하자면 어떤 사람이 수행함에 있어서
+	<br>
+	먼저 자기 성품의 선정과 지혜를 고루 닦은 뒤에
+	<br>
+	다시 수상문 즉 상相을 따르는 방법으로 경계를 다스려나가야 합니까?
 </span>
 </p>
 
@@ -2965,6 +3232,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	아니면 먼저 상을 따르는 공부로써 혼침과 산란을 고루 다스린 뒤에
+	<br>
 	자기 성품의 문으로 들어가야 합니까?
 </span>
 </p>
@@ -2976,8 +3244,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 먼저 자기 성품의 선정과 지혜에 의지한다면
+	<br>
 	고요함과 아는 것이 자재하여 다시 대상에 따라 다스려야 하는 공력이 없을 텐데
-	어째서 수상문, 즉 상을 따르는 선정과 지혜가 필요합니까?
+	<br>
+	어째서 수상문 즉 상을 따르는 선정과 지혜가 필요합니까?
 </span>
 </p>
 
@@ -2992,14 +3262,24 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 
 <p>
-	若先以隨 相門定慧 對治功成然後 趣於自性門則宛是漸門中劣機 悟前漸熏也
+	若先以隨 相門定慧 對治功成然後
 <span class="chinese-korean-transliteration">
-	약선이수 상문정혜 대치공성연후 취어자성문즉완시점문중열기 오전점훈야
+	약선이수 상문정혜 대치공성연후
 </span>
 <span class="chinese-korean-translation">
 	그리고 만약 먼저 상을 따르는 방법으로 선정과 지혜를 얻어서
+	<br>
 	대상에 따라 다스리는 공부를 완성한 뒤에
 	자기 성품의 문으로 나아간다면
+</span>
+</p>
+
+<p>
+	趣於自性門則宛是漸門中劣機 悟前漸熏也
+<span class="chinese-korean-transliteration">
+	취어자성문즉완시점문중열기 오전점훈야
+</span>
+<span class="chinese-korean-translation">
 	그것은 점차로 수행하는 열등한 근기가 깨닫기 이전의 점차로 닦아나가는 공부이니
 </span>
 </p>
@@ -3010,7 +3290,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기운돈문개자 선오후수 용무공지공야
 </span>
 <span class="chinese-korean-translation">
-	어째서 돈문頓門의 사람이 먼저 깨닫고 뒤에 닦아나가되 노력 없는 노력을 쓰는 것이라 하겠습니까?
+	어째서 돈문頓門의 사람이 먼저 깨닫고 뒤에 닦아나가되
+	<br>
+	노력 없는 노력을 쓰는 것이라 하겠습니까?
 </span>
 </p>
 
@@ -3021,11 +3303,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 전후가 없이 동시에 이루어진다면
+	<br>
 	돈문과 점문의 두 가지 문의 선정과 지혜가 다른데
+	<br>
 	어떻게 한꺼번에 수행할 수 있다는 것입니까?
 </span>
 </p>
-
 </div>
 
 <h2 id="samadhi-and-prajna">
@@ -3068,6 +3351,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	이렇게 돈문과 점문의 두 문은 서로 근기가 다르고 우열이 분명한데
+	<br>
 	먼저 깨닫고 뒤에 닦는 방법 가운데서 어떻게 두 가지를 아울러 말씀하십니까?
 </span>
 </p>
@@ -3089,7 +3373,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	답하다.
-	-
+	<br>
 	해석은 분명한데 그대가 스스로 의심을 내는구나.
 </span>
 </p>
@@ -3101,6 +3385,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	말을 따라 알려고 하면 다시 의혹이 생기고
+	<br>
 	뜻을 얻고 말을 잊으면 힐문할 필요가 없다.
 </span>
 </p>
@@ -3122,7 +3407,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	자기 성품의 선정과 지혜를 닦는 자는 이 돈문의 노력없는 노력으로
-	두 가지 고요함, 즉 돈문의 고요함과 수상문의 고요함을 아울러 운용運用하여
+	<br>
+	두 가지 고요함 즉 돈문의 고요함과 수상문의 고요함을 아울러 운용運用하여
+	<br>
 	자기 성품을 스스로 닦아서 불도를 이루는 사람이다.
 </span>
 </p>
@@ -3133,8 +3420,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수수상문정혜자 차시미오전점문 열기 용대치지공 심심단혹 취정위행자
 </span>
 <span class="chinese-korean-translation">
-	그리고 상을 따르는 방법으로 선정과 지혜를 닦는 자는 깨치기 전의 점문의 열등한 근기로서
-	대상을 따라 다스리는 공력으로 인해 마음마다 의혹을 끊고 고요함을 취해서 수행하는 사람이다.
+	그리고 상을 따르는 방법으로 선정과 지혜를 닦는 자는
+	<br>
+	깨치기 전의 점문의 열등한 근기로서
+	<br>
+	대상을 따라 다스리는 공력으로 인해 마음마다 의혹을 끊고
+	<br>
+	고요함을 취해서 수행하는 사람이다.
 </span>
 </p>
 
@@ -3154,8 +3446,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	연오후수문중 겸론수상문중대치자 비전취점기소행야 취기방편 가도탁숙이이
 </span>
 <span class="chinese-korean-translation">
-	그러나 깨달은 뒤에 닦는 문에서 겸해서 상相을 따라 다스리는 법을 말한 것은
+	그러나 깨달은 뒤에 닦는 문에서
+	<br>
+	겸해서 상相을 따라 다스리는 법을 말한 것은
+	<br>
 	점문漸門의 근기가 닦는 것을 전적으로 취한 것이 아니라
+	<br>
 	그 방편을 취해서 길을 빌리고 숙소를 의탁한 것뿐이다.
 </span>
 </p>
@@ -3166,7 +3462,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	하고어차돈문 역유기승자 역유기열자 불가일예 판기행리야
 </span>
 <span class="chinese-korean-translation">
-	왜냐하면 이 돈문에도 역시 근기가 뛰어난 사람과 열등한 사람이 있으므로
+	왜냐하면
+	<br>
+	이 돈문에도 역시 근기가 뛰어난 사람과 열등한 사람이 있으므로
+	<br>
 	한 가지 예로 가는 길을 판단할 수 없기 때문이다.
 </span>
 </p>
@@ -3177,8 +3476,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	약번뇌담박 신심경안 어선이선 어악이악 부동팔풍 적연삼수자
 </span>
 <span class="chinese-korean-translation">
-	만약 번뇌가 엷고 몸과 마음이 편안하여 선악에 대해서도 무심하고
+	만약 번뇌가 엷고 몸과 마음이 편안하여
+	<br>
+	선악에 대해서도 무심하고
+	<br>
 	여덟 가지 번뇌에도 동요하지 않고
+	<br>
 	세 가지 느낌에도 고요한 이는
 </span>
 </p>
@@ -3190,6 +3493,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	자기 성품의 선정과 지혜에 의지하여 자유롭게 겸해서 닦아나가되
+	<br>
 	천진하여 조작됨이 없다.
 </span>
 </p>
@@ -3201,7 +3505,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	움직이거나 고요하거나 항상 선정에 있으므로
+	<br>
 	자연의 이치를 성취한 것인데
+	<br>
 	왜 상을 따라 다스리는 방법을 빌리겠는가?
 </span>
 </p>
@@ -3215,7 +3521,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font class="emph">병이 없으면 약을 구하지 않는다.</font>
 </span>
 </p>
-
 </div>
 
 <h2 id="affliction">
@@ -3236,6 +3541,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 비록 먼저 깨달았다 하더라도
+	<br>
 	번뇌가 두텁고 습기가 무거워서 경계를 대하면 생각 생각에 감정이 일어나고
 </span>
 </p>
@@ -3246,7 +3552,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	피타혼란 사살매각적지상연자
 </span>
 <span class="chinese-korean-translation">
-	반연을 만날 적마다 마음은 대상을 만들어 혼침과 산란에 빠져서 고요함과 아는 마음이 흐려지는 사람은
+	반연을 만날 적마다 마음은 대상을 만들어
+	<br>
+	혼침과 산란에 빠져서 고요함과 아는 마음이 흐려지는 사람은
 </span>
 </p>
 
@@ -3277,6 +3585,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	비록 대상에 따라 다스리는 공부를 빌려서 잠시 습기를 조절하지만
+	<br>
 	이미 마음의 본성이 본래 깨끗하고 번뇌가 본래 비었음을 깨쳤기 때문에
 </span>
 </p>
@@ -3298,6 +3607,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	왜냐하면 깨치기 전의 수행이란
+	<br>
 	비록 공부를 잊지 않고 생각 생각에 익히고 닦지만
 </span>
 </p>
@@ -3308,7 +3618,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	착착생의 미능무애 여유일물 애재흉중 불안지상 상현재전
 </span>
 <span class="chinese-korean-translation">
-	곳곳에서 의심을 일으켜 자유롭지 못함이 마치 한 물건이 가슴에 걸려있는 것 같아서 불안한 모습이 항상 앞에 나타난다.
+	곳곳에서 의심을 일으켜 자유롭지 못함이
+	<br>
+	마치 한 물건이 가슴에 걸려있는 것 같아서 불안한 모습이 항상 앞에 나타난다.
 </span>
 </p>
 
@@ -3319,6 +3631,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러다가 오랜 세월이 지나서 대상에 따라 다스리는 공부가 익으면
+	<br>
 	몸과 마음과 객관의 대상이 편안해진 것 같을 것이다.
 </span>
 </p>
@@ -3330,8 +3643,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 비록 편안한 것 같으나
+	<br>
 	의심의 뿌리가 끊어지지 않은 것이
 	돌로 풀을 눌러놓은 것 같아서
+	<br>
 	오히려 생사의 세계에 자재로울 수가 없다.
 </span>
 </p>
@@ -3353,7 +3668,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	깨달은 사람의 입장에서도
+	<br>
 	비록 대상에 따라 다스리는 방편이 있지만
+	<br>
 	생각 생각에 의심이 없어 번뇌에 물들지 않는다.
 </span>
 </p>
@@ -3365,9 +3682,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그리하여 오랜 세월이 가면
+	<br>
 	자연히 천진하고 묘한 성품에 계합되어
+	<br>
 	고요하고 아는 것이 자유롭고
+	<br>
 	생각생각이 일체의 경계에 반연하면서도
+	<br>
 	마음마음은 모든 번뇌를 영원히 끊어버리되
 </span>
 </p>
@@ -3379,6 +3700,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	자기의 성품을 떠나지 않고 선정과 지혜를 평등히 가져
+	<br>
 	무상보리無上菩提를 이루어
 </span>
 </p>
@@ -3400,7 +3722,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	상을 따르는 수상문의 선정과 지혜는
+	<br>
 	비록 점차로 수행해야 하는 근기를 가진 자가 행하는 것이지만
+	<br>
 	깨달은 사람의 입장에서 보면 쇠로 금을 이루는 것이라 할 수 있다.
 </span>
 </p>
@@ -3412,11 +3736,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 이렇게 안다면
+	<br>
 	어찌 자성문自性門 수상문隨相門 두 문의 선정과 지혜에 있어서
+	<br>
 	앞뒤의 차례가 있다는 두 가지 견해의 의심이 있을 수 있겠는가?
 </span>
 </p>
-
 </div>
 
 <h2 id="return-to-oneself">
@@ -3437,7 +3762,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	바라건대
+	<br>
 	모든 도 닦는 사람은 이 말을 깊이 음미해서
+	<br>
 	다시는 의심으로 인해 스스로 물러나는 일이 없도록 하라.
 </span>
 </p>
@@ -3449,6 +3776,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 장부의 뜻을 가지고 최상의 보리를 구하는 사람이라면
+	<br>
 	이것을 버리고 어떻게 할 것인가?
 </span>
 </p>
@@ -3459,10 +3787,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	절막집문 직수요의 일일기취자기 계합본종
 </span>
 <span class="chinese-korean-translation">
-	결단코 글에 집착하지 말고
-	바로 참뜻을 깨달아서
-	일일이 자기에게 돌아가
-	근본에 계합한다면
+	결단코 글에 집착하지 말고 바로 참뜻을 깨달아서
+	<br>
+	일일이 자기에게 돌아가 근본에 계합한다면
 </span>
 </p>
 
@@ -3473,7 +3800,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	스승 없는 지혜가 저절로 앞에 나타나고
+	<br>
 	천진한 이치가 분명하여
+	<br>
 	지혜의 몸을 성취하되 타인으로 말미암아 깨닫지 않으리라.
 </span>
 </p>
@@ -3495,6 +3824,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	<font class="emph">일찍이 지혜의 종자를 심은 대승의 근기가 아니면
+	<br>
 	능히 한 생각에 바른 믿음을 내지 못할 것이다.</font>
 </span>
 </p>
@@ -3505,7 +3835,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	기도불신 역내방독 반초무간자 비비유지
 </span>
 <span class="chinese-korean-translation">
-	한갓 믿지 않을 뿐만 아니라 오히려 비방하여 무간지옥에 떨어지는 자가 허다히 많다.
+	한갓 믿지 않을 뿐만 아니라
+	<br>
+	오히려 비방하여 무간지옥에 떨어지는 자가 허다히 많다.
 </span>
 </p>
 
@@ -3516,6 +3848,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 믿고 받아들이지 않더라도
+	<br>
 	한 번 귀를 스쳐 잠시라도 인연을 맺은 그 공덕은 헤아릴 수 없는 것이다.
 </span>
 </p>
@@ -3527,7 +3860,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로 &lt;유심결唯心訣&gt;에
+	<br>
 	"듣고서 믿지 않더라도 부처가 될 인연을 맺고
+	<br>
 	배우고 이루지 못했다 하더라도 오히려 인간과 천상의 복보다 뛰어나다"고 하였다.
 </span>
 </p>
@@ -3549,7 +3884,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	하물며
-	들어서 믿고 배워서 이루고 이를 잊지 않고 수호하는 사람의 그 공덕이야
+	<br>
+	들어서 믿고 배워서 이루고
+	이를 잊지 않고 수호하는 사람의 그 공덕이야
 	어찌 헤아릴 수 있겠는가?
 </span>
 </p>
@@ -3561,7 +3898,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	과거에 윤회하던 업을 돌이켜 보면
+	<br>
 	몇 천 겁을 흑암지옥에 떨어지고
+	<br>
 	무간지옥에 들어가 온갖 고통을 받았을 것인가?
 </span>
 </p>
@@ -3573,7 +3912,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	또 불도를 구하고자 해도 착한 벗을 만나지 못하여
-	그 얼마나 오랜 겁을 나고 죽는 바다에 빠져든 채 깨닫지 못하여 많은 악업을 지었던가?
+	<br>
+	그 얼마나 오랜 겁을 나고 죽는 바다에 빠져든 채
+	<br>
+	깨닫지 못하여 많은 악업을 지었던가?
 </span>
 </p>
 
@@ -3584,6 +3926,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	때때로 한 번씩 생각하면 모르는 사이에 긴 한숨이 나오는데
+	<br>
 	어찌 또 게으름을 피워 지난 날의 재앙을 다시 받겠는가?
 </span>
 </p>
@@ -3595,17 +3938,20 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그리고 누가 나로 하여금
+	<br>
 	지금 인생으로 태어나 만물의 영장이 되어 진리의 길을 닦도록 하였는가?
 </span>
 </p>
 
 <p>
-	<font class="emph">實謂盲龜遇木 纖芥投鍼 其爲慶幸 曷勝道哉</font>
+	<font class="emph" id="blind-turtle-and-mustard-seed-needle">實謂盲龜遇木 纖芥投鍼 其爲慶幸 曷勝道哉</font>
 <span class="chinese-korean-transliteration">
 	<font class="emph">실위맹구우목 섬개투침 기위경행 갈승도재</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">실로 눈먼 거북이 나무를 만나고 작은 겨자씨가 바늘에 꽂힘과 같으니 그 다행함을 어찌 말로 다 하겠는가?</font>
+	<font class="emph">실로 눈먼 거북이 나무를 만나고 작은 겨자씨가 바늘에 꽂힘과 같으니
+	<br>
+	그 다행함을 어찌 말로 다 하겠는가?</font>
 </span>
 </p>
 </div>
@@ -3628,8 +3974,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	내가 지금 만일 스스로 물러날 마음을 내거나
-	게으름을 부려
-	항상 뒤로 미루다가
+	<br>
+	게으름을 부려 항상 뒤로 미루다가
 </span>
 </p>
 
@@ -3639,8 +3985,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수유실명 퇴타악취 수제고통지시
 </span>
 <span class="chinese-korean-translation">
-	잠깐 사이에 목숨을 잃고
-	악도에 떨어져
+	잠깐 사이에 목숨을 잃고 악도에 떨어져
 	온갖 고통을 받을 때에는
 </span>
 </p>
@@ -3651,8 +3996,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	수욕원문일구불법 신해수지 욕면신산 기가부득호
 </span>
 <span class="chinese-korean-translation">
-	아무리 한 구절 불법을 들어서
-	믿고 알고 받들어서 고통을 면하고자 해도
+	아무리 한 구절 불법을 들어서 믿고 알고 받들어서 고통을 면하고자 해도
 	다시 얻을 수 있겠는가?
 </span>
 </p>
@@ -3674,12 +4018,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	원컨대 모든 수도하는 사람들은 방일하지 말고
+	<br>
 	탐욕과 음욕에 집착하지 말고
 </span>
 </p>
 
 <p>
-	<font class="emph">如救頭然 不忘照顧</font>
+	<font class="emph" id="burning-fire-on-head">如救頭然 不忘照顧</font>
 <span class="chinese-korean-transliteration">
 	<font class="emph">여구두연 불망조고</font>
 </span>
@@ -3707,6 +4052,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	비록 오늘 살았다 해도
 	내일을 보장하기 어려우니
+	<br>
 	간절히 마음에 새기고 간절히 마음에 새겨라.
 </span>
 </p>
@@ -3719,6 +4065,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	또 세상의 유위有爲의 선을 따라도
 	삼악도의 고통을 면하고
+	<br>
 	천상과 인간에서 뛰어난 과보를 얻어 온갖 즐거움을 누리는데
 </span>
 </p>
@@ -3751,8 +4098,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	경에 이르기를
-	"만약 어떤 사람이 삼천대천 세계에 가득찬 칠보로써 세상 중생들에게 보시하고 공양하여 다 만족하게 하고
-	&hellip;
+	<br>
+	"만약 어떤 사람이 삼천대천 세계에 가득찬 칠보로써
+	<br>
+	세상 중생들에게 보시하고 공양하여 다 만족하게 하고
 </span>
 </p>
 
@@ -3762,11 +4111,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	우교화이소세계일체중생 영득사과 기공덕 무량무변
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	또 그 세계의 모든 중생을 교화하여
 	사과四果를 얻게 한다면
-	그 공덕은 한량없고 끝없을 것이다
-	&hellip;
+	<br>
+	그 공덕은 한량없고 끝없을 것이다.
 </span>
 </p>
 
@@ -3776,7 +4124,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	불여일식경 정사차법 소획공덕
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 그러나 밥 한 그릇 먹는 잠깐 동안만이라도 이 법을 바로 생각하여 얻는 공덕만은 못하다"고 하였다.
+	그러나 밥 한 그릇 먹는 잠깐 동안만이라도
+	이 법을 바로 생각하여 얻는 공덕만은 못하다"고 하였다.
 </span>
 </p>
 
@@ -3786,7 +4135,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	시지아차법문 최존최귀 어제공덕 비황불급
 </span>
 <span class="chinese-korean-translation">
-	그러므로 우리의 이 법문이 가장 높고 귀하여 모든 공덕에 견줄 수 없음을 알아야 한다.
+	그러므로 우리의 이 법문이 가장 높고 귀하여
+	<br>
+	모든 공덕에 견줄 수 없음을 알아야 한다.
 </span>
 </p>
 
@@ -3797,9 +4148,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로 경에 말하기를
+	<br>
 	"한 생각 깨끗한 마음이 바로 도량道場이니
-	갠지스강의 모래 수와 같은 칠보탑을 만드는 것보다 훌륭하다
-	&hellip;
+	<br>
+	갠지스강의 모래 수와 같은 칠보탑을 만드는 것보다 훌륭하다.
 </span>
 </p>
 
@@ -3809,7 +4161,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	보탑필경쇄위진 일념정심성정각
 </span>
 <span class="chinese-korean-translation">
-	&hellip; 칠보탑은 마침내 부서져 티끌이 되지만 한 생각 깨끗한 마음은 정각을 이룬다"고 하였다.
+	칠보탑은 마침내 부서져 티끌이 되지만
+	<br>
+	한 생각 깨끗한 마음은 정각을 이룬다"고 하였다.
 </span>
 </p>
 
@@ -3832,7 +4186,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<font class="emph">이 몸을 금생에 제도하지 못하면 다시 어느 생을 기다려 이 몸을 제도할 것인가?</font>
 </span>
 </p>
-
 </div>
 
 <h2 id="treasure">
@@ -3860,7 +4213,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	금약강수 난수지행 점득불난 공행자진
 </span>
 <span class="chinese-korean-translation">
-	지금 만약 억지로라도 닦으면 닦기 어려운 수행도 점점 어렵지 않게 되어 공행功行이 저절로 나아갈 것이다.
+	지금 만약 억지로라도 닦으면
+	<br>
+	닦기 어려운 수행도 점점 어렵지 않게 되어 공행功行이 저절로 나아갈 것이다.
 </span>
 </p>
 
@@ -3870,8 +4225,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	차부 금시인 기봉왕선 부지하구 병우의왕 부지복약
 </span>
 <span class="chinese-korean-translation">
-	슬프다.
+	슬프다!
+	<br>
 	지금 사람은 배가 고프면서도 맛난 음식을 보고 먹을 줄을 알지 못하고
+	<br>
 	병이 들어 의사를 만났어도 약을 먹을 줄 모르는구나.
 </span>
 </p>
@@ -3894,7 +4251,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	또 세상 유위有爲의 일은
+	<br>
 	그 형상을 볼 수도 있고 그 공덕도 경험할 수 있으므로
+	<br>
 	사람들이 한 가지 일만 얻어도 희귀하다고 감탄한다.
 </span>
 </p>
@@ -3906,6 +4265,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러나 나의 이 마음은
+	<br>
 	그 형상을 볼 수도 없고
 	말로 표현할 수도 없으며 마음으로도 생각할 수가 없다.
 </span>
@@ -3947,8 +4307,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	비부정와 언지창해지활 야간하능사자지후
 </span>
 <span class="chinese-korean-translation">
-	슬프다.
+	슬프다!
+	<br>
 	우물 안 개구리가 어찌 바다의 넓음을 알며
+	<br>
 	여우가 어찌 사자의 소리를 할 수 있겠는가?
 </span>
 </p>
@@ -3960,7 +4322,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로
-	말법 세상에 이 법문을 듣고 희유한 생각을 내어 믿고
+	말법 세상에 이 법문을 듣고
+	<br>
+	희유한 생각을 내어 믿고
 	이해하여 받아 지니는 사람은
 </span>
 </p>
@@ -3974,30 +4338,25 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	이미
 	한량없는 겁 동안 모든 성인을 받들어 섬겨서
 	모든 선근을 심고
+	<br>
 	지혜의 바른 인연을 깊이 맺은 최상의 근기임을 알 수 있다.
 </span>
 </p>
 
 <p>
 	故金鋼經云
-<span class="chinese-korean-transliteration">
-	고금강경운
-</span>
-<span class="chinese-korean-translation">
-	그러므로 &lt;금강경&gt;에
-</span>
-</p>
-
-<p>
 	<font class="emph" id="plant-good">
 	於此章句 能生信心者 當知是人 已於無量佛所 種諸善根
 	</font>
 <span class="chinese-korean-transliteration">
+	고금강경운
 	<font class="emph">
 	어차장구 능생신심자 당지시인 이어무량불소 종제선근
 	</font>
 </span>
 <span class="chinese-korean-translation">
+	그러므로 &lt;금강경&gt;에
+	<br>
 	<font class="emph">
 	"이 글귀에 능히 신심을 내는 사람은 이미 한량없는 부처님의 처소에서 모든 선근을 심은 것이다"</font>고
 	하였고
@@ -4017,9 +4376,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 
 <p>
-	<font class="emph" id="courage-and-vigor">願諸求道之人 莫生怯弱 須發勇猛之心</font>
+	願<font class="emph" id="courage-and-vigor">諸求道之人 莫生怯弱 須發勇猛之心</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">원제구도지인 막생겁약 수발용맹지심</font>
+	원<font class="emph">제구도지인 막생겁약 수발용맹지심</font>
 </span>
 <span class="chinese-korean-translation">
 	원컨대
@@ -4046,6 +4405,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 이처럼 수승한 근기를 믿지 않고
+	<br>
 	스스로 못났다고 하여 어렵다는 생각을 내어
 	금생에 닦지 않으면
 </span>
@@ -4057,8 +4417,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	즉종유숙세선근 금단지고 미재기난 전전원의
 </span>
 <span class="chinese-korean-translation">
-	비록 숙세에 선근이 있다 해도
-	지금 그것을 끊어버리는 것이 되므로
+	비록 숙세에 선근이 있다 해도 지금 그것을 끊어버리는 것이 되므로
+	<br>
 	더욱 어려워지고 점점 멀어질 것이다.
 </span>
 </p>
@@ -4090,6 +4450,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	지혜로운 사람이라면
+	<br>
 	<font class="emph">
 		어찌 보배가 있는 곳을 알고도 그것을 구하지 않다가 오래 외롭고 가난함을 원망하겠는가?
 	</font>
@@ -4105,7 +4466,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	만약 보배를 얻으려거든 그 가죽주머니를 놓아버려라.
 </span>
 </p>
-
 </div>
 
 
