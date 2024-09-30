@@ -35,7 +35,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<br>
 	도道는 만물을 형성시키지만 그 공功을 내세우지 않는다.
 	<br>
-	도道는 만물의 장長이지만 만물을 주재하지 않는다.
+	도道는 만물의 장長이지만 만물을 주재하지 않는다
 </blockquote>
 
 이런 사고는 만물의 형성&nbsp;&sdot;&nbsp;변화는 원래 스스로 그러한 것이며 또한 거기에는 예정된 목적조차 없다는 생각에서 유래되었다.
@@ -66,8 +66,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 일반적으로 우리가 알 수 있는 것은 오직 유有이므로 무無는 "알 수 없는 것"이라는 의미를 내포한다.
 
 <div class="img-container">
-	<!--img src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png"-->
-	<img src="/assets/images/lao-tzu/oriental-style-painting-mountains.jpeg">
+	<!--img width="50%" src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png"-->
+	<img width="50%" src="/assets/images/lao-tzu/oriental-style-painting-mountains.jpeg">
 </div>
 
 그렇다면 노자는 도대체 어떤 방법으로 무無를 알았을까?
@@ -160,7 +160,7 @@ Main text
 	<br>
 	그것이 영원한 것이고 진실한 것으로 잘못알면
 	<br>
-	인생사가 고통이라네.
+	인생사가 고통이라네
 </blockquote>
 
 
@@ -236,7 +236,7 @@ Main text
 </div>
 
 <div class="img-container">
-	<img src="/assets/images/lao-tzu/crane.png">
+	<img width="50%" src="/assets/images/lao-tzu/crane.png">
 </div>
 
 <h2 id="2">
@@ -244,7 +244,7 @@ Main text
 </h2>
 
 <blockquote>
-	어떤 것을 좋다고 하면 다른 것은 나쁜 것이 되는법이라.
+	어떤 것을 좋다고 하면 다른 것은 나쁜 것이 되는법이라
 </blockquote>
 
 <div class="translation-container">
@@ -340,6 +340,10 @@ Main text
 </p>
 </div>
 
+<div class="img-container">
+	<img width="50%" src="/assets/images/lao-tzu/mountain-02.jpeg">
+</div>
+
 <h2 id="3">
 	제3장
 	-
@@ -347,7 +351,7 @@ Main text
 </h2>
 
 <blockquote>
-	지금 있는 것 말고는 높혀 받들 것이 없다네.
+	지금 있는 것 말고는 높혀 받들 것이 없다네
 </blockquote>
 
 <div class="translation-container">
@@ -440,63 +444,209 @@ Main text
 </p>
 </div>
 
+<div class="img-container">
+	<img width="50%" src="/assets/images/lao-tzu/girl-with-peaceful-face-having-glowing-light-ball-in-her-heart.png">
+</div>
+
+<h2 id="4">
+	제4장
+	-
+	불영不盈
+</h2>
+
+<blockquote>
+	진리는 채울 것이 따로 없다네
+</blockquote>
+
+<div class="translation-container">
+<p>
+	道沖而用之
+	或不盈
+<span class="chinese-korean-transliteration">
+	도충이용지
+	혹불영
+</span>
+<span class="chinese-korean-translation">
+	도는 그릇처럼 비어있지만 그 쓰임에
+	넘치는 일이 없다.
+</span>
+</p>
+
+<p>
+	淵兮似萬物之宗
+	挫其銳
+	解其紛
+	和其光
+	同其塵
+<span class="chinese-korean-transliteration">
+	연혜사만물지종
+	좌기예
+	해기분
+	화기광
+	동기진
+</span>
+<span class="chinese-korean-translation">
+	심연처럼 깊어 온갖 것의 근원이라
+	<br>
+	날카로운 것을 무디게 하고
+	<br>
+	얽힌 것을 풀어 주고
+	<br>
+	빛을 부드럽게 하고
+	<br>
+	티끌과 하나가 된다.
+</span>
+</p>
+
+<p>
+	湛兮似或存
+	吾不知誰之子
+	象帝之先
+<span class="chinese-korean-transliteration">
+	담혜사혹존
+	오불지수지자
+	상제지선
+</span>
+<span class="chinese-korean-translation">
+	깊고 고요하여 뭔가 존재하는 것 같다.
+	<br>
+	누구의 아들인지 난 알 수 없지만
+	<br>
+	하느님보다 먼저임이 틀립없다.
+</span>
+</p>
+</div>
+
+<div class="img-container">
+	<img width="50%" src="/assets/images/lao-tzu/bright-empty-screen-with-plants.png">
+</div>
+
+<h2 id="5">
+	제5장
+	-
+	수중守中
+</h2>
+
+<blockquote>
+	어질다 어질지 않다 말로 할 수 없다네
+</blockquote>
+
+<div class="translation-container">
+<p>
+	天地不仁
+	以萬物爲芻狗
+<span class="chinese-korean-transliteration">
+	천지불인
+	이만물위추구
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅은 어질지 않다.
+	<br>
+	모든 것을 짚으로 만든 개처럼 취급한다.
+</span>
+</p>
+
+<p>
+	聖人不仁
+	以百姓爲芻狗
+<span class="chinese-korean-transliteration">
+	성인불인
+	이백성위추구
+</span>
+<span class="chinese-korean-translation">
+	성인도 어질지 않다.
+	<br>
+	백성들을 모두 짚으로 만든 개처럼 취급한다.
+</span>
+</p>
+
+<p>
+	天地之間
+	其猶槖籥乎
+	虛而不屈
+	動而愈出
+<span class="chinese-korean-transliteration">
+	천지지간
+	기유탁약호
+	허이불굴
+	동이유출
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅 사이는
+	풀무의 바람통같아서
+	<br>
+	비어 있으나 다함이 없고
+	<br>
+	움직일수록 더욱더 내어 놓는다.
+</span>
+</p>
+
+<p>
+	多言數窮
+	不如守中
+<span class="chinese-korean-transliteration">
+	다언수궁
+	불여수중
+</span>
+<span class="chinese-korean-translation">
+	말이 많으면 궁지에 몰리는 법이니
+	<br>
+	중심을 지키는 것보다 좋은 일은 없다.
+</span>
+</p>
+</div>
+
+<div class="img-container">
+	<img width="50%" src="/assets/images/lao-tzu/man-in-the-nature-wathcing-mountains.png">
+</div>
+
+<h2 id="6">
+	제6장
+	-
+	곡신谷神
+</h2>
+
+<blockquote>
+	이것이 무한한 세계를 낳는다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	谷神不死
+	是謂玄牝
+	玄牝之門
+	是謂天地根
+	綿綿若存
+	用之不勤
+<span class="chinese-korean-transliteration">
+	곡신불사
+	시위현빈
+	현빈지문
+	시위천지근
+	면면약존
+	용지불근
+</span>
+<span class="chinese-korean-translation">
+	계곡의 신은 결코 죽지 않는다.
+	<br>
+	그것은 신비의 여인
+	<br>
+	여인의 문은 하늘과 땅의 근원
+	<br>
+	끊어질듯하면서도 이어지고
+	<br>
+	써도 써도 다할 줄을 모른다.
+</span>
+</p>
+
+</div>
+
+<div class="img-container">
+	<img width="50%" src="/assets/images/lao-tzu/woman-smiling-with-heart-in-hands.png">
+</div>
+
+
 <!--
-4. 不盈(불영)
-
-
-
-진리는 채울 것이 따로 없다네.
-
-
-道沖而用之(도충이용지) : 도는 그릇처럼 비어있지만 그 쓰임에
-或不盈(혹불영) : 넘치는 일이 없다.
-淵兮似萬物之宗(연혜사만물지종) : 심연처럼 깊어 온갖 것의 근원이라,
-挫其銳(좌기예) : 날카로운 것을 무디게 하고
-解其紛(해기분) : 얽힌 것을 풀어 주고
-和其光(화기광) : 빛을 부드럽게 하고
-同其塵(동기진) : 티끌과 하나가 된다.
-湛兮似或存(담혜사혹존) : 깊고 고요하여 뭔가 존재하는 것 같다
-吾不知誰之子(오불지수지자) : 누구의 아들인지 난 알 수 없지만
-象帝之先(상제지선) : 하느님보다 먼저임이 틀립없다.
-
-
-
-5. 守中(수중)
-
-
-
-어질다 어질지 않다 말로 할 수 없다네.
-
-
-天地不仁(천지불인) : 하늘과 땅은 어질지 않다.
-以萬物爲芻狗(이만물위추구) : 모든 것을 짚으로 만든 개처럼 취급한다.
-聖人不仁(성인불인) : 성인도 어질지 않다.
-以百姓爲芻狗(이백성위추구) : 백성들을 모두 짚으로 만든 개처럼 취급한다.
-天地之間(천지지간) : 하늘과 땅 사이는
-其猶槖籥乎(기유탁약호) : 풀무의 바람통같아서
-虛而不屈(허이불굴) : 비어 있으나 다함이 없고
-動而愈出(동이유출) : 움직일수록 더욱더 내어 놓는다.
-多言數窮(다언수궁) : 말이 많으면 궁지에 몰리는 법이니,
-不如守中(불여수중) : 중심을 지키는 것보다 좋은 일은 없다.
-
-
-
-6. 谷神(곡신)
-
-
-
-이것이 무한한 세계를 낳는다.
-
-
-谷神不死(곡신불사) : 계곡의 신은 결코 죽지 않는다
-是謂玄牝(시위현빈) : 그것은 신비의 여인
-玄牝之門(현빈지문) : 여인의 문은
-是謂天地根(시위천지근) : 하늘과 땅의 근원
-綿綿若存(면면약존) : 끊어질듯하면서도 이어지고
-用之不勤(용지불근) : 써도 써도 다할 줄을 모른다
-
-
-
 7. 無私(무사)
 
 
