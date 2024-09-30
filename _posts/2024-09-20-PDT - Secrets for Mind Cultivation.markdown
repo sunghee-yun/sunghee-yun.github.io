@@ -114,9 +114,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#burning-pain">
+	<a href="#burning-pain"><font class="emph">
 		三界熱惱 猶如火宅 其忍淹留 甘受長苦
-	</a>
+	</font></a>
 	<br>
 	삼계열뇌 유여화택 기인엄류 감수장고
 </p>
@@ -125,9 +125,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#plant-wisdom">
+	<a href="#plant-wisdom"><font class="emph">
 		若非夙植般若種智 大承根器者 不能一念而生正信
-	</a>
+	</font></a>
 	<br>
 	약비숙식반야종지 대승근기자 불능일념이생정신
 </p>
@@ -137,9 +137,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#plant-good">
+	<a href="#plant-good"><font class="emph">
 		於此章句 能生信心者 當知是人 已於無量佛所 種諸善根
-	</a>
+	</font></a>
 	<br>
 	어차장구 능생신심자 당지시인 이어무량불소 종제선근
 </p>
@@ -148,9 +148,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#this-is-for-highest-spirit">
+	<a href="#this-is-for-highest-spirit"><font class="emph">
 		又云爲發大乘者說 爲發最上乘者說
-	</a>
+	</font></a>
 	<br>
 	우운위발대승자설 위발최상승자설
 </p>
@@ -159,9 +159,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#courage-and-vigor">
+	<a href="#courage-and-vigor"><font class="emph">
 		願諸求道之人 莫生怯弱 須發勇猛之心
-	</a>
+	</font></a>
 	<br>
 	원제구도지인 막생겁약 수발용맹지심
 </p>
@@ -171,9 +171,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#search-inside">
+	<a href="#search-inside"><font class="emph">
 		願諸修道之人 切莫外求
-	</a>
+	</font></a>
 	<br>
 	원제수도지인 절막외구
 </p>
@@ -182,9 +182,20 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#only-if-know-cannot-know">
+	<a href="#buddha-nature-in-everyone"><font class="emph">
+		則佛性 現在汝身 何假外求
+	</font></a>
+	<br>
+	즉불성 현재여신 하가외구
+</p>
+	그러므로 불성이 지금 그대의 몸에 있는데 어째서 헛되이 밖에서 구하겠는가?
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#only-if-know-cannot-know"><font class="emph">
 		但知不會 是卽見性
-	</a>
+	</font></a>
 	<br>
 	단지불회 시즉견성
 </p>
@@ -193,9 +204,20 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#no-mind-for-good-or-evil">
+	<a href="#only-if-know-ones-own-mind"><font class="emph">
+		但識自心 不求而得
+	</font></a>
+	<br>
+	단식자심 불구이득
+</p>
+	단지 자신의 마음을 알기만 하면 저절로 얻게 될 것이다.
+</div>
+
+<div class="text-highlight">
+<p>
+	<a href="#no-mind-for-good-or-evil"><font class="emph">
 		於善於惡 不斷不受
-	</a>
+	</font></a>
 	<br>
 	어선어악 부단불수
 </p>
@@ -204,9 +226,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#free-man">
+	<a href="#free-man"><font class="emph">
 		無事人
-	</a>
+	</font></a>
 	<br>
 	무사인
 </p>
@@ -215,9 +237,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#see-eyes-with-eyes">
+	<a href="#see-eyes-with-eyes"><font class="emph">
 		比如有人 不見自眼 以謂無眼 更欲求見
-	</a>
+	</font></a>
 	<br>
 	비여유인 불견자안 이위무안 갱욕구견
 </p>
@@ -226,7 +248,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#who-asks">汝今問我者 是汝空寂靈知之心</a>
+	<a href="#who-asks"><font class="emph">
+		汝今問我者 是汝空寂靈知之心
+	</font></a>
 	<br>
 	여금문아자 시여공적영지지심
 </p>
@@ -235,9 +259,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#already-know-where-treasure-is">
+	<a href="#already-know-where-treasure-is"><font class="emph">
 		知其寶所 反不求之 長怨孤貧
-	</a>
+	</font></a>
 	<br>
 	지기보소 반불구지 장원고빈
 </p>
@@ -246,9 +270,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <div class="text-highlight">
 <p>
-	<a href="#feed-ox">
+	<a href="#feed-ox"><font class="emph">
 		天下善知識 悟後牧牛行是也
-	</a>
+	</font></a>
 	<br>
 	천하선지식 오후목우행시야
 </p>
@@ -308,7 +332,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그 마음은 이 육신六身을 떠나 있는 것이 아닌데
+	<br>
 	이 육신六身은 임시적인 것이어서 태어남이 있고 죽음도 있지만
+	<br>
 	이 진심眞心은 허공虛空과 같아서 끊어지지도 않고 변變하지도 않으니
 </span>
 </p>
@@ -320,7 +346,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그래서 이르기를
+	<br>
 	"사람이 죽어 온갖 뼈마디가 모두 무너지고 흩어지면 불로 돌아가고 바람으로 돌아지만
+	<br>
 	한 물건<sup><a href="#footnote03" id="ref03-02">3</a></sup>은 영원히 신령스러워 하늘을 덮고 땅을 덮는다"고 한 것이다.
 </span>
 </p>
@@ -331,9 +359,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	차부 금지인 미래구의 불식자심시진불 불식자성시진법
 </span>
 <span class="chinese-korean-translation">
-	참으로 슬프구나.
-<br>
+	참으로 슬프구나!
+	<br>
 	요즘 사람들은 미혹된 지가 오래되어 자기 마음이 참 부처인줄 알지 못하고
+	<br>
 	자기의 본성이 참 진리라는 것을 알지 못하는구나.
 </span>
 </p>
@@ -345,6 +374,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	진리를 구하려고 멀리 성인들만 추앙하고 부처를 찾고자 하면서
+	<br>
 	자기의 마음을 관조觀照하지 않는구나.
 </span>
 </p>
@@ -356,6 +386,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 마음 밖에 부처가 있고 본성 밖에 진리가 있다고 말하면서
+	<br>
 	이런 알음알이에 단단히 집착執着하여 부처佛體의 길을 구하는 자가 있다면
 </span>
 </p>
@@ -367,8 +398,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	어마어마한 오랜 세월 동안 몸을 불로 태우고 팔을 불사르며
+	<br>
 	뼈를 부수어 골수를 뽑아내고
+	<br>
 	피를 내어 경전을 베껴 쓰며
+	<br>
 	눕지 않고 오래 앉아 참선만 하며
 </span>
 </p>
@@ -380,36 +414,31 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	하루에 아침 한 끼만 먹으며
-	나아가서 대장경을 전부를 다 읽고 온갖 고행을 모두 닦는다 해도
+	<br>
+	나아가서 대장경을 전부를 다 읽고
+	<br>
+	온갖 고행을 모두 닦는다 해도
 </span>
 </p>
 
 <p>
-	如蒸沙作飯 只益自勞爾
+	如蒸沙作飯 只益自勞爾 <font class="emph" id="only-if-know-ones-own-mind">但識自心</font> 恒沙法門 無量妙義 <font class="emph">不求而得</font>
 <span class="chinese-korean-transliteration">
-	여증사작반 지익자로이
+	여증사작반 지익자로이 <font class="emph">단식자심</font> 항사법문 무량묘의 <font class="emph">불구이득</font>
 </span>
 <span class="chinese-korean-translation">
 	이는 모래를 쪄서 밥을 짓는 것과 같아서 단지 스스로 괴로움만 더할 뿐이니
-</span>
-</p>
-
-<p>
-	但識自心 恒沙法門 無量妙義 不求而得
-<span class="chinese-korean-transliteration">
-	단식자심 항사법문 무량묘의 불구이득
-</span>
-<span class="chinese-korean-translation">
-	단지 자신의 마음을 알기만 하면
+	<br>
+	<font class="emph">단지 자신의 마음을 알기만 하면</font>
+	<br>
 	갠지스강의 모래알처럼 많은 가르침과 헤아릴 수 없는 신묘한 뜻을 구하지 않더라도
-	저절로 얻게 될 것이다.
+	<br>
+	<font class="emph">저절로 얻게 될 것이다.</font>
 </span>
 </p>
 </div>
 
-<div class="img-container">
-	<img src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg">
-</div>
+<img width="60%" src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg">
 
 <h2 id="originally">
 	마음은 본래 스스로 원만한 것
@@ -429,7 +458,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로 세존께서
-	"모든 중생衆生들을 두루 관찰해 보니 모두 다 (참나 안에)
+	<br>
+	"모든 중생衆生들을 두루 관찰해 보니
+	<br>
+	모두 다 참나 안에
+	<br>
 	부처의 지혜智慧와 덕상德相<sup><a href="#footnote04" id="ref04">4</a></sup>을 갖추고 있다"고 하시고
 </span>
 </p>
@@ -441,7 +474,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	또 이르시되
-	"모든 중생衆生의 (오온五蘊과 육근六根에 의한) 가지가지 헛된 변화가
+	<br>
+	"모든 중생衆生의 오온五蘊과 육근六根에 의한 가지가지 헛된 변화가
+	<br>
 	모두 부처의 원만한 깨달음의 신묘한 마음<sup><a href="#footnote03" id="ref03-03">3</a></sup>에서 나투어 난다"고 하신 것이다.
 </span>
 </p>
@@ -453,8 +488,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	그러므로 이 마음을 벗어나서는 부처를 이룰 길이 없음을 알아야 한다.
+	<br>
 	과거의 모든 부처들도 오직 이 마음<sup><a href="#footnote03" id="ref03-04">3</a></sup>을 밝히신 분들일 뿐이며
+	<br>
 	현재의 모든 성현들도 역시 이 마음<sup><a href="#footnote03" id="ref03-05">3</a></sup>을 닦은 사람들뿐이다.
+	<br>
 	그러니 미래에 수행할 사람도 응당 이 진리에 의지해야 할 것이다.
 </span>
 </p>
@@ -466,7 +504,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	<font class="emph">바라건대 모든 진리를 수행하는 사람들은 절대로 밖에서 구하지 말아야 한다.</font>
+	<br>
 	마음의 본성은 오염되어 있지 않으며 본래 스스로 원만하게 이루어진 것이니
+	<br>
 	단지 허망한 인연을 떠나기만 하면 곧 항상 그대로인 부처인 것이다.
 </span>
 </p>
@@ -478,7 +518,14 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	묻는다.
-	"만약 불성이 지금 이 몸에 있다고 한다면, 이미 이 몸 안에 있으므로 범부를 떠난 것이 아닌데 어째서 저는 지금 불성을 보지 못합니까. 다시 해석하여 속속들이 깨닫도록 해주십시오."
+	<br>
+	만약 불성이 지금 이 몸에 있다고 한다면
+	<br>
+	이미 이 몸 안에 있으므로 범부를 떠난 것이 아닌데
+	<br>
+	어째서 저는 지금 불성을 보지 못합니까?
+	<br>
+	다시 해석하여 속속들이 깨닫도록 해주십시오.
 </span>
 </p>
 
@@ -488,7 +535,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	답재여신중 여자불견
 </span>
 <span class="chinese-korean-translation">
-	답하다. “그대 몸에 있는데도 그대 스스로가 보지 못할 뿐이다.
+	답하다.
+	<br>
+	그대 몸에 있는데도 그대 스스로가 보지 못할 뿐이다.
 </span>
 </p>
 
@@ -498,7 +547,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	지기지갈 지한지열 혹진혹희 경시하물 여어십이시중
 </span>
 <span class="chinese-korean-translation">
-	그대가 하루 가운데서 배고프다, 목마르다 하는 것을 알고, 춥다, 덥다 하는 것을 알고 혹 성내거나 기뻐할 줄 아는데 이것이 결국 어떤 물건인가?
+	그대가 하루 가운데서 배고프다 목마르다 하는 것을 알고
+	<br>
+	춥다 덥다 하는 것을 알고
+	<br>
+	혹 성내거나 기뻐할 줄 아는데
+	<br>
+	이것이 결국 어떤 물건인가?
 </span>
 </p>
 
@@ -509,7 +564,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	이 몸은 지&nbsp;&sdot;&nbsp;수&nbsp;&sdot;&nbsp;화&nbsp;&sdot;&nbsp;풍의 네 가지 요소가 모여 이루어진 것이라서
-	그 바탕이 둔하여 감정이 없으니 어찌 보고, 듣고, 지각할 수 있겠는가?
+	<br>
+	그 바탕이 둔하여 감정이 없으니
+	<br>
+	어찌 보고 듣고 지각할 수 있겠는가?
 </span>
 </p>
 
@@ -519,7 +577,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	능견문각지자 필시여불성
 </span>
 <span class="chinese-korean-translation">
-	능히 보고, 듣고, 지각할 수 있는 것은 반드시 그대의 불성이다.
+	능히 보고 듣고 지각할 수 있는 것은
+	<br>
+	반드시 그대의 불성이다.
 </span>
 </p>
 
@@ -529,8 +589,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	고임제운 사대불해설법청법 허공불해설법청법 지여목전 역역고명
 </span>
 <span class="chinese-korean-translation">
-	그러므로 임제 스님은 "이 몸뚱이는 법을 설하거나 법을 듣지도 못하며, 허공도 법을 설하거나 법을 듣지 못하고 단지 그대 눈앞에 밝음이 역역하지만
-	&hellip;
+	그러므로 임제 스님은
+	<br>
+	"이 몸뚱이는 법을 설하거나 법을 듣지도 못하며
+	<br>
+	허공도 법을 설하거나 법을 듣지 못하고
+	<br>
+	단지 그대 눈앞에 밝음이 역역하지만
 </span>
 </p>
 
@@ -540,7 +605,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	물형단자 시해설법청법
 </span>
 <span class="chinese-korean-translation">
-	&hellip;
 	형상이 없는 그것이 법을 설하고 법을 들을 줄 안다"고 하였다.
 </span>
 </p>
@@ -551,17 +615,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	소위물형단자 시제불지법인 역시여본래심야
 </span>
 <span class="chinese-korean-translation">
-	여기서 말하는 '형상이 없는 그것'이란 바로 모든 부처님의 바탕이며 또한 그대의 본래 마음이다.
+	여기서 말하는 "형상이 없는 그것"이란
+	<br>
+	바로 모든 부처님의 바탕이며 또한 그대의 본래 마음이다.
 </span>
 </p>
 
 <p>
+	<font class="emph" id="buddha-nature-in-everyone">
 	則佛性 現在汝身 何假外求
+	</font>
 <span class="chinese-korean-transliteration">
+	<font class="emph">
 	즉불성 현재여신 하가외구
+	</font>
 </span>
 <span class="chinese-korean-translation">
-	그러므로 불성이 지금 그대의 몸에 있는데 어째서 헛되이 밖에서 구하겠는가?
+	<font class="emph">
+	그러므로 불성이 지금 그대의 몸에 있는데
+	<br>
+	어째서 헛되이 밖에서 구하겠는가?
+	</font>
 </span>
 </p>
 
@@ -572,7 +646,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 <span class="chinese-korean-translation">
 	만약 그대가 믿을 수 없다면
-	간략하게 옛 성인들이 도를 깨친 인연을 들어 그대의 의심을 풀어 줄테니
+	<br>
+	간략하게 옛 성인들이 도를 깨친 인연을 들어
+	<br>
+	그대의 의심을 풀어 줄테니
+	<br>
 	그대는 잘 듣고 믿기 바란다.
 </span>
 </p>
