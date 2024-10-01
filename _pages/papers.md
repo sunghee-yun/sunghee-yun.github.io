@@ -5,7 +5,7 @@ permalink: /papers
 toc: true
 toc_label: "ToC"
 toc_icon: "cog"
-toc_sticky: false
+toc_sticky: true
 ---
 
 <head>
@@ -17,6 +17,17 @@ toc_sticky: false
 <h2 id="llm">LLM</h2>
 
 <ul>
+<li>
+	<a href="https://arxiv.org/abs/2409.12183">
+		To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning
+	</a>
+	<div class="foldable-toggle">abstract</div>
+	<div class="foldable-content">
+		<p>
+		Chain-of-thought (CoT) via prompting is the de facto method for eliciting reasoning capabilities from large language models (LLMs). But for what kinds of tasks is this extra "thinking" really helpful? To analyze this, we conducted a quantitative meta-analysis covering over 100 papers using CoT and ran our own evaluations of 20 datasets across 14 models. Our results show that CoT gives strong performance benefits primarily on tasks involving math or logic, with much smaller gains on other types of tasks. On MMLU, directly generating the answer without CoT leads to almost identical accuracy as CoT unless the question or model's response contains an equals sign, indicating symbolic operations and reasoning. Following this finding, we analyze the behavior of CoT on these problems by separating planning and execution and comparing against tool-augmented LLMs. Much of CoT's gain comes from improving symbolic execution, but it underperforms relative to using a symbolic solver. Our results indicate that CoT can be applied selectively, maintaining performance while saving inference costs. Furthermore, they suggest a need to move beyond prompt-based CoT to new paradigms that better leverage intermediate computation across the whole range of LLM applications.
+		</p>
+    </div>
+</li>
 <li>
 	"Distilling System 2 into System 1"
 	-
@@ -49,3 +60,22 @@ toc_sticky: false
 	</a>
 </li>
 </ul>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var toggles = document.querySelectorAll('.foldable-toggle');
+
+		toggles.forEach(function(toggle) {
+			toggle.addEventListener('click', function() {
+				this.classList.toggle('active');
+				var content = this.nextElementSibling;
+				if (content.style.display === 'block') {
+					content.style.display = 'none';
+				} else {
+					content.style.display = 'block';
+				}
+			});
+		});
+	});
+</script>
+

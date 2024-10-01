@@ -5,7 +5,7 @@ permalink: /alpha-fold-summary
 toc: false
 toc_label: "ToC"
 toc_icon: "cog"
-toc_sticky: false
+toc_sticky: true
 ---
 
 <head>
