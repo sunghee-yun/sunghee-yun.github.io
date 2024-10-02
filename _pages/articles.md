@@ -19,6 +19,7 @@ toc_sticky: true
 	<a href="https://m.mk.co.kr/news/business/11128871">
 		선·후배 관계가 전부라는 이 남자…미국 전역 한국인 창업자들 불러모으더니
 	</a>
+	(01-Oct-2024 KST)
 </li>
 </ul>
 
@@ -29,14 +30,14 @@ toc_sticky: true
 <li>
 	<a href="https://www.fortunekorea.co.kr/news/articleViewAmp.html?idxno=42762">
 		인텔의 쇠퇴? ‘완전히’ 잘못된 시각
-		(29-Sep-2024)
 	</a>
+	(29-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://n.news.naver.com/article/011/0004390880?sid=101">
 		디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다
-		(10-Sep-2024)
 	</a>
+	(10-Sep-2024 KST)
 </li>
 </ul>
 
@@ -57,8 +58,8 @@ toc_sticky: true
 <li>
 	<a href="https://radiokorea.com/news/article.php?uid=451775">
 		[리포트] 실리콘밸리서 밀려나는 '개발자들'&hellip; "재취업도 힘들어"
-		(20-Sep-2024)
 	</a>
+	(20-Sep-2024 KST)
 </li>
 </ul>
 
@@ -69,8 +70,8 @@ toc_sticky: true
 <li>
 	<a href="https://www.nature.com/articles/d41586-024-02966-6">
 		[nature] This AI chatbot got conspiracy theorists to question their convictions
-		(12-Sep-2024)
 	</a>
+	(12-Sep-2024)
 </li>
 </ul>
 
@@ -80,8 +81,8 @@ toc_sticky: true
 <li>
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
-		(20-Sep-2024)
 	</a>
+	(20-Sep-2024 KST)
 </li>
 </ul>
 
@@ -91,8 +92,8 @@ toc_sticky: true
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240925155117">
 		보스턴다이내믹스 CEO "휴머노이드, 3~5년 내 공장서 일할 것"
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024 KST)
 </li>
 </ul>
 
@@ -102,14 +103,14 @@ toc_sticky: true
 <li>
 	<a href="https://www.chosun.com/economy/tech_it/2024/09/26/J72U7RBUV5H5NO7KRI3TFO6NE4/">
 		진화하는 '지도앱'… 화면 밖 세계로 넘어오다
-		(26-Sep-2024)
 	</a>
+	(26-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://analyticsindiamag.com/ai-news-updates/ai-will-soon-match-or-surpass-human-intelligence-says-yann-lecun/">
 		'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun
-		(24-Sep-2024)
 	</a>
+	(24-Sep-2024)
 </li>
 </ul>
 
@@ -118,40 +119,98 @@ toc_sticky: true
 
 <ul>
 <li>
+	<a href="https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/">
+		MIT spinoff Liquid debuts non-transformer AI models and they’re already state-of-the-art
+	</a>
+	- VentureBeat @ 30-Sep-2024
+	(<a href="#lfm">rel</a>)
+	&nbsp;
+	<div class="foldable-toggle">excerpts</div>
+	<div class="foldable-content">
+		<p>In this case, Liquid says it used a blend of “computational units deeply rooted in the theory of dynamical systems, signal processing, and numerical linear algebra,” and that the result is “general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals” to train its new LFMs.</p>
+		<p>Liquid AI’s new models retain the core benefits of this adaptability, allowing for real-time adjustments during inference without the computational overhead associated with traditional models, handling up to 1 million tokens efficiently, while keeping memory usage to a minimum.</p>
+		<p>A chart from the Liquid blog shows that the LFM-3B model, for instance, outperforms popular models like Google’s Gemma-2, Microsoft’s Phi-3, and Meta’s Llama-3.2 in terms of inference memory footprint, especially as token length scales.</p>
+		<img width="95%" src="/assets/images/ai/llm/lfm-performance-comparison.webp">
+    </div>
+</li>
+<li>
 	<a href="https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/">
 		Microsoft claims its new tool can correct AI hallucinations, but experts advise caution
-		(24-Sep-2024)
 	</a>
+	(24-Sep-2024)
 </li>
 <li>
 	<a href="https://www.mk.co.kr/news/it/11124091">
 		"돈 쏴줄테니 마음껏 해봐" &hellip; 기업가치 53조로 뛴 오픈AI 대항마, 주주 명단 보니
-		(24-Sep-2024)
 	</a>
+	(24-Sep-2024)
 </li>
 <li>
 	<a href="https://www.cnbc.com/2024/09/24/how-to-use-chatgpt-advanced-voice-mode-from-openai.html">
 		OpenAI just launched advanced voice mode for audio chats with ChatGPT. Here’s how to use it
-		(24-Sep-2024)
 	</a>
+	(24-Sep-2024)
 </li>
 <li>
 	<a href="https://yozm.wishket.com/magazine/detail/2775/">
 		챗GPT보다 좋다고? '클로드'로 업무 생산성 높이기
-		(24-Sep-2024)
 	</a>
+	(24-Sep-2024)
 </li>
 <li>
 	<a href="https://www.aitimes.com/news/articleView.html?idxno=163422">
 		알트먼, 'o1' 지나친 기대 경계&hellip;&nbsp; "o1은 AGI가 아니라 시작일뿐"
-		(14-Sep-2024)
 	</a>
+	(14-Sep-2024)
+</li>
+<li>
+	<a href="https://techcrunch.com/2024/09/13/first-impressions-of-openai-o1-an-ai-designed-to-overthink-it/">
+		First impressions of OpenAI o1: An AI designed to overthink it
+	</a>
+	(13-Sep-2024)
+</li>
+<li>
+	<a href="https://venturebeat.com/ai/forget-gpt-5-openai-launches-new-ai-model-family-o1-claiming-phd-level-performance/">
+		Forget GPT-5! OpenAI launches new AI model family o1 claiming PhD-level performance
+	</a>
+	- VentureBeat @ 12-Sep-2024
+</li>
+<li>
+	<a href="https://techcrunch.com/2024/09/11/mistral-releases-pixtral-its-first-multimodal-model/">
+		Mistral releases Pixtral 12B, its first multimodal model - TechCrunch
+	</a>
+	(11-Sep-2024)
+</li>
+<li>
+	<a href="https://venturebeat.com/ai/llama-omni-the-open-source-ai-thats-giving-siri-and-alexa-a-run-for-their-money/">
+		LLaMA-Omni: The open-source AI that’s giving Siri and Alexa a run for their money
+	</a>
+	- VentureBeat @ 11-Sep-2024
+</li>
+<li>
+	<a href="https://venturebeat.com/ai/new-open-source-ai-leader-reflection-70bs-performance-questioned-accused-of-fraud/">
+		New open source AI leader Reflection 70B's performance questioned, accused of 'fraud'
+	</a>
+	- VentureBeat @ 09-Sep-2024
 </li>
 <li>
 	<a href="https://techcrunch.com/2024/08/17/openais-new-voice-mode-let-me-talk-with-my-phone-not-to-it/">
 		OpenAI’s new voice mode let me talk with my phone, not to it
-		(17-Aug-2024)
 	</a>
+	(17-Aug-2024)
+</li>
+<li>
+	<a id="lfm" href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/">
+		How MIT’s Liquid Neural Networks can solve AI problems from robotics to self-driving cars
+	</a>
+	- VentureBeat @ 02-Aug-2023
+	&nbsp;
+	<div class="foldable-toggle">excerpts</div>
+	<div class="foldable-content">
+		<p>"Basically what we do is increase the representation learning capacity of a neuron over existing models by two insights,” Rus said. “First is a kind of a well-behaved state space model that increases the neuron stability during learning. And then we introduce nonlinearities over the synaptic inputs to increase the expressivity of our model during both training and inference."</p>
+		<p>LNNs also use a wiring architecture that is different from traditional neural networks and allows for lateral and recurrent connections within the same layer. The underlying mathematical equations and the novel wiring architecture enable liquid networks to learn continuous-time models that can adjust their behavior dynamically.</p>
+		<p>"This model is very interesting because it is able to be dynamically adapted after training based on the inputs it sees,” Rus said. “And the time constants that it observes are dependent on the inputs that it sees, and so we have much more flexibility and adaptation through this formulation of the neuron."</p>
+    </div>
 </li>
 </ul>
 
@@ -161,8 +220,8 @@ toc_sticky: true
 <li>
 	<a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">
 		[Medium] Meet with Genie — Upcoming AI Engineer (Coding is Ending!)
-		(23-Aug-2024)
 	</a>
+	(23-Aug-2024)
 </li>
 </ul>
 
@@ -172,8 +231,8 @@ toc_sticky: true
 <li>
 	<a href="https://hbr.org/2024/09/digital-twins-can-help-you-make-better-strategic-decisions">
 		Digital Twins Can Help You Make Better Strategic Decisions
-		(23-Sep-2024)
 	</a>
+	(23-Sep-2024)
 </li>
 </ul>
 
@@ -186,45 +245,45 @@ toc_sticky: true
 <li>
 	<a href="https://v.daum.net/v/20241001070017281">
 		세계 1위는 역시 달랐다&sdot; 메모리 열풍 전망한 골드만삭스 보고서 [줌컴퍼니]
-		(01-Oct-2024 KST)
 	</a>
+	(01-Oct-2024 KST)
 </li>
 <li>
 	<a href="https://v.daum.net/v/20240926100904774">
 		[특징주] 네오셈, 세계 유일 CXL 양산장비 몸값 ↑&hellip;'수조원 경쟁사 제쳐'
-		(26-Sep-2024)
 	</a>
+	(26-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://www.chosun.com/economy/tech_it/2024/09/26/ALWM5YV4GFFDXPJYB3WK3V2WP4/">
 		'반도체 겨울론' 뒤집은 마이크론 깜짝 실적... 하이닉스 9&#37;, 삼성전자 4&#37; 올라
-		(26-Sep-2024)
 	</a>
+	(26-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://www.businesspost.co.kr/BP?command=article_view&num=366836">
 		화웨이 '두 번 접는' 스마트폰 중국 반도체 한계 보여, SMIC 7나노 수율 부진
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://www.mk.co.kr/news/business/11124557">
 		‘가우디’가 인텔 살릴까 &hellip;
 		최첨단 AI칩 신제품 출시, 엔비디아에 도전
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024 KST)
 </li>
 <li>
 	<a href="https://www.cnet.com/tech/mobile/apple-may-ditch-qualcomms-5g-modems-in-some-2025-iphones-report-says/">
 		Apple May Ditch Qualcomm's 5G Modems in Some 2025 iPhones, Report Says
-		(24-Jul-2024)
 	</a>
+	(24-Jul-2024)
 </li>
 <li>
 	<a href="https://www.ajunews.com/view/20240919150815105">
 		AI시대 핵심 메모리 'CXL' 시장 열린다
-		(19-Sep-2024)
 	</a>
+	(19-Sep-2024)
 	&nbsp;
 	<div class="foldable-toggle">excerpts</div>
 	<div class="foldable-content">
@@ -246,19 +305,31 @@ toc_sticky: true
 <li>
 	<a href="https://www.digitimes.com/news/a20240917PD201/apple-5g-2025-modem-chips.html">
 		Apple poised to introduce self-developed 5G modem in iPhones by 2025
-		(18-Sep-2024)
 	</a>
+	(18-Sep-2024)
 </li>
 </ul>
 
-<h2 id="software">Software</h2>
+<h2 id="ai-software">Software</h2>
 
 <ul>
 <li>
 	<a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">
 		10 GitHub Repositories for Deep Learning Enthusiasts
-		(19-Sep-2024)
 	</a>
+	(19-Sep-2024)
+</li>
+</ul>
+
+
+<h1 id="software">Software</h1>
+
+<ul>
+<li>
+	<a href="https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/">
+		The End Of The SaaS Era: Rethinking Software’s Role In Business
+	</a>
+	(30-Sep-2024)
 </li>
 </ul>
 
@@ -269,8 +340,8 @@ toc_sticky: true
 <li>
 	<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
 		'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?
-		(19-Sep-2024)
 	</a>
+	(19-Sep-2024)
 	&nbsp;
 	<div class="foldable-toggle">excerpts</div>
 	<div class="foldable-content">
@@ -298,8 +369,9 @@ toc_sticky: true
 <li>
 	<a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&_hsmi=323659352">
 		AlphaProteo generates novel proteins for biology and health research
-		(05-Sep-2024)
-</a> - <a href="/alpha-fold-summary">summary</a>
+	</a>
+	(05-Sep-2024)
+	- <a href="/alpha-fold-summary">summary</a>
 </li>
 </ul>
 
@@ -310,8 +382,8 @@ toc_sticky: true
 <li>
 	<a href="https://v.daum.net/v/20240925061301205">
 		액침냉각 기술 - 7년 후 5300억→2.8조 시장 된다&hellip; 엔비디아도 눈독 들이는 이 기술
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024)
 </li>
 </ul>
 
@@ -322,20 +394,20 @@ toc_sticky: true
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240929024748">
 		애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'
-		(29-Sep-2024)
 	</a>
+	(29-Sep-2024)
 </li>
 <li>
 	<a href="https://www.kmib.co.kr/article/view.asp?arcid=0020551793">
 		손정의, 빌 게이츠 비교에 '발끈'&hellip; "나는 진시황, 제국 건설 중"
-		(23-Sep-2024)
 	</a>
+	(23-Sep-2024)
 </li>
 <li>
 	<a href="https://www.axios.com/2024/09/20/openai-largest-vc-round">
 		OpenAI closes in on largest VC round of all time - $6.5B @ $150B pre-money valuation
-		(18-Sep-2024)
 	</a>
+	(18-Sep-2024)
 </li>
 </ul>
 
@@ -345,8 +417,8 @@ toc_sticky: true
 <li>
 	<a href="https://www.quantamagazine.org/physicists-reveal-a-quantum-geometry-that-exists-outside-of-space-and-time-20240925/">
 		Physicists Reveal a Quantum Geometry That Exists Outside of Space and Time
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024)
 </li>
 </ul>
 
@@ -360,8 +432,8 @@ toc_sticky: true
 		2021
 		-
 		빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다. - 중앙일보
-		(02-Jul-2021)
 	</a>
+	(02-Jul-2021)
 </li>
 </ul>
 
@@ -371,14 +443,14 @@ toc_sticky: true
 <li>
 	<a href="https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html">
 		AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다
-		(23-Sep-2024)
 	</a>
+	(23-Sep-2024)
 </li>
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240927185509">
 		가천대·대한전자공학회 "온디바이스 AI용 반도체 집중 육성해야"
-		(27-Sep-2024)
 	</a>
+	(27-Sep-2024)
 </li>
 </ul>
 
@@ -388,8 +460,8 @@ toc_sticky: true
 <li>
 	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">
 		[Medium] Should You Forgive Your Parents? - Sure, they were good to you, but what about before you were born?
-		(13-Sep-2024)
 	</a>
+	(13-Sep-2024)
 </li>
 </ul>
 
@@ -400,20 +472,20 @@ toc_sticky: true
 <li>
 	<a href="https://www.nature.com/articles/d41586-024-03116-8">
 		How your brain detects patterns in the everyday: without conscious thought
-		(25-Sep-2024)
 	</a>
+	(25-Sep-2024)
 </li>
 <li>
 	<a href="https://medium.com/behavior-design/how-to-stop-overthinking-22e29f695bad">
 		[Medium] How to Stop Overthinking
-		(20-Aug-2024)
 	</a>
+	(20-Aug-2024)
 </li>
 <li>
 	<a href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18">
 		Cognitive bias cheat sheet
-		(01-Sep-2016)
 	</a>
+	(01-Sep-2016)
 	&nbsp;
 	<div class="foldable-toggle">cognitive bias codex, 2016</div>
 	<div class="foldable-content">
