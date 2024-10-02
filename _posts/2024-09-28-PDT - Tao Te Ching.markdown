@@ -1728,7 +1728,11 @@ Main text
 	사람들의 불신이 따르게 된다.
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/lao-tzu/cute-girl-playing-guitar.png">
+
+<div class="translation-container">
 <p>
 	悠兮其貴言
 <span class="chinese-korean-transliteration">
@@ -1753,8 +1757,6 @@ Main text
 </span>
 </p>
 </div>
-
-<img width="60%" src="/assets/images/lao-tzu/cute-girl-playing-guitar.png">
 
 <h2 id="18">
 	제18장
@@ -1826,67 +1828,283 @@ Main text
 
 <img width="60%" src="/assets/images/lao-tzu/scary-girl.png">
 
+<h2 id="19">
+	제19장
+	-
+	박소樸素
+</h2>
+
+<blockquote>
+	나의 생각 나의 지혜 나의 거룩함을 버리면
+	<br>
+	백배나 더 행복할 것이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	絶聖棄智
+	民利百倍
+<span class="chinese-korean-transliteration">
+	절성기지
+	민리백배
+</span>
+<span class="chinese-korean-translation">
+	성스런 체함을 그만두고 아는 체함을 버리면
+	<br>
+	사람에게 이로움이 백 배나 더할 것이다.
+</span>
+</p>
+
+<p>
+	絶仁棄義
+	民復孝慈
+<span class="chinese-korean-transliteration">
+	절인기의
+	민복효자
+</span>
+<span class="chinese-korean-translation">
+	인을 그만두고 의를 버리면
+	<br>
+	사람이 효성과 자애를 회복할 것이다.
+</span>
+</p>
+
+<p>
+	絶巧棄利
+	盜賊無有
+<span class="chinese-korean-transliteration">
+	절교기리
+	도적무유
+</span>
+<span class="chinese-korean-translation">
+	재간 부리기를 그만두고 이익보려는 마음을 버리면
+	<br>
+	도둑이 없어질 것이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/empty-bottle-08.png">
+
+<div class="translation-container">
+<p>
+	此三者以爲文不足
+	故令有所屬
+<span class="chinese-korean-transliteration">
+	차삼자이위문불족
+	고령유소속
+</span>
+<span class="chinese-korean-translation">
+	이 세 가지는 문명을 위하는 일이지만 그 자체만으로는 부족하다.
+	<br>
+	그러므로 뭔가 덧붙이지 않을 수 없다.
+</span>
+</p>
+
+<p>
+	見素抱樸
+	少私寡欲
+<span class="chinese-korean-transliteration">
+	견소포박
+	소사과욕
+</span>
+<span class="chinese-korean-translation">
+	물들이지 않은 명주의 순박한을 드러내고
+	<br>
+	다듬지 않은 통나무의 질박함을 품는 것
+	<br>
+	"나"중심의 생각을 적게 하고 욕심을 줄이는 것이다.
+</span>
+</p>
+
+<p>
+<span class="chinese-korean-transliteration">
+</span>
+<span class="chinese-korean-translation">
+</span>
+</p>
+</div>
+
+<h2 id="20">
+	제20장
+	-
+	식모食母
+</h2>
+
+<blockquote>
+	나 홀로 근심걱정없이 하늘과 땅의 젖을 먹고 산다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	絶學無憂
+	唯之與阿
+	相去幾何
+<span class="chinese-korean-transliteration">
+	절학무우
+	유지여아
+	상거기하
+</span>
+<span class="chinese-korean-translation">
+	쓸데없는 배움을 그만두면 근심이 없어질 것이니
+	<br>
+	"예"라는 대답과 "응"이라는 대답의 차이가 얼마이겠는가?
+</span>
+</p>
+
+<p>
+	善之與惡
+	相去若何
+<span class="chinese-korean-transliteration">
+	선지여악
+	상거약하
+</span>
+<span class="chinese-korean-translation">
+	선하다는 것과 악하다는 것의 차이가 얼마이겠는가?
+</span>
+</p>
+
+<p>
+	人之所畏
+	不可不畏
+<span class="chinese-korean-transliteration">
+	인지소외
+	불가불외
+</span>
+<span class="chinese-korean-translation">
+	사람들이 두려워하는 것을 나도 두려워해야 하는가?
+</span>
+</p>
+
+<p>
+	荒兮其未央哉
+<span class="chinese-korean-transliteration">
+	황혜기미앙재
+</span>
+<span class="chinese-korean-translation">
+	얼마나 허황하기 그지없는 이야기인가?
+</span>
+</p>
+
+<p>
+	衆人熙熙
+	如享太牢
+	如春登臺
+	我獨泊兮其未兆
+	如嬰兒之未孩
+	儽儽兮若無所歸
+<span class="chinese-korean-transliteration">
+	중인희희
+	여향태뢰
+	여춘등대
+	아독박혜기미조
+	여영아지미해
+	래래혜약무소귀
+</span>
+<span class="chinese-korean-translation">
+	딴 사람 즐거워하기를
+	<br>
+	모두 소 잡아 제사 지내는 것처럼 하고
+	<br>
+	봄철 망두에 오른 것처럼 기뻐하는데
+	<br>
+	나 홀로 멍청하여 무슨 기미조차 보이지 않고
+	<br>
+	아직 웃을 줄도 모르는 갓난아이 같기만 하다.
+	<br>
+	지친 몸이나 돌아갈 곳 없는 사람과 같도다.
+</span>
+</p>
+
+<p>
+	衆人皆有餘
+	而我獨若遺
+	我愚人之心也哉
+	沌沌兮
+<span class="chinese-korean-transliteration">
+	중인개유여
+	이아독약유
+	아우인지심야재
+	돈돈혜
+</span>
+<span class="chinese-korean-translation">
+	세상 사람들 모두 여유 있어 보이는데
+	<br>
+	나 홀로 빈털터리 같습니다.
+	<br>
+	내 마음 바보의 마음인가
+	흐리멍텅하기만 하다.
+</span>
+</p>
+
+<p>
+	俗人昭昭
+	我獨昏昏
+	俗人察察
+	我獨悶悶
+	澹兮其若海
+	飂兮若無止
+<span class="chinese-korean-transliteration">
+	속인소소
+	아독혼혼
+	속인찰찰
+	아독민민
+	담혜기약해
+	료혜약무지
+</span>
+<span class="chinese-korean-translation">
+	세상 사람들 모두 총명한데
+	나 홀로 아리송하고
+	<br>
+	세상 사람들 모두 똑똑한데
+	나 홀로 맹맹하다.
+	<br>
+	바다처럼 잠잠하고
+	머무름이 없는 바람 같도다.
+</span>
+</p>
+
+<p>
+	衆人皆有以
+	而我獨頑似鄙
+<span class="chinese-korean-transliteration">
+	중인개유이
+	이아독완사비
+</span>
+<span class="chinese-korean-translation">
+	사람들 모두 뚜렷한 목적이 있는데
+	<br>
+	나 홀로 고집스럽고 촌스럽게 보인다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/girl-on-boat-in-beautiful-night.png">
+
+<div class="translation-container">
+<p>
+	<font class="emph">
+	我獨異於人
+	而貴食母
+	</font>
+<span class="chinese-korean-transliteration">
+	<font class="emph">
+	아독이어인
+	이귀식모
+	</font>
+</span>
+<span class="chinese-korean-translation">
+	<font class="emph">
+	나 홀로 뭇사람과 다른 것은
+	<br>
+	나 홀로 하늘어머니 젖먹음을 귀히 여기는 것이다.
+	</font>
+</span>
+</p>
+</div>
+
+
 <!--
-19. 樸素(박소)
-
-
-
-나의 생각, 나의 지혜, 나의 거룩함을 버리면,
-
-백배나 더 행복할 것이다.
-
-
-絶聖棄智(절성기지) : 성스런 체함을 그만두고 아는 체함을 버리면
-民利百倍(민리백배) : 사람에게 이로움이 백 배나 더할 것이다.
-絶仁棄義(절인기의) : 인을 그만두고 의를 버리면
-民復孝慈(민복효자) : 사람이 효성과 자애를 회복할 것이다.
-絶巧棄利(절교기리) : 재간 부리기를 그만두고 이익보려는 마음을 버리면
-盜賊無有(도적무유) : 도둑이 없어질 것이다.
-此三者以爲文不足(차삼자이위문불족) : 이 세 가지는 문명을 위하는 일이지만그 자체만으로는 부족하다
-故令有所屬(고령유소속) : 그러므로 뭔가 덧붙이지 않을 수 없다.
-見素抱樸(견소포박) : 물들이지 않은 명주의 순박한을 드러내고 다듬지 않은 통나무의 질박함을 품는 것
-少私寡欲(소사과욕) : <나>중심의 생각을 적게 하고 욕심을 줄이는 것이다.
-
-
-
-20. 食母(식모)
-
-
-
-나 홀로 근심걱정없이 하늘과 땅의 젖을 먹고 산다.
-
-
-絶學無憂(절학무우) : 쓸데없는 배움을 그만두면 근심이 없어질 것이니,
-唯之與阿(유지여아) : <예>라는 대답과 <응>이라는 대답의
-相去幾何(상거기하) : 차이가 얼마이겠는가?
-善之與惡(선지여악) : 선하다는 것과 악하다는 것의
-相去若何(상거약하) : 차이가 얼마이겠는가?
-人之所畏(인지소외) : 사람들이 두려워하는 것을
-不可不畏(불가불외) : 나도 두려워해야 하는가?
-荒兮其未央哉(황혜기미앙재) : 얼마나 허황하기 그지없는 이야기인가...
-衆人熙熙(중인희희) : 딴 사람 즐거워하기를
-如享太牢(여향태뢰) : 모두 소 잡아 제사 지내는 것처럼 하고
-如春登臺(여춘등대) : 봄철 망두에 오른 것처럼 기뻐하는데
-我獨泊兮其未兆(아독박혜기미조) : 나 홀로 멍청하여 무슨 기미조차 보이지 않고
-如嬰兒之未孩(여영아지미해) : 아직 웃을 줄도 모르는 갓난아이 같기만 하다.
-儽儽兮若無所歸(래래혜약무소귀) : 지친 몸이나 돌아갈 곳 없는 사람과 같도다.
-衆人皆有餘(중인개유여) : 세상 사람들 모두 여유 있어 보이는데
-而我獨若遺(이아독약유) : 나 홀로 빈털터리 같습니다.
-我愚人之心也哉(아우인지심야재) : 내 마음 바보의 마음인가
-沌沌兮(돈돈혜) : 흐리멍텅하기만 하다.
-俗人昭昭(속인소소) : 세상 사람들 모두 총명한데
-我獨昏昏(아독혼혼) : 나 홀로 아리송하고,
-俗人察察(속인찰찰) : 세상 사람들 모두 똑똑한데
-我獨悶悶(아독민민) : 나 홀로 맹맹하다.
-澹兮其若海(담혜기약해) : 바다처럼 잠잠하고
-飂兮若無止(료혜약무지) : 머무름이 없는 바람 같도다.
-衆人皆有以(중인개유이) : 사람들 모두 뚜렷한 목적이 있는데
-而我獨頑似鄙(이아독완사비) : 나 홀로 고집스럽고 촌스럽게 보인다.
-我獨異於人(아독이어인) : 나 홀로 뭇사람과 다른 것은
-而貴食母(이귀식모) : 나 홀로 하늘어머니 젖먹음을 귀히 여기는 것이다.
-
-
-
 21. 從道(종도)
 
 
