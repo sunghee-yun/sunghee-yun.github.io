@@ -134,7 +134,7 @@ Concerts
 Trips
 </h1>
 
-<h2 id="trips-2021-">2021 &#126;</h2>
+<h2 id="trips-2021-">2021 &#126; present</h2>
 
 <!--h2 id="trips-2024">2024</h2-->
 <h3>2024</h3>
@@ -197,7 +197,10 @@ Trips
 
 <ul>
 <li>
-	biz trip to Seoul - 10 nights (tentative)
+	(tentative)
+	biz trip to Seoul
+	-
+	10 nights
 	<ul>
 	<li>
 		03-Nov-2024 ~ 13-Nov-2024 PDT
@@ -222,6 +225,35 @@ Trips
 <h4>Oct</h4>
 
 <ul>
+<li>
+	biz trip for Liquid AI Product Launch
+	-
+	2 nights
+	<ul>
+	<li>
+		22-Oct-2024 ~ 24-Oct-2024 PDT
+	</li>
+	<li>
+		flight 1
+		-
+		Delta 400
+		-
+		from SFO @ 7:15am PDT to BOS @ 4:05pm EDT on 22-Oct-2024
+	</li>
+	<li>
+		flight 2
+		-
+		B6 333
+		-
+		from BOS @ 7:45pm EDT
+		to SFO @ 11:20pm PDT
+		on 24-Oct-2024
+	</li>
+	<li>
+		stay @ ??
+	</li>
+	</ul>
+</li>
 <li>
 	biz trip for CryptoLab Unpack - 1 night
 	<ul>
