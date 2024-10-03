@@ -46,7 +46,34 @@ toc_sticky: true
 
 <h2 id="impacts">Impacts</h2>
 
-<h3 id="social">societal, economic, cultural and political impacts</h3>
+<h3 id="legal-impacts">legal impacts</h3>
+
+<ul>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047&utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9fI9QstXaP4Ymya088giiFna5q8Io3XAtE183kvRgxaoDPVHs0eH9nRwmx06I7I6QFVfQu">
+		SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)
+	</a>
+</li>
+</ul>
+
+<h3 id="societal-impacts">societal impacts</h3>
+
+<ul>
+<li>
+	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">
+		California Governor Vetoes Sweeping A.I. Legislation
+	</a>
+	- NY Times @ 29-Sep-2024
+</li>
+<li>
+	<a href="https://www.deeplearning.ai/the-batch/blenders-versus-bombs-or-why-californias-proposed-ai-law-is-bad-for-everyone/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--eyRhmWpB_UJRDrNmj3csFjGcUjEmUE-dDaEKb4BVW0d7_ivS_2SbMXtD5d-QOYT7LQCWgJd2t_LQrBmf7soGxEzvClg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">
+		Blenders Versus Bombs, or Why California’s Proposed AI Law is Bad for Everyone
+	</a>
+	- The Batch by DeepLearning.AI @ 05-Jun-2024
+</li>
+</ul>
+
+<h3 id="economic-impacts">economic impacts</h3>
 
 <ul>
 <li>
@@ -119,11 +146,11 @@ toc_sticky: true
 
 <ul>
 <li>
-	<a href="https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/">
+	<a id="lfm" href="https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/">
 		MIT spinoff Liquid debuts non-transformer AI models and they’re already state-of-the-art
 	</a>
 	- VentureBeat @ 30-Sep-2024
-	(<a href="#lfm">rel</a>)
+	(<a href="#lnn">rel</a>)
 	&nbsp;
 	<div class="foldable-toggle">excerpts</div>
 	<div class="foldable-content">
@@ -200,7 +227,7 @@ toc_sticky: true
 	(17-Aug-2024)
 </li>
 <li>
-	<a id="lfm" href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/">
+	<a id="lnn" href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/">
 		How MIT’s Liquid Neural Networks can solve AI problems from robotics to self-driving cars
 	</a>
 	- VentureBeat @ 02-Aug-2023
@@ -241,6 +268,12 @@ toc_sticky: true
 <ul>
 <li>
 	comparison of AI accelerators - <a href="/ai-hardware">ChatGPT answer</a>
+</li>
+<li>
+	<a href="https://zdnet.co.kr/view/?no=20241002074840">
+		"엔비디아, 블랙웰 일부 제품 개발 중단 추정"
+	</a>
+	(02-Oct-2024 KST)
 </li>
 <li>
 	<a href="https://v.daum.net/v/20241001070017281">
