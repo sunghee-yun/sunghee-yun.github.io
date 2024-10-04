@@ -44,6 +44,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 다양하게 번역이 이루어졌다.
 현재 유행하는 금강경은 구마라습본이다.<sup><a href="#footnote01" id="ref01">1</a></sup>
 
+<div class="img-container">
+	<img src="/assets/images/buddhism/sakura.png">
+</div>
+
 금강경金剛經의 내용은
 석가모니가 사위국의 기수급고독원에서 제자인 <a href="#subhuti">수보리</a>와 문답 형식의 대화를 주고받는 것으로 되어있다.
 석가모니는 수보리의 질문에 답하여 보살이 마땅히 이루어야 할 것에 대해 답하고 설명한다.
@@ -66,15 +70,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 이런 이미지를 차용하여 금강저金剛杵는 중생의 어리석음을 깨부셔
 지혜를 가진 부처로 만들어주는 불구佛具(불교도구)가 되었다.
 
+<div class="img-container">
+	<img width="60%" src="/assets/images/buddhism/vajra.jpg">
+</div>
+
 <h2 id="wisdom">반야般若</h2>
 
 반야般若는 지혜를 뜻한다.
+
+<div class="img-container">
+	<img width="60%" src="/assets/images/buddhism/boat.png">
+</div>
 
 <h2 id="wisdom">바라밀波羅密</h2>
 
 바라밀波羅密 또는 바라밀다波羅蜜多는 산스크리트어 파라미타(पारमिता pāramitā)를 음에 따라 번역한 것으로
 완전한 상태&nbsp;&sdot;&nbsp;구극究極의 상태&nbsp;&sdot;&nbsp;최고의 상태를 뜻하는데
 '저쪽 언덕으로 건너가는 것' 즉 도피안到彼岸 또는 열반涅槃을 뜻하는 말이다.
+
+<div class="img-container">
+	<img width="60%" src="/assets/images/buddhism/boat-river-hill.png">
+</div>
 
 따라서 금강반야바라밀다경金剛般若波羅蜜多經은 금강석과 같이 견고한 지혜를 얻어 무명을 타파하고 열반에 이르라는 부처님의 말씀이다.
 
@@ -494,6 +510,8 @@ Main text
 </p>
 </div>
 
+<img width="60%" src="/assets/images/buddhism/linen-fabric.png">
+
 <h2 id="2">
 	第二 善現起請分
 	-
@@ -551,7 +569,11 @@ Main text
 	위없이 높고 바른 깨달음의 마음을 일으킬 때 마땅히 그 마음을 어떻게 항복 받아야 합니까?</font>"
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/buddhism/good-man-good-woman-praying.png">
+
+<div class="translation-container">
 <p>
 	佛言 善哉善哉 須菩提 如汝所說 如來 善護念諸菩薩 善付囑諸菩薩 汝今諦請 當爲汝說
 <span class="chinese-korean-transliteration">
@@ -683,10 +705,11 @@ Main text
 	만일 보살이
 	아상我相&nbsp;&sdot;&nbsp;인상人相&nbsp;&sdot;&nbsp;중생상衆生相&nbsp;&sdot;&nbsp;수자상壽者相이 있으면
 	곧 보살이 아니니라.</font>"
-
 </span>
 </p>
 </div>
+
+<img width="60%" src="/assets/images/buddhism/boy-girl-umbrella.jpeg">
 
 <h2 id="4">
 	第四 妙行無住分
@@ -796,7 +819,11 @@ Main text
 	</font>
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/buddhism/space-man-infinity.png">
+
+<div class="translation-container">
 <p>
 	須菩提 菩薩 但應如所敎住
 <span class="chinese-korean-transliteration">
