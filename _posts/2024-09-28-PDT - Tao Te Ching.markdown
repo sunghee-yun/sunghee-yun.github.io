@@ -21,7 +21,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 
-<h1 id="intro">Intro</h1>
+<h1 id="intro">
+	Intro
+</h1>
 
 도덕경道德經(중국어 간체자: 道德经, 중국어 병음: dàodéjīng, 영어: Tao Te Ching)은
 노자老子가 지은 것으로 알려진 도가의 대표적인 경전으로
@@ -127,8 +129,176 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 도덕경의 비유는 그 자체로 독자들이 도道를 실천하기를 촉구하고 있는 셈이다.
 
 
+<h1 id="highlight">
+	Key phrases highlighted by the author
+</h1>
+
+<div class="text-highlight">
+	<a href="#way-not-way"><font class="emph">
+		道可道非常道
+		名可名非常名
+	</font></a>
+	<br>
+	도가도비상도
+	명가명비상명
+<span class="chinese-korean-translation">
+	도道라고 말 할 수 있는 도道는 도道가 아니다.
+	<br>
+	이름 지을 수 있는 이름은 영원한 이름이 아니다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#absence-for-utility"><font class="emph">
+		故有之以爲利
+		無之以爲用
+	</font></a>
+	<br>
+	고유지이위리
+	무지이위용
+<span class="chinese-korean-translation">
+	그러므로 있음은 이로움을 위한 것이지만
+	<br>
+	없음은 쓸모가 생겨나게 하는 것이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#not-want-to-be-filled"><font class="emph">
+		夫唯不盈
+		故能蔽而新成
+	</font></a>
+	<br>
+	부유불영
+	고능폐이신성
+<span class="chinese-korean-translation">
+	채워지기를 원하지 않기 때문에
+	<br>
+	능히 옛것을 덮고 새것을 이룰 수 있다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#if-big-way-fails"><font class="emph">
+	大道廢
+	有仁義
+	慧智出
+	有大僞
+	</font></a>
+	<br>
+	대도폐
+	유인의
+	혜지출
+	유대위
+<span class="chinese-korean-translation">
+	대도가 폐하면
+	<br>
+	인이니 의니 하는 것이 나서고
+	<br>
+	지략이니 지모니 하는 것이 설치면
+	<br>
+	엄청난 위선이 만연하게 된다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#six-relatives-not-harmonious"><font class="emph">
+	六親不和
+	有孝慈
+	國家昏亂
+	有忠臣
+	</font></a>
+	<br>
+	륙친불화
+	유효자
+	국가혼란
+	유충신
+<span class="chinese-korean-translation">
+	여섯가지 친족이 불화하면
+	<br>
+	효니 자니 하는 것이 나서고
+	<br>
+	나라가 어지러워지면
+	<br>
+	충신이 생겨난다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#reason-why-i-am-different-alone"><font class="emph">
+	我獨異於人
+	而貴食母
+	</font></a>
+	<br>
+	아독이어인
+	이귀식모
+<span class="chinese-korean-translation">
+	나 홀로 뭇사람과 다른 것은
+	<br>
+	나 홀로 하늘어머니 젖먹음을 귀히 여기는 것이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#everyone-detests"><font class="emph">
+	其在道也
+	曰餘食贅行
+	物或惡之
+	</font></a>
+	<br>
+	기재도야
+	왈여식췌행
+	물혹악지
+<span class="chinese-korean-translation">
+	도의 입장에서 보면
+	<br>
+	이런 일은 밥찌꺼지 군더더기 같은 행동으로
+	<br>
+	모두가 싫어하는 것이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#human-earth-heaven-dao-itself"><font class="emph">
+	人法地
+	地法天
+	天法道
+	道法自然
+	</font></a>
+	<br>
+	인법지
+	지법천
+	천법도
+	도법자연
+<span class="chinese-korean-translation">
+	사람은 땅을 본받고
+	<br>
+	땅은 하늘을 본받고
+	<br>
+	하늘은 도를 본받고
+	<br>
+	도道는 "스스로 그러함"을 본받는다.
+</span>
+</div>
+
+<!--div class="text-highlight">
+	<a href="#sdf"><font class="emph">
+	</font></a>
+	<br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#sdf"><font class="emph">
+	</font></a>
+	<br>
+<span class="chinese-korean-translation">
+</span>
+</div-->
+
 <h1 id="main-text">
-Main text
+	Main text
 </h1>
 
 <h2 id="1">
@@ -147,6 +317,7 @@ Main text
 
 
 <div class="translation-container">
+<font id="way-not-way" class="emph">
 <p>
 	道可道非常道
 	名可名非常名
@@ -160,6 +331,7 @@ Main text
 	이름 지을 수 있는 이름은 영원한 이름이 아니다.
 </span>
 </p>
+</font>
 
 <p>
 	無名天地之始
@@ -169,7 +341,8 @@ Main text
 	유명만물지모
 </span>
 <span class="chinese-korean-translation">
-	이름 붙일 수 없는 것이 천지의 시작이며,
+	이름 붙일 수 없는 것이 천지의 시작이며
+	<br>
 	이름 붙일 수 있는 것이 만물의 어머니다.
 </span>
 </p>
@@ -182,7 +355,8 @@ Main text
 	상유욕이관기요
 </span>
 <span class="chinese-korean-translation">
-	그러므로 언제나 욕심내지 않으면 그 오묘함을 볼 수 있지만,
+	그러므로 언제나 욕심내지 않으면 그 오묘함을 볼 수 있지만
+	<br>
 	언제나 욕심냄이 있으면 그 나타남만을 볼 수 있다.
 </span>
 </p>
@@ -211,8 +385,8 @@ Main text
 </span>
 <span class="chinese-korean-translation">
 	같은 것 이것를 신비롭다고 말한다.
-	신비롭고 또 신비로우니
-	모든 신비의 문이로다.
+	<br>
+	신비롭고 또 신비로우니 모든 신비의 문이로다.
 </span>
 </p>
 </div>
@@ -1066,25 +1240,21 @@ Main text
 </span>
 </p>
 
+<font id="absence-for-utility" class="emph">
 <p>
-	<font class="emph">
 	故有之以爲利
 	無之以爲用
-	</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">
 	고유지이위리
 	무지이위용
-	</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">
 	그러므로 있음은 이로움을 위한 것이지만
 	<br>
 	없음은 쓸모가 생겨나게 하는 것이다.
-	</font>
 </span>
 </p>
+</font>
 </div>
 
 <img width="60%" src="/assets/images/lao-tzu/empty-bottle-02.jpeg">
@@ -1506,24 +1676,21 @@ Main text
 </span>
 </p>
 
+<font id="not-want-to-be-filled" class="emph">
 <p>
-	<font class="emph">
 	夫唯不盈
 	故能蔽而新成
-	</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">
 	부유불영
 	고능폐이신성
-	</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">
 	채워지기를 원하지 않기 때문에
+	<br>
 	능히 옛것을 덮고 새것을 이룰 수 있다.
-	</font>
 </span>
 </p>
+</font>
 </div>
 
 <img width="60%" src="/assets/images/lao-tzu/ship-filled-with-books.png">
@@ -1603,7 +1770,7 @@ Main text
 	지상왈명
 </span>
 <span class="chinese-korean-translation">
-	제 목숨을 찾아감이 영원한 것이며,
+	제 목숨을 찾아감이 영원한 것이며
 	<br>
 	영원한 것을 아는 것이 밝아짐이다.
 </span>
@@ -1752,23 +1919,19 @@ Main text
 </blockquote>
 
 <div class="translation-container">
+<font id="if-big-way-fails" class="emph">
 <p>
-	<font class="emph">
 	大道廢
 	有仁義
 	慧智出
 	有大僞
-	</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">
 	대도폐
 	유인의
 	혜지출
 	유대위
-	</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">
 	대도가 폐하면
 	<br>
 	인이니 의니 하는 것이 나서고
@@ -1776,27 +1939,23 @@ Main text
 	지략이니 지모니 하는 것이 설치면
 	<br>
 	엄청난 위선이 만연하게 된다.
-	</font>
 </span>
 </p>
+</font>
 
+<font id="six-relatives-not-harmonious" class="emph">
 <p>
-	<font class="emph">
 	六親不和
 	有孝慈
 	國家昏亂
 	有忠臣
-	</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">
 	륙친불화
 	유효자
 	국가혼란
 	유충신
-	</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">
 	여섯가지 친족이 불화하면
 	<br>
 	효니 자니 하는 것이 나서고
@@ -1804,9 +1963,9 @@ Main text
 	나라가 어지러워지면
 	<br>
 	충신이 생겨난다.
-	</font>
 </span>
 </p>
+</font>
 </div>
 
 <img width="60%" src="/assets/images/lao-tzu/scary-girl.png">
@@ -2065,25 +2224,21 @@ Main text
 <img width="60%" src="/assets/images/lao-tzu/girl-on-boat-in-beautiful-night.png">
 
 <div class="translation-container">
+<font id="reason-why-i-am-different-alone" class="emph">
 <p>
-	<font class="emph">
 	我獨異於人
 	而貴食母
-	</font>
 <span class="chinese-korean-transliteration">
-	<font class="emph">
 	아독이어인
 	이귀식모
-	</font>
 </span>
 <span class="chinese-korean-translation">
-	<font class="emph">
 	나 홀로 뭇사람과 다른 것은
 	<br>
 	나 홀로 하늘어머니 젖먹음을 귀히 여기는 것이다.
-	</font>
 </span>
 </p>
+</font>
 </div>
 
 <h2 id="21">
@@ -2462,7 +2617,7 @@ Main text
 	덕德 역시 그를 얻었음을 기뻐하고
 	<br>
 	잃은 사람과 하나된 사람
-	잃음 역시 그를 잃었음을 기뻐할 것이니,
+	잃음 역시 그를 잃었음을 기뻐할 것이니
 	<br>
 	도道에 대한 믿음이 모자라면 불신이라는 것이 따르게 마련이다.
 </span>
@@ -2522,7 +2677,7 @@ Main text
 </span>
 </p>
 
-<font class="emph">
+<font id="everyone-detests" class="emph">
 <p>
 	其在道也
 	曰餘食贅行
@@ -2694,7 +2849,7 @@ Main text
 </span>
 </p>
 
-<font class="emph">
+<font id="human-earth-heaven-dao-itself" class="emph">
 <p>
 	人法地
 	地法天
@@ -4196,7 +4351,9 @@ Main text
 
 -->
 
-<h1 id="ref">Reference</h1>
+<h1 id="ref">
+	Reference
+</h1>
 
 <ul>
 <li>
