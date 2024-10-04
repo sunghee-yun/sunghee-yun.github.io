@@ -127,23 +127,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 도덕경의 비유는 그 자체로 독자들이 도道를 실천하기를 촉구하고 있는 셈이다.
 
 
-<!--h1 id="highlight">
-	Key phrases highlighted by the author
-</h1>
-
-<div class="text-highlight">
-	<a href="#how-to-subdue"><font class="emph">善男子 善女人 發阿耨 多羅三藐三菩提心 應云何住 云何降伏其心</font></a>
-	<br>
-	선남자 선여인 발아뇩다라삼먁삼보리심 응운하주 운하항복기심
-<span class="chinese-korean-translation">
-	선남자善男子 선여인善女人이
-	위없이 높고 바른 깨달음의 마음을 일으킬 때 마땅히 그 마음을 어떻게 항복 받아야 합니까?
-</span>
-	<br>
-	(第一 法會因由分 - 제1 법회유인분)
-</div-->
-
-
 <h1 id="main-text">
 Main text
 </h1>
@@ -2444,11 +2427,11 @@ Main text
 	실자동어실
 </span>
 <span class="chinese-korean-translation">
-	그러므로 일을 함에 있어서 도를 따라야 하나니
+	그러므로 일을 함에 있어서 도道를 따라야 하나니
 	<br>
-	도가 있는 사람은 도에서 하나가 되고
+	도道가 있는 사람은 도에서 하나가 되고
 	<br>
-	덕이 있는 사람은 덕에서 하나가 되며
+	덕德이 있는 사람은 덕에서 하나가 되며
 	<br>
 	잃은 사람은 잃음과 하나가 된다.
 </span>
@@ -2472,73 +2455,273 @@ Main text
 	신불족언유불신언
 </span>
 <span class="chinese-korean-translation">
-	도와 하나된 사람
-	도 역시 그를 얻었음을 기뻐하고
+	도道와 하나된 사람
+	도道 역시 그를 얻었음을 기뻐하고
 	<br>
-	덕과 하나된 사람
-	덕 역시 그를 얻었음을 기뻐하고
+	덕德과 하나된 사람
+	덕德 역시 그를 얻었음을 기뻐하고
 	<br>
 	잃은 사람과 하나된 사람
 	잃음 역시 그를 잃었음을 기뻐할 것이니,
 	<br>
-	도에 대한 믿음이 모자라면 불신이라는 것이 따르게 마련이다.
+	도道에 대한 믿음이 모자라면 불신이라는 것이 따르게 마련이다.
 </span>
 </p>
 </div>
 
+<h2 id="24">
+	제24장
+	-
+	불처不處
+</h2>
+
+<blockquote>
+	발끝으로 서는 사람이 오래 설 수 있겠는가?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	跂者不立
+<span class="chinese-korean-transliteration">
+	기자불립
+</span>
+<span class="chinese-korean-translation">
+	발끝으로 서는 사람은 오래 설 수 없고
+</span>
+</p>
+
+<p>
+	跨者不行
+<span class="chinese-korean-transliteration">
+	과자불행
+</span>
+<span class="chinese-korean-translation">
+	다리를 너무 벌리는 사람은 걸을 수 없다.
+</span>
+</p>
+
+<p>
+	自見者不明
+	自是者不彰
+	自伐者無功
+	自矜者不長
+<span class="chinese-korean-transliteration">
+	자견자불명
+	자시자불창
+	자벌자무공
+	자긍자불장
+</span>
+<span class="chinese-korean-translation">
+	스스로를 드러내려는 사람은 밝게 빛날 수 없고
+	<br>
+	스스로 의롭다 하는 사람은 돋보일 수 없고
+	<br>
+	스스로 자랑하는 사람은 그 공로를 인정받지 못하고
+	<br>
+	스스로 뽐내는 사람은 오래갈 수 없다.
+</span>
+</p>
+
+<font class="emph">
+<p>
+	其在道也
+	曰餘食贅行
+	物或惡之
+<span class="chinese-korean-transliteration">
+	기재도야
+	왈여식췌행
+	물혹악지
+</span>
+<span class="chinese-korean-translation">
+	도의 입장에서 보면
+	<br>
+	이런 일은 밥찌꺼지 군더더기 같은 행동으로
+	<br>
+	모두가 싫어하는 것이다.
+</span>
+</p>
+</font>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/spiral.png">
+
+<div class="translation-container">
+<p>
+	故有道者不處
+<span class="chinese-korean-transliteration">
+	고유도자불처
+</span>
+<span class="chinese-korean-translation">
+	그러므로 도를 지닌 사람은 이런 일을 하지 않는다.
+</span>
+</p>
+</div>
+
+<h2 id="25">
+	제25장
+	-
+	혼성混成
+</h2>
+
+<blockquote>
+	도라는 것은 빛갈도 소리도 형체도 없다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	有物混成
+	先天地生
+<span class="chinese-korean-transliteration">
+	유물혼성
+	선천지생
+</span>
+<span class="chinese-korean-translation">
+	분화되지 않은 완전한 무엇
+	<br>
+	하늘과 땅보다 먼저 있었다.
+</span>
+</p>
+
+<p>
+	寂兮寥兮
+	獨立不改
+	周行而不殆
+<span class="chinese-korean-transliteration">
+	적혜요혜
+	독립불개
+	주행이불태
+</span>
+<span class="chinese-korean-translation">
+	소리도 없고 형체도 없고
+	<br>
+	무엇에 의존하지도 않고 변하지도 않고
+	<br>
+	두루 편만하여 계속 움직이나 없어질 위험이 없다.
+</span>
+</p>
+
+<p>
+	可以爲天下母
+<span class="chinese-korean-transliteration">
+	가이위천하모
+</span>
+<span class="chinese-korean-translation">
+	가히 세상의 어머니라 하겠다.
+</span>
+</p>
+
+<p>
+	吾不知其名
+<span class="chinese-korean-transliteration">
+	오불지기명
+</span>
+<span class="chinese-korean-translation">
+	나는 그 이름을 모른다.
+</span>
+</p>
+
+<p>
+	字之曰道
+<span class="chinese-korean-transliteration">
+	자지왈도
+</span>
+<span class="chinese-korean-translation">
+	그저 "도道"라 불러 본다.
+</span>
+</p>
+
+<p>
+	强爲之名曰大
+<span class="chinese-korean-transliteration">
+	강위지명왈대
+</span>
+<span class="chinese-korean-translation">
+	구태여 명명하라 한다면 "크다"고 하겠다.
+</span>
+</p>
+
+<p>
+	大曰逝
+	逝曰遠
+	遠曰反
+<span class="chinese-korean-transliteration">
+	대왈서
+	서왈원
+	원왈반
+</span>
+<span class="chinese-korean-translation">
+	크다고 하는 것은 끝없이 뻗어 간다는 것이고
+	<br>
+	끝없이 뻗어 간다는 것은 멀리 멀리 나가는 것이며
+	<br>
+	멀리 멀리 간다는 것은 되돌아오는 것이다.
+</span>
+</p>
+
+<p>
+	故道大
+	天大
+	地大
+	王亦大
+<span class="chinese-korean-transliteration">
+	고도대
+	천대
+	지대
+	왕역대
+</span>
+<span class="chinese-korean-translation">
+	그러므로 도도 크고
+	<br>
+	하늘도 크고
+	<br>
+	땅도 크며
+	<br>
+	임금도 크다.
+</span>
+</p>
+
+<p>
+	域中有四大
+	而王居其一焉
+<span class="chinese-korean-transliteration">
+	역중유사대
+	이왕거기일언
+</span>
+<span class="chinese-korean-translation">
+	세상에는 네 가지 큰 것이 있는데
+	<br>
+	사람도 그 가운데 하나이다.
+</span>
+</p>
+
+<font class="emph">
+<p>
+	人法地
+	地法天
+	天法道
+	道法自然
+<span class="chinese-korean-transliteration">
+	인법지
+	지법천
+	천법도
+	도법자연
+</span>
+<span class="chinese-korean-translation">
+	사람은 땅을 본받고
+	<br>
+	땅은 하늘을 본받고
+	<br>
+	하늘은 도를 본받고
+	<br>
+	도道는 "스스로 그러함"을 본받는다.
+</span>
+</p>
+</font>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/stars.png">
+
 <!--
-24.不處(불처)
-
-
-
-발끝으로 서는 사람이 오래 설 수 있겠는가?
-
-
-跂者不立(기자불립) : 발끝으로 서는 사람은 오래 설 수 없고
-跨者不行(과자불행) : 다리를 너무 벌리는 사람은 걸을 수 없다.
-自見者不明(자견자불명) : 스스로를 드러내려는 사람은 밝게 빛날 수 없고
-自是者不彰(자시자불창) : 스스로 의롭다 하는 사람은 돋보일 수 없고
-自伐者無功(자벌자무공) : 스스로 자랑하는 사람은 그 공로를 인정받지 못하고
-自矜者不長(자긍자불장) : 스스로 뽐내는 사람은 오래갈 수 없다.
-其在道也(기재도야) : 도의 입장에서 보면
-曰餘食贅行(왈여식췌행) : 이런 일은 밥찌꺼지 군더더기 같은 행동으로
-物或惡之(물혹악지) : 모두가 싫어하는 것이다.
-故有道者不處(고유도자불처) : 그러므로 도를 지닌 사람은 이런 일을 하지 않는다.
-
-
-
-25. 混成(혼성)
-
-
-
-도라는 것은 빛갈도 소리도 형체도 없다.
-
-
-有物混成(유물혼성) : 분화되지 않은 완전한 무엇
-先天地生(선천지생) : 하늘과 땅보다 먼저 있었다.
-寂兮寥兮(적혜요혜) : 소리도 없고 형체도 없고
-獨立不改(독립불개) : 무엇에 의존하지도 않고 변하지도 않고
-周行而不殆(주행이불태) : 두루 편만하여 계속 움직이나 없어질 위험이 없다.
-可以爲天下母(가이위천하모) : 가히 세상의 어머니라 하겠다.
-吾不知其名(오불지기명) : 나는 그 이름을 모른다.
-字之曰道(자지왈도) : 그저 <도>라 불러 본다.
-强爲之名曰大(강위지명왈대) : 구태여 명명하라 한다면 <크다>고 하겠다.
-大曰逝(대왈서) : 크다고 하는 것은 끝없이 뻗어 간다는 것이고,
-逝曰遠(서왈원) : 끝없이 뻗어 간다는 것은 멀리 멀리 나가는 것이며,
-遠曰反(원왈반) : 멀리 멀리 간다는 것은 되돌아오는 것이다.
-故道大(고도대) : 그러므로 도도 크고
-天大(천대) : 하늘도 크고
-地大(지대) : 땅도 크며
-王亦大(왕역대) : 임금도 크다.
-域中有四大(역중유사대) : 세상에는 네 가지 큰 것이 있는데
-而王居其一焉(이왕거기일언) : 사람도 그 가운데 하나이다.
-人法地(인법지) : 사람은 땅을 본받고
-地法天(지법천) : 땅은 하늘을 본받고
-天法道(천법도) : 하늘은 도를 본받고
-道法自然(도법자연) : 도는 <스스로 그러함>을 본받는다.
-
-
-
 26. 輜車(치차)
 
 
