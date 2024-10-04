@@ -2103,93 +2103,390 @@ Main text
 </p>
 </div>
 
+<h2 id="21">
+	제21장
+	-
+	종도從道
+</h2>
+
+<blockquote>
+	도는 황황홀홀하다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	孔德之容
+	惟道是從
+<span class="chinese-korean-transliteration">
+	공덕지용
+	유도시종
+</span>
+<span class="chinese-korean-translation">
+	위대한 덕의 모습은
+	오로지 도를 따르는 데서 나온다.
+</span>
+</p>
+
+<p>
+	道之爲物
+	惟恍惟惚
+<span class="chinese-korean-transliteration">
+	도지위물
+	유황유홀
+</span>
+<span class="chinese-korean-translation">
+	도라고 하는 것은
+	황홀할 뿐이다.
+</span>
+</p>
+
+<p>
+	惚兮恍兮
+	其中有象
+<span class="chinese-korean-transliteration">
+	홀혜황혜
+	기중유상
+</span>
+<span class="chinese-korean-translation">
+	황홀하기 그지 없지만
+	그 안에 형상이 있다.
+</span>
+</p>
+
+<p>
+	恍兮惚兮
+	其中有物
+<span class="chinese-korean-transliteration">
+	황혜홀혜
+	기중유물
+</span>
+<span class="chinese-korean-translation">
+	황홀하기 그지 없지만
+	그 안에 질료가 있다.
+</span>
+</p>
+
+<p>
+	窈兮冥兮
+	其中有精
+<span class="chinese-korean-transliteration">
+	요혜명혜
+	기중유정
+</span>
+<span class="chinese-korean-translation">
+	그윽하고 어둡지만
+	그 안에 알맹이가 있다.
+</span>
+</p>
+
+<p>
+	其精甚眞
+	其中有信
+<span class="chinese-korean-transliteration">
+	기정심진
+	기중유신
+</span>
+<span class="chinese-korean-translation">
+	알맹이는 지극히 참된 것으로서
+	그 안에는 믿음이 있다.
+</span>
+</p>
+
+<p>
+	自古及今
+	其名不去
+<span class="chinese-korean-transliteration">
+	자고급금
+	기명불거
+</span>
+<span class="chinese-korean-translation">
+	예부터 이제까지
+	그 이름 없은 적이 없다.
+</span>
+</p>
+
+<p>
+	以閱衆甫
+<span class="chinese-korean-transliteration">
+	이열중보
+</span>
+<span class="chinese-korean-translation">
+	그 이름으로 우리는 만물의 시원을 볼 수 있다.
+</span>
+</p>
+
+<p>
+	吾何以知衆甫之狀哉
+<span class="chinese-korean-transliteration">
+	오하이지중보지상재
+</span>
+<span class="chinese-korean-translation">
+	내가 무엇으로 만물의 시원이 이러함을 알 수 있었겠는가?
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/empty-forest.png">
+
+<div class="translation-container">
+<p>
+	以此
+<span class="chinese-korean-transliteration">
+	이차
+</span>
+<span class="chinese-korean-translation">
+	바로 이 때문이다.
+</span>
+</p>
+</div>
+
+<h2 id="22">
+	제22장
+	-
+	포일抱一
+</h2>
+
+<blockquote>
+	모두가 하나다!
+	<br>
+	나도 없고 너도 없다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	曲則全
+	枉則直
+	窪則盈
+	幣則新
+	少則得
+	多則惑
+<span class="chinese-korean-transliteration">
+	곡즉전
+	왕즉직
+	와즉영
+	폐즉신
+	소즉득
+	다즉혹
+</span>
+<span class="chinese-korean-translation">
+	굽으면 온전할 수 있고
+	<br>
+	구부리면 곧아질 수 있고
+	<br>
+	움푹 파이면 채워지게 되고
+	<br>
+	헐리면 새로워지고
+	<br>
+	적으면 얻게 되고
+	<br>
+	많으면 미혹을 당하게 된다.
+</span>
+</p>
+
+<p>
+	是以聖人抱一爲天下式
+<span class="chinese-korean-transliteration">
+	시이성인포일위천하식
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 "하나"를 품고 세상의 본보기가 된다.
+</span>
+</p>
+
+<p>
+	不自見故明
+	不自是故彰
+	不自伐故有功
+	不自矜故長
+<span class="chinese-korean-transliteration">
+	불자견고명
+	불자시고창
+	불자벌고유공
+	불자긍고장
+</span>
+<span class="chinese-korean-translation">
+	스스로를 드러내려 하지 않기에 밝게 빛나고
+	<br>
+	스스로 옳다 하지 않기에 돋보이고
+	<br>
+	스스로 자랑하지 않기에 그 공로를 인정받게 되고
+	<br>
+	스스로 뽐내지 않기에 오래간다.
+</span>
+</p>
+
+<p>
+	夫唯不爭
+	故天下莫能與之爭
+<span class="chinese-korean-transliteration">
+	부유불쟁
+	고천하막능여지쟁
+</span>
+<span class="chinese-korean-translation">
+	겨루지 않기에
+	세상이 그와 더불어 겨루지 못한다.
+</span>
+</p>
+
+<p>
+	古之所謂曲則全者
+	豈虛言哉
+<span class="chinese-korean-transliteration">
+	고지소위곡즉전자
+	개허언재
+</span>
+<span class="chinese-korean-translation">
+	옛말에 이르기를
+	<br>
+	굽으면 온전할 수 있다고 한 것이 어찌 빈말이겠는가?
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/curved-pine-tree.png">
+
+<div class="translation-container">
+<p>
+	誠全而歸之
+<span class="chinese-korean-transliteration">
+	성전이귀지
+</span>
+<span class="chinese-korean-translation">
+	정성을 다하여 자기를 낮춤으로서 온전히 하여 하나인 도로 복귀할 지니라.
+</span>
+</p>
+</div>
+
+<h2 id="23">
+	제23장
+	-
+	동도同道
+</h2>
+
+<blockquote>
+	소나기는 하루 종일 내리지 않는다.
+	<br>
+	금방 그친다.
+</blockquote>
+
+<div class="translation-container">
+<p>
+	希言自然
+<span class="chinese-korean-transliteration">
+	희언자연
+</span>
+<span class="chinese-korean-translation">
+	말이 없는 것이 자연의 이치다.
+</span>
+</p>
+
+<p>
+	故飄風不終朝
+	驟雨不終日
+<span class="chinese-korean-transliteration">
+	고표풍불종조
+	취우불종일
+</span>
+<span class="chinese-korean-translation">
+	회오리 바람도 아침 내내 볼 수 없고
+	<br>
+	소낙비도 하루 종일 내릴 수 없다.
+</span>
+</p>
+
+<p>
+	孰爲此者
+<span class="chinese-korean-transliteration">
+	숙위차자
+</span>
+<span class="chinese-korean-translation">
+	누가 하는 일인가?
+</span>
+</p>
+
+<p>
+	天地
+<span class="chinese-korean-transliteration">
+	천지
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅이다.
+</span>
+</p>
+
+<p>
+	天地尙不能久
+	而況於人乎
+<span class="chinese-korean-transliteration">
+	천지상불능구
+	이황어인호
+</span>
+<span class="chinese-korean-translation">
+	하늘과 땅도 이처럼 이런 일을 오래 할수 없는데
+	<br>
+	하물며 사람이 어찌 그럴 수 있겠는가?
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/dozing-off-students.png">
+
+<div class="translation-container">
+<p>
+	故從事於道者
+	道者同於道
+	德者同於德
+	失者同於失
+<span class="chinese-korean-transliteration">
+	고종사어도자
+	도자동어도
+	덕자동어덕
+	실자동어실
+</span>
+<span class="chinese-korean-translation">
+	그러므로 일을 함에 있어서 도를 따라야 하나니
+	<br>
+	도가 있는 사람은 도에서 하나가 되고
+	<br>
+	덕이 있는 사람은 덕에서 하나가 되며
+	<br>
+	잃은 사람은 잃음과 하나가 된다.
+</span>
+</p>
+
+<p>
+	同於道者
+	道亦樂得之
+	同於德者
+	德亦樂得之
+	同於失者
+	失亦樂得之
+	信不足焉有不信焉
+<span class="chinese-korean-transliteration">
+	동어도자
+	도역락득지
+	동어덕자
+	덕역락득지
+	동어실자
+	실역락득지
+	신불족언유불신언
+</span>
+<span class="chinese-korean-translation">
+	도와 하나된 사람
+	도 역시 그를 얻었음을 기뻐하고
+	<br>
+	덕과 하나된 사람
+	덕 역시 그를 얻었음을 기뻐하고
+	<br>
+	잃은 사람과 하나된 사람
+	잃음 역시 그를 잃었음을 기뻐할 것이니,
+	<br>
+	도에 대한 믿음이 모자라면 불신이라는 것이 따르게 마련이다.
+</span>
+</p>
+</div>
 
 <!--
-21. 從道(종도)
-
-
-
-도는 황황홀홀하다.
-
-
-孔德之容(공덕지용) : 위대한 덕의 모습은
-惟道是從(유도시종) : 오로지 도를 따르는 데서 나온다.
-道之爲物(도지위물) : 도라고 하는 것은
-惟恍惟惚(유황유홀) : 황홀할 뿐이다.
-惚兮恍兮(홀혜황혜) : 황홀하기 그지 없지만
-其中有象(기중유상) : 그 안에 형상이 있다.
-恍兮惚兮(황혜홀혜) : 황홀하기 그지 없지만
-其中有物(기중유물) : 그 안에 질료가 있다.
-窈兮冥兮(요혜명혜) : 그윽하고 어둡지만
-其中有精(기중유정) : 그 안에 알맹이가 있다.
-其精甚眞(기정심진) : 알맹이는 지극히 참된 것으로서
-其中有信(기중유신) : 그 안에는 믿음이 있다.
-自古及今(자고급금) : 예부터 이제까지
-其名不去(기명불거) : 그 이름 없은 적이 없다.
-以閱衆甫(이열중보) : 그 이름으로 우리는 만물의 시원을 볼 수 있다.
-吾何以知衆甫之狀哉(오하이지중보지상재) : 내가 무엇으로 만물의 시원이 이러함을 알 수 있었겠는가?
-以此(이차) : 바로 이 때문이다.
-
-
-
-22. 抱一(포일)
-
-
-
-모두가 하나다!
-
-나도 없고 너도 없다.
-
-
-曲則全(곡즉전) : 굽으면 온전할 수 있고
-枉則直(왕즉직) : 구부리면 곧아질 수 있고
-窪則盈(와즉영) : 움푹 파이면 채워지게 되고
-幣則新(폐즉신) : 헐리면 새로워지고
-少則得(소즉득) : 적으면 얻게 되고
-多則惑(다즉혹) : 많으면 미혹을 당하게 된다.
-是以聖人抱一爲天下式(시이성인포일위천하식) : 그러므로 성인은 <하나>를 품고 세상의 본보기가 된다
-不自見故明(불자견고명) : 스스로를 드러내려 하지 않기에 밝게 빛나고
-不自是故彰(불자시고창) : 스스로 옳다 하지 않기에 돋보이고
-不自伐故有功(불자벌고유공) : 스스로 자랑하지 않기에 그 공로를 인정받게 되고
-不自矜故長(불자긍고장) : 스스로 뽐내지 않기에 오래간다.
-夫唯不爭(부유불쟁) : 겨루지 않기에
-故天下莫能與之爭(고천하막능여지쟁) : 세상이 그와 더불어 겨루지 못한다.
-古之所謂曲則全者(고지소위곡즉전자) : 옛말에 이르기를, 굽으면 온전할 수 있다고 한 것이
-豈虛言哉(개허언재) : 어찌 빈말이겠는가?
-誠全而歸之(성전이귀지) : 정성을 다하여 자기를 낮춤으로서 온전히 하여 하나인 도로 복귀할 지니라.
-
-
-
-23. 同道(동도)
-
-
-
-소나기는 하루 종일 내리지 않는다.
-
-금방 그친다.
-
-
-希言自然(희언자연) : 말이 없는 것이 자연의 이치다.
-故飄風不終朝(고표풍불종조) : 회오리 바람도 아침 내내 볼 수 없고
-驟雨不終日(취우불종일) : 소낙비도 하루 종일 내릴 수 없다.
-孰爲此者(숙위차자) : 누가 하는 일인가?
-天地(천지) : 하늘과 땅이다.
-天地尙不能久(천지상불능구) : 하늘과 땅도 이처럼 이런 일을 오래 할수 없는데
-而況於人乎(이황어인호) : 하물며 사람이 어찌 그럴 수 있겠는가?
-故從事於道者(고종사어도자) : 그러므로 일을 함에 있어서 도를 따라야 하나니,
-道者同於道(도자동어도) : 도가 있는 사람은 도에서 하나가 되고
-德者同於德(덕자동어덕) : 덕이 있는 사람은 덕에서 하나가 되며
-失者同於失(실자동어실) : 잃은 사람은 잃음과 하나가 된다.
-同於道者(동어도자) : 도와 하나된 사람
-道亦樂得之(도역락득지) : 도 역시 그를 얻었음을 기뻐하고
-同於德者(동어덕자) : 덕과 하나된 사람
-德亦樂得之(덕역락득지) : 덕 역시 그를 얻었음을 기뻐하고
-同於失者(동어실자) : 잃은 사람과 하나된 사람
-失亦樂得之(실역락득지) : 잃음 역시 그를 잃었음을 기뻐할 것이니,
-信不足焉有不信焉(신불족언유불신언) : 도에 대한 믿음이 모자라면 불신이라는 것이 따르게 마련이다.
-
-
-
 24.不處(불처)
 
 
