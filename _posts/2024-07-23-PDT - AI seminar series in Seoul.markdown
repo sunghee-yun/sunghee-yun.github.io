@@ -1,5 +1,5 @@
 ---
-title: AI seminar series in Seoul - Jun~Jul in 2024
+title: AI seminar series in Seoul - Jun &#12316; Jul in 2024
 date: Tue Jul 23 14:37:06 PDT 2024
 categories:
  - blog
