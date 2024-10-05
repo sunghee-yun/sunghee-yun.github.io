@@ -23,6 +23,102 @@ toc_sticky: true
 	</a>
 	@ 01-Oct-2024 KST
 </li>
+<li>
+<a href="https://n.news.naver.com/article/011/0004390880?sid=101">
+		디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다
+	</a>
+	@ 10-Sep-2024 KST
+</li>
+<li>
+<a href="https://www.darkdaily.com/2024/05/31/ex-theranos-founder-and-ceo-elizabeth-holmes-reduced-her-prison-sentence-by-nearly-two-years/">
+		asdf
+	</a>
+	- DarkDaily @ 31-May-2024
+</li>
+</ul>
+<h1 id="biotech-medical">Biotech &amp; medical &amp; healthcare</h1>
+<ul>
+<li>
+<a href="http://www.hitnews.co.kr/news/articleView.html?idxno=57889">
+		美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동
+	</a>
+	@ 02-Oct-2024 
+</li>
+<li>
+<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
+		'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?
+	</a>
+	@ 19-Sep-2024
+	 
+	<div class="foldable-toggle">excerpts</div>
+<div class="foldable-content">
+<p>
+			18일, 공개된 뉴스위크의 "2025 월드베스트 전문병원"(World's Best Specialized Hospitals 2025)
+			평가 결과를 보면 암 분야 평가에서는 삼성서울병원이 "세계 최고 전문 병원" 3위에 올랐다.
+			지난해 5위에서 2계단 올라서며 "세계 3대 암병원"으로 꼽힌 것이다.
+			1위와 2위는 미국의 MD 앤더슨 암센터, 메모리얼 슬로언 케터링 암센터가 각각 차지했다.
+		</p>
+<p>
+			삼성서울병원 외에 서울아산병원(5위),
+			서울대병원(8위), 세브란스병원(23위), 서울성모병원(37위), 국립암센터(40위),
+			분당서울대병원(57위) 등 모두 7곳이 100위 안에 들었다.
+		</p>
+<p>
+			국내 대형 병원들은 암 외에 다른 분야에서도 두각을 나타냈다.
+			서울아산병원은 내분비(3위), 소화기(4위), 비뇨기·암(5위) 등
+			4개 분야에서 세계 5위권 내에 들어가는 기록을 달성했다.
+			세브란스병원은 9개 분야가 100위 안에 들어왔다.
+			정형외과(10위), 내분비(12위), 신경외과(15위) 등이 높은 평가를 받았다.
+			서울성모병원은 내분비(10위), 소화기(15위) 등을 포함해 5개 분야가 100위권에 들었다.
+		</p>
+</div>
+</li>
+<li>
+<a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&amp;_hsmi=323659352">
+		AlphaProteo generates novel proteins for biology and health research
+	</a>
+	@ 05-Sep-2024
+	- <a href="/alpha-fold-summary">summary</a>
+</li>
+</ul>
+<h1 id="investment">Investment</h1>
+<ul>
+<li>
+<a href="https://www.reuters.com/technology/openai-tells-investor-not-invest-five-ai-startups-including-sutskevers-ssi-2024-10-02/">
+		OpenAI asks investors to avoid five AI startups including Sutskever's SSI, sources say
+	</a>
+	- Reuters @ 02-Oct-2024
+</li>
+<li>
+<a href="https://techcrunch.com/2024/09/30/y-combinator-is-being-criticized-after-it-backed-an-ai-startup-that-admits-it-basically-cloned-another-ai-startup/">
+		Y Combinator is being criticized after it backed an AI startup that admits it basically cloned another AI startup
+	</a>
+	- TechCrunch @ 30-Sep-2024
+</li>
+<li>
+<a href="https://www.businessinsider.com/mira-murati-exits-openai-venture-capitalist-startup-2024-9">
+		VCs are rushing to meet with former OpenAI CTO Mira Murati in hopes of funding a new company
+	</a>
+	- Business Insider @ 30-Sep-2024
+</li>
+<li>
+<a href="https://zdnet.co.kr/view/?no=20240929024748">
+		애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'
+	</a>
+	@ 29-Sep-2024
+</li>
+<li>
+<a href="https://www.kmib.co.kr/article/view.asp?arcid=0020551793">
+		손정의, 빌 게이츠 비교에 '발끈'… "나는 진시황, 제국 건설 중"
+	</a>
+	@ 23-Sep-2024
+</li>
+<li>
+<a href="https://www.axios.com/2024/09/20/openai-largest-vc-round">
+		OpenAI closes in on largest VC round of all time - $6.5B @ $150B pre-money valuation
+	</a>
+	@ 18-Sep-2024
+</li>
 </ul>
 <h1 id="industry">Industry</h1>
 <ul>
@@ -31,12 +127,6 @@ toc_sticky: true
 		인텔의 쇠퇴? ‘완전히’ 잘못된 시각
 	</a>
 	@ 29-Sep-2024 KST
-</li>
-<li>
-<a href="https://n.news.naver.com/article/011/0004390880?sid=101">
-		디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다
-	</a>
-	@ 10-Sep-2024 KST
 </li>
 </ul>
 <h1 id="labor-market">
@@ -48,10 +138,20 @@ toc_sticky: true
 		"조직문화 모르고 매주 지각"… Z세대 해고 당하는 이유
 	</a>
 	- 세계일보 @ 30-Sep-2024
+	 
+	<div class="foldable-toggle">my comment</div>
+<div class="foldable-content">
+<p>So I wasn't wrong about my perspective, analysis, insight, and feeling about these people! </p>
+<p>Not everyone, but I really could not get the attitude of a handful of people @ Gauss Labs.
+		I wasn't sure whether it's a generation thing or Korean thing. I wasn't wrong about this!
+		It's really hard to run a company in Korea whether the labor market is not flexible enough.</p>
+<p>There is such a thing as universal truth
+		which does not change in any culture or generation.</p>
+</div>
 </li>
 </ul>
 <h1 id="ai">AI</h1>
-<h2 id="ai-industry">Industry</h2>
+<h2 id="ai-industry">industry</h2>
 <ul>
 <li>
 <a href="https://fortune.com/2024/10/01/openai-sam-altman-mira-murati-gpt-4o-o1-chatgpt-turbulent-year/">
@@ -59,8 +159,14 @@ toc_sticky: true
 	</a>
 	- Fortune @ 01-Oct-2024
 </li>
+<li>
+<a href="https://v.daum.net/v/20240928220155664">
+		퇴사했던 ‘천재 직원’ 데려오려고 3조6000억원 쓴 회사
+	</a>
+	- 세계일보 @ 29-Sep-2024
+</li>
 </ul>
-<h2 id="impacts">Impacts</h2>
+<h2 id="impacts">impacts</h2>
 <h3 id="legal-impacts">legal impacts</h3>
 <ul>
 <li>
@@ -152,7 +258,7 @@ toc_sticky: true
 </div>
 </li>
 </ul>
-<h2 id="robotics">Robotics</h2>
+<h2 id="robotics">robotics</h2>
 <ul>
 <li>
 <a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">
@@ -174,6 +280,12 @@ toc_sticky: true
 		Nvidia just released an open-source LLM to rival GPT-4
 	</a>
 	- yahoo!tech @ 02-Oct-2024
+</li>
+<li>
+<a href="https://venturebeat.com/ai/deepminds-score-shows-llms-can-use-their-internal-knowledge-to-correct-their-mistakes/">
+		DeepMind’s SCoRe shows LLMs can use their internal knowledge to correct their mistakes
+	</a>
+	- VentureBeat @ 01-Oct-2024
 </li>
 <li>
 <a href="https://www.nature.com/articles/d41586-024-03169-9" id="in-awe-with-chatgpt-o1-ridiculous">
@@ -281,7 +393,7 @@ toc_sticky: true
 </div>
 </li>
 </ul>
-<h2 id="genai">Generative AI</h2>
+<h2 id="genai">genAI</h2>
 <ul>
 <li>
 <a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">
@@ -290,7 +402,7 @@ toc_sticky: true
 	@ 23-Aug-2024
 </li>
 </ul>
-<h2 id="digital-twins">Digital twins</h2>
+<h2 id="digital-twins">digital twins</h2>
 <ul>
 <li>
 <a href="https://hbr.org/2024/09/digital-twins-can-help-you-make-better-strategic-decisions">
@@ -299,7 +411,7 @@ toc_sticky: true
 	@ 23-Sep-2024
 </li>
 </ul>
-<h2 id="hardware">Hardware</h2>
+<h2 id="ai-hardware">hardware</h2>
 <ul>
 <li>
 	comparison of AI accelerators - <a href="/ai-hardware">ChatGPT answer</a>
@@ -319,7 +431,7 @@ toc_sticky: true
 	@ 25-Sep-2024 KST
 </li>
 </ul>
-<h2 id="ai-software">Software</h2>
+<h2 id="ai-software">software</h2>
 <ul>
 <li>
 <a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">
@@ -444,45 +556,6 @@ toc_sticky: true
 	@ 30-Sep-2024
 </li>
 </ul>
-<h1 id="bio-medical">Bio &amp; medical</h1>
-<ul>
-<li>
-<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
-		'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?
-	</a>
-	@ 19-Sep-2024
-	 
-	<div class="foldable-toggle">excerpts</div>
-<div class="foldable-content">
-<p>
-			18일, 공개된 뉴스위크의 "2025 월드베스트 전문병원"(World's Best Specialized Hospitals 2025)
-			평가 결과를 보면 암 분야 평가에서는 삼성서울병원이 "세계 최고 전문 병원" 3위에 올랐다.
-			지난해 5위에서 2계단 올라서며 "세계 3대 암병원"으로 꼽힌 것이다.
-			1위와 2위는 미국의 MD 앤더슨 암센터, 메모리얼 슬로언 케터링 암센터가 각각 차지했다.
-		</p>
-<p>
-			삼성서울병원 외에 서울아산병원(5위),
-			서울대병원(8위), 세브란스병원(23위), 서울성모병원(37위), 국립암센터(40위),
-			분당서울대병원(57위) 등 모두 7곳이 100위 안에 들었다.
-		</p>
-<p>
-			국내 대형 병원들은 암 외에 다른 분야에서도 두각을 나타냈다.
-			서울아산병원은 내분비(3위), 소화기(4위), 비뇨기·암(5위) 등
-			4개 분야에서 세계 5위권 내에 들어가는 기록을 달성했다.
-			세브란스병원은 9개 분야가 100위 안에 들어왔다.
-			정형외과(10위), 내분비(12위), 신경외과(15위) 등이 높은 평가를 받았다.
-			서울성모병원은 내분비(10위), 소화기(15위) 등을 포함해 5개 분야가 100위권에 들었다.
-		</p>
-</div>
-</li>
-<li>
-<a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&amp;_hsmi=323659352">
-		AlphaProteo generates novel proteins for biology and health research
-	</a>
-	@ 05-Sep-2024
-	- <a href="/alpha-fold-summary">summary</a>
-</li>
-</ul>
 <h1 id="new-tech">New technology</h1>
 <ul>
 <li>
@@ -492,29 +565,8 @@ toc_sticky: true
 	@ 25-Sep-2024
 </li>
 </ul>
-<h1 id="investment">Investment</h1>
-<ul>
-<li>
-<a href="https://zdnet.co.kr/view/?no=20240929024748">
-		애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'
-	</a>
-	@ 29-Sep-2024
-</li>
-<li>
-<a href="https://www.kmib.co.kr/article/view.asp?arcid=0020551793">
-		손정의, 빌 게이츠 비교에 '발끈'… "나는 진시황, 제국 건설 중"
-	</a>
-	@ 23-Sep-2024
-</li>
-<li>
-<a href="https://www.axios.com/2024/09/20/openai-largest-vc-round">
-		OpenAI closes in on largest VC round of all time - $6.5B @ $150B pre-money valuation
-	</a>
-	@ 18-Sep-2024
-</li>
-</ul>
 <h1 id="science">Science</h1>
-<h2 id="astrophysics">Astrophysics</h2>
+<h2 id="astrophysics">astrophysics</h2>
 <ul>
 <li>
 <a href="https://phys.org/news/2024-10-webb-lensed-supernova-hubble-tension.html">
@@ -529,7 +581,7 @@ toc_sticky: true
 	</a>
 	- Quanta Magazine @ 25-Sep-2024
 </li></ul>
-<h2 id="quantum-physics">Quantum physics</h2>
+<h2 id="quantum-physics">quantum physics</h2>
 <ul>
 <li>
 <a href="https://www.quantamagazine.org/physicists-reveal-a-quantum-geometry-that-exists-outside-of-space-and-time-20240925/">
@@ -538,7 +590,7 @@ toc_sticky: true
 	@ 25-Sep-2024
 </li>
 </ul>
-<h2 id="astrophysics-and-quantum-physics">Astrophysics &amp; quantum physics</h2>
+<h2 id="astrophysics-and-quantum-physics">astrophysics &amp; quantum physics</h2>
 <ul>
 <li>
 <a href="https://www.quantamagazine.org/the-logic-that-must-lie-behind-a-new-physics-20240925/">
@@ -551,6 +603,41 @@ toc_sticky: true
 		The philosopher Karen Crowther digs into how the space-time fabric could possibly emerge from something non-spatiotemporal.
     </div>
 </li>
+</ul>
+<h2 id="cog-science">cognitive science</h2>
+<ul>
+<li>
+<a href="https://www.nature.com/articles/d41586-024-03116-8">
+		How your brain detects patterns in the everyday: without conscious thought
+	</a>
+	@ 25-Sep-2024
+</li>
+<li>
+<a href="https://medium.com/behavior-design/how-to-stop-overthinking-22e29f695bad">
+		[Medium] How to Stop Overthinking
+	</a>
+	@ 20-Aug-2024
+</li>
+<li>
+<a href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18">
+		Cognitive bias cheat sheet
+	</a>
+	@ 01-Sep-2016
+	 
+	<div class="foldable-toggle">cognitive bias codex, 2016</div>
+<div class="foldable-content">
+<img src="/assets/images/1_71TzKnr7bzXU_l_pU6DCNA.webp"/>
+</div>
+</li>
+</ul>
+<h2 id="neuroscience">neuroscience</h2>
+<ul>
+<li>
+<a href="https://neurosciencenews.com/glut4-genetics-neurogenesis-27755/">
+		Targeting Glucose May Spark Neurogenesis
+	<a></a>
+	- Neuroscience News @ 02-Oct-2024
+</a></li>
 </ul>
 <h1 id="people">People</h1>
 <h2 id="prof-cha">Prof. Cha</h2>
@@ -586,32 +673,6 @@ toc_sticky: true
 		[Medium] Should You Forgive Your Parents? - Sure, they were good to you, but what about before you were born?
 	</a>
 	@ 13-Sep-2024
-</li>
-</ul>
-<h1 id="cog-science">Cognitive science</h1>
-<ul>
-<li>
-<a href="https://www.nature.com/articles/d41586-024-03116-8">
-		How your brain detects patterns in the everyday: without conscious thought
-	</a>
-	@ 25-Sep-2024
-</li>
-<li>
-<a href="https://medium.com/behavior-design/how-to-stop-overthinking-22e29f695bad">
-		[Medium] How to Stop Overthinking
-	</a>
-	@ 20-Aug-2024
-</li>
-<li>
-<a href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18">
-		Cognitive bias cheat sheet
-	</a>
-	@ 01-Sep-2016
-	 
-	<div class="foldable-toggle">cognitive bias codex, 2016</div>
-<div class="foldable-content">
-<img src="/assets/images/1_71TzKnr7bzXU_l_pU6DCNA.webp"/>
-</div>
 </li>
 </ul>
 <h1 id="others">Others</h1>
@@ -673,6 +734,18 @@ toc_sticky: true
 	- 파이낸셜뉴스 @ 03-Oct-2024 KST
 </li>
 <li>
+<a href="http://www.hitnews.co.kr/news/articleView.html?idxno=57889">
+		美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동
+	</a>
+	@ 02-Oct-2024 
+</li>
+<li>
+<a href="https://www.reuters.com/technology/openai-tells-investor-not-invest-five-ai-startups-including-sutskevers-ssi-2024-10-02/">
+		OpenAI asks investors to avoid five AI startups including Sutskever's SSI, sources say
+	</a>
+	- Reuters @ 02-Oct-2024
+</li>
+<li>
 <a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">
 		Nvidia just released an open-source LLM to rival GPT-4
 	</a>
@@ -691,6 +764,12 @@ toc_sticky: true
 	- 매일경제 @ 02-Oct-2024
 </li>
 <li>
+<a href="https://neurosciencenews.com/glut4-genetics-neurogenesis-27755/">
+		Targeting Glucose May Spark Neurogenesis
+	<a></a>
+	- Neuroscience News @ 02-Oct-2024
+</a></li>
+<li>
 <a href="https://m.mk.co.kr/news/business/11128871">
 		선·후배 관계가 전부라는 이 남자…미국 전역 한국인 창업자들 불러모으더니
 	</a>
@@ -707,6 +786,12 @@ toc_sticky: true
 		Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market
 	</a>
 	@ 01-Oct-2024 PDT
+</li>
+<li>
+<a href="https://venturebeat.com/ai/deepminds-score-shows-llms-can-use-their-internal-knowledge-to-correct-their-mistakes/">
+		DeepMind’s SCoRe shows LLMs can use their internal knowledge to correct their mistakes
+	</a>
+	- VentureBeat @ 01-Oct-2024
 </li>
 <li>
 <a href="https://www.nature.com/articles/d41586-024-03169-9" id="in-awe-with-chatgpt-o1-ridiculous">
@@ -745,10 +830,32 @@ toc_sticky: true
 	- Phys.org @ 01-Oct-2024
 </li>
 <li>
+<a href="https://techcrunch.com/2024/09/30/y-combinator-is-being-criticized-after-it-backed-an-ai-startup-that-admits-it-basically-cloned-another-ai-startup/">
+		Y Combinator is being criticized after it backed an AI startup that admits it basically cloned another AI startup
+	</a>
+	- TechCrunch @ 30-Sep-2024
+</li>
+<li>
+<a href="https://www.businessinsider.com/mira-murati-exits-openai-venture-capitalist-startup-2024-9">
+		VCs are rushing to meet with former OpenAI CTO Mira Murati in hopes of funding a new company
+	</a>
+	- Business Insider @ 30-Sep-2024
+</li>
+<li>
 <a href="https://v.daum.net/v/20240930074803386" id="z-fire">
 		"조직문화 모르고 매주 지각"… Z세대 해고 당하는 이유
 	</a>
 	- 세계일보 @ 30-Sep-2024
+	 
+	<div class="foldable-toggle">my comment</div>
+<div class="foldable-content">
+<p>So I wasn't wrong about my perspective, analysis, insight, and feeling about these people! </p>
+<p>Not everyone, but I really could not get the attitude of a handful of people @ Gauss Labs.
+		I wasn't sure whether it's a generation thing or Korean thing. I wasn't wrong about this!
+		It's really hard to run a company in Korea whether the labor market is not flexible enough.</p>
+<p>There is such a thing as universal truth
+		which does not change in any culture or generation.</p>
+</div>
 </li>
 <li>
 <a href="https://www.aitimes.com/news/articleView.html?idxno=163837">
@@ -778,22 +885,28 @@ toc_sticky: true
 	@ 30-Sep-2024
 </li>
 <li>
+<a href="https://zdnet.co.kr/view/?no=20240929024748">
+		애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'
+	</a>
+	@ 29-Sep-2024
+</li>
+<li>
 <a href="https://www.fortunekorea.co.kr/news/articleViewAmp.html?idxno=42762">
 		인텔의 쇠퇴? ‘완전히’ 잘못된 시각
 	</a>
 	@ 29-Sep-2024 KST
 </li>
 <li>
+<a href="https://v.daum.net/v/20240928220155664">
+		퇴사했던 ‘천재 직원’ 데려오려고 3조6000억원 쓴 회사
+	</a>
+	- 세계일보 @ 29-Sep-2024
+</li>
+<li>
 <a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">
 		California Governor Vetoes Sweeping A.I. Legislation
 	</a>
 	- NY Times @ 29-Sep-2024
-</li>
-<li>
-<a href="https://zdnet.co.kr/view/?no=20240929024748">
-		애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'
-	</a>
-	@ 29-Sep-2024
 </li>
 <li>
 <a href="https://zdnet.co.kr/view/?no=20240927185509">
@@ -905,14 +1018,14 @@ toc_sticky: true
 	@ 24-Sep-2024
 </li>
 <li>
-<a href="https://hbr.org/2024/09/digital-twins-can-help-you-make-better-strategic-decisions">
-		Digital Twins Can Help You Make Better Strategic Decisions
+<a href="https://www.kmib.co.kr/article/view.asp?arcid=0020551793">
+		손정의, 빌 게이츠 비교에 '발끈'… "나는 진시황, 제국 건설 중"
 	</a>
 	@ 23-Sep-2024
 </li>
 <li>
-<a href="https://www.kmib.co.kr/article/view.asp?arcid=0020551793">
-		손정의, 빌 게이츠 비교에 '발끈'… "나는 진시황, 제국 건설 중"
+<a href="https://hbr.org/2024/09/digital-twins-can-help-you-make-better-strategic-decisions">
+		Digital Twins Can Help You Make Better Strategic Decisions
 	</a>
 	@ 23-Sep-2024
 </li>
@@ -933,6 +1046,35 @@ toc_sticky: true
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 …  양자컴퓨터, 심혈관 치료제 연구자도
 	</a>
 	@ 20-Sep-2024 KST
+</li>
+<li>
+<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
+		'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?
+	</a>
+	@ 19-Sep-2024
+	 
+	<div class="foldable-toggle">excerpts</div>
+<div class="foldable-content">
+<p>
+			18일, 공개된 뉴스위크의 "2025 월드베스트 전문병원"(World's Best Specialized Hospitals 2025)
+			평가 결과를 보면 암 분야 평가에서는 삼성서울병원이 "세계 최고 전문 병원" 3위에 올랐다.
+			지난해 5위에서 2계단 올라서며 "세계 3대 암병원"으로 꼽힌 것이다.
+			1위와 2위는 미국의 MD 앤더슨 암센터, 메모리얼 슬로언 케터링 암센터가 각각 차지했다.
+		</p>
+<p>
+			삼성서울병원 외에 서울아산병원(5위),
+			서울대병원(8위), 세브란스병원(23위), 서울성모병원(37위), 국립암센터(40위),
+			분당서울대병원(57위) 등 모두 7곳이 100위 안에 들었다.
+		</p>
+<p>
+			국내 대형 병원들은 암 외에 다른 분야에서도 두각을 나타냈다.
+			서울아산병원은 내분비(3위), 소화기(4위), 비뇨기·암(5위) 등
+			4개 분야에서 세계 5위권 내에 들어가는 기록을 달성했다.
+			세브란스병원은 9개 분야가 100위 안에 들어왔다.
+			정형외과(10위), 내분비(12위), 신경외과(15위) 등이 높은 평가를 받았다.
+			서울성모병원은 내분비(10위), 소화기(15위) 등을 포함해 5개 분야가 100위권에 들었다.
+		</p>
+</div>
 </li>
 <li>
 <a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">
@@ -965,43 +1107,14 @@ toc_sticky: true
 </div>
 </li>
 <li>
-<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
-		'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?
-	</a>
-	@ 19-Sep-2024
-	 
-	<div class="foldable-toggle">excerpts</div>
-<div class="foldable-content">
-<p>
-			18일, 공개된 뉴스위크의 "2025 월드베스트 전문병원"(World's Best Specialized Hospitals 2025)
-			평가 결과를 보면 암 분야 평가에서는 삼성서울병원이 "세계 최고 전문 병원" 3위에 올랐다.
-			지난해 5위에서 2계단 올라서며 "세계 3대 암병원"으로 꼽힌 것이다.
-			1위와 2위는 미국의 MD 앤더슨 암센터, 메모리얼 슬로언 케터링 암센터가 각각 차지했다.
-		</p>
-<p>
-			삼성서울병원 외에 서울아산병원(5위),
-			서울대병원(8위), 세브란스병원(23위), 서울성모병원(37위), 국립암센터(40위),
-			분당서울대병원(57위) 등 모두 7곳이 100위 안에 들었다.
-		</p>
-<p>
-			국내 대형 병원들은 암 외에 다른 분야에서도 두각을 나타냈다.
-			서울아산병원은 내분비(3위), 소화기(4위), 비뇨기·암(5위) 등
-			4개 분야에서 세계 5위권 내에 들어가는 기록을 달성했다.
-			세브란스병원은 9개 분야가 100위 안에 들어왔다.
-			정형외과(10위), 내분비(12위), 신경외과(15위) 등이 높은 평가를 받았다.
-			서울성모병원은 내분비(10위), 소화기(15위) 등을 포함해 5개 분야가 100위권에 들었다.
-		</p>
-</div>
-</li>
-<li>
-<a href="https://www.digitimes.com/news/a20240917PD201/apple-5g-2025-modem-chips.html">
-		Apple poised to introduce self-developed 5G modem in iPhones by 2025
+<a href="https://www.axios.com/2024/09/20/openai-largest-vc-round">
+		OpenAI closes in on largest VC round of all time - $6.5B @ $150B pre-money valuation
 	</a>
 	@ 18-Sep-2024
 </li>
 <li>
-<a href="https://www.axios.com/2024/09/20/openai-largest-vc-round">
-		OpenAI closes in on largest VC round of all time - $6.5B @ $150B pre-money valuation
+<a href="https://www.digitimes.com/news/a20240917PD201/apple-5g-2025-modem-chips.html">
+		Apple poised to introduce self-developed 5G modem in iPhones by 2025
 	</a>
 	@ 18-Sep-2024
 </li>
@@ -1102,6 +1215,12 @@ toc_sticky: true
 		Blenders Versus Bombs, or Why California’s Proposed AI Law is Bad for Everyone
 	</a>
 	- The Batch by DeepLearning.AI @ 05-Jun-2024
+</li>
+<li>
+<a href="https://www.darkdaily.com/2024/05/31/ex-theranos-founder-and-ceo-elizabeth-holmes-reduced-her-prison-sentence-by-nearly-two-years/">
+		asdf
+	</a>
+	- DarkDaily @ 31-May-2024
 </li>
 <li>
 <a href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/" id="lnn">
