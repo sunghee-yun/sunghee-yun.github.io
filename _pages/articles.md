@@ -8,9 +8,13 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
+<a href="#all-articles">all articles in reverse chronicle order</a>
 <head>
 <link href="/resource/styles.css" rel="stylesheet"/>
 </head>
+<div class="centered-container">
+<iframe allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen="true" frameborder="0" height="776" scrolling="no" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsunghee.yun1%2Fposts%2Fpfbid0CPHW1paBjy2HvAG3ahGWo1wgAsh9vko19WMAWjetYCq9SqdtnUcqfCxVABUVt1UEl&amp;show_text=true&amp;width=500" style="border:none;overflow:hidden" width="500"></iframe>
+</div>
 <h1 id="entrepreneurship">Entrepreneurship</h1>
 <ul>
 <li>
@@ -33,6 +37,17 @@ toc_sticky: true
 		디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다
 	</a>
 	@ 10-Sep-2024 KST
+</li>
+</ul>
+<h1 id="labor-market">
+	Labor market
+</h1>
+<ul>
+<li>
+<a href="https://v.daum.net/v/20240930074803386" id="z-fire">
+		"조직문화 모르고 매주 지각"… Z세대 해고 당하는 이유
+	</a>
+	- 세계일보 @ 30-Sep-2024
 </li>
 </ul>
 <h1 id="ai">AI</h1>
@@ -102,21 +117,6 @@ toc_sticky: true
 	@ 20-Sep-2024 KST
 </li>
 </ul>
-<h2 id="robotics">Robotics</h2>
-<ul>
-<li>
-<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">
-		Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market
-	</a>
-	@ 01-Oct-2024 PDT
-</li>
-<li>
-<a href="https://zdnet.co.kr/view/?no=20240925155117">
-		보스턴다이내믹스 CEO "휴머노이드, 3~5년 내 공장서 일할 것"
-	</a>
-	@ 25-Sep-2024 KST
-</li>
-</ul>
 <h2 id="general-ai">AI in general</h2>
 <ul>
 <li>
@@ -138,8 +138,54 @@ toc_sticky: true
 	@ 24-Sep-2024
 </li>
 </ul>
+<h2 id="agi">AGI</h2>
+<ul>
+<li>
+<a href="https://techcrunch.com/2024/10/03/even-the-godmother-of-ai-has-no-idea-what-agi-is/">
+		Even the ‘godmother of AI’ has no idea what AGI is
+	</a>
+	@ 03-Oct-2024
+	<div class="callout">
+		btw, Fei-Fei, a Stanford Professor, is <em>NOT</em> a <em>godmother</em> of AI! most ridiculous thing that I've ever heard!
+		 
+		<img class="emoticon" src="/resource/favicons/smileys/smiley 22.png"/>
+</div>
+</li>
+</ul>
+<h2 id="robotics">Robotics</h2>
+<ul>
+<li>
+<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">
+		Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market
+	</a>
+	@ 01-Oct-2024 PDT
+</li>
+<li>
+<a href="https://zdnet.co.kr/view/?no=20240925155117">
+		보스턴다이내믹스 CEO "휴머노이드, 3~5년 내 공장서 일할 것"
+	</a>
+	@ 25-Sep-2024 KST
+</li>
+</ul>
 <h2 id="llm">LLM</h2>
 <ul>
+<li>
+<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">
+		Nvidia just released an open-source LLM to rival GPT-4
+	</a>
+	- yahoo!tech @ 02-Oct-2024
+</li>
+<li>
+<a href="https://www.nature.com/articles/d41586-024-03169-9" id="in-awe-with-chatgpt-o1-ridiculous">
+		‘In awe’: scientists impressed by latest ChatGPT model o1
+	<a></a>
+	- nature @ 01-Oct-2024
+	<div class="callout">
+		I really do not understand why people (even so-called AI experts) are so obsessed with
+		AI's capability of getting good scores on tests.
+		They very much miss the point of AI!
+	</div>
+</a></li>
 <li>
 <a href="https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/" id="lfm">
 		MIT spinoff Liquid debuts non-transformer AI models and they’re already state-of-the-art
@@ -285,6 +331,24 @@ toc_sticky: true
 <h1 id="semiconductor">Semiconductor</h1>
 <ul>
 <li>
+<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">
+		5 Super Semiconductor Stocks to Buy Hand Over Fist Heading Into 2025
+	</a>
+	- yahoo!finance @ 04-Oct-2024
+</li>
+<li>
+<a href="https://wccftech.com/tsmc-inks-deal-to-expand-arizona-plants-ai-packaging-capacity/">
+		TSMC Inks Deal To Expand Arizona Plant’s AI Packaging Capacity
+	</a>
+	- Wccftech @ 04-Oct-2024
+</li>
+<li>
+<a href="https://www.fnnews.com/ampNews/202410031335460554">
+		HBM4 승부수 띄웠다...삼성, '커스텀' 조직 만들고 'TSMC 영입인재' 전면에
+	</a>
+	- 파이낸셜뉴스 @ 03-Oct-2024 KST
+</li>
+<li>
 <a href="https://www.mk.co.kr/news/stock/11129411">
 		“이 바닥엔 벌써 겨울 온다고?”…연일 K반도체 때리는 외국계 큰손들, 주가 어쩌나
 	</a>
@@ -362,6 +426,13 @@ toc_sticky: true
 		Apple poised to introduce self-developed 5G modem in iPhones by 2025
 	</a>
 	@ 18-Sep-2024
+</li>
+<li>
+<a href="https://www.extremetech.com/computing/tsmcs-arizona-fab-matches-taiwan-in-early-yield-test">
+		TSMC's Arizona Fab Matches Taiwan in Early Yield Test
+	</a>
+	- ExtremeTech
+	@ 10-Sep-2024
 </li>
 </ul>
 <h1 id="software">Software</h1>
@@ -467,6 +538,20 @@ toc_sticky: true
 	@ 25-Sep-2024
 </li>
 </ul>
+<h2 id="astrophysics-and-quantum-physics">Astrophysics &amp; quantum physics</h2>
+<ul>
+<li>
+<a href="https://www.quantamagazine.org/the-logic-that-must-lie-behind-a-new-physics-20240925/">
+		The Logic That Must Lie Behind a New Physics
+	</a>
+	- Quanta Magazine @ 25-Sep-2024
+	 
+	<div class="foldable-toggle">headline</div>
+<div class="foldable-content">
+		The philosopher Karen Crowther digs into how the space-time fabric could possibly emerge from something non-spatiotemporal.
+    </div>
+</li>
+</ul>
 <h1 id="people">People</h1>
 <h2 id="prof-cha">Prof. Cha</h2>
 <ul>
@@ -559,17 +644,39 @@ toc_sticky: true
 <h1 id="all-articles">All articles in reverse chronicle order</h1>
 <ul>
 <li>
-<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047&amp;utm_campaign=The%20Batch&amp;utm_source=hs_email&amp;utm_medium=email&amp;_hsenc=p2ANqtz-9fI9QstXaP4Ymya088giiFna5q8Io3XAtE183kvRgxaoDPVHs0eH9nRwmx06I7I6QFVfQu">
-		SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)
+<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">
+		5 Super Semiconductor Stocks to Buy Hand Over Fist Heading Into 2025
 	</a>
+	- yahoo!finance @ 04-Oct-2024
 </li>
 <li>
-	comparison of AI accelerators - <a href="/ai-hardware">ChatGPT answer</a>
+<a href="https://wccftech.com/tsmc-inks-deal-to-expand-arizona-plants-ai-packaging-capacity/">
+		TSMC Inks Deal To Expand Arizona Plant’s AI Packaging Capacity
+	</a>
+	- Wccftech @ 04-Oct-2024
 </li>
 <li>
-<a href="https://www.toyotafound.or.jp/english/service/50th/grant/">
-		Toyota Foundation - The 50th Anniversary Grant Program
+<a href="https://techcrunch.com/2024/10/03/even-the-godmother-of-ai-has-no-idea-what-agi-is/">
+		Even the ‘godmother of AI’ has no idea what AGI is
 	</a>
+	@ 03-Oct-2024
+	<div class="callout">
+		btw, Fei-Fei, a Stanford Professor, is <em>NOT</em> a <em>godmother</em> of AI! most ridiculous thing that I've ever heard!
+		 
+		<img class="emoticon" src="/resource/favicons/smileys/smiley 22.png"/>
+</div>
+</li>
+<li>
+<a href="https://www.fnnews.com/ampNews/202410031335460554">
+		HBM4 승부수 띄웠다...삼성, '커스텀' 조직 만들고 'TSMC 영입인재' 전면에
+	</a>
+	- 파이낸셜뉴스 @ 03-Oct-2024 KST
+</li>
+<li>
+<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">
+		Nvidia just released an open-source LLM to rival GPT-4
+	</a>
+	- yahoo!tech @ 02-Oct-2024
 </li>
 <li>
 <a href="https://zdnet.co.kr/view/?no=20241002074840">
@@ -602,6 +709,17 @@ toc_sticky: true
 	@ 01-Oct-2024 PDT
 </li>
 <li>
+<a href="https://www.nature.com/articles/d41586-024-03169-9" id="in-awe-with-chatgpt-o1-ridiculous">
+		‘In awe’: scientists impressed by latest ChatGPT model o1
+	<a></a>
+	- nature @ 01-Oct-2024
+	<div class="callout">
+		I really do not understand why people (even so-called AI experts) are so obsessed with
+		AI's capability of getting good scores on tests.
+		They very much miss the point of AI!
+	</div>
+</a></li>
+<li>
 <a href="https://finance.yahoo.com/news/taiwan-semiconductors-2-nm-breakthrough-114331744.html?guccounter=1">
 		Taiwan Semiconductor's 2-Nm Breakthrough Puts Taiwan a Decade Ahead of China's Semiconductor Industry: Report
 	</a>
@@ -625,6 +743,12 @@ toc_sticky: true
 		(by Space Telescope Science Institute)
 	</a>
 	- Phys.org @ 01-Oct-2024
+</li>
+<li>
+<a href="https://v.daum.net/v/20240930074803386" id="z-fire">
+		"조직문화 모르고 매주 지각"… Z세대 해고 당하는 이유
+	</a>
+	- 세계일보 @ 30-Sep-2024
 </li>
 <li>
 <a href="https://www.aitimes.com/news/articleView.html?idxno=163837">
@@ -732,6 +856,17 @@ toc_sticky: true
 		Physicists Reveal a Quantum Geometry That Exists Outside of Space and Time
 	</a>
 	@ 25-Sep-2024
+</li>
+<li>
+<a href="https://www.quantamagazine.org/the-logic-that-must-lie-behind-a-new-physics-20240925/">
+		The Logic That Must Lie Behind a New Physics
+	</a>
+	- Quanta Magazine @ 25-Sep-2024
+	 
+	<div class="foldable-toggle">headline</div>
+<div class="foldable-content">
+		The philosopher Karen Crowther digs into how the space-time fabric could possibly emerge from something non-spatiotemporal.
+    </div>
 </li>
 <li>
 <a href="https://www.nature.com/articles/d41586-024-03116-8">
