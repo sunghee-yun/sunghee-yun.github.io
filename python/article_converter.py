@@ -126,6 +126,8 @@ if __name__ == "__main__":
         write("---")
         write("")
 
+        write('<a href="#all-articles">all articles in reverse chronicle order</a>')
+
         write(str(soup))
 
         write("")
@@ -133,5 +135,7 @@ if __name__ == "__main__":
         write('<h1 id="all-articles">All articles in reverse chronicle order</h1>')
         write("<ul>")
         for list_item in li_list:
+            if list_item.date is None:
+                continue
             write(str(list_item.li))
         write("</ul>")
