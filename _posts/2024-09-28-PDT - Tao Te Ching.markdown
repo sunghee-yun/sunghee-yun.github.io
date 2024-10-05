@@ -297,6 +297,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </div-->
 
+
 <h1 id="main-text">
 	Main text
 </h1>
@@ -2876,55 +2877,215 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <img width="60%" src="/assets/images/lao-tzu/stars.png">
 
+<h2 id="26">
+	제26장
+	-
+	치차輜車
+</h2>
+
+<blockquote>
+	조급하면 잃는다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	重爲輕根
+	靜爲躁君
+<span class="chinese-korean-transliteration">
+	중위경근
+	정위조군
+</span>
+<span class="chinese-korean-translation">
+	무거운 것은 가벼운 것의 뿌리이고
+	<br>
+	조용한 것은 조급한 것의 주인이다.
+</span>
+</p>
+
+<p>
+	是以聖人終日行
+	不離輜重
+<span class="chinese-korean-transliteration">
+	시이성인종일행
+	불리치중
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 하루 종일 다닐지라도
+	<br>
+	짐수레를 떠나지 않는다.
+</span>
+</p>
+
+<p>
+	雖有榮觀
+	燕處超然
+<span class="chinese-korean-transliteration">
+	수유영관
+	연처초연
+</span>
+<span class="chinese-korean-translation">
+	화려한 경관이 있을지라도
+	<br>
+	의연하고 초연할 뿐이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/horse-and-female-warrior.png">
+
+<div class="translation-container">
+<p>
+	柰何萬乘之主
+	而以身輕天下
+<span class="chinese-korean-transliteration">
+	내하만승지주
+	이이신경천하
+</span>
+<span class="chinese-korean-translation">
+	만대의 전차를 가진 나라의 임금이
+	<br>
+	어찌 세상에서 가볍게 처신할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	輕則失本
+	躁則失君
+<span class="chinese-korean-transliteration">
+	경즉실본
+	조즉실군
+</span>
+<span class="chinese-korean-translation">
+	가볍게 처신하면 그 근본을 잃게 되고
+	<br>
+	조급하게 행동하면 임금의 자리를 잃게 될 것이다 .
+</span>
+</p>
+</div>
+
+<h2 id="27">
+	제27장
+	-
+	습명襲明
+</h2>
+
+<blockquote>
+	성인은 아무도 버리지 않는다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	善行無轍迹
+	善言無瑕謫
+<span class="chinese-korean-transliteration">
+	선행무철적
+	선언무하적
+</span>
+<span class="chinese-korean-translation">
+	정말로 달리기를 잘하는 사람은 달린 자국을 남기지 않으며
+	<br>
+	정말로 잘하는 말에는 흠이나 티가 없다.
+</span>
+</p>
+
+<p>
+	善數不用籌策
+	善閉無關楗而不可開
+	善結無繩約而不可解
+<span class="chinese-korean-transliteration">
+	선수불용주책
+	선폐무관건이불가개
+	선결무승약이불가해
+</span>
+<span class="chinese-korean-translation">
+	정말로 계산을 잘하는 사람에게는 계산기가 필요없다.
+	<br>
+	정말로 잘 닫힌 문은 빗장이 없어도 열리지 않는다.
+	<br>
+	정말로 잘 맺어진 매듭은 졸라매지 않아도 풀리지 않는다.
+</span>
+</p>
+
+<p>
+	是以聖人常善求人
+	故無棄人
+<span class="chinese-korean-transliteration">
+	시이성인상선구인
+	고무기인
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 언제나 사람을 잘 도와 주고
+	<br>
+	아무도 버리지 않는다.
+</span>
+</p>
+
+<p>
+	常善救物
+	故無棄物
+	是謂襲明
+<span class="chinese-korean-transliteration">
+	상선구물
+	고무기물
+	시위습명
+</span>
+<span class="chinese-korean-translation">
+	물건을 잘 아끼고 아무것도 버리지 않는다면
+	<br>
+	이를 일러 밝음을 터득함이라 한다.
+</span>
+</p>
+
+<p>
+	故善人者
+	不善人之師
+	不善人者
+	善人之資
+<span class="chinese-korean-transliteration">
+	고선인자
+	불선인지사
+	불선인자
+	선인지자
+</span>
+<span class="chinese-korean-translation">
+	그러므로 선한 사람은
+	<br>
+	선하지 못한 사람의 스승이요,
+	<br>
+	선하지 못한 사람은
+	<br>
+	선한 사람의 귀감이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/light-bulb.jpeg">
+
+<div class="translation-container">
+<p>
+	不貴其師
+	不愛其資
+	雖智大迷
+	是謂要妙
+<span class="chinese-korean-transliteration">
+	불귀기사
+	불애기자
+	수지대미
+	시위요묘
+</span>
+<span class="chinese-korean-translation">
+	스승을 귀히 여기지 못하는 사람이나
+	<br>
+	귀감을 사랑하지 못하는 사람은
+	<br>
+	비록 지혜롭다 자처하더라도 크게 미혹된 상태이니
+	<br>
+	이것이 바로 기막힌 신비이다.
+</span>
+</p>
+</div>
+
 <!--
-26. 輜車(치차)
-
-
-
-조급하면 잃는다.
-
-
-重爲輕根(중위경근) : 무거운 것은 가벼운 것의 뿌리이고
-靜爲躁君(정위조군) : 조용한 것은 조급한 것의 주인이다.
-是以聖人終日行(시이성인종일행) : 그러므로 성인은 하루 종일 다닐지라도
-不離輜重(불리치중) : 짐수레를 떠나지 않는다.
-雖有榮觀(수유영관) : 화려한 경관이 있을지라도
-燕處超然(연처초연) : 의연하고 초연할 뿐이다.
-柰何萬乘之主(내하만승지주) : 만대의 전차를 가진 나라의 임금이
-而以身輕天下(이이신경천하) : 어찌 세상에서 가볍게 처신할 수 있겠는가?
-輕則失本(경즉실본) : 가볍게 처신하면 그 근본을 잃게 되고
-躁則失君(조즉실군) : 조급하게 행동하면 임금의 자리를 잃게 될 것이다 .
-
-
-
-27. 襲明(습명)
-
-
-
-성인은 아무도 버리지 않는다.
-
-
-善行無轍迹(선행무철적) : 정말로 달리기를 잘하는 사람은 달린 자국을 남기지 않으며,
-善言無瑕謫(선언무하적) : 정말로 잘하는 말에는 흠이나 티가 없다.
-善數不用籌策(선수불용주책) : 정말로 계산을 잘하는 사람에게는 계산기가 필요없다.
-善閉無關楗而不可開(선폐무관건이불가개) : 정말로 잘 닫힌 문은 빗장이 없어도 열리지 않는다.
-善結無繩約而不可解(선결무승약이불가해) : 정말로 잘 맺어진 매듭은 졸라매지 않아도 풀리지 않는다.
-是以聖人常善求人(시이성인상선구인) : 그러므로 성인은 언제나 사람을 잘 도와 주고
-故無棄人(고무기인) : 아무도 버리지 않는다.
-常善救物(상선구물) : 물건을 잘 아끼고
-故無棄物(고무기물) : 아무것도 버리지 않는다면
-是謂襲明(시위습명) : 이를 일러 밝음을 터득함이라 한다.
-故善人者(고선인자) : 그러므로 선한 사람은
-不善人之師(불선인지사) : 선하지 못한 사람의 스승이요,
-不善人者(불선인자) : 선하지 못한 사람은
-善人之資(선인지자) : 선한 사람의 귀감이다.
-不貴其師(불귀기사) : 스승을 귀히 여기지 못하는 사람이나
-不愛其資(불애기자) : 귀감을 사랑하지 못하는 사람은
-雖智大迷(수지대미) : 비록 지혜롭다 자처하더라도 크게 미혹된 상태이니,
-是謂要妙(시위요묘) : 이것이 바로 기막힌 신비이다.
-
-
-
 28. 常德(상덕)
 
 
