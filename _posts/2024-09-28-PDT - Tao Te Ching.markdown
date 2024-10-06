@@ -281,6 +281,44 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </div>
 
+<div class="text-highlight">
+	<a href="#know-both-white-and-black"><font class="emph">
+	知其白
+	守其黑
+	爲天下式
+	</font></a>
+	<br>
+	지기백
+	수기흑
+	위천하식
+<span class="chinese-korean-translation">
+	흰 것을 알면서
+	<br>
+	검은 것을 유지하면
+	<br>
+	세상의 본보기가 될 것이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#know-both-glory-and-disgrace"><font class="emph">
+	知其榮
+	守其辱
+	爲天下谷
+	</font></a>
+	<br>
+	지기영
+	수기욕
+	위천하곡
+<span class="chinese-korean-translation">
+	영광을 알면서
+	<br>
+	오욕을 유지하면
+	<br>
+	세상의 골짜기가 될 것이다.
+</span>
+</div>
+
 <!--div class="text-highlight">
 	<a href="#sdf"><font class="emph">
 	</font></a>
@@ -295,8 +333,23 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<br>
 <span class="chinese-korean-translation">
 </span>
-</div-->
+</div>
 
+<div class="text-highlight">
+	<a href="#sdf"><font class="emph">
+	</font></a>
+	<br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#sdf"><font class="emph">
+	</font></a>
+	<br>
+<span class="chinese-korean-translation">
+</span>
+</div-->
 
 <h1 id="main-text">
 	Main text
@@ -3085,93 +3138,405 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="28">
+	제28장
+	-
+	상덕常德
+</h2>
+
+<blockquote>
+	이것 저것을 나누지 않는 어린아이가 될 수 있겠는가?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	知其雄
+	守其雌
+	爲天下谿
+<span class="chinese-korean-transliteration">
+	지기웅
+	수기자
+	위천하계
+</span>
+<span class="chinese-korean-translation">
+	남성다움을 알면서
+	<br>
+	여성다움을 유지하면
+	<br>
+	세상의 협곡이 될 것이다.
+</span>
+</p>
+
+<p>
+	爲天下谿
+	常德不離
+	復歸於嬰兒
+<span class="chinese-korean-transliteration">
+	위천하계
+	상덕불리
+	복귀어영아
+</span>
+<span class="chinese-korean-translation">
+	세상의 협곡이 되면
+	<br>
+	영원한 덕에서 떠나지 않고
+	<br>
+	갓난아기의 상태로 돌아가게 될 것이다.
+</span>
+</p>
+
+<font id="know-both-white-and-black" class="emph">
+<p>
+	知其白
+	守其黑
+	爲天下式
+<span class="chinese-korean-transliteration">
+	지기백
+	수기흑
+	위천하식
+</span>
+<span class="chinese-korean-translation">
+	흰 것을 알면서
+	<br>
+	검은 것을 유지하면
+	<br>
+	세상의 본보기가 될 것이다.
+</span>
+</p>
+</font>
+
+<p>
+	爲天下式
+	常德不忒
+	復歸於無極
+<span class="chinese-korean-transliteration">
+	위천하식
+	상덕불특
+	복귀어무극
+</span>
+<span class="chinese-korean-translation">
+	세상의 본보기가 되면
+	<br>
+	영원한 덕에서 어긋나지 않고
+	<br>
+	무극의 상태로 돌아가게 될 것이다.
+</span>
+</p>
+
+<font id="know-both-glory-and-disgrace" class="emph">
+<p>
+	知其榮
+	守其辱
+	爲天下谷
+<span class="chinese-korean-transliteration">
+	지기영
+	수기욕
+	위천하곡
+</span>
+<span class="chinese-korean-translation">
+	영광을 알면서
+	<br>
+	오욕을 유지하면
+	<br>
+	세상의 골짜기가 될 것이다.
+</span>
+</p>
+</font>
+
+<p>
+	爲天下谷
+	常德乃足
+	復歸於樸
+<span class="chinese-korean-transliteration">
+	위천하곡
+	상덕내족
+	복귀어박
+</span>
+<span class="chinese-korean-translation">
+	세상의 골짜기가 되면
+	<br>
+	영원한 덕이 풍족하게 되고
+	<br>
+	다듬지 않은 통나무 상태로 돌아가게 될 것이다.
+</span>
+</p>
+</div>
+
+<img width="45%" src="/assets/images/lao-tzu/two-light-colored-flowers.png">
+
+<div class="translation-container">
+<p>
+	樸散則爲器
+	聖人用之
+	則爲官長
+<span class="chinese-korean-transliteration">
+	박산즉위기
+	성인용지
+	즉위관장
+</span>
+<span class="chinese-korean-translation">
+	다듬지 않은 통나무를 쪼개면 그룻이 되는데,
+	<br>
+	성인은 이를 사용하여
+	<br>
+	지도자가 된다.
+</span>
+</p>
+
+<p>
+	故大制不割
+<span class="chinese-korean-transliteration">
+	고대제불할
+</span>
+<span class="chinese-korean-translation">
+	정말로 훌륭한 지도자는 세세하게 나누지 않는다.
+</span>
+</p>
+</div>
+
+<h2 id="29">
+	제29장
+	-
+	자연自然
+</h2>
+
+<blockquote>
+	세상은 신기한 그릇이니
+	<br>
+	거기에다가 뭣을 하겠다고 하지 말라
+</blockquote>
+
+<div class="translation-container">
+<p>
+	將欲取天下而爲之
+	吾見其不得已
+<span class="chinese-korean-transliteration">
+	장욕취천하이위지
+	오견기불득이
+</span>
+<span class="chinese-korean-translation">
+	세상을 휘어잡고
+	<br>
+	그것을 위해 뭔가 해보겠다고 나서는 사람들
+	<br>
+	내가 보건대 필경 성공하지 못한다.
+</span>
+</p>
+
+<p>
+	天下神器
+	不可爲也
+<span class="chinese-korean-transliteration">
+	천하신기
+	불가위야
+</span>
+<span class="chinese-korean-translation">
+	세상은 신령한 기물
+	<br>
+	거기다가 함부로 뭘 하겠다고 할 수 없다.
+</span>
+</p>
+
+<p>
+	爲者敗之
+	執者失之
+<span class="chinese-korean-transliteration">
+	위자패지
+	집자실지
+</span>
+<span class="chinese-korean-translation">
+	거기다가 함부로 뭘 하겠다고 하는 사람
+	<br>
+	그것을 망치고
+	<br>
+	그것을 휘어잡으려는 사람
+	<br>
+	그것을 잃고 말 것이다.
+</span>
+</p>
+
+<p>
+	故物或行或隨
+	或歔或吹
+	或强或羸
+	或挫或隳
+<span class="chinese-korean-transliteration">
+	고물혹행혹수
+	혹허혹취
+	혹강혹리
+	혹좌혹휴
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	만사는 다양해서
+	<br>
+	앞서가는 것이 있는가 하면
+	<br>
+	뒤따르는 것도 있고
+	<br>
+	숨을 천천히 쉬는 것이 있는가 하면
+	<br>
+	빨리 쉬는 것도 있고
+	<br>
+	강한 것이 있는가 하면
+	<br>
+	약한 것도 있고
+	<br>
+	꺾이는 것이 있는가 하면
+	<br>
+	떨어지는 것도 있다.
+</span>
+</p>
+
+<p>
+	是以聖人
+	去甚去奢去泰
+<span class="chinese-korean-transliteration">
+	시이성인
+	거심거사거태
+</span>
+<span class="chinese-korean-translation">
+	따라서 성인은
+	<br>
+	너무심함
+	<br>
+	사치스러움
+	<br>
+	극단
+	<br>
+	등을 피한다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/praying-black-woman.png">
+
+<h2 id="30">
+	제30장
+	-
+	부도不道
+</h2>
+
+<blockquote>
+	모든 일을 억지로 힘으로 지배하려는 것은 도가 아니다
+	<br>
+	도가 아닌 것은 오래가지 못한다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	以道佐人主者
+	不以兵强天下
+<span class="chinese-korean-transliteration">
+	이도좌인주자
+	불이병강천하
+</span>
+<span class="chinese-korean-translation">
+	도로써 군주를 보좌하는 사람은
+	<br>
+	무력을 써서 세상에 군림하는 일이 없도록 해야 한다.
+</span>
+</p>
+
+<p>
+	其事好還
+	師之所處
+	荊棘生焉
+	大軍之後
+	必有凶年
+<span class="chinese-korean-transliteration">
+	기사호환
+	사지소처
+	형극생언
+	대군지후
+	필유흉년
+</span>
+<span class="chinese-korean-translation">
+	무력을 쓰면 반드시 그 대가가 돌아오게 마련이어서
+	<br>
+	군사가 주둔하던 곳엔
+	가시엉겅퀴가 자라나고
+	<br>
+	큰 전쟁 뒤에는
+	반드시 흉년이 따르게 된다.
+</span>
+</p>
+
+<p>
+	善有果而已
+	不敢以取强
+<span class="chinese-korean-transliteration">
+	선유과이이
+	불감이취강
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 사람은 목적만 이룬 다음 그만둘 줄 알고
+	<br>
+	감히 군림하려 하지 않는다.
+</span>
+</p>
+
+<p>
+	果而勿矜
+	果而勿伐
+	果而勿驕
+<span class="chinese-korean-transliteration">
+	과이물긍
+	과이물벌
+	과이물교
+</span>
+<span class="chinese-korean-translation">
+	목적을 이뤘으되 자랑하지 않고
+	<br>
+	목적을 이뤘으되 뽐내지 않으며
+	<br>
+	목적을 이뤘으되 교만하지 않는다.
+</span>
+</p>
+
+<p>
+	果而不得已
+	果而勿强
+<span class="chinese-korean-transliteration">
+	과이부득이
+	과이물강
+</span>
+<span class="chinese-korean-translation">
+	목적을 이뤘으나 할 수 없어서 한 일
+	<br>
+	목적을 이뤘으되 군림하려 하지 않는다.
+</span>
+</p>
+
+<p>
+	物壯則老
+	是謂不道
+<span class="chinese-korean-transliteration">
+	물장즉로
+	시위불도
+</span>
+<span class="chinese-korean-translation">
+	무엇이나 기운이 지나치면 쇠하게 마련
+	<br>
+	도가 아닌 까닭이다.
+</span>
+</p>
+
+<p>
+	不道早已
+<span class="chinese-korean-transliteration">
+	불도조이
+</span>
+<span class="chinese-korean-translation">
+	도가 아닌 것은 얼마 가지 않아 끝장이 난다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/lots-of-cloud.png">
+
 <!--
-28. 常德(상덕)
-
-
-
-이것 저것을 나누지 않는 어린아이가 될 수 있겠는가?
-
-
-知其雄(지기웅) : 남성다움을 알면서
-守其雌(수기자) : 여성다움을 유지하면
-爲天下谿(위천하계) : 세상의 협곡이 될 것이다.
-爲天下谿(위천하계) : 세상의 협곡이 되면
-常德不離(상덕불리) : 영원한 덕에서 떠나지 않고
-復歸於嬰兒(복귀어영아) : 갓난아기의 상태로 돌아가게 될 것이다.
-知其白(지기백) : 흰 것을 알면서
-守其黑(수기흑) : 검은 것을 유지하면
-爲天下式(위천하식) : 세상의 본보기가 될 것이다.
-爲天下式(위천하식) : 세상의 본보기가 되면
-常德不忒(상덕불특) : 영원한 덕에서 어긋나지 않고
-復歸於無極(복귀어무극) : 무극의 상태로 돌아가게 될 것이다.
-知其榮(지기영) : 영광을 알면서
-守其辱(수기욕) : 오욕을 유지하면
-爲天下谷(위천하곡) : 세상의 골짜기가 될 것이다.
-爲天下谷(위천하곡) : 세상의 골짜기가 되면
-常德乃足(상덕내족) : 영원한 덕이 풍족하게 되고
-復歸於樸(복귀어박) : 다듬지 않은 통나무 상태로 돌아가게 될 것이다.
-樸散則爲器(박산즉위기) : 다듬지 않은 통나무를 쪼개면 그룻이 되는데,
-聖人用之(성인용지) : 성인은 이를 사용하여
-則爲官長(즉위관장) : 지도자가 된다.
-故大制不割(고대제불할) : 정말로 훌륭한 지도자는 세세하게 나누지 않는다.
-
-
-
-29. 自然(자연)
-
-
-
-세상은 신기한 그릇이니,
-
-거기에다가 뭣을 하겠다고 하지 말라.
-
-
-將欲取天下而爲之(장욕취천하이위지) : 세상을 휘어잡고 그것을 위해 뭔가 해보겠다고 나서는 사람들
-吾見其不得已(오견기불득이) : 내가 보건대 필경 성공하지 못한다.
-天下神器(천하신기) : 세상은 신령한 기물
-不可爲也(불가위야) : 거기다가 함부로 뭘 하겠다고 할 수 없다.
-爲者敗之(위자패지) : 거기다가 함부로 뭘 하겠다고 하는 사람 그것을 망치고
-執者失之(집자실지) : 그것을 휘어잡으려는 사람 그것을 잃고 말 것이다.
-故物或行或隨(고물혹행혹수) : 그러므로 만사는 다양해서 앞서가는 것이 있는가 하면 뒤따르는 것도 있고
-或歔或吹(혹허혹취) : 숨을 천천히 쉬는 것이 있는가 하면 빨리 쉬는 것도 있고
-或强或羸(혹강혹리) : 강한 것이 있는가 하면 약한 것도 있고
-或挫或隳(혹좌혹휴) : 꺾이는 것이 있는가 하면 떨어지는 것도 있다.
-是以聖人(시이성인) : 따라서 성인은
-去甚去奢去泰(거심거사거태) : 너무심함, 사치스러움, 극단 등을 피한다.
-
-
-
-30. 不道(부도)
-
-
-
-모든 일을 억지로 힘으로 지배하려는 것은 도가 아니다.
-
-도가 아닌 것은 오래가지 못한다.
-
-
-
-以道佐人主者(이도좌인주자) : 도로써 군주를 보좌하는 사람은
-不以兵强天下(불이병강천하) : 무력을 써서 세상에 군림하는 일이 없도록 해야 한다.
-其事好還(기사호환) : 무력을 쓰면 반드시 그 대가가 돌아오게 마련이어서
-師之所處(사지소처) : 군사가 주둔하던 곳엔
-荊棘生焉(형극생언) : 가시엉겅퀴가 자라나고
-大軍之後(대군지후) : 큰 전쟁 뒤에는
-必有凶年(필유흉년) : 반드시 흉년이 따르게 된다.
-善有果而已(선유과이이) : 훌륭한 사람은 목적만 이룬 다음 그만둘 줄 알고
-不敢以取强(불감이취강) : 감히 군림하려 하지 않는다.
-果而勿矜(과이물긍) : 목적을 이뤘으되 자랑하지 않고
-果而勿伐(과이물벌) : 목적을 이뤘으되 뽐내지 않으며,
-果而勿驕(과이물교) : 목적을 이뤘으되 교만하지 않는다.
-果而不得已(과이부득이) : 목적을 이뤘으나 할 수 없어서 한 일
-果而勿强(과이물강) : 목적을 이뤘으되 군림하려 하지 않는다.
-物壯則老(물장즉로) : 무엇이나 기운이 지나치면 쇠하게 마련
-是謂不道(시위불도) : 도가 아닌 까닭이다.
-不道早已(불도조이) : 도가 아닌 것은 얼마 가지 않아 끝장이 난다.
-
-
-
 31. 貴下(귀하)
 
 
