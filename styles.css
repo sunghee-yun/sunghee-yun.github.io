@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
 	height: 2.5ex;
 }
 
+.favicon {
+	height: 2.5ex;
+}
+
 .callout {
     border: 2px solid #ffcc00;
     background-color: #fff9c4;
