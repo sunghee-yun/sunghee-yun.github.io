@@ -21,9 +21,7 @@ def extract_data(soup):
     data["Name"] = soup.title.string.split(" - ")[0] if soup.title else "Unknown"
 
     # Extract advisor information
-    advisor_link = soup.find("p", style="text-align: center; line-height: 2.75ex").find(
-        "a"
-    )
+    advisor_link = soup.find("p", style="text-align: center; line-height: 2.75ex").find("a")
     if advisor_link:
         data["Advisor"] = advisor_link.text.strip()
         data["Advisor_URL"] = advisor_link["href"]

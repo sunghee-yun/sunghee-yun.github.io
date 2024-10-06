@@ -33,9 +33,7 @@ def crawl(data: dict[str, Any], id_: str, depth_: int, height: int, /) -> None:
     response = requests.get(url)
 
     if response.status_code != 200:
-        logger.warning(
-            f"For id={id_}, request received status code {response.status_code}"
-        )
+        logger.warning(f"For id={id_}, request received status code {response.status_code}")
         return
 
     soup = BeautifulSoup(response.content, "html.parser")

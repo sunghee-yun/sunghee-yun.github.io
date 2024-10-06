@@ -2,6 +2,7 @@
 chatgpt 4o spit out this code
 for paring math genealogy website
 """
+
 import requests
 from bs4 import BeautifulSoup
 
