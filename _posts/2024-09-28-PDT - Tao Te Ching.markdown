@@ -149,6 +149,23 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </div>
 
 <div class="text-highlight">
+	<a href="#act-with-no-act"><font class="emph">
+	是以聖人處無爲之事
+	行不言之敎
+	</font></a>
+	<br>
+	시이성인처무위지사
+	행불언지교
+<span class="chinese-korean-translation">
+	따라서
+	<br>
+	성인은 무위로써 일을 처리하고
+	<br>
+	말로 하지 않는 가르침을 행한다.
+</span>
+</div>
+
+<div class="text-highlight">
 	<a href="#absence-for-utility"><font class="emph">
 		故有之以爲利
 		無之以爲用
@@ -341,14 +358,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<br>
 <span class="chinese-korean-translation">
 </span>
-</div>
-
-<div class="text-highlight">
-	<a href="#sdf"><font class="emph">
-	</font></a>
-	<br>
-<span class="chinese-korean-translation">
-</span>
 </div-->
 
 <h1 id="main-text">
@@ -458,20 +467,28 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <div class="translation-container">
 	天下皆知美之爲美
 	斯惡已
-	皆知善之爲善
-	斯不善已
 <p>
 <span class="chinese-korean-transliteration">
 	천하개지미지위미
 	사악이
+</span>
+<span class="chinese-korean-translation">
+	세상 모두가 아름다움을 아름다움으로 알아보는 자체가
+	<br>
+	추함이 있다는 것을 뜻한다.
+</span>
+</p>
+
+<p>
+	皆知善之爲善
+	斯不善已
+<span class="chinese-korean-transliteration">
 	개지선지위선
 	사불선이
 </span>
 <span class="chinese-korean-translation">
-	세상 모두가 아름다움을 아름다움으로 알아보는 자체가
-	추함이 있다는 것을 뜻한다.
-	<br>
 	착한 것을 착한 것으로 알아보는 자체가
+	<br>
 	착하지 않음이 있다는 것을 뜻한다.
 </span>
 </p>
@@ -506,6 +523,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </p>
 
+<font id="act-with-no-act" class="emph">
 <p>
 	是以聖人處無爲之事
 	行不言之敎
@@ -514,35 +532,55 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	행불언지교
 </span>
 <span class="chinese-korean-translation">
-	따라서 성인은 무위로써 일을 처리하고
+	따라서
+	<br>
+	성인은 무위로써 일을 처리하고
+	<br>
 	말로 하지 않는 가르침을 행한다.
 </span>
 </p>
+</font>
 
 <p>
 	萬物作焉而不辭
 	生而不有
 	爲而不恃
 	功成而弗居
-	夫唯弗居
-	是以不去
 <span class="chinese-korean-transliteration">
 	만물작언이불사
 	생이불유
 	위이불시
 	공성이불거
+</span>
+<span class="chinese-korean-translation">
+	만물을 만들어 내지만
+	<br>
+	내가 만들었다고 말하지 아니하고
+	<br>
+	생기게 하고도
+	<br>
+	가지려 하지 않고
+	<br>
+	할 것 다 이루나
+	<br>
+	거기에 기대려 하지 않으며
+	<br>
+	공을 이루나
+	<br>
+	거기에 주저 앉지 않는다.
+</span>
+</p>
+
+<p>
+	夫唯弗居
+	是以不去
+<span class="chinese-korean-transliteration">
 	부유불거
 	시이불거
 </span>
 <span class="chinese-korean-translation">
-	만물을 만들어 내지만 내가 만들었다고 말하지 아니하고
-	<br>
-	생기게 하고도 가지려 하지 않고
-	할 것 다 이루나 거기에 기대려 하지 않으며
-	<br>
-	공을 이루나 거기에 주저 앉지 않는다.
-	<br>
 	공을 주장하지 않기에
+	<br>
 	이룬 일이 허사로 돌아가지 않도다.
 </span>
 </p>
