@@ -1,0 +1,51 @@
+---
+layout: single
+title: Welcome to My AI Insights Hub
+permalink: /articles
+toc: true
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+---
+
+<head>
+<link href="/resource/styles.css" rel="stylesheet"/>
+</head>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var toggles = document.querySelectorAll('.foldable-toggle');
+
+		toggles.forEach(function(toggle) {
+			toggle.addEventListener('click', function() {
+				this.classList.toggle('active');
+				var content = this.nextElementSibling;
+				if (content.style.display === 'block') {
+					content.style.display = 'none';
+				} else {
+					content.style.display = 'block';
+				}
+			});
+		});
+	});
+</script>
+
+
+Step into the fascinating world of Artificial Intelligence (AI), where innovation meets impact. I invite you to embark on a journey through the ever-evolving landscape of AI, as I bring you carefully curated articles that illuminate the path of progress.
+
+My collection serves as your window into the cutting-edge of AI technology, offering glimpses of groundbreaking advancements that are reshaping our world. I traverse the dynamic terrains of industry trends and market shifts, uncovering opportunities for visionaries and entrepreneurs alike.
+But my exploration doesn't stop at the technical frontier. I delve deeper, examining how AI's tendrils reach into the very fabric of our society. From economic transformations to political reverberations, from legal labyrinths to ethical crossroads, I unpack the multifaceted impacts of AI on our lives and communities.
+
+To provide a truly holistic view, I also explore the underlying technologies that power AI. This includes insights into the semiconductor industry, trends in hardware development, and advancements in computing architectures that enable AI's rapid evolution. By connecting the dots between software innovations and hardware progress, I aim to paint a comprehensive picture of the AI landscape.
+In this interconnected world, I shine a light on the geopolitical dimensions of AI technologies as well. I explore how nations navigate the complex interplay of technological advancement, economic strategies, and international relations in the race for AI capabilities.
+
+As I navigate this complex ecosystem, I also examine the human element, exploring the psychological nuances of our relationship with AI. The curated articles I share offer diverse perspectives, fostering a nuanced understanding of AI's role in our present and future.
+
+This living collection grows and evolves, mirroring the rapid pace of AI development across all its facets. I invite you to return often, as I continually update this repository with fresh insights and thought-provoking content. Join me on this intellectual adventure as we decode the language of machines, unravel the potential of artificial minds, and explore the multifaceted world that makes it all possible.
+
+Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and where a holistic view of AI's past, present, and future awaits you.
+
+<!--div class="centered-container">
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsunghee.yun1%2Fposts%2Fpfbid0CPHW1paBjy2HvAG3ahGWo1wgAsh9vko19WMAWjetYCq9SqdtnUcqfCxVABUVt1UEl&show_text=true&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div-->
+
