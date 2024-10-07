@@ -497,7 +497,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg">
+<!--img width="60%" src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg"-->
 
 <h2 id="originally">
 	마음은 본래 스스로 원만한 것
@@ -701,7 +701,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	</font>
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/buddhism/noble-eightfold-path.png">
+
+<div class="translation-container">
 <p>
 	汝若不信 略擧古聖 入道因緣 令汝除疑 汝須諦信
 <span class="chinese-korean-transliteration">
@@ -718,8 +722,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
-
-<img width="60%" src="/assets/images/buddhism/searching-inside-01.png">
 
 <h2 id="buddha-exists-in-functioning">
 	불성은 작용하는 가운데 있습니다
@@ -949,7 +951,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	왕은 이 말을 듣고 마음이 바로 열리었다.
 </span>
 </p>
+</div>
 
+<img width="45%" src="/assets/images/buddhism/buddha-in-me.png">
+
+<div class="translation-container">
 <p>
 	又僧 問歸宗和尙 如何是佛
 <span class="chinese-korean-transliteration">
@@ -998,8 +1004,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
-
-<img width="60%" src="/assets/images/buddhism/you-are-buddha.png">
 
 <h2 id="how-to-preserve-awareness">
 	어떻게 보림保任해야 합니까?
@@ -1164,7 +1168,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	돈오頓悟와 점수漸修의 두 가지 문에 지나지 않는다.
 </span>
 </p>
+</div>
 
+<img width="50%" src="/assets/images/buddhism/teaching-potion.png">
+
+<div class="translation-container">
 <p>
 	雖曰頓悟頓修 是最上根機得入也 若推過去 已是 多生 依悟而修 漸熏而來
 <span class="chinese-korean-transliteration">
