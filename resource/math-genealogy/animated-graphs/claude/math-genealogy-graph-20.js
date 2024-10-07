@@ -1,7 +1,7 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Load and process the JSON data
-    d3.json("my_math_gen - 20.json").then(function(data) {
+    d3.json("/resource/math-genealogy/animated-graphs/claude/my_math_gen - 20.json").then(function(data) {
         const nodes = Object.values(data);
         const links = [];
 
@@ -20,8 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Set up the SVG
-        const width = window.innerWidth * .9;
-        const height = window.innerHeight * .9;
+        //const width = window.innerWidth * .9;
+        //const height = window.innerHeight * .9;
+        const width = Math.min(600, window.innerWidth * .9)  // window.innerWidth * .4;
+        const height = 600 // window.innerHeight * .6;
         const svg = d3.select("#graph")
             .append("svg")
             .attr("width", width)

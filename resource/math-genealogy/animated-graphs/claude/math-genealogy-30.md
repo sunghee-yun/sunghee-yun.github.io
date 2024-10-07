@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: single
+permalink: /math-gen/30/
+author_profile: true
+title: Math Genealogy - depth 30 from Sunghee
+toc: false
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+---
+
+<!--html lang="en"-->
 <head>
-	<title>Math Genealogy - starting from Mr. Funnybunny to Gauss</title>
+	<!--title>Math Genealogy - starting from Mr. Funnybunny - depth 30</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Genealogy Graph</title>
+    <title>Math Genealogy Graph</title-->
     <!-- Include D3.js from a CDN -->
+	<link rel="stylesheet" href="/resource/styles.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         .node {
@@ -18,7 +29,7 @@
 			stroke-width: 1.5px;
         }
         .node-label {
-            font-size: 22px;
+            font-size: 14px;
             pointer-events: none;
         }
         .tooltip {
@@ -29,12 +40,8 @@
             border-radius: 5px;
             pointer-events: none;
         }
-    </style>
+	</style>
 </head>
-<body>
-<h1 align="center">Math Genealogy - starting from Mr. Funnybunny to Gauss</h1>
-    <div id="graph"></div>
-    <script src="math-genealogy-graph-gauss.js"></script>
-</body>
-</html>
+<script src="/resource/math-genealogy/animated-graphs/claude/math-genealogy-graph-30.js"></script>
 
+<div id="graph"></div>
