@@ -1,12 +1,12 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 date: Sun Oct  6 22:27:27 PDT 2024
-last_modified_at: Sun Oct  6 22:27:27 PDT 2024
+last_modified_at: Mon Oct  7 00:54:33 PDT 2024
 categories:
  - blog
 tags:
- - ai
- - llm
+ - AI
+ - LLM
  - future
  - research
  - technology
@@ -37,7 +37,7 @@ The amount of energy consumed by entities providing LLM services is staggering. 
 
 Figures like Sam Altman are seeking trillions in investments to build more data centers and even semiconductor manufacturing facilities. Some have even speculated that AI’s future could rely on nuclear fusion for power. However, I don’t believe that any economy can thrive on limitless energy consumption. This path seems unsustainable, and it doesn’t take an expert to recognize that.
 
-<h1 id="energy-dilemma">The energy dilemma</h1>
+<h1 id="energy-dilemma">Energy dilemma</h1>
 
 I’ve had discussions with entrepreneurs in the nuclear fusion space, and while there’s excitement, the technology isn’t commercially viable yet. The most optimistic estimates suggest it could become a reality by 2035, with some projections extending to 2050. With such uncertainty around future energy solutions, it’s imperative that AI research shifts its focus toward reducing energy consumption now.
 
@@ -51,6 +51,8 @@ For example, during my recent business development efforts at Erudio Bio, Inc., 
 
 This observation extends beyond the medical field. For most use cases, the extensive language understanding of LLMs is neither necessary nor sufficient. This suggests a natural evolution toward lighter models, fine-tuned for specific applications, such as charting for medical professionals.
 
+In the coming years, data may prove even more crucial than today's impressive large language models. The growing importance of data in shaping AI capabilities will be explored further in upcoming posts.
+
 <h1 id="lnn">Enter liquid neural networks (LNN)</h1>
 
 This brings me to a breakthrough that could address the very issues I’ve been grappling with;
@@ -59,6 +61,7 @@ I accidentally stumbled upon this article a few days ago -
 	MIT spinoff Liquid debuts non-transformer AI models and they’re already state-of-the-art.
 </a>
 Their innovative architecture doesn’t require the constant toggling of GPU circuits, as Transformers do.
+&ndash; This article is in <a href="/articles#ai-llm">this list</a>, too.
 
 The energy savings are impressive, and the speed of inference is another game-changer. - Look at below figure from the article. -
 Liquid AI delivers results instantly, in stark contrast to Transformer-based models, which process tokens very slowly. - You can practically read the output as it generates
