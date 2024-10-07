@@ -9,6 +9,16 @@ from articles.article import Article
 
 
 class ArticleCollection:
+    TRANSLATION_TABLE: dict[str, str] = dict(ai="AI", agi="AGI", llm="LLM", genai="genAI")
+    TRANSLATION_TABLE["ai in general"] = "AI in general"
+
+    @staticmethod
+    def capitalize(s: str) -> str:
+        if len(s) < 1:
+            return s
+
+        return s[0].capitalize() + s[1:]
+
     def __init__(self) -> None:
         self.cat_articles_dict: dict[tuple[str, ...], list[Article]] = defaultdict(list)
         self.all_articles: list[Article] = list()
@@ -36,25 +46,11 @@ class ArticleCollection:
                 if start_heading:
                     if idx == len(current_cat) - 1:
                         heading_ = category_title_map[1]
-                    heading__: str = (
-                        "AI"
-                        if heading_ == "ai"
-                        else (
-                            "AGI"
-                            if heading_ == "agi"
-                            else (
-                                "LLM"
-                                if heading_ == "llm"
-                                else (
-                                    "genAI"
-                                    if heading_ == "genai"
-                                    else heading_.capitalize() if idx <= 1 else heading_
-                                )
-                            )
-                        )
+                    heading__: str = self.TRANSLATION_TABLE.get(
+                        heading_, self.capitalize(heading_) if idx <= 1 else heading_
                     )
                     res.append(
-                        f'<h{idx+1} id="{"-".join(current_cat[:idx+1])}">"'
+                        f'<h{idx+1} id="{"-".join(current_cat[:idx+1])}">'
                         f"\n\t{heading__}\n</h{idx+1}>"
                     )
                     res.append("")
