@@ -295,7 +295,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 <h2 id="ai-general">
-	Ai in general
+	AI in general
 </h2>
 
 <ul>
@@ -320,7 +320,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 <h2 id="ai-agi">
-	Agi
+	AGI
 </h2>
 
 <ul>
@@ -355,7 +355,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 <h2 id="ai-llm">
-	Llm
+	LLM
 </h2>
 
 <ul>
@@ -486,7 +486,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 <h2 id="ai-genai">
-	Genai
+	genAI
 </h2>
 
 <ul>
@@ -782,7 +782,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </h1>
 
 <h2 id="people-prof-sangkyun-cha">
-	Prof. cha
+	Prof. Cha
 </h2>
 
 <ul>
@@ -795,7 +795,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 <h2 id="people-prof-yongsuk-kim">
-	Prof. yongsuk kim
+	Prof. Yongsuk Kim
 </h2>
 
 <ul>
