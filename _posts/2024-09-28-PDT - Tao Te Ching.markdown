@@ -336,29 +336,58 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </div>
 
-<!--div class="text-highlight">
-	<a href="#sdf"><font class="emph">
+<div class="text-highlight">
+	<a href="#if-ruler-follows-tao"><font class="emph">
+	侯王若能守之
+	萬物將自賓
+	天地相合
+	以降甘露
+	民莫之令而自均
 	</font></a>
 	<br>
+	후왕약능수지
+	만물장자빈
+	천지상합
+	이강감로
+	민막지령이자균
 <span class="chinese-korean-translation">
+	임금이나 제후가 이를 지킬 줄 알면
+	<br>
+	모든 것이 저절로 순복할 것이요
+	<br>
+	하늘과 땅이 서로 합하여 감로를 내릴 것이요
+	<br>
+	명령하지 않아도 백성이 스스로 고르게 될 것이다.
 </span>
 </div>
 
 <div class="text-highlight">
-	<a href="#sdf"><font class="emph">
+	<a href="#if-know-how-to-stop"><font class="emph">
+	知止可以不殆
 	</font></a>
 	<br>
+	지지가이불태
 <span class="chinese-korean-translation">
+	멈출 줄을 알면 위태롭지 않다.
 </span>
 </div>
 
 <div class="text-highlight">
-	<a href="#sdf"><font class="emph">
+	<a href="#world-runs-like-tao"><font class="emph">
+	譬道之在天下
+	猶川谷之於江海
 	</font></a>
 	<br>
+	비도지재천하
+	유천곡지어강해
 <span class="chinese-korean-translation">
+	이를테면
+	<br>
+	세상이 도道로 돌아감은
+	<br>
+	마치 개천과 계곡의 물이 강이나 바다로 흘러듬과 같다.
 </span>
-</div-->
+</div>
 
 <h1 id="main-text">
 	Main text
@@ -3574,64 +3603,299 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <img width="60%" src="/assets/images/lao-tzu/lots-of-cloud.png">
 
+<h2 id="31">
+	제31장
+	-
+	귀하貴下
+</h2>
+
+<blockquote>
+	자기 현실에 무기를 가지고 덤비는 것은 두렵다는 뜻이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	夫佳兵者
+	不祥之器
+	物或惡之
+<span class="chinese-korean-transliteration">
+	부가병자
+	불상지기
+	물혹악지
+</span>
+<span class="chinese-korean-translation">
+	훌륭하다는 무기는
+	<br>
+	상서롭지 못한 물건
+	<br>
+	사람이 모두 싫어한다.
+</span>
+</p>
+
+<p>
+	故有道者不處
+<span class="chinese-korean-transliteration">
+	고유도자불처
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	도를 지닌 사람은 이런 것을 사용하지 않는다.
+</span>
+</p>
+
+<p>
+	君子居則貴左
+	用兵則貴右
+<span class="chinese-korean-transliteration">
+	군자거즉귀좌
+	용병즉귀우
+</span>
+<span class="chinese-korean-translation">
+	군자가
+	<br>
+	평소에는 왼쪽을 귀히 여기고
+	<br>
+	용병 때는 오른쪽을 귀히 여긴다.
+</span>
+</p>
+
+<p>
+	兵者不祥之器
+	非君子之器
+<span class="chinese-korean-transliteration">
+	병자불상지기
+	비군자지기
+</span>
+<span class="chinese-korean-translation">
+	무기는 상서롭지 못한 물건
+	<br>
+	군자가 쓸 것이 못 된다.
+</span>
+</p>
+
+<p>
+	不得已而用之
+	恬淡爲上
+	勝而不美
+<span class="chinese-korean-transliteration">
+	불득이이용지
+	념담위상
+	승이불미
+</span>
+<span class="chinese-korean-translation">
+	할 수 없이 써야 할 경우
+	<br>
+	조용함과 담담함을 으뜸으로 여기고
+	<br>
+	승리하더라도 이를 미화하지 않는다.
+</span>
+</p>
+
+<p>
+	而美之者
+	是樂殺人
+<span class="chinese-korean-transliteration">
+	이미지자
+	시락살인
+</span>
+<span class="chinese-korean-translation">
+	이를 미화한다는 것은
+	<br>
+	살인을 즐거워하는 것이다.
+</span>
+</p>
+
+<p>
+	夫樂殺人者
+	則不可得志於天下矣
+<span class="chinese-korean-transliteration">
+	부락살인자
+	즉불가득지어천하의
+</span>
+<span class="chinese-korean-translation">
+	살인을 즐거워하는 사람은
+	<br>
+	세상에서 큰 뜻을 펼 수 없다.
+</span>
+</p>
+
+<p>
+	吉事尙左
+	凶事尙右
+<span class="chinese-korean-transliteration">
+	길사상좌
+	흉사상우
+</span>
+<span class="chinese-korean-translation">
+	길한 일이 있을 때는 왼쪽을 높이고
+	<br>
+	흉한 일이 있을 때는 오른쪽을 높인다.
+</span>
+</p>
+
+<p>
+	偏將軍居左
+	上將軍居右
+<span class="chinese-korean-transliteration">
+	편장군거좌
+	상장군거우
+</span>
+<span class="chinese-korean-translation">
+	둘째로 높은 장군은 왼쪽에 위치하고
+	<br>
+	제일 높은 장군은 오른쪽에 위치한다.
+</span>
+</p>
+
+<p>
+	言以喪禮處之
+<span class="chinese-korean-transliteration">
+	언이상례처지
+</span>
+<span class="chinese-korean-translation">
+	이는 상례로 처리하는 까닭이다.
+</span>
+</p>
+</div>
+
+<div style="clip-path: inset(0px 0px 20px 0px);">
+	<img width="60%" src="/assets/images/lao-tzu/mourn-with-flower.png">
+</div>
+
+<div class="translation-container">
+<p>
+	殺人之衆
+	以哀悲泣之
+	戰勝以喪禮處之
+<span class="chinese-korean-transliteration">
+	살인지중
+	이애비읍지
+	전승이상례처지
+</span>
+<span class="chinese-korean-translation">
+	많은 사람을 살상하였으면
+	<br>
+	이를 애도하는 것
+	<br>
+	전쟁에서 승리하더라도 이를 상례로 처리해야 한다.
+</span>
+</p>
+</div>
+
+<h2 id="32">
+	제32장
+	-
+	지지知止
+</h2>
+
+<blockquote>
+	멈출줄 알면 위태롭지 않다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	道常無名
+	樸雖小
+	天下莫能臣也
+<span class="chinese-korean-transliteration">
+	도상무명
+	박수소
+	천하막능신야
+</span>
+<span class="chinese-korean-translation">
+	"도道"는
+	<br>
+	영원한 실재
+	<br>
+	이름 붙일 수 없는 무엇인데
+	<br>
+	다듬지 않은 통나무처럼 비록 보잘것 없어 보이지만
+	<br>
+	이를 다스릴 자 세상에 없다.
+</span>
+</p>
+
+<font id="if-ruler-follows-tao" class="emph">
+<p>
+	侯王若能守之
+	萬物將自賓
+	天地相合
+	以降甘露
+	民莫之令而自均
+<span class="chinese-korean-transliteration">
+	후왕약능수지
+	만물장자빈
+	천지상합
+	이강감로
+	민막지령이자균
+</span>
+<span class="chinese-korean-translation">
+	임금이나 제후가 이를 지킬 줄 알면
+	<br>
+	모든 것이 저절로 순복할 것이요
+	<br>
+	하늘과 땅이 서로 합하여 감로를 내릴 것이요
+	<br>
+	명령하지 않아도 백성이 스스로 고르게 될 것이다.
+</span>
+</p>
+</font>
+
+<p>
+	始制有名
+	名亦旣有
+	夫亦將知止
+<span class="chinese-korean-transliteration">
+	시제유명
+	명역기유
+	부역장지지
+</span>
+<span class="chinese-korean-translation">
+	만물이 생겨나면서 이름이 있게 되나
+	<br>
+	그 이름 역시 한계가 있게 되나니
+	<br>
+	무릇 역시 장래에 멈출줄도 알아야 한다.
+</span>
+</p>
+
+<font id="if-know-how-to-stop" class="emph">
+<p>
+	知止可以不殆
+<span class="chinese-korean-transliteration">
+	지지가이불태
+</span>
+<span class="chinese-korean-translation">
+	멈출 줄을 알면 위태롭지 않다.
+</span>
+</p>
+</font>
+</div>
+
+<img width="45%" src="/assets/images/lao-tzu/a-girl-kiss-a-dog.png">
+
+<div class="translation-container">
+<font id="world-runs-like-tao" class="emph">
+<p>
+	譬道之在天下
+	猶川谷之於江海
+<span class="chinese-korean-transliteration">
+	비도지재천하
+	유천곡지어강해
+</span>
+<span class="chinese-korean-translation">
+	이를테면
+	<br>
+	세상이 도道로 돌아감은
+	<br>
+	마치 개천과 계곡의 물이 강이나 바다로 흘러듬과 같다.
+</span>
+</p>
+</font>
+</div>
+
 <!--
-31. 貴下(귀하)
-
-
-
-자기 현실에 무기를 가지고 덤비는 것은 두렵다는 뜻이다.
-
-
-夫佳兵者(부가병자) : 훌륭하다는 무기는
-不祥之器(불상지기) : 상서롭지 못한 물건
-物或惡之(물혹악지) : 사람이 모두 싫어한다.
-故有道者不處(고유도자불처) : 그러므로 도를 지닌 사람은 이런 것을 사용하지 않는다.
-君子居則貴左(군자거즉귀좌) : 군자가 평소에는 왼쪽을 귀히 여기고
-用兵則貴右(용병즉귀우) : 용병 때는 오른쪽을 귀히 여긴다.
-兵者不祥之器(병자불상지기) : 무기는 상서롭지 못한 물건
-非君子之器(비군자지기) : 군자가 쓸 것이 못 된다.
-不得已而用之(불득이이용지) : 할 수 없이 써야 할 경우
-恬淡爲上(념담위상) : 조용함과 담담함을 으뜸으로 여기고
-勝而不美(승이불미) : 승리하더라도 이를 미화하지 않는다.
-而美之者(이미지자) : 이를 미화한다는 것은
-是樂殺人(시락살인) : 살인을 즐거워하는 것이다.
-夫樂殺人者(부락살인자) : 살인을 즐거워하는 사람은
-則不可得志於天下矣(즉불가득지어천하의) : 세상에서 큰 뜻을 펼 수 없다.
-吉事尙左(길사상좌) : 길한 일이 있을 때는 왼쪽을 높이고
-凶事尙右(흉사상우) : 흉한 일이 있을 때는 오른쪽을 높인다.
-偏將軍居左(편장군거좌) : 둘째로 높은 장군은 왼쪽에 위치하고
-上將軍居右(상장군거우) : 제일 높은 장군은 오른쪽에 위치한다.
-言以喪禮處之(언이상례처지) : 이는 상례로 처리하는 까닭이다.
-殺人之衆(살인지중) : 많은 사람을 살상하였으면
-以哀悲泣之(이애비읍지) : 이를 애도하는 것
-戰勝以喪禮處之(전승이상례처지) : 전쟁에서 승리하더라도 이를 상례로 처리해야 한다.
-
-
-
-32.知止(지지)
-
-
-
-멈출줄 알면 위태롭지 않다.
-
-
-道常無名(도상무명) : <도>는 영원한 실재 이름 붙일 수 없는 무엇인데
-樸雖小(박수소) : 다듬지 않은 통나무처럼 비록 보잘것 없어 보이지만
-天下莫能臣也(천하막능신야) : 이를 다스릴 자 세상에 없다.
-侯王若能守之(후왕약능수지) : 임금이나 제후가 이를 지킬 줄 알면
-萬物將自賓(만물장자빈) : 모든 것이 저절로 순복할 것이요
-天地相合(천지상합) : 하늘과 땅이 서로 합하여
-以降甘露(이강감로) : 감로를 내릴 것이요
-民莫之令而自均(민막지령이자균) : 명령하지 않아도 백성이 스스로 고르게 될 것이다.
-始制有名(시제유명) : 만물이 생겨나면서 이름이 있게 되나,
-名亦旣有(명역기유) : 그 이름 역시 한계가 있게 되나니,
-夫亦將知止(부역장지지) : 무릇 역시 장래에 멈출줄도 알아야 한다.
-知止可以不殆(지지가이불태) : 멈출 줄을 알면 위태롭지 않다.
-譬道之在天下(비도지재천하) : 이를테면 세상이 도로 돌아감은
-猶川谷之於江海(유천곡지어강해) : 마치 개천과 계곡의 물이 강이나 바다로 흘러듬과 같다
-
-
-
 33. 盡己(진기)
 
 
