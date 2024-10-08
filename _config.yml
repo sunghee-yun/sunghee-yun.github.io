@@ -64,12 +64,12 @@ author:
   name             : "Mr. Funnybunny"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Co-founder & CTO @ Erudio Bio, Inc., Adjunct Professor @ [Sogang University](https://ee.sogang.ac.kr/eng/employee/professor03.php), Advisory Professor @ [DGIST](https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor)"
-#  location         : "Palo Alto, CA, USA"
+#  location         : "Cupertino, CA, USA"
   email            : sunghee.yun@gmail.com
   links:
-    - label: "Palo Alto, CA"
+    - label: "Cupertino, CA"
       icon: "fas fa-map-marker-alt"
-      url: "https://maps.app.goo.gl/P1qHQzfsHwHFJys47"
+      url: "https://maps.app.goo.gl/ofjLx189w8Z5qvuj8"
 #    - label: "Email"
 #      icon: "fas fa-fw fa-envelope-square"
 #      url: "mailto:sunghee.yun@gmail.com"
