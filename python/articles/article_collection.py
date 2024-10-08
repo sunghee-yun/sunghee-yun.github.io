@@ -4,8 +4,12 @@ class representing collection of articles
 
 from collections import defaultdict
 from datetime import date
+from logging import getLogger, Logger
 
 from articles.article import Article
+from html_writer.header import Header
+
+logger: Logger = getLogger()
 
 
 class ArticleCollection:
@@ -31,6 +35,15 @@ class ArticleCollection:
         res: list[str] = list()
         prev_cat: tuple[str, ...] = tuple()
 
+        categories_not_in_config: set[tuple[str, ...]] = set(self.cat_articles_dict).difference(
+            [tuple(x) for x in list(zip(*config))[0]]
+        )
+        if categories_not_in_config:
+            categories_not_in_config_str: str = ", ".join(
+                [str(y) for y in categories_not_in_config]
+            )
+            logger.warning(f"The articles in categories {categories_not_in_config_str} are ignore.")
+
         for category_title_map in config:
             current_cat: tuple[str, ...] = tuple(category_title_map[0])
             assert current_cat in self.cat_articles_dict, (
@@ -49,9 +62,9 @@ class ArticleCollection:
                     heading__: str = self.TRANSLATION_TABLE.get(
                         heading_, self.capitalize(heading_) if idx <= 1 else heading_
                     )
+                    res.append("")
                     res.append(
-                        f'<h{idx+1} id="{"-".join(current_cat[:idx+1])}">'
-                        f"\n\t{heading__}\n</h{idx+1}>"
+                        Header(idx + 1, heading__, id="-".join(current_cat[: idx + 1])).__repr__()
                     )
                     res.append("")
             prev_cat = current_cat
@@ -67,9 +80,13 @@ class ArticleCollection:
                 res.append(article.html_str)
             res.append("</ul>")
 
-        res.append('<h1 id="all-articles-in-reverse-chronicl-order">')
-        res.append("\tAll articles in reverse chronicle order")
-        res.append("</h1>")
+        res.append(
+            Header(
+                1,
+                "All articles in reverse chronicle order",
+                id="all-articles-in-reverse-chronicl-order",
+            ).__repr__()
+        )
 
         res.append("<ul>")
         for article in sorted(
@@ -80,6 +97,11 @@ class ArticleCollection:
             reverse=True,
         ):
             if article.date is None:
+                logger.warning(
+                    "The below article not listed in the last section because date "
+                    "is not specified."
+                )
+                logger.warning(f"- title: {article.title}")
                 continue
             res.append(article.html_str)
         res.append("</ul>")
