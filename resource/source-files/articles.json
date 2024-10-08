@@ -274,6 +274,13 @@
 		"date": "24-Sep-2024"
 	},
 	{
+		"category": ["ai", "general"],
+		"url": "https://www.deeplearning.ai/the-batch/issue-269/",
+		"title": "Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets",
+		"date": "02-Oct-2024 PDT",
+		"press": "The Batch of DeepLearning.AI"
+	},
+	{
 		"category": ["ai", "agi"],
 		"url": "https://techcrunch.com/2024/10/03/even-the-godmother-of-ai-has-no-idea-what-agi-is/",
 		"title": "Even the ‘godmother of AI’ has no idea what AGI is",

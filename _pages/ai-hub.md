@@ -371,6 +371,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.deeplearning.ai/the-batch/issue-269/">
+		Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets
+	</a>
+	- The Batch of DeepLearning.AI
+	@ 02-Oct-2024 PDT
+</li>
+<li>
 	<a href="https://www.aitimes.com/news/articleView.html?idxno=163837">
 		새로운 고소득 직종 '모델 트레이너', 최대 시급 26만원...박사 학위 필요한 경우도
 	</a>
@@ -938,6 +945,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	- Reuters
 	@ 02-Oct-2024
+</li>
+<li>
+	<a href="https://www.deeplearning.ai/the-batch/issue-269/">
+		Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets
+	</a>
+	- The Batch of DeepLearning.AI
+	@ 02-Oct-2024 PDT
 </li>
 <li>
 	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">
