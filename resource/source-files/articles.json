@@ -223,6 +223,13 @@
 		"date": "05-Jun-2024"
 	},
 	{
+		"category": ["ai", "impacts", "societal"],
+		"url": "https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/",
+		"title": "Pioneers in Neural Networks Win 2024 Nobel Prize in Physics",
+		"press": "Neuroscience News.com",
+		"date": "08-Oct-2024"
+	},
+	{
 		"category": ["ai", "impacts", "economic"],
 		"url": "https://apnews.com/article/ai-jobs-artificial-intelligence-hiring-employers-unemployment-e57eb040009d77ddcce1574d1c1915fc",
 		"title": "AI may not steal many jobs after all. It may just make workers more efficient",
@@ -666,7 +673,7 @@
 		"category": ["science", "neuroscience"],
 		"url": "https://neurosciencenews.com/glut4-genetics-neurogenesis-27755/",
 		"title": "Targeting Glucose May Spark Neurogenesis",
-		"press": "Neuroscience News",
+		"press": "Neuroscience News.com",
 		"date": "02-Oct-2024"
 	},
 	{

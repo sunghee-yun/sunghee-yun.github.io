@@ -49,7 +49,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsunghee.yun1%2Fposts%2Fpfbid0CPHW1paBjy2HvAG3ahGWo1wgAsh9vko19WMAWjetYCq9SqdtnUcqfCxVABUVt1UEl&show_text=true&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </div-->
 
-
+<a href="#all-articles-in-reverse-chronological-order">All articles in reverse chronological order</a>
 
 <h1 id="entrepreneurship">Entrepreneurship</h1>
 
@@ -299,6 +299,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h3 id="ai-impacts-societal">societal impacts</h3>
 
 <ul>
+<li>
+	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">
+		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
+	</a>
+	- Neuroscience News.com
+	@ 08-Oct-2024
+</li>
 <li>
 	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">
 		California Governor Vetoes Sweeping A.I. Legislation
@@ -842,7 +849,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://neurosciencenews.com/glut4-genetics-neurogenesis-27755/">
 		Targeting Glucose May Spark Neurogenesis
 	</a>
-	- Neuroscience News
+	- Neuroscience News.com
 	@ 02-Oct-2024
 </li>
 </ul>
@@ -899,8 +906,15 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 </li>
 </ul>
-<h1 id="all-articles-in-reverse-chronicl-order">All articles in reverse chronicle order</h1>
+<h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">
+		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
+	</a>
+	- Neuroscience News.com
+	@ 08-Oct-2024
+</li>
 <li>
 	<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">
 		5 Super Semiconductor Stocks to Buy Hand Over Fist Heading Into 2025
@@ -977,7 +991,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://neurosciencenews.com/glut4-genetics-neurogenesis-27755/">
 		Targeting Glucose May Spark Neurogenesis
 	</a>
-	- Neuroscience News
+	- Neuroscience News.com
 	@ 02-Oct-2024
 </li>
 <li>
