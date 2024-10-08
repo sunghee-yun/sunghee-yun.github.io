@@ -300,13 +300,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">
-		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
-	</a>
-	- Neuroscience News.com
-	@ 08-Oct-2024
-</li>
-<li>
 	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">
 		California Governor Vetoes Sweeping A.I. Legislation
 	</a>
@@ -353,6 +346,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h3 id="ai-impacts-scientific">scientific impacts</h3>
 
 <ul>
+<li>
+	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">
+		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
+	</a>
+	- Neuroscience News.com
+	@ 08-Oct-2024
+</li>
 <li>
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
