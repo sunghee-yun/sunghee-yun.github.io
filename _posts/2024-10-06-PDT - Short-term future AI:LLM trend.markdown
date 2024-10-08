@@ -1,7 +1,7 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 date: Sun Oct  6 22:27:27 PDT 2024
-last_modified_at: Mon Oct  7 15:17:13 PDT 2024
+last_modified_at: Mon Oct  7 21:59:02 PDT 2024
 categories:
  - blog
 tags:
@@ -53,7 +53,10 @@ Current LLMs excel at general natural language tasks because they’ve been trai
 
 For example, during my recent business development efforts at Erudio Bio, Inc., I spoke with several leading medical professionals at South Korea’s largest hospitals. Many expressed interest in LLMs for automating tasks like charting. While LLMs are capable of handling natural language input, do they really need their full linguistic capabilities to handle something as specific as medical charting? Probably not.
 
-This observation extends beyond the medical field. For most use cases, the extensive language understanding of LLMs is neither necessary nor sufficient. This suggests a natural evolution toward lighter models, fine-tuned for specific applications, such as charting for medical professionals.
+This observation extends beyond the medical field. For most use cases, the extensive language understanding of LLMs is neither necessary nor sufficient. This suggests a natural evolution toward lighter models, fine-tuned for specific applications, such as charting for medical professionals. You can get a glimpse of it,
+e.g.,
+<a href="/articles#llama-3.2">Llama 3.2: Revolutionizing edge AI and vision with open, customizable models</a>.
+
 
 By the way,
 according to the above analysis, in the coming years
@@ -67,7 +70,7 @@ I accidentally stumbled upon this article a few days ago -
 <a href="https://venturebeat.com/ai/mit-spinoff-liquid-debuts-non-transformer-ai-models-and-theyre-already-state-of-the-art/">
 	MIT spinoff Liquid debuts non-transformer AI models and they’re already state-of-the-art</a>.
 Their innovative architecture doesn’t require the constant toggling of GPU circuits, as Transformers do.
-&ndash; This article is in <a href="/articles#ai-llm">this list</a>, too.
+&ndash; This article is listed <a href="/articles#ai-llm">LLM @ AI Insight</a>.
 
 The energy savings are impressive, and the speed of inference is another game-changer. - Look at below figure from the article. -
 Liquid AI delivers results instantly, in stark contrast to Transformer-based models, which process tokens very slowly;
@@ -79,7 +82,6 @@ if I exaggerate (quite) a bit.
 </div>
 
 This could very well be the solution I’ve been searching for—a (way) more energy-efficient, (way) faster approach to AI that doesn’t sacrifice performance. Liquid Neural Networks may hold the key to a sustainable future for LLMs, and I’m excited to see where this technology leads.
-
 
 <h1 id="conclusion">Conclusion</h1>
 
