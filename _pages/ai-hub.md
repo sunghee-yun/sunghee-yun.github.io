@@ -50,9 +50,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </div-->
 
 
-<h1 id="entrepreneurship">
-	Entrepreneurship
-</h1>
+
+<h1 id="entrepreneurship">Entrepreneurship</h1>
 
 <ul>
 <li>
@@ -75,9 +74,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 31-May-2024
 </li>
 </ul>
-<h1 id="biotech-medical-healthcare">
-	Biotech &amp; medical &amp; healthcare
-</h1>
+
+<h1 id="biotech-medical-healthcare">Biotech &amp; medical &amp; healthcare</h1>
 
 <ul>
 <li>
@@ -123,9 +121,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- <a href="/alpha-fold-summary">summary</a>
 </li>
 </ul>
-<h1 id="investment">
-	Investment
-</h1>
+
+<h1 id="investment">Investment</h1>
 
 <ul>
 <li>
@@ -168,9 +165,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 18-Sep-2024
 </li>
 </ul>
-<h1 id="industry">
-	Industry
-</h1>
+
+<h1 id="industry">Industry</h1>
 
 <ul>
 <li>
@@ -180,9 +176,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 29-Sep-2024 KST
 </li>
 </ul>
-<h1 id="labor-market">
-	Labor market
-</h1>
+
+<h1 id="labor-market">Labor market</h1>
 
 <ul>
 <li>
@@ -193,13 +188,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 30-Sep-2024
 </li>
 </ul>
-<h1 id="ai">
-	AI
-</h1>
 
-<h2 id="ai-industry">
-	Industry
-</h2>
+<h1 id="ai">AI</h1>
+
+
+<h2 id="ai-industry">Industry</h2>
 
 <ul>
 <li>
@@ -217,24 +210,93 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 29-Sep-2024
 </li>
 </ul>
-<h2 id="ai-impacts">
-	Impacts
-</h2>
 
-<h3 id="ai-impacts-legal">
-	legal impacts
-</h3>
+<h2 id="ai-impacts">Impacts</h2>
+
+
+<h3 id="ai-impacts-legal">legal impacts</h3>
 
 <ul>
+<li>
+	<a href="https://www.gov.ca.gov/2024/09/19/governor-newsom-signs-bills-to-crack-down-on-sexually-explicit-deepfakes-require-ai-watermarking/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_SKvVrMTpoEvghVW6iCnSfnhGyBZp9-SusNGPML0M4kAyura6K7_Vq_5zln6cD3i1dRrVv7qQ7CLDxGSP8uE-Na0py7w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		Governor Newsom signs bills to crack down on sexually explicit deepfakes & require AI watermarking
+	</a>
+	- Governor Gavin Newsom
+	@ 19-Sep-2024 PDT
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB926&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--hUPeGF-VsNPkSXkLeYVQcN63r0JmqIS_arTdaqUqvlRqdDLHwwzFlC6ke1Ekh7j1uKW7a4NsVAvDANyeqT4QL9rcGrg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-926 Crimes: distribution of intimate images. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB981&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8itWk5Xg_wZLMKAB0zBGpL5BjrTNO1bUqbzWY-hK8Uy4aMF1fkhW3vJS0Ejf5c75Bw6ER1QSK2_XxjVHkH0XzU3p9sdQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-981 Sexually explicit digital images. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_8xDfL6g5RbHToat7lqNEAq8unpweajLup2_tawcgJky5DZMpkEP6r0ysgAnHqBtxWdOKhl6y3ppcIwphf5Yi2ILeHKw&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-942 California AI Transparency Act. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
+</li>
+<li>
+	<a href="https://www.gov.ca.gov/2024/09/17/governor-newsom-signs-bills-to-combat-deepfake-election-content/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-9mHz_17HFn7fsxElGNPyaTDwyO_3W8KsYmQojfM4i_QkEQUrfFC_8tKulQCt47RRAV47-kCveOOuPDhfIN-6Bh34B49A&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		Governor Newsom signs bills to combat deepfake election content
+	</a>
+	- Governor Gavin Newsom
+	@ 17-Sep-2024 PDT
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2839&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--L9Z5nH7sTIrMsAyT3k3N1i_35rr6CKr0qb1hxrM_95zLg9MB-Y3NkU4tRmIZLU6emPqLZKa0geR6wfTnk1FELDsihOQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2839 Elections: deceptive media in advertisements. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2355&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8O81ZbVJlmHGM7tHtiqRu6YtYyUvtspylK4bzhefHqyBHSygG2gbPpae2jkiKspGYbkZdkDp8C8xh2PlOSgGw2EagP-w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2355 Political Reform Act of 1974: political advertisements: artificial intelligence. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2655&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_B84QDR5CDSxfwr1VANXa_3ab3zaic0yDt2hSoAnzxhzQNmQHP0vA2UNqUyA35wDcvB8Pv7ZTiV_zDipavCRlPayenoQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2655 Defending Democracy from Deepfake Deception Act of 2024. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1836&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_fwkv662vQ2S4TxK4GJsJYHaCZf68yORXuCHBVD6HGBbRjF1hznNJJMWeh8joVLnBsIm3Pn2kRtKbYwHaPZ391fgdmNg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-1836 Use of likeness: digital replica. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2602&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8a3HvFuv7VENTsD_qOt_ANWaIXQ94wCxMl7EDE5XP4Ov92qiw090kjpeNZqyYrQbcQ_ZcD2eaEAEYUbh9Wpmgk1ngdXA&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2602 Contracts against public policy: personal or professional services: digital replicas. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
 <li>
 	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047&utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9fI9QstXaP4Ymya088giiFna5q8Io3XAtE183kvRgxaoDPVHs0eH9nRwmx06I7I6QFVfQu">
 		SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)
 	</a>
+	- California Legislative Information
+	@ 03-Sep-2024 PDT
 </li>
 </ul>
-<h3 id="ai-impacts-societal">
-	societal impacts
-</h3>
+
+<h3 id="ai-impacts-societal">societal impacts</h3>
 
 <ul>
 <li>
@@ -252,9 +314,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 05-Jun-2024
 </li>
 </ul>
-<h3 id="ai-impacts-economic">
-	economic impacts
-</h3>
+
+<h3 id="ai-impacts-economic">economic impacts</h3>
 
 <ul>
 <li>
@@ -270,33 +331,43 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Sep-2024
 </li>
 </ul>
-<h3 id="ai-impacts-cognitive">
-	cognitive impacts
-</h3>
+
+<h3 id="ai-impacts-cognitive">cognitive impacts</h3>
 
 <ul>
 <li>
 	<a href="https://www.nature.com/articles/d41586-024-02966-6">
-		[nature] This AI chatbot got conspiracy theorists to question their convictions
+		[Nature] This AI chatbot got conspiracy theorists to question their convictions
 	</a>
 	@ 12-Sep-2024
 </li>
 </ul>
-<h3 id="ai-impacts-scientific">
-	scientific impacts
-</h3>
+
+<h3 id="ai-impacts-scientific">scientific impacts</h3>
 
 <ul>
 <li>
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
 	</a>
+	- 조선일보朝鮮日報
 	@ 20-Sep-2024 KST
 </li>
 </ul>
-<h2 id="ai-general">
-	AI in general
-</h2>
+
+<h3 id="ai-impacts-geo-political">geo-political impacts</h3>
+
+<ul>
+<li>
+	<a href="https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">
+		Sixty countries endorse 'blueprint' for AI use in military; China opts out
+	</a>
+	- Reuters
+	@ 10-Sep-2024 4:06 AM PDT
+</li>
+</ul>
+
+<h2 id="ai-general">AI in general</h2>
 
 <ul>
 <li>
@@ -319,9 +390,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 24-Sep-2024
 </li>
 </ul>
-<h2 id="ai-agi">
-	AGI
-</h2>
+
+<h2 id="ai-agi">AGI</h2>
 
 <ul>
 <li>
@@ -336,9 +406,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 </ul>
-<h2 id="ai-robotics">
-	Robotics
-</h2>
+
+<h2 id="ai-robotics">Robotics</h2>
 
 <ul>
 <li>
@@ -354,9 +423,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024 KST
 </li>
 </ul>
-<h2 id="ai-llm">
-	LLM
-</h2>
+
+<h2 id="ai-llm">LLM</h2>
 
 <ul>
 <li>
@@ -400,6 +468,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<p>A chart from the Liquid blog shows that the LFM-3B model, for instance, outperforms popular models like Google’s Gemma-2, Microsoft’s Phi-3, and Meta’s Llama-3.2 in terms of inference memory footprint, especially as token length scales.</p>
 	<img width="95%" src="/assets/images/ai/llm/lfm-performance-comparison.webp">
 	</div>
+</li>
+<li>
+	<a href="https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_Q6JNZsLIcfzZdW5DLX2JsmUUQIbsZVZ4MBcvdbCLdCo-IE_0ukxdwGBmAWeVjpjTengbhLTT17ekRssjz32M-byAXjg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email" id="llama-3.2">
+		Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
+	</a>
+	- Meta
+	@ 25-Sep-2024
 </li>
 <li>
 	<a href="https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/">
@@ -485,9 +560,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 </ul>
-<h2 id="ai-genai">
-	genAI
-</h2>
+
+<h2 id="ai-genai">genAI</h2>
 
 <ul>
 <li>
@@ -497,9 +571,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 23-Aug-2024
 </li>
 </ul>
-<h2 id="ai-digital-twins">
-	Digital twins
-</h2>
+
+<h2 id="ai-digital-twins">Digital twins</h2>
 
 <ul>
 <li>
@@ -509,9 +582,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 23-Sep-2024
 </li>
 </ul>
-<h2 id="ai-hardware">
-	Hardware
-</h2>
+
+<h2 id="ai-hardware">Hardware</h2>
 
 <ul>
 <li>
@@ -532,9 +604,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024 KST
 </li>
 </ul>
-<h2 id="ai-software">
-	Software
-</h2>
+
+<h2 id="ai-software">Software</h2>
 
 <ul>
 <li>
@@ -544,9 +615,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 19-Sep-2024
 </li>
 </ul>
-<h1 id="semiconductor">
-	Semiconductor
-</h1>
+
+<h1 id="semiconductor">Semiconductor</h1>
 
 <ul>
 <li>
@@ -657,9 +727,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 24-Jul-2024
 </li>
 </ul>
-<h1 id="software">
-	Software
-</h1>
+
+<h1 id="software">Software</h1>
 
 <ul>
 <li>
@@ -669,9 +738,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 30-Sep-2024
 </li>
 </ul>
-<h1 id="new-tech">
-	New technology
-</h1>
+
+<h1 id="new-tech">New technology</h1>
 
 <ul>
 <li>
@@ -681,13 +749,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024
 </li>
 </ul>
-<h1 id="science">
-	Science
-</h1>
 
-<h2 id="science-astrophysics">
-	Astrophysics
-</h2>
+<h1 id="science">Science</h1>
+
+
+<h2 id="science-astrophysics">Astrophysics</h2>
 
 <ul>
 <li>
@@ -705,9 +771,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024
 </li>
 </ul>
-<h2 id="science-quantum-physics">
-	Quantum physics
-</h2>
+
+<h2 id="science-quantum-physics">Quantum physics</h2>
 
 <ul>
 <li>
@@ -717,9 +782,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024
 </li>
 </ul>
-<h2 id="science-astrophysics-quantum-physics">
-	Astrophysics &amp; quantum physics
-</h2>
+
+<h2 id="science-astrophysics-quantum-physics">Astrophysics &amp; quantum physics</h2>
 
 <ul>
 <li>
@@ -735,9 +799,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 </ul>
-<h2 id="science-cognitive">
-	Cognitive science
-</h2>
+
+<h2 id="science-cognitive">Cognitive science</h2>
 
 <ul>
 <li>
@@ -764,9 +827,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 </ul>
-<h2 id="science-neuroscience">
-	Neuroscience
-</h2>
+
+<h2 id="science-neuroscience">Neuroscience</h2>
 
 <ul>
 <li>
@@ -777,13 +839,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Oct-2024
 </li>
 </ul>
-<h1 id="people">
-	People
-</h1>
 
-<h2 id="people-prof-sangkyun-cha">
-	Prof. Cha
-</h2>
+<h1 id="people">People</h1>
+
+
+<h2 id="people-prof-sangkyun-cha">Prof. Cha</h2>
 
 <ul>
 <li>
@@ -794,9 +854,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Jul-2021
 </li>
 </ul>
-<h2 id="people-prof-yongsuk-kim">
-	Prof. Yongsuk Kim
-</h2>
+
+<h2 id="people-prof-yongsuk-kim">Prof. Yongsuk Kim</h2>
 
 <ul>
 <li>
@@ -812,9 +871,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 23-Sep-2024
 </li>
 </ul>
-<h1 id="cultivation">
-	Cultivation
-</h1>
+
+<h1 id="cultivation">Cultivation</h1>
 
 <ul>
 <li>
@@ -824,9 +882,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 13-Sep-2024
 </li>
 </ul>
-<h1 id="others">
-	Others
-</h1>
+
+<h1 id="others">Others</h1>
 
 <ul>
 <li>
@@ -835,9 +892,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 </li>
 </ul>
-<h1 id="all-articles-in-reverse-chronicl-order">
-	All articles in reverse chronicle order
-</h1>
+<h1 id="all-articles-in-reverse-chronicl-order">All articles in reverse chronicle order</h1>
 <ul>
 <li>
 	<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">
@@ -1082,6 +1137,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 25-Sep-2024 KST
 </li>
 <li>
+	<a href="https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_Q6JNZsLIcfzZdW5DLX2JsmUUQIbsZVZ4MBcvdbCLdCo-IE_0ukxdwGBmAWeVjpjTengbhLTT17ekRssjz32M-byAXjg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email" id="llama-3.2">
+		Llama 3.2: Revolutionizing edge AI and vision with open, customizable models
+	</a>
+	- Meta
+	@ 25-Sep-2024
+</li>
+<li>
 	<a href="https://www.mk.co.kr/news/business/11124557">
 		‘가우디’가 인텔 살릴까 &hellip; 최첨단 AI칩 신제품 출시, 엔비디아에 도전
 	</a>
@@ -1188,6 +1250,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
 	</a>
+	- 조선일보朝鮮日報
 	@ 20-Sep-2024 KST
 </li>
 <li>
@@ -1218,6 +1281,34 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	서울성모병원은 내분비(10위), 소화기(15위) 등을 포함해 5개 분야가 100위권에 들었다.
 	</p>
 	</div>
+</li>
+<li>
+	<a href="https://www.gov.ca.gov/2024/09/19/governor-newsom-signs-bills-to-crack-down-on-sexually-explicit-deepfakes-require-ai-watermarking/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_SKvVrMTpoEvghVW6iCnSfnhGyBZp9-SusNGPML0M4kAyura6K7_Vq_5zln6cD3i1dRrVv7qQ7CLDxGSP8uE-Na0py7w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		Governor Newsom signs bills to crack down on sexually explicit deepfakes & require AI watermarking
+	</a>
+	- Governor Gavin Newsom
+	@ 19-Sep-2024 PDT
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB926&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--hUPeGF-VsNPkSXkLeYVQcN63r0JmqIS_arTdaqUqvlRqdDLHwwzFlC6ke1Ekh7j1uKW7a4NsVAvDANyeqT4QL9rcGrg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-926 Crimes: distribution of intimate images. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB981&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8itWk5Xg_wZLMKAB0zBGpL5BjrTNO1bUqbzWY-hK8Uy4aMF1fkhW3vJS0Ejf5c75Bw6ER1QSK2_XxjVHkH0XzU3p9sdQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-981 Sexually explicit digital images. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_8xDfL6g5RbHToat7lqNEAq8unpweajLup2_tawcgJky5DZMpkEP6r0ysgAnHqBtxWdOKhl6y3ppcIwphf5Yi2ILeHKw&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		SB-942 California AI Transparency Act. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 19-Sep-2024
 </li>
 <li>
 	<a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">
@@ -1261,6 +1352,48 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 18-Sep-2024
 </li>
 <li>
+	<a href="https://www.gov.ca.gov/2024/09/17/governor-newsom-signs-bills-to-combat-deepfake-election-content/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-9mHz_17HFn7fsxElGNPyaTDwyO_3W8KsYmQojfM4i_QkEQUrfFC_8tKulQCt47RRAV47-kCveOOuPDhfIN-6Bh34B49A&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		Governor Newsom signs bills to combat deepfake election content
+	</a>
+	- Governor Gavin Newsom
+	@ 17-Sep-2024 PDT
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2839&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--L9Z5nH7sTIrMsAyT3k3N1i_35rr6CKr0qb1hxrM_95zLg9MB-Y3NkU4tRmIZLU6emPqLZKa0geR6wfTnk1FELDsihOQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2839 Elections: deceptive media in advertisements. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2355&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8O81ZbVJlmHGM7tHtiqRu6YtYyUvtspylK4bzhefHqyBHSygG2gbPpae2jkiKspGYbkZdkDp8C8xh2PlOSgGw2EagP-w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2355 Political Reform Act of 1974: political advertisements: artificial intelligence. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2655&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_B84QDR5CDSxfwr1VANXa_3ab3zaic0yDt2hSoAnzxhzQNmQHP0vA2UNqUyA35wDcvB8Pv7ZTiV_zDipavCRlPayenoQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2655 Defending Democracy from Deepfake Deception Act of 2024. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1836&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_fwkv662vQ2S4TxK4GJsJYHaCZf68yORXuCHBVD6HGBbRjF1hznNJJMWeh8joVLnBsIm3Pn2kRtKbYwHaPZ391fgdmNg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-1836 Use of likeness: digital replica. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2602&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8a3HvFuv7VENTsD_qOt_ANWaIXQ94wCxMl7EDE5XP4Ov92qiw090kjpeNZqyYrQbcQ_ZcD2eaEAEYUbh9Wpmgk1ngdXA&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">
+		AB-2602 Contracts against public policy: personal or professional services: digital replicas. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 17-Sep-2024
+</li>
+<li>
 	<a href="https://www.aitimes.com/news/articleView.html?idxno=163422">
 		알트먼, 'o1' 지나친 기대 경계&hellip;&nbsp; "o1은 AGI가 아니라 시작일뿐"
 	</a>
@@ -1280,7 +1413,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://www.nature.com/articles/d41586-024-02966-6">
-		[nature] This AI chatbot got conspiracy theorists to question their convictions
+		[Nature] This AI chatbot got conspiracy theorists to question their convictions
 	</a>
 	@ 12-Sep-2024
 </li>
@@ -1311,6 +1444,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 10-Sep-2024 KST
 </li>
 <li>
+	<a href="https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">
+		Sixty countries endorse 'blueprint' for AI use in military; China opts out
+	</a>
+	- Reuters
+	@ 10-Sep-2024 4:06 AM PDT
+</li>
+<li>
 	<a href="https://www.extremetech.com/computing/tsmcs-arizona-fab-matches-taiwan-in-early-yield-test">
 		TSMC's Arizona Fab Matches Taiwan in Early Yield Test
 	</a>
@@ -1330,6 +1470,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	@ 05-Sep-2024
 	- <a href="/alpha-fold-summary">summary</a>
+</li>
+<li>
+	<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047&utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9fI9QstXaP4Ymya088giiFna5q8Io3XAtE183kvRgxaoDPVHs0eH9nRwmx06I7I6QFVfQu">
+		SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)
+	</a>
+	- California Legislative Information
+	@ 03-Sep-2024 PDT
 </li>
 <li>
 	<a href="https://apnews.com/article/ai-jobs-artificial-intelligence-hiring-employers-unemployment-e57eb040009d77ddcce1574d1c1915fc">

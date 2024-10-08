@@ -134,7 +134,79 @@
 	{
 		"category": ["ai", "impacts", "legal"],
 		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047&utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9fI9QstXaP4Ymya088giiFna5q8Io3XAtE183kvRgxaoDPVHs0eH9nRwmx06I7I6QFVfQu",
-		"title": "SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)"
+		"title": "SB-1047 - Safe and Secure Innovation for Frontier Artificial Intelligence Models Act. (2023-2024)",
+		"date": "03-Sep-2024 PDT",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://www.gov.ca.gov/2024/09/19/governor-newsom-signs-bills-to-crack-down-on-sexually-explicit-deepfakes-require-ai-watermarking/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_SKvVrMTpoEvghVW6iCnSfnhGyBZp9-SusNGPML0M4kAyura6K7_Vq_5zln6cD3i1dRrVv7qQ7CLDxGSP8uE-Na0py7w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "Governor Newsom signs bills to crack down on sexually explicit deepfakes & require AI watermarking",
+		"date": "19-Sep-2024 PDT",
+		"press": "Governor Gavin Newsom"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://www.gov.ca.gov/2024/09/17/governor-newsom-signs-bills-to-combat-deepfake-election-content/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-9mHz_17HFn7fsxElGNPyaTDwyO_3W8KsYmQojfM4i_QkEQUrfFC_8tKulQCt47RRAV47-kCveOOuPDhfIN-6Bh34B49A&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "Governor Newsom signs bills to combat deepfake election content",
+		"date": "17-Sep-2024 PDT",
+		"press": "Governor Gavin Newsom"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2839&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--L9Z5nH7sTIrMsAyT3k3N1i_35rr6CKr0qb1hxrM_95zLg9MB-Y3NkU4tRmIZLU6emPqLZKa0geR6wfTnk1FELDsihOQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "AB-2839 Elections: deceptive media in advertisements. (2023-2024)",
+		"date": "17-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2355&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8O81ZbVJlmHGM7tHtiqRu6YtYyUvtspylK4bzhefHqyBHSygG2gbPpae2jkiKspGYbkZdkDp8C8xh2PlOSgGw2EagP-w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "AB-2355 Political Reform Act of 1974: political advertisements: artificial intelligence. (2023-2024)",
+		"date": "17-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2655&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_B84QDR5CDSxfwr1VANXa_3ab3zaic0yDt2hSoAnzxhzQNmQHP0vA2UNqUyA35wDcvB8Pv7ZTiV_zDipavCRlPayenoQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "AB-2655 Defending Democracy from Deepfake Deception Act of 2024. (2023-2024)",
+		"date": "17-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1836&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_fwkv662vQ2S4TxK4GJsJYHaCZf68yORXuCHBVD6HGBbRjF1hznNJJMWeh8joVLnBsIm3Pn2kRtKbYwHaPZ391fgdmNg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "AB-1836 Use of likeness: digital replica. (2023-2024)",
+		"date": "17-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2602&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8a3HvFuv7VENTsD_qOt_ANWaIXQ94wCxMl7EDE5XP4Ov92qiw090kjpeNZqyYrQbcQ_ZcD2eaEAEYUbh9Wpmgk1ngdXA&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "AB-2602 Contracts against public policy: personal or professional services: digital replicas. (2023-2024)",
+		"date": "17-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB926&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--hUPeGF-VsNPkSXkLeYVQcN63r0JmqIS_arTdaqUqvlRqdDLHwwzFlC6ke1Ekh7j1uKW7a4NsVAvDANyeqT4QL9rcGrg&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "SB-926 Crimes: distribution of intimate images. (2023-2024)",
+		"date": "19-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB981&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-8itWk5Xg_wZLMKAB0zBGpL5BjrTNO1bUqbzWY-hK8Uy4aMF1fkhW3vJS0Ejf5c75Bw6ER1QSK2_XxjVHkH0XzU3p9sdQ&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "SB-981 Sexually explicit digital images. (2023-2024)",
+		"date": "19-Sep-2024",
+		"press": "California Legislative Information"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
+		"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB942&utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_8xDfL6g5RbHToat7lqNEAq8unpweajLup2_tawcgJky5DZMpkEP6r0ysgAnHqBtxWdOKhl6y3ppcIwphf5Yi2ILeHKw&_hsmi=326276402&utm_content=326276402&utm_source=hs_email",
+		"title": "SB-942 California AI Transparency Act. (2023-2024)",
+		"date": "19-Sep-2024",
+		"press": "California Legislative Information"
 	},
 	{
 		"category": ["ai", "impacts", "societal"],
@@ -165,14 +237,22 @@
 	{
 		"category": ["ai", "impacts", "cognitive"],
 		"url": "https://www.nature.com/articles/d41586-024-02966-6",
-		"title": "[nature] This AI chatbot got conspiracy theorists to question their convictions",
+		"title": "[Nature] This AI chatbot got conspiracy theorists to question their convictions",
 		"date": "12-Sep-2024"
 	},
 	{
 		"category": ["ai", "impacts", "scientific"],
 		"url": "https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/",
 		"title": "'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도",
-		"date": "20-Sep-2024 KST"
+		"date": "20-Sep-2024 KST",
+		"press": "조선일보朝鮮日報"
+	},
+	{
+		"category": ["ai", "impacts", "geo-political"],
+		"url": "https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email",
+		"title": "Sixty countries endorse 'blueprint' for AI use in military; China opts out",
+		"press": "Reuters",
+		"date": "10-Sep-2024 4:06 AM PDT"
 	},
 	{
 		"category": ["ai", "general"],
@@ -217,6 +297,14 @@
 		"url": "https://zdnet.co.kr/view/?no=20240925155117",
 		"title": "보스턴다이내믹스 CEO \"휴머노이드, 3~5년 내 공장서 일할 것\"",
 		"date": "25-Sep-2024 KST"
+	},
+	{
+		"category": ["ai", "llm"],
+		"url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_Q6JNZsLIcfzZdW5DLX2JsmUUQIbsZVZ4MBcvdbCLdCo-IE_0ukxdwGBmAWeVjpjTengbhLTT17ekRssjz32M-byAXjg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email",
+		"title": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+		"press": "Meta",
+		"date": "25-Sep-2024",
+		"id": "llama-3.2"
 	},
 	{
 		"category": ["ai", "llm"],
