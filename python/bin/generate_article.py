@@ -8,6 +8,7 @@ from typing import Any
 
 from articles.article import Article
 from articles.article_collection import ArticleCollection
+from html_writer.anchor import Anchor
 
 if __name__ == "__main__":
     article_collection: ArticleCollection = ArticleCollection()
@@ -21,8 +22,11 @@ if __name__ == "__main__":
 
     config_data: list[list] = json.load(open(os.path.join(file_dir, "config.json")))
 
+    all_articles_str: str = "All articles in reverse chronological order"
+    all_articles_id: str = "all-articles-in-reverse-chronological-order"
     with open(os.path.join(github_repo_root_dir, "_pages", "ai-hub.md"), "w") as fid:
         fid.write(open(os.path.join(file_dir, "articles_heading.txt")).read())
+        fid.write(Anchor(all_articles_str, href=f"#{all_articles_id}").__str__())
         fid.write("\n")
-        fid.write(article_collection.get_html_body(config_data))
+        fid.write(article_collection.get_html_body(config_data, all_articles_str, all_articles_id))
         fid.write("\n")

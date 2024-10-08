@@ -31,7 +31,7 @@ class ArticleCollection:
         self.cat_articles_dict[article.category].append(article)
         self.all_articles.append(article)
 
-    def get_html_body(self, config: list[list]) -> str:
+    def get_html_body(self, config: list[list], all_articles_str: str, all_articles_id: str) -> str:
         res: list[str] = list()
         prev_cat: tuple[str, ...] = tuple()
 
@@ -80,13 +80,7 @@ class ArticleCollection:
                 res.append(article.html_str)
             res.append("</ul>")
 
-        res.append(
-            Header(
-                1,
-                "All articles in reverse chronicle order",
-                id="all-articles-in-reverse-chronicl-order",
-            ).__repr__()
-        )
+        res.append(Header(1, all_articles_str, id=all_articles_id).__str__())
 
         res.append("<ul>")
         for article in sorted(
