@@ -373,7 +373,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </div>
 
 <div class="text-highlight">
-	<a href="#world-runs-like-tao"><font class="emph">
+	<a href="#world-runs-like-tao">
+	<font class="emph">
 	譬道之在天下
 	猶川谷之於江海
 	</font></a>
@@ -386,6 +387,58 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	세상이 도道로 돌아감은
 	<br>
 	마치 개천과 계곡의 물이 강이나 바다로 흘러듬과 같다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#not-lose-place-is-perpetuality" id="REV-not-lose-place-is-perpetuality">
+	<font class="emph">
+	不失其所者久
+	</font></a><br>
+	불실기소자구
+<span class="chinese-korean-translation">
+	제자리를 잃지 않음이 영원이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#die-but-not-extinguished" id="REV-die-but-not-extinguished">
+	<font class="emph">
+	死而不亡者壽
+	</font></a><br>
+	사이불망자수
+<span class="chinese-korean-translation">
+	죽으나 멸망하지 않는 것이 수를 누리는 것이다.
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#big-tao-overflows" id="REV-big-tao-overflows">
+	<font class="emph">
+	大道氾兮
+	</font></a><br>
+	대도범혜
+<span class="chinese-korean-translation">
+	큰 도가 넘쳐 있음이여!
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	視之不足見
+	聽之不足聞
+	用之不足旣
+	</font></a><br>
+	시지불족견
+	청지불족문
+	용지불족기
+<span class="chinese-korean-translation">
+	도는 보아도 보이지 않고
+	<br>
+	들어도 들리지 않지만
+	<br>
+	써도 써도 다함이 없다.
 </span>
 </div>
 
@@ -3078,7 +3131,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <span class="chinese-korean-translation">
 	가볍게 처신하면 그 근본을 잃게 되고
 	<br>
-	조급하게 행동하면 임금의 자리를 잃게 될 것이다 .
+	조급하게 행동하면 임금의 자리를 잃게 될 것이다.
 </span>
 </p>
 </div>
@@ -3895,78 +3948,314 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </font>
 </div>
 
+<h2 id="33">
+	제33장
+	-
+	진기盡己
+</h2>
+
+<blockquote>
+	자기를 아는 자는 밝은 사람이요
+	<br>
+	자기를 이기는 자가 진정한 승자이며
+	<br>
+	스스로 만족할 줄 아는 자가 진정한 부자이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	知人者智
+	自知者明
+<span class="chinese-korean-transliteration">
+	지인자지
+	자지자명
+</span>
+<span class="chinese-korean-translation">
+	남을 아는 것이 지혜라면
+	<br>
+	자기를 아는 것은 밝음이다.
+</span>
+</p>
+
+<p>
+	勝人者有力
+	自勝者强
+<span class="chinese-korean-transliteration">
+	승인자유력
+	자승자강
+</span>
+<span class="chinese-korean-translation">
+	남을 이김이 힘있음이라면
+	<br>
+	자기를 이김은 정말로 강함이다.
+</span>
+</p>
+
+<p>
+	知足者富
+	强行者有志
+<span class="chinese-korean-transliteration">
+	지족자부
+	강행자유지
+</span>
+<span class="chinese-korean-translation">
+	족하기를 아는 것이 부유함이요
+	<br>
+	강행하는 것이 뜻있음이다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/couple-watching-sunset.png">
+
+<div class="translation-container">
+<font id="not-lose-place-is-perpetuality" class="emph">
+<p>
+	<a href="#REV-not-lose-place-is-perpetuality">
+	<font class="emph">
+	不失其所者久
+	</font></a>
+<span class="chinese-korean-transliteration">
+	불실기소자구
+</span>
+<span class="chinese-korean-translation">
+	제자리를 잃지 않음이 영원이다.
+</span>
+</p>
+</font>
+
+<font id="die-but-not-extinguished" class="emph">
+<p>
+	<a href="#REV-die-but-not-extinguished">
+	<font class="emph">
+	死而不亡者壽
+	</font></a>
+<span class="chinese-korean-transliteration">
+	사이불망자수
+</span>
+<span class="chinese-korean-translation">
+	죽으나 멸망하지 않는 것이 수를 누리는 것이다.
+</span>
+</p>
+</font>
+</div>
+
+<h2 id="34">
+	제34자
+	-
+	성대成大
+</h2>
+
+<blockquote>
+	이 세상 만물만상이 도 아닌 것이 없는데
+	<br>
+	어디에서 도를 찾는단 말인가?
+</blockquote>
+
+<div class="translation-container">
+<font id="big-tao-overflows" class="emph">
+<p>
+	<a href="#REV-big-tao-overflows">
+	<font class="emph">
+	大道氾兮
+	</font></a>
+<span class="chinese-korean-transliteration">
+	대도범혜
+</span>
+<span class="chinese-korean-translation">
+	큰 도가 넘쳐 있음이여!
+</span>
+</p>
+</font>
+
+<p>
+	其可左右
+<span class="chinese-korean-transliteration">
+	기가좌우
+</span>
+<span class="chinese-korean-translation">
+	이쪽 저쪽 어디에나!
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/bird-and-lake.png">
+
+<div class="translation-container">
+<p>
+	萬物恃之而生而不辭
+	功成不名有
+<span class="chinese-korean-transliteration">
+	만물시지이생이불사
+	공성불명유
+</span>
+<span class="chinese-korean-translation">
+	온갖 것이 이에 의지하고 살아 가더라도
+	<br>
+	이를 마다하지 않고
+	<br>
+	일을 이루고도
+	<br>
+	자기 이름을 드러내려 하지 않는다.
+</span>
+</p>
+
+<p>
+	衣養萬物而不爲主
+<span class="chinese-korean-transliteration">
+	의양만물이불위주
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 옷입히고 먹이나
+	<br>
+	그 주인 노릇하려 하지 않는다.
+</span>
+</p>
+
+<p>
+	常無欲
+	可名於小
+<span class="chinese-korean-transliteration">
+	상무욕
+	가명어소
+</span>
+<span class="chinese-korean-translation">
+	언제나 욕심이 없으니
+	<br>
+	이름하여 "작음"이라 하겠다.
+</span>
+</p>
+
+<p>
+	萬物歸焉
+	而不爲主
+	可名爲大
+<span class="chinese-korean-transliteration">
+	만물귀언
+	이불위주
+	가명위대
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 다 모여드나
+	<br>
+	주인 노릇하려 하지 않으니
+	<br>
+	이름하여 "큼"이라 하겠다.
+</span>
+</p>
+
+<p>
+	以其終不自爲大
+<span class="chinese-korean-transliteration">
+	이기종불자위대
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 스스로 위대하다고 하지 않는다.
+</span>
+</p>
+
+<p>
+	故能成其大
+<span class="chinese-korean-transliteration">
+	고능성기대
+</span>
+<span class="chinese-korean-translation">
+	그러기에 위대한 일을 이룰 수 있는 것이다.
+</span>
+</p>
+</div>
+
+<h2 id="35">
+	제35장
+	-
+	대상大象
+</h2>
+
+<blockquote>
+	보아도 보이지 않고
+	<br>
+	들어도 들리지 않지만
+	<br>
+	써도써도 다함이 없는 것이 도다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	執大象
+	天下往
+<span class="chinese-korean-transliteration">
+	집대상
+	천하왕
+</span>
+<span class="chinese-korean-translation">
+	위대한 형상을 굳게 잡으시라
+	<br>
+	세상이 모두 그대에게 모여들 것이다.
+</span>
+</p>
+
+<p>
+	往而不害
+	安平太
+<span class="chinese-korean-transliteration">
+	왕이불해
+	안평태
+</span>
+<span class="chinese-korean-translation">
+	그대에게 모여들어 해받음이 없을 것이며
+	<br>
+	오직 안온함과 평온함과 평화만이 깃들 것이다.
+</span>
+</p>
+
+<p>
+	樂與餌
+	過客止
+	道之出口
+	淡乎其無味
+<span class="chinese-korean-transliteration">
+	락여이
+	과객지
+	도지출구
+	담호기무미
+</span>
+<span class="chinese-korean-translation">
+	음악이나 별미로는
+	<br>
+	지나는 사람 잠시 머물게 할 수 있으나
+	<br>
+	도에 대한 말은
+	<br>
+	담박하여 별맛이 없다.
+</span>
+</p>
+
+<font id="cannot-use-tao-all" class="emph">
+<p>
+	<a href="#REV-cannot-use-tao-all"><font class="emph">
+	視之不足見
+	聽之不足聞
+	用之不足旣
+	</font></a>
+<span class="chinese-korean-transliteration">
+	시지불족견
+	청지불족문
+	용지불족기
+</span>
+<span class="chinese-korean-translation">
+	도는 보아도 보이지 않고
+	<br>
+	들어도 들리지 않지만
+	<br>
+	써도 써도 다함이 없다.
+</span>
+</p>
+</font>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/fall.jpeg">
+
 <!--
-33. 盡己(진기)
-
-
-
-자기를 아는 자는 밝은 사람이요,
-
-자기를 이기는 자가 진정한 승자이며,
-
-스스로 만족할 줄 아는 자가 진정한 부자이다.
-
-
-知人者智(지인자지) : 남을 아는 것이 지혜라면
-自知者明(자지자명) : 자기를 아는 것은 밝음이다.
-勝人者有力(승인자유력) : 남을 이김이 힘있음이라면
-自勝者强(자승자강) : 자기를 이김은 정말로 강함이다.
-知足者富(지족자부) : 족하기를 아는 것이 부유함이요,
-强行者有志(강행자유지) : 강행하는 것이 뜻있음이다.
-不失其所者久(불실기소자구) : 제자리를 잃지 않음이 영원이다.
-死而不亡者壽(사이불망자수) : 죽으나 멸망하지 않는 것이 수를 누리는 것이다.
-
-
-
-34. 成大(성대)
-
-
-
-이 세상 만물만상이 도 아닌 것이 없는데,
-
-어디에서 도를 찾겠는가?
-
-
-大道氾兮(대도범혜) : 큰 도가 넘쳐 있음이여
-其可左右(기가좌우) : 이쪽 저쪽 어디에나
-萬物恃之而生而不辭(만물시지이생이불사) : 온갖 것이 이에 의지하고 살아 가더라도 이를 마다하지 않고
-功成不名有(공성불명유) : 일을 이루고도 자기 이름을 드러내려 하지 않는다 .
-衣養萬物而不爲主(의양만물이불위주) : 온갖 것 옷입히고 먹이나 그 주인 노릇하려 하지 않는다.
-常無欲(상무욕) : 언제나 욕심이 없으니
-可名於小(가명어소) : 이름하여 <작음>이라 하겠다.
-萬物歸焉(만물귀언) : 온갖 것 다 모여드나
-而不爲主(이불위주) : 주인 노릇하려 하지 않으니
-可名爲大(가명위대) : 이름하여 <큼>이라 하겠다.
-以其終不自爲大(이기종불자위대) : 그러므로 성인은 스스로 위대하다고 하지 않는다.
-故能成其大(고능성기대) : 그러기에 위대한 일을 이룰 수 있는 것이다.
-
-
-
-35. 大象(대상)
-
-
-
-보아도 보이지 않고,
-
-들어도 들리지 않지만,
-
-써도써도 다함이 없는 것이 도다.
-
-
-執大象(집대상) : 위대한 형상을 굳게 잡으시라,
-天下往(천하왕) : 세상이 모두 그대에게 모여들 것이다.
-往而不害(왕이불해) : 그대에게 모여들어 해받음이 없을 것이며
-安平太(안평태) : 오직 안온함과 평온함과 평화만이 깃들 것이다.
-樂與餌(락여이) : 음악이나 별미로는
-過客止(과객지) : 지나는 사람 잠시 머물게 할 수 있으나
-道之出口(도지출구) : 도에 대한 말은
-淡乎其無味(담호기무미) : 담박하여 별맛이 없다.
-視之不足見(시지불족견) : 도는 보아도 보이지 않고
-聽之不足聞(청지불족문) : 들어도 들리지 않지만
-用之不足旣(용지불족기) : 써도 써도 다함이 없다.
-
-
-
 36. 微明(미명)
 
 
@@ -4149,7 +4438,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 二生三(이생삼) : <둘>이 <셋>을 낳고
 三生萬物(삼생만물) : <셋>이 만물을 낳는다.
 萬物負陰而抱陽(만물부음이포양) : 만물은 <음>을 등에 업고 <양>을 가슴에 안았다.
-沖氣以爲和(충기이위화) : <기>가 서로 합하여 조화를 이룬다 .
+沖氣以爲和(충기이위화) : <기>가 서로 합하여 조화를 이룬다.
 人之所惡(인지소악) : 사람들이 싫어하는 것은
 唯孤寡不穀(유고과불곡) : <고아 같은 사람>, <짝잃은 사람>, <보잘 것 없는 사람>이지만
 而王公以爲稱(이왕공이위칭) : 이것은 임금이나 공작이 자기를 가리키는 이름이다.
@@ -4349,7 +4638,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 德畜之(덕축지) : 덕은 모든 것을 기르고
 物形之(물형지) : 물건은 모든 것을 꼴지우고
 勢成之(세성지) : 세력는 모든 것을 이룬다.
-是以萬物莫不存道而貴德(시이만물막불존도이귀덕) : 그러기에 모든 것은 도를 존중하고 덕을 귀하게 여기지 않을 수 없다 .
+是以萬物莫不存道而貴德(시이만물막불존도이귀덕) : 그러기에 모든 것은 도를 존중하고 덕을 귀하게 여기지 않을 수 없다.
 道之尊(도지존) : 도를 존중하고
 德之貴(덕지귀) : 덕을 귀하게 여기는 것은
 夫莫之命而常自然(부막지명이상자연) : 명령 때문이 아니라 저절로 그렇게 되는 것이다.
@@ -4364,7 +4653,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 生而不有(생이불유) : 낳으나 가지려고 하지 않고
 爲而不恃(위이불시) : 이루나 거기에 기대려 하지 않고
 長而不宰(장이불재) : 기르나 지배하려 하지 않는다.
-是謂玄德(시위원덕) : 이를 일컬어 신비한 덕이라 한다 .
+是謂玄德(시위원덕) : 이를 일컬어 신비한 덕이라 한다.
 
 
 
@@ -4887,7 +5176,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 吾言甚易知(오언심이지) : 내 말은 알기도 그지없이 쉽고
 甚易行(심이행) : 실행하기도 그지없이 쉬운데
 天下莫能知(천하막능지) : 세상 사람들 도무지 알지도 못하고
-莫能行(막능행) : 실행하지도 못한다 .
+莫能行(막능행) : 실행하지도 못한다.
 言有宗(언유종) : 말에는 종지가 있고
 事有君(사유군) : 사물에는 중심이 있다.
 夫唯無知(부유무지) : 사람들 이를 알지 못하기에
