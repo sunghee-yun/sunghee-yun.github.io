@@ -4255,53 +4255,207 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <img width="60%" src="/assets/images/lao-tzu/fall.jpeg">
 
+<h2 id="36">
+	제36장
+	-
+	미명微明
+</h2>
+
+<blockquote>
+	마음에 생각을 없애려 애쓰지 말라
+	<br>
+	생각도 크면 자연히 사라지는 것이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	將欲歙之
+	必固張之
+<span class="chinese-korean-transliteration">
+	장욕흡지
+	필고장지
+</span>
+<span class="chinese-korean-translation">
+	오므리려면
+	<br>
+	일단 펴야 하고
+</span>
+</p>
+
+<p>
+	將欲弱之
+	必固强之
+<span class="chinese-korean-transliteration">
+	장욕약지
+	필고강지
+</span>
+<span class="chinese-korean-translation">
+	약하게 하려면
+	<br>
+	일단 강하게 해야 하고
+</span>
+</p>
+
+<p>
+	將欲廢之
+	必固興之
+<span class="chinese-korean-transliteration">
+	장욕폐지
+	필고흥지
+</span>
+<span class="chinese-korean-translation">
+	폐하게 하려면
+	<br>
+	일단 흥하게 해야 하고
+</span>
+</p>
+
+<p>
+	將欲奪之
+	必固與之
+<span class="chinese-korean-transliteration">
+	장욕탈지
+	필고여지
+</span>
+<span class="chinese-korean-translation">
+	빼앗으려면
+	<br>
+	일단 줘야 한다.
+</span>
+</p>
+
+<p>
+	是謂微明
+<span class="chinese-korean-transliteration">
+	시위미명
+</span>
+<span class="chinese-korean-translation">
+	이것을 일러 "미묘한 밝음"이라 한다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/a-man-with-a-sword.jpeg">
+
+<div class="translation-container">
+<p>
+	柔弱勝剛强
+<span class="chinese-korean-transliteration">
+	유약승강강
+</span>
+<span class="chinese-korean-translation">
+	부드럽고 약한 것이
+	<br>
+	굳세고 강한 것을 이기나니
+</span>
+</p>
+
+<p>
+	魚不可脫於淵
+	國之利器
+	不可以示人
+<span class="chinese-korean-transliteration">
+	어불가탈어연
+	국지리기
+	불가이시인
+</span>
+<span class="chinese-korean-translation">
+	물고기가 연못에서 나와서는 안됨같이
+	<br>
+	나라의 날카로운 무기도
+	<br>
+	사람들에게 보여서는 안 된다.
+</span>
+</p>
+</div>
+
+<h2 id="37">
+	제37장
+	-
+	무위無爲
+</h2>
+
+<blockquote>
+	마음에 욕심이 없이 고요하면
+	<br>
+	세상이 태평할 것이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	道常無爲而無不爲
+<span class="chinese-korean-transliteration">
+	도상무위이무불위
+</span>
+<span class="chinese-korean-translation">
+	도는 언제든지 억지로 일을 하지 않는다.
+	<br>
+	그러나 안 되는 것이 없다.
+</span>
+</p>
+
+<p>
+	侯王若能守之
+	萬物將自化
+<span class="chinese-korean-transliteration">
+	후왕약능수지
+	만물장자화
+</span>
+<span class="chinese-korean-translation">
+	임금이나 제후가 이를 지키면
+	<br>
+	온갖 것 저절로 달라진다.
+</span>
+</p>
+
+<p>
+	化而欲作
+	吾將鎭之以無名之樸
+<span class="chinese-korean-transliteration">
+	화이욕작
+	오장진지이무명지박
+</span>
+<span class="chinese-korean-translation">
+	저절로 달라지는데도
+	<br>
+	무슨 일을 하려는 욕심이 생기면
+	<br>
+	이름없는 통나무로 이를 누른다.
+</span>
+</p>
+</div>
+
+<img width="70%" src="/assets/images/lao-tzu/beautiful-nature.png">
+
+<div class="translation-container">
+<p>
+	無名之樸
+	夫亦將無欲
+<span class="chinese-korean-transliteration">
+	무명지박
+	부역장무욕
+</span>
+<span class="chinese-korean-translation">
+	이름없는 통나무로 욕심을 없애노니
+</span>
+</p>
+
+<p>
+	不欲以靜
+	天下將自定
+<span class="chinese-korean-transliteration">
+	불욕이정
+	천하장자정
+</span>
+<span class="chinese-korean-translation">
+	욕심이 없으면 고요가 찾아들고
+	<br>
+	온누리에 평화가 깃들 것이다.
+</span>
+</p>
+</div>
+
 <!--
-36. 微明(미명)
-
-
-
-마음에 생각을 없애려 애쓰지 말라,
-
-생각도 크면 자연히 사라지는 것이다.
-
-
-將欲歙之(장욕흡지) : 오므리려면
-必固張之(필고장지) : 일단 펴야 하고
-將欲弱之(장욕약지) : 약하게 하려면
-必固强之(필고강지) : 일단 강하게 해야 한다.
-將欲廢之(장욕폐지) : 폐하게 하려면
-必固興之(필고흥지) : 일단 흥하게 해야 하고
-將欲奪之(장욕탈지) : 빼앗으려면
-必固與之(필고여지) : 일단 줘야 한다.
-是謂微明(시위미명) : 이것을 일러 <미묘한 밝음>이라 한다.
-柔弱勝剛强(유약승강강) : 부드럽고 약한 것이 굳세고 강한 것을 이기나니,
-魚不可脫於淵(어불가탈어연) : 물고기가 연못에서 나와서는 안됨같이
-國之利器(국지리기) : 나라의 날카로운 무기도
-不可以示人(불가이시인) : 사람들에게 보여서는 안 된다.
-
-
-
-37. 無爲(무위)
-
-
-
-마음에 욕심이 없이 고요하면,
-
-세상이 태평할 것이다.
-
-
-道常無爲而無不爲(도상무위이무불위) : 도는 언제든지 억지로 일을 하지 않는다 그러나 안 되는 것이 없다
-侯王若能守之(후왕약능수지) : 임금이나 제후가 이를 지키면
-萬物將自化(만물장자화) : 온갖 것 저절로 달라진다.
-化而欲作(화이욕작) : 저절로 달라지는데도 무슨 일을 하려는 욕심이 생기면
-吾將鎭之以無名之樸(오장진지이무명지박) : 이름없는 통나무로 이를 누른다.
-無名之樸(무명지박) : 이름없는 통나무로
-夫亦將無欲(부역장무욕) : 욕심을 없애노니
-不欲以靜(불욕이정) : 욕심이 없으면 고요가 찾아들고
-天下將自定(천하장자정) : 온누리에 평화가 깃들 것이다.
-
-
-
 38. 處厚(처후)
 
 
