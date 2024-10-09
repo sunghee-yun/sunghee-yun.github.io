@@ -294,6 +294,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- California Legislative Information
 	@ 03-Sep-2024 PDT
 </li>
+<li>
+	<a href="https://www.deeplearning.ai/the-batch/blenders-versus-bombs-or-why-californias-proposed-ai-law-is-bad-for-everyone/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--eyRhmWpB_UJRDrNmj3csFjGcUjEmUE-dDaEKb4BVW0d7_ivS_2SbMXtD5d-QOYT7LQCWgJd2t_LQrBmf7soGxEzvClg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">
+		Blenders Versus Bombs, or Why California’s Proposed AI Law is Bad for Everyone
+	</a>
+	- The Batch by DeepLearning.AI
+	@ 05-Jun-2024
+</li>
 </ul>
 
 <h3 id="ai-impacts-societal">societal impacts</h3>
@@ -305,13 +312,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	- NY Times
 	@ 29-Sep-2024
-</li>
-<li>
-	<a href="https://www.deeplearning.ai/the-batch/blenders-versus-bombs-or-why-californias-proposed-ai-law-is-bad-for-everyone/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--eyRhmWpB_UJRDrNmj3csFjGcUjEmUE-dDaEKb4BVW0d7_ivS_2SbMXtD5d-QOYT7LQCWgJd2t_LQrBmf7soGxEzvClg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">
-		Blenders Versus Bombs, or Why California’s Proposed AI Law is Bad for Everyone
-	</a>
-	- The Batch by DeepLearning.AI
-	@ 05-Jun-2024
 </li>
 </ul>
 
@@ -398,10 +398,23 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 26-Sep-2024 KST
 </li>
 <li>
+	<a href="https://www.deeplearning.ai/the-batch/issue-268/">
+		Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server
+	</a>
+	- The Batch of DeepLearning.AI
+	@ 25-Sep-2024 PDT
+</li>
+<li>
 	<a href="https://analyticsindiamag.com/ai-news-updates/ai-will-soon-match-or-surpass-human-intelligence-says-yann-lecun/">
 		'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun
 	</a>
 	@ 24-Sep-2024
+	<div class="callout">
+	Smartphones soon to be obsolete!
+	Very interesting insight of Yann!
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/rolling-eyes/android-chrome-512x512.png">
+	</div>
 </li>
 </ul>
 
@@ -417,6 +430,19 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	btw, Fei-Fei, a Stanford Professor, is <em>NOT</em> a <em>godmother</em> of AI!
 	&nbsp;
 	<img class="emoticon" src="/resource/favicons/smileys/smiley 22.png">
+	</div>
+</li>
+<li>
+	<a href="https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/">
+		OpenAI is Two Stages Shy of Hitting AGI
+	</a>
+	@ 24-Sep-2024
+	<div class="callout">
+	We MUST come up with clear definition of AGI that are
+	by all engineering, science, and legal communities
+	instead of that of Altman's &hellip;
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/frowning-face/android-chrome-192x192.png">
 	</div>
 </li>
 </ul>
@@ -1159,6 +1185,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 26-Sep-2024 KST
 </li>
 <li>
+	<a href="https://www.deeplearning.ai/the-batch/issue-268/">
+		Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server
+	</a>
+	- The Batch of DeepLearning.AI
+	@ 25-Sep-2024 PDT
+</li>
+<li>
 	<a href="https://zdnet.co.kr/view/?no=20240925155117">
 		보스턴다이내믹스 CEO "휴머노이드, 3~5년 내 공장서 일할 것"
 	</a>
@@ -1225,6 +1258,25 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun
 	</a>
 	@ 24-Sep-2024
+	<div class="callout">
+	Smartphones soon to be obsolete!
+	Very interesting insight of Yann!
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/rolling-eyes/android-chrome-512x512.png">
+	</div>
+</li>
+<li>
+	<a href="https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/">
+		OpenAI is Two Stages Shy of Hitting AGI
+	</a>
+	@ 24-Sep-2024
+	<div class="callout">
+	We MUST come up with clear definition of AGI that are
+	by all engineering, science, and legal communities
+	instead of that of Altman's &hellip;
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/frowning-face/android-chrome-192x192.png">
+	</div>
 </li>
 <li>
 	<a href="https://techcrunch.com/2024/09/24/microsoft-claims-its-new-tool-can-correct-ai-hallucinations-but-experts-caution-it-has-shortcomings/">

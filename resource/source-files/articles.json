@@ -216,7 +216,7 @@
 		"date": "29-Sep-2024"
 	},
 	{
-		"category": ["ai", "impacts", "societal"],
+		"category": ["ai", "impacts", "legal"],
 		"url": "https://www.deeplearning.ai/the-batch/blenders-versus-bombs-or-why-californias-proposed-ai-law-is-bad-for-everyone/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--eyRhmWpB_UJRDrNmj3csFjGcUjEmUE-dDaEKb4BVW0d7_ivS_2SbMXtD5d-QOYT7LQCWgJd2t_LQrBmf7soGxEzvClg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email",
 		"title": "Blenders Versus Bombs, or Why California’s Proposed AI Law is Bad for Everyone",
 		"press": "The Batch by DeepLearning.AI",
@@ -278,7 +278,15 @@
 		"category": ["ai", "general"],
 		"url": "https://analyticsindiamag.com/ai-news-updates/ai-will-soon-match-or-surpass-human-intelligence-says-yann-lecun/",
 		"title": "'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun",
-		"date": "24-Sep-2024"
+		"date": "24-Sep-2024",
+		"postfix": [
+			"<div class=\"callout\">",
+			"Smartphones soon to be obsolete!",
+			"Very interesting insight of Yann!",
+			"&nbsp;",
+			"<img class=\"emoticon\" src=\"/assets/images/favicons/rolling-eyes/android-chrome-512x512.png\">",
+			"</div>"
+		]
 	},
 	{
 		"category": ["ai", "general"],
@@ -286,6 +294,28 @@
 		"title": "Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets",
 		"date": "02-Oct-2024 PDT",
 		"press": "The Batch of DeepLearning.AI"
+	},
+	{
+		"category": ["ai", "general"],
+		"url": "https://www.deeplearning.ai/the-batch/issue-268/",
+		"title": "Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server",
+		"date": "25-Sep-2024 PDT",
+		"press": "The Batch of DeepLearning.AI"
+	},
+	{
+		"category": ["ai", "agi"],
+		"url": "https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/",
+		"title": "OpenAI is Two Stages Shy of Hitting AGI",
+		"date": "24-Sep-2024",
+		"postfix": [
+			"<div class=\"callout\">",
+			"We MUST come up with clear definition of AGI that are",
+			"by all engineering, science, and legal communities",
+			"instead of that of Altman's &hellip;",
+			"&nbsp;",
+			"<img class=\"emoticon\" src=\"/assets/images/favicons/frowning-face/android-chrome-192x192.png\">",
+			"</div>"
+		]
 	},
 	{
 		"category": ["ai", "agi"],
