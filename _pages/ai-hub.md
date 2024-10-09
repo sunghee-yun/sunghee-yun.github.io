@@ -408,6 +408,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://analyticsindiamag.com/ai-news-updates/ai-will-soon-match-or-surpass-human-intelligence-says-yann-lecun/">
 		'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun
 	</a>
+	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
 	Smartphones soon to be obsolete!
@@ -425,17 +426,19 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://techcrunch.com/2024/10/03/even-the-godmother-of-ai-has-no-idea-what-agi-is/">
 		Even the ‘godmother of AI’ has no idea what AGI is
 	</a>
+	- TechCrunch
 	@ 03-Oct-2024
 	<div class="callout">
 	btw, Fei-Fei, a Stanford Professor, is <em>NOT</em> a <em>godmother</em> of AI!
 	&nbsp;
-	<img class="emoticon" src="/resource/favicons/smileys/smiley 22.png">
+	<img class="emoticon" src="/assets/images/favicons/grinning-squinting-face/android-chrome-192x192.png">
 	</div>
 </li>
 <li>
 	<a href="https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/">
 		OpenAI is Two Stages Shy of Hitting AGI
 	</a>
+	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
 	We MUST come up with clear definition of AGI that are
@@ -959,11 +962,12 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://techcrunch.com/2024/10/03/even-the-godmother-of-ai-has-no-idea-what-agi-is/">
 		Even the ‘godmother of AI’ has no idea what AGI is
 	</a>
+	- TechCrunch
 	@ 03-Oct-2024
 	<div class="callout">
 	btw, Fei-Fei, a Stanford Professor, is <em>NOT</em> a <em>godmother</em> of AI!
 	&nbsp;
-	<img class="emoticon" src="/resource/favicons/smileys/smiley 22.png">
+	<img class="emoticon" src="/assets/images/favicons/grinning-squinting-face/android-chrome-192x192.png">
 	</div>
 </li>
 <li>
@@ -1257,6 +1261,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://analyticsindiamag.com/ai-news-updates/ai-will-soon-match-or-surpass-human-intelligence-says-yann-lecun/">
 		'AI will Soon Match or Surpass Human Intelligence,' says Yann LeCun
 	</a>
+	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
 	Smartphones soon to be obsolete!
@@ -1269,6 +1274,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/">
 		OpenAI is Two Stages Shy of Hitting AGI
 	</a>
+	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
 	We MUST come up with clear definition of AGI that are
