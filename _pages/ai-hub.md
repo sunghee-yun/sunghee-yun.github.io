@@ -307,6 +307,31 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.artificialintelligence-news.com/news/bridging-code-and-conscience-umds-quest-for-ethical-and-inclusive-ai/">
+		Bridging code and conscience: UMD’s quest for ethical and inclusive AI
+	</a>
+	- AINews
+	@ 29-Sep-2024
+	&nbsp;
+	<div class="foldable-toggle">broader ethical landscape</div>
+	<div class="foldable-content">
+	<ol>
+	<li>
+	Data privacy and consent: The researchers highlight the inadequacy of current consent mechanisms, especially regarding data collection for AI training. Kameswaran cites examples from his work in India, where vulnerable populations unknowingly surrendered extensive personal data to AI-driven loan platforms during the COVID-19 pandemic.
+	</li>
+	<li>
+	Transparency and explainability: Both researchers stress the importance of understanding how AI systems make decisions, especially when these decisions significantly impact people’s lives.
+	</li>
+	<li>
+	Societal attitudes and biases: Kameswaran points out that technical solutions alone cannot solve discrimination issues. There’s a need for broader societal changes in attitudes towards marginalised groups, including people with disabilities.
+	</li>
+	<li>
+	Interdisciplinary collaboration: The researchers’ work at UMD exemplifies the importance of cooperation between philosophy, computer science, and other disciplines in addressing AI ethics.
+	</li>
+	</ol>
+	</div>
+</li>
+<li>
 	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">
 		California Governor Vetoes Sweeping A.I. Legislation
 	</a>
@@ -1156,6 +1181,31 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	- 세계일보 
 	@ 29-Sep-2024
+</li>
+<li>
+	<a href="https://www.artificialintelligence-news.com/news/bridging-code-and-conscience-umds-quest-for-ethical-and-inclusive-ai/">
+		Bridging code and conscience: UMD’s quest for ethical and inclusive AI
+	</a>
+	- AINews
+	@ 29-Sep-2024
+	&nbsp;
+	<div class="foldable-toggle">broader ethical landscape</div>
+	<div class="foldable-content">
+	<ol>
+	<li>
+	Data privacy and consent: The researchers highlight the inadequacy of current consent mechanisms, especially regarding data collection for AI training. Kameswaran cites examples from his work in India, where vulnerable populations unknowingly surrendered extensive personal data to AI-driven loan platforms during the COVID-19 pandemic.
+	</li>
+	<li>
+	Transparency and explainability: Both researchers stress the importance of understanding how AI systems make decisions, especially when these decisions significantly impact people’s lives.
+	</li>
+	<li>
+	Societal attitudes and biases: Kameswaran points out that technical solutions alone cannot solve discrimination issues. There’s a need for broader societal changes in attitudes towards marginalised groups, including people with disabilities.
+	</li>
+	<li>
+	Interdisciplinary collaboration: The researchers’ work at UMD exemplifies the importance of cooperation between philosophy, computer science, and other disciplines in addressing AI ethics.
+	</li>
+	</ol>
+	</div>
 </li>
 <li>
 	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">

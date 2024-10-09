@@ -210,6 +210,33 @@
 	},
 	{
 		"category": ["ai", "impacts", "societal"],
+		"url": "https://www.artificialintelligence-news.com/news/bridging-code-and-conscience-umds-quest-for-ethical-and-inclusive-ai/",
+		"title": "Bridging code and conscience: UMD’s quest for ethical and inclusive AI",
+		"press": "AINews",
+		"date": "29-Sep-2024",
+		"postfix" : [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">broader ethical landscape</div>",
+			"<div class=\"foldable-content\">",
+			"<ol>",
+			"<li>",
+			"Data privacy and consent: The researchers highlight the inadequacy of current consent mechanisms, especially regarding data collection for AI training. Kameswaran cites examples from his work in India, where vulnerable populations unknowingly surrendered extensive personal data to AI-driven loan platforms during the COVID-19 pandemic.",
+			"</li>",
+			"<li>",
+			"Transparency and explainability: Both researchers stress the importance of understanding how AI systems make decisions, especially when these decisions significantly impact people’s lives.",
+			"</li>",
+			"<li>",
+			"Societal attitudes and biases: Kameswaran points out that technical solutions alone cannot solve discrimination issues. There’s a need for broader societal changes in attitudes towards marginalised groups, including people with disabilities.",
+			"</li>",
+			"<li>",
+			"Interdisciplinary collaboration: The researchers’ work at UMD exemplifies the importance of cooperation between philosophy, computer science, and other disciplines in addressing AI ethics.",
+			"</li>",
+			"</ol>",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "impacts", "societal"],
 		"url": "https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html",
 		"title": "California Governor Vetoes Sweeping A.I. Legislation",
 		"press": "NY Times",
