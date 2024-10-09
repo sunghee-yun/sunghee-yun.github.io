@@ -442,6 +442,69 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </div>
 
+<div class="text-highlight">
+	<a href="#tao-virtue-benevolence-righteousness-propriety" id="REV-tao-virtue-benevolence-righteousness-propriety">
+	<font class="emph">
+	故失道而後德
+	失德而後仁
+	失仁而後義
+	失義而後禮
+	</font></a><br>
+	고실도이후덕
+	실덕이후인
+	실인이후의
+	실의이후례
+<span class="chinese-korean-translation">
+	도가 없어지면 덕이 나타나고
+	<br>
+	덕이 없어지면 인이 나타나고
+	<br>
+	인이 없어지면 의가 나타나고
+	<br>
+	의가 없어지면 예가 나타난다.
+</span>
+</div>
+
+<!--div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	</font></a><br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	</font></a><br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	</font></a><br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	</font></a><br>
+<span class="chinese-korean-translation">
+</span>
+</div>
+
+<div class="text-highlight">
+	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+	<font class="emph">
+	</font></a><br>
+<span class="chinese-korean-translation">
+</span>
+</div-->
+
 <h1 id="main-text">
 	Main text
 </h1>
@@ -4425,7 +4488,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="70%" src="/assets/images/lao-tzu/beautiful-nature.png">
+<img width="70%" src="/assets/images/lao-tzu/sky-cloud-mountain-field.png">
 
 <div class="translation-container">
 <p>
@@ -4455,96 +4518,505 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="38">
+	제38장
+	-
+	처후處厚
+</h2>
+
+<blockquote>
+	자신에게도 억지로 일을 시키지 말라
+</blockquote>
+
+<div class="translation-container">
+<p>
+	上德不德
+	是以有德
+<span class="chinese-korean-transliteration">
+	상덕불덕
+	시이유덕
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 덕의 사람은 자기의 덕을 의식하지 않나니
+	<br>
+	그러기에 정말로 덕이 있는 사람이다.
+</span>
+</p>
+
+<p>
+	下德不失德
+	是以無德
+<span class="chinese-korean-transliteration">
+	하덕불실덕
+	시이무덕
+</span>
+<span class="chinese-korean-translation">
+	훌륭하지 못한 덕의 사람은 자기의 덕을 의식하나니
+	<br>
+	그러기에 정말로 덕이 없는 사람이다.
+</span>
+</p>
+
+<p>
+	上德無爲而無以爲
+<span class="chinese-korean-transliteration">
+	상덕무위이무이위
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 덕의 사람은 억지로 일을 하지 않으니
+	<br>
+	억지로 일을 할 까닭이 없다.
+</span>
+</p>
+
+<p>
+	下德爲之而有以爲
+<span class="chinese-korean-transliteration">
+	하덕위지이유이위
+</span>
+<span class="chinese-korean-translation">
+	훌륭하지 못한 덕의 사람은 억지로 일을 하나니
+	<br>
+	억지로 일을 할 까닭이 많다.
+</span>
+</p>
+
+<p>
+	上仁爲之而有以爲
+<span class="chinese-korean-transliteration">
+	상인위지이유이위
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 인의 사람은 억지로 일을 하나니
+	<br>
+	억지로 일을 할 까닭이 있다.
+</span>
+</p>
+
+<p>
+	上義爲之而有以爲
+<span class="chinese-korean-transliteration">
+	상의위지이유이위
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 의의 사람은 억지로 일을 하나니
+	<br>
+	억지로 일을 할 까닭이 많다.
+</span>
+</p>
+
+<p>
+	上禮爲之而莫之應
+	則攘臂而扔之
+<span class="chinese-korean-transliteration">
+	상례위지이막지응
+	즉양비이잉지
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 예의 사람은 억지로 일을 하나니
+	<br>
+	그러나 아무도 응하지 않기에
+	<br>
+	소매를 걷고 남에게 강요한다.
+</span>
+</p>
+
+<font id="tao-virtue-benevolence-righteousness-propriety" class="emph">
+<p>
+	<a href="#REV-tao-virtue-benevolence-righteousness-propriety">
+	<font class="emph">
+	故失道而後德
+	失德而後仁
+	失仁而後義
+	失義而後禮
+	</font>
+	</a>
+<span class="chinese-korean-transliteration">
+	고실도이후덕
+	실덕이후인
+	실인이후의
+	실의이후례
+</span>
+<span class="chinese-korean-translation">
+	도가 없어지면 덕이 나타나고
+	<br>
+	덕이 없어지면 인이 나타나고
+	<br>
+	인이 없어지면 의가 나타나고
+	<br>
+	의가 없어지면 예가 나타난다.
+</span>
+</p>
+</font>
+</div>
+
+<img width="55%" src="/assets/images/lao-tzu/burning-girl.png">
+
+<div class="translation-container">
+<p>
+	夫禮者
+	忠信之薄
+	而亂之首
+<span class="chinese-korean-transliteration">
+	부례자
+	충신지박
+	이란지수
+</span>
+<span class="chinese-korean-translation">
+	예는
+	<br>
+	충성과 신의의 얄팍한 껍질이며
+	<br>
+	혼란의 시작이다.
+</span>
+</p>
+
+<p>
+	前識者
+	道之華
+	而愚之始
+<span class="chinese-korean-transliteration">
+	전식자
+	도지화
+	이우지시
+</span>
+<span class="chinese-korean-translation">
+	앞을 내다보는 것은
+	<br>
+	도의 꽃이며
+	<br>
+	어리석음의 시작이다.
+</span>
+</p>
+
+<p>
+	是以大丈夫處其厚
+	不居其薄
+	處其實
+	不居其華
+	故去彼取此
+<span class="chinese-korean-transliteration">
+	시이대장부처기후
+	불거기박
+	처기실
+	불거기화
+	고거피취차
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	성숙한 사람은 두꺼운 데 머무르고
+	<br>
+	얄팍한 데 거하지 않는다.
+	<br>
+	열매에 머무르고
+	<br>
+	꽃에 거하지 않는다.
+	<br>
+	후자는 버리고 전자를 택한다.
+</span>
+</p>
+</div>
+
+<h2 id="39">
+	제39장
+	-
+	득일得一
+</h2>
+
+<blockquote>
+	이 하나를 얻어 만물이 생기나니
+	<br>
+	이 하나가 무엇일까?
+</blockquote>
+
+<div class="translation-container">
+<p>
+	昔之得一者
+<span class="chinese-korean-transliteration">
+	석지득일자
+</span>
+<span class="chinese-korean-translation">
+	예부터 "하나"를 얻은 것들이 있다.
+</span>
+</p>
+
+<p>
+	天得一以淸
+<span class="chinese-korean-transliteration">
+	천득일이청
+</span>
+<span class="chinese-korean-translation">
+	하늘은 하나를 얻어 맑고
+</span>
+</p>
+
+<p>
+	地得一以寧
+<span class="chinese-korean-transliteration">
+	지득일이녕
+</span>
+<span class="chinese-korean-translation">
+	땅은 하나를 얻어 편안하고
+</span>
+</p>
+
+<p>
+	神得一以靈
+<span class="chinese-korean-transliteration">
+	신득일이령
+</span>
+<span class="chinese-korean-translation">
+	신은 하나를 얻어 영묘하고
+</span>
+</p>
+
+<p>
+	谷得一以盈
+<span class="chinese-korean-transliteration">
+	곡득일이영
+</span>
+<span class="chinese-korean-translation">
+	골짜기는 하나를 얻어 가득하고
+</span>
+</p>
+
+<p>
+	萬物得一以生
+<span class="chinese-korean-transliteration">
+	만물득일이생
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 하나를 얻어 자라나고
+</span>
+</p>
+
+<p>
+	侯王得一以爲天下貞
+<span class="chinese-korean-transliteration">
+	후왕득일이위천하정
+</span>
+<span class="chinese-korean-translation">
+	왕과 제후는 하나를 얻어 세상의 어른이 되고
+</span>
+</p>
+
+<p>
+	其致之
+<span class="chinese-korean-transliteration">
+	기치지
+</span>
+<span class="chinese-korean-translation">
+	이 모두가 하나의 덕이다.
+</span>
+</p>
+
+<p>
+	天無以淸
+	將恐裂
+<span class="chinese-korean-transliteration">
+	천무이청
+	장공렬
+</span>
+<span class="chinese-korean-translation">
+	하늘은
+	<br>
+	그것을 맑게 하는 것 없으면
+	<br>
+	갈라질 것이고
+</span>
+</p>
+
+<p>
+	地無以寧
+	將恐發
+<span class="chinese-korean-transliteration">
+	지무이녕
+	장공발
+</span>
+<span class="chinese-korean-translation">
+	땅은 
+	<br>
+	그것을 편안하게 하는 것 없으면
+	<br>
+	흔들릴 것이고
+</span>
+</p>
+
+<p>
+	神無以靈
+	將恐歇
+<span class="chinese-korean-transliteration">
+	신무이령
+	장공헐
+</span>
+<span class="chinese-korean-translation">
+	신은 
+	<br>
+	그것을 영묘하게 하는 것 없으면
+	<br>
+	시들 것이고
+</span>
+</p>
+
+<p>
+	谷無以盈
+	將恐竭
+<span class="chinese-korean-transliteration">
+	곡무이영
+	장공갈
+</span>
+<span class="chinese-korean-translation">
+	골짜기는 
+	<br>
+	그것을 가득하게 하는 것 없으면
+	<br>
+	마를 것이고
+</span>
+</p>
+
+<p>
+	萬物無以生
+	將恐滅
+<span class="chinese-korean-transliteration">
+	만물무이생
+	장공멸
+</span>
+<span class="chinese-korean-translation">
+	온갖 것 
+	<br>
+	그것을 자라게 하는 것 없으면
+	<br>
+	없어져 버릴 것이고
+</span>
+</p>
+
+<p>
+	侯王無以貴高
+	將恐蹶
+<span class="chinese-korean-transliteration">
+	후왕무이귀고
+	장공궐
+</span>
+<span class="chinese-korean-translation">
+	왕과 제후는 
+	<br>
+	그들을 어른되게 하는 것 없으면
+	<br>
+	넘어질 것이다.
+</span>
+</p>
+
+<p>
+	故貴以賤爲本
+	高以下爲基
+<span class="chinese-korean-transliteration">
+	고귀이천위본
+	고이하위기
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	귀한 것은 천한 것을 근본으로 하고
+	<br>
+	높은 것은 낮은 것을 바탕으로 한다.
+</span>
+</p>
+
+<p>
+	是以後王自謂孤
+	寡不穀
+<span class="chinese-korean-transliteration">
+	시이후왕자위고
+	과불곡
+</span>
+<span class="chinese-korean-translation">
+	이런 까닭으로
+	<br>
+	왕과 제후는 스스로를
+	<br>
+	"고아 같은 사람" "짝잃은 사람" "보잘 것없는 사람"이라 부른다.
+</span>
+</p>
+</div>
+
+<img width="60%" src="/assets/images/lao-tzu/cute-girl.png">
+
+<div class="translation-container">
+<p>
+	此非以賤爲本邪非乎
+<span class="chinese-korean-transliteration">
+	차비이천위본사비호
+</span>
+<span class="chinese-korean-translation">
+	이것이 바로
+	<br>
+	천한 것을 근본으로 삼는 것 아니겠는가?
+</span>
+</p>
+
+<p>
+	故致數輿無輿
+	不欲琭琭如玉
+	珞珞如石
+<span class="chinese-korean-transliteration">
+	고치수여무여
+	불욕록록여옥
+	락락여석
+</span>
+<span class="chinese-korean-translation">
+	지극히 영예로운 것은 영예로움이 아니다.
+	<br>
+	구슬처럼 영롱한 소리를 내려 하지 말고
+	<br>
+	돌처럼 담담한 소리를 내라.
+</span>
+</p>
+</div>
+
+<h2 id="40">
+	제40장
+	-
+	반복反覆
+</h2>
+
+<blockquote>
+	모든 것을 돌아가게 함이 도道의 움직임이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	反者道之動
+	弱者道之用
+<span class="chinese-korean-transliteration">
+	반자도지동
+	약자도지용
+</span>
+<span class="chinese-korean-translation">
+	"되돌아 감"이 도道의 움직임이고
+	<br>
+	"약함"이 도道의 쓰임이다.
+</span>
+</p>
+
+<p>
+	天下萬物生於有
+	有生於無
+<span class="chinese-korean-transliteration">
+	천하만물생어유
+	유생어무
+</span>
+<span class="chinese-korean-translation">
+	온 세상 모든 것은 "있음"에서 생겨나고
+	<br>
+	있음은 "없음"에서 생겨난다.
+</span>
+</p>
+</div>
+
+<img width="45%" src="/assets/images/lao-tzu/cherry-blossom.png">
+
 <!--
-38. 處厚(처후)
-
-
-
-자신에게도 억지로 일을 시키지 말라!
-
-
-上德不德(상덕불덕) : 훌륭한 덕의 사람은 자기의 덕을 의식하지 않나니,
-是以有德(시이유덕) : 그러기에 정말로 덕이 있는 사람이다.
-下德不失德(하덕불실덕) : 훌륭하지 못한 덕의 사람은 자기의 덕을 의식하나니,
-是以無德(시이무덕) : 그러기에 정말로 덕이 없는 사람이다.
-上德無爲而無以爲(상덕무위이무이위) : 훌륭한 덕의 사람은 억지로 일을 하지 않으니 억지로 일을 할 까닭이 없다.
-下德爲之而有以爲(하덕위지이유이위) : 훌륭하지 못한 덕의 사람은 억지로 일을 하나니 억지로 일을 할 까닭이 많다.
-上仁爲之而有以爲(상인위지이유이위) : 훌륭한 인의 사람은 억지로 일을 하나니 억지로 일을 할 까닭이 있다.
-上義爲之而有以爲(상의위지이유이위) : 훌륭한 의의 사람은 억지로 일을 하나니 억지로 일을 할 까닭이 많다.
-上禮爲之而莫之應(상례위지이막지응) : 훌륭한 예의 사람은 억지로 일을 하나니 그러나 아무도 응하지 않기에
-則攘臂而扔之(즉양비이잉지) : 소매를 걷고 남에게 강요한다.
-故失道而後德(고실도이후덕) : 도가 없어지면 덕이 나타나고
-失德而後仁(실덕이후인) : 덕이 없어지면 인이 나타나고
-失仁而後義(실인이후의) : 인이 없어지면 의가 나타나고
-失義而後禮(실의이후례) : 의가 없어지면 예가 나타난다.
-夫禮者(부례자) : 예는
-忠信之薄(충신지박) : 충성과 신의의 얄팍한 껍질이며
-而亂之首(이란지수) : 혼란의 시작이다.
-前識者(전식자) : 앞을 내다보는 것은
-道之華(도지화) : 도의 꽃이며
-而愚之始(이우지시) : 어리석음의 시작이다.
-是以大丈夫處其厚(시이대장부처기후) : 그러므로 성숙한 사람은 두꺼운 데 머무르고
-不居其薄(불거기박) : 얄팍한 데 거하지 않는다.
-處其實(처기실) : 열매에 머무르고
-不居其華(불거기화) : 꽃에 거하지 않는다.
-故去彼取此(고거피취차) : 후자는 버리고 전자를 택한다.
-
-
-
-39. 得一(득일)
-
-
-
-이 하나를 얻어 만물이 생기나니,
-
-이 하나가 무엇일까?
-
-
-昔之得一者(석지득일자) : 예부터 <하나>를 얻은 것들이 있다.
-天得一以淸(천득일이청) : 하늘은 하나를 얻어 맑고
-地得一以寧(지득일이녕) : 땅은 하나를 얻어 편안하고
-神得一以靈(신득일이령) : 신은 하나를 얻어 영묘하고
-谷得一以盈(곡득일이영) : 골짜기는 하나를 얻어 가득하고
-萬物得一以生(만물득일이생) : 온갖 것 하나를 얻어 자라나고
-侯王得一以爲天下貞(후왕득일이위천하정) : 왕과 제후는 하나를 얻어 세상의 어른이 되고
-其致之(기치지) : 이 모두가 하나의 덕이다.
-天無以淸(천무이청) : 하늘은 그것을 맑게 하는 것 없으면
-將恐裂(장공렬) : 갈라질 것이고
-地無以寧(지무이녕) : 땅은 그것을 편안하게 하는 것 없으면
-將恐發(장공발) : 흔들릴 것이고
-神無以靈(신무이령) : 신은 그것을 영묘하게 하는 것 없으면
-將恐歇(장공헐) : 시들 것이고
-谷無以盈(곡무이영) : 골짜기는 그것을 가득하게 하는 것 없으면
-將恐竭(장공갈) : 마를 것이고
-萬物無以生(만물무이생) : 온갖 것 그것을 자라게 하는 것 없으면
-將恐滅(장공멸) : 없어져 버릴 것이고
-侯王無以貴高(후왕무이귀고) : 왕과 제후는 그들을 어른되게 하는 것 없으면
-將恐蹶(장공궐) : 넘어질 것이다.
-故貴以賤爲本(고귀이천위본) : 그러므로 귀한 것은 천한 것을 근본으로 하고
-高以下爲基(고이하위기) : 높은 것은 낮은 것을 바탕으로 한다.
-是以後王自謂孤(시이후왕자위고) : 이런 까닭으로 왕과 제후는 스스로를 <고아 같은 사람>,
-寡不穀(과불곡) : <짝잃은 사람>, <보잘 것없는 사람>이라 부른다.
-此非以賤爲本邪非乎(차비이천위본사비호) : 이것이 바로 천한 것을 근본으로 삼는 것 아니겠는가?
-故致數輿無輿(고치수여무여) : 지극히 영예로운 것은 영예로움이 아니다.
-不欲琭琭如玉(불욕록록여옥) : 구슬처럼 영롱한 소리를 내려 하지 말고
-珞珞如石(락락여석) : 돌처럼 담담한 소리를 내라.
-
-
-
-40.反覆(반복)
-
-
-
-모든 것을 돌아가게 함이 도의 움직임이다.
-
-
-反者道之動(반자도지동) : 되돌아 감이 도의 움직임이고,
-弱者道之用(약자도지용) : 약함이 도의 쓰임이다.
-天下萬物生於有(천하만물생어유) : 온 세상 모든 것은 <있음>에서 생겨나고
-有生於無(유생어무) : 있음은 <없음>에서 생겨난다.
-
-
-
 41. 聞道(문도)
 
 
