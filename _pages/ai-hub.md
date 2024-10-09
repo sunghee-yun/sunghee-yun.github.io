@@ -940,17 +940,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
-<h1 id="cultivation">Cultivation</h1>
-
-<ul>
-<li>
-	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">
-		[Medium] Should You Forgive Your Parents? - Sure, they were good to you, but what about before you were born?
-	</a>
-	@ 13-Sep-2024
-</li>
-</ul>
-
 <h1 id="others">Others</h1>
 
 <ul>
