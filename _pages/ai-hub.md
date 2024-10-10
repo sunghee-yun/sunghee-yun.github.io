@@ -927,6 +927,12 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.ttimes.co.kr/article/2024100818197739923">
+		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한
+	</a>
+	@ 09-Oct-2024 06:00:01 KST
+</li>
+<li>
 	<a href="https://zdnet.co.kr/view/?no=20240927185509">
 		가천대·대한전자공학회 "온디바이스 AI용 반도체 집중 육성해야"
 	</a>
@@ -951,6 +957,12 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.ttimes.co.kr/article/2024100818197739923">
+		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한
+	</a>
+	@ 09-Oct-2024 06:00:01 KST
+</li>
 <li>
 	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">
 		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
