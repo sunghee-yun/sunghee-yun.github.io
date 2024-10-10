@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Thu Sep 19 21:54:30 PDT 2024
+last_modified_at: Thu Oct 10 02:31:26 PDT 2024
 categories:
  - blog
 tags:
@@ -19,6 +19,28 @@ toc_sticky: true
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+대승불교大乘佛敎(산스크리트어: महायान 마하야나)는 불교의 한 종파로
+"대승大乘"은 "큰 탈것" 혹은 "큰 수례"라는 뜻으로
+가르침에 의해 많은 사람들을 미혹迷惑의 세계로부터 깨달음의 세계로 실어간다는 것이다.
+소승小乘이 자기 완성, 즉, 자리自利를 목표로 한 "탈것"임에 대비하여
+대승大乘은 많은 사람들의 구제, 즉, 이타利他를 목적으로 하는 큰 "탈것"이라는 것을 의미한다.
+상좌부불교 중 하나인 대중부 불교가 대승불교의 기원이다.
+
+초기의 대승불교는 부파시대의 불교가
+고타마 붓다 당시의 원시불교의
+활동성&nbsp;&sdot;&nbsp;순수성&nbsp;&sdot;&nbsp;일반성을 상실하고
+아비달마라고 하는 고정적&nbsp;&sdot;&nbsp;번쇄적&nbsp;&sdot;&nbsp;전문적인 훈고해석에 빠져버려
+중생제도衆生濟度라는 불교 본래의 사명을 망각해 버린 것을 그 본래의 자세로 되돌리기 위해서 일으킨
+불교부흥운동이다.
+이 운동의 발생과 그 추진역推進役에 관해서는 정확하게 알려져 있지 않으나
+대체로 서력 기원전 1세기경부터 재가在家를 중심으로 한 혹은 불탑佛塔을 수호하고 있던 사람들에 의해서 이루어졌으며
+그 지역도 남인도에 원형原型이 생겨서 북인도에서 확립되었다고 한다.
+그리하여 이 실천의 뒷받침이 되는 반야경般若經&nbsp;&sdot;&nbsp;법화경法華經&nbsp;&sdot;&nbsp;화엄경華嚴經 등의
+경經이나 중론中論&nbsp;&sdot;&nbsp;섭대승론攝大乘論 등이 작성되었다.
+
+소승불교小乘佛敎는 현재의 스리랑카&nbsp;&sdot;&nbsp;미얀마&nbsp;&sdot;&nbsp;태국 등에서
+대승불교大乘佛敎는 중국&nbsp;&sdot;&nbsp;한국&nbsp;&sdot;&nbsp;일본&nbsp;&sdot;&nbsp;티베트 등에서 주로 발전했다.
 
 <h1 id="three-dharma-seals">삼법인</h1>
 
@@ -999,6 +1021,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	참마음의 동의어
 </h2>
 
+선불교禪佛敎에서 말하는 "참마음"의 동의어
+
 <ul>
 <li>
 이것
@@ -1096,6 +1120,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </li>
 </ul>
 
+참고 - <a href="/blog/PDT-Secrets-for-Mind-Cultivation/">수심결修心訣</a>
 
 <h1 id="ref">Reference</h1>
 
