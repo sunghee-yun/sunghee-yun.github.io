@@ -1,7 +1,13 @@
 ---
-layout: single
-title: ChatGPT answer - comparison of AI accelerators
-permalink: /ai-hardware
+title: Comparison of AI accelerators
+date: 01-Oct-2024
+last_modified_at: Thu Oct 10 16:40:38 PDT 2024
+tags:
+ - AI
+ - GPU
+ - NPU
+ - hardware
+ - technology
 toc: true
 toc_label: "ToC"
 toc_icon: "cog"
@@ -12,9 +18,17 @@ toc_sticky: true
 	<link rel="stylesheet" href="/resource/styles.css">
 </head>
 
-<h1 id="answer">answer</h1>
+<h1 id="question">
+	question
+</h1>
 
-Great focus! Here's a comparison of some of the major AI hardware solutions developed by big tech companies:
+Compare between AI accelerators
+
+<h1 id="answer">
+	answer
+</h1>
+
+Here's a comparison of some of the major AI hardware solutions developed by big tech companies:
 
 <h2 id="h100">
 	Nvidia H100 (Hopper)

@@ -75,7 +75,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
-<h1 id="biotech-medical-healthcare">Biotech &amp; medical &amp; healthcare</h1>
+<h1 id="biotech">Biotech &amp; medical &amp; healthcare</h1>
 
 <ul>
 <li>
@@ -83,6 +83,12 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동
 	</a>
 	@ 02-Oct-2024
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html">
+		AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다
+	</a>
+	@ 23-Sep-2024
 </li>
 <li>
 	<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">
@@ -382,7 +388,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
 	</a>
-	- 조선일보朝鮮日報
+	- 朝鮮日報
 	@ 20-Sep-2024 KST
 </li>
 </ul>
@@ -402,6 +408,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h2 id="ai-general">AI in general</h2>
 
 <ul>
+<li>
+	<a href="https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/">
+		Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community
+	</a>
+	- Nvidia Blog
+	@ 08-Oct-2024
+</li>
 <li>
 	<a href="https://www.deeplearning.ai/the-batch/issue-269/">
 		Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets
@@ -655,7 +668,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="/ai-hardware">
+	<a href="/PDT-ai-hardware">
 		comparison of AI accelerators
 	</a>
 </li>
@@ -670,6 +683,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		‘가우디’가 인텔 살릴까 &hellip; 최첨단 AI칩 신제품 출시, 엔비디아에 도전
 	</a>
 	@ 25-Sep-2024 KST
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">
+		김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁
+	</a>
+	- Economy Chosun
+	@ 29-Apr-2024 11:00 KST
 </li>
 </ul>
 
@@ -687,6 +707,20 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="semiconductor">Semiconductor</h1>
 
 <ul>
+<li>
+	<a href="https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz">
+		가오슝에 TSMC 공장 5개 건설
+	</a>
+	- 朝鮮日報
+	@ 09-Oct-2024 17:49 KST
+</li>
+<li>
+	<a href="https://www.digitimes.com/news/a20241007PD212/intel-qualcomm-acquisition-takeover-ceo.html?chid=12">
+		Intel's geopolitical significance dampens acquisition rumors
+	</a>
+	- DIGITimes Asia
+	@ 09-Oct-2024
+</li>
 <li>
 	<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">
 		5 Super Semiconductor Stocks to Buy Hand Over Fist Heading Into 2025
@@ -793,6 +827,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		Apple May Ditch Qualcomm's 5G Modems in Some 2025 iPhones, Report Says
 	</a>
 	@ 24-Jul-2024
+</li>
+<li>
+	<a href="https://www.joongang.co.kr/article/24097122">
+		2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.
+	</a>
+	- 중앙일보
+	@ 02-Jul-2021
 </li>
 </ul>
 
@@ -928,9 +969,17 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <ul>
 <li>
 	<a href="https://www.ttimes.co.kr/article/2024100818197739923">
-		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한
+		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다
 	</a>
+	- TTimes
 	@ 09-Oct-2024 06:00:01 KST
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html">
+		반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것
+	</a>
+	- Economy Chosun
+	@ 30-Sep-2024 11:00 KST
 </li>
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240927185509">
@@ -943,6 +992,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다
 	</a>
 	@ 23-Sep-2024
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">
+		김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁
+	</a>
+	- Economy Chosun
+	@ 29-Apr-2024 11:00 KST
 </li>
 </ul>
 
@@ -958,9 +1014,24 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
-	<a href="https://www.ttimes.co.kr/article/2024100818197739923">
-		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한
+	<a href="https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz">
+		가오슝에 TSMC 공장 5개 건설
 	</a>
+	- 朝鮮日報
+	@ 09-Oct-2024 17:49 KST
+</li>
+<li>
+	<a href="https://www.digitimes.com/news/a20241007PD212/intel-qualcomm-acquisition-takeover-ceo.html?chid=12">
+		Intel's geopolitical significance dampens acquisition rumors
+	</a>
+	- DIGITimes Asia
+	@ 09-Oct-2024
+</li>
+<li>
+	<a href="https://www.ttimes.co.kr/article/2024100818197739923">
+		SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다
+	</a>
+	- TTimes
 	@ 09-Oct-2024 06:00:01 KST
 </li>
 <li>
@@ -968,6 +1039,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		Pioneers in Neural Networks Win 2024 Nobel Prize in Physics
 	</a>
 	- Neuroscience News.com
+	@ 08-Oct-2024
+</li>
+<li>
+	<a href="https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/">
+		Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community
+	</a>
+	- Nvidia Blog
 	@ 08-Oct-2024
 </li>
 <li>
@@ -1163,6 +1241,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 		The End Of The SaaS Era: Rethinking Software’s Role In Business
 	</a>
 	@ 30-Sep-2024
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html">
+		반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것
+	</a>
+	- Economy Chosun
+	@ 30-Sep-2024 11:00 KST
 </li>
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240929024748">
@@ -1387,7 +1472,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/">
 		'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도
 	</a>
-	- 조선일보朝鮮日報
+	- 朝鮮日報
 	@ 20-Sep-2024 KST
 </li>
 <li>
@@ -1658,6 +1743,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	- DarkDaily
 	@ 31-May-2024
+</li>
+<li>
+	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">
+		김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁
+	</a>
+	- Economy Chosun
+	@ 29-Apr-2024 11:00 KST
 </li>
 <li>
 	<a href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/" id="lnn">

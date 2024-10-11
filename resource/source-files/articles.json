@@ -19,13 +19,13 @@
 		"date": "31-May-2024"
 	},
 	{
-		"category": ["biotech-medical-healthcare"],
+		"category": ["biotech"],
 		"url": "http://www.hitnews.co.kr/news/articleView.html?idxno=57889",
 		"title": "美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동",
 		"date": "02-Oct-2024"
 	},
 	{
-		"category": ["biotech-medical-healthcare"],
+		"category": ["biotech"],
 		"url": "https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#",
 		"title": "'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?",
 		"date": "19-Sep-2024",
@@ -56,7 +56,7 @@
 		]
 	},
 	{
-		"category": ["biotech-medical-healthcare"],
+		"category": ["biotech"],
 		"url": "https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&_hsmi=323659352",
 		"title": "AlphaProteo generates novel proteins for biology and health research",
 		"date": "05-Sep-2024",
@@ -279,7 +279,7 @@
 		"url": "https://www.chosun.com/economy/science/2024/09/20/6LQJQQPSSN5M2SLYI3YUHUKDH4/",
 		"title": "'알파고 아버지' 2024 노벨상 화학상 유력 후보로 거론 &hellip;&nbsp; 양자컴퓨터, 심혈관 치료제 연구자도",
 		"date": "20-Sep-2024 KST",
-		"press": "조선일보朝鮮日報"
+		"press": "朝鮮日報"
 	},
 	{
 		"category": ["ai", "impacts", "geo-political"],
@@ -287,6 +287,13 @@
 		"title": "Sixty countries endorse 'blueprint' for AI use in military; China opts out",
 		"press": "Reuters",
 		"date": "10-Sep-2024 4:06 AM PDT"
+	},
+	{
+		"category": ["ai", "general"],
+		"url": "https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/",
+		"title": "Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community",
+		"press": "Nvidia Blog",
+		"date": "08-Oct-2024"
 	},
 	{
 		"category": ["ai", "general"],
@@ -529,7 +536,7 @@
 	{
 		"category": ["ai", "hardware"],
 		"title": "comparison of AI accelerators",
-		"url": "/ai-hardware"
+		"url": "/PDT-ai-hardware"
 	},
 	{
 		"category": ["ai", "hardware"],
@@ -548,6 +555,20 @@
 		"url": "https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts",
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024"
+	},
+	{
+		"category": ["semiconductor"],
+		"url": "https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+		"title": "가오슝에 TSMC 공장 5개 건설",
+		"press": "朝鮮日報",
+		"date": "09-Oct-2024 17:49 KST"
+	},
+	{
+		"category": ["semiconductor"],
+		"url": "https://www.digitimes.com/news/a20241007PD212/intel-qualcomm-acquisition-takeover-ceo.html?chid=12",
+		"title": "Intel's geopolitical significance dampens acquisition rumors",
+		"press": "DIGITimes Asia",
+		"date": "09-Oct-2024"
 	},
 	{
 		"category": ["semiconductor"],
@@ -737,20 +758,35 @@
 		"date": "02-Oct-2024"
 	},
 	{
-		"category": ["people", "prof-sangkyun-cha"],
+		"category": [["people", "prof-sangkyun-cha"], ["semiconductor"]],
 		"url": "https://www.joongang.co.kr/article/24097122",
 		"title": "2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.",
 		"press": "중앙일보",
 		"date": "02-Jul-2021"
 	},
 	{
-		"category": ["people", "prof-yongsuk-kim"],
-		"url": "https://www.ttimes.co.kr/article/2024100818197739923",
-		"title": "SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한",
-		"date": "09-Oct-2024 06:00:01 KST"
+		"category": [["people", "prof-yongsuk-kim"], ["ai", "hardware"]],
+		"url": "https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html",
+		"title": "김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁",
+		"date": "29-Apr-2024 11:00 KST",
+		"press": "Economy Chosun"
 	},
 	{
 		"category": ["people", "prof-yongsuk-kim"],
+		"url": "https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html",
+		"title": "반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것",
+		"date": "30-Sep-2024 11:00 KST",
+		"press": "Economy Chosun"
+	},
+	{
+		"category": ["people", "prof-yongsuk-kim"],
+		"url": "https://www.ttimes.co.kr/article/2024100818197739923",
+		"title": "SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다",
+		"date": "09-Oct-2024 06:00:01 KST",
+		"press": "TTimes"
+	},
+	{
+		"category": [["people", "prof-yongsuk-kim"], ["biotech"]],
 		"url": "https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html",
 		"title": "AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다",
 		"date": "23-Sep-2024"
