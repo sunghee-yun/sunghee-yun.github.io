@@ -1,7 +1,7 @@
 ---
 title: Tao Te Ching - 도덕경道德經
 date: 2024-09-28
-last_modified_at: Sun Sep 29 01:40:04 PDT 2024
+last_modified_at: Fri Oct 11 02:36:52 PDT 2024
 categories:
  - blog
 tags:
@@ -4920,7 +4920,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	장공발
 </span>
 <span class="chinese-korean-translation">
-	땅은 
+	땅은
 	<br>
 	그것을 편안하게 하는 것 없으면
 	<br>
@@ -4936,7 +4936,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	장공헐
 </span>
 <span class="chinese-korean-translation">
-	신은 
+	신은
 	<br>
 	그것을 영묘하게 하는 것 없으면
 	<br>
@@ -4952,7 +4952,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	장공갈
 </span>
 <span class="chinese-korean-translation">
-	골짜기는 
+	골짜기는
 	<br>
 	그것을 가득하게 하는 것 없으면
 	<br>
@@ -4968,7 +4968,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	장공멸
 </span>
 <span class="chinese-korean-translation">
-	온갖 것 
+	온갖 것
 	<br>
 	그것을 자라게 하는 것 없으면
 	<br>
@@ -4984,7 +4984,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	장공궐
 </span>
 <span class="chinese-korean-translation">
-	왕과 제후는 
+	왕과 제후는
 	<br>
 	그들을 어른되게 하는 것 없으면
 	<br>
