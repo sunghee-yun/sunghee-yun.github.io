@@ -28,7 +28,8 @@ class ArticleCollection:
         self.all_articles: list[Article] = list()
 
     def add_article(self, article: Article) -> None:
-        self.cat_articles_dict[article.category].append(article)
+        for category in article.categories:
+            self.cat_articles_dict[category].append(article)
         self.all_articles.append(article)
 
     def get_html_body(self, config: list[list], all_articles_str: str, all_articles_id: str) -> str:

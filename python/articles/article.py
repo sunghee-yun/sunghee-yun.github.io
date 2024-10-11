@@ -11,7 +11,7 @@ class Article:
         self,
         **kwargs,
     ) -> None:
-        self.category: tuple[str, ...] = tuple(kwargs.pop("category"))
+        self._category: list[str] | list[list[str]] = kwargs.pop("category")
         self.title: str = kwargs.pop("title")
         self.url: str = kwargs.pop("url")
         self.id_: str | None = kwargs.pop("id", None)
@@ -28,6 +28,12 @@ class Article:
         self.postfix: list[str] | None = kwargs.pop("postfix", None)
 
         assert len(kwargs) == 0, kwargs
+
+        self.categories: list[tuple[str, ...]] = (
+            [tuple(category) for category in self._category]
+            if isinstance(self._category[0], list)
+            else [tuple(self._category)]
+        )
 
     @property
     def html_str(self) -> str:
