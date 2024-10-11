@@ -5014,44 +5014,174 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="45%" src="/assets/images/lao-tzu/cherry-blossom.png">
+<img width="55%" src="/assets/images/lao-tzu/cherry-blossom.png">
+
+<h2 id="41">
+	제41장
+	-
+	문도聞道
+</h2>
+
+<blockquote>
+	큰 모양은 형체가 없어서
+	<br>
+	아는 사람이 드물다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	上士聞道
+	勤而行之
+<span class="chinese-korean-transliteration">
+	상사문도
+	근이행지
+</span>
+<span class="chinese-korean-translation">
+	뛰어난 사람은
+	<br>
+	도에 대해 들으면 힘써 행하려 하고
+</span>
+</p>
+
+<p>
+	中士聞
+	若存若亡
+<span class="chinese-korean-transliteration">
+	중사문도
+	약존약망
+</span>
+<span class="chinese-korean-translation">
+	어중간한 사람은
+	<br>
+	도에 대해 들으면 이런가 저런가 망설이고
+</span>
+</p>
+
+<p>
+	下士聞道
+	大笑之
+<span class="chinese-korean-transliteration">
+	하사문도
+	대소지
+</span>
+<span class="chinese-korean-translation">
+	못난 사람은<br>
+	도에 대해 들으면 크게 웃는다.
+</span>
+</p>
+
+<p>
+	不笑不足以爲道
+<span class="chinese-korean-transliteration">
+	불소불족이위도
+</span>
+<span class="chinese-korean-translation">
+	웃음거리가 되지 않으면 도라고 할 수가 없다.
+</span>
+</p>
+
+<p>
+	故建言有之
+	明道若昧
+	進道若退
+	夷道若纇
+	上德若谷
+<span class="chinese-korean-transliteration">
+	고건언유지
+	명도약매
+	진도약퇴
+	이도약뢰
+	상덕약곡
+</span>
+<span class="chinese-korean-translation">
+	그러므로 예부터 내려오는 말에 이르기를
+	<br>
+	밝은 도는 어두운 것같아 보이고
+	<br>
+	앞으로 나아가는 도는 뒤로 물러가는 것같아 보이고
+	<br>
+	평탄한 도는 울퉁불퉁한 것같이 보이고
+	<br>
+	제일 가는 덕은 골짜기같이 보이고
+</span>
+</p>
+
+<p>
+	大白若辱
+	廣德若不足
+	建德若偸
+	質眞若渝
+<span class="chinese-korean-transliteration">
+	대백약욕
+	광덕약불족
+	건덕약투
+	질진약투
+</span>
+<span class="chinese-korean-translation">
+	희디흰 것은 더러운 것같이 보이고
+	<br>
+	넓은 덕은 모자라는 것같이 보이고
+	<br>
+	굳은 덕은 보잘 것 없는 것같이 보이고
+	<br>
+	참된 실재는 변하는 것같이 보이고
+</span>
+</p>
+
+<p>
+	大方無隅
+	大器晩成
+	大音希聲
+	大象無形
+<span class="chinese-korean-transliteration">
+	대방무우
+	대기만성
+	대음희성
+	대상무형
+</span>
+<span class="chinese-korean-translation">
+	큰 모퉁이에는 모퉁이가 없고
+	<br>
+	큰 그릇은 더디 이루어지고
+	<br>
+	큰 소리는 거의 들리지 않으며
+	<br>
+	큰 모양에는 형체가 없다고 했다.
+</span>
+</p>
+
+<p>
+	道隱無名
+<span class="chinese-korean-transliteration">
+	도은무명
+</span>
+<span class="chinese-korean-translation">
+	도는 숨어 있어서
+	<br>
+	이름도 없는 것
+</span>
+</p>
+</div>
+
+<img width="70%" src="/assets/images/lao-tzu/city-people.png">
+
+<div class="translation-container">
+<p>
+	夫唯道
+	善貸且成
+<span class="chinese-korean-transliteration">
+	부유도
+	선대차성
+</span>
+<span class="chinese-korean-translation">
+	그러나 도만이
+	<br>
+	온갖 것을 훌륭히 가꾸고 완성시켜 준다.
+</span>
+</p>
+</div>
 
 <!--
-41. 聞道(문도)
-
-
-
-큰 모양은 형체가 없어서
-
-아는 사람이 드물다.
-
-
-上士聞道(상사문도) : 뛰어난 사람은 도에 대해 들으면
-勤而行之(근이행지) : 힘써 행하려 하고
-中士聞道(중사문도) : 어중간한 사람은 도에 대해 들으면
-若存若亡(약존약망) : 이런가 저런가 망설이고
-下士聞道(하사문도) : 못난 사람은 도에 대해 들으면
-大笑之(대소지) : 크게 웃는다.
-不笑不足以爲道(불소불족이위도) : 웃음거리가 되지 않으면 도라고 할 수가 없다.
-故建言有之(고건언유지) : 그러므로 예부터 내려오는 말에 이르기를
-明道若昧(명도약매) : <밝은 도는 어두운 것같아 보이고
-進道若退(진도약퇴) : 앞으로 나아가는 도는 뒤로 물러가는 것같아 보이고
-夷道若纇(이도약뢰) : 평탄한 도는 울퉁불퉁한 것같이 보이고
-上德若谷(상덕약곡) : 제일 가는 덕은 골짜기같이 보이고
-大白若辱(대백약욕) : 희디흰 것은 더러운 것같이 보이고
-廣德若不足(광덕약불족) : 넓은 덕은 모자라는 것같이 보이고
-建德若偸(건덕약투) : 굳은 덕은 보잘 것 없는 것같이 보이고
-質眞若渝(질진약투) : 참된 실재는 변하는 것같이 보이고
-大方無隅(대방무우) : 큰 모퉁이에는 모퉁이가 없고
-大器晩成(대기만성) : 큰 그릇은 더디 이루어지고
-大音希聲(대음희성) : 큰 소리는 거의 들리지 않으며
-大象無形(대상무형) : 큰 모양에는 형체가 없다>고 했다.
-道隱無名(도은무명) : 도는 숨어 있어서 이름도 없는 것,
-夫唯道(부유도) : 그러나 도만이
-善貸且成(선대차성) : 온갖 것을 훌륭히 가꾸고 완성시켜 준다.
-
-
-
 42. 沖道(충도)
 
 
