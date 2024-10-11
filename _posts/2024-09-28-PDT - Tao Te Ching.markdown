@@ -65,8 +65,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <a href="#39">39</a>
 <a href="#40">40</a>
 <a href="#41">41</a>
-<!--a href="#42">42</a>
-<a href="#43">43</a>
+<a href="#42">42</a>
+<!--a href="#43">43</a>
 <a href="#44">44</a>
 <a href="#45">45</a>
 <a href="#46">46</a>
@@ -5266,32 +5266,123 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="42">
+	제42장
+	-
+	충도沖道
+</h2>
+
+<blockquote>
+	사납고 포악하기만 한 사람은 제명에 죽지 못한다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	道生一
+	一生二
+	二生三
+	三生萬物
+<span class="chinese-korean-transliteration">
+	도생일
+	일생이
+	이생삼
+	삼생만물
+</span>
+<span class="chinese-korean-translation">
+	도가 "하나"를 낳고
+	<br>
+	"하나"가 "둘"을 낳고
+	<br>
+	"둘"이 "셋"을 낳고
+	<br>
+	"셋"이 만물萬物을 낳는다.
+</span>
+</p>
+
+<p>
+	萬物負陰而抱陽
+<span class="chinese-korean-transliteration">
+	만물부음이포양
+</span>
+<span class="chinese-korean-translation">
+	만물은 "음"을 등에 업고 "양"을 가슴에 안았다.
+</span>
+</p>
+
+<p>
+	沖氣以爲和
+<span class="chinese-korean-transliteration">
+	충기이위화
+</span>
+<span class="chinese-korean-translation">
+	"기"가 서로 합하여 조화를 이룬다.
+</span>
+</p>
+
+<p>
+	人之所惡
+	唯孤寡不穀
+	而王公以爲稱
+<span class="chinese-korean-transliteration">
+	인지소악
+	유고과불곡
+	이왕공이위칭
+</span>
+<span class="chinese-korean-translation">
+	사람들이 싫어하는 것은
+	<br>
+	"고아 같은 사람" "짝잃은 사람" "보잘 것 없는 사람"이지만
+	<br>
+	이것은 임금이나 공작이 자기를 가리키는 이름이다.
+</span>
+</p>
+
+<p>
+	故物或損之而益
+	或益之而
+<span class="chinese-korean-transliteration">
+	고물혹손지이익
+	혹익지이손
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	잃음으로 얻기도 하고
+	<br>
+	얻음으로 잃는 일도 있다.
+</span>
+</p>
+
+<p>
+	人之所敎
+	我亦敎之
+<span class="chinese-korean-transliteration">
+	인지소교
+	아역교지
+</span>
+<span class="chinese-korean-translation">
+	사람들이 가르치는 것
+	<br>
+	나도 가르친다.
+</span>
+</p>
+
+<p>
+	强梁者不得其死
+	吾將以爲敎父
+<span class="chinese-korean-transliteration">
+	강량자불득기사
+	오장이위교부
+</span>
+<span class="chinese-korean-translation">
+	사납고 포악한 사람은 제명에 죽지 못한다고 하느데
+	<br>
+	나도 이것을 나의 가르침의 으뜸으로 삼으려 한다.
+</span>
+</p>
+</div>
+
 <!--
-42. 沖道(충도)
-
-
-
-사납고 포악하기만 한 사람은 제명에 죽지 못한다.
-
-
-道生一(도생일) : 도가 <하나>를 낳고
-一生二(일생이) : <하나>가 <둘>을 낳고
-二生三(이생삼) : <둘>이 <셋>을 낳고
-三生萬物(삼생만물) : <셋>이 만물을 낳는다.
-萬物負陰而抱陽(만물부음이포양) : 만물은 <음>을 등에 업고 <양>을 가슴에 안았다.
-沖氣以爲和(충기이위화) : <기>가 서로 합하여 조화를 이룬다.
-人之所惡(인지소악) : 사람들이 싫어하는 것은
-唯孤寡不穀(유고과불곡) : <고아 같은 사람>, <짝잃은 사람>, <보잘 것 없는 사람>이지만
-而王公以爲稱(이왕공이위칭) : 이것은 임금이나 공작이 자기를 가리키는 이름이다.
-故物或損之而益(고물혹손지이익) : 그러므로 잃음으로 얻기도 하고
-或益之而損(혹익지이손) : 얻음으로 잃는 일도 있다.
-人之所敎(인지소교) : 사람들이 가르치는 것
-我亦敎之(아역교지) : 나도 가르친다.
-强梁者不得其死(강량자불득기사) : 사납고 포악한 사람은 제명에 죽지 못한다고 하느데,
-吾將以爲敎父(오장이위교부) : 나도 이것을 나의 가르침의 으뜸으로 삼으려 한다.
-
-
-
 43. 至柔(지유)
 
 
