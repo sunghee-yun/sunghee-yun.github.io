@@ -1,7 +1,7 @@
 ---
 title: Tao Te Ching - 도덕경道德經
 date: 2024-09-28
-last_modified_at: Fri Oct 11 02:36:52 PDT 2024
+last_modified_at: Sun Oct 13 03:01:14 PDT 2024
 categories:
  - blog
 tags:
@@ -66,9 +66,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <a href="#40">40</a>
 <a href="#41">41</a>
 <a href="#42">42</a>
-<!--a href="#43">43</a>
+<a href="#43">43</a>
 <a href="#44">44</a>
-<a href="#45">45</a>
+<!--a href="#45">45</a>
 <a href="#46">46</a>
 <a href="#47">47</a>
 <a href="#48">48</a>
@@ -5352,7 +5352,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	얻음으로 잃는 일도 있다.
 </span>
 </p>
+</div>
 
+<img width="60%" src="/assets/images/lao-tzu/road.jpeg">
+
+<div class="translation-container">
 <p>
 	人之所敎
 	我亦敎之
@@ -5382,52 +5386,173 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="43">
+	제43장
+	-
+	지유至柔
+</h2>
+
+<blockquote>
+	부드러운 것이 단단한 것을 이기는 법이다
+</blockquote>
+
+<div class="translation-container">
+<p>
+	天下之至柔
+	馳騁天下之至堅
+<span class="chinese-korean-transliteration">
+	천하지지유
+	치빙천하지지견
+</span>
+<span class="chinese-korean-translation">
+	세상에서 그지없이 부드러운 것이
+	<br>
+	세상에서 더할 수 없이 단단한 것 속으로 달려들어갈 수 있다.
+</span>
+</p>
+
+<p>
+	無有入無間
+<span class="chinese-korean-transliteration">
+	무유입무간
+</span>
+<span class="chinese-korean-translation">
+	그래서
+	<br>
+	"없음"과 "있음"이
+	<br>
+	틈이 없는 곳에 함께 들어가 있다.
+</span>
+</p>
+
+<p>
+	吾是以知無爲之有益
+<span class="chinese-korean-transliteration">
+	오시이지무위지유익
+</span>
+<span class="chinese-korean-translation">
+	그러기에 나는 "억지로 하지 않음"의 유익을 안다.
+</span>
+</p>
+</div>
+
+<img width="50%" src="/assets/images/lao-tzu/kitty.png">
+
+<div class="translation-container">
+<p>
+	不言之敎
+	無爲之益
+	天下希及之
+<span class="chinese-korean-transliteration">
+	불언지교
+	무위지익
+	천하희급지
+</span>
+<span class="chinese-korean-translation">
+	말없는 가르침
+	<br>
+	무위의 유익에
+	<br>
+	미칠 만한 것이 세상에 드물다.
+</span>
+</p>
+</div>
+
+<h2 id="44">
+	제44장
+	-
+	지지知止
+</h2>
+
+<blockquote>
+	만족할 줄 알면 욕되지 않고
+	<br>
+	그칠 줄 알면 위태롭지 않다
+</blockquote>
+
+<div class="transliteration-container">
+<p>
+	名與身孰親
+<span class="chinese-korean-transliteration">
+	명여신숙친
+</span>
+<span class="chinese-korean-translation">
+	명성과 내 몸 어느 것이 더 귀한가?
+</span>
+</p>
+
+<p>
+	身與貨孰多
+<span class="chinese-korean-transliteration">
+	신여화숙다
+</span>
+<span class="chinese-korean-translation">
+	내 몸과 재산 어느 것이 더 중한가?
+</span>
+</p>
+
+<p>
+	得與亡孰病
+<span class="chinese-korean-transliteration">
+	득여망숙병
+</span>
+<span class="chinese-korean-translation">
+	얻음과 잃음 어느 것이 더 큰 관심거리인가?
+</span>
+</p>
+</div>
+
+<img width="50%" src="/assets/images/lao-tzu/table-fruits-plant-window.png">
+
+<div class="transliteration-container">
+<p>
+	是故甚愛必大費
+	多藏必厚亡
+<span class="chinese-korean-transliteration">
+	시고심애필대비
+	다장필후망
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	무엇이나 지나치게 좋아하면 그만큼 낭비가 크고
+	<br>
+	너무 많이 쌓아 두면 그만큼 크게 잃게 된다.
+</span>
+</p>
+
+<p>
+	知足不辱
+	知止不殆
+<span class="chinese-korean-transliteration">
+	지족불욕
+	지지불태
+</span>
+<span class="chinese-korean-translation">
+	만족할 줄 아는 사람은 욕됨을 당하지 않고
+	<br>
+	적당할 때 그칠 줄 아는 사람은 위태로움을 당하지 않는다.
+</span>
+</p>
+
+<p>
+	可以長久
+<span class="chinese-korean-transliteration">
+	가이장구
+</span>
+<span class="chinese-korean-translation">
+	그리하여
+	<br>
+	영원한 삶을 살게 되는 것이다.
+</span>
+</p>
+</div>
+
 <!--
-43. 至柔(지유)
-
-
-
-부드러운 것이 단단한 것을 이기는 법이다.
-
-
-天下之至柔(천하지지유) : 세상에서 그지없이 부드러운 것이
-馳騁天下之至堅(치빙천하지지견) : 세상에서 더할 수 없이 단단한 것 속으로 달려들어갈 수 있다.
-無有入無間(무유입무간) : 그래서 <없음>과 <있음>이 틈이 없는 곳에 함께 들어가 있다.
-吾是以知無爲之有益(오시이지무위지유익) : 그러기에 나는 <억지로 하지 않음>의 유익을 안다.
-不言之敎(불언지교) : 말없는 가르침,
-無爲之益(무위지익) : 무위의 유익에,
-天下希及之(천하희급지) : 미칠 만한 것이 세상에 드물다.
-
-
-
-44. 知止(지지)
-
-
-
-만족할 줄 알면 욕되지 않고,
-
-그칠 줄 알면 위태롭지 않다.
-
-
-名與身孰親(명여신숙친) : 명성과 내 몸 어느 것이 더 귀한가?
-身與貨孰多(신여화숙다) : 내 몸과 재산 어느 것이 더 중한가?
-得與亡孰病(득여망숙병) : 얻음과 잃음 어느 것이 더 큰 관심거리인가?
-是故甚愛必大費(시고심애필대비) : 그러므로 무엇이나 지나치게 좋아하면 그만큼 낭비가 크고
-多藏必厚亡(다장필후망) : 너무 많이 쌓아 두면 그만큼 크게 잃게 된다.
-知足不辱(지족불욕) : 만족할 줄 아는 사람은 욕됨을 당하지 않고
-知止不殆(지지불태) : 적당할 때 그칠 줄 아는 사람은 위태로움을 당하지 않는다.
-可以長久(가이장구) : 그리하여 영원한 삶을 살게 되는 것이다.
-
-
-
 45. 淸靜(청정)
 
-
-
 모자란 것 같은가?
-
 그것이 크게 성공한 것이다.
-
 
 大成若缺(대성약결) : 완전히 이루어진 것은 모자란 듯하나
 其用不弊(기용불폐) : 그러나 그 쓰임에는 다함이 없다.
