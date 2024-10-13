@@ -63,7 +63,7 @@ according to the above analysis, in the coming years
 data may prove even more crucial than today's impressive large language models.
 The growing importance of data in shaping AI capabilities will be explored further in upcoming posts.
 
-<h1 id="lnn">Liquid neural networks (LNN)</h1>
+<h1 id="lnn">Liquid neural networks (LNNs)</h1>
 
 This brings me to a breakthrough that could address the very issues I’ve been grappling with;
 I accidentally stumbled upon this article a few days ago -
