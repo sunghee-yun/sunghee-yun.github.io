@@ -1473,7 +1473,11 @@ Main text
 	"아니옵니다, 세존이시여. 왜냐하면 <font class="emph">불국토佛國土를 장엄莊嚴한 것은 곧 장엄莊嚴이 아니옵고 이름하여 장엄莊嚴이라 하옵니다.</font>"
 </span>
 </p>
+</div>
 
+<img width="55%" src="/assets/images/buddhism/flowers.png">
+
+<div class="translation-container">
 <p>
 	是故 須菩提 諸菩薩摩訶薩 應如 是生淸淨心 不應住色生心 不應住聲香味觸法生心
 <span class="chinese-korean-transliteration">
