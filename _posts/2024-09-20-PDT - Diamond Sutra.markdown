@@ -159,7 +159,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </div>
 
 <div class="text-highlight">
-	<a href="#see-tathagata-right-away"><font class="emph">凡所有相 皆是虛妄 若見諸相 非相 卽見如來</font></a>
+	<a href="#see-tathagata-right-away" id="REV-see-tathagata-right-away"><font class="emph">凡所有相 皆是虛妄 若見諸相 非相 卽見如來</font></a>
 	<br>
 	범소유상 개시허망 약견제상 비상 즉견여래
 <span class="chinese-korean-translation">
@@ -305,7 +305,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </div>
 
 <div class="text-highlight">
-	<a href="#free-your-mind-dwell-on-nowhere">
+	<a id="REV-free-your-mind-dwell-on-nowhere" href="#free-your-mind-dwell-on-nowhere">
 	<font class="emph">
 	應無所住 而生其心
 	</font>
@@ -891,7 +891,10 @@ Main text
 </p>
 
 <p>
-	佛告 須菩提 <font class="emph" id="see-tathagata-right-away">凡所有相 皆是虛妄 若見諸相 非相 卽見如來</font>
+	佛告 須菩提
+	<a href="#REV-see-tathagata-right-away" id="see-tathagata-right-away"><font class="emph">
+	凡所有相 皆是虛妄 若見諸相 非相 卽見如來
+	</font></a>
 <span class="chinese-korean-transliteration">
 	불고 수보리 <font class="emph">범소유상 개시허망 약견제상 비상 즉견여래</font>
 </span>
@@ -1484,9 +1487,9 @@ Main text
 </p>
 
 <p>
-	<font class="emph" id="free-your-mind-dwell-on-nowhere">
+	<a href="#REV-free-your-mind-dwell-on-nowhere" id="free-your-mind-dwell-on-nowhere"><font class="emph">
 	應無所住 而生其心
-	</font>
+	</font></a>
 <span class="chinese-korean-transliteration">
 	<font class="emph">
 	응무소주 이생기심
