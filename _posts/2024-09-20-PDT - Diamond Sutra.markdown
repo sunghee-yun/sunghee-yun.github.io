@@ -416,7 +416,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </div>
 
 <div class="text-highlight">
-	<a href="#stillness-without-form">
+	<a href="#stillness-without-form" id="REV-stillness-without-form">
 	<font class="emph">不取於相 如如不動</font>
 	</a>
 	<br>
@@ -3873,7 +3873,7 @@ Main text
 </p>
 
 <p>
-	云何爲人演說 <font class="emph" id="stillness-without-form">不取於相 如如不動</font>
+	云何爲人演說 <a href="#REV-stillness-without-form" id="stillness-without-form"><font class="emph">不取於相 如如不動</font></a>
 <span class="chinese-korean-transliteration">
 	운하위인연설 <font class="emph">불취어상 여여부동</font>
 </span>
