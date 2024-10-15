@@ -68,9 +68,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <a href="#42">42</a>
 <a href="#43">43</a>
 <a href="#44">44</a>
-<!--a href="#45">45</a>
+<a href="#45">45</a>
 <a href="#46">46</a>
-<a href="#47">47</a>
+<!--a href="#47">47</a>
 <a href="#48">48</a>
 <a href="#49">49</a>
 <a href="#50">50</a>
@@ -605,7 +605,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<br>
 	그것이 영원한 것이고 진실한 것으로 잘못알면
 	<br>
-	인생사가 고통이라네
+	인생사가 고통이라네.
 </blockquote>
 
 
@@ -691,7 +691,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	어떤 것을 좋다고 하면 다른 것은 나쁜 것이 되는법이라
+	어떤 것을 좋다고 하면 다른 것은 나쁜 것이 되는법이라.
 </blockquote>
 
 <div class="translation-container">
@@ -825,7 +825,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	지금 있는 것 말고는 높혀 받들 것이 없다네
+	지금 있는 것 말고는 높혀 받들 것이 없다네.
 </blockquote>
 
 <div class="translation-container">
@@ -927,7 +927,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	진리는 채울 것이 따로 없다네
+	진리는 채울 것이 따로 없다네.
 </blockquote>
 
 <div class="translation-container">
@@ -998,7 +998,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	어질다 어질지 않다 말로 할 수 없다네
+	어질다 어질지 않다 말로 할 수 없다네.
 </blockquote>
 
 <div class="translation-container">
@@ -1075,7 +1075,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	이것이 무한한 세계를 낳는다
+	이것이 무한한 세계를 낳는다.
 </blockquote>
 
 <div class="translation-container">
@@ -1119,7 +1119,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	"나"라는 생각이 진정으로 진실할까?
 	<br>
-	그 생각이 없어도 나는 숨을 쉰다
+	그 생각이 없어도 나는 숨을 쉰다.
 </blockquote>
 
 <div class="translation-container">
@@ -1191,7 +1191,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	물은 현실과 다투지 않는다
+	물은 현실과 다투지 않는다.
 </blockquote>
 
 <div class="translation-container">
@@ -1504,7 +1504,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	비어있어야 쓸 수 있다
+	비어있어야 쓸 수 있다.
 </blockquote>
 
 <div class="translation-container">
@@ -1588,7 +1588,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	밖을 보지 말고 안을 살피라
+	밖을 보지 말고 안을 살피라.
 </blockquote>
 
 <div class="translation-container">
@@ -1755,7 +1755,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	잡으려해도 잡히지 않는 것
 	<br>
 	<br>
-	결국 아무 것도 없는 것이라
+	결국 아무 것도 없는 것이라.
 </blockquote>
 
 <div class="translation-container">
@@ -1897,7 +1897,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	현자는 흙탕물이 맑아질 때까지 기다릴 줄 안다
+	현자는 흙탕물이 맑아질 때까지 기다릴 줄 안다.
 </blockquote>
 
 <div class="translation-container">
@@ -2237,7 +2237,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	선함도 경건함도 도가 잊혀질 때 나타나는 것
+	선함도 경건함도 도가 잊혀질 때 나타나는 것!
 </blockquote>
 
 <div class="translation-container">
@@ -2301,7 +2301,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	나의 생각 나의 지혜 나의 거룩함을 버리면
 	<br>
-	백배나 더 행복할 것이다
+	백배나 더 행복할 것이다.
 </blockquote>
 
 <div class="translation-container">
@@ -2396,7 +2396,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	나 홀로 근심걱정없이 하늘과 땅의 젖을 먹고 산다
+	나 홀로 근심걱정없이 하늘과 땅의 젖을 먹고 산다.
 </blockquote>
 
 <div class="translation-container">
@@ -2570,7 +2570,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	도는 황황홀홀하다
+	도는 황황홀홀하다.
 </blockquote>
 
 <div class="translation-container">
@@ -2709,7 +2709,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	모두가 하나다!
 	<br>
-	나도 없고 너도 없다
+	나도 없고 너도 없다.
 </blockquote>
 
 <div class="translation-container">
@@ -3041,7 +3041,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	도라는 것은 빛갈도 소리도 형체도 없다
+	도라는 것은 빛갈도 소리도 형체도 없다.
 </blockquote>
 
 <div class="translation-container">
@@ -3205,7 +3205,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	조급하면 잃는다
+	조급하면 잃는다.
 </blockquote>
 
 <div class="translation-container">
@@ -3291,7 +3291,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	성인은 아무도 버리지 않는다
+	성인은 아무도 버리지 않는다.
 </blockquote>
 
 <div class="translation-container">
@@ -3571,7 +3571,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	세상은 신기한 그릇이니
 	<br>
-	거기에다가 뭣을 하겠다고 하지 말라
+	거기에다가 뭣을 하겠다고 하지 말라.
 </blockquote>
 
 <div class="translation-container">
@@ -3687,9 +3687,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	모든 일을 억지로 힘으로 지배하려는 것은 도가 아니다
+	모든 일을 억지로 힘으로 지배하려는 것은 도가 아니다.
 	<br>
-	도가 아닌 것은 오래가지 못한다
+	도가 아닌 것은 오래가지 못한다.
 </blockquote>
 
 <div class="translation-container">
@@ -3811,7 +3811,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	자기 현실에 무기를 가지고 덤비는 것은 두렵다는 뜻이다
+	자기 현실에 무기를 가지고 덤비는 것은 두렵다는 뜻이다.
 </blockquote>
 
 <div class="translation-container">
@@ -3991,7 +3991,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	멈출줄 알면 위태롭지 않다
+	멈출줄 알면 위태롭지 않다.
 </blockquote>
 
 <div class="translation-container">
@@ -4103,11 +4103,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	자기를 아는 자는 밝은 사람이요
+	자기를 아는 자는 밝은 사람이요.
 	<br>
 	자기를 이기는 자가 진정한 승자이며
 	<br>
-	스스로 만족할 줄 아는 자가 진정한 부자이다
+	스스로 만족할 줄 아는 자가 진정한 부자이다.
 </blockquote>
 
 <div class="translation-container">
@@ -4324,7 +4324,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	<br>
 	들어도 들리지 않지만
 	<br>
-	써도써도 다함이 없는 것이 도다
+	써도써도 다함이 없는 것이 도다.
 </blockquote>
 
 <div class="translation-container">
@@ -4412,7 +4412,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	마음에 생각을 없애려 애쓰지 말라
 	<br>
-	생각도 크면 자연히 사라지는 것이다
+	생각도 크면 자연히 사라지는 것이다.
 </blockquote>
 
 <div class="translation-container">
@@ -4526,7 +4526,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	마음에 욕심이 없이 고요하면
 	<br>
-	세상이 태평할 것이다
+	세상이 태평할 것이다.
 </blockquote>
 
 <div class="translation-container">
@@ -4610,7 +4610,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	자신에게도 억지로 일을 시키지 말라
+	자신에게도 억지로 일을 시키지 말라.
 </blockquote>
 
 <div class="translation-container">
@@ -5066,7 +5066,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	모든 것을 돌아가게 함이 도道의 움직임이다
+	모든 것을 돌아가게 함이 도道의 움직임이다.
 </blockquote>
 
 <div class="translation-container">
@@ -5110,7 +5110,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	큰 모양은 형체가 없어서
 	<br>
-	아는 사람이 드물다
+	아는 사람이 드물다.
 </blockquote>
 
 <div class="translation-container">
@@ -5273,7 +5273,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	사납고 포악하기만 한 사람은 제명에 죽지 못한다
+	사납고 포악하기만 한 사람은 제명에 죽지 못한다.
 </blockquote>
 
 <div class="translation-container">
@@ -5354,7 +5354,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/road.jpeg">
+<img width="80%" src="/assets/images/lao-tzu/road.jpeg">
 
 <div class="translation-container">
 <p>
@@ -5393,7 +5393,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </h2>
 
 <blockquote>
-	부드러운 것이 단단한 것을 이기는 법이다
+	부드러운 것이 단단한 것을 이기는 법이다.
 </blockquote>
 
 <div class="translation-container">
@@ -5467,10 +5467,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <blockquote>
 	만족할 줄 알면 욕되지 않고
 	<br>
-	그칠 줄 알면 위태롭지 않다
+	그칠 줄 알면 위태롭지 않다.
 </blockquote>
 
-<div class="transliteration-container">
+<div class="translation-container">
 <p>
 	名與身孰親
 <span class="chinese-korean-transliteration">
@@ -5504,7 +5504,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <img width="50%" src="/assets/images/lao-tzu/table-fruits-plant-window.png">
 
-<div class="transliteration-container">
+<div class="translation-container">
 <p>
 	是故甚愛必大費
 	多藏必厚亡
@@ -5548,44 +5548,177 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="45">
+	제45장
+	-
+	청정淸靜
+</h2>
+
+<blockquote>
+	모자란 것 같은가?
+	<br>
+	그것이 크게 성공한 것이다.
+</blockquote>
+
+<div class="translation-container">
+<p>
+	大成若缺
+	其用不弊
+<span class="chinese-korean-transliteration">
+	대성약결
+	기용불폐
+</span>
+<span class="chinese-korean-translation">
+	완전히 이루어진 것은 모자란 듯하나
+	<br>
+	그러나 그 쓰임에는 다함이 없다.
+</span>
+</p>
+
+<p>
+	大盈若沖
+	其用不窮
+<span class="chinese-korean-transliteration">
+	대영약충
+	기용불궁
+</span>
+<span class="chinese-korean-translation">
+	완전히 가득 찬 것은 빈 듯하나
+	<br>
+	그러나 그 쓰임에는 끝이 없다.
+</span>
+</p>
+
+<p>
+	大直若屈
+	大巧若拙
+	大辯若訥
+<span class="chinese-korean-transliteration">
+	대직약굴
+	대교약졸
+	대변약눌
+</span>
+<span class="chinese-korean-translation">
+	완전히 곧은 것은 굽은 듯하고
+	<br>
+	완전한 솜씨는 서툴게 보이는 것이고
+	<br>
+	완전한 웅변은 눌변訥辯으로 보인다.
+</span>
+</p>
+</div>
+
+<img width="45%" src="/assets/images/lao-tzu/girl-and-pond.png">
+
+<div class="translation-container">
+<p>
+	靜勝躁
+	寒勝熱
+<span class="chinese-korean-transliteration">
+	정숭조
+	한승열
+</span>
+<span class="chinese-korean-translation">
+	고요함이 조급함을 이기고
+	<br>
+	찬것이 더움을 이긴다.
+</span>
+</p>
+
+<p>
+	淸靜爲天下正
+<span class="chinese-korean-transliteration">
+	청정위천하정
+</span>
+<span class="chinese-korean-translation">
+	맑고 고요함 이것이 세상의 표준이다.
+</span>
+</p>
+</div>
+
+<h2 id="46">
+	제46장
+	-
+	지족知足
+</h2>
+
+<blockquote>
+	욕심보다 더 큰 허물이 없고
+	<br>
+	지족보다 더 큰 만족은 없다.
+</blockquote>
+
+<div class="translation-container">
+<p>
+	天下有道
+	却走馬以糞
+<span class="chinese-korean-transliteration">
+	천하유도
+	각주마이분
+</span>
+<span class="chinese-korean-translation">
+	천하에 도가 있으면
+	<br>
+	달리는 말이 그 배설물로 땅을 비옥하게 하고
+</span>
+</p>
+
+<p>
+	天下無道
+	戎馬生於郊
+<span class="chinese-korean-transliteration">
+	천하무도
+	융마생어교
+</span>
+<span class="chinese-korean-translation">
+	천하에 도가 없으면
+	<br>
+	전쟁에 끌려간 말이 성 밖에서 새끼을 낳게 된다.
+</span>
+</p>
+
+<p>
+	禍莫大於不知足
+<span class="chinese-korean-transliteration">
+	화막대어불지족
+</span>
+<span class="chinese-korean-translation">
+	화로 말할 것 같으면
+	<br>
+	족할 줄 모르는 것보다 더 큰 것이 없고
+</span>
+</p>
+
+<p>
+	咎莫大於欲得
+<span class="chinese-korean-transliteration">
+	구막대어욕득
+</span>
+<span class="chinese-korean-translation">
+	허물로 치면
+	<br>
+	갖고자 하는 욕심보다 더 큰 것이 없다.
+</span>
+</p>
+
+<p>
+	故知足之足常足矣
+<span class="chinese-korean-transliteration">
+	고지족지족상족의
+</span>
+<span class="chinese-korean-translation">
+	그러므로
+	<br>
+	족한 줄 아는 데서 얻는 만족감만이
+	<br>
+	영원한 만족감이다.
+</span>
+</p>
+</div>
+
+<img width="50%" src="/assets/images/lao-tzu/girl-with-pretty-smile.png">
+
 <!--
-45. 淸靜(청정)
-
-모자란 것 같은가?
-그것이 크게 성공한 것이다.
-
-大成若缺(대성약결) : 완전히 이루어진 것은 모자란 듯하나
-其用不弊(기용불폐) : 그러나 그 쓰임에는 다함이 없다.
-大盈若沖(대영약충) : 완전히 가득 찬 것은 빈 듯하나
-其用不窮(기용불궁) : 그러나 그 쓰임에는 끝이 없다.
-大直若屈(대직약굴) : 완전히 곧은 것은 굽은 듯하고,
-大巧若拙(대교약졸) : 완전한 솜씨는 서툴게 보이는 것이고,
-大辯若訥(대변약눌) : 완전한 웅변은 눌변으로 보인다.
-靜勝躁(정숭조) : 고요함이 조급함을 이기고
-寒勝熱(한승열) : 찬것이 더움을 이긴다.
-淸靜爲天下正(청정위천하정) : 맑고 고요함 이것이 세상의 표준이다.
-
-
-
-46. 知足(지족)
-
-
-
-욕심보다 더 큰 허물이 없고,
-
-지족보다 더 큰 만족은 없다.
-
-
-天下有道(천하유도) : 천하에 도가 있으면
-却走馬以糞(각주마이분) : 달리는 말이 그 배설물로 땅을 비옥하게 하고,
-天下無道(천하무도) : 천하에 도가 없으면,
-戎馬生於郊(융마생어교) : 전쟁에 끌려간 말이 성 밖에서 새끼을 낳게 된다.
-禍莫大於不知足(화막대어불지족) : 화로 말할 것 같으면 족할 줄 모르는 것보다 더 큰 것이 없고
-咎莫大於欲得(구막대어욕득) : 허물로 치면 갖고자 하는 욕심보다 더 큰 것이 없다.
-故知足之足常足矣(고지족지족상족의) : 그러므로 족한 줄 아는 데서 얻는 만족감만이 영원한 만족감이다.
-
-
-
 47.天道(천도)
 
 
