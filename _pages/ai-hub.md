@@ -79,6 +79,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">
+		US Healthcare System Deploys AI Agents, From Research to Rounds
+	</a>
+	- Nvidia
+	@ 08-Oct-2024
+</li>
+<li>
 	<a href="http://www.hitnews.co.kr/news/articleView.html?idxno=57889">
 		美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동
 	</a>
@@ -708,6 +715,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">
+		K반도체 운명 가를 '반도체 인력난'
+	</a>
+	- 週間朝鮮
+	@ 11-Oct-2024 14:00 KST
+</li>
+<li>
 	<a href="https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz">
 		가오슝에 TSMC 공장 5개 건설
 	</a>
@@ -1014,6 +1028,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">
+		K반도체 운명 가를 '반도체 인력난'
+	</a>
+	- 週間朝鮮
+	@ 11-Oct-2024 14:00 KST
+</li>
+<li>
 	<a href="https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz">
 		가오슝에 TSMC 공장 5개 건설
 	</a>
@@ -1033,6 +1054,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</a>
 	- TTimes
 	@ 09-Oct-2024 06:00:01 KST
+</li>
+<li>
+	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">
+		US Healthcare System Deploys AI Agents, From Research to Rounds
+	</a>
+	- Nvidia
+	@ 08-Oct-2024
 </li>
 <li>
 	<a href="https://neurosciencenews.com/hopfield-hinton-nobel-prize-27810/">

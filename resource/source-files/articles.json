@@ -20,6 +20,13 @@
 	},
 	{
 		"category": ["biotech"],
+		"url": "https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898",
+		"title": "US Healthcare System Deploys AI Agents, From Research to Rounds",
+		"date": "08-Oct-2024",
+		"press": "Nvidia"
+	},
+	{
+		"category": ["biotech"],
 		"url": "http://www.hitnews.co.kr/news/articleView.html?idxno=57889",
 		"title": "美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동",
 		"date": "02-Oct-2024"
@@ -555,6 +562,13 @@
 		"url": "https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts",
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024"
+	},
+	{
+		"category": ["semiconductor"],
+		"url": "https://weekly.chosun.com/news/articleView.html?idxno=37547",
+		"title": "K반도체 운명 가를 '반도체 인력난'",
+		"press": "週間朝鮮",
+		"date": "11-Oct-2024 14:00 KST"
 	},
 	{
 		"category": ["semiconductor"],
