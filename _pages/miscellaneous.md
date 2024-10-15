@@ -200,23 +200,23 @@ Trips
 	(tentative)
 	biz trip to Seoul
 	-
-	10 nights
+	12 nights
 	<ul>
 	<li>
-		03-Nov-2024 ~ 13-Nov-2024 PDT
+		01-Nov-2024 ~ 13-Nov-2024 PDT
 	</li>
 	<li>
 		flight 1
-		-
-		- from SFO @ PDT to ICN @ KST
+		- Air Premia 112
+		- from SFO @ 3:30pm on 01-Nov-2024 PDT to ICN @ 8:30pm on 02-Nov-2024 KST
 	</li>
 	<li>
 		flight 2
-		-
-		- from ICN @ KST to SFO @ PDT
+		- Air Premia 111
+		- from ICN @ 6:55pm KST to SFO @ 12pm PDT on 13-Nov-2024
 	</li>
 	<li>
-		stay @
+		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
 	</li>
 	</ul>
 </li>
@@ -250,7 +250,7 @@ Trips
 		on 24-Oct-2024
 	</li>
 	<li>
-		stay @ ??
+		stay @ <a href="https://maps.app.goo.gl/MECzxcqNLDR6GFsp6">The Farrington Inn, Boston, MA</a>
 	</li>
 	</ul>
 </li>
@@ -332,6 +332,9 @@ Trips
 		-
 		from ICN @ 5:30pm on 8-Sep-2024 KST to SFO @ 12:30pm on 8-Sep-2024 PDT
 	</li>
+	<li>
+		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
+	</li>
 	</ul>
 </li>
 </ul>
@@ -367,7 +370,7 @@ Trips
 
 <ul>
 <li>
-	Family Trip &amp; biz trip to Seoul - 35 nights
+	Family Trip to Lake Tahoe - 2 nights
 	<ul>
 	<li>
 		24-Jul-2024 ~ 26-Jul-2024 PDT
@@ -424,6 +427,9 @@ Trips
 		-
 		from ICN @ 4:00pm on 16-Jul-2024 KST to SFO @ 11:00am on 16-Jul-2024 PDT
 	</li>
+	<li>
+		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
+	</li>
 	</ul>
 </li>
 </ul>
@@ -453,6 +459,9 @@ Trips
 		from ICN @ 04-Jun-2024 KST
 		to SFO
 	</li>
+	<li>
+		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
+	</li>
 	</ul>
 </li>
 </ul>
@@ -479,6 +488,9 @@ Trips
 		KE0023
 		-
 		from ICN @ 15-Feb-2024 KST to SFO
+	</li>
+	<li>
+		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
 	</li>
 	</ul>
 </li>
