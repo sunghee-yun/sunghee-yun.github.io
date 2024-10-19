@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Industrial AI - Technological Innovations and Impacts on Semiconductor Manufacturing
+title: "[Texas A&amp;M Seminar / Intro to Semiconductor &amp; Microelectronics] Industrial AI - Technological Innovations and Impacts on Semiconductor Manufacturing"
 permalink: /seminar/2024_1025 - Texas A&M - Virtual/abstract/
 ---
 
