@@ -1,18 +1,18 @@
 """
-class representing collection of articles
+class representing collection of papers or articles
 """
 
 from collections import defaultdict
 from datetime import date
 from logging import getLogger, Logger
 
-from articles.article import Article
+from articles.entity_base import EntityBase
 from html_writer.header import Header
 
 logger: Logger = getLogger()
 
 
-class ArticleCollection:
+class EntityCollection:
     TRANSLATION_TABLE: dict[str, str] = dict(ai="AI", agi="AGI", llm="LLM", genai="genAI")
     TRANSLATION_TABLE["ai in general"] = "AI in general"
 
@@ -24,10 +24,10 @@ class ArticleCollection:
         return s[0].capitalize() + s[1:]
 
     def __init__(self) -> None:
-        self.cat_articles_dict: dict[tuple[str, ...], list[Article]] = defaultdict(list)
-        self.all_articles: list[Article] = list()
+        self.cat_articles_dict: dict[tuple[str, ...], list[EntityBase]] = defaultdict(list)
+        self.all_articles: list[EntityBase] = list()
 
-    def add_article(self, article: Article) -> None:
+    def add_article(self, article: EntityBase) -> None:
         for category in article.categories:
             self.cat_articles_dict[category].append(article)
         self.all_articles.append(article)

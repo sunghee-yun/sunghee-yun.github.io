@@ -1,5 +1,5 @@
 """
-parse html to write to .json file
+write article page on .markdown file
 """
 
 import os
@@ -7,11 +7,11 @@ import json
 from typing import Any
 
 from articles.article import Article
-from articles.article_collection import ArticleCollection
+from articles.entity_collection import EntityCollection
 from html_writer.anchor import Anchor
 
 if __name__ == "__main__":
-    article_collection: ArticleCollection = ArticleCollection()
+    article_collection: EntityCollection = EntityCollection()
 
     github_repo_root_dir: str = os.path.abspath(os.path.join(os.pardir, os.pardir))
     file_dir: str = os.path.join(github_repo_root_dir, "resource", "source-files")
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     for article in article_data:
         article_collection.add_article(Article(**article))
 
-    config_data: list[list] = json.load(open(os.path.join(file_dir, "config.json")))
+    config_data: list[list] = json.load(open(os.path.join(file_dir, "config-articles.json")))
 
     all_articles_str: str = "All articles in reverse chronological order"
     all_articles_id: str = "all-articles-in-reverse-chronological-order"
