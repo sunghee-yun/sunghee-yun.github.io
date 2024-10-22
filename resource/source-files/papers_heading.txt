@@ -1,0 +1,31 @@
+---
+layout: single
+title: Welcome to My AI Papers Hub
+permalink: /papers
+toc: true
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+---
+
+<head>
+<link href="/resource/styles.css" rel="stylesheet"/>
+</head>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var toggles = document.querySelectorAll('.foldable-toggle');
+
+		toggles.forEach(function(toggle) {
+			toggle.addEventListener('click', function() {
+				this.classList.toggle('active');
+				var content = this.nextElementSibling;
+				if (content.style.display === 'block') {
+					content.style.display = 'none';
+				} else {
+					content.style.display = 'block';
+				}
+			});
+		});
+	});
+</script>
