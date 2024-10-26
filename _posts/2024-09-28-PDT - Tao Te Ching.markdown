@@ -70,8 +70,8 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <a href="#44">44</a>
 <a href="#45">45</a>
 <a href="#46">46</a>
-<!--a href="#47">47</a>
-<a href="#48">48</a>
+<a href="#47">47</a>
+<!--a href="#48">48</a>
 <a href="#49">49</a>
 <a href="#50">50</a>
 <a href="#51">51</a>
@@ -5718,27 +5718,85 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 
 <img width="50%" src="/assets/images/lao-tzu/girl-with-pretty-smile.png">
 
+<h2 id="47">
+	제47장
+	-
+	천도天道
+</h2>
+
+<blockquote>
+	멀리서 찾을 수록 적게 안다.
+</blockquote>
+
+<div class="translation-container">
+<p>
+	不出戶
+	知天下
+<span class="chinese-korean-transliteration">
+	불출호
+	지천하
+</span>
+<span class="chinese-korean-translation">
+	문밖에 나가지 않고도
+	<br>
+	천하를 다 알고
+</span>
+</p>
+
+<p>
+	不闚牖
+	見天道
+<span class="chinese-korean-transliteration">
+	불규유
+	견천도
+</span>
+<span class="chinese-korean-translation">
+	창으로 내다보지 않고도
+	<br>
+	하늘의 도를 볼 수 있다.
+</span>
+</p>
+
+<p>
+	其出彌遠
+	其知彌少
+<span class="chinese-korean-transliteration">
+	기출미원
+	기지미소
+</span>
+<span class="chinese-korean-translation">
+	멀리 나가면 나갈수록
+	<br>
+	그만큼 덜 알게 된다.
+</span>
+</p>
+
+<p>
+	是以聖人
+	不行而知
+	不見而明
+	不爲而成
+<span class="chinese-korean-transliteration">
+	시이성인
+	불행이지
+	불견이명
+	불위이성
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은
+	<br>
+	돌아다니지 않고도 알고
+	<br>
+	보지 않고도 훤하고
+	<br>
+	억지로 하는 일 없이도 모든 것을 이룬다.
+</span>
+</p>
+</div>
+
+<img width="55%" src="/assets/images/lao-tzu/woman-feeling-nature.png">
+
 <!--
-47.天道(천도)
-
-
-
-멀리서 찾을 수록 적게 안다.
-
-
-
-不出戶(불출호) : 문밖에 나가지 않고도
-知天下(지천하) : 천하를 다 알고
-不闚牖(불규유) : 창으로 내다보지 않고도
-見天道(견천도) : 하늘의 도를 볼 수 있다.
-其出彌遠(기출미원) : 멀리 나가면 나갈수록
-其知彌少(기지미소) : 그만큼 덜 알게 된다.
-是以聖人不行而知(시이성인불행이지) : 그러므로 성인은 돌아다니지 않고도 알고
-不見而明(불견이명) : 보지 않고도 훤하고
-不爲而成(불위이성) : 억지로 하는 일 없이도 모든 것을 이룬다.
-
-
-
 48. 日損(일손)
 
 
