@@ -1,7 +1,7 @@
 main:
   - title: "about"
     url: /about
-  - title: "AI Insights"
+  - title: "AI Insights Hub"
     url: /articles
   - title: "AI papers"
     url: /papers
