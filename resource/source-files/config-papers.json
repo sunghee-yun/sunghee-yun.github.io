@@ -1,4 +1,6 @@
 [
+	[["ai", "fundamentals"], "fundamentals"],
+	[["ai", "bio"], "bio"],
 	[["ai", "llm"], "LLM"],
 	[["ai", "slm"], "SLM"],
 	[["ai", "cv"], "CV"],

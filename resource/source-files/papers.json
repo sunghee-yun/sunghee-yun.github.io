@@ -1,5 +1,59 @@
 [
 	{
+		"category": ["ai", "bio"],
+		"title": "Predicting Gene Ontology Annotations from CAFA Using Distance Machine Learning and Transfer Metric Learning",
+		"authors": "Shilpa Choudhary, MD Khaja Shaik, Sivaneasan Bala Krishnan, Sunita Gupta",
+		"url": {
+			"Wiley": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394268832.ch21"
+		},
+		"date": "30-Sep-2024"
+	},
+	{
+		"category": ["ai", "fundamentals"],
+		"title": "Classification is a Strong Baseline for Deep Metric Learning",
+		"authors": "Andrew Zhai, Hao-Yu Wu",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/1811.12649"
+		},
+		"date": "30-Nov-2018"
+	},
+	{
+		"category": ["ai", "bio"],
+		"title": "Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds",
+		"authors": "Xingzhi Sun, Danqi Liao, Kincaid MacDonald, Yanlei Zhang, Chen Liu, Guillaume Huguet, Guy Wolf, Ian Adelstein, Tim G. J. Rudner, Smita Krishnaswamy",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2410.12779"
+		},
+		"date": "16-Oct-2024",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">abstract</div>",
+			"<div class=\"foldable-content\">",
+			"<p>",
+			"Rapid growth of high-dimensional datasets in fields such as single-cell RNA sequencing and spatial genomics has led to unprecedented opportunities for scientific discovery, but it also presents unique computational and statistical challenges. Traditional methods struggle with geometry-aware data generation, interpolation along meaningful trajectories, and transporting populations via feasible paths. To address these issues, we introduce Geometry-Aware Generative Autoencoder (GAGA), a novel framework that combines extensible manifold learning with generative modeling. GAGA constructs a neural network embedding space that respects the intrinsic geometries discovered by manifold learning and learns a novel warped Riemannian metric on the data space. This warped metric is derived from both the points on the data manifold and negative samples off the manifold, allowing it to characterize a meaningful geometry across the entire latent space. Using this metric, GAGA can uniformly sample points on the manifold, generate points along geodesics, and interpolate between populations across the learned manifold using geodesic-guided flows. GAGA shows competitive performance in simulated and real-world datasets, including a 30% improvement over the state-of-the-art methods in single-cell population-level trajectory inference.",
+			"</p>",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "fundamentals"],
+		"title": "How Classification Baseline Works for Deep Metric Learning: A Perspective of Metric Space",
+		"authors": "Yuanqu Mou, Zhengxue Jian, Haiyang Bai, Chang Gou",
+		"url": {
+			"OpenReview.net": "https://openreview.net/forum?id=DVl5GAuBXA"
+		},
+		"date": "05-Sep-2024",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">abstract</div>",
+			"<div class=\"foldable-content\">",
+			"<p>",
+			"Deep Metric Learning (DML) stands as a powerful technique utilized for training models to capture semantic similarities between data points across various domains, including computer vision, natural language processing, and recommendation systems. Current approaches in DML often prioritize the development of novel network structures or loss functions while overlooking metric properties and the intricate relationship between classification and metric learning. This oversight results in significant time overhead, particularly when the number of categories increases. To address this challenge, we propose extending the loss function used in classification to function as a metric, thereby imposing constraints on the distances between training samples based on the triangle inequality. This approach is akin to proxy-based methods and aims to enhance the efficiency of DML. Drawing inspiration from metrically convex metrics, we introduce the concept of a \"weak-metric\" to overcome the limitations associated with certain loss functions that cannot be straightforwardly extended to full metrics. This ensures the effectiveness of DML under various circumstances. Furthermore, we extend the Cross Entropy loss function to function as a weak-metric and introduce a novel metric loss derived from Cross Entropy for experimental comparisons with other methods. The results underscore the credibility and reliability of our proposal, showcasing its superiority over state-of-the-art techniques. Notably, our approach also exhibits significantly faster training times as the number of categories increases, making it a compelling choice for large-scale datasets.",
+			"</p>",
+			"</div>"
+		]
+	},
+	{
 		"category": ["ai", "nn-models"],
 		"title": "Statistical Mechanics of Neural Networks",
 		"authors": "Haim Sompolinsky",
