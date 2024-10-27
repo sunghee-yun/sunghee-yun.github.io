@@ -550,15 +550,30 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </div>
 
-<!--div class="text-highlight">
-	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
+<div class="text-highlight">
+	<a href="#see-without-seeing" id="REV-see-without-seeing">
 	<font class="emph">
+	是以聖人
+	不行而知
+	不見而明
+	不爲而成
 	</font></a><br>
+	시이성인
+	불행이지
+	불견이명
+	불위이성
 <span class="chinese-korean-translation">
+	그러므로 성인은
+	<br>
+	돌아다니지 않고도 알고
+	<br>
+	보지 않고도 훤하고
+	<br>
+	억지로 하는 일 없이도 모든 것을 이룬다.
 </span>
 </div>
 
-<div class="text-highlight">
+<!--div class="text-highlight">
 	<a href="#cannot-use-tao-all" id="REV-cannot-use-tao-all">
 	<font class="emph">
 	</font></a><br>
@@ -5771,11 +5786,16 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 </span>
 </p>
 
+<font id="see-without-seeing" class="emph">
 <p>
+	<a href="#REV-see-without-seeing" id="see-without-seeing">
+	<font id="see-without-seeing" class="emph">
 	是以聖人
 	不行而知
 	不見而明
 	不爲而成
+	</font>
+	</a>
 <span class="chinese-korean-transliteration">
 	시이성인
 	불행이지
@@ -5792,6 +5812,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 	억지로 하는 일 없이도 모든 것을 이룬다.
 </span>
 </p>
+</font>
 </div>
 
 <img width="55%" src="/assets/images/lao-tzu/woman-feeling-nature.png">
@@ -5799,10 +5820,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 <!--
 48. 日損(일손)
 
-
-
 덜어내고 덜어내야 도를 이룬다.
-
 
 爲學日益(위학일익) : 학문의 길은 하루하루 쌓아 가는 길이나
 爲道日損(위도일손) : 도의 길은 하루하루 덜어내는 길이다.
@@ -5815,15 +5833,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 不足以取天下(불족이취천하) : 천하를 얻기엔 부족하다.
 
 
-
 49. 德善(덕선)
 
-
-
 고정된 자기 마음이 없고,
-
 사람들의 마음을 자기 마음으로 삼는 자가 성인이다.
-
 
 聖人無常心(성인무상심) : 성인들에겐 고정된 마음이 없나니,
 以百姓心爲心(이백성심위심) : 백성의 마음을 자기 마음으로 삼는다.
