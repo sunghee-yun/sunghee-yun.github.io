@@ -73,6 +73,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/">The Need For Medical Futures Studies: Our Benchmark Study</a>
+	- The Medical Futurist
+	@ 16-Oct-2024
+</li>
+<li>
 	<a href="https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/">Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer</a>
 	- MedCity News
 	@ 16-Oct-2024
@@ -121,6 +126,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&_hsmi=323659352">AlphaProteo generates novel proteins for biology and health research</a>
 	@ 05-Sep-2024
 	- <a href="/alpha-fold-summary">summary</a>
+</li>
+<li>
+	<a href="https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/">Why was Theranos so believable? Medicine needs to look in the mirror</a>
+	- STAT News
+	@ 24-May-2018
+</li>
+<li>
+	<a href="https://www.newyorker.com/magazine/2014/12/15/blood-simpler">Blood, Simpler</a>
+	- New Yorker
+	@ 08-Dec-2014
 </li>
 </ul>
 
@@ -362,6 +377,26 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://garymarcus.substack.com/p/is-openai-more-like-wework-or-theranos">Is OpenAI more like WeWork or Theranos?</a>
+	- Marcus on AI
+	@ 19-Oct-2024
+	<div class="callout">
+	I think the author totally missed a very important point! OpenAI is not about AGI, but rather about business model and its lucrativeness whereas Theranos was about the validation of the technology they insisted they had, but they didn't. OpenAI has already proven the amazing capability of LLM they possess plus stimulated the whole industry and NLP field, which brought about many other startups and big techs delve into the competition and drove faster improvement of LLM. Now the energy consumption is one of the biggest issues (and that's why OpenAI almost went bankrupt last year), and this is the very thing they need to resolve (not challenges for AGI). With the very same capability that they've already proved, they will create the whole another AI market where companies can use the APIs, and for that matter, APIs of a bunch of other amazing companies such as Anthropic, Perplexity, X, Google, Liquid AI, Mistral, Midjourney, etc.
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png">
+	</div>
+</li>
+<li>
+	<a href="https://medium.com/swlh/99-of-people-use-ai-wrong-heres-how-to-use-ai-tools-to-work-smarter-f44db8e2757d">99% of People Use AI Wrong — Here’s How to Use AI Tools to Work Smarter</a>
+	- Medium
+	@ 11-Oct-2024
+	<div class="callout">
+	I don't like the type of the title because first, it's not ture, second, it looks like so desperately attracting readers, but it has some good advice as to using AI tools, so I put it here.
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png">
+	</div>
+</li>
+<li>
 	<a href="https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/">Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community</a>
 	- Nvidia Blog
 	@ 08-Oct-2024
@@ -442,6 +477,21 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://albertoromgar.medium.com/gpt-is-dead-long-live-openai-o1-9f633dbea02d">Long Live OpenAI o1</a>
+	- Medium
+	@ 17-Oct-2024
+</li>
+<li>
+	<a href="https://generativeai.pub/openai-rolls-out-searchgpt-to-more-users-33024ff3132c" id="searchgpt-01">OpenAI Rolls Out SearchGPT To More Users</a>
+	- Medium
+	@ 14-Oct-2024
+</li>
+<li>
+	<a href="https://pub.towardsai.net/gpt-4o-with-canvas-data-analysis-has-changed-once-again-25bdcb2fd137">GPT 4o- with Canvas: Data Analysis has changed once again!</a>
+	- Medium
+	@ 06-Oct-2024
+</li>
+<li>
 	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">Nvidia just released an open-source LLM to rival GPT-4</a>
 	- yahoo!tech
 	@ 02-Oct-2024
@@ -474,6 +524,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<p>A chart from the Liquid blog shows that the LFM-3B model, for instance, outperforms popular models like Google’s Gemma-2, Microsoft’s Phi-3, and Meta’s Llama-3.2 in terms of inference memory footprint, especially as token length scales.</p>
 	<img width="95%" src="/assets/images/ai/llm/lfm-performance-comparison.webp">
 	</div>
+</li>
+<li>
+	<a href="https://generativeai.pub/i-tested-10-ai-coding-assistants-and-holy-cow-you-wont-believe-what-happened-1dbd7d0a6c90">I Tested 10 AI Coding Assistants</a>
+	- Medium
+	@ 29-Sep-2024
 </li>
 <li>
 	<a href="https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_Q6JNZsLIcfzZdW5DLX2JsmUUQIbsZVZ4MBcvdbCLdCo-IE_0ukxdwGBmAWeVjpjTengbhLTT17ekRssjz32M-byAXjg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email" id="llama-3.2">Llama 3.2: Revolutionizing edge AI and vision with open, customizable models</a>
@@ -583,6 +638,10 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h2 id="ai-software">Software</h2>
 
 <ul>
+<li>
+	<a href="https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457">How to Choose the Architecture for Your GenAI Application</a>
+	@ 03-Oct-2024
+</li>
 <li>
 	<a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">10 GitHub Repositories for Deep Learning Enthusiasts</a>
 	@ 19-Sep-2024
@@ -699,6 +758,10 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/">The End Of The SaaS Era: Rethinking Software’s Role In Business</a>
 	@ 30-Sep-2024
+</li>
+<li>
+	<a href="https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5">Stop making your python projects like it was 15 years ago...</a>
+	@ 28-Sep-2024
 </li>
 </ul>
 
@@ -826,11 +889,26 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h1 id="cultivation">Cultivation</h1>
+
+<ul>
+<li>
+	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">Fresh Slate</a>
+	- Medium
+	@ 13-Sep-2024
+</li>
+<li>
+	<a href="https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20">A Philosopher Explains How to Enjoy Life In Nine Sentences</a>
+	- Medium
+	@ 08-May-2024
+</li>
+</ul>
+
 <h1 id="others">Others</h1>
 
 <ul>
 <li>
-	<a href="https://www.toyotafound.or.jp/english/service/50th/grant/">Toyota Foundation - The 50th Anniversary Grant Program</a>
+	<a href="https://www.toyotafound.or.jp/english/service/50th/grant/">Toyota Foundation - The 50th Anniversary Grant Program - Envisioning Human Society 50 Years Ahead</a>
 </li>
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
@@ -848,9 +926,44 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
+	<a href="https://garymarcus.substack.com/p/is-openai-more-like-wework-or-theranos">Is OpenAI more like WeWork or Theranos?</a>
+	- Marcus on AI
+	@ 19-Oct-2024
+	<div class="callout">
+	I think the author totally missed a very important point! OpenAI is not about AGI, but rather about business model and its lucrativeness whereas Theranos was about the validation of the technology they insisted they had, but they didn't. OpenAI has already proven the amazing capability of LLM they possess plus stimulated the whole industry and NLP field, which brought about many other startups and big techs delve into the competition and drove faster improvement of LLM. Now the energy consumption is one of the biggest issues (and that's why OpenAI almost went bankrupt last year), and this is the very thing they need to resolve (not challenges for AGI). With the very same capability that they've already proved, they will create the whole another AI market where companies can use the APIs, and for that matter, APIs of a bunch of other amazing companies such as Anthropic, Perplexity, X, Google, Liquid AI, Mistral, Midjourney, etc.
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png">
+	</div>
+</li>
+<li>
+	<a href="https://albertoromgar.medium.com/gpt-is-dead-long-live-openai-o1-9f633dbea02d">Long Live OpenAI o1</a>
+	- Medium
+	@ 17-Oct-2024
+</li>
+<li>
+	<a href="https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/">The Need For Medical Futures Studies: Our Benchmark Study</a>
+	- The Medical Futurist
+	@ 16-Oct-2024
+</li>
+<li>
 	<a href="https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/">Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer</a>
 	- MedCity News
 	@ 16-Oct-2024
+</li>
+<li>
+	<a href="https://generativeai.pub/openai-rolls-out-searchgpt-to-more-users-33024ff3132c" id="searchgpt-01">OpenAI Rolls Out SearchGPT To More Users</a>
+	- Medium
+	@ 14-Oct-2024
+</li>
+<li>
+	<a href="https://medium.com/swlh/99-of-people-use-ai-wrong-heres-how-to-use-ai-tools-to-work-smarter-f44db8e2757d">99% of People Use AI Wrong — Here’s How to Use AI Tools to Work Smarter</a>
+	- Medium
+	@ 11-Oct-2024
+	<div class="callout">
+	I don't like the type of the title because first, it's not ture, second, it looks like so desperately attracting readers, but it has some good advice as to using AI tools, so I put it here.
+	&nbsp;
+	<img class="emoticon" src="/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png">
+	</div>
 </li>
 <li>
 	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">K반도체 운명 가를 '반도체 인력난'</a>
@@ -888,6 +1001,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 08-Oct-2024
 </li>
 <li>
+	<a href="https://pub.towardsai.net/gpt-4o-with-canvas-data-analysis-has-changed-once-again-25bdcb2fd137">GPT 4o- with Canvas: Data Analysis has changed once again!</a>
+	- Medium
+	@ 06-Oct-2024
+</li>
+<li>
 	<a href="https://finance.yahoo.com/news/5-super-semiconductor-stocks-buy-080200599.html">5 Super Semiconductor Stocks to Buy Hand Over Fist Heading Into 2025</a>
 	- yahoo!finance
 	@ 04-Oct-2024
@@ -906,6 +1024,10 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	&nbsp;
 	<img class="emoticon" src="/assets/images/favicons/grinning-squinting-face/android-chrome-192x192.png">
 	</div>
+</li>
+<li>
+	<a href="https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457">How to Choose the Architecture for Your GenAI Application</a>
+	@ 03-Oct-2024
 </li>
 <li>
 	<a href="https://www.fnnews.com/ampNews/202410031335460554">HBM4 승부수 띄웠다...삼성, '커스텀' 조직 만들고 'TSMC 영입인재' 전면에</a>
@@ -1074,6 +1196,15 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.nytimes.com/2024/09/29/technology/california-ai-bill.html">California Governor Vetoes Sweeping A.I. Legislation</a>
 	- NY Times
 	@ 29-Sep-2024
+</li>
+<li>
+	<a href="https://generativeai.pub/i-tested-10-ai-coding-assistants-and-holy-cow-you-wont-believe-what-happened-1dbd7d0a6c90">I Tested 10 AI Coding Assistants</a>
+	- Medium
+	@ 29-Sep-2024
+</li>
+<li>
+	<a href="https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5">Stop making your python projects like it was 15 years ago...</a>
+	@ 28-Sep-2024
 </li>
 <li>
 	<a href="https://zdnet.co.kr/view/?no=20240927185509">가천대·대한전자공학회 "온디바이스 AI용 반도체 집중 육성해야"</a>
@@ -1319,7 +1450,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 13-Sep-2024
 </li>
 <li>
-	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">[Medium] Should You Forgive Your Parents? - Sure, they were good to you, but what about before you were born?</a>
+	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">Fresh Slate</a>
+	- Medium
 	@ 13-Sep-2024
 </li>
 <li>
@@ -1400,6 +1532,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 31-May-2024
 </li>
 <li>
+	<a href="https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20">A Philosopher Explains How to Enjoy Life In Nine Sentences</a>
+	- Medium
+	@ 08-May-2024
+</li>
+<li>
 	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁</a>
 	- Economy Chosun
 	@ 29-Apr-2024 11:00 KST
@@ -1422,6 +1559,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Jul-2021
 </li>
 <li>
+	<a href="https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/">Why was Theranos so believable? Medicine needs to look in the mirror</a>
+	- STAT News
+	@ 24-May-2018
+</li>
+<li>
 	<a href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18">Cognitive bias cheat sheet</a>
 	@ 01-Sep-2016
 	&nbsp;
@@ -1429,5 +1571,10 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<div class="foldable-content">
 	<img src="/assets/images/1_71TzKnr7bzXU_l_pU6DCNA.webp">
 	</div>
+</li>
+<li>
+	<a href="https://www.newyorker.com/magazine/2014/12/15/blood-simpler">Blood, Simpler</a>
+	- New Yorker
+	@ 08-Dec-2014
 </li>
 </ul>

@@ -1,6 +1,20 @@
 [
 	{
 		"category": ["biotech"],
+		"url": "https://www.newyorker.com/magazine/2014/12/15/blood-simpler",
+		"title": "Blood, Simpler",
+		"date": "08-Dec-2014",
+		"press": "New Yorker"
+	},
+	{
+		"category": ["biotech"],
+		"url": "https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/",
+		"title": "Why was Theranos so believable? Medicine needs to look in the mirror",
+		"date": "24-May-2018",
+		"press": "STAT News"
+	},
+	{
+		"category": ["biotech"],
 		"url": "https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/",
 		"title": "The Need For Medical Futures Studies: Our Benchmark Study",
 		"date": "16-Oct-2024",
@@ -328,6 +342,34 @@
 	},
 	{
 		"category": ["ai", "general"],
+		"url": "https://medium.com/swlh/99-of-people-use-ai-wrong-heres-how-to-use-ai-tools-to-work-smarter-f44db8e2757d",
+		"title": "99% of People Use AI Wrong — Here’s How to Use AI Tools to Work Smarter",
+		"press": "Medium",
+		"date": "11-Oct-2024",
+		"postfix": [
+			"<div class=\"callout\">",
+			"I don't like the type of the title because first, it's not ture, second, it looks like so desperately attracting readers, but it has some good advice as to using AI tools, so I put it here.",
+			"&nbsp;",
+			"<img class=\"emoticon\" src=\"/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png\">",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "general"],
+		"url": "https://garymarcus.substack.com/p/is-openai-more-like-wework-or-theranos",
+		"title": "Is OpenAI more like WeWork or Theranos?",
+		"press": "Marcus on AI",
+		"date": "19-Oct-2024",
+		"postfix": [
+			"<div class=\"callout\">",
+			"I think the author totally missed a very important point! OpenAI is not about AGI, but rather about business model and its lucrativeness whereas Theranos was about the validation of the technology they insisted they had, but they didn't. OpenAI has already proven the amazing capability of LLM they possess plus stimulated the whole industry and NLP field, which brought about many other startups and big techs delve into the competition and drove faster improvement of LLM. Now the energy consumption is one of the biggest issues (and that's why OpenAI almost went bankrupt last year), and this is the very thing they need to resolve (not challenges for AGI). With the very same capability that they've already proved, they will create the whole another AI market where companies can use the APIs, and for that matter, APIs of a bunch of other amazing companies such as Anthropic, Perplexity, X, Google, Liquid AI, Mistral, Midjourney, etc.",
+			"&nbsp;",
+			"<img class=\"emoticon\" src=\"/assets/images/favicons/slightly-smiling-face/android-chrome-192x192.png\">",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "general"],
 		"url": "https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/",
 		"title": "Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community",
 		"press": "Nvidia Blog",
@@ -416,6 +458,35 @@
 		"url": "https://zdnet.co.kr/view/?no=20240925155117",
 		"title": "보스턴다이내믹스 CEO \"휴머노이드, 3~5년 내 공장서 일할 것\"",
 		"date": "25-Sep-2024 KST"
+	},
+	{
+		"category": ["ai", "llm"],
+		"url": "https://generativeai.pub/i-tested-10-ai-coding-assistants-and-holy-cow-you-wont-believe-what-happened-1dbd7d0a6c90",
+		"title": "I Tested 10 AI Coding Assistants",
+		"press": "Medium",
+		"date": "29-Sep-2024"
+	},
+	{
+		"category": ["ai", "llm"],
+		"url": "https://albertoromgar.medium.com/gpt-is-dead-long-live-openai-o1-9f633dbea02d",
+		"title": "Long Live OpenAI o1",
+		"press": "Medium",
+		"date": "17-Oct-2024"
+	},
+	{
+		"id": "searchgpt-01",
+		"category": ["ai", "llm"],
+		"url": "https://generativeai.pub/openai-rolls-out-searchgpt-to-more-users-33024ff3132c",
+		"title": "OpenAI Rolls Out SearchGPT To More Users",
+		"press": "Medium",
+		"date": "14-Oct-2024"
+	},
+	{
+		"category": ["ai", "llm"],
+		"url": "https://pub.towardsai.net/gpt-4o-with-canvas-data-analysis-has-changed-once-again-25bdcb2fd137",
+		"title": "GPT 4o- with Canvas: Data Analysis has changed once again!",
+		"press": "Medium",
+		"date": "06-Oct-2024"
 	},
 	{
 		"category": ["ai", "llm"],
@@ -590,6 +661,12 @@
 	},
 	{
 		"category": ["ai", "software"],
+		"url": "https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457",
+		"title": "How to Choose the Architecture for Your GenAI Application",
+		"date": "03-Oct-2024"
+	},
+	{
+		"category": ["ai", "software"],
 		"url": "https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts",
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024"
@@ -726,6 +803,12 @@
 	},
 	{
 		"category": ["software"],
+		"url": "https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5",
+		"title": "Stop making your python projects like it was 15 years ago...",
+		"date": "28-Sep-2024"
+	},
+	{
+		"category": ["software"],
 		"url": "https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/",
 		"title": "The End Of The SaaS Era: Rethinking Software’s Role In Business",
 		"date": "30-Sep-2024"
@@ -845,12 +928,20 @@
 	{
 		"category": ["cultivation"],
 		"url": "https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9",
-		"title": "[Medium] Should You Forgive Your Parents? - Sure, they were good to you, but what about before you were born?",
-		"date": "13-Sep-2024"
+		"title": "Fresh Slate",
+		"date": "13-Sep-2024",
+		"press": "Medium"
+	},
+	{
+		"category": ["cultivation"],
+		"url": "https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20",
+		"title": "A Philosopher Explains How to Enjoy Life In Nine Sentences",
+		"date": "08-May-2024",
+		"press": "Medium"
 	},
 	{
 		"category": ["others"],
 		"url": "https://www.toyotafound.or.jp/english/service/50th/grant/",
-		"title": "Toyota Foundation - The 50th Anniversary Grant Program"
+		"title": "Toyota Foundation - The 50th Anniversary Grant Program - Envisioning Human Society 50 Years Ahead"
 	}
 ]
