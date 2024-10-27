@@ -14,6 +14,7 @@ class Paper(EntityBase):
         self.url: dict[str, str] | None = kwargs.pop("url", None)
         self.authors: str | None = kwargs.pop("authors", None)
         self.org: str | None = kwargs.pop("org", None)
+        self.id_: str | None = kwargs.pop("id", None)
         super().__init__(**kwargs)
 
     @property
@@ -25,7 +26,7 @@ class Paper(EntityBase):
         #     attrs["id"] = self.id_
         # attrs_str: str = " ".join(f'{key}="{val}"' for key, val in attrs.items())
 
-        res.append("<li>")
+        res.append("<li>" if self.id_ is None else f'<li id="{self.id_}">')
         res.append(f'\t"{self.title}"')
 
         if self.authors is not None:
