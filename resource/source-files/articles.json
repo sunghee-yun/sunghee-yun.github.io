@@ -1,5 +1,36 @@
 [
 	{
+		"category": ["biotech"],
+		"url": "https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/",
+		"title": "The Need For Medical Futures Studies: Our Benchmark Study",
+		"date": "16-Oct-2024",
+		"press": "The Medical Futurist"
+	},
+	{
+		"category": ["biotech"],
+		"url": "https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/",
+		"title": "Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer",
+		"date": "16-Oct-2024",
+		"press": "MedCity News"
+	},
+	{
+		"id": "quantum-ai-01",
+		"category": ["quantum-computing"],
+		"url": "https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D",
+		"title": "The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World",
+		"date": "22-Oct-2024",
+		"press": "LinkedIn Newsletter - The Intelligence Revolution",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">excerpts</div>",
+			"<div class=\"foldable-content\">",
+			"<p>",
+			"Despite these challenges, the potential benefits of Quantum AI are too significant to ignore. It's not just about faster computers or more efficient algorithms – it's about fundamentally changing the way we approach problem-solving across all domains of human endeavor. It's about unlocking solutions to problems that we currently consider intractable.",
+			"</p>",
+			"</div>"
+		]
+	},
+	{
 		"category": ["entrepreneurship"],
 		"url": "https://m.mk.co.kr/news/business/11128871",
 		"title": "선·후배 관계가 전부라는 이 남자…미국 전역 한국인 창업자들 불러모으더니",

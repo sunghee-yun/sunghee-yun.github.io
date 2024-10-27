@@ -73,6 +73,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/">Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer</a>
+	- MedCity News
+	@ 16-Oct-2024
+</li>
+<li>
 	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">US Healthcare System Deploys AI Agents, From Research to Rounds</a>
 	- Nvidia
 	@ 08-Oct-2024
@@ -167,6 +172,23 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://v.daum.net/v/20240930074803386" id="fire">"조직문화 모르고 매주 지각"&hellip; Z세대 해고 당하는 이유</a>
 	- 세계일보
 	@ 30-Sep-2024
+</li>
+</ul>
+
+<h1 id="quantum-computing">Quantum computing</h1>
+
+<ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
+	- LinkedIn Newsletter - The Intelligence Revolution
+	@ 22-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">excerpts</div>
+	<div class="foldable-content">
+	<p>
+	Despite these challenges, the potential benefits of Quantum AI are too significant to ignore. It's not just about faster computers or more efficient algorithms – it's about fundamentally changing the way we approach problem-solving across all domains of human endeavor. It's about unlocking solutions to problems that we currently consider intractable.
+	</p>
+	</div>
 </li>
 </ul>
 
@@ -813,6 +835,23 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
+	- LinkedIn Newsletter - The Intelligence Revolution
+	@ 22-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">excerpts</div>
+	<div class="foldable-content">
+	<p>
+	Despite these challenges, the potential benefits of Quantum AI are too significant to ignore. It's not just about faster computers or more efficient algorithms – it's about fundamentally changing the way we approach problem-solving across all domains of human endeavor. It's about unlocking solutions to problems that we currently consider intractable.
+	</p>
+	</div>
+</li>
+<li>
+	<a href="https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/">Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer</a>
+	- MedCity News
+	@ 16-Oct-2024
+</li>
 <li>
 	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">K반도체 운명 가를 '반도체 인력난'</a>
 	- 週間朝鮮
