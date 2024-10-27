@@ -1,5 +1,18 @@
 [
 	{
+		"category": ["ai", "nn-models"],
+		"title": "Statistical Mechanics of Neural Networks",
+		"authors": "Haim Sompolinsky",
+		"url": {
+			"Physics Today": "https://lnkd.in/gjRQWUb9"
+		},
+		"date": "01-Dec-1988",
+		"postfix": [
+			"(Haim Sompolinsky is a professor of physics at the Racah\nInstitute of Physics of the Hebrew University of Jerusalem.)"
+		]
+
+	},
+	{
 		"category": ["ai", "dl-models"],
 		"title": "Robust flight navigation out of distribution with liquid neural networks",
 		"date": "19-Apr-2023",

@@ -33,16 +33,6 @@ toc_sticky: true
 <h1 id="ai">AI</h1>
 
 
-<h2 id="ai-dl-models">DL models</h2>
-
-<ul>
-<li>
-	"Robust flight navigation out of distribution with liquid neural networks"
-	@ 19-Apr-2023
-	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
-</li>
-</ul>
-
 <h2 id="ai-llm">LLM</h2>
 
 <ul>
@@ -117,6 +107,30 @@ toc_sticky: true
 	@ 18-Jul-2024
 </li>
 </ul>
+
+<h2 id="ai-dl-models">DL models</h2>
+
+<ul>
+<li>
+	"Robust flight navigation out of distribution with liquid neural networks"
+	@ 19-Apr-2023
+	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
+</li>
+</ul>
+
+<h2 id="ai-nn-models">NN models</h2>
+
+<ul>
+<li>
+	"Statistical Mechanics of Neural Networks"
+	- Haim Sompolinsky
+	@ 01-Dec-1988
+	(<a href="https://lnkd.in/gjRQWUb9">Physics Today</a>)
+	&nbsp;
+	Haim Sompolinsky is a professor of physics at the Racah
+Institute of Physics of the Hebrew University of Jerusalem.
+</li>
+</ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
 <li>
@@ -183,5 +197,14 @@ toc_sticky: true
 	"Robust flight navigation out of distribution with liquid neural networks"
 	@ 19-Apr-2023
 	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
+</li>
+<li>
+	"Statistical Mechanics of Neural Networks"
+	- Haim Sompolinsky
+	@ 01-Dec-1988
+	(<a href="https://lnkd.in/gjRQWUb9">Physics Today</a>)
+	&nbsp;
+	Haim Sompolinsky is a professor of physics at the Racah
+Institute of Physics of the Hebrew University of Jerusalem.
 </li>
 </ul>
