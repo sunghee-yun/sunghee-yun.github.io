@@ -207,6 +207,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h1 id="supercomputers">Supercomputers</h1>
+
+<ul>
+<li>
+	<a href="https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger">The OpenAI Mafia is Racing to Bigger AI Supercomputers</a>
+	- AI Supremacy
+	@ 05-Sep-2024
+</li>
+</ul>
+
 <h1 id="ai">AI</h1>
 
 
@@ -1490,6 +1500,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://venturebeat.com/ai/new-open-source-ai-leader-reflection-70bs-performance-questioned-accused-of-fraud/">New open source AI leader Reflection 70B's performance questioned, accused of 'fraud'</a>
 	- VentureBeat
 	@ 09-Sep-2024
+</li>
+<li>
+	<a href="https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger">The OpenAI Mafia is Racing to Bigger AI Supercomputers</a>
+	- AI Supremacy
+	@ 05-Sep-2024
 </li>
 <li>
 	<a href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/?_hsenc=p2ANqtz--Y_yN4Y5gXuO3G0DcnHXdUJgI8t7XsALl64SXrsyuceMHe2cF52EPtZKFaXM5MggZZSTRecDLPcecgasFlfUEvOM6K4A&_hsmi=323659352">AlphaProteo generates novel proteins for biology and health research</a>
