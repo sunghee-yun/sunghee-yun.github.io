@@ -1,10 +1,12 @@
 main:
   - title: "about"
     url: /about
-  - title: "AI Insights Hub"
+  - title: "AI Insights"
     url: /articles
-  - title: "AI papers"
+  - title: "AI Papers"
     url: /papers
+  - title: "AI Learning"
+    url: /ai-learning
   - title: "blog"
     url: /posts
   - title: "tags"
@@ -13,11 +15,11 @@ main:
     url: /books
   - title: "lectures"
     url: /lectures
+#  - title: "categories"
+#    url: /categories
   - title: "misc"
     url: /miscellaneous
   - title: "music"
     url: /music
   - title: "todo"
     url: /todo-list
-#  - title: "categories"
-#    url: /categories
