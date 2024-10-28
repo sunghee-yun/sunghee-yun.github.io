@@ -39,7 +39,7 @@ toc_sticky: true
 	<a href="https://www.coursera.org/">coursera</a>
 </li>
 <li>
-	<a href="https://www.deeplearning.ai/">DeepLearning.AI</a>
+	<a href="https://www.deeplearning.ai/courses/">DeepLearning.AI</a>
 </li>
 </ul>
 
@@ -53,12 +53,23 @@ toc_sticky: true
 
 <ul>
 <li>
+	Introduction to Applied Linear Algebra
+	-
+	Stephen Boyd @ Stanford University,
+	Lieven Vandenberghe @ UCLA
+	(<a href="https://www.amazon.com/Introduction-Applied-Linear-Algebra-Matrices/dp/1316518965/">Amazon</a>,
+	<a href="https://stanford.edu/~boyd/vmls/">Boyd's homepage</a>,
+	<a href="/resource/books/AI/Introduction to Applied Linear Algebra - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
+</li>
+<li>
 	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-	(<a href="https://www.facebook.com/sunghee.yun1/posts/pfbid0itijGVyiNTpxbPRK9Z4hff5BsqbEXKt8XEHzoDCxfYHks78kkuD2k2kYWDsQkQnQl">Amazon</a>)
+	(<a href="https://www.facebook.com/sunghee.yun1/posts/pfbid0itijGVyiNTpxbPRK9Z4hff5BsqbEXKt8XEHzoDCxfYHks78kkuD2k2kYWDsQkQnQl">Amazon</a>,
+	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
 </li>
 <li>
 	Pattern Recognition and Machine Learning (Information Science and Statistics) - Christopher M. Bishop
-	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>)
+	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
+	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
 </li>
 <li>
 	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
@@ -77,6 +88,13 @@ toc_sticky: true
 	-
 	Kevin P. Murphy
 	(<a href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
+</li>
+<li>
+	Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
+	-
+	Richard S. Sutton, Andrew G. Barto
+	(<a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>,
+	<a href="/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>)
 </li>
 <li>
 	The Elements of Statistical Learning: Data Mining, Inference, and Prediction
@@ -113,12 +131,11 @@ toc_sticky: true
 <li>
 	<a href="https://www.coursera.org/specializations/machine-learning-introduction">
 	(coursera)
-	Machine Learning Specialization
+	Machine Learning Specialization</a>
 	-
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Geoff Ladwig @ DeepLearning.AI,
 	Aarti Bagul
-	</a>
 	<ul>
 	<li>
 		Supervised Machine Learning: Regression and Classification
@@ -134,12 +151,11 @@ toc_sticky: true
 <li>
 	<a href="https://www.coursera.org/specializations/deep-learning">
 	(coursera)
-	Deep Learning Specialization
+	Deep Learning Specialization</a>
 	-
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Younes Bensouda Mourri @ DeepLearning.AI,
 	Kian Katanforoosh @ DeepLearning.AI
-	</a>
 	<ul>
 	<li>
 		Neural Networks and Deep Learning
@@ -174,6 +190,7 @@ toc_sticky: true
 	-
 	Stephen Boyd, Lieven Vandenberghe
 	(<a href="https://www.amazon.com/Convex-Optimization-Corrections-2008-Stephen/dp/0521833787/">Amazon</a>,
-	<a href="https://stanford.edu/~boyd/cvxbook/">PDF</a>)
+	<a href="https://stanford.edu/~boyd/cvxbook/">Boyd's homepage</a>,
+	<a href="/resource/books/opt/Convex Optimization - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
 </li>
 </ul>
