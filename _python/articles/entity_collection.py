@@ -23,7 +23,9 @@ class EntityCollection:
 
         return s[0].capitalize() + s[1:]
 
-    def __init__(self) -> None:
+    def __init__(self, entity_type: str) -> None:
+        assert entity_type in ["article", "paper"], entity_type
+        self._entity_type: str = entity_type
         self.cat_articles_dict: dict[tuple[str, ...], list[EntityBase]] = defaultdict(list)
         self.all_articles: list[EntityBase] = list()
 
@@ -32,7 +34,7 @@ class EntityCollection:
             self.cat_articles_dict[category].append(article)
         self.all_articles.append(article)
 
-    def get_html_body(self, config: list[list], all_articles_str: str, all_articles_id: str) -> str:
+    def get_html_body(self, config: list[list], all_entities_str: str, all_entities_id: str) -> str:
         res: list[str] = list()
         prev_cat: tuple[str, ...] = tuple()
 
@@ -43,7 +45,9 @@ class EntityCollection:
             categories_not_in_config_str: str = ", ".join(
                 [str(y) for y in categories_not_in_config]
             )
-            logger.warning(f"The articles in categories {categories_not_in_config_str} are ignore.")
+            logger.warning(
+                f"The {self._entity_type}(s) in categories {categories_not_in_config_str} are ignore."
+            )
 
         for category_title_map in config:
             current_cat: tuple[str, ...] = tuple(category_title_map[0])
@@ -81,7 +85,7 @@ class EntityCollection:
                 res.append(article.html_str)
             res.append("</ul>")
 
-        res.append(Header(1, all_articles_str, id=all_articles_id).__str__())
+        res.append(Header(1, all_entities_str, id=all_entities_id).__str__())
 
         res.append("<ul>")
         for article in sorted(
@@ -93,8 +97,8 @@ class EntityCollection:
         ):
             if article.date is None:
                 logger.warning(
-                    "The below article not listed in the last section because date "
-                    "is not specified."
+                    f"The below {self._entity_type} not listed in the last section "
+                    "because date is not specified."
                 )
                 logger.warning(f"- title: {article.title}")
                 continue

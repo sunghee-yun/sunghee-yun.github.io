@@ -11,7 +11,7 @@ from articles.entity_collection import EntityCollection
 from html_writer.anchor import Anchor
 
 if __name__ == "__main__":
-    article_collection: EntityCollection = EntityCollection()
+    article_collection: EntityCollection = EntityCollection("article")
 
     github_repo_root_dir: str = os.path.abspath(os.path.join(os.pardir, os.pardir))
     file_dir: str = os.path.join(github_repo_root_dir, "resource", "source-files")
