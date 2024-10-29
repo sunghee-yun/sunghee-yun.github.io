@@ -1,6 +1,6 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
-date: Sun Oct  6 22:27:27 PDT 2024
+date: Tue Oct 29 07:01:49 PDT 2024
 last_modified_at: Mon Oct  7 21:59:02 PDT 2024
 categories:
  - blog
@@ -92,4 +92,4 @@ In the coming years, we may see a shift towards more specialized, efficient mode
 The future of AI is not just about raw power, but about intelligent, efficient systems that can deliver amazing results without breaking the bank—or the power grid.
 
 &ndash;
-[Sunghee]({{ site.baseurl }}/)
+[Sunghee](https://www.linkedin.com/in/sungheeyun/)
