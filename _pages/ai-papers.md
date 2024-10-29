@@ -133,6 +133,25 @@ toc_sticky: true
 	@ 15-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.10817">arxiv</a>)
 </li>
+<li id="facts">
+	"FACTS About Building Retrieval Augmented Generation-based Chatbots"
+	- Rama Akkiraju &amp; et al
+	(NVIDIA)
+	@ 10-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.07858">arxiv</a>)
+	&nbsp;
+	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<figcaption>
+	Control Points in a typical RAG pipeline when building Chatbots
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
 </ul>
 
 <h2 id="ai-slm">SLM</h2>
@@ -163,6 +182,16 @@ toc_sticky: true
 	"Robust flight navigation out of distribution with liquid neural networks"
 	@ 19-Apr-2023
 	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
+</li>
+<li>
+	"Improved Variational Autoencoders for Text Modeling using Dilated Convolutions"
+	@ 27-Feb-2017
+	(<a href="https://arxiv.org/abs/1702.08139">arxiv</a>)
+</li>
+<li>
+	"Generating Sentences from a Continuous Space"
+	@ 19-Nov-2015
+	(<a href="https://arxiv.org/abs/1511.06349">arxiv</a>)
 </li>
 </ul>
 
@@ -272,6 +301,25 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	@ 15-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.10817">arxiv</a>)
 </li>
+<li id="facts">
+	"FACTS About Building Retrieval Augmented Generation-based Chatbots"
+	- Rama Akkiraju &amp; et al
+	(NVIDIA)
+	@ 10-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.07858">arxiv</a>)
+	&nbsp;
+	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<figcaption>
+	Control Points in a typical RAG pipeline when building Chatbots
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
 <li>
 	"Robust flight navigation out of distribution with liquid neural networks"
 	@ 19-Apr-2023
@@ -282,6 +330,16 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- Andrew Zhai &amp; Hao-Yu Wu
 	@ 30-Nov-2018
 	(<a href="https://arxiv.org/abs/1811.12649">arxiv</a>)
+</li>
+<li>
+	"Improved Variational Autoencoders for Text Modeling using Dilated Convolutions"
+	@ 27-Feb-2017
+	(<a href="https://arxiv.org/abs/1702.08139">arxiv</a>)
+</li>
+<li>
+	"Generating Sentences from a Continuous Space"
+	@ 19-Nov-2015
+	(<a href="https://arxiv.org/abs/1511.06349">arxiv</a>)
 </li>
 <li>
 	"Statistical Mechanics of Neural Networks"

@@ -68,11 +68,52 @@
 	},
 	{
 		"category": ["ai", "dl-models"],
+		"title": "Generating Sentences from a Continuous Space",
+		"date": "19-Nov-2015",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/1511.06349"
+		}
+	},
+	{
+		"category": ["ai", "dl-models"],
+		"title": "Improved Variational Autoencoders for Text Modeling using Dilated Convolutions",
+		"date": "27-Feb-2017",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/1702.08139"
+		}
+	},
+	{
+		"category": ["ai", "dl-models"],
 		"title": "Robust flight navigation out of distribution with liquid neural networks",
 		"date": "19-Apr-2023",
 		"url": {
 			"ScienceRobotics": "https://www.science.org/doi/10.1126/scirobotics.adc8892"
 			}
+	},
+	{
+		"id": "facts",
+		"category": ["ai", "llm"],
+		"title": "FACTS About Building Retrieval Augmented Generation-based Chatbots",
+		"date": "10-Jul-2024",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2407.07858"
+		},
+		"authors": "Rama Akkiraju, et al",
+		"org": "NVIDIA",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">RAG pipeline for Chatbots</div>",
+			"<div class=\"foldable-content\">",
+			"<div class=\"fig-container\">",
+			"<figure>",
+			"<img src=\"/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png\">",
+			"<figcaption>",
+			"Control Points in a typical RAG pipeline when building Chatbots",
+			"</figcaption>",
+			"</figure>",
+			"</div>",
+			"</div>"
+		]
 	},
 	{
 		"category": ["ai", "llm"],
