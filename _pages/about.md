@@ -9,14 +9,25 @@ permalink: /about/
 </head>
 
 <p>
-	I am Co-founder / CTO - AI Technology & Product Strategy @ <a href="http://erudio.bio">Erudio Bio, Inc.</a>
+	<a href="https://www.linkedin.com/in/sungheeyun/">I</a> am Co-founder / CTO - AI Technology &amp; Product Strategy
+	@
+	<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>,
+	<a href="https://www.salzburgglobal.org/people?userID=55317&eventID=11076">KFAS-Salzburg Global Leadership Initiative Fellow</a>
+	@
+	<a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>,
+	Adjunct Professor
+	@
+	<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University</a>,
+	Advisory Professor
+	@
+	<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">DGIST</a>.
 </p>
 <p>
 	Before founding this new AI biotech company,
 	I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
-	and set up and ran US Headquarters of Gauss Labs,
+	and set up and ran <a href="https://maps.app.goo.gl/v2cLgonB46fL9CPh8">US Headquarters of Gauss Labs</a>,
 	and
-	led research, development &amp; productionization of core technology.
+	led research, development &amp; productionization of the core technology.
 	Before <a href="https://www.gausslabs.ai/">Gauss Labs</a>, I developed various AI technology and products
 	in the field of e-Commerce @ <a href="https://www.amazon.com/">Amazon.com, Inc.</a> where one of the projects
 	created 200 USD revenue increase via Amazon Mobile Shopping App.
@@ -35,12 +46,15 @@ permalink: /about/
 	where
 		more than 200 engineers still use the generic analog/digital/mixed-signal circuit optimization tools
 		every day.
-	I received BS degree @ <a href="https://en.snu.ac.kr/index.html">Seoul National University</a> (SNU)
-	and MS and Ph.D. degrees @ <a href="http://stanford.edu">Stanford University</a>, CA, USA.
+	I received BS degree
+	in <a href="https://eng.snu.ac.kr/snuEng/main/contents.do?menuNo=200084">Electrical Engineering (EE)</a>
+	from <a href="https://en.snu.ac.kr/index.html">Seoul National University (SNU), Seoul, Korea</a>
+	and MS and Ph.D. degrees in <a href="https://ee.stanford.edu/">EE</a>
+	from <a href="http://stanford.edu">Stanford University, CA, USA</a>.
 </p>
 
 <p>
-	I specialize in Artificial Intelligence (AI) and Convex Optimization, leading cutting-edge projects across diverse sectors including semiconductor design, strategic marketing, e-commerce, industrial AI, and biotech. My focus is on leveraging the latest in Large Language Models (LLM) and Generative AI (GenAI) to drive business innovation, predict industry trends, and assess their broad impacts on society, economy, and policy.
+	I specialize in Artificial Intelligence (AI) and <a href="https://ee.stanford.edu/">Convex Optimization</a>, leading cutting-edge projects across diverse sectors including semiconductor design, strategic marketing, e-commerce, industrial AI, and biotech. My focus is on leveraging the latest in Large Language Models (LLM) and Generative AI (GenAI) to drive business innovation, predict industry trends, and assess their broad impacts on society, economy, and policy.
 </p>
 
 <p>
