@@ -225,6 +225,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="ai">AI</h1>
 
 
+<h2 id="ai-for-exec">AI for executives</h2>
+
+<ul>
+<li>
+	<a href="https://towardsdatascience.com/the-ai-productivity-paradox-why-arent-more-workers-using-chatgpt-a1dfe96a9460">The AI Productivity Paradox: Why Aren’t More Workers Using ChatGPT?</a>
+	- Medium
+	@ 28-Oct-2024
+</li>
+</ul>
+
 <h2 id="ai-industry">Industry</h2>
 
 <ul>
@@ -654,11 +664,47 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://medium.com/deep-tech-innovation/no-code-generative-ai-how-companies-can-build-without-data-scientists-7e5ca851f2ba">No-Code Generative AI: How Companies Can Build Without Data Scientists</a>
+	- Medium
+	@ 17-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">AI project: expectation vs reality &amp; general AI vs genAI</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/ai-project-expectation-vs-reality.webp">
+	<figcaption>
+	General AI project - expectation vs reality
+	</figcaption>
+	</figure>
+	<figure>
+	<img src="/assets/images/ai/ai-projec-general-vs-genai.webp">
+	<figcaption>
+	General AI project - general vs genAI
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
+<li>
 	<a href="https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457">How to Choose the Architecture for Your GenAI Application</a>
+	- Medium
 	@ 03-Oct-2024
 </li>
 <li>
+	<a href="https://medium.com/top-python-libraries/11-python-packages-that-turn-hundreds-of-lines-of-code-into-one-b487f9bb95de">11-Python Packages That Turn Hundreds of Lines of Code into Few</a>
+	- Medium
+	@ 28-Sep-2024
+	&ndash;
+	pandas, numpy, <font class="emph">SQLAlchemy</font>, <font class="emph">Django</font>,
+	matplotlib, seaborn, requests, BeautifulSoup, re,
+	<font class="emph">dask</font>,
+	<font class="emph">pyautogui</font>,
+	<font class="emph">OpenCV</font>
+</li>
+<li>
 	<a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">10 GitHub Repositories for Deep Learning Enthusiasts</a>
+	- KDnuggets
 	@ 19-Sep-2024
 </li>
 </ul>
@@ -771,11 +817,24 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://medium.com/the-useful-tech/5-incredibly-useful-websites-to-try-out-1612337a0ab6">5 Incredibly Useful Websites to try out</a>
+	- Medium
+	@ 14-Oct-2024
+	&ndash;
+	Documentary Storm,
+	Our World In Data,
+	Zenpen,
+	The Org,
+	Virus Total
+</li>
+<li>
 	<a href="https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/">The End Of The SaaS Era: Rethinking Software’s Role In Business</a>
+	- Forbes
 	@ 30-Sep-2024
 </li>
 <li>
 	<a href="https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5">Stop making your python projects like it was 15 years ago...</a>
+	- Medium
 	@ 28-Sep-2024
 </li>
 </ul>
@@ -908,12 +967,32 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://medium.com/illumination/twelve-smart-steps-to-become-a-millionaire-in-the-next-few-years-e8009d882bab">Twelve Smart Steps to Become a Millionaire in the Next Few Years</a>
+	- Medium
+	@ 26-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">quotes</div>
+	<div class="foldable-content">
+	<blockquote>
+	The greatest asset is yourself. So invest at least 20% of the money back into you. Sharpen your skills, get better tools, and pay people to improve your digital assets like a website.
+	</blockquote>
+	<blockquote>
+	Choose to spend your money buying a year off from work over a brand-new Lambo. That’s how you know money is working for you.
+	</blockquote>
+	</div>
+</li>
+<li>
 	<a href="https://medium.com/speaking-bipolar/should-you-forgive-your-parents-3bc1a315bca9">Fresh Slate</a>
 	- Medium
 	@ 13-Sep-2024
 </li>
 <li>
 	<a href="https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20">A Philosopher Explains How to Enjoy Life In Nine Sentences</a>
+	- Medium
+	@ 08-May-2024
+</li>
+<li>
+	<a href="https://medium.com/swlh/the-internet-has-been-fooling-you-e43714384d95">The Internet Has Been Fooling You</a>
 	- Medium
 	@ 08-May-2024
 </li>
@@ -929,9 +1008,29 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://towardsdatascience.com/the-ai-productivity-paradox-why-arent-more-workers-using-chatgpt-a1dfe96a9460">The AI Productivity Paradox: Why Aren’t More Workers Using ChatGPT?</a>
+	- Medium
+	@ 28-Oct-2024
+</li>
+<li>
 	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
 	- NVIDIA Newsroom
 	@ 28-Oct-2024
+</li>
+<li>
+	<a href="https://medium.com/illumination/twelve-smart-steps-to-become-a-millionaire-in-the-next-few-years-e8009d882bab">Twelve Smart Steps to Become a Millionaire in the Next Few Years</a>
+	- Medium
+	@ 26-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">quotes</div>
+	<div class="foldable-content">
+	<blockquote>
+	The greatest asset is yourself. So invest at least 20% of the money back into you. Sharpen your skills, get better tools, and pay people to improve your digital assets like a website.
+	</blockquote>
+	<blockquote>
+	Choose to spend your money buying a year off from work over a brand-new Lambo. That’s how you know money is working for you.
+	</blockquote>
+	</div>
 </li>
 <li>
 	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
@@ -961,6 +1060,29 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 17-Oct-2024
 </li>
 <li>
+	<a href="https://medium.com/deep-tech-innovation/no-code-generative-ai-how-companies-can-build-without-data-scientists-7e5ca851f2ba">No-Code Generative AI: How Companies Can Build Without Data Scientists</a>
+	- Medium
+	@ 17-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">AI project: expectation vs reality &amp; general AI vs genAI</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/ai-project-expectation-vs-reality.webp">
+	<figcaption>
+	General AI project - expectation vs reality
+	</figcaption>
+	</figure>
+	<figure>
+	<img src="/assets/images/ai/ai-projec-general-vs-genai.webp">
+	<figcaption>
+	General AI project - general vs genAI
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
+<li>
 	<a href="https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/">The Need For Medical Futures Studies: Our Benchmark Study</a>
 	- The Medical Futurist
 	@ 16-Oct-2024
@@ -974,6 +1096,17 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://generativeai.pub/openai-rolls-out-searchgpt-to-more-users-33024ff3132c" id="searchgpt-01">OpenAI Rolls Out SearchGPT To More Users</a>
 	- Medium
 	@ 14-Oct-2024
+</li>
+<li>
+	<a href="https://medium.com/the-useful-tech/5-incredibly-useful-websites-to-try-out-1612337a0ab6">5 Incredibly Useful Websites to try out</a>
+	- Medium
+	@ 14-Oct-2024
+	&ndash;
+	Documentary Storm,
+	Our World In Data,
+	Zenpen,
+	The Org,
+	Virus Total
 </li>
 <li>
 	<a href="https://medium.com/swlh/99-of-people-use-ai-wrong-heres-how-to-use-ai-tools-to-work-smarter-f44db8e2757d">99% of People Use AI Wrong — Here’s How to Use AI Tools to Work Smarter</a>
@@ -1047,6 +1180,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457">How to Choose the Architecture for Your GenAI Application</a>
+	- Medium
 	@ 03-Oct-2024
 </li>
 <li>
@@ -1169,6 +1303,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/">The End Of The SaaS Era: Rethinking Software’s Role In Business</a>
+	- Forbes
 	@ 30-Sep-2024
 </li>
 <li>
@@ -1223,7 +1358,19 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 29-Sep-2024
 </li>
 <li>
+	<a href="https://medium.com/top-python-libraries/11-python-packages-that-turn-hundreds-of-lines-of-code-into-one-b487f9bb95de">11-Python Packages That Turn Hundreds of Lines of Code into Few</a>
+	- Medium
+	@ 28-Sep-2024
+	&ndash;
+	pandas, numpy, <font class="emph">SQLAlchemy</font>, <font class="emph">Django</font>,
+	matplotlib, seaborn, requests, BeautifulSoup, re,
+	<font class="emph">dask</font>,
+	<font class="emph">pyautogui</font>,
+	<font class="emph">OpenCV</font>
+</li>
+<li>
 	<a href="https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5">Stop making your python projects like it was 15 years ago...</a>
+	- Medium
 	@ 28-Sep-2024
 </li>
 <li>
@@ -1400,6 +1547,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts">10 GitHub Repositories for Deep Learning Enthusiasts</a>
+	- KDnuggets
 	@ 19-Sep-2024
 </li>
 <li>
@@ -1558,6 +1706,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20">A Philosopher Explains How to Enjoy Life In Nine Sentences</a>
+	- Medium
+	@ 08-May-2024
+</li>
+<li>
+	<a href="https://medium.com/swlh/the-internet-has-been-fooling-you-e43714384d95">The Internet Has Been Fooling You</a>
 	- Medium
 	@ 08-May-2024
 </li>

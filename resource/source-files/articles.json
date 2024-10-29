@@ -1,5 +1,12 @@
 [
 	{
+		"category": ["ai", "for-exec"],
+		"url": "https://towardsdatascience.com/the-ai-productivity-paradox-why-arent-more-workers-using-chatgpt-a1dfe96a9460",
+		"title": "The AI Productivity Paradox: Why Aren’t More Workers Using ChatGPT?",
+		"date": "28-Oct-2024",
+		"press": "Medium"
+	},
+	{
 		"id": "nvidia-xai-supercomputer",
 		"category": ["supercomputers"],
 		"url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
@@ -676,15 +683,59 @@
 	},
 	{
 		"category": ["ai", "software"],
+		"url": "https://medium.com/deep-tech-innovation/no-code-generative-ai-how-companies-can-build-without-data-scientists-7e5ca851f2ba",
+		"title": "No-Code Generative AI: How Companies Can Build Without Data Scientists",
+		"date": "17-Oct-2024",
+		"press": "Medium",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">AI project: expectation vs reality &amp; general AI vs genAI</div>",
+			"<div class=\"foldable-content\">",
+			"<div class=\"fig-container\">",
+			"<figure>",
+			"<img src=\"/assets/images/ai/ai-project-expectation-vs-reality.webp\">",
+			"<figcaption>",
+			"General AI project - expectation vs reality",
+			"</figcaption>",
+			"</figure>",
+			"<figure>",
+			"<img src=\"/assets/images/ai/ai-projec-general-vs-genai.webp\">",
+			"<figcaption>",
+			"General AI project - general vs genAI",
+			"</figcaption>",
+			"</figure>",
+			"</div>",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "software"],
+		"url": "https://medium.com/top-python-libraries/11-python-packages-that-turn-hundreds-of-lines-of-code-into-one-b487f9bb95de",
+		"title": "11-Python Packages That Turn Hundreds of Lines of Code into Few",
+		"date": "28-Sep-2024",
+		"press": "Medium",
+		"postfix": [
+			"&ndash;",
+			"pandas, numpy, <font class=\"emph\">SQLAlchemy</font>, <font class=\"emph\">Django</font>,",
+			"matplotlib, seaborn, requests, BeautifulSoup, re,",
+			"<font class=\"emph\">dask</font>,",
+			"<font class=\"emph\">pyautogui</font>,",
+			"<font class=\"emph\">OpenCV</font>"
+		]
+	},
+	{
+		"category": ["ai", "software"],
 		"url": "https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457",
 		"title": "How to Choose the Architecture for Your GenAI Application",
-		"date": "03-Oct-2024"
+		"date": "03-Oct-2024",
+		"press": "Medium"
 	},
 	{
 		"category": ["ai", "software"],
 		"url": "https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts",
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
-		"date": "19-Sep-2024"
+		"date": "19-Sep-2024",
+		"press": "KDnuggets"
 	},
 	{
 		"category": ["semiconductor"],
@@ -818,15 +869,32 @@
 	},
 	{
 		"category": ["software"],
+		"url": "https://medium.com/the-useful-tech/5-incredibly-useful-websites-to-try-out-1612337a0ab6",
+		"title": "5 Incredibly Useful Websites to try out",
+		"press": "Medium",
+		"date": "14-Oct-2024",
+		"postfix": [
+			"&ndash;",
+			"Documentary Storm,",
+			"Our World In Data,",
+			"Zenpen,",
+			"The Org,",
+			"Virus Total"
+		]
+	},
+	{
+		"category": ["software"],
 		"url": "https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5",
 		"title": "Stop making your python projects like it was 15 years ago...",
-		"date": "28-Sep-2024"
+		"date": "28-Sep-2024",
+		"press": "Medium"
 	},
 	{
 		"category": ["software"],
 		"url": "https://www.forbes.com/sites/josipamajic/2024/09/30/the-end-of-the-saas-era-rethinking-softwares-role-in-business/",
 		"title": "The End Of The SaaS Era: Rethinking Software’s Role In Business",
-		"date": "30-Sep-2024"
+		"date": "30-Sep-2024",
+		"press": "Forbes"
 	},
 	{
 		"category": ["new-tech"],
@@ -953,6 +1021,32 @@
 		"title": "A Philosopher Explains How to Enjoy Life In Nine Sentences",
 		"date": "08-May-2024",
 		"press": "Medium"
+	},
+	{
+		"category": ["cultivation"],
+		"url": "https://medium.com/swlh/the-internet-has-been-fooling-you-e43714384d95",
+		"title": "The Internet Has Been Fooling You",
+		"date": "08-May-2024",
+		"press": "Medium"
+	},
+	{
+		"category": ["cultivation"],
+		"url": "https://medium.com/illumination/twelve-smart-steps-to-become-a-millionaire-in-the-next-few-years-e8009d882bab",
+		"title": "Twelve Smart Steps to Become a Millionaire in the Next Few Years",
+		"date": "26-Oct-2024",
+		"press": "Medium",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">quotes</div>",
+			"<div class=\"foldable-content\">",
+			"<blockquote>",
+			"The greatest asset is yourself. So invest at least 20% of the money back into you. Sharpen your skills, get better tools, and pay people to improve your digital assets like a website.",
+			"</blockquote>",
+			"<blockquote>",
+			"Choose to spend your money buying a year off from work over a brand-new Lambo. That’s how you know money is working for you.",
+			"</blockquote>",
+			"</div>"
+		]
 	},
 	{
 		"category": ["others"],
