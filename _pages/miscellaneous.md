@@ -197,7 +197,6 @@ Trips
 
 <ul>
 <li>
-	(tentative)
 	biz trip to Seoul
 	-
 	12 nights
