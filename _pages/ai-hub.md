@@ -84,7 +84,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">US Healthcare System Deploys AI Agents, From Research to Rounds</a>
-	- Nvidia
+	- NVIDIA
 	@ 08-Oct-2024
 </li>
 <li>
@@ -210,6 +210,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="supercomputers">Supercomputers</h1>
 
 <ul>
+<li>
+	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
+	- NVIDIA Newsroom
+	@ 28-Oct-2024
+</li>
 <li>
 	<a href="https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger">The OpenAI Mafia is Racing to Bigger AI Supercomputers</a>
 	- AI Supremacy
@@ -408,7 +413,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/">Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community</a>
-	- Nvidia Blog
+	- NVIDIA Blog
 	@ 08-Oct-2024
 </li>
 <li>
@@ -474,7 +479,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market</a>
+	<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">NVIDIA hopes lightning will strike twice as it aims to corner the burgeoning robotics market</a>
 	@ 01-Oct-2024 PDT
 </li>
 <li>
@@ -502,7 +507,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 06-Oct-2024
 </li>
 <li>
-	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">Nvidia just released an open-source LLM to rival GPT-4</a>
+	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">NVIDIA just released an open-source LLM to rival GPT-4</a>
 	- yahoo!tech
 	@ 02-Oct-2024
 </li>
@@ -924,6 +929,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
+	- NVIDIA Newsroom
+	@ 28-Oct-2024
+</li>
+<li>
 	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
 	- LinkedIn Newsletter - The Intelligence Revolution
 	@ 22-Oct-2024
@@ -997,7 +1007,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">US Healthcare System Deploys AI Agents, From Research to Rounds</a>
-	- Nvidia
+	- NVIDIA
 	@ 08-Oct-2024
 </li>
 <li>
@@ -1007,7 +1017,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/">Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community</a>
-	- Nvidia Blog
+	- NVIDIA Blog
 	@ 08-Oct-2024
 </li>
 <li>
@@ -1059,7 +1069,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Oct-2024 PDT
 </li>
 <li>
-	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">Nvidia just released an open-source LLM to rival GPT-4</a>
+	<a href="https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html">NVIDIA just released an open-source LLM to rival GPT-4</a>
 	- yahoo!tech
 	@ 02-Oct-2024
 </li>
@@ -1087,7 +1097,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 01-Oct-2024
 </li>
 <li>
-	<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market</a>
+	<a href="https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9">NVIDIA hopes lightning will strike twice as it aims to corner the burgeoning robotics market</a>
 	@ 01-Oct-2024 PDT
 </li>
 <li>

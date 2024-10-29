@@ -1,5 +1,13 @@
 [
 	{
+		"id": "nvidia-xai-supercomputer",
+		"category": ["supercomputers"],
+		"url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
+		"title": "NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible",
+		"date": "28-Oct-2024",
+		"press": "NVIDIA Newsroom"
+	},
+	{
 		"category": ["supercomputers"],
 		"url": "https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger",
 		"title": "The OpenAI Mafia is Racing to Bigger AI Supercomputers",
@@ -75,7 +83,7 @@
 		"url": "https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898",
 		"title": "US Healthcare System Deploys AI Agents, From Research to Rounds",
 		"date": "08-Oct-2024",
-		"press": "Nvidia"
+		"press": "NVIDIA"
 	},
 	{
 		"category": ["biotech"],
@@ -379,7 +387,7 @@
 		"category": ["ai", "general"],
 		"url": "https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/",
 		"title": "Pittsburgh Steels Itself for Innovation With Launch of NVIDIA AI Tech Community",
-		"press": "Nvidia Blog",
+		"press": "NVIDIA Blog",
 		"date": "08-Oct-2024"
 	},
 	{
@@ -457,7 +465,7 @@
 	{
 		"category": ["ai", "robotics"],
 		"url": "https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9",
-		"title": "Nvidia hopes lightning will strike twice as it aims to corner the burgeoning robotics market",
+		"title": "NVIDIA hopes lightning will strike twice as it aims to corner the burgeoning robotics market",
 		"date": "01-Oct-2024 PDT"
 	},
 	{
@@ -506,7 +514,7 @@
 	{
 		"category": ["ai", "llm"],
 		"url": "https://www.yahoo.com/tech/nvidia-just-released-open-source-165411632.html",
-		"title": "Nvidia just released an open-source LLM to rival GPT-4",
+		"title": "NVIDIA just released an open-source LLM to rival GPT-4",
 		"press": "yahoo!tech",
 		"date": "02-Oct-2024"
 	},
