@@ -24,10 +24,10 @@ def print_structure(element: Tag, indent: int = 0):
 
     # Loop over the children elements
     for child in element.children:
-        if child.name:  # If the child is a tag, recursively print its structure
-            print_structure(child, indent + 2)
-        elif child.strip():  # If it's a string and not just whitespace, print it
-            print(f"{indent_str}  {child.strip()}")
+        if child.name:  # type:ignore
+            print_structure(child, indent + 2)  # type:ignore
+        elif child.strip():  # type:ignore
+            print(f"{indent_str}  {child.strip()}")  # type:ignore
 
     # Close the tag (not necessary but adds clarity)
     if element.name:

@@ -46,7 +46,8 @@ class EntityCollection:
                 [str(y) for y in categories_not_in_config]
             )
             logger.warning(
-                f"The {self._entity_type}(s) in categories {categories_not_in_config_str} are ignore."
+                f"The {self._entity_type}(s) in categories {categories_not_in_config_str}"
+                " are ignore."
             )
 
         for category_title_map in config:
