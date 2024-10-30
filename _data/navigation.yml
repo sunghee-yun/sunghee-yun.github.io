@@ -7,6 +7,8 @@ main:
     url: /papers
   - title: "AI Learning"
     url: /ai-learning
+  - title: "SGS"
+    url: /salzburg-global-seminar
   - title: "blog"
     url: /posts
   - title: "tags"
