@@ -146,17 +146,17 @@ Trips
 	Family Trip to New York - 6 nights
 	<ul>
 	<li>
-		25-Dec-2024 ~ 31-Dec-2024 PDT
+		25-Dec-2024 ~ 31-Dec-2024 PST
 	</li>
 	<li>
 		flight 1
 		- Alaska 20
-		- from SFO @ 2:22pm PDT to JFK @ 10:58pm EDT on 25-Dec-2024
+		- from SFO @ 2:22pm PST to JFK @ 10:58pm EST on 25-Dec-2024
 	</li>
 	<li>
 		flight 2
 		- Alaska 47
-		- from JFK @ 8:17pm EDT to SFO @ 11:59pm PDT on 31-Dec-2024
+		- from JFK @ 8:17pm EST to SFO @ 11:59pm PST on 31-Dec-2024
 	</li>
 	<li>
 		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's</a>
@@ -170,7 +170,7 @@ Trips
 	4 nights
 	<ul>
 	<li>
-		04-Dec-2024 ~ 08-Dec-2024 PDT
+		04-Dec-2024 ~ 08-Dec-2024 PST
 	</li>
 	<li>
 		flight 1
@@ -202,7 +202,7 @@ Trips
 	12 nights
 	<ul>
 	<li>
-		01-Nov-2024 ~ 13-Nov-2024 PDT
+		01-Nov-2024 PDT ~ 13-Nov-2024 PST
 	</li>
 	<li>
 		flight 1
@@ -212,7 +212,7 @@ Trips
 	<li>
 		flight 2
 		- Air Premia 111
-		- from ICN @ 6:55pm KST to SFO @ 12pm PDT on 13-Nov-2024
+		- from ICN @ 6:55pm KST to SFO @ 12pm PST on 13-Nov-2024
 	</li>
 	<li>
 		stay @ <a href="https://naver.me/GJT1udxo">내곡동</a>
@@ -224,6 +224,19 @@ Trips
 <h4>Oct</h4>
 
 <ul>
+<li>
+	biz trip for <a href="https://maps.app.goo.gl/N6nKqHUAnSk2KcKA7">Solidigm</a> AI Consultation
+	-
+	1 night
+	<ul>
+	<li>
+		30-Oct-2024 ~ 31-Oct-2024 PDT
+	</li>
+	<li>
+		stay @ <a href="https://maps.app.goo.gl/2czKMNTpzyzWoWmN7">Courtyard Sacramento Rancho Cordova</a>
+	</li>
+	</ul>
+</li>
 <li>
 	biz trip for Liquid AI Product Launch
 	-
@@ -311,6 +324,11 @@ Trips
 	</li>
 	</ul>
 </li>
+</ul>
+
+<h4>Aug</h4>
+
+<ul>
 <li>
 	biz trip to Seoul - 16 nights
 	<ul>
@@ -336,11 +354,6 @@ Trips
 	</li>
 	</ul>
 </li>
-</ul>
-
-<h4>Aug</h4>
-
-<ul>
 <li>
 	biz trip to Seattle - 4 nights
 	<ul>
