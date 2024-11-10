@@ -190,38 +190,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
-<h1 id="quantum-computing">Quantum computing</h1>
-
-<ul>
-<li>
-	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
-	- LinkedIn Newsletter - The Intelligence Revolution
-	@ 22-Oct-2024
-	&nbsp;
-	<div class="foldable-toggle">excerpts</div>
-	<div class="foldable-content">
-	<p>
-	Despite these challenges, the potential benefits of Quantum AI are too significant to ignore. It's not just about faster computers or more efficient algorithms – it's about fundamentally changing the way we approach problem-solving across all domains of human endeavor. It's about unlocking solutions to problems that we currently consider intractable.
-	</p>
-	</div>
-</li>
-</ul>
-
-<h1 id="supercomputers">Supercomputers</h1>
-
-<ul>
-<li>
-	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
-	- NVIDIA Newsroom
-	@ 28-Oct-2024
-</li>
-<li>
-	<a href="https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger">The OpenAI Mafia is Racing to Bigger AI Supercomputers</a>
-	- AI Supremacy
-	@ 05-Sep-2024
-</li>
-</ul>
-
 <h1 id="ai">AI</h1>
 
 
@@ -256,6 +224,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h3 id="ai-impacts-legal">legal impacts</h3>
 
 <ul>
+<li>
+	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
+	- LinkedIn Post
+	@ 09-Nov-2024
+</li>
 <li>
 	<a href="https://www.gov.ca.gov/2024/09/19/governor-newsom-signs-bills-to-crack-down-on-sexually-explicit-deepfakes-require-ai-watermarking/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz-_SKvVrMTpoEvghVW6iCnSfnhGyBZp9-SusNGPML0M4kAyura6K7_Vq_5zln6cD3i1dRrVv7qQ7CLDxGSP8uE-Na0py7w&_hsmi=326276402&utm_content=326276402&utm_source=hs_email">Governor Newsom signs bills to crack down on sexually explicit deepfakes & require AI watermarking</a>
 	- Governor Gavin Newsom
@@ -502,6 +475,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop">LLM agent benchmarks</a>
+	- LinkedIn Post
+	@ 31-Oct-2024
+</li>
+<li>
 	<a href="https://albertoromgar.medium.com/gpt-is-dead-long-live-openai-o1-9f633dbea02d">Long Live OpenAI o1</a>
 	- Medium
 	@ 17-Oct-2024
@@ -630,6 +608,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h2 id="ai-data">Data</h2>
+
+<ul>
+<li>
+	<a href="https://diversityatlas.io/democratised-datasets-valuing-people/">Democratised Datasets: Valuing People for Who They Are</a>
+	- diversity atlas
+	@ 31-Oct-2024
+</li>
+</ul>
+
 <h2 id="ai-digital-twins">Digital twins</h2>
 
 <ul>
@@ -712,6 +700,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="semiconductor">Semiconductor</h1>
 
 <ul>
+<li>
+	<a href="https://seekingalpha.com/article/4731824-intel-remains-broken?mailingid=37312094&messageid=must_reads">Intel Remains Broken</a>
+	- Seeking Alpha
+	@ 31-Oct-2024 7:50 PM ET
+</li>
+<li>
+	<a href="https://seekingalpha.com/article/4731794-intel-drops-critical-q3-results-its-over?mailingid=37312094&messageid=must_reads&piano=mra1&serial=37312094.2059856&source=email_must_reads&utm_campaign=Must+Reads+recurring+2024-11-01&utm_content=seeking_alpha&utm_medium=email&utm_source=seeking_alpha&utm_term=must_reads">Intel Drops Critical Q3 Results: It's Over</a>
+	- Seeking Alpha
+	@ 31-Oct-2024 6:25 PM ET
+</li>
 <li>
 	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">K반도체 운명 가를 '반도체 인력난'</a>
 	- 週間朝鮮
@@ -845,6 +843,38 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://v.daum.net/v/20240925061301205">액침냉각 기술 - 7년 후 5300억→2.8조 시장 된다&hellip; 엔비디아도 눈독 들이는 이 기술</a>
 	@ 25-Sep-2024
+</li>
+</ul>
+
+<h1 id="quantum-computing">Quantum computing</h1>
+
+<ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/next-breakthrough-artificial-intelligence-how-quantum-bernard-marr-wtrwe/?trackingId=BsL%2BVtB9T8ibHQe6rVrBpA%3D%3D" id="quantum-ai-01">The Next Breakthrough In Artificial Intelligence: How Quantum AI Will Reshape Our World</a>
+	- LinkedIn Newsletter - The Intelligence Revolution
+	@ 22-Oct-2024
+	&nbsp;
+	<div class="foldable-toggle">excerpts</div>
+	<div class="foldable-content">
+	<p>
+	Despite these challenges, the potential benefits of Quantum AI are too significant to ignore. It's not just about faster computers or more efficient algorithms – it's about fundamentally changing the way we approach problem-solving across all domains of human endeavor. It's about unlocking solutions to problems that we currently consider intractable.
+	</p>
+	</div>
+</li>
+</ul>
+
+<h1 id="supercomputers">Supercomputers</h1>
+
+<ul>
+<li>
+	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
+	- NVIDIA Newsroom
+	@ 28-Oct-2024
+</li>
+<li>
+	<a href="https://www.ai-supremacy.com/p/the-openai-mafia-is-racing-to-bigger">The OpenAI Mafia is Racing to Bigger AI Supercomputers</a>
+	- AI Supremacy
+	@ 05-Sep-2024
 </li>
 </ul>
 
@@ -1007,6 +1037,31 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
+	- LinkedIn Post
+	@ 09-Nov-2024
+</li>
+<li>
+	<a href="https://diversityatlas.io/democratised-datasets-valuing-people/">Democratised Datasets: Valuing People for Who They Are</a>
+	- diversity atlas
+	@ 31-Oct-2024
+</li>
+<li>
+	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop">LLM agent benchmarks</a>
+	- LinkedIn Post
+	@ 31-Oct-2024
+</li>
+<li>
+	<a href="https://seekingalpha.com/article/4731824-intel-remains-broken?mailingid=37312094&messageid=must_reads">Intel Remains Broken</a>
+	- Seeking Alpha
+	@ 31-Oct-2024 7:50 PM ET
+</li>
+<li>
+	<a href="https://seekingalpha.com/article/4731794-intel-drops-critical-q3-results-its-over?mailingid=37312094&messageid=must_reads&piano=mra1&serial=37312094.2059856&source=email_must_reads&utm_campaign=Must+Reads+recurring+2024-11-01&utm_content=seeking_alpha&utm_medium=email&utm_source=seeking_alpha&utm_term=must_reads">Intel Drops Critical Q3 Results: It's Over</a>
+	- Seeking Alpha
+	@ 31-Oct-2024 6:25 PM ET
+</li>
 <li>
 	<a href="https://towardsdatascience.com/the-ai-productivity-paradox-why-arent-more-workers-using-chatgpt-a1dfe96a9460">The AI Productivity Paradox: Why Aren’t More Workers Using ChatGPT?</a>
 	- Medium
