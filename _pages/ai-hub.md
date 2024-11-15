@@ -480,6 +480,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 31-Oct-2024
 </li>
 <li>
+	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
+	- ANTHROP\C
+	@ 22-Oct-2024
+</li>
+<li>
 	<a href="https://albertoromgar.medium.com/gpt-is-dead-long-live-openai-o1-9f633dbea02d">Long Live OpenAI o1</a>
 	- Medium
 	@ 17-Oct-2024
@@ -584,6 +589,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://techcrunch.com/2024/08/17/openais-new-voice-mode-let-me-talk-with-my-phone-not-to-it/">OpenAI’s new voice mode let me talk with my phone, not to it</a>
 	@ 17-Aug-2024
+</li>
+<li>
+	<a href="https://openai.com/index/introducing-swe-bench-verified/">Introducing SWE-bench Verified</a>
+	- OpenAI
+	@ 13-Aug-2024
 </li>
 <li>
 	<a href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/" id="lnn">How MIT’s Liquid Neural Networks can solve AI problems from robotics to self-driving cars</a>
@@ -709,6 +719,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://seekingalpha.com/article/4731794-intel-drops-critical-q3-results-its-over?mailingid=37312094&messageid=must_reads&piano=mra1&serial=37312094.2059856&source=email_must_reads&utm_campaign=Must+Reads+recurring+2024-11-01&utm_content=seeking_alpha&utm_medium=email&utm_source=seeking_alpha&utm_term=must_reads">Intel Drops Critical Q3 Results: It's Over</a>
 	- Seeking Alpha
 	@ 31-Oct-2024 6:25 PM ET
+</li>
+<li>
+	<a href="https://www.intel.com/content/www/us/en/newsroom/news/october-2024-intel-news.html#gs.i5063e" id="x86-ecosystem">Intel and AMD Form x86 Ecosystem Advisory Group to Accelerate Innovation for Developers and Customers</a>
+	- Intel Newsroom
+	@ 15-Oct-2024
 </li>
 <li>
 	<a href="https://weekly.chosun.com/news/articleView.html?idxno=37547">K반도체 운명 가를 '반도체 인력난'</a>
@@ -1100,6 +1115,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
+	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
+	- ANTHROP\C
+	@ 22-Oct-2024
+</li>
+<li>
 	<a href="https://garymarcus.substack.com/p/is-openai-more-like-wework-or-theranos">Is OpenAI more like WeWork or Theranos?</a>
 	- Marcus on AI
 	@ 19-Oct-2024
@@ -1146,6 +1166,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://medcitynews.com/2024/10/wearable-medical-device-novocure-fda-approval-lung-cancer-optune-lua/">Wearable Tumor-Zapping Medical Device Wins FDA Approval for Lung Cancer</a>
 	- MedCity News
 	@ 16-Oct-2024
+</li>
+<li>
+	<a href="https://www.intel.com/content/www/us/en/newsroom/news/october-2024-intel-news.html#gs.i5063e" id="x86-ecosystem">Intel and AMD Form x86 Ecosystem Advisory Group to Accelerate Innovation for Developers and Customers</a>
+	- Intel Newsroom
+	@ 15-Oct-2024
 </li>
 <li>
 	<a href="https://generativeai.pub/openai-rolls-out-searchgpt-to-more-users-33024ff3132c" id="searchgpt-01">OpenAI Rolls Out SearchGPT To More Users</a>
@@ -1744,6 +1769,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://techcrunch.com/2024/08/17/openais-new-voice-mode-let-me-talk-with-my-phone-not-to-it/">OpenAI’s new voice mode let me talk with my phone, not to it</a>
 	@ 17-Aug-2024
+</li>
+<li>
+	<a href="https://openai.com/index/introducing-swe-bench-verified/">Introducing SWE-bench Verified</a>
+	- OpenAI
+	@ 13-Aug-2024
 </li>
 <li>
 	<a href="https://www.cnet.com/tech/mobile/apple-may-ditch-qualcomms-5g-modems-in-some-2025-iphones-report-says/">Apple May Ditch Qualcomm's 5G Modems in Some 2025 iPhones, Report Says</a>

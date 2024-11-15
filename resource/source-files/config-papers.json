@@ -1,9 +1,13 @@
 [
+	[["optimization"], "optimization"],
+	[["optimization", "cvxopt"], "convex optimization"],
 	[["ai", "fundamentals"], "fundamentals"],
 	[["ai", "bio"], "bio"],
+	[["ai", "agent"], "ai agent"],
 	[["ai", "llm"], "LLM"],
 	[["ai", "slm"], "SLM"],
 	[["ai", "cv"], "CV"],
 	[["ai", "dl-models"], "DL models"],
-	[["ai", "nn-models"], "NN models"]
+	[["ai", "nn-models"], "NN models"],
+	[["code repo", "ai"], "ai"]
 ]

@@ -497,6 +497,20 @@
 	},
 	{
 		"category": ["ai", "llm"],
+		"url": "https://openai.com/index/introducing-swe-bench-verified/",
+		"title": "Introducing SWE-bench Verified",
+		"press": "OpenAI",
+		"date": "13-Aug-2024"
+	},
+	{
+		"category": ["ai", "llm"],
+		"url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+		"title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+		"press": "ANTHROP\\C",
+		"date": "22-Oct-2024"
+	},
+	{
+		"category": ["ai", "llm"],
 		"url": "https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop",
 		"title": "LLM agent benchmarks",
 		"press": "LinkedIn Post",
@@ -757,6 +771,14 @@
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024",
 		"press": "KDnuggets"
+	},
+	{
+		"category": ["semiconductor"],
+		"url": "https://www.intel.com/content/www/us/en/newsroom/news/october-2024-intel-news.html#gs.i5063e",
+		"title": "Intel and AMD Form x86 Ecosystem Advisory Group to Accelerate Innovation for Developers and Customers",
+		"press": "Intel Newsroom",
+		"date": "15-Oct-2024",
+		"id": "x86-ecosystem"
 	},
 	{
 		"category": ["semiconductor"],

@@ -30,6 +30,28 @@ toc_sticky: true
 	});
 </script><a href="#all-papers-in-reverse-chronological-order">All papers in reverse chronological order</a>
 
+<h1 id="optimization">Optimization</h1>
+
+<ul>
+<li>
+	"Compact Model Parameter Extraction via Derivative-Free Optimization"
+	- Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd &amp; Srabanti Chowdhury
+	@ 24-Jun-2024
+	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2406.16355">arxiv</a>)
+</li>
+</ul>
+
+<h2 id="optimization-cvxopt">Convex optimization</h2>
+
+<ul>
+<li>
+	"Optimization Algorithm Design via Electric Circuits"
+	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
+	@ 04-Nov-2024
+	(<a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
+</li>
+</ul>
+
 <h1 id="ai">AI</h1>
 
 
@@ -78,6 +100,17 @@ toc_sticky: true
 	- Shilpa Choudhary, MD Khaja Shaik, Sivaneasan Bala Krishnan &amp; Sunita Gupta
 	@ 30-Sep-2024
 	(<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394268832.ch21">Wiley</a>)
+</li>
+</ul>
+
+<h2 id="ai-agent">AI agent</h2>
+
+<ul>
+<li>
+	"MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains"
+	- Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, Dian Ang Yap, Yizhe zhang, Karsten Ahnert, Vik Kamath, Mathias Berglund, Dominic Walsh, Tobias Gindele, Juergen Wiest, Zhengfeng Lai, Xiaoming Wang, Jiulong Shan, Meng Cao, Ruoming Pang &amp; Zirui Wang
+	@ 18-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.18961">arxiv</a>)
 </li>
 </ul>
 
@@ -135,10 +168,29 @@ toc_sticky: true
 </li>
 <li id="facts">
 	"FACTS About Building Retrieval Augmented Generation-based Chatbots"
-	- Rama Akkiraju &amp; et al
+	- Rama Akkiraju, Anbang Xu, Deepak Bora, Tan Yu, Lu An, Vishal Seth, Aaditya Shukla, Pritam Gundecha, Hridhay Mehta, Ashwin Jha, Prithvi Raj, Abhinav Balasubramanian, Murali Maram, Guru Muthusamy, Shivakesh Reddy Annepally, Sidney Knowles, Min Du, Nick Burnett, Sean Javiya, Ashok Marannan, Mamta Kumari, Surbhi Jha, Ethan Dereszenski, Anupam Chakraborty, Subhash Ranjan, Amina Terfai, Anoop Surya, Tracey Mercer, Vinodh Kumar Thanigachalam, Tamar Bar, Sanjana Krishnan, Samy Kilaru, Jasmine Jaksic, Nave Algarici, Jacob Liberman, Joey Conway, Sonu Nayyar &amp; Justin Boitano
 	(NVIDIA)
 	@ 10-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.07858">arxiv</a>)
+	&nbsp;
+	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<figcaption>
+	Control Points in a typical RAG pipeline when building Chatbots
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
+<li>
+	"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+	- Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press &amp; Karthik Narasimhan
+	(Princeton University, Princeton Language and Intelligence, University of Chicago)
+	@ 10-Oct-2023
+	(<a href="https://arxiv.org/abs/2310.06770">arxiv</a>)
 	&nbsp;
 	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
 	<div class="foldable-content">
@@ -207,8 +259,28 @@ toc_sticky: true
 Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 </ul>
+
+<h1 id="code repo">Code repo</h1>
+
+
+<h2 id="code repo-ai">AI</h2>
+
+<ul>
+<li>
+	"OpenAI's Swarm"
+	- OpenAI
+	@ 10-Oct-2024
+	(<a href="https://github.com/openai/swarm">github</a>)
+</li>
+</ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
+<li>
+	"Optimization Algorithm Design via Electric Circuits"
+	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
+	@ 04-Nov-2024
+	(<a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
+</li>
 <li>
 	"Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds"
 	- Xingzhi Sun, Danqi Liao, Kincaid MacDonald, Yanlei Zhang, Chen Liu, Guillaume Huguet, Guy Wolf, Ian Adelstein, Tim G. J. Rudner &amp; Smita Krishnaswamy
@@ -221,6 +293,12 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	Rapid growth of high-dimensional datasets in fields such as single-cell RNA sequencing and spatial genomics has led to unprecedented opportunities for scientific discovery, but it also presents unique computational and statistical challenges. Traditional methods struggle with geometry-aware data generation, interpolation along meaningful trajectories, and transporting populations via feasible paths. To address these issues, we introduce Geometry-Aware Generative Autoencoder (GAGA), a novel framework that combines extensible manifold learning with generative modeling. GAGA constructs a neural network embedding space that respects the intrinsic geometries discovered by manifold learning and learns a novel warped Riemannian metric on the data space. This warped metric is derived from both the points on the data manifold and negative samples off the manifold, allowing it to characterize a meaningful geometry across the entire latent space. Using this metric, GAGA can uniformly sample points on the manifold, generate points along geodesics, and interpolate between populations across the learned manifold using geodesic-guided flows. GAGA shows competitive performance in simulated and real-world datasets, including a 30% improvement over the state-of-the-art methods in single-cell population-level trajectory inference.
 	</p>
 	</div>
+</li>
+<li>
+	"OpenAI's Swarm"
+	- OpenAI
+	@ 10-Oct-2024
+	(<a href="https://github.com/openai/swarm">github</a>)
 </li>
 <li>
 	"Predicting Gene Ontology Annotations from CAFA Using Distance Machine Learning and Transfer Metric Learning"
@@ -289,6 +367,12 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://arxiv.org/abs/2407.06023">arxiv</a>)
 </li>
 <li>
+	"MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains"
+	- Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, Dian Ang Yap, Yizhe zhang, Karsten Ahnert, Vik Kamath, Mathias Berglund, Dominic Walsh, Tobias Gindele, Juergen Wiest, Zhengfeng Lai, Xiaoming Wang, Jiulong Shan, Meng Cao, Ruoming Pang &amp; Zirui Wang
+	@ 18-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.18961">arxiv</a>)
+</li>
+<li>
 	"Mask2Map: Vectorized HD Map Construction Using Bird's Eye View Segmentation Masks"
 	- Sehwan Choi, Jungho Kim, Hongjae Shin &amp; Jun Won Choi
 	(Hanyang University &amp; SNU)
@@ -303,10 +387,35 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 <li id="facts">
 	"FACTS About Building Retrieval Augmented Generation-based Chatbots"
-	- Rama Akkiraju &amp; et al
+	- Rama Akkiraju, Anbang Xu, Deepak Bora, Tan Yu, Lu An, Vishal Seth, Aaditya Shukla, Pritam Gundecha, Hridhay Mehta, Ashwin Jha, Prithvi Raj, Abhinav Balasubramanian, Murali Maram, Guru Muthusamy, Shivakesh Reddy Annepally, Sidney Knowles, Min Du, Nick Burnett, Sean Javiya, Ashok Marannan, Mamta Kumari, Surbhi Jha, Ethan Dereszenski, Anupam Chakraborty, Subhash Ranjan, Amina Terfai, Anoop Surya, Tracey Mercer, Vinodh Kumar Thanigachalam, Tamar Bar, Sanjana Krishnan, Samy Kilaru, Jasmine Jaksic, Nave Algarici, Jacob Liberman, Joey Conway, Sonu Nayyar &amp; Justin Boitano
 	(NVIDIA)
 	@ 10-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.07858">arxiv</a>)
+	&nbsp;
+	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
+	<div class="foldable-content">
+	<div class="fig-container">
+	<figure>
+	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<figcaption>
+	Control Points in a typical RAG pipeline when building Chatbots
+	</figcaption>
+	</figure>
+	</div>
+	</div>
+</li>
+<li>
+	"Compact Model Parameter Extraction via Derivative-Free Optimization"
+	- Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd &amp; Srabanti Chowdhury
+	@ 24-Jun-2024
+	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2406.16355">arxiv</a>)
+</li>
+<li>
+	"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+	- Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press &amp; Karthik Narasimhan
+	(Princeton University, Princeton Language and Intelligence, University of Chicago)
+	@ 10-Oct-2023
+	(<a href="https://arxiv.org/abs/2310.06770">arxiv</a>)
 	&nbsp;
 	<div class="foldable-toggle">RAG pipeline for Chatbots</div>
 	<div class="foldable-content">

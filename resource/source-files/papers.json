@@ -1,5 +1,44 @@
 [
 	{
+		"category": ["ai", "agent"],
+		"title": "MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains",
+		"authors": "Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, Dian Ang Yap, Yizhe zhang, Karsten Ahnert, Vik Kamath, Mathias Berglund, Dominic Walsh, Tobias Gindele, Juergen Wiest, Zhengfeng Lai, Xiaoming Wang, Jiulong Shan, Meng Cao, Ruoming Pang, Zirui Wang",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2407.18961"
+		},
+		"date": "18-Jul-2024",
+		"last_revised": "15-Aug-2024"
+	},
+	{
+		"category": ["optimization"],
+		"title": "Compact Model Parameter Extraction via Derivative-Free Optimization",
+		"authors": "Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd, Srabanti Chowdhury",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html",
+			"arxiv": "https://arxiv.org/abs/2406.16355"
+		},
+		"date": "24-Jun-2024",
+		"last_revised": "11-Nov-2024"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Optimization Algorithm Design via Electric Circuits",
+		"authors": "Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu, Jaewook J. Suh",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2411.02573"
+		},
+		"date": "04-Nov-2024"
+	},
+	{
+		"category": ["code repo", "ai"],
+		"title": "OpenAI's Swarm",
+		"authors": "OpenAI",
+		"url": {
+			"github": "https://github.com/openai/swarm"
+		},
+		"date": "10-Oct-2024"
+	},
+	{
 		"category": ["ai", "bio"],
 		"title": "Predicting Gene Ontology Annotations from CAFA Using Distance Machine Learning and Transfer Metric Learning",
 		"authors": "Shilpa Choudhary, MD Khaja Shaik, Sivaneasan Bala Krishnan, Sunita Gupta",
@@ -91,6 +130,30 @@
 			}
 	},
 	{
+		"category": ["ai", "llm"],
+		"title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+		"date": "10-Oct-2023",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2310.06770"
+		},
+		"authors": "Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press, Karthik Narasimhan",
+		"org": "Princeton University, Princeton Language and Intelligence, University of Chicago",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">RAG pipeline for Chatbots</div>",
+			"<div class=\"foldable-content\">",
+			"<div class=\"fig-container\">",
+			"<figure>",
+			"<img src=\"/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png\">",
+			"<figcaption>",
+			"Control Points in a typical RAG pipeline when building Chatbots",
+			"</figcaption>",
+			"</figure>",
+			"</div>",
+			"</div>"
+		]
+	},
+	{
 		"id": "facts",
 		"category": ["ai", "llm"],
 		"title": "FACTS About Building Retrieval Augmented Generation-based Chatbots",
@@ -98,7 +161,7 @@
 		"url": {
 			"arxiv": "https://arxiv.org/abs/2407.07858"
 		},
-		"authors": "Rama Akkiraju, et al",
+		"authors": "Rama Akkiraju, Anbang Xu, Deepak Bora, Tan Yu, Lu An, Vishal Seth, Aaditya Shukla, Pritam Gundecha, Hridhay Mehta, Ashwin Jha, Prithvi Raj, Abhinav Balasubramanian, Murali Maram, Guru Muthusamy, Shivakesh Reddy Annepally, Sidney Knowles, Min Du, Nick Burnett, Sean Javiya, Ashok Marannan, Mamta Kumari, Surbhi Jha, Ethan Dereszenski, Anupam Chakraborty, Subhash Ranjan, Amina Terfai, Anoop Surya, Tracey Mercer, Vinodh Kumar Thanigachalam, Tamar Bar, Sanjana Krishnan, Samy Kilaru, Jasmine Jaksic, Nave Algarici, Jacob Liberman, Joey Conway, Sonu Nayyar, Justin Boitano",
 		"org": "NVIDIA",
 		"postfix": [
 			"&nbsp;",
