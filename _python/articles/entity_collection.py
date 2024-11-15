@@ -15,6 +15,7 @@ logger: Logger = getLogger()
 class EntityCollection:
     TRANSLATION_TABLE: dict[str, str] = dict(ai="AI", agi="AGI", llm="LLM", genai="genAI")
     TRANSLATION_TABLE["ai in general"] = "AI in general"
+    TRANSLATION_TABLE["ai agent"] = "AI agent"
 
     @staticmethod
     def capitalize(s: str) -> str:

@@ -20,6 +20,7 @@ class EntityBase(ABC):
                 "%d-%b-%Y",
             ).date()
         )
+        self.last_revised_str: str | None = kwargs.pop("last_revised", None)
         self.postfix: list[str] | None = kwargs.pop("postfix", None)
 
         assert len(kwargs) == 0, kwargs
