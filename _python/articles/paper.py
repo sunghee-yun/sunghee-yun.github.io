@@ -30,13 +30,9 @@ class Paper(EntityBase):
         res.append(f'\t"{self.title}"')
 
         if self.authors is not None:
-            author_str: str = self.authors.strip()
-            author_names: list[str] = [author.strip() for author in self.authors.split(",")]
-            if len(author_names) > 1:
-                author_str = ", ".join(author_names[:-1]) + " &amp; " + author_names[-1]
-            res.append(f"\t- {author_str}")
+            res.append(f"\t- {self.convert_comma_separated_str(self.authors)}")
         if self.org is not None:
-            res.append(f"\t({self.org})")
+            res.append(f"\t({self.convert_comma_separated_str(self.org)})")
         if self.date_str is not None:
             res.append(f"\t@ {self.date_str}")
         if self.url is not None:
@@ -52,3 +48,11 @@ class Paper(EntityBase):
         res.append("</li>")
 
         return "\n".join(res)
+
+    @staticmethod
+    def convert_comma_separated_str(names: str) -> str:
+        names_str: str = names.strip()
+        name_str_list: list[str] = [name.strip() for name in names.split(",")]
+        if len(name_str_list) > 1:
+            names_str = ", ".join(name_str_list[:-1]) + " &amp; " + name_str_list[-1]
+        return names_str
