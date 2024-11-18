@@ -9,5 +9,6 @@
 	[["ai", "cv"], "CV"],
 	[["ai", "dl-models"], "DL models"],
 	[["ai", "nn-models"], "NN models"],
+	[["ai", "metric learning"], "metric learning"],
 	[["code repo", "ai"], "ai"]
 ]

@@ -30,6 +30,28 @@
 		"date": "04-Nov-2024"
 	},
 	{
+		"category": ["ai", "metric learning"],
+		"title": "Self-Taught Metric Learning without Labels",
+		"authors": "Sungyeon Kim, Dongwon Kim, Minsu Cho, Suha Kwak",
+		"org": "POSTECH",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2205.01903",
+			"github": "https://github.com/tjddus9597/STML-CVPR22",
+			"ResearchGate": "https://www.researchgate.net/publication/363906881_Self-Taught_Metric_Learning_without_Labels"
+		},
+		"date": "04-May-2022"
+	},
+	{
+		"category": ["ai", "metric learning"],
+		"title": "A Robust and Efficient Doubly Regularized Metric Learning Approach",
+		"authors": "Meizhu Liu, Baba C. Vemuri",
+		"url": {
+			"academia.edu": "https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach",
+			"NIH": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/"
+		},
+		"date": "01-Jan-2012"
+	},
+	{
 		"category": ["code repo", "ai"],
 		"title": "OpenAI's Swarm",
 		"authors": "OpenAI",
@@ -128,6 +150,16 @@
 		"url": {
 			"ScienceRobotics": "https://www.science.org/doi/10.1126/scirobotics.adc8892"
 			}
+	},
+	{
+		"category": ["ai", "llm"],
+		"title": "HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems",
+		"authors": "Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen, Ji-Rong Wen",
+		"date": "05-Nov-2024",
+		"org": "Renmin University of China, Baichuan Intelligent Technology",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2411.02959v1"
+		}
 	},
 	{
 		"category": ["ai", "llm"],

@@ -118,6 +118,13 @@ toc_sticky: true
 
 <ul>
 <li>
+	"HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems"
+	- Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen &amp; Ji-Rong Wen
+	(Renmin University of China &amp; Baichuan Intelligent Technology)
+	@ 05-Nov-2024
+	(<a href="https://arxiv.org/abs/2411.02959v1">arxiv</a>)
+</li>
+<li>
 	"To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning arxiv"
 	@ 18-Sep-2024
 	(<a href="https://arxiv.org/abs/2409.12183">arxiv</a>)
@@ -162,7 +169,7 @@ toc_sticky: true
 <li>
 	"Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation"
 	- Tu Vu, Kalpesh Krishna, Salaheddin Alzubi, Chris Tar, Manaal Faruqui &amp; Yun-Hsuan Sung
-	(Google, Google DeepMind &amp; UMass Amherst)
+	(Google &amp; Google DeepMind &amp; UMass Amherst)
 	@ 15-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.10817">arxiv</a>)
 </li>
@@ -188,7 +195,7 @@ toc_sticky: true
 <li>
 	"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
 	- Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press &amp; Karthik Narasimhan
-	(Princeton University, Princeton Language and Intelligence, University of Chicago)
+	(Princeton University, Princeton Language and Intelligence &amp; University of Chicago)
 	@ 10-Oct-2023
 	(<a href="https://arxiv.org/abs/2310.06770">arxiv</a>)
 	&nbsp;
@@ -260,6 +267,24 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 </ul>
 
+<h2 id="ai-metric learning">Metric learning</h2>
+
+<ul>
+<li>
+	"Self-Taught Metric Learning without Labels"
+	- Sungyeon Kim, Dongwon Kim, Minsu Cho &amp; Suha Kwak
+	(POSTECH)
+	@ 04-May-2022
+	(<a href="https://arxiv.org/abs/2205.01903">arxiv</a>, <a href="https://github.com/tjddus9597/STML-CVPR22">github</a>, <a href="https://www.researchgate.net/publication/363906881_Self-Taught_Metric_Learning_without_Labels">ResearchGate</a>)
+</li>
+<li>
+	"A Robust and Efficient Doubly Regularized Metric Learning Approach"
+	- Meizhu Liu &amp; Baba C. Vemuri
+	@ 01-Jan-2012
+	(<a href="https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach">academia.edu</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/">NIH</a>)
+</li>
+</ul>
+
 <h1 id="code repo">Code repo</h1>
 
 
@@ -275,6 +300,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
+<li>
+	"HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems"
+	- Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen &amp; Ji-Rong Wen
+	(Renmin University of China &amp; Baichuan Intelligent Technology)
+	@ 05-Nov-2024
+	(<a href="https://arxiv.org/abs/2411.02959v1">arxiv</a>)
+</li>
 <li>
 	"Optimization Algorithm Design via Electric Circuits"
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
@@ -381,7 +413,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 <li>
 	"Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation"
 	- Tu Vu, Kalpesh Krishna, Salaheddin Alzubi, Chris Tar, Manaal Faruqui &amp; Yun-Hsuan Sung
-	(Google, Google DeepMind &amp; UMass Amherst)
+	(Google &amp; Google DeepMind &amp; UMass Amherst)
 	@ 15-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.10817">arxiv</a>)
 </li>
@@ -413,7 +445,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 <li>
 	"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
 	- Carlos E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir Press &amp; Karthik Narasimhan
-	(Princeton University, Princeton Language and Intelligence, University of Chicago)
+	(Princeton University, Princeton Language and Intelligence &amp; University of Chicago)
 	@ 10-Oct-2023
 	(<a href="https://arxiv.org/abs/2310.06770">arxiv</a>)
 	&nbsp;
@@ -435,6 +467,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
 </li>
 <li>
+	"Self-Taught Metric Learning without Labels"
+	- Sungyeon Kim, Dongwon Kim, Minsu Cho &amp; Suha Kwak
+	(POSTECH)
+	@ 04-May-2022
+	(<a href="https://arxiv.org/abs/2205.01903">arxiv</a>, <a href="https://github.com/tjddus9597/STML-CVPR22">github</a>, <a href="https://www.researchgate.net/publication/363906881_Self-Taught_Metric_Learning_without_Labels">ResearchGate</a>)
+</li>
+<li>
 	"Classification is a Strong Baseline for Deep Metric Learning"
 	- Andrew Zhai &amp; Hao-Yu Wu
 	@ 30-Nov-2018
@@ -449,6 +488,12 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	"Generating Sentences from a Continuous Space"
 	@ 19-Nov-2015
 	(<a href="https://arxiv.org/abs/1511.06349">arxiv</a>)
+</li>
+<li>
+	"A Robust and Efficient Doubly Regularized Metric Learning Approach"
+	- Meizhu Liu &amp; Baba C. Vemuri
+	@ 01-Jan-2012
+	(<a href="https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach">academia.edu</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/">NIH</a>)
 </li>
 <li>
 	"Statistical Mechanics of Neural Networks"
