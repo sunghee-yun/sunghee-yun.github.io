@@ -221,6 +221,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h2 id="ai-impacts">Impacts</h2>
 
 
+<h3 id="ai-impacts-political">political impacts</h3>
+
+<ul>
+<li>
+	<a href="https://www.ai-supremacy.com/p/the-chief-ai-officer-of-america-elon" id="us-caio">The Chief AI Officer of America, Elon Musk</a>
+	- AI Supremacy
+	@ 18-Nov-2024
+</li>
+</ul>
+
 <h3 id="ai-impacts-legal">legal impacts</h3>
 
 <ul>
@@ -367,6 +377,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">Sixty countries endorse 'blueprint' for AI use in military; China opts out</a>
 	- Reuters
+	@ 10-Sep-2024 4:06 AM PDT
+</li>
+</ul>
+
+<h3 id="ai-impacts-military">military</h3>
+
+<ul>
+<li>
+	<a href="https://www.linkedin.com/news/story/ai-companies-court-defense-orgs-6232228/">AI companies court defense orgs</a>
+	- LinkedIn
 	@ 10-Sep-2024 4:06 AM PDT
 </li>
 </ul>
@@ -711,6 +731,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.etnews.com/20241031000345?mc=nl_001_00001&mi=25025" id="hbm4-2nm">삼성전자, 'HBM4·2나노'에 승부수</a>
+	- 전자신문
+	@ 31-Oct-2024
+</li>
+<li>
 	<a href="https://seekingalpha.com/article/4731824-intel-remains-broken?mailingid=37312094&messageid=must_reads">Intel Remains Broken</a>
 	- Seeking Alpha
 	@ 31-Oct-2024 7:50 PM ET
@@ -1053,6 +1078,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://www.ai-supremacy.com/p/the-chief-ai-officer-of-america-elon" id="us-caio">The Chief AI Officer of America, Elon Musk</a>
+	- AI Supremacy
+	@ 18-Nov-2024
+</li>
+<li>
 	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
 	- LinkedIn Post
 	@ 09-Nov-2024
@@ -1065,6 +1095,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop">LLM agent benchmarks</a>
 	- LinkedIn Post
+	@ 31-Oct-2024
+</li>
+<li>
+	<a href="https://www.etnews.com/20241031000345?mc=nl_001_00001&mi=25025" id="hbm4-2nm">삼성전자, 'HBM4·2나노'에 승부수</a>
+	- 전자신문
 	@ 31-Oct-2024
 </li>
 <li>
@@ -1727,6 +1762,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email">Sixty countries endorse 'blueprint' for AI use in military; China opts out</a>
 	- Reuters
+	@ 10-Sep-2024 4:06 AM PDT
+</li>
+<li>
+	<a href="https://www.linkedin.com/news/story/ai-companies-court-defense-orgs-6232228/">AI companies court defense orgs</a>
+	- LinkedIn
 	@ 10-Sep-2024 4:06 AM PDT
 </li>
 <li>

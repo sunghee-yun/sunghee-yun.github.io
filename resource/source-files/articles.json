@@ -213,6 +213,14 @@
 		"date": "29-Sep-2024"
 	},
 	{
+		"id": "us-caio",
+		"category": ["ai", "impacts", "political"],
+		"url": "https://www.ai-supremacy.com/p/the-chief-ai-officer-of-america-elon",
+		"title": "The Chief AI Officer of America, Elon Musk",
+		"date": "18-Nov-2024",
+		"press": "AI Supremacy"
+	},
+	{
 		"category": ["ai", "impacts", "legal"],
 		"url": "https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop",
 		"title": "Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)",
@@ -374,6 +382,13 @@
 		"url": "https://www.reuters.com/technology/artificial-intelligence/south-korea-summit-announces-blueprint-using-ai-military-2024-09-10/?utm_campaign=The%20Batch&utm_medium=email&_hsenc=p2ANqtz--v5tlaAjwBmHJpolmEZY06kNGvtAQA0huAebrlFR7-uK4UoFfVHetFtA4NopuJ1qdUyTM1Wri9HI45reHayS3hZEDjAg&_hsmi=327370286&utm_content=327370286&utm_source=hs_email",
 		"title": "Sixty countries endorse 'blueprint' for AI use in military; China opts out",
 		"press": "Reuters",
+		"date": "10-Sep-2024 4:06 AM PDT"
+	},
+	{
+		"category": ["ai", "impacts", "military"],
+		"url": "https://www.linkedin.com/news/story/ai-companies-court-defense-orgs-6232228/",
+		"title": "AI companies court defense orgs",
+		"press": "LinkedIn",
 		"date": "10-Sep-2024 4:06 AM PDT"
 	},
 	{
@@ -771,6 +786,14 @@
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024",
 		"press": "KDnuggets"
+	},
+	{
+		"id": "hbm4-2nm",
+		"category": ["semiconductor"],
+		"url": "https://www.etnews.com/20241031000345?mc=nl_001_00001&mi=25025",
+		"title": "삼성전자, 'HBM4·2나노'에 승부수",
+		"press": "전자신문",
+		"date": "31-Oct-2024"
 	},
 	{
 		"category": ["semiconductor"],
