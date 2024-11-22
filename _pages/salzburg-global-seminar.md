@@ -71,8 +71,7 @@ Co-Chair:
 - <a href="https://www.salzburgglobal.org/people?userID=55327">Shaurya Patel</a>
 	-
 	Policy Officer, Delegation of the European Union to India, India
-- <a href="https://sungheeyun.github.io">Sunghee Yun</a>
-	<a href="https://www.linkedin.com/in/sungheeyun/">in</a>
+- [Sunghee Yun]({{ site.url }}/) <a href="https://www.linkedin.com/in/sungheeyun/"><img width=20 height=20 src="/resource/favicons/icons8-linkedin-480.svg"></a>
 	-
 	Co-founder and CTO - AI Technology & Product Strategy, Erudio Bio, Inc., Adjunct Professor, Sogang University, Advisory Professor, DGIST, United States of America
 
@@ -106,7 +105,7 @@ Co-Chair:
 	-
 	Director, Google, Singapore
 
-- Aditi Chaturvedi <a href="http://linkedin.com/in/aditi-chaturvedi-5143465">in</a>
+- Aditi Chaturvedi <a href="http://linkedin.com/in/aditi-chaturvedi-5143465"><img width=20 height=20 src="/resource/favicons/icons8-linkedin-480.svg"></a>
 	-
 	Head of Government Affairs and Public Policy for Platforms and Devices, Google, India
 
@@ -171,7 +170,7 @@ Co-Chair:
 - <a href="https://www.salzburgglobal.org/people?userID=21250">Pauline Yeung</a>
 	-
 	Author, Hong Kong University Business School, China, Hong Kong SAR
-- Pedro A. Gonzalez <a href="https://linkedin.com/in/pedroagont">in</a>
+- Pedro A. Gonzalez <a href="https://linkedin.com/in/pedroagont"><img width=20 height=20 src="/resource/favicons/icons8-linkedin-480.svg"></a>
 	-
 	Tech Entrepreneur, Mentor, Developer, Kaanbal, Mexico
 - <a href="https://www.salzburgglobal.org/people?userID=55397">You Won Park</a>
@@ -271,7 +270,7 @@ Co-Chair:
 - <a href="https://www.salzburgglobal.org/people?userID=55428&eventID=11076">Hong Xu</a>
 	-
 	Research Fellow, The Oxford Institute for Energy Studies, China
-- Jehan Salim <a href="https://www.linkedin.com/in/jehan-salim/">in</a>
+- Jehan Salim <a href="https://www.linkedin.com/in/jehan-salim/"><img width=20 height=20 src="/resource/favicons/icons8-linkedin-480.svg"></a>
 	-
 	Project Manager, UNDP , Canada
 - <a href="https://www.salzburgglobal.org/people?userID=55385">Jongwon Lim</a>
