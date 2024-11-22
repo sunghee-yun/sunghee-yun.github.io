@@ -71,7 +71,8 @@ Co-Chair:
 - <a href="https://www.salzburgglobal.org/people?userID=55327">Shaurya Patel</a>
 	-
 	Policy Officer, Delegation of the European Union to India, India
-- <a href="https://www.salzburgglobal.org/people?userID=55317">Sunghee Yun</a>
+- <a href="https://sungheeyun.github.io">Sunghee Yun</a>
+	<a href="https://www.linkedin.com/in/sungheeyun/">in</a>
 	-
 	Co-founder and CTO - AI Technology & Product Strategy, Erudio Bio, Inc., Adjunct Professor, Sogang University, Advisory Professor, DGIST, United States of America
 
