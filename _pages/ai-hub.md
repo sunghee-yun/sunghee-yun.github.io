@@ -1037,6 +1037,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://ryanholiday.medium.com/this-is-the-most-important-thing-for-these-crazy-times-e834f36ec510">This Is The Most Important Thing For These Crazy Times</a>
+	- Medium
+	@ 13-Nov-2024
+</li>
+<li>
+	<a href="https://medium.com/wise-well/how-to-manage-a-successful-digital-detox-c43dc7b87011">How to Manage a Successful Digital Detox</a>
+	- Medium
+	@ 12-Nov-2024
+</li>
+<li>
 	<a href="https://medium.com/illumination/twelve-smart-steps-to-become-a-millionaire-in-the-next-few-years-e8009d882bab">Twelve Smart Steps to Become a Millionaire in the Next Few Years</a>
 	- Medium
 	@ 26-Oct-2024
@@ -1081,6 +1091,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.ai-supremacy.com/p/the-chief-ai-officer-of-america-elon" id="us-caio">The Chief AI Officer of America, Elon Musk</a>
 	- AI Supremacy
 	@ 18-Nov-2024
+</li>
+<li>
+	<a href="https://ryanholiday.medium.com/this-is-the-most-important-thing-for-these-crazy-times-e834f36ec510">This Is The Most Important Thing For These Crazy Times</a>
+	- Medium
+	@ 13-Nov-2024
+</li>
+<li>
+	<a href="https://medium.com/wise-well/how-to-manage-a-successful-digital-detox-c43dc7b87011">How to Manage a Successful Digital Detox</a>
+	- Medium
+	@ 12-Nov-2024
 </li>
 <li>
 	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
