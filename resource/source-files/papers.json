@@ -274,6 +274,14 @@
 		}
 	},
 	{
+		"category": ["ai", "llm-intelligence"],
+		"title": "Talking About Large Language Models",
+		"date": "07-Dec-2022",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2212.03551"
+		}
+	},
+	{
 		"category": ["ai", "slm"],
 		"title": "Mistral AI Released Mistral-Small-Instruct-2409: A Game-Changing Open-Source Language Model Empowering Versatile AI Applications with Unmatched Efficiency and Accessibility",
 		"date": "18-Sep-2024",
@@ -286,7 +294,48 @@
 		"category": ["ai", "cv"],
 		"title": "Mask2Map: Vectorized HD Map Construction Using Bird's Eye View Segmentation Masks",
 		"authors": "Sehwan Choi, Jungho Kim, Hongjae Shin, Jun Won Choi",
-		"org": "Hanyang University &amp; SNU",
-		"date": "18-Jul-2024"
+		"org": "Hanyang University, SNU",
+		"date": "18-Jul-2024",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2407.13517"
+		}
+	},
+	{
+		"category": ["ai", "recsys"],
+		"title": "Collaborative Filtering for Implicit Feedback Datasets",
+		"authors": "Yifan Hu, Yehuda Koren, Chris Volinsky",
+		"org": "AT&amp;T Labs, Yahoo! Research",
+		"date": "18-Jul-2024",
+		"url": {
+			"PDF": "http://yifanhu.net/PUB/cf.pdf"
+		}
+	},
+	{
+		"category": ["ai", "recsys"],
+		"title": "Applications of the conjugate gradient method for implicit feedback collaborative filtering",
+		"authors": "Gábor Takács, István Pilászy, Domonkos Tikk",
+		"date": "23-Oct-2011",
+		"url": {
+			"ACM": "https://dl.acm.org/doi/10.1145/2043932.2043987"
+		}
+	},
+	{
+		"category": ["ai", "recsys"],
+		"title": "BPR: Bayesian Personalized Ranking from Implicit Feedback",
+		"authors": "Steffen Rendle, Christoph Freudenthaler, Zeno Gantner, Lars Schmidt-Thieme",
+		"date": "09-May-2012",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/1205.2618"
+		}
+	},
+	{
+		"category": ["ai", "recsys"],
+		"title": "Logistic Matrix Factorization for Implicit Feedback Data",
+		"authors": "Christopher C. Johnson",
+		"org": "Spotify",
+		"date": "01-Dec-2014",
+		"url": {
+			"PDF": "https://stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf"
+		}
 	}
 ]

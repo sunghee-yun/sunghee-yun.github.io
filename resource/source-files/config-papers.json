@@ -5,10 +5,12 @@
 	[["ai", "bio"], "bio"],
 	[["ai", "agent"], "ai agent"],
 	[["ai", "llm"], "LLM"],
+	[["ai", "llm-intelligence"], "LLM &amp; intelligence"],
 	[["ai", "slm"], "SLM"],
 	[["ai", "cv"], "CV"],
 	[["ai", "dl-models"], "DL models"],
 	[["ai", "nn-models"], "NN models"],
 	[["ai", "metric learning"], "metric learning"],
+	[["ai", "recsys"], "recommender system"],
 	[["code repo", "ai"], "ai"]
 ]

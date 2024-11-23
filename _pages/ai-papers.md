@@ -213,6 +213,16 @@ toc_sticky: true
 </li>
 </ul>
 
+<h2 id="ai-llm-intelligence">LLM &amp; intelligence</h2>
+
+<ul>
+<li>
+	"Talking About Large Language Models"
+	@ 07-Dec-2022
+	(<a href="https://arxiv.org/abs/2212.03551">arxiv</a>)
+</li>
+</ul>
+
 <h2 id="ai-slm">SLM</h2>
 
 <ul>
@@ -231,6 +241,7 @@ toc_sticky: true
 	- Sehwan Choi, Jungho Kim, Hongjae Shin &amp; Jun Won Choi
 	(Hanyang University &amp; SNU)
 	@ 18-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.13517">arxiv</a>)
 </li>
 </ul>
 
@@ -282,6 +293,37 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- Meizhu Liu &amp; Baba C. Vemuri
 	@ 01-Jan-2012
 	(<a href="https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach">academia.edu</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/">NIH</a>)
+</li>
+</ul>
+
+<h2 id="ai-recsys">Recommender system</h2>
+
+<ul>
+<li>
+	"Collaborative Filtering for Implicit Feedback Datasets"
+	- Yifan Hu, Yehuda Koren &amp; Chris Volinsky
+	(AT&amp;T Labs &amp; Yahoo! Research)
+	@ 18-Jul-2024
+	(<a href="http://yifanhu.net/PUB/cf.pdf">PDF</a>)
+</li>
+<li>
+	"Logistic Matrix Factorization for Implicit Feedback Data"
+	- Christopher C. Johnson
+	(Spotify)
+	@ 01-Dec-2014
+	(<a href="https://stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf">PDF</a>)
+</li>
+<li>
+	"BPR: Bayesian Personalized Ranking from Implicit Feedback"
+	- Steffen Rendle, Christoph Freudenthaler, Zeno Gantner &amp; Lars Schmidt-Thieme
+	@ 09-May-2012
+	(<a href="https://arxiv.org/abs/1205.2618">arxiv</a>)
+</li>
+<li>
+	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
+	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
+	@ 23-Oct-2011
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>)
 </li>
 </ul>
 
@@ -409,6 +451,14 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- Sehwan Choi, Jungho Kim, Hongjae Shin &amp; Jun Won Choi
 	(Hanyang University &amp; SNU)
 	@ 18-Jul-2024
+	(<a href="https://arxiv.org/abs/2407.13517">arxiv</a>)
+</li>
+<li>
+	"Collaborative Filtering for Implicit Feedback Datasets"
+	- Yifan Hu, Yehuda Koren &amp; Chris Volinsky
+	(AT&amp;T Labs &amp; Yahoo! Research)
+	@ 18-Jul-2024
+	(<a href="http://yifanhu.net/PUB/cf.pdf">PDF</a>)
 </li>
 <li>
 	"Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation"
@@ -467,6 +517,11 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://www.science.org/doi/10.1126/scirobotics.adc8892">ScienceRobotics</a>)
 </li>
 <li>
+	"Talking About Large Language Models"
+	@ 07-Dec-2022
+	(<a href="https://arxiv.org/abs/2212.03551">arxiv</a>)
+</li>
+<li>
 	"Self-Taught Metric Learning without Labels"
 	- Sungyeon Kim, Dongwon Kim, Minsu Cho &amp; Suha Kwak
 	(POSTECH)
@@ -490,10 +545,29 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://arxiv.org/abs/1511.06349">arxiv</a>)
 </li>
 <li>
+	"Logistic Matrix Factorization for Implicit Feedback Data"
+	- Christopher C. Johnson
+	(Spotify)
+	@ 01-Dec-2014
+	(<a href="https://stanford.edu/~rezab/nips2014workshop/submits/logmat.pdf">PDF</a>)
+</li>
+<li>
+	"BPR: Bayesian Personalized Ranking from Implicit Feedback"
+	- Steffen Rendle, Christoph Freudenthaler, Zeno Gantner &amp; Lars Schmidt-Thieme
+	@ 09-May-2012
+	(<a href="https://arxiv.org/abs/1205.2618">arxiv</a>)
+</li>
+<li>
 	"A Robust and Efficient Doubly Regularized Metric Learning Approach"
 	- Meizhu Liu &amp; Baba C. Vemuri
 	@ 01-Jan-2012
 	(<a href="https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach">academia.edu</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/">NIH</a>)
+</li>
+<li>
+	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
+	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
+	@ 23-Oct-2011
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>)
 </li>
 <li>
 	"Statistical Mechanics of Neural Networks"
