@@ -25,3 +25,5 @@ main:
     url: /music
   - title: "todo"
     url: /todo-list
+  - title: "exercise"
+    url: /exercise

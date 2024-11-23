@@ -1,0 +1,24 @@
+---
+layout: single
+title: Exercise
+permalink: /exercise
+toc: false
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+date: Sat Nov 23 06:56:34 PST 2024
+last_modified_at: Sat Nov 23 06:56:34 PST 2024
+---
+
+<head>
+	<link rel="stylesheet" href="/resource/styles.css">
+</head>
+
+<h2 id="southwest-ymca-aquatics-schedule">
+	Southwest YMCA Aquatics Schedule
+</h2>
+
+<div class="fig-container">
+<img src="/resource/exercise/southwest-ymca-aquatics-schedule.jpeg">
+</div>
+
