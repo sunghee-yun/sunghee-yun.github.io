@@ -28,7 +28,39 @@ toc_sticky: true
 			});
 		});
 	});
-</script><a href="#all-papers-in-reverse-chronological-order">All papers in reverse chronological order</a>
+</script>
+
+<h1 id="people">People</h1>
+
+<h2 id="people-respect">Those I utterly respect!</h2>
+
+<a href="https://stanford.edu/~boyd/">Stephen P. Boyd</a>
+/
+<a href="https://www.andrewng.org/">Andrew Ng</a>
+
+<h2 id="researchers">Researchers of my interest</h2>
+
+<a href="https://www.doc.ic.ac.uk/~mpsha/">Murray Shanahan</a>
+
+<h2 id="entrepreneurs">Entrepreneurs I respect</h2>
+
+<a href="https://en.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a>
+/
+<a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
+
+<h2 id="companies">Companies of my interest</h2>
+
+<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
+/
+<a href="https://www.figure.ai/">Figure AI</a>
+/
+<a href="https://www.liquid.ai/">Liquid AI</a> 
+/
+<a href="https://mistral.ai/">Mistrial AI</a>
+/
+<a href="https://dnotitia.com/">D.Notitia</a>
+
+<a href="#all-papers-in-reverse-chronological-order">All papers in reverse chronological order</a>
 
 <h1 id="optimization">Optimization</h1>
 
@@ -83,6 +115,13 @@ toc_sticky: true
 
 <ul>
 <li>
+	"Sequence modeling and design from molecular to genome scale with Evo"
+	- Eric Nguyen, Michael Poli, Matthew G. Durrant, Brian Kang, Dhruva Katrekar, David B. Li, Liam J. Bartie, Armin W. Thomas, Samuel H. King, Garyk Brixi, Jeremy Sullivan, Madelena Y. Ng, Ashley Lewis, Aaron Lou, Stefano Ermon, Stephen A. Baccus, Tina Hernandez-Boussard, Christopher Ré, Patrick D. Hsu &amp; Brian L. Hie
+	(Arc Institute, Department of Computer Science @ Stanford University &amp; Stanford Data Science)
+	@ 15-Nov-2024
+	(<a href="https://www.science.org/doi/10.1126/science.ado9336">Science</a>)
+</li>
+<li>
 	"Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds"
 	- Xingzhi Sun, Danqi Liao, Kincaid MacDonald, Yanlei Zhang, Chen Liu, Guillaume Huguet, Guy Wolf, Ian Adelstein, Tim G. J. Rudner &amp; Smita Krishnaswamy
 	@ 16-Oct-2024
@@ -107,8 +146,23 @@ toc_sticky: true
 
 <ul>
 <li>
+	"Agent-as-a-Judge: Evaluate Agents with Agents"
+	- Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra &amp; Jürgen Schmidhuber
+	(Meta AI &amp; King Abdullah University of Science and Technology (KAUST))
+	@ 14-Oct-2024
+	(<a href="https://arxiv.org/abs/2410.10934">arxiv</a>)
+</li>
+<li>
+	"MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+	- Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng &amp; Aleksander Mądry
+	(OpenAI)
+	@ 09-Oct-2024
+	(<a href="https://arxiv.org/abs/2410.07095">arxiv</a>)
+</li>
+<li>
 	"MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains"
 	- Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, Dian Ang Yap, Yizhe zhang, Karsten Ahnert, Vik Kamath, Mathias Berglund, Dominic Walsh, Tobias Gindele, Juergen Wiest, Zhengfeng Lai, Xiaoming Wang, Jiulong Shan, Meng Cao, Ruoming Pang &amp; Zirui Wang
+	(Apple Inc.)
 	@ 18-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.18961">arxiv</a>)
 </li>
@@ -211,6 +265,13 @@ toc_sticky: true
 	</div>
 	</div>
 </li>
+<li>
+	"The Unreasonable Effectiveness of Data"
+	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
+	(Google)
+	@ 24-Mar-2009
+	(<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google Research</a>)
+</li>
 </ul>
 
 <h2 id="ai-llm-intelligence">LLM &amp; intelligence</h2>
@@ -218,8 +279,21 @@ toc_sticky: true
 <ul>
 <li>
 	"Talking About Large Language Models"
+	- Murray Shanahan
 	@ 07-Dec-2022
 	(<a href="https://arxiv.org/abs/2212.03551">arxiv</a>)
+</li>
+<li>
+	"Simulacra as Conscious Exotica"
+	- Murray Shanahan
+	@ 19-Feb-2012
+	(<a href="https://arxiv.org/abs/2402.12422">arxiv</a>)
+</li>
+<li>
+	"Satori Before Singularity"
+	- Murray Shanahan
+	@ 01-Jan-2012
+	(<a href="https://www.doc.ic.ac.uk/~mpsha/ShanahanJCS2012.pdf">PDF</a>)
 </li>
 </ul>
 
@@ -343,6 +417,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
 <li>
+	"Sequence modeling and design from molecular to genome scale with Evo"
+	- Eric Nguyen, Michael Poli, Matthew G. Durrant, Brian Kang, Dhruva Katrekar, David B. Li, Liam J. Bartie, Armin W. Thomas, Samuel H. King, Garyk Brixi, Jeremy Sullivan, Madelena Y. Ng, Ashley Lewis, Aaron Lou, Stefano Ermon, Stephen A. Baccus, Tina Hernandez-Boussard, Christopher Ré, Patrick D. Hsu &amp; Brian L. Hie
+	(Arc Institute, Department of Computer Science @ Stanford University &amp; Stanford Data Science)
+	@ 15-Nov-2024
+	(<a href="https://www.science.org/doi/10.1126/science.ado9336">Science</a>)
+</li>
+<li>
 	"HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems"
 	- Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen &amp; Ji-Rong Wen
 	(Renmin University of China &amp; Baichuan Intelligent Technology)
@@ -369,10 +450,24 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	</div>
 </li>
 <li>
+	"Agent-as-a-Judge: Evaluate Agents with Agents"
+	- Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra &amp; Jürgen Schmidhuber
+	(Meta AI &amp; King Abdullah University of Science and Technology (KAUST))
+	@ 14-Oct-2024
+	(<a href="https://arxiv.org/abs/2410.10934">arxiv</a>)
+</li>
+<li>
 	"OpenAI's Swarm"
 	- OpenAI
 	@ 10-Oct-2024
 	(<a href="https://github.com/openai/swarm">github</a>)
+</li>
+<li>
+	"MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering"
+	- Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng &amp; Aleksander Mądry
+	(OpenAI)
+	@ 09-Oct-2024
+	(<a href="https://arxiv.org/abs/2410.07095">arxiv</a>)
 </li>
 <li>
 	"Predicting Gene Ontology Annotations from CAFA Using Distance Machine Learning and Transfer Metric Learning"
@@ -443,6 +538,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 <li>
 	"MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains"
 	- Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, Dian Ang Yap, Yizhe zhang, Karsten Ahnert, Vik Kamath, Mathias Berglund, Dominic Walsh, Tobias Gindele, Juergen Wiest, Zhengfeng Lai, Xiaoming Wang, Jiulong Shan, Meng Cao, Ruoming Pang &amp; Zirui Wang
+	(Apple Inc.)
 	@ 18-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.18961">arxiv</a>)
 </li>
@@ -518,6 +614,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 <li>
 	"Talking About Large Language Models"
+	- Murray Shanahan
 	@ 07-Dec-2022
 	(<a href="https://arxiv.org/abs/2212.03551">arxiv</a>)
 </li>
@@ -558,16 +655,35 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://arxiv.org/abs/1205.2618">arxiv</a>)
 </li>
 <li>
+	"Simulacra as Conscious Exotica"
+	- Murray Shanahan
+	@ 19-Feb-2012
+	(<a href="https://arxiv.org/abs/2402.12422">arxiv</a>)
+</li>
+<li>
 	"A Robust and Efficient Doubly Regularized Metric Learning Approach"
 	- Meizhu Liu &amp; Baba C. Vemuri
 	@ 01-Jan-2012
 	(<a href="https://www.academia.edu/77676366/A_Robust_and_Efficient_Doubly_Regularized_Metric_Learning_Approach">academia.edu</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3761969/">NIH</a>)
 </li>
 <li>
+	"Satori Before Singularity"
+	- Murray Shanahan
+	@ 01-Jan-2012
+	(<a href="https://www.doc.ic.ac.uk/~mpsha/ShanahanJCS2012.pdf">PDF</a>)
+</li>
+<li>
 	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
 	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
 	@ 23-Oct-2011
 	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>)
+</li>
+<li>
+	"The Unreasonable Effectiveness of Data"
+	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
+	(Google)
+	@ 24-Mar-2009
+	(<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google Research</a>)
 </li>
 <li>
 	"Statistical Mechanics of Neural Networks"

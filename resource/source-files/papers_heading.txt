@@ -29,3 +29,34 @@ toc_sticky: true
 		});
 	});
 </script>
+
+<h1 id="people">People</h1>
+
+<h2 id="people-respect">Those I utterly respect!</h2>
+
+<a href="https://stanford.edu/~boyd/">Stephen P. Boyd</a>
+/
+<a href="https://www.andrewng.org/">Andrew Ng</a>
+
+<h2 id="researchers">Researchers of my interest</h2>
+
+<a href="https://www.doc.ic.ac.uk/~mpsha/">Murray Shanahan</a>
+
+<h2 id="entrepreneurs">Entrepreneurs I respect</h2>
+
+<a href="https://en.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a>
+/
+<a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
+
+<h2 id="companies">Companies of my interest</h2>
+
+<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
+/
+<a href="https://www.figure.ai/">Figure AI</a>
+/
+<a href="https://www.liquid.ai/">Liquid AI</a> 
+/
+<a href="https://mistral.ai/">Mistrial AI</a>
+/
+<a href="https://dnotitia.com/">D.Notitia</a>
+
