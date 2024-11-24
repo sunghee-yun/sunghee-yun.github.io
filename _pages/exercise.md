@@ -18,6 +18,8 @@ last_modified_at: Sat Nov 23 06:56:34 PST 2024
 	Southwest YMCA Aquatics Schedule
 </h2>
 
+<a href="https://maps.app.goo.gl/erB3ywGWHMHxXqSi9"><img width="48" height="48" src="/resource/favicons/icons8-google-maps-old-480.svg"></a>
+
 <div class="fig-container">
 <img src="/resource/exercise/southwest-ymca-aquatics-schedule.jpeg">
 </div>
