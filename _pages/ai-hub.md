@@ -207,6 +207,20 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h1 id="enterprise">Enterprise</h1>
+
+<ul>
+<li>
+	<a href="https://www.extremetech.com/computing/blackwell-ai-chips-send-nvidia-earnings-through-the-roof">Blackwell AI Chips Send Nvidia Earnings Through the Roof</a>
+	- Josh Gulick
+	@ 21-Nov-2024
+</li>
+<li>
+	<a href="https://www.cbsnews.com/news/justice-department-calls-for-break-up-of-google-sale-of-chrome/">Justice Department calls for breakup of Google and sale of Chrome</a>
+	@ 21-Nov-2024 EST
+</li>
+</ul>
+
 <h1 id="labor-market">Labor market</h1>
 
 <ul>
@@ -914,6 +928,36 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h2 id="software-cloud">Cloud computing</h2>
+
+<ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/7-revolutionary-cloud-computing-trends-define-business-bernard-marr-on5ze/">The 7 Revolutionary Cloud Computing Trends That Will Define Business Success In 2025</a>
+	- Bernard Marr
+	- LinkedIn
+	@ 24-Nov-2024
+	&nbsp;
+	<div class="foldable-toggle">7 trends</div>
+	<div class="foldable-content">
+	<ul>
+	<li> AI Becomes The Brain Of Cloud Computing</li>
+
+<li> Edge Computing Merges With The Cloud</li>
+
+<li> Quantum Computing Goes Mainstream Through The Cloud</li>
+
+<li> Hybrid And Multi-Cloud Become The New Normal</li>
+
+<li> Generative AI Revolutionizes Cloud Development</li>
+
+<li> Supercloud Emerges As The Ultimate Data Fabric</li>
+
+<li> Sustainability Becomes A Cloud Imperative</li>
+	</ul>
+	</div>
+</li>
+</ul>
+
 <h1 id="new-tech">New technology</h1>
 
 <ul>
@@ -1093,6 +1137,40 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/7-revolutionary-cloud-computing-trends-define-business-bernard-marr-on5ze/">The 7 Revolutionary Cloud Computing Trends That Will Define Business Success In 2025</a>
+	- Bernard Marr
+	- LinkedIn
+	@ 24-Nov-2024
+	&nbsp;
+	<div class="foldable-toggle">7 trends</div>
+	<div class="foldable-content">
+	<ul>
+	<li> AI Becomes The Brain Of Cloud Computing</li>
+
+<li> Edge Computing Merges With The Cloud</li>
+
+<li> Quantum Computing Goes Mainstream Through The Cloud</li>
+
+<li> Hybrid And Multi-Cloud Become The New Normal</li>
+
+<li> Generative AI Revolutionizes Cloud Development</li>
+
+<li> Supercloud Emerges As The Ultimate Data Fabric</li>
+
+<li> Sustainability Becomes A Cloud Imperative</li>
+	</ul>
+	</div>
+</li>
+<li>
+	<a href="https://www.extremetech.com/computing/blackwell-ai-chips-send-nvidia-earnings-through-the-roof">Blackwell AI Chips Send Nvidia Earnings Through the Roof</a>
+	- Josh Gulick
+	@ 21-Nov-2024
+</li>
+<li>
+	<a href="https://www.cbsnews.com/news/justice-department-calls-for-break-up-of-google-sale-of-chrome/">Justice Department calls for breakup of Google and sale of Chrome</a>
+	@ 21-Nov-2024 EST
+</li>
 <li>
 	<a href="https://www.ai-supremacy.com/p/the-chief-ai-officer-of-america-elon" id="us-caio">The Chief AI Officer of America, Elon Musk</a>
 	- AI Supremacy

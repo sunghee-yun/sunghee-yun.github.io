@@ -198,6 +198,19 @@
 		"date": "29-Sep-2024 KST"
 	},
 	{
+		"category": ["enterprise"],
+		"url": "https://www.extremetech.com/computing/blackwell-ai-chips-send-nvidia-earnings-through-the-roof",
+		"title": "Blackwell AI Chips Send Nvidia Earnings Through the Roof",
+		"authors": "Josh Gulick",
+		"date": "21-Nov-2024"
+	},
+	{
+		"category": ["enterprise"],
+		"url": "https://www.cbsnews.com/news/justice-department-calls-for-break-up-of-google-sale-of-chrome/",
+		"title": "Justice Department calls for breakup of Google and sale of Chrome",
+		"date": "21-Nov-2024 EST"
+	},
+	{
 		"category": ["labor-market"],
 		"id": "fire",
 		"url": "https://v.daum.net/v/20240930074803386",
@@ -1010,6 +1023,23 @@
 		"title": "The End Of The SaaS Era: Rethinking Software’s Role In Business",
 		"date": "30-Sep-2024",
 		"press": "Forbes"
+	},
+	{
+		"category": ["software", "cloud"],
+		"url": "https://www.linkedin.com/pulse/7-revolutionary-cloud-computing-trends-define-business-bernard-marr-on5ze/",
+		"title": "The 7 Revolutionary Cloud Computing Trends That Will Define Business Success In 2025",
+		"authors": "Bernard Marr",
+		"date": "24-Nov-2024",
+		"press": "LinkedIn",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">7 trends</div>",
+			"<div class=\"foldable-content\">",
+			"<ul>",
+			"<li> AI Becomes The Brain Of Cloud Computing</li>\n\n<li> Edge Computing Merges With The Cloud</li>\n\n<li> Quantum Computing Goes Mainstream Through The Cloud</li>\n\n<li> Hybrid And Multi-Cloud Become The New Normal</li>\n\n<li> Generative AI Revolutionizes Cloud Development</li>\n\n<li> Supercloud Emerges As The Ultimate Data Fabric</li>\n\n<li> Sustainability Becomes A Cloud Imperative</li>",
+			"</ul>",
+			"</div>"
+		]
 	},
 	{
 		"category": ["new-tech"],
