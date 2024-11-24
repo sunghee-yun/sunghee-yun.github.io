@@ -45,9 +45,35 @@ This living collection grows and evolves, mirroring the rapid pace of AI develop
 
 Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and where a holistic view of AI's past, present, and future awaits you.
 
-<!--div class="centered-container">
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsunghee.yun1%2Fposts%2Fpfbid0CPHW1paBjy2HvAG3ahGWo1wgAsh9vko19WMAWjetYCq9SqdtnUcqfCxVABUVt1UEl&show_text=true&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-</div-->
+<h1 id="people">People</h1>
+
+<h2 id="people-respect">Those I utterly respect!</h2>
+
+<a href="https://stanford.edu/~boyd/">Stephen P. Boyd</a>
+/
+<a href="https://www.andrewng.org/">Andrew Ng</a>
+
+<h2 id="researchers">Researchers of my interest</h2>
+
+<a href="https://www.doc.ic.ac.uk/~mpsha/">Murray Shanahan</a>
+
+<h2 id="entrepreneurs">Entrepreneurs I respect</h2>
+
+<a href="https://en.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a>
+/
+<a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
+
+<h2 id="companies">Companies of my interest</h2>
+
+<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
+/
+<a href="https://www.figure.ai/">Figure AI</a>
+/
+<a href="https://www.liquid.ai/">Liquid AI</a> 
+/
+<a href="https://mistral.ai/">Mistrial AI</a>
+/
+<a href="https://dnotitia.com/">D.Notitia</a>
 
 <a href="#all-articles-in-reverse-chronological-order">All articles in reverse chronological order</a>
 
@@ -73,6 +99,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.linkedin.com/pulse/top-diabetes-companies-way-artificial-pancreas-mesk%C3%B3-md-phd-1rxvf/">Top Diabetes Companies On The Way To The Artificial Pancreas</a>
+	- LinkedIn
+	@ 06-Nov-2024
+</li>
+<li>
 	<a href="https://medicalfuturist.com/the-need-for-medical-futures-studies-our-benchmark-study/">The Need For Medical Futures Studies: Our Benchmark Study</a>
 	- The Medical Futurist
 	@ 16-Oct-2024
@@ -90,10 +121,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="http://www.hitnews.co.kr/news/articleView.html?idxno=57889">美 보스턴서 싹튼 '메디컬 코리아'…국내 제약사·바이오텍 총출동</a>
 	@ 02-Oct-2024
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html">AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다</a>
-	@ 23-Sep-2024
 </li>
 <li>
 	<a href="https://m.health.chosun.com/svc/news_view.html?contid=2024091902269#">'세계적 의료기관' 3위에 한국 병원 올랐다, 어느 병원일까?</a>
@@ -469,11 +496,20 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
-	We MUST come up with clear definition of AGI that are
+	We MUST come up with definition of AGI that are
 	by all engineering, science, and legal communities
 	instead of that of Altman's &hellip;
 	&nbsp;
 	<img class="emoticon" src="/assets/images/favicons/frowning-face/android-chrome-192x192.png">
+	</div>
+</li>
+<li>
+	<a href="https://aeon.co/essays/beyond-humans-what-other-kinds-of-minds-might-be-out-there">Conscious exotica</a>
+	- Analytics India Magazine
+	@ 19-Oct-2016
+	<div class="foldable-toggle">key question</div>
+	<div class="foldable-content">
+	From algorithms to aliens, could humans ever understand minds that are radically unlike our own?
 	</div>
 </li>
 </ul>
@@ -633,7 +669,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">[Medium] Meet with Genie — Upcoming AI Engineer (Coding is Ending!)</a>
+	<a href="https://towardsdatascience.com/is-googles-notebooklm-going-to-disrupt-the-podcasting-industry-ea8e1ec7f431">Is Google’s NotebookLM Going to Disrupt the Podcasting Industry?</a>
+	- Medium
+	@ 10-Oct-2024
+</li>
+<li>
+	<a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">Meet with Genie — Upcoming AI Engineer (Coding is Ending!)</a>
+	- Medium
 	@ 23-Aug-2024
 </li>
 </ul>
@@ -670,11 +712,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.mk.co.kr/news/business/11124557">‘가우디’가 인텔 살릴까 &hellip; 최첨단 AI칩 신제품 출시, 엔비디아에 도전</a>
 	@ 25-Sep-2024 KST
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁</a>
-	- Economy Chosun
-	@ 29-Apr-2024 11:00 KST
 </li>
 </ul>
 
@@ -730,6 +767,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="semiconductor">Semiconductor</h1>
 
 <ul>
+<li>
+	<a href="https://asia.nikkei.com/Business/Tech/Semiconductors/Biden-finalizes-6.6bn-CHIPS-Act-grant-to-TSMC-before-Trump-returns">Biden finalizes $6.6bn CHIPS Act grant to TSMC before Trump returns</a>
+	- Nikkei Asia
+	@ 15-Nov-2024
+</li>
 <li>
 	<a href="https://www.etnews.com/20241031000345?mc=nl_001_00001&mi=25025" id="hbm4-2nm">삼성전자, 'HBM4·2나노'에 승부수</a>
 	- 전자신문
@@ -843,11 +885,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <li>
 	<a href="https://www.cnet.com/tech/mobile/apple-may-ditch-qualcomms-5g-modems-in-some-2025-iphones-report-says/">Apple May Ditch Qualcomm's 5G Modems in Some 2025 iPhones, Report Says</a>
 	@ 24-Jul-2024
-</li>
-<li>
-	<a href="https://www.joongang.co.kr/article/24097122">2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.</a>
-	- 중앙일보
-	@ 02-Jul-2021
 </li>
 </ul>
 
@@ -992,47 +1029,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
-<h1 id="people">People</h1>
-
-
-<h2 id="people-prof-sangkyun-cha">Prof. Cha</h2>
-
-<ul>
-<li>
-	<a href="https://www.joongang.co.kr/article/24097122">2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.</a>
-	- 중앙일보
-	@ 02-Jul-2021
-</li>
-</ul>
-
-<h2 id="people-prof-yongsuk-kim">Prof. Yongsuk Kim</h2>
-
-<ul>
-<li>
-	<a href="https://www.ttimes.co.kr/article/2024100818197739923">SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다</a>
-	- TTimes
-	@ 09-Oct-2024 06:00:01 KST
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html">반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것</a>
-	- Economy Chosun
-	@ 30-Sep-2024 11:00 KST
-</li>
-<li>
-	<a href="https://zdnet.co.kr/view/?no=20240927185509">가천대·대한전자공학회 "온디바이스 AI용 반도체 집중 육성해야"</a>
-	@ 27-Sep-2024
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html">AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다</a>
-	@ 23-Sep-2024
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁</a>
-	- Economy Chosun
-	@ 29-Apr-2024 11:00 KST
-</li>
-</ul>
-
 <h1 id="cultivation">Cultivation</h1>
 
 <ul>
@@ -1067,6 +1063,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 13-Sep-2024
 </li>
 <li>
+	<a href="https://medium.com/mindfully-speaking/how-can-we-reconnect-with-the-earth-79dc5e3361ba">How Can We Reconnect with the Earth?</a>
+	- Medium
+	@ 01-Jun-2024
+	&nbsp;
+	<div class="foldable-toggle">quote</div>
+	<div class="foldable-content">
+	Because capitalism cannot profit from fulfilled individuals, it preys on our intrinsic capacity for experiencing lack, and capitalizes on the ego’s predisposition for quick fixes to its problems — the basis of all addiction.
+	</div>
+</li>
+<li>
 	<a href="https://medium.com/mind-cafe/a-philosopher-explains-how-to-enjoy-life-in-nine-sentences-ec0066a6cd20">A Philosopher Explains How to Enjoy Life In Nine Sentences</a>
 	- Medium
 	@ 08-May-2024
@@ -1093,6 +1099,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 18-Nov-2024
 </li>
 <li>
+	<a href="https://asia.nikkei.com/Business/Tech/Semiconductors/Biden-finalizes-6.6bn-CHIPS-Act-grant-to-TSMC-before-Trump-returns">Biden finalizes $6.6bn CHIPS Act grant to TSMC before Trump returns</a>
+	- Nikkei Asia
+	@ 15-Nov-2024
+</li>
+<li>
 	<a href="https://ryanholiday.medium.com/this-is-the-most-important-thing-for-these-crazy-times-e834f36ec510">This Is The Most Important Thing For These Crazy Times</a>
 	- Medium
 	@ 13-Nov-2024
@@ -1106,6 +1117,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
 	- LinkedIn Post
 	@ 09-Nov-2024
+</li>
+<li>
+	<a href="https://www.linkedin.com/pulse/top-diabetes-companies-way-artificial-pancreas-mesk%C3%B3-md-phd-1rxvf/">Top Diabetes Companies On The Way To The Artificial Pancreas</a>
+	- LinkedIn
+	@ 06-Nov-2024
 </li>
 <li>
 	<a href="https://diversityatlas.io/democratised-datasets-valuing-people/">Democratised Datasets: Valuing People for Who They Are</a>
@@ -1259,6 +1275,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 11-Oct-2024 14:00 KST
 </li>
 <li>
+	<a href="https://towardsdatascience.com/is-googles-notebooklm-going-to-disrupt-the-podcasting-industry-ea8e1ec7f431">Is Google’s NotebookLM Going to Disrupt the Podcasting Industry?</a>
+	- Medium
+	@ 10-Oct-2024
+</li>
+<li>
 	<a href="https://biz.chosun.com/it-science/ict/2024/10/09/Q3MZLSQTRRBTRF2MJQDV3GRANQ/?utm_source=naver&utm_medium=original&utm_campaign=biz">가오슝에 TSMC 공장 5개 건설</a>
 	- 朝鮮日報
 	@ 09-Oct-2024 17:49 KST
@@ -1267,11 +1288,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.digitimes.com/news/a20241007PD212/intel-qualcomm-acquisition-takeover-ceo.html?chid=12">Intel's geopolitical significance dampens acquisition rumors</a>
 	- DIGITimes Asia
 	@ 09-Oct-2024
-</li>
-<li>
-	<a href="https://www.ttimes.co.kr/article/2024100818197739923">SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다</a>
-	- TTimes
-	@ 09-Oct-2024 06:00:01 KST
 </li>
 <li>
 	<a href="https://blogs.nvidia.com/blog/us-healthcare-ai-agents/?ncid=em-news-450380-oct-2024-hc-m2&nvweb_e=iu6AU90cbdKp2AoIN-Iypa4b8ZQEFh3I1KXmBsmrNtbFJZpDWyyk59iLUTx2Fsiukj6TqEmpsZaWb9ofnZGnzA&mkt_tok=MTU2LU9GTi03NDIAAAGWG1rpYoy3zFIOO6rcyF3Z_gq9JJYYeOQ8KbWsLMeFlJjgtbLClpBs_9uEhgbz8j0bJsqDYqXJl9csmVS_Q9m1ykcJJXh3yAFPQLxg5tUN3R5eNUmG898">US Healthcare System Deploys AI Agents, From Research to Rounds</a>
@@ -1442,11 +1458,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 30-Sep-2024
 </li>
 <li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html">반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것</a>
-	- Economy Chosun
-	@ 30-Sep-2024 11:00 KST
-</li>
-<li>
 	<a href="https://zdnet.co.kr/view/?no=20240929024748">애플, 오픈AI 투자 철회…AI 업계 경쟁 속 '변화'</a>
 	@ 29-Sep-2024
 </li>
@@ -1507,10 +1518,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://levelup.gitconnected.com/stop-making-your-python-projects-like-it-was-15-years-ago-125436b470a5">Stop making your python projects like it was 15 years ago...</a>
 	- Medium
 	@ 28-Sep-2024
-</li>
-<li>
-	<a href="https://zdnet.co.kr/view/?no=20240927185509">가천대·대한전자공학회 "온디바이스 AI용 반도체 집중 육성해야"</a>
-	@ 27-Sep-2024
 </li>
 <li>
 	<a href="https://www.chosun.com/economy/tech_it/2024/09/26/J72U7RBUV5H5NO7KRI3TFO6NE4/">진화하는 '지도앱'… 화면 밖 세계로 넘어오다</a>
@@ -1589,7 +1596,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- Analytics India Magazine
 	@ 24-Sep-2024
 	<div class="callout">
-	We MUST come up with clear definition of AGI that are
+	We MUST come up with definition of AGI that are
 	by all engineering, science, and legal communities
 	instead of that of Altman's &hellip;
 	&nbsp;
@@ -1618,10 +1625,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 <li>
 	<a href="https://hbr.org/2024/09/digital-twins-can-help-you-make-better-strategic-decisions">Digital Twins Can Help You Make Better Strategic Decisions</a>
-	@ 23-Sep-2024
-</li>
-<li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html">AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다</a>
 	@ 23-Sep-2024
 </li>
 <li>
@@ -1819,7 +1822,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 02-Sep-2024
 </li>
 <li>
-	<a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">[Medium] Meet with Genie — Upcoming AI Engineer (Coding is Ending!)</a>
+	<a href="https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133">Meet with Genie — Upcoming AI Engineer (Coding is Ending!)</a>
+	- Medium
 	@ 23-Aug-2024
 </li>
 <li>
@@ -1845,6 +1849,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 05-Jun-2024
 </li>
 <li>
+	<a href="https://medium.com/mindfully-speaking/how-can-we-reconnect-with-the-earth-79dc5e3361ba">How Can We Reconnect with the Earth?</a>
+	- Medium
+	@ 01-Jun-2024
+	&nbsp;
+	<div class="foldable-toggle">quote</div>
+	<div class="foldable-content">
+	Because capitalism cannot profit from fulfilled individuals, it preys on our intrinsic capacity for experiencing lack, and capitalizes on the ego’s predisposition for quick fixes to its problems — the basis of all addiction.
+	</div>
+</li>
+<li>
 	<a href="https://www.darkdaily.com/2024/05/31/ex-theranos-founder-and-ceo-elizabeth-holmes-reduced-her-prison-sentence-by-nearly-two-years/">Ex-Theranos Founder and CEO Elizabeth Holmes Reduced Her Prison Sentence by Nearly Two Years</a>
 	- DarkDaily
 	@ 31-May-2024
@@ -1860,11 +1874,6 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 08-May-2024
 </li>
 <li>
-	<a href="https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html">김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁</a>
-	- Economy Chosun
-	@ 29-Apr-2024 11:00 KST
-</li>
-<li>
 	<a href="https://venturebeat.com/ai/how-mits-liquid-neural-networks-can-solve-ai-problems-from-robotics-to-self-driving-cars/" id="lnn">How MIT’s Liquid Neural Networks can solve AI problems from robotics to self-driving cars</a>
 	- VentureBeat
 	@ 02-Aug-2023
@@ -1877,14 +1886,18 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
-	<a href="https://www.joongang.co.kr/article/24097122">2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.</a>
-	- 중앙일보
-	@ 02-Jul-2021
-</li>
-<li>
 	<a href="https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/">Why was Theranos so believable? Medicine needs to look in the mirror</a>
 	- STAT News
 	@ 24-May-2018
+</li>
+<li>
+	<a href="https://aeon.co/essays/beyond-humans-what-other-kinds-of-minds-might-be-out-there">Conscious exotica</a>
+	- Analytics India Magazine
+	@ 19-Oct-2016
+	<div class="foldable-toggle">key question</div>
+	<div class="foldable-content">
+	From algorithms to aliens, could humans ever understand minds that are radically unlike our own?
+	</div>
 </li>
 <li>
 	<a href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18">Cognitive bias cheat sheet</a>

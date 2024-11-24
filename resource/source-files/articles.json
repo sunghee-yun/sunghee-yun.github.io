@@ -30,6 +30,13 @@
 	},
 	{
 		"category": ["biotech"],
+		"url": "https://www.linkedin.com/pulse/top-diabetes-companies-way-artificial-pancreas-mesk%C3%B3-md-phd-1rxvf/",
+		"title": "Top Diabetes Companies On The Way To The Artificial Pancreas",
+		"date": "06-Nov-2024",
+		"press": "LinkedIn"
+	},
+	{
+		"category": ["biotech"],
 		"url": "https://www.newyorker.com/magazine/2014/12/15/blood-simpler",
 		"title": "Blood, Simpler",
 		"date": "08-Dec-2014",
@@ -470,13 +477,26 @@
 	},
 	{
 		"category": ["ai", "agi"],
+		"url": "https://aeon.co/essays/beyond-humans-what-other-kinds-of-minds-might-be-out-there",
+		"title": "Conscious exotica",
+		"date": "19-Oct-2016",
+		"press": "Analytics India Magazine",
+		"postfix": [
+			"<div class=\"foldable-toggle\">key question</div>",
+			"<div class=\"foldable-content\">",
+			"From algorithms to aliens, could humans ever understand minds that are radically unlike our own?",
+			"</div>"
+		]
+	},
+	{
+		"category": ["ai", "agi"],
 		"url": "https://analyticsindiamag.com/ai-trends-future/openai-is-two-stages-shy-of-hitting-agi/",
 		"title": "OpenAI is Two Stages Shy of Hitting AGI",
 		"date": "24-Sep-2024",
 		"press": "Analytics India Magazine",
 		"postfix": [
 			"<div class=\"callout\">",
-			"We MUST come up with clear definition of AGI that are",
+			"We MUST come up with definition of AGI that are",
 			"by all engineering, science, and legal communities",
 			"instead of that of Altman's &hellip;",
 			"&nbsp;",
@@ -704,8 +724,16 @@
 	},
 	{
 		"category": ["ai", "genai"],
+		"url": "https://towardsdatascience.com/is-googles-notebooklm-going-to-disrupt-the-podcasting-industry-ea8e1ec7f431",
+		"title": "Is Google’s NotebookLM Going to Disrupt the Podcasting Industry?",
+		"press": "Medium",
+		"date": "10-Oct-2024"
+	},
+	{
+		"category": ["ai", "genai"],
 		"url": "https://levelup.gitconnected.com/meet-with-genie-upcoming-ai-engineer-coding-is-ending-b46af9a5f133",
-		"title": "[Medium] Meet with Genie — Upcoming AI Engineer (Coding is Ending!)",
+		"title": "Meet with Genie — Upcoming AI Engineer (Coding is Ending!)",
+		"press": "Medium",
 		"date": "23-Aug-2024"
 	},
 	{
@@ -786,6 +814,13 @@
 		"title": "10 GitHub Repositories for Deep Learning Enthusiasts",
 		"date": "19-Sep-2024",
 		"press": "KDnuggets"
+	},
+	{
+		"category": ["semiconductor"],
+		"url": "https://asia.nikkei.com/Business/Tech/Semiconductors/Biden-finalizes-6.6bn-CHIPS-Act-grant-to-TSMC-before-Trump-returns",
+		"title": "Biden finalizes $6.6bn CHIPS Act grant to TSMC before Trump returns",
+		"press": "Nikkei Asia",
+		"date": "15-Nov-2024"
 	},
 	{
 		"id": "hbm4-2nm",
@@ -1049,44 +1084,18 @@
 		"date": "02-Oct-2024"
 	},
 	{
-		"category": [["people", "prof-sangkyun-cha"], ["semiconductor"]],
-		"url": "https://www.joongang.co.kr/article/24097122",
-		"title": "2021 - 빅데이터 시대 예견, 고성능 컴퓨팅에 베팅해 AMD 살렸다.",
-		"press": "중앙일보",
-		"date": "02-Jul-2021"
-	},
-	{
-		"category": [["people", "prof-yongsuk-kim"], ["ai", "hardware"]],
-		"url": "https://economychosun.com/site/data/html_dir/2024/04/26/2024042600021.html",
-		"title": "김용석의 IT 월드 &lt;16&gt; - 생성 AI가 쏘아 올린 반도체 전쟁",
-		"date": "29-Apr-2024 11:00 KST",
-		"press": "Economy Chosun"
-	},
-	{
-		"category": ["people", "prof-yongsuk-kim"],
-		"url": "https://economychosun.com/site/data/html_dir/2024/09/27/2024092700046.html",
-		"title": "반도체 미래는 ‘온디바이스 AI’… HBM·추론용 반도체 부상할 것",
-		"date": "30-Sep-2024 11:00 KST",
-		"press": "Economy Chosun"
-	},
-	{
-		"category": ["people", "prof-yongsuk-kim"],
-		"url": "https://www.ttimes.co.kr/article/2024100818197739923",
-		"title": "SW와 HW, 가르마 잘 타는 기업이 AI 반도체 지배한다",
-		"date": "09-Oct-2024 06:00:01 KST",
-		"press": "TTimes"
-	},
-	{
-		"category": [["people", "prof-yongsuk-kim"], ["biotech"]],
-		"url": "https://economychosun.com/site/data/html_dir/2024/09/20/2024092000036.html",
-		"title": "AI가 바꾼 의료·헬스케어 패러다임&hellip; 365일 건강관리 시대 연다",
-		"date": "23-Sep-2024"
-	},
-	{
-		"category": ["people", "prof-yongsuk-kim"],
-		"url": "https://zdnet.co.kr/view/?no=20240927185509",
-		"title": "가천대·대한전자공학회 \"온디바이스 AI용 반도체 집중 육성해야\"",
-		"date": "27-Sep-2024"
+		"category": ["cultivation"],
+		"url": "https://medium.com/mindfully-speaking/how-can-we-reconnect-with-the-earth-79dc5e3361ba",
+		"title": "How Can We Reconnect with the Earth?",
+		"date": "01-Jun-2024",
+		"press": "Medium",
+		"postfix": [
+			"&nbsp;",
+			"<div class=\"foldable-toggle\">quote</div>",
+			"<div class=\"foldable-content\">",
+			"Because capitalism cannot profit from fulfilled individuals, it preys on our intrinsic capacity for experiencing lack, and capitalizes on the ego’s predisposition for quick fixes to its problems — the basis of all addiction.",
+			"</div>"
+		]
 	},
 	{
 		"category": ["cultivation"],

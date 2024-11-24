@@ -45,7 +45,33 @@ This living collection grows and evolves, mirroring the rapid pace of AI develop
 
 Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and where a holistic view of AI's past, present, and future awaits you.
 
-<!--div class="centered-container">
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsunghee.yun1%2Fposts%2Fpfbid0CPHW1paBjy2HvAG3ahGWo1wgAsh9vko19WMAWjetYCq9SqdtnUcqfCxVABUVt1UEl&show_text=true&width=500" width="500" height="776" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-</div-->
+<h1 id="people">People</h1>
+
+<h2 id="people-respect">Those I utterly respect!</h2>
+
+<a href="https://stanford.edu/~boyd/">Stephen P. Boyd</a>
+/
+<a href="https://www.andrewng.org/">Andrew Ng</a>
+
+<h2 id="researchers">Researchers of my interest</h2>
+
+<a href="https://www.doc.ic.ac.uk/~mpsha/">Murray Shanahan</a>
+
+<h2 id="entrepreneurs">Entrepreneurs I respect</h2>
+
+<a href="https://en.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a>
+/
+<a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk</a>
+
+<h2 id="companies">Companies of my interest</h2>
+
+<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
+/
+<a href="https://www.figure.ai/">Figure AI</a>
+/
+<a href="https://www.liquid.ai/">Liquid AI</a> 
+/
+<a href="https://mistral.ai/">Mistrial AI</a>
+/
+<a href="https://dnotitia.com/">D.Notitia</a>
 
