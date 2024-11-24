@@ -6,8 +6,8 @@ import os
 import json
 from typing import Any
 
-from articles.paper import Paper
-from articles.entity_collection import EntityCollection
+from entities.paper import Paper
+from entities.entity_collection import EntityCollection
 from html_writer.anchor import Anchor
 
 if __name__ == "__main__":

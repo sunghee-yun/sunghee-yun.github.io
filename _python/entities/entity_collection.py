@@ -6,7 +6,7 @@ from collections import defaultdict
 from datetime import date
 from logging import getLogger, Logger
 
-from articles.entity_base import EntityBase
+from entities.entity_base import EntityBase
 from html_writer.header import Header
 
 logger: Logger = getLogger()

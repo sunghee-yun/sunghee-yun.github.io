@@ -2,7 +2,7 @@
 class representing a paper or similar entity
 """
 
-from articles.entity_base import EntityBase
+from entities.entity_base import EntityBase
 from html_writer.anchor import Anchor
 
 
