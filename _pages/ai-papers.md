@@ -67,9 +67,17 @@ toc_sticky: true
 <ul>
 <li>
 	"Compact Model Parameter Extraction via Derivative-Free Optimization"
+	@ IEEE Access
 	- Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd &amp; Srabanti Chowdhury
 	@ 24-Jun-2024
 	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2406.16355">arxiv</a>)
+</li>
+<li>
+	"Model-Based Deep Learning: On the Intersection of Deep Learning and Optimization"
+	@ IEEE Access
+	- N. Schlezinger, Y. Eldar &amp; S. Boyd
+	@ 05-May-2022
+	(<a href="https://stanford.edu/~boyd/papers/model_based_deep_learning.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2205.02640">arxiv</a>)
 </li>
 </ul>
 
@@ -78,9 +86,10 @@ toc_sticky: true
 <ul>
 <li>
 	"Optimization Algorithm Design via Electric Circuits"
+	@ NeurIPS 2024
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
 	@ 04-Nov-2024
-	(<a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
+	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
 </li>
 </ul>
 
@@ -397,7 +406,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
 	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
 	@ 23-Oct-2011
-	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>)
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
 </li>
 </ul>
 
@@ -432,9 +441,10 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 <li>
 	"Optimization Algorithm Design via Electric Circuits"
+	@ NeurIPS 2024
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
 	@ 04-Nov-2024
-	(<a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
+	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
 </li>
 <li>
 	"Geometry-Aware Generative Autoencoders for Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds"
@@ -584,6 +594,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </li>
 <li>
 	"Compact Model Parameter Extraction via Derivative-Free Optimization"
+	@ IEEE Access
 	- Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd &amp; Srabanti Chowdhury
 	@ 24-Jun-2024
 	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2406.16355">arxiv</a>)
@@ -617,6 +628,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- Murray Shanahan
 	@ 07-Dec-2022
 	(<a href="https://arxiv.org/abs/2212.03551">arxiv</a>)
+</li>
+<li>
+	"Model-Based Deep Learning: On the Intersection of Deep Learning and Optimization"
+	@ IEEE Access
+	- N. Schlezinger, Y. Eldar &amp; S. Boyd
+	@ 05-May-2022
+	(<a href="https://stanford.edu/~boyd/papers/model_based_deep_learning.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2205.02640">arxiv</a>)
 </li>
 <li>
 	"Self-Taught Metric Learning without Labels"
@@ -676,7 +694,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
 	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
 	@ 23-Oct-2011
-	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>)
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
 </li>
 <li>
 	"The Unreasonable Effectiveness of Data"

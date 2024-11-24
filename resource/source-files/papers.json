@@ -34,8 +34,21 @@
 	},
 	{
 		"category": ["optimization"],
+		"title": "Model-Based Deep Learning: On the Intersection of Deep Learning and Optimization",
+		"authors": "N. Schlezinger, Y. Eldar, S. Boyd",
+		"journal": "IEEE Access",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/model_based_deep_learning.html",
+			"arxiv": "https://arxiv.org/abs/2205.02640"
+		},
+		"date": "05-May-2022",
+		"last_revised": "21-Jun-2022"
+	},
+	{
+		"category": ["optimization"],
 		"title": "Compact Model Parameter Extraction via Derivative-Free Optimization",
 		"authors": "Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd, Srabanti Chowdhury",
+		"journal": "IEEE Access",
 		"url": {
 			"Boyd's homepage": "https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html",
 			"arxiv": "https://arxiv.org/abs/2406.16355"
@@ -47,7 +60,9 @@
 		"category": ["optimization", "cvxopt"],
 		"title": "Optimization Algorithm Design via Electric Circuits",
 		"authors": "Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu, Jaewook J. Suh",
+		"conference": "NeurIPS 2024",
 		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html",
 			"arxiv": "https://arxiv.org/abs/2411.02573"
 		},
 		"date": "04-Nov-2024"
@@ -378,7 +393,8 @@
 		"authors": "Gábor Takács, István Pilászy, Domonkos Tikk",
 		"date": "23-Oct-2011",
 		"url": {
-			"ACM": "https://dl.acm.org/doi/10.1145/2043932.2043987"
+			"ACM": "https://dl.acm.org/doi/10.1145/2043932.2043987",
+			"PDF": "/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf"
 		}
 	},
 	{
