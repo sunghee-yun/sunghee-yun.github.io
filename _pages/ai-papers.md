@@ -52,6 +52,8 @@ toc_sticky: true
 
 <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
 /
+<a href="https://www.tesla.com/">Tesla</a>
+/
 <a href="https://www.figure.ai/">Figure AI</a>
 /
 <a href="https://www.liquid.ai/">Liquid AI</a> 
@@ -79,6 +81,13 @@ toc_sticky: true
 	@ 05-May-2022
 	(<a href="https://stanford.edu/~boyd/papers/model_based_deep_learning.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2205.02640">arxiv</a>)
 </li>
+<li>
+	"A Heuristic for Optimizing Stochastic Activity Networks with Applications to Statistical Digital Circuit Sizing"
+	@ Optimization and Engineering
+	- S.-J. Kim, S. Boyd, S. Yun, D. Patil &amp; M. Horowitz
+	@ 01-Dec-2007
+	(<a href="https://stanford.edu/~boyd/papers/heur_san_opt.html">Boyd's homepage</a>, <a href="https://link.springer.com/article/10.1007/s11081-007-9011-5">Springer</a>)
+</li>
 </ul>
 
 <h2 id="optimization-cvxopt">Convex optimization</h2>
@@ -90,6 +99,62 @@ toc_sticky: true
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
 	@ 04-Nov-2024
 	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2411.02573">arxiv</a>)
+</li>
+<li>
+	"A Distributed Method for Fitting Laplacian Regularized Stratified Models"
+	@ Journal of Machine Learning Research
+	- J. Tuck, S. Barratt &amp; S. Boyd
+	@ 26-Apr-2019
+	(<a href="https://stanford.edu/~boyd/papers/strat_models.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1904.12017">arxiv</a>)
+</li>
+<li>
+	"Infeasibility Detection in the Alternating Direction Method of Multipliers for Convex Optimization"
+	@ Journal of Optimization Theory and Applications
+	- G. Banjac, P. Goulart, B. Stellato &amp; S. Boyd
+	@ 01-Sep-2018
+	(<a href="https://stanford.edu/~boyd/papers/admm_infeas.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/8516858">IEEE</a>)
+</li>
+<li>
+	"Distributed Majorization-Minimization for Laplacian Regularized Problems"
+	@ IEEE-CAA Journal of Automatica Sinica
+	- J. Tuck, D. Hallac &amp; S. Boyd
+	@ 27-Mar-2018
+	(<a href="https://stanford.edu/~boyd/papers/mm_dist_lapl.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1803.10317">arxiv</a>)
+</li>
+<li>
+	"Multi-Period Trading via Convex Optimization"
+	@ Foundations and Trends in Optimization
+	- S. Boyd, E. Busseti, S. Diamond, R. Kahn, K. Koh, P. Nystrup &amp; J. Speth
+	@ 01-Aug-2017
+	(<a href="https://stanford.edu/~boyd/papers/cvx_portfolio.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1705.00109">arxiv</a>)
+</li>
+<li>
+	"Matrix-Free Convex Optimization Modeling"
+	@ Optimization and Its Applications in Control and Data Sciences
+	- S. Diamond and S. Boyd
+	@ 01-Jan-2016
+	(<a href="https://stanford.edu/~boyd/papers/abs_ops.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1506.00760">arxiv</a>)
+</li>
+<li>
+	"Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers"
+	@ Foundations and Trends in Machine Learning
+	- S. Boyd, N. Parikh, E. Chu, B. Peleato &amp; J. Eckstein
+	@ 01-Jan-2011
+	(<a href="https://stanford.edu/~boyd/papers/admm_distr_stats.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/8186925">arxiv</a>)
+</li>
+<li>
+	"A New Method for Design of Robust Digital Circuits"
+	@ International Symposium on Quality Electronic Design (ISQED) 2005
+	- D. Patil, S. Yun, S.-J. Kim, A. Cheung, M. Horowitz &amp; S. Boyd
+	@ 01-Mar-2005
+	(<a href="https://stanford.edu/~boyd/papers/isqed05.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/1410662">IEEE</a>)
+</li>
+<li>
+	"Design of robust global power and ground networks"
+	@ ACM/SIGDA Symposium on Physical Design (ISPD) 2001
+	- S. Boyd, L. Vandenberghe, A. El Gamal &amp; S. Yun
+	@ 01-Apr-2001
+	(<a href="https://stanford.edu/~boyd/papers/rob_glob_pg.html">Boyd's homepage</a>, <a href="https://dl.acm.org/doi/10.1145/369691.369734">ACM</a>)
 </li>
 </ul>
 
@@ -644,15 +709,50 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://arxiv.org/abs/2205.01903">arxiv</a>, <a href="https://github.com/tjddus9597/STML-CVPR22">github</a>, <a href="https://www.researchgate.net/publication/363906881_Self-Taught_Metric_Learning_without_Labels">ResearchGate</a>)
 </li>
 <li>
+	"A Distributed Method for Fitting Laplacian Regularized Stratified Models"
+	@ Journal of Machine Learning Research
+	- J. Tuck, S. Barratt &amp; S. Boyd
+	@ 26-Apr-2019
+	(<a href="https://stanford.edu/~boyd/papers/strat_models.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1904.12017">arxiv</a>)
+</li>
+<li>
 	"Classification is a Strong Baseline for Deep Metric Learning"
 	- Andrew Zhai &amp; Hao-Yu Wu
 	@ 30-Nov-2018
 	(<a href="https://arxiv.org/abs/1811.12649">arxiv</a>)
 </li>
 <li>
+	"Infeasibility Detection in the Alternating Direction Method of Multipliers for Convex Optimization"
+	@ Journal of Optimization Theory and Applications
+	- G. Banjac, P. Goulart, B. Stellato &amp; S. Boyd
+	@ 01-Sep-2018
+	(<a href="https://stanford.edu/~boyd/papers/admm_infeas.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/8516858">IEEE</a>)
+</li>
+<li>
+	"Distributed Majorization-Minimization for Laplacian Regularized Problems"
+	@ IEEE-CAA Journal of Automatica Sinica
+	- J. Tuck, D. Hallac &amp; S. Boyd
+	@ 27-Mar-2018
+	(<a href="https://stanford.edu/~boyd/papers/mm_dist_lapl.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1803.10317">arxiv</a>)
+</li>
+<li>
+	"Multi-Period Trading via Convex Optimization"
+	@ Foundations and Trends in Optimization
+	- S. Boyd, E. Busseti, S. Diamond, R. Kahn, K. Koh, P. Nystrup &amp; J. Speth
+	@ 01-Aug-2017
+	(<a href="https://stanford.edu/~boyd/papers/cvx_portfolio.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1705.00109">arxiv</a>)
+</li>
+<li>
 	"Improved Variational Autoencoders for Text Modeling using Dilated Convolutions"
 	@ 27-Feb-2017
 	(<a href="https://arxiv.org/abs/1702.08139">arxiv</a>)
+</li>
+<li>
+	"Matrix-Free Convex Optimization Modeling"
+	@ Optimization and Its Applications in Control and Data Sciences
+	- S. Diamond and S. Boyd
+	@ 01-Jan-2016
+	(<a href="https://stanford.edu/~boyd/papers/abs_ops.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1506.00760">arxiv</a>)
 </li>
 <li>
 	"Generating Sentences from a Continuous Space"
@@ -697,11 +797,39 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
 </li>
 <li>
+	"Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers"
+	@ Foundations and Trends in Machine Learning
+	- S. Boyd, N. Parikh, E. Chu, B. Peleato &amp; J. Eckstein
+	@ 01-Jan-2011
+	(<a href="https://stanford.edu/~boyd/papers/admm_distr_stats.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/8186925">arxiv</a>)
+</li>
+<li>
 	"The Unreasonable Effectiveness of Data"
 	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
 	(Google)
 	@ 24-Mar-2009
 	(<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google Research</a>)
+</li>
+<li>
+	"A Heuristic for Optimizing Stochastic Activity Networks with Applications to Statistical Digital Circuit Sizing"
+	@ Optimization and Engineering
+	- S.-J. Kim, S. Boyd, S. Yun, D. Patil &amp; M. Horowitz
+	@ 01-Dec-2007
+	(<a href="https://stanford.edu/~boyd/papers/heur_san_opt.html">Boyd's homepage</a>, <a href="https://link.springer.com/article/10.1007/s11081-007-9011-5">Springer</a>)
+</li>
+<li>
+	"A New Method for Design of Robust Digital Circuits"
+	@ International Symposium on Quality Electronic Design (ISQED) 2005
+	- D. Patil, S. Yun, S.-J. Kim, A. Cheung, M. Horowitz &amp; S. Boyd
+	@ 01-Mar-2005
+	(<a href="https://stanford.edu/~boyd/papers/isqed05.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/1410662">IEEE</a>)
+</li>
+<li>
+	"Design of robust global power and ground networks"
+	@ ACM/SIGDA Symposium on Physical Design (ISPD) 2001
+	- S. Boyd, L. Vandenberghe, A. El Gamal &amp; S. Yun
+	@ 01-Apr-2001
+	(<a href="https://stanford.edu/~boyd/papers/rob_glob_pg.html">Boyd's homepage</a>, <a href="https://dl.acm.org/doi/10.1145/369691.369734">ACM</a>)
 </li>
 <li>
 	"Statistical Mechanics of Neural Networks"

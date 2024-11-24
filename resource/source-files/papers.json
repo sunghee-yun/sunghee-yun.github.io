@@ -57,6 +57,29 @@
 		"last_revised": "11-Nov-2024"
 	},
 	{
+		"category": ["optimization"],
+		"title": "A Heuristic for Optimizing Stochastic Activity Networks with Applications to Statistical Digital Circuit Sizing",
+		"authors": "S.-J. Kim, S. Boyd, S. Yun, D. Patil, M. Horowitz",
+		"journal": "Optimization and Engineering",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/heur_san_opt.html",
+			"Springer": "https://link.springer.com/article/10.1007/s11081-007-9011-5"
+		},
+		"date": "01-Dec-2007"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "A Distributed Method for Fitting Laplacian Regularized Stratified Models",
+		"authors": "J. Tuck, S. Barratt, S. Boyd",
+		"journal": "Journal of Machine Learning Research",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/strat_models.html",
+			"arxiv": "https://arxiv.org/abs/1904.12017"
+		},
+		"date": "26-Apr-2019",
+		"last_revised": "10-Nov-2019"
+	},
+	{
 		"category": ["optimization", "cvxopt"],
 		"title": "Optimization Algorithm Design via Electric Circuits",
 		"authors": "Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu, Jaewook J. Suh",
@@ -66,6 +89,84 @@
 			"arxiv": "https://arxiv.org/abs/2411.02573"
 		},
 		"date": "04-Nov-2024"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Infeasibility Detection in the Alternating Direction Method of Multipliers for Convex Optimization",
+		"authors": "G. Banjac, P. Goulart, B. Stellato, S. Boyd",
+		"journal": "Journal of Optimization Theory and Applications",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/admm_infeas.html",
+			"IEEE": "https://ieeexplore.ieee.org/document/8516858"
+		},
+		"date": "01-Sep-2018"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Distributed Majorization-Minimization for Laplacian Regularized Problems",
+		"authors": "J. Tuck, D. Hallac, S. Boyd",
+		"journal": "IEEE-CAA Journal of Automatica Sinica",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/mm_dist_lapl.html",
+			"arxiv": "https://arxiv.org/abs/1803.10317"
+		},
+		"date": "27-Mar-2018",
+		"last_revised": "30-Mar-2018"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Multi-Period Trading via Convex Optimization",
+		"authors": "S. Boyd, E. Busseti, S. Diamond, R. Kahn, K. Koh, P. Nystrup, J. Speth",
+		"journal": "Foundations and Trends in Optimization",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/cvx_portfolio.html",
+			"arxiv": "https://arxiv.org/abs/1705.00109"
+		},
+		"date": "01-Aug-2017"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Matrix-Free Convex Optimization Modeling",
+		"authors": "S. Diamond and S. Boyd",
+		"journal": "Optimization and Its Applications in Control and Data Sciences",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/abs_ops.html",
+			"arxiv": "https://arxiv.org/abs/1506.00760"
+		},
+		"date": "01-Jan-2016"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
+		"authors": "S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein",
+		"journal": "Foundations and Trends in Machine Learning",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/admm_distr_stats.html",
+			"arxiv": "https://ieeexplore.ieee.org/document/8186925"
+		},
+		"date": "01-Jan-2011"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "A New Method for Design of Robust Digital Circuits",
+		"authors": "D. Patil, S. Yun, S.-J. Kim, A. Cheung, M. Horowitz, S. Boyd",
+		"conference": "International Symposium on Quality Electronic Design (ISQED) 2005",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/isqed05.html",
+			"IEEE": "https://ieeexplore.ieee.org/document/1410662"
+		},
+		"date": "01-Mar-2005"
+	},
+	{
+		"category": ["optimization", "cvxopt"],
+		"title": "Design of robust global power and ground networks",
+		"authors": "S. Boyd, L. Vandenberghe, A. El Gamal, S. Yun",
+		"conference": "ACM/SIGDA Symposium on Physical Design (ISPD) 2001",
+		"url": {
+			"Boyd's homepage": "https://stanford.edu/~boyd/papers/rob_glob_pg.html",
+			"ACM": "https://dl.acm.org/doi/10.1145/369691.369734"
+		},
+		"date": "01-Apr-2001"
 	},
 	{
 		"category": ["ai", "metric learning"],
