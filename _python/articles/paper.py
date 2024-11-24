@@ -12,9 +12,10 @@ class Paper(EntityBase):
         **kwargs,
     ) -> None:
         self.url: dict[str, str] | None = kwargs.pop("url", None)
-        self.authors: str | None = kwargs.pop("authors", None)
         self.org: str | None = kwargs.pop("org", None)
         self.id_: str | None = kwargs.pop("id", None)
+        self.journal: str | None = kwargs.pop("journal", None)
+        self.conference: str | None = kwargs.pop("conference", None)
         super().__init__(**kwargs)
 
     @property
@@ -29,6 +30,10 @@ class Paper(EntityBase):
         res.append("<li>" if self.id_ is None else f'<li id="{self.id_}">')
         res.append(f'\t"{self.title}"')
 
+        if self.journal is not None:
+            res.append(f"\t@ {self.journal}")
+        if self.conference is not None:
+            res.append(f"\t@ {self.conference}")
         if self.authors is not None:
             res.append(f"\t- {self.convert_comma_separated_str(self.authors)}")
         if self.org is not None:
@@ -48,11 +53,3 @@ class Paper(EntityBase):
         res.append("</li>")
 
         return "\n".join(res)
-
-    @staticmethod
-    def convert_comma_separated_str(names: str) -> str:
-        names_str: str = names.strip()
-        name_str_list: list[str] = [name.strip() for name in names.split(",")]
-        if len(name_str_list) > 1:
-            names_str = ", ".join(name_str_list[:-1]) + " &amp; " + name_str_list[-1]
-        return names_str

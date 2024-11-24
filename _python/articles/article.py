@@ -26,6 +26,8 @@ class Article(EntityBase):
 
         res.append("<li>")
         res.append(f"\t{Anchor(self.title, **a_attrs)}")
+        if self.authors is not None:
+            res.append(f"\t- {self.convert_comma_separated_str(self.authors)}")
         if self.press is not None:
             res.append(f"\t- {self.press}")
         if self.date_str is not None:

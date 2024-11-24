@@ -11,6 +11,7 @@ class EntityBase(ABC):
     def __init__(self, **kwargs) -> None:
         self._category: list[str] | list[list[str]] = kwargs.pop("category")
         self.title: str = kwargs.pop("title")
+        self.authors: str | None = kwargs.pop("authors", None)
         self.date_str: str | None = kwargs.pop("date", None)
         self.date: date | None = (
             None
@@ -35,3 +36,11 @@ class EntityBase(ABC):
     @abstractmethod
     def html_str(self) -> str:
         pass
+
+    @staticmethod
+    def convert_comma_separated_str(names: str) -> str:
+        names_str: str = names.strip()
+        name_str_list: list[str] = [name.strip() for name in names.split(",")]
+        if len(name_str_list) > 1:
+            names_str = ", ".join(name_str_list[:-1]) + " &amp; " + name_str_list[-1]
+        return names_str
