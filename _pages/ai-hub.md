@@ -67,6 +67,8 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>
 /
+<a href="https://www.tesla.com/">Tesla</a>
+/
 <a href="https://www.figure.ai/">Figure AI</a>
 /
 <a href="https://www.liquid.ai/">Liquid AI</a> 
