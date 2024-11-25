@@ -547,7 +547,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop">LLM agent benchmarks</a>
+	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop" id="ai-agent-benchmarks">LLM agent benchmarks</a>
 	- LinkedIn Post
 	@ 31-Oct-2024
 </li>
@@ -1209,7 +1209,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 31-Oct-2024
 </li>
 <li>
-	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop">LLM agent benchmarks</a>
+	<a href="https://www.linkedin.com/posts/jihoo-kim_%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%8C-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A1%F0%9D%90%A6%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A4%F0%9D%90%AC-activity-7255907834712776704-q2AO?utm_source=share&utm_medium=member_desktop" id="ai-agent-benchmarks">LLM agent benchmarks</a>
 	- LinkedIn Post
 	@ 31-Oct-2024
 </li>
