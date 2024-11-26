@@ -71,3 +71,29 @@ permalink: /about/
 <p>
 	My Life Goal, though, is to secure a future for all, where health, safety, liberty, and equity are paramount.
 </p>
+
+<!--
+&ndash; kakaotalk ID - shoptyun
+<br>
+&ndash; wet lab - <a href="https://maps.app.goo.gl/Am64VJtCjxss6Vgz8">400 Professional Center Dr, Novato, CA 94947, USA</a>
+<br>
+&ndash; KIC office - <a href="https://maps.app.goo.gl/EQR3rsKcMmDqNELH6">3003 N First St, San Jose, CA 95134, USA</a>
+<br>
+&ndash; Seoul office - <a href="https://naver.me/GPrFr8UZ">Seocho-gu Gangnam-daero 51-gil 1, Seoul 06628, Korea</a>
+-->
+
+<table class="borderless-table">
+<tr>
+	<td>wet lab</td><td>- <a href="https://maps.app.goo.gl/Am64VJtCjxss6Vgz8">400 Professional Center Dr, Novato, CA 94947, USA</a></td>
+</tr>
+<tr>
+	<td>KIC office</td><td>- <a href="https://maps.app.goo.gl/EQR3rsKcMmDqNELH6">3003 N First St, San Jose, CA 95134, USA</a></td>
+</tr>
+<tr>
+	<td>Seoul office</td><td>- <a href="https://naver.me/GPrFr8UZ">Seocho-gu Gangnam-daero 51-gil 1, Seoul 06628, Korea</a></td>
+</tr>
+<tr>
+	<td>kakaotalk ID</td><td>- shoptyun</td>
+</tr>
+</table>
+
