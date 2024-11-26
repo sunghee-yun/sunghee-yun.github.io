@@ -67,6 +67,9 @@ author:
 #  location         : "Palo Alto, CA, USA"
 #  email            : sunghee.yun@gmail.com
   links:
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/sunghee-yun/"
     - label: "Wet Lab, Novato, CA, USA"
       icon: "fa-solid fa-map-location-dot"
       url: "https://maps.app.goo.gl/Am64VJtCjxss6Vgz8"
@@ -100,9 +103,6 @@ author:
     - label: "orcid"
       icon: "fa-brands fa-orcid"
       url: "https://dblp.org/pid/06/3258.html"
-    - label: "GitHub"
-      icon: "fa-brands fa-github"
-      url: "https://github.com/sunghee-yun/"
     - label: "stack overflow"
       icon: "fa-brands fa-stack-overflow"
       url: "https://stackoverflow.com/users/1973237/sunghee-yun"
@@ -125,6 +125,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/sunghee-yun/"
     - label: "Email"
       icon: "fa-solid fa-envelope"
       url: "mailto:sunghee.yun@gmail.com"
@@ -149,9 +152,6 @@ footer:
     - label: "orcid"
       icon: "fa-brands fa-orcid"
       url: "https://dblp.org/pid/06/3258.html"
-    - label: "GitHub"
-      icon: "fa-brands fa-github"
-      url: "https://github.com/sunghee-yun/"
     - label: "stack overflow"
       icon: "fa-brands fa-stack-overflow"
       url: "https://stackoverflow.com/users/1973237/sunghee-yun"
