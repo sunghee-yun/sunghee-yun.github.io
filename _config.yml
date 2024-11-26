@@ -67,9 +67,15 @@ author:
 #  location         : "Palo Alto, CA, USA"
 #  email            : sunghee.yun@gmail.com
   links:
-    - label: "Palo Alto, CA"
-      icon: "fas fa-map-marker-alt"
-      url: "https://maps.app.goo.gl/P1qHQzfsHwHFJys47"
+    - label: "Wet Lab, Novato, CA, USA"
+      icon: "fa-solid fa-map-location-dot"
+      url: "https://maps.app.goo.gl/Am64VJtCjxss6Vgz8"
+    - label: "KIC, San Jose, CA, USA"
+      icon: "fa-solid fa-map-location-dot"
+      url: "https://maps.app.goo.gl/EQR3rsKcMmDqNELH6"
+    - label: "D.N., Seoul, South Korea"
+      icon: "fa-solid fa-map-location-dot"
+      url: "https://naver.me/GPrFr8UZ"
     - label: "Email"
       icon: "fa-solid fa-envelope"
       url: "mailto:sunghee.yun@gmail.com"
