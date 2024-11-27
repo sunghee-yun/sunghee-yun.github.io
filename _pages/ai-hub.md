@@ -552,7 +552,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 31-Oct-2024
 </li>
 <li>
-	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
+	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use" id="claude-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
 	- ANTHROP\C
 	@ 22-Oct-2024
 </li>
@@ -1266,7 +1266,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
-	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
+	<a href="https://www.anthropic.com/news/3-5-models-and-computer-use" id="claude-computer-use">Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</a>
 	- ANTHROP\C
 	@ 22-Oct-2024
 </li>

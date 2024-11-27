@@ -551,6 +551,7 @@
 		"date": "13-Aug-2024"
 	},
 	{
+		"id": "claude-computer-use",
 		"category": ["ai", "llm"],
 		"url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
 		"title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
