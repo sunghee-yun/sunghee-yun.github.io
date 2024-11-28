@@ -80,6 +80,7 @@
 		"last_revised": "10-Nov-2019"
 	},
 	{
+		"id": "opt-via-circuits",
 		"category": ["optimization", "cvxopt"],
 		"title": "Optimization Algorithm Design via Electric Circuits",
 		"authors": "Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu, Jaewook J. Suh",
@@ -302,16 +303,6 @@
 	},
 	{
 		"category": ["ai", "llm"],
-		"title": "The Unreasonable Effectiveness of Data",
-		"authors": "Alon Halevy, Peter Norvig, Fernando Pereira",
-		"date": "24-Mar-2009",
-		"org": "Google",
-		"url": {
-			"Google Research": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf"
-		}
-	},
-	{
-		"category": ["ai", "llm"],
 		"title": "HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems",
 		"authors": "Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen, Ji-Rong Wen",
 		"date": "05-Nov-2024",
@@ -430,6 +421,16 @@
 		"date": "15-Jul-2024",
 		"url": {
 			"arxiv": "https://arxiv.org/abs/2407.10817"
+		}
+	},
+	{
+		"category": ["ai", "llm-intelligence"],
+		"title": "The Unreasonable Effectiveness of Data",
+		"authors": "Alon Halevy, Peter Norvig, Fernando Pereira",
+		"date": "24-Mar-2009",
+		"org": "Google",
+		"url": {
+			"Google Research": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf"
 		}
 	},
 	{

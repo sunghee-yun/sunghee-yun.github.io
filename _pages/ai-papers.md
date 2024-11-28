@@ -93,7 +93,7 @@ toc_sticky: true
 <h2 id="optimization-cvxopt">Convex optimization</h2>
 
 <ul>
-<li>
+<li id="opt-via-circuits">
 	"Optimization Algorithm Design via Electric Circuits"
 	@ NeurIPS 2024
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
@@ -339,13 +339,6 @@ toc_sticky: true
 	</div>
 	</div>
 </li>
-<li>
-	"The Unreasonable Effectiveness of Data"
-	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
-	(Google)
-	@ 24-Mar-2009
-	(<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google Research</a>)
-</li>
 </ul>
 
 <h2 id="ai-llm-intelligence">LLM &amp; intelligence</h2>
@@ -368,6 +361,13 @@ toc_sticky: true
 	- Murray Shanahan
 	@ 01-Jan-2012
 	(<a href="https://www.doc.ic.ac.uk/~mpsha/ShanahanJCS2012.pdf">PDF</a>)
+</li>
+<li>
+	"The Unreasonable Effectiveness of Data"
+	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
+	(Google)
+	@ 24-Mar-2009
+	(<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf">Google Research</a>)
 </li>
 </ul>
 
@@ -504,7 +504,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	@ 05-Nov-2024
 	(<a href="https://arxiv.org/abs/2411.02959v1">arxiv</a>)
 </li>
-<li>
+<li id="opt-via-circuits">
 	"Optimization Algorithm Design via Electric Circuits"
 	@ NeurIPS 2024
 	- Stephen P. Boyd, Tetiana Parshakova, Ernest K. Ryu &amp; Jaewook J. Suh
