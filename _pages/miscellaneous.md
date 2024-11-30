@@ -137,6 +137,44 @@ Trips
 <h2 id="trips-2021-">2021 &#126; present</h2>
 
 <!--h2 id="trips-2024">2024</h2-->
+<h3>2025</h3>
+
+<h4>Jan</h4>
+
+<ul>
+<li>
+	biz trip for CES to Las Vegas - 6 nights
+	<ul>
+	<li>
+		06-Jan-2025 ~ 09-Jan-2025 PST
+	</li>
+	<li>
+		flight
+		-
+		Frontier F9 2486
+		-
+		from SFO @ 12:04pm
+		to LAS @ 1:42pm
+		PST on 06-Jan-2025
+		(1h 38m)
+	</li>
+	<li>
+		return flight
+		-
+		Frontier F9 4401
+		-
+		from LAS @ 4:12pm
+		to SFO @ 6:02pm
+		PST on 09-Jan-2025
+		(1h 50m)
+	</li>
+	<li>
+		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's, Scarsdale, NY</a>
+	</li>
+	</ul>
+</li>
+</ul>
+
 <h3>2024</h3>
 
 <h4>Dec</h4>
@@ -149,45 +187,114 @@ Trips
 		25-Dec-2024 ~ 31-Dec-2024 PST
 	</li>
 	<li>
-		flight 1
+		flight
 		- Alaska 20
 		- from SFO @ 2:22pm PST to JFK @ 10:58pm EST on 25-Dec-2024
+		(5h 36m)
 	</li>
 	<li>
-		flight 2
+		return flight
 		- Alaska 47
 		- from JFK @ 8:17pm EST to SFO @ 11:59pm PST on 31-Dec-2024
+		(6h 42m)
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's</a>
+		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's, Scarsdale, NY</a>
 	</li>
 	</ul>
 </li>
-
 <li>
 	biz trip for Salzburg Global Leadership Initiative
+	-
+	6 nights
+	<ul>
+	<li>
+		03-Dec-2024 ~ 09-Dec-2024 PST
+	</li>
+	<li>
+		flight 1
+		-
+		Lufthansa 5673 operated by AIR DOLOMITI
+		-
+		from LYS @ 2:45pm
+		to FRA @ 4:15pm
+		on 03-Dec-2024 CET
+		(1h 30m)
+		-
+		layover: 5h 30m
+	</li>
+	<li>
+		flight 2
+		-
+		Lufthansa 1108
+		-
+		from FRA @ 9:45pm
+		to SZG @ 10:45pm
+		on 03-Dec-2024 CET
+		(1h)
+		-
+		total: 8h
+	</li>
+	<li>
+		return flight 1
+		-
+		Lufthansa 1109
+		-
+		from SZG @ 6:35am
+		to FRA @ 7:40am
+		on 09-Dec-2024 CET
+		(2h 25m)
+		-
+		layover: 2h 25m
+	</li>
+	<li>
+		return flight 2
+		-
+		Lufthansa 454
+		-
+		from FRA @ 10:05am on 09-Dec-2024 CET
+		to SFO @ 12:35pm on 09-Dec-2024 PST
+		(11h 30m)
+		-
+		total: 15h
+	</li>
+	<li>
+		stay @ <a href="https://maps.app.goo.gl/MNM495YTYtDNszKU6">Schloss Leopoldskron, Salzburg, Austria</a>
+	</li>
+	</ul>
+</li>
+<li>
+	biz trip for AI Seminar and Consultation for Lyon Research Lab of CryptoLab, Lyon, France
 	-
 	4 nights
 	<ul>
 	<li>
-		04-Dec-2024 ~ 08-Dec-2024 PST
+		29-Nov-2024 PST ~ 03-Dec-2024 CET
 	</li>
 	<li>
 		flight 1
 		-
-		??
+		TAP Portugal 238
 		-
-		from SFO to SZG
+		from SFO @ 7:15pm on 29-Nov-2024 WET
+		to LIS @ 2:10pm on 30-Nov-2024
+		(10h 55m)
+		-
+		layover: 6h 20m
 	</li>
 	<li>
 		flight 2
 		-
-		??
+		TAP Portugal 474 operated by PORTUGALIA
 		-
-		from SZG to SFO
+		from LIS @ 8:30pm on 30-Nov-2024 WET
+		to LYS @ 11:55pm on 30-Nov-2024 CET
+		(2h 25m)
+		-
+		total: 19h 40m
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/MNM495YTYtDNszKU6">Schloss Leopoldskron</a>
+		stay @ <a href="https://maps.app.goo.gl/pJ9hJYdT4uriGp9U6">Hotel de Bretagne, Lyon, France</a>
 	</li>
 	</ul>
 </li>
