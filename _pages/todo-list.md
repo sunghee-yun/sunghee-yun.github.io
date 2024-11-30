@@ -12,6 +12,24 @@ permalink: /todo-list/
 
 <ul>
 <li>
+	change flight 1, flight 2, ... to flight &amp; return flight
+	for trip records
+	<ul>
+	<li>
+		owner - Sunghee
+	</li>
+	<li>
+		priority - L
+	</li>
+	<li>
+		written @ 29-Nov-2024 PDT
+	</li>
+	<li>
+		due @ 31-Dec-2024 PDT
+	</li>
+	</ul>
+</li>
+<li>
 	post about Tao Te Ching
 	-
 	도덕경道德經
@@ -35,7 +53,6 @@ permalink: /todo-list/
 	</li>
 	</ul>
 </li>
-
 <font color="#bbb">
 <li>
 	<s>finish up the post about Diamond Sutra - 금강경金剛經</s>
