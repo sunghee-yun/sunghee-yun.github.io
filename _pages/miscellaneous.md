@@ -233,7 +233,7 @@ Trips
 		on 03-Dec-2024 CET
 		(1h)
 		-
-		total: 8h
+		(total: 8h)
 	</li>
 	<li>
 		return flight 1
@@ -256,7 +256,7 @@ Trips
 		to SFO @ 12:35pm on 09-Dec-2024 PST
 		(11h 30m)
 		-
-		total: 15h
+		(total: 15h)
 	</li>
 	<li>
 		stay @ <a href="https://maps.app.goo.gl/MNM495YTYtDNszKU6">Schloss Leopoldskron, Salzburg, Austria</a>
@@ -291,7 +291,7 @@ Trips
 		to LYS @ 11:55pm on 30-Nov-2024 CET
 		(2h 25m)
 		-
-		total: 19h 40m
+		(total: 19h 40m)
 	</li>
 	<li>
 		stay @ <a href="https://maps.app.goo.gl/pJ9hJYdT4uriGp9U6">Hotel de Bretagne, Lyon, France</a>
