@@ -19,11 +19,11 @@ main:
     url: /lectures
 #  - title: "categories"
 #    url: /categories
-  - title: "misc"
-    url: /miscellaneous
   - title: "music"
     url: /music
   - title: "todo"
     url: /todo-list
   - title: "exercise"
     url: /exercise
+  - title: "misc"
+    url: /miscellaneous

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Miscellaneous
-permalink: /miscellaneous
+permalink: /misc
 toc: true
 toc_label: "ToC"
 toc_icon: "cog"
