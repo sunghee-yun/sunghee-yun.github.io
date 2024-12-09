@@ -69,7 +69,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fa-brands fa-github"
-      url: "https://github.com/sunghee-yun/"
+      url: "https://github.com/sunghee-yun/sunghee-yun.github.io"
     - label: "Blog"
       icon: "fa-solid fa-blog"
       url: "https://sungheeyun.github.io"
@@ -142,7 +142,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fa-brands fa-github"
-      url: "https://github.com/sunghee-yun/"
+      url: "https://github.com/sunghee-yun/sunghee-yun.github.io"
     - label: "Blog"
       icon: "fa-solid fa-blog"
       url: "https://sungheeyun.github.io"
