@@ -195,8 +195,8 @@ Trips
 	<li>
 		return flight
 		- Alaska 47
-		- from JFK @ 8:17pm EST to SFO @ 11:59pm PST on 31-Dec-2024
-		(6h 42m)
+		- from JFK @ 8:20pm EST to SFO @ 11:59pm PST on 31-Dec-2024
+		(6h 39m)
 	</li>
 	<li>
 		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's, Scarsdale, NY</a>
