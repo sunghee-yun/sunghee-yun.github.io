@@ -24,10 +24,20 @@ Concerts
 
 <ul>
 <li>
+	Beth and ME
+	-
+	<a href="https://seatgeek.com/account/tickets/17085328">Kidd of Life</a>
+	@ <a href="https://maps.app.goo.gl/2NjGDQR1jxkjY8XcA">The Warfield</a>
+	- 10-Dec-2024 PST
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+	-
+	<a href="/resource/music/concert-tickets/2024_1210 - Kiss of Life @ The Warfield - ticket - Sunghee.jpeg">Sunghee's ticket</a>
+</li>
+<li>
 	ME
 	-
 	Chamber Music @ <a href="https://maps.app.goo.gl/QwTTAmfiJHvhZcF26">Davies Symphony Hall</a>
-	- 29-Sep-2024
+	- 29-Sep-2024 PST
 	<!--a href="https://maps.app.goo.gl/QwTTAmfiJHvhZcF26"><img border="0" src="/resource/favicons/icons8-google-maps-96.png" width=20 height=20></a-->
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHZocmliZzJ0czhnczlhc2puaGhiaXZxcDggc3VuZ2hlZS55dW5AbQ&amp;tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	-
