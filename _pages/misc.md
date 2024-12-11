@@ -209,7 +209,7 @@ Trips
 	6 nights
 	<ul>
 	<li>
-		03-Dec-2024 ~ 09-Dec-2024 PST
+		03-Dec-2024 CET ~ 09-Dec-2024 PST
 	</li>
 	<li>
 		flight 1
@@ -271,13 +271,41 @@ Trips
 	<li>
 		29-Nov-2024 PST ~ 03-Dec-2024 CET
 	</li>
+	<s>
+	<li>
+		<!--s-->
+		flight 1
+		-
+		United 8032 operated by Air Canada
+		-
+		from SFO @ 8:30am on 29-Nov-2024 PST
+		to YUL @ 4:58pm on 29-Nov-2024 EST
+		(5h 28m)
+		-
+		layover: 4h 37m
+		<!--/s-->
+	</li>
+	<li>
+		<!--s-->
+		flight 2
+		-
+		United 8069 operated by Air Canada
+		-
+		from YUL @ 9:35pm on 29-Nov-2024 EST
+		to LYS @ 10:05am on 30-Nov-2024 CET
+		(7h 30m)
+		-
+		(total: 17h 35m)
+		<!--/s-->
+	</li>
+	</s>
 	<li>
 		flight 1
 		-
 		TAP Portugal 238
 		-
-		from SFO @ 7:15pm on 29-Nov-2024 WET
-		to LIS @ 2:10pm on 30-Nov-2024
+		from SFO @ 7:15pm on 29-Nov-2024 PST
+		to LIS @ 2:10pm on 30-Nov-2024 WET
 		(10h 55m)
 		-
 		layover: 6h 20m
