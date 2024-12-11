@@ -36,8 +36,18 @@ Concerts
 <li>
 	ME
 	-
+	Whitney Houston: The Concert for a New South Africa (Durban) (2024)
+	@
+	<a href="https://maps.app.goo.gl/eAVUi5Pn2eK3ji8w5">AMC Mercado 20, Santa Clara, CA, USA</a>
+	-
+	27-Oct-2024 PDT
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=anNrMzRlM3R2dHVqMWdhMjNkbzJmM3F0a3Mgc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+</li>
+<li>
+	ME
+	-
 	Chamber Music @ <a href="https://maps.app.goo.gl/QwTTAmfiJHvhZcF26">Davies Symphony Hall</a>
-	- 29-Sep-2024 PST
+	- 29-Sep-2024 PDT
 	<!--a href="https://maps.app.goo.gl/QwTTAmfiJHvhZcF26"><img border="0" src="/resource/favicons/icons8-google-maps-96.png" width=20 height=20></a-->
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHZocmliZzJ0czhnczlhc2puaGhiaXZxcDggc3VuZ2hlZS55dW5AbQ&amp;tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	-
