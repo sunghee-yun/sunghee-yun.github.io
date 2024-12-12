@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[K-PAI Seminar] The AI Knight Rises - Deep Learning to Flourishing Societies"
+title: "[K-PAI Seminar] The AI Knight Rises - From Deep Learning to Flourishing Societies"
 permalink: /seminars/2025_0122 PDT - K-PAI - The AI Knight Rises/abstract
 ---
 
