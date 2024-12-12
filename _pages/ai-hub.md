@@ -784,6 +784,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://v.daum.net/v/20241212112232714">삼성 &middot; SK 빼고 美 보조금 확정&hellip; K-반도체 &lsquo;외딴 섬&rsquo; 되나</a>
+	- 헤럴드경제
+	@ 12-Dec-2024 KST
+</li>
+<li>
+	<a href="https://www.washingtonpost.com/business/2024/12/10/micron-grant-chips-and-science-act/">Memory chip maker Micron’s $6.1 billion grant confirmed by Commerce Dept. - The Biden administration has pushed to disburse money for semiconductor manufacturing under the Chips and Science Act before Donald Trump takes office.</a>
+	- The Washington Post
+	@ 10-Dec-2024
+</li>
+<li>
 	<a href="https://asia.nikkei.com/Business/Tech/Semiconductors/Biden-finalizes-6.6bn-CHIPS-Act-grant-to-TSMC-before-Trump-returns">Biden finalizes $6.6bn CHIPS Act grant to TSMC before Trump returns</a>
 	- Nikkei Asia
 	@ 15-Nov-2024
@@ -1139,6 +1149,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://v.daum.net/v/20241212112232714">삼성 &middot; SK 빼고 美 보조금 확정&hellip; K-반도체 &lsquo;외딴 섬&rsquo; 되나</a>
+	- 헤럴드경제
+	@ 12-Dec-2024 KST
+</li>
+<li>
+	<a href="https://www.washingtonpost.com/business/2024/12/10/micron-grant-chips-and-science-act/">Memory chip maker Micron’s $6.1 billion grant confirmed by Commerce Dept. - The Biden administration has pushed to disburse money for semiconductor manufacturing under the Chips and Science Act before Donald Trump takes office.</a>
+	- The Washington Post
+	@ 10-Dec-2024
+</li>
 <li>
 	<a href="https://www.linkedin.com/pulse/7-revolutionary-cloud-computing-trends-define-business-bernard-marr-on5ze/">The 7 Revolutionary Cloud Computing Trends That Will Define Business Success In 2025</a>
 	- Bernard Marr
