@@ -26,7 +26,7 @@ Concerts
 <li>
 	Beth and ME
 	-
-	<a href="https://seatgeek.com/account/tickets/17085328">Kidd of Life</a>
+	<a href="https://seatgeek.com/account/tickets/17085328">Kiss of Life</a>
 	@ <a href="https://maps.app.goo.gl/2NjGDQR1jxkjY8XcA">The Warfield</a>
 	- 10-Dec-2024 PST
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
