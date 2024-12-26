@@ -132,6 +132,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 국민일동
 
+김병노
 성태웅
 윤성희
 황보선
