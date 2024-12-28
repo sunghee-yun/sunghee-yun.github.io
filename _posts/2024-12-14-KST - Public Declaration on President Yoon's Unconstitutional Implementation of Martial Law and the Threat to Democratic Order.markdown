@@ -130,8 +130,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 국민일동
 
 김병노
+김지형
 민상현
 박태영
 성태웅
 윤성희
+이희영
 황보선
