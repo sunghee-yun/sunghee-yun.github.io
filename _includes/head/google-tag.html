@@ -7,7 +7,11 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-CJD4VZC0CX');
+  gtag('config', 'G-CJD4VZC0CX', {
+    'cookie_flags': 'max-age=7200;secure;samesite=none',
+    'cookie_domain': 'auto',
+    'transport_type': 'beacon'
+  });
 </script>
 
 <!-- end custom head snippets -->
