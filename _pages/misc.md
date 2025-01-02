@@ -219,7 +219,16 @@ Trips
 		(6h 39m)
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's, Scarsdale, NY</a>
+		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's, Scarsdale, NY</a>
+	</li>
+	<li>
+		visit
+		<a href="https://maps.app.goo.gl/qJLgX9cT4SKb37Td6">Carnegie Hall</a> @ 28-Dec-2024,
+		<a href="https://maps.app.goo.gl/6VjqiDZXpBceWoNk9">Rockefeller Center</a> @ 29-Dec-2024,
+		<a href="https://maps.app.goo.gl/yNpQXnYNK6WZbxGP6">St. Patrick's Cathedral</a> @ 29-Dec-2024
+	</li>
+	<li>
+		<a href="/resource/music/Lucy & Sunghee - Violin & Piano.mp4">String &amp; Piano Duet - Lucy & Sunghee</a>
 	</li>
 	</ul>
 </li>
