@@ -140,17 +140,14 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 
 <h3 id="moma">MOMA</h3>
 
-15
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-18 025.jpeg">
 </div>
 
-16
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-19 026.jpeg">
 </div>
 
-9
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-11 021.jpeg">
 </div>
@@ -159,12 +156,10 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-13 022.jpeg">
 </div>
 
-12
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-15 023.jpeg">
 </div>
 
-23
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-09 020.jpeg">
 </div>
@@ -175,7 +170,6 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
 </div>
 
-22
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-06 018.jpeg">
 </div>
@@ -200,12 +194,10 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
 </div>
 
-10
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
 </div>
 
-37
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-17 007.jpeg">
 	&nbsp;
@@ -213,26 +205,22 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 </div>
 
 
-21
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-30 014.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-20 009.jpeg">
 </div>
 
-25
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-14 005.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-24 011.jpeg">
 </div>
 
-28
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
 </div>
 
-19
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-34 016.jpeg">
 	&nbsp;
@@ -242,17 +230,14 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 
 <h3 id="pasta-corner">Pasta corner</h3>
 
-32
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-07 001.jpeg">
 </div>
 
-46
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-47 007.jpeg">
 </div>
 
-35
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-49 008.jpeg">
 </div>
@@ -268,7 +253,6 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 
 <h2 id="flight-back-home">Flight back home on 31-Dec-2024</h2>
 
-38
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-42 004.jpeg">
 </div>
@@ -277,12 +261,10 @@ Our trip culminated in a musical collaboration that brought us all immense joy. 
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-41 003.jpeg">
 </div>
 
-42
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-39 002.jpeg">
 </div>
 
-30
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-37 001.jpeg">
 </div>
