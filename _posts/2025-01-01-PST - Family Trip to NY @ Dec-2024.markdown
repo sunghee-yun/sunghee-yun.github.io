@@ -120,7 +120,11 @@ above, the force like the electric force is exerted on two point masses
 </figure>
 </div>
 
-Our trip culminated in a musical collaboration that brought us all immense joy. I had the honor of playing the piano accompaniment for Lucy's violin performance of Seitz Violin Concerto No. 5 in D Major Op. 22, 3rd Mvt. (rondo). The harmony of our instruments echoed the harmony of our families, creating a beautiful melody that will forever resonate in our hearts.
+Our trip culminated in a musical collaboration that brought us all immense joy.
+I had the honor of playing the piano accompaniment for Lucy's violin performance of
+<!--Seitz Violin Concerto No. 5 in D Major Op. 22, 3rd Mvt. (rondo).-->
+Friedrich Seitz's Violin Concerto No. 5 in D major, Op. 22, Third Movement (Rondo).
+The harmony of our instruments echoed the harmony of our families, creating a beautiful melody that will forever resonate in our hearts.
 
 <div style="text-align: center;">
 <!--video width="320" height="240" controls-->
