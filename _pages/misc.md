@@ -24,6 +24,25 @@ Concerts
 
 <ul>
 <li>
+	Family
+	-
+	<a href="https://www.carnegiehall.org/Calendar/2024/12/28/New-York-String-Orchestra-0800PM">New York String Orchestra</a>
+	@ <a href="https://maps.app.goo.gl/TJ2Rdbn7XSF58FdQ7">Carnegie Hall</a>
+	-
+	8pm on 28-Dec-2024 EST
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dmwwbTJpOWZuZmhzbmVkOG9jNmM2bGFyNWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&amp;tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+	&nbsp;
+	<a href="/resource/trips/2025-NY/MOMA - tickets.pdf">Tickets</a>
+</li>
+<li>
+	Family
+	-
+	<a href="https://maps.app.goo.gl/aE59vKc2dZFk2QhB7">The Museum of Modern Art, New York</a>
+	-
+	5pm on 28-Dec-2024 EST
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NWduOXBxMzNtbHJiZmMzZGwxOHEzdnM2MW8gY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&amp;tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+</li>
+<li>
 	Beth and ME
 	-
 	<a href="https://seatgeek.com/account/tickets/17085328">Kiss of Life</a>
@@ -66,7 +85,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/DXesEpcAuX6gji3k7">The Metropolitan Museum of Art</a>
+	<a href="https://maps.app.goo.gl/DXesEpcAuX6gji3k7">The Metropolitan Museum of Art</a>
 	- 2pm on 31-Jul-2023 EDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M21yMDZvajlmMXFtcm9udmw0Y2o0bWUzcTAgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 </li>
@@ -87,7 +106,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/EzZgLWssRftzSsSj7">San Francisco Museum of Modern Art</a>
+	<a href="https://maps.app.goo.gl/EzZgLWssRftzSsSj7">San Francisco Museum of Modern Art</a>
 	- 1pm on 13-Jul-2023 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=bXA4bzZ2ZHNtMjhkOGw1NGV0djkzczY3YzQgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 </li>
@@ -103,7 +122,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/w5wn75kmcuPMPqvy7">de Young Museum</a>
+	<a href="https://maps.app.goo.gl/w5wn75kmcuPMPqvy7">de Young Museum</a>
 	-
 	9:30am on 03-Jun-2023 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=ZnQybHM3MWRvaWRkZmZxNTZpa21uajFhcTQgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
@@ -111,7 +130,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/ktQMEgr3TPyXsRwJA">Disneyland Park</a>
+	<a href="https://maps.app.goo.gl/ktQMEgr3TPyXsRwJA">Disneyland Park</a>
 	-
 	9am on 17-Apr-2023 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=ZW9pZWdiaDV2aWVyNXU0OW8wOGw2MzBvcWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
@@ -119,7 +138,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/BP9bfMtCjUgVbmJ88">The Getty</a>
+	<a href="https://maps.app.goo.gl/BP9bfMtCjUgVbmJ88">The Getty</a>
 	-
 	11am on 16-Apr-2023 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=ZW9pZWdiaDV2aWVyNXU0OW8wOGw2MzBvcWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
@@ -134,7 +153,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/2Dq9JbRQn68fGZ499">Universal Studios Hollywood</a>
+	<a href="https://maps.app.goo.gl/2Dq9JbRQn68fGZ499">Universal Studios Hollywood</a>
 	-
 	9am on 26-Jul-2022 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=YWpyMHI2Y2Mza2ZzdDAwa3U3MmwwODIxdWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
@@ -142,7 +161,7 @@ Concerts
 <li>
 	Family
 	-
-	visits <a href="https://maps.app.goo.gl/iqfbNRNhEHAnM4R98">The Getty Villa</a>
+	<a href="https://maps.app.goo.gl/iqfbNRNhEHAnM4R98">The Getty Villa</a>
 	-
 	11am on 25-Jul-2022 PDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Zm8yNGJyM2YxcWR1dDRkcGpucmprdGJmYWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
@@ -188,9 +207,6 @@ Trips
 		PST on 09-Jan-2025
 		(1h 50m)
 	</li>
-	<li>
-		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's, Scarsdale, NY</a>
-	</li>
 	</ul>
 </li>
 </ul>
@@ -202,6 +218,8 @@ Trips
 <ul>
 <li>
 	Family Trip to New York - 6 nights
+	-
+	<a href="{{ site.baseurl }}{% post_url 2025-01-01-PST - Family Trip to NY @ Dec-2024 %}">My blog</a>
 	<ul>
 	<li>
 		25-Dec-2024 ~ 31-Dec-2024 PST
@@ -219,16 +237,12 @@ Trips
 		(6h 39m)
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's, Scarsdale, NY</a>
-	</li>
-	<li>
+		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's home, Scarsdale, NY</a>,
 		visit
 		<a href="https://maps.app.goo.gl/qJLgX9cT4SKb37Td6">Carnegie Hall</a> @ 28-Dec-2024,
-		<a href="https://maps.app.goo.gl/6VjqiDZXpBceWoNk9">Rockefeller Center</a> @ 29-Dec-2024,
+		<a href="https://maps.app.goo.gl/6VjqiDZXpBceWoNk9">Rockefeller Center</a> @ 29-Dec-2024
+		&amp;
 		<a href="https://maps.app.goo.gl/yNpQXnYNK6WZbxGP6">St. Patrick's Cathedral</a> @ 29-Dec-2024
-	</li>
-	<li>
-		<a href="/resource/music/Lucy & Sunghee - Violin & Piano.mp4">String &amp; Piano Duet - Lucy & Sunghee</a>
 	</li>
 	</ul>
 </li>
@@ -754,7 +768,8 @@ Trips
 		to SFO
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's</a>
+		<!--stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's</a-->
+		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's home, Scarsdale, NY</a>,
 	</li>
 	</ul>
 </li>
@@ -1603,7 +1618,7 @@ Trips
 </li>
 </ul>
 
-<h2 id="trips-2011-2025">2011 ~ 2015</h2>
+<h2 id="trips-2011-2015">2011 ~ 2015</h2>
 <!--h2 id="trips-2015">2015</h2-->
 <h3>2015</h3>
 
