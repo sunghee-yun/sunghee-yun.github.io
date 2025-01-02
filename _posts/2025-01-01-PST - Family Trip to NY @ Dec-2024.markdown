@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Wed Jan  1 17:11:40 PST 2025
+last_modified_at: Thu Jan  2 00:31:28 PST 2025
 categories:
  - blog
 tags:
@@ -39,6 +39,8 @@ Our real adventure began on Saturday
 with an exploration of modern art at <a href="https://maps.app.goo.gl/5aA7XkQe9jzRyszRA">the Museum of Modern Art (MoMA)</a>, where we marveled at the creative genius on display.
 Later that day we were spellbound by the enchanting performances of <a href="https://www.carnegiehall.org/Calendar/2024/12/28/New-York-String-Orchestra-0800PM">the String Orchestra</a> at <a href="https://maps.app.goo.gl/ELM6C2WW8xx41k4V6">Carnegie Hall</a>.
 The music resonated deeply within us, setting a harmonious tone for the rest of our trip.
+(We had quick dinner at <a href="https://maps.app.goo.gl/XMrSRKmSxKKa7EJ49">K-bap</a> before the concert because we did not have enough time
+for quality food. I once again realized that our ancestors were correct in that &ldquo;Hunger makes the best seasoning (시장이 반찬이다).&rdquo; &#x2605;^^&#x2605;)
 
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-16 024.jpeg">
