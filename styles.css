@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .map-container iframe {
 	max-width: 80%;
+	max-height: 50vh;
 	max-height: 200px;
 }
 
@@ -143,6 +144,10 @@ h1, h2, h3, h4, h5, h6 {
 .fig-container figure {
 	display: inline-block;
 	max-width: 80%;
+}
+
+.fig-container img {
+	max-height: 50vh;
 }
 
 figcaption {
@@ -158,6 +163,7 @@ figcaption {
 
 .img-container img {
 	max-width: 80%;
+	max-height: 50vh;
 }
 
 .article-iframe-container {
