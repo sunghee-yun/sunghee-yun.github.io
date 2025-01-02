@@ -36,8 +36,8 @@ This past holiday season, from December 25th to 31st, 2024,
 Ghayoung, Beth, and I embarked on a memorable journey to New York to visit my sister, Jisun, her husband, Steve, and their kids, Lucy and Liam. Our hearts were filled with anticipation as we looked forward to creating lasting memories together.
 
 Our real adventure began on Saturday
-with an exploration of modern art at the Museum of Modern Art (MoMA), where we marveled at the creative genius on display.
-Later that day we were spellbound by the enchanting performances of the String Orchestra at Carnegie Hall. 
+with an exploration of modern art at <a href="https://maps.app.goo.gl/5aA7XkQe9jzRyszRA">the Museum of Modern Art (MoMA)</a>, where we marveled at the creative genius on display.
+Later that day we were spellbound by the enchanting performances of <a href="https://www.carnegiehall.org/Calendar/2024/12/28/New-York-String-Orchestra-0800PM">the String Orchestra</a> at <a href="https://maps.app.goo.gl/ELM6C2WW8xx41k4V6">Carnegie Hall</a>.
 The music resonated deeply within us, setting a harmonious tone for the rest of our trip.
 
 <div class="img-container">
@@ -86,7 +86,12 @@ The sweet treats were a hit with everyone, especially the kids, whose faces lit 
 <img style="height: 30vh;" src="/resource/trips/2025-NY/Screenshot 2025-01-01 at 6.06.04 PM.png">
 </div>
 
-Amidst the festivities, I also had the opportunity to share my passion for technology and education. I conducted a remote AI seminar, ensuring that even my cousin, Christina's family, who couldn't join us due to an unfortunate accident-Adrian broke his legs a day before our (long-thought-and-planned) trip, could participate. Additionally, I demonstrated a software package I developed for high school physics education, which has evolved significantly over time. Cezar, Christina's husband, expressed his enthusiasm about the software, making the demo a resounding success.
+Amidst the festivities, I also had the opportunity to share my passion for technology and education.
+I conducted a remote AI seminar, ensuring that even my cousin, Christina's family,
+who couldn't join us due to an unfortunate accident-Adrian broke his legs a day before our (long-thought-and-planned) trip, could participate.
+Additionally, I demonstrated <a href="https://github.com/sungheeyun/science">a software package</a>
+I developed for high school physics education, which has evolved significantly over time.
+Cezar, Christina's husband, expressed his enthusiasm about the software, making the demo a resounding success.
 
 <div class="fig-container">
 <figure>
@@ -142,7 +147,7 @@ The harmony of our instruments echoed the harmony of our families, creating a be
 
 <h2 id="28-dec">Manhattan @ 28-Dec-2024</h2>
 
-<h3 id="moma">MOMA</h3>
+<h3 id="moma">MoMA</h3>
 
 <div class="img-container">
 	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-18 025.jpeg">
