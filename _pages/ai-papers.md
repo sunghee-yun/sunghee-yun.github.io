@@ -219,6 +219,13 @@ toc_sticky: true
 <h2 id="ai-agent">AI agent</h2>
 
 <ul>
+<li id="agents-are-not-enough">
+	"Agents Are Not Enough"
+	- Chirag Shah &amp; Ryen W. White
+	(University of Washington &amp; Microsoft Research)
+	@ 19-Dec-2024
+	(<a href="https://www.arxiv.org/abs/2412.16241">arxiv</a>)
+</li>
 <li>
 	"Agent-as-a-Judge: Evaluate Agents with Agents"
 	- Mingchen Zhuge, Changsheng Zhao, Dylan Ashley, Wenyi Wang, Dmitrii Khizbullin, Yunyang Xiong, Zechun Liu, Ernie Chang, Raghuraman Krishnamoorthi, Yuandong Tian, Yangyang Shi, Vikas Chandra &amp; Jürgen Schmidhuber
@@ -490,6 +497,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
+<li id="agents-are-not-enough">
+	"Agents Are Not Enough"
+	- Chirag Shah &amp; Ryen W. White
+	(University of Washington &amp; Microsoft Research)
+	@ 19-Dec-2024
+	(<a href="https://www.arxiv.org/abs/2412.16241">arxiv</a>)
+</li>
 <li>
 	"Sequence modeling and design from molecular to genome scale with Evo"
 	- Eric Nguyen, Michael Poli, Matthew G. Durrant, Brian Kang, Dhruva Katrekar, David B. Li, Liam J. Bartie, Armin W. Thomas, Samuel H. King, Garyk Brixi, Jeremy Sullivan, Madelena Y. Ng, Ashley Lewis, Aaron Lou, Stefano Ermon, Stephen A. Baccus, Tina Hernandez-Boussard, Christopher Ré, Patrick D. Hsu &amp; Brian L. Hie

@@ -1,5 +1,16 @@
 [
 	{
+		"id": "agents-are-not-enough",
+		"category": ["ai", "agent"],
+		"title": "Agents Are Not Enough",
+		"authors": "Chirag Shah, Ryen W. White",
+		"url": {
+			"arxiv": "https://www.arxiv.org/abs/2412.16241"
+		},
+		"org": "University of Washington &amp; Microsoft Research",
+		"date": "19-Dec-2024"
+	},
+	{
 		"category": ["ai", "agent"],
 		"title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
 		"authors": "Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng, Aleksander Mądry",
