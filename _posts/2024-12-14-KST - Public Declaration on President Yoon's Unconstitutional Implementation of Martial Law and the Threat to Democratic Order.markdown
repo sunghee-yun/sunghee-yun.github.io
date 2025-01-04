@@ -127,8 +127,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 2024년 12월 14일
 
-국민일동
-
 김병노
 김지형
 민상현
