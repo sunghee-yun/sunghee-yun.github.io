@@ -44,4 +44,4 @@ Throughout the slides, I maintain a balance between rigorous mathematical formal
 I encourage you to share your thoughts, questions, and feedback. Together, we can continue to learn, grow, and appreciate the beauty and utility of mathematics.
 Please email me to <sunghee.yun@gmail.com> with any types of comments with subject starting with "fun math"!
 
--- Mr. Funnybunny
+-- Sunghee
