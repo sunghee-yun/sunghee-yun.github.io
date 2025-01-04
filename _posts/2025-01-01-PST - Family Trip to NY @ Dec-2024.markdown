@@ -43,38 +43,38 @@ The music resonated deeply within us, setting a harmonious tone for the rest of 
 for quality food. I once again realized that our ancestors were correct in that &ldquo;Hunger makes the best seasoning (시장이 반찬이다).&rdquo; &#x2605;^^&#x2605;)
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-16 024.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-16 024.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-04 017.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-04 017.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
 </div>
 
 
 On the next day following the concert, we ventured to <a href="https://maps.app.goo.gl/Z8YNJ2U1UTxH49jQ9">Rockefeller Center</a>, where the magnificent Christmas tree stood as a testament to the season's joy and warmth. <a href="https://maps.app.goo.gl/yNpQXnYNK6WZbxGP6">The nearby cathedral</a> added a sense of tranquility and awe to our experience. To top off the day, we savored the delights of <a href="https://maps.app.goo.gl/pYvHYFG3o4avf4gk6">Pasta Corner 53rd</a>, an authentic Italian cuisine, a feast that brought our families even closer.
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-23 010.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-23 010.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-12 004.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-12 004.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-16 006.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-16 006.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-23 027.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-23 027.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
+<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
 </div>
 
 One of the highlights of our trip was a visit to <a href="https://maps.app.goo.gl/44roAatnijBMcGEy8">Mimi's by Martine's</a>,
@@ -82,10 +82,10 @@ an ice cream store near <a href="https://maps.app.goo.gl/gxj5mQtLTpE7J6TTA">the 
 The sweet treats were a hit with everyone, especially the kids, whose faces lit up with each delightful bite. This simple yet joyful moment reminded us of the pure happiness that comes from sharing life's little pleasures with loved ones.
 
 <div class="img-container">
-<img src="/resource/trips/2025-NY/Screenshot 2025-01-01 at 6.06.12 PM.png">
+<img src="/resource/trips/2024-NY/Screenshot 2025-01-01 at 6.06.12 PM.png">
 </div>
 <div class="img-container">
-<img style="height: 30vh;" src="/resource/trips/2025-NY/Screenshot 2025-01-01 at 6.06.04 PM.png">
+<img style="height: 30vh;" src="/resource/trips/2024-NY/Screenshot 2025-01-01 at 6.06.04 PM.png">
 </div>
 
 Amidst the festivities, I also had the opportunity to share my passion for technology and education.
@@ -97,7 +97,7 @@ Cezar, Christina's husband, expressed his enthusiasm about the software, making 
 
 <div class="fig-container">
 <figure>
-<img src="/resource/trips/2025-NY/ball_motion.gif">
+<img src="/resource/trips/2024-NY/ball_motion.gif">
 <figcaption>
 It all started with this simple *^^* physics problem ...
 </figcaption>
@@ -106,7 +106,7 @@ It all started with this simple *^^* physics problem ...
 
 <div class="fig-container">
 <figure>
-<img src="/resource/trips/2025-NY/2d-4-bodies.gif">
+<img src="/resource/trips/2024-NY/2d-4-bodies.gif">
 <figcaption>
 Then <a href="https://github.com/sungheeyun/science">science</a> got quickly evolved
 to deal with arbitrary configuration of point masses, springs, and what not!
@@ -116,7 +116,7 @@ to deal with arbitrary configuration of point masses, springs, and what not!
 
 <div class="fig-container">
 <figure>
-<img src="/resource/trips/2025-NY/electric-like-force-between-2-bodies.gif">
+<img src="/resource/trips/2024-NY/electric-like-force-between-2-bodies.gif">
 <figcaption>
 Then hold on,
 why not create a whole universe in which
@@ -136,7 +136,7 @@ The harmony of our instruments echoed the harmony of our families, creating a be
 <div style="text-align: center;">
 <!--video width="320" height="240" controls-->
 <video width="90%" controls>
-    <source src="/resource/trips/2025-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
+    <source src="/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -152,37 +152,37 @@ The harmony of our instruments echoed the harmony of our families, creating a be
 <h3 id="moma">MoMA</h3>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-18 025.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-18 025.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-19 026.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-19 026.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-11 021.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-11 021.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-13 022.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-13 022.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-15 023.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-15 023.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-09 020.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-09 020.jpeg">
 </div>
 
 <h3 id="carnegie hall">Carnegie Hall</h3>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-06 018.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-06 018.jpeg">
 </div>
 
 
@@ -191,92 +191,92 @@ The harmony of our instruments echoed the harmony of our families, creating a be
 <h3 id="rockefeller">Rockefeller Center</h3>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-54 011.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-54 011.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-29 013.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-29 013.jpeg">
 	&nbsp;
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-53 010.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-53 010.jpeg">
 </div>
 
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-17 007.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-17 007.jpeg">
 	&nbsp;
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-19 008.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-19 008.jpeg">
 </div>
 
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-30 014.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-30 014.jpeg">
 	&nbsp;
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-20 009.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-20 009.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-14 005.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-14 005.jpeg">
 	&nbsp;
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-24 011.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-24 011.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-34 016.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-34 016.jpeg">
 	&nbsp;
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-06-25 029.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-25 029.jpeg">
 </div>
 
 
 <h3 id="pasta-corner">Pasta corner</h3>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-07-07 001.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-07 001.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-47 007.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-47 007.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-49 008.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-49 008.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
+<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-44 005.jpeg">
+<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-44 005.jpeg">
 </div>
 
 
 <h2 id="flight-back-home">Flight back home on 31-Dec-2024</h2>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-42 004.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-42 004.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-41 003.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-41 003.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-39 002.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-39 002.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2025-NY/KakaoTalk_Photo_2025-01-01-17-05-37 001.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-37 001.jpeg">
 </div>
 
