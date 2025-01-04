@@ -207,6 +207,9 @@ Trips
 		PST on 09-Jan-2025
 		(1h 50m)
 	</li>
+	<li>
+		<a href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
+	</li>
 	</ul>
 </li>
 </ul>
