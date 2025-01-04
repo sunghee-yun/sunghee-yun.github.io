@@ -8,10 +8,6 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <h1 id="listening-or-reading">Listening or Reading</h1>
 
 <ul>

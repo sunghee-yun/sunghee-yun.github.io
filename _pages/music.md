@@ -8,10 +8,6 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <!--
 <img style="width: 1.5em;" src="/assets/images/icons/icons8-youtube-color/icons8-youtube-48.svg"></a>
 <img style="width: 1.5em;" src="/assets/images/icons/icons8-youtube-color/icons8-youtube-48.svg"></a>

@@ -8,10 +8,6 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 AlphaProteo is a new AI system developed by Google DeepMind that can generate novel proteins with specific desired properties. This breakthrough has significant implications for biology and health research, as it allows scientists to create proteins tailored for specific functions or applications.
 
 <h2>

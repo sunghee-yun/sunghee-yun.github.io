@@ -10,10 +10,6 @@ date: Tue Oct 29 08:00:30 PDT 2024
 last_modified_at: Tue Oct 29 08:00:30 PDT 2024
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}

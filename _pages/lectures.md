@@ -8,10 +8,6 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <h1 id="phenomenology">현상학 (<a href="https://en.wikipedia.org/wiki/Phenomenology_(philosophy)">Phenomenology</a>) - 안세권 교수
 	&nbsp;
 	<a href="https://youtube.com/playlist?list=PLQw_vhPNrnImT5NMIzAkD5mC1siHzbEK4&si=QK45_Y3jkfTO52ef">

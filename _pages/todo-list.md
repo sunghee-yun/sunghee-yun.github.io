@@ -4,10 +4,6 @@ title: About
 permalink: /todo-list/
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <h1 id="todo-list">TODO List</h1>
 
 <ul>

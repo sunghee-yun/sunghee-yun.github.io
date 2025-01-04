@@ -12,10 +12,6 @@ tags:
  - document
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 posted: {{ page.date| date: "%d-%b-%Y" }}
 {: .notice--primary}
 

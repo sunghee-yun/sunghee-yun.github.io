@@ -10,10 +10,6 @@ date: Sat Nov 23 06:56:34 PST 2024
 last_modified_at: Sat Nov 23 06:56:34 PST 2024
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <h2 id="southwest-ymca-aquatics-schedule">
 	Southwest YMCA Aquatics Schedule
 </h2>

@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<head>
-	<link rel="stylesheet" href="/resource/styles.css">
-</head>
-
 <p>
 	<a href="https://www.linkedin.com/in/sungheeyun/">I</a> am Co-founder / CTO - AI Technology &amp; Product Strategy
 	@
