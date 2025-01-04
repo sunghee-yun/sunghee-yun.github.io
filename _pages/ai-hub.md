@@ -278,6 +278,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.ccn.com/news/technology/south-korea-ai-basic-act-joins-eu/">South Korea Joins EU in Establishing Comprehensive AI Legislation</a>
+	- ccn
+	@ 26-Dec-2024
+</li>
+<li>
 	<a href="https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop">Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)</a>
 	- LinkedIn Post
 	@ 09-Nov-2024
@@ -1149,6 +1154,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.ccn.com/news/technology/south-korea-ai-basic-act-joins-eu/">South Korea Joins EU in Establishing Comprehensive AI Legislation</a>
+	- ccn
+	@ 26-Dec-2024
+</li>
 <li>
 	<a href="https://v.daum.net/v/20241212112232714">삼성 &middot; SK 빼고 美 보조금 확정&hellip; K-반도체 &lsquo;외딴 섬&rsquo; 되나</a>
 	- 헤럴드경제

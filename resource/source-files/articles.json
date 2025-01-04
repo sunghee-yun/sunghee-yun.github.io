@@ -242,6 +242,13 @@
 	},
 	{
 		"category": ["ai", "impacts", "legal"],
+		"url": "https://www.ccn.com/news/technology/south-korea-ai-basic-act-joins-eu/",
+		"title": "South Korea Joins EU in Establishing Comprehensive AI Legislation",
+		"date": "26-Dec-2024",
+		"press": "ccn"
+	},
+	{
+		"category": ["ai", "impacts", "legal"],
 		"url": "https://www.linkedin.com/posts/svetlanastotskaya_generativeai-integratedmarketingagency-ai-activity-7260374655784419328-FCR_?utm_source=share&utm_medium=member_desktop",
 		"title": "Virtual Session on Generative AI-IP and Outputs hosted by the World Intellectual Property Organization (WIPO)",
 		"date": "09-Nov-2024",
