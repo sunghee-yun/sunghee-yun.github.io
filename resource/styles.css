@@ -166,6 +166,19 @@ figcaption {
 	max-height: 50vh;
 }
 
+.img-container-justified {
+	text-align: center;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.img-container-justified img {
+	max-width: 40%;
+	max-height: 50vh;
+}
+
 .article-iframe-container {
 	text-align: center;
 	margin-top: 0.5em;
