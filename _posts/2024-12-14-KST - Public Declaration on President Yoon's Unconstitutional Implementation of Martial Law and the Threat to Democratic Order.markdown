@@ -1,14 +1,14 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Sat Dec 14 03:33:52 KST 2024
+last_modified_at: Sun Jan  5 03:06:28 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
 tags:
  - 비상계엄령
  - 민주주의수호
-toc: false
+toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
@@ -23,6 +23,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <h1>Public Declaration on President Yoon's Unconstitutional Implementation of Martial Law and the Threat to Democratic Order</h1>
 
+<h1 id="main-text">본문</h1>
 
 우리는 2024년 12월 3일 발생한 위헌적 계엄령 선포 시도와 관련하여, 그리고 이를 정당화하려는 12월 12일자 대통령의 후속 담화문에 대해 깊은 분노와 우려를 표명하며, 다음과 같이 우리의 입장을 밝힙니다.
 
@@ -132,3 +133,92 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 윤성희
 이희영
 황보선
+
+<h1 id="appendix">참조</h1>
+
+<ul>
+<li>
+	대한민국헌법 제5조 2항
+	-
+	국군은 국가의 안전보장과 국토방위의 신성한 의무를 수행함을 사명으로 하며, 그 정치적 중립성은 준수된다.
+</li>
+<li>
+	대한민국헌법 제77조 3항
+	-
+	비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론&sdot;출판&sdot;집회&sdot;결사의 자유,
+	정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.
+</li>
+<li>
+	대한민국헌법 제77조 4항
+	-
+	계엄을 선포한 때에는 대통령은 지체없이 국회에 통고하여야 한다.
+</li>
+<li>
+	대한민국헌법 제77조 5항
+	-
+	국회가 재적의원 과반수의 찬성으로 계엄의 해제를 요구한 때에는 대통령은 이를 해제하여야 한다.
+</li>
+<li>
+	대한민국헌법 제89조
+	-
+	다음 사항은 국무회의의 심의를 거쳐야 한다.
+	<ol>
+	<li>
+		국정의 기본계획과 정부의 일반정책
+	</li>
+	<li>
+		선전&sdot;강화 기타 중요한 대외정책
+	</li>
+	<li>
+		헌법개정안&sdot;국민투표안&sdot;조약안&sdot;법률안 및 대통령령안
+	</li>
+	<li>
+		예산안&sdot;결산&sdot;국유재산처분의 기본계획&sdot;국가의 부담이 될 계약 기타 재정에 관한 중요 사항
+	</li>
+	<li>
+		대통령의 긴급명령&sdot;긴급재정경제처분 및 명령 또는 계엄과 그 해제
+	</li>
+	<li>
+		군사에 관한 중요사항
+	</li>
+	<li>
+		국회의 임시회 집회의 요구
+	</li>
+	<li>
+		영전수여
+	</li>
+	<li>
+		사면&sdot;감형과 복권
+	</li>
+	<li>
+		행정각부간의 권한의 획정
+	</li>
+	<li>
+		정부 안의 권한의 위임 또는 배정에 관한 기본계획
+	</li>
+	<li>
+		국정처리상황의 평가&sdot;분석
+	</li>
+	<li>
+		행정각부의 중요한 정책의 수립과 조정
+	</li>
+	<li>
+		정당해산의 제소
+	</li>
+	<li>
+		정부에 제출 또는 회부된 정부의 정책에 관계되는 청원의 심사
+	</li>
+	<li>
+		검찰총장&sdot;합동참모의장&sdot;각군참모총장&sdot;국립대학교총장&sdot;대사 기타 법률이 정한 공무 원과 국영기업체관리자의 임명
+	</li>
+	<li>
+		기타 대통령&sdot;국무총리 또는 국무위원이 제출한 사항
+	</li>
+	</ol>
+</li>
+<li>
+	대한민국헌법 제103조
+	-
+	법관은 헌법과 법률에 의하여 그 양심에 따라 독립하여 심판한다.
+</li>
+</ul>
