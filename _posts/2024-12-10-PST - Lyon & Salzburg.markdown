@@ -28,9 +28,9 @@ but by a deep understanding of its human impact and cultural context.
 </blockquote>
 
 
-<h1 id="lyon">To Lyon</h1>
+<h1 id="lyon">Lyon</h1>
 
-In late 2024, I embarked on a transformative European journey that wove together cutting-edge AI technology, global policy discussions, and rich cultural experiences.
+In late 2024 (31-Nov-2024 ~ 09-Dec-2024), I embarked on a transformative European journey that wove together cutting-edge AI technology, global policy discussions, and rich cultural experiences.
 The journey began in Lyon, France, where I was invited by <a href="https://en.wikipedia.org/wiki/Jung_Hee_Cheon">a longtime colleague</a> - both a mathematics professor at Seoul National University and CEO of <a href="https://www.cryptolab.co.kr/en/">CryptoLab</a> - to conduct <a href="/#sem-2024">an AI seminar and consultation</a> at their research center.
 This intensive four-day engagement centered on the intersection of artificial intelligence and <a href="https://en.wikipedia.org/wiki/Homomorphic_encryption">homomorphic cryptography</a>, highlighting how academia and industry can collaborate to push the boundaries of secure AI implementations.
 
@@ -65,11 +65,12 @@ This intensive four-day engagement centered on the intersection of artificial in
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4953.jpg">
 </div>
 
-<h1 id="salzburg">To Salzburg</h1>
+<h1 id="salzburg">Salzburg</h1>
 
 From Lyon, I traveled to the historic city of Salzburg as a
 <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>.
-At the majestic Schloss Leopoldskron, I joined a diverse cohort of leaders from the UN, EU, academia,
+At <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the majestic Schloss Leopoldskron</a>,
+I joined a diverse cohort of leaders from the UN, EU, academia,
 and both public and private sectors for the program
 &ldquo;<a href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies.</a>&rdquo;
 As part of the &ldquo;<a href="https://salzburgglobalseminar-ai.github.io/">Technology, Growth, and Inequality: The Case of AI</a>&rdquo; working group,
@@ -104,7 +105,8 @@ to raise global awareness and drive meaningful change in how we develop and depl
 
 I was honored to be given a chance to articulate these core beliefs about technology and solutions to its challenges
 in an interview with Salzburg Global Seminar.
-You can see the interview <a href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">here <i class="fa-brands fa-instagram"></i></a>.
+You can see the interview here.
+<a target="_blank" href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"><img width="24" height="24" src="/assets/images/icons/icons8-instagram-logo-94.png"></a>
 The fellowship has established ongoing commitments, both online and in-person, to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
 
 <div class="img-container">
