@@ -173,12 +173,12 @@ The Gothic splendor of München's Rathaus provided a stunning architectural back
 <div class="img-container-justified">
 &nbsp;
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5492.jpg">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5501.jpg">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5501.JPG">
 &nbsp;
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5503.jpg">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5503.JPG">
 </div>
 
 <h1 id="human">Human, human, and human!</h1>
