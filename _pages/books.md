@@ -533,6 +533,17 @@ toc_sticky: true
 
 <ul>
 <li>
+	철학적 선학禪學
+    &mdash; 
+	신호현,
+    파라아카데미, 
+    2024 
+	&nbsp;
+	<a href="/resource/photos/books/KakaoTalk_Image_2025-01-05-13-29-35_001.jpeg">
+    <img width=16 height=16 src="/resource/favicons/favicon - Google Photos - 118x118.png">
+    </a>
+</li>
+<li>
     부처 
     &mdash; 
     김진영, 
