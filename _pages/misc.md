@@ -8,9 +8,27 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
+<h1 id="gifts">
+Gifts
+</h1>
+
+<h2 id="gifts-2024">
+2025
+</h2>
+
+<ul>
+<li>
+	04-Jan-2024
+	-
+	Beth's card
+	<a href="/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-27_001.jpeg">front</a>
+	<a href="/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-30_002.jpeg">contents</a>,
+	Beth's gift
+</li>
+</ul>
+
 <h1 id="arts-and-culture">
 Arts &amp; Culture
-Concerts
 </h1>
 
 <h2 id="arts-and-culture-2024">
