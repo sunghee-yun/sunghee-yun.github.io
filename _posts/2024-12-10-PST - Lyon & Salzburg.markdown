@@ -109,6 +109,9 @@ You can see the interview here.
 <a target="_blank" href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"><img width="24" height="24" src="/assets/images/icons/icons8-instagram-logo-94.png"></a>
 The fellowship has established ongoing commitments, both online and in-person, to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
 
+More photos curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
+<a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>
+
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198208_o.jpg">
 </div>
@@ -155,7 +158,7 @@ Standing in the space where such remarkable creativity flourished was a powerful
 
 My journey concluded with a delightful excursion to München.
 The timing couldn't have been more perfect, as I arrived during <a href="https://en.wikipedia.org/wiki/Saint_Nicholas_Day">the Feast of Saint Nicholas</a>.
-The streets came alive with the traditional Krampus parade, offering a fascinating glimpse into centuries-old Alpine folklore.
+The streets came alive with the traditional <a href="https://en.wikipedia.org/wiki/Krampus">Krampus</a> parade, offering a fascinating glimpse into centuries-old Alpine folklore.
 The Gothic splendor of München's Rathaus provided a stunning architectural backdrop as I sampled traditional German winter delights - warming myself with Glühwein and savoring hearty Bavarian classics like Schweinshaxe and Schnitzel.
 
 <div class="img-container">
