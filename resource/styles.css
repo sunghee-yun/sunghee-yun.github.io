@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .map-container iframe {
-	max-width: 80%;
+	max-width: 90%;
 	max-height: 50vh;
 	max-height: 200px;
 }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fig-container figure {
-	max-width: 80%;
+	max-width: 90%;
 	display: inline-block;
 	max-height: 50vh;
 }
@@ -159,7 +159,7 @@ figcaption {
 }
 
 .img-container img {
-	max-width: 80%;
+	max-width: 90%;
 	max-height: 50vh;
 }
 
@@ -183,7 +183,7 @@ figcaption {
 }
 
 .article-iframe-container iframe {
-	max-width: 80%;
+	max-width: 90%;
 	max-height: 200px;
 }
 

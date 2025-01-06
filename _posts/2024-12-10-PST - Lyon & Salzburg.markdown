@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Mon Jan  6 00:30:05 PST 2025
+last_modified_at: Mon Jan  6 01:21:07 PST 2025
 categories:
  - blog
 tags:
@@ -210,26 +210,39 @@ The fellowship has established ongoing commitments, both online and in-person, t
 More photos about this exciting journeys curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
 <a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>
 
-<div class="img-container">
+<div class="fig-container">
+<figure>
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
 <figcaption>
 KFAS-Salzburg Global Leadership Initiative Fellows
 in front of
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the historic Schloss Leopoldskron</a>
 </figcaption>
+</figure>
 </div>
 
-<div class="img-container">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54207064392_o.jpg">
-</div>
-
-<div class="img-container">
+<div class="fig-container">
+<figure>
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+<figcaption>
+Lively discussion ensued as participants engaged in debates, sharing perspectives and insights across working groups on critical issues at hand.
+</figcaption>
+</figure>
 </div>
 
-<div class="img-container">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
+<div class="fig-container">
+<figure>
+<img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54207064392_o.jpg">
+<figcaption>
+Animated discussions flowed beyond our scheduled time as participants eagerly shared insights and explored each other's perspectives,
+sparking meaningful follow-up conversations.
+</figcaption>
+</figure>
 </div>
+
+<!--div class="img-container">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
+</div-->
 
 <h1 id="technology">My philosophy (and truth) I uphold for technology and humankind</h1>
 
@@ -241,8 +254,15 @@ The fellowship has established ongoing commitments, both online and in-person,
 to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
 
 
-<div class="img-container">
+<div class="fig-container">
+<figure>
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198208_o.jpg">
+<figcaption>
+Having internal discussions was one thing;
+conveying our intentions and actionable solutions to the participants was another challenge entirely.
+The process of articulation helped reveal gaps in our arguments and thoughts we hadn't previously considered.
+</figcaption>
+</figure>
 </div>
 
 <div class="img-container">
