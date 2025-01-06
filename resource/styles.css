@@ -142,11 +142,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fig-container figure {
-	display: inline-block;
 	max-width: 80%;
-}
-
-.fig-container img {
+	display: inline-block;
 	max-height: 50vh;
 }
 
