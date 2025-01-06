@@ -54,7 +54,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 
 <h1 id="highlight">
-	Key phrases highlighted by the author
+	Key phrases highlighted by me
 </h1>
 
 <div class="text-highlight">
