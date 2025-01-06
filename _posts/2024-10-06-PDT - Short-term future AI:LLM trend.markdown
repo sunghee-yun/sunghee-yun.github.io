@@ -21,6 +21,8 @@ toc_sticky: true
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 
