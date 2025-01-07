@@ -22,10 +22,16 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <blockquote>
 <font color="blue">
-<q>
-The future of AI must be shaped not just by technological advancement,
-but by a deep understanding of its human impact and cultural context.
-</q>
+<q>Each technological revolution brings legitimate challenges,
+yet humanity has consistently demonstrated its capacity to develop protective measures,
+whether through policy, education, or cultural shifts.</q>
+</font>
+</blockquote>
+
+<blockquote>
+<font color="blue">
+<q>The future of AI must be shaped not just by technological advancement,
+but by a deep understanding of its human impact and cultural context.</q>
 </font>
 </blockquote>
 
@@ -147,6 +153,7 @@ Pioneering researchers and developers advancing homomorphic cryptography technol
 A <a href="https://en.wikipedia.org/wiki/Bouchon">bouchon</a> is a type of restaurant found in Lyon, France,
 that serves traditional <a href="https://en.wikipedia.org/wiki/Lyonnaise_cuisine">Lyonnaise cuisine</a>,
 such as sausages, coq-au-vin, "salade lyonnaise" duck pâté or roast pork.
+Thanks for the great food, CryptoLab! :)
 </figcaption>
 </figure>
 </div>
@@ -244,15 +251,48 @@ sparking meaningful follow-up conversations.
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
 </div-->
 
-<h1 id="technology">My philosophy (and truth) I uphold for technology and humankind</h1>
 
+<!--
 My core philosophy, which resonated strongly throughout the Salzburg discussions,
 is that technology and AI must become the solution to the very challenges they create.
 While advancing AI capabilities, we must ensure that no one is left behind or marginalized.
 This requires three essential elements: the right philosophy, genuine good will, and most crucially, effective execution.
 The fellowship has established ongoing commitments, both online and in-person,
 to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
+-->
 
+<h1 id="ai-era">AI Era</h1>
+
+The rapid pace of technological innovation, particularly in the realm of artificial intelligence, is undeniably unprecedented.
+Paradoxically, this swift progress has generated considerable anxiety worldwide,
+with individuals expressing concerns about being left behind in a society that is evolving ever more rapidly,
+the displacement of jobs,
+and the potential for AI to surpass human intelligence.
+While some of these apprehensions are well-founded, others are less so.
+Nevertheless, it is evident that AI will significantly impact society, particularly the labor market,
+affecting both blue-collar and white-collar knowledge workers.
+Perhaps most crucially, it will transform how we interact with—or, more accurately, are subtly influenced by—technology.
+
+Throughout history, technological advancement has often been driven by forces beyond pure humanitarian ideals.
+Many pivotal innovations emerged from military necessity, economic competition, or the pursuit of national power rather than human wellbeing.
+The Industrial Revolution, while ultimately transforming living standards, was primarily fueled by commercial interests and imperial ambitions.
+The Space Race, despite its scientific achievements, was largely propelled by Cold War rivalry between the US and Soviet Union.
+Even modern digital technologies, from the internet to smartphones, were developed primarily through market forces seeking profit
+rather than deliberate efforts to enhance human happiness or conscious pursuit of humanity.
+
+<!--However, I'm not advocating for reversal—both because I'm uncertain of its merit and because it's simply impossible.
+Nor am I suggesting mere acceptance of our current reality.
+Rather, my point is this: we should leverage the very technologies that alienate us to overcome
+that alienation—to reclaim our humanity and return to what we were meant to be.-->
+
+Historical patterns reveal society's remarkable ability to adapt to disruptive technologies.
+When television emerged as a commercial medium, many predicted it would spell the end of cinema.
+While the movie industry ultimately survived, the adaptation came at a significant
+cost–numerous production companies faced bankruptcy during the transition period.
+A similar pattern emerged with the internet's rise, as society grappled with protecting young students from harmful content.
+These concerns may have evolved over time, but addressing them required sustained effort and innovation.
+Each technological revolution brings legitimate challenges, yet humanity has consistently demonstrated its capacity to develop protective measures, whether through policy, education, or cultural shifts.
+While these solutions may not be perfect, they represent our collective ability to harness innovation's benefits while mitigating its potential dangers.
 
 <div class="fig-container">
 <figure>
@@ -265,16 +305,59 @@ The process of articulation helped reveal gaps in our arguments and thoughts we 
 </figure>
 </div>
 
-<div class="img-container">
+<h1 id="technology-and-humanity">Technology and humanity</h1>
+
+So I think we should do the same with AI, or rather,
+I want to frame it this way: We should harness the very technology that impacts and alienates us to resolve the problems it creates - the economic, social, and technological disparities, the challenges of equitable access, the disruption of labor markets, and the various ethical and legal issues that AI brings forth.
+
+However, there is a crucial distinction to make.
+The changes and impacts that AI will bring are fundamentally different from previous technological revolutions throughout history.
+This difference stems from three key factors.
+
+First, AI is unique among technologies.
+Unlike steam engines, digital communications, internet, mobile, and smart devices, AI prompts us to naturally anthropomorphize it.
+This tendency leads us to both misunderstand and fail to correctly recognize its true nature and capabilities.
+We project human qualities onto AI in ways we never did with previous technologies, clouding our ability to see it objectively.
+Second, the sheer scale and radius of AI's impact is unprecedented, far surpassing any previous technological revolution.
+This magnitude is partly due to AI's ability to exhibit (seemingly) human-level or more precisely human-type intelligence.
+Third, more fundamentally, AI transforms not just what we can do, but how we work, interact with, and relate to technology itself.
+This represents a shift not just in capability, but in the very nature of human-technology interaction.
+
+
+At the Salzburg Global Seminar working group &ldquo;Technology, Growth, and Inequality:
+The Case of AI,&rdquo; we developed a comprehensive framework addressing AI's societal impact.
+Our solutions encompass anti-discrimination safeguards in AI systems, initiatives to democratize access to AI technologies,
+and programs to bridge the digital divide across communities.
+We've designed interactive educational platforms to enhance AI literacy,
+while implementing targeted capacity-building programs for engineers, scientists, policymakers, and business leaders to foster responsible AI development.
+Central to our approach is the establishment of inclusive, multi-stakeholder dialogue to build social consensus around AI deployment.
+
+<!--We really should not leave anyone behind or marginalized.
+This requires three essential elements: the right philosophy, genuine good will, and most crucially, effective execution.
+The fellowship has established ongoing commitments, both online and in-person,
+to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.-->
+
+To ensure truly equitable AI development, we're guided by three fundamental principles: a philosophy of universal inclusion,
+demonstrable commitment to social good, and rigorous implementation standards.
+The fellowship has established a sustained global network, combining virtual collaboration platforms with regular in-person convenings,
+to catalyze systemic change in AI development and deployment practices.
+This ongoing engagement enables continuous knowledge sharing and adaptive strategy refinement as AI technology evolves.
+
+<!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198288_o.jpg">
-</div>
+</div-->
 
-<div class="img-container">
+<!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208203839_o.jpg">
-</div>
+</div-->
 
-<div class="img-container">
+<div class="fig-container">
+<figure>
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+<figcaption>
+During our panel discussion, colleagues from different cultures and backgrounds engage in meaningful dialogue, exemplifying how diversity enriches our collaborative workspace at Salzburg Global.
+</figcaption>
+</figure>
 </div>
 
 <h1 id="mozart">Then Mozart</h1>
