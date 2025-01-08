@@ -367,8 +367,13 @@ Walking through the rooms where one of humanity's greatest musical geniuses live
 Seeing his original portraits, family memorabilia, and the instruments he played offered a tangible connection to his extraordinary legacy.
 Standing in the space where such remarkable creativity flourished was a powerful reminder of human potential and genius - a fitting reflection point as we work to ensure AI enhances rather than diminishes human capability.
 
-<div class="img-container">
+<div class="fig-container">
+<figure>
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5350.jpg">
+<figcaption>
+Mozarts Geburtshaus (German): The Historic Birthplace-turned-Museum of Wolfgang Amadeus Mozart
+</figcaption>
+</figure>
 </div>
 
 <div class="img-container-justified">
@@ -386,7 +391,7 @@ Standing in the space where such remarkable creativity flourished was a powerful
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5420.jpg">
 </div>
 
-<h1 id="mozart">Finally München</h1>
+<h1 id="munich">Finally München</h1>
 
 My journey concluded with a delightful excursion to München.
 The timing couldn't have been more perfect, as I arrived during <a href="https://en.wikipedia.org/wiki/Saint_Nicholas_Day">the Feast of Saint Nicholas</a>.
