@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Mon Jan  6 01:21:07 PST 2025
+last_modified_at: Wed Jan  8 01:40:52 PST 2025
 categories:
  - blog
 tags:
@@ -446,7 +446,7 @@ as I arrived during the Feast of Saint Nicholas. What awaited me was far beyond 
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5141.jpg">
 </div>
 <div class="img-container">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5233.jpg">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5233.JPG">
 </div>
 <figcaption>
 Meeting Krampus - an unexpected yet delightful encounter at München's St. Nicholas festivities - where ancient Alpine folklore comes with a smile!
