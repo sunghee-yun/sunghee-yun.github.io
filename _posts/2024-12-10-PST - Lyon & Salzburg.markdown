@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Wed Jan  8 01:40:52 PST 2025
+last_modified_at: Wed Jan  8 02:07:10 PST 2025
 categories:
  - blog
 tags:
@@ -349,15 +349,18 @@ I found myself imagining the singular genius who transformed music forever.
 What would it have been like to be Mozart,
 that unique figure in musical history whose brilliance remains unmatched?
 Would he have sensed his own immortality,
-knowing future generations would still marvel at his work and no one like him would be born ever?
+knowing future generations would still marvel at his work and no one like him would be born again?
 The portrayal in the movie &ldquo;Amadeus&rdquo; shows him dismissing his contemporaries' compositions,
 but was that truly his nature?
 I am sure that he knew he was the best, but would that have made him that arrogant?
+Or was it even arrogance at all?
+Could it have been that it was simply his objective observation of the reality?
 And what of his inner life—was it filled with the pure joy of creation enjoying being the unique musician with gifts,
 or did living solely in the realm of music leave him somehow unfulfilled?
 Though Beethoven speaks more deeply to my soul,
 there's no denying Mozart's transcendent genius,
-which has given me quite different types of awe!
+which has given me quite different types of awe
+throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
 I had to search the web for sheet music of Mozart's Piano Sonatas in C major—both K. 330 and the beloved K. 545—and
@@ -384,15 +387,6 @@ Walking through the rooms where this musical prodigy once lived and created felt
 Each artifact—from original portraits to family mementos and his instruments—offered a tangible link to his extraordinary legacy.
 Standing where such remarkable creativity once flourished served as a powerful reminder of human potential and genius,
 particularly poignant in our current era as we navigate the relationship between artificial intelligence and human capability.
-
-This experience once again made me realize why I fundamentally disagree with those who claim AI can replicate such creative work
-(or even worse, creativity comes from sheer randomness).
-My opposition stems from two convictions: first, it's simply not true from a scientific and logical standpoint,
-and I can easily show why using arguments and reasoning.
-But (way) more importantly, <font class="emph">AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
-I mean more compelling than proof</font> (because proof can prove only so much).
-There's an authenticity to human creativity that cannot be simulated or replicated.
-(I know) Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5350.jpg">
@@ -429,6 +423,15 @@ adorned with musical notes, a piano, antique clock, and vintage portraits
 A historic pianoforte on display at Mozart's birthplace museum,
 elegantly positioned on a curved white platform, while visitors explore the exhibition space featuring historical documents and artwork in the background
 </figcaption>
+
+This experience once again made me realize why I fundamentally disagree with those who claim AI can replicate such creative work
+(or even worse, creativity comes from sheer randomness).
+My opposition stems from two convictions: first, it's simply not true from a scientific and logical standpoint,
+and I can easily show why using arguments and reasoning.
+But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a href="#footnote1" id="ref1">1</a></sup>—a truth that, while not empirically provable, resonates far more deeply and compellingly,
+I mean more compelling than proof</font> (because proof can prove only so much).
+There's an authenticity to human creativity that cannot be simulated or replicated.
+(I know) Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.
 
 <h1 id="munich">Finally München</h1>
 
@@ -498,3 +501,15 @@ a holistic approach that considers technical innovation, societal impact, and hu
 <img src="/resource/trips/2024-12 Lyon & Salzburg/u1564158738_Human_human_and_humanPermalink_This_journey_under_58e63589-fa2b-481f-9edf-c139424f73f3_2.png">
 </div-->
 
+<!--h1 id="footnote">Footnotes</h1-->
+
+<hr>
+<ol>
+<li id="footnote1">
+	Here by the soul, I do not mean the soul in a general sense, e.g., religious or spiritual.
+	Rather this is something that every human can universally experience first-hand as a fundamental aspect of conscious existence
+	-
+	the raw substrate of subjective experience itself.
+	Or for that matter, probably every intelligent being (whatever the &ldquo;intelligence&rdquo; means).
+	&nbsp;<a href="#ref1">↩</a></li>
+</ol>
