@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Wed Jan  8 02:07:10 PST 2025
+last_modified_at: Wed Jan  8 02:17:08 PST 2025
 categories:
  - blog
 tags:
@@ -100,7 +100,7 @@ There standing on Pont Lafayette, I finally had a chance to see the Rhône! Trul
 During our discussions, we delved into profound questions about the nature of Large Language Models (LLM) (and AI itself).
 We contemplated how systems based on conditional probability estimation and pattern recognition could demonstrate such remarkable capabilities—ones
 that not only <font class="emph">seem to</font> match but sometimes (seem to) surpass human abilities
-(whatever we mean by human abilities).
+(whatever it is that we mean by human abilities).
 The intellectual caliber of these conversations required deep reasoning and keen insight, making the experience all the more enriching and stimulating.
 This was all possible thanks to the genius of the members of
 <a target="_blank" href="https://maps.app.goo.gl/A3WQi15NgXMhqJax9">Lyon CryptoLab Research Center</a>.
