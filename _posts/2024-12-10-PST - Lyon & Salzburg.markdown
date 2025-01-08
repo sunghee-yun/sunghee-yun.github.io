@@ -432,22 +432,39 @@ elegantly positioned on a curved white platform, while visitors explore the exhi
 
 <h1 id="munich">Finally München</h1>
 
+<!--
 My journey concluded with a delightful excursion to München.
 The timing couldn't have been more perfect, as I arrived during <a href="https://en.wikipedia.org/wiki/Saint_Nicholas_Day">the Feast of Saint Nicholas</a>.
 The streets came alive with the traditional <a href="https://en.wikipedia.org/wiki/Krampus">Krampus</a> parade, offering a fascinating glimpse into centuries-old Alpine folklore.
 The Gothic splendor of München's Rathaus provided a stunning architectural backdrop as I sampled traditional German winter delights - warming myself with Glühwein and savoring hearty Bavarian classics like Schweinshaxe and Schnitzel.
+-->
+
+My journey concluded with a delightful excursion to München. The timing couldn't have been better
+as I arrived during the Feast of Saint Nicholas. What awaited me was far beyond the usual tourist experience – I found myself face-to-face with a Krampus, that fearsome horned creature from Alpine folklore! Despite its terrifying appearance with sharp teeth and dark fur, the encounter turned playful, resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5141.jpg">
 </div>
-
-<!--div class="img-container">
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5233.jpg">
-</div-->
+</div>
+<figcaption>
+Meeting Krampus - an unexpected yet delightful encounter at München's St. Nicholas festivities - where ancient Alpine folklore comes with a smile!
+</figcaption>
+
+The Gothic splendor of München's Rathaus dominated the cityscape, its spires reaching into the winter sky like a medieval dream come true. Among the crowds at Marienplatz, I found myself immersed in the Christmas market's festive atmosphere, the ornate façade of the town hall serving as a magnificent backdrop. The Ukrainian flag draped alongside traditional decorations added a poignant touch of contemporary solidarity to this historic setting, while the famous Glockenspiel told its centuries-old stories above the bustling square.
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5480.jpg">
 </div>
+<figcaption>
+Amidst the holiday crowds at Marienplatz, München's stunning Rathaus towers above the Christmas market, its Gothic spires reaching into the winter sky.
+</figcaption>
+
+The culinary journey proved equally memorable, as I discovered authentic Bavarian hospitality in the city's traditional beer halls.
+Under vaulted ceilings, I savored the simple pleasure of pristine HB Münchner beer served in traditional steins, their blue and crown logos promising centuries of brewing expertise.
+The crowning glory came with the Schweinshaxe – a masterfully prepared pork knuckle with perfectly crispy skin and tender meat, accompanied by a classic potato dumpling.
+These hearty Bavarian classics, enjoyed in the warm glow of historic establishments, <font class="emph">provided the perfect finale to my European adventure.</font>
 
 <div class="img-container-justified">
 &nbsp;
@@ -455,22 +472,29 @@ The Gothic splendor of München's Rathaus provided a stunning architectural back
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5501.JPG">
 &nbsp;
 </div>
+<figcaption>
+A moment of pure Bavarian gemütlichkeit - two frothy HB Münchner steins against the backdrop of a traditional beer hall's vaulted ceilings
+</figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5503.JPG">
 </div>
+<figcaption>
+The quintessential Bavarian feast - a perfectly crispy <a href="https://en.wikipedia.org/wiki/Schweinshaxe">Schweinshaxe</a>
+with potato dumpling, embodying centuries of Munich's culinary tradition
+</figcaption>
 
 <h1 id="human">Humans, humans, and humans!</h1>
 
-This journey underscored a crucial insight:
+This journey underscored a crucial insight &mdash;
 the future of AI must be shaped not just by technological advancement, but by a deep understanding of its human impact and cultural context.
 From the technical depths of cryptography in Lyon to the global policy discussions in Salzburg,
 through the inspiring genius of Mozart, and finally to the cultural richness of München,
 each experience reinforced
-that successful AI development requires a holistic approach that considers technical innovation, societal impact, and human values in equal measure.
+that successful AI technology requires
+a holistic approach that considers technical innovation, societal impact, and human values in equal measure.
 
-<div class="img-container">
+<!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/u1564158738_Human_human_and_humanPermalink_This_journey_under_58e63589-fa2b-481f-9edf-c139424f73f3_2.png">
-</div>
-
+</div-->
 
