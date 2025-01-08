@@ -148,8 +148,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 figcaption {
-  font-family: 'Montserrat', serif;
-  font-size: var(--caption-font-size);
+	width: 90%;
+	margin: 0 auto; /* Center the block horizontally */
+	text-align: justify; 
+	font-family: 'Montserrat', serif;
+	font-size: var(--caption-font-size);
+	margin-bottom: 1em;
 }
 
 .img-container {

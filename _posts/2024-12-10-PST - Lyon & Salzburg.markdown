@@ -22,19 +22,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <blockquote>
 <font color="blue">
-<q>Each technological revolution brings legitimate challenges,
-yet humanity has consistently demonstrated its capacity to develop protective measures,
-whether through policy, education, or cultural shifts.</q>
-</font>
-</blockquote>
-
-<blockquote>
-<font color="blue">
 <q>The future of AI must be shaped not just by technological advancement,
 but by a deep understanding of its human impact and cultural context.</q>
 </font>
 </blockquote>
-
 
 <h1 id="lyon">Lyon</h1>
 
@@ -42,11 +33,10 @@ In late 2024 (31-Nov-2024 ~ 09-Dec-2024), I embarked on a transformative Europea
 The journey began in Lyon, France, where I was invited by <a href="https://en.wikipedia.org/wiki/Jung_Hee_Cheon">a longtime colleague</a> - both a mathematics professor at Seoul National University and CEO of <a href="https://www.cryptolab.co.kr/en/">CryptoLab</a> - to conduct <a href="/#sem-2024">an AI seminar and consultation</a> at their research center.
 This intensive four-day engagement centered on the intersection of artificial intelligence (AI) and <a href="https://en.wikipedia.org/wiki/Homomorphic_encryption">homomorphic cryptography</a>, highlighting how academia and industry can collaborate to push the boundaries of secure AI implementations.
 
-<div class="fig-container">
 <div class="img-container-justified">
 &nbsp;
-<img width="40%" src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4923.jpg">
-<img width="40%" src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4925.jpg">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4923.jpg">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4925.jpg">
 &nbsp;
 </div>
 <figcaption>
@@ -56,33 +46,28 @@ create an elegant corridor.
 <!--At the end of the street, perched majestically on Fourvière hill,
 the iconic Basilica of Notre-Dame de Fourvière stands as a stunning backdrop against scattered clouds.-->
 </figcaption>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4927.jpg">
+</div>
 <figcaption>
 From the bridge spanning the Saône River,
 I gazed up at the majestic <a target="_blank" href="https://maps.app.goo.gl/qH59fpSbVNFos83v5">Basilica of Notre-Dame de Fourvière</a>,
 its golden spires rising above Lyon's skyline.
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4928.jpg">
+</div>
 <figcaption>
 Along the historic streets of Lyon, an épicerie fine (gourmet food shop) &lsquo;Quai des Oliviers&sdquo;
 beckons with its charming storefront. The shop, specializing in Mediterranean olive oils and delicacies,
 sits beneath classic Lyonnais architecture with its ornate wrought-iron balconies and cream-colored façade.
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4944.jpg">
+</div>
 <figcaption>
 Standing on the Pont Lafayette in Lyon,
 I found myself mesmerized by the Rhône River
@@ -97,26 +82,20 @@ influenced empires, and inspired one of Japan's most remarkable works of classic
 That morning on the bridge, literature and reality merged into a single, unforgettable moment.
 There standing on Pont Lafayette, I finally had a chance to see the Rhône! Truly historic moment of mine!
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4941.jpg">
+</div>
 <figcaption>
 <a target="_blank" href="https://maps.app.goo.gl/2wmPMVBPGgSuSFyNA">Palais de la Bourse de Lyon</a>
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4959.jpg">
+</div>
 <figcaption>
 <a target="_blank" href="https://maps.app.goo.gl/qi9KTxV6cbJxrUCS7">Basilique Saint-Bonaventure de Lyon</a>
 </figcaption>
-</figure>
-</div>
 
 During our discussions, we delved into profound questions about the nature of Large Language Models (LLM) (and AI itself).
 We contemplated how systems based on conditional probability estimation and pattern recognition could demonstrate such remarkable capabilities—ones
@@ -137,26 +116,22 @@ I invite you to review
 <a href="/#cryptoLab-lyon-research-center-seminar">my detailed analysis on page 59 of the presentation slides</a>.
 
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4953.jpg">
+</div>
 <figcaption>
 Pioneering researchers and developers advancing homomorphic cryptography technology at CryptoLab Lyon Research Center
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4936.jpg">
+</div>
 <figcaption>
 A <a href="https://en.wikipedia.org/wiki/Bouchon">bouchon</a> is a type of restaurant found in Lyon, France,
 that serves traditional <a href="https://en.wikipedia.org/wiki/Lyonnaise_cuisine">Lyonnaise cuisine</a>,
 such as sausages, coq-au-vin, "salade lyonnaise" duck pâté or roast pork.
 Thanks for the great food, CryptoLab! :)
 </figcaption>
-</figure>
-</div>
 
 <h1 id="salzburg">Salzburg</h1>
 
@@ -217,35 +192,29 @@ The fellowship has established ongoing commitments, both online and in-person, t
 More photos about this exciting journeys curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
 <a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
+</div>
 <figcaption>
 KFAS-Salzburg Global Leadership Initiative Fellows
 in front of
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the historic Schloss Leopoldskron</a>
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+</div>
 <figcaption>
 Lively discussion ensued as participants engaged in debates, sharing perspectives and insights across working groups on critical issues at hand.
 </figcaption>
-</figure>
-</div>
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54207064392_o.jpg">
+</div>
 <figcaption>
 Animated discussions flowed beyond our scheduled time as participants eagerly shared insights and explored each other's perspectives,
 sparking meaningful follow-up conversations.
 </figcaption>
-</figure>
-</div>
 
 <!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
@@ -262,6 +231,14 @@ to raise global awareness and drive meaningful change in how we develop and depl
 -->
 
 <h1 id="ai-era">AI Era</h1>
+
+<blockquote>
+<font color="blue">
+<q>Each technological revolution brings legitimate challenges,
+yet humanity has consistently demonstrated its capacity to develop protective measures,
+whether through policy, education, or cultural shifts.</q>
+</font>
+</blockquote>
 
 The rapid pace of technological innovation, particularly in the realm of artificial intelligence, is undeniably unprecedented.
 Paradoxically, this swift progress has generated considerable anxiety worldwide,
@@ -294,16 +271,14 @@ These concerns may have evolved over time, but addressing them required sustaine
 Each technological revolution brings legitimate challenges, yet humanity has consistently demonstrated its capacity to develop protective measures, whether through policy, education, or cultural shifts.
 While these solutions may not be perfect, they represent our collective ability to harness innovation's benefits while mitigating its potential dangers.
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198208_o.jpg">
+</div>
 <figcaption>
 Having internal discussions was one thing;
 conveying our intentions and actionable solutions to the participants was another challenge entirely.
 The process of articulation helped reveal gaps in our arguments and thoughts we hadn't previously considered.
 </figcaption>
-</figure>
-</div>
 
 <h1 id="technology-and-humanity">Technology and humanity</h1>
 
@@ -351,30 +326,70 @@ This ongoing engagement enables continuous knowledge sharing and adaptive strate
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208203839_o.jpg">
 </div-->
 
-<div class="fig-container">
-<figure>
+<div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+</div>
 <figcaption>
 During our panel discussion, colleagues from different cultures and backgrounds engage in meaningful dialogue, exemplifying how diversity enriches our collaborative workspace at Salzburg Global.
 </figcaption>
-</figure>
+
+<h1 id="mozart">Then Mozart!</h1>
+
+<blockquote>
+<font color="blue">
+<q>AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
+I mean more compelling than proof!</q>
+</font>
+</blockquote>
+
+In Salzburg, playing Mozart felt like an irresistible calling.
+Standing in his city, I found myself contemplating the singular genius who transformed music forever.
+What must it have been like to be Mozart,
+that unique figure in musical history whose brilliance remains unmatched?
+Did he sense his own immortality,
+knowing future generations would still marvel at his work? The portrayal in "Amadeus" shows him dismissing his contemporaries' compositions,
+but was that truly his nature? And what of his inner life—was it filled with the pure joy of creation,
+or did living solely in the realm of music leave him somehow unfulfilled? Though Beethoven speaks more deeply to my soul,
+there's no denying Mozart's transcendent genius,
+which has given me quite different types of awe!
+
+Drawn by this connection to history, I searched the web for sheet music of Mozart's Piano Sonatas in C major—both K. 330 and the beloved K. 545—and
+had them printed at Schloss Leopoldskron's front desk.
+Then came an inevitable moment: I simply <font class="emph">had to</font> play.
+(I don't know how to explain it, but I knew I had to.)
+Though the grand piano showed signs of age, its imperfections could neither matter nor diminish the magnificence of the moment.
+The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
+
+<div class="img-container">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/KakaoTalk_Photo_2025-01-07-19-18-38.jpeg">
 </div>
-
-<h1 id="mozart">Then Mozart</h1>
-
-Before departing Salzburg, I had the profound privilege of visiting <a href="https://maps.app.goo.gl/PSz1vrSvyuPAwHaV8">Mozart's birthplace</a>.
-Walking through the rooms where one of humanity's greatest musical geniuses lived and created was truly moving.
-Seeing his original portraits, family memorabilia, and the instruments he played offered a tangible connection to his extraordinary legacy.
-Standing in the space where such remarkable creativity flourished was a powerful reminder of human potential and genius - a fitting reflection point as we work to ensure AI enhances rather than diminishes human capability.
-
-<div class="fig-container">
-<figure>
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5350.jpg">
 <figcaption>
-Mozarts Geburtshaus (German): The Historic Birthplace-turned-Museum of Wolfgang Amadeus Mozart
+At <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the majestic Schloss Leopoldskron</a>,
+living the moment I had dreamed of - playing Mozart's sonatas on this grand piano,
+while my companion shares in this historic experience. Though not perfectly maintained, the piano's sound resonated magnificently through the room,
+its voice carrying centuries of musical heritage beneath the ornate walls where Mozart's spirit still lingers.
 </figcaption>
-</figure>
+
+On the next day, while unplanned, my visit to Mozart's birthplace proved transformative.
+Walking through the rooms where this musical prodigy once lived and created felt like stepping into a sacred space.
+Each artifact—from original portraits to family mementos and his instruments—offered a tangible link to his extraordinary legacy.
+Standing where such remarkable creativity once flourished served as a powerful reminder of human potential and genius,
+particularly poignant in our current era as we navigate the relationship between artificial intelligence and human capability.
+
+This experience reinforces why I fundamentally disagree with those who claim AI can replicate such creative work.
+My opposition stems from two convictions: first, it's simply not true from a scientific and logical standpoint,
+and I can demonstrate why using arguments and reasoning.
+But (way) more importantly, <font class="emph">AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
+I mean more compelling than proof;</font> proof can prove only so much.
+There's an authenticity to human creativity that cannot be simulated or replicated.
+(I know) Those who suggest otherwise fundamentally misunderstand both the nature of artificial intelligence and the essence of human artistic expression.
+
+<div class="img-container">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5350.jpg">
 </div>
+<figcaption>
+Mozarts Geburtshaus - the Historic Birthplace-turned-Museum of Wolfgang Amadeus Mozart
+</figcaption>
 
 <div class="img-container-justified">
 &nbsp;
@@ -382,14 +397,28 @@ Mozarts Geburtshaus (German): The Historic Birthplace-turned-Museum of Wolfgang 
 <img width="40%" src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5382.jpg">
 &nbsp;
 </div>
+<figcaption>
+A glimpse into Mozart's legacy - his violin displayed in an illuminated case bearing the words
+&ldquo;Licht, Liebe, Leben&rdquo; (Light, Love, Life) at his birthplace museum in Salzburg,
+where the great composer, virtuoso pianist, and writer was born on January 27, 1756
+</figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5354.jpg">
 </div>
+<figcaption>
+An artful wall illustration at Mozart's birthplace museum showcasing the Mozart family tree,
+&ldquo;Stammbaum der Familie Mozart&rdquo;,
+adorned with musical notes, a piano, antique clock, and vintage portraits
+</figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5420.jpg">
 </div>
+<figcaption>
+A historic pianoforte on display at Mozart's birthplace museum,
+elegantly positioned on a curved white platform, while visitors explore the exhibition space featuring historical documents and artwork in the background
+</figcaption>
 
 <h1 id="munich">Finally München</h1>
 
