@@ -119,10 +119,9 @@ It's striking
 (almost) no debate about AI consciousness proceeds with acknowledging
 that we lack a concrete definition of consciousness, making subsequent arguments inherently fragile.
 
-
-For a deeper exploration of these concepts from cognitive and philosophical perspectives,
+(For a deeper exploration of these concepts from cognitive and philosophical perspectives,
 I invite you to review
-<a href="/#cryptoLab-lyon-research-center-seminar">my detailed analysis on page 59 of the presentation slides</a>.
+<a href="/#cryptoLab-lyon-research-center-seminar">my detailed analysis on page 59 of the presentation slides</a>.)
 
 
 <div class="img-container">
@@ -194,12 +193,12 @@ allowed me to bring practical, but yet fundamentally deep perspectives to these 
 
 I was honored to be given a chance to articulate these core beliefs about technology and solutions to its challenges
 in an interview with Salzburg Global Seminar.
-You can see the interview here.
-<a target="_blank" href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"><img width="24" height="24" src="/assets/images/icons/icons8-instagram-logo-94.png"></a>
+(You can see the interview here.
+<a target="_blank" href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"><img width="24" height="24" src="/assets/images/icons/icons8-instagram-logo-94.png"></a>)
 The fellowship has established ongoing commitments, both online and in-person, to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
 
-More photos about this exciting journeys curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
-<a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>
+(More photos about this exciting journeys curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
+<a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>)
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
@@ -265,13 +264,18 @@ The Industrial Revolution, while ultimately transforming living standards, was p
 The Space Race, despite its scientific achievements, was largely propelled by Cold War rivalry between the US and Soviet Union.
 Even modern digital technologies, from the internet to smartphones, were developed primarily through market forces seeking profit
 rather than deliberate efforts to enhance human happiness or conscious pursuit of humanity.
+&mdash;
+<!--Please don't get me wrong. I'm not being sarcastic here. Not a bit!
+I'm just being harshly accurate.-->
+To be absolutely clear: This is not sarcasm.
+I am stating things objectively precisely as they are, even if the truth feels harsh.
 
 <!--However, I'm not advocating for reversal—both because I'm uncertain of its merit and because it's simply impossible.
 Nor am I suggesting mere acceptance of our current reality.
 Rather, my point is this: we should leverage the very technologies that alienate us to overcome
 that alienation—to reclaim our humanity and return to what we were meant to be.-->
 
-Historical patterns reveal society's remarkable ability to adapt to disruptive technologies.
+Then historical patterns reveal society's remarkable ability to adapt to disruptive technologies.
 When television emerged as a commercial medium, many predicted it would spell the end of cinema.
 While the movie industry ultimately survived, the adaptation came at a significant
 cost–numerous production companies faced bankruptcy during the transition period.
@@ -292,7 +296,9 @@ The process of articulation helped reveal gaps in our arguments and thoughts we 
 <h1 id="technology-and-humanity">Technology and humanity</h1>
 
 So I think we should do the same with AI, or rather,
-I want to frame it this way: We should harness the very technology that impacts and alienates us to resolve the problems it creates - the economic, social, and technological disparities, the challenges of equitable access, the disruption of labor markets, and the various ethical and legal issues that AI brings forth.
+I want to frame it this way: We should harness the very technology that impacts and alienates us to resolve the very problems it creates
+&ndash;
+the economic, social, and technological disparities, the challenges of equitable access, the disruption of labor markets, and the various ethical and legal issues that AI brings forth.
 
 However, there is a crucial distinction to make.
 The changes and impacts that AI will bring are fundamentally different from previous technological revolutions throughout history.
@@ -376,7 +382,7 @@ I had to search the web for sheet music of Mozart's Piano Sonatas in C major—b
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
-(I didn't know how to explain why I felt it, but I knew I had to.)
+(I don't know how to explain why I felt it, but I knew I had to.)
 Though the grand piano showed signs of age with every touch on the keyboards,
 it could neither matter nor diminish the magnificence of the moment.
 The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
@@ -436,11 +442,11 @@ elegantly positioned on a curved white platform, while visitors explore the exhi
 This experience once again made me realize why I fundamentally disagree with those who claim AI can replicate such creative work
 (or even worse, creativity comes from sheer randomness).
 My opposition stems from two convictions: first, it's simply not true from a scientific and logical standpoint,
-and I can easily show why using arguments and reasoning.
+and I can (easily) show why using arguments and reasoning.
 But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a href="#footnote1" id="ref1">1</a></sup>—a truth that, while not empirically provable, resonates far more deeply and compellingly,
 I mean more compelling than proof</font> (because proof can prove only so much).
 There's an authenticity to human creativity that cannot be simulated or replicated.
-(I know) Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.
+(Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.)
 
 <h1 id="munich">Finally München</h1>
 
@@ -451,7 +457,7 @@ The streets came alive with the traditional <a href="https://en.wikipedia.org/wi
 The Gothic splendor of München's Rathaus provided a stunning architectural backdrop as I sampled traditional German winter delights - warming myself with Glühwein and savoring hearty Bavarian classics like Schweinshaxe and Schnitzel.
 -->
 
-My journey concluded with a delightful excursion to München. The timing couldn't have been better
+My journey concluded with a once again unplanned, but delightful excursion to München. The timing couldn't have been better
 as I arrived during the Feast of Saint Nicholas. What awaited me was far beyond the usual tourist experience – I found myself face-to-face with a Krampus, that fearsome horned creature from Alpine folklore! Despite its terrifying appearance with sharp teeth and dark fur, the encounter turned playful, resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
 
 <div class="img-container">
