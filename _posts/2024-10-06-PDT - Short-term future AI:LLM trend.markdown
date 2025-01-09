@@ -1,6 +1,6 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
-date: Tue Oct 29 07:01:49 PDT 2024
+date: 06-Oct-2024
 last_modified_at: Mon Oct  7 21:59:02 PDT 2024
 categories:
  - blog
