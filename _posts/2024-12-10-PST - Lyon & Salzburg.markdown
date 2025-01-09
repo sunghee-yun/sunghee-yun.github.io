@@ -73,28 +73,35 @@ Standing on the Pont Lafayette in Lyon,
 I found myself mesmerized by the Rhône River
 -
 the very waterway that flows through countless pages of <a href="https://en.wikipedia.org/wiki/Nanami_Shiono">Shiono Nanami</a>'s masterpiece
-&ldquo;Roma-jin no Monogatari.&rdquo; (Stories of the Romans; &ldquo;Res Gestae Populi Romani&rdquo; in Latin)
+&ldquo;Roma-jin no Monogatari&rdquo; (Stories of the Romans; &ldquo;Res Gestae Populi Romani&rdquo; in Latin).
 The river stretches before me
 like a sheet of polished steel under the winter sky,
 its surface rippling gently in the early morning light.
 Here was the very river that had carried Roman vessels,
 influenced empires, and inspired one of Japan's most remarkable works of classical history.
 That morning on the bridge, literature and reality merged into a single, unforgettable moment.
-There standing on Pont Lafayette, I finally had a chance to see the Rhône! Truly historic moment of mine!
+And there standing on Pont Lafayette, I finally had a chance to see the Rhône! Truly historic moment of mine!
 </figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4941.jpg">
 </div>
 <figcaption>
-<a target="_blank" href="https://maps.app.goo.gl/2wmPMVBPGgSuSFyNA">Palais de la Bourse de Lyon</a>
+The <a target="_blank" href="https://maps.app.goo.gl/2wmPMVBPGgSuSFyNA">Palais de la Bourse de Lyon</a>
+stands as a magnificent example of 19th-century French architecture,
+its ornate Second Empire façade catching the last rays of daylight.
+<!--Once the city's stock exchange,
+this historic building in central Lyon seamlessly blends Baroque grandeur with classical proportions,
+its mansard roofs and elaborate stonework telling stories of France's prosperous past.-->
+Today, the building continues to be a landmark in Lyon's UNESCO World Heritage site, while pedestrians hurry past beneath its timeless elegance.
 </figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_4959.jpg">
 </div>
 <figcaption>
-<a target="_blank" href="https://maps.app.goo.gl/qi9KTxV6cbJxrUCS7">Basilique Saint-Bonaventure de Lyon</a>
+The <a target="_blank" href="https://maps.app.goo.gl/qi9KTxV6cbJxrUCS7">Basilique Saint-Bonaventure de Lyon</a>,
+a stunning example of Gothic architecture in the heart of Lyon, displays its ethereal white limestone façade against a dramatic sky.
 </figcaption>
 
 During our discussions, we delved into profound questions about the nature of Large Language Models (LLM) (and AI itself).
