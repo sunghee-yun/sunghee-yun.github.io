@@ -517,6 +517,7 @@ a holistic approach that considers technical innovation, societal impact, and hu
 	Rather this is something that every human can universally experience first-hand as a fundamental aspect of conscious existence
 	-
 	the raw substrate of subjective experience itself.
-	Or for that matter, probably every intelligent being (whatever the &ldquo;intelligence&rdquo; means).
+	Or for that matter, every intelligent being (whatever the &ldquo;intelligence&rdquo; means)
+	will be able to universally experience it.
 	&nbsp;<a href="#ref1">↩</a></li>
 </ol>

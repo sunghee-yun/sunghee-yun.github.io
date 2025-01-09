@@ -33,11 +33,10 @@ But for this post, I want to focus on just one of (a handful of) critical aspect
 
 The amount of energy consumed by entities providing LLM services is staggering. OpenAI, for instance, reportedly loses money on each inference, even with customer charges for their advanced models. This burden, I believe, will eventually fall on small businesses relying on these APIs, leading to unsustainable costs.
 
-Figures like Sam Altman are seeking trillions in investments to build more data centers and even semiconductor manufacturing facilities. Some have even speculated that AI’s future could rely on nuclear fusion for power.
-<font class="emph">
-However, I don’t believe that any economy can thrive on limitless energy consumption.
-This path seems unsustainable; it doesn’t take a genius to recognize that.
-</font>
+Figures like Sam Altman are seeking trillions in investments to build more data centers and even semiconductor manufacturing facilities.
+Some have even speculated that AI’s future could rely on nuclear fusion for power. <font class="emph">However,
+I don’t believe that any economy can thrive on limitless energy consumption.
+This path seems unsustainable; it doesn’t take a genius to recognize that.</font>
 
 <h1 id="energy-dilemma">Energy dilemma</h1>
 
@@ -90,4 +89,4 @@ In the coming years, we may see a shift towards more specialized, efficient mode
 The future of AI is not just about raw power, but about intelligent, efficient systems that can deliver amazing results without breaking the bank—or the power grid.
 
 &ndash;
-[Sunghee](https://www.linkedin.com/in/sungheeyun/)
+[Sunghee Yun](/)
