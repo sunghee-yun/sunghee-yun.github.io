@@ -22,12 +22,20 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <blockquote>
 <font color="blue">
-<q>The future of AI must be shaped not just by technological advancement,
-but by a deep understanding of its human impact and cultural context.</q>
+The future of AI must be shaped not just by technological advancement,
+but by a deep understanding of its human impact and cultural context.
 </font>
 </blockquote>
 
 <h1 id="lyon">Lyon</h1>
+
+<blockquote>
+<!--font color="blue"-->
+So there standing on Pont Lafayette, I, at last, had a chance to see the Rhône River
+after I met her for the first time 25 years ago in my favorite writer's books!
+Historic moment of mine!
+<!--/font-->
+</blockquote>
 
 In late 2024 (31-Nov-2024 ~ 09-Dec-2024), I embarked on a transformative European journey that wove together cutting-edge AI technology, global policy discussions, and rich cultural experiences.
 The journey began in Lyon, France, where I was invited by <a href="https://en.wikipedia.org/wiki/Jung_Hee_Cheon">a longtime colleague</a> - both a mathematics professor at Seoul National University and CEO of <a href="https://www.cryptolab.co.kr/en/">CryptoLab</a> - to conduct <a href="/#sem-2024">an AI seminar and consultation</a> at their research center.
@@ -81,8 +89,8 @@ Here was the very river that had carried Roman vessels,
 influenced empires, and inspired one of Japan's most remarkable works of classical history.
 That morning on the bridge, literature and reality merged into a single, unforgettable moment.
 So there standing on Pont Lafayette, I, at last! had a chance to see the Rhône River
-after I met her for the first time 26 years ago in my favorite writer's books!
-Truly historic moment of mine!
+after I met her for the first time 25 years ago in my favorite writer's books!
+Historic moment of mine!
 </figcaption>
 
 <div class="img-container">
@@ -245,11 +253,11 @@ to raise global awareness and drive meaningful change in how we develop and depl
 <h1 id="ai-era">AI Era</h1>
 
 <blockquote>
-<font color="blue">
-<q>Each technological revolution brings legitimate challenges,
+<!--font color="blue"-->
+Each technological revolution brings legitimate challenges,
 yet humanity has consistently demonstrated its capacity to develop protective measures,
-whether through policy, education, or cultural shifts.</q>
-</font>
+whether through policy, education, or cultural shifts.
+<!--/font-->
 </blockquote>
 
 The rapid pace of technological innovation, particularly in the realm of artificial intelligence, is undeniably unprecedented.
@@ -298,6 +306,13 @@ The process of articulation helped reveal gaps in our arguments and thoughts we 
 </figcaption>
 
 <h1 id="technology-and-humanity">Technology and humanity</h1>
+
+<blockquote>
+<!--font color="blue"-->
+We were guided by three fundamental principles: a philosophy of universal inclusion,
+demonstrable commitment to social good, and rigorous implementation standards.
+<!--/font-->
+</blockquote>
 
 So I think we should do the same with AI, or rather,
 I want to frame it this way: We should harness the very technology that impacts and alienates us to resolve the very problems it creates
@@ -356,8 +371,8 @@ During our panel discussion, colleagues from different cultures and backgrounds 
 
 <blockquote>
 <font color="blue">
-<q>AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
-I mean more compelling than proof!</q>
+AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
+I mean more compelling than proof!
 </font>
 </blockquote>
 
