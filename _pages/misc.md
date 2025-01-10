@@ -215,13 +215,16 @@ Trips
 		-
 		Frontier F9 4401
 		-
-		from LAS @ 4:12pm
-		to SFO @ 6:02pm
+		from LAS @ <s>4:12pm</s> 4:46pm
+		to SFO @ <s>6:02pm</s> 6:06pm
 		PST on 09-Jan-2025
-		(1h 50m)
+		(<s>1h 50m</s> 1h 20m)
 	</li>
 	<li>
-		<a href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
+		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
+	</li>
+	<li>
+		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CEO badge</a>
 	</li>
 	</ul>
 </li>
