@@ -329,9 +329,9 @@ to raise global awareness and drive meaningful change in how we develop and depl
 
 To ensure truly equitable AI development, we're guided by three fundamental principles: a philosophy of universal inclusion,
 demonstrable commitment to social good, and rigorous implementation standards.
-The fellowship has established a sustained global network, combining virtual collaboration platforms with regular in-person convenings,
+The fellowship has established a sustained global network, combining virtual collaboration platforms with regular remote or in-person convenings,
 to catalyze systemic change in AI development and deployment practices.
-This ongoing engagement enables continuous knowledge sharing and adaptive strategy refinement as AI technology evolves.
+This ongoing engagement will enable continuous knowledge sharing and adaptive strategy refinement as AI technology evolves.
 
 <!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198288_o.jpg">
@@ -378,7 +378,7 @@ which has given me quite different types of awe
 throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
-I had to search the web for sheet music of Mozart's Piano Sonatas in C major—both K. 330 and the beloved K. 545—and
+I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both K. 330 and the beloved K. 545—and
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
