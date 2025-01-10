@@ -13,11 +13,13 @@
   --caption-font-size: 15px;
 }
 
+/*
 @media (max-width: 768px) {
   :root {
     --body-font-size: 14px;
   }
 }
+*/
 
 body {
 	font-family: 'Merriweather', serif;
