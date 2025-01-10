@@ -163,8 +163,12 @@ took me from Lyon to the historic city of Salzburg, Austria
 The program was hosted at <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the majestic Schloss Leopoldskron</a>,
 a baroque palace that served as the perfect backdrop for deep intellectual discourse and global collaboration.
 
-There, I found myself among an extraordinary cohort of leaders representing diverse institutions including the United Nations (UN),
-European Union (EU), academia, and both public and private sectors.
+There, I found myself among an extraordinary cohort of leaders representing
+diverse institutions including the United Nations (UN), European Union (EU), many universities from all over the world,
+big tech companies and small startup companies,
+embassies,
+and government and semi-government organizations
+in both public and private sectors.
 We had gathered for an ambitious program titled
 &ldquo;<a href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,&rdquo;
 which brought together minds from across the globe to address pressing technological challenges.
@@ -378,11 +382,11 @@ which has given me quite different types of awe
 throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
-I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both K. 330 and the beloved K. 545—and
+I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the beloved K. 545—and
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
-(I don't know how to explain why I felt it, but I knew I had to.)
+(I don't know how to explain why I felt it, but I just knew I had to.)
 Though the grand piano showed signs of age with every touch on the keyboards,
 it could neither matter nor diminish the magnificence of the moment.
 The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
@@ -397,7 +401,7 @@ while my companion shares in this historic experience. Though not perfectly main
 its voice carrying centuries of musical heritage beneath the ornate walls where Mozart's spirit still lingers.
 </figcaption>
 
-On the next day, while unplanned, my visit to Mozart's birthplace was truly transformative.
+On the next day, while unplanned, I visited Mozart's birthplace, which was truly transformative.
 Walking through the rooms where this musical prodigy once lived and created felt like stepping into a sacred space.
 Each artifact—from original portraits to family mementos and his instruments—offered a tangible link to his extraordinary legacy.
 Standing where such remarkable creativity once flourished served as a powerful reminder of human potential and genius,
@@ -457,7 +461,7 @@ The streets came alive with the traditional <a href="https://en.wikipedia.org/wi
 The Gothic splendor of München's Rathaus provided a stunning architectural backdrop as I sampled traditional German winter delights - warming myself with Glühwein and savoring hearty Bavarian classics like Schweinshaxe and Schnitzel.
 -->
 
-My journey concluded with a once again unplanned, but delightful excursion to München. The timing couldn't have been better
+My journey concluded with a (once again unplanned, but) delightful excursion to München. The timing couldn't have been better
 as I arrived during the Feast of Saint Nicholas. What awaited me was far beyond the usual tourist experience – I found myself face-to-face with a Krampus, that fearsome horned creature from Alpine folklore! Despite its terrifying appearance with sharp teeth and dark fur, the encounter turned playful, resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
 
 <div class="img-container">
