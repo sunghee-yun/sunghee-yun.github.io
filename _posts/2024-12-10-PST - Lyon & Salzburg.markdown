@@ -33,7 +33,7 @@ but by a deep understanding of its human impact and cultural context.
 <!--font color="blue"-->
 So there standing on Pont Lafayette, I, at last, had a chance to see the Rhône River
 after I met her for the first time 25 years ago in my favorite writer's books!
-Historic moment of mine!
+Historic moment of my time!
 <!--/font-->
 </blockquote>
 
@@ -90,7 +90,7 @@ influenced empires, and inspired one of Japan's most remarkable works of classic
 That morning on the bridge, literature and reality merged into a single, unforgettable moment.
 So there standing on Pont Lafayette, I, at last! had a chance to see the Rhône River
 after I met her for the first time 25 years ago in my favorite writer's books!
-Historic moment of mine!
+Historic moment of my time!
 </figcaption>
 
 <div class="img-container">
