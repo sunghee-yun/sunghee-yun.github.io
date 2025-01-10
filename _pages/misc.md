@@ -12,7 +12,7 @@ toc_sticky: true
 Gifts
 </h1>
 
-<h2 id="gifts-2024">
+<h2 id="gifts-2025">
 2025
 </h2>
 
@@ -191,6 +191,36 @@ Trips
 <!--h2 id="trips-2024">2024</h2-->
 <h3>2025</h3>
 
+<h4>Feb</h4>
+
+<ul>
+<li>
+	biz trip to Seoul
+	-
+	12 nights
+	<ul>
+	<li>
+		21-Feb-2025 PST ~ 09-Mar-2025 PST
+	</li>
+	<li>
+		flight
+		- OZ 215
+		- from SFO @ 12:10pm on 21-Feb-2025 PST to ICN @ 5:55pm on 22-Feb-2025 KST
+		(12h 45m)
+	</li>
+	<li>
+		return flight
+		- OZ 212
+		- from ICN @ 8:50pm KST to SFO @ 3pm PST on 00-Mar-2025
+		(10h 10m)
+	</li>
+	<li>
+		stay @ <a target="_blank" href="https://naver.me/GipGKrM6">가락동</a>
+	</li>
+	</ul>
+</li>
+</ul>
+
 <h4>Jan</h4>
 
 <ul>
@@ -221,9 +251,12 @@ Trips
 		(<s>1h 50m</s> 1h 20m)
 	</li>
 	<li>
-		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
+		stay @
+		<a target="_blank" href="https://maps.app.goo.gl/poLgkRixakoMPG1V7">The Palazzo at The Venetian Resort</a>
+		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/IMG_6232.jpg">card key</a>
 	</li>
 	<li>
+		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
 		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CEO badge</a>
 	</li>
 	</ul>
