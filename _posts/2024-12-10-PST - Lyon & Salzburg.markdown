@@ -88,7 +88,7 @@ its surface rippling gently in the early morning light.
 Here was the very river that had carried Roman vessels,
 influenced empires, and inspired one of Japan's most remarkable works of classical history.
 That morning on the bridge, literature and reality merged into a single, unforgettable moment.
-So there standing on Pont Lafayette, I, at last! had a chance to see the Rhône River
+So there standing on Pont Lafayette, I, at last, had a chance to see the Rhône River
 after I met her for the first time 25 years ago in my favorite writer's books!
 Historic moment of my time!
 </figcaption>
