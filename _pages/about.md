@@ -5,27 +5,33 @@ permalink: /about/
 ---
 
 <p>
-	<a href="https://www.linkedin.com/in/sungheeyun/">I</a> am Co-founder / CTO - AI Technology &amp; Product Strategy
+	<a href="https://www.linkedin.com/in/sungheeyun/">I</a> am Co-founder / CTO
 	@
-	<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc.</a>,
+	<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
 	a <a href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/10834">KFAS-Salzburg Global Leadership Initiative Fellow</a>
 	@
-	<a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>,
+	<a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
 	an Adjunct Professor
 	@
-	<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University</a>,
+	<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University, Seoul, South Korea</a>,
 	an Advisory Professor
 	@
-	<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST)</a>.
+	<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+	Global Advisory Board Member
+	@
+	<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
+	&amp;
+	Network Expert
+	@
+	<a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>
 </p>
 <p>
-	Before founding this new AI biotech company,
+	Before founding the new AI biotech company,
 	I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
-	and set up and ran <a href="https://maps.app.goo.gl/v2cLgonB46fL9CPh8">the US Headquarters of Gauss Labs</a>,
-	and
-	led research, development &amp; productionization of the core technology.
-	Before <a href="https://www.gausslabs.ai/">Gauss Labs</a>, I developed various AI technologies and products
-	in the field of e-Commerce @ <a href="https://www.amazon.com/">Amazon.com, Inc.</a> where one of the projects
+	built and ran <a href="https://maps.app.goo.gl/v2cLgonB46fL9CPh8">the US Headquarters of Gauss Labs</a>,
+	spearheaded research &amp; development of the core technology &amp; products.
+	Before <a href="https://www.gausslabs.ai/">Gauss Labs</a>, I drove various AI technology and product developments
+	and productionizations in the field of e-Commerce @ <a href="https://www.amazon.com/">Amazon.com, Inc.</a> where one of the projects
 	created a 200 USD revenue increase via the Amazon Mobile Shopping App.
 	Before <a href="https:///www.amazon.com/">Amazon</a>,
 	I worked for
@@ -33,45 +39,63 @@ permalink: /about/
 		Strategic Sales &amp; Marketing Team,
 		Design Technology Team
 		&amp;
-		Computer-Aided Engineering Team
+		Computer-Aided Engineering (CAE) Team
 		of <a href="https://semiconductor.samsung.com/">Samsung Semiconductor, Inc.</a>
 	where
-		I developed a huge number of
-		AI and optimization tools
-		for semiconductor design engineers, manufacturing process engineers &amp; test engineers
+		I developed diverse AI and optimization tools
+		for semiconductor chip designers, manufacturing engineers &amp; test engineers
 	where
-		more than 200 engineers still use the generic analog/digital/mixed-signal circuit optimization tools
+		more than 200 engineers still use the circuit optimization tools
+		and generic AI optimization platform, dubbed iOpt,
 		every day.
+</p>
+<p>
 	I received a BS degree
 	in <a href="https://eng.snu.ac.kr/snuEng/main/contents.do?menuNo=200084">Electrical Engineering (EE)</a>
-	from <a href="https://en.snu.ac.kr/index.html">Seoul National University (SNU), Seoul, Korea</a>
-	and,
-	MS and Ph.D. degrees in <a href="https://ee.stanford.edu/">EE</a>
-	from <a href="http://stanford.edu">Stanford University, CA, USA</a>.
+	from <a href="https://en.snu.ac.kr/index.html">Seoul National University (SNU), Seoul, South Korea</a>
+	and
+	MS &amp; Ph.D. degrees in <a href="https://ee.stanford.edu/">EE</a>
+	from <a href="http://stanford.edu">Stanford University, CA, USA</a>
+	under supervision of Prof. Stephen Boyd,
+	who is a legendary figure in the field.
+	(Having him as my advisor was one of the luckiest things that have ever happened to my life!) 
 </p>
 
 <p>
-I specialize in Artificial Intelligence (AI) and <a href="https://ee.stanford.edu/">Convex Optimization</a>, leading cutting-edge projects across diverse sectors including semiconductor design, strategic marketing, e-commerce, industrial AI, and biotech. My focus is on leveraging the latest in Large Language Models (LLM) and Generative AI (GenAI) to drive business innovation, predict industry trends, and assess their broad impacts on society, economy, and policy.
+	I specialize in Artificial Intelligence (AI) and <a href="https://ee.stanford.edu/">Convex Optimization</a>
+	leading cutting-edge projects across diverse sectors including semiconductor design, strategic marketing with market intelligence,
+	e-commerce, industrial AI, and biotech
+	while <font class="emph">driving business development, connecting people, and consulting people in diverse industries</font>.
+	My focus is on leveraging the AI technology especially around AI agents
+	which essentially based on the recent breakthroughs of large language models (LLM) and multimodal generative AI (GenAI)
+	to drive business innovation, predict industry trends, assess their broad impacts on society, economy, and policy,
+	provide policy and technology recommendations
+	by understanding and having differentiated insight
+	into technology, industry, business, and markets.
 </p>
 
 <p>
-As a <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>, I develop actionable solutions for the challenges posed by a rapidly changing world by AI.
-<!--The KFAS-Salzburg Global Leadership Initiative plays a crucial role in equipping leaders with the skills to navigate the complexities of our evolving world.-->
-My work focuses on &ldquo;Technology, Growth, and Inequality: The Case of AI,&rdquo; within the broader theme of &ldquo;Uncertain Futures and Connections Reimagined: Connecting Technologies.&rdquo; I also actively contribute to AI and semiconductor technology policy, advising state and national governments while considering the geopolitical dynamics of key players like the US, China, Japan, Taiwan, and South Korea.
-<!--I address the challenges posed by our rapidly changing world as KFAS-Salzburg Global Leadership Initiative Leader at Salzburg Global Seminar where I work developing actionable solutions under the theme "Technology, Growth, and Inequality: The Case of AI" under larger them "Uncertain Futures and Connections Reimagined: Connecting Technologies". I actively contribute to state and government policy-making on AI and semiconductor technology, considering geopolitical dynamics among key global players like the US, China, Japan, Taiwan, and South Korea.-->
+As a
+<a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>,
+I develop actionable solutions for the challenges posed by a rapidly changing world by AI.
+My work focuses on &ldquo;Technology, Growth, and Inequality: The Case of AI,&rdquo;
+within the broader theme of &ldquo;Uncertain Futures and Connections Reimagined: Connecting Technologies.&rdquo;
+I also actively contribute to AI and semiconductor technology policy making,
+advising state and national governments
+while considering the geopolitical dynamics of key players like the US, China, Japan, Taiwan, and South Korea.
 </p>
 
 <p>
-	I also dedicate to fostering knowledge transfer and innovation
+	I also dedicate to fostering knowledge, insight, and experience transfer and innovation
 	by serving as an Adjunct Professor
-	@ <a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University</a>,
+	@ <a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University</a>
+	&amp;
 	an Advisory Professor
-	@ <a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST)</a>,
-	and a Network Expert at <a href="https://glginsights.com/">Gerson Lehrman Group</a>.
+	@ <a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST)</a>.
 </p>
 
 <p>
-	My Life Goal, though, is to secure a future for all, where health, safety, liberty, and equity are paramount.
+	My life goal is to help build a future where humanity thrives through the advancement of health, safety, liberty, and equality—foundational elements that pave the way to genuine happiness.
 </p>
 
 <!--
