@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Wed Jan  8 02:17:08 PST 2025
+last_modified_at: Sat Jan 11 01:54:57 PST 2025
 categories:
  - blog
 tags:
