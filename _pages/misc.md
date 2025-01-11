@@ -197,7 +197,7 @@ Trips
 <li>
 	biz trip to Seoul
 	-
-	12 nights
+	16 nights
 	<ul>
 	<li>
 		21-Feb-2025 PST ~ 09-Mar-2025 PST
@@ -211,7 +211,7 @@ Trips
 	<li>
 		return flight
 		- OZ 212
-		- from ICN @ 8:50pm KST to SFO @ 3pm PST on 00-Mar-2025
+		- from ICN @ 8:50pm KST to SFO @ 3pm PST on 09-Mar-2025
 		(10h 10m)
 	</li>
 	<li>
@@ -257,7 +257,7 @@ Trips
 	</li>
 	<li>
 		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
-		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CEO badge</a>
+		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CES badge</a>
 	</li>
 	</ul>
 </li>
