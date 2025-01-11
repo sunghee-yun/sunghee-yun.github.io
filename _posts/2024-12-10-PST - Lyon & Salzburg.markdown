@@ -178,7 +178,7 @@ embassies,
 and government and semi-government organizations
 in both public and private sectors.
 We had gathered for an ambitious program titled
-&ldquo;<a href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,&rdquo;
+&ldquo;<a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,&rdquo;
 which brought together minds from across the globe to address pressing technological challenges.
 
 As a member of the &ldquo;<a href="https://salzburgglobalseminar-ai.github.io/">Technology, Growth, and Inequality: The Case of AI</a>&rdquo; working group,
@@ -197,20 +197,20 @@ I was equally grateful for the opportunity to contribute to these rich discussio
 particularly in AI and <a href="https://stanford.edu/~boyd/">Convex Optimization</a>.
 My journey—from pursuing a Ph.D., to developing AI software for cutting-edge semiconductor technologies at Samsung,
 to maximizing revenue through AI algorithms and software services via Amazon's Mobile Shopping App,
-and finally to leading the whole R&amp;D and US Headquarters of <a href="https://www.gausslabs.ai/">Gauss Labs</a>
-in <a target="_blank" href="https://maps.app.goo.gl/9sDyHjEdAFZoAXNH9">Palo Alto</a>—provided unique insights into the technological landscape.
+leading the whole R&amp;D and US Headquarters of <a href="https://www.gausslabs.ai/">Gauss Labs</a> in <a target="_blank" href="https://maps.app.goo.gl/9sDyHjEdAFZoAXNH9">Palo Alto</a>,
+and finally to leading AI Technology and business development of <a href="https://sungheeyun-erudio.github.io/">newly founded AI &amp; biotech company</a> in Silicon Valley—provided unique insights into the technological landscape.
 Being at the heart of Silicon Valley,
 the birthplace of modern semiconductors, digital communication, internet, mobile technology, smart devices, and now the AI revolution,
 allowed me to bring practical, but yet fundamentally deep perspectives to these important discussions about our technological future.
 
-I was honored to be given a chance to articulate these core beliefs about technology and solutions to its challenges
-in an interview with Salzburg Global Seminar.
+I was honored to be given a chance to articulate these core perspectives, insights, future-predictions, and beliefs about technology and solutions to its challenges
+in an interview with <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>.
 (You can see the interview here.
 <a target="_blank" href="https://www.instagram.com/reel/DDr2-GlAUqg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D"><img width="24" height="24" src="/assets/images/icons/icons8-instagram-logo-94.png"></a>)
 The fellowship has established ongoing commitments, both online and in-person, to raise global awareness and drive meaningful change in how we develop and deploy AI technologies.
 
 (More photos about this exciting journeys curated by <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a> can be found here.
-<a href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>)
+<a target="_blank" href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>)
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
@@ -260,12 +260,12 @@ whether through policy, education, or cultural shifts.
 <!--/font-->
 </blockquote>
 
-The rapid pace of technological innovation, particularly in the realm of artificial intelligence, is undeniably unprecedented.
+The rapid pace of technological innovation, particularly in the realm of artificial intelligence (AI), is undeniably unprecedented.
 Paradoxically, this swift progress has generated considerable anxiety worldwide,
 with individuals expressing concerns about being left behind in a society that is evolving ever more rapidly,
 the displacement of jobs,
 and the potential for AI to surpass human intelligence.
-While some of these apprehensions are well-founded, others are less so.
+While some of these anxieties are well-founded, others are less so.
 Nevertheless, it is evident that AI will significantly impact society, particularly the labor market,
 affecting both blue-collar and white-collar knowledge workers.
 Perhaps most crucially, it will transform how we interact with—or, more accurately, are subtly influenced by—technology.
@@ -275,7 +275,7 @@ Many pivotal innovations emerged from military necessity, economic competition, 
 The Industrial Revolution, while ultimately transforming living standards, was primarily fueled by commercial interests and imperial ambitions.
 The Space Race, despite its scientific achievements, was largely propelled by Cold War rivalry between the US and Soviet Union.
 Even modern digital technologies, from the internet to smartphones, were developed primarily through market forces seeking profit
-rather than deliberate efforts to enhance human happiness or conscious pursuit of humanity.
+rather than deliberate efforts to enhance human happiness and conscious pursuit of humanity.
 &mdash;
 <!--Please don't get me wrong. I'm not being sarcastic here. Not a bit!
 I'm just being harshly accurate.-->
@@ -333,8 +333,9 @@ Third, more fundamentally, AI transforms not just what we can do, but how we wor
 This represents a shift not just in capability, but in the very nature of human-technology interaction.
 
 
-At the Salzburg Global Seminar working group &ldquo;Technology, Growth, and Inequality:
-The Case of AI,&rdquo; we developed a comprehensive framework addressing AI's societal impact.
+At the Salzburg Global Seminar working group
+&ldquo;<a href="https://salzburgglobalseminar-ai.github.io/">Technology, Growth, and Inequality: The Case of AI</a>,&rdquo;
+we developed a comprehensive framework addressing AI's societal impact.
 Our solutions encompass anti-discrimination safeguards in AI systems, initiatives to democratize access to AI technologies,
 and programs to bridge the digital divide across communities.
 We've designed interactive educational platforms to enhance AI literacy,
@@ -364,7 +365,7 @@ This ongoing engagement will enable continuous knowledge sharing and adaptive st
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
 </div>
 <figcaption>
-During our panel discussion, colleagues from different cultures and backgrounds engage in meaningful dialogue, exemplifying how diversity enriches our collaborative workspace at Salzburg Global.
+During our panel discussion, colleagues from different cultures and backgrounds engage in meaningful dialogue, exemplifying how diversity enriches our collaborative workspace at Salzburg Global Seminar.
 </figcaption>
 
 <h1 id="mozart">Then Mozart!</h1>
@@ -372,7 +373,7 @@ During our panel discussion, colleagues from different cultures and backgrounds 
 <blockquote>
 <font color="blue">
 AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
-I mean more compelling than proof!
+I mean, more compelling than proof!
 </font>
 </blockquote>
 
@@ -387,21 +388,21 @@ knowing future generations would still marvel at his work and no one like him wo
 The portrayal in the movie &ldquo;Amadeus&rdquo; shows him dismissing his contemporaries' compositions,
 but was that truly his nature?
 I am sure that he knew he was the best, but would that have made him that arrogant?
-Or was it even arrogance at all?
-Could it have been that it was simply his objective observation of the reality?
+Or could I call it arrogance at all?
+Could it have been that it was simply his objective observation of the obvious reality?
 And what of his inner life—was it filled with the pure joy of creation enjoying being the unique musician with gifts,
-or did living solely in the realm of music leave him somehow unfulfilled?
+or did living solely in the realm of music with the other muscles not being developed leave him somehow unfulfilled?
 Though Beethoven speaks more deeply to my soul,
 there's no denying Mozart's transcendent genius,
 which has given me quite different types of awe
 throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
-I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the beloved K. 545—and
+I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the famous and beloved K. 545—and
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
-(I don't know how to explain why I felt it, but I just knew I had to.)
+(I don't know how to explain the feeling and I don't think any words can do it, but I just knew I had to.)
 Though the grand piano showed signs of age with every touch on the keyboards,
 it could neither matter nor diminish the magnificence of the moment.
 The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
@@ -459,25 +460,21 @@ elegantly positioned on a curved white platform, while visitors explore the exhi
 </figcaption>
 
 This experience once again made me realize why I fundamentally disagree with those who claim AI can replicate such creative work
-(or even worse, creativity comes from sheer randomness).
-My opposition stems from two convictions: first, it's simply not true from a scientific and logical standpoint,
+(or even worse, those who claim creativity comes from sheer randomness).
+My opposition stems from two convictions: first, it's simply not true from a scientific<sup><a href="#footnote1" id="ref1">1</a></sup> and logical standpoint,
 and I can (easily) show why using arguments and reasoning.
-But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a href="#footnote1" id="ref1">1</a></sup>—a truth that, while not empirically provable, resonates far more deeply and compellingly,
-I mean more compelling than proof</font> (because proof can prove only so much).
-There's an authenticity to human creativity that cannot be simulated or replicated.
-(Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.)
+But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a href="#footnote2" id="ref2">2</a></sup>—a truth that, while not empirically provable, resonates far more deeply and compellingly,
+I mean, more compelling than proof</font>-because proof can prove only so much.
+For there is an authenticity to human creativity that cannot be simulated or replicated.<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 <h1 id="munich">Finally München</h1>
 
-<!--
-My journey concluded with a delightful excursion to München.
-The timing couldn't have been more perfect, as I arrived during <a href="https://en.wikipedia.org/wiki/Saint_Nicholas_Day">the Feast of Saint Nicholas</a>.
-The streets came alive with the traditional <a href="https://en.wikipedia.org/wiki/Krampus">Krampus</a> parade, offering a fascinating glimpse into centuries-old Alpine folklore.
-The Gothic splendor of München's Rathaus provided a stunning architectural backdrop as I sampled traditional German winter delights - warming myself with Glühwein and savoring hearty Bavarian classics like Schweinshaxe and Schnitzel.
--->
-
 My journey concluded with a (once again unplanned, but) delightful excursion to München. The timing couldn't have been better
-as I arrived during the Feast of Saint Nicholas. What awaited me was far beyond the usual tourist experience – I found myself face-to-face with a Krampus, that fearsome horned creature from Alpine folklore! Despite its terrifying appearance with sharp teeth and dark fur, the encounter turned playful, resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
+as I arrived during <a href="https://en.wikipedia.org/wiki/Saint_Nicholas_Day">the Feast of Saint Nicholas</a>.
+What awaited me was far beyond the usual tourist experience – I found myself face-to-face with a Krampus,
+that fearsome horned creature from Alpine folklore!
+Despite its terrifying appearance with sharp teeth and dark fur, the encounter turned playful,
+resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5141.jpg">
@@ -540,11 +537,17 @@ a holistic approach that considers technical innovation, societal impact, and hu
 <hr>
 <ol>
 <li id="footnote1">
+	Here by "scientific", I mean not only natural science, but also neuroscience, cognitive science, psychology, and even physiology.
+	&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
 	Here by the soul, I do not mean the soul in a general sense, e.g., religious or spiritual.
 	Rather this is something that every human can universally experience first-hand as a fundamental aspect of conscious existence
 	-
 	the raw substrate of subjective experience itself.
-	Or for that matter, every intelligent being (whatever the &ldquo;intelligence&rdquo; means)
-	will be able to universally experience it.
-	&nbsp;<a href="#ref1">↩</a></li>
+	Or for that matter, something that every intelligent being (whatever the &ldquo;intelligence&rdquo; means here)
+	may be able to universally experience.
+	&nbsp;<a href="#ref2">↩</a></li>
+<li id="footnote3">
+	Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.
+	&nbsp;<a href="#ref3">↩</a></li>
 </ol>
