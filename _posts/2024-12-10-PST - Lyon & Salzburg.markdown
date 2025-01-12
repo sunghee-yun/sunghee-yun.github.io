@@ -374,6 +374,12 @@ During our panel discussion, colleagues from different cultures and backgrounds 
 
 <blockquote>
 <font color="blue">
+The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
+</font>
+</blockquote>
+
+<blockquote>
+<font color="blue">
 AI cannot touch our souls—a truth that, while not empirically provable, resonates far more deeply and compellingly,
 I mean, more compelling than proof!
 </font>
@@ -386,25 +392,28 @@ I found myself imagining the singular genius who transformed music forever.
 What would it have been like to be Mozart,
 that unique figure in musical history whose brilliance remains unmatched?
 Would he have sensed his own immortality,
-knowing future generations would still marvel at his work and no one like him would be born again?
+knowing future generations would still marvel at his work and no one like him would be born again? ever?
 The portrayal in the movie &ldquo;Amadeus&rdquo; shows him dismissing his contemporaries' compositions,
 but was that truly his nature?
 I am sure that he knew he was the best, but would that have made him that arrogant?
-Or could I call it arrogance at all?
-Could it have been that it was simply his objective observation of the obvious reality?
+Or should I even call it arrogance at all?
+Could it have been that it was a simple objective observation of the obvious reality?
 And what of his inner life—was it filled with the pure joy of creation enjoying being the unique musician with gifts,
 or did living solely in the realm of music with the other muscles not being developed leave him somehow unfulfilled?
+
 Though Beethoven speaks more deeply to my soul,
 there's no denying Mozart's transcendent genius,
 which has given me quite different types of awe
 throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
+after completing my duties as KFAS-Salzburg Global Leadership Initiative Fellow on the last night,
 I had to search the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the famous and beloved K. 545—and
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
-(I don't know how to explain the feeling and I don't think any words can do it, but I just knew I had to.)
+(I don't know how to explain why and I don't think any words can do it, but I just knew I had to.)
+
 Though the grand piano showed signs of age with every touch on the keyboards,
 it could neither matter nor diminish the magnificence of the moment.
 The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
@@ -467,7 +476,7 @@ My opposition stems from two convictions: first, it's simply not true from a sci
 and I can (easily) show why using arguments and reasoning.
 But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a href="#footnote2" id="ref2">2</a></sup>—a truth that, while not empirically provable, resonates far more deeply and compellingly,
 I mean, more compelling than proof</font>-because proof can prove only so much.
-For there is an authenticity to human creativity that cannot be simulated or replicated.<sup><a href="#footnote3" id="ref3">3</a></sup>
+(For) there is an authenticity to human creativity that cannot be simulated or replicated.<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 <h1 id="munich">Finally München</h1>
 
@@ -528,7 +537,7 @@ From the technical depths of cryptography in Lyon to the global policy discussio
 through the inspiring genius of Mozart, and finally to the cultural richness of München,
 each experience reinforced
 that successful AI technology requires
-a holistic approach that considers technical innovation, societal impact, and human values in equal measure.
+a holistic approach that considers technical innovation, societal impacts, and human values in equal measure.
 
 <!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/u1564158738_Human_human_and_humanPermalink_This_journey_under_58e63589-fa2b-481f-9edf-c139424f73f3_2.png">
@@ -542,12 +551,14 @@ a holistic approach that considers technical innovation, societal impact, and hu
 	Here by "scientific", I mean not only natural science, but also neuroscience, cognitive science, psychology, and even physiology.
 	&nbsp;<a href="#ref1">↩</a></li>
 <li id="footnote2">
-	Here by the soul, I do not mean the soul in a general sense, e.g., religious or spiritual.
+	Here by the soul, I do not mean the soul we mean generally, e.g., in a religious or spiritual sense.
 	Rather this is something that every human can universally experience first-hand as a fundamental aspect of conscious existence
 	-
 	the raw substrate of subjective experience itself.
 	Or for that matter, something that every intelligent being (whatever the &ldquo;intelligence&rdquo; means here)
 	may be able to universally experience.
+	&mdash;
+	This is quite involved philosophical arguments, or even deeper than that.
 	&nbsp;<a href="#ref2">↩</a></li>
 <li id="footnote3">
 	Those who suggest otherwise fundamentally misunderstand both the nature of AI and the essence of human artistic expression.
