@@ -127,9 +127,11 @@ It's striking
 (almost) no debate about AI consciousness proceeds with acknowledging
 that we lack a concrete definition of consciousness, making subsequent arguments inherently fragile.
 
+<div id="philosophical-perspectives">
 (For a deeper exploration of these concepts from cognitive and philosophical perspectives,
 I invite you to review
 <a href="/#cryptoLab-lyon-research-center-seminar">my detailed analysis on page 59 of the presentation slides</a>.)
+</div>
 
 
 <div class="img-container">
