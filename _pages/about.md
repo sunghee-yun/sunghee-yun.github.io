@@ -19,7 +19,7 @@ permalink: /about/
 	<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
 	Global Advisory Board Member
 	@
-	<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
+	<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>
 	&amp;
 	Network Expert
 	@
