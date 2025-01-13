@@ -408,7 +408,7 @@ throughout my life especially when I played the piano.
 
 Drawn by this connection to history in Salzburg,
 after completing my duties as KFAS-Salzburg Global Leadership Initiative Fellow on the last night,
-I searched the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the famous and beloved K. 545—and
+I searched the web for piano scores of Mozart's Piano Sonatas in C major—both <a href="/#mozart-piano-sonata">K. 330</a> and the famously beloved K. 545—and
 have them printed at the Schloss Leopoldskron's front desk.
 Then I finally made that moment &ndash;
 I simply <font class="emph">had to</font> play.
