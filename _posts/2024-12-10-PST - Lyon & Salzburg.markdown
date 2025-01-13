@@ -193,7 +193,7 @@ We share our deliverables via <a href="https://salzburgglobalseminar-ai.github.i
 One of the most fascinating aspects of my experience was experiencing how individuals from vastly different backgrounds approached problems and reasoned through solutions.
 I was particularly intrigued by the perspectives of those from non-profit organizations, policy-making roles, and legal backgrounds—their insights reflected years of trial-and-error, sharing both the successes and failures encountered while implementing various policies and initiatives.
 This diversity of thought was genuinely thrilling!
-No, thrilling is an understatement!
+No, thrilling was an understatement!
 
 I was equally grateful for the opportunity to contribute to these rich discussions by drawing from my own technical expertise,
 particularly in AI and <a href="https://stanford.edu/~boyd/">Convex Optimization</a>.
