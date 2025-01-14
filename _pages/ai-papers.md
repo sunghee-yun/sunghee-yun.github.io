@@ -215,6 +215,13 @@ toc_sticky: true
 <h2 id="ai-agent">AI agent</h2>
 
 <ul>
+<li id="multiagent-finetuning">
+	"Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+	- Vighnesh Subramaniam, Yilun Du, Joshua B. Tenenbaum, Antonio Torralba, Shuang Li &amp; Igor Mordatch
+	(MIT &amp; Google)
+	@ 10-Jan-2025
+	(<a href="https://arxiv.org/abs/2501.05707">arxiv</a>)
+</li>
 <li id="agents-are-not-enough">
 	"Agents Are Not Enough"
 	- Chirag Shah &amp; Ryen W. White
@@ -493,6 +500,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
+<li id="multiagent-finetuning">
+	"Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
+	- Vighnesh Subramaniam, Yilun Du, Joshua B. Tenenbaum, Antonio Torralba, Shuang Li &amp; Igor Mordatch
+	(MIT &amp; Google)
+	@ 10-Jan-2025
+	(<a href="https://arxiv.org/abs/2501.05707">arxiv</a>)
+</li>
 <li id="agents-are-not-enough">
 	"Agents Are Not Enough"
 	- Chirag Shah &amp; Ryen W. White

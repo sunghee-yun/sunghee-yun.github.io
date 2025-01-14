@@ -1,5 +1,16 @@
 [
 	{
+		"id": "multiagent-finetuning",
+		"category": ["ai", "agent"],
+		"title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+		"authors": "Vighnesh Subramaniam, Yilun Du, Joshua B. Tenenbaum, Antonio Torralba, Shuang Li, Igor Mordatch",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2501.05707"
+		},
+		"org": "MIT &amp; Google",
+		"date": "10-Jan-2025"
+	},
+	{
 		"id": "agents-are-not-enough",
 		"category": ["ai", "agent"],
 		"title": "Agents Are Not Enough",
