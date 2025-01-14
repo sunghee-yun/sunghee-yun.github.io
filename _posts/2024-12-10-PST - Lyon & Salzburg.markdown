@@ -478,6 +478,14 @@ But (way) more importantly, <font class="emph">AI cannot touch our souls<sup><a 
 I mean, more compelling than proof</font>-because proof can prove only so much.
 (For) there is an authenticity to human creativity that cannot be simulated or replicated.<sup><a href="#footnote3" id="ref3">3</a></sup>
 
+(At the end of the day,
+what does <i>proving something</i> mean anyway?
+Does it not mean only that we have deduced something based on a handful of axioms
+that we assume are correct?
+&hellip; where
+the correctness of the axioms can never be proved
+because &hellip; they are axioms. :))
+
 <h1 id="munich">Finally München</h1>
 
 My journey concluded with a (once again unplanned, but) delightful excursion to München. The timing couldn't have been better
