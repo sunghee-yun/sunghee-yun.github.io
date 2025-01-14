@@ -8,10 +8,6 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-<head>
-<link href="/resource/styles.css" rel="stylesheet"/>
-</head>
-
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
 		var toggles = document.querySelectorAll('.foldable-toggle');
