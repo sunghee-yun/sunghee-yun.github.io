@@ -131,17 +131,14 @@ I had the honor of playing the piano accompaniment for Lucy's violin performance
 Friedrich Seitz's Violin Concerto No. 5 in D major, Op. 22, Third Movement (Rondo).
 The harmony of our instruments echoed the harmony of our families, creating a beautiful melody that will forever resonate in our hearts.
 
-<div id="video" style="text-align: center;">
+<div id="video" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
 <video width="90%" controls>
     <source src="/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
 </video>
 </div>
 
-<p>
-<br>
-<i><font color="blue">This trip was more than just a vacation; it was a symphony of memories that will be cherished for a lifetime.</font></i>
-</p>
+This trip was more than just a vacation; it was a symphony of memories that will be cherished for a lifetime.
 
 <h1 id="photos">Photos</h1>
 
