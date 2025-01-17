@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<a href="/">I</a> am Co-founder &amp; CTO
+<a href="/">I</a> am a Co-founder &amp; CTO
 @
 <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
 an Advisor &amp; Evangelist
