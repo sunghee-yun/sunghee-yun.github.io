@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /about
+  - title: "Blog"
+    url: /posts
   - title: "AI Insights"
     url: /articles
   - title: "AI Papers"
@@ -9,8 +11,6 @@ main:
     url: /ai-learning
   - title: "SGS"
     url: /salzburg-global-seminar
-  - title: "Blog"
-    url: /posts
   - title: "Tags"
     url: /tags
   - title: "Cats"
