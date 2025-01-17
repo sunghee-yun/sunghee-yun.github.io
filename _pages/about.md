@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<a href="/">I</a> am Co-founder / CTO
+<a href="/">I</a> am Co-founder &amp; CTO
 @
 <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
-an Advisor and Evangelist
+an Advisor &amp; Evangelist
 @
 <a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>,
 a <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
