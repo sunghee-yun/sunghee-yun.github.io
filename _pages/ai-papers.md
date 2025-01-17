@@ -256,6 +256,13 @@ toc_sticky: true
 
 <ul>
 <li>
+	"Foundations of Large Language Models"
+	- Tong Xiao &amp; Jingbo Zhu
+	(NLP Lab &amp; Northeastern University &amp; NiuTrans Research)
+	@ 16-Jan-2025
+	(<a href="https://arxiv.org/abs/2501.09223">arxiv</a>)
+</li>
+<li>
 	"HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems"
 	- Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen &amp; Ji-Rong Wen
 	(Renmin University of China &amp; Baichuan Intelligent Technology)
@@ -500,6 +507,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 </ul>
 <h1 id="all-papers-in-reverse-chronological-order">All papers in reverse chronological order</h1>
 <ul>
+<li>
+	"Foundations of Large Language Models"
+	- Tong Xiao &amp; Jingbo Zhu
+	(NLP Lab &amp; Northeastern University &amp; NiuTrans Research)
+	@ 16-Jan-2025
+	(<a href="https://arxiv.org/abs/2501.09223">arxiv</a>)
+</li>
 <li id="multiagent-finetuning">
 	"Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains"
 	- Vighnesh Subramaniam, Yilun Du, Joshua B. Tenenbaum, Antonio Torralba, Shuang Li &amp; Igor Mordatch

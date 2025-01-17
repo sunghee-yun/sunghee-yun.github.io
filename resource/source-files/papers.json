@@ -325,6 +325,16 @@
 	},
 	{
 		"category": ["ai", "llm"],
+		"title": "Foundations of Large Language Models",
+		"authors": "Tong Xiao, Jingbo Zhu",
+		"date": "16-Jan-2025",
+		"org": "NLP Lab, Northeastern University &amp; NiuTrans Research",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2501.09223"
+		}
+	},
+	{
+		"category": ["ai", "llm"],
 		"title": "HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems",
 		"authors": "Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen, Ji-Rong Wen",
 		"date": "05-Nov-2024",
