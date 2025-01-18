@@ -131,6 +131,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 성태웅
 양향자
 윤성희
+이규석
 이희영
 황보선
 
