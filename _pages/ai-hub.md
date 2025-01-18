@@ -971,6 +971,26 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h1 id="e-commerce">E-commerce</h1>
+
+<ul>
+<li>
+	<a href="https://v.daum.net/v/20250117174408028">출혈전쟁에 기진맥진, 中 알·테 공습까지…'매력없는 유통기업'</a>
+	- 한국경제
+	@ 17-Jan-2025 17:44 KST
+</li>
+</ul>
+
+<h1 id="aerospace">Aerospace technology</h1>
+
+<ul>
+<li>
+	<a href="https://v.daum.net/v/20250117145224118">머스크 우주선 잃었다… 스페이스X '스타십' 7번째 시험비행 실패</a>
+	- 머니S
+	@ 17-Jan-2025 14:52 KST
+</li>
+</ul>
+
 <h1 id="new-tech">New technology</h1>
 
 <ul>
@@ -1150,6 +1170,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://v.daum.net/v/20250117145224118">머스크 우주선 잃었다… 스페이스X '스타십' 7번째 시험비행 실패</a>
+	- 머니S
+	@ 17-Jan-2025 14:52 KST
+</li>
+<li>
+	<a href="https://v.daum.net/v/20250117174408028">출혈전쟁에 기진맥진, 中 알·테 공습까지…'매력없는 유통기업'</a>
+	- 한국경제
+	@ 17-Jan-2025 17:44 KST
+</li>
 <li>
 	<a href="https://www.ccn.com/news/technology/south-korea-ai-basic-act-joins-eu/">South Korea Joins EU in Establishing Comprehensive AI Legislation</a>
 	- ccn
