@@ -269,6 +269,13 @@ toc_sticky: true
 	@ 16-Jan-2025
 	(<a href="https://arxiv.org/abs/2501.09223">arxiv</a>)
 </li>
+<li id="llm-titans">
+	"Titans: Learning to Memorize at Test Time"
+	- Ali Behrouz, Peilin Zhong &amp; Vahab Mirrokni
+	(Google Research)
+	@ 31-Dec-2024
+	(<a href="https://arxiv.org/abs/2501.00663">arxiv</a>)
+</li>
 <li>
 	"HtmlRAG: HTML is Better Than Plain Text for Modeling Retrieved Knowledge in RAG Systems"
 	- Jiejun Tan, Zhicheng Dou, Wen Wang, Mang Wang, Weipeng Chen &amp; Ji-Rong Wen
@@ -527,6 +534,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	(MIT &amp; Google)
 	@ 10-Jan-2025
 	(<a href="https://arxiv.org/abs/2501.05707">arxiv</a>)
+</li>
+<li id="llm-titans">
+	"Titans: Learning to Memorize at Test Time"
+	- Ali Behrouz, Peilin Zhong &amp; Vahab Mirrokni
+	(Google Research)
+	@ 31-Dec-2024
+	(<a href="https://arxiv.org/abs/2501.00663">arxiv</a>)
 </li>
 <li id="agents-are-not-enough">
 	"Agents Are Not Enough"

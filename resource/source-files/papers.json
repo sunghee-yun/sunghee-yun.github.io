@@ -335,6 +335,17 @@
 			}
 	},
 	{
+		"id": "llm-titans",
+		"category": ["ai", "llm"],
+		"title": "Titans: Learning to Memorize at Test Time",
+		"authors": "Ali Behrouz, Peilin Zhong, Vahab Mirrokni",
+		"date": "31-Dec-2024",
+		"org": "Google Research",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2501.00663"
+		}
+	},
+	{
 		"category": ["ai", "llm"],
 		"title": "Foundations of Large Language Models",
 		"authors": "Tong Xiao, Jingbo Zhu",
