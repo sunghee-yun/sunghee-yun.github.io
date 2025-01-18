@@ -1,5 +1,16 @@
 [
 	{
+		"category": ["ai", "agent"],
+		"title": "AnalogCoder: Analog Circuit Design via Training-Free Code Generation",
+		"authors": "Yao Lai, Sungyoung Lee, Guojin Chen, Souradip Poddar, Mengkang Hu, David Z. Pan, Ping Luo",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/2405.14918"
+		},
+		"org": "The University of Hong Kong, The University of Texas at Austin, The Chinese University of Hong Kong",
+		"date": "23-May-2024",
+		"last_revised": "30-May-2024"
+	},
+	{
 		"id": "multiagent-finetuning",
 		"category": ["ai", "agent"],
 		"title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",

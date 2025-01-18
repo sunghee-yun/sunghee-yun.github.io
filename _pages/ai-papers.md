@@ -250,6 +250,13 @@ toc_sticky: true
 	@ 18-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.18961">arxiv</a>)
 </li>
+<li>
+	"AnalogCoder: Analog Circuit Design via Training-Free Code Generation"
+	- Yao Lai, Sungyoung Lee, Guojin Chen, Souradip Poddar, Mengkang Hu, David Z. Pan &amp; Ping Luo
+	(The University of Hong Kong, The University of Texas at Austin &amp; The Chinese University of Hong Kong)
+	@ 23-May-2024
+	(<a href="https://arxiv.org/abs/2405.14918">arxiv</a>)
+</li>
 </ul>
 
 <h2 id="ai-llm">LLM</h2>
@@ -701,6 +708,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- Rafael Perez Martinez, Masaya Iwamoto, Kelly Woo, Zhengliang Bian, Roberto Tinti, Stephen Boyd &amp; Srabanti Chowdhury
 	@ 24-Jun-2024
 	(<a href="https://stanford.edu/~boyd/papers/compact_model_parameter_extraction.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/2406.16355">arxiv</a>)
+</li>
+<li>
+	"AnalogCoder: Analog Circuit Design via Training-Free Code Generation"
+	- Yao Lai, Sungyoung Lee, Guojin Chen, Souradip Poddar, Mengkang Hu, David Z. Pan &amp; Ping Luo
+	(The University of Hong Kong, The University of Texas at Austin &amp; The Chinese University of Hong Kong)
+	@ 23-May-2024
+	(<a href="https://arxiv.org/abs/2405.14918">arxiv</a>)
 </li>
 <li>
 	"SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
