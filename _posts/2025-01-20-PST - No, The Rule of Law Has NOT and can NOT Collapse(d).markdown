@@ -3,7 +3,7 @@ title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
 date: Mon Jan 20 12:03:43 PST 2025   
 last_modified_at: Mon Jan 20 12:03:43 PST 2025   
 categories:
- - blog
+ - column
 tags:
  - opinion
  - democracy
