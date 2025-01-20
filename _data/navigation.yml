@@ -1,7 +1,7 @@
 main:
-  - title: "About"
+  - title: "about"
     url: /about
-  - title: "Blog"
+  - title: "blog"
     url: /posts
   - title: "AI Insights"
     url: /articles
@@ -11,19 +11,19 @@ main:
     url: /ai-learning
   - title: "SGS"
     url: /salzburg-global-seminar
-  - title: "Tags"
+  - title: "tags"
     url: /tags
-  - title: "Cats"
+  - title: "cats"
     url: /categories
-  - title: "Books"
+  - title: "books"
     url: /books
-  - title: "Lectures"
+  - title: "lectures"
     url: /lectures
-  - title: "Music"
+  - title: "music"
     url: /music
-  - title: "TODO"
+  - title: "todo"
     url: /todo-list
-  - title: "Exercise"
+  - title: "exercise"
     url: /exercise
-  - title: "Misc"
+  - title: "misc"
     url: /misc
