@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Sat Jan 11 01:54:57 PST 2025
+last_modified_at: Mon Jan 20 03:13:04 PST 2025
 categories:
  - blog
 tags:
@@ -362,6 +362,15 @@ This ongoing engagement will enable continuous knowledge sharing and adaptive st
 <!--div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208203839_o.jpg">
 </div-->
+
+<div class="img-container">
+<img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+</div>
+<figcaption>
+Listening to Carolina lay out her proposals was truly intoxicating
+-
+hearing perspectives shaped by a lifetime of completely different experiences than my own.
+</figcaption>
 
 <div class="img-container">
 <img src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
