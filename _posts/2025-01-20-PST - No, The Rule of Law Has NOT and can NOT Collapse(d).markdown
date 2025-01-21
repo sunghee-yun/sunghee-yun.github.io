@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Mon Jan 20 17:36:46 PST 2025
+last_modified_at: Mon Jan 20 20:21:20 PST 2025
 categories:
  - column
 tags:
@@ -69,9 +69,9 @@ This reckless use of dramatic phrases does more than just generate clicks and vi
 <font class="emph">it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.</font>
 </blockquote>
 
-I have recently heard countless times that "the rule of law has collapsed" in South Korea.
+I have recently heard countless times that "<a href="https://en.wikipedia.org/wiki/Rule_of_law">the rule of law</a><sup><a href="#footnote1" id="ref1">1</a></sup> has collapsed" in South Korea.
 &ndash;
-"법치주의가 무너졌다." in Korean
+"법치法治가 무너졌다." in Korean
 &ndash;
 This claim emerged when the suspended president refused to be arrested and used the presidential security service
 as his personal protection while allegedly violating the law.
@@ -79,9 +79,9 @@ Just yesterday, I heard the same phrase again when protesters stormed the Seoul 
 after a judge approved an arrest warrant in the early hours of the morning.
 The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
 
-At the very first time I heard this claim,
+When I heard this claim first time,
 my immediate reaction was: "Something's very wrong with this statement."
-And after 2 seconds of reflection, I immediately knew why.
+And after 1 second of reflection, I immediately knew why.
 
 <p>
 <font class="emph">
@@ -118,10 +118,12 @@ The public outrage and ongoing legal proceedings against those who break the law
 <font class="emph">This is not a sign of collapse. This is a sign of strength.</font>
 </p>
 
+<p>
 <font class="emph">And here once again the opinion leaders and media's role should be seriously re-considered.</font>
 Whenever people read that line "The rule of law has collapsed", people believe it and form wrong ideas.
 This reckless use of dramatic phrases does more than just generate clicks and views - it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.
 When people repeatedly hear that the rule of law has collapsed, they may begin to lose faith in the very system that protects their rights and freedoms.
+</p>
 
 Even the Supreme Court Justices get it wrong.
 In their recent emergency meeting, they declared that
@@ -150,3 +152,11 @@ Mathematician, statistician, theorist, engineer, and practitioner
 <br>
 Thinker, philosopher, supporter of republican democracy, and actor
 
+<hr>
+<ol>
+<li id="footnote1">
+	<a href="https://en.wikipedia.org/wiki/Rule_of_law">The rule of law</a> is a political and legal ideal that all people and institutions within a country, state, or community
+	are accountable to the same laws, including lawmakers, government officials, and judges.
+	It is sometimes stated simply as &ldquo;no one is above the law&rdquo; or &ldquo;all are equal before the law&rdquo;.
+	&nbsp;<a href="#ref1">↩</a></li>
+</ol>
