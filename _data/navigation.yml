@@ -1,7 +1,7 @@
 main:
   - title: "about"
     url: /about
-  - title: "blog"
+  - title: "posts"
     url: /posts
   - title: "AI Insights"
     url: /articles
