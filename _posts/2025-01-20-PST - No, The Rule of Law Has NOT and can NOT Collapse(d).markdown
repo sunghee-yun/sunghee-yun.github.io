@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Mon Jan 20 16:47:08 PST 2025
+last_modified_at: Mon Jan 20 17:36:46 PST 2025
 categories:
  - column
 tags:
@@ -19,6 +19,10 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
+<br>
+cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 <!--# No, The Rule of Law Hasn't 'Collapsed' in South Korea-->
 
@@ -137,9 +141,10 @@ By that measure, South Korea's legal system isn't failing - it's doing exactly w
 <br>
 20-Jan-2025 PST
 
-[Sunghee Yun
+[Sunghee Yun](/)
+<br>
 <br>
 Mathematician, statistician, theorist, engineer, and practitioner
 <br>
-Thinker, philosopher, supporter of republican democracy, and actor](/)
+Thinker, philosopher, supporter of republican democracy, and actor
 
