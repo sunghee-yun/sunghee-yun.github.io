@@ -1,13 +1,13 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
-date: Mon Jan 20 12:03:43 PST 2025   
-last_modified_at: Mon Jan 20 12:03:43 PST 2025   
+date: Mon Jan 20 12:03:43 PST 2025
+last_modified_at: Mon Jan 20 16:12:28 PST 2025
 categories:
  - column
 tags:
  - opinion
  - democracy
- - legal systems 
+ - legal systems
 toc: false
 toc_label: "ToC"
 toc_icon: "cog"
@@ -43,17 +43,43 @@ It's woven into the fabric of how we've built this nation, how we've resolved ou
 </blockquote>
 
 <blockquote>
+Even the Supreme Court justices declared that
+&ldquo;<a href="https://v.daum.net/v/20250120080717494">the rule of law has collapsed, and we are heartbroken.</a>&rdquo;
+This statement is particularly troubling coming from the very guardians of our legal system.
+<!--If anyone should understand the resilience and self-correcting nature of the rule of law, it should be our highest judges.
+Their dramatic declaration not only mischaracterizes the nature of rule of law but also, ironically,
+undermines the very institution they are meant to protect.-->
+<font class="emph">When Supreme Court justices themselves echo this misconception,
+they inadvertently legitimize a fundamental misunderstanding of how our legal system works.</font>
+</blockquote>
+
+<blockquote>
 <font class="emph">Here once again the opinion leaders and media's role should be seriously re-considered.</font>
 Whenever people read that line "The rule of law has collapsed", people believe it and form wrong ideas.
 This reckless use of dramatic phrases does more than just generate clicks and views -
 <font class="emph">it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.</font>
 </blockquote>
 
-I have recently heard countless times that "the rule of law has collapsed" in South Korea. This claim emerged when a former president refused to be arrested and used the presidential security service as his personal protection while allegedly violating the law. Just yesterday, I heard the same phrase again when protesters stormed the Seoul Western District Court after a judge approved an arrest warrant in the early hours of the morning. The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
+I have recently heard countless times that "the rule of law has collapsed" in South Korea.
+&ndash;
+"법치주의가 무너졌다." in Korean
+&ndash;
+This claim emerged when a former president refused to be arrested and used the presidential security service
+as his personal protection while allegedly violating the law.
+Just yesterday, I heard the same phrase again when protesters stormed the Seoul Western District Court
+after a judge approved an arrest warrant in the early hours of the morning.
+The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
 
 At the very first time I heard this claim,
 my immediate reaction was: "Something's very wrong with this statement."
 And after 2 seconds of reflection, I immediately knew why.
+
+<p>
+<font class="emph">
+It's simply not true.
+The Rule of Law simply can't collapse like that.
+</font>
+</p>
 
 The rule of law isn't some fragile arrangement that can be shattered by the actions of any single individual - even a former president. It's not a light switch that can simply be turned off by someone's defiance of legal authorities. Rather, it's a robust constitutional system that has been the backbone of South Korean society for more than 75 years.
 
@@ -86,10 +112,28 @@ Whenever people read that line "The rule of law has collapsed", people believe i
 This reckless use of dramatic phrases does more than just generate clicks and views - it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.
 When people repeatedly hear that the rule of law has collapsed, they may begin to lose faith in the very system that protects their rights and freedoms.
 
+Even the Supreme Court justices get it wrong.
+In their recent emergency meeting, they declared that
+&ldquo;[the rule of law has collapsed, and we are heartbroken.](https://v.daum.net/v/20250120080717494)&rdquo;
+This statement is particularly troubling coming from the very guardians of our legal system.
+If anyone should understand the resilience and self-correcting nature of the rule of law, it should be our highest judges.
+Their dramatic declaration not only mischaracterizes the nature of rule of law but also, ironically, undermines the very institution they are meant to protect.
+When Supreme Court justices themselves echo this misconception, they inadvertently legitimize a fundamental misunderstanding of how our legal system works.
+
 Instead of amplifying panic with sensationalist headlines, our media and opinion leaders should focus on explaining how our legal system actually works - its resilience, its mechanisms for self-correction, and its fundamental role in maintaining democratic society. They should help citizens understand that challenges to the rule of law, even serious ones, are precisely what our legal system is designed to handle. This would not only lead to better public discourse but would also strengthen our democracy by fostering informed civic engagement rather than reactionary fear.
 
 <font class="emph">
 After all, the true measure of the rule of law isn't the absence of challenges to it, but rather how our institutions respond to those challenges.
 By that measure, South Korea's legal system isn't failing - it's doing exactly what it was designed to do.
 </font>
+
+
+<br>
+20-Jan-2025 PST
+
+[Sunghee Yun](/)
+<br>
+Mathematician, statistician, theorist, engineer, and practitioner
+<br>
+Thinker, philosopher, supporter of republican democracy, and actor
 
