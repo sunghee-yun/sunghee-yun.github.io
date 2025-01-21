@@ -119,7 +119,8 @@ When people repeatedly hear that the rule of law has collapsed, they may begin t
 
 Even the Supreme Court justices get it wrong.
 In their recent emergency meeting, they declared that
-&ldquo;[the rule of law has collapsed, and we are heartbroken.](https://v.daum.net/v/20250120080717494)&rdquo;
+&ldquo;[the rule of law has collapsed, and we are heartbroken](https://v.daum.net/v/20250120080717494)&rdquo;
+(Financial News @ 8:07AM on 20-Jan-2025 KST).
 This statement is particularly troubling coming from the very guardians of our legal system.
 If anyone should understand the resilience and self-correcting nature of the rule of law, it should be our highest judges.
 Their dramatic declaration not only mischaracterizes the nature of rule of law but also, ironically, undermines the very institution they are meant to protect.
