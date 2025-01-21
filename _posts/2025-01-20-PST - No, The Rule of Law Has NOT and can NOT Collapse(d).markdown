@@ -132,9 +132,9 @@ By that measure, South Korea's legal system isn't failing - it's doing exactly w
 <br>
 20-Jan-2025 PST
 
-[Sunghee Yun](/)
+[Sunghee Yun
 <br>
 Mathematician, statistician, theorist, engineer, and practitioner
 <br>
-Thinker, philosopher, supporter of republican democracy, and actor
+Thinker, philosopher, supporter of republican democracy, and actor](/)
 
