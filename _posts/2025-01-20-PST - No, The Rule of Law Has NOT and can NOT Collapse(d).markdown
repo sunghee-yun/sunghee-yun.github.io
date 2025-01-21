@@ -61,6 +61,10 @@ This reckless use of dramatic phrases does more than just generate clicks and vi
 <font class="emph">it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.</font>
 </blockquote>
 
+<div class="img-container">
+<img src="/resource/columns/u1564158738_No_The_Rule_of_Law_Has_NOT_will_NOT_and_can_NOT_C_9b657b48-c19d-40a8-8b92-b7b6a720af66_0.png">
+</div>
+
 I have recently heard countless times that "the rule of law has collapsed" in South Korea.
 &ndash;
 "법치주의가 무너졌다." in Korean
