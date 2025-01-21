@@ -1,7 +1,7 @@
 ---
-title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
+title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Mon Jan 20 20:21:20 PST 2025
+last_modified_at: Tue Jan 21 10:56:41 PST 2025
 categories:
  - column
 tags:
@@ -76,7 +76,7 @@ I have recently heard countless times that "<a href="https://en.wikipedia.org/wi
 This claim emerged when the suspended president refused to be arrested and used the presidential security service
 as his personal protection while allegedly violating the law.
 Just yesterday, I heard the same phrase again when protesters stormed the Seoul Western District Court
-after a judge approved an arrest warrant in the early hours of the morning.
+after a judge approved a detention warrant in the early hours of the morning.
 The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
 
 When I heard this claim first time,
