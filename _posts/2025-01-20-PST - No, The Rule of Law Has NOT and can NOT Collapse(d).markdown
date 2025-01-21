@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)!
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Mon Jan 20 16:12:28 PST 2025
+last_modified_at: Mon Jan 20 16:47:08 PST 2025
 categories:
  - column
 tags:
@@ -43,6 +43,10 @@ It's woven into the fabric of how we've built this nation, how we've resolved ou
 <!--The rule of law isn't just an abstract concept in legal textbooks - it's the living, breathing foundation of how we, as Korean citizens, have chosen to live together and build our country over generations.-->
 </blockquote>
 
+<div class="img-container">
+<img src="/resource/columns/u1564158738_No_The_Rule_of_Law_Has_NOT_will_NOT_and_can_NOT_C_9b657b48-c19d-40a8-8b92-b7b6a720af66_0.png">
+</div>
+
 <blockquote>
 Even the Supreme Court justices declared that
 &ldquo;<a href="https://v.daum.net/v/20250120080717494">the rule of law has collapsed, and we are heartbroken.</a>&rdquo;
@@ -60,10 +64,6 @@ Whenever people read that line "The rule of law has collapsed", people believe i
 This reckless use of dramatic phrases does more than just generate clicks and views -
 <font class="emph">it undermines public confidence in our institutions and creates a dangerous self-fulfilling prophecy.</font>
 </blockquote>
-
-<div class="img-container">
-<img src="/resource/columns/u1564158738_No_The_Rule_of_Law_Has_NOT_will_NOT_and_can_NOT_C_9b657b48-c19d-40a8-8b92-b7b6a720af66_0.png">
-</div>
 
 I have recently heard countless times that "the rule of law has collapsed" in South Korea.
 &ndash;
