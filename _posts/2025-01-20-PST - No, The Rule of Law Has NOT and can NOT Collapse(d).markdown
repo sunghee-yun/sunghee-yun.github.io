@@ -8,6 +8,7 @@ tags:
  - opinion
  - democracy
  - legal systems
+ - facts
 toc: false
 toc_label: "ToC"
 toc_icon: "cog"
