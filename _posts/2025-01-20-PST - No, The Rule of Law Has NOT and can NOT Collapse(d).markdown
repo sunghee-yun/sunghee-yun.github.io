@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Tue Jan 21 14:35:11 PST 2025
+last_modified_at: Tue Jan 21 19:31:42 PST 2025
 categories:
  - column
 tags:
@@ -151,7 +151,7 @@ Instead, we see our legal institutions continuing to function,
 prosecutors pursuing cases, judges making independent decisions, and the wheels of justice turning, despite the challenges they face.
 
 <p>
-<font class="emph">This is not a sign of collapse. This is a sign of strength.</font>
+<font class="emph">This is not a sign of collapse. This is a sign of strength and resilience.</font>
 </p>
 
 <p>
