@@ -114,7 +114,7 @@ The <a target="_blank" href="https://maps.app.goo.gl/qi9KTxV6cbJxrUCS7">Basiliqu
 a stunning example of Gothic architecture in the heart of Lyon, displays its ethereal white limestone façade against a dramatic sky.
 </figcaption>
 
-During our discussions, we delved into profound questions about the nature of Large Language Models (LLM) (and AI itself).
+During our discussions, we delved into profound questions about the nature of Large Language Models (LLM) (and AI as a whole).
 We contemplated how systems based on conditional probability estimation and pattern recognition could demonstrate such remarkable capabilities—ones
 that not only <font class="emph">seem to</font> match but sometimes (seem to) surpass human abilities
 (whatever it is that we mean by human abilities).
