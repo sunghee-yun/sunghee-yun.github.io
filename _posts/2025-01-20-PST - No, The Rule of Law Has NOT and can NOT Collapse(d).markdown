@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Tue Jan 21 19:31:42 PST 2025
+last_modified_at: Wed Jan 22 14:45:37 PST 2025
 categories:
  - column
 tags:
@@ -93,6 +93,10 @@ as his personal protection while allegedly violating the law.
 Just yesterday, I heard the same phrase again when protesters stormed the Seoul Western District Court
 after a judge approved a detention warrant in the early hours of the morning.
 The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
+
+<div class="img-container">
+<img src="/resource/columns/Screenshot 2025-01-22 at 2.23.07 PM.png">
+</div>
 
 When I heard this claim first time,
 my immediate reaction was: "Something's very wrong with this statement."
