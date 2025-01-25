@@ -96,3 +96,5 @@ It isn't universally accessible or predetermined.
 Rather, it's something we actively create through our will and intention.
 The meaning of life is what we create as active and autonomous agents, not something bestowed by others,
 even by some absolute being endorsed by holy scriptures.
+
+[Sunghee](/)
