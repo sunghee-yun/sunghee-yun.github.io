@@ -105,5 +105,12 @@ Ultimately, achieving fairness, ethics, and access in AI will require sustained 
 
 The transformative power of AI offers both immense opportunities and significant challenges. Ensuring that AI serves as a force for good requires a steadfast commitment to fairness, ethics, and equitable access. By fostering collaboration across sectors and nations, society can harness AI’s potential to create a more just and inclusive future. Through initiatives like the Hamburg Declaration and the KFAS-Salzburg Global Leadership Initiative, we can address one of the most pressing issues of our time: ensuring that AI benefits humanity as a whole, guided by robust ethical principles and a commitment to equity.
 
-&ldquo;The Technology, Growth, and Inequality: The Case of AI&rdquo; group has created a dedicated website to serve as a central collaboration hub on AI fairness and digital ethics. This website will track our progress, share resources, and foster collaboration among KFAS-Salzburg Global Leadership Initiative Fellows and beyond with other communities and stakeholders. Please visit and collaborate with us here: <a href="https://salzburgglobalseminar-ai.github.io/">Empowering Humanity for the Future Enriched by AI</a>
+# Central collaboration hub on AI fairness and digital ethics
+
+&ldquo;The Technology, Growth, and Inequality: The Case of AI&rdquo; group
+has created a dedicated website to serve as a central collaboration hub on AI fairness and digital ethics.
+This website will track our progress, share resources, and foster collaboration
+among KFAS-Salzburg Global Leadership Initiative Fellows and beyond with other communities and stakeholders.
+Please visit and collaborate with us here:
+<a href="https://salzburgglobalseminar-ai.github.io/">Empowering Humanity for the Future Enriched by AI</a>
 
