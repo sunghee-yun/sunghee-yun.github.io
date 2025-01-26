@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Wed Jan 22 14:45:37 PST 2025
+last_modified_at: Sat Jan 25 17:56:46 PST 2025
 categories:
  - column
 tags:
@@ -89,7 +89,7 @@ has collapsed" in South Korea.
 "법치法治가 무너졌다." in Korean
 &ndash;
 This claim emerged when the suspended president refused to be arrested and used the presidential security service
-as his personal protection while allegedly violating the law.
+as his personal protection while allegedly committing the crime of insurrection.
 Just yesterday, I heard the same phrase again when protesters stormed the Seoul Western District Court
 after a judge approved a detention warrant in the early hours of the morning.
 The scenes were chaotic - protesters breaking windows, damaging property, and clashing with police officers.
