@@ -44,7 +44,7 @@ Welcome to my space, where I share my insights and values.
 
 <h1 id="blog">Recent blog posts</h1>
 <ul>
-	{% for post in site.posts limit:5 %}
+	{% for post in site.posts limit:10 %}
 		<li>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</li>
