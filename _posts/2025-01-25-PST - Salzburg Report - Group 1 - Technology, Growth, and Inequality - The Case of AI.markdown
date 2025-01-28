@@ -1,7 +1,7 @@
 ---
-title: Technology, Growth &amp; Inequality &ndash; The Case of AI
+title: Technology, Growth, and Inequality &ndash; The Case of AI
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Sat Jan 25 01:21:09 PST 2025
+last_modified_at: Mon Jan 27 21:22:58 PST 2025
 categories:
  - blog
 tags:
@@ -19,9 +19,16 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+This is the (semi-)final draft of the report
+written by &ldquo;KFAS-Salzburg Global Leadership Initiative Fellow Group 1 - Technology, Growth, and Inequality &ndash; The Case of AI&rdquo;
+based on <a href="{{ site.baseurl }}{% post_url 2024-12-10-PST - Lyon & Salzburg %}">the 4 day activities</a>
+@ Schloss Leopoldskron, Salzburg, Austria.
+The final report will be published on the official website of <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>.
+{: .notice}
+
 <!--Group 1:Technology, Growth, and Inequality: The Case of AI-->
 
-# Harnessing AI’s Potential: Building Pathways to Social Justice and Economic Equity 
+# Harnessing AI’s Potential: Building Pathways to Social Justice and Economic Equity
 
 From healthcare diagnostics to personalized learning tools, artificial intelligence (AI) has become a cornerstone of modern innovation and research, transforming industries and revolutionizing daily life. AI’s potential to enhance human capabilities is unparalleled—but it also poses significant ethical, social, and economic challenges. If we are to address these challenges, we need to embrace the principles of AI fairness, digital ethics, and equitable access. Together, these principles serve as the foundation for building a technological future that prioritizes social justice and inclusivity.
 
@@ -29,7 +36,7 @@ From healthcare diagnostics to personalized learning tools, artificial intellige
 
 Supposedly free of human sensibilities, AI systems should operate without bias, ensuring impartial and fair outcomes for all. While it sounds straightforward, achieving fairness in AI is anything but simple. Biases in AI systems often stem from training data, algorithms, and design practices that reflect our unconscious biases  and societal inequities, which humans inevitably possess, thus perpetuating systemic injustices—from generating images CEOs who are only white, middle-aged and male to more devasting implications such as sentencing Black convicts to longer jail terms.
 
-AI systems learn from data that often include historical biases. For instance, hiring algorithms may favor certain demographics due to previous discriminatory practices, thus amplifying rather than eradicating human biases. 
+AI systems learn from data that often include historical biases. For instance, hiring algorithms may favor certain demographics due to previous discriminatory practices, thus amplifying rather than eradicating human biases.
 
 Algorithmic biases can also emerge from the assumptions and perspectives of AI developers, particularly if development teams lack diversity. A notable example is facial recognition technology, which has been found to misidentify individuals from minority groups at significantly higher rates—especially when developed by majority-white teams. Such disparities underscore the urgent need for fairness in AI design and deployment to prevent exacerbating existing inequities.
 
@@ -65,7 +72,7 @@ The Hamburg Declaration emphasizes the importance of international collaboration
 
 # The Dual Nature of AI: Opportunities and Risks
 
-AI’s dual nature—as both a driver of progress and a potential exacerbator of inequality—requires careful management. 
+AI’s dual nature—as both a driver of progress and a potential exacerbator of inequality—requires careful management.
 
 On one hand, AI can enhance efficiency, improve decision-making, and foster creativity. AI-powered translation tools break down language barriers, enabling cross-cultural collaboration. Similarly, AI algorithms have accelerated breakthroughs in healthcare, such as drug discovery and personalized treatment plans.
 
@@ -75,7 +82,7 @@ But there are possible solutions &hellip;
 
 # Pathways Forward: Building a Fairer AI Future
 
-To address these challenges, a multi-faceted approach is essential. 
+To address these challenges, a multi-faceted approach is essential.
 
 ## Raising Awareness and Game-based Learning Education
 
