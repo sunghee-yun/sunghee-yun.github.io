@@ -2,30 +2,28 @@
 layout: single
 title: About
 permalink: /about/
+last_modified_at: Mon Jan 27 22:12:37 PST 2025
 ---
 
-<a href="/">I</a> am a Co-founder &amp; CTO
-@
-<a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
-an Advisor &amp; Evangelist
-@
-<a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>,
-a <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
-@
-<a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
-an Adjunct Professor
-@
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University, Seoul, South Korea</a>,
-an Advisory Professor
-@
-<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
-Global Advisory Board Member
-@
-<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
+<a href="/">I</a> am Co-founder &amp; Chief Technology Officer (CTO)
+@ <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
+Chief Business Development Officer (CBDO)
+@ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
+Advisor &amp; Evangelist
+@ <a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>,
+<a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
+@ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
+of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
+@ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
+<a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
+of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
+@ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
+@ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 and
 Network Expert Consultant
-@
-<a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>
+@ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>
 
 Before founding the new AI biotech company,
 I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
@@ -83,16 +81,15 @@ while considering the geopolitical dynamics of key players like the US, China, J
 
 I also dedicate to fostering knowledge, insight, and experience transfer and innovation
 by serving as
-an Adjunct Professor
-@
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">Sogang University, Seoul, South Korea</a>,
-an Advisory Professor
-@
-<a href="https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
+of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
+@ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
+<a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
+of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
+@ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
 and
-Global Advisory Board Member
-@
-<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>.
+<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
+@ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>.
 
 My life goal is to help build a future where humanity thrives through the advancement of health, safety, liberty, and equality—foundational elements that pave the way to genuine happiness.
 
