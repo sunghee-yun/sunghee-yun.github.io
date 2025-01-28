@@ -49,11 +49,11 @@ and generic AI optimization platform, dubbed iOpt,
 every day.
 
 I received a BS degree
-in <a href="https://eng.snu.ac.kr/snuEng/main/contents.do?menuNo=200084">Electrical Engineering (EE)</a>
-from <a href="https://en.snu.ac.kr/index.html">Seoul National University (SNU), Seoul, South Korea</a>
+from <a href="https://ece.snu.ac.kr/en">the Department of Electrical Engineering</a>
+@ <a href="https://en.snu.ac.kr/index.html">Seoul National University, Seoul, South Korea</a>
 and
-MS &amp; Ph.D. degrees in <a href="https://ee.stanford.edu/">EE</a>
-from <a href="http://stanford.edu">Stanford University, CA, USA</a>
+MS &amp; Ph.D. degrees from <a href="https://ee.stanford.edu/">the Department of Electrical Engineering</a>
+@ <a href="http://stanford.edu">Stanford University, CA, USA</a>
 under supervision of <a href="https://stanford.edu/~boyd/">Prof. Stephen P. Boyd</a>,
 who is a legendary figure in the field.
 &mdash;
