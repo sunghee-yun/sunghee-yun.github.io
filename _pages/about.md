@@ -49,15 +49,14 @@ and generic AI optimization platform, dubbed iOpt,
 every day.
 
 I received a BS degree
-from <a href="https://ece.snu.ac.kr/en">the Department of Electrical Engineering</a>
-@ <a href="https://en.snu.ac.kr/index.html">Seoul National University, Seoul, South Korea</a>
+in <a href="https://ece.snu.ac.kr/en">Electrical Engineering</a>
+from <a href="https://en.snu.ac.kr/index.html">Seoul National University, Seoul, South Korea</a>
 and
-MS &amp; Ph.D. degrees from <a href="https://ee.stanford.edu/">the Department of Electrical Engineering</a>
-@ <a href="http://stanford.edu">Stanford University, CA, USA</a>
+MS &amp; Ph.D. degrees in <a href="https://ee.stanford.edu/">Electrical Engineering</a>
+from <a href="http://stanford.edu">Stanford University, CA, USA</a>
 under supervision of <a href="https://stanford.edu/~boyd/">Prof. Stephen P. Boyd</a>,
-who is a legendary figure in the field.
-&mdash;
-Having <a href="https://stanford.edu/~boyd/">him</a> as my advisor was one of the luckiest things that have ever happened to my life!
+who is a legendary figure in the field. <font class="emph">&mdash;
+Having <a href="https://stanford.edu/~boyd/">him</a> as my advisor was one of the luckiest things that have ever happened to my life!</font>
 
 I specialize in Artificial Intelligence (AI) and <a href="https://ee.stanford.edu/">Convex Optimization</a>
 leading cutting-edge projects across diverse sectors including semiconductor design, strategic marketing with market intelligence,
