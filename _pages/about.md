@@ -5,7 +5,7 @@ permalink: /about/
 last_modified_at: Mon Jan 27 22:12:37 PST 2025
 ---
 
-<a href="/">I</a> am Co-founder &amp; Chief Technology Officer (CTO)
+<a href="/">I</a> am Co-founder &amp; CTO
 @ <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
 Chief Business Development Officer (CBDO)
 @ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
@@ -28,7 +28,8 @@ Network Expert Consultant
 Before founding the new AI biotech company,
 I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
 built and ran <a href="https://maps.app.goo.gl/v2cLgonB46fL9CPh8">the US Headquarters of Gauss Labs</a>,
-spearheaded research &amp; development of the core technology &amp; products.
+spearheaded research &amp; development of the core technology &amp; products
+as CTO, Global Head of Research, Chief Applied Scientist &amp; Senior Fellow.
 Before <a href="https://www.gausslabs.ai/">Gauss Labs</a>, I drove various AI technology and product developments
 and productionizations in the field of e-Commerce @ <a href="https://www.amazon.com/">Amazon.com, Inc.</a> where one of the projects
 created a 200 USD revenue increase via the Amazon Mobile Shopping App.
