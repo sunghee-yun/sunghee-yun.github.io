@@ -1,0 +1,91 @@
+---
+title: Pi
+date: Fri Jan 31 03:46:27 PST 2025
+last_modified_at: Fri Jan 31 03:46:27 PST 2025
+categories:
+ - blog
+tags:
+ - math
+ - inevitability
+ - coincidence
+toc: toc
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+usemathjax: true  # Add this line
+---
+
+<head>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  };
+</script>
+</head>
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
+
+# pi $\pi$
+<h1 id="pi"> pi $\pi$</h1>
+
+<h2 id="sqrt-pi">$$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$</h2>
+
+Let's prove that $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$.
+<!--Let's prove that \\( \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\\)-->
+
+Let $p_1 = \int_{-\infty}^\infty e^{-x^2} dx$. Then
+
+$$
+p_1^2
+=
+\int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)} dxdy
+=
+\int_{0}^\infty e^{-r^2} (2\pi r) dr
+=
+\pi\left.\left(-e^{-r^2}\right)\right|_{r=0}^\infty
+=
+\pi
+$$
+
+## hyper-surface-area of hyper-sphere 
+
+Now inversely, we calculate the proportionality constant
+for the (hyper-)surface-area of $$n$$-dimensional hyper-sphere,
+which is also called $$n$$-ball,
+that is,
+
+$$
+A_n(r) = a_n r^{n-1}
+$$
+
+where $$A_n(r)$$ refers to the surface area of $$n$$-dimensional hyper-sphere with radius $$r$$.
+
+This problem is (mathematically) equivalent to finding the proportionality constant
+for the volume of the hyper-sphere,
+that is, to find $$v_n$$ in
+
+$$
+V_n(r) = v_n r^{n}
+$$
+
+where $$V_n(r)$$ refers to the volume of $$n$$-dimensional hyper-sphere with radius $$r$$.
+
+We know $$a_2 = 2\pi$. Indeed, we use this fact
+
+Now let us (try to) calculate $$a_3$$
+
+
+## sums of sequences
+
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$
+
