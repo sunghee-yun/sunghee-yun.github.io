@@ -81,6 +81,7 @@ $$
 Refer to <a href="https://en.wikipedia.org/wiki/Volume_of_an_n-ball#Relation_with_surface_area">Relation with surface area</a>.)
 
 We know $$a_2 = 2\pi$$. Indeed, we use this fact to prove <a href="#gaussian-integral">the Gaussian integral</a>.
+(You even can say this is the definition of $$\pi$$.)
 
 Now let us (try to) calculate $$a_3$$
 (which we learned is $$4\pi$$ for a fact in high school).
