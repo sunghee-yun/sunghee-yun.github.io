@@ -8,7 +8,7 @@ tags:
  - AI
  - Salzburg Global Seminar
  - report
-toc: toc
+toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
