@@ -36,14 +36,17 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h1 id="pi"> pi $\pi$</h1>
 
 <h2 id="sqrt-pi">$$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$</h2>
+<h2 id="sqrt-pi-1">pi $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$</h2>
+<h2 id="sqrt-pi-2">$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$</h2>
+<h2 id="sqrt-pi-3">pi $\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$</h2>
 
 Let's prove that $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$.
 <!--Let's prove that \\( \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}\\)-->
 
-Let $p_1 = \int_{-\infty}^\infty e^{-x^2} dx$. Then
+Let $$p = \int_{-\infty}^\infty e^{-x^2} dx$$. Then
 
 $$
-p_1^2
+p^2
 =
 \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)} dxdy
 =
