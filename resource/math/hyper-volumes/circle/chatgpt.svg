@@ -1,0 +1,15 @@
+<svg width="300" height="300" viewBox="-150 -150 300 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Coordinate Axes -->
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="black" stroke-width="1"/>
+    <line x1="0" y1="-150" x2="0" y2="150" stroke="black" stroke-width="1"/>
+    
+    <!-- Circle centered at the origin -->
+    <circle cx="0" cy="0" r="100" stroke="blue" stroke-width="2" fill="none"/>
+    
+    <!-- Vertical line at x=a -->
+    <line x1="50" y1="-86.60254037844386" x2="50" y2="86.60254037844386" stroke="red" stroke-width="2"/>
+    
+    <!-- Intersection points -->
+    <circle cx="50" cy="86.60254037844386" r="3" fill="black"/>
+    <circle cx="50" cy="-86.60254037844386" r="3" fill="black"/>
+</svg>

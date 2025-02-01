@@ -1,0 +1,13 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Set the origin in the middle of the SVG canvas -->
+  <g transform="translate(200, 200) scale(1, -1)">
+    <!-- Draw the circle with radius r -->
+    <circle cx="0" cy="0" r="100" stroke="black" fill="none"/>
+
+    <!-- Draw the vertical line at x = a -->
+    <line x1="50" y1="-200" x2="50" y2="200" stroke="blue" stroke-width="2"/>
+
+    <!-- Draw the segment at x = a intersecting the circle -->
+    <circle cx="50" cy="0" r="5" fill="red"/>
+  </g>
+</svg>

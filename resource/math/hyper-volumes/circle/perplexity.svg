@@ -1,0 +1,29 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <!-- Coordinate axes -->
+  <line x1="0" y1="150" x2="300" y2="150" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="150" y1="300" x2="150" y2="0" stroke="black" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Circle -->
+  <circle cx="150" cy="150" r="100" stroke="blue" stroke-width="2" fill="none"/>
+  
+  <!-- Vertical line at x=a -->
+  <line x1="200" y1="50" x2="200" y2="250" stroke="red" stroke-width="1" stroke-dasharray="4"/>
+  
+  <!-- Intersection segment -->
+  <line x1="200" y1="86.6" x2="200" y2="213.4" stroke="green" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="290" y="140" font-size="12">x</text>
+  <text x="160" y="10" font-size="12">y</text>
+  <text x="160" y="160" font-size="12">O</text>
+  <text x="250" y="160" font-size="12">r</text>
+  <text x="210" y="160" font-size="12">a</text>
+</svg>
+

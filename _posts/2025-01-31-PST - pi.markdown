@@ -2,6 +2,7 @@
 title: (WIP) Coincidence or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
 last_modified_at: Sat Feb  1 12:00:03 PST 2025
+permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
 tags:
@@ -49,7 +50,9 @@ $$
 
 hence the proof.
 
-## surface areas and volumes of hyper-spheres
+## The Surface areas and volumes of hyper-spheres
+
+### Using equivalence of multiple ways of calculating $p$
 
 Now we calculate the proportionality constant
 for the (hyper-)surface-area of $$n$$-dimensional hyper-sphere,
@@ -167,14 +170,101 @@ $$
 $$
 
 You can explain it like this:
-the left-hand-side term grows like $$\pi^{1/2}, \pi, \pi^{3/2}, \pi^2, \ldots$$,
+the left-hand-side term grows like $$\pi^{1/2}, \pi^{2/2}, \pi^{3/2}, \pi^{4/2}, \ldots$$,
 but the right-hand-side term, which is the result of the integration,
 contains $$\sqrt{\pi}$$ only for odd $$n$$'s,
 hence the patterns of $$\pi$$ in $$a_n$$ and $$v_n$$.
 
 
+### Using what I learned in high school
 
-## sums of sequences
+Here we concern calculating $$v_n$$,
+<i>i.e.</i>,
+the proportionality constant for the volume of hyper-spheres.
+
+We know that $$v_1 = 2$$ and $$v_2 = \pi$$,
+the latter of which is the definition of $$\pi$$ in a traditional sense.
+
+But let us derive $$v_2$$ from $$v_1$$ for the sake of illustration
+as to how to derive the recursion formula.
+For note that $$V_1(r) = 2r$$.
+
+<div class="img-container">
+<img src="/resource/math/hyper-volumes/circle/my-final-version.svg">
+</div>
+
+Then
+
+$$
+\begin{align}
+V_2(r)
+&= \int_{-r}^{r} V_1(\sqrt{r^2-x^2}) dx
+= v_1\int_{-r}^{r} \sqrt{r^2-x^2} dx
+\\
+&= v_1r^2 \int_{-\pi/2}^{\pi/2} \cos^2 \theta d\theta
+= \frac{v_1}{2}r^2 \int_{-\pi/2}^{\pi/2} (1+\cos 2 \theta )d\theta
+\\
+&= \frac{\pi}{2} v_1 r^2
+= \pi r^2 = v_2 r^2
+\end{align}
+$$
+
+where we substitute $$r\sin \theta$$ for $$x$$
+and
+<a href="https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Double-angle_formulae">the double-angle formula</a>
+(one of (lots of) <a href="https://en.wikipedia.org/wiki/List_of_trigonometric_identities">trigonometric identities</a>)
+is used,
+hence $$v_2=\pi = (\pi/2) v_1$$.
+
+Similarly,
+
+$$
+\begin{align}
+V_3(r)
+&= \int_{-r}^{r} V_2(\sqrt{r^2-x^2}) dx
+= v_2\int_{-r}^{r} (r^2-x^2) dx
+\\
+&= v_2(2r^3 - 2r^3/3)
+= \frac{4}{3}v_2 r^3
+= \frac{4}{3}\pi r^3
+= v_3 r^3
+\end{align}
+$$
+
+hence $$v_3 = (4/3) v_2  = 4\pi/3$$.
+
+Just do this just one more time to recognize some patterns here.
+
+$$
+\begin{align}
+V_4(r)
+&= \int_{-r}^{r} V_3(\sqrt{r^2-x^2}) dx
+= v_3\int_{-r}^{r} (r^2-x^2)^{3/2} dx
+\\
+&= v_3r^4 \int_{-\pi/2}^{\pi/2} \cos^4 \theta d\theta
+= \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+\cos 2 \theta)^2 d\theta
+\\
+&= \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + \cos^2 2\theta) d\theta
+\\
+&= \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + (1+\cos 4\theta)/2) d\theta
+\\
+&= \frac{3}{8}\pi v_3 r^4
+= \frac{\pi^2}{2} r^4
+= v_4 r^4
+\end{align}
+$$
+
+hence $$v_4 = (3\pi/8) v_3 = \pi^2/2$$.
+
+
+Now we can see <i>very clearly</i> that new $$\pi$$ is introduced to $$v_n$$ every other time,
+and that's why we see these patterns in $$v_n$$, hence (or equivalently) in $$a_n$$.
+
+$$
+1, \pi, \pi, \pi^2, \pi^2, \pi^3, \pi^3, \ldots
+$$
+
+## Sums of sequences
 
 
 $$

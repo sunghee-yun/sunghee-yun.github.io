@@ -1,0 +1,20 @@
+<svg width="440" height="300" viewBox="-150 -150 440 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Coordinate Axes -->
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="black" stroke-width="1"/>
+    <line x1="0" y1="-150" x2="0" y2="150" stroke="black" stroke-width="1"/>
+    
+    <!-- Circle centered at the origin -->
+    <circle cx="0" cy="0" r="100" stroke="black" stroke-width="1" fill="none"/>
+    
+    <!-- Vertical line at x=a -->
+    <line x1="50" y1="-86.60254037844386" x2="50" y2="86.60254037844386" stroke="black" stroke-width="1"/>
+    <line x1="50" y1="-86.60254037844386" x2="0" y2="0" stroke="black" stroke-width="1"/>
+    
+    <!-- Intersection points -->
+    <circle cx="50" cy="86.60254037844386" r="3" fill="black"/>
+    <circle cx="50" cy="-86.60254037844386" r="3" fill="black"/>
+
+	<text x="15" y="-50" font-family="Times New Roman" font-style="italic" font-size="20">r</text>
+	<text x="35" y="15" font-family="Times New Roman" font-style="italic" font-size="20">x</text>
+	<text x="60" y="-30" font-family="Times New Roman" font-style="italic" font-size="20">√(r² − x²) = V₁(√(r² − x²)) /2</text>
+</svg>
