@@ -15,18 +15,6 @@ toc_sticky: true
 usemathjax: true  # Add this line
 ---
 
-<head>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true
-    }
-  };
-</script>
-</head>
-
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
@@ -80,7 +68,7 @@ $$
 
 where $$V_n(r)$$ refers to the volume of $$n$$-dimensional hyper-sphere with radius $$r$$.
 
-We know $$a_2 = 2\pi$. Indeed, we use this fact
+We know $$a_2 = 2\pi$$. Indeed, we use this fact to prove <a href="#sqrt-pi">$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$</a>
 
 Now let us (try to) calculate $$a_3$$
 
