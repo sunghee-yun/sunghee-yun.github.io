@@ -1,14 +1,14 @@
 ---
-title: Pi
+title: (WIP) Coincidence or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sat Feb  1 03:06:14 PST 2025
+last_modified_at: Sat Feb  1 12:00:03 PST 2025
 categories:
  - blog
 tags:
  - math
  - inevitability
  - coincidence
-toc: toc
+toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
@@ -20,7 +20,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<!--h1 id="pi">Pi ($\pi$)</h1-->
+<h1 id="pi">Pi - $\pi$</h1>
 
 <h2 id="gaussian-integral">The Gaussian integral</h2>
 
