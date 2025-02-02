@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 02:57:49 PST 2025
+last_modified_at: Sun Feb  2 03:04:24 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -537,7 +537,9 @@ $$
 \pi^{0.5}, \pi^{1}, \pi^{1.5}, \pi^2, \pi^{2.5}, \pi^3, \pi^{3.5}, \ldots
 $$
 
-<font class="emph">Or is it only me?</font>
+Or is it only me?
+<br>
+Does what I said above even make sense to you?
 
 
 ## Sums of sequences
