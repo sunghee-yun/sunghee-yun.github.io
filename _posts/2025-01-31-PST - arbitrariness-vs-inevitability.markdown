@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 02:52:01 PST 2025
+last_modified_at: Sun Feb  2 02:57:49 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -223,7 +223,7 @@ hence the connection between mathematical fact and physical world
 simply does not exists
 because it is simply NOT inevitable."
 
-<h1 id="pi">Pi - $\pi$</h1>
+<h1 id="pi">The pi - $\pi$</h1>
 
 The pi, $$\pi$$, definitely has everything to do with geometry,
 or at least, you think so,
