@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 03:04:24 PST 2025
+last_modified_at: Sun Feb  2 03:10:16 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -49,7 +49,7 @@ not attaining to the mathematics.)
 Prime numbers can be universally defined.
 Two civilizations, having never interacted,
 would inevitably arrive at the same understanding of prime numbers.<sup><a href="#footnote2" id="ref2">2</a></sup>
-Any intelligent begins capable of understanding quantity would ultimately arrive at the same mathematical truths.
+Any intelligent beings capable of understanding quantity would ultimately arrive at the same mathematical truths.
 
 Contrast this with Newton's law of universal gravitation.
 This law states that any two objects with mass exert a pulling force on each other,
