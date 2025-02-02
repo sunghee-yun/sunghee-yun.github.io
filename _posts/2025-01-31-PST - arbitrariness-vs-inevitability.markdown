@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 01:10:19 PST 2025
+last_modified_at: Sun Feb  2 02:08:23 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -67,6 +67,10 @@ and
 $$G$$ is <a href="https://en.wikipedia.org/wiki/Gravitational_constant">the (Newton's) gravitational constant</a>.
 Unlike prime numbers, this law isn't inherently inevitable.
 A certain universe *could* exist where the force was inversely proportional to $$r^3$$ or $$r$$, rather than $$r^2$$ (if such a force exists).
+
+<div class="img-container">
+<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Mathematical_truth_vs_physical_lawPermalink_Here__465e14c3-08cb-4bdd-9e2c-0840d788ad32_3.png">
+</div>
 
 So in a sense,
 this number 2 is not inevitability.
@@ -171,6 +175,10 @@ This reveals something profound: while we can never prove (<i>e.g.</i>, through 
 that gravitational or electric forces follow exactly an inverse square law (we can only establish it to some finite precision),
 the appearance of the square term might have a deeper necessity rooted in the geometry of space itself.
 
+<div class="img-container">
+<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/gravitational-forces.png">
+</div>
+
 Note that physical laws, in general, can never be "proved" in the same way mathematical theorems can.
 We might show through extremely precise measurements that the gravitational force lies
 between, for example, $$Gm_1m_2/r^{1.9999999999999}$$ and $$Gm_1m_2/r^{2.00000000000001}$$,
@@ -186,10 +194,6 @@ suggests a bridge between physical and mathematical necessity.
 The fact that area is length multiplied by length isn't a coincidence or a physical law
 &ndash; it's a mathematical truth as universal as prime numbers.
 
-<div class="img-container">
-<img src="/resource/inevitability-vs-arbitrariness/gravitational-forces.png">
-</div>
-
 ## Discussion
 
 So when we ask whether we might live in a universe where electric forces follow an inverse cube law,
@@ -204,6 +208,10 @@ The exponent 2 in our inverse square laws might be more than just a coincidence
 Just as prime numbers would be recognizable to any civilization capable of mathematics,
 perhaps certain aspects of our physical laws are similarly universal,
 not because of physics itself, but because of their connection to deeper mathematical truths.
+
+<div class="img-container">
+<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_DiscussionPermalink_So_when_we_ask_whether_we_mig_30def07a-5af1-4aaa-b288-b91fff663e68_3.png">
+</div>
 
 Or is it?
 <br>
@@ -244,6 +252,10 @@ or
 $$
 1 - 1/3 + 1/5 - 1/7 + \cdots = \pi/4?
 $$
+
+<div class="img-container">
+<img style="max-width: 80%;" src="/resource/inevitability-vs-arbitrariness/pi/pi-e.png">
+</div>
 
 Again, while (of course) I do not have definite or (in any way) compelling explanations for this,
 I will derive some quantities in various ways,
