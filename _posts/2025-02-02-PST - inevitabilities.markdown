@@ -1,0 +1,58 @@
+---
+title: "(WIP) Inevitabilities!"
+date: Sun Feb  2 14:43:34 PST 2025
+last_modified_at: Sun Feb  2 14:43:34 PST 2025
+permalink: /prajna/inevitabilities
+categories:
+ - blog
+tags:
+ - inevitabilities
+toc: true
+toc_label: "ToC"
+toc_icon: "cog"
+toc_sticky: true
+usemathjax: true  # Add this line
+---
+
+<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
+<br>
+cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
+
+{% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
+
+Unlike what I discuss in <a href="{{ post.url }}">{{ post.title }}</a>,
+here I discuss the inevitabilities that I have found or rather identified.
+
+# Gaussian (distribution) indeed is normal or inevitable!
+
+(WIP)
+
+<div class="img-container">
+<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/gaussian/lots-of-gaussian-distributions-in-3d.png">
+</div>
+
+## The central limit theorem
+
+## Taylor expansion
+
+
+# The most natural function for electromagnetic waves to use for propagating energy is sinusoidal waves
+
+Hence, you really should study hard trigonometric functions in high school (if you could)! :)
+&#x2605;^^&#x2605;
+&#42;^^&#42;
+
+(WIP)
+
+<div class="img-container">
+<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/sinusoidal/electromagnetic-waves-propagate-in-space.png">
+</div>
+
+## Linear time-invariant (LTI) system
+
+## Eigenvectors of LTIs
