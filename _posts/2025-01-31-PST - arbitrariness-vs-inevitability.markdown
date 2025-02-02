@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 02:08:23 PST 2025
+last_modified_at: Sun Feb  2 02:17:48 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -247,7 +247,7 @@ $$
 \sum_{n=1}^{\infty} \frac{1}{n^4} = \frac{\pi^4}{90}
 $$
 
-or
+and
 
 $$
 1 - 1/3 + 1/5 - 1/7 + \cdots = \pi/4?
