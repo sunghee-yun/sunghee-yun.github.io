@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 02:17:48 PST 2025
+last_modified_at: Sun Feb  2 02:34:13 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -535,7 +535,7 @@ $$
 \pi^{0.5}, \pi^{1}, \pi^{1.5}, \pi^2, \pi^{2.5}, \pi^3, \pi^{3.5}, \ldots
 $$
 
-Or is it only me?
+<font class="emph">Or is it only me?</font>
 
 
 ## Sums of sequences
@@ -567,6 +567,42 @@ $$
 $$
 
 
+# Mass-energy equivalence principle
+
+*The* famous <a href="https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence">Einstein's mass-energy equivalence principle</a>
+implies
+that when mass is lost in chemical reactions or nuclear reactions, a corresponding amount of energy will be released.
+What I focus here is though the equation for the equivalence,
+which is given by
+
+$$
+E = m c^2
+$$
+
+where $$m$$ is the mass and $$c$$ refers to the speed of light.
+
+This says the amount of energy corresponding to $$m$$
+is (exactly) proportional to $$m$$
+and the proportionality constant is *exactly* the square of the speed of light!
+
+This seems to be (in a sense) even more coincidental
+than the ones I previously mentioned,
+<i>e.g.</i>,
+the Newton's law of universal gravitation,
+because there we have to introduce some (arbitrary) constant,
+<i>i.e.</i>,
+<a href="https://en.wikipedia.org/wiki/Gravitational_constant">the gravitational constant $$G$$</a>
+to relate the two quantities
+$$F$$ and $$m_1m_2/r^2$$.
+The value is approximately $$6.6743 \times 10^{-11}$$ in MKS units.
+
+However, the proportionality constant in the mass-energy equivalence equation
+is exactly the speed of light squared!
+
+<font class="emph">Why does this have to be true?</font>
+
+<br>
+31-Jan-2025 PST
 
 [Sunghee Yun](/)
 <br>
