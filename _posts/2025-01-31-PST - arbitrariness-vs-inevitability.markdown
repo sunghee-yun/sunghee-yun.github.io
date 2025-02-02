@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 02:34:13 PST 2025
+last_modified_at: Sun Feb  2 02:45:20 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -293,9 +293,10 @@ Here $$\pi$$ appears because the circumference of a unit circle is $$2\pi$$,
 or equivalently,
 $$\pi$$ appears in the formula of the area of a circle.
 
-So obviously, we can see the reason that $$\pi$$ appears in the Gaussian integral
-is that $$\pi$$ appears in the formula of the area of a cricle
-(and one of a handful of nice properties that <a href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">the Euler's number</a> enjoys).
+So obviously, we can see the fact that $$\pi$$ appears in the Gaussian integral
+is due to the fact that $$\pi$$ appears in the formula of the area of a circle
+and $$d e^x / dx = e^x$$
+(which is one of a handful of nice properties that <a href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">the Euler's number</a> enjoys).
 
 ## The Surface areas and volumes of hyper-spheres
 
