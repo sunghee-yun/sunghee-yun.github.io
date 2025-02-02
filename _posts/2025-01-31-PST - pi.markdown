@@ -1,14 +1,12 @@
 ---
-title: (WIP) Coincidence or Inevitability?
+title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sat Feb  1 12:00:03 PST 2025
+last_modified_at: Sun Feb  2 01:10:19 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
 tags:
- - math
- - inevitability
- - coincidence
+ - inevitability vs arbitrariness
 toc: true
 toc_label: "ToC"
 toc_icon: "cog"
@@ -16,16 +14,246 @@ toc_sticky: true
 usemathjax: true  # Add this line
 ---
 
+<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
+<br>
+cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
+
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+In the movie "Contact," (starring Jodie Foster, one of my favorite female Hollywood starts), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
+This choice is profoundly significant: even in a universe where different physical laws might reign,
+the concept of prime numbers would remain unchanged.<sup><a href="#footnote1" id="ref1">1</a></sup>
+Prime numbers represent a truth that transcends (arbitrary) intelligent beings' civilization
+&ndash;
+whatever we mean by intelligent beings.
+<!--regardless of how we define intelligence or consciousness.-->
+
+<div class="img-container">
+<img src="/resource/inevitability-vs-arbitrariness/the-movie-contact/jodi_contact.jpg">
+</div>
+
+This observation leads us to a deeper philosophical inquiry about the nature of truth itself: what is inevitable or universal,
+versus what is merely coincidental or arbitrary?
+While this distinction extends beyond physics, our physical laws provide an excellent example sufficient for clearly explaining my arguments
+(if you know what I mean).
+
+# Mathematical truth vs physical law
+
+(Here I really mean by *mathematical*
+is some universal or inevitable truth
+not attaining to the mathematics.)
+
+Prime numbers can be universally defined.
+Two civilizations, having never interacted,
+would inevitably arrive at the same understanding of prime numbers.<sup><a href="#footnote2" id="ref2">2</a></sup>
+Any intelligent begins capable of understanding quantity would ultimately arrive at the same mathematical truths.
+
+Contrast this with Newton's law of universal gravitation.
+This law states that any two objects with mass exert a pulling force on each other,
+proportional to each of both masses and inversely proportional to the square of the distance between them,
+that is,
+
+$$
+F = Gm_1m_2/r^2
+$$
+
+where
+$$m_1$$ and $$m_2$$ are the masses of the two objects,
+$$r$$ is the distance between them,
+and
+$$G$$ is <a href="https://en.wikipedia.org/wiki/Gravitational_constant">the (Newton's) gravitational constant</a>.
+Unlike prime numbers, this law isn't inherently inevitable.
+A certain universe *could* exist where the force was inversely proportional to $$r^3$$ or $$r$$, rather than $$r^2$$ (if such a force exists).
+
+So in a sense,
+this number 2 is not inevitability.
+Of course,
+it could be argued that,
+for example,
+if this number is greater than 2 by any amount,
+the universe would collapse immediately after <a href="https://en.wikipedia.org/wiki/Big_Bang">the Big Bang</a>,
+or/and
+if the number if less than 2 by any amount,
+the universe would explode,
+hence we would not exist now.
+However, let us postpone the discussions of such matters for now
+(to make the main point I'm trying to make here).
+
+However, there might be something deeper about this exponent of 2!
+
+## Inverse square laws
+
+Now let us move our attention
+to the electric force which enjoys (mathematically) identical properties
+to those of the gravitational force except that it has two types of forces; pulling and pushing.
+
+Now consider <a href="https://en.wikipedia.org/wiki/Maxwell%27s_equations#Formulation_in_the_SI">the Gauss's law</a>,
+one of <a href="https://en.wikipedia.org/wiki/Maxwell">Maxwell's four fundamental equations of electromagnetism</a>,
+in both integral form and differential form:
+
+$$
+\int_{\partial V} E \cdot dS = \frac{1}{\epsilon} \int_V \rho dV
+\quad
+\nabla \cdot E = \frac{\rho}{\epsilon}
+$$
+
+where $$E$$ is the electric field,
+$$\rho$$ is the charge density,
+$$\epsilon$$ is the permittivity,
+the integral in the LHS of the integral form is the surface integral,
+and
+$$\partial V$$ is the boundary of the solid volume, <i>3-dimensional area</i>, $$V$$.
+
+Here the Gauss's law, in its integral form, tells us something remarkable.
+Consider the electric field $$E$$ created by $$q_1$$ at a distance $$r$$.
+To calculate the magnitude of this field,
+let $$V$$ be the volume of the sphere centered around $q_1$ with radius $$r$$.
+Then the Gauss's law implies
+
+$$
+4\pi r^2 E = q_1/\epsilon
+$$
+
+Now suppose two electric charges $$q_1$$ and $$q_2$$.
+Because (by definition) the electric force exerted on $$q_2$$
+is $$q_2$$ multiplied by the electric field induced by $$q_1$$,
+we have
+
+$$
+F = q_2E = q_1q_2/4\pi \epsilon r^2
+$$
+
+The very interesting aspect here is the appearance of $$r^2$$.
+While there's no a priori reason why electric forces should follow the same distance dependence as gravity, both end up with this same exponent.
+This isn't merely coincidental (at least for the electric field)
+&ndash;
+it emerges from the geometric fact that surface area scales as the square of length.
+This geometric truth would hold in any possible universe, regardless of its physical laws.
+
+(By the way, just for fun,
+I could make up Sunghee's law in for the gravitational force as follows:
+
+$$
+\int_{\partial V} H \cdot dS = 4\pi G \int_V \sigma dV
+\quad
+\nabla \cdot H = 4\pi G \sigma
+$$
+
+where $$H$$ is the gravitational field,
+$$\sigma$$ is the mass density,
+and
+the gravitational force is defined by $$H$$ times a mass.)
+
+Therefore I argue that,
+on one hand,
+this number 2 seems to be quite arbitrary
+(if we do not involve any types of religious arguments,
+for example,
+the universe is defined and created by the God,
+hence the choice is 2 is not by coincidence or arbitrariness,
+but inevitability
+dictated by the God for the sake of the discussion that I want to do here).
+
+On the other hand, however,
+the number 2 *may* be the inevitability
+because it has something to do with
+the fact that the surface area scales as the square of length
+which is absolutely independent of
+the (physical) specificities of the specific universe we live in
+or for that matter, any intelligent live or non-intelligent beings exist.
+
+## The bridge between universal and physical truth
+
+This reveals something profound: while we can never prove (<i>e.g.</i>, through measurement)
+that gravitational or electric forces follow exactly an inverse square law (we can only establish it to some finite precision),
+the appearance of the square term might have a deeper necessity rooted in the geometry of space itself.
+
+Note that physical laws, in general, can never be "proved" in the same way mathematical theorems can.
+We might show through extremely precise measurements that the gravitational force lies
+between, for example, $$Gm_1m_2/r^{1.9999999999999}$$ and $$Gm_1m_2/r^{2.00000000000001}$$,
+but we can never empirically prove it's exactly $$r^2$$.
+Physics, in this sense, is always based on belief supported by observation and experiment.
+That is,
+we (and physicists)
+somehow
+believe that the force would exactly follow the inverse square law.
+
+However, the recurrence of the square term across different physical laws
+suggests a bridge between physical and mathematical necessity.
+The fact that area is length multiplied by length isn't a coincidence or a physical law
+&ndash; it's a mathematical truth as universal as prime numbers.
+
+<div class="img-container">
+<img src="/resource/inevitability-vs-arbitrariness/gravitational-forces.png">
+</div>
+
+## Discussion
+
+So when we ask whether we might live in a universe where electric forces follow an inverse cube law,
+or where Gauss's law doesn't hold, we're really asking about the relationship between mathematical and physical truth.
+While many aspects of our physical laws might be contingent, others might be more deeply rooted in mathematical necessity.
+
+This connection between physical law and mathematical truth suggests that even in a universe with different fundamental forces,
+certain patterns might persist simply because they're connected to universal mathematical truths.
+The exponent 2 in our inverse square laws might be more than just a coincidence
+&ndash; it might be a reflection of the deep connection between physical reality and mathematical necessity.
+
+Just as prime numbers would be recognizable to any civilization capable of mathematics,
+perhaps certain aspects of our physical laws are similarly universal,
+not because of physics itself, but because of their connection to deeper mathematical truths.
+
+Or is it?
+<br>
+Does it even make sense?
+
+One can easily say "well, if the electric force doesn't (seem to) follow the inverse square law,
+we would simply NOT come up with such a thing as the Gauss's law,
+hence the connection between mathematical fact and physical world
+simply does not exists
+because it is simply NOT inevitable."
+
 <h1 id="pi">Pi - $\pi$</h1>
+
+The pi, $$\pi$$, definitely has everything to do with geometry,
+or at least, you think so,
+and I've thought and think so.
+
+But then, why does it have to appear, <i>e.g.</i>, in <a href="https://en.wikipedia.org/wiki/Gaussian_integral">the Gaussian integral</a>,
+<i>i.e.</i>,
+
+$$
+\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
+$$
+
+or in various formula for sums of infinite sequences,
+<i>e.g.</i>,
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6},
+\quad
+\sum_{n=1}^{\infty} \frac{1}{(2n-1)^2} = \frac{\pi^2}{8},
+\quad
+\sum_{n=1}^{\infty} \frac{1}{n^4} = \frac{\pi^4}{90}
+$$
+
+or
+
+$$
+1 - 1/3 + 1/5 - 1/7 + \cdots = \pi/4?
+$$
+
+Again, while (of course) I do not have definite or (in any way) compelling explanations for this,
+I will derive some quantities in various ways,
+provide multiple perspectives,
+<i>etc.</i>
+just to explore this (once again) fascinating time-killing topics!
 
 <h2 id="gaussian-integral">The Gaussian integral</h2>
 
-Let's prove
+Let's just prove the Gaussian integral, that is,
 
 $$
 \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}.
@@ -49,10 +277,25 @@ p^2
 $$
 
 hence the proof.
+Here $$\pi$$ appears because the circumference of a unit circle is $$2\pi$$,
+or equivalently,
+$$\pi$$ appears in the formula of the area of a circle.
+
+So obviously, we can see the reason that $$\pi$$ appears in the Gaussian integral
+is that $$\pi$$ appears in the formula of the area of a cricle
+(and one of a handful of nice properties that <a href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">the Euler's number</a> enjoys).
 
 ## The Surface areas and volumes of hyper-spheres
 
-### Using equivalence of multiple ways of calculating $p$
+Let us digress a bit (or quite a lot) for fun now. &#x2605;^^&#x2605;
+We use the fact that the area of a unit circle is $$\pi$$ or equivalently, the definition of $$\pi$$,
+to calculate the quantity $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$.
+Here we do the inverse.
+Let us find out the proportionality constants
+for volumes of the hyper-spheres!
+
+
+### Using equivalence of multiple ways of calculating the Gaussian integral
 
 Now we calculate the proportionality constant
 for the (hyper-)surface-area of $$n$$-dimensional hyper-sphere,
@@ -264,8 +507,28 @@ $$
 1, \pi, \pi, \pi^2, \pi^2, \pi^3, \pi^3, \ldots
 $$
 
+## This does not appear natural!
+
+Having derived the proportionality constants and figure out why we have such patterns,
+I am still bothered (as I have for too long throughout my life even since I unfortunately &#42;^^&#42; tumbled upon this fact around 2005)
+by the fact that there is a certain jumps in the pattern.
+
+These numbers should be and in fact are completely independent of a specific universe we live in,
+or for that matter,
+specific universes for any entities exist,
+hence,
+I think we should see patterns such as
+
+$$
+\pi^{0.5}, \pi^{1}, \pi^{1.5}, \pi^2, \pi^{2.5}, \pi^3, \pi^{3.5}, \ldots
+$$
+
+Or is it only me?
+
+
 ## Sums of sequences
 
+(WIP)
 
 $$
 \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
@@ -291,3 +554,27 @@ $$
 1 - 1/3 + 1/5 - 1/7 + \cdots = \pi/4
 $$
 
+
+
+[Sunghee Yun](/)
+<br>
+<br>
+Philosopher Thinker
+
+<hr>
+<ol>
+<li id="footnote1">
+	By the way, look at recently developed "<a href="https://www.space.com/the-universe/james-webb-space-telescope-suggests-new-cosmic-feature-is-needed-to-solve-hubble-trouble">Hubble tension</a>" brought by new findings made using James Webb Space Telescope (JWST).
+	How do we even know that the same physical laws should hold throughout the whole universe?
+	Also, the truth or falsehood of this argument
+	is irrelevant for of our arguments,
+	<i>e.g.</i>,
+	we can say those aliens were from a different universe.
+	&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
+	While it's true that prime numbers are defined in terms of integers,
+	and as Bertrand Russell showed,
+	integers themselves required formal definition,
+	the concept of counting itself appears to be universal.
+	&nbsp;<a href="#ref2">↩</a></li>
+</ol>
