@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 03:10:16 PST 2025
+last_modified_at: Sun Feb  2 03:13:25 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -306,7 +306,7 @@ We use the fact that the area of a unit circle is $$\pi$$ or equivalently, the d
 to calculate the quantity $$\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}$$.
 Here we do the inverse.
 Let us find out the proportionality constants
-for volumes of the hyper-spheres!
+for volumes of the hyper-spheres using the result of the Gaussian integral!
 
 
 ### Using equivalence of multiple ways of calculating the Gaussian integral
