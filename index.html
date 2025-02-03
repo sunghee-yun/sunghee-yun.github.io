@@ -42,11 +42,12 @@ Welcome to my space, where I share my insights and values.
 <font class="emph">Let's connect!</font>
 </p>
 
-<h1 id="blog">Recent blog posts</h1>
+<h1 id="blog">Recent blog posts / columns / documents</h1>
 <ul>
 	{% for post in site.posts limit:10 %}
 		<li>
-			<a href="{{ post.url }}">{{ post.title }}</a>
+			<!--a href="{{ post.url }}">{{ post.title }}</a-->
+			<a href="{{ post.url }}">{{ post.title }}</a> &commat; {{ post.date | date: "%d-%b-%Y"}}
 		</li>
 	{% endfor %}
 </ul>
@@ -329,14 +330,25 @@ arXiv
 </li>
 </ul>
 
-<h1 id="sem">Seminars &amp; lectures</h1>
+<h1 id="sem">Seminars, lectures, consultations, panel discussions, and knowledge-sharing sessions</h1>
 
-Here is a list of invited talks, lectures, and consultations
-on AI and convex optimization that I have done (or will do).
+Here is a list of invited talks, lectures, consultations, panel discussions, and knowledge-sharing sessions
+that I have done and organized (and will do and organize)
+on various technologies and social topics including LLM, genAI, AI Agents, and private AI.
 
 <h2 id="sem-2025">2025</h2>
 
 <ul>
+<li>
+	"[Samsung AI Seminar] AI: Technologies, Industry Transformations, Societal Impacts, and Future Trajectories with Focus on Semiconductor Manufacturing Applications"
+	invited by Foundry CMP Technology Team, Samsung Electronics
+	(Mar-2025 KST)
+</li>
+<li>
+	"[Samsung Knowledge-Sharing Session] Beyond the Tech: Silicon Valley's Cultural Engine of Innovation and Disruption"
+	invited by Foundry CMP Technology Team, Samsung Electronics
+	(Mar-2025 KST)
+</li>
 <li>
 	"[KAIST AI Seminar] AI in Action: Biotechnology and Industrial Applications"
 	invited by Department of Mechanical Engineering @ Korea Advanced Institute of Science and Technology (KAIST)
