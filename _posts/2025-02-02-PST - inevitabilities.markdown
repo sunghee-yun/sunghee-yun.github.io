@@ -1,7 +1,7 @@
 ---
 title: "(WIP) Inevitabilities!"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Mon Feb  3 00:29:58 PST 2025
+last_modified_at: Mon Feb  3 11:19:08 PST 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -83,3 +83,6 @@ Hence, you really should study hard trigonometric functions in high school (if y
 
 ## Extension to multiplications of arbitrary multi-dimensional arrays
 
+<div class="img-container">
+<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
+</div>
