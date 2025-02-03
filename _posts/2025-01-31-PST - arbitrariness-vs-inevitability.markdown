@@ -1,7 +1,7 @@
 ---
 title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Feb  2 18:04:34 PST 2025
+last_modified_at: Mon Feb  3 00:16:50 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -40,11 +40,11 @@ versus what is merely coincidental or arbitrary?
 While this distinction extends beyond physics, our physical laws provide an excellent example sufficient for clearly explaining my arguments
 (if you know what I mean).
 
-# Mathematical truth vs physical law
+# Number 2 - mathematical truth vs physical law
 
-(Here I really mean by *mathematical*
+(Here I really mean by <i>mathematical</i> truth
 is some universal or inevitable truth
-not attaining to the mathematics.)
+not necessarily pertaining to the <i>mathematics</i>.)
 
 Prime numbers can be universally defined.
 Two civilizations, having never interacted,
@@ -114,7 +114,7 @@ $$\partial V$$ is the boundary of the solid volume, <i>3-dimensional area</i>, $
 Here the Gauss's law, in its integral form, tells us something remarkable.
 Consider the electric field $$E$$ created by $$q_1$$ at a distance $$r$$.
 To calculate the magnitude of this field,
-let $$V$$ be the volume of the sphere centered around $q_1$ with radius $$r$$.
+let $$V$$ be the volume of the sphere centered around $$q_1$$ with radius $$r$$.
 Then the Gauss's law implies
 
 $$
@@ -149,7 +149,10 @@ $$
 where $$H$$ is the gravitational field,
 $$\sigma$$ is the mass density,
 and
-the gravitational force is defined by $$H$$ times a mass.)
+the gravitational force is defined by $$H$$ times a mass.
+I can make such laws for any such physical or imaginary quantities
+following the inverse square law.
+)
 
 Therefore I argue that,
 on one hand,
@@ -602,6 +605,9 @@ The value is approximately $$6.6743 \times 10^{-11}$$ in MKS units.
 
 However, the proportionality constant in the mass-energy equivalence equation
 is exactly the speed of light squared!
+
+But, what does the speed of light have anything to do with energy
+except that this specific multiplication $$E=mc^2$$ makes the units of both sides compatible?
 
 <font class="emph">Why does this have to be true?</font>
 
