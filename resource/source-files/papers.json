@@ -478,6 +478,7 @@
 		}
 	},
 	{
+		"id": "unreasonable-effectiveness-of-data",
 		"category": ["ai", "llm-intelligence"],
 		"title": "The Unreasonable Effectiveness of Data",
 		"authors": "Alon Halevy, Peter Norvig, Fernando Pereira",

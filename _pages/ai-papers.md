@@ -393,7 +393,7 @@ toc_sticky: true
 	@ 01-Jan-2012
 	(<a href="https://www.doc.ic.ac.uk/~mpsha/ShanahanJCS2012.pdf">PDF</a>)
 </li>
-<li>
+<li id="unreasonable-effectiveness-of-data">
 	"The Unreasonable Effectiveness of Data"
 	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
 	(Google)
@@ -869,7 +869,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	@ 01-Jan-2011
 	(<a href="https://stanford.edu/~boyd/papers/admm_distr_stats.html">Boyd's homepage</a>, <a href="https://ieeexplore.ieee.org/document/8186925">arxiv</a>)
 </li>
-<li>
+<li id="unreasonable-effectiveness-of-data">
 	"The Unreasonable Effectiveness of Data"
 	- Alon Halevy, Peter Norvig &amp; Fernando Pereira
 	(Google)
