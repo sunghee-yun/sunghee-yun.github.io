@@ -1,15 +1,15 @@
 ---
 permalink: /math/landscape
-title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Advanced Mathematical Beauty
+title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Beauty
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Feb  3 23:00:04 PST 2025
+last_modified_at: Tue Feb  4 01:51:19 PST 2025
 categories:
  - blog
 tags:
- - evangelism
  - math
- - cvxopt
+ - convex optimization
  - algebra
+ - inequalities
  - abstract algebra
  - realy analysis
  - statistics
@@ -25,11 +25,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
-
-<!--h1>
-My Search for meaning in advanced math and statistics
-</h1-->
-
 
 <blockquote>
 I aim to create a companion resource that illuminates connections between concepts
@@ -61,7 +56,7 @@ What began as a personal project &mdash; creating LaTeX slides to preserve these
 &mdash; evolved into something far more significant.
 As the collection grew, I recognized its potential to serve
 as a comprehensive resource for others who share this mathematical curiosity.
-The resulting work, particularly the article version available in the [Math Codex](#math-codex) section,
+The resulting work, particularly the article version available in the [<span class="math-codex-header-title"></span>](#math-codex) section,
 represents a synthesis of these extensive slides and research.
 
 My goal throughout has been to create something that would resonate with advanced learners and professionals in the field.
@@ -156,9 +151,9 @@ I'll be exploring each topic in depth through upcoming blog posts,
 starting with our first deep dive into inequalities!
 Stay connected for these mathematical adventures!</font>
 
-{% assign algebra = site.posts | where: "permalink", "/math/algebra" | first %}
+{% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 
-- [{{ algebra.title }}]({{ algebra.url }})
+- [{{ inequalities.title }}]({{ inequalities.url }})
 
 <br>
 [Sunghee
@@ -166,7 +161,7 @@ Stay connected for these mathematical adventures!</font>
 <br>
 Mathematician, Thinker, Finder, and Truth-Seeker
 <br>
-Entrepreneur, Engineer, Scientist, Business Developer, and Creator](/)
+Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/)
 
 <script>
 const header = document.getElementById('math-codex');
