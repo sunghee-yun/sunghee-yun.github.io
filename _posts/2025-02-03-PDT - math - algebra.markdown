@@ -1,13 +1,15 @@
 ---
-title: Math is Fun &amp; Beautiful! - Algebra
-date: Wed Jul 31 22:26:38 PDT 2024
-last_modified_at: Sun Aug 18 00:44:01 PDT 2024
+permalink: /math/algebra
+title: Algebra - especially abstract algebra!
+date: Mon Feb  3 21:25:18 PST 2025
+last_modified_at: Mon Feb  3 23:00:04 PST 2025
 categories:
  - blog
 tags:
- - evangelism
  - math
- - algebra
+ - inequality
+ - Cauchy-Schwarz inequality
+ - Jensen's inequality
  - slides
  - document
 ---
@@ -19,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <h1>Algebra</h1>
 
-[(parent blog)]({{ site.baseurl }}{% post_url 2024-07-30-PDT - From Personal Study to Global Resource - My Journey in Advanced Mathematics %})
+[(parent blog)](/math/landscape)
 
 - Algebra Codex - [algebra slides](/resource/fun math/fun_math_algebra - 2024_0731.pdf)
 
