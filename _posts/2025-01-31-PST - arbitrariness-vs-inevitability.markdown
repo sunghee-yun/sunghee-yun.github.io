@@ -11,7 +11,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-usemathjax: true  # Add this line
+usemathjax: true
 ---
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
