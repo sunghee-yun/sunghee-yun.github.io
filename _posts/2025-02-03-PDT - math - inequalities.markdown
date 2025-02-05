@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Tue Feb  4 04:10:17 PST 2025
+last_modified_at: Wed Feb  5 02:43:30 PST 2025
 categories:
  - blog
 tags:
@@ -326,7 +326,30 @@ $$
 \end{align}
 $$
 
-for any $$e_i,f_i,g_i>0$$ *very elegantly*!
+for any $$e_i,f_i,g_i>0$$ *very elegantly* as below!
+
+Letting $$a_i = (g_i f_i / e_i)\: x_i^{f_i}$$ and $$w_i = (e_i/f_i)/\sum_{j=1}^n (e_j/f_j)$$ gives
+
+$$
+\begin{align}
+\left( \sum_{i=1}^n g_ix_i^{f_i} \right) &/ \left( \sum_{i=1}^n e_i/f_i \right)
+= \sum_{i=1}^n w_ia_i
+\\
+&\geq \prod_{i=1}^n a_i^{w_i}
+= \left( \prod_{i=1}^n (g_if_i/e_i)^{(e_i/f_i)} x_i^{e_i} \right)^{1/\sum_{i=1}^n (e_i/f_i)}
+\end{align}
+$$
+
+hence
+
+$$
+\prod_{i=1}^n x_i^{e_i}
+\leq
+\left(
+\left(\sum_{i=1}^n e_i/f_i\right)^{\sum_{i=1}^n (e_i/f_i)}
+\prod_{i=1}^n (g_if_i/e_i)^{(e_i/f_i)}
+\right)^{-1}!
+$$
 
 <font class="emph">Can you not see the beauty as well as ultimate power of inequalities,
 and for that matter, the power of mathematics?</font>
