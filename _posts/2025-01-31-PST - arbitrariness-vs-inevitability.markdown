@@ -1,7 +1,7 @@
 ---
-title: "(WIP) From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?"
+title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Mon Feb  3 00:16:50 PST 2025
+last_modified_at: Tue Feb  4 18:47:09 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
