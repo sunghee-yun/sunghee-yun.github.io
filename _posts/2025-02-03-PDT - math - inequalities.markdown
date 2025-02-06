@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Wed Feb  5 02:43:30 PST 2025
+last_modified_at: Thu Feb  6 04:09:42 PST 2025
 categories:
  - blog
 tags:
@@ -314,7 +314,7 @@ xyz \leq
 (30/31)^{31/30} / (15^{1/5} \cdot 2^{1/2} \cdot 3^{1/3})
 $$
 
-One *could* readily see that we can solve the following problem now
+One *could* readily see that we can solve the following problem now<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 $$
 \begin{align}
@@ -341,6 +341,16 @@ $$
 $$
 
 hence
+
+$$
+\left( \sum_{i=1}^n g_ix_i^{f_i} \right)^{\sum_{i=1}^n (e_i/f_i)}
+\geq
+\left( \sum_{i=1}^n e_i/f_i \right)^{\sum_{i=1}^n (e_i/f_i)}
+\prod_{i=1}^n (g_if_i/e_i)^{(e_i/f_i)}
+\prod_{i=1}^n x_i^{e_i}
+$$
+
+thus
 
 $$
 \prod_{i=1}^n x_i^{e_i}
@@ -520,6 +530,21 @@ Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/
 	implies this most general form of AM-GM inequality,
 	which is another layer of the beauty we can observe in the line of our arguments here.
 	&nbsp;<a href="#ref2">↩</a></li>
+<li id="footnote3">
+	Mathematically (in this case),
+	solving the maximization problem
+	is equivalent to solving the following minimization problem:
+	&nbsp;<a href="#ref3">↩</a></li>
+
+	$$
+	\begin{align}
+	\mbox{minimize}\quad & g_1x_1^{f_1} + g_2x_2^{f_2} + \cdots + g_nx_n^{f_n}
+	\\
+	\mbox{subject to}\quad & x_1^{e_1} x_2^{e_2} \cdots x_n^{e_n} = 1
+	\\
+	& x_1,x_2, \ldots, x_n \geq0
+	\end{align}
+	$$
 </ol>
 
 <script>
