@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Thu Feb  6 17:28:05 PST 2025
+last_modified_at: Thu Feb  6 17:30:06 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -135,7 +135,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이희영
 황보선
 
-## My perspectives
+# My perspectives
 
 - "민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?"
 "다행히 내란을 획책한 그들이 너무나 부실해서 다행이었습니다."
