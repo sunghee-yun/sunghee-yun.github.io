@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Thu Feb  6 17:30:06 PST 2025
+last_modified_at: Thu Feb  6 20:15:49 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -19,11 +19,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<!--h1>위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 언주중학교 동문 시국선언문</h1-->
-
-<h1>Public Declaration on President Yoon's Unconstitutional Implementation of Martial Law and the Threat to Democratic Order</h1>
-
-# 본문 {#main-text}
+# Public Declaration on President Yoon's Unconstitutional Implementation of Martial Law and the Threat to Democratic Order {#main-text}
 
 우리는 2024년 12월 3일 발생한 위헌적 계엄령 선포 시도와 관련하여, 그리고 이를 정당화하려는 12월 12일자 대통령의 후속 담화문에 대해 깊은 분노와 우려를 표명하며, 다음과 같이 우리의 입장을 밝힙니다.
 
@@ -137,14 +133,18 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # My perspectives
 
-- "민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?"
-"다행히 내란을 획책한 그들이 너무나 부실해서 다행이었습니다."
-"현장에 파견된 일선 계엄군 지휘관, 계엄 병사들 양심에 따라서 사실상 항명하고
-민주주의를 지키기 위해서 버텨줘서 다행이었습니다."
-&ndash;
-<a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">06-Feb-2025 KST 민주당 최고의 회의에서 이재명 민주당 대표</a>
+- <a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">민주당 최고의 회의에서 이재명 민주당 대표 @ 06-Feb-2025 KST</a>
+<blockquote>
+민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?
+</blockquote>
+<blockquote>
+다행히 내란을 획책한 그들이 너무나 부실해서 다행이었습니다.
+</blockquote>
+<blockquote>
+현장에 파견된 일선 계엄군 지휘관, 계엄 병사들 양심에 따라서 사실상 항명하고 민주주의를 지키기 위해서 버텨줘서 다행이었습니다.
+</blockquote>
 
-# 참조 {#appendix}
+# Appendices {#appendix}
 
 ## 대한민국 헌법憲法
 
