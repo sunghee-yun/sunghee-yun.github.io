@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Thu Feb  6 17:10:51 PST 2025
+last_modified_at: Thu Feb  6 17:28:05 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -135,6 +135,15 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이희영
 황보선
 
+## My perspectives
+
+- "민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?"
+"다행히 내란을 획책한 그들이 너무나 부실해서 다행이었습니다."
+"현장에 파견된 일선 계엄군 지휘관, 계엄 병사들 양심에 따라서 사실상 항명하고
+민주주의를 지키기 위해서 버텨줘서 다행이었습니다."
+&ndash;
+<a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">06-Feb-2025 KST 민주당 최고의 회의에서 이재명 민주당 대표</a>
+
 # 참조 {#appendix}
 
 ## 대한민국 헌법憲法
@@ -179,12 +188,3 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - 대한민국 형법 제91조(국헌문란의 정의) - 본장에서 국헌을 문란할 목적이라 함은 다음 각호의 1에 해당함을 말한다.
 	1. 헌법 또는 법률에 정한 절차에 의하지 아니하고 헌법 또는 법률의 기능을 소멸시키는 것.
 	1. 헌법에 의하여 설치된 국가기관을 강압에 의하여 전복 또는 그 권능행사를 불가능하게 하는 것.
-
-## My perspectives
-
-- "민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?"
-"다행히 내란을 획책한 그들이 너무나 부실해서 다행이었습니다."
-"현장에 파견된 일선 계엄군 지휘관, 계엄 병사들 양심에 따라서 사실상 항명하고
-민주주의를 지키기 위해서 버텨줘서 다행이었습니다."
-&ndash;
-<a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">06-Feb-2025 KST 민주당 최고의 회의에서 이재명 민주당 대표</a>
