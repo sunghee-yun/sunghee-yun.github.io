@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Thu Feb  6 20:15:49 PST 2025
+last_modified_at: Thu Feb  6 20:18:49 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -133,7 +133,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # My perspectives
 
-- <a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">민주당 최고의 회의에서 이재명 민주당 대표 @ 06-Feb-2025 KST</a>
+- <a target="_blank" href="https://youtu.be/eU8ole0U_H0?si=GlIsxmyutpozxRD6">민주당 최고의 회의에서 이재명 민주당 대표 @ 06-Feb-2025 KST</a>
 <blockquote>
 민주당이 권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?
 </blockquote>
