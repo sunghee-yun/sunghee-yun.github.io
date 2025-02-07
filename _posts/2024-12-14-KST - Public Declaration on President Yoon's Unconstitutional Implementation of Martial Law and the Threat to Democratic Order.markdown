@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Mon Feb  3 23:41:45 PST 2025
+last_modified_at: Thu Feb  6 17:00:53 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -180,4 +180,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	1. 헌법 또는 법률에 정한 절차에 의하지 아니하고 헌법 또는 법률의 기능을 소멸시키는 것.
 	1. 헌법에 의하여 설치된 국가기관을 강압에 의하여 전복 또는 그 권능행사를 불가능하게 하는 것.
 
+## My perspectives
 
+- <a target="_blank" href="https://youtu.be/kLNVf-eL9DI?si=t68RlOvwRrjzjnS3">&ldquo;민주당이
+권한을 어떻게 행사했든 그것이 이 나라 민주 공화정을 완전히 파괴하고 군정으로 되돌아갈 합리적 이유가 됩니까?
+&ndash; 06-Feb-2025 KST 민주당 최고의 회의에서 이재명 민주당 대표&rdquo;</a>
