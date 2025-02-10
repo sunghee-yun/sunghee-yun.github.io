@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Sun Feb  9 13:57:55 PST 2025
+last_modified_at: Sun Feb  9 23:17:33 PST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -125,6 +125,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 민상현
 박태영
 성태웅
+소희정
 양향자
 윤성희
 이규석
