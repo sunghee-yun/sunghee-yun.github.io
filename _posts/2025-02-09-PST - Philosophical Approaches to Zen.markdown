@@ -1,7 +1,7 @@
 ---
-title: 철학적 선학禪學
+title: (WIP) 철학적 선학禪學
 date: Sun Feb  9 04:01:01 PST 2025
-last_modified_at: Sun Feb  9 17:03:18 PST 2025
+last_modified_at: Sun Feb  9 23:20:27 PST 2025
 permalink: /zen/philosophical-approaches
 categories:
  - blog
