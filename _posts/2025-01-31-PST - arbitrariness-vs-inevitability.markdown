@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Tue Feb  4 18:47:09 PST 2025
+last_modified_at: Mon Feb 10 04:06:35 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -162,7 +162,7 @@ for example,
 the universe is defined and created by the God,
 hence the choice is 2 is not by coincidence or arbitrariness,
 but inevitability
-dictated by the God for the sake of the discussion that I want to do here).
+dictated by the God, for the sake of the discussion that I want to do here).
 
 On the other hand, however,
 the number 2 *may* be the inevitability
