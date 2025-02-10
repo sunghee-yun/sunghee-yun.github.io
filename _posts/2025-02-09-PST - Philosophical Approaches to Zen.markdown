@@ -1,7 +1,7 @@
 ---
-title: Philosophical Approaches to Zen
+title: 철학적 선학禪學
 date: Sun Feb  9 04:01:01 PST 2025
-last_modified_at: Sun Feb  9 04:01:01 PST 2025
+last_modified_at: Sun Feb  9 17:03:18 PST 2025
 permalink: /zen/philosophical-approaches
 categories:
  - blog
@@ -40,6 +40,18 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 깨닫게 하는 것이다.</font><sup><a href="">1</a></sup>
 </li>
 </ul>
+
+<div class="img-container">
+<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png">
+</div>
+
+<div class="img-container">
+<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_0.png">
+</div>
+
+<div class="img-container">
+<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_d1437494-1d3c-4002-a88d-3e457bc305ed_0.png">
+</div>
 
 <hr>
 <ol>
