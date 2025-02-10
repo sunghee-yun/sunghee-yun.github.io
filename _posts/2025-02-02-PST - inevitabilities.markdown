@@ -1,7 +1,7 @@
 ---
-title: Inevitabilities!
+title: (WIP) Inevitabilities!
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Feb  4 18:47:09 PST 2025
+last_modified_at: Sun Feb  9 23:31:53 PST 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
