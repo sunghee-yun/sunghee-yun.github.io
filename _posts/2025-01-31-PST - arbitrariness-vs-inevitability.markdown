@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Mon Feb 10 04:06:35 PST 2025
+last_modified_at: Mon Feb 10 04:10:23 PST 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -223,7 +223,7 @@ Does it even make sense?
 One can easily say "well, if the electric force didn't (seem to) follow the inverse square law,
 we would simply NOT come up with such a thing as the Gauss's law,
 hence the connection between geometric fact and physical world
-simply does not exists,
+simply does not exist,
 hence it is simply NOT inevitable."
 
 <h1 id="pi">The pi - $\pi$</h1>
