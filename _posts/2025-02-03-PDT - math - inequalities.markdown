@@ -1,8 +1,8 @@
 ---
 permalink: /math/inequalities
-title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
+title: (WIP) Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Thu Feb  6 04:09:42 PST 2025
+last_modified_at: Tue Feb 11 03:08:25 PST 2025
 categories:
  - blog
 tags:
@@ -314,7 +314,27 @@ xyz \leq
 (30/31)^{31/30} / (15^{1/5} \cdot 2^{1/2} \cdot 3^{1/3})
 $$
 
-One *could* readily see that we can solve the following problem now<sup><a href="#footnote3" id="ref3">3</a></sup>
+that is,
+the maximum value of $$xyz$$ is (30/31)<sup>31/30</sup> / (15<sup>1/5</sup> &sdot; 2<sup>1/2</sup> &sdot; 3<sup>1/3</sup>).
+Another way of saying this is that,
+with all the combinations of the nonnegative triplets $$(x,y,z)$$
+that satisfy $$3x^5 + y^2 + 2z^3 =1$$,
+the maximum possible value of $$xyz$$
+is (30/31)<sup>31/30</sup> / (15<sup>1/5</sup> &sdot; 2<sup>1/2</sup> &sdot; 3<sup>1/3</sup>).
+
+<!--Isn't it amazing that we can do this calculation this easily?
+It's a rule of thumb that
+to obtain an answer of this complication,
+one may well have to go through very complicated process of calculations,
+but in this case, it's not true.
+Why? I don't know. But AM-GM inequality just did the magic!-->
+
+The elegance of this solution is striking. Conventional wisdom suggests that a problem of this complexity should require intricate calculations and multiple steps. Yet here, the AM-GM inequality cuts through the complexity like a beam of light through fog, revealing the answer with remarkable simplicity. While we can prove why this works, there's something almost magical about how a single inequality can distill pages of calculus into one elegant step. This is mathematics at its utmost beauty &ndash; where complexity yields to simplicity, and where a deeper understanding reveals shorter paths to truth.
+
+Another way of saying this is &hellip;
+There's something remarkable about this solution's simplicity. One might expect that finding this maximum value would demand pages of calculus and careful computations. Instead, the AM-GM inequality offers us a direct path to the answer, elegant in its brevity and powerful in its insight. This is one of those beautiful moments in mathematics where a deeper understanding doesn't add complexity – it strips it away, revealing the essential truth beneath.
+
+Now one *could* readily see that we can solve the following problem now<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 $$
 \begin{align}
