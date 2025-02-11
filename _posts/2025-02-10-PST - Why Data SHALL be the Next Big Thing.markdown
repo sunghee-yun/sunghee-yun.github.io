@@ -1,7 +1,7 @@
 ---
 title: The Real AI Revolution Isn't About AI &ndash; It's About Data
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Tue Feb 11 03:53:24 PST 2025
+last_modified_at: Tue Feb 11 13:14:00 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -61,48 +61,43 @@ was one of the most fortuitous accidents of my academic career.
 Though my passion was mathematics, I still needed to ground my work in electrical engineering,
 which led me to focus my thesis on "power and delay optimization of digital logic circuits using convex optimization."
 
-This intersection of theoretical mathematics and practical engineering would shape my entire career trajectory,
-beginning with my role at Samsung Electronics in December 2004.
-(I should note that this position also served as my mandatory military service, as the research center was government-designated.)
-At Samsung, I developed numerous optimization tools that dramatically improved productivity across semiconductor chip design,
-manufacturing processes, and testing operations.
+<div class="img-container">
+<img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_From_Mathematical_Foundations_to_AI_RevolutionPer_ea6dd357-674a-4505-9db5-996265e8b093_2.png">
+</div>
+
+This intersection of theoretical mathematics and practical engineering would shape my entire career trajectory, beginning with my role at Samsung Electronics in December 2004. This position also served as my mandatory military service, as the research center was government-designated. At Samsung, I developed numerous optimization tools that dramatically improved productivity across semiconductor chip design, manufacturing processes, and testing operations.
 
 # The Industrial Impact &ndash; Optimization at Scale
 
-Among hundreds of projects, here I will just state the first three that came to my mind.
+Among hundreds of projects, here I will just state the first three that came to my mind now.
 The first was a comprehensive circuit optimization tool that could simultaneously optimize hundreds of parameters
 to optimize tens of objectives such as power consumption, delay times, circuit area, and signal duties.
 While (psychologists proved) humans can optimize at most 5 or 6 parameters at the same time,
 this tool could optimize hundreds of parameters to find the *true* optimum.
 
-The second project revolutionized
-the next-generation DRAM cell scheme design by replacing intuition-based approaches with mathematically proven optimal solutions.
-Instead of relying solely on the experience of seasoned engineers with decades of expertise,
-&mdash;which, by the way, was amazing beyond my pure imagination&mdash;
-we could now computationally determine the optimal cell scheme for next-generation DRAM products
-&ndash; a crucial capability that could make or break years of global business strategy,
-hence translated into tremendous amount of monetary value.
-The impact of this work resonated years later when I was being vetted for the role of founder
-and CTO of [Gauss Labs, Inc.](https://www.gausslabs.ai/), SK Hynix's industrial AI spin-off,
-so I head from the Vice Chair of SK Group,
-which is one of the largest conglomerates of South Korea.
+The second project revolutionized the next-generation DRAM cell scheme design by replacing intuition-based approaches with mathematically proven optimal solutions. Instead of relying solely on the experience of seasoned engineers with decades of expertise—which was amazing beyond my pure imagination—we could now computationally determine the optimal cell scheme for next-generation DRAM products. This capability could make or break years of global business strategy, translating into tremendous monetary value. The impact of this work resonated years later when I was being vetted for the role of founder and CTO of [Gauss Labs, Inc.](https://www.gausslabs.ai/), SK Hynix's industrial AI spin-off, as I heard from the Vice Chair of SK Group, one of the largest conglomerates of South Korea.
+
+<div class="img-container">
+<img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_The_Industrial_Impact__Optimization_at_ScalePerma_24d8c32b-7495-482b-b72a-fd79a13cf5ab_1.png">
+</div>
 
 The third project was perhaps the most forward-looking: a general-purpose machine learning (ML)
 and optimization software platform dubbed *iOpt*
 &ndash;
 yes, I was so into Apple products at that time,
-no other principal engineers or managers use iPhones at work,
-others showed their loyalty by using Galaxy phones,
+no other principal engineers or managers dared to use iPhones at work;
+they showed their loyalty by using Galaxy phones,
 but I rebelliously used iPhones *AND* named
 my proud ML and optimization software platform iOpt!
 &ndash;
+This platform compressed months-long projects into weeks by automatically modeling problems mathematically and finding optimal solutions. This work, though we didn't realize it at the time, was already laying the groundwork for what would become modern AI applications.
 that compressed months-long projects
 into weeks by automatically modeling problems mathematically and finding optimal solutions.
 This work, though we didn't realize it at the time, was already laying the groundwork for what would become modern AI applications.
 
 # The Rise of Machine Learning, hence AI
 
-Around 2010, terms like "big data" and "ML" began emerging in technical discussions.
+<!--Around 2010, terms like "big data" and "ML" began emerging in technical discussions.
 I distinctly remember [Prof. Boyd](https://stanford.edu/~boyd/) advising me to explore the potential of machine learning
 &ndash; advice that initially puzzled me but now seems prescient.
 While most of us were still focused on traditional optimization problems,
@@ -116,6 +111,9 @@ for applications in image generation, recognition, classification, and recommend
 It was Hinton's life-long master piece,
 which was the product of his life-long patience even under
 people's mockings that neural network does NOT work!
+-->
+
+Around 2010, terms like "big data" and "ML" began emerging in technical discussions. I distinctly remember Prof. Boyd advising me to explore the potential of machine learning – advice that initially puzzled me but now seems prescient. While most of us were still focused on traditional optimization problems, he had already recognized that ML would transform the technology landscape. The transformation accelerated in 2012 with the rise of deep learning, marked by AlexNet's revolutionary performance at the ImageNet Large-Scale Visual Recognition Challenges (ILSVRC). AlexNet demonstrated that deep neural networks could finally outperform human-engineered features in computer vision, opening the floodgates for applications in image generation, recognition, classification, and recommendation systems. It was Hinton's life-long masterpiece, which was the product of his life-long patience even under people's mockings that neural networks do NOT work!
 
 # The Acceleration &ndash; From Transformers to AI Agents
 
@@ -224,11 +222,16 @@ For business leaders, this means shifting focus from trying to compete on AI mod
 - Tools and processes for maintaining and updating knowledge bases
 - Expertise in combining domain knowledge with AI capabilities
 
-The future belongs not to those who can build the biggest models,
+<!--The future belongs not to those who can build the biggest models,
 but to those who can most effectively organize and leverage their domain-specific data.
 In this new landscape,
 having a well-structured vector database of proprietary knowledge
 combined with effective RAG implementations will be more valuable than having the latest AI model.
+-->
+
+Just as my optimization work gained its true value through deep integration with semiconductor expertise, tomorrow's AI solutions will derive their power not from raw computational capability, but from their ability to meaningfully incorporate domain-specific knowledge and expertise. This is where I see the field heading – not toward bigger models, but toward smarter integration of specialized knowledge with general AI capabilities.
+
+As I look back on my journey from pure mathematics to the frontiers of AI, I'm reminded that the most powerful innovations often come not from revolutionary new technologies, but from finding novel ways to combine existing tools with deep domain expertise. This was true in my optimization work two decades ago, and it remains true in today's AI landscape. The future belongs not to those who can build the biggest models, but to those who can most effectively bridge the gap between general AI capabilities and specialized domain knowledge.
 
 <!--Now lastly! This really leads to the opening of the era of Private AI!,
 but again more on this in one of my future blogs!-->
