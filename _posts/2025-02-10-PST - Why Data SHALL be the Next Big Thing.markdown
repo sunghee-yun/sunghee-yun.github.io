@@ -1,7 +1,7 @@
 ---
 title: The Real AI Revolution Isn't About AI &ndash; It's About Data
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Tue Feb 11 03:38:54 PST 2025
+last_modified_at: Tue Feb 11 03:53:24 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -125,7 +125,7 @@ a bunch of Googlers published their landmark paper "Attention is All You Need," 
 The paper's ambitious title proved prophetic - Transformers began outperforming previous sequence models almost immediately,
 long before ChatGPT would bring this technology into the mainstream in 2022.
 Then the era of LLMs and genAI began
-where LLM stands for a large language model and genAI for generative AI.
+(LLM stands for a large language model and genAI for generative AI).
 Ever since,
 there have been unprecedentedly fast development and progress
 in these areas
@@ -147,6 +147,10 @@ beating the performance of the predecessors
 every week (without any bit of exeggerations).
 And just months ago, I started seeing "AI agents" as new buzzwords everywhere,
 marking yet another paradigm shift in how we think about artificial intelligence.
+
+<div class="img-container">
+<img src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/ai-history.png">
+</div>
 
 This evolutionary chain
 &ndash; represented by keywords from Big Data to Deep Learning, then to LLMs &amp; genAI, and now to AI agents
