@@ -1,7 +1,7 @@
 ---
 title: The Real AI Revolution Isn't About AI &ndash; It's About Data
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Tue Feb 11 03:33:02 PST 2025
+last_modified_at: Tue Feb 11 03:38:54 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -46,7 +46,7 @@ but to those who can most effectively organize and leverage their domain-specifi
 
 # From Mathematical Foundations to AI Revolution
 
-In 2004, when I completed my PhD under one of optimization theory's most brilliant minds,
+In 2004, when I completed my PhD under the supervision of one of optimization theory's most brilliant minds,
 few could have predicted how optimization mathematics would become the backbone of today's AI revolution.
 Yet looking back,
 the threads connecting advanced mathematics to modern artificial intelligence (AI)
