@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: (WIP) Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Tue Feb 11 03:08:25 PST 2025
+last_modified_at: Wed Feb 12 03:35:29 PST 2025
 categories:
  - blog
 tags:
@@ -29,6 +29,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 &ndash; they're windows into the fundamental structures of mathematical relationships.
 </blockquote>
 
+<blockquote>
+Oh, I love Jensen's inequality! I've loved it ever since I met it for the first time in my life and I still love it!
+</blockquote>
 
 # Parent blog
 
@@ -433,6 +436,22 @@ Consider how the inequality evolves:
 Each step in this progression reveals new insights while preserving the essential geometric intuition about angles and projections.
 This is mathematical beauty at its finest – the same fundamental truth manifesting itself at different levels of abstraction.
 
+<!--(Note that each item subsumes its predecessor (if exists),
+that is, 2. subsumes 1., 3. subsumes 2., and 4. subsumes 3.
+In other words,
+1., 2., and 3. are special cases of 2., 3., and 4. respectively.)-->
+By the way,
+this progression isn't just a collection of related formulas
+&ndash; it reveals a beautiful hierarchy where each level subsumes its predecessors.
+The finite-dimensional vector form (1) emerges as a special case of the complex vector form (2)
+when we restrict ourselves to real numbers.
+Similarly, the complex vector form (2) is encompassed by the function space version (3)
+when we view vectors as functions taking values at discrete points.
+Finally, the abstract inner product space formulation (4) provides the most general framework,
+from which all previous forms can be derived by choosing specific inner product spaces.
+This nested structure showcases the deep unity underlying these seemingly different mathematical contexts,
+revealing how the same fundamental principle manifests at increasingly abstract levels.
+
 ## The First Level: Multiple Variables
 
 The beauty of inequalities becomes even more apparent
@@ -460,7 +479,71 @@ while providing insights into the fundamental nature of mathematical structures 
 
 # Jensen's inequality
 
+The journey through inequalities wouldn't be complete
+without exploring one of the most powerful and versatile inequalities in mathematics
+&ndash; Jensen's inequality!
+
+The journey through inequalities wouldn't be complete without exploring one of the most profound and far-reaching results in mathematics – Jensen's inequality. My first encounter with it remains etched in my memory, a moment of mathematical epiphany that occurred during a special summer camp for Korean Mathematics Olympiad awardees. There, as a high school student with the rare privilege of learning from university professors, I experienced one of those transformative moments that every mathematician *may* cherishes.
+&mdash; How would I know it, though? I'm not them.
+
+<p>
+<font class="emph">Oh, I love Jensen's inequality!
+I've loved it ever since I met it for the first time in my life and I still love it!</font>
+</p>
+
+<!--I vividly remember the first moment I met it. &#x1F60D;
+It was when I was being taught
+by math professors of universities in Korea
+at the so-called math summer camp
+where the Korean Mathematics Olympiad awardees
+were invited to join.
+Yes, I had priviliges to be taught
+by university math professors when I was a mere high schooler!
+&ndash; I was truly lucky.-->
+
+I can still vividly recall the wave of excitement that washed over me as the true significance of Jensen's inequality began to crystallize in my mind. "This subsumes everything! This is so profound!" I remember thinking. "It's not just another inequality – it's the master key that unlocks them all! We don't need separate proofs for AM-GM inequality or Cauchy-Schwarz inequality
+&ndash; they're all special cases of this beautiful result!"<sup><a href="#footnote4" id="ref4">4</a></sup>
+
+While Cauchy-Schwarz illuminates the geometry of inner product spaces and AM-GM reveals the interplay between arithmetic and geometric means, Jensen's inequality ventures deeper. It unveils something truly fundamental about the nature of convexity itself – a property that lies at the heart of optimization theory and manifests throughout mathematics in surprisingly diverse ways.
+
+## The Fundamental Insight
+
+At its core, Jensen's inequality tells us something remarkably intuitive yet profound:
+the average value of convex function values is always greater than or equal to the function value of the average value.
+More precisely, for convex function $$f:X\to \mathbb{R}$$
+
+$$
+f(w_1x_1 + w_2x_2 + \cdots + w_nx_n) \leq w_1f(x_1) + w_2f(x_2) + \cdots + w_nf(x_n)
+$$
+
+<i>i.e.</i>,
+
+$$
+f\left(\sum_{i=1}^n w_ix_i\right) \leq \sum_{i=1}^n w_i f(x_i)
+$$
+
+where $$w_i\geq0$$ and $$\sum_{i=1}^n w_i=1$$.
+
+The beauty of this inequality lies not just in its mathematical form, but in its geometric interpretation. Imagine drawing any chord on a convex function's graph – the function values will always lie below or on the chord. This simple geometric truth leads to surprisingly powerful mathematical results.
+
 (WIP)
+
+<!--## From AM-GM to Jensen: A Beautiful Connection
+
+Remember our exploration of the AM-GM inequality? One of the most elegant aspects of Jensen's inequality is how it provides a more general framework that includes AM-GM as a special case. Consider the function f(x) = -ln(x). This function is convex, and when we apply Jensen's inequality to it, something magical happens:
+
+$$
+-\ln(w_1x_1 + w_2x_2 + \cdots + w_nx_n) \leq -w_1\ln(x_1) - w_2\ln(x_2) - \cdots - w_n\ln(x_n)
+$$
+
+Taking the exponential of both sides (which reverses the inequality since exp is increasing):
+
+$$
+w_1x_1 + w_2x_2 + \cdots + w_nx_n \geq (x_1^{w_1}x_2^{w_2}\cdots x_n^{w_n})
+$$
+
+And there it is – our weighted AM-GM inequality emerges naturally! This isn't just a mathematical coincidence; it reveals a deeper truth about how these inequalities are connected through the fundamental concept of convexity.
+-->
 
 # From Theory to Practice: Inequalities in Action
 
@@ -565,6 +648,10 @@ Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/
 	& x_1,x_2, \ldots, x_n \geq0
 	\end{align}
 	$$
+<li id="footnote4">
+	This initial insight was later reinforced and deepened during my studies with Prof. Stephen Boyd at Stanford University seven years later, where I gained an even deeper appreciation for the role of convexity in optimization theory, hence AI,
+	and everything else!
+	&nbsp;<a href="#ref4">↩</a></li>
 </ol>
 
 <script>
