@@ -1,7 +1,7 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 date: 06-Oct-2024
-last_modified_at: Mon Oct  7 21:59:02 PDT 2024
+last_modified_at: Thu Feb 13 01:51:57 PST 2025
 categories:
  - blog
 tags:
@@ -28,8 +28,12 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 The pace of AI development, particularly in Large Language Models (LLMs), has been nothing short of extraordinary. As someone who has interacted extensively with key LLM services &mdash; Anthropic’s Claude, OpenAI’s ChatGPT, Google’s Gemini, Mistral’s Mistral, X’s Grok, Perplexity AI, and Midjourney for (lots of) fun having AI drawing creative images &mdash; I’ve been astounded not only by their rapid advancement but by their vast capabilities. Yet, after this first-hand experience, I now believe that the impact of AI’s evolution is likely to be far greater than I originally imagined.
 
+{% assign ai_data = site.posts | where: "permalink", "/ai/data" | first %}
+
 But for this post, I want to focus on just one of (a handful of) critical aspects of LLMs: their massive energy consumption, largely driven by a very specific DL driven attention mechanism, so called Transformer architecture, that powers them.
-(I will write more on the topic later in other blog posts.)
+(I will write more on the topic later in other blog posts;
+I wrote [{{ ai_data.title }}]({{ ai_data.url }}) 4 months after [this blog]({{ site.baseurl}})
+for one of the other aspects about LLM that I just mentioned!)
 
 The amount of energy consumed by entities providing LLM services is staggering. OpenAI, for instance, reportedly loses money on each inference, even with customer charges for their advanced models. This burden, I believe, will eventually fall on small businesses relying on these APIs, leading to unsustainable costs.
 
