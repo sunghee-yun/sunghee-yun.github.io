@@ -1,7 +1,7 @@
 ---
-title: The Real AI Revolution Isn't About AI &ndash; It's About Data
+title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Wed Feb 12 00:56:40 PST 2025
+last_modified_at: Wed Feb 12 19:44:19 PST 2025
 permalink: /ai/data
 categories:
  - blog
