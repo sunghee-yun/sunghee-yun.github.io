@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Wed Feb 12 19:44:19 PST 2025
+last_modified_at: Thu Feb 13 01:51:57 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -134,12 +134,11 @@ that would emerge in the following years.
 
 The pace of innovation continued to accelerate.
 Shortly after I joined Amazon in July, 2017,
-a bunch of Googlers published their landmark paper "Attention is All You Need,"
+a bunch of Googlers published their landmark paper "[Attention is All You Need](/papers#attention-is-all-you-need),"
 introducing the *transformative* Transformer architecture.
 The paper's ambitious title proved prophetic - Transformers began outperforming previous sequence models almost immediately,
 long before ChatGPT would bring this technology into the mainstream in 2022.
-Then the era of LLMs and genAI began
-(LLM stands for a large language model and genAI for generative AI).
+Then the era of LLMs and genAI began.<sup><a href="#footnote1" id="ref1">1</a></sup>
 Ever since,
 there have been unprecedentedly fast development and progress
 in these areas
@@ -241,3 +240,9 @@ As I look back on my journey from pure mathematics to the frontiers of AI, I'm r
 <br>
 Mathematician, Statistician, Theorist, Futurologist, and Digital Philosopher
 
+<hr>
+<ol>
+<li id="footnote1">
+	LLM stands for a large language model and genAI for generative AI.
+	&nbsp;<a href="#ref1">↩</a></li>
+</ol>
