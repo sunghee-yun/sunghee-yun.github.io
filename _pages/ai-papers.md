@@ -370,6 +370,13 @@ toc_sticky: true
 	</div>
 	</div>
 </li>
+<li id="attention-is-all-you-need">
+	"Attention Is All You Need"
+	- Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser &amp; Illia Polosukhin
+	(Google Brain &amp; Google Research)
+	@ 12-Jun-2017
+	(<a href="https://arxiv.org/abs/1706.03762">arxiv</a>)
+</li>
 </ul>
 
 <h2 id="ai-llm-intelligence">LLM &amp; intelligence</h2>
@@ -807,6 +814,13 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	- S. Boyd, E. Busseti, S. Diamond, R. Kahn, K. Koh, P. Nystrup &amp; J. Speth
 	@ 01-Aug-2017
 	(<a href="https://stanford.edu/~boyd/papers/cvx_portfolio.html">Boyd's homepage</a>, <a href="https://arxiv.org/abs/1705.00109">arxiv</a>)
+</li>
+<li id="attention-is-all-you-need">
+	"Attention Is All You Need"
+	- Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser &amp; Illia Polosukhin
+	(Google Brain &amp; Google Research)
+	@ 12-Jun-2017
+	(<a href="https://arxiv.org/abs/1706.03762">arxiv</a>)
 </li>
 <li>
 	"Improved Variational Autoencoders for Text Modeling using Dilated Convolutions"

@@ -335,6 +335,18 @@
 			}
 	},
 	{
+		"id": "attention-is-all-you-need",
+		"category": ["ai", "llm"],
+		"title": "Attention Is All You Need",
+		"authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin",
+		"date": "12-Jun-2017",
+		"last_revised": "02-Aug-2023",
+		"org": "Google Brain, Google Research",
+		"url": {
+			"arxiv": "https://arxiv.org/abs/1706.03762"
+		}
+	},
+	{
 		"id": "llm-titans",
 		"category": ["ai", "llm"],
 		"title": "Titans: Learning to Memorize at Test Time",
