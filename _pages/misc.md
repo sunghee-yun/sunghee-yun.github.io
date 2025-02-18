@@ -6,6 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
+last_modified_at: Tue Feb 18 02:15:02 PST 2025
 ---
 
 <h1 id="gifts">
@@ -216,6 +217,28 @@ Trips
 	</li>
 	<li>
 		stay @ <a target="_blank" href="https://naver.me/GipGKrM6">가락동</a>
+	</li>
+	</ul>
+</li>
+<li>
+	biz trip to San Diego
+	-
+	0 night
+	<ul>
+	<li>
+		16-Feb-2025 PST ~ 16-Feb-2025 PST
+	</li>
+	<li>
+		flight
+		- AS 3401
+		- from SFO @ 6:00pm to SAN @ 7:36am on 16-Feb-2025 PST
+		(1h 36m)
+	</li>
+	<li>
+		return flight
+		- AS 3458
+		- from SAN @ 9:59pm to SFO @ 11:45pm on 09-Mar-2025 PST
+		(1h 46m)
 	</li>
 	</ul>
 </li>
