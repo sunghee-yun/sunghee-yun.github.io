@@ -2,6 +2,7 @@
 layout: single
 title: "[BK Intelligence System Semiconductor Invited Seminar] The AI Metamorphosis: From Silicon Valley to Global Society - Technology, Consciousness, and Human Impact"
 permalink: /seminars/2025_0226 KST - BK Intelligence System Semiconductor Invited Seminar/abstract
+author_profile: true
 ---
 
 # Abstract
