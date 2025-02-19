@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[KAIST AI Seminar] AI in Action: Biotechnology and Industrial Applications"
-permalink: /seminars/2025_0227 KST - KAIST ME Department AI Seminar - biotech & inAI/abstract
+permalink: /seminars/2025_0228 KST - KAIST ME Department AI Seminar - biotech & inAI/abstract
 last_modified_at: Tue Feb 18 17:26:37 PST 2025
 author_profile: true
 ---
