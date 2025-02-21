@@ -3,6 +3,8 @@ main:
     url: /about
   - title: "posts"
     url: /posts
+  - title: "Resonate"
+    url: /resonate
   - title: "AI Insights"
     url: /articles
   - title: "AI Papers"
