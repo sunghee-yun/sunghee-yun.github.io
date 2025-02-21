@@ -2,7 +2,11 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Mon Jan 27 22:12:37 PST 2025
+last_modified_at: Fri Feb 21 02:09:09 PST 2025
+toc: true
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
+toc_sticky: true
 ---
 
 <a href="/">I</a> am Co-founder &amp; CTO
@@ -108,3 +112,60 @@ My life goal is to help build a future where humanity thrives through the advanc
 </tr>
 </table>
 
+
+# Press exposure
+
+- [서울대학교 데이터사이언스 대학원 초청 세미나 - Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing - 01-nov-2023 @ 27-Oct-2023 KST](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/)
+
+## When joining Amazon in 2017
+
+- [(문화일보) 中 이어 美 까지&hellip; 4차혁명 핵심인력 빼가기 '초비상' @ 19-Dec-2017](https://n.news.naver.com/mnews/article/021/0002337315?sid=101)
+- [(연합뉴스) 대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌유출 우려" @ 19-Dec-2017](https://n.news.naver.com/mnews/article/001/0009760685?sid=001)
+- [(SBS News) 대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌 유출 우려" @ 19-Dec-2017](https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM)
+- ['두뇌유출' 애국심만으로 붙잡기 어렵다 @ 20-Dec-2017](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
+
+
+## When joining Gauss Labs, Inc. in 2020
+
+- [(SK hynix Newsroom) "반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다" - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다 @ 29-Jun-2021 KST](https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs)
+- [(Korea Forbes) &#91;'초격차' 기술 주도할 10인&#93; 한국 제조업 혁신의 주역들 @ 23-Feb-2021 KST](https://jmagazine.joins.com/forbes/view/333066)
+- [(Korea IT Times) SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital @ 23-Sep-2020 KST](https://www.koreaittimes.com/news/articleView.html?idxno=100615)
+- [(잔자신문) SK하이닉스, AI 전문회사 '가우스랩스' 출범 @ 23-Sep-2020 KST](https://www.etnews.com/20200922000082)
+- [(IT BizNews) 인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소 @ 22-Sep-2020 KST](https://www.itbiznews.com/news/articleView.html?idxno=20158)
+- [(조선일보) 최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범 @ 22-Sep-2020 KST](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html)
+- [X](https://www.seoulfn.com/news/articleView.html?idxno=395963)
+[X](https://www.smedaily.co.kr/news/articleView.html?idxno=207272)
+[X](https://www.opinionnews.co.kr/news/articleView.html?idxno=40391)
+[X](https://www.aifnlife.co.kr/news/articleView.html?idxno=8993)
+[X](https://www.hankyung.com/article/2020092263455)
+[X](https://www.kbiznews.co.kr/news/articleView.html?idxno=72876)
+[X](https://www.mk.co.kr/news/business/9533361)
+[X](https://www.fetimes.co.kr/news/articleView.html?idxno=98954)
+[X](https://news.einfomax.co.kr/news/articleView.html?idxno=4108672)
+[X](https://www.hani.co.kr/arti/economy/marketing/963131.html)
+[X](https://www.kipost.net/news/articleView.html?idxno=205523)
+[X](https://news.nate.com/view/20210629n28873)
+[X](https://www.fntimes.com/html/view.php?ud=2020092210155233487de3572ddd_18)
+[X](https://www.todaykorea.co.kr/news/articleView.html?idxno=276950)
+[X](https://cctimes.kr/news/articleView.html?idxno=628685)
+[X](https://www.digitaltoday.co.kr/news/articleView.html?idxno=247949)
+[X](https://namu.news/article/1046520)
+[X](https://sports.hankooki.com/news/articleView.html?idxno=6541734)
+[X](https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do)
+[X](https://www.iminju.net/news/articleView.html?idxno=57855)
+[X](https://www.nspna.com/news/?mode=view&newsid=454675)
+[X](https://blog.naver.com/goldmap7/222096527674)
+[X](https://www.it-b.co.kr/news/articleView.html?idxno=43936)
+[X](https://m.news.zum.com/articles/62939349)
+[X](https://www.newsworks.co.kr/news/articleView.html?idxno=490036)
+[X](https://www.kmib.co.kr/article/view.asp?arcid=0015036692)
+[X](https://www.newscj.com/news/articleView.html?idxno=781563)
+[X](https://asiatime.co.kr/1065576468714754#_enliple)
+[X](https://www.techdaily.co.kr/news/articleView.html?idxno=8447)
+[X](https://www.newsis.com/view/NISX20210629_0001494349)
+[X](https://www.dgist.ac.kr/bbs/BBSMSTR_000000000215/view.do)
+[X](https://www.metroseoul.co.kr/article/20200922500065)
+[X](https://mediapen.com/news/view/559909)
+[X](https://www.moneys.co.kr/article/2020092208248072677)
+[X](https://www.fetv.co.kr/news/article.html?no=64174)
+[X](https://www.seoulfn.com/news/articleView.html?idxno=395963)
