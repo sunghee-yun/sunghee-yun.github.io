@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Sat Jan 25 01:15:32 PST 2025
+last_modified_at: Mon Feb 24 13:02:50 KST 2025
 categories:
  - blog
 tags:
@@ -60,27 +60,27 @@ This line of thoughts struck me deeply (now I think), compelling me to search fo
 even though I didn't consider myself his intellectual equal that time.
 
 This idea persisted until at least 2017, as I recall mentioning it during a phone conversation with my brother.
-It happened that, since 2015, I had become deeply interested in Buddha's teachings,
+It happened that, since 2015, I had become deeply interested in Buddha's teachings;
 not the Buddhism as a religion, but his original teachings he taught to help people overcome the (inevitable) suffering.
 As I explored concepts of mercy, compassion, nirvāna, enlightenment, and Anātman,
 these teachings transformed my life and eventually led me to nirvāna.
 During this period, influenced by Buddha's teachings, I concluded that life had no inherent meaning.
 I clearly understood and accepted the randomness of my existence.
-&mdash; After all, I resulted from the chance meeting of a particular sperm and egg.
+&mdash; After all, I resulted from the chance meeting of an egg with a random sperm.
 &mdash; But that was my misinterpretation. Well, misinterpretation or not,
 what mattered is what I have realized now regardless of his original teachings (below).
 
 While this element of chance is undeniable, I've recently come to understand that the meaning of life still exists.
-Few people (throughout human history) could and can understand this argument,
+Few people (throughout human history) could, can, and will be able to understand this argument,
 but the conclusion that life has no inherent meaning is right,
 but at the same time wrong.
 To be more precise,
 it's not not-right, nor not-wrong
-for the reasons for which I will lay down my arguments in the below paragraph.
+for the reasons that I will lay down in my arguments in the below paragraph.
 &ndash;
 It transcends the binary of right and wrong for reasons that defy verbal and logical articulation - here
 we encounter the limits of language to capture certain fundamental truths
-(as Wittgenstein insisted).
+(as Wittgenstein pointed out).
 
 The fundamental error that I, and virtually everyone on the earth and throughout the human history,
 have made is asking
