@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Sun Feb  9 23:17:33 PST 2025
+last_modified_at: Sat Mar  1 17:31:31 KST 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -121,6 +121,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 2024년 12월 14일
 
 김병노
+김성진
 김지형
 민상현
 박태영
