@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Feb 21 02:09:09 PST 2025
+last_modified_at: Fri Mar  7 15:12:43 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -127,12 +127,12 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 ## When joining Gauss Labs, Inc. in 2020
 
+- [(조선일보) 최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범 @ 22-Sep-2020 KST](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html)
 - [(SK hynix Newsroom) "반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다" - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다 @ 29-Jun-2021 KST](https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs)
 - [(Korea Forbes) &#91;'초격차' 기술 주도할 10인&#93; 한국 제조업 혁신의 주역들 @ 23-Feb-2021 KST](https://jmagazine.joins.com/forbes/view/333066)
 - [(Korea IT Times) SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital @ 23-Sep-2020 KST](https://www.koreaittimes.com/news/articleView.html?idxno=100615)
 - [(잔자신문) SK하이닉스, AI 전문회사 '가우스랩스' 출범 @ 23-Sep-2020 KST](https://www.etnews.com/20200922000082)
 - [(IT BizNews) 인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소 @ 22-Sep-2020 KST](https://www.itbiznews.com/news/articleView.html?idxno=20158)
-- [(조선일보) 최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범 @ 22-Sep-2020 KST](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html)
 - [X](https://www.seoulfn.com/news/articleView.html?idxno=395963)
 [X](https://www.smedaily.co.kr/news/articleView.html?idxno=207272)
 [X](https://www.opinionnews.co.kr/news/articleView.html?idxno=40391)
