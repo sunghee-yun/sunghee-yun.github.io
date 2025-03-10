@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Mon Mar 10 06:34:14 PDT 2025
+last_modified_at: Mon Mar 10 06:38:28 PDT 2025
 categories:
  - blog
 tags:
@@ -95,7 +95,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 그 나름대로 (아주 큰) 의미가 있다고 할 수 있을 것이다.
 그리고 실질적으로 본인의 행복과 가족 주위사람들의 행복을 도모한다는 의미에서
 사회적으로도 가정적으로도 큰 기여를 한다고 할 수도 있을 것이다.
-그러나 부처님의 원래 가르침이라거나 무엇보다 모두가 그토록 찾아해메고 있는
+그러나 부처님의 원래 가르침이라거나 무엇보다 바로 당신이 그토록 찾아해메고 있는
 그 행복의 지점인 진정한 해탈解脫과 열반涅槃에 이르는 길이 절대로 될 수 없음을 알아야 한다.
 요컨데 이것은 필요조건도 충분조건도 아니다.
 
@@ -117,7 +117,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 평생을 해야 하는 끊임없는 노력과 수행修行&nbsp;&sdot;&nbsp;정진精進이
 내가 얘기한 또하나의 필요조건이다. <font class="emph">그 두개의 필요조건이 채워지면
-비로소 (운이 좋다면) 해탈解脫&nbsp;&sdot;&nbsp;피안彼岸&nbsp;&sdot;&nbsp;열반涅槃에
+(그리고 운이 좋다면) 비로소 해탈解脫&nbsp;&sdot;&nbsp;피안彼岸&nbsp;&sdot;&nbsp;열반涅槃에
 이를 수 있을 것이다.</font>
 그런데 어떠한 의미에서는 모든 사람은 이미 그 곳에 가 있는 샘이다.
 우리 모두가 불성을 갖고 있다고 할 때의 의미가 바로 그것이다.
@@ -133,7 +133,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <a href="https://ko.wikipedia.org/wiki/%EC%84%B1%EC%B2%A0">성철性徹스님</a>이 보조국사 지눌이 말한 돈오점수頓悟漸修의 주장을 내치고
 돈오돈수頓悟頓修를 주장함으로써
 시작된 이 논쟁은 아직도 계속 되고 있다.
-그러나 <font class="emph">그 둘은 결코 다르지 않다.</font> <font class="emph">따라서 이러한 논쟁은 완전히 무의미한 것이고 사람들의 시간과 에너지의 낭비일 뿐이다.</font> <font class="emph">나의 주장이자 (혹은 주장으로 보일 수 있겠지만) FACT이다.</font>
+그러나 <font class="emph">그 둘은 결코 다르지 않다.</font> <font class="emph">따라서 이러한 논쟁은 완전히 무의미한 것이고 사람들의 시간과 에너지의 낭비일 뿐이다.</font> <font class="emph">나의 주장이자 FACT이다.</font>
 
 성철性徹스님이 그런 주장을 펴는 것을 이해한다.
 하지만 아무런 노력이 없이 돈오돈수에 이를 수 있겠는가?
