@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Mon Mar 10 06:31:32 PDT 2025
+last_modified_at: Mon Mar 10 06:34:14 PDT 2025
 categories:
  - blog
 tags:
@@ -90,7 +90,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이렇게 수행修行&nbsp;&sdot;&nbsp;명상冥想&nbsp;&sdot;&nbsp;정진精進 등을 통해서 특별한 경험을 하는 것은
 순간적으로는 기분이 좋고 평안을 얻을 수는 있으나,
 그 곳에서 벗어나면 다시 일상으로 돌아온다는 사실에서 볼 수 있듯
-진정한 깨달음과는 거리가 <font class="emph">아주</font> 멀거나 어떤 의미에서는 아예 관계가 없다.
+진정한 깨달음과는 거리가 <font class="emph">아주 멀거나</font> 어떤 의미에서는 아예 관계가 없다.
 물론 그러한 수행修行을 통해서 일시적으로 혹은 표면적으로 삶이 행복해진다면
 그 나름대로 (아주 큰) 의미가 있다고 할 수 있을 것이다.
 그리고 실질적으로 본인의 행복과 가족 주위사람들의 행복을 도모한다는 의미에서
