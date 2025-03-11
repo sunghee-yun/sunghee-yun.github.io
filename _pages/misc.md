@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Tue Feb 18 02:15:02 PST 2025
+last_modified_at: Tue Mar 11 08:02:03 PDT 2025
 ---
 
 <h1 id="gifts">
@@ -187,10 +187,67 @@ Arts &amp; Culture
 Trips
 </h1>
 
-<h2 id="trips-2021-">2021 &#126; present</h2>
+<h2 id="trips-2021-">2021 &#126; 2025</h2>
 
 <!--h2 id="trips-2024">2024</h2-->
 <h3>2025</h3>
+
+<h4>Dec</h4>
+
+<ul>
+<li>
+	biz trip to San Diego for NeurIPS 2025
+	-
+	6 nights
+	<ul>
+	<li>
+		01-Dec-2025 PST ~ 07-Dec-2025 PST
+	</li>
+	<li>
+		<a href="/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf">flight</a>
+		- AS 3429 operated by SUBSIDIARY/FRANCHISE
+		- from SJC @ 2:36pm to SAN @ 3:59pm on 01-Dec-2025 PST
+		(1h 23m)
+	</li>
+	<li>
+		return flight
+		- AS 3498 operated by SUBSIDIARY/FRANCHISE
+		- from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
+		(1h 28m)
+	</li>
+	</ul>
+</li>
+</ul>
+
+<h4>Apr</h4>
+
+<ul>
+<li>
+	biz trip to Seoul
+	-
+	15 nights
+	<ul>
+	<li>
+		26-Apr-2025 PDT ~ 11-May-2025 PDT
+	</li>
+	<li>
+		<a href="/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf">flight</a>
+		- United 893
+		- from SFO @ 10:30am on 26-Apr-2025 PDT to ICN @ 3pm on 27-Apr-2025 KST
+		(12h 30m)
+	</li>
+	<li>
+		return flight
+		- United 892
+		- from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
+		(10h 40m)
+	</li>
+	<li>
+		stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
+	</li>
+	</ul>
+</li>
+</ul>
 
 <h4>Feb</h4>
 
@@ -204,7 +261,7 @@ Trips
 		21-Feb-2025 PST ~ 09-Mar-2025 PST
 	</li>
 	<li>
-		flight
+		<a href="/resource/trips/2025-02 - Seoul/www.expedia.com-egti-G6E-GXX-4AGE (1).pdf">flight</a>
 		- OZ 215
 		- from SFO @ 12:10pm on 21-Feb-2025 PST to ICN @ 5:55pm on 22-Feb-2025 KST
 		(12h 45m)
@@ -216,7 +273,7 @@ Trips
 		(10h 10m)
 	</li>
 	<li>
-		stay @ <a target="_blank" href="https://naver.me/GipGKrM6">가락동</a>
+		stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
 	</li>
 	</ul>
 </li>
@@ -229,7 +286,7 @@ Trips
 		16-Feb-2025 PST ~ 16-Feb-2025 PST
 	</li>
 	<li>
-		flight
+		<a href="/resource/trips/2025-02 - San Diego/www.expedia.com-egti-UE3-5TI-K6OM.pdf">flight</a>
 		- AS 3401
 		- from SFO @ 6:00pm to SAN @ 7:36am on 16-Feb-2025 PST
 		(1h 36m)
@@ -249,12 +306,13 @@ Trips
 <ul>
 <li>
 	biz trip for CES to Las Vegas - 6 nights
+	(<a href="/resource/trips/2025-01 - Las Veags/photos/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CES badge</a>)
 	<ul>
 	<li>
 		06-Jan-2025 ~ 09-Jan-2025 PST
 	</li>
 	<li>
-		flight
+		<a href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight</a>
 		-
 		Frontier F9 2486
 		-
@@ -275,12 +333,8 @@ Trips
 	</li>
 	<li>
 		stay @
-		<a target="_blank" href="https://maps.app.goo.gl/poLgkRixakoMPG1V7">The Palazzo at The Venetian Resort</a>
-		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/IMG_6232.jpg">card key</a>
-	</li>
-	<li>
-		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/www.expedia.com-72940615300293.pdf">flight receipt</a>
-		<a target="_blank" href="/resource/trips/2025-01 - Las Veags/sunghee w: CES badge - 2025.jpeg">Sunghee w/ CES badge</a>
+		<a href="https://maps.app.goo.gl/poLgkRixakoMPG1V7">The Palazzo at The Venetian Resort</a>
+		(<a href="/resource/trips/2025-01 - Las Veags/photos/IMG_6232.jpg">card key</a>)
 	</li>
 	</ul>
 </li>
@@ -301,13 +355,13 @@ Trips
 	</li>
 	<li>
 		flight
-		- Alaska 20
+		- AS 20
 		- from SFO @ 2:22pm PST to JFK @ 10:58pm EST on 25-Dec-2024
 		(5h 36m)
 	</li>
 	<li>
 		return flight
-		- Alaska 47
+		- AS 47
 		- from JFK @ 8:20pm EST to SFO @ 11:59pm PST on 31-Dec-2024
 		(6h 39m)
 	</li>
@@ -1051,14 +1105,14 @@ Trips
 	<li>
 		flight 1
 		-
-		Alaska 2314
+		AS 2314
 		-
 		from SJC @ 1:20pm to LAX @ 2:43pm on 27-Nov-2021 PDT
 	</li>
 	<li>
 		flight 2
 		-
-		Alaska 3312
+		AS 3312
 		-
 		from LAX @ 9:50am to SJC @ 11:10am on 29-Nov-2021 PDT
 	</li>
