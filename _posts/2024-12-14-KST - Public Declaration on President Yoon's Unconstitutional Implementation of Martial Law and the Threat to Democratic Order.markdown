@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Sat Mar  1 17:31:31 KST 2025
+last_modified_at: Tue Mar 11 04:53:38 PDT 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -133,6 +133,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이희영
 황보선
 
+<!--
 # My perspectives
 
 - <a target="_blank" href="https://youtu.be/eU8ole0U_H0?si=GlIsxmyutpozxRD6">민주당 최고의 회의에서 이재명 민주당 대표 @ 06-Feb-2025 KST</a>
@@ -145,6 +146,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <blockquote>
 현장에 파견된 일선 계엄군 지휘관, 계엄 병사들 양심에 따라서 사실상 항명하고 민주주의를 지키기 위해서 버텨줘서 다행이었습니다.
 </blockquote>
+-->
 
 # Appendices {#appendix}
 
