@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Mon Feb 10 04:10:23 PST 2025
+last_modified_at: Sat Mar 15 11:01:45 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -23,7 +23,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-In the movie "Contact," (starring Jodie Foster, one of my favorite female Hollywood starts), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
+In the movie "Contact," (starring Jodie Foster, one of my favorite female Hollywood stars), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
 This choice is profoundly significant: even in a universe where different physical laws might reign,
 the concept of prime numbers would remain unchanged.<sup><a href="#footnote1" id="ref1">1</a></sup>
 Prime numbers represent a truth that transcends (arbitrary) intelligent beings' civilization
@@ -42,7 +42,7 @@ While this distinction extends beyond physics, our physical laws provide an exce
 
 # Number 2 - mathematical truth vs physical law
 
-(Here I really mean by <i>mathematical</i> truth
+(Here what I really mean by <i>mathematical</i> truth
 is some universal or inevitable truth
 not necessarily pertaining to the <i>mathematics</i>.)
 
@@ -77,10 +77,10 @@ this number 2 is not inevitability.
 Of course,
 it could be argued that,
 for example,
-if this number is greater than 2 by any amount,
+if this number is greater than 2 by any positive amount,
 the universe would collapse immediately after <a href="https://en.wikipedia.org/wiki/Big_Bang">the Big Bang</a>,
 or/and
-if the number if less than 2 by any amount,
+if the number if less than 2 by any positive amount,
 the universe would explode,
 hence we would not exist now.
 However, let us postpone the discussions of such matters for now
