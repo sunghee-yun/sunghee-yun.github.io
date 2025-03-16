@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Thu Feb 13 01:51:57 PST 2025
+last_modified_at: Sat Mar 15 22:55:42 PDT 2025
 permalink: /ai/data
 categories:
  - blog
@@ -96,7 +96,7 @@ that compressed months-long projects
 into weeks by automatically modeling problems mathematically and finding optimal solutions.
 This work, though we didn't realize it at the time, was already laying the groundwork for what would become modern AI applications.
 
-# The Rise of Machine Learning, hence AI
+# The Rise of Machine Learning, hence the Rise of AI
 
 <!--Around 2010, terms like "big data" and "ML" began emerging in technical discussions.
 I distinctly remember [Prof. Boyd](https://stanford.edu/~boyd/) advising me to explore the potential of machine learning
