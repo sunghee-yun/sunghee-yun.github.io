@@ -6,16 +6,12 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Tue Mar 11 08:02:03 PDT 2025
+last_modified_at: Sun Mar 16 07:28:44 PDT 2025
 ---
 
-<h1 id="gifts">
-Gifts
-</h1>
+# Gifts
 
-<h2 id="gifts-2025">
-2025
-</h2>
+## 2025 {#gifts-2025}
 
 <ul>
 <li>
@@ -28,13 +24,9 @@ Gifts
 </li>
 </ul>
 
-<h1 id="arts-and-culture">
-Arts &amp; Culture
-</h1>
+# Art &amp; Culture
 
-<h2 id="arts-and-culture-2024">
-2024
-</h2>
+## 2024 {#arts-and-culture-2024}
 
 <ul>
 <li>
@@ -91,9 +83,7 @@ Arts &amp; Culture
 </li>
 </ul>
 
-<h2 id="arts-and-culture-2023">
-2023
-</h2>
+## 2023 {#arts-and-culture-2023}
 
 <ul>
 <li>
@@ -159,9 +149,7 @@ Arts &amp; Culture
 </li>
 </ul>
 
-<h2 id="arts-and-culture-2022">
-2022
-</h2>
+## 2022 {#arts-and-culture-2022}
 
 <ul>
 <li>
@@ -183,13 +171,10 @@ Arts &amp; Culture
 </ul>
 
 
-<h1 id="trips">
-Trips
-</h1>
+# Trips
 
-<h2 id="trips-2021-">2021 &#126; 2025</h2>
+## 2021 &#126; 2025 {#trips-2021-2025}
 
-<!--h2 id="trips-2024">2024</h2-->
 <h3>2025</h3>
 
 <h4>Dec</h4>
@@ -1257,9 +1242,8 @@ Trips
 </ul>
 
 
-<h2 id="traips-2016-2020">2016 ~ 2020</h2>
+## 2016 ~ 2020 {#trips-2016-2020}
 
-<!--h2 id="trips-2020">2020</h2-->
 <h3>2020</h3>
 
 <h4>Nov</h4>
@@ -1747,8 +1731,8 @@ Trips
 </li>
 </ul>
 
-<h2 id="trips-2011-2015">2011 ~ 2015</h2>
-<!--h2 id="trips-2015">2015</h2-->
+## 2011 ~ 2015 {#trips-2011-2015}
+
 <h3>2015</h3>
 
 <h4>Sep</h4>
@@ -1988,7 +1972,7 @@ Trips
 </li>
 </ul>
 
-<h2 id="trips-2006-2010">2006 ~ 2010</h2>
+## 2006 ~ 2010 {#trips-2006-2010}
 
 <!--h2 id="trips-2010">2010</h2-->
 <h3>2010</h3>
@@ -2164,7 +2148,7 @@ Trips
 </li>
 </ul>
 
-<h2 id="trips-2001-2005">2001 ~ 2005</h2>
+## 2001 ~ 2005 {#trips-2001-2005}
 
 <!--h2 id="trips-2005">2005</h2-->
 <h3>2005</h3>
@@ -2518,7 +2502,7 @@ Trips
 </ul>
 
 
-<h2 id="trips-1976-2000">1976 ~ 2000</h2>
+## 1976 ~ 2000 {#trips-1976-2000}
 
 <!--h2 id="trips-1999">1999</h2-->
 <h3>1999</h3>
@@ -2656,21 +2640,22 @@ Trips
 </ul>
 
 
-<h1 id="maps">
-Maps
-</h1>
+# Maps
 
-<h2 id="erudio">Erudio Bio, Inc.</h2>
+## Erudio Bio, Inc.
+
 <div class="map-container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.8994595599015!2d-122.58061285994727!3d38.096003972023205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085bc8661bbd97f%3A0xb96b36c5538d9792!2s400%20Professional%20Center%20Dr%20%23%20414%2C%20Novato%2C%20CA%2094947!5e0!3m2!1sen!2sus!4v1726468024628!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<h2 id="los-altos-lib">Los Altos Library</h2>
+## Los Altos Library
+
 <div class="map-container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12681.51251383763!2d-122.113364!3d37.380889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb0eec3743d23%3A0xfc99aea86bf62dc6!2sLos%20Altos%20Library!5e0!3m2!1sen!2sus!4v1726467817641!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<h2 id="dsh">Louise M. Davies Symphony Hall</h2>
+## Louise M. Davies Symphony Hall
+
 <div class="map-container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6307.033404305522!2d-122.420809!3d37.777929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580991be02fd9%3A0xc60bb460e5f31987!2sLouise%20M.%20Davies%20Symphony%20Hall!5e0!3m2!1sen!2sus!4v1726467959724!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
