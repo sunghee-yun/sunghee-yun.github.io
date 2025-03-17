@@ -3,8 +3,6 @@ main:
     url: /about
   - title: "posts"
     url: /posts
-  - title: "Resonate"
-    url: /resonate
   - title: "AI Insights"
     url: /articles
   - title: "AI Papers"
@@ -17,6 +15,8 @@ main:
     url: /tags
   - title: "cats"
     url: /categories
+  - title: "Resonate"
+    url: /resonate
   - title: "books"
     url: /books
   - title: "lectures"
