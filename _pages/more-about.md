@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Sun Mar 16 20:24:47 PDT 2025
+last_modified_at: Mon Mar 17 13:14:50 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -36,6 +36,13 @@ that once mastered Go at the world champion level have been adapted to predict p
 AlphaGo leveraged thousands of years of Go play history from China, Japan, and Korea.
 Similarly, AlphaFold built upon decades of biochemists' painstaking work.
 
+<div style="margin-top: 1em;" class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_aff8b26f-43e1-45ab-8c26-28bef02bdfc5_1.png">
+<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_5a4c5809-4889-4b09-bf9c-f81c5e1c16d4_1.png">
+&nbsp;
+</div>
+
 ## The AI Vision of Erudio Bio
 
 This understanding drives Erudio Bio's AI vision. We're not merely developing multiplexing biomarker detection and screening technology. We're building an <font class="emph">AI-powered multiplexing biomarker data platform for Agentic AI</font> that delivers differentiated value through quality biological data at scale.
@@ -43,6 +50,13 @@ This understanding drives Erudio Bio's AI vision. We're not merely developing mu
 With this foundation, Erudio Bio can:
 - Perform knowledge discovery using AI, <i>e.g.</i>, predicting cancer probability or hospital readmission risk
 - Develop bio data business models similar to [Mayo Clinic](https://www.mayoclinic.org/)'s established approach
+
+<div style="margin-top: 1em;" class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_a4105daf-5f0b-4926-a3f2-ac2e928a424a_1.png">
+<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_7b382cb4-ba04-4c96-a710-005cfe342d9e_2.png">
+&nbsp;
+</div>
 
 ## The Connection to Private AI
 
@@ -99,6 +113,13 @@ This mission led me to join [Salzburg Global Seminar](https://www.salzburgglobal
 a 78-year-old nonprofit organization,
 as a
 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative).
+
+<div style="margin-top: 1em;" class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+&nbsp;
+</div>
 
 ## Related Resources
 
