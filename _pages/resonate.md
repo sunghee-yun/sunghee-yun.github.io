@@ -3,18 +3,22 @@ layout: single
 title: Resonate
 permalink: /resonate
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Fri Feb 21 01:11:59 PST 2025
+last_modified_at: Mon Mar 17 12:51:58 PDT 2025
 ---
 
 # Books
 
+- Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
+(first read and every single problem was solved in 1993; revisited in 1994)
 - The Elegant Universe - by Brian Greene [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Elegant_Universe)
 (first read in 2004)
 - A Brief History of Time - by Stephen Hawking [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/A_Brief_History_of_Time)
 (first read in 2010)
+- The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Language_of_God)
+(first read in ~ 2010)
 - Justice: What's the Right Thing to Do? - by Michael J. Sandel [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F)
 (first read in 2011)
 - Thinking, Fast and Slow - by Daniel Kahneman [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
