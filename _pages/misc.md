@@ -6,14 +6,28 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Mar 17 09:02:46 PDT 2025
+last_modified_at: Wed Mar 19 16:54:42 PDT 2025
 ---
 
 # AI Talks
 
-- contact 한정선 @ [에스넷시스템](https://www.snetsystems.co.kr/) for Apr-2025 biz trip
+<!-- - contact 한정선 @ [에스넷시스템](https://www.snetsystems.co.kr/) for Apr-2025 biz trip-->
 - contact 김경도 @ sk hynix CIS for Apr-2025 biz trip
 - contact 윤국섭
+
+# Research discussions
+
+- [Division of Interdisciplinary Bioscience &amp; Bioengineering (i-bio) of POSTECH](https://ibio.postech.ac.kr/web/?top=study&sub=lab)
+	- [Molecular Diagnosis and Synthetic Biology Lab. (분자 진단 및 합성 생물학 연구실)](http://mdsb.postech.ac.kr/)
+[intro](https://www.youtube.com/watch?v=Z-ahpTfDQoQ)
+	- [Nano Particle and Ve​sicle Lab. (나노 입자 및 소포 연구실)](http://mbme.postech.ac.kr/)
+[intro](https://www.youtube.com/watch?v=7n5AVEqRrG4)
+	- [Single-molecule Biophysics Lab. (단일 분자 생물 물리학 연구실)](http://jblab.postech.ac.kr/)
+	- [Nanophotonics & Nanomedical Research Group (나노광학 및 나노의학 연구)](http://www.nanotrio.com/)
+[intro](https://www.youtube.com/watch?v=BjBGKhvd6-c)
+	- [Nano-Precision Mechano-Biology Group (나노정밀 역학생물학 연구실)](http://shonlab.postech.ac.kr/)
+[intro](https://www.youtube.com/watch?v=HZrHeKGi9a4)
+	- [Lab for Biological, Biomimetic, Eco-friendly Materials (친환경 생체모사 재료 연구실)](http://lbem.postech.ac.kr/)
 
 # Gifts
 
