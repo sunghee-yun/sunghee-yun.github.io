@@ -1,15 +1,15 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sat Mar 15 11:01:45 PDT 2025
+last_modified_at: Wed Mar 19 10:57:27 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
 tags:
  - inevitability vs arbitrariness
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
 ---
@@ -268,7 +268,7 @@ just to explore this (once again) fascinating time-killing topics!
 
 <h2 id="gaussian-integral">The Gaussian integral</h2>
 
-Let's just prove the Gaussian integral, that is,
+Let's first prove the Gaussian integral, that is,
 
 $$
 \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}.
@@ -301,6 +301,25 @@ is due to the fact that $$\pi$$ appears in the formula of the area of a circle
 and the fact that the derivative of $$e^x$$ is itself,
 <i>i.e.</i>, $$d e^x / dx = e^x$$
 (which is one of a handful of nice properties that <a href="https://en.wikipedia.org/wiki/E_(mathematical_constant)">the Euler's number</a> enjoys).
+
+### A way to define [the Euler number](https://en.wikipedia.org/wiki/E_(mathematical_constant))
+
+We *could* define [the Euler number](https://en.wikipedia.org/wiki/E_(mathematical_constant))
+as a positive real number $$a$$ satisfying
+
+$$
+\int_{-\infty}^\infty a^{-x^2} dx = \sqrt{\pi}.
+$$
+
+Since the function $$f:\mathbb{R}_{++} \to \mathbb{R}$$ defined by
+
+$$
+f(a) = \int_{-\infty}^\infty a^{-x^2} dx
+$$
+
+is a strictly monotonically decreasing continuous function, $$\lim_{a\to 0} f(x)=\infty$$, and $$\lim_{a\to \infty} f(x)=0$$,
+the solution of the equation $$f(a)=\sqrt{\pi}$$ is uniquely determined,
+hence the definition makes sense!
 
 ## The Surface areas and volumes of hyper-spheres
 
