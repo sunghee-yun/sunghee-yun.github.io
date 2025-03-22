@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Sat Mar 22 01:25:55 PDT 2025
+last_modified_at: Sat Mar 22 16:21:10 PDT 2025
 categories:
  - blog
 tags:
@@ -207,6 +207,46 @@ plus infinite other such cases as beautifully and elegantly as this!
 This shows the enormous power of generalization
 that inequalities can powerfully provide!</font>
 
+Here I will show how we can do this extremely easily and utmostly elegantly using the Cauchy-Schwarz inequality:
+letting $$a_i = \sqrt{d_i} x_i$$ and $$b_i = c_i / \sqrt{d_i}$$
+and
+applying the Cauchy-Schwarz inequality
+yield
+
+$$
+\begin{align}
+&\left(c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n\right)
+\\
+&=
+\left(c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n\right)
+\left(d_1 x_1^2+ d_2 x_2^2 + \cdots + d_n x_n^2 \right)
+\\
+&=
+\left(a_1^2 + a_2^2 + \cdots + a_n^2\right)
+\left(b_1^2 + b_2^2 + \cdots + b_n^2\right)
+\\
+&\geq
+\left(a_1 b_1 + a_2 b_2 + \cdots + a_nb_n\right)^2
+\\
+&=
+\left(c_1 x_1 + c_2 x_2 + \cdots + c_nx_n\right)^2
+\end{align}
+$$
+
+Thus, we have
+
+$$
+c_1 x_1 + c_2 x_2 + \cdots + c_nx_n
+\leq
+\sqrt{c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n},
+$$
+
+hence the maximum value of  $$c_1 x_1 + c_2 x_2 + \cdots + c_nx_n$$ is,
+and has just been proved to be,
+$$\sqrt{c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n}$$.
+By assigning proper values to $$n$$, $$a_i$$, and $d_i$$,
+this readily solves all the above problems at once!<sup><a href="#footnote2" id="ref2">2</a></sup>
+
 # Another Tale of Two Paths: The AM-GM Journey
 
 Let us start from a bit similar, but different optimization problem:
@@ -285,7 +325,7 @@ $$
 w_1a_1 + w_2a_2 + \cdots + w_na_n \geq a_1^{w_1} a_2^{w_2} \cdots a_n^{w_n}
 $$
 
-which holds for any $$a_i\geq0$$ and $$w_i>0$$ with $$w_1+w_2+\cdots+w_n=1$$.<sup><a href="#footnote2" id="ref2">2</a></sup>
+which holds for any $$a_i\geq0$$ and $$w_i>0$$ with $$w_1+w_2+\cdots+w_n=1$$.<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 Now we have some very powerful tool which not only can solve the above problem,
 but also infinite other variations!
@@ -337,7 +377,7 @@ The elegance of this solution is striking. Conventional wisdom suggests that a p
 Another way of saying this is &hellip;
 There's something remarkable about this solution's simplicity. One might expect that finding this maximum value would demand pages of calculus and careful computations. Instead, the AM-GM inequality offers us a direct path to the answer, elegant in its brevity and powerful in its insight. This is one of those beautiful moments in mathematics where a deeper understanding doesn't add complexity – it strips it away, revealing the essential truth beneath.
 
-Now one *could* readily see that we can solve the following problem now<sup><a href="#footnote3" id="ref3">3</a></sup>
+Now one *could* readily see that we can solve the following problem now<sup><a href="#footnote4" id="ref4">4</a></sup>
 
 $$
 \begin{align}
@@ -502,7 +542,7 @@ by university math professors when I was a mere high schooler!
 &ndash; I was truly lucky.-->
 
 I can still vividly recall the wave of excitement that washed over me as the true significance of Jensen's inequality began to crystallize in my mind. "This subsumes everything! This is so profound!" I remember thinking. "It's not just another inequality – it's the master key that unlocks them all! We don't need separate proofs for AM-GM inequality or Cauchy-Schwarz inequality
-&ndash; they're all special cases of this beautiful result!"<sup><a href="#footnote4" id="ref4">4</a></sup>
+&ndash; they're all special cases of this beautiful result!"<sup><a href="#footnote5" id="ref5">5</a></sup>
 
 While Cauchy-Schwarz illuminates the geometry of inner product spaces and AM-GM reveals the interplay between arithmetic and geometric means, Jensen's inequality ventures deeper. It unveils something truly fundamental about the nature of convexity itself – a property that lies at the heart of optimization theory and manifests throughout mathematics in surprisingly diverse ways.
 
@@ -675,18 +715,31 @@ Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/
 	Or maybe not. Who knows?
 	&nbsp;<a href="#ref1">↩</a></li>
 <li id="footnote2">
+	By the way,
+	mathematically strictly speaking,
+	or even not-that-strictly speaking &#x2605;^^&#x2605;,
+	to claim that the value on the right-hand-side is achievable,
+	we should show the equality is achievable,
+	which we can (easily).
+	Hence, we should keep stating the conditions for the equality being held
+	wherever necessary.
+	However, for the terseness of this blog post,
+	I'll omit it throughout this document.
+	Just trust me on that! :)
+	&nbsp;<a href="#ref2">↩</a></li>
+<li id="footnote3">
 	You can see how we can derive this general AM-GM inequality
 	from a very simple case of $(a+b)/2 \geq \sqrt{ab}$
 	in the slides in <a href="#algebra-codex"><span class="algebra-codex-header-title"></span></a>.
 	You can also see Jensen's inequality <i>elegantly</i>
 	implies this most general form of AM-GM inequality,
 	which is another layer of the beauty we can observe in the line of our arguments here.
-	&nbsp;<a href="#ref2">↩</a></li>
-<li id="footnote3">
+	&nbsp;<a href="#ref3">↩</a></li>
+<li id="footnote4">
 	Mathematically (in this case),
 	solving the maximization problem
 	is equivalent to solving the following minimization problem:
-	&nbsp;<a href="#ref3">↩</a></li>
+	&nbsp;<a href="#ref4">↩</a></li>
 
 	$$
 	\begin{align}
@@ -697,10 +750,10 @@ Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/
 	& x_1,x_2, \ldots, x_n \geq0
 	\end{align}
 	$$
-<li id="footnote4">
+<li id="footnote5">
 	This initial insight was later reinforced and deepened during my studies with Prof. Stephen Boyd at Stanford University seven years later, where I gained an even deeper appreciation for the role of convexity in optimization theory, hence AI,
 	and everything else!
-	&nbsp;<a href="#ref4">↩</a></li>
+	&nbsp;<a href="#ref5">↩</a></li>
 </ol>
 
 <script>
