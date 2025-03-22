@@ -1,8 +1,8 @@
 ---
 permalink: /math/inequalities
-title: (WIP) Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
+title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Wed Feb 12 03:35:29 PST 2025
+last_modified_at: Sat Mar 22 01:25:55 PDT 2025
 categories:
  - blog
 tags:
@@ -226,7 +226,7 @@ First, we can solve this *unelegantly* by starting with letting $$xy=k$$.
 1. Now the discriminant being non-negative implies $$D=1-12k^2\geq0$$,
 1. hence $$xy\leq 1/\sqrt{12} = 1/2\sqrt{3}$$!
 
-Now consider the classic arithmetic mean-geometric mean inequalities (AM-GM),
+Now consider the classic arithmetic mean-geometric mean (AM-GM) inequality,
 a simplest version of which,
 probably the first one we saw in high school,
 states that
@@ -526,24 +526,73 @@ where $$w_i\geq0$$ and $$\sum_{i=1}^n w_i=1$$.
 
 The beauty of this inequality lies not just in its mathematical form, but in its geometric interpretation. Imagine drawing any chord on a convex function's graph – the function values will always lie below or on the chord. This simple geometric truth leads to surprisingly powerful mathematical results.
 
-(WIP)
+<div class="img-container">
+<img width="80%" src="/resource/posts/2025-02-03-PDT - math - inequalities/jensen-3-768x342.png">
+</div>
+<figcaption>
+$f$ is convex,
+$\lambda_1, \lambda_2 \geq0$,
+and
+$\lambda_1 + \lambda_2 = 1$.
+</figcaption>
 
-<!--## From AM-GM to Jensen: A Beautiful Connection
+## Jensen's inequality implies AM-GM inequality
 
-Remember our exploration of the AM-GM inequality? One of the most elegant aspects of Jensen's inequality is how it provides a more general framework that includes AM-GM as a special case. Consider the function f(x) = -ln(x). This function is convex, and when we apply Jensen's inequality to it, something magical happens:
+One of the most elegant aspects of Jensen's inequality is how it provides a more general framework that includes AM-GM as a special case.
+Consider $$f:\mathbb{R}_{++} \to \mathbb{R}$$ defined by $$f(x) = -\log(x)$$.
+This function is convex, hence,
+for any $$a_i>0$$ and $$w_i\geq0$$ with $$\sum_{i=1}^n w_i = 1$$,
+we have
 
 $$
--\ln(w_1x_1 + w_2x_2 + \cdots + w_nx_n) \leq -w_1\ln(x_1) - w_2\ln(x_2) - \cdots - w_n\ln(x_n)
+-\log(w_1a_1 + \cdots + w_na_n) \leq -w_1\log(a_1) - \cdots - w_n\log(a_n)
 $$
 
-Taking the exponential of both sides (which reverses the inequality since exp is increasing):
+hence
 
 $$
-w_1x_1 + w_2x_2 + \cdots + w_nx_n \geq (x_1^{w_1}x_2^{w_2}\cdots x_n^{w_n})
+w_1a_1 + w_2a_2 + \cdots + w_na_n \geq a_1^{w_1}a_2^{w_2}\cdots a_n^{w_n}.
 $$
 
-And there it is – our weighted AM-GM inequality emerges naturally! This isn't just a mathematical coincidence; it reveals a deeper truth about how these inequalities are connected through the fundamental concept of convexity.
--->
+And there it is – our weighted AM-GM inequality emerges effortlessly!
+This isn't just a mathematical coincidence; it reveals a deeper truth about how these inequalities are connected through the fundamental concept of convexity.
+
+## Jensen's inequality implies Cauchy-Schwarz inequality, too!
+
+It turns out that the Jensen's inequality subsumes not only the AM-GM inequality,
+but the Cauchy-Schwarz inequality, too!
+
+For any $$a_i,b_i\in\mathbb{R}$$,
+define $$x_i = a_i/b_i$$ and $$w_i = b_i^2/\sum_{j=1}^n b_j^2$$.
+Then because $$w_i\geq0$$, $$\sum_{i=1}^n w_i=1$$,
+and $$f(x)=x^2$$ is convex,
+the Jensen's inequality implies
+
+$$
+\left(\frac{\sum_{i=1}^n a_ib_i}{\sum_{i=1}^n b_i^2} \right)^2
+=\left(\sum_{i=1}^n w_ix_i \right)^2
+\leq
+\sum_{i=1}^n w_ix_i^2
+=
+\left(\frac{\sum_{i=1}^n a_i^2}{\sum_{i=1}^n b_i^2}\right)
+$$
+
+hence
+
+$$
+\left(\sum_{i=1}^n a_ib_i \right)^2
+\leq
+\left(
+\sum_{i=1}^n a_i^2
+\right)
+\left(
+\sum_{i=1}^n b_i^2
+\right).
+$$
+
+This elegant derivation once again reveals the deep interconnection between these seemingly different mathematical tools.
+What I find particularly fascinating is how Jensen's inequality serves as a unifying principle - a mathematical "master key" that unlocks multiple fundamental inequalities through different applications.
+This hierarchical structure, where one powerful principle generates many specific results, exemplifies the beautiful economy of mathematics: the most profound truths often lead to the widest array of consequences.
 
 # From Theory to Practice: Inequalities in Action
 
