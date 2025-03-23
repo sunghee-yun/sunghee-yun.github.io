@@ -1,15 +1,15 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Mon Mar 10 06:38:28 PDT 2025
+last_modified_at: Sat Mar 22 21:39:57 PDT 2025
 categories:
  - blog
 tags:
  - Mahayana Buddhism
  - Buddhism
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
@@ -44,7 +44,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 소승불교小乘佛敎는 현재의 스리랑카&nbsp;&sdot;&nbsp;미얀마&nbsp;&sdot;&nbsp;태국 등에서
 대승불교大乘佛敎는 중국&nbsp;&sdot;&nbsp;한국&nbsp;&sdot;&nbsp;일본&nbsp;&sdot;&nbsp;티베트 등에서 주로 발전했다.
 
-<h1 id="intention">My Assertion and Intention of writing this blog</h1>
+<h1 id="intention">Why I wrote this blog post?</h1>
 
 여기서는
 대승불교大乘佛敎
