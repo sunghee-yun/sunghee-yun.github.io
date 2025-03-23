@@ -1,7 +1,7 @@
 ---
-title: (WIP) My Short Memo on Simulation
+title: (WIP) My Short Memo on Simulations
 date: Sun Mar 23 11:27:39 PDT 2025
-last_modified_at: Sun Mar 23 11:27:39 PDT 2025
+last_modified_at: Sun Mar 23 14:07:50 PDT 2025
 permalink: /simulation
 categories:
  - blog
