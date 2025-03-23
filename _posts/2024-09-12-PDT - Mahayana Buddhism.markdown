@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Sat Mar 22 21:39:57 PDT 2025
+last_modified_at: Sun Mar 23 01:46:37 PDT 2025
 categories:
  - blog
 tags:
@@ -113,7 +113,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 모든 사람에게 공통적으로 해당하는 길을 제시할 수는 없다.
 부처님도 35세에 깨달음을 얻고 80세에 돌아가실때까지
 45년 동안 8만대장경八萬大藏經을 다 채우는 설법을 그리 많이 하신 이유도
-사람마다 근기根器가 다 달라 사람마다 깨닫는 방법이 다를 수 밖에 없기 때문이다.
+사람마다 근기根器가 달라 깨닫는 방법이 다를 수 밖에 없기 때문이다.
 
 평생을 해야 하는 끊임없는 노력과 수행修行&nbsp;&sdot;&nbsp;정진精進이
 내가 얘기한 또하나의 필요조건이다. <font class="emph">그 두개의 필요조건이 채워지면
