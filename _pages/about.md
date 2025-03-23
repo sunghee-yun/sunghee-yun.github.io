@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Mar  7 15:12:43 KST 2025
+last_modified_at: Sun Mar 23 02:14:02 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -115,32 +115,69 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 # Press exposure
 
-- [서울대학교 데이터사이언스 대학원 초청 세미나 - Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing - 01-nov-2023 @ 27-Oct-2023 KST](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/)
+- [(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing - 2023년 11월 01일(수) @ 27-Oct-2023 KST](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/)
 
 ## When joining Amazon in 2017
 
 - [(문화일보) 中 이어 美 까지&hellip; 4차혁명 핵심인력 빼가기 '초비상' @ 19-Dec-2017](https://n.news.naver.com/mnews/article/021/0002337315?sid=101)
 - [(연합뉴스) 대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌유출 우려" @ 19-Dec-2017](https://n.news.naver.com/mnews/article/001/0009760685?sid=001)
 - [(SBS News) 대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌 유출 우려" @ 19-Dec-2017](https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM)
-- ['두뇌유출' 애국심만으로 붙잡기 어렵다 @ 20-Dec-2017](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
+- [(전국매일신문) '두뇌유출' 애국심만으로 붙잡기 어렵다 @ 20-Dec-2017](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
 
 
 ## When joining Gauss Labs, Inc. in 2020
 
 - [(조선일보) 최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범 @ 22-Sep-2020 KST](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html)
+<blockquote>
+가우스랩스의 핵심이라고 할 수 있는 연구개발(R&D) 최고책임자는 아마존 출신의 윤성희 박사가 영입됐다. 윤 박사는 반도체, 전자상거래 등 다양한 산업현장에서 실력을 쌓은 AI 전문가로 알려졌다.
+</blockquote>
 - [(SK hynix Newsroom) "반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다" - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다 @ 29-Jun-2021 KST](https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs)
+<blockquote>
+<p>
+궁극적으로는 개발된 솔루션들을 융합해 산업 AI 플랫폼을 구축하는 것이 목표입니다. 개발된 애플리케이션 자체를 다양한 산업군에 그대로 적용하기는 어렵겠지만, 앱을 구성하는 기반 기술들은 다른 산업군에도 쉽게 적용할 수 있을 것입니다. 재사용 가능한 기반 기술들로 오픈 플랫폼을 구축해 SK하이닉스 구성원들은 물론, 반도체 장비, 클라우드, 소프트웨어 등 관련 업체들이 자유롭게 참여하고 발전시킬 수 있는 AI 플랫폼을 구축해 산업 AI의 혁신을 이뤄가도록 하겠습니다.
+</p>
+<p>
+윤성희 담당
+</p>
+</blockquote>
+<!--
 - [(Korea Forbes) &#91;'초격차' 기술 주도할 10인&#93; 한국 제조업 혁신의 주역들 @ 23-Feb-2021 KST](https://jmagazine.joins.com/forbes/view/333066)
+-->
 - [(Korea IT Times) SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital @ 23-Sep-2020 KST](https://www.koreaittimes.com/news/articleView.html?idxno=100615)
+<blockquote>
+Gauss Labs hired Sunghee Yun from Amazon as its Chief R&D officer to lead the technology development.
+Sunghee Yun is a former research assistant and Ph.D. student at Stanford University's Stephen Boyd,
+a world-renowned authority in machine learning and Convex Optimization.
+He is an AI and optimization expert who has built up his skills in various industrial sites such as semiconductors and e-commerce.
+</blockquote>
 - [(잔자신문) SK하이닉스, AI 전문회사 '가우스랩스' 출범 @ 23-Sep-2020 KST](https://www.etnews.com/20200922000082)
 - [(IT BizNews) 인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소 @ 22-Sep-2020 KST](https://www.itbiznews.com/news/articleView.html?idxno=20158)
-- [X](https://www.seoulfn.com/news/articleView.html?idxno=395963)
-[X](https://www.smedaily.co.kr/news/articleView.html?idxno=207272)
-[X](https://www.opinionnews.co.kr/news/articleView.html?idxno=40391)
-[X](https://www.aifnlife.co.kr/news/articleView.html?idxno=8993)
-[X](https://www.hankyung.com/article/2020092263455)
-[X](https://www.kbiznews.co.kr/news/articleView.html?idxno=72876)
-[X](https://www.mk.co.kr/news/business/9533361)
-[X](https://www.fetimes.co.kr/news/articleView.html?idxno=98954)
+<blockquote>
+가우스랩스는 기술 개발을 지휘할 R&D 최고책임자로 아마존 출신의 윤성희 박사를 영입했다.
+윤성희 박사는 머신러닝(ML)과 컨벡스 최적화(Convex Optimization) 분야 권위자인 스탠퍼드대학교 스티븐 보이드(Stephen Boyd) 교수 연구실 출신으로
+반도체, 전자상거래 등 다양한 산업 현장에서 실력을 쌓은 AI 및 최적화 전문가이다.
+</blockquote>
+- [(서울파이낸스) SK하이닉스, AI 전문회사 '가우스랩스' 설립 @ 22-Sep-2020 KST](https://www.seoulfn.com/news/articleView.html?idxno=395963)
+- [(중소기업신문) SK그룹의 AI 싱크탱크 '가우스랩스' @ 29-Jun-2021](https://www.smedaily.co.kr/news/articleView.html?idxno=207272)
+- [(오피니언뉴스) SK, '산업 AI 솔루션' 사업 진출&hellip;AI 전문기업 '가우스랩스' 설립 @ 22-Sep-2020](https://www.opinionnews.co.kr/news/articleView.html?idxno=40391)
+- [(AI라이프경제) 가우스랩스 출범 10개월&hellip;'올해 말까지 현재 2배 규모 AI 인재 채용' @ 30-Jun-2021](https://www.aifnlife.co.kr/news/articleView.html?idxno=8993)
+<blockquote>
+가우스랩스 R&D 조직의 수장인 윤성희 담당은 "궁극적으로 개발된 솔루션들을 융합해 산업 AI 플랫폼을 구축하는 것이 목표"라며 "기반 기술들로 오픈 플랫폼을 구축해 SK하이닉스 구성원들은 물론 반도체 장비, 클라우드, 소프트웨어 등 관련 업체들이 자유롭게 참여하고 발전시킬 수 있는 AI 플랫폼을 구축해 산업 AI의 혁신을 이뤄 나가겠다"고 말했다.
+</blockquote>
+- [(한경) 최태원의 AI 승부수&hellip;美 실리콘밸리에 AI 전문회사 세워](https://www.hankyung.com/article/2020092263455)
+<blockquote>
+&hellip;
+기술 개발을 지휘할 R&D 최고책임자로 아마존 출신의 윤성희 박사를 영입했다.
+윤성희 박사는 머신 러닝과 컨벡스 최적화 분야의 세계적 권위자인 스탠퍼드대학교 스티븐 보이드 교수 연구실 출신으로 반도체, 전자상거래 등 다양한 산업 현장에서 실력을 쌓은 AI 및 최적화 전문가이다.
+</blockquote>
+- [(중소기업뉴스) SK그룹의 첫 AI 별도 법인&hellip; '가우스랩스' 출범 @ 22-Sep-2020](https://www.kbiznews.co.kr/news/articleView.html?idxno=72876)
+- [(매일경제) SK, 美에 AI 전문사 '가우스랩스' 설립 @ 22-Sep-2020](https://www.mk.co.kr/news/business/9533361)
+
+<!--blockquote>
+기술 개발을 지휘할 R&D 최고책임자로는 아마존 출신 윤성희 박사를 영입했다. 윤 박사는 머신러닝(Machine Learning)과 컨벡스 최적화(Convex Optimization) 분야 세계적 권위자인 스티븐 보이드 스탠퍼드대 교수 연구실 출신으로 반도체, 전자상거래 등 다양한 산업 현장에서 실력을 쌓은 AI 및 최적화 전문가이다.
+</blockquote-->
+<!--
+- [X](https://www.fetimes.co.kr/news/articleView.html?idxno=98954)
 [X](https://news.einfomax.co.kr/news/articleView.html?idxno=4108672)
 [X](https://www.hani.co.kr/arti/economy/marketing/963131.html)
 [X](https://www.kipost.net/news/articleView.html?idxno=205523)
@@ -169,3 +206,4 @@ My life goal is to help build a future where humanity thrives through the advanc
 [X](https://www.moneys.co.kr/article/2020092208248072677)
 [X](https://www.fetv.co.kr/news/article.html?no=64174)
 [X](https://www.seoulfn.com/news/articleView.html?idxno=395963)
+-->
