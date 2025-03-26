@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Mar 23 02:14:02 PDT 2025
+last_modified_at: Wed Mar 26 00:17:24 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -112,6 +112,46 @@ My life goal is to help build a future where humanity thrives through the advanc
 </tr>
 </table>
 
+# Bio
+
+## short
+
+Sunghee Yun is a distinguished technology leader and AI pioneer currently serving as
+Co-founder &amp; CTO of Erudio Bio, Inc.,
+Advisor and Evangelist at CryptoLab, Inc.,
+and
+Chief Business Development Officer at WeStory.ai.
+His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
+He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
+Sunghee's expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as an Adjunct Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University, alongside his fellowship at KFAS-Salzburg Global Leadership Initiative.
+
+## long
+
+Sunghee Yun is a distinguished technology leader and AI pioneer currently serving as
+Co-founder &amp; CTO of Erudio Bio, Inc.,
+Advisor and Evangelist at CryptoLab, Inc.,
+and
+Chief Business Development Officer at WeStory.ai.
+His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor,
+where he developed AI and optimization tools for chip design, manufacturing, and testing—solutions
+that continue to be utilized daily by many Samsung engineers.
+Following his impactful work at Samsung, he drove AI technology development at Amazon.com,
+where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
+He holds BS degree in Electrical Engineering from Seoul National University
+and MS & Ph.D. degrees in Electrical Engineering from Stanford University,
+where he studied under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
+He uniquely masters every aspect of the field—from theoretical foundations
+to practical implementations, applications, and statistical methods.
+
+Sunghee has consistently pushed the boundaries of technology across diverse sectors,
+from semiconductor design &amp; manufacturing and e-Commerce to industrial AI and biotech.
+His expertise spans the development of agentic AIs leveraging large language models (LLMs),
+multimodal generative AI (genAI), and AI Agents.
+He currently serves in several active roles,
+including as an Adjunct Professor at Sogang University, Advisory Professor at DGIST,
+and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
+He is also a KFAS-Salzburg Global Leadership Initiative Fellow,
+where he focuses on addressing the challenges and opportunities presented by AI technology in shaping our future.
 
 # Press exposure
 
