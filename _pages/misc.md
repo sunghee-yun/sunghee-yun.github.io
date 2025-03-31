@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Mar 31 07:51:11 PDT 2025
+last_modified_at: Mon Mar 31 15:27:33 PDT 2025
 ---
 
 # AI Talks
@@ -229,33 +229,20 @@ last_modified_at: Mon Mar 31 07:51:11 PDT 2025
 
 <h4>Apr</h4>
 
-<ul>
-<li>
-	biz trip to Seoul
-	-
-	15 nights
-	<ul>
-	<li>
-		26-Apr-2025 PDT ~ 11-May-2025 PDT
-	</li>
-	<li>
-		<a href="/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf">flight</a>
-		- United 893
-		- from SFO @ 10:30am on 26-Apr-2025 PDT to ICN @ 3pm on 27-Apr-2025 KST
+- biz trip to Seoul &ndash; 15 nights
+	- 26-Apr-2025 PDT ~ 11-May-2025 PDT
+	- <a href="/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf">flight</a>
+		&ndash; United 893
+		&ndash; from SFO @ 10:30am on 26-Apr-2025 PDT to ICN @ 3pm on 27-Apr-2025 KST
 		(12h 30m)
-	</li>
-	<li>
-		return flight
-		- United 892
-		- from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
+	- return flight
+		&ndash; United 892
+		&ndash; from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
 		(10h 40m)
-	</li>
-	<li>
-		stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
-	</li>
-	</ul>
-</li>
-</ul>
+	- stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
+- biz trip to LA &ndash; 2 nights
+	- 05-Apr-2025 PDT ~ 07-Apr-2025 PDT
+	- drive and stay @ [my aunt's](https://maps.app.goo.gl/xUp3KpNtwFfRY9JA6)
 
 <h4>Feb</h4>
 
