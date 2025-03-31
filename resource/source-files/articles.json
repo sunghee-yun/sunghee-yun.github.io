@@ -51,6 +51,13 @@
 	},
 	{
 		"category": ["biotech"],
+		"url": "https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/",
+		"title": "5 Digital Health Areas To Be Impacted By The FDA Layoffs",
+		"date": "18-Mar-2025",
+		"press": "LinkedIn Newsletter - The Future of Digital Health"
+	},
+	{
+		"category": ["biotech"],
 		"url": "https://www.newyorker.com/magazine/2014/12/15/blood-simpler",
 		"title": "Blood, Simpler",
 		"date": "08-Dec-2014",
@@ -771,6 +778,13 @@
 		"title": "Meet with Genie — Upcoming AI Engineer (Coding is Ending!)",
 		"press": "Medium",
 		"date": "23-Aug-2024"
+	},
+	{
+		"category": ["ai", "rl"],
+		"url": "https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing",
+		"title": "AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning",
+		"press": "NSF News",
+		"date": "05-Mar-2025"
 	},
 	{
 		"category": ["ai", "digital-twins"],

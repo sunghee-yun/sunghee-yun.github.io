@@ -97,6 +97,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
+	- LinkedIn Newsletter - The Future of Digital Health
+	@ 18-Mar-2025
+</li>
+<li>
 	<a href="https://www.linkedin.com/pulse/top-diabetes-companies-way-artificial-pancreas-mesk%C3%B3-md-phd-1rxvf/">Top Diabetes Companies On The Way To The Artificial Pancreas</a>
 	- LinkedIn
 	@ 06-Nov-2024
@@ -697,6 +702,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
+<h2 id="ai-rl">Reinforcement learning</h2>
+
+<ul>
+<li>
+	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
+	- NSF News
+	@ 05-Mar-2025
+</li>
+</ul>
+
 <h2 id="ai-data">Data</h2>
 
 <ul>
@@ -1170,6 +1185,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
+	- LinkedIn Newsletter - The Future of Digital Health
+	@ 18-Mar-2025
+</li>
+<li>
+	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
+	- NSF News
+	@ 05-Mar-2025
+</li>
 <li>
 	<a href="https://v.daum.net/v/20250117145224118">머스크 우주선 잃었다… 스페이스X '스타십' 7번째 시험비행 실패</a>
 	- 머니S

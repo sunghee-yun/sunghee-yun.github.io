@@ -20,6 +20,7 @@
 	[["ai", "robotics"], "robotics"],
 	[["ai", "llm"], "llm"],
 	[["ai", "genai"], "genai"],
+	[["ai", "rl"], "reinforcement learning"],
 	[["ai", "data"], "data"],
 	[["ai", "digital-twins"], "digital twins"],
 	[["ai", "hardware"], "hardware"],
