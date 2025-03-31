@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Mar 30 21:52:09 PDT 2025
+last_modified_at: Mon Mar 31 07:51:11 PDT 2025
 ---
 
 # AI Talks
@@ -43,7 +43,11 @@ last_modified_at: Sun Mar 30 21:52:09 PDT 2025
 </li>
 </ul>
 
-# Art &amp; Culture
+# Art, Culture &amp; Games
+
+## 2025 {#arts-and-culture-2025}
+
+- Giants vs D-backs w/ Jinyoung - 6:45pm on 13-May-2025
 
 ## 2024 {#arts-and-culture-2024}
 
