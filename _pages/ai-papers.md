@@ -485,7 +485,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 <h2 id="ai-recsys">Recommender system</h2>
 
 <ul>
-<li>
+<li id="alt-lst-sq">
 	"Collaborative Filtering for Implicit Feedback Datasets"
 	- Yifan Hu, Yehuda Koren &amp; Chris Volinsky
 	(AT&amp;T Labs &amp; Yahoo! Research)
@@ -690,7 +690,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	@ 18-Jul-2024
 	(<a href="https://arxiv.org/abs/2407.13517">arxiv</a>)
 </li>
-<li>
+<li id="alt-lst-sq">
 	"Collaborative Filtering for Implicit Feedback Datasets"
 	- Yifan Hu, Yehuda Koren &amp; Chris Volinsky
 	(AT&amp;T Labs &amp; Yahoo! Research)

@@ -547,6 +547,7 @@
 		}
 	},
 	{
+		"id": "alt-lst-sq",
 		"category": ["ai", "recsys"],
 		"title": "Collaborative Filtering for Implicit Feedback Datasets",
 		"authors": "Yifan Hu, Yehuda Koren, Chris Volinsky",
