@@ -1,0 +1,145 @@
+---
+title: Photos of GTC 2025
+date: Fri Mar 21 23:59:59 PDT 2025
+last_modified_at: Mon Apr  7 13:48:09 PDT 2025
+permalink: /gtc/2025
+categories:
+ - blog
+tags:
+ - gtc
+ - photos
+toc: false
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
+toc_sticky: true
+usemathjax: true  # Add this line
+---
+
+<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
+<br>
+cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-10 019.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-03 016.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 002.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-07 018.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-29 029.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-30 030.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-52 011.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 003.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-56 013.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 004.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-49 010.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-00 015.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 008.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-16 022.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 009.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-13 021.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 005.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 006.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-25 027.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-58 014.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-21 025.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-20 024.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-18 023.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-54 012.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 007.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-23 026.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-27 028.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 001.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-06 017.jpeg">
+</div>
+
+<div class="img-container">
+<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-11 020.jpeg">
+</div>
