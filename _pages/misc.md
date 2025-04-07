@@ -243,6 +243,24 @@ last_modified_at: Mon Mar 31 15:27:33 PDT 2025
 - biz trip to LA &ndash; 2 nights
 	- 05-Apr-2025 PDT ~ 07-Apr-2025 PDT
 	- drive and stay @ [my aunt's](https://maps.app.goo.gl/xUp3KpNtwFfRY9JA6)
+	- <div class="foldable-toggle">photos</div>
+		<div class="foldable-content">
+			<div class="img-container">
+			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-55 001.jpeg">
+			</div>
+			<div class="img-container">
+			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 002.jpeg">
+			</div>
+			<div class="img-container">
+			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 003.jpeg">
+			</div>
+			<div class="img-container">
+			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 004.jpeg">
+			</div>
+			<div class="img-container">
+			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 005.jpeg">
+			</div>
+		</div>
 
 <h4>Feb</h4>
 
