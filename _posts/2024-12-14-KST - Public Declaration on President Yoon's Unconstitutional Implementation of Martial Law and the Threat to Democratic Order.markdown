@@ -120,6 +120,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 2024년 12월 14일
 
+<span id="signatories">
 김병노
 김성진
 김지형
@@ -132,6 +133,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이규석
 이희영
 황보선
+</span>
 
 <!--
 # My perspectives
