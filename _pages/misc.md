@@ -6,20 +6,20 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Apr  9 17:48:34 PDT 2025
+last_modified_at: Wed Apr  9 22:01:46 PDT 2025
 ---
 
-# AI Talks
+# Potential AI talks
 
-- contact 김경도 @ sk hynix CIS for Jul-2025 Korea biz trip
+- contact 김경도 @ sk hynix CIS for Korea biz trip in Jul-2025
 
-# Coffee chats
+# Promised coffee chats
 
-- contact 전유진 for Apr-2025 Korea biz trip
-- contact 김재영 for Apr-2025 Korea biz trip
-- contact 이태주 for Jun-2025 Boston biz trip
+- contact 전유진 for Korea biz trip in Apr-2025
+- contact 김재영 for Korea biz trip in Apr-2025
+- contact 이태주 for Boston biz trip in Jun-2025
 
-# Research discussions
+# Candidate research discussions
 
 - [Division of Interdisciplinary Bioscience &amp; Bioengineering (i-bio) of POSTECH](https://ibio.postech.ac.kr/web/?top=study&sub=lab)
 	- [Molecular Diagnosis and Synthetic Biology Lab. (분자 진단 및 합성 생물학 연구실)](http://mdsb.postech.ac.kr/)
