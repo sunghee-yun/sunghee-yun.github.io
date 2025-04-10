@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Tue Mar 18 16:26:49 PDT 2025
+last_modified_at: Thu Apr 10 15:14:53 PDT 2025
 permalink: /ai/data
 categories:
  - blog
@@ -26,21 +26,21 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <blockquote>
 &hellip;
-the next competitive battlefield isn't in developing better base AI models,
-but in effectively combining them with domain-specific data through technologies like RAG and vector databases.
+<font class="emph">the next competitive battlefield isn't in developing better base AI models,
+but in effectively combining them with domain-specific data through technologies like RAG and vector databases.</font>
 </blockquote>
 
 <blockquote>
-This evolutionary chain
+<!--font class="emph"-->This evolutionary chain
 &ndash; represented by keywords from Big Data to Deep Learning, then to LLMs &amp; genAI, and now to AI agents
 &ndash; represents more than just a progression of buzzwords.
 Each transition signifies a fundamental leap in our ability to solve complex problems with machines,
-redefining the boundaries of AI.
+redefining the boundaries of AI.<!--/font-->
 </blockquote>
 
 <blockquote>
-The future belongs not to those who can build the biggest models,
-but to those who can most effectively organize and leverage their domain-specific data.
+<font class="emph">The future belongs not to those who can build the biggest models,
+but to those who can most effectively organize and leverage their domain-specific data.</font>
 </blockquote>
 
 # From Mathematical Foundations to AI Revolution
