@@ -6,17 +6,18 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Apr  9 17:40:30 PDT 2025
+last_modified_at: Wed Apr  9 17:48:34 PDT 2025
 ---
 
 # AI Talks
 
-- contact 김경도 @ sk hynix CIS for Jul-2025 biz trip
+- contact 김경도 @ sk hynix CIS for Jul-2025 Korea biz trip
 
 # Coffee chats
 
-- contact 전유진 for Apr-2025 biz trip
-- contact 김재영 for Apr-2025 biz trip
+- contact 전유진 for Apr-2025 Korea biz trip
+- contact 김재영 for Apr-2025 Korea biz trip
+- contact 이태주 for Jun-2025 Boston biz trip
 
 # Research discussions
 
