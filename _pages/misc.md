@@ -6,13 +6,17 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Mar 31 15:27:33 PDT 2025
+last_modified_at: Wed Apr  9 17:40:30 PDT 2025
 ---
 
 # AI Talks
 
-<!-- - contact 한정선 @ [에스넷시스템](https://www.snetsystems.co.kr/) for Apr-2025 biz trip-->
-- contact 김경도 @ sk hynix CIS for Apr-2025 biz trip
+- contact 김경도 @ sk hynix CIS for Jul-2025 biz trip
+
+# Coffee chats
+
+- contact 전유진 for Apr-2025 biz trip
+- contact 김재영 for Apr-2025 biz trip
 
 # Research discussions
 
