@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Thu Apr 10 15:14:53 PDT 2025
+last_modified_at: Sat Apr 12 17:10:22 PDT 2025
 permalink: /ai/data
 categories:
  - blog
@@ -31,11 +31,11 @@ but in effectively combining them with domain-specific data through technologies
 </blockquote>
 
 <blockquote>
-<!--font class="emph"-->This evolutionary chain
+<font class="emph">This evolutionary chain
 &ndash; represented by keywords from Big Data to Deep Learning, then to LLMs &amp; genAI, and now to AI agents
 &ndash; represents more than just a progression of buzzwords.
 Each transition signifies a fundamental leap in our ability to solve complex problems with machines,
-redefining the boundaries of AI.<!--/font-->
+redefining the boundaries of AI.</font>
 </blockquote>
 
 <blockquote>
