@@ -207,43 +207,34 @@ last_modified_at: Wed Apr  9 22:01:46 PDT 2025
 
 <h4>Dec</h4>
 
-<ul>
-<li>
-	biz trip to San Diego for NeurIPS 2025
-	-
+- biz trip to San Diego for NeurIPS 2025
+	&ndash;
 	6 nights
-	<ul>
-	<li>
-		01-Dec-2025 PST ~ 07-Dec-2025 PST
-	</li>
-	<li>
-		<a href="/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf">flight</a>
-		- AS 3429 operated by SUBSIDIARY/FRANCHISE
-		- from SJC @ 2:36pm to SAN @ 3:59pm on 01-Dec-2025 PST
+	- 01-Dec-2025 PST ~ 07-Dec-2025 PST
+	- [flight](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+		&ndash; AS 3429 operated by SUBSIDIARY/FRANCHISE
+		&ndash; from SJC @ 2:36pm to SAN @ 3:59pm on 01-Dec-2025 PST
 		(1h 23m)
-	</li>
-	<li>
-		return flight
-		- AS 3498 operated by SUBSIDIARY/FRANCHISE
-		- from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
+	- [return flight](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
+		&ndash; from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
 		(1h 28m)
-	</li>
-	</ul>
-</li>
-</ul>
 
 <h4>Apr</h4>
 
 - biz trip to Seoul &ndash; 15 nights
 	- 26-Apr-2025 PDT ~ 11-May-2025 PDT
-	- <a href="/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf">flight</a>
+	- [flight](/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf)
 		&ndash; United 893
 		&ndash; from SFO @ 10:30am on 26-Apr-2025 PDT to ICN @ 3pm on 27-Apr-2025 KST
 		(12h 30m)
-	- return flight
+	- [return flight](/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf)
 		&ndash; United 892
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
 		(10h 40m)
+	- 1 day trip to Pohang for AI Seminar @ POSTECH
+		[SRT](/resource/trips/2025-04 - Seoul/SRT.pdf) [KTX](/resource/trips/2025-04 - Seoul/KTX.pdf)
+		&ndash; 01-May-2025 KST
 	- stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
 - biz trip to LA &ndash; 2 nights
 	- 05-Apr-2025 PDT ~ 07-Apr-2025 PDT
