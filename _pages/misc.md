@@ -6,8 +6,13 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Apr  9 22:01:46 PDT 2025
+last_modified_at: Wed Apr 16 02:14:55 PDT 2025
 ---
+
+# English expressions
+
+- [be that as it may](https://dictionary.cambridge.org/us/dictionary/english/be-that-as-it-may)
+- [for what it's worth](https://dictionary.cambridge.org/us/dictionary/english/for-what-it-s-worth)
 
 # Potential AI talks
 
@@ -53,6 +58,7 @@ last_modified_at: Wed Apr  9 22:01:46 PDT 2025
 ## 2025 {#arts-and-culture-2025}
 
 - Giants vs D-backs w/ Jinyoung - 6:45pm on 13-May-2025
+- Giants vs Rangers w/ Ghayoung - 7:15pm on 25-Apr-2025
 
 ## 2024 {#arts-and-culture-2024}
 
@@ -198,6 +204,12 @@ last_modified_at: Wed Apr  9 22:01:46 PDT 2025
 </li>
 </ul>
 
+## 2021 {#arts-and-culture-2021}
+
+- Family
+	&ndash; [BTS (First US Concert in Two Years)](https://www.tatlerasia.com/lifestyle/entertainment/bts-first-concert-since-the-pandemic-los-angeles-november-2021)
+	&ndash; 8:30pm ~ 11:30pm on 28-Nov-2021 PST
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHQ3aTIyazIzcjdyOXRuczU3cTBmMmRjb3EgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&amp;tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 
 # Trips
 
