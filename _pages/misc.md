@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Apr 16 02:14:55 PDT 2025
+last_modified_at: Thu Apr 17 01:43:10 PDT 2025
 ---
 
 # English expressions
@@ -18,8 +18,9 @@ last_modified_at: Wed Apr 16 02:14:55 PDT 2025
 
 - contact 김경도 @ sk hynix CIS for Korea biz trip in Jul-2025
 
-# Promised coffee chats
+# Coffee chats to be arranged
 
+- contact 윤성호 for Korea biz trip in Apr-2025
 - contact 전유진 for Korea biz trip in Apr-2025
 - contact 김재영 for Korea biz trip in Apr-2025
 - contact 이태주 for Boston biz trip in Jun-2025
