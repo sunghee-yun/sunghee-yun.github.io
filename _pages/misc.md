@@ -6,8 +6,13 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Thu Apr 17 01:43:10 PDT 2025
+last_modified_at: Fri Apr 18 00:56:35 PDT 2025
 ---
+
+# URLs
+
+- [보도자료 - 제21대 대통령선거 주샌프란시스코총영사관재외선거관리위원회 출범 - https://naver.me/x3jBO7Rj](https://sanfrancisco.mofa.go.kr/us-sanfrancisco-ko/brd/m_4679/view.do?seq=1346385&page=1)
+- [중앙선거관리위원회 재외선거 홈페이지 - https://naver.me/x7vop8rs](https://www.nec.go.kr/site/abroad/main.do)
 
 # English expressions
 
