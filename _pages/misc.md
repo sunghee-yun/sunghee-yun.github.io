@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Fri Apr 18 23:15:37 PDT 2025
+last_modified_at: Sat Apr 19 00:40:32 PDT 2025
 ---
 
 # URLs
@@ -239,6 +239,25 @@ last_modified_at: Fri Apr 18 23:15:37 PDT 2025
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
 		(1h 28m)
+
+<h4>Jun</h4>
+
+- biz trip to Boston &amp; NYC &ndash; 6 nights
+	- 14-Jun-2025 PDT ~ 20-Jun-2025 PDT
+	- [flight 1](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
+		&ndash; JetBlue Airways 434
+		&ndash; from SFO @ 6:05am PDT to BOS @ 2:50pm EDT on 14-Jun-2025
+		(5h 45m)
+	- [flight 2](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
+		&ndash; JetBlue Airways 317
+		&ndash; from BOS @ 7:40pm to JFK @ 9:04pm on 15-Jun-2025 EDT
+		(1h 24m)
+	- [return flight](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
+		&ndash; JetBlue Airways 615
+		&ndash; from JFK @ 8:15pm EDT to SFO @ 11:59pm PDT on 20-Jun-2025
+		(6h 44m)
+	- stay @ [Marriott](/resource/trips/2025-06 - Boston & NYC/Reservation Confirmation _ Marriott Bonvoy.pdf), [Aloft Boston Seaport District](https://maps.app.goo.gl/kWpAAyPDCx8eY7VL6)
+		&amp; [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
 
 <h4>Apr</h4>
 
