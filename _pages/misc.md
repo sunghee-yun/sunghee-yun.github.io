@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Apr 19 00:40:32 PDT 2025
+last_modified_at: Sat Apr 19 22:12:48 PDT 2025
 ---
 
 # URLs
@@ -27,6 +27,7 @@ last_modified_at: Sat Apr 19 00:40:32 PDT 2025
 
 - contact 심병효 for Korea biz trip in Apr-2025
 - contact 윤성호 for Korea biz trip in Apr-2025
+- contact 정주연 for Korea biz trip in Apr-2025
 - contact 이국녕 for Korea biz trip in Apr-2025
 - contact 전유진 for Korea biz trip in Apr-2025
 - contact 김재영 for Korea biz trip in Apr-2025
@@ -271,10 +272,17 @@ last_modified_at: Sat Apr 19 00:40:32 PDT 2025
 		&ndash; United 892
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
 		(10h 40m)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Pohang for AI Seminar @ POSTECH
 		[SRT](/resource/trips/2025-04 - Seoul/SRT.pdf) [KTX](/resource/trips/2025-04 - Seoul/KTX.pdf)
 		&ndash; 01-May-2025 KST
-	- stay @ <a target="_blank" href="https://naver.me/xMjVc5Yq">가락동</a>
+	- 1 night trip to Jeju
+		- flight
+			&ndash; 7C 137
+			&ndash; from GMP @ 7:10pm to CJU @ 8:25pm on 3-May-2025 KST
+		- return flight
+			&ndash; 7C 138
+			&ndash; from CJU @ 9:05pm to GMP @ 10:20pm on 4-May-2025 KST
 - biz trip to LA &ndash; 2 nights
 	- 05-Apr-2025 PDT ~ 07-Apr-2025 PDT
 	- drive and stay @ [my aunt's](https://maps.app.goo.gl/xUp3KpNtwFfRY9JA6)
