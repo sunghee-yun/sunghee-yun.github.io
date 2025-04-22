@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Apr 19 22:12:48 PDT 2025
+last_modified_at: Tue Apr 22 03:34:18 PDT 2025
 ---
 
 # URLs
@@ -25,6 +25,9 @@ last_modified_at: Sat Apr 19 22:12:48 PDT 2025
 
 # Coffee chats to be arranged
 
+- contact 유승오 for Korea biz trip in Apr-2025
+- contact 소희정 for Korea biz trip in Apr-2025
+- contact 윤명훈 for Korea biz trip in Apr-2025
 - contact 심병효 for Korea biz trip in Apr-2025
 - contact 윤성호 for Korea biz trip in Apr-2025
 - contact 정주연 for Korea biz trip in Apr-2025
