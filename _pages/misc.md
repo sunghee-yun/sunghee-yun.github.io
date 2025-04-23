@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Apr 22 03:34:18 PDT 2025
+last_modified_at: Wed Apr 23 14:25:56 PDT 2025
 ---
 
 # URLs
@@ -277,7 +277,8 @@ last_modified_at: Tue Apr 22 03:34:18 PDT 2025
 		(10h 40m)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Pohang for AI Seminar @ POSTECH
-		[SRT](/resource/trips/2025-04 - Seoul/SRT.pdf) [KTX](/resource/trips/2025-04 - Seoul/KTX.pdf)
+		[KTX](/resource/trips/2025-04 - Seoul/KTX.pdf)
+		[SRT](/resource/trips/2025-04 - Seoul/SRT.pdf)
 		&ndash; 01-May-2025 KST
 	- 1 night trip to Jeju
 		- flight
