@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Apr 23 14:25:56 PDT 2025
+last_modified_at: Fri Apr 25 02:33:18 PDT 2025
 ---
 
 # URLs
@@ -34,6 +34,7 @@ last_modified_at: Wed Apr 23 14:25:56 PDT 2025
 - contact 이국녕 for Korea biz trip in Apr-2025
 - contact 전유진 for Korea biz trip in Apr-2025
 - contact 김재영 for Korea biz trip in Apr-2025
+- contact Sujin Kim for Korea biz trip in Apr-2025
 - contact 이태주 for Boston biz trip in Jun-2025
 
 # Candidate research discussions
