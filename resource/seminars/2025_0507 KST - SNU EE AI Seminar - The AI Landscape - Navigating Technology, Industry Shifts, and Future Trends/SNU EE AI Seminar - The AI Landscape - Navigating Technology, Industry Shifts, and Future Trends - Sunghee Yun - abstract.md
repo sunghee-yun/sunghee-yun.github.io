@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[SNU EE AI Seminar] The AI Landscape: Navigating Technology, Industry Shifts, and Future Trends"
-permalink: /seminars/2025_0507 KST - SNU EE AI Seminar -The AI Landscape - Navigating Technology, Industry Shifts, and Future Trends/abstract
+permalink: /seminars/2025_0507 KST - SNU EE AI Seminar - The AI Landscape - Navigating Technology, Industry Shifts, and Future Trends/abstract
 last_modified_at: Mon Apr 21 18:06:25 PDT 2025
 author_profile: true
 ---
