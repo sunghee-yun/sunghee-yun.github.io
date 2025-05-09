@@ -706,7 +706,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
-	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
+	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing" id="sutton-wins-turing-award-2024">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
 	- NSF News
 	@ 05-Mar-2025
 </li>
@@ -1191,7 +1191,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 18-Mar-2025
 </li>
 <li>
-	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
+	<a href="https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2024-turing" id="sutton-wins-turing-award-2024">AI pioneers Andrew Barto and Richard Sutton win 2024 Turing Award for groundbreaking contributions to reinforcement learning</a>
 	- NSF News
 	@ 05-Mar-2025
 </li>
