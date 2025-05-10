@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Fri Apr 25 02:33:18 PDT 2025
+last_modified_at: Sun May 11 01:53:42 KST 2025
 ---
 
 # URLs
@@ -25,17 +25,17 @@ last_modified_at: Fri Apr 25 02:33:18 PDT 2025
 
 # Coffee chats to be arranged
 
-- contact 유승오 for Korea biz trip in Apr-2025
-- contact 소희정 for Korea biz trip in Apr-2025
-- contact 윤명훈 for Korea biz trip in Apr-2025
-- contact 심병효 for Korea biz trip in Apr-2025
-- contact 윤성호 for Korea biz trip in Apr-2025
-- contact 정주연 for Korea biz trip in Apr-2025
-- contact 이국녕 for Korea biz trip in Apr-2025
-- contact 전유진 for Korea biz trip in Apr-2025
-- contact 김재영 for Korea biz trip in Apr-2025
-- contact Sujin Kim for Korea biz trip in Apr-2025
 - contact 이태주 for Boston biz trip in Jun-2025
+- contact 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025
+- contact 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025
+- contact 김재영 for Korea biz trip in <s>Apr-2025</s> May-2025
+- contact Sujin Kim for Korea biz trip in <s>Apr-2025</s> May-2025
+- <s>contact 유승오 for Korea biz trip in Apr-2025</s>
+- <s><font color="gray">contact 소희정 for Korea biz trip in Apr-2025</font></s>
+- <s><font color="gray">contact 윤명훈 for Korea biz trip in Apr-2025</font></s>
+- <s>contact 심병효 for Korea biz trip in Apr-2025</s>
+- <s>contact 정주연 for Korea biz trip in Apr-2025</s>
+- <s><font color="gray"> contact 이국녕 for Korea biz trip in Apr-2025</font></s>
 
 # Candidate research discussions
 
