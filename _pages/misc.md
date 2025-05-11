@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun May 11 01:53:42 KST 2025
+last_modified_at: Sun May 11 07:30:16 PDT 2025
 ---
 
 # URLs
@@ -264,6 +264,20 @@ last_modified_at: Sun May 11 01:53:42 KST 2025
 	- stay @ [Marriott](/resource/trips/2025-06 - Boston & NYC/Reservation Confirmation _ Marriott Bonvoy.pdf), [Aloft Boston Seaport District](https://maps.app.goo.gl/kWpAAyPDCx8eY7VL6)
 		&amp; [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
 
+<h4>May</h4>
+
+- biz trip to Seoul &ndash; 11 nights
+	- 20-May-2025 PDT ~ 31-May-2025 PDT
+	- [flight](/resource/trips/2025-05 - Seoul/www.expedia.com-egti-2H4-5WB-XXCN.pdf)
+		&ndash; United 893
+		&ndash; from SFO @ 10:30am on 20-May-2025 PDT to ICN @ 3pm on 21-May-2025 KST
+		(12h 30m)
+	- [return flight](/resource/trips/2025-05 - Seoul/www.expedia.com-egti-2H4-5WB-XXCN.pdf)
+		&ndash; United 892
+		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PST on 31-May-2025
+		(11h)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+
 <h4>Apr</h4>
 
 - biz trip to Seoul &ndash; 15 nights
@@ -274,7 +288,7 @@ last_modified_at: Sun May 11 01:53:42 KST 2025
 		(12h 30m)
 	- [return flight](/resource/trips/2025-04 - Seoul/www.expedia.com-egti-ZL2-BMF-4Y4N.pdf)
 		&ndash; United 892
-		&ndash; from ICN @ 4:50pm KST to SFO @ 11:30am PST on 11-May-2025
+		&ndash; from ICN @ <s>4:50pm</s> 6:24pm KST to SFO @ <s>11:30am</s> 12:46pm PST on 11-May-2025
 		(10h 40m)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Pohang for AI Seminar @ POSTECH
