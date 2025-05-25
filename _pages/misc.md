@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun May 11 07:30:16 PDT 2025
+last_modified_at: Sun May 25 14:20:27 KST 2025
 ---
 
 # URLs
@@ -247,6 +247,17 @@ last_modified_at: Sun May 11 07:30:16 PDT 2025
 
 <h4>Jun</h4>
 
+- biz trip to Seoul &ndash; 9 nights
+	- 25-Jun-2025 PDT ~ 04-Jul-2025 PDT
+	- [flight](/resource/trips/2025-06 - Seoul/www.expedia.com-egti-0XI-K81-9KCO.pdf)
+		&ndash; United 805
+		&ndash; from SFO @ 11:55pm on 25-Jun-2025 PDT to ICN @ 4:20am on 27-Jun-2025 KST
+		(12h 25m)
+	- [return flight](/resource/trips/2025-06 - Seoul/www.expedia.com-egti-0XI-K81-9KCO.pdf)
+		&ndash; United 892
+		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 04-Jul-2025
+		(11h)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 - biz trip to Boston &amp; NYC &ndash; 6 nights
 	- 14-Jun-2025 PDT ~ 20-Jun-2025 PDT
 	- [flight 1](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
