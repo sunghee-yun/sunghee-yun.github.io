@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun May 25 14:20:27 KST 2025
+last_modified_at: Tue May 27 21:07:00 KST 2025
 ---
 
 # URLs
@@ -232,7 +232,7 @@ last_modified_at: Sun May 25 14:20:27 KST 2025
 
 <h4>Dec</h4>
 
-- biz trip to San Diego for NeurIPS 2025
+- biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
 	6 nights
 	- 01-Dec-2025 PST ~ 07-Dec-2025 PST
