@@ -1,13 +1,13 @@
 ---
 title: (WIP) My Short Memo on Simulations
 date: Sun Mar 23 11:27:39 PDT 2025
-last_modified_at: Sun Mar 23 14:07:50 PDT 2025
+last_modified_at: Mon Jun  9 14:30:42 PDT 2025
 permalink: /simulation
 categories:
  - blog
 tags:
  - simulation
-toc: true
+toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
