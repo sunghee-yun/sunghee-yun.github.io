@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[KFAS 2025 AI Seminar] The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience"
-permalink: /seminars/2025_0627 KST KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/abstract
+permalink: /seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/abstract
 last_modified_at: Tue Jun  3 05:03:52 PDT 2025
 author_profile: true
 ---
