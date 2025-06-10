@@ -1,7 +1,7 @@
 ---
 title: The AI Agent Revolution - Commercial and Technological Landscape for Entrepreneurs (and Others)!
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Mon Jun  9 23:54:22 PDT 2025
+last_modified_at: Tue Jun 10 14:42:43 PDT 2025
 permalink: /ai/landscape
 categories:
  - blog
@@ -36,6 +36,10 @@ The Artificial Intelligence (AI) landscape has reached a critical inflection poi
 
 As I emphasize in [almost every recent AI lecture of mine](/#sem), these developments represent more than incremental progress—they signal a fundamental transformation in how we conceptualize and deploy AI in commercial applications. The barrier to entry for developing state-of-the-art foundation models has become prohibitively high, with only companies like OpenAI, Google, Anthropic, Mistral AI, DeepSeek, Alibaba, X, and Perplexity possessing the necessary resources. This reality has profound implications for entrepreneurs and investors seeking to build sustainable businesses in the AI space.
 
+<div class="img-container">
+<img src="/resource/posts/2025-06-09-PDT - AI-landscape/llms-07.jpeg">
+</div>
+
 Before delving into AI agents, let's examine how AI evolved during the 21st century by observing key technological milestones. Around 2010, the industry began focusing intensively on Big Data analytics and storage solutions. In 2012, AlexNet catalyzed the deep learning revolution, demonstrating that neural networks could achieve superhuman performance in image recognition tasks. The 2017 introduction of the Transformer architecture laid the groundwork for modern language models, culminating in ChatGPT's mainstream debut in 2022. This progression naturally evolved into widespread adoption of large language models (LLMs) and generative AI (genAI) technologies. Then finally, by late 2024, the focus shifted to AI agents—autonomous systems capable of executing complex, multi-step workflows with minimal human supervision.
 
 The concept of agents has traditionally been associated with robotics and autonomous systems. However, the current generation of AI agents represents something fundamentally different: software entities that can reason, plan, and execute tasks across digital environments with human-level or superior performance in specific domains.<sup><a href="#footnote2" id="ref2">2</a></sup>
@@ -47,6 +51,10 @@ Now let's examine the commercial opportunities and practical applications that e
 # The Fundamental Shift &ndash; From Tools to Autonomous Actors
 
 The transition from traditional AI tools to AI agents represents a paradigm shift comparable to moving from calculators to computers, or from static websites to interactive applications; actually, it's more than these! Where previous AI implementations required constant human oversight and explicit instructions for each task, AI agents can now operate with remarkable autonomy, making decisions, executing complex workflows, and even learning from their interactions.
+
+<div class="img-container">
+<img src="/resource/posts/2025-06-09-PDT - AI-landscape/ai-agent-and-autonomous-systems.png">
+</div>
 
 This autonomy is what makes AI agents revolutionary for entrepreneurs. Instead of building AI features that enhance existing products, entrepreneurs can now create AI-powered entities that can independently handle entire business processes. Think of the difference between a spell-checker (AI tools) and a personal assistant who can research, write, edit, and publish content based on high-level objectives (AI agents).
 
