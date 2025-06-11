@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue May 27 21:07:00 KST 2025
+last_modified_at: Wed Jun 11 09:14:54 PDT 2025
 ---
 
 # URLs
@@ -244,6 +244,20 @@ last_modified_at: Tue May 27 21:07:00 KST 2025
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
 		(1h 28m)
+
+<h4>Aug</h4>
+
+- biz trip to Seoul &ndash; 14 nights
+	- 06-Aug-2025 PDT ~ 20-Aug-2025 PDT
+	- [flight](/resource/trips/2025-08 - Seoul/www.expedia.com-egti-AYV-183-Q5EF.pdf)
+		&ndash; United 893
+		&ndash; from SFO @ 10:40am on 06-Aug-2025 PDT to ICN @ 3pm on 07-Aug-2025 KST
+		(12h 20m)
+	- [return flight](/resource/trips/2025-08 - Seoul/www.expedia.com-egti-AYV-183-Q5EF.pdf)
+		&ndash; United 892
+		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 20-Aug-2025
+		(11h)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 
 <h4>Jun</h4>
 
