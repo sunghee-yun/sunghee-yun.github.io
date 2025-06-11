@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Jun 11 09:14:54 PDT 2025
+last_modified_at: Wed Jun 11 14:17:06 PDT 2025
 ---
 
 # URLs
@@ -258,6 +258,20 @@ last_modified_at: Wed Jun 11 09:14:54 PDT 2025
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 20-Aug-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+
+<h4>Jul</h4>
+
+- Family trip to NYC &ndash; 14 nights
+	- 06-Aug-2025 PDT ~ 20-Aug-2025 PDT
+	- [flight](/resource/trips/2025-08 - NYC/Booking Confirmation – United Airlines.pdf)
+		&ndash; UA 2626
+		&ndash; from SFO @ 4:20pm on 19-Jul-2025 PDT to EWR @ 1:05am on 20-Jul-2025 EDT
+		(5h 45m)
+	- [return flight](/resource/trips/2025-08 - NYC/Booking Confirmation – United Airlines.pdf)
+		&ndash; United 2328
+		&ndash; from EWR @ 3:55pm EDT to SFO @ 7:04pm PDT on 25-Aug-2025
+		(6h 9m)
+	- stay @ [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
 
 <h4>Jun</h4>
 
