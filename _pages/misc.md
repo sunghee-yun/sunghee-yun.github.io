@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jun 14 18:32:47 EDT 2025
+last_modified_at: Sat Jun 14 18:55:03 EDT 2025
 ---
 
 # URLs
@@ -74,6 +74,11 @@ last_modified_at: Sat Jun 14 18:32:47 EDT 2025
 	&ndash; Ballgame
 	&ndash; Miami Marlins vs Giants
 	&ndash; 6:45pm on 24-Jun-2025 PDT
+- ME
+	&ndash; Musical
+	&ndash; [Maybe Happy Ending](/resource/tickets/2025-06/maybe-happy-ending-on-broadway.png)
+	@ [Belasco Theater](https://maps.app.goo.gl/rZoxgpZoauYYMxMF9)
+	&ndash; 2pm on 18-Jun-2025 EDT
 - Jinyoung and ME
 	&ndash; Ballgame
 	&ndash; D-backs vs Giants
