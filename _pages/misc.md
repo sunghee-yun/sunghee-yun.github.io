@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Jun 11 14:17:06 PDT 2025
+last_modified_at: Sat Jun 14 18:32:47 EDT 2025
 ---
 
 # URLs
@@ -70,8 +70,18 @@ last_modified_at: Wed Jun 11 14:17:06 PDT 2025
 
 ## 2025 {#arts-and-culture-2025}
 
-- Giants vs D-backs w/ Jinyoung - 6:45pm on 13-May-2025
-- Giants vs Rangers w/ Ghayoung - 7:15pm on 25-Apr-2025
+- Family
+	&ndash; Ballgame
+	&ndash; Miami Marlins vs Giants
+	&ndash; 6:45pm on 24-Jun-2025 PDT
+- Jinyoung and ME
+	&ndash; Ballgame
+	&ndash; D-backs vs Giants
+	&ndash; 6:45pm on 13-May-2025 PDT
+- Ghayoung and ME
+	&ndash; Ballgame
+	&ndash; Rangers Vs Giants
+	&ndash; 7:15pm on 25-Apr-2025 PDT
 
 ## 2024 {#arts-and-culture-2024}
 
