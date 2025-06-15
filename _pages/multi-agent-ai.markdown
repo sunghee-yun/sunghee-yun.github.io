@@ -1,7 +1,7 @@
 ---
 title: The AI Agent Revolution - Commercial and Technological Landscape for Entrepreneurs (and Others)!
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Sun Jun 15 04:12:57 EDT 2025
+last_modified_at: Sun Jun 15 04:18:32 EDT 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -251,7 +251,7 @@ The AI agent era has begun. The question for entrepreneurs and investors is not 
 	for their better understanding!
 	Refer to one of my articles, <a href="{{ ai_reason_post.url }}">{{ ai_reason_post.title }}</a>.
 	&nbsp;<a href="#ref2">↩</a></li>
-<li id="footnote2">
+<li id="footnote3">
 	Again (carefully) refer to <a href="{{ ai_reason_post.url }}">{{ ai_reason_post.title }}</a>.
 	&nbsp;<a href="#ref3">↩</a></li>
 </ol>
