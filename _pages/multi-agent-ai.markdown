@@ -1,8 +1,8 @@
 ---
 title: The AI Agent Revolution - Commercial and Technological Landscape for Entrepreneurs (and Others)!
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Tue Jun 10 14:42:43 PDT 2025
-permalink: /ai/landscape
+last_modified_at: Sun Jun 15 03:33:40 EDT 2025
+permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
 tags:
