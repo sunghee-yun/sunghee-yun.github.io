@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jun 14 18:55:03 EDT 2025
+last_modified_at: Sun Jun 15 20:51:29 EDT 2025
 ---
 
 # URLs
@@ -301,6 +301,17 @@ last_modified_at: Sat Jun 14 18:55:03 EDT 2025
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 04-Jul-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- trips
+		- 1 night trip to Icheon for AI Talk
+			@ Knowledge Festival All Seasons (KFAS) 2025 - AI &amp; Humanity
+			invited by Korea Foundation for Advanced Studies and SKMS Research Center
+			- 27-Jun-2025 ~ 28-Jun-2025
+			- <a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">poster</a>
+				<a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025_프로그램북.pdf">program book</a>
+			- stay @ [SKMS Research Center](https://naver.me/5r9R7NTX)
+		- 1 day trip to Daejeon for AI Seminar invited by Graduate School of Medical Science and Engineering, KAIST
+			- 03-Jul-2025 KST
+			- [SRT](/resource/trips/2025-06 - Seoul/srt schedules.png)
 - biz trip to Boston &amp; NYC &ndash; 6 nights
 	- 14-Jun-2025 PDT ~ 20-Jun-2025 PDT
 	- [flight 1](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
@@ -346,8 +357,7 @@ last_modified_at: Sat Jun 14 18:55:03 EDT 2025
 		(10h 40m)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Pohang for AI Seminar @ POSTECH
-		[KTX](/resource/trips/2025-04 - Seoul/KTX.pdf)
-		[SRT](/resource/trips/2025-04 - Seoul/SRT.pdf)
+		&ndash; [KTX](/resource/trips/2025-04 - Seoul/KTX.pdf) [SRT](/resource/trips/2025-04 - Seoul/SRT.pdf)
 		&ndash; 01-May-2025 KST
 	- 1 night trip to Jeju
 		- flight
