@@ -1,0 +1,19 @@
+---
+layout: single
+title: "[ICTC 2025 AI Seminar] Convergent AI Innovation - From Protein Folding Breakthroughs to Agentic AI for Sustainable Future"
+permalink: /seminars/2025_1015 KST - ICTC 2025 AI Seminar - Convergent AI Innovation - From Protein Folding Breakthroughs to Agentic AI for Sustainable Future/abstract
+last_modified_at: Tue Jun 17 14:05:08 EDT 2025
+author_profile: true
+---
+
+# Abstract
+
+The remarkable success of AI in solving previously intractable scientific problems—epitomized by AlphaFold’s breakthrough in protein structure prediction—signals a fundamental shift in how we approach complexity. This talk explores how the core algorithmic innovations behind such breakthroughs are being reimagined across diverse domains, particularly in pursuit of sustainable technological ecosystems. From deep learning to reinforcement-based planning, we are witnessing the rise of systems that transcend narrow specialization. These architectures are evolving into agentic frameworks—AI systems that operate with contextual awareness, domain fluency, and autonomous goal-seeking behavior.
+
+Drawing from my own cross-sector experience—spanning industrial AI at Amazon and Gauss Labs, biotech innovation at Erudio Bio, and academic engagements at Stanford, KAIST, KIST, and Institut Pasteur—I will present case studies showing how these agentic systems are already enabling impactful change. In biotechnology, agentic AI accelerates multi-omic diagnostics by integrating noisy biological signals into coherent, clinically useful insights. In manufacturing and environmental sensing, similar approaches enhance system-level optimization while adapting to dynamic, real-world constraints. These examples reveal a new paradigm of “convergent AI,” where ideas and models developed in one field find renewed power when translated into another.
+
+The seminar will emphasize that the future of AI lies not in isolated breakthroughs but in their orchestration—fostering convergence between hardware and software, between data-rich industries and life sciences, and between human judgment and machine autonomy. By embedding AI within the full stack of ICT—across data, devices, decision-making, and development cycles—we have the opportunity to build systems that not only maximize performance but align with long-term goals of resilience, interpretability, and sustainability. This convergence is not merely technological—it is a call to redesign how we think, build, and collaborate across disciplines.
+
+## shorter version
+
+The remarkable success of AI in solving previously intractable scientific problems, epitomized by AlphaFold's protein structure prediction breakthrough, signals a fundamental shift in how we approach complex challenges across domains. This presentation explores how the algorithmic foundations and methodologies that revolutionized protein folding are now being translated to address sustainability challenges in industrial and societal contexts. We examine how deep learning architectures, once specialized for specific domains, are evolving into more versatile, agentic systems capable of autonomous decision-making and problem-solving. Drawing parallels between biological systems and industrial applications, we demonstrate how convergent innovation—the cross-pollination of AI approaches between seemingly disparate fields—creates unique opportunities for sustainable development. The emergence of Agentic AI, systems that independently pursue goals with domain knowledge and contextual awareness, represents the next frontier in this evolution. Through case studies spanning biotech, industrial manufacturing, and environmental management, we illustrate how this convergence is creating AI systems that not only optimize for efficiency but actively contribute to building a more sustainable future across the entire ICT ecosystem.
