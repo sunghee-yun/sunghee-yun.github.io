@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Jun 15 20:51:29 EDT 2025
+last_modified_at: Fri Jun 20 02:35:57 EDT 2025
 ---
 
 # URLs
@@ -276,8 +276,8 @@ last_modified_at: Sun Jun 15 20:51:29 EDT 2025
 
 <h4>Jul</h4>
 
-- Family trip to NYC &ndash; 14 nights
-	- 06-Aug-2025 PDT ~ 20-Aug-2025 PDT
+- Family trip to NYC &ndash; 6 nights
+	- 19-Jul-2025 PDT ~ 25-Aug-2025 PDT
 	- [flight](/resource/trips/2025-08 - NYC/Booking Confirmation – United Airlines.pdf)
 		&ndash; UA 2626
 		&ndash; from SFO @ 4:20pm on 19-Jul-2025 PDT to EWR @ 1:05am on 20-Jul-2025 EDT
