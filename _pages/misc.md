@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Fri Jun 20 19:44:31 EDT 2025
+last_modified_at: Sat Jun 21 03:06:15 EDT 2025
 ---
 
 # URLs
@@ -320,12 +320,10 @@ last_modified_at: Fri Jun 20 19:44:31 EDT 2025
 		(5h 45m)
 	- [flight 2](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
 		&ndash; JetBlue Airways 317
-		&ndash; from BOS @ 7:40pm to JFK @ 9:04pm on 15-Jun-2025 EDT
-		(1h 24m)
+		&ndash; from BOS @ <s>7:40pm</s> 9:20pm to JFK @ <s>9:04pm</s> 10:56pm on 15-Jun-2025 EDT <s>(1h 24m)</s> (1h 36m)
 	- [return flight](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
 		&ndash; JetBlue Airways 615
-		&ndash; from JFK @ <s>8:15pm</s> 10pm on 20-Jun-2025 EDT to SFO @ <s>11:59pm</s> 1:47am on 21-Jun-2025 PDT
-		<s>(6h 44m)</s> (6h 47m)
+		&ndash; from JFK @ <s>8:15pm</s> 10:20pm on 20-Jun-2025 EDT to SFO @ <s>11:59pm</s> 1:55am on 21-Jun-2025 PDT <s>(6h 44m)</s> (6h 35m)
 	- stay @ [Marriott](/resource/trips/2025-06 - Boston & NYC/Reservation Confirmation _ Marriott Bonvoy.pdf), [Aloft Boston Seaport District](https://maps.app.goo.gl/kWpAAyPDCx8eY7VL6)
 		&amp; [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
 
