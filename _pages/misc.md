@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jun 21 01:46:54 PDT 2025
+last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 ---
 
 # URLs
@@ -100,7 +100,7 @@ last_modified_at: Sat Jun 21 01:46:54 PDT 2025
 	8pm on 28-Dec-2024 EST
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dmwwbTJpOWZuZmhzbmVkOG9jNmM2bGFyNWcgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&amp;tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	&nbsp;
-	<a href="/resource/trips/2025-NY/MOMA - tickets.pdf">Tickets</a>
+	<a href="/resource/trips/2024-NY/MOMA - tickets.pdf">Tickets</a>
 </li>
 <li>
 	Family
