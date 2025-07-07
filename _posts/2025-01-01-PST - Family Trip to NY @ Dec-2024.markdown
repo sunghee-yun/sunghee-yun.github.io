@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Thu Jan  2 00:31:28 PST 2025
+last_modified_at: Sun Jul  6 19:25:21 PDT 2025
 categories:
  - blog
 tags:
@@ -125,11 +125,13 @@ above, the force like the electric force is exerted on two point masses
 </figure>
 </div>
 
+<p id="piano-violin-with-lucy">
 Our trip culminated in a musical collaboration that brought us all immense joy.
 I had the honor of playing the piano accompaniment for Lucy's violin performance of
 <!--Seitz Violin Concerto No. 5 in D Major Op. 22, 3rd Mvt. (rondo).-->
 Friedrich Seitz's Violin Concerto No. 5 in D major, Op. 22, Third Movement (Rondo).
 The harmony of our instruments echoed the harmony of our families, creating a beautiful melody that will forever resonate in our hearts.
+</p>
 
 <div id="video" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
