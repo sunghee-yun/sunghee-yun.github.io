@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[KICSV Special AI Lecture] Mathematics for AI - Theory into Practice"
+permalink: /seminars/2025_1006 PDT - KICSV Special AI Lecture - Mathematics for AI - Theory into Practice/abstract
+last_modified_at: Mon Jul  7 06:27:47 PDT 2025
+author_profile: true
+---
+
+# Abstract
+
+This foundational lecture provides essential mathematical prerequisites and practical implementation insights that underpin all modern artificial intelligence systems, bridging the critical gap between theoretical understanding and real-world AI applications. Beginning with core mathematical foundations—linear algebra operations including matrix-vector multiplication and transposes, multivariable calculus concepts such as partial derivatives and gradients, and statistical fundamentals covering probability distributions and expected values—the presentation establishes the rigorous mathematical framework necessary for comprehending machine learning algorithms. Through systematic exposition of these prerequisites, attendees gain the quantitative literacy required to understand why AI systems work, not merely how to use them, positioning participants to make informed technical decisions in an increasingly AI-driven technological landscape.
+
+The technical core focuses on machine learning fundamentals, demonstrating how statistical problems are formulated and solved through numerical optimization. The lecture illuminates the elegant mathematical connections underlying modern AI, showing how maximum likelihood estimation relates to KL divergence minimization, how Gaussian assumptions lead to mean squared error objectives, and how these statistical principles translate into practical optimization problems solved via stochastic gradient descent. Through detailed exploration of deep learning architectures—including convolutional neural networks for spatial data processing, recurrent neural networks for sequential information, and the mathematical foundations of representation learning—participants understand how hierarchical feature extraction emerges from relatively simple mathematical operations applied at scale across multiple layers.
+
+The presentation culminates with a comprehensive treatment of deep neural network training using backpropagation and stochastic gradient descent, providing both theoretical derivations and practical implementation details. Through systematic derivation of the chain rule applications that enable gradient computation in deep networks, participants gain insight into the mathematical elegance underlying modern AI training procedures. The lecture includes practical implementation perspectives using matrix-vector formulations and Python numpy operations, ensuring attendees can bridge theoretical understanding with computational practice. By connecting fundamental mathematical concepts to cutting-edge AI applications, this lecture empowers participants with the quantitative foundation necessary to contribute meaningfully to AI development, whether in research, engineering, or strategic decision-making roles across diverse industries experiencing AI transformation.
