@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Mon Jul  7 22:46:20 PDT 2025
+last_modified_at: Mon Jul  7 23:03:13 PDT 2025
 ---
 
 <script>
@@ -59,41 +59,6 @@ last_modified_at: Mon Jul  7 22:46:20 PDT 2025
 	<a href="/resource/books/AI/Introduction to Applied Linear Algebra - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
 </li>
 <li>
-	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
-	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
-</li>
-<li>
-	Pattern Recognition and Machine Learning (Information Science and Statistics) - Christopher M. Bishop
-	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
-	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
-</li>
-<li>
-	Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
-	-
-	Kevin P. Murphy
-	(<a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
-</li>
-<li>
-	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
-	-
-	Daphne Koller, Nir Friedman
-	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
-</li>
-<li>
-	Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
-	-
-	Kevin P. Murphy
-	(<a href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
-</li>
-<li>
-	Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
-	-
-	Richard S. Sutton, Andrew G. Barto
-	(<a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>,
-	<a href="/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>)
-</li>
-<li>
 	The Elements of Statistical Learning: Data Mining, Inference, and Prediction
 	-
 	Trevor Hastie, Robert Tibshirani, Jerome Friedman
@@ -117,6 +82,41 @@ last_modified_at: Mon Jul  7 22:46:20 PDT 2025
 		and Bayesian inference.
 	</p>
 	</div>
+</li>
+<li>
+	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
+	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
+</li>
+<li>
+	Pattern Recognition and Machine Learning (Information Science and Statistics) - Christopher M. Bishop
+	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
+	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
+</li>
+<li>
+	Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
+	-
+	Richard S. Sutton, Andrew G. Barto
+	(<a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>,
+	<a href="/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>)
+</li>
+<li>
+	Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
+	-
+	Kevin P. Murphy
+	(<a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
+</li>
+<li>
+	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
+	-
+	Daphne Koller, Nir Friedman
+	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
+</li>
+<li>
+	Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
+	-
+	Kevin P. Murphy
+	(<a href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
 </li>
 </ul>
 
