@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Mon Jul  7 22:00:17 PDT 2025
+last_modified_at: Mon Jul  7 22:46:20 PDT 2025
 ---
 
 <script>
@@ -69,16 +69,16 @@ last_modified_at: Mon Jul  7 22:00:17 PDT 2025
 	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
 </li>
 <li>
-	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
-	-
-	Daphne Koller, Nir Friedman
-	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
-</li>
-<li>
 	Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
 	-
 	Kevin P. Murphy
 	(<a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
+</li>
+<li>
+	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
+	-
+	Daphne Koller, Nir Friedman
+	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
 </li>
 <li>
 	Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
