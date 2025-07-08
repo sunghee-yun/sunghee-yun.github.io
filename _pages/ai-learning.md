@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Mon Jul  7 23:03:13 PDT 2025
+last_modified_at: Tue Jul  8 01:22:18 PDT 2025
 ---
 
 <script>
@@ -84,14 +84,14 @@ last_modified_at: Mon Jul  7 23:03:13 PDT 2025
 	</div>
 </li>
 <li>
-	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
-	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
-</li>
-<li>
 	Pattern Recognition and Machine Learning (Information Science and Statistics) - Christopher M. Bishop
 	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
 	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
+</li>
+<li>
+	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
+	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
 </li>
 <li>
 	Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
