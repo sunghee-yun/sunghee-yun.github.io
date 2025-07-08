@@ -6,6 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
+last_modified_at: Mon Jul  7 22:00:17 PDT 2025
 ---
 
 <script>
@@ -59,7 +60,7 @@ toc_sticky: true
 </li>
 <li>
 	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
-	(<a href="https://www.facebook.com/sunghee.yun1/posts/pfbid0itijGVyiNTpxbPRK9Z4hff5BsqbEXKt8XEHzoDCxfYHks78kkuD2k2kYWDsQkQnQl">Amazon</a>,
+	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
 	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
 </li>
 <li>
