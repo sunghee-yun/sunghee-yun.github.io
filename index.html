@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jul  8 18:19:27 PDT 2025
+last_modified_at: Tue Jul  8 18:46:12 PDT 2025
 ---
 
 <head>
@@ -1176,6 +1176,7 @@ function autoPlayAudio() {
             audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
             // Add a small delay to ensure the page has loaded
+			/*
             setTimeout(() => {
                 audioElement.play().catch(error => {
                     console.log('Auto-play was prevented by browser:', error);
@@ -1184,6 +1185,34 @@ function autoPlayAudio() {
                     audioElement.style.borderRadius = '5px';
                 });
             }, 500);
+			*/
+			// Alternative: Simulate click on play button
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+
         }
     }
 }
