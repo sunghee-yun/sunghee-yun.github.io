@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Sat Mar 22 16:21:10 PDT 2025
+last_modified_at: Wed Jul  9 07:38:49 PDT 2025
 categories:
  - blog
 tags:
@@ -40,7 +40,7 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 
 # Algebra Codex {#algebra-codex}
 
-- [Math is Fun &amp; Beautiful! - Algebra](/resource/fun math/fun_math_algebra - 2024_0731.pdf)
+- [Math is Fun &amp; Beautiful! - Algebra](/resource/fun math/fun_math_algebra - 2025_0709.pdf)
 
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}

@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Beauty
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Tue Feb  4 01:51:19 PST 2025
+last_modified_at: Wed Jul  9 07:38:49 PDT 2025
 categories:
  - blog
 tags:
@@ -33,8 +33,8 @@ and enriches their mathematical exploration journey.
 
 # Math Codex {#math-codex}
 
-- [Math is Fun &amp; Beautiful! - slides](/resource/fun math/fun_math - 2024_0731.pdf)
-- [Math is Fun &amp; Beautiful! - article version (converted from slides)](/resource/fun math/fun_math_article - 2024_0731.pdf)
+- [Math is Fun &amp; Beautiful! - slides](/resource/fun math/fun_math - 2025_0709.pdf)
+- [Math is Fun &amp; Beautiful! - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
 
 # A Journey Through Mathematical Beauty
 
