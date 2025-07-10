@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Sat Jan 25 17:56:46 PST 2025
+last_modified_at: Wed Jul  9 21:52:07 PDT 2025
 categories:
  - column
 tags:
@@ -25,6 +25,17 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 <!--# No, The Rule of Law Hasn't 'Collapsed' in South Korea-->
+
+# NotebookML Podcasts
+
+<audio id="podcast-eng-1" controls>
+	<source src="/resource/NotebookML/The Indestructible Rule of Law in South Korea - 01.wav" type="audio/wav">
+	Your browser does not support this shorter audio element.
+</audio>
+<audio id="podcast-eng-1" controls>
+	<source src="/resource/NotebookML/The Indestructible Rule of Law in South Korea - 02.wav" type="audio/wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <blockquote>
 What we're witnessing isn't the collapse of the rule of law,
