@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Fri Jul 11 02:28:54 PDT 2025
+last_modified_at: Fri Jul 11 02:59:44 PDT 2025
 categories:
  - blog
 tags:
@@ -72,6 +72,21 @@ and enriches their mathematical exploration journey.
 
 - [Searching for Universal Truths - slides](/resource/fun math/fun_math - 2025_0709.pdf)
 - [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
+
+# Child Blogs
+
+<!--span class="emph"-->
+This is just the beginning of our mathematical conversation!
+I'll be exploring each topic in depth through upcoming blog posts,
+starting with our first deep dive into inequalities!
+Stay connected for these mathematical adventures!
+<!--/span-->
+
+{% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
+{% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
+
+- [{{ inequalities.title }}]({{ inequalities.url }})
+- [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 
 # A Journey Through Mathematical Beauty
 
@@ -182,15 +197,6 @@ I deeply value dialogue with fellow mathematical explorers.
 Your insights, questions, and perspectives can enrich this ongoing journey of discovery.
 I welcome all comments and discussions &mdash; please reach out to me at
 <sunghee.yun@gmail.com> with "universal truth" in the subject line.
-
-<font class="emph">This is just the beginning of our mathematical conversation!
-I'll be exploring each topic in depth through upcoming blog posts,
-starting with our first deep dive into inequalities!
-Stay connected for these mathematical adventures!</font>
-
-{% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
-
-- [{{ inequalities.title }}]({{ inequalities.url }})
 
 <br>
 [Sunghee

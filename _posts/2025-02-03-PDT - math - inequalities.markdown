@@ -66,16 +66,16 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 	Your browser does not support this shorter audio element.
 </audio>
 
-# Parent blog
-
-{% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
-- [{{ math_landscape.title }}]({{ math_landscape.url }})
-
 # Algebra Codex {#algebra-codex}
 
 - [Searching for Universal Truths - Algebra](/resource/fun math/fun_math_algebra - 2025_0709.pdf)
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
+
+# Parent blog
+
+{% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
+- [{{ math_landscape.title }}]({{ math_landscape.url }})
 
 # A Journey Through Mathematical Boundaries
 
