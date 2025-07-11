@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Fri Jul 11 02:28:54 PDT 2025
+last_modified_at: Fri Jul 11 12:00:55 PDT 2025
 categories:
  - blog
 tags:
@@ -809,3 +809,63 @@ document.querySelectorAll('.cauchy-power-of-generalization-header-title').forEac
 });
 </script>
 
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
+
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
