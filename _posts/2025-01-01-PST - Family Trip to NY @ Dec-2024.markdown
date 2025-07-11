@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Sun Jul  6 19:25:21 PDT 2025
+last_modified_at: Fri Jul 11 12:46:04 PDT 2025
 categories:
  - blog
 tags:
@@ -9,8 +9,8 @@ tags:
  - trip
  - New York
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Fri Jul 11 12:00:55 PDT 2025
+last_modified_at: Fri Jul 11 12:43:05 PDT 2025
 categories:
  - blog
 tags:
@@ -9,8 +9,8 @@ tags:
  - philosophy
  - life
 toc: false
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: (WIP) Inevitabilities!
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Sun Feb  9 23:31:53 PST 2025
+last_modified_at: Fri Jul 11 12:43:05 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
 tags:
  - inevitabilities
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true  # Add this line
 ---

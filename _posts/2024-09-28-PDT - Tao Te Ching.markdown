@@ -1,15 +1,15 @@
 ---
 title: Tao Te Ching - 도덕경道德經
 date: 2024-09-28
-last_modified_at: Mon Jan  6 02:08:17 PST 2025
+last_modified_at: Fri Jul 11 12:46:04 PDT 2025
 categories:
  - blog
 tags:
  - Heart Sutra
  - Buddhism
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

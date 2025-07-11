@@ -1,15 +1,15 @@
 ---
 title: Press Release - WeStory.ai Transforms Personal Storytelling Through AI-Powered Biography Creation
 date: Tue Jan 14 19:03:10 PST 2025
-last_modified_at: Mon Jan 20 12:03:43 PST 2025
+last_modified_at: Fri Jul 11 12:43:05 PDT 2025
 categories:
  - pr&faq
 tags:
  - business
  - startup
 toc: false
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

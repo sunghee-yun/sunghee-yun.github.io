@@ -1,7 +1,7 @@
 ---
 title: Technology, Growth, and Inequality &ndash; The Case of AI
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Mon Jan 27 21:22:58 PST 2025
+last_modified_at: Fri Jul 11 12:43:05 PDT 2025
 categories:
  - blog
 tags:
@@ -9,8 +9,8 @@ tags:
  - Salzburg Global Seminar
  - report
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

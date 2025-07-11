@@ -1,7 +1,7 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 date: 06-Oct-2024
-last_modified_at: Thu Feb 13 01:51:57 PST 2025
+last_modified_at: Fri Jul 11 12:46:04 PDT 2025
 categories:
  - blog
 tags:
@@ -15,8 +15,8 @@ tags:
  - domain adaption
  - data
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

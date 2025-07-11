@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Fri Jul 11 12:00:55 PDT 2025
+last_modified_at: Fri Jul 11 12:46:04 PDT 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -9,8 +9,8 @@ tags:
  - 비상계엄령
  - 민주주의수호
 toc: true
-toc_label: "&nbsp;ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
@@ -25,11 +25,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 01.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>
-<audio id="podcast-1" controls>
+<audio id="podcast-2" controls>
 	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 02.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>
-<audio id="podcast-1" controls>
+<audio id="podcast-3" controls>
 	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 03.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>

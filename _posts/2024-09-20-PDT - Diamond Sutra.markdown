@@ -1,15 +1,15 @@
 ---
 title: Diamond Sūtra - 금강경金剛經
 date: 2024-09-21 00:30 PDT
-last_modified_at: Thu Sep 28 00:00:00 PDT 2024
+last_modified_at: Fri Jul 11 12:45:02 PDT 2025
 categories:
  - blog
 tags:
  - Heart Sutra
  - Buddhism
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

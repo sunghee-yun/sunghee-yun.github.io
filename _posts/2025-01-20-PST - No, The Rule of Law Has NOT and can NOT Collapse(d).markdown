@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Fri Jul 11 12:00:55 PDT 2025
+last_modified_at: Fri Jul 11 12:43:05 PDT 2025
 categories:
  - column
 tags:
@@ -10,8 +10,8 @@ tags:
  - legal systems
  - facts
 toc: false
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

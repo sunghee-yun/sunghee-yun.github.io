@@ -1,15 +1,15 @@
 ---
 title: Heart Sūtra - 반야심경般若心經
 date: 2024-09-19 PDT
-last_modified_at: Thu Sep 26 00:01:41 PDT 2024
+last_modified_at: Fri Jul 11 12:45:02 PDT 2025
 categories:
  - blog
 tags:
  - Heart Sutra
  - Buddhism
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

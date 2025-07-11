@@ -1,15 +1,15 @@
 ---
 title: Nature of Dharma Song - 법성게法性偈
 date: 2024-09-20 18:07 PDT
-last_modified_at: Thu Sep 26 00:01:41 PDT 2024
+last_modified_at: Fri Jul 11 12:45:27 PDT 2025
 categories:
 - blog
 tags:
 - Buddhism
 - Nature of Dharma Song
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
