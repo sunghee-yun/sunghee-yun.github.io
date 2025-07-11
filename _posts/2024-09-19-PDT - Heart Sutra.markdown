@@ -1,7 +1,7 @@
 ---
 title: Heart Sūtra - 반야심경般若心經
 date: 2024-09-19 PDT
-last_modified_at: Fri Jul 11 12:45:02 PDT 2025
+last_modified_at: Fri Jul 11 13:41:51 PDT 2025
 categories:
  - blog
 tags:
@@ -17,6 +17,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-09-19-PDT - Heart Sutra/NotebookLM/The Heart Sūtra_ Wisdom's Essence-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h1 id="intro">
 	Intro

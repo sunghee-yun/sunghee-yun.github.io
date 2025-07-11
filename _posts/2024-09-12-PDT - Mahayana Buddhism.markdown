@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Mon Mar 24 19:09:03 PDT 2025
+last_modified_at: Fri Jul 11 13:37:43 PDT 2025
 categories:
  - blog
 tags:
@@ -17,6 +17,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-09-12-PDT - Mahayana Buddhism/NotebookLM/대승불교_ 깨달음과 해탈의 길-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h1 id="intro">
 	Intro
