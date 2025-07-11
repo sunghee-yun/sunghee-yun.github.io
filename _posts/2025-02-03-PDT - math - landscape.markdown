@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Beauty
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Wed Jul  9 14:55:50 PDT 2025
+last_modified_at: Thu Jul 10 18:34:13 PDT 2025
 categories:
  - blog
 tags:
@@ -31,26 +31,26 @@ I aim to create a companion resource that illuminates connections between concep
 and enriches their mathematical exploration journey.
 </blockquote>
 
-# NotebookML Podcasts
+# NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/NotebookML/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
+	<source type="audio/wav" src="/resource/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/NotebookML/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
+	<source type="audio/wav" src="/resource/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/NotebookML/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
+	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-4" controls>
-	<source type="audio/wav" src="/resource/NotebookML/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
+	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-5" controls>
-	<source type="audio/wav" src="/resource/NotebookML/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
+	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

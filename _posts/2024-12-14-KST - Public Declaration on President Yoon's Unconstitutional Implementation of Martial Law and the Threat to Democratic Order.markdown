@@ -1,7 +1,7 @@
 ---
 title: 위헌적 계엄령 선포를 통한 민주헌정 질서 파괴 시도에 대한 시국선언문
 date: Sat Dec 14 03:33:52 KST 2024
-last_modified_at: Wed Jul  9 14:55:50 PDT 2025
+last_modified_at: Thu Jul 10 18:34:13 PDT 2025
 permalink: /public-declaration/
 categories:
  - 시국선언문
@@ -19,18 +19,18 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-# NotebookML Podcasts
+# NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source src="/resource/NotebookML/Condemning Martial Law_ A Public Declaration for Democracy - 01.wav" type="audio/wav">
+	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 01.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-1" controls>
-	<source src="/resource/NotebookML/Condemning Martial Law_ A Public Declaration for Democracy - 02.wav" type="audio/wav">
+	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 02.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-1" controls>
-	<source src="/resource/NotebookML/Condemning Martial Law_ A Public Declaration for Democracy - 03.wav" type="audio/wav">
+	<source src="/resource/NotebookLM/Condemning Martial Law_ A Public Declaration for Democracy - 03.wav" type="audio/wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
