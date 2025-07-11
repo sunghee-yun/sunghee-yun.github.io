@@ -1,6 +1,7 @@
 ---
 title: AI seminar series in Seoul - Jun &#12316; Jul in 2024
 date: Tue Jul 23 14:37:06 PDT 2024
+last_modified_at: Fri Jul 11 11:43:26 PDT 2025
 categories:
  - blog
 tags:
@@ -9,6 +10,10 @@ tags:
  - seoul
  - AI
  - seminar
+toc: true
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
+toc_sticky: true
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -16,6 +21,24 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-03.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-3" controls>
+	<source type="audio/wav" src="/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+# Reflections
 
 Last month, I had the privilege of doing AI seminar series at Samsung Electronics, Seoul National University (SNU),
 Pohang University of Science and Technology (POSTECH), Sogang University,
