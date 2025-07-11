@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon Feb 24 13:02:50 KST 2025
+last_modified_at: Fri Jul 11 05:00:53 PDT 2025
 categories:
  - blog
 tags:
@@ -28,6 +28,21 @@ The meaning of life isn't an inherent truth waiting to be discovered.
 <br>
 &hellip; it's something we actively create through our will and intention.
 </blockquote>
+
+# NotebookLM Podcasts
+
+<h2>based on this blog</h2>
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating Life's Meaning_ A Personal Journey-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating Life's Meaning_ A Personal Journey-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
 
 Like most people (I believe &hellip; or guess), I have often pondered why we live and, more specifically, why I live or should live.
 Throughout different stages of my life, I've found various answers, including the possibility that there is no answer at all.
