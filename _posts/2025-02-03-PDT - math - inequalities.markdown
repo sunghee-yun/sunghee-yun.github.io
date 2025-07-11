@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Thu Jul 10 18:34:13 PDT 2025
+last_modified_at: Fri Jul 11 02:28:54 PDT 2025
 categories:
  - blog
 tags:
@@ -24,25 +24,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-# NotebookLM Podcasts
-
-<audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/The Living Art of Inequalities - 04.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/The Living Art of Inequalities - 03.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/The Living Art of Inequalities - 02.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-4" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/The Living Art of Inequalities - 01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
 <blockquote>
 &hellip; inequalities aren't just tools for comparison
 &ndash; they're windows into the fundamental structures of mathematical relationships.
@@ -52,6 +33,39 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 Oh, I love Jensen's inequality! I've loved it ever since I met it for the first time in my life and I still love it!
 </blockquote>
 
+# NotebookLM Podcasts
+
+<h2>based on this blog</h2>
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 04.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 03.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+<audio id="podcast-3" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+<audio id="podcast-4" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<h2>based on Algebra Codex</h2>
+
+<audio id="podcast-slides-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-slides-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
 # Parent blog
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
@@ -59,22 +73,21 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 
 # Algebra Codex {#algebra-codex}
 
-- [Math is Fun &amp; Beautiful! - Algebra](/resource/fun math/fun_math_algebra - 2025_0709.pdf)
-
+- [Searching for Universal Truths - Algebra](/resource/fun math/fun_math_algebra - 2025_0709.pdf)
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 
 # A Journey Through Mathematical Boundaries
 
 Having painted the broad landscape of mathematics in my previous blog post [{{ math_landscape.title }}]({{ math_landscape.url }}),
-I want to delve into the first chapter of my mathematical journey: inequalities.
+I want to delve into the first chapter of my mathematical journey - inequalities.
 While number theory has long been celebrated as the "Queen of Mathematics,"
 with countless brilliant minds dedicating their lives to its exploration,
 my heart was captured by a different realm – the fascinating world of inequalities.
 Today, I'd like to share why this field has held such a special place in my mathematical journey.
 
 
-# From Three Weeks to Three Years: A Mathematical Awakening
+# From Three Weeks to Three Years - A Mathematical Awakening
 
 My romance with inequalities began around age 15,
 shortly after I entered Seoul Science High School (SSHS).
@@ -93,7 +106,7 @@ However, something unexpected happened – after six months,
 I was the only student personally invited by the math teacher to join the circle,
 thanks to what he called "unprecedented progress" in mathematics.
 
-# When Elegance Meets Power: The Art of Inequalities
+# When Elegance Meets Power - The Art of Inequalities
 
 It was during my preparation for various Mathematics Olympiad competitions – Korean MO, International MO, and South-Pacific MO – that I first encountered inequalities.
 What captivated me most was their elegant simplicity.
@@ -101,7 +114,7 @@ While other mathematical approaches often required lengthy calculations or tedio
 
 Let me share a concrete example that illustrates this beauty.
 Consider finding the maximum value of $$x + 2y$$ where $$3x^2 + y^2 = 1$$.
-That is to solve the following optimization problem:
+That is to solve the following optimization problem
 
 $$
 \begin{align}
@@ -111,14 +124,14 @@ $$
 \end{align}
 $$
 
-The conventional calculus-based approach, while perfectly valid, involves several steps:
+The conventional calculus-based approach, while perfectly valid, involves several steps
 
 <ol>
 <li>
 	Let $$k = x + 2y$$
 </li>
 <li>
-	Substitute $x = k - 2y$ into the constraint equation:
+	Substitute $x = k - 2y$ into the constraint equation
 
 $$
 3(k-2y)^2 + y^2=1
@@ -132,7 +145,7 @@ $$
 $$
 </li>
 <li>
-	Use the fact that the discriminant should be non-negative (because $y$ is a real number) to find the range of $x+2y$:
+	Use the fact that the discriminant should be non-negative (because $y$ is a real number) to find the range of $x+2y$
 
 $$
 D/4 = 36k^2 - 13(3k^2-1) = 13-3k^2 \geq0
@@ -149,7 +162,7 @@ $$
 $$
 
 for any $$a_i, b_i\in\mathbb{R}$$.
-By cleverly choosing $$a_1 = \sqrt{3}x$$, $$a_2 = y$$, $$b_1 = 1/\sqrt{3}$$, and $$b_2 = 2$$, we get:
+By cleverly choosing $$a_1 = \sqrt{3}x$$, $$a_2 = y$$, $$b_1 = 1/\sqrt{3}$$, and $$b_2 = 2$$, we get
 
 $$
 13/3 = (3x^2 + y^2)(1/3 + 4) \geq (x + 2y)^2
@@ -171,7 +184,7 @@ which simply no human (maybe few exceptions in history)
 can understand properly intuitively
 because we have never experience $$n$$-dimensional space where $$n$$ is greater than 3).
 
-This geometric intuition leads us to a deeper understanding: inequalities often serve as bridges between algebra and geometry.
+This geometric intuition leads us to a deeper understanding - inequalities often serve as bridges between algebra and geometry.
 They're not just statements about which number is larger; they're revelations about the shape of mathematical space itself.
 
 ## Power of generalization (of the Cauchy-Schwarz inequality) {#cauchy-power-of-generalization}
@@ -182,7 +195,7 @@ Unfortunately, the answer is no,
 and here is where inequalities play practically useful roles
 beyond its brevity and elegance.
 
-Assume that we want to solve the following optimization problem now:
+Assume that we want to solve the following optimization problem now
 
 $$
 \begin{align}
@@ -226,7 +239,7 @@ plus infinite other such cases as beautifully and elegantly as this!
 This shows the enormous power of generalization
 that inequalities can powerfully provide!</font>
 
-Here I will show how we can do this extremely easily and utmostly elegantly using the Cauchy-Schwarz inequality:
+Here I will show how we can do this extremely easily and utmostly elegantly using the Cauchy-Schwarz inequality
 letting $$a_i = \sqrt{d_i} x_i$$ and $$b_i = c_i / \sqrt{d_i}$$
 and
 applying the Cauchy-Schwarz inequality
@@ -266,9 +279,9 @@ $$\sqrt{c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n}$$.
 By assigning proper values to $$n$$, $$a_i$$, and $d_i$$,
 this readily solves all the above problems at once!<sup><a href="#footnote2" id="ref2">2</a></sup>
 
-# Another Tale of Two Paths: The AM-GM Journey
+# Another Tale of Two Paths - The AM-GM Journey
 
-Let us start from a bit similar, but different optimization problem:
+Let us start from a bit similar, but different optimization problem
 
 $$
 \begin{align}
@@ -454,11 +467,11 @@ the different types of generalizations that I mentioned above
 
 Let's return to our friend, the Cauchy-Schwarz inequality. What begins as a simple relationship between two vectors extends beautifully into infinite-dimensional spaces, becoming a cornerstone of functional analysis and quantum mechanics.
 
-Consider how the inequality evolves:
+Consider how the inequality evolves
 
 <ol>
 <li>
-	For finite vectors:
+	For finite vectors
 
 	$$
 		\left(\sum_{i=1}^n a_i^2\right) \left(\sum_{i=1}^n b_i^2\right)
@@ -466,7 +479,7 @@ Consider how the inequality evolves:
 	$$
 </li>
 <li>
-	For complex finite vectors:
+	For complex finite vectors
 	$$
 		\left(\sum_{i=1}^n |a_i|^2\right) \left(\sum_{i=1}^n |b_i|^2\right)
 		\geq \left|\sum_{i=1}^n a_i b_i^\ast \right|^2
@@ -481,7 +494,7 @@ Consider how the inequality evolves:
 	$$
 </li>
 <li>
-	For <i>abstract</i> (possibly) infinite dimensional inner product spaces:
+	For <i>abstract</i> (possibly) infinite dimensional inner product spaces
 
 	$$
 		\langle u, u\rangle
@@ -511,7 +524,7 @@ from which all previous forms can be derived by choosing specific inner product 
 This nested structure showcases the deep unity underlying these seemingly different mathematical contexts,
 revealing how the same fundamental principle manifests at increasingly abstract levels.
 
-## The First Level: Multiple Variables
+## The First Level - Multiple Variables
 
 The beauty of inequalities becomes even more apparent
 when we see how naturally they extend to higher dimensions.
@@ -520,14 +533,14 @@ reveals its true elegance as we extend to 3, 4, or even $$n$$ variables.
 Each step upward in dimensionality maintains the same fundamental principles
 while uncovering new layers of mathematical structure.
 
-## The Second Level: Arbitrary Exponents
+## The Second Level - Arbitrary Exponents
 
 As we venture beyond simple squares and cubes into the realm of arbitrary powers,
 most traditional calculus-based approaches become increasingly cumbersome.
 Yet inequalities maintain their grace and power,
 continuing to provide elegant solutions that reveal deeper patterns in the mathematical structure.
 
-## The Ultimate Generalization: Abstract Spaces
+## The Ultimate Generalization - Abstract Spaces
 
 Here we reach perhaps the most beautiful aspect of inequalities
 &ndash; their extension into abstract mathematical spaces.
@@ -567,7 +580,7 @@ While Cauchy-Schwarz illuminates the geometry of inner product spaces and AM-GM 
 
 ## The Fundamental Insight
 
-At its core, Jensen's inequality tells us something remarkably intuitive yet profound:
+At its core, Jensen's inequality tells us something remarkably intuitive yet profound -
 the average value of convex function values is always greater than or equal to the function value of the average value.
 More precisely, for convex function $$f:X\to \mathbb{R}$$
 
@@ -651,11 +664,11 @@ $$
 
 This elegant derivation once again reveals the deep interconnection between these seemingly different mathematical tools.
 What I find particularly fascinating is how Jensen's inequality serves as a unifying principle - a mathematical "master key" that unlocks multiple fundamental inequalities through different applications.
-This hierarchical structure, where one powerful principle generates many specific results, exemplifies the beautiful economy of mathematics: the most profound truths often lead to the widest array of consequences.
+This hierarchical structure, where one powerful principle generates many specific results, exemplifies the beautiful economy of mathematics - the most profound truths often lead to the widest array of consequences.
 
-# From Theory to Practice: Inequalities in Action
+# From Theory to Practice - Inequalities in Action
 
-What makes inequalities particularly compelling is their ubiquity in real-world applications. They appear naturally in:
+What makes inequalities particularly compelling is their ubiquity in real-world applications. They appear naturally in
 
 - Optimization problems in economics
 - Error bounds in statistics
@@ -690,7 +703,7 @@ Looking back at my mathematical journey, I realize that inequalities taught me s
 <img src="/assets/images/math/algebra/math-girl-01.png">
 </div>
 
-# Your Turn: An Invitation to Mathematical Discovery
+# Your Turn - An Invitation to Mathematical Discovery
 
 Mathematics is often seen as a solitary pursuit,
 but I've found that the most profound insights come from sharing and discussing ideas with others.
@@ -707,7 +720,7 @@ Let's continue this mathematical journey together.
 
 I encourage you to share your thoughts, questions, and feedback.
 Together, we can continue to learn, grow, and appreciate the beauty and utility of mathematics.
-Please email me to <sunghee.yun@gmail.com> with any types of comments with subject starting with "universal truth"!
+Please email me to <sunghee.yun@gmail.com> with any types of comments with subject starting with <span class="emph">**universal truth**!</span>
 
 [Sunghee
 <br>
@@ -716,6 +729,14 @@ Mathematician, Beauty-Enjoyer, and Fun-Seeker
 <br>
 Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/)
 
+---
+
+*This blog post explores one territory from my
+[{{ math_landscape.title }}]({{ math_landscape.url }})
+— a serendipitous creation that began as personal LaTeX slides and evolved
+into a comprehensive exploration of mathematical beauty and universal truth.
+Inequalities represents just one of many interconnected mathematical landscapes
+including abstract algebra, measure theory, convex optimization, and topology.*
 
 <hr>
 <ol>

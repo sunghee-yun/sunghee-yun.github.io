@@ -1,8 +1,8 @@
 ---
 permalink: /math/landscape
-title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Beauty
+title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Thu Jul 10 18:34:13 PDT 2025
+last_modified_at: Fri Jul 11 02:28:54 PDT 2025
 categories:
  - blog
 tags:
@@ -33,31 +33,45 @@ and enriches their mathematical exploration journey.
 
 # NotebookLM Podcasts
 
+<h2>based on this blog</h2>
+
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-4" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-5" controls>
-	<source type="audio/wav" src="/resource/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<h2>based on Math Codex</h2>
+
+<audio id="podcast-5" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-5" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 # Math Codex {#math-codex}
 
-- [Math is Fun &amp; Beautiful! - slides](/resource/fun math/fun_math - 2025_0709.pdf)
-- [Math is Fun &amp; Beautiful! - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
+- [Searching for Universal Truths - slides](/resource/fun math/fun_math - 2025_0709.pdf)
+- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
 
 # A Journey Through Mathematical Beauty
 
