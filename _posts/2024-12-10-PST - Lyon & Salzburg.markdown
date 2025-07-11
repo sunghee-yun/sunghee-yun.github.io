@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Mon Jan 20 03:13:04 PST 2025
+last_modified_at: Fri Jul 11 05:26:02 PDT 2025
 categories:
  - blog
 tags:
@@ -26,6 +26,20 @@ The future of AI must be shaped not just by technological advancement,
 but by a deep understanding of its human impact and cultural context.
 </font>
 </blockquote>
+
+# NotebookLM Podcasts
+
+<h2>based on this blog</h2>
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h1 id="lyon">Lyon</h1>
 
