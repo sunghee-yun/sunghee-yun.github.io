@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Fri Jul 11 02:59:44 PDT 2025
+last_modified_at: Fri Jul 11 10:59:04 PDT 2025
 categories:
  - blog
 tags:
@@ -68,11 +68,6 @@ and enriches their mathematical exploration journey.
 	Your browser does not support this shorter audio element.
 </audio>
 
-# Math Codex {#math-codex}
-
-- [Searching for Universal Truths - slides](/resource/fun math/fun_math - 2025_0709.pdf)
-- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
-
 # Child Blogs
 
 <!--span class="emph"-->
@@ -87,6 +82,11 @@ Stay connected for these mathematical adventures!
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
+
+# Math Codex {#math-codex}
+
+- [Searching for Universal Truths - slides](/resource/fun math/fun_math - 2025_0709.pdf)
+- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article - 2025_0709.pdf)
 
 # A Journey Through Mathematical Beauty
 
