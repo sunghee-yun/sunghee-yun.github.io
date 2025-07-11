@@ -1,7 +1,7 @@
 ---
 title: Comparison of AI accelerators
 date: 01-Oct-2024
-last_modified_at: Thu Oct 10 16:40:38 PDT 2024
+last_modified_at: Fri Jul 11 13:06:52 PDT 2025
 tags:
  - AI
  - GPU
@@ -9,8 +9,8 @@ tags:
  - hardware
  - technology
 toc: true
-toc_label: "ToC"
-toc_icon: "cog"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
