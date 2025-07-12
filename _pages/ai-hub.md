@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', autoPlayAudio);
 	Your browser does not support this shorter audio element.
 </audio>
 
-A Korean version
+Korean versions
 
 <audio id="podcast-kor-1" controls>
 	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-01.wav">
