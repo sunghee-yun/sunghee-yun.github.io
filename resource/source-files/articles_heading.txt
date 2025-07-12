@@ -87,7 +87,7 @@ function autoPlayAudio() {
 document.addEventListener('DOMContentLoaded', autoPlayAudio);
 </script>
 
-<h1>NotebookLM Podcasts</h1>
+# NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
 	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-01.wav">
