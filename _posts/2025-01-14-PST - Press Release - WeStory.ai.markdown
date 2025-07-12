@@ -1,13 +1,13 @@
 ---
 title: Press Release - WeStory.ai Transforms Personal Storytelling Through AI-Powered Biography Creation
 date: Tue Jan 14 19:03:10 PST 2025
-last_modified_at: Fri Jul 11 12:43:05 PDT 2025
+last_modified_at: Sat Jul 12 01:47:54 PDT 2025
 categories:
  - pr&faq
 tags:
  - business
  - startup
-toc: false
+toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
@@ -17,6 +17,15 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-14-PST - Press Release - WeStory/NotebookLM/WeStory_ai_ AI Transforms Personal Storytelling and Legacy Creation-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+# Press Release
 
 December 1, 2025
 
