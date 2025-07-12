@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Fri Jul 11 12:46:04 PDT 2025
+last_modified_at: Sat Jul 12 01:41:38 PDT 2025
 categories:
  - blog
 tags:
@@ -19,8 +19,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<h1 id="story">Cherishable memories of ours</h1>
-
 <blockquote>
 <font color="blue">
 <q>
@@ -29,6 +27,14 @@ This trip was more than just a vacation; it was a symphony of memories that will
 </font>
 </blockquote>
 
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<h1 id="story">Cherishable memories of ours</h1>
 
 This past holiday season, from December 25th to 31st, 2024,
 Ghayoung, Beth, and I embarked on a memorable journey to New York to visit my sister, Jisun, her husband, Steve, and their kids, Lucy and Liam. Our hearts were filled with anticipation as we looked forward to creating lasting memories together.
@@ -277,3 +283,63 @@ This trip was more than just a vacation; it was a symphony of memories that will
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-37 001.jpeg">
 </div>
 
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
+
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
