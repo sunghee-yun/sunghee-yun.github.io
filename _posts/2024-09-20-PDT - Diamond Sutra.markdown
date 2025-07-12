@@ -1,6 +1,6 @@
 ---
 title: Diamond Sūtra - 금강경金剛經
-date: 2024-09-21 00:30 PDT
+date: 2024-09-20 23:30 PDT
 last_modified_at: Fri Jul 11 16:47:01 PDT 2025
 categories:
  - blog
