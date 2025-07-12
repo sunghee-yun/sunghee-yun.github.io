@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Sat Jul 12 04:32:28 PDT 2025
+last_modified_at: Sat Jul 12 16:40:33 PDT 2025
 categories:
  - blog
 tags:
@@ -36,23 +36,23 @@ and enriches their mathematical exploration journey.
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-3" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+<audio id="podcast-3" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 <audio id="podcast-4" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-5" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
+	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
