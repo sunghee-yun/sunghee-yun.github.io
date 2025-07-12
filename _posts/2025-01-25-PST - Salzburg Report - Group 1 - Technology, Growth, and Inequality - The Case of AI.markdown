@@ -1,7 +1,7 @@
 ---
 title: Technology, Growth, and Inequality &ndash; The Case of AI
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Fri Jul 11 12:43:05 PDT 2025
+last_modified_at: Sat Jul 12 02:04:12 PDT 2025
 categories:
  - blog
 tags:
@@ -18,6 +18,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-25-PST - Salzburg Report - Group 1 - Technology, Growth, and Inequality - The Case of AI/NotebookLM/AI's Dual Nature_ Fairness, Ethics, and Equitable Access-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 This is the (semi-)final draft of the report
 written by &ldquo;KFAS-Salzburg Global Leadership Initiative Fellow Group 1 - Technology, Growth, and Inequality &ndash; The Case of AI&rdquo;
@@ -121,3 +128,63 @@ among KFAS-Salzburg Global Leadership Initiative Fellows and beyond with other c
 Please visit and collaborate with us here:
 <a href="https://salzburgglobalseminar-ai.github.io/">Empowering Humanity for the Future Enriched by AI</a>
 
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
+
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
