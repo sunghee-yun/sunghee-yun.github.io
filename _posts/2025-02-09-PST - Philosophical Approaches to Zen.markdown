@@ -1,7 +1,7 @@
 ---
 title: 철학적 선학<sub>禪學</sub>
 date: Sun Feb  9 04:01:01 PST 2025
-last_modified_at: Sat Mar 22 00:28:23 PDT 2025
+last_modified_at: Sat Jul 12 16:06:50 PDT 2025
 permalink: /zen/philosophical-approaches
 categories:
  - blog
@@ -29,7 +29,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 중요하다가 생각되는 내용을 발췌하여 아래에 적는다.
 
 <div class="img-container">
-<img src="/resource/posts/Philosophical Approaches to Zen/Screenshot 2025-03-22 at 12.27.11 AM.png">
+<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/Screenshot 2025-03-22 at 12.27.11 AM.png">
 </div>
 
 ## p45
@@ -47,7 +47,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 깨닫게 하는 것이다.</font><sup><a href="">1</a></sup>
 
 <div class="img-container">
-<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png">
+<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png">
 </div>
 
 ## p52
@@ -77,11 +77,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 마지막으로 넷째 국면인 견성&sdot;오도가 이루어짐으로써 대단원의 막이 내리게 된다.
 
 <div class="img-container">
-<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_7ec35da8-9ac8-4a99-a7dc-6e3974c64f88_3.png">
+<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_7ec35da8-9ac8-4a99-a7dc-6e3974c64f88_3.png">
 </div>
 
 <!--div class="img-container">
-<img src="/resource/posts/Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_d1437494-1d3c-4002-a88d-3e457bc305ed_0.png">
+<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_d1437494-1d3c-4002-a88d-3e457bc305ed_0.png">
 </div-->
 
 <hr>
