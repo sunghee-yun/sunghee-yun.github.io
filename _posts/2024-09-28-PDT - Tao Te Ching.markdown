@@ -1,7 +1,7 @@
 ---
 title: Tao Te Ching - 도덕경道德經
 date: 2024-09-28
-last_modified_at: Fri Jul 11 12:46:04 PDT 2025
+last_modified_at: Fri Jul 11 17:09:08 PDT 2025
 categories:
  - blog
 tags:
@@ -18,6 +18,12 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-09-28-PDT - Tao Te Ching/NotebookLM/Tao Te Ching_ Ancient Wisdom for Modern Life-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h1 id="links">
 	Links
@@ -6781,25 +6787,63 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </li-->
 </ul>
 
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
 
-<!--h1 id="footnote">Footnotes</h1>
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-<hr>
-<ol>
-<li id="footnote01">
-&nbsp;<a href="#ref01">↩</a>
-</li>
-<li id="footnote02">
-&nbsp;<a href="#ref02">↩</a>
-</li>
-<li id="footnote03">
-&nbsp;<a href="#ref03">↩</a>
-</li>
-<li id="footnote04">
-&nbsp;<a href="#ref04">↩</a>
-</li>
-<li id="footnote05">
-&nbsp;<a href="#ref05">↩</a>
-</li>
-</ol-->
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
 
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
