@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Sat Apr 12 17:10:22 PDT 2025
+last_modified_at: Sat Jul 12 02:36:08 PDT 2025
 permalink: /ai/data
 categories:
  - blog
@@ -42,6 +42,13 @@ redefining the boundaries of AI.</font>
 <font class="emph">The future belongs not to those who can build the biggest models,
 but to those who can most effectively organize and leverage their domain-specific data.</font>
 </blockquote>
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 # From Mathematical Foundations to AI Revolution
 
@@ -90,9 +97,7 @@ they showed their loyalty by using Galaxy phones,
 but I rebelliously used iPhones *AND* named
 my proud ML and optimization software platform iOpt!
 &ndash;
-This platform compressed months-long projects into weeks by automatically modeling problems mathematically and finding optimal solutions. This work, though we didn't realize it at the time, was already laying the groundwork for what would become modern AI applications.
-that compressed months-long projects
-into weeks by automatically modeling problems mathematically and finding optimal solutions.
+This platform compressed months-long projects into weeks by automatically modeling problems mathematically and finding optimal solutions.
 This work, though we didn't realize it at the time, was already laying the groundwork for what would become modern AI applications.
 
 # The Rise of Machine Learning, hence the Rise of AI
@@ -245,3 +250,64 @@ Mathematician, Statistician, Theorist, Futurologist, and Digital Philosopher
 	LLM stands for a large language model and genAI for generative AI.
 	&nbsp;<a href="#ref1">↩</a></li>
 </ol>
+
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
+
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
