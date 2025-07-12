@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Tue Jul  8 01:22:18 PDT 2025
+last_modified_at: Sat Jul 12 03:57:13 PDT 2025
 ---
 
 <script>
@@ -27,40 +27,35 @@ last_modified_at: Tue Jul  8 01:22:18 PDT 2025
 	});
 </script>
 
-<h1 id="ml">
-	Online class sites
-</h1>
+# Online courses {#online-course}
 
-<ul>
-<li>
-	<a href="https://www.coursera.org/">coursera</a>
-</li>
-<li>
-	<a href="https://www.deeplearning.ai/courses/">DeepLearning.AI</a>
-</li>
-</ul>
+- [coursera](https://www.coursera.org)
+- [DeepLearning.AI](https://www.deeplearning.ai/courses)
 
-<h1 id="ml">
-	Machine learning (ML)
-</h1>
+# Optimization {#opt}
 
-<h2 id="ml-books">
-	Books
-</h2>
+## Books {#opt-books}
 
-<ul>
-<li>
-	Introduction to Applied Linear Algebra
-	-
+- Convex Optimization 1st Edition
+	&nbsp;
+	Stephen Boyd, Lieven Vandenberghe
+	(<a href="https://www.amazon.com/Convex-Optimization-Corrections-2008-Stephen/dp/0521833787/">Amazon</a>,
+	<a href="https://stanford.edu/~boyd/cvxbook/">Boyd's homepage</a>,
+	<a href="/resource/books/opt/Convex Optimization - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
+
+# Machine learning {#ml}
+
+## Books {#ml-books}
+
+- Introduction to Applied Linear Algebra
+	&nbsp;
 	Stephen Boyd @ Stanford University,
 	Lieven Vandenberghe @ UCLA
 	(<a href="https://www.amazon.com/Introduction-Applied-Linear-Algebra-Matrices/dp/1316518965/">Amazon</a>,
 	<a href="https://stanford.edu/~boyd/vmls/">Boyd's homepage</a>,
 	<a href="/resource/books/AI/Introduction to Applied Linear Algebra - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
-</li>
-<li>
-	The Elements of Statistical Learning: Data Mining, Inference, and Prediction
-	-
+- The Elements of Statistical Learning: Data Mining, Inference, and Prediction
+	&nbsp;
 	Trevor Hastie, Robert Tibshirani, Jerome Friedman
 	(<a href="https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/">Amazon</a>)
 	&nbsp;
@@ -82,112 +77,53 @@ last_modified_at: Tue Jul  8 01:22:18 PDT 2025
 		and Bayesian inference.
 	</p>
 	</div>
-</li>
-<li>
-	Pattern Recognition and Machine Learning (Information Science and Statistics) - Christopher M. Bishop
+- Pattern Recognition and Machine Learning (Information Science and Statistics)
+	&nbsp;
+	Christopher M. Bishop
 	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
 	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
-</li>
-<li>
-	Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville
+- Deep Learning
+	&nbsp;
+	Ian Goodfellow, Yoshua Bengio, Aaron Courville
 	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
 	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
-</li>
-<li>
-	Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
-	-
+- Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
+	&nbsp;
 	Richard S. Sutton, Andrew G. Barto
 	(<a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>,
 	<a href="/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>)
-</li>
-<li>
-	Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
-	-
+- Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
+	&nbsp;
 	Kevin P. Murphy
 	(<a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
-</li>
-<li>
-	Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
-	-
+- Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
+	&nbsp;
 	Daphne Koller, Nir Friedman
 	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
-</li>
-<li>
-	Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
-	-
+- Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
+	&nbsp;
 	Kevin P. Murphy
 	(<a href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
-</li>
-</ul>
 
-<h2 id="ml-lectures">
-	Lectures
-</h2>
+## Lectures {#ml-lectures}
 
-<ul>
-<li>
-	<a href="https://www.coursera.org/specializations/machine-learning-introduction">
-	(coursera)
-	Machine Learning Specialization</a>
-	-
+- [/coursera/ Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
+	&nbsp;
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Geoff Ladwig @ DeepLearning.AI,
 	Aarti Bagul
-	<ul>
-	<li>
-		Supervised Machine Learning: Regression and Classification
-	</li>
-	<li>
-		Advanced Learning Algorithms
-	</li>
-	<li>
-		Unsupervised Learning, Recommenders, Reinforcement Learning
-	</li>
-	</ul>
-</li>
-<li>
-	<a href="https://www.coursera.org/specializations/deep-learning">
-	(coursera)
-	Deep Learning Specialization</a>
-	-
+	- Supervised Machine Learning: Regression and Classification
+	- Advanced Learning Algorithms
+	- Unsupervised Learning, Recommenders, Reinforcement Learning
+
+- [/coursera/ Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+	&nbsp;
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Younes Bensouda Mourri @ DeepLearning.AI,
 	Kian Katanforoosh @ DeepLearning.AI
-	<ul>
-	<li>
-		Neural Networks and Deep Learning
-	</li>
-	<li>
-		Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
-	</li>
-	<li>
-		Structuring Machine Learning Projects
-	</li>
-	<li>
-		Convolutional Neural Networks
-	</li>
-	<li>
-		Sequence Models
-	</li>
-	</ul>
-</li>
-</ul>
+	- Neural Networks and Deep Learning
+	- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+	- Structuring Machine Learning Projects
+	- Convolutional Neural Networks
+	- Sequence Models
 
-<h1 id="ml">
-	Optimization
-</h1>
-
-<h2 id="opt-books">
-	Books
-</h2>
-
-<ul>
-<li>
-	Convex Optimization 1st Edition
-	-
-	Stephen Boyd, Lieven Vandenberghe
-	(<a href="https://www.amazon.com/Convex-Optimization-Corrections-2008-Stephen/dp/0521833787/">Amazon</a>,
-	<a href="https://stanford.edu/~boyd/cvxbook/">Boyd's homepage</a>,
-	<a href="/resource/books/opt/Convex Optimization - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
-</li>
-</ul>
