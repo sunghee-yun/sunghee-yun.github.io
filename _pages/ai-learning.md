@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Sat Jul 12 03:57:13 PDT 2025
+last_modified_at: Sat Jul 12 15:20:33 PDT 2025
 ---
 
 <script>
@@ -26,6 +26,30 @@ last_modified_at: Sat Jul 12 03:57:13 PDT 2025
 		});
 	});
 </script>
+
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+Korean versions
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 # Online courses {#online-course}
 
@@ -72,7 +96,7 @@ last_modified_at: Sat Jul 12 03:57:13 PDT 2025
 		and want to understand the core of (classical) theory and development,
 		you may want to skim through it
 		or/and use it as a reference
-		for have statistically or mathematically rigorous understanding of basic and advanced
+		for statistically or mathematically rigorous understanding of basic and advanced
 		concepts such as overfitting, the expectation-maximization (EM) algorithm,
 		and Bayesian inference.
 	</p>
@@ -127,3 +151,63 @@ last_modified_at: Sat Jul 12 03:57:13 PDT 2025
 	- Convolutional Neural Networks
 	- Sequence Models
 
+<script>
+// Function to get URL parameters
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to auto-play audio based on URL parameter
+function autoPlayAudio() {
+    const audioParam = getUrlParameter('audio');
+    if (audioParam) {
+        const audioElement = document.getElementById(audioParam);
+        if (audioElement) {
+            // Scroll to the audio element
+            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Add a small delay to ensure the page has loaded
+            setTimeout(() => {
+                audioElement.play().catch(error => {
+                    console.log('Auto-play was prevented by browser:', error);
+                    // Highlight the audio element if auto-play fails
+                    audioElement.style.border = '3px solid #ff6b6b';
+                    audioElement.style.borderRadius = '5px';
+                });
+            }, 500);
+			// Alternative: Simulate click on play button
+			/*
+			setTimeout(() => {
+				audioElement.play().catch(error => {
+					// If auto-play fails, show a prominent play button or notification
+					const playButton = document.createElement('button');
+					playButton.textContent = '▶ Click to Play Selected Audio';
+					playButton.style.cssText = `
+						position: fixed;
+						top: 20px;
+						right: 20px;
+						z-index: 1000;
+						background: #007cba;
+						color: white;
+						border: none;
+						padding: 10px 20px;
+						border-radius: 5px;
+						cursor: pointer;
+						font-size: 16px;
+					`;
+					playButton.onclick = () => {
+						audioElement.play();
+						document.body.removeChild(playButton);
+					};
+					document.body.appendChild(playButton);
+				});
+			}, 500);
+			*/
+        }
+    }
+}
+
+// Run the function when the page loads
+document.addEventListener('DOMContentLoaded', autoPlayAudio);
+</script>
