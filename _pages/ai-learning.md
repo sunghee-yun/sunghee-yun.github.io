@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Sat Jul 12 15:20:33 PDT 2025
+last_modified_at: Sat Jul 12 15:55:57 PDT 2025
 ---
 
 <script>
@@ -41,12 +41,12 @@ last_modified_at: Sat Jul 12 15:20:33 PDT 2025
 
 Korean versions
 
-<audio id="podcast-1" controls>
+<audio id="podcast-kor-1" controls>
 	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
-<audio id="podcast-2" controls>
+<audio id="podcast-kor-2" controls>
 	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
