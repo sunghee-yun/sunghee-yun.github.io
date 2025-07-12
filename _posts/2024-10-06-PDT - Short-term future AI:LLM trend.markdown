@@ -1,7 +1,7 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 date: 06-Oct-2024
-last_modified_at: Fri Jul 11 17:15:55 PDT 2025
+last_modified_at: Fri Jul 11 17:24:07 PDT 2025
 categories:
  - blog
 tags:
@@ -25,6 +25,14 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+# NotebookLM Podcasts
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+# The Hidden Cost of AI Progress
 
 The pace of AI development, particularly in Large Language Models (LLMs), has been nothing short of extraordinary. As someone who has interacted extensively with key LLM services &mdash; Anthropic’s Claude, OpenAI’s ChatGPT, Google’s Gemini, Mistral’s Mistral, X’s Grok, Perplexity AI, and Midjourney for (lots of) fun having AI drawing creative images &mdash; I’ve been astounded not only by their rapid advancement but by their vast capabilities. Yet, after this first-hand experience, I now believe that the impact of AI’s evolution is likely to be far greater than I originally imagined.
 
