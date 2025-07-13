@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Sun Jul 13 02:25:25 PDT 2025
+last_modified_at: Sun Jul 13 02:44:47 PDT 2025
 categories:
  - blog
 tags:
@@ -75,7 +75,7 @@ A Korean version
 	Your browser does not support this shorter audio element.
 </audio>
 
-# Child Blogs
+# Child blog posts
 
 <!--span class="emph"-->
 This is just the beginning of our mathematical conversation!
