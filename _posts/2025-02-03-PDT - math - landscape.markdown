@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Sat Jul 12 16:40:33 PDT 2025
+last_modified_at: Sun Jul 13 02:25:25 PDT 2025
 categories:
  - blog
 tags:
@@ -86,9 +86,11 @@ Stay connected for these mathematical adventures!
 
 {% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
+{% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
+- [{{ measure_theory.title }}]({{ measure_theory.url }})
 
 # Math Codex {#math-codex}
 

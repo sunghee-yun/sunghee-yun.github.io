@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Sat Jul 12 04:34:17 PDT 2025
+last_modified_at: Sun Jul 13 02:25:25 PDT 2025
 categories:
  - blog
 tags:
@@ -720,7 +720,7 @@ Let's continue this mathematical journey together.
 
 I encourage you to share your thoughts, questions, and feedback.
 Together, we can continue to learn, grow, and appreciate the beauty and utility of mathematics.
-Please email me to <sunghee.yun@gmail.com> with any types of comments with subject starting with <span class="emph">**universal truth**!</span>
+Please email me to <sunghee.yun@gmail.com> with any types of comments with subject starting with <span class="emph">**"universal truth"**!</span>
 
 [Sunghee
 <br>

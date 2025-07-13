@@ -1,8 +1,8 @@
 ---
 permalink: /math/abstract-algebra
-title: The Architecture of Mathematical Truth - A Journey Through Abstract Algebra
+title: The Architecture of Mathematical Truth &ndash; A Journey Through Abstract Algebra
 date: Fri Jul 11 00:17:30 PDT 2025
-last_modified_at: Sat Jul 12 04:35:55 PDT 2025
+last_modified_at: Sun Jul 13 02:25:25 PDT 2025
 categories:
  - blog
 tags:
@@ -75,7 +75,7 @@ Abstract algebra taught me that mathematical abstraction isn't a retreat from re
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 - [{{ math_landscape.title }}]({{ math_landscape.url }})
 
-# Algebra Codex {#algebra-codex}
+# Abstract Algebra Codex {#algebra-codex}
 
 - [Searching for Universal Truths - Abstract Algebra](/resource/fun math/fun_math_aalgebra.pdf) (updated on 12-Jul-2025)
 
