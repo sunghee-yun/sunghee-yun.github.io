@@ -2,7 +2,7 @@
 permalink: /math/measure-theory
 title: The Revolution that Transformed Analysis Forever &ndash; Lebesgue's Gift to Modern Analysis
 date: Sat Jul 12 04:59:40 PDT 2025
-last_modified_at: Sun Jul 13 02:59:01 PDT 2025
+last_modified_at: Sun Jul 13 06:33:43 PDT 2025
 categories:
  - blog
 tags:
@@ -71,6 +71,11 @@ Lebesgue's integral doesn't just extend Riemann's&mdash;it reveals the deeper st
 
 <audio id="podcast-1" controls>
 	<source type="audio/wav" src="/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
