@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Mon Jul 14 11:09:32 PDT 2025
-last_modified_at: Sun Jul 13 09:15:46 PDT 2025
+last_modified_at: Mon Jul 14 12:14:54 PDT 2025
 categories:
  - blog
 tags:
@@ -106,12 +106,22 @@ while still being structured enough to support powerful analytical techniques.</
 
 # NotebookLM Podcasts
 
-<!--h2>based on this blog</h2>
+<h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/placeholder-01.wav">
+	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
 	Your browser does not support this shorter audio element.
-</audio-->
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-3" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h2>based on Topological Spaces Codex</h2>
 
