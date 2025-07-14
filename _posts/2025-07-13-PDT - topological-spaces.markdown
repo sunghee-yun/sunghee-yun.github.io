@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Mon Jul 14 11:09:32 PDT 2025
-last_modified_at: Mon Jul 14 12:14:54 PDT 2025
+last_modified_at: Mon Jul 14 13:17:32 PDT 2025
 categories:
  - blog
 tags:
@@ -52,7 +52,7 @@ bridging the gap between the finite and the infinite in the most elegant way ima
 </blockquote>
 
 <blockquote>
-<a href="#span:ongoing-romance-with-compactness">
+<a href="#div:ongoing-romance-with-compactness">
 <p>
 My love affair with compactness continues to deepen with each new encounter.
 Whether it's discovering how compact operators bridge finite-dimensional and infinite-dimensional linear algebra, how compact groups provide the foundation for harmonic analysis, or how compact manifolds enable global differential geometry, compactness reveals new facets of its beauty in every mathematical context.
@@ -463,11 +463,16 @@ I've learned to see it as a fundamental language that illuminates connections ac
 
 ## My ongoing Romance
 
-<span id="span:ongoing-romance-with-compactness">
+<div id="div:ongoing-romance-with-compactness">
+<p>
 My love affair with compactness continues to deepen with each new encounter.
 Whether it's discovering how compact operators bridge finite-dimensional and infinite-dimensional linear algebra, how compact groups provide the foundation for harmonic analysis, or how compact manifolds enable global differential geometry, compactness reveals new facets of its beauty in every mathematical context.
+</p>
 
-This isn't mere sentiment—it's a recognition that certain mathematical concepts are so fundamental and so beautifully designed that they continue to reward study and contemplation decades after first encounter. Compactness is such a concept, and topology is the natural home where its beauty can be fully appreciated.</span>
+<p>
+This isn't mere sentiment—it's a recognition that certain mathematical concepts are so fundamental and so beautifully designed that they continue to reward study and contemplation decades after first encounter. Compactness is such a concept, and topology is the natural home where its beauty can be fully appreciated.
+</p>
+</div>
 
 # The Path Forward
 
