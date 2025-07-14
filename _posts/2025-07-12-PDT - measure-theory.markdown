@@ -2,7 +2,7 @@
 permalink: /math/measure-theory
 title: The Revolution that Transformed Analysis Forever &ndash; Lebesgue's Gift to Modern Analysis
 date: Sat Jul 12 04:59:40 PDT 2025
-last_modified_at: Sun Jul 13 06:33:43 PDT 2025
+last_modified_at: Mon Jul 14 02:53:21 PDT 2025
 categories:
  - blog
 tags:
@@ -95,9 +95,11 @@ Lebesgue's integral doesn't just extend Riemann's&mdash;it reveals the deeper st
 
 {% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
+{% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
+- [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 
 # Measure Theory Codex {#measure-theory-codex}
 
