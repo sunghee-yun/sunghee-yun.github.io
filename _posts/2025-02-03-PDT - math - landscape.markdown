@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Jul 14 18:44:44 PDT 2025
+last_modified_at: Mon Jul 14 20:43:43 PDT 2025
 categories:
  - blog
 tags:
@@ -89,12 +89,14 @@ Stay connected for these mathematical adventures!
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
+{% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
+- [{{ measstat.title }}]({{ measstat.url }})
 
 # Math Codex {#math-codex}
 
@@ -215,9 +217,9 @@ I welcome all comments and discussions &mdash; please reach out to me at
 [Sunghee
 <br>
 <br>
-Mathematician, Thinker, Finder, and Truth-Seeker
+Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
-Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/)
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 <script>
 const header = document.getElementById('math-codex');

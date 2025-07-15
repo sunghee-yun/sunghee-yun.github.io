@@ -2,7 +2,7 @@
 permalink: /math/abstract-algebra
 title: The Architecture of Mathematical Truth &ndash; A Journey Through Abstract Algebra
 date: Fri Jul 11 00:17:30 PDT 2025
-last_modified_at: Mon Jul 14 18:46:57 PDT 2025
+last_modified_at: Mon Jul 14 20:45:45 PDT 2025
 categories:
  - blog
 tags:
@@ -82,11 +82,13 @@ Abstract algebra taught me that mathematical abstraction isn't a retreat from re
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
+{% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
+- [{{ measstat.title }}]({{ measstat.url }})
 
 # Abstract Algebra Codex {#algebra-codex}
 
@@ -591,9 +593,9 @@ Let's continue exploring the magnificent architecture of universal truth togethe
 [Sunghee
 <br>
 <br>
-Mathematician, Thinker, Finder, and Truth-Seeker
+Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
-Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/)
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 ---
 

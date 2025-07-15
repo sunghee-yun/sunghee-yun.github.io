@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Mon Jul 14 18:50:12 PDT 2025
+last_modified_at: Mon Jul 14 20:47:16 PDT 2025
 categories:
  - blog
 tags:
@@ -146,11 +146,13 @@ while still being structured enough to support powerful analytical techniques.</
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
+{% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
+- [{{ measstat.title }}]({{ measstat.url }})
 
 # Topological Spaces Codex {#topology-codex}
 
@@ -523,9 +525,9 @@ Let's continue exploring the magnificent architecture of space and continuity to
 [Sunghee
 <br>
 <br>
-Mathematician, Thinker, Finder, and Truth-Seeker
+Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
-Entrepreneur, Engineer, Scientist, Business Developer, Creator, and Connector](/)
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 ---
 
