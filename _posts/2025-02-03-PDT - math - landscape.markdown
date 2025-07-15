@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Jul 14 20:43:43 PDT 2025
+last_modified_at: Mon Jul 14 21:05:42 PDT 2025
 categories:
  - blog
 tags:
@@ -58,14 +58,14 @@ and enriches their mathematical exploration journey.
 
 A Korean version
 
-<audio id="podcast-1" controls>
+<audio id="podcast-kor-1" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits-kor-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Math Codex</h2>
 
-<audio id="podcast-5" controls>
+<audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
