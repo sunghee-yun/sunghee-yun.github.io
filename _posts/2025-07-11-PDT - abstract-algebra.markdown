@@ -2,7 +2,7 @@
 permalink: /math/abstract-algebra
 title: The Architecture of Mathematical Truth &ndash; A Journey Through Abstract Algebra
 date: Fri Jul 11 00:17:30 PDT 2025
-last_modified_at: Mon Jul 14 20:45:45 PDT 2025
+last_modified_at: Tue Jul 15 00:37:09 PDT 2025
 categories:
  - blog
 tags:
@@ -83,12 +83,14 @@ Abstract algebra taught me that mathematical abstraction isn't a retreat from re
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
 - [{{ measstat.title }}]({{ measstat.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Abstract Algebra Codex {#algebra-codex}
 
@@ -601,7 +603,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores one territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 Abstract algebra represents just one of many interconnected mathematical landscapes
 including inequalities, measure theory, convex optimization, and topology.*

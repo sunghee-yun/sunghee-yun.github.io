@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Mon Jul 14 20:44:43 PDT 2025
+last_modified_at: Tue Jul 15 00:35:33 PDT 2025
 categories:
  - blog
 tags:
@@ -79,12 +79,14 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
 - [{{ measstat.title }}]({{ measstat.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Algebra Codex {#algebra-codex}
 
@@ -748,7 +750,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores one territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 Inequalities represents just one of many interconnected mathematical landscapes
 including abstract algebra, measure theory, convex optimization, and topology.*

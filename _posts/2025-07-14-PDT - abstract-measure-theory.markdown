@@ -2,7 +2,7 @@
 permalink: /math/abstract-measure-theory
 title: Beyond Lebesgue &ndash; The Universal Language of Abstract Measure Theory
 date: Mon Jul 14 12:12:03 PDT 2025
-last_modified_at: Mon Jul 14 21:04:22 PDT 2025
+last_modified_at: Tue Jul 15 00:39:52 PDT 2025
 categories:
  - blog
 tags:
@@ -116,12 +116,14 @@ What moves me most about abstract measure theory is how it transforms technical 
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ measstat.title }}]({{ measstat.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Abstract Measure Theory Codex {#measure-theory-codex}
 
@@ -581,7 +583,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores another profound territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 Abstract measure theory represents the ultimate generalization of measure-theoretic insights,
 revealing universal principles that govern quantitative reasoning across all of mathematics.*

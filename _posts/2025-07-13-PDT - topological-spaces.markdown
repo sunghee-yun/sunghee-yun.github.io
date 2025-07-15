@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Mon Jul 14 20:47:16 PDT 2025
+last_modified_at: Tue Jul 15 00:38:44 PDT 2025
 categories:
  - blog
 tags:
@@ -147,12 +147,14 @@ while still being structured enough to support powerful analytical techniques.</
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
 - [{{ measstat.title }}]({{ measstat.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Topological Spaces Codex {#topology-codex}
 
@@ -533,7 +535,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores another territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 Topology represents a foundational territory in this vast landscape,
 providing the spatial and analytical framework within which all other mathematical concepts find their natural expression.*

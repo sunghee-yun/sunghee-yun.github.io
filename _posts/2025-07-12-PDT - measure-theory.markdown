@@ -2,7 +2,7 @@
 permalink: /math/measure-theory
 title: The Revolution that Transformed Analysis Forever &ndash; Lebesgue's Gift to Modern Analysis
 date: Sat Jul 12 04:59:40 PDT 2025
-last_modified_at: Mon Jul 14 20:46:24 PDT 2025
+last_modified_at: Tue Jul 15 00:39:02 PDT 2025
 categories:
  - blog
 tags:
@@ -98,12 +98,14 @@ Lebesgue's integral doesn't just extend Riemann's&mdash;it reveals the deeper st
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
 - [{{ measstat.title }}]({{ measstat.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Measure Theory Codex {#measure-theory-codex}
 
@@ -469,7 +471,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores another territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 Measure theory represents a foundational territory in this vast landscape,
 connecting with inequalities, abstract algebra, convex optimization, and topology

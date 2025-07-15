@@ -2,7 +2,7 @@
 permalink: /math/cvxopt
 title: When Every Path Leads to Success &ndash; The Convex Optimization
 date: Mon Jul 14 21:02:12 PDT 2025
-last_modified_at: Tue Jul 15 00:25:35 PDT 2025
+last_modified_at: Tue Jul 15 00:59:01 PDT 2025
 categories:
  - blog
 tags:
@@ -68,7 +68,22 @@ that guarantees global optimality and enables the development of efficient algor
 
 # NotebookLM Podcasts
 
-<!--h2>based on this blog</h2-->
+<h2>based on this blog</h2>
+
+<audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-02.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-3" controls>
+	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-03.wav">
+	Your browser does not support this shorter audio element.
+</audio>
 
 <h2>based on Convex Optimization Codex</h2>
 

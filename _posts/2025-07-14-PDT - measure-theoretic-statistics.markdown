@@ -2,7 +2,7 @@
 permalink: /math/measure-theoretic-statistics
 title: The Mathematical Soul of Statistics &ndash; When Probability Meets Measure Theory
 date: Mon Jul 14 19:09:52 PDT 2025
-last_modified_at: Mon Jul 14 21:33:43 PDT 2025
+last_modified_at: Tue Jul 15 00:40:27 PDT 2025
 categories:
  - blog
 tags:
@@ -96,12 +96,14 @@ The central limit theorem stands as one of the most remarkable theorems in all o
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
+{% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
 - [{{ absmeas.title }}]({{ absmeas.url }})
+- [{{ cvxopt.title }}]({{ cvxopt.url }})
 
 # Measure-theoretic Treatment of Statistics Codex {#statistics-codex}
 
@@ -592,7 +594,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 *This blog post explores another profound territory from my
 [{{ math_landscape.title }}]({{ math_landscape.url }})
-— a serendipitous creation that began as personal LaTeX slides and evolved
+&ndash; a serendipitous creation that began as personal LaTeX slides and evolved
 into a comprehensive exploration of mathematical beauty and universal truth.
 The measure-theoretic treatment of statistics reveals how probability theory is fundamentally
 connected to analysis, measure theory, and the deepest structures of mathematical reasoning.*
