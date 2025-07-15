@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Jul 14 11:10:28 PDT 2025
+last_modified_at: Mon Jul 14 18:44:44 PDT 2025
 categories:
  - blog
 tags:
@@ -88,16 +88,18 @@ Stay connected for these mathematical adventures!
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
+{% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
+- [{{ absmeas.title }}]({{ absmeas.url }})
 
 # Math Codex {#math-codex}
 
-- [Searching for Universal Truths - slides](/resource/fun math/fun_math.pdf) (updated on 12-Jul-2025)
-- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article.pdf) (updated on 12-Jul-2025)
+- [Searching for Universal Truths - slides](/resource/fun math/fun_math.pdf)
+- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article.pdf)
 
 # A Journey Through Mathematical Beauty
 

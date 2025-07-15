@@ -1,8 +1,8 @@
 ---
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
-date: Mon Jul 14 11:09:32 PDT 2025
-last_modified_at: Mon Jul 14 13:17:32 PDT 2025
+date: Sun Jul 13 09:15:46 PDT 2025
+last_modified_at: Mon Jul 14 18:50:12 PDT 2025
 categories:
  - blog
 tags:
@@ -145,14 +145,16 @@ while still being structured enough to support powerful analytical techniques.</
 {% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
+{% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 
 - [{{ inequalities.title }}]({{ inequalities.url }})
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
+- [{{ absmeas.title }}]({{ absmeas.url }})
 
 # Topological Spaces Codex {#topology-codex}
 
-- [Searching for Universal Truths - Topological Spaces](/resource/fun math/fun_math_topspaces.pdf) (updated on 12-Jul-2025)
+- [Searching for Universal Truths - Topological Spaces](/resource/fun math/fun_math_topspaces.pdf)
 
 # The Romance That Never Ends - My Love Affair with Topology
 

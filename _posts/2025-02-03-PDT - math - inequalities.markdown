@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Mon Jul 14 02:51:24 PDT 2025
+last_modified_at: Mon Jul 14 18:53:15 PDT 2025
 categories:
  - blog
 tags:
@@ -77,14 +77,16 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
 {% assign measure_theory = site.posts | where: "permalink", "/math/measure-theory" | first %}
 {% assign topological_spaces = site.posts | where: "permalink", "/math/topological-spaces" | first %}
+{% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 
 - [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
 - [{{ measure_theory.title }}]({{ measure_theory.url }})
 - [{{ topological_spaces.title }}]({{ topological_spaces.url }})
+- [{{ absmeas.title }}]({{ absmeas.url }})
 
 # Algebra Codex {#algebra-codex}
 
-- [Searching for Universal Truths - Algebra](/resource/fun math/fun_math_algebra.pdf) (updated on 12-Jul-2025)
+- [Searching for Universal Truths - Algebra](/resource/fun math/fun_math_algebra.pdf)
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 
