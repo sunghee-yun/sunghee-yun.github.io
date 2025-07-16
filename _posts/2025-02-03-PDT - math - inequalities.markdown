@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Tue Jul 15 00:35:33 PDT 2025
+last_modified_at: Wed Jul 16 00:18:49 PDT 2025
 categories:
  - blog
 tags:
@@ -30,7 +30,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </blockquote>
 
 <blockquote>
-Oh, I love Jensen's inequality! I've loved it ever since I met it for the first time in my life and I still love it!
+<a href="#span:i-love-jensen's-ineq">Oh, I love Jensen's inequality!
+Oh, I love Jensen's inequality! I've loved it ever since I met it for the first time in my life and I still love it!</a>
 </blockquote>
 
 # NotebookLM Podcasts
@@ -576,8 +577,8 @@ The journey through inequalities wouldn't be complete without exploring one of t
 &mdash; How would I know it, though? I'm not them.
 
 <p>
-<font class="emph">Oh, I love Jensen's inequality!
-I've loved it ever since I met it for the first time in my life and I still love it!</font>
+<span id="span:i-love-jensen's-ineq" class="emph">Oh, I love Jensen's inequality!
+I've loved it ever since I met it for the first time in my life and I still love it!</span>
 </p>
 
 <!--I vividly remember the first moment I met it. &#x1F60D;
