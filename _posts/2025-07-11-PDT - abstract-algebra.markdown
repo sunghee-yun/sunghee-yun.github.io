@@ -2,7 +2,7 @@
 permalink: /math/abstract-algebra
 title: The Architecture of Mathematical Truth &ndash; A Journey Through Abstract Algebra
 date: Fri Jul 11 00:17:30 PDT 2025
-last_modified_at: Tue Jul 15 00:37:09 PDT 2025
+last_modified_at: Wed Jul 16 00:03:56 PDT 2025
 categories:
  - blog
 tags:
@@ -168,7 +168,7 @@ The beauty of this definition lies in its generality—it applies equally to the
 
 ## The beauty of group examples
 
-<h3> The symmetries of a square </h3>
+<h3>The symmetries of a square</h3>
 
 Consider a square and all the ways you can rotate or flip it while keeping it looking the same. These eight transformations form what we call the dihedral group $$D_4$$.
 
@@ -177,11 +177,11 @@ Consider a square and all the ways you can rotate or flip it while keeping it lo
 
 What makes this a group? You can combine any two symmetries to get another symmetry, there's an identity (doing nothing), every symmetry has an inverse, and the order of combining three symmetries doesn't matter. This example beautifully illustrates how abstract algebra captures concrete geometric intuition.
 
-<h3> The integers under addition </h3>
+<h3>The integers under addition</h3>
 
 The set of all integers $$\{..., -2, -1, 0, 1, 2, ...\}$$ with addition forms an infinite group. Here, 0 is the identity, and every integer $$n$$ has inverse $$-n$$. This familiar arithmetic structure becomes a gateway to understanding more abstract groups.
 
-<h3> Clock arithmetic </h3>
+<h3>Clock arithmetic</h3>
 
 The hours on a clock face (1 through 12, or better yet, 0 through 11) form a finite group under addition modulo 12. This is our first encounter with modular arithmetic in the group theory context, and it reveals how familiar cyclic patterns embody deep algebraic structure.
 
@@ -193,7 +193,7 @@ What's remarkable is that despite the vast differences between geometric symmetr
 
 Groups capture the essence of a single operation, but mathematical structures often involve multiple operations working together. This leads us to rings—algebraic structures with both addition and multiplication.
 
-## The ring structure
+## Ring structure
 
 A ring extends the group concept by requiring:
 
@@ -203,15 +203,15 @@ A ring extends the group concept by requiring:
 
 ## Ring examples
 
-<h3> $$\mathbb{Z}$$ - the integers </h3>
+<h3>$\mathbb{Z}$ - the integers</h3>
 
 The integers form our prototypical ring. Addition and multiplication work as expected, and the distributive property holds. However, not every nonzero integer has a multiplicative inverse—this limitation leads us to consider more specialized structures.
 
-<h3> Polynomial rings </h3>
+<h3>Polynomial rings</h3>
 
 Consider polynomials like $$3x^2 + 2x - 1$$ with integer coefficients. We can add and multiply polynomials in natural ways, creating the polynomial ring $$\mathbb{Z}[x]$$. This example shows how ring theory extends beyond simple number systems to more complex algebraic objects.
 
-<h3> Matrix rings </h3>
+<h3>Matrix rings</h3>
 
 The set of all $$n \times n$$ matrices with real entries forms a ring under matrix addition and multiplication. This example is particularly important because it reveals that multiplication in rings need not be commutative—generally, $$AB \neq BA$$ for matrices.
 
@@ -229,17 +229,17 @@ Fields represent the algebraic structures where both addition and multiplication
 
 ## Field examples
 
-<h3> $$\mathbb{Q}$$ - the rational numbers </h3>
+<h3>$\mathbb{Q}$ - the rational numbers</h3>
 
 The rational numbers form the field we encounter earliest in our mathematical education. Every rational number except zero has a multiplicative inverse (its reciprocal).
 
-<h3> Finite fields </h3>
+<h3>Finite fields</h3>
 
 Perhaps more surprisingly, we can construct finite fields. The simplest examples are $$\mathbb{F}_p$$ where $$p$$ is prime—essentially arithmetic modulo $$p$$. For instance, $$\mathbb{F}_5 = \{0, 1, 2, 3, 4\}$$ with operations modulo 5.
 
 These finite fields are crucial in coding theory, cryptography, and computer science.
 
-<h3> $$\mathbb{C}$$ - the complex numbers </h3>
+<h3>$\mathbb{C}$ - the complex numbers</h3>
 
 The complex numbers extend the real numbers by adjoining $$i = \sqrt{-1}$$.
 This field is algebraically closed, meaning every polynomial with complex coefficients has all its roots in $$\mathbb{C}$$—a property that leads to profound consequences in analysis and algebra.
@@ -303,43 +303,43 @@ The development of abstract algebra represents one of the most remarkable collab
 
 ## Pioneers of group theory
 
-### [Augustin-Louis Cauchy (1789-1857)](https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy)
+<h3><a href="https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy">Augustin-Louis Cauchy (1789-1857)</a></h3>
 
 Cauchy was among the first to study permutation groups systematically. His work on permutations laid the groundwork for understanding how groups could represent symmetries and transformations. He established many fundamental results about the structure of finite groups and introduced concepts that remain central to group theory today.
 
-### [Arthur Cayley (1821-1895)](https://en.wikipedia.org/wiki/Arthur_Cayley)
+<h3><a href="https://en.wikipedia.org/wiki/Arthur_Cayley">Arthur Cayley (1821-1895)</a></h3>
 
 Cayley made the profound observation that every finite group is isomorphic to a subgroup of a symmetric group—now known as Cayley's theorem. This result showed that the study of abstract groups could always be grounded in concrete permutations, providing a bridge between abstract theory and computational practice.
 
-### [Camille Jordan (1838-1922)](https://en.wikipedia.org/wiki/Camille_Jordan)
+<h3><a href="https://en.wikipedia.org/wiki/Camille_Jordan">Camille Jordan (1838-1922)</a></h3>
 
 Jordan developed the systematic theory of finite groups and made crucial contributions to understanding their structure. His "Traité des substitutions" was the first comprehensive treatment of group theory, establishing many of the fundamental concepts we use today.
 
 ## Masters of Ring Theory
 
-### [Richard Dedekind (1831-1916)](https://en.wikipedia.org/wiki/Richard_Dedekind)
+<h3><a href="https://en.wikipedia.org/wiki/Richard_Dedekind">Richard Dedekind (1831-1916)</a></h3>
 
 Dedekind revolutionized algebra by developing the theory of ideals, which became foundational to ring theory. His insight that ideals could generalize the concept of numbers transformed how mathematicians think about divisibility and factorization in abstract settings. His work laid the groundwork for modern algebraic number theory and commutative algebra.
 
-### [David Hilbert (1862-1943)](https://en.wikipedia.org/wiki/David_Hilbert)
+<h3><a href="https://en.wikipedia.org/wiki/David_Hilbert">David Hilbert (1862-1943)</a></h3>
 
 Hilbert's contributions to algebra were revolutionary. His basis theorem showed that every ideal in a polynomial ring over a field is finitely generated—a result that transformed algebraic geometry and commutative algebra. His vision of mathematics as a unified whole influenced how we think about the connections between different mathematical domains.
 
-### [Wolfgang Krull (1899-1971)](https://en.wikipedia.org/wiki/Wolfgang_Krull)
+<h3><a href="https://en.wikipedia.org/wiki/Wolfgang_Krull">Wolfgang Krull (1899-1971)</a></h3>
 
 Krull developed dimension theory for commutative rings and introduced the concept of Krull dimension, which measures the "size" of algebraic objects. His work provided tools for understanding the geometric intuition behind algebraic structures, bridging algebra and geometry in profound ways.
 
 ## Architects of Field Theory
 
-### [Niels Henrik Abel (1802-1829)](https://en.wikipedia.org/wiki/Niels_Henrik_Abel)
+<h3><a href="https://en.wikipedia.org/wiki/Niels_Henrik_Abel">Niels Henrik Abel (1802-1829)</a></h3>
 
 Abel, like Galois, died tragically young but left an indelible mark on mathematics. He proved the impossibility of solving general quintic equations using radicals (the Abel-Ruffini theorem), laying crucial groundwork for what would become Galois theory. His work on elliptic functions also opened new vistas in analysis and algebraic geometry.
 
-### [Carl Friedrich Gauss (1777-1855)](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss)
+<h3><a href="https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss">Carl Friedrich Gauss (1777-1855)</a></h3>
 
 Often called the "Prince of Mathematics," Gauss made fundamental contributions to field theory. His proof of the fundamental theorem of algebra showed that the complex numbers are algebraically closed. His work on cyclotomic fields—arising from the roots of unity—demonstrated the deep connections between algebra and number theory.
 
-### [Leopold Kronecker (1823-1891)](https://en.wikipedia.org/wiki/Leopold_Kronecker)
+<h3><a href="https://en.wikipedia.org/wiki/Leopold_Kronecker">Leopold Kronecker (1823-1891)</a></h3>
 
 Kronecker developed much of the foundation of algebraic number theory and made crucial contributions to field extensions. His work on the structure of algebraic numbers and his insistence on constructive methods influenced how mathematicians think about the relationship between abstract theory and computational practice.
 
