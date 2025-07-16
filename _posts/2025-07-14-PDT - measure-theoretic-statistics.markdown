@@ -2,7 +2,7 @@
 permalink: /math/measure-theoretic-statistics
 title: The Mathematical Soul of Statistics &ndash; When Probability Meets Measure Theory
 date: Mon Jul 14 19:09:52 PDT 2025
-last_modified_at: Tue Jul 15 00:40:27 PDT 2025
+last_modified_at: Tue Jul 15 20:29:35 PDT 2025
 categories:
  - blog
 tags:
@@ -76,11 +76,6 @@ The central limit theorem stands as one of the most remarkable theorems in all o
 
 <audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/Measure-Theoretic Statistics_ Probabilities, Variables, and Convergences-01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
-<audio id="podcast-slides-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/Measure-Theoretic Statistics_ Probabilities, Variables, and Convergences-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
