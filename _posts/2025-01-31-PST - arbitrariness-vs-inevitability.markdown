@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sat Jul 12 02:15:42 PDT 2025
+last_modified_at: Wed Jul 16 10:21:22 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -28,6 +28,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
+	<source type="audio/wav" src="/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
+	Your browser does not support this shorter audio element.
+</audio>
+
+<audio id="podcast-2" controls>
 	<source type="audio/wav" src="/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
