@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Samsung AI Seminar] AI: Technologies, Industry Transformations, Societal Impacts, and Future Trajectories with Focus on Semiconductor Manufacturing Applications"
+title: "[Samsung AI Seminar] AI - Technologies, Industry Transformations, Societal Impacts, and Future Trajectories with Focus on Semiconductor Manufacturing Applications"
 permalink: /seminars/2025_0305 KST - Samsung AI Seminar - AI - Technologies, Industry Transformations, Societal Impacts, and Future Trajectories/abstract
-last_modified_at: Wed Feb 19 02:58:54 PST 2025
+last_modified_at: Thu Jul 17 23:58:00 PDT 2025
 author_profile: true
 ---
 
