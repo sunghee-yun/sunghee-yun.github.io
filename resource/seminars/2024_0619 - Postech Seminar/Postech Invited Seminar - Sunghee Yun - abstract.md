@@ -3,7 +3,7 @@ layout: single
 title: "[POSTECH 2024 LINC 3.0 + GSAI Joint Seminar] Industrial AI - Best Practices in Semiconductor Manufacturing"
 permalink: /seminar/2024_0619 - postech Seminar/abstract
 author_profile: true
-last_modified_at: 
+last_modified_at: Fri Jul 18 20:06:53 PDT 2025
 ---
 
 # Abstract
