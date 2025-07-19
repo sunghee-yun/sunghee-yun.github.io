@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[SNU DS Graduate School Seminar] Industrial AI Technology"
+permalink: /seminar/2023_1101 - SNU data science (DS) graduate school seminar - virtual/abstract
+author_profile: true
+last_modified_at: Fri Jul 18 21:09:42 PDT 2025
+---
+
+# Abstract
+
+This seminar presents a comprehensive industrial AI technology platform designed specifically for manufacturing environments, with particular focus on semiconductor fabrication. The work addresses the critical need for AI adoption in manufacturing, which McKinsey analysis shows can create substantially larger economic gains for front-runner companies compared to laggards. The research encompasses both computer vision and time-series machine learning applications, targeting the massive data streams generated in modern semiconductor fabs: terabyte-scale equipment sensor data, millions of metrology images daily, and millions of manufacturing execution events. The platform integrates advanced computer vision techniques for SEM image enhancement, automated metrology with sub-0.1nm precision, and unsupervised anomaly detection, alongside sophisticated time-series algorithms for prediction, classification, and root cause analysis.
+
+The core technical innovation lies in developing robust online learning frameworks that address the fundamental challenges of manufacturing data: covariate shift, concept drift, "fat data" characteristics, poor data quality, and multi-modal complexity. Traditional offline machine learning approaches fail in manufacturing environments due to constantly changing process conditions, necessitating novel algorithms based on expert advice that dynamically adapt to evolving data distributions. The methodology incorporates Model Uncertainty Estimation (MUE) to provide prediction reliability information, enabling process engineers to make informed decisions about AI prediction trustworthiness. The approach emphasizes data-centric AI principles and the critical importance of domain knowledge integration, requiring close collaboration with customers and fully customized algorithm development rather than off-the-shelf solutions.
+
+Virtual Metrology (VM) emerges as the flagship application, representing a breakthrough achievement in manufacturing AI. Unlike previous unsuccessful attempts by other organizations, Gauss Labs' VM system successfully uses online learning to cope with data drift, achieving RMSE comparable to measurement equipment precision while predicting uncertainty levels. The business impact is transformative: VM enables measurement coverage equivalent to 100x investment in physical metrology equipment, while root cause analysis applications can generate tens of millions of dollars in value through even modest yield improvements. The comprehensive software platform architecture supports both generic reusable components and customer-specific customizations, positioning this work as a paradigm shift toward data-centric AI solutions that create virtuous cycles of investment, AI development, and business value generation in industrial manufacturing.
