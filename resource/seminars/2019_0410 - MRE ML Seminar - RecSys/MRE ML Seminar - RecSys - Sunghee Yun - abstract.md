@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[MRE ML Seminar Series] Recommendation System"
+permalink: /seminar/2019_0410 - MRE ML Seminar - RecSys/abstract
+author_profile: true
+last_modified_at: Sat Jul 19 05:24:48 EDT 2025
+---
+
+# Abstract
+
+This seminar provides a comprehensive overview of recommender systems and their critical importance in modern e-commerce and digital platforms. Using Amazon as a primary case study, the presentation demonstrates how recommendation algorithms power various services including product suggestions ("customers who bought this item also bought"), personalized homepage content, bundle recommendations ("frequently bought together"), and cross-platform recommendations spanning Prime Video, Amazon Music, and seller tools. The business impact is substantial, with McKinsey reporting that 35% of Amazon's purchases result from their recommender system, while Jeff Bezos highlighted machine learning's role in driving demand forecasting, search ranking, and product recommendations as core operational improvements. The presentation also examines successful implementations across other major platforms including Netflix (75% of movies watched), YouTube (70% of videos viewed), Alibaba (20% conversion rate increase), and Best Buy (23.7% sales increase in 2016).
+
+The core technical approach centers on Matrix Factorization (MF) and its connection to Dimensionality Reduction (DR) techniques, particularly Singular Value Decomposition (SVD). The presentation explains how user-item rating matrices can be factorized into lower-dimensional representations using latent factors, enabling predictions for unrated items through the reconstruction of incomplete matrices. Various algorithmic approaches are covered, including standard matrix factorization, regularized versions to prevent overfitting, non-negative matrix factorization (NMF), and optimization techniques such as gradient descent and stochastic gradient descent with mini-batch processing. The alternating least squares (ALS) method is presented as an effective solution for handling incomplete matrices in real-world scenarios where users have only rated a subset of available items.
+
+Beyond traditional collaborative filtering, the seminar explores broader applications of matrix factorization techniques, including topic modeling for content analysis and feature extraction. Topic modeling is presented as a bi-clustering problem that identifies semantically related word groups and their presence in documents, with practical applications ranging from analyzing trending topics on Twitter to congressional bill discussions and research grant analysis. The presentation emphasizes the versatility of these mathematical foundations across different domains, demonstrating how the same underlying principles that power e-commerce recommendations can be adapted for text analysis, social media monitoring, and content discovery, showcasing the broad applicability of these techniques beyond traditional recommendation scenarios.
