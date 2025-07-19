@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[Gaussian Mixture] Time-series ML and its Applications in Manufacturing"
+permalink: /seminar/2021_1214 - Gaussian Mixture - time-series ML and its applications in manufacturing/abstract
+author_profile: true
+last_modified_at: Fri Jul 18 22:38:03 PDT 2025
+---
+
+# Abstract
+
+Time-series machine learning represents the cornerstone of modern manufacturing AI, as virtually all data generated in manufacturing environments—from sensor readings and process times to material measurements and equipment maintenance histories—inherently possesses temporal characteristics. In semiconductor manufacturing alone, production lines generate petabyte-scale time-series data daily, creating unprecedented opportunities for predictive analytics and process optimization. Manufacturing applications of time-series ML span six critical domains: prediction of process values through virtual metrology and yield forecasting, anomaly detection for root cause analysis and yield investigation, classification for equipment alarm generation, advanced process control with feedback mechanisms, automated metrology and defect inspection, and process time estimation for planning and scheduling optimization.
+
+The implementation of time-series ML in manufacturing environments presents unique technical challenges that distinguish it from conventional machine learning applications. Concept drift and shift phenomena cause both input distributions and conditional output distributions to evolve continuously over time, resulting in "fat data" scenarios where the number of features far exceeds available training samples. Manufacturing data quality issues, including extensive missing values and measurement errors, compound these challenges alongside the need to process massive data volumes at high speeds across heterogeneous data types. Most critically, domain knowledge becomes indispensable for successful implementation, requiring close customer collaboration and the development of fully customized algorithms, as off-the-shelf machine learning solutions consistently fail to address the specific complexities of manufacturing processes.
+
+Gauss Labs' breakthrough Virtual Metrology (VM) application exemplifies the transformational potential of properly implemented time-series ML in manufacturing. Addressing the fundamental constraint that less than 1% of semiconductor wafers undergo measurement due to equipment costs and throughput limitations, Gauss Labs developed a fully customized online learning system that handles data drift and shift while achieving prediction accuracy comparable to physical measurement equipment precision. This innovation enables manufacturers to virtually measure all processed materials—equivalent to investing in 100x more measurement equipment—while providing uncertainty quantification for prediction reliability assessment. The VM success demonstrates how sophisticated time-series ML approaches can overcome traditional manufacturing limitations, enabling optimal reallocation of measurement resources and potentially delivering 10x operational improvements across critical manufacturing processes.

@@ -1,0 +1,17 @@
+---
+layout: single
+title: "[Sogang University Special Lecture] Electrical Engineer in the age of AI"
+permalink: /seminar/2021_0326 - Sogang University - Special Lecture/abstract
+author_profile: true
+last_modified_at: Sat Jul 19 02:10:22 EDT 2025
+---
+
+# Abstract
+
+This special lecture explores the evolving role of electrical engineers in the artificial intelligence era, drawing from extensive industry experience spanning Samsung Electronics, Amazon, SK hynix, and Gauss Labs. The presentation begins with an introduction to Gauss Labs, an industrial AI company focused on semiconductor manufacturing applications with the ambitious vision to "make it smarter than people" and aims to become the world's best industry AI company. The company applies cutting-edge AI techniques to reduce manufacturing costs, improve throughput, and accelerate production timelines, demonstrating how AI is revolutionizing traditional manufacturing processes in the semiconductor industry.
+
+The lecture emphasizes the remarkable versatility and potential of electrical engineering in the AI age, highlighting how the discipline encompasses communication systems, semiconductor devices, circuit design, computer science, and software development. Related mathematical and technical foundations include optimization, numerical methods, statistics, hardware design, and machine learning - illustrating that "electrical engineers can do virtually anything." This interdisciplinary nature positions electrical engineers uniquely to bridge the gap between hardware and software, making them invaluable in an increasingly AI-driven technological landscape where understanding both physical systems and algorithmic approaches is crucial.
+
+Drawing from personal experiences across Korea, Canada, and the United States, the presentation provides candid insights into cultural and professional differences between these regions. Korea is characterized by competitive, diligent people who excel as memory chip manufacturers, while the USA offers a different type of competitiveness with many diligent professionals. Canada presents a less competitive environment that values diverse perspectives and provides excellent social security systems. For students aspiring to work in Silicon Valley, the lecture offers practical advice: technical skills define both identity and compensation, universal interpersonal rules apply regardless of technical expertise, discussing compensation openly is essential as market value determines worth, and significant personal growth accompanies the inevitable challenges of working in such a demanding environment.
+
+The lecture concludes with philosophical reflections on life choices and career development, advocating for diverse experiences, deep thinking, and sustained focus. When asked about returning to freshman year of college, the presenter expresses satisfaction with past decisions while acknowledging that living a richer life through diverse experiences, thinking more deeply, staying focused for longer periods, and never regretting past choices would be valuable approaches. This perspective emphasizes the importance of continuous learning, adaptability, and philosophical reflection in navigating the rapidly evolving intersection of electrical engineering and artificial intelligence, where technical competence must be balanced with broader human understanding and experience.

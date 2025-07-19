@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Yonsei University Applied Statistics Invited AI Seminar] LLM & genAI - Technology, Industry, and Market" invited by Yonsei University (10-Jul-2024 KST)
+title: "[Yonsei University Applied Statistics Invited AI Seminar] LLM & genAI - Technology, Industry, and Market"
 permalink: /seminar/2024_0710 - Yonsei Univ. Seminar/abstract
 author_profile: true
 last_modified_at: Fri Jul 18 19:06:35 PDT 2025
