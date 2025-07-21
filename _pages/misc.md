@@ -6,13 +6,15 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Jul 21 00:17:19 EDT 2025
+last_modified_at: Mon Jul 21 01:38:55 EDT 2025
 ---
 
+<!--
 # URLs
 
 - [보도자료 - 제21대 대통령선거 주샌프란시스코총영사관재외선거관리위원회 출범 - https://naver.me/x3jBO7Rj](https://sanfrancisco.mofa.go.kr/us-sanfrancisco-ko/brd/m_4679/view.do?seq=1346385&page=1)
 - [중앙선거관리위원회 재외선거 홈페이지 - https://naver.me/x7vop8rs](https://www.nec.go.kr/site/abroad/main.do)
+-->
 
 # English expressions
 
@@ -55,16 +57,11 @@ last_modified_at: Mon Jul 21 00:17:19 EDT 2025
 
 ## 2025 {#gifts-2025}
 
-<ul>
-<li>
-	04-Jan-2024
-	-
+- 04-Jan-2024
+	&ndash;
 	Beth's card
-	<a href="/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-27_001.jpeg">front</a>
-	<a href="/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-30_002.jpeg">contents</a>,
-	Beth's gift
-</li>
-</ul>
+	[front](/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-27_001.jpeg)
+	[contents](/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-30_002.jpeg)
 
 # Art, Culture &amp; Games
 
@@ -259,6 +256,28 @@ last_modified_at: Mon Jul 21 00:17:19 EDT 2025
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
 		(1h 28m)
+
+<h4>Oct</h4>
+
+- biz trip to Seoul &ndash; 12 nights
+	- 13-Oct-2025 PDT ~ 25-Oct-2025 PDT
+	- [flight](/resource/trips/2025-10 - Seoul/www.expedia.com-egti-XIU-ICR-W9TS.pdf)
+		&ndash; Air Premia 112
+		&ndash; from SFO @ 3:30pm on 13-Oct-2025 PDT to ICN @ 8:30pm on 14-Oct-2025 KST
+		(13h)
+	- [return flight](/resource/trips/2025-10 - Seoul/www.expedia.com-egti-XIU-ICR-W9TS.pdf)
+		&ndash; OZ 212
+		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 25-Oct-2025
+		(10h 35m)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- 2 night trip to Jeju for International Conference on ICT Convergence (ICTC) 2025
+		- [flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
+			&ndash; 7C 111
+			&ndash; from GMP @ 9:25am to CJU @ 10:40am on 15-Oct-2025 KST
+		- [return flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
+			&ndash; 7C 142
+			&ndash; from GMP @ 9:20pm to CJU @ 10:35pm on 17-Oct-2025 KST
+		- stay @ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
 
 <h4>Aug</h4>
 
