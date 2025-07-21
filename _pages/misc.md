@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Jul  6 04:27:42 PDT 2025
+last_modified_at: Mon Jul 21 00:17:19 EDT 2025
 ---
 
 # URLs
@@ -278,15 +278,17 @@ last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 
 - Family trip to NYC &ndash; 6 nights
 	- 19-Jul-2025 PDT ~ 25-Aug-2025 PDT
-	- [flight](/resource/trips/2025-08 - NYC/Booking Confirmation – United Airlines.pdf)
+	- [flight](/resource/trips/2025-07 - NYC/Booking Confirmation – United Airlines.pdf)
 		&ndash; UA 2626
 		&ndash; from SFO @ 4:20pm on 19-Jul-2025 PDT to EWR @ 1:05am on 20-Jul-2025 EDT
 		(5h 45m)
-	- [return flight](/resource/trips/2025-08 - NYC/Booking Confirmation – United Airlines.pdf)
+	- [return flight](/resource/trips/2025-07 - NYC/Booking Confirmation – United Airlines.pdf)
 		&ndash; United 2328
 		&ndash; from EWR @ 3:55pm EDT to SFO @ 7:04pm PDT on 25-Aug-2025
 		(6h 9m)
-	- stay @ [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
+	- stay @ [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/EgzEBKAEsukPLgdQ7)
+	- 1 night trip to Pohang
+		 - 12-Aug-2025 ~ 13-Aug-2025
 
 <h4>Jun</h4>
 
@@ -301,17 +303,16 @@ last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 04-Jul-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
-	- trips
-		- 1 night trip to Icheon for AI Talk
-			@ Knowledge Festival All Seasons (KFAS) 2025 - AI &amp; Humanity
-			invited by Korea Foundation for Advanced Studies and SKMS Research Center
-			- 27-Jun-2025 ~ 28-Jun-2025
-			- <a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">poster</a>
-				<a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025_프로그램북.pdf">program book</a>
-			- stay @ [SKMS Research Center](https://naver.me/5r9R7NTX)
-		- 1 day trip to Daejeon for AI Seminar invited by Graduate School of Medical Science and Engineering, KAIST
-			- 03-Jul-2025 KST
-			- [SRT](/resource/trips/2025-06 - Seoul/srt schedules.png)
+	- 1 night trip to Icheon for AI Talk
+		@ Knowledge Festival All Seasons (KFAS) 2025 - AI &amp; Humanity
+		invited by Korea Foundation for Advanced Studies and SKMS Research Center
+		- 27-Jun-2025 ~ 28-Jun-2025
+		- <a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">poster</a>
+			<a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025_프로그램북.pdf">program book</a>
+		- stay @ [SKMS Research Center](https://naver.me/5r9R7NTX)
+	- 1 day trip to Daejeon for AI Seminar invited by Graduate School of Medical Science and Engineering, KAIST
+		- 03-Jul-2025 KST
+		- [SRT](/resource/trips/2025-06 - Seoul/srt schedules.png)
 - biz trip to Boston &amp; NYC &ndash; 6 nights
 	- 14-Jun-2025 PDT ~ 20-Jun-2025 PDT
 	- [flight 1](/resource/trips/2025-06 - Boston & NYC/www.expedia.com-egti-ASQ-5BM-ZP8U.pdf)
@@ -325,7 +326,7 @@ last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 		&ndash; JetBlue Airways 615
 		&ndash; from JFK @ <s>8:15pm</s> 10:20pm on 20-Jun-2025 EDT to SFO @ <s>11:59pm</s> 1:21am on 21-Jun-2025 PDT <s>(6h 44m)</s> (6h 1m)
 	- stay @ [Marriott](/resource/trips/2025-06 - Boston & NYC/Reservation Confirmation _ Marriott Bonvoy.pdf), [Aloft Boston Seaport District](https://maps.app.goo.gl/kWpAAyPDCx8eY7VL6)
-		&amp; [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9)
+		&amp; [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/EgzEBKAEsukPLgdQ7)
 
 <h4>May</h4>
 
@@ -503,7 +504,7 @@ last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 		(6h 39m)
 	</li>
 	<li>
-		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's home, Scarsdale, NY</a>,
+		stay @ <a href="https://maps.app.goo.gl/EgzEBKAEsukPLgdQ7">Jisun's home, Scarsdale, NY</a>,
 		visit
 		<a href="https://maps.app.goo.gl/qJLgX9cT4SKb37Td6">Carnegie Hall</a> @ 28-Dec-2024,
 		<a href="https://maps.app.goo.gl/6VjqiDZXpBceWoNk9">Rockefeller Center</a> @ 29-Dec-2024
@@ -1035,7 +1036,7 @@ last_modified_at: Sun Jul  6 04:27:42 PDT 2025
 	</li>
 	<li>
 		<!--stay @ <a href="https://maps.app.goo.gl/8e4Wn8GYq7Ht2tRQ7">Jisun's</a-->
-		stay @ <a href="https://maps.app.goo.gl/BXbnchY3iPmp4Ezj9">Jisun's home, Scarsdale, NY</a>,
+		stay @ <a href="https://maps.app.goo.gl/EgzEBKAEsukPLgdQ7">Jisun's home, Scarsdale, NY</a>
 	</li>
 	</ul>
 </li>
