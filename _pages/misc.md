@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Jul 21 01:38:55 EDT 2025
+last_modified_at: Mon Jul 21 03:06:09 EDT 2025
 ---
 
 <!--
@@ -292,6 +292,11 @@ last_modified_at: Mon Jul 21 01:38:55 EDT 2025
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 20-Aug-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- 1 night trip to Pohang
+		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
+			&ndash; from Suseo @ 9:20am to Gyungjoo @ 11:26am on 12-Aug-2025 KST
+		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
+			&ndash; from Gyungjoo @ 9:05pm to Suseo @ 11:12pm on 13-Aug-2025 KST
 
 <h4>Jul</h4>
 
@@ -299,7 +304,7 @@ last_modified_at: Mon Jul 21 01:38:55 EDT 2025
 	- 19-Jul-2025 PDT ~ 25-Aug-2025 PDT
 	- [flight](/resource/trips/2025-07 - NYC/Booking Confirmation – United Airlines.pdf)
 		&ndash; UA 2626
-		&ndash; from SFO @ 4:20pm on 19-Jul-2025 PDT to EWR @ 1:05am on 20-Jul-2025 EDT
+		&ndash; from SFO @ <s>4:20pm</s> 5:16pm on 19-Jul-2025 PDT to EWR @ <s>1:05am</s> 1:43am on 20-Jul-2025 EDT
 		(5h 45m)
 	- [return flight](/resource/trips/2025-07 - NYC/Booking Confirmation – United Airlines.pdf)
 		&ndash; United 2328
