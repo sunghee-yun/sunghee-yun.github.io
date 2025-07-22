@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jul 22 02:53:38 EDT 2025
+last_modified_at: Tue Jul 22 03:08:43 EDT 2025
 ---
 
 <!--
@@ -288,7 +288,7 @@ last_modified_at: Tue Jul 22 02:53:38 EDT 2025
 		&ndash; from SFO @ 11:30pm on 14-Sep-2025 PDT to ICN @ 4:30am on 16-Sep-2025 KST
 		(13h)
 	- [return flight](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
-		&ndash; United 892
+		&ndash; OZ 212
 		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 27-Sep-2025
 		(10h 35m)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
