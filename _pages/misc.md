@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Jul 21 03:06:09 EDT 2025
+last_modified_at: Tue Jul 22 02:53:38 EDT 2025
 ---
 
 <!--
@@ -278,6 +278,23 @@ last_modified_at: Mon Jul 21 03:06:09 EDT 2025
 			&ndash; 7C 142
 			&ndash; from GMP @ 9:20pm to CJU @ 10:35pm on 17-Oct-2025 KST
 		- stay @ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
+
+<h4>Sep</h4>
+
+- biz trip to Seoul &ndash; 13 nights
+	- 14-Sep-2025 PDT ~ 27-Sep-2025 PDT
+	- [flight](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
+		&ndash; OZ 211
+		&ndash; from SFO @ 11:30pm on 14-Sep-2025 PDT to ICN @ 4:30am on 16-Sep-2025 KST
+		(13h)
+	- [return flight](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
+		&ndash; United 892
+		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 27-Sep-2025
+		(10h 35m)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- 1 day trip to Pohang
+		- 17-Sep-2025 KST
+		- <i>Train tickets not purchased yet</i>
 
 <h4>Aug</h4>
 
