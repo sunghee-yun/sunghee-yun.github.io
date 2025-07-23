@@ -1,7 +1,7 @@
 ---
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Tue Jul 22 00:20:37 EDT 2025
+last_modified_at: Tue Jul 22 20:49:37 EDT 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -32,6 +32,14 @@ For entrepreneurs, this means that competitive advantage no longer comes from ha
 The question isn't whether AI agents will revolutionize business operations—it's which entrepreneurs will build the companies that lead that revolution.
 </blockquote>
 
+# Some Podcasts
+
+- <a href="https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1/audio">Podcast (20:15)</a>
+- <a href="https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771/audio">Podcast (22:22)</a>
+- <a href="https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361/audio">Podcast (28:15)</a>
+
+# The AI Landscape Transformation
+
 The Artificial Intelligence (AI) landscape has reached a critical inflection point in (or even before) 2024, marked by two fundamental shifts (among many others) that are reshaping the commercial technology ecosystem. First, foundational AI capabilities have become commoditized, with large language model (LLM) development concentrated among a select few organizations with the requisite capital and infrastructure.<sup><a href="#footnote1" id="ref1">1</a></sup> Second, we have entered the era of agentic AI—a technological maturation that enables autonomous systems to perform complex, multi-step operations with unprecedented sophistication using unprecedented AI technology.
 
 As I emphasize in [almost every recent AI lecture of mine](/#sem), these developments represent more than incremental progress—they signal a fundamental transformation in how we conceptualize and deploy AI in commercial applications. The barrier to entry for developing state-of-the-art foundation models has become prohibitively high, with only companies like OpenAI, Google, Anthropic, Mistral AI, DeepSeek, Alibaba, X, and Perplexity possessing the necessary resources. This reality has profound implications for entrepreneurs and investors seeking to build sustainable businesses in the AI space.
@@ -40,7 +48,11 @@ As I emphasize in [almost every recent AI lecture of mine](/#sem), these develop
 <img src="/resource/posts/2025-06-09-PDT - AI-landscape/llms-07.jpeg">
 </div>
 
+# From Big Data to AI Agents - A Decade of Evolution
+
 Before delving into AI agents, let's examine how AI evolved during the 21st century by observing key technological milestones. Around 2010, the industry began focusing intensively on Big Data analytics and storage solutions. In 2012, AlexNet catalyzed the deep learning revolution, demonstrating that neural networks could achieve superhuman performance in image recognition tasks. The 2017 introduction of the Transformer architecture laid the groundwork for modern language models, culminating in ChatGPT's mainstream debut in 2022. This progression naturally evolved into widespread adoption of large language models (LLMs) and generative AI (genAI) technologies. Then finally, by late 2024, the focus shifted to AI agents—autonomous systems capable of executing complex, multi-step workflows with minimal human supervision.
+
+# Defining AI Agents - Beyond Traditional Automation
 
 The concept of agents has traditionally been associated with robotics and autonomous systems. However, the current generation of AI agents represents something fundamentally different: software entities that can reason, plan, and execute tasks across digital environments with human-level or superior performance in specific domains.<sup><a href="#footnote2" id="ref2">2</a></sup>
 
