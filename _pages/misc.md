@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jul 22 22:51:58 EDT 2025
+last_modified_at: Tue Jul 22 23:15:23 EDT 2025
 ---
 
 <!--
@@ -281,13 +281,14 @@ last_modified_at: Tue Jul 22 22:51:58 EDT 2025
 		(10h 35m)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 2 night trip to Jeju for International Conference on ICT Convergence (ICTC) 2025
+		@ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
 		- [flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
 			&ndash; 7C 111
 			&ndash; from GMP @ 9:25am to CJU @ 10:40am on 15-Oct-2025 KST
 		- [return flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
 			&ndash; 7C 142
 			&ndash; from GMP @ 9:20pm to CJU @ 10:35pm on 17-Oct-2025 KST
-		- stay @ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
+		- stay @ [Benikea Jungmun Hotel](https://naver.me/F0zvWKf9)
 
 <h4>Sep</h4>
 
