@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jul 22 03:08:43 EDT 2025
+last_modified_at: Tue Jul 22 22:51:58 EDT 2025
 ---
 
 <!--
@@ -67,6 +67,16 @@ last_modified_at: Tue Jul 22 03:08:43 EDT 2025
 
 ## 2025 {#arts-and-culture-2025}
 
+- Ghayoung and ME
+	&ndash; Classical Music Concert
+	&ndash; Festival Orchestra of Lincoln Center - Forklore &amp; Legends
+	@ [Lincoln Center for the Performing Arts](https://maps.app.goo.gl/2YEbxsCJQiZiCtNJ6)
+	&ndash; 7:30pm ~ 9:30pm @ 23-Jul-2025 EDT
+- Ghayoung and ME
+	&ndash; Play
+	&ndash; Harry Potter and the Cursed Child
+	@ [Harry Potter and the Cursed Child](https://maps.app.goo.gl/3gFUcwXkNoW9H4mPA)
+	&ndash; 1pm ~ 4pm on 23-Jul-2025 EDT
 - Family
 	&ndash; Ballgame
 	&ndash; Miami Marlins vs Giants
