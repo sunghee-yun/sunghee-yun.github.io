@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Sat Jul 26 14:23:57 PDT 2025
+last_modified_at: Sun Jul 27 02:22:24 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -14,15 +14,6 @@ toc_sticky: true
 usemathjax: true  # for LaTeXing
 ---
 
-$$
-\newcommand{\reals}{\mathbb{R}}
-\newcommand{\complexes}{\mathbb{C}}
-\newcommand{\integers}{\mathbb{Z}}
-\newcommand{\kclosure}{\bar{K}}
-\newcommand{\Prob}{\mathop{\bf Prob}}
-\newcommand{\Expect}{\mathop{\bf E{}}}
-$$
-
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
 <br>
 cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
@@ -32,7 +23,14 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-{% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
+$$
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\complexes}{\mathbb{C}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\kclosure}{\bar{K}}
+\newcommand{\Prob}{\mathop{\bf Prob}}
+\newcommand{\Expect}{\mathop{\bf E{}}}
+$$
 
 # Faces
 
