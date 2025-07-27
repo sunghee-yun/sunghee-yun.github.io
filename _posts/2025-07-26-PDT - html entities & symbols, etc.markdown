@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Sat Jul 26 14:05:05 PDT 2025
+last_modified_at: Sat Jul 26 14:23:57 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -11,8 +11,17 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-usemathjax: false  # for LaTeXing
+usemathjax: true  # for LaTeXing
 ---
+
+$$
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\complexes}{\mathbb{C}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\kclosure}{\bar{K}}
+\newcommand{\Prob}{\mathop{\bf Prob}}
+\newcommand{\Expect}{\mathop{\bf E{}}}
+$$
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
 <br>
@@ -43,3 +52,16 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 &#x1F60D;
 &#x1F60E;
 &#x1F60F;
+
+&#x2605;^^&#x2605;
+
+# LaTeXing
+
+## Math
+
+$$\reals$$
+$$\complexes$$
+$$\integers$$
+$$\kclosure$$
+$$\Prob$$
+$$\Expect$$
