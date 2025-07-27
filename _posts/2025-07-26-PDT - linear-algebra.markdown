@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 04:37:04 PDT 2025
+last_modified_at: Sun Jul 27 14:00:44 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -35,6 +35,7 @@ $$
 \newcommand{\kclosure}{\bar{K}}
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}
+\newcommand{\sign}{\mathop{\bf sign}}
 $$
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
@@ -321,7 +322,7 @@ The procedure (using counting rods) for solving simultaneous linear equations no
 [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
 appears in the ancient Chinese mathematical text [Chapter Eight: Rectangular Arrays](https://en.wikipedia.org/wiki/Rod_calculus#System_of_linear_equations)
 of [The Nine Chapters on the Mathematical Art](https://en.wikipedia.org/wiki/The_Nine_Chapters_on_the_Mathematical_Art).
-Its use is illustrated in eighteen problems, with two to five equations.[4]
+Its use is illustrated in eighteen problems, with two to five equations.
 
 [Systems of linear equations](https://en.wikipedia.org/wiki/Systems_of_linear_equations) arose in Europe
 with the introduction in 1637
@@ -350,14 +351,14 @@ Linear algebra grew with ideas noted in the complex plane. For instance, two num
 C
 {\displaystyle \mathbb {C} } have a difference w – z, and the line segments wz and 0(w − z) are of the same length and direction. The segments are equipollent. The four-dimensional system
 H
-{\displaystyle \mathbb {H} } of quaternions was discovered by W.R. Hamilton in 1843.[6] The term vector was introduced as v = xi + yj + zk representing a point in space. The quaternion difference p – q also produces a segment equipollent to pq. Other hypercomplex number systems also used the idea of a linear space with a basis.
+{\displaystyle \mathbb {H} } of quaternions was discovered by W.R. Hamilton in 1843. The term vector was introduced as v = xi + yj + zk representing a point in space. The quaternion difference p – q also produces a segment equipollent to pq. Other hypercomplex number systems also used the idea of a linear space with a basis.
 -->
 
 [Arthur Cayley](https://en.wikipedia.org/wiki/Arthur_Cayley)
 introduced [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 and the [inverse matrix](https://en.wikipedia.org/wiki/Inverse_matrix) in 1856,
 making possible the [general linear group](https://en.wikipedia.org/wiki/General_linear_group).
-The mechanism of [group representation](https://en.wikipedia.org/wiki/Group_representation) became available for describing complex and hypercomplex numbers. Crucially, Cayley used a single letter to denote a matrix, thus treating a matrix as an aggregate object. He also realized the connection between matrices and determinants and wrote "There would be many things to say about this theory of matrices which should, it seems to me, precede the theory of determinants".[5]
+The mechanism of [group representation](https://en.wikipedia.org/wiki/Group_representation) became available for describing complex and hypercomplex numbers. Crucially, Cayley used a single letter to denote a matrix, thus treating a matrix as an aggregate object. He also realized the connection between matrices and determinants and wrote "There would be many things to say about this theory of matrices which should, it seems to me, precede the theory of determinants".
 
 [Benjamin Peirce](https://en.wikipedia.org/wiki/Benjamin_Peirce) published his Linear Associative Algebra in 1872,
 and his son [Charles Sanders Peirce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce) extended the work later.
@@ -698,7 +699,69 @@ $$
 
 ## Endomorphisms &amp; square matrices
 
+A linear [endomorphism](https://en.wikipedia.org/wiki/Endomorphism)
+is a linear map that maps a vector space to itself.
+If the vector space has a basis of $$n$$ elements,
+that is,
+if the dimension of the vector space is $$n$$,
+such an endomorphism is represented by a square matrix of size $$n$$.
+
+Concerning general linear maps, linear endomorphisms, and square matrices
+have some specific properties that make their study an important part of linear algebra,
+which is used in many parts of mathematics,
+including
+[geometric transformations](https://en.wikipedia.org/wiki/Geometric_transformation),
+[coordinate changes](https://en.wikipedia.org/wiki/Coordinate_change),
+[quadratic forms](https://en.wikipedia.org/wiki/Quadratic_form),
+and many other parts of mathematics.
+
 ### Determinant
+
+The <span class="emph">[determinant](https://en.wikipedia.org/wiki/Determinant)</span>
+of a square matrix $$A\in R^{n\times n}$$
+(where $$R$$ is a [ring](/math/abstract-algebra#rings---where-addition-meets-multiplication)<sup><a href="#footnote2" id="ref2">2</a></sup>)
+is denoted by $$\det(A)$$
+and defined by
+
+$$
+\det(A)
+=
+\sum_{\sigma \in S_n} \sign(\sigma) A_{1,\sigma(1)} A_{2,\sigma(2)} \cdots A_{n,\sigma(n)}
+$$
+
+where $$S_n$$ is the group of all permutations,
+*i.e.*, the [symmetric group](https://en.wikipedia.org/wiki/Symmetric_group),
+of $$n$$ elements
+and $$\sigma(\sigma)$$ is the [parity](https://en.wikipedia.org/wiki/Parity_of_a_permutation) of the permutation $$\sigma$$.
+
+The matrix $$A$$ is invertible if and only if the determinant is invertible
+(*e.g.*, nonzero if the scalars belong to a [field](/math/abstract-algebra#fields---the-realm-of-perfect-division)).
+
+The determinant can be evaluated recursively,
+*i.e.*,
+one can derive the formula for the determinant of a square matrix in $$R^{n\times n}$$
+using the determinants of square matrices in $$R^{(n-1)\times(n-1)}$$ as follow.
+
+$$
+\det(A)
+=
+	\sum_{k=1}^n (-1)^{k+1}A_{1,k} M_{1,k}
+$$
+
+where
+$$M_{i,j}$$ is the [$$(i,j)$$-minor](https://en.wikipedia.org/wiki/Minor_(linear_algebra)) of $$A$$
+that is
+defined by the [determinant](#determinant) of the $$(n-1)$$-by-$$(n-1)$$ matrix
+resulting from removing the $i$-th row and $j$-th column of $$A$$.
+
+Note that we have the following equivalences.
+
+$$
+\det(A)
+=
+	\sum_{k=1}^n (-1)^{k+1}A_{1,k} M_{1,k}
+$$
+
 
 ### Eigenvalues and eigenvectors
 
@@ -736,4 +799,12 @@ $$
 	For example, the real numbers form an infinite-dimensional vector space over the rational numbers,
 	for which no specific basis is known.
 	&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
+	Here (only) for the discussion of determinant,
+	we assume a <a href="/math/abstract-algebra#rings---where-addition-meets-multiplication">ring</a>
+	(not a <a href="/math/abstract-algebra#fields---the-realm-of-perfect-division">field</a>)
+	for the discussion of determinant.
+	For the rest,
+	we will get back to the assumption of a field!
+	&nbsp;<a href="#ref2">↩</a></li>
 </ol>
