@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jul 22 23:15:23 EDT 2025
+last_modified_at: Sat Jul 26 18:16:03 PDT 2025
 ---
 
 <!--
@@ -254,6 +254,17 @@ last_modified_at: Tue Jul 22 23:15:23 EDT 2025
 
 <h4>Dec</h4>
 
+- biz trip to Seoul &ndash; 12 nights
+	- 09-Dec-2025 PST ~ 21-Dec-2025 PST
+	- [flight](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+		&ndash; United 893
+		&ndash; from SFO @ 10:30am on 09-Dec-2025 PST to ICN @ 4:15pm on 10-Dec-2025 KST
+		(13h)
+	- [return flight](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+		&ndash; OZ 212
+		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 21-Dec-2025
+		(10h 35m)
+	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 - biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
 	6 nights
