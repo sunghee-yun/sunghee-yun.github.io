@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sat Jul 26 18:29:58 PDT 2025
+last_modified_at: Sun Jul 27 04:37:04 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -46,9 +46,7 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-{% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
-
-# Vector spaces
+# Vector Spaces
 
 In mathematics and physics,
 a <span class="emph">vector space</span>
@@ -73,6 +71,66 @@ Many vector spaces that are considered in mathematics are also endowed with othe
 This is the case of [algebras](/math/abstract-algebra),
 which include field extensions, polynomial rings, associative algebras and Lie algebras.
 This is also the case of [topological vector spaces](/math/topological-spaces), which include function spaces, inner product spaces, normed spaces, Hilbert spaces and Banach spaces.
+
+## History
+
+Vector spaces stem from [affine geometry](https://en.wikipedia.org/wiki/Affine_geometry),
+via the introduction of coordinates in the plane or three-dimensional space.
+Around 1636, French mathematicians [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
+and [Pierre de Fermat](https://en.wikipedia.org/wiki/Pierre_de_Fermat) founded [analytic geometry](https://en.wikipedia.org/wiki/Analytic_geometry)
+by identifying solutions to an equation of two variables with points on a plane curve.
+To achieve geometric solutions without using coordinates, [Bernard Bolzano](https://en.wikipedia.org/wiki/Bernard_Bolzano) introduced, in 1804,
+certain operations on points, lines, and planes, which are predecessors of vectors.
+[August Ferdinand Möbius](https://en.wikipedia.org/wiki/August_Ferdinand_M%C3%B6bius)
+[in 1827](https://en.wikipedia.org/wiki/Vector_space#CITEREFM%C3%B6bius1827)
+introduced the notion of [barycentric coordinates](https://en.wikipedia.org/wiki/Barycentric_coordinates_(mathematics)).
+[Giusto Bellavitis](https://en.wikipedia.org/wiki/Giusto_Bellavitis)
+[in 1833](https://en.wikipedia.org/wiki/Vector_space#CITEREFBellavitis1833)
+introduced an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) on directed line segments
+that share the same length and direction which he called [equipollence](https://en.wikipedia.org/wiki/Equipollence_(geometry)).
+A [Euclidean vector](https://en.wikipedia.org/wiki/Euclidean_vector) is then an [equivalence class](https://en.wikipedia.org/wiki/Equivalence_class) of that relation.
+
+Vectors were reconsidered with the presentation of complex numbers
+by [Jean-Robert Argand](https://en.wikipedia.org/wiki/Jean-Robert_Argand) and
+[William Rowan Hamilton](https://en.wikipedia.org/wiki/William_Rowan_Hamilton)
+and the inception of [quaternions](https://en.wikipedia.org/wiki/Quaternion) by the latter.
+They are elements in $$\reals^2$$ and $$\reals^4$$;
+treating them using [linear combinations](#linear-combination)
+goes back to [Edmond Laguerre](https://en.wikipedia.org/wiki/Edmond_Laguerre) in 1867,
+who also defined [systems of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations).
+
+In 1857,
+[Arthur Cayley](https://en.wikipedia.org/wiki/Arthur_Cayley) introduced
+the [matrix notation](https://en.wikipedia.org/wiki/Matrix_notation)
+which allows for harmonization and simplification of [linear maps](https://en.wikipedia.org/wiki/Linear_map).
+Around the same time, [Hermann Günther Grassmann](https://en.wikipedia.org/wiki/Hermann_Grassmann)
+studied the barycentric calculus initiated by Möbius.
+He envisaged sets of abstract objects endowed with operations.
+In his work, the concepts of [linear independence](#linear-independence) and [dimension](#basis-and-dimension),
+as well as [scalar products](https://en.wikipedia.org/wiki/Scalar_product) are present.
+[Grassmann](https://en.wikipedia.org/wiki/Hermann_Grassmann)'s 1844 work exceeds
+the framework of vector spaces as well since his considering multiplication led him to
+what are today called [algebras](https://en.wikipedia.org/wiki/Algebra_over_a_field).
+Italian mathematician [Giuseppe Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano)
+was the first to give the modern definition of vector spaces and linear maps in 1888,
+although he called them &ldquo;linear systems.&rdquo;
+
+[Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano)'s axiomatization allowed for vector spaces with infinite dimension,
+but [Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano) did not develop that theory further.
+In 1897, [Salvatore Pincherle](https://en.wikipedia.org/wiki/Salvatore_Pincherle)
+adopted [Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano)'s axioms
+and made initial inroads into the theory of infinite-dimensional vector spaces.
+
+An important development of vector spaces is due to the construction of
+[function spaces](https://en.wikipedia.org/wiki/Function_space)
+by [Henri Léon Lebesgue](https://en.wikipedia.org/wiki/Henri_Lebesgue).
+This was later formalized by [Stefan Banach](https://en.wikipedia.org/wiki/Stefan_Banach) and [David Hilbert](https://en.wikipedia.org/wiki/David_Hilbert),
+around 1920.
+At that time, [algebra](https://en.wikipedia.org/wiki/Algebra)
+and the new field of [functional analysis](https://en.wikipedia.org/wiki/Functional_analysis) began to interact,
+notably with key concepts such as spaces of p-integrable functions,
+*i.e.*, [$$L^p$$ spaces](https://en.wikipedia.org/wiki/Lp_space),
+and [Hilbert spaces](https://en.wikipedia.org/wiki/Hilbert_space).
 
 ## Definition
 
@@ -175,7 +233,7 @@ It follows that, in general, no base can be explicitly described.<sup><a href="#
 
 ### Coordinates
 
-Consider a basis $$v_1,\ldots,v_n$$ of a vector space $$V$$ of dimension $$n$$ over a field $$F$$.
+Consider a basis $$(v_1,\ldots,v_n)$$ of a vector space $$V$$ of dimension $$n$$ over a field $$F$$.
 Then for every $$x\in V$$,
 there exists $$\alpha_1, \ldots, \alpha_n \in F$$ such that
 
@@ -200,9 +258,477 @@ It is thus a [vector space isomorphism](https://en.wikipedia.org/wiki/Vector_spa
 which allows translating reasonings and computations on vectors into reasonings and computations
 on their coordinates.
 
-## Eigenvalues and eigenvectors
+# Linear Algebra
 
-XXX
+Linear algebra is the branch of [mathematics](/math/landscape) concerning [linear equations](https://en.wikipedia.org/wiki/Linear_equation) such as
+
+$$
+a_{1}x_{1}+\cdots +a_{n}x_{n}=b
+$$
+
+[linear maps](https://en.wikipedia.org/wiki/Linear_map) such as
+
+$$
+(x_{1},\ldots ,x_{n})\mapsto a_{1}x_{1}+\cdots +a_{n}x_{n}
+$$
+
+and their representations in [vector spaces](#vector-spaces) and through [matrices](#matrices).
+
+Linear algebra is central to almost all areas of mathematics.
+For instance, linear algebra is fundamental in modern presentations of [geometry](https://en.wikipedia.org/wiki/Geometry),
+including for defining basic objects such as lines, planes and [rotations](https://en.wikipedia.org/wiki/Rotation_(mathematics)).
+Also, [functional analysis](https://en.wikipedia.org/wiki/Functional_analysis),
+a branch of [mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis),
+may be viewed as the application of linear algebra to [function spaces](https://en.wikipedia.org/wiki/Space_of_functions).
+
+Linear algebra is also used in most sciences and fields of [engineering](https://en.wikipedia.org/wiki/Engineering)
+because it allows [modeling](https://en.wikipedia.org/wiki/Mathematical_model) many natural phenomena,
+and computing efficiently with such models.
+For [nonlinear systems](https://en.wikipedia.org/wiki/Nonlinear_system),
+which cannot be modeled with linear algebra,
+it is often used for dealing with [first-order approximations](https://en.wikipedia.org/wiki/First-order_approximation),
+using the fact that the [differential](https://en.wikipedia.org/wiki/Differential_(mathematics))
+of a [multivariate function](https://en.wikipedia.org/wiki/Multivariate_function)
+at a point is
+the linear map that best approximates the function near that point.
+
+In the modern era of [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence)
+and [machine learning (ML)](https://en.wikipedia.org/wiki/Machine_learning),
+linear algebra has become even more indispensable,
+serving as the mathematical foundation for optimization algorithms and data processing techniques.
+In [convex optimization](/math/cvxopt),
+linear algebra provides the tools for understanding gradients, Hessian matrices, and the geometric properties of feasible regions,
+enabling efficient solutions to problems like [linear programming](/math/cvxopt#linear-programming-lp---the-foundation)
+and [quadratic programming](/math/cvxopt#quadratic-programming-qp---adding-curvature)
+that arise throughout ML.
+
+Neural networks, the backbone of deep learning, are essentially compositions of linear transformations (matrix multiplications)
+followed by nonlinear activation functions,
+where operations like forward propagation, backpropagation, and gradient descent
+are all expressed through matrix and vector computations.
+Beyond neural networks, [linear algebra](#linear-algebra) underlies virtually every ML algorithm:
+principal component analysis (PCA) uses eigenvalue decomposition for dimensionality reduction,
+support vector machines (SVM) rely on inner products and kernel methods,
+and least squares (LS) regression directly solves linear systems.
+The efficiency of modern AI systems depends heavily on optimized linear algebra libraries
+that can perform massive matrix operations on specialized hardware like GPUs,
+making linear algebra not just theoretically important
+but practically essential for the computational demands of contemporary AI.
+
+## History
+
+The procedure (using counting rods) for solving simultaneous linear equations now called
+[Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
+appears in the ancient Chinese mathematical text [Chapter Eight: Rectangular Arrays](https://en.wikipedia.org/wiki/Rod_calculus#System_of_linear_equations)
+of [The Nine Chapters on the Mathematical Art](https://en.wikipedia.org/wiki/The_Nine_Chapters_on_the_Mathematical_Art).
+Its use is illustrated in eighteen problems, with two to five equations.[4]
+
+[Systems of linear equations](https://en.wikipedia.org/wiki/Systems_of_linear_equations) arose in Europe
+with the introduction in 1637
+by [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes) of [coordinates](https://en.wikipedia.org/wiki/Coordinates)
+in [geometry](https://en.wikipedia.org/wiki/Geometry).
+In fact, in this new geometry, now called [Cartesian geometry](https://en.wikipedia.org/wiki/Cartesian_geometry),
+lines and planes are represented by linear equations, and computing their intersections amounts to solving systems of linear equations.
+
+The first systematic methods for solving linear systems used [determinants](#determinant)
+and were first considered by [Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) in 1693.
+In 1750, [Gabriel Cramer](https://en.wikipedia.org/wiki/Gabriel_Cramer) used them
+for giving explicit solutions of linear systems, now called [Cramer's rule](https://en.wikipedia.org/wiki/Cramer%27s_rule).
+Later, [Johann Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Gauss)
+further described the method of elimination,
+which was initially listed as an advancement in [geodesy](https://en.wikipedia.org/wiki/Geodesy).
+
+In 1844,
+[Hermann Günther Grassmann](https://en.wikipedia.org/wiki/Hermann_Grassmann) published
+his &ldquo;Theory of Extension&rdquo; which included foundational new topics of what is today called [linear algebra](#linear-algebra).
+In 1848,
+[James Joseph Sylvester](https://en.wikipedia.org/wiki/James_Joseph_Sylvester) introduced the term [matrix](#matrices),
+which is Latin for *womb*.
+
+<!--
+Linear algebra grew with ideas noted in the complex plane. For instance, two numbers w and z in
+C
+{\displaystyle \mathbb {C} } have a difference w – z, and the line segments wz and 0(w − z) are of the same length and direction. The segments are equipollent. The four-dimensional system
+H
+{\displaystyle \mathbb {H} } of quaternions was discovered by W.R. Hamilton in 1843.[6] The term vector was introduced as v = xi + yj + zk representing a point in space. The quaternion difference p – q also produces a segment equipollent to pq. Other hypercomplex number systems also used the idea of a linear space with a basis.
+-->
+
+[Arthur Cayley](https://en.wikipedia.org/wiki/Arthur_Cayley)
+introduced [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
+and the [inverse matrix](https://en.wikipedia.org/wiki/Inverse_matrix) in 1856,
+making possible the [general linear group](https://en.wikipedia.org/wiki/General_linear_group).
+The mechanism of [group representation](https://en.wikipedia.org/wiki/Group_representation) became available for describing complex and hypercomplex numbers. Crucially, Cayley used a single letter to denote a matrix, thus treating a matrix as an aggregate object. He also realized the connection between matrices and determinants and wrote "There would be many things to say about this theory of matrices which should, it seems to me, precede the theory of determinants".[5]
+
+[Benjamin Peirce](https://en.wikipedia.org/wiki/Benjamin_Peirce) published his Linear Associative Algebra in 1872,
+and his son [Charles Sanders Peirce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce) extended the work later.
+
+<!--
+The [telegraph](https://en.wikipedia.org/wiki/Telegraphy) required an explanatory system, and the 1873 publication by James Clerk Maxwell of A Treatise on Electricity and Magnetism instituted a field theory of forces and required differential geometry for expression. Linear algebra is flat differential geometry and serves in tangent spaces to manifolds. Electromagnetic symmetries of spacetime are expressed by the Lorentz transformations, and much of the history of linear algebra is the history of Lorentz transformations.
+-->
+
+The first modern and more precise definition of a vector space was introduced by [Giuseppe Peano](https://en.wikipedia.org/wiki/Giuseppe_Peano) in 1888;
+by 1900, a theory of linear transformations of finite-dimensional vector spaces had emerged.
+Linear algebra took its modern form
+in the first half of the twentieth century
+when many ideas and methods of previous centuries were generalized as [abstract algebra](/math/abstract-algebra).
+The development of computers led to increased research in efficient [algorithms](https://en.wikipedia.org/wiki/Algorithm)
+for [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
+and [matrix decompositions](https://en.wikipedia.org/wiki/Matrix_decomposition),
+and [linear algebra](#linear-algebra) became an essential tool for modeling and simulations.
+
+## Matrices
+
+Matrices allow explicit manipulation of
+finite-dimensional [vector spaces](#vector-spaces)
+and [linear maps](https://en.wikipedia.org/wiki/Linear_map).
+Their theory is thus an essential part of linear algebra.
+
+Let $$V$$ be a finite-dimensional [vector space](#vector-spaces) over a field $$F$$,
+and $$(v_1, \ldots, v_m)$$ be a basis of $$V$$ (hence the dimension of $$V$$ is $$m$$).
+By definition, the map $$F^m \to V$$
+defined by
+
+$$
+(a_1, \ldots, a_m) \mapsto a_1 v_1 + \cdots + a_m v_m
+$$
+
+is a [bijection](https://en.wikipedia.org/wiki/Bijection) from $$F^m$$,
+the set of the [sequences](https://en.wikipedia.org/wiki/Sequence_(mathematics)) of $$m$$ elements of $$F$$,
+onto $$V$$.
+This is an [isomorphism](https://en.wikipedia.org/wiki/Isomorphism)
+of vector spaces.
+
+This isomorphism allows representing a vector by its [inverse image](https://en.wikipedia.org/wiki/Inverse_image)
+under this isomorphism,
+that is by the [coordinate vector](#coordinates) $$(a_1, \ldots, a_m)$$
+or by the [column matrix](https://en.wikipedia.org/wiki/Column_matrix)
+
+$$
+\begin{bmatrix}
+a_1
+\\
+\vdots
+\\
+a_m
+\end{bmatrix}
+\in
+F^m.
+$$
+
+Now let $$W$$ is a finite dimensional vector space with a basis $$(w_1, \ldots, w_n)$$
+and let $$f:W \to V$$ is a linear map.
+
+By the definition of the basis,
+each of $$f(w_1), \ldots, f(w_n)$$ has its coordinate vector on the basis $$(v_1,\ldots,v_m)$$.
+Let $$A_{i,j}$$ be the $$i$$-th coordinate of $$f(w_j)$$
+for $$1\leq i\leq m$$ and $$1\leq j\leq n$$,
+*i.e.*,
+
+$$
+\begin{array}{rcl}
+f(w_1)
+	&=& A_{1,1} v_1 + A_{2,1} v_2 + \cdots + A_{m,1} v_m
+\\
+f(w_2)
+	&=& A_{1,2} v_1 + A_{2,2} v_2 + \cdots + A_{m,2} v_m
+\\
+	&\vdots&
+\\
+f(w_n)
+	&=& A_{1,n} v_1 + A_{2,n} v_2 + \cdots + A_{m,n} v_m
+\end{array}
+$$
+
+Suppose $$w\in W$$. Let us examine how we can express the coordinates of $$f(w)$$ (on the basis $$(v_1,\ldots,v_m)$$
+in terms of the coordinates of $$w$$ on the basis $$(w_1,\ldots,w_n)$$.
+Let $$(x_1,\ldots,x_n)$$ be the coordinates of $$w$$ (on the basis $$(w_1,\ldots,w_n)$$)
+and $$(y_1,\ldots,y_m)$$ be the coordinates of $$f(w)$$ (on the basis $$(v_1,\ldots,v_m)$$).
+Then
+
+$$
+\begin{array}{rcl}
+f(w)
+	&=
+		&f(x_1 w_1 + \cdots + x_n w_n)
+\\
+	&=
+		&x_1f(w_1) + \cdots + x_n f(w_n)
+\\
+	&=
+		&(A_{1,1} x_1 + A_{1,2} x_2 + \cdots + A_{1,n} x_n) v_1
+\\
+	&
+		&+ (A_{2,1} x_1 + A_{2,2} x_2 + \cdots + A_{2,n} x_n) v_2
+\\
+	&
+		&\vdots
+\\
+	&
+		&+ (A_{m,1} x_1 + A_{m,2} x_2 + \cdots + A_{m,n} x_n) v_m
+\end{array}
+$$
+
+hence
+
+$$
+\begin{eqnarray}
+\nonumber
+y_1
+	&=& A_{1,1} x_1 + A_{1,2} x_2 + \cdots + A_{1,n} x_n
+\\ \nonumber
+y_2
+	&=& A_{2,1} x_1 + A_{2,2} x_2 + \cdots + A_{2,n} x_n
+\\
+\label{eq:eqs-for-mat-vec-mul}
+	&\vdots&
+\\ \nonumber
+y_m
+	&=& A_{m,1} x_1 + A_{m,2} x_2 + \cdots + A_{m,n} x_n
+\end{eqnarray}
+$$
+
+Here we define a matrix $$A$$
+to be the following $$2$$-dimensional array:
+
+$$
+A = \begin{bmatrix}
+	A_{1,1} & A_{1,2} & \cdots & A_{1,n}
+	\\
+	A_{2,1} & A_{2,2} & \cdots & A_{2,n}
+	\\
+	\vdots & \vdots & \ddots & \vdots
+	\\
+	A_{m,1} & A_{m,2} & \cdots & A_{m,n}
+\end{bmatrix}
+\in
+F^{m\times n}
+$$
+
+There is a bijection between the set of all such matrices, that is, $$F^{m\times n}$$
+and the set of all linear mappings from $$V$$ to $$W$$.
+
+We want to make this bijection isomorphism somehow,
+which will naturally define matrix-vector multiplication and matrix-matrix multiplication as shown below.
+
+### Matrix-vector multiplication
+
+We define *the* matrix-vector multiplication in such a way that
+
+$$
+y = A x
+$$
+
+means the $$m$$ equations in \eqref{eq:eqs-for-mat-vec-mul}
+where $$x$$ and $$y$$ are $$n$$-dimensional and $$m$$-dimensional vectors respectively
+defined by
+
+$$
+x = \begin{bmatrix} x_1 \\ \vdots \\ x_n \end{bmatrix} \in F^n,
+\quad
+y = \begin{bmatrix} y_1 \\ \vdots \\ y_m \end{bmatrix} \in F^m.
+$$
+
+Note that the equations in \eqref{eq:eqs-for-mat-vec-mul} readily define the matrix-vector multiplication
+as we desire.
+
+### Matrix-matrix multiplication
+
+We define
+*the* matrix-matrix multiplication in such a way
+that the product of two matrices is the matrix of the composition of the corresponding linear maps.
+(Whereas the equations defining the matrix-vector multiplication had already been derived above,
+the equations for the matrix-matrix multiplication has to be derived here.)
+
+Suppose that $$W$$, $$V$$, and $$U$$ are
+vector spaces over a field $$F$$
+whose dimensions are $$n$$, $$m$$, and $$p$$ respectively.
+Suppose also that $$f:W\to V$$ and $$g:V \to U$$
+are linear maps
+and $$A\in F^{m \times n}$$ and $$B\in F^{p \times m}$$ are matrices
+corresponding to $$f$$ and $$g$$ respectively
+assuming three bases for each vector space,
+*e.g.*,
+$$(w_1,\ldots,w_n)$$ for $$W$$,
+$$(v_1,\ldots,v_m)$$ for $$V$$,
+and
+$$(u_1,\ldots,u_p)$$ for $$U$$.
+
+Now we want to find a matrix $$C\in F^{p \times n}$$
+which corresponds to $$g\circ f$$,
+*i.e.*,
+the composition of the two linear mappings $$f$$ and $$g$$,
+and define $$C$$ as the multiplication of $$A$$ and $$B$$ in a specific order,
+*i.e.*,
+
+\begin{equation}
+\label{eq:mat-mat-mul}
+C = BA \in F^{p\times n}.
+\end{equation}
+
+Let $$w\in W$$ and $$(x_1,\ldots,x_n)$$ be its coordinates on the basis $$(w_1,\ldots,w_n)$$,
+$$v=f(w) \in V$$ and $$(y_1,\ldots,y_m)$$ be its coordinates on the basis $$(v_1,\ldots,v_m)$$,
+and
+$$u=f(v) \in U$$ and $$(z_1,\ldots,z_p)$$ be its coordinates on the basis $$(u_1,\ldots,u_p)$$.
+If we define three column vectors as
+
+$$
+x = \begin{bmatrix} x_1 \\ \vdots \\ x_n \end{bmatrix} \in F^n,
+\quad
+y = \begin{bmatrix} y_1 \\ \vdots \\ y_m \end{bmatrix} \in F^m,
+\quad
+z = \begin{bmatrix} z_1 \\ \vdots \\ z_p \end{bmatrix} \in F^p,
+$$
+
+we know
+
+\begin{equation}
+\label{eq:two-mat-vec-muls}
+y = Ax,
+\quad
+z = By
+\end{equation}
+
+where these matrix-vector multiplications are defined by the equations in \eqref{eq:eqs-for-mat-vec-mul}
+or equivalently in [Matrix-vector multiplication](#matrix-vector-multiplication).
+Therefore for each $$i\in\{1,\ldots,p\}$$,
+
+$$
+\begin{array}{rcl}
+z_i
+	&=
+		&B_{i,1} y_1 + B_{i,2} y_2 + \cdots + B_{i,m} y_m
+\\
+	&=
+		&B_{i,1} (A_{1,1} x_1 + \cdots + A_{1,n} x_n)
+\\
+	&
+		&+ B_{i,2} (A_{2,1} x_1 + \cdots + A_{2,n} x_n)
+\\
+	&
+		&\vdots
+\\
+	&
+		&+ B_{i,m} (A_{m,1} x_1 + \cdots + A_{m,n} x_n)
+\\
+	&=
+		&(B_{i,1}A_{1,1} + B_{i,2}A_{2,1} + \cdots + B_{i,m}A_{m,1})x_1
+\\
+	&
+		&+ (B_{i,1}A_{1,2} + B_{i,2}A_{2,2} + \cdots + B_{i,m}A_{m,2})x_2
+\\
+	&
+		&\vdots
+\\
+	&
+		&+ (B_{i,1}A_{1,n} + B_{i,2}A_{2,n} + \cdots + B_{i,m}A_{m,n})x_n.
+\end{array}
+$$
+
+Therefore for each $$i\in\{1,\ldots,p\}$$ and each $$j\in\{1,\ldots,n\}$$,
+
+\begin{equation}
+\label{eq:eq-for-mat-mat-mul}
+	C_{i,j} = B_{i,1}A_{1,j} + B_{i,2}A_{2,j} + \cdots + B_{i,m}A_{m,j} = \sum_{k=1}^m B_{i,k}A_{k,j}
+\end{equation}
+
+hence, we define the matrix-matrix multiplication in a way that \eqref{eq:mat-mat-mul}
+means \eqref{eq:eq-for-mat-mat-mul}
+for each $$i\in\{1,\ldots,p\}$$ and each $$j\in\{1,\ldots,n\}$$.
+
+Note that this works seamlessly with the way we define the matrix-vector multiplication,
+*e.g.*,
+if we substitute $$Ax$$ for $$y$$ in \eqref{eq:two-mat-vec-muls}, we have
+
+$$
+z = B(Ax) = (BA)x = Cx
+$$
+
+that is,
+the way we define the matrix-matrix multiplication and matrix-vector multiplication
+makes them *associative!*
+
+Indeed, if we regard a column vector in $$F^n$$ as a matrix in $$F^{n\times 1}$$,
+the matrix-vector multiplication coincides with the matrix-matrix multiplication!
+
+## Linear systems
+
+A finite set of linear equations in a finite set of variables
+is called a <span class="emph">system of linear equations</span> or a <span class="emph">linear system</span>.
+
+[Systems of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations)
+form a fundamental part of [linear algebra](#linear-algebra).
+Historically, linear algebra and matrix theory have been developed for solving such systems. In the modern presentation of linear algebra through vector spaces and matrices, many problems may be interpreted in terms of linear systems.
+
+For example, consider the following linear system.
+
+$$
+\begin{array}{rcr}
+2u+v-w&=&8
+\\
+-3u-v+2w&=&-11
+\end{array}
+$$
+
+If we let $$A\in\reals^{2\times 3}$$ and $$b\in\reals^2$$
+such that
+
+$$
+A = \begin{bmatrix}
+	2 & 1 & -1
+	\\
+	-3&-1&2
+\end{bmatrix},
+\quad
+b = \begin{bmatrix}8\\-11\end{bmatrix}
+$$
+
+and define $$x\in\reals^3$$ as
+
+$$
+x = \begin{bmatrix}
+	u\\v\\w
+\end{bmatrix}
+$$
+
+the linear system can be compactly represented by
+
+$$
+b = Ax.
+$$
+
+## Endomorphisms &amp; square matrices
+
+### Determinant
+
+### Eigenvalues and eigenvectors
+
+## Duality
+
+### Dual map
+
+### Inner-product spaces
+
+## Relationship with geometry
+
+## Usage and applications
+
+### Functional analysis
+
+### Scientific computation
+
+### Geometry of ambient space
+
+### Study of complex systems
+
+### Fluid mechanics, fluid dynamics, and thermal energy systems
+
+## Extensions &amp; generalizations
+
+### Module theory
+
+### Multilinear algebra and tensors
+
+### Topological vector spaces
 
 <hr>
 <ol>
