@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Jul 28 12:21:02 PDT 2025
+last_modified_at: Mon Jul 28 12:26:06 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -50,13 +50,15 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 **A Tribute 獻呈 to My Samsung Colleagues**
 <br>
 <br>
-This blog post has its origins in the lectures I delivered from 2008 to 2013 while working with the Computer-Aided Engineering (CAE) Team at Samsung Semiconductor. During those years, I had the privilege of presenting on diverse mathematical topics—statistics, linear algebra, numerical linear algebra, and even Convex Optimization!
+This blog post has its origins in the lectures I delivered from 2008 to 2013 while working with the Computer-Aided Engineering (CAE) Team at Samsung Semiconductor.
+During those years, I had the privilege of presenting on diverse mathematical topics—statistics, linear algebra, numerical linear algebra, and even Convex Optimization!
 <br>
 <br>
 One day, a curious mind (and cherished colleague ⭐^^⭐) posed two fundamental questions that would spark this entire intellectual journey - "Why linear algebra? Why matrices?" Those simple yet profound questions became the catalyst for everything you'll read here.
 <br>
 <br>
-This work is dedicated to those brilliant team members who illuminated my days at Samsung. Their curiosity and engagement transformed routine lectures into explorations of mathematical beauty, and their questions continue to inspire my thinking years later.
+This work is dedicated to those brilliant team members who illuminated my days at Samsung.
+Their curiosity and engagement transformed routine lectures into explorations of mathematical beauty, and their questions continue to inspire my thinking **even more than 10** years later.
 {: .notice--success}
 
 # NotebookLM Podcasts
