@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 18:52:51 PDT 2025
+last_modified_at: Sun Jul 27 21:28:51 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -673,6 +673,24 @@ B_{i,j} = A_{j,i}
 1\leq j\leq m.
 $$
 
+Note that for any two matrices $$A$$ and $$B$$ for which the multiplication $$AB$$ can be defined,
+*i.e.*, when the number of columns of $$A$$ equals to the number of rows of $$B$$,
+
+$$
+(AB)^T = B^T A^T.
+$$
+
+Recursively applying this yields
+
+$$
+(A_1A_2 \cdots A_n)^T
+=
+A_n^T
+\cdots
+A_2^T
+A_1^T.
+$$
+
 <span id="conjugate-transpose">**Conjugate transpose or Hermitian transpose**</span>
 
 The <span class="emph">conjugate transpose</span> or <span class="emph">Hermitian transpose</span>
@@ -697,6 +715,24 @@ where $$\overline{a}$$ denotes the [complex conjugate](https://en.wikipedia.org/
 *i.e.*,
 if $$a=b+i c$$ with $$b,c\in\reals$$,
 $$\overline{a} = b - i c$$.
+
+As for transpose operator,
+for any two matrices $$A$$ and $$B$$ for which the multiplication $$AB$$ can be defined
+
+$$
+(AB)^H = B^H A^H.
+$$
+
+Recursively applying this yields
+
+$$
+(A_1A_2 \cdots A_n)^H
+=
+A_n^H
+\cdots
+A_2^H
+A_1^H.
+$$
 
 ## Types of matrices
 
@@ -760,7 +796,7 @@ if
 
 $$
 A^T = -A.
-$ka$
+$$
 
 ### Real matrices
 
@@ -986,24 +1022,152 @@ implies that
 -->
 there are (at most) $$n$$ eigenvalues.
 
+### Eigenvalues and eigenvectors of Hermitian and skew-Hermitian matrices
+
+**The eigenvalues of a Hermitian matrix are real.**
+
+Let $$A=A^H\in\complexes^{n\times n}$$ be a [Hermitian matrix](#hermitian-matrices).
+Suppose $$\lambda\in\complexes$$ is an eigenvalue of $$A$$
+and $$v\in\complexes^n$$ be the associated eigenvector.
+Then
+
+$$
+\begin{array}{rcl}
+\lambda \|v\|_2^2
+	=
+		\lambda v^H v
+	=
+		v^H \lambda v
+	&=&
+		v^H A v
+\\
+	&=&
+		v^H A^H v
+\\
+	&=&
+		(Av)^H v
+	=
+		(\lambda v)^H v
+	=
+		v^H \overline{\lambda} v
+	=
+		\overline{\lambda} \|v\|_2^2
+\end{array}
+$$
+
+where $$\|\cdot\|_2$$ denotes the [standard Euclidean norm for complex vectors](https://en.wikipedia.org/wiki/Norm_(mathematics)#Finite-dimensional_complex_normed_spaces).
+Since $$v$$ is a nonzero vector (by definition),
+
+$$
+\lambda = \overline{\lambda}
+\iff
+\Im(\lambda) = 0
+\iff
+\lambda \in \reals
+$$
+
+hence the proof!
+
+Since a *real* [symmetric matrix](#symmetric-matrices) is a Hermitian matrix,
+the eigenvalues of a real symmetric matrix are (of course) (also) real.
+
+**The eigenvalues of a Hermitian matrix are purely imaginary.**
+
+Let $$A=-A^H\in\complexes^{n\times n}$$ be a [skew-Hermitian matrix](#skew-hermitian-matrices).
+Suppose $$\lambda\in\complexes$$ is an eigenvalue of $$A$$
+and $$v\in\complexes^n$$ be the associated eigenvector.
+Then
+
+$$
+\begin{array}{rcl}
+\lambda \|v\|_2^2
+	=
+		\lambda v^H v
+	=
+		v^H \lambda v
+	&=&
+		v^H A v
+\\
+	&=&
+		-v^H A^H v
+\\
+	&=&
+		-(Av)^H v
+	=
+		-(\lambda v)^H v
+	=
+		-v^H \overline{\lambda} v
+	=
+		-\overline{\lambda} \|v\|_2^2,
+\end{array}
+$$
+
+thus
+
+$$
+\lambda = -\overline{\lambda}
+\iff
+\Re (\lambda) = 0
+$$
+
+hence the proof!
+
+Since a *real* [skew-symmetric matrix](#skew-symmetric-matrices) is a skew-Hermitian matrix,
+the eigenvalues of a real skew-symmetric matrix are (of course) (also) purely imaginary.
+
+**The eigenvectors of a Hermitian matrix with distinct eigenvalues are orthogonal.**
+
+Let $$A=A^H\in\complexes^{n\times n}$$ be a [Hermitian matrix](#hermitian-matrices).
+Suppose $$\lambda_1, \lambda_2\in\reals$$ are distinct eigenvalues of $$A$$
+and $$v_1, v_2\in\complexes^n$$ are the associated eigenvectors respectively.
+(Note that eigenvalues of a Hermitian matrix are real.)
+
+$$
+\begin{array}{rcl}
+\lambda_1 v_2^H v_1
+=
+	v_2^H \lambda_1 v_1
+	&=& v_2^H Av_1
+\\
+	&=& v_2^H A^H v_1
+=
+	(Av_2)^H v_1
+=
+	(\lambda_2 v_2)^H v_1
+=
+	\lambda_2 v_2^H v_1
+\end{array}
+$$
+
+thus
+
+$$
+(\lambda_1 - \lambda_2) v_2^H v_1 = 0
+\iff
+v_2^H v_1 = 0
+$$
+
+hence the proof!
+
+Indeed for a Hermitian matrix,
+we can *choose* $$n$$ [orthogonal](https://en.wikipedia.org/wiki/Orthogonality) eigenvectors!
+Since we can normalize each (nonzero) eigenvector,
+we can even choose $$n$$ [*orthonormal*](https://en.wikipedia.org/wiki/Orthonormality) eigenvectors!
+
+Thus, every Hermitian matrix is [diagonalizable](#diagonalizability)!
+
+
 ### Diagonalizability
 
 If a basis exists that consists only of eigenvectors,
-the matrix of f on this basis has a very simple structure: it is a diagonal matrix such that the entries on the main diagonal are eigenvalues, and the other entries are zero. In this case, the endomorphism and the matrix are said to be diagonalizable. More generally, an endomorphism and a matrix are also said diagonalizable, if they become diagonalizable after extending the field of scalars. In this extended sense, if the characteristic polynomial is square-free, then the matrix is diagonalizable.
-
-### Symmetric real matrices
-
-We can (easily) show that all the eigenvalues of symmetric real matrices are real.
-
-$$
-v^\ast Av = v^\ast \lambda v = \lambda \|v\|_2^2
-$$
-
-$$
-v^\ast A^\ast v = v^\ast \lambda^\ast v = \lambda^\ast \|v\|_2^2
-$$
-
-
+the matrix of $$f$$ on this basis has a very simple structure;
+it is a [diagonal matrix](#diagonal-matrices) such that the entries on the main diagonal are eigenvalues,
+and the other entries are zero.
+In this case, the endomorphism and the matrix are said to be [diagonalizable](https://en.wikipedia.org/wiki/Diagonalizable_matrix).
+More generally, an endomorphism and a matrix are also said diagonalizable,
+if they become diagonalizable after [extending](/math/abstract-algebra#field-extensions---building-new-worlds) the field of scalars.
+In this extended sense, if the characteristic polynomial is [square-free](https://en.wikipedia.org/wiki/Square-free_polynomial),
+then the matrix is diagonalizable.
 
 ## Duality
 
