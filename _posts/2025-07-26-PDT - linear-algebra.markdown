@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 23:28:32 PDT 2025
+last_modified_at: Sun Jul 27 23:52:02 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -1347,7 +1347,7 @@ reflections,
 [rigid motions](https://en.wikipedia.org/wiki/Rigid_motion),
 [isometries](https://en.wikipedia.org/wiki/Isometry),
 and
-[projections](https://en.wikipedia.org/wiki/Projection_(mathematics) transform lines into lines.
+[projections](https://en.wikipedia.org/wiki/Projection_(mathematics)) transform lines into lines.
 It follows that they can be defined, specified, and studied in terms of linear maps.
 This is also the case of [homographies](https://en.wikipedia.org/wiki/Homography)
 and
@@ -1363,19 +1363,87 @@ It has been shown that the two approaches are essentially equivalent.
 In classical geometry, the involved vector spaces are vector spaces over the reals, but the constructions may be extended to vector spaces over any field, allowing considering geometry over arbitrary fields,
 including [finite fields](/math/abstract-algebra#field-examples).<sup><a href="#footnote8" id="ref8">8</a></sup>
 
-<!--
 ## Usage and applications
 
 ### Functional analysis
 
+[Functional analysis](https://en.wikipedia.org/wiki/Functional_analysis)
+studies [function spaces](https://en.wikipedia.org/wiki/Function_space).
+These are vector spaces with additional structure, such as [Hilbert spaces](https://en.wikipedia.org/wiki/Hilbert_space).
+Linear algebra is thus a fundamental part of functional analysis and its applications, which include,
+in particular, [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics),
+*e.g.*, [wave functions](https://en.wikipedia.org/wiki/Wave_function)
+and [Fourier analysis](https://en.wikipedia.org/wiki/Fourier_analysis),
+*e.g.*, [orthogonal basis](https://en.wikipedia.org/wiki/Orthogonal_basis).
+
 ### Scientific computation
+
+Nearly all [scientific computations](https://en.wikipedia.org/wiki/Scientific_computation)
+involve linear algebra.
+Consequently, linear algebra algorithms have been highly optimized.
+[BLAS](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms) and [LAPACK](https://en.wikipedia.org/wiki/LAPACK)
+are the best known implementations.
+For improving efficiency, some of them configure the algorithms automatically,
+at run time, to adapt them to the specificities of the computer,
+*e.g.*,
+[cache](https://en.wikipedia.org/wiki/Cache_(computing)) size
+and the number of available [cores](https://en.wikipedia.org/wiki/Multi-core_processor).
+
+Since the 1960s there have been processors with specialized instructions for optimizing the operations of linear algebra, optional array processors under the control of a conventional processor, supercomputers designed for array processing and conventional processors augmented with vector registers.
+
+Some contemporary [processors](https://en.wikipedia.org/wiki/Processor_(computing)),
+typically [graphics processing units (GPU)](https://en.wikipedia.org/wiki/Graphics_processing_units),
+are designed with a matrix structure, for optimizing the operations of linear algebra.
 
 ### Geometry of ambient space
 
+The [modeling](https://en.wikipedia.org/wiki/Mathematical_model) of [ambient space](https://en.wikipedia.org/wiki/Ambient_space)
+is based on [geometry](https://en.wikipedia.org/wiki/Geometry).
+Sciences concerned with this space use geometry widely.
+This is the case with [mechanics](https://en.wikipedia.org/wiki/Mechanics) and [robotics](https://en.wikipedia.org/wiki/Robotics),
+for describing [rigid body dynamics](https://en.wikipedia.org/wiki/Rigid_body_dynamics);
+[geodesy](https://en.wikipedia.org/wiki/Geodesy) for describing [Earth shape](https://en.wikipedia.org/wiki/Earth_shape);
+[perspectivity](https://en.wikipedia.org/wiki/Perspectivity), [computer vision](https://en.wikipedia.org/wiki/Computer_vision),
+and [computer graphics](https://en.wikipedia.org/wiki/Computer_graphics),
+for describing the relationship between a scene and its plane representation; and many other scientific domains.
+
+In all these applications, [synthetic geometry](https://en.wikipedia.org/wiki/Synthetic_geometry)
+is often used for general descriptions and a qualitative approach,
+but for the study of explicit situations, one must compute with [coordinates](#coordinates).
+This requires the heavy use of [linear algebra](#linear-algebra).
+
 ### Study of complex systems
+
+Most physical phenomena are modeled by [partial differential equations (PDEs)](https://en.wikipedia.org/wiki/Partial_differential_equation).
+To solve them, one usually [decomposes the space](https://en.wikipedia.org/wiki/Discretization)
+in which the solutions are searched into small, mutually interacting cells.
+For [linear systems](https://en.wikipedia.org/wiki/Linear_system) this interaction involves linear functions.
+For [nonlinear systems](https://en.wikipedia.org/wiki/Nonlinear_systems),
+this interaction is often approximated by linear functions.
+This is called a linear model or first-order approximation.
+
+Linear models are frequently used for complex nonlinear real-world systems
+because they make [parametrization](https://en.wikipedia.org/wiki/Parametrization_(geometry)) more manageable.
+In both cases, very large matrices are generally involved.
+
+[Weather forecasting](https://en.wikipedia.org/wiki/Weather_forecasting)
+(or more specifically, [parametrization for atmospheric modeling](https://en.wikipedia.org/wiki/Parametrization_(atmospheric_modeling)))
+is a typical example of a real-world application, where the whole Earth atmosphere is divided into cells of, say,
+100 km of width and 100 km of height.
 
 ### Fluid mechanics, fluid dynamics, and thermal energy systems
 
+Linear algebra, a branch of mathematics dealing with vector spaces and linear mappings between these spaces, plays a critical role in various engineering disciplines, including fluid mechanics, fluid dynamics, and thermal energy systems. Its application in these fields is multifaceted and indispensable for solving complex problems.
+
+In fluid mechanics, linear algebra is integral to understanding and solving problems related to the behavior of fluids. It assists in the modeling and simulation of fluid flow, providing essential tools for the analysis of fluid dynamics problems. For instance, linear algebraic techniques are used to solve systems of differential equations that describe fluid motion. These equations, often complex and non-linear, can be linearized using linear algebra methods, allowing for simpler solutions and analyses.
+
+In the field of fluid dynamics, linear algebra finds its application in computational fluid dynamics (CFD), a branch that uses numerical analysis and data structures to solve and analyze problems involving fluid flows. CFD relies heavily on linear algebra for the computation of fluid flow and heat transfer in various applications. For example, the Navier–Stokes equations, fundamental in fluid dynamics, are often solved using techniques derived from linear algebra. This includes the use of matrices and vectors to represent and manipulate fluid flow fields.
+
+Furthermore, linear algebra plays a crucial role in thermal energy systems, particularly in power systems analysis. It is used to model and optimize the generation, transmission, and distribution of electric power. Linear algebraic concepts such as matrix operations and eigenvalue problems are employed to enhance the efficiency, reliability, and economic performance of power systems. The application of linear algebra in this context is vital for the design and operation of modern power systems, including renewable energy sources and smart grids.
+
+Overall, the application of linear algebra in fluid mechanics, fluid dynamics, and thermal energy systems is an example of the profound interconnection between mathematics and engineering. It provides engineers with the necessary tools to model, analyze, and solve complex problems in these domains, leading to advancements in technology and industry.
+
+<!--
 ## Extensions &amp; generalizations
 
 ### Module theory
