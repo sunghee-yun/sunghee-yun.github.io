@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 21:28:51 PDT 2025
+last_modified_at: Sun Jul 27 23:28:32 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -35,6 +35,7 @@ $$
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}
 \newcommand{\sign}{\mathop{\bf sign}}
+\newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 $$
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
@@ -142,8 +143,8 @@ and the elements of $$F$$ are called <span class="emph">scalars</span>.
 
 | axiom | statement |
 |:-|:-|
-| additive [commutativity](https://en.wikipedia.org/wiki/Commutative_property) | $$(x,y\in V)(x+y=y+x)$$ |
-| additive [associativity](https://en.wikipedia.org/wiki/Associative_property) | $$(x,y,z\in V)(x+(y+z)=(x+y)+z)$$ |
+| additive [commutativity](https://en.wikipedia.org/wiki/Commutative_property) | $$(\forall x,y\in V)(x+y=y+x)$$ |
+| additive [associativity](https://en.wikipedia.org/wiki/Associative_property) | $$(\forall x,y,z\in V)(x+(y+z)=(x+y)+z)$$ |
 | existence of [additive identify](https://en.wikipedia.org/wiki/Additive_identity) | $$(\exists 0\in V)(\forall x\in V)(x+0=x)$$ |
 | existence of [additive inverse](https://en.wikipedia.org/wiki/Additive_inverse) | $$(\forall x \in V)(\exists y \in V)(x+y=0)$$ - $$y$$, called <span class="emph">additive inverse</span> of $$x$$, denoted by $$-x$$ |
 | multiplicative [associativity](https://en.wikipedia.org/wiki/Associative_property) | $$(\forall x\in V\;\&\;\forall \alpha, \beta \in F)(\alpha(\beta x)=(\alpha\beta)x)$$ |
@@ -1169,14 +1170,200 @@ if they become diagonalizable after [extending](/math/abstract-algebra#field-ext
 In this extended sense, if the characteristic polynomial is [square-free](https://en.wikipedia.org/wiki/Square-free_polynomial),
 then the matrix is diagonalizable.
 
+There are non-diagonalizable matrices, the simplest being
+
+$$
+{\begin{bmatrix}0&1\\0&0\end{bmatrix}} \in F^{2\times 2}.
+$$
+
+It cannot be diagonalizable since its square is the [zero matrix](https://en.wikipedia.org/wiki/Zero_matrix),
+and the square of a nonzero diagonal matrix is never zero.
+
+When an endomorphism is not diagonalizable,
+there are bases on which it has a simple form, although not as simple as the diagonal form.
+- The [Frobenius normal form](https://en.wikipedia.org/wiki/Frobenius_normal_form) does not need to extend the field of scalars and makes the characteristic polynomial immediately readable on the matrix.
+- The [Jordan normal form](https://en.wikipedia.org/wiki/Jordan_normal_form) requires to extension of the field of scalar for containing all eigenvalues and differs from the diagonal form only by some entries that are just above the main diagonal and are equal to 1.
+
 ## Duality
+
+
+A [<span class="emph">linear form</span>](https://en.wikipedia.org/wiki/Linear_form)
+(also known as a <span class="emph">linear functional</span>, a <span class="emph">one-form</span>, or a <span class="emph">covector</span>)
+is a [linear map](https://en.wikipedia.org/wiki/Linear_map)
+from a vector space $$V$$ over a field $$F$$
+to the field of scalars $$F$$,
+viewed as a vector space over itself.
+Equipped by [pointwise](https://en.wikipedia.org/wiki/Pointwise)
+addition and multiplication by a scalar, the linear forms form a vector space,
+called the [<span class="emph">dual space</span>](https://en.wikipedia.org/wiki/Dual_space) of $$V$$,
+and usually denoted $$V^\ast$$ or $$V'$$.
+
+If $$(v_1, \ldots, v_n)$$
+is a basis of $$V$$
+(which implies that $$V$$ is finite-dimensional),
+then one can define,
+for each $$1\leq i\leq n$$,
+a linear map $$\nu_i^\ast$$
+such that $$\nu_i^\ast(v_i) = 1$$
+and $$\nu_i^\ast(v_j) = 0$$ if $$j \neq i$$.
+These linear maps form a basis of $$V^\ast$$,
+called the [dual basis](https://en.wikipedia.org/wiki/Dual_basis)
+of $$v_1, \ldots, v_n$$.<sup><a href="#footnote4" id="ref4">4</a></sup>
+
+For any $$v \in V$$, the map
+
+$$
+{f\to f({v} )}
+$$
+
+is a linear form on $$V^\ast$$.
+This defines the [canonical linear map](https://en.wikipedia.org/wiki/Canonical_map)
+from $$V$$ into $$(V^\ast)^\ast$$, the dual of $$V^\ast$$,
+called the [double dual](https://en.wikipedia.org/wiki/Double_dual)
+or [bidual](https://en.wikipedia.org/wiki/Bidual) of $$V$$.
+This canonical map is an [isomorphism](https://en.wikipedia.org/wiki/Isomorphism) if $$V$$ is finite-dimensional,
+and this allows identifying $$V$$ with its [bidual](https://en.wikipedia.org/wiki/Bidual).<sup><a href="#footnote5" id="ref5">5</a></sup>
+
+There is thus a complete symmetry between a finite-dimensional vector space and its dual.
+This motivates the frequent use, in this context, of the [bra–ket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation)
+
+$$
+\langle f,{x} \rangle
+$$
+
+for denoting $$f(x)$$.
 
 ### Dual map
 
+Let
+
+$$
+f: V\to W
+$$
+
+be a linear map.
+For every [<span class="emph">linear form</span>](https://en.wikipedia.org/wiki/Linear_form)
+$$h$$ on $$W$$,
+the [composite function](https://en.wikipedia.org/wiki/Composite_function) $$h \circ f$$
+is a linear form on $$V$$.
+This defines a linear map
+
+$$
+f^\ast: W^\ast\to V^\ast
+$$
+
+between the dual spaces,
+which is called the <span class="emph">dual</span> or the <span class="emph">transpose</span> of $$f$$.
+
+If $$V$$ and $$W$$ are finite-dimensional,
+and $$M$$ is the matrix representing $$f$$ based on some ordered bases,
+then the matrix of $$f^\ast$$ over the dual bases is $$M^T$$,
+*i.e.*,
+the [transpose](#transpose) of $$M$$
+(obtained by exchanging rows and columns).
+
+If elements of vector spaces and their duals are represented by column vectors,
+this duality may be expressed in [bra–ket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation) by
+
+$$
+\innerp{h^T}{ M {v}} = \innerp{h^TM}{v}.
+$$
+
+To highlight this symmetry, the two members of this equality are sometimes written
+
+$$
+\langle h^{T} \mid M \mid v \rangle.
+$$
+
 ### Inner-product spaces
+
+Besides these basic concepts, linear algebra also studies vector spaces with additional structure,
+such as an [inner product](https://en.wikipedia.org/wiki/Inner_product).
+The inner product is an example of a [bilinear form](https://en.wikipedia.org/wiki/Bilinear_form),
+and it gives the vector space a geometric structure by allowing for the definition of length and angles.
+Formally, an [inner product](https://en.wikipedia.org/wiki/Inner_product) is a map
+
+$$
+\innerp{\cdot}{\cdot}:
+V \times V \to F
+$$
+
+that satisfies the following three axioms:
+
+| axiom | statement |
+|:-|:-|
+| [conjugate](https://en.wikipedia.org/wiki/Complex_conjugate) symmetry | $$(\forall u,v\in V)(\innerp{u}{v}=\overline{\innerp{v}{u}})$$ |
+| [linearity](https://en.wikipedia.org/wiki/Linear) (in the first argument) | $$(\forall u,v,w\in V\;\&\; \alpha, \beta\in F)(\innerp{\alpha u+\beta v}{w}=\alpha\innerp{u}{w} + \beta \innerp{v}{w}$$ |
+| [positive-definiteness](https://en.wikipedia.org/wiki/Definite_bilinear_form) | $$(\forall v\in V)(\innerp{v}{v} \geq 0)$$ and $$(\forall v\in V)(\innerp{v}{v}=0 \iff v=0)$$ |
+
+We can define the length of a vector v in V by
+
+$$
+\|v\|^{2}=\innerp{v}{v}
+$$
+
+and we can prove the
+[Cauchy–Schwarz inequality](/math/inequalities#when-elegance-meets-power---the-art-of-inequalities):<sup><a href="#footnote6" id="ref6">6</a></sup>
+
+$$
+|\innerp{u}{v}| \leq \|u\| \|v\|.
+$$
+
+In particular,
+when both $$u$$ and $$v$$ are nonzero,
+we have
+
+$$
+-1 \leq \frac{\innerp{u}{v}}{\|u\| \|v\|} \leq  1
+$$
+
+hence we can call this quantity the cosine of the angle between the two vectors.
+
+
+Two vectors are [orthogonal](https://en.wikipedia.org/wiki/Orthogonality) if $$\innerp{u}{v} = 0$$.
+An
+[orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis)
+is a basis where all basis vectors have length 1 and are orthogonal to each other.
+Given any finite-dimensional vector space,
+an orthonormal basis could be found by the
+[Gram–Schmidt procedure](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt).<sup><a href="#footnote7" id="ref7">7</a></sup>
 
 ## Relationship with geometry
 
+There is a strong relationship between [linear algebra](#linear-algebra) and [geometry](https://en.wikipedia.org/wiki/Geometry),
+which started with the introduction by [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes)
+of [Cartesian coordinates](https://en.wikipedia.org/wiki/Cartesian_coordinates) in 1637.
+In this new (at that time) geometry, now called [Cartesian geometry](https://en.wikipedia.org/wiki/Cartesian_geometry),
+points are represented by Cartesian coordinates,
+which are sequences of three real numbers (in the case of the usual three-dimensional space).
+The basic objects of geometry, which are [lines](https://en.wikipedia.org/wiki/Line_(geometry))
+and [planes](https://en.wikipedia.org/wiki/Plane_(geometry)) are represented by linear equations.
+Thus, computing intersections of lines and planes amounts to solving systems of linear equations. This was one of the main motivations for developing linear algebra.
+
+Most geometric transformation, such as
+translations,
+rotations,
+reflections,
+[rigid motions](https://en.wikipedia.org/wiki/Rigid_motion),
+[isometries](https://en.wikipedia.org/wiki/Isometry),
+and
+[projections](https://en.wikipedia.org/wiki/Projection_(mathematics) transform lines into lines.
+It follows that they can be defined, specified, and studied in terms of linear maps.
+This is also the case of [homographies](https://en.wikipedia.org/wiki/Homography)
+and
+[Möbius transformations](https://en.wikipedia.org/wiki/M%C3%B6bius_transformation)
+when considered as transformations of a [projective space](https://en.wikipedia.org/wiki/Projective_space).
+
+Until the end of the 19th century,
+geometric spaces were defined by axioms relating points, lines, and planes,
+*i.e.*, [synthetic geometry](https://en.wikipedia.org/wiki/Synthetic_geometry).
+Around this date, it appeared that one may also define geometric spaces by constructions involving vector spaces,
+*e.g.*, [projective space](https://en.wikipedia.org/wiki/Projective_space) and [affine space](https://en.wikipedia.org/wiki/Affine_space).
+It has been shown that the two approaches are essentially equivalent.
+In classical geometry, the involved vector spaces are vector spaces over the reals, but the constructions may be extended to vector spaces over any field, allowing considering geometry over arbitrary fields,
+including [finite fields](/math/abstract-algebra#field-examples).<sup><a href="#footnote8" id="ref8">8</a></sup>
+
+<!--
 ## Usage and applications
 
 ### Functional analysis
@@ -1196,6 +1383,7 @@ then the matrix is diagonalizable.
 ### Multilinear algebra and tensors
 
 ### Topological vector spaces
+-->
 
 <hr>
 <ol>
@@ -1218,4 +1406,37 @@ then the matrix is diagonalizable.
 	thus in practice this formula is *never* used for the actual calculation of determinants
 	(possibly except for the exercises for students).
 	&nbsp;<a href="#ref3">↩</a></li>
+<li id="footnote4">
+	If $V$ is not finite-dimensional,
+	the $\nu_i^\ast$ may be defined similarly;
+	they are linearly independent, but do not form a basis.
+	&nbsp;<a href="#ref4">↩</a></li>
+<li id="footnote5">
+	In the infinite-dimensional case, the canonical map is injective, but not surjective.
+	&nbsp;<a href="#ref5">↩</a></li>
+<li id="footnote6">
+	Note that the [Cauchy–Schwarz inequality](/math/inequalities#when-elegance-meets-power---the-art-of-inequalities)
+	can be really simply written as
+	an equivalent inequality:
+
+	$$
+		\innerp{u}{v} \leq \|u\|\|v\|
+	$$
+
+	that is, we do not need the absolute value operator $|\cdot|$.
+	(Carefully think about it, and you'll realize it's true!)
+	&nbsp;<a href="#ref6">↩</a></li>
+<li id="footnote7">
+	The <a href="https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt">Gram–Schmidt procedure</a>
+	is and should be never used in practice
+	due to its numerical instability.
+	Instead,
+	<a href="https://en.wikipedia.org/wiki/QR_decomposition">QR decomposition</a>
+	or
+	<a href="https://en.wikipedia.org/wiki/Singular_value_decomposition">singular value decomposition (SVD)</a>
+	should be used!
+	&nbsp;<a href="#ref7">↩</a></li>
+<li id="footnote8">
+	Presently, most textbooks introduce geometric spaces from linear algebra, and geometry is often presented, at the elementary level, as a subfield of linear algebra.
+	&nbsp;<a href="#ref8">↩</a></li>
 </ol>
