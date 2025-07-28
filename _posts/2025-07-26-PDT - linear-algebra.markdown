@@ -1,7 +1,7 @@
 ---
-title: (WIP) Linear Algebra
+title: Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 23:52:02 PDT 2025
+last_modified_at: Mon Jul 28 01:11:27 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -921,7 +921,9 @@ where $$S_n$$ is the group of all permutations,
 of $$n$$ elements
 and $$\sigma(\sigma)$$ is the [parity](https://en.wikipedia.org/wiki/Parity_of_a_permutation) of the permutation $$\sigma$$.
 
-The matrix $$A$$ is invertible if and only if the determinant is invertible
+The matrix $$A$$ is invertible if and only if the determinant is invertible,
+*i.e.*,
+has [multiplicative inverse](https://en.wikipedia.org/wiki/Multiplicative_inverse)
 (*e.g.*, nonzero if the scalars belong to a [field](/math/abstract-algebra#fields---the-realm-of-perfect-division)).
 
 The determinant can be evaluated recursively,
@@ -1266,7 +1268,7 @@ If elements of vector spaces and their duals are represented by column vectors,
 this duality may be expressed in [bra–ket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation) by
 
 $$
-\innerp{h^T}{ M {v}} = \innerp{h^TM}{v}.
+\langle h^T, M v\rangle = \langle h^TM, v \rangle.
 $$
 
 To highlight this symmetry, the two members of this equality are sometimes written
@@ -1443,15 +1445,97 @@ Furthermore, linear algebra plays a crucial role in thermal energy systems, part
 
 Overall, the application of linear algebra in fluid mechanics, fluid dynamics, and thermal energy systems is an example of the profound interconnection between mathematics and engineering. It provides engineers with the necessary tools to model, analyze, and solve complex problems in these domains, leading to advancements in technology and industry.
 
-<!--
 ## Extensions &amp; generalizations
 
 ### Module theory
 
+The existence of multiplicative inverses in fields is not involved in the axioms defining a vector space.
+One may thus replace the field of scalars by a [ring](/math/abstract-algebra#rings---where-addition-meets-multiplication) $$R$$,
+and this gives the structure called a <span class="emph">module</span> over $$R$$, or $$R$$-module.
+
+The concepts of linear independence, span, basis, and linear maps,
+which are also called [module homomorphisms](https://en.wikipedia.org/wiki/Module_homomorphism),
+are defined for modules exactly as for vector spaces, with the essential difference that
+<!--if R is not a field,-->
+there are modules that do not have any basis.
+The modules that have a basis are the [free modules](https://en.wikipedia.org/wiki/Free_module),
+and those that are spanned by a finite set are
+the [finitely generated modules](https://en.wikipedia.org/wiki/Finitely_generated_module).
+Module homomorphisms between finitely generated free modules may be represented by matrices.
+The theory of matrices over a [ring](/math/abstract-algebra#rings---where-addition-meets-multiplication)
+is similar to that of matrices over a [field](/math/abstract-algebra#fields---the-realm-of-perfect-division),
+except that [determinants](#determinant) exist only if the ring is [commutative](https://en.wikipedia.org/wiki/Commutative_ring),
+and that a square matrix over a [commutative ring]((https://en.wikipedia.org/wiki/Commutative_ring))
+is [invertible](https://en.wikipedia.org/wiki/Invertible_matrix)
+only if its determinant has a [multiplicative inverse](https://en.wikipedia.org/wiki/Multiplicative_inverse)
+in the ring.
+
+Vector spaces are completely characterized by their dimension (up to an isomorphism).
+In general, there is not such a complete classification for modules,
+even if one restricts oneself to finitely generated modules.
+However, every module is a [cokernel](https://en.wikipedia.org/wiki/Cokernel) of a homomorphism of free modules.
+
+Modules over the integers can be identified with [abelian groups](https://en.wikipedia.org/wiki/Abelian_group),
+since the multiplication by an integer may be identified as a repeated addition.
+Most of the theory of abelian groups may be extended to modules over a [principal ideal domain](https://en.wikipedia.org/wiki/Principal_ideal_domain).
+In particular, over a principal ideal domain, every submodule of a free module is free,
+and the [fundamental theorem of finitely generated abelian groups](https://en.wikipedia.org/wiki/Fundamental_theorem_of_finitely_generated_abelian_groups)
+may be extended straightforwardly to finitely generated modules over a principal ring.
+
+There are many rings for which there are algorithms for solving linear equations and systems of linear equations.
+However, these algorithms have generally a [computational complexity](https://en.wikipedia.org/wiki/Computational_complexity)
+that is much higher than similar algorithms over a field.
+For more details, see [linear equation over a ring](https://en.wikipedia.org/wiki/Linear_equation_over_a_ring).
+
 ### Multilinear algebra and tensors
 
+In [multilinear algebra](https://en.wikipedia.org/wiki/Multilinear_algebra),
+one considers multivariable linear transformations,
+that is,
+mappings that are linear in each of several different variables.
+This line of inquiry naturally leads to the idea of the [dual space](https://en.wikipedia.org/wiki/Dual_space),
+the vector space $$V^\ast$$
+consisting of linear maps $$f : V \to F$$ where $$F$$ is the field of scalars.
+Multilinear maps $$T: V^n \to F$$ can be described via [tensor products](https://en.wikipedia.org/wiki/Tensor_product) of elements of V*.
+
+If, in addition to vector addition and scalar multiplication,
+there is a bilinear vector product $$V\times V \to V$$,
+the vector space is called an [algebra](https://en.wikipedia.org/wiki/Algebra_over_a_field);
+for instance, associative algebras are algebras with an associate vector product (like the algebra of square matrices, or the algebra of polynomials).
+
 ### Topological vector spaces
--->
+
+Vector spaces that are not finite-dimensional often require additional structure to be tractable.
+A [normed vector space](/math/topological-spaces#banach-spaces---the-realm-of-completeness)
+is a vector space along with a function called a [norm](https://en.wikipedia.org/wiki/Norm_(mathematics)).
+The norm induces a [metric](https://en.wikipedia.org/wiki/Metric_(mathematics)),
+which measures the distance between elements, and induces a [topology](/math/topological-space),
+which allows for a definition of continuous maps.
+The metric also allows for a definition of [limits](https://en.wikipedia.org/wiki/Limit_(mathematics))
+and [completeness](https://en.wikipedia.org/wiki/Complete_metric_space)
+&ndash;
+a normed vector space that is complete is known as a [Banach space](/math/topological-spaces#banach-space).
+
+A complete metric space along with the additional structure of an [inner product](/math/linear-algebra#inner-product-spaces)
+(a conjugate symmetric [sesquilinear form](https://en.wikipedia.org/wiki/Sesquilinear_form))
+is known as a [Hilbert space](/math/topological-spaces#hilbert-space),
+which is in some sense a particularly well-behaved Banach space.
+
+[Functional analysis](https://en.wikipedia.org/wiki/Functional_analysis) applies the methods of linear algebra
+alongside those of [mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)
+to study various function spaces; the central objects of study in functional analysis are
+[$$L^p$$ spaces](/math/topological-spaces#lp-space),
+which are [Banach spaces](/math/topological-spaces#banach-space),
+and especially the $$L^2$$ space of square-integrable functions,
+which is the only [Hilbert space](/math/topological-spaces#hilbert-space) among them.
+
+Functional analysis is of particular importance to [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics),
+the theory of [partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equation),
+[digital signal processing](https://en.wikipedia.org/wiki/Digital_signal_processing),
+and
+[electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering).
+It also provides the foundation and theoretical framework
+that underlies the [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) and related methods.
 
 <hr>
 <ol>
