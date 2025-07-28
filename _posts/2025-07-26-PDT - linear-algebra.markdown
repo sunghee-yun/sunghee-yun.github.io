@@ -1,7 +1,7 @@
 ---
 title: (WIP) Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sun Jul 27 14:00:44 PDT 2025
+last_modified_at: Sun Jul 27 18:52:51 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -32,7 +32,6 @@ $$
 \newcommand{\reals}{\mathbb{R}}
 \newcommand{\complexes}{\mathbb{C}}
 \newcommand{\integers}{\mathbb{Z}}
-\newcommand{\kclosure}{\bar{K}}
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}
 \newcommand{\sign}{\mathop{\bf sign}}
@@ -651,6 +650,156 @@ makes them *associative!*
 Indeed, if we regard a column vector in $$F^n$$ as a matrix in $$F^{n\times 1}$$,
 the matrix-vector multiplication coincides with the matrix-matrix multiplication!
 
+### Matrix operations
+
+There are other unary and binary operations on matrices
+other than usual addition, subtraction, and [multiplication](#matrix-matrix-multiplication).
+
+<span id="trasnpose">**Transpose**</span>
+
+The <span id="transpose">transpose</span> of $$A\in F^{m\times n}$$ is denoted by $$A^T$$
+and defined by
+a $$n$$-by-$$m$$ matrix $$B\in F^{n\times m}$$
+satisfying
+
+$$
+B_{i,j} = A_{j,i}
+\;
+\mbox{for all }
+1\leq i\leq n
+\;
+\&
+\;
+1\leq j\leq m.
+$$
+
+<span id="conjugate-transpose">**Conjugate transpose or Hermitian transpose**</span>
+
+The <span class="emph">conjugate transpose</span> or <span class="emph">Hermitian transpose</span>
+of $$A \in \complexes^{m\times n}$$
+is denoted by $$A^H$$ or $$A^\ast$$ (or sometimes $$A'$$ or (often in physics) $$A^\dagger$$),
+and
+is defined by a $$n$$-by-$$m$$ complex matrix $$B\in \complexes^{n\times m}$$
+satisfying
+
+$$
+B_{i,j} = \overline{A_{j,i}}
+\;
+\mbox{for all }
+1\leq i\leq n
+\;
+\&
+\;
+1\leq j\leq m.
+$$
+
+where $$\overline{a}$$ denotes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate) of $$a\in\complexes$$,
+*i.e.*,
+if $$a=b+i c$$ with $$b,c\in\reals$$,
+$$\overline{a} = b - i c$$.
+
+## Types of matrices
+
+### Square matrices
+
+A matrix is called a [<span class="emph">square matrix</span>](https://en.wikipedia.org/wiki/Square_matrix)
+if the number of rows equals to that of columns.
+
+### Diagonal matrices
+
+A square matrix where all the off-diagonal entries are zero is called
+a [<span class="emph">diagonal matrix</span>](https://en.wikipedia.org/wiki/Diagonal_matrix).
+In other words,
+$$A\in F^{n\times n}$$
+is a diagonal matrix
+if
+
+$$
+A_{i,j} = 0
+\;
+\mbox{for all }
+i\neq j.
+$$
+
+### Identity matrices
+
+A diagonal matrix where all the diagonal entries are $$1$$
+is called the [<span class="emph">identity matrix</span>](https://en.wikipedia.org/wiki/Identity_matrix),
+which is denoted by $$I$$;
+$$I_n \in F^{n\times n}$$ denotes the $$n$$-by-$$n$$ identity matrix.
+
+Note that
+
+$$
+(\forall A\in F^{m\times n})
+(AI_n = A \;\&\; I_mA = A).
+$$
+
+
+### Symmetric matrices
+
+A matrix is called a [<span class="emph">symmetric matrix</span>](https://en.wikipedia.org/wiki/Symmetric_matrix)
+if it equals to its transpose.
+Therefore a symmetric matrix is a square matrix (by definition).
+In other words, $$A\in F^{n\times n}$$ is called a [<span class="emph">symmetric matrix</span>](https://en.wikipedia.org/wiki/Symmetric_matrix)
+if it satisfies
+
+$$
+A^T = A.
+$$
+
+### Skew-symmetric matrices
+
+A matrix is called [<span class="emph">skew-symmetric matrix</span>](https://en.wikipedia.org/wiki/Skew-symmetric_matrix)
+if its negation equals to its [transpose](#transpose).
+A skew-symmetric matrix is sometimes called an <span class="emph">antisymmetric matrix</span>
+or <span class="emph">antimetric matrix</span>.
+In other words,
+$$A\in F^{n\times n}$$ is skew-symmetric
+if
+
+$$
+A^T = -A.
+$ka$
+
+### Real matrices
+
+When $$F=\reals$$, we call the matrices <span class="emph">real matrices</span>.
+
+### Complex matrices
+
+When $$F=\complexes$$, we call the matrices <span class="emph">complex matrices</span>.
+
+### Hermitian matrices
+
+A complex matrix is called [<span class="emph">Hermitian matrix</span>](https://en.wikipedia.org/wiki/Hermitian_matrix)
+if it equals to its [conjugate transpose](#conjugate-transpose).
+A Hermitian matrix is sometimes called <span class="emph">self-adjoint matrix</span>.
+In other words,
+$$A\in\complexes^{n\times n}$$ is Hermitian
+if
+
+$$
+A^H = A.
+$$
+
+Note that a real Hermitian matrix is a [symmetric matrix](#symmetric-matrices).
+
+### Skew-Hermitian matrices
+
+A complex matrix is called [<span class="emph">skew-Hermitian matrix</span>](https://en.wikipedia.org/wiki/Skew-Hermitian_matrix)
+if its negation equals to its [conjugate transpose](#conjugate-transpose).
+A skew-Hermitian matrix is sometimes called <span class="emph">anti-Hermitian matrix</span>.
+In other words,
+$$A\in\complexes^{n\times n}$$ is skew-Hermitian
+if
+
+$$
+A^H = -A.
+$$
+
+Note that a real skew-Hermitian matrix is a [skew-symmetric matrix](#skew-symmetric-matrices).
+
 ## Linear systems
 
 A finite set of linear equations in a finite set of variables
@@ -723,11 +872,12 @@ of a square matrix $$A\in R^{n\times n}$$
 is denoted by $$\det(A)$$
 and defined by
 
-$$
+\begin{equation}
+\label{eq:det-formula}
 \det(A)
-=
-\sum_{\sigma \in S_n} \sign(\sigma) A_{1,\sigma(1)} A_{2,\sigma(2)} \cdots A_{n,\sigma(n)}
-$$
+	=
+		\sum_{\sigma \in S_n} \sign(\sigma) A_{1,\sigma(1)} A_{2,\sigma(2)} \cdots A_{n,\sigma(n)}
+\end{equation}
 
 where $$S_n$$ is the group of all permutations,
 *i.e.*, the [symmetric group](https://en.wikipedia.org/wiki/Symmetric_group),
@@ -742,11 +892,12 @@ The determinant can be evaluated recursively,
 one can derive the formula for the determinant of a square matrix in $$R^{n\times n}$$
 using the determinants of square matrices in $$R^{(n-1)\times(n-1)}$$ as follow.
 
-$$
+\begin{equation}
+\label{eq:det-formula-recursive}
 \det(A)
-=
-	\sum_{k=1}^n (-1)^{k+1}A_{1,k} M_{1,k}
-$$
+	=
+		\sum_{k=1}^n (-1)^{k+1}A_{1,k} M_{1,k}
+\end{equation}
 
 where
 $$M_{i,j}$$ is the [$$(i,j)$$-minor](https://en.wikipedia.org/wiki/Minor_(linear_algebra)) of $$A$$
@@ -754,16 +905,105 @@ that is
 defined by the [determinant](#determinant) of the $$(n-1)$$-by-$$(n-1)$$ matrix
 resulting from removing the $i$-th row and $j$-th column of $$A$$.
 
-Note that we have the following equivalences.
+Note that we have the following equivalences.<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 $$
+\begin{array}{rcl}
 \det(A)
-=
-	\sum_{k=1}^n (-1)^{k+1}A_{1,k} M_{1,k}
+	&=&
+		\sum_{k=1}^n (-1)^{1+k}A_{1,k} M_{1,k}
+\\
+	&=&
+		\sum_{k=1}^n (-1)^{k+1}A_{k,1} M_{k,1}
+\\
+	&=&
+		\sum_{k=1}^n (-1)^{i+k}A_{i,k} M_{i,k}
+		\quad \mbox{for any } 1\leq i\leq n
+\\
+	&=&
+		\sum_{k=1}^n (-1)^{k+j}A_{k,j} M_{k,j}
+		\quad \mbox{for any } 1\leq j\leq n
+\end{array}
+$$
+
+[Cramer's rule](https://en.wikipedia.org/wiki/Cramer%27s_rule) is a closed-form expression,
+in terms of determinants,
+of the solution of a [linear system](https://en.wikipedia.org/wiki/System_of_linear_equations).
+[Cramer's rule](https://en.wikipedia.org/wiki/Cramer%27s_rule) is useful for reasoning about the solution,
+but, except for $$n = 2$$ or $$3$$,
+it is rarely used for computing a solution.
+
+<!--
+The determinant of an endomorphism is the determinant of the matrix representing the endomorphism in terms of some ordered basis. This definition makes sense since this determinant is independent of the choice of the basis.
+-->
+
+### Eigenvalues, eigenvectors, and characteristic polynomial
+
+If $$f$$ is a linear endomorphism of a vector space $$V$$ over a field $$F$$,
+an eigenvector of $$f$$ is a nonzero vector $$x\in \overline{V}$$
+such that $$f(x) = \lambda x$$ for some $$\lambda \in \overline{F}$$
+where $$\overline{F}$$ is the algebraic closure of the field $$F$$
+and $$\overline{V}$$ is the extended vector space by $$\overline{F}$$.
+This scalar $$\lambda$$ is called an eigenvalue of $$f$$
+(associated with the eigenvector $$x$$).
+
+If the dimension of $$V$$ is finite,
+and a basis has been chosen,
+$$f$$ and $$x$$ may be represented,
+respectively,
+by a square matrix $$A\in F^{n\times n}$$ and a (column) vector $$v\in \overline{F}^n$$.
+Then the equation defining eigenvectors and eigenvalues becomes
+
+$$
+Av = \lambda v.
+$$
+
+Note the following equivalence!
+
+$$
+Av = \lambda v \iff (A-\lambda I_n) v = 0
+$$
+
+where $$I_n\in F^{n\times n}$$ is the [identity matrix](#identity-matrix).
+If $$A-\lambda I_n$$ were nonsingular, *i.e.*, invertible,
+$$v$$ should be a zero vector,
+which is a contradiction.
+Thus $$(A- \lambda I_n)\in F^{n\times n}$$ should be singular,
+*i.e.*,
+
+$$
+\det (A-\lambda I_n) = 0.
+$$
+
+Note that the left-hand-side (LHS) of the equation is
+a [monic polynomial](https://en.wikipedia.org/wiki/Monic_polynomial) of degree $$n$$,
+is called the <span class="emph">[characteristic polynomial](https://en.wikipedia.org/wiki/Characteristic_polynomial)</span>
+of the matrix $$A$$ or of the endomorphism, and
+hence
+<!--
+the [fundamental theorem of algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra)
+implies that
+-->
+there are (at most) $$n$$ eigenvalues.
+
+### Diagonalizability
+
+If a basis exists that consists only of eigenvectors,
+the matrix of f on this basis has a very simple structure: it is a diagonal matrix such that the entries on the main diagonal are eigenvalues, and the other entries are zero. In this case, the endomorphism and the matrix are said to be diagonalizable. More generally, an endomorphism and a matrix are also said diagonalizable, if they become diagonalizable after extending the field of scalars. In this extended sense, if the characteristic polynomial is square-free, then the matrix is diagonalizable.
+
+### Symmetric real matrices
+
+We can (easily) show that all the eigenvalues of symmetric real matrices are real.
+
+$$
+v^\ast Av = v^\ast \lambda v = \lambda \|v\|_2^2
+$$
+
+$$
+v^\ast A^\ast v = v^\ast \lambda^\ast v = \lambda^\ast \|v\|_2^2
 $$
 
 
-### Eigenvalues and eigenvectors
 
 ## Duality
 
@@ -807,4 +1047,11 @@ $$
 	For the rest,
 	we will get back to the assumption of a field!
 	&nbsp;<a href="#ref2">↩</a></li>
+<li id="footnote3">
+	The original formulation \eqref{eq:det-formula}
+	as well as the recursive formula \eqref{eq:det-formula-recursive}
+	takes $O(n!)$ operations,
+	thus in practice this formula is *never* used for the actual calculation of determinants
+	(possibly except for the exercises for students).
+	&nbsp;<a href="#ref3">↩</a></li>
 </ol>
