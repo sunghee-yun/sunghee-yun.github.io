@@ -1,7 +1,7 @@
 ---
-title: Linear Algebra
+title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Jul 28 02:14:13 PDT 2025
+last_modified_at: Mon Jul 28 02:18:42 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -46,6 +46,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# NotebookLM Podcasts
+
+- [27:26](https://notebooklm.google.com/notebook/9bc4fc2c-7de5-4f56-8d74-2dd09fb48fc6/audio)
+- [33:11](https://notebooklm.google.com/notebook/90b5a5f3-f848-482a-9a9d-95d18c6d9bc4/audio)
 
 # Vector Spaces
 
