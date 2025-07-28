@@ -1,7 +1,7 @@
 ---
 title: Linear Algebra
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Jul 28 01:11:27 PDT 2025
+last_modified_at: Mon Jul 28 02:14:13 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -56,6 +56,9 @@ can be added together and multiplied or *scaled* by numbers called <span class="
 The operations of <span class="emph">vector addition</span> and <span class="emph">scalar multiplication</span>
 must satisfy certain requirements,
 called <span class="emph">vector axioms</span>.
+
+Before diving into the formal definition, let's build intuition with a familiar example. Consider the set of all arrows in a plane, where each arrow represents a force or velocity. You can add two forces by placing them head-to-tail (vector addition), and you can double a force by making the arrow twice as long (scalar multiplication). This intuitive picture captures the essence of what vector spaces formalize mathematically.
+
 Real vector spaces and complex vector spaces are kinds of vector spaces based on different kinds of scalars:
 real numbers and complex numbers.
 Scalars can also be, more generally, elements of any [field](/math/abstract-algebra#fields---the-realm-of-perfect-division).
@@ -152,6 +155,14 @@ and the elements of $$F$$ are called <span class="emph">scalars</span>.
 | [distributivity](https://en.wikipedia.org/wiki/Distributivity) of multiplication over vector addition | $$(\forall x,y \in V \;\&\; \forall \alpha\in F)(\alpha(x+y) = \alpha x + \alpha y)$$ |
 | [distributivity](https://en.wikipedia.org/wiki/Distributivity) of multiplication over field addition | $$(\forall x \in V \;\&\; \alpha, \beta \in F)((\alpha+ \beta)x = \alpha x + \beta x)$$ |
 
+**Example**
+The most familiar vector space is $$\reals^3$$,
+the set of all ordered triples $$(x,y,z)$$ of real numbers.
+Vector addition is componentwise:
+$$(x_1,y_1,z_1) + (x_2,y_2,z_2) = (x_1+x_2,y_1+y_2,z_1+z_2)$$,
+and scalar multiplication is $$c(x,y,z) = (cx,cy,cz)$$.
+(You can verify that all eight axioms hold for this familiar setting.)
+
 Subtraction of two vectors can be defined as
 
 $$
@@ -166,7 +177,6 @@ Some of (direct) consequences of the axioms:
 - $(\forall \alpha \in F \;\&\; \forall x \in V)(\alpha x = 0 \implies \alpha = 0 \mbox{ or } x = 0)$
 
 ## Bases, vector coordinates, and subspaces
-(WIP)
 
 ### Linear combination
 
@@ -259,7 +269,14 @@ It is thus a [vector space isomorphism](https://en.wikipedia.org/wiki/Vector_spa
 which allows translating reasonings and computations on vectors into reasonings and computations
 on their coordinates.
 
+---
+
 # Linear Algebra
+
+Having established the foundation of vector spaces, we now turn to
+<span class="emph">linear algebra</span> itself
+&ndash;
+the study of linear relationships and transformations between these spaces. Where vector spaces give us the "stage," linear algebra provides the "action" through linear maps, systems of equations, and their matrix representations.
 
 Linear algebra is the branch of [mathematics](/math/landscape) concerning [linear equations](https://en.wikipedia.org/wiki/Linear_equation) such as
 
@@ -293,10 +310,16 @@ of a [multivariate function](https://en.wikipedia.org/wiki/Multivariate_function
 at a point is
 the linear map that best approximates the function near that point.
 
+## The Modern AI Connection
+
 In the modern era of [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence)
 and [machine learning (ML)](https://en.wikipedia.org/wiki/Machine_learning),
 linear algebra has become even more indispensable,
 serving as the mathematical foundation for optimization algorithms and data processing techniques.
+
+**Think of it this way**
+&ndash; Every time you interact with AI - whether it's asking ChatGPT a question, getting photo recommendations, or using voice recognition - massive matrix computations are happening behind the scenes. A single forward pass through a modern neural network like GPT-4 involves billions of matrix multiplications.
+
 In [convex optimization](/math/cvxopt),
 linear algebra provides the tools for understanding gradients, Hessian matrices, and the geometric properties of feasible regions,
 enabling efficient solutions to problems like [linear programming](/math/cvxopt#linear-programming-lp---the-foundation)
@@ -378,6 +401,10 @@ and [matrix decompositions](https://en.wikipedia.org/wiki/Matrix_decomposition),
 and [linear algebra](#linear-algebra) became an essential tool for modeling and simulations.
 
 ## Matrices
+
+The bridge between abstract vector spaces and concrete computation is provided
+by <span class="emph">matrices</span>
+&ndash; rectangular arrays of numbers that allow us to represent and manipulate linear transformations explicitly.
 
 Matrices allow explicit manipulation of
 finite-dimensional [vector spaces](#vector-spaces)
@@ -508,7 +535,7 @@ $$
 There is a bijection between the set of all such matrices, that is, $$F^{m\times n}$$
 and the set of all linear mappings from $$V$$ to $$W$$.
 
-We want to make this bijection isomorphism somehow,
+We want to make this bijection an isomorphism,
 which will naturally define matrix-vector multiplication and matrix-matrix multiplication as shown below.
 
 ### Matrix-vector multiplication
@@ -839,6 +866,8 @@ Note that a real skew-Hermitian matrix is a [skew-symmetric matrix](#skew-symmet
 
 ## Linear systems
 
+Now that we understand matrices, we can tackle one of the most fundamental problems in linear algebra: solving systems of linear equations. This is where theory meets computation most directly.
+
 A finite set of linear equations in a finite set of variables
 is called a <span class="emph">system of linear equations</span> or a <span class="emph">linear system</span>.
 
@@ -882,6 +911,26 @@ the linear system can be compactly represented by
 $$
 b = Ax.
 $$
+
+### Geometric Interpretation
+
+Each equation represents a hyperplane (in this case, a plane in 3D space), and we're looking for points that lie on the intersection of all these hyperplanes.
+
+### Computational Methods
+
+In practice, we rarely use
+[Cramer's rule](https://en.wikipedia.org/wiki/Cramer%27s_rule)
+or matrix inversion to solve linear systems. Instead, we use
+
+- [Gaussian elimination](https://en.wikipedia.org/wiki/Gaussian_elimination) with partial pivoting for general systems
+- [LU decomposition](https://en.wikipedia.org/wiki/LU_decomposition) when solving multiple systems with the same matrix
+- [Cholesky decomposition](https://en.wikipedia.org/wiki/Cholesky_decomposition) for positive definite symmetric systems
+- [QR decomposition](https://en.wikipedia.org/wiki/QR_decomposition) for over-determined systems (least squares)
+- [Iterative methods](https://en.wikipedia.org/wiki/Iterative_method#Linear_systems) like [conjugate gradient](https://en.wikipedia.org/wiki/Conjugate_gradient_method) for very large sparse systems
+
+The choice of method depends on the structure of $A$ (sparse, symmetric, positive definite, etc.),
+the size of $A$,
+and the computational resources available.
 
 ## Endomorphisms &amp; square matrices
 
