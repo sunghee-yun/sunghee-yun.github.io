@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Tue Jul 15 21:56:03 PDT 2025
+last_modified_at: Mon Jul 28 01:09:32 PDT 2025
 categories:
  - blog
 tags:
@@ -239,17 +239,17 @@ The elegance of normed spaces lies in how algebraic operations (addition, scalar
 
 ## Classical Banach spaces
 
-Banach spaces—complete normed vector spaces—represent one of the most important and beautiful classes of topological spaces in all of mathematics. Completeness means that every Cauchy sequence converges, a property that transforms these spaces into reliable mathematical environments where limiting processes behave predictably.
+<span class="emph" id="banach-space">Banach spaces</span>—complete normed vector spaces—represent one of the most important and beautiful classes of topological spaces in all of mathematics. Completeness means that every Cauchy sequence converges, a property that transforms these spaces into reliable mathematical environments where limiting processes behave predictably.
 
 The classical examples showcase the power and versatility of this concept.
 
 <h3>$L^p$ spaces</h3>
 
-The $$L^p$$ spaces,
+The <span class="emph" id="lp-space">$$L^p$$ spaces</span>,
 consisting of functions $$f$$ with $$\int |f|^p < \infty$$,
 provide the natural setting for measure theory and harmonic analysis.
-Each $$L^p$$ space with $$1 \leq p \leq \infty$$ is a Banach space with its own geometric character&mdash;$$L^2$$
-is a Hilbert space with inner product structure,
+Each $$L^p$$ space with $$1 \leq p \leq \infty$$ is a [Banach space](#banach-space) with its own geometric character&mdash;$$L^2$$
+is a <span class="emph" id="hilbert-space">Hilbert space</span> with inner product structure,
 while $$L^1$$ and $$L^\infty$$ have their own distinctive properties
 that make them indispensable in different analytical contexts.
 
