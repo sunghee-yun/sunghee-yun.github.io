@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Sun Jul 27 17:52:27 PDT 2025
+last_modified_at: Sun Jul 27 23:31:48 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -27,10 +27,11 @@ $$
 \newcommand{\reals}{\mathbb{R}}
 \newcommand{\complexes}{\mathbb{C}}
 \newcommand{\integers}{\mathbb{Z}}
-\newcommand{\kclosure}{\bar{K}}
+\newcommand{\kclosure}{\overline{K}}
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}
 \newcommand{\sign}{\mathop{\bf sign}}
+\newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 $$
 
 # Faces
