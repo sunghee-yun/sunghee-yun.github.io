@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Sun Jul 27 02:22:24 PDT 2025
+last_modified_at: Sun Jul 27 17:52:27 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -30,6 +30,7 @@ $$
 \newcommand{\kclosure}{\bar{K}}
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}
+\newcommand{\sign}{\mathop{\bf sign}}
 $$
 
 # Faces
