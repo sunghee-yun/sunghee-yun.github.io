@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Jul 28 21:51:55 PDT 2025
+last_modified_at: Tue Jul 29 02:38:55 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -1191,7 +1191,8 @@ the eigenvalues of a real skew-symmetric matrix are (of course) (also) purely im
 Let $$A=A^H\in\complexes^{n\times n}$$ be a [Hermitian matrix](#hermitian-matrices).
 Suppose $$\lambda_1, \lambda_2\in\reals$$ are distinct eigenvalues of $$A$$
 and $$v_1, v_2\in\complexes^n$$ are the associated eigenvectors respectively.
-(Note that eigenvalues of a Hermitian matrix are real.)
+Note that eigenvalues of a Hermitian matrix are real.
+Then
 
 $$
 \begin{array}{rcl}
@@ -1227,6 +1228,48 @@ we can even choose $$n$$ [*orthonormal*](https://en.wikipedia.org/wiki/Orthonorm
 
 Thus, every Hermitian matrix is [diagonalizable](#diagonalizability)!
 
+**The eigenvectors of a skew-Hermitian matrix with distinct eigenvalues are orthogonal.**
+
+Let $$A=-A^H\in\complexes^{n\times n}$$ be a [skew-Hermitian matrix](#skew-hermitian-matrices).
+Suppose $$\lambda_1, \lambda_2\in\complexes$$ are distinct eigenvalues of $$A$$
+and $$v_1, v_2\in\complexes^n$$ are the associated eigenvectors respectively.
+Note that eigenvalues of a skew-Hermitian matrix are purely imaginary.
+Then
+
+$$
+\begin{array}{rcl}
+\lambda_1 v_2^H v_1
+=
+	v_2^H \lambda_1 v_1
+	&=& v_2^H Av_1
+\\
+	&=& -v_2^H A^H v_1
+=
+	-(Av_2)^H v_1
+=
+	-(\lambda_2 v_2)^H v_1
+=
+	\lambda_2 v_2^H v_1
+\end{array}
+$$
+
+thus
+
+$$
+(\lambda_1 - \lambda_2) v_2^H v_1 = 0
+\iff
+v_2^H v_1 = 0
+$$
+
+hence the proof!
+(Note very subtle and interesting difference bewtween the above two proofs (to reach the same conclusion)!)
+
+As for a Hermitian matrix,
+for a skew-Hermitian matrix,
+we can *choose* $$n$$ [orthogonal](https://en.wikipedia.org/wiki/Orthogonality) eigenvectors,
+and even $$n$$ [*orthonormal*](https://en.wikipedia.org/wiki/Orthonormality) eigenvectors!
+
+Thus, once again, every skew-Hermitian matrix is [diagonalizable](#diagonalizability)!
 
 ### Diagonalizability
 
