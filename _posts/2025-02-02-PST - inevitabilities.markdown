@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Jul 29 02:49:54 PDT 2025
+last_modified_at: Tue Jul 29 03:20:58 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -71,6 +71,12 @@ $$
 \newcommand{\sign}{\mathop{\bf sign}}
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 $$
+
+# NotebookLM Podcasts
+
+- [11:51](https://notebooklm.google.com/notebook/16049e9c-6cee-4a8b-b8b5-d805bb6ecd0f/audio)
+- [12:04](https://notebooklm.google.com/notebook/0074c597-e262-465c-88c3-197ee48b5652/audio)
+- [13:26](https://notebooklm.google.com/notebook/58bc83a2-542e-4938-9d8e-d678bc541f11/audio)
 
 {% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
 
