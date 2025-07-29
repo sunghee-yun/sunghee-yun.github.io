@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Jul 28 12:26:06 PDT 2025
+last_modified_at: Mon Jul 28 21:51:55 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -54,7 +54,7 @@ This blog post has its origins in the lectures I delivered from 2008 to 2013 whi
 During those years, I had the privilege of presenting on diverse mathematical topics—statistics, linear algebra, numerical linear algebra, and even Convex Optimization!
 <br>
 <br>
-One day, a curious mind (and cherished colleague ⭐^^⭐) posed two fundamental questions that would spark this entire intellectual journey - "Why linear algebra? Why matrices?" Those simple yet profound questions became the catalyst for everything you'll read here.
+One day, a curious mind (and cherished colleague of mine ⭐^^⭐) posed two fundamental questions that would spark this entire intellectual journey - "Why linear algebra? Why matrices?" Those simple yet profound questions became the catalyst for everything you'll read here.
 <br>
 <br>
 This work is dedicated to those brilliant team members who illuminated my days at Samsung.
