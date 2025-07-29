@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Jul 29 04:19:57 PDT 2025
+last_modified_at: Tue Jul 29 13:11:49 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -963,6 +963,144 @@ This connects beautifully to your broader theme - some aspects of physics that s
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
 </div>
 -->
+
+# Sine Waves - The Mathematical Language of Self-Adjoint Reality
+
+(Hence, you really should study hard trigonometric functions in high school! &#x2605;^^&#x2605;)
+
+Turn on a radio, observe light propagating through space, or watch ripples spread across a pond—in each case, you're witnessing the same fundamental mathematical truth: nature speaks in sine waves. But why? Why should the universe choose this particular mathematical function to carry energy, information, and disturbances across space and time?
+
+The answer reveals another profound inevitability, one that emerges not from the linear time-invariant properties I initially considered, but from something far more fundamental—the **self-adjoint structure** of physical reality itself. Just as the Gaussian distribution emerges inevitably from the logic of probability and aggregation, sinusoidal waves emerge inevitably from the deepest mathematical constraints that any energy-conserving, spatially homogeneous universe must satisfy.
+
+## Beyond LTI Systems - The Deeper Mathematical Structure
+
+While it's true that electromagnetic wave propagation forms a Linear Time-Invariant (LTI) system—satisfying both linearity and translation invariance—this observation alone is insufficient to explain why we specifically observe oscillatory behavior rather than exponential growth or decay. After all, functions like $e^{\alpha t}$ and $e^{-\alpha t}$ are also eigenfunctions of LTI systems, yet we don't see exponentially growing electromagnetic fields filling the universe.
+
+The key insight lies in recognizing that physically realizable wave propagation must satisfy constraints far more restrictive than mere LTI behavior. These additional constraints—energy conservation, spatial homogeneity, and reversible dynamics—force the mathematical operators governing wave propagation to possess a special property called **self-adjointness**, and this property inevitably leads to oscillatory solutions.
+
+## Self-Adjoint Operators - The Mathematical Foundation of Conservation
+
+In the mathematical framework of functional analysis, an operator $\mathcal{L}$ is called **self-adjoint** (or Hermitian) if it satisfies:
+
+$$\langle \mathcal{L}f, g \rangle = \langle f, \mathcal{L}g \rangle$$
+
+for all functions $f$ and $g$ in the appropriate function space, where $\langle \cdot, \cdot \rangle$ denotes the inner product.
+
+This seemingly abstract condition encodes a profound physical principle: **self-adjoint operators correspond to observable quantities and conserved energies in physical systems**. This connection, formalized in quantum mechanics but applicable to classical wave phenomena as well, means that any physically realizable wave operator must be self-adjoint.
+
+### The Wave Operator is Necessarily Self-Adjoint
+
+Consider the wave operator that governs electromagnetic propagation:
+
+$$\mathcal{L} = \frac{\partial^2}{\partial t^2} - c^2 \nabla^2$$
+
+This operator, which appears in the wave equation:
+
+$$\mathcal{L}\psi = 0$$
+
+where $\psi$ represents either the electric or magnetic field, is indeed self-adjoint. We can verify this by integration by parts (assuming appropriate boundary conditions):
+
+$$\begin{align}
+\langle \mathcal{L}\psi_1, \psi_2 \rangle &= \int \left(\frac{\partial^2 \psi_1}{\partial t^2} - c^2 \nabla^2 \psi_1\right) \psi_2^* \, d^4x \\
+&= \int \psi_1 \left(\frac{\partial^2 \psi_2^*}{\partial t^2} - c^2 \nabla^2 \psi_2^*\right) \, d^4x \\
+&= \langle \psi_1, \mathcal{L}\psi_2 \rangle
+\end{align}$$
+
+This self-adjointness isn't an accidental mathematical property—it's the direct consequence of energy conservation in electromagnetic fields.
+
+## The Spectral Theorem - Why Self-Adjoint Means Oscillatory
+
+The fundamental theorem governing self-adjoint operators is the **Spectral Theorem**, which states that:
+
+1. **All eigenvalues of self-adjoint operators are real**
+2. **Eigenfunctions corresponding to different eigenvalues are orthogonal**
+3. **The eigenfunctions form a complete orthonormal basis**
+
+For the wave operator $\mathcal{L} = \frac{\partial^2}{\partial t^2} - c^2 \nabla^2$, let's find the eigenvalue equation:
+
+$$\mathcal{L}\psi = \lambda \psi$$
+
+Using separation of variables $\psi(x,t) = f(x)g(t)$, this becomes:
+
+$$\frac{g''(t)}{g(t)} - c^2 \frac{\nabla^2 f(x)}{f(x)} = \lambda$$
+
+For the temporal part: $g''(t) = (\lambda + c^2k^2)g(t)$ where $k^2$ is the spatial eigenvalue.
+
+Now comes the crucial constraint: **the eigenvalue $\lambda$ must be real** (by the Spectral Theorem), and physical boundary conditions typically require that $k^2 > 0$ for propagating waves.
+
+### The Inevitable Emergence of Oscillations
+
+For propagating electromagnetic waves in free space, we need solutions that:
+- Carry finite energy (are normalizable)
+- Satisfy Maxwell's equations
+- Respect causality and energy conservation
+
+These constraints force $\lambda + c^2k^2 = 0$, giving us $\lambda = -c^2k^2 < 0$.
+
+The temporal equation becomes:
+$$g''(t) = -\omega^2 g(t)$$
+
+where $\omega^2 = c^2k^2 > 0$.
+
+**This differential equation has only oscillatory solutions:**
+$$g(t) = A\cos(\omega t) + B\sin(\omega t) = Ce^{i\omega t} + De^{-i\omega t}$$
+
+The exponential solutions $e^{\alpha t}$ with real $\alpha$ are ruled out because:
+- If $\alpha > 0$: exponential growth violates energy conservation
+- If $\alpha < 0$: exponential decay violates the reversibility of Maxwell's equations in vacuum
+
+## Orthogonality - The Hidden Structure of Wave Decomposition
+
+Your intuition about orthogonality was precisely correct! The self-adjoint nature of the wave operator guarantees that eigenfunctions corresponding to different frequencies are orthogonal:
+
+$$\langle e^{i\omega_1 t}, e^{i\omega_2 t} \rangle = 0 \quad \text{when } \omega_1 \neq \omega_2$$
+
+This orthogonality is what makes **Fourier analysis** work so universally. Any wave can be decomposed into orthogonal sinusoidal components not because we've chosen a convenient mathematical tool, but because the self-adjoint structure of reality forces this decomposition to be both unique and complete.
+
+## From Abstract Mathematics to Physical Inevitability
+
+<a href="#quote:deeper-mathematical-necessity-for-sinusoidal-waves">
+<span id="deeper-mathematical-necessity-for-sinusoidal-waves">
+Maxwell's equations don't arbitrarily impose sinusoidal solutions on electromagnetic phenomena.
+Rather, they emerge from a deeper mathematical necessity.</span>
+</a>
+
+The wave equation that follows from Maxwell's equations encodes three fundamental truths about physical reality:
+
+1. **Energy must be conserved** (self-adjoint operators)
+2. **Space is homogeneous** (translation invariance)
+3. **Dynamics are reversible** (no preferred direction in time for vacuum propagation)
+
+These constraints, when expressed mathematically, force the governing operators to be self-adjoint, and self-adjoint operators inevitably produce orthogonal, oscillatory eigenfunctions.
+
+<a href="#quote:universe-has-no-choice-but-sinusoidal">
+<span id="universe-has-no-choice-but-sinusoidal">
+Therefore, sinusoidal functions aren't just *a* solution to Maxwell's equations—they're the only mathematically consistent solutions for energy-conserving wave propagation in homogeneous space. The universe had no choice but to encode wave phenomena in the language of trigonometry.</span>
+</a>
+
+## Beyond Electromagnetism - A Universal Mathematical Principle
+
+This mathematical inevitability extends to any physical phenomenon governed by self-adjoint operators:
+
+- **Quantum mechanics**: The Schrödinger equation (with its self-adjoint Hamiltonian) produces oscillatory wave functions
+- **Acoustic waves**: Sound propagation in uniform media follows the same self-adjoint wave equation
+- **Elastic vibrations**: Oscillations in solids are governed by self-adjoint operators
+- **Water waves**: Surface waves on deep water exhibit the same mathematical structure
+
+This is why **Sturm-Liouville theory**—the mathematical framework for self-adjoint differential operators—appears throughout physics. It's not that physicists have chosen a convenient mathematical formalism; we've discovered that self-adjoint operators are the mathematical language that energy-conserving, spatially homogeneous reality must speak.
+
+## The Inevitability of Trigonometry Revisited
+
+So when your high school math teacher insisted you learn trigonometric functions, they were introducing you to something far more profound than computational techniques. They were teaching you the inevitable mathematical language of any universe that conserves energy while allowing wave propagation through homogeneous space.
+
+Sine and cosine functions aren't arbitrary mathematical constructs—they're the unique solutions to the eigenvalue problems of self-adjoint operators. In any conceivable universe where:
+- Energy is conserved
+- Space is homogeneous
+- Physical processes are reversible
+
+intelligent beings would inevitably discover these same trigonometric relationships, not because of the specific physics of their world, but because of the deeper mathematical structures that govern any possible energy-conserving reality.
+
+The ubiquity of sinusoidal waves in nature now reveals itself as a manifestation of mathematical inevitability as fundamental as the appearance of $\pi$ in geometry or the emergence of Gaussian distributions in probability. We see sine waves everywhere because any energy-conserving, spatially homogeneous reality must speak in this mathematical language—and remarkably, that appears to include our own.
 
 <hr>
 <ol>
