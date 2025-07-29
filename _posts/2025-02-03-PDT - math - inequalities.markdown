@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Wed Jul 16 00:18:49 PDT 2025
+last_modified_at: Mon Jul 28 23:29:17 PDT 2025
 categories:
  - blog
 tags:
@@ -705,7 +705,10 @@ In each case, inequalities don't just give us numerical bounds – they provide 
 What I find most captivating about inequalities is how they often provide
 the shortest path between seemingly unrelated mathematical concepts.
 They're like mathematical shortcuts that, when properly understood, reveal the hidden connections in mathematics.
-This reminds me of what Eugene Wigner called "the unreasonable effectiveness of mathematics"
+This reminds me of what [Eugene Wigner](https://en.wikipedia.org/wiki/Eugene_Wigner)
+called
+["the unreasonable effectiveness of mathematics"](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences)
+([PDF](/resource/papers/The Unreasonable Effectiveness of Mathematics (EP Wigner).pdf))
 &ndash; these elegant relationships seem to hint at some deeper truth about the structure of mathematical reasoning itself.
 
 It is quite coincidental that
