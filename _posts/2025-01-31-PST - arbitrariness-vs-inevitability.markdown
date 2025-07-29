@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Wed Jul 16 10:21:22 PDT 2025
+last_modified_at: Tue Jul 29 04:07:55 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -291,18 +291,18 @@ $$
 Let $$p = \int_{-\infty}^\infty e^{-x^2} dx$$. Then
 
 $$
-\begin{align}
+\begin{eqnarray*}
 p^2
-&= \int_{-\infty}^\infty e^{-x^2} dx \int_{-\infty}^\infty e^{-y^2} dy
+&=& \int_{-\infty}^\infty e^{-x^2} dx \int_{-\infty}^\infty e^{-y^2} dy
 = \int_{-\infty}^\infty \int_{-\infty}^\infty e^{-(x^2+y^2)} dxdy
 \\
-&=
+&=&
 \int_{0}^\infty e^{-r^2} (2\pi r) dr
 =
 \pi\left.\left(-e^{-r^2}\right)\right|_{r=0}^\infty
 =
 \pi,
-\end{align}
+\end{eqnarray*}
 $$
 
 hence the proof.
@@ -385,22 +385,22 @@ Because (we know) $$p = \sqrt{\pi}$$,
 we have
 
 $$
-\begin{align}
+\begin{eqnarray*}
 \pi^{3/2}
-&=p^3
+&=&p^3
 =
 \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty
 	e^{-(x^2+y^2+z^2)}
 dx dy dz
 \\
-&= \int_{0}^\infty e^{-r^2} (a_3 r^2) dr
+&=& \int_{0}^\infty e^{-r^2} (a_3 r^2) dr
 = \frac{a_3}{2} \left(
 \left.\left(-r e^{-r^2}\right)\right|_{r=0}^\infty
 + \int_{r=0}^\infty e^{-r^2}dr
 \right)
 =
 \frac{\sqrt{\pi}}{4} a_3
-\end{align}
+\end{eqnarray*}
 $$
 
 hence $$a_3 = 4\pi$$ (and $$v_3 = 4\pi/3$$),
@@ -410,22 +410,22 @@ Let us try to do the same thing for $$n=4$$,
 that is,
 
 $$
-\begin{align}
+\begin{eqnarray*}
 \pi^{2}
-&=p^4
+&=&p^4
 =
 \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty
 	e^{-(x_1^2 + x_2^2 + x_3^2 + x_4^2)}
 dx_1 dx_2 dx_3 dx_4
 \\
-&= \int_{0}^\infty e^{-r^2} (a_4 r^3) dr
+&=& \int_{0}^\infty e^{-r^2} (a_4 r^3) dr
 = {a_4} \left(
 \left.\left(-\frac{r^2}{2} e^{-r^2}\right)\right|_{r=0}^\infty
 + \int_{r=0}^\infty re^{-r^2}dr
 \right)
 =
 \frac{a_4}{2}
-\end{align}
+\end{eqnarray*}
 $$
 
 hence $$a_4=2\pi^2$$ and $$v_4 = \pi^2/2$$. We did not learn this in high school,
@@ -434,23 +434,23 @@ but this can be confirmed by <a href="https://en.wikipedia.org/wiki/Volume_of_an
 Now do the same thing again for $$n=5$$:
 
 $$
-\begin{align}
+\begin{eqnarray*}
 \pi^{5/2}
-&=p^5
+&=&p^5
 =
 \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty \int_{-\infty}^\infty
 	e^{-(x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2)}
 dx_1 dx_2 dx_3 dx_4 dx_5
 \\
-&= \int_{0}^\infty e^{-r^2} (a_5 r^4) dr
+&=& \int_{0}^\infty e^{-r^2} (a_5 r^4) dr
 = {a_5} \left(
 \left.\left(-\frac{r^3}{2} e^{-r^2}\right)\right|_{r=0}^\infty
 + \int_{r=0}^\infty \frac{3}{2}r^2e^{-r^2}dr
 \right)
 \\
-&=
+&=&
 \frac{3\sqrt{\pi}}{8} a_5
-\end{align}
+\end{eqnarray*}
 $$
 
 hence $$a_5 = 8\pi^2/3$$ and $$v_5 = 8\pi^2/15$$.
@@ -489,17 +489,17 @@ For note that $$V_1(r) = 2r$$.
 Then
 
 $$
-\begin{align}
+\begin{eqnarray*}
 V_2(r)
-&= \int_{-r}^{r} V_1(\sqrt{r^2-x^2}) dx
+&=& \int_{-r}^{r} V_1(\sqrt{r^2-x^2}) dx
 = v_1\int_{-r}^{r} \sqrt{r^2-x^2} dx
 \\
-&= v_1r^2 \int_{-\pi/2}^{\pi/2} \cos^2 \theta d\theta
+&=& v_1r^2 \int_{-\pi/2}^{\pi/2} \cos^2 \theta d\theta
 = \frac{v_1}{2}r^2 \int_{-\pi/2}^{\pi/2} (1+\cos 2 \theta )d\theta
 \\
-&= \frac{\pi}{2} v_1 r^2
+&=& \frac{\pi}{2} v_1 r^2
 = \pi r^2 = v_2 r^2
-\end{align}
+\end{eqnarray*}
 $$
 
 where we substitute $$r\sin \theta$$ for $$x$$
@@ -512,16 +512,16 @@ hence $$v_2=\pi = (\pi/2) v_1$$.
 Similarly,
 
 $$
-\begin{align}
+\begin{eqnarray*}
 V_3(r)
-&= \int_{-r}^{r} V_2(\sqrt{r^2-x^2}) dx
+&=& \int_{-r}^{r} V_2(\sqrt{r^2-x^2}) dx
 = v_2\int_{-r}^{r} (r^2-x^2) dx
 \\
-&= v_2(2r^3 - 2r^3/3)
+&=& v_2(2r^3 - 2r^3/3)
 = \frac{4}{3}v_2 r^3
 = \frac{4}{3}\pi r^3
 = v_3 r^3
-\end{align}
+\end{eqnarray*}
 $$
 
 hence $$v_3 = (4/3) v_2  = 4\pi/3$$.
@@ -529,22 +529,22 @@ hence $$v_3 = (4/3) v_2  = 4\pi/3$$.
 Just do this just one more time to recognize some patterns here.
 
 $$
-\begin{align}
+\begin{eqnarray*}
 V_4(r)
-&= \int_{-r}^{r} V_3(\sqrt{r^2-x^2}) dx
+&=& \int_{-r}^{r} V_3(\sqrt{r^2-x^2}) dx
 = v_3\int_{-r}^{r} (r^2-x^2)^{3/2} dx
 \\
-&= v_3r^4 \int_{-\pi/2}^{\pi/2} \cos^4 \theta d\theta
+&=& v_3r^4 \int_{-\pi/2}^{\pi/2} \cos^4 \theta d\theta
 = \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+\cos 2 \theta)^2 d\theta
 \\
-&= \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + \cos^2 2\theta) d\theta
+&=& \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + \cos^2 2\theta) d\theta
 \\
-&= \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + (1+\cos 4\theta)/2) d\theta
+&=& \frac{v_3}{4}r^4 \int_{-\pi/2}^{\pi/2} (1+2\cos 2 \theta + (1+\cos 4\theta)/2) d\theta
 \\
-&= \frac{3}{8}\pi v_3 r^4
+&=& \frac{3}{8}\pi v_3 r^4
 = \frac{\pi^2}{2} r^4
 = v_4 r^4
-\end{align}
+\end{eqnarray*}
 $$
 
 hence $$v_4 = (3\pi/8) v_3 = \pi^2/2$$.
