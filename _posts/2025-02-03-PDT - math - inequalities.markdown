@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Mon Jul 28 23:29:17 PDT 2025
+last_modified_at: Tue Jul 29 04:38:36 PDT 2025
 categories:
  - blog
 tags:
@@ -135,11 +135,11 @@ Consider finding the maximum value of $$x + 2y$$ where $$3x^2 + y^2 = 1$$.
 That is to solve the following optimization problem
 
 $$
-\begin{align}
-\mbox{maximize}\quad & x+2y
+\begin{array}{ll}
+\mbox{maximize}& x+2y
 \\
-\mbox{subject to}\quad & 3x^2+y^2=1
-\end{align}
+\mbox{subject to}& 3x^2+y^2=1
+\end{array}
 $$
 
 The conventional calculus-based approach, while perfectly valid, involves several steps
@@ -216,11 +216,11 @@ beyond its brevity and elegance.
 Assume that we want to solve the following optimization problem now
 
 $$
-\begin{align}
-\mbox{maximize}\quad & x+2y + z/3
+\begin{array}{ll}
+\mbox{maximize}& x+2y + z/3
 \\
-\mbox{subject to}\quad & 2x^2+y^2/3 + 2z^2=7
-\end{align}
+\mbox{subject to}& 2x^2+y^2/3 + 2z^2=7
+\end{array}
 $$
 
 We cannot solve this problem using the discriminant of the quadratic equation
@@ -231,11 +231,11 @@ Well, at least, we can consider geometric interpretation in 3-dimensional space
 for this problem, but what about this one?
 
 $$
-\begin{align}
-\mbox{maximize}\quad & x_1 +2x_2+ 3x_3 + \cdots + n x_n
+\begin{array}{ll}
+\mbox{maximize} & x_1 +2x_2+ 3x_3 + \cdots + n x_n
 \\
-\mbox{subject to}\quad & n x_{1}^2+(n-1)x_{2}^2 + \cdots + 2 x_{n-1}^2 + x_n^2=n
-\end{align}
+\mbox{subject to} & n x_{1}^2+(n-1)x_{2}^2 + \cdots + 2 x_{n-1}^2 + x_n^2=n
+\end{array}
 $$
 
 What if we want to solve this problem for an arbitrary $$n$$? I mean for any $$n$$?
@@ -245,11 +245,11 @@ because $$n$$ can be greater than 3.
 Can you also solve this problem for arbitrary $$c_i$$'s and positive $$d_i$$'s?
 
 $$
-\begin{align}
-\mbox{maximize}\quad & c_1 x_1 + c_2 x_2 + + \cdots + c_n x_n
+\begin{array}{ll}
+\mbox{maximize} & c_1 x_1 + c_2 x_2 + + \cdots + c_n x_n
 \\
-\mbox{subject to}\quad & d_1 x_1^2+ d_2 x_2^2 + \cdots + d_n x_n^2 = 1
-\end{align}
+\mbox{subject to} & d_1 x_1^2+ d_2 x_2^2 + \cdots + d_n x_n^2 = 1
+\end{array}
 $$
 
 You see where I am going? <font class="emph">We can handle <i>all</i> of the above cases <i>beautifully</i>,
@@ -265,19 +265,20 @@ yield
 
 $$
 \begin{align}
+\nonumber
 &\left(c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n\right)
-\\
+\\ \nonumber
 &=
 \left(c_1^2/d_1 + c_2^2/d_2 + \cdots + c_n^2/d_n\right)
 \left(d_1 x_1^2+ d_2 x_2^2 + \cdots + d_n x_n^2 \right)
-\\
+\\ \nonumber
 &=
 \left(a_1^2 + a_2^2 + \cdots + a_n^2\right)
 \left(b_1^2 + b_2^2 + \cdots + b_n^2\right)
-\\
+\\ \nonumber
 &\geq
 \left(a_1 b_1 + a_2 b_2 + \cdots + a_nb_n\right)^2
-\\
+\\ \nonumber
 &=
 \left(c_1 x_1 + c_2 x_2 + \cdots + c_nx_n\right)^2
 \end{align}
@@ -302,11 +303,11 @@ this readily solves all the above problems at once!<sup><a href="#footnote2" id=
 Let us start from a bit similar, but different optimization problem
 
 $$
-\begin{align}
-\mbox{maximize}\quad & xy
+\begin{array}{ll}
+\mbox{maximize} & xy
 \\
-\mbox{subject to}\quad & 3x^2 + y^2 = 1
-\end{align}
+\mbox{subject to} & 3x^2 + y^2 = 1
+\end{array}
 $$
 
 First, we can solve this *unelegantly* by starting with letting $$xy=k$$.
@@ -349,13 +350,13 @@ seems way more severe than those shown
 in [<span class="cauchy-power-of-generalization-header-title"></span>](#cauchy-power-of-generalization)!
 
 $$
-\begin{align}
-\mbox{maximize}\quad & xyz
+\begin{array}{ll}
+\mbox{maximize} & xyz
 \\
-\mbox{subject to}\quad & 3x^5 + y^2 + 2z^3= 1
+\mbox{subject to} & 3x^5 + y^2 + 2z^3= 1
 \\
 & x,y, z\geq0
-\end{align}
+\end{array}
 $$
 
 Not only do we have more than 2 variables,
@@ -390,14 +391,14 @@ Then $$w_1+w_2+w_3=1$$,
 hence we have
 
 $$
-\begin{align}
+\begin{eqnarray*}
 30/31
-&= (3x^5+y^2+2z^3)/(1/5+1/2+1/3)
+&=& (3x^5+y^2+2z^3)/(1/5+1/2+1/3)
 = w_1a_1 + w_2a_2 + w_3a_3
 \\
-&\geq w_1^{a_1} \cdot w_2^{a_2} \cdot w_3^{a_3}
+&\geq& w_1^{a_1} \cdot w_2^{a_2} \cdot w_3^{a_3}
 = (15^{1/5} \cdot 2^{1/2} \cdot 3^{1/3} \cdot xyz)^{30/31}
-\end{align}
+\end{eqnarray*}
 $$
 
 thus
@@ -430,13 +431,13 @@ There's something remarkable about this solution's simplicity. One might expect 
 Now one *could* readily see that we can solve the following problem now<sup><a href="#footnote4" id="ref4">4</a></sup>
 
 $$
-\begin{align}
-\mbox{maximize}\quad & x_1^{e_1} x_2^{e_2} \cdots x_n^{e_n}
+\begin{array}{ll}
+\mbox{maximize} & x_1^{e_1} x_2^{e_2} \cdots x_n^{e_n}
 \\
-\mbox{subject to}\quad & g_1x_1^{f_1} + g_2x_2^{f_2} + \cdots + g_nx_n^{f_n}=1
+\mbox{subject to} & g_1x_1^{f_1} + g_2x_2^{f_2} + \cdots + g_nx_n^{f_n}=1
 \\
 & x_1,x_2, \ldots, x_n \geq0
-\end{align}
+\end{array}
 $$
 
 for any $$e_i,f_i,g_i>0$$ *very elegantly* as below!
@@ -444,13 +445,13 @@ for any $$e_i,f_i,g_i>0$$ *very elegantly* as below!
 Letting $$a_i = (g_i f_i / e_i)\: x_i^{f_i}$$ and $$w_i = (e_i/f_i)/\sum_{j=1}^n (e_j/f_j)$$ gives
 
 $$
-\begin{align}
-\left( \sum_{i=1}^n g_ix_i^{f_i} \right) &/ \left( \sum_{i=1}^n e_i/f_i \right)
-= \sum_{i=1}^n w_ia_i
+\begin{eqnarray*}
+\left( \sum_{i=1}^n g_ix_i^{f_i} \right) / \left( \sum_{i=1}^n e_i/f_i \right)
+&=& \sum_{i=1}^n w_ia_i
 \\
-&\geq \prod_{i=1}^n a_i^{w_i}
+&\geq& \prod_{i=1}^n a_i^{w_i}
 = \left( \prod_{i=1}^n (g_if_i/e_i)^{(e_i/f_i)} x_i^{e_i} \right)^{1/\sum_{i=1}^n (e_i/f_i)}
-\end{align}
+\end{eqnarray*}
 $$
 
 hence
@@ -803,13 +804,13 @@ including abstract algebra, measure theory, convex optimization, and topology.*
 	&nbsp;<a href="#ref4">↩</a></li>
 
 	$$
-	\begin{align}
-	\mbox{minimize}\quad & g_1x_1^{f_1} + g_2x_2^{f_2} + \cdots + g_nx_n^{f_n}
+	\begin{array}{ll}
+	\mbox{minimize} & g_1x_1^{f_1} + g_2x_2^{f_2} + \cdots + g_nx_n^{f_n}
 	\\
-	\mbox{subject to}\quad & x_1^{e_1} x_2^{e_2} \cdots x_n^{e_n} = 1
+	\mbox{subject to} & x_1^{e_1} x_2^{e_2} \cdots x_n^{e_n} = 1
 	\\
 	& x_1,x_2, \ldots, x_n \geq0
-	\end{align}
+	\end{array}
 	$$
 <li id="footnote5">
 	This initial insight was later reinforced and deepened during my studies with Prof. Stephen Boyd at Stanford University seven years later, where I gained an even deeper appreciation for the role of convexity in optimization theory, hence AI,
