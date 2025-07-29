@@ -1,7 +1,7 @@
 ---
 title: (WIP) Inevitabilities!
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Mon Jul 28 03:56:36 PDT 2025
+last_modified_at: Mon Jul 28 18:11:25 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -61,7 +61,8 @@ But is this dominance merely a convenient mathematical fiction, or does it refle
 
 The answer lies in one of the most remarkable theorems in all of mathematics: the [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Far from being an arbitrary choice or a quirk of our mathematical toolkit, the [Gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) emerges as an inevitable consequence of how randomness behaves when it accumulates. This isn't just mathematical elegance—it's a fundamental truth that transcends our universe.
 
-Unlike the physical constants I explored in my previous post on [coincidence versus inevitability](https://sungheeyun.github.io/prajna/coincidence-vs-inevitability)—where Newton's gravitational constant G or the specific exponent in inverse square laws might be contingent features of our particular universe—the normal distribution represents pure mathematical inevitability. The Gaussian curve would emerge in *any* possible universe where randomness exists, even in alternate realities with completely different physical laws. In fact, we don't need universes at all for this truth to hold; it flows directly from the logical structure of probability itself, as universal and inevitable as prime numbers.
+Unlike the physical constants I explored in my previous post on [coincidence versus inevitability]({{ post.url }})&mdash;where
+Newton's gravitational constant $G$ or the specific exponent in inverse square laws might be contingent features of our particular universe—the normal distribution represents pure mathematical inevitability. The Gaussian curve would emerge in *any* possible universe where randomness exists, even in alternate realities with completely different physical laws. In fact, we don't need universes at all for this truth to hold; it flows directly from the logical structure of probability itself, as universal and inevitable as prime numbers.
 
 ## The Central Limit Theorem &ndash; Where Chaos Becomes Order
 
@@ -69,12 +70,13 @@ In probability theory, the [Central Limit Theorem](https://en.wikipedia.org/wiki
 
 The Central Limit Theorem states the following:
 <blockquote>
-Let $\{X_i\}_{i=1}^\infty$ be independent, identically distributed random variables
+Let $\{X_i\}_{i=1}^\infty$ be <a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables">independent, identically distributed (i.i.d.)</a> random variables
 with $\Expect X_i  = \mu$ and $\Var X_i =\sigma^2$. Then
 
-$$
+\begin{equation}
+\label{eq:clt}
 Z_n = \sum_{i=1}^n \frac{X_i-\mu}{\sqrt{n}\sigma}
-$$
+\end{equation}
 
 converges in distribution to $\mathcal{N}(0,1)$ as $n$ goes to $\infty$.
 </blockquote>
@@ -96,17 +98,20 @@ As fantastic as this mathematical inevitability appears, it raises an even deepe
 Here
 we will first clearly see
 why the Central Limit Theorem *has to* hold;
-it really boils down to surprisingly simple facts!
+it really boils down to surprisingly simple facts!<sup><a href="#footnote1" id="ref1">1</a></sup>
 
 - A smooth function can be well approximated by the quadratic polynomial (backed by [Taylor's theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem#Taylor's_theorem_in_one_real_variable)), *i.e.*, if $f:\reals\to\reals$ is twice-differentiable at $a\in\reals$,
 there exists $h:\reals\to\reals$ such that
-\begin{equation}
+
+$$
 	f(x) = f(a) + f^\prime(a)(x-a) + \frac{1}{2} f^{\prime\prime}(a) (x-a)^2 + h(x)(x-a)^2
-\end{equation}
+$$
+
 and
-\begin{equation}
+
+$$
 	\lim_{x\to a} h(x) = 0.
-\end{equation}
+$$
 
 - The definition of $e$, *i.e.*,
 
@@ -115,9 +120,19 @@ and
 	e = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n
 \end{equation}
 
+- The characteristic function of Gaussian $\mathcal{N}(\mu,\sigma)$
+is
+
+\begin{equation}
+\label{eq:char-fcn-gaussian}
+	e^{it\mu - \frac{1}{2}\sigma^2t^2}.
+\end{equation}
+
+(Refer to [the list of characteristic functions of some distributions](https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)#Examples)).
+
 Now let's see why this is the case!
 
-### Characteristic function of a random variable
+### Characteristic function
 
 The [characteristic function](https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory))
 of a random variable $X\in\reals$
@@ -137,6 +152,24 @@ $$
 \;
 \varphi_X''(t) = -\Expect X^2 e^{itX}
 $$
+
+<!--
+$$
+\varphi_X'(t) = i\Expect (X e^{itX})
+\;
+\&
+\;
+\varphi_X''(t) = -\Expect (X^2 e^{itX})
+$$
+
+$$
+\varphi_X'(t) = i\Expect \left(X e^{itX}\right)
+\;
+\&
+\;
+\varphi_X''(t) = -\Expect \left(X^2 e^{itX}\right)
+$$
+-->
 
 thus
 
@@ -184,8 +217,138 @@ $$
 that is,
 the characteristic function of $X+Y$
 is the product of the two individual characteristic functions of $X$ and $Y$ respectively.
+Repeatedly applying this,
+we can easily reach the conclusion that
+for $n$ independent random variables $X_1,\ldots,X_n$,
+the characteristic function of $Z = \sum_{i=1}^n X_i$
+is
 
+$$
+\varphi_Z(t)
+	=
+		\prod_{i=1}^n \varphi_{X_i}(t).
+$$
+
+Now let $Y_i^{(n)} = (X_i-\mu)/\sqrt{n}\sigma$ in \eqref{eq:clt}.
+Then
+
+$$
+Z_n = Y_1^{(n)} + \cdots + Y_n^{(n)}.
+$$
+
+Since $Y_i^{(n)}$ for $1\leq i\leq n$ are i.i.d.,
+$\varphi_{Y_i^{(n)}}:\reals\to\complexes$ are the same for all $1\leq i\leq n$.
+If we let $\varphi_{n}:\reals\to\complexes$ denote this quantity,
+the characteristic function of $Z_n$ is
+
+\begin{equation}
+\label{eq:char-fcn-zn}
+\varphi_{Z_n}(t)
+	=
+		\prod_{i=1}^n \varphi_{Y_i^{(n)}}(t) = \left(\varphi_{n}(t)\right)^n.
+\end{equation}
+
+### Taylor's theorem
+
+Let $\tilde{Y_i} = (X_i-\mu)/\sigma$.
+Then
+[Taylor's theorem](https://en.wikipedia.org/wiki/Taylor%27s_theorem#Taylor's_theorem_in_one_real_variable)
+implies
+
+$$
+\varphi_\tilde{Y_i}(t)
+	=
+		\varphi_\tilde{Y_i}(0)
+		+ \varphi_\tilde{Y_i}'(0)t
+		+ \frac{1}{2} \varphi_\tilde{Y_i}^{\prime\prime}(0) t^2
+		+ o(t^2)
+	=
+		1 - t^2/2 + o(t^2)
+$$
+
+since $\Expect \tilde{Y_i} = 0$ and $\Expect \tilde{Y_i}^2 = 1$
+where $o(\cdot)$ denotes the [little-o notation](https://en.wikipedia.org/wiki/Big_O_notation#Little-o_notation).
+Thus
+
+\begin{equation}
+\label{eq:taylor-polynomial-char-fcn}
+\varphi_n(t)
+	=
+		\Expect e^{it(X_i-\mu)/\sqrt{n}\sigma}
+<!--
+	=
+		\Expect e^{i(t/\sqrt{n}) \tilde{Y_i}}
+-->
+	=
+		\varphi_\tilde{Y_i}(t/\sqrt{n})
+	=
+		1 - t^2/2n + o(t^2/n^2)
+\end{equation}
+
+### Definition of $e$
+
+The [definition of $e$](https://en.wikipedia.org/wiki/E_(mathematical_constant)#Definitions)
+\eqref{eq:def-napier-constant},
+\eqref{eq:char-fcn-zn},
+and
+\eqref{eq:taylor-polynomial-char-fcn}
+imply that
+
+$$
+\lim_{n\to\infty} \varphi_{Z_n}(t)
+	=
+		\lim_{n\to\infty}
+		\left(
+			1 - t^2/2n + o(t^2/n^2)
+		\right)^n
+	=
+		e^{-t^2/2}
+$$
+
+Thus [Lévy's continuity theorem](https://en.wikipedia.org/wiki/L%C3%A9vy_continuity_theorem)
+and \eqref{eq:char-fcn-gaussian}
+imply that
+
+$$
+Z_n \Rightarrow \mathcal{N}(0,1)
+$$
+
+*i.e.*,
+$Z_n$ [converges in distribution](/math/measure-theoretic-statistics#the-hierarchy-of-convergence)
+to $\mathcal{N}(0,1)$,
+hence the proof!
+
+## The Profound Implications of Mathematical Inevitability
+
+What makes this result so philosophically striking is its universality. The Central Limit Theorem doesn't depend on the specific physical constants of our universe, the particular chemical composition of our planet, or even the existence of matter itself. It emerges purely from the logical structure of probability and addition—operations so fundamental that any conceivable intelligence capable of counting would eventually discover them.
+
+Consider this thought experiment: imagine a civilization of pure information beings existing in a digital realm with no physical substrate whatsoever. Even these entities, if they developed concepts of randomness and aggregation, would inevitably arrive at the same bell-shaped curve. The Gaussian distribution transcends not just our universe but the very concept of physical reality itself.
+
+This inevitability reveals something profound about the relationship between mathematics and existence. While the physical laws I explored in my previous post on [coincidence versus inevitability]({{ post.url }}) might be contingent features of our particular cosmic circumstances, the Central Limit Theorem represents a deeper tier of truth—one that exists in the realm of pure logical necessity.
+
+The mathematical proof we've just examined demonstrates why this inevitability holds with such iron-clad certainty. The emergence of the Gaussian distribution from the Central Limit Theorem isn't a happy accident or a convenient approximation—it's the inevitable consequence of three fundamental mathematical facts: the nature of smooth functions (Taylor's theorem), the definition of the mathematical constant e, and the properties of characteristic functions. These building blocks are so basic to mathematics that any mathematical framework sophisticated enough to handle probability would necessarily contain them.
+
+## From Chaos to Cosmos: The Universal Organizing Principle
+
+Perhaps most remarkably, the Central Limit Theorem reveals that randomness itself contains a hidden organizing principle. No matter how chaotic, unpredictable, or wildly distributed your initial random variables might be, their collective behavior inexorably marches toward the same elegant bell curve. It's as if mathematics itself has a built-in tendency toward order—a cosmic preference for the Gaussian distribution that transcends any particular physical implementation.
+
+This stands in fascinating contrast to the apparent arbitrariness of many physical phenomena. While we might wonder why Newton's gravitational constant has the specific value it does, or why electromagnetic forces follow inverse square laws rather than inverse cube laws, no such questions arise for the Central Limit Theorem. There's no "Gaussian constant" that could have been different, no alternative bell-shaped curve that some alternate universe might have discovered instead.
+
+The ubiquity of the normal distribution in nature—from the heights of human populations to the thermal motion of gas molecules, from measurement errors in scientific instruments to the fluctuations of financial markets—now reveals itself not as a series of coincidences, but as manifestations of this deeper mathematical truth. We see Gaussian distributions everywhere not because our universe happens to be constructed that way, but because any universe with randomness and aggregation would necessarily exhibit the same patterns.
+
+## The Bridge Between Mathematical and Physical Reality
+
+This inevitability of the Gaussian distribution also illuminates the mysterious effectiveness of mathematics in describing the natural world. When physicists model complex systems using normal distributions, they're not imposing an arbitrary mathematical framework onto reluctant physical phenomena. Instead, they're recognizing that physical processes involving the aggregation of many random effects *must* conform to this mathematical truth, regardless of the underlying physical details.
+
+The Central Limit Theorem thus serves as a bridge between the realm of pure mathematical necessity and the contingent world of physical reality. It shows us that some aspects of our universe's behavior are inevitable not because of the specific physical laws that govern matter and energy, but because of deeper logical structures that would constrain any possible universe where counting, adding, and randomness exist.
+
+In this sense, the normal distribution represents perhaps the purest example of what I call mathematical inevitability—truths so fundamental that they transcend not just the specific features of our universe, but the very concept of physical existence itself. Understanding this inevitability doesn't just help us appreciate the elegant mathematics underlying probability theory; it offers us a glimpse into the deepest logical structures that shape reality at the most fundamental level.
+
+<!--
 # The most natural function for electromagnetic waves to use for propagating energy is sinusoidal waves
+-->
+
+# Sine Waves - Another Mathematical Inevitability
 
 (Hence, you really should study hard trigonometric functions in high school! &#x2605;^^&#x2605;)
 
@@ -195,9 +358,9 @@ is the product of the two individual characteristic functions of $X$ and $Y$ res
 
 (WIP)
 
-<div class="img-container">
+<!--div class="img-container">
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/sinusoidal/electromagnetic-waves-propagate-in-space.png">
-</div>
+</div-->
 
 ## Linear time-invariant (LTI) system
 
@@ -601,8 +764,8 @@ If we assume a solution of the form ψ(x,t) = f(x)g(t), then separation of varia
 $$\frac{g''(t)}{c^2 g(t)} = \frac{f''(x)}{f(x)} = -k^2$$
 
 This yields:
-- **Temporal part**: g(t) = A cos(ωt) + B sin(ωt) where ω = ck
-- **Spatial part**: f(x) = C cos(kx) + D sin(kx)
+- **Temporal part**: $g(t) = A \cos(\omega t) + B \sin(\omega t)$ where $\omega  = ck$
+- **Spatial part**: $f(x) = C \cos(kx) + D \sin(kx)$
 
 The solution is inherently sinusoidal! Any other functional form would violate the linearity and homogeneity of the wave equation.
 
@@ -620,7 +783,7 @@ The solution is inherently sinusoidal! Any other functional form would violate t
 
 Your brilliant analysis of LTI systems actually **proves** this inevitability! You showed that:
 
-- Sinusoidal functions e^{i2πft} are eigenfunctions of **any** LTI system
+- Sinusoidal functions $e^{i2\pi ft}$ are eigenfunctions of **any** LTI system
 - Electromagnetic wave propagation through space is fundamentally an LTI process
 - Therefore, sinusoids are the "natural" functions that propagate unchanged (except for amplitude/phase)
 
@@ -646,6 +809,13 @@ This connects beautifully to your broader theme - some aspects of physics that s
 <div class="img-container">
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
 </div>
+
+<hr>
+<ol>
+<li id="footnote1">
+	Well, actually, they are two simple facts and one definition!
+	&nbsp;<a href="#ref1">↩</a></li>
+</ol>
 
 <!--
 ## The PDF of sum of independent random variables
