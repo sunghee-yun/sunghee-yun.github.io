@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Jul 29 03:20:58 PDT 2025
+last_modified_at: Tue Jul 29 04:19:57 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -80,12 +80,20 @@ $$
 
 {% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
 
+<!--
 Unlike what I discuss in <a href="{{ post.url }}">{{ post.title }}</a>,
 here I discuss the inevitabilities that I have found or rather identified,
 which are true not only in our universe
 but in any universe,
 or rather for that matter,
 it does not have to be a universe.
+-->
+
+# From Contingent Physics to Absolute Mathematical Truth
+
+In my previous exploration of [Arbitrariness vs Inevitability]({{ post.url }}), I examined the curious boundary between physical laws that might be different in alternate universes—like Newton's gravitational constant or the specific exponent in inverse square laws—and those that seem to emerge from deeper geometric necessities. That investigation revealed how some aspects of our physical reality might be contingent accidents of cosmic history, while others appear rooted in mathematical truths as fundamental as the relationship between a circle's circumference and its diameter. But that analysis only scratched the surface of a far more profound question &ndash; what lies beyond even the deepest physical laws?
+
+Here I venture into an entirely different realm—one that transcends not just the specific features of our universe, but the very concept of physical existence itself. The mathematical truths I'll explore don't merely hold across all possible universes; they would remain true even if no universes existed at all, even if space, time, matter, and energy were merely figments of imagination. These are truths that exist in what we might call the space of pure logical necessity—patterns so fundamental that their denial would lead to logical contradiction, relationships so inevitable that they would emerge in any conceivable framework sophisticated enough to handle concepts like counting, randomness, or spatial relationships. Unlike the physical constants that govern electromagnetic forces or gravitational attraction, these mathematical inevitabilities require no physical substrate whatsoever to manifest their elegant, inescapable logic.
 
 # The Gaussian Distribution &ndash; Why "Normal" is Actually Inevitable
 
