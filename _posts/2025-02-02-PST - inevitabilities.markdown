@@ -1,7 +1,7 @@
 ---
-title: (WIP) Inevitabilities!
+title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Mon Jul 28 23:43:11 PDT 2025
+last_modified_at: Tue Jul 29 02:49:54 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -40,6 +40,24 @@ Understanding this inevitability doesn't just help us appreciate the elegant mat
 </a>
 </blockquote>
 
+<blockquote>
+<a href="#universe-has-no-choice-but-sinusoidal">
+<span class="emph" id="quote:universe-has-no-choice-but-sinusoidal">
+&hellip; and as we'll see, sinusoidal functions are the only possible <i>eigenfunctions</i> of any such system. This isn't just a mathematical curiosity; it's a window into why the universe had no choice but to encode wave phenomena in the language of trigonometry.
+</span>
+</a>
+</blockquote>
+
+<blockquote>
+<a href="#deeper-mathematical-necessity-for-sinusoidal-waves">
+<span class="emph" id="quote:deeper-mathematical-necessity-for-sinusoidal-waves">
+&hellip; Maxwell's equations
+don't arbitrarily impose sinusoidal solutions on electromagnetic phenomena.
+Rather, they emerge from a deeper mathematical necessity.
+</span>
+</a>
+</blockquote>
+
 $$
 \newcommand{\reals}{\mathbb{R}}
 \newcommand{\preals}{\reals_{+}}
@@ -64,8 +82,6 @@ or rather for that matter,
 it does not have to be a universe.
 
 # The Gaussian Distribution &ndash; Why "Normal" is Actually Inevitable
-
-(WIP)
 
 <!--div class="img-container">
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/gaussian/lots-of-gaussian-distributions-in-3d.png">
@@ -376,26 +392,40 @@ Understanding this inevitability doesn't just help us appreciate the elegant mat
 </span>
 </a>
 
-<!--
-# The most natural function for electromagnetic waves to use for propagating energy is sinusoidal waves
--->
-
-# Sine Waves - Another Mathematical Inevitability
+# Sine Waves - The Mathematical Language of Linear Reality
 
 (Hence, you really should study hard trigonometric functions in high school! &#x2605;^^&#x2605;)
 
+Turn on a radio, observe light propagating through space, or watch ripples spread across a pond—in each case, you're witnessing the same fundamental mathematical truth &ndash; nature speaks in sine waves. But why? Why should the universe choose this particular mathematical function to carry energy, information, and disturbances across space and time?
+
+The answer reveals another profound inevitability, one that emerges not from the specific equations of electromagnetism or acoustics, but from something far more fundamental &ndash; the mathematical structure of reality itself. Just as the Gaussian distribution emerges inevitably from the logic of probability and aggregation, sinusoidal waves emerge inevitably from the most basic properties we could expect any uniform space to possess.
+
+The key insight lies in recognizing that space-time itself acts as what mathematicians call a <span class="emph">Linear Time-Invariant (LTI) system</span>&mdash;<a href="#quote:universe-has-no-choice-but-sinusoidal"><span id="universe-has-no-choice-but-sinusoidal">and
+as we'll see, sinusoidal functions are the only possible <i>eigenfunctions</i> of any such system. This isn't just a mathematical curiosity; it's a window into why the universe had no choice but to encode wave phenomena in the language of trigonometry.
+</span>
+</a>
+
+## Linear time-invariant systems - the mathematical framework of uniform space
+
+A linear time-invariant (LTI) system is any system $$H$$ that satisfies two fundamental properties that we might naturally expect from uniform, homogeneous space.
+
+- **Linearity** &ndash; If you combine two inputs linearly, you get the linear combination of their outputs.
+
+$$
+	H(af + bg) = aH(f) + bH(g)
+$$
+
+- **Translation Invariance** &ndash; The laws remain the same everywhere—if you delay an input by some time $$\tau$$, the output is delayed by exactly the same amount.
+
+$$
+	(Hf)(t-\tau) = H(f(t-\tau))
+$$
+
+These properties might seem abstract, but they encode something profound about the nature of space itself. Linearity captures the principle of superposition—that disturbances can be added together without interfering with each other's individual behavior. Translation invariance captures the homogeneity of space—that the laws of physics work the same way here as they do there, now as they did then.
+
+Any medium that possesses these properties—whether it's electromagnetic fields propagating through the vacuum, sound waves traveling through air, or quantum probability amplitudes evolving through space-time—must necessarily behave as an LTI system.
+
 <!--
-&#42;^^&#42;
--->
-
-(WIP)
-
-<!--div class="img-container">
-<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/sinusoidal/electromagnetic-waves-propagate-in-space.png">
-</div-->
-
-## Linear time-invariant (LTI) system
-
 The linear time-invariant (LTI) systems $$L$$ is a system satisfying the following two properties:
 
 \begin{equation}
@@ -420,6 +450,7 @@ In other words, it implies the <span class="emph">linearity</span> of the system
 - The equation \eqref{eq:time-invariance} says if the input is delayed by some amount $$\tau$$,
 the output is exactly the same, but delayed by exactly the same amount,
 *i.e.*, it implies the <span class="emph">time-invariance</span> of the system.
+-->
 
 ### Discrete-time LTI systems
 
@@ -474,22 +505,12 @@ and typically the symbol $$\star$$ is used,
 *i.e.*,
 for two functions $$f,g:\integers \to K$$,
 the convolution of $$f$$ and $$g$$ is denoted by
-$$f\star g: \integers \to K$$ and defined by
+$$f\star g: \integers \to K$$ and defined by<sup><a href="#footnote3" id="ref3">3</a></sup>
 
 \begin{equation}
 \label{eq:conv}
-(f\star g)(t) = \sum_{k=-\infty}^\infty f(k) g(t-k)
+(f\star g)(t) = \sum_{k=-\infty}^\infty f(k) g(t-k).
 \end{equation}
-
-Note that the convolution is a *commutative* binary operator,
-*i.e.*,
-
-$$
-(f\star g)(t)
-= \sum_{k=-\infty}^\infty f(k) g(t-k)
-= \sum_{k'=-\infty}^\infty f(t-k') g(k')
-= (g\star f)(t).
-$$
 
 Therefore we can write the output of a discrete-time LTI system when the input is $$f$$
 as
@@ -505,19 +526,23 @@ that is,
 we assume that $$f:\reals \to K$$
 where $$K$$ is some [field](/math/abstract-algebra#fields---the-realm-of-perfect-division).
 
-Here I choose the most intuitive way to explain concepts
-sacrificing a bit of mathematical strictness.
-We can approximate $$f:\reals \to K$$
+(Here I choose the most intuitive way to explain concepts
+sacrificing a bit of mathematical rigor, but not much (at all).)
+Note that for some small $\Delta>0$,
+we can approximate $$f:\reals \to K$$
 by
 
-\begin{equation}
-\label{eq:fcn-approx}
+$$
+\begin{align}
+\nonumber
 f(t)
-	\approx
-	\sum_{k=-\infty}^\infty f(k\Delta) I_{[k\Delta-\Delta/2, k\Delta+\Delta/2]}(t)
-	=
-	\sum_{k=-\infty}^\infty f(k\Delta) I_{[-\Delta/2, \Delta/2]}(t-k\Delta)
-\end{equation}
+	&\approx
+		\sum_{k=-\infty}^\infty f(k\Delta) I_{[k\Delta-\Delta/2, k\Delta+\Delta/2]}(t)
+\\ \label{eq:fcn-approx}
+	&=
+		\sum_{k=-\infty}^\infty f(k\Delta) I_{[-\Delta/2, \Delta/2]}(t-k\Delta)
+\end{align}
+$$
 
 where $$I_A:\reals\to K$$ for $$A\subset \reals$$ is the indicator function defined by
 
@@ -544,7 +569,7 @@ $$
 Now we really should note the critical difference between continuous-time system and discrete-time system here.
 That is, as $$\Delta$$ goes to zero, the indicator function $$I_{[-\Delta/2, \Delta/2]}(t-k\Delta)$$ vanishes.
 So we need some way to preserve the *energy* or equivalently the *area* of the function,
-hence the following trick!
+hence we use the following trick!
 
 $$
 H(f(t))
@@ -626,21 +651,24 @@ of the (continuous-time) LTI system,
 and the output of continuous-time LTI system
 can also be fully characterized by this impulse function!
 
-Also, similarly as in the discrete-time case,
+Also, similarly as for the discrete-time case,
 the RHS of the equation is called the <span class="emph">convolution</span> of $$f$$ and $$h$$,
-and the same symbol $$\star$$ as in the discrete-time case is used,
+and the same symbol $$\star$$ as for the discrete-time case is used,
 *i.e.*,
-for any two functions $$f,g: \reals \to K$$, we define
+for any two functions $f,g: \reals \to K$, we define $f\star g:\reals \to K$
+by
 
 $$
-(f \star g)(t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau
+(f \star g)(t) = \int_{-\infty}^\infty f(\tau) g(t-\tau) d\tau.
 $$
 
+<!--
 and this operation (of course) is also commutative, *i.e.*,
 
 $$
 f \star g = g \star f.
 $$
+-->
 
 Again, using this notation, we can express the output of continue-time LTI system as
 
@@ -648,11 +676,14 @@ $$
 H(f) = f \star h.
 $$
 
-## Eigenfunctions of LTIs
 
-As the eigenvalues and the associated eigenvectors are defined in linear algebra as below,
+## The inevitable eigenfunctions
+
+Here's where the mathematical inevitability becomes crystal clear. For any LTI system, we can ask: what functions pass through the system unchanged except for scaling? These are the system's <span class="emph">eigenfunctions</span>—inputs that emerge as perfect copies of themselves, multiplied only by some complex number.
+
+In a very similar way that [the eigenvalues and the associated eigenvectors](/math/linear-algebra#eigenvalues-eigenvectors-and-characteristic-polynomial) are defined in [linear algebra](/math/linear-algebra),
 that is,
-for a matrix $$A\in K^{n\times n}$$ (for a field $$K$$),
+for a matrix $$A\in K^{n\times n}$$ (for a [field](/math/abstract-algebra#fields---the-realm-of-perfect-division) $$K$$),
 if there exist $$\lambda \in \kclosure$$ and $$v\in \kclosure^n$$
 (where $$\kclosure$$ is the algebraic closure of $$K$$)
 satisfying
@@ -664,11 +695,9 @@ satisfying
 
 $$\lambda$$ is called the eigenvalue of $$A$$ and $$v$$ the associated eigenvector,
 we can define <span class="emph">eigenfunctions</span> (and the associated eigenvalues)
-similarly for LTI systems.
-
-For a LTI system $$H$$ whose impulse response is $$h:T \to K$$
-(where $$T=\integers$$ in discuss-time case
-and $$T=\reals$$ in continuous-time case),
+similarly for LTI systems,
+*i.e.*,
+for a LTI system $$H$$, <!--whose impulse response is $$h:T \to K$$-->
 if there exist $$v:T \to \kclosure$$ and $$\lambda\in\kclosure$$
 such that
 
@@ -678,101 +707,177 @@ H(v) = \lambda v
 \end{equation}
 
 $$v$$ is called the eigenfunction of $$H$$
-and $$\lambda$$ the associated eigenvalue.
+and $$\lambda$$ the associated eigenvalue
+where $$T=\integers$$ in discuss-time case
+and $$T=\reals$$ in continuous-time case.
 
 Note the similarity or resemblance between \eqref{eq:la-eigen} and \eqref{eq:lti-eigen}.
 We can simply remove the parentheses in \eqref{eq:lti-eigen} to make it look just like \eqref{eq:la-eigen}!
 So essentially they mean exactly the same thing,
 hence the names.
 
-Now let us show that sinusoidal waves are the eigenvalues of *any* LTI systems.
-Here once again,
-we show this for both discrete-time and continuous-time cases separately.
+For both discrete-time and continuous-time LTI systems,
+the eigenfunctions are always of the following form.
+
+$$
+	v_f(t) = e^{i 2\pi f t} = \cos(2\pi ft) + i\sin(2\pi ft)
+$$
+
+This is a pure sinusoidal wave with frequency $$f$$.
+
+Below we will show this.
 
 ### Discrete-time LTI systems
 
+For discrete-time LTI systems,
+we assume $f$ is in $[0,1)$
+since $v_f(t)$ is a periodic function of $f$
+with period 1.
+
+<!--
 Define functions $$v_f:\integers \to K$$
 for $$f\in [0,1)$$
 by
 
 \begin{equation}
 \label{eq:eig-fcn-discrete}
-	v_n(t) = e^{i 2\pi f t }
+	v_f(t) = e^{i 2\pi f t }
 \end{equation}
 
 where $$e^{i 2\pi f t}$$ is defined to be $$\cos(2\pi ft) + i \sin(2\pi ft)$$.
+-->
 
-Now we will show these are the eigenfunctions
+<!--Now we will show these are the eigenfunctions
 for *any* (discrete-time) LTI system.
+-->
 Note
 
 $$
 \begin{align}
 \nonumber
-H(v_n)(t)
+H(v_f)(t)
 	=
-		\sum_{k=-\infty}^\infty h(k) v_n(t-k)
+		\sum_{k=-\infty}^\infty h(k) v_f(t-k)
 	&=
 		\sum_{k=-\infty}^\infty h(k) e^{-i 2\pi f k } e^{i2\pi f t}
 	\\ \nonumber
 	&=
-		\left( \sum_{k=-\infty}^\infty h(k) e^{-i 2\pi f k } \right) e^{i2\pi f t}
+		\left( \sum_{k=-\infty}^\infty h(k) e^{-i 2\pi f k } \right) v_f(t)
 \end{align}
 $$
 
-thus, $$v_f$$ is the eigenfunction of $$H$$ with $$\sum_{k=-\infty}^\infty h(k) e^{-i 2\pi f k }$$
+thus, $$v_f$$ is the eigenfunction of $$H$$ with $$\lambda_f = \sum_{k=-\infty}^\infty h(k) e^{-i 2\pi f k }$$
 as the associated eigenvalue
-where (it turns out that) the associated eigenvalue
+where (it turns out that) it
 is the [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
-of the (discrete-time) impulse response $$h:\integers \to K$$.
-
-Note that this holds for any LTI system.
-The converse is not true, though, that is, for specific LTI systems,
-there can exist eigenfunctions not of the form $$e^{i 2\pi f t }$$.
+of the (discrete-time) impulse response $$h:\integers \to K$$.<sup><a href="#footnote4" id="ref4">4</a></sup>
 
 ### Continuous-time LTI systems
 
+<!--
 Similarly, define functions $$v_f:\reals \to K$$
 for $$f\in \reals$$
 by
 
 \begin{equation}
 \label{eq:eig-fcn-continuous}
-	v_n(t) = e^{i 2\pi f t }.
+	v_f(t) = e^{i 2\pi f t }.
 \end{equation}
 
 Note the difference between \eqref{eq:eig-fcn-discrete} and \eqref{eq:eig-fcn-continuous}.
 Though they look exactly the same,
 the domain of the functions are different;
 that of the former is $$\integers$$ whereas that of the latter is $$\reals$$.
+-->
 
-Once again, we will show these are the eigenfunctions
+Here we assume $f\in\reals$.
+We will show $v_f(t)$ are the eigenfunctions
 for *any* (continuous-time) LTI system.
 Note
 
 $$
 \begin{align}
 \nonumber
-H(v_n)(t)
+H(v_f)(t)
 	=
-		\int_{-\infty}^\infty h(\tau) v_n(t-\tau) d\tau
+		\int_{-\infty}^\infty h(\tau) v_f(t-\tau) d\tau
 	&=
 		\int_{-\infty}^\infty h(\tau) e^{-i 2\pi f \tau } e^{i 2\pi f t} d\tau
 	\\ \nonumber
 	&=
-		\left(\int_{-\infty}^\infty h(\tau) e^{-i 2\pi f \tau } d\tau \right) e^{i2\pi f t}
+		\left(\int_{-\infty}^\infty h(\tau) e^{-i 2\pi f \tau } d\tau \right) v_f(t)
 \end{align}
 $$
 
-thus, $$v_f$$ is the eigenfunction of $$H$$ with $$\int_{-\infty}^\infty h(\tau) e^{-i 2\pi f \tau} d\tau$$
-as the associated eigenvalue
-where the associated eigenvalue is the [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
-of the (continuous-time) impulse response $$h:\reals\to K$$.
+thus, $$v_f$$ is the eigenfunction of $$H$$ with $$\lambda_f = \int_{-\infty}^\infty h(\tau) e^{-i 2\pi f \tau} d\tau$$
+as the associated eigenvalue,
+which is the [Fourier Transform](https://en.wikipedia.org/wiki/Fourier_transform)
+of the (continuous-time) impulse response $$h:\reals\to K$$.<sup><a href="#footnote5" id="ref5">5</a></sup>
 
-Again, note that this holds for any LTI system.
-The converse is not true, though, that is, for specific LTI systems,
-there can exist eigenfunctions not of the form $$e^{i 2\pi f t }$$.
+The proof is startlingly simple for both cases!
+For both cases, we have
 
+$$
+H(v_f) = \lambda_f v_f
+$$
+
+*i.e.*,
+the sinusoidal function emerges from the system as a perfect copy of itself, scaled by the eigenvalue $\lambda_f$.
+
+<span class="emph">This holds for any LTI system whatsoever.</span>
+The mathematics gives us no other choice.
+
+## From abstract mathematics to physical reality
+
+Now comes the profound connection
+&ndash; <span class="emph">electromagnetic wave propagation through free space is necessarily an LTI process.</span>
+
+The <span class="emph">linearity</span> is built into the very fabric of electromagnetism through Maxwell's equations—electric and magnetic fields superpose linearly. If you have two electromagnetic disturbances, the total field is simply their sum.
+
+The <span class="emph">(time-)translation invariance</span> emerges from the homogeneity of free space itself. The laws of electromagnetism work the same way in every region of empty space, at every moment in time. There are no preferred locations or special directions in the vacuum (or favorite time).
+
+Therefore, when electromagnetic energy propagates through space, it must behave as an LTI system—and this means its natural modes of propagation must be the eigenfunctions of this system: sinusoidal waves.
+
+## The deep mathematical truth
+
+This reveals something remarkable
+&ndash;
+<a href="#quote:deeper-mathematical-necessity-for-sinusoidal-waves">
+<span id="deeper-mathematical-necessity-for-sinusoidal-waves">
+Maxwell's equations don't arbitrarily impose sinusoidal solutions on electromagnetic phenomena.
+Rather, they emerge from a deeper mathematical necessity.</span>
+</a>
+
+The [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
+that follows from [Maxwell's equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations),
+*i.e.*,
+
+$$
+	\frac{\partial^2 \psi}{\partial t^2} = c^2 \nabla^2 \psi
+$$
+
+which both the electric field $E$ and the magnetic field $B$ should satisfy,
+isn't the source of sinusoidal behavior; it's the mathematical expression of the fact that electromagnetic propagation through homogeneous space must be an LTI process.
+
+The sinusoidal solutions aren't just *a* solution to this equation; they're the <span class="emph">inevitable</span> solutions because they're the only functions that can propagate through any linear, translation-invariant medium without changing their fundamental character.
+
+## Beyond electromagnetism &ndash; a universal principle
+
+This mathematical inevitability extends far beyond electromagnetic waves. Any phenomenon that propagates through a linear, homogeneous medium—sound waves in uniform air, water waves on a calm surface, quantum probability amplitudes in free space, even vibrations through crystalline solids—must necessarily decompose into sinusoidal components.
+
+This is why [Fourier analysis](https://en.wikipedia.org/wiki/Fourier_analysis) works so universally across physics. It's not that we've chosen a convenient mathematical tool; we've discovered that sinusoidal decomposition is the natural language that linear, translation-invariant reality uses to encode information.
+
+Just as any statistical phenomenon involving aggregation must eventually yield Gaussian distributions, any wave phenomenon in uniform space must eventually express itself through sinusoidal functions. The mathematics offers no alternatives.
+
+## The inevitability of trigonometry
+
+So when your high school math teacher insisted you learn trigonometric functions, they were introducing you to something far more profound than arbitrary mathematical machinery. They were teaching you the fundamental language that any universe with linear, homogeneous space would necessarily discover.
+
+Sine and cosine aren't just useful mathematical tools—they're the inevitable mathematical expressions of how disturbances propagate through uniform reality. In any conceivable universe where space is homogeneous and physical processes are linear, intelligent beings would eventually discover these same trigonometric relationships, not because of the specific physics of their world, but because of the deeper mathematical structures that govern any possible world with these basic properties.
+
+The ubiquity of sinusoidal waves in nature now reveals itself not as a curious coincidence, but as a manifestation of mathematical inevitability as fundamental as the appearance of $\pi$ in geometry or the emergence of Gaussian distributions in probability. We see sine waves everywhere because any linear, translation-invariant reality must speak in this mathematical language—and remarkably, that appears to include our own.
+
+<!--
 ## Why Sinusoidal Functions are Inevitable for EM Waves
 
 ### The Wave Equation - The Mathematical Heart
@@ -833,7 +938,9 @@ Just as π appears "everywhere" because it's connected to the geometry of circle
 Therefore, when you ask "why trigonometric functions?" for EM waves, the answer is: **mathematical inevitability**. Any universe with linear electromagnetic laws and wave propagation would necessarily discover the same trigonometric solutions. The math doesn't give us any other choice!
 
 This connects beautifully to your broader theme - some aspects of physics that seem arbitrary are actually rooted in deeper mathematical necessities that transcend any particular universe.
+-->
 
+<!--
 # Matrices &amp; matrix multiplications
 
 ## Extension to multiplications of arbitrary multi-dimensional arrays
@@ -841,6 +948,7 @@ This connects beautifully to your broader theme - some aspects of physics that s
 <div class="img-container">
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
 </div>
+-->
 
 <hr>
 <ol>
@@ -850,6 +958,27 @@ This connects beautifully to your broader theme - some aspects of physics that s
 <li id="footnote2">
 	The second and the third obviously very closely relate to each other.
 	&nbsp;<a href="#ref2">↩</a></li>
+<li id="footnote3">
+	Note that the convolution is a <i>commutative</i> binary operator,
+	<i>i.e.</i>,
+
+	$$
+	(f\star g)(t)
+	= \sum_{k=-\infty}^\infty f(k) g(t-k)
+	= \sum_{k'=-\infty}^\infty f(t-k') g(k')
+	= (g\star f)(t).
+	$$
+	&nbsp;<a href="#ref3">↩</a></li>
+<li id="footnote4">
+	This holds for any LTI system.
+	The converse is not true, though, that is, for specific LTI systems,
+	there can exist eigenfunctions not of the form $e^{i 2\pi f t }$.
+	&nbsp;<a href="#ref4">↩</a></li>
+<li id="footnote5">
+	Again, note that this holds for any LTI system.
+	The converse is not true, though, that is, for specific LTI systems,
+	there can exist eigenfunctions not of the form $e^{i 2\pi f t }$.
+	&nbsp;<a href="#ref5">↩</a></li>
 </ol>
 
 <!--
