@@ -599,36 +599,3 @@ revealing universal principles that govern quantitative reasoning across all of 
 	&ndash; whether we're grappling with measure theory or moral philosophy, genuine insight emerges from the constant oscillation between universal principles and particular instances.
 	&nbsp;<a href="#ref1">↩</a></li>
 </ol>
-
-<script>
-// Function to get URL parameters
-function getUrlParameter(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
-
-// Function to auto-play audio based on URL parameter
-function autoPlayAudio() {
-    const audioParam = getUrlParameter('audio');
-    if (audioParam) {
-        const audioElement = document.getElementById(audioParam);
-        if (audioElement) {
-            // Scroll to the audio element
-            audioElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-            // Add a small delay to ensure the page has loaded
-            setTimeout(() => {
-                audioElement.play().catch(error => {
-                    console.log('Auto-play was prevented by browser:', error);
-                    // Highlight the audio element if auto-play fails
-                    audioElement.style.border = '3px solid #ff6b6b';
-                    audioElement.style.borderRadius = '5px';
-                });
-            }, 500);
-        }
-    }
-}
-
-// Run the function when the page loads
-document.addEventListener('DOMContentLoaded', autoPlayAudio);
-</script>
