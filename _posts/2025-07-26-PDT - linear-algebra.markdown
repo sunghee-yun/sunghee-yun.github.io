@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Tue Jul 29 02:38:55 PDT 2025
+last_modified_at: Wed Jul 30 03:09:17 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -36,6 +36,7 @@ $$
 \newcommand{\Expect}{\mathop{\bf E{}}}
 \newcommand{\sign}{\mathop{\bf sign}}
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
+\newcommand{\lspan}[1]{\langle{#1}\rangle} % linear span
 $$
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
@@ -222,6 +223,12 @@ In other words,
 a set of vectors is said to be linearly
 no vector in the set can be expressed as a linear combination of the other vectors.
 
+<div class="theorem" id="theorem:linear-dependence">
+A set of nonzero vectors $\{x_1, x_2, \ldots\}$ is linearly dependent
+if and only if
+some $x_k$ is a linear combination of $x_1,\ldots,x_{k-1}$.
+</div>
+
 ### Subspace
 
 A <span class="emph">linear subspace</span> or <span class="emph">vector subspace</span> or just <span class="emph">subspace</span>
@@ -230,7 +237,36 @@ is a non-empty subset of $$V$$ that is itself a vector space,
 *i.e.*,
 that is closed under vector addition and scalar multiplication.
 
-Consequently, an intersection of subspaces is itself a subspace.
+<div class="theorem">
+The intersection of any collection of subspaces is a subspace.
+</div>
+
+<div class="theorem">
+For a vector space and $V$ and $A\subset V$,
+the smallest subspace containing $A$ is the subspace spanned by $A$,
+<i>i.e</i>,
+
+$$
+\lspan{A}
+=
+\bigcap_{W:\;\text{subspace with } A \subset W} W.
+$$
+</div>
+
+<div class="theorem">
+For two subspaces $W_1$ and $W_2$ of a vector space $V$,
+$W_1+W_2$ is a subspace of $V$.
+</div>
+
+<div class="theorem">
+For two subspaces $W_1$ and $W_2$ of a vector space $V$,
+$W_1+W_2$ is the smallest subspace containing $W_1$ and $W_2$,
+<i>i.e.</i>,
+
+$$
+W_1 + W_2 = \lspan{W_1\cup W_2}
+$$
+</div>
 
 ### Linear span
 
@@ -244,7 +280,39 @@ It can be shown that the span of $$W$$ is the set of all linear combinations of 
 
 If $$S$$ is the span of $$W$$,
 $$W$$ is said to <span class="emph">span</span> or <span class="emph">generate</span> $$S$$,
-and $$W$$ is called a <span class="emph">spanning set</span> or a <span class="emph">generating set</span> of $$S$$.
+and $$W$$ is called a <span class="emph">spanning set</span> or a <span class="emph">generating set</span> of $$S$$,
+and denoted by
+
+$$
+S = \lspan{W}.
+$$
+
+<div class="theorem" id="theorem:sdfsdf">
+A set of nonzero vectors $\{x_1,x_2,\ldots\}$ is linearly independent
+if and only if
+for each $k$, $x_k \notin \lspan{\{x_1,\ldots,x_{k-1}\}}$.
+</div>
+
+<div class="theorem" id="theorem:sdf">
+For two subsets $A, B \subset V$ such that $A\subset \lspan{B}$,
+$\lspan{A} \subset \lspan{B}$.
+</div>
+
+<div class="theorem">
+For a subset $A\subset V$,
+if $x\in A$ is dependent on some other vectors in $A$,
+$\lspan{A} = \lspan{A-\{x\}}$.
+</div>
+
+<div class="theorem">
+For any subset $A\subset V$,
+$\lspan{\lspan{A}}= \lspan{A}$.
+</div>
+
+<div class="theorem">
+If a finite set $\{x_1,\ldots,x_n\}$ spans $V$,
+every linearly independent set contains at most $n$ elements.
+</div>
 
 ### Basis and dimension
 
@@ -252,7 +320,15 @@ A subset of a vector space is a <span class="emph">basis</span>
 if its elements are linearly independent and span the vector space.
 Every vector space has at least one basis
 and many in general.
-Moreover, all bases of a vector space have the same cardinality, which is called the <span class="emph">dimension</span> of the vector space.
+
+<div class="theorem" id="theorem:bases-have-same-cardinality">
+If a vector space has one basis with a finite number of elements,
+then all other bases are finite and have the same number of elements.
+</div>
+
+[](#theorem:bases-have-same-cardinality)
+implies all bases of a vector space have the same cardinality.
+This cardinality is called the <span class="emph">dimension</span> of the vector space.
 *This is a fundamental property of vector spaces!*
 
 Bases are a fundamental tool for the study of vector spaces,
@@ -260,6 +336,34 @@ especially when the dimension is finite.
 In the infinite-dimensional case, the existence of infinite bases, often called [Hamel bases](https://en.wikipedia.org/wiki/Hamel_bases),
 depends on [the axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice).
 It follows that, in general, no base can be explicitly described.<sup><a href="#footnote1" id="ref1">1</a></sup>
+
+<div class="theorem">
+Any $n+1$ vectors in an $n$-dimensional vector space are linearly dependent.
+</div>
+
+<div class="theorem">
+A set of $n$ vectors in an $n$-dimensional vector space is a basis if and only if it is linearly independent.
+</div>
+
+<div class="theorem">
+A set of $n$ vectors in an $n$-dimensional vector space $V$ is a basis if and only if it spans $V$.
+</div>
+
+<div class="theorem">
+In a finite dimensional vector space $V$,
+every set spanning $V$ contains a basis.
+</div>
+
+<div class="theorem">
+In a finite dimensional vector space,
+any linearly independent set of vectors can be extended to a basis.
+</div>
+
+<div class="theorem">
+A subspace $W$ of an $n$-dimensional vector space $V$
+is
+a finite dimensional vector space of dimension $m\leq n$.
+</div>
 
 ### Coordinates
 

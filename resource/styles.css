@@ -27,7 +27,21 @@ body {
 	line-height: 1.6;
 	color: #222;
 	/* text-align: justify; */
+
+	counter-reset: theorem lemma definition example;
 }
+
+.theorem { counter-increment: theorem; }
+.lemma { counter-increment: lemma; }
+.definition { counter-increment: definition; }
+
+.theorem, .lemma, .definition {
+	margin: 0 0 1em 0;
+}
+
+.theorem::before { content: "Theorem " counter(theorem) ". "; font-weight: bold; }
+.lemma::before { content: "Lemma " counter(lemma) ". "; font-weight: bold; }
+.definition::before { content: "Definition " counter(definition) ". "; font-weight: bold; }
 
 @font-face {
     font-family: "PrettyKorean";

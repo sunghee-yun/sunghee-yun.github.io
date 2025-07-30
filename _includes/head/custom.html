@@ -24,6 +24,31 @@ window.MathJax = {
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all theorem-like elements
+    const theorems = document.querySelectorAll('.theorem, .lemma, .corollary, .definition, .proposition, .example');
+
+    // Create a map of IDs to numbers
+    const theoremNumbers = {};
+    theorems.forEach((thm, index) => {
+        if (thm.id) {
+            theoremNumbers[thm.id] = index + 1;
+        }
+    });
+
+    // Update all theorem references
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        const targetId = link.getAttribute('href').substring(1);
+        if (theoremNumbers[targetId]) {
+            const target = document.getElementById(targetId);
+            const type = target.className.charAt(0).toUpperCase() + target.className.slice(1);
+            link.textContent = `${type} ${theoremNumbers[targetId]}`;
+        }
+    });
+});
+</script>
 {% endif %}
 
 <!-- end custom head snippets -->

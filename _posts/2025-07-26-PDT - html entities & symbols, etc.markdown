@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Mon Jul 28 04:05:21 PDT 2025
+last_modified_at: Wed Jul 30 03:09:56 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -37,6 +37,7 @@ $$
 
 \newcommand{\sign}{\mathop{\bf sign}}
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
+\newcommand{\lspan}[1]{\langle{#1}\rangle} % linear span
 $$
 
 # Faces
