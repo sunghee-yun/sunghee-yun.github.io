@@ -28,7 +28,7 @@ body {
 	color: #222;
 	/* text-align: justify; */
 
-	counter-reset: theorem lemma definition example;
+	counter-reset: theorem lemma definition;
 }
 
 .theorem { counter-increment: theorem; }
@@ -39,9 +39,9 @@ body {
 	margin: 0 0 1em 0;
 }
 
-.theorem::before { content: "Theorem " counter(theorem) ". "; font-weight: bold; }
+.theorem::before { content: "Theorem " counter(theorem) ". "; font-weight: bold; color: green; }
 .lemma::before { content: "Lemma " counter(lemma) ". "; font-weight: bold; }
-.definition::before { content: "Definition " counter(definition) ". "; font-weight: bold; }
+.definition::before { content: "Definition " counter(definition) ". "; font-weight: bold; color: blue; }
 
 @font-face {
     font-family: "PrettyKorean";
@@ -208,6 +208,16 @@ figcaption {
 }
 
 .emph {
+	color: blue;
+	font-style: italic;
+}
+
+.define {
+	color: blue;
+	font-style: italic;
+}
+
+.notation {
 	color: blue;
 	font-style: italic;
 }
