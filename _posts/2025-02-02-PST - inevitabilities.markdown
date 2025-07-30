@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Jul 29 13:11:49 PDT 2025
+last_modified_at: Tue Jul 29 20:36:21 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -955,15 +955,6 @@ This connects beautifully to your broader theme - some aspects of physics that s
 -->
 
 <!--
-# Matrices &amp; matrix multiplications
-
-## Extension to multiplications of arbitrary multi-dimensional arrays
-
-<div class="img-container">
-<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
-</div>
--->
-
 # Sine Waves - The Mathematical Language of Self-Adjoint Reality
 
 (Hence, you really should study hard trigonometric functions in high school! &#x2605;^^&#x2605;)
@@ -1101,6 +1092,17 @@ Sine and cosine functions aren't arbitrary mathematical constructs—they're the
 intelligent beings would inevitably discover these same trigonometric relationships, not because of the specific physics of their world, but because of the deeper mathematical structures that govern any possible energy-conserving reality.
 
 The ubiquity of sinusoidal waves in nature now reveals itself as a manifestation of mathematical inevitability as fundamental as the appearance of $\pi$ in geometry or the emergence of Gaussian distributions in probability. We see sine waves everywhere because any energy-conserving, spatially homogeneous reality must speak in this mathematical language—and remarkably, that appears to include our own.
+-->
+
+<!--
+# Matrices &amp; matrix multiplications
+
+## Extension to multiplications of arbitrary multi-dimensional arrays
+
+<div class="img-container">
+<img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
+</div>
+-->
 
 <hr>
 <ol>
