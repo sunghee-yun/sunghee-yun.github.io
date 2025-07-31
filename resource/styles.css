@@ -28,20 +28,22 @@ body {
 	color: #222;
 	/* text-align: justify; */
 
-	counter-reset: theorem lemma definition;
+	counter-reset: theorem lemma definition corollary;
 }
 
 .theorem { counter-increment: theorem; }
 .lemma { counter-increment: lemma; }
 .definition { counter-increment: definition; }
+.corollary { counter-increment: corollary; }
 
-.theorem, .lemma, .definition {
+.theorem, .lemma, .definition, .corollary {
 	margin: 0 0 1em 0;
 }
 
 .theorem::before { content: "Theorem " counter(theorem) ". "; font-weight: bold; color: green; }
 .lemma::before { content: "Lemma " counter(lemma) ". "; font-weight: bold; }
 .definition::before { content: "Definition " counter(definition) ". "; font-weight: bold; color: blue; }
+.corollary::before { content: "Corollary " counter(corollary) ". "; font-weight: bold; }
 
 @font-face {
     font-family: "PrettyKorean";

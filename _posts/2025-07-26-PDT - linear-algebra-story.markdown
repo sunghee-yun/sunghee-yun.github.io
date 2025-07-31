@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Thu Jul 31 01:07:12 PDT 2025
+last_modified_at: Thu Jul 31 02:42:49 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -14,6 +14,11 @@ toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true  # for LaTeXing
 ---
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
 
 <style>
 table, tr, td, th {
@@ -32,15 +37,6 @@ $$
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 \newcommand{\lspan}[1]{\langle{#1}\rangle} % linear span
 $$
-
-<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
-<br>
-cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
-
-posted: {{ page.date| date: "%d-%b-%Y" }}
-&amp;
-updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
-{: .notice--primary}
 
 **A Tribute 獻呈 to My Samsung Colleagues**
 <br>
@@ -169,13 +165,10 @@ and the elements of $$F$$ are called <span class="emph">scalars</span>.
 | [distributivity](https://en.wikipedia.org/wiki/Distributivity) of multiplication over vector addition | $$(\forall x,y \in V \;\&\; \forall \alpha\in F)(\alpha(x+y) = \alpha x + \alpha y)$$ |
 | [distributivity](https://en.wikipedia.org/wiki/Distributivity) of multiplication over field addition | $$(\forall x \in V \;\&\; \alpha, \beta \in F)((\alpha+ \beta)x = \alpha x + \beta x)$$ |
 
-**Example**
-The most familiar vector space is $$\reals^3$$,
-the set of all ordered triples $$(x,y,z)$$ of real numbers.
-Vector addition is componentwise:
-$$(x_1,y_1,z_1) + (x_2,y_2,z_2) = (x_1+x_2,y_1+y_2,z_1+z_2)$$,
-and scalar multiplication is $$c(x,y,z) = (cx,cy,cz)$$.
-(You can verify that all eight axioms hold for this familiar setting.)
+{% assign linalg = site.posts | where: "permalink", "/math/rig/linear-algebra" | first %}
+
+(The identical definition of vector space
+is given [here](/math/rig/linear-algebra#definition:vector-space) in [{{ linalg.title }}]({{ linalg.url }}).
 
 Subtraction of two vectors can be defined as
 
