@@ -1,7 +1,7 @@
 ---
 title: Comparison of AI accelerators
 date: 01-Oct-2024
-last_modified_at: Sat Jul 12 03:02:29 PDT 2025
+last_modified_at: Thu Jul 31 00:25:13 PDT 2025
 tags:
  - AI
  - GPU
@@ -340,9 +340,9 @@ Microsoft Azure NPUs (Project Brainwave)
 
 <h1 id="table">summary table</h1>
 
-<table>
+<!--table>
 <tr>
-<td> Hardware         </td><td> Best Use Case               </td><td> Performance (TFLOPS)    </td><td> Memory         </td>
+<th> Hardware         </th><th> Best Use Case               </th><th> Performance (TFLOPS)    </th><th> Memory         </th>
 </tr>
 <tr>
 <td> Nvidia H100       </td><td> Deep learning models, training  </td><td> ~700 TFLOPS (AI tasks)       </td><td> 80 GB HBM3         </td>
@@ -368,7 +368,18 @@ Microsoft Azure NPUs (Project Brainwave)
 <tr>
 <td> Microsoft Azure NPU</td><td> Real-time, low-latency inference </td><td> FPGA-based, cloud-scalable  </td><td> Scalable (cloud)   </td>
 </tr>
-</table>
+</table-->
+
+| Hardware         | Best Use Case               | Performance (TFLOPS)    | Memory         |
+|:-:|:-:|:-:|:-:|
+| Nvidia H100       | Deep learning models, training  | ~700 TFLOPS (AI tasks)       | 80 GB HBM3         |
+| Intel Gaudi2      | Cost-effective AI training      | 2x Gaudi1 (~2 TFLOPS)        | 96 GB HBM2e        |
+| AMD MI300X        | Large models, data center AI    | ~4.9 TFLOPS (FP64)           | 128 GB HBM3        |
+| Amazon Trainium   | Scalable cloud AI workloads     | ~2x higher throughput in AWS | Not specified      |
+| Google TPU v4     | AI tasks at Google scale        | ~275 TFLOPS (AI tasks)       | 128 GB HBM2e       |
+| Apple Neural Engine| On-device AI, low-power AI     | 15.8 TOPS                    | Integrated (M1/M2) |
+| Meta MTIA         | Social media, inference tasks   | Not disclosed (in development) | TBD              |
+| Microsoft Azure NPU| Real-time, low-latency inference | FPGA-based, cloud-scalable  | Scalable (cloud)   |
 
 <hr>
 Each of these chips has a different specialty, depending on whether you're looking for cloud AI, on-device AI, or large-scale deep learning tasks. Which aspect of AI hardware are you most interested in for your business?

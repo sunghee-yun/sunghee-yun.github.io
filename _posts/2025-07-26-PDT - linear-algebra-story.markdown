@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Wed Jul 30 11:04:04 PDT 2025
+last_modified_at: Thu Jul 31 01:07:12 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -19,12 +19,6 @@ usemathjax: true  # for LaTeXing
 table, tr, td, th {
     font-size: inherit !important;
     font-family: inherit !important;
-}
-th {
-	text-align: center !important;
-}
-tr:nth-child(even) {
-	background-color: inherit !important;
 }
 </style>
 
