@@ -28,22 +28,46 @@ body {
 	color: #222;
 	/* text-align: justify; */
 
-	counter-reset: theorem lemma definition corollary;
+	counter-reset: theorem lemma corollary proposition conjecture inequality definition;
 }
 
 .theorem { counter-increment: theorem; }
 .lemma { counter-increment: lemma; }
-.definition { counter-increment: definition; }
 .corollary { counter-increment: corollary; }
+.proposition { counter-increment: proposition; }
+.conjecture { counter-increment: conjecture; }
+.inequality { counter-increment: inequality; }
+.definition { counter-increment: definition; }
 
-.theorem, .lemma, .definition, .corollary {
-	margin: 0 0 1em 0;
+.theorem, .lemma, .corollary, .proposition, .conjecture, .inequality, .definition, .proof {
+  margin: 0 0 1em 0;
+  font-weight: normal;
 }
 
-.theorem::before { content: "Theorem " counter(theorem) ". "; font-weight: bold; color: green; }
-.lemma::before { content: "Lemma " counter(lemma) ". "; font-weight: bold; }
-.definition::before { content: "Definition " counter(definition) ". "; font-weight: bold; color: blue; }
-.corollary::before { content: "Corollary " counter(corollary) ". "; font-weight: bold; }
+.theorem::before, .lemma::before, .corollary::before,
+.proposition::before, .conjecture::before, .inequality::before, .definition::before,
+.proof:before {
+  font-weight: bold;
+}
+
+/* Individual labels without data-name */
+.theorem::before { content: "Theorem " counter(theorem) ". "; color: green; }
+.lemma::before { content: "Lemma " counter(lemma) ". "; color: #48a860; }
+.corollary::before { content: "Corollary " counter(corollary) ". "; color: #03ac13; }
+.proposition::before { content: "Proposition " counter(proposition) ". "; }
+.conjecture::before { content: "Conjecture " counter(conjecture) ". "; }
+.inequality::before { content: "Inequality " counter(inequality) ". "; }
+.definition::before { content: "Definition " counter(definition) ". "; color: blue; }
+.proof::before { content: "Proof."; color: #ed2939; }
+
+/* Individual labels WITH data-name */
+.theorem[data-name]::before { content: "Theorem " counter(theorem) ". [" attr(data-name) "] "; color: green; }
+.lemma[data-name]::before { content: "Lemma " counter(lemma) ". [" attr(data-name) "] "; color: #48a860; }
+.corollary[data-name]::before { content: "Corollary " counter(corollary) ". [" attr(data-name) "] "; color: #03ac13; }
+.proposition[data-name]::before { content: "Proposition " counter(proposition) ". [" attr(data-name) "] "; }
+.conjecture[data-name]::before { content: "Conjecture " counter(conjecture) ". [" attr(data-name) "] "; }
+.inequality[data-name]::before { content: "Inequality " counter(inequality) ". [" attr(data-name) "] "; }
+.definition[data-name]::before { content: "Definition " counter(definition) ". [" attr(data-name) "] "; color: blue; }
 
 @font-face {
     font-family: "PrettyKorean";
@@ -142,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #a0a0a0; 
+	background-color: #a0a0a0;
 	position: relative;
 	*/
 }
@@ -168,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 figcaption {
 	width: 90%;
 	margin: 0 auto; /* Center the block horizontally */
-	text-align: justify; 
+	text-align: justify;
 	font-family: 'Montserrat', serif;
 	font-size: var(--caption-font-size);
 	margin-bottom: 1em;

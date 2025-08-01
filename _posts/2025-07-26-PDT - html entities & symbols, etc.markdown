@@ -1,7 +1,7 @@
 ---
 title: HTML entities &amp; LaTeX symbols
 date: Sat Jul 26 14:05:05 PDT 2025
-last_modified_at: Thu Jul 31 01:05:36 PDT 2025
+last_modified_at: Fri Aug  1 03:13:58 PDT 2025
 permalink: /html-entities
 categories:
  - blog
@@ -33,6 +33,7 @@ $$
 \newcommand{\complexes}{\mathbb{C}}
 \newcommand{\integers}{\mathbb{Z}}
 \newcommand{\kclosure}{\overline{K}}
+\newcommand{\image}{\text{Im}}
 
 \newcommand{\Prob}{\mathop{\bf Prob}}
 \newcommand{\Expect}{\mathop{\bf E{}}}

@@ -14,15 +14,20 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Get all theorem-like elements
-    const theorems = document.querySelectorAll('.theorem, .lemma, .corollary, .definition, .proposition, .example');
+    // Define all theorem-like types
+    const theoremTypes = ['theorem', 'lemma', 'corollary', 'definition', 'proposition', 'inequality'];
 
     // Create a map of IDs to numbers
     const theoremNumbers = {};
-    theorems.forEach((thm, index) => {
-        if (thm.id) {
-            theoremNumbers[thm.id] = index + 1;
-        }
+
+    // Process each type separately for separate numbering
+    theoremTypes.forEach(type => {
+        const elements = document.querySelectorAll(`.${type}`);
+        elements.forEach((element, index) => {
+            if (element.id) {
+                theoremNumbers[element.id] = index + 1;
+            }
+        });
     });
 
     // Update all theorem references
@@ -30,8 +35,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const targetId = link.getAttribute('href').substring(1);
         if (theoremNumbers[targetId]) {
             const target = document.getElementById(targetId);
-            const type = target.className.charAt(0).toUpperCase() + target.className.slice(1);
-            link.textContent = `${type} ${theoremNumbers[targetId]}`;
+            // Find which theorem type this element is
+            const matchingType = theoremTypes.find(type => target.classList.contains(type));
+            if (matchingType) {
+                const type = matchingType.charAt(0).toUpperCase() + matchingType.slice(1);
+                link.textContent = `${type} ${theoremNumbers[targetId]}`;
+            }
         }
     });
 });

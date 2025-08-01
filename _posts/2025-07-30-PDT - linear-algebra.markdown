@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Thu Jul 31 03:13:14 PDT 2025
+last_modified_at: Fri Aug  1 03:08:33 PDT 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -62,6 +62,7 @@ and is denoted by <span class="notation">$F$</span>.
 \newcommand{\sign}{\mathop{\bf sign}}
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 \newcommand{\lspan}[1]{\langle{#1}\rangle} % linear span
+\newcommand{\image}{\text{Im}}
 		a+b
 	$$
 	</span>
@@ -407,7 +408,7 @@ any linearly independent set of vectors can be extended to a basis.
 ## Subspaces
 
 <div class="definition">
-A subspace $W$ of a vector space $V$
+A <span class="define">subspace</span> $W$ of a vector space $V$
 is a nonempty subset of $V$ which is itself a vector space
 with respect to the operations of addition and scalar multiplication
 defined in $V$.
@@ -467,7 +468,7 @@ If two subspaces $U$ and $W$ of a vector space $V$ have the same finite dimensio
 then $U=W$.
 </div>
 
-<div class="theorem">
+<div class="theorem" id="theorem:dimension-of-sum-of-subspaces">
 For two subspaces $W_1$ and $W_2$ of a finite dimensional vector space $V$,
 $$
 \dim (W_1 + W_2) = \dim W_1 + \dim W_2 - \dim (W_1 \cap W_2).
@@ -565,7 +566,13 @@ Such an isomorphism, dependent upon the arbitrary choice of bases, is not canoni
 
 <div class="theorem">
 For a linear transformation $\sigma: U\to V$,
-$\sigma(U)$ is a subspace of $V$.
+$\sigma(U)=\{\sigma(u)|u \in U\}\subset V$ is a subspace of $V$.
+</div>
+
+<div class="definition">
+For a linear transformation $\sigma: U\to V$,
+the subspace $\sigma(U)$ is called the <span class="define">image</span> of $\sigma$,
+and denoted by <span class="notation">$\image(\sigma)$</span>.
 </div>
 
 <div class="corollary">
@@ -577,7 +584,9 @@ $\sigma(W)$ is a subspace of $V$.
 <div class="definition">
 The <span class="define">rank</span>
 of a linear transformation $\sigma: U\to V$
-is defined by the dimension of the subspace $\sigma(U)\subset V$,
+is defined by the dimension of the image of $\sigma$,
+<i>i.e.</i>,
+$\dim \image(\sigma)$,
 denoted by <span class="notation">$\rho(\sigma)$</span>.
 </div>
 
@@ -631,10 +640,151 @@ $$
 $$
 </div>
 
-<div class="theorem">
+<div class="theorem" id="theorem:isomorphism-of-vector-spaces-with-same-finite-dimension">
 For two vector spaces $U$ and $V$ with $\dim U = \dim V < \infty$,
 a linear transformation $\sigma: U\to V$
 is isomorphism if and only if it is epimorphism if and only if it is monomorphism.
+</div>
+
+<div class="corollary" id="sdf">
+<a href="#theorem:isomorphism-of-vector-spaces-with-same-finite-dimension"></a>
+implies
+a linear transformation $\sigma$ of $U$ into $V$
+is an isomorphism if two of the following are satisfied.
+<ul>
+<li>
+$\dim U = \dim V$
+</li>
+<li>
+$\sigma$ is an epimorphism
+</li>
+<li>
+$\sigma$ is a monomorphism
+</li>
+</ul>
+</div>
+
+<div class="theorem" id="theorem:dimension-of-composite">
+For three vector spaces $U$, $V$, and $W$ over a field $F$,
+and linear transformations $\sigma: U\to V$ and $\tau: V \to W$,
+$$
+\rho(\sigma) = \rho(\tau\sigma) + \dim \{\image(\sigma)\cap K(\tau)\}.
+$$
+</div>
+
+<div class="corollary">
+For three vector spaces $U$, $V$, and $W$ over a field $F$,
+and linear transformations $\sigma: U\to V$ and $\tau: V \to W$,
+$$
+\rho(\tau\sigma) = \dim \{\image(\sigma) + K(\tau)\} - \nu(\tau).
+$$
+</div>
+
+<div class="proof">
+<a href="#theorem:dimension-of-sum-of-subspaces"></a>
+and
+<a href="#theorem:dimension-of-composite"></a>
+imply
+$$
+\begin{eqnarray*}
+\dim \{\image(\sigma) + K(\tau)\}
+	&=&
+		\dim \image(\sigma)
+		+
+		\dim K(\tau)
+		-
+		\dim \{\image(\sigma) \cap K(\tau)\}
+\\
+	&=&
+		\rho(\sigma) + \nu(\tau) - (\rho(\sigma) - \rho(\tau \sigma))
+	=
+		\nu(\tau) + \rho(\tau \sigma),
+\end{eqnarray*}
+$$
+hence the proof!
+</div>
+
+<div class="corollary">
+If $K(\tau) \subset \image(\sigma)$, $\rho(\sigma) = \rho(\tau\sigma) + \nu(\tau)$.
+</div>
+
+<div class="theorem">
+The rank of a product (<i>i.e.</i>, composition) of two linear transformations
+is less than  or equal to the rank of either factor:
+$$
+\rho(\tau\sigma) \leq \min\{\rho(\tau), \rho(\sigma)\}
+$$
+</div>
+
+<div class="theorem">
+If $\sigma$ is an epimorphism, $\rho(\tau\sigma) = \rho(\tau)$.
+If $\tau$ is a monomorphism, $\rho(\tau\sigma) = \rho(\sigma)$.
+</div>
+
+<div class="corollary">
+The rank of a linear transformation is not changed by
+multiplication by an isomorphism (on either side).
+</div>
+
+<div class="theorem">
+$\sigma$ is an epimorphism if and only if $\tau\sigma = 0$ implies $\tau=0$.
+$\tau$ is a monomorphism if and only if $\tau\sigma = 0$ implies $\sigma=0$.
+</div>
+
+<div class="corollary">
+$\sigma$ is an epimorphism if and only if $\tau_1\sigma = \tau_2\sigma$ implies $\tau_1=\tau_2$.
+$\tau$ is a monomorphism if and only if $\tau\sigma_1 = \tau\sigma_2$ implies $\sigma_1=\sigma_2$.
+</div>
+
+<div class="theorem">
+For any basis of $U$, $\{a_1,\ldots,a_n\}$
+and
+for any $n$ vectors $b_1, \ldots, b_n\in V$ (not necessarily linearly independent),
+there exists a uniquely determined linear transformations $\sigma: U \to V$
+such that $\sigma(a_i)=b_i$ for all $1\leq i\leq n$.
+</div>
+
+<div class="theorem">
+For any $r$ linearly independent vectors in a finite dimensional vector space $U$, $\{u_1,\ldots,u_r\}$
+and
+for any $r$ vectors $v_1, \ldots, v_r\in V$ (not necessarily linearly independent),
+any
+of $U$, $\{a_1,\ldots,a_n\}$,
+there exists a (not necessarily unique) linear transformation of $\sigma:U \to V$
+such that $\sigma(u_i)=v_i$ for all $1\leq i\leq r$.
+</div>
+
+<div class="theorem">
+A linear transformation $\pi$ of a vector space into itself with the property that $\pi^2 = \pi$ is called
+<span class="define">projection</span>.
+</div>
+
+<div class="theorem">
+If $\pi$ is a projection of $V$ into itself,
+then
+$$
+V = \image(\pi) \oplus K(\pi)
+$$
+and $\pi$ acts like the identity on $\image(\pi)$.
+</div>
+
+<div class="proof">
+For any $v\in V$,
+let $v_1 = \pi(v)\in V$.
+Let $v_2 = v-v_1$,
+then $\pi(v_2) = \pi(v) - \pi(v_1) = v_1 - v_1 = 0$,
+hence $v_2\in K(\pi)$.
+Therefore $v_2 \in K(\pi)$,
+hence $v \in \image(\pi) + K(\pi)$,
+thus $V\subset \image(\pi) + K(\pi)$.
+Hence, we conclude that $V=\image(\pi) + K(\pi)$.
+
+Now let $x\in \image(\pi) \cap K(\pi)$.
+Then there exists $y\in V$ such that $x=\pi(y)$,
+thus $0=\pi(x) = \pi^2(y) = \pi(y) = x$.
+Therefore $\image(\pi) \cap K(\pi) = \{0\}$.
+
+Therefore $V$ is a direct sum of $\image(\pi)$ and $K(\pi)$.
 </div>
 
 <!--
