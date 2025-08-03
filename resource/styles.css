@@ -28,7 +28,7 @@ body {
 	color: #222;
 	/* text-align: justify; */
 
-	counter-reset: theorem lemma corollary proposition conjecture inequality definition;
+	counter-reset: theorem lemma corollary proposition conjecture inequality definition algorithm;
 }
 
 .theorem { counter-increment: theorem; }
@@ -38,14 +38,15 @@ body {
 .conjecture { counter-increment: conjecture; }
 .inequality { counter-increment: inequality; }
 .definition { counter-increment: definition; }
+.algorithm { counter-increment: algorithm; }
 
-.theorem, .lemma, .corollary, .proposition, .conjecture, .inequality, .definition, .proof {
+.theorem, .lemma, .corollary, .proposition, .conjecture, .inequality, .definition, .algorithm, .proof {
   margin: 0 0 1em 0;
   font-weight: normal;
 }
 
 .theorem::before, .lemma::before, .corollary::before,
-.proposition::before, .conjecture::before, .inequality::before, .definition::before,
+.proposition::before, .conjecture::before, .inequality::before, .definition::before, .algorithm::before,
 .proof:before {
   font-weight: bold;
 }
@@ -58,6 +59,7 @@ body {
 .conjecture::before { content: "Conjecture " counter(conjecture) ". "; }
 .inequality::before { content: "Inequality " counter(inequality) ". "; }
 .definition::before { content: "Definition " counter(definition) ". "; color: blue; }
+.algorithm::before { content: "Algorithm " counter(algorithm) ". "; color: #fa9d00; }
 .proof::before { content: "Proof."; color: #ed2939; }
 
 /* Individual labels WITH data-name */
@@ -68,6 +70,7 @@ body {
 .conjecture[data-name]::before { content: "Conjecture " counter(conjecture) ". [" attr(data-name) "] "; }
 .inequality[data-name]::before { content: "Inequality " counter(inequality) ". [" attr(data-name) "] "; }
 .definition[data-name]::before { content: "Definition " counter(definition) ". [" attr(data-name) "] "; color: blue; }
+.algorithm[data-name]::before { content: "Algorithm " counter(algorithm) ". [" attr(data-name) "] "; color: #fa9d00; }
 
 @font-face {
     font-family: "PrettyKorean";
@@ -240,6 +243,16 @@ figcaption {
 
 .eemph {
 	color: rgb(86%, 8%, 24%);
+	font-style: italic;
+}
+
+.fact-font {
+	color: #32cd32;
+	font-style: italic;
+}
+
+.name-font {
+	color: rgb(210, 105, 30);
 	font-style: italic;
 }
 
