@@ -1,19 +1,30 @@
 %
-\newcommand{\naturals}{\mathbb{N}}
-\newcommand{\integers}{\mathbb{Z}}
-\newcommand{\rationals}{\mathbb{Q}}
-\newcommand{\reals}{\mathbb{R}}
-\newcommand{\preals}{\mathbb{R}_+}
-\newcommand{\prealk}[1]{\reals_{+}^{#1}}
-\newcommand{\ppreals}{\mathbb{R}_{++}}
-\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
-\newcommand{\complexes}{\mathbb{C}}
-\newcommand{\dom}{\mathop{\bf dom {}}}
-\newcommand{\field}{\mathbb{F}}
-\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
+\newcommand{\algA}{\algk{A}}
+\newcommand{\algC}{\algk{C}}
 \newcommand{\bigtimes}{\times}
 \newcommand{\compl}[1]{\tilde{#1}}
+\newcommand{\complexes}{\mathbb{C}}
+\newcommand{\dom}{\mathop{\bf dom {}}}
+\newcommand{\ereals}{\reals\cup\{-\infty,\infty\}}
+\newcommand{\field}{\mathbb{F}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\lbdseqk}[1]{\seqk{\lambda}{#1}}
+\newcommand{\meas}[3]{({#1}, {#2}, {#3})}
+\newcommand{\measu}[2]{({#1}, {#2})}
+\newcommand{\meast}[3]{\left({#1}, {#2}, {#3}\right)}
+\newcommand{\naturals}{\mathbb{N}}
+\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
+\newcommand{\pair}[2]{\langle {#1}, {#2}\rangle}
+\newcommand{\rationals}{\mathbb{Q}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
 \newcommand{\powerset}{\mathcal{P}}
+\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
+\newcommand{\ppreals}{\mathbb{R}_{++}}
+\newcommand{\prealk}[1]{\reals_{+}^{#1}}
+\newcommand{\preals}{\mathbb{R}_+}
+\newcommand{\tXJ}{\topos{X}{J}}
+%
 \newcommand{\relint}{\mathop{\bf relint {}}}
 \newcommand{\boundary}{\mathop{\bf bd {}}}
 \newcommand{\subsetset}[1]{\mathcal{#1}}
@@ -78,8 +89,8 @@
 \newcommand{\sdirlbd}{\sdirletter{\lambda}{\Delta \lambda}}
 \newcommand{\sdir}{\sdirletter{x}{v}}
 \newcommand{\seqk}[2]{#1^{(#2)}}
+\newcommand{\seqscr}[3]{\seq{#1}_{#2}^{#3}}
 \newcommand{\xseqk}[1]{\seqk{x}{#1}}
-\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
 \newcommand{\sdirk}[1]{\seqk{\sdir}{#1}}
 \newcommand{\sdiry}{\sdirletter{y}{\Delta y}}
 \newcommand{\slen}{t}
@@ -95,6 +106,7 @@
 %
 \newcommand{\algk}[1]{\mathalgfont{#1}}
 \newcommand{\collk}[1]{\mathcalfont{#1}}
+\newcommand{\classk}[1]{\collk{#1}}
 \newcommand{\indexedcol}[1]{\{#1\}}
 \newcommand{\rel}{\mathbf{R}}
 \newcommand{\relxy}[2]{#1\;\rel\;{#2}}
@@ -145,4 +157,7 @@
 \newcommand\optfeasset{\mathcalfont{F}}
 %
 \newcommand{\bigpropercone}{\mathcalfont{K}}
+%
+\newcommand{\prescript}[3]{\;^{#1}{#3}}
+%
 %
