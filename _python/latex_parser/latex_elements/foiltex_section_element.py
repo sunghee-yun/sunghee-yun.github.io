@@ -26,6 +26,10 @@ class FoiltexSectionElement(TokenElement):
             return "\n\n"
 
         assert len(self.token.title) > 0
+
+        if self.level >= 3:
+            return f"\n<h{self.level}>" + f"{self.token.title}</h{self.level}>\n"
+
         return (
             f'\n<h{self.level} id="{self.token.label}">' + f"{self.token.title}</h{self.level}>\n"
         )
