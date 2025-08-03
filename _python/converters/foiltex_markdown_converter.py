@@ -3,7 +3,7 @@ foiltex to markdown converter
 """
 
 import os
-from datetime import datetime
+import time
 from logging import Logger, getLogger
 from pathlib import Path
 
@@ -65,7 +65,7 @@ class LaTeXToMarkdownConverter:
         front_matter_ = {
             "title": self.config.title,
             "date": self.config.date,
-            "last_modified_at": datetime.now().strftime("%a %b %d %H:%M:%S %Z %Y"),
+            "last_modified_at": time.strftime("%a %b %_d %H:%M:%S %Z %Y"),
             "permalink": self.config.permalink,
             "categories": self.config.categories,
             "tags": self.config.tags,
