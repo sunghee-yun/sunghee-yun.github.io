@@ -1,0 +1,25 @@
+"""
+- \\end{myaxiom}
+- \\end{mylaw}
+- \\end{myprinciple}
+- \\end{mydefinition}
+- \\end{mytheorem}
+- \\end{mylemma}
+- \\end{myproposition}
+- \\end{mycorollary}
+- \\end{myconjecture}
+- \\end{myinequality}
+- \\end{myformula}
+- \\end{myalgorithm}
+"""
+
+from latex_parser.tokenizers.tokens.keyword_base import KeywordBase
+
+
+class EndTheoremLikeToken(KeywordBase):
+    num_instances: int = 0
+
+    def __init__(self, string: str, line_num: int, env_name: str) -> None:
+        super().__init__(string, line_num)
+        self.env_name: str = env_name
+        EndTheoremLikeToken.num_instances += 1

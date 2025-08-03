@@ -1,0 +1,1911 @@
+\documentclass[17pt,landscape]{foils}
+\TITLEFOIL{AAA}{BBB}
+\newcommand\pdfpsfrag{no}
+\newcommand\foiltex{yes}
+\newcommand\showincomplete{no}
+\def\allslides{yes}
+\newcommand{\isp}{\item}
+\input{../../FrequentlyUsed/latex/mydefs}
+\def\trig{no}
+\def\probstat{no}
+\def\mathfontexamples{no}
+\def\preamble{yes}
+\def\stories{yes}
+\ifthenelse{\boolean{true}}{
+\def\algebra{yes}
+\def\aalgebra{yes}
+\def\meastheory{yes}
+\def\topspaces{yes}
+\def\absmeas{yes}
+\def\measprob{yes}
+\def\cvxopt{yes}
+\def\sproof{yes}
+\def\ynindex{yes}
+}{
+\def\preamble{no}
+\def\trig{no}
+\def\stories{no}
+\def\algebra{no}
+\def\aalgebra{yes}
+\def\meastheory{no}
+\def\topspaces{no}
+\def\absmeas{no}
+\def\measprob{no}
+\def\cvxopt{no}
+\def\sproof{yes}
+\def\ynindex{yes}
+}
+\def\titlepostfix{}
+\def\ranalysis{no}
+\newcounter{numsectionsforwhichproofexists}
+\hypersetup{
+colorlinks = true,
+linkcolor = [rgb]{0, .5, 1.},
+linkbordercolor = {white},
+}
+\usepackage[normalem]{ulem}
+\usepackage{mathtools}
+\usepackage{algpseudocode}
+\newcommand\bitem{\item [$\because$]}
+\newcommand\normal{\mathcalfont{N}}
+\newcommand\coll{\collk{C}}
+\newcommand\collB{\collk{B}}
+\newcommand\collF{\collk{F}}
+\newcommand\collG{\collk{G}}
+\newcommand\openconv{\collk{U}}
+\newcommand{\alg}{\algk{A}}
+\newcommand{\algA}{\algk{A}}
+\newcommand{\algB}{\algk{B}}
+\newcommand{\algC}{\algk{C}}
+\newcommand{\algF}{\algk{F}}
+\newcommand{\algR}{\algk{R}}
+\newcommand{\algX}{\algk{X}}
+\newcommand{\algY}{\algk{Y}}
+\newcommand{\tXJ}{\topos{X}{J}}
+\newcommand{\tJ}{\topol{J}}
+\newcommand{\tS}{\topol{S}}
+\newcommand\funpageref[1]{-~\pageref{#1}}
+\newcommand\funhyperrefnotstarted[2]{\ifthenelse{\equal{#2}{}}{
+\textcolor{tiffanyblue}{#1}
+}{
+\textcolor{tiffanyblue}{#1}~\funpageref{#2}
+}}
+\newcommand\funhyperref[2]{
+\hyperref[#2]{#1}~\funpageref{#2}
+}
+\newcommand\tocpageref[1]{-~\pageref{#1}}
+\newcommand\tochyperref[2]{
+\hyperref[#2]{#1}~\tocpageref{#2}
+}
+\newcommand\refertocounterpartmessage[2]{\vitem [] \hspace{-1.0em}(refer to page~\pageref{#2}\ for {#1} counterpart)}
+\newcommand\refertocounterpart[2]{
+\ifthenelse{
+\equal{#1}{abstract}
+\or
+\equal{#1}{Lebesgue}
+\or
+\equal{#1}{normed spaces}
+\or
+\equal{#1}{complete measure spaces}
+}{
+\refertocounterpartmessage{#1}{#2}
+}{
+\errmessage{{#1} should be either 'abstract' or 'Lebesgue' or 'normed spaces' or 'complete measure spaces'}
+}
+}
+\def\talkdate{\today}
+\def\talktitle{\hyperref[page:toc]{Searching for Universal Truths}}
+\MyLogo{\talktitle}
+\rightfooter{\quad\textsf{\thepage}}
+\leftheader{Sunghee Yun}
+\rightheader{\talkdate}
+\newcommand\diagtrirud[6]{
+\begin{array}{lcr}
+{#1}& \overset{#2}{\longrightarrow} &{#3}
+\\%
+{}_{#6}\searrow&&\nearrow{}_{#4}
+\\%
+&{#5}&
+\end{array}
+}
+\newcommand\diagtriruu[6]{
+\begin{array}{lcr}
+{#1}& \overset{#2}{\longrightarrow} &{#3}
+\\%
+{}_{#6}\nwarrow&&\nearrow{}_{#4}
+\\%
+&{#5}&
+\end{array}
+}
+\newcommand\diagsquare[8]{
+\begin{array}{rccl}
+{#1}&\overset{#2}{\longrightarrow}&{#3}\ \ \ \
+\\%
+{}_{#8}\uparrow&&\uparrow{}_{#4}
+\\%
+{#7}&\underset{#6}{\longrightarrow}&{#5}\ \ \ \
+\end{array}
+}
+\begin{document}
+\idxtodo{DONE - 2025 0414 - 1 - change mathematicians' names}
+\idxtodo{1 - convert bullet points to proper theorem, definition, lemma, corollary, proposition, etc.}
+\idxtodo{0 - apply new comma conventions}
+\idxtodo{DONE - 2024 0324 - python script for converting slides to doc}
+\idxtodo{DONE - 2024 0324 - python script extracting theorem-like list $\to$ using ``list of theorem'' functionality on doc}
+\idxtodo{DONE - 2024 0324 - python script extracting figure list $\to$ using ``list of figures'' functionality on doc}
+\idxtodo{CANCELED - $<$ 2024 0421 - python script extracting important list}
+\idxtodo{DONE - 2024 0324 - change tocpageref and funpageref to hyperlink}
+\myfoilhead{\LARGE \talktitle\notempty{\titlepostfix}{\\\LARGE\titlepostfix}{}}
+\thispagestyle{empty}
+\addtocounter{page}{-1}
+\vfill
+\vfill
+\vfill
+{\centering
+{\large \bf Sunghee Yun}\\
+sunghee.yun@gmail.com\\
+}
+\vfill
+\myfoilhead{Navigating Mathematical and Statistical Territories}
+\pagelabel{page:toc}
+\bit
+\item
+Notations \& definitions \& conventions
+\bit
+\item \tochyperref{notations}
+{page:Notations}
+\isp
+\tochyperref{some definitions}
+{page:Some definitions}
+\isp
+\tochyperref{some conventions}
+{page:Some conventions}
+\eit
+\item
+\funhyperref{Algebra}{super-title-page:algebra}
+\bit
+\item
+\funhyperref{inequalities}{title-page:Inequalities}
+\isp \funhyperref{number theory}{title-page:number-theory}
+\isp \funhyperref{trigonometric functions}{title-page:Trigonometric-functions}
+\eit
+\newcommand{\itemranalysis}{
+\item
+\funhyperref{Real analysis}{super-title-page:Real-Analysis}
+}
+\newcommand{\subitemsmeastheory}{
+\item
+\funhyperref{Lebesgue measure}{title-page:lebesgue-measure}
+\isp \funhyperref{Lebesgue measurable functions}{title-page:measurable-functions}
+\isp \funhyperref{Lebesgue integral}{title-page:lebesgue-integral}
+}
+\newcommand{\subitemstopspaces}{
+\item
+\funhyperref{space overview}{title-page:Space Overview}
+\isp \funhyperref{classical Banach spaces}{title-page:classical-banach-spaces}
+\item
+\funhyperref{metric spaces}{title-page:metric-spaces}
+\isp \funhyperref{topological spaces}{title-page:topological-spaces}
+\isp \funhyperref{compact and locally compact spaces}{title-page:Compact-and-Locally-Compact-Spaces}
+\isp \funhyperref{Banach spaces}{title-page:Banach-Spaces}
+}
+\newcommand{\subitemsgenmeas}{
+\item
+\funhyperref{measure and integration}{title-page:Measure-and-Integration}
+\isp \funhyperref{measure and outer measure}{title-page:Measure and Outer Measure}
+}
+\item
+Proof \& references \& indices
+\bit
+\item
+\ifthenelse{\equal{\value{numsectionsforwhichproofexists}}{0} \OR \equal{\sproof}{no}}{}{
+\tochyperref{selected proofs}
+{super-title-page:Proofs}
+\isp
+}
+\tochyperref{references}
+{super-title-page:References}
+\eit
+\eit
+\myfoilhead{Notations}
+\pagelabel{page:Notations}
+\bit
+\item
+sets of numbers
+\bit
+\item
+$\naturals$ - set of natural numbers
+\index{natural number}
+\index{number!natural number}
+\item
+$\integers$ - set of integers
+\index{integer}
+\index{number!integer}
+\item
+$\integers_+$ - set of nonnegative integers
+\item
+$\rationals$ - set of rational numbers
+\index{rational number}
+\index{number!rational number}
+\item
+$\reals$ - set of real numbers
+\index{real number}
+\index{number!real number}
+\item
+$\preals$ - set of nonnegative real numbers
+\item
+$\ppreals$ - set of positive real numbers
+\item
+$\complexes$ - set of complex numbers
+\index{complex number}
+\index{number!complex number}
+\eit
+\item
+sequences $\seq{x_i}$ and the like
+\index{sequence}
+\bit
+\item
+finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ whenever unambiguously understood
+\index{finite sequence}
+\index{sequence!finite sequence}
+\index{infinite sequence}
+\index{sequence!infinite sequence}
+\item
+similarly for other operations, \eg, $\sum x_i$, $\prod x_i$, $\cup A_i$, $\cap A_i$, $\bigtimes A_i$
+\item
+similarly for integrals, \eg, $\int f$ for $\int_{-\infty}^\infty f$
+\eit
+\item
+sets
+\bit
+\item
+$\compl{A}$ - complement of $A$
+\index{complement!set}
+\index{set!complement}
+\item
+$A\sim B$ - $A\cap \compl{B}$
+\index{difference!set}
+\index{set!difference}
+\item
+$A\Delta B$ - $(A\cap \compl{B}) \cup (\compl{A} \cap B)$
+\item
+$\powerset(A)$ - set of all subsets of $A$
+\eit
+\item
+sets in metric vector spaces
+\bit
+\item
+\closure{A} - closure of set $A$
+\index{closure!set}
+\index{set!closure}
+\item
+\interior{A} - interior of set $A$
+\index{interior!set}
+\index{set!interior}
+\item
+$\relint A$ - relative interior of set $A$
+\index{relative interior!set}
+\index{set!relative interior}
+\item
+$\boundary A$ - boundary of set $A$
+\index{boundary!set}
+\index{set!boundary}
+\eit
+\item
+set algebra
+\bit
+\item
+$\sigma(\subsetset{A})$ - $\sigma$-algebra generated by \subsetset{A},
+\ie, smallest $\sigma$-algebra containing \subsetset{A}
+\index{smallest $\sigma$-algebra containing subsets}
+\eit
+\item
+norms in $\reals^n$
+\index{vector!norm}
+\index{norm!vector}
+\bit
+\item
+$\|x\|_p$ ($p\geq1$) - $p$-norm of $x\in\reals^n$, \ie, $(|x_1|^p + \cdots + |x_n|^p)^{1/p}$
+\item
+\eg, $\|x\|_2$ - Euclidean norm
+\eit
+\item
+matrices and vectors
+\bit
+\item $a_{i}$ - $i$-th entry of vector $a$
+\item $A_{ij}$ - entry of matrix $A$ at position $(i,j)$,
+\ie, entry in $i$-th row and $j$-th column
+\item $\Tr(A)$ - trace of $A \in\reals^{n\times n}$,
+\ie, $A_{1,1}+ \cdots + A_{n,n}$
+\index{matrix!trace}
+\index{trace!matrix}
+\eit
+\item
+symmetric, positive definite, and positive semi-definite matrices
+\bit
+\item
+$\symset{n}\subset \reals^{n\times n}$ - set of symmetric matrices
+\index{symmetric matrix}
+\index{matrix!symmetric}
+\item
+$\possemidefset{n}\subset \symset{n}$ - set of positive semi-definite matrices;
+$A\succeq0 \Leftrightarrow A \in \possemidefset{n}$
+\index{positive semi-definite matrix}
+\index{matrix!positive semi-definite}
+\item
+$\posdefset{n}\subset \symset{n}$ - set of positive definite matrices;
+$A\succ0 \Leftrightarrow A \in \posdefset{n}$
+\index{positive definite matrix}
+\index{matrix!positive definite}
+\eit
+\item
+sometimes,
+use Python script-like notations
+(with serious abuse of mathematical notations)
+\bit
+\item
+use $f:\reals\to\reals$ as if it were $f:\reals^n \to \reals^n$,
+\eg,
+$$
+\exp(x) = (\exp(x_1), \ldots, \exp(x_n)) \quad \mbox{for } x\in\reals^n
+$$
+and
+$$
+\log(x) = (\log(x_1), \ldots, \log(x_n)) \quad \mbox{for } x\in\ppreals^n
+$$
+which corresponds to Python code {\tt numpy.exp(x)} or {\tt numpy.log(x)}
+where {\tt x} is instance of {\tt numpy.ndarray}, \ie, {\tt numpy} array
+\item
+use $\sum x$ to mean $\ones^T x$ for $x\in\reals^n$,
+\ie\
+$$
+\sum x = x_1 + \cdots + x_n
+$$
+which corresponds to Python code {\tt x.sum()}
+where {\tt x} is {\tt numpy} array
+\item
+use $x/y$ for $x,y\in\reals^n$ to mean
+$$
+\rowvecthree{x_1/y_1}{\cdots}{x_n/y_n}^T
+$$
+which corresponds to Python code {\tt x / y}
+where {\tt x} and {\tt y} are $1$-d {\tt numpy} arrays
+\item
+use $X/Y$ for $X,Y\in\reals^{m\times n}$ to mean
+$$
+\begin{my-matrix}{cccc}
+X_{1,1}/Y_{1,1} & X_{1,2}/Y_{1,2} & \cdots & X_{1,n}/Y_{1,n}
+\\
+X_{2,1}/Y_{2,1} & X_{2,2}/Y_{2,2} & \cdots & X_{2,n}/Y_{2,n}
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+X_{m,1}/Y_{m,1} & X_{m,2}/Y_{m,2} & \cdots & X_{m,n}/Y_{m,n}
+\end{my-matrix}
+$$
+which corresponds to Python code {\tt X / Y}
+where {\tt X} and {\tt Y} are $2$-d {\tt numpy} arrays
+\eit
+\eit
+\vfill
+\myfoilhead{Some definitions}
+\pagelabel{page:Some definitions}
+\begin{mydefinition}{infinitely often - i.o.}
+\index{infinitely often}
+\index{i.o.!infinitely often}
+statement $P_n$, said to happen \define{infinitely often} or \define{i.o.} if
+$$
+\left(
+\forall N\in\naturals
+\right)
+\left(
+\exists n > N
+\right)
+\left(
+P_n
+\right)
+$$
+\end{mydefinition}
+\vfill
+\begin{mydefinition}{almost everywhere - a.e.}
+\index{almost everywhere}
+\index{a.e.!almost everywhere}
+\index{almost surely}
+\index{a.s.!almost surely}
+statement $P(x)$,
+said to happen \define{almost everywhere} or \define{a.e.} or \define{almost surely} or \define{a.s.}\
+(depending on context)
+associated with
+measure space \meas{X}{\algB}{\mu}\
+if
+$$
+\mu \set{x}{P(x)} = 1
+$$
+or equivalently
+$$
+\mu \set{x}{\sim P(x)} = 0
+$$
+\end{mydefinition}
+\vfill
+\myfoilhead{Some conventions}
+\pagelabel{page:Some conventions}
+\bit
+\item
+(for some subjects) use following conventions
+\bit
+\vitem
+$0\cdot \infty = \infty \cdot 0 = 0$
+\vitem
+$(\forall x\in\ppreals)(x\cdot \infty = \infty \cdot x = \infty)$
+\vitem
+$\infty \cdot \infty = \infty$
+\eit
+\eit
+\vfillfi
+\TITLEFOIL{Algebra}{algebra}
+\nocite{HLP:52}
+\titlefoil{Inequalities}{Inequalities}
+\myfoilhead{Jensen's inequality}
+\bit
+\item
+strictly convex function: for any $x\neq y$ and $0< \alpha <1$
+\index{convex functions}
+\index{convex functions!strictly}
+(\definitionname~\ref{definition:convex functions})
+\[
+\alpha f(x) + (1-\alpha) f(y) > f(\alpha x + (1-\alpha) y)
+\]
+\item convex function: for any $x, y$ and $0< \alpha <1$
+\index{convex functions}
+(\definitionname~\ref{definition:convex functions})
+\[
+\alpha f(x) + (1-\alpha) f(y) \geq f(\alpha x + (1-\alpha) y)
+\]
+\eit
+\begin{myinequality}{Jensen's inequality - for finite sequences}
+\index{Jensen's inequality!for finite sequences}
+\index{Jensen, Johan Ludwig William Valdemar!Jensen's inequality!for finite sequences}
+for convex function $f$ and \emph{distinct} $x_i$
+and $0< \alpha_i <1$ with $\alpha_1 + \cdots = \alpha_n=1$
+\index{Jensen's inequality}
+\index{inequalities!Jensen's inequality}
+\index{Jensen, Johan Ludwig William Valdemar!inequality}
+\[
+\alpha_1 f(x_1) + \cdots + \alpha_n f(x_n) \geq f(\alpha_1 x_1 + \cdots + \alpha_n x_n)
+\]
+\bit
+\item
+if $f$ is strictly convex, equality holds \iaoi\ $x_1=\cdots=x_n$
+\eit
+\end{myinequality}
+\myfoilhead{Jensen's inequality - for random variables}
+\bit
+\item
+discrete random variable interpretation of Jensen's inequality in summation form - assume $\Prob(X=x_i) = \alpha_i$, then
+\[
+\Expect f(X)
+=
+\alpha_1 f(x_1) + \cdots + \alpha_n f(x_n)
+\geq
+f(\alpha_1 x_1 + \cdots + \alpha_n x_n)
+=
+f\left(\Expect X\right)
+\]
+\vitem true for any random variables $X$
+\eit
+\vfill
+\begin{myinequality}{Jensen's inequality - for random variables}
+\index{Jensen's inequality!for random variables}
+\index{Jensen, Johan Ludwig William Valdemar!Jensen's inequality!for random variables}
+for random vector $X$ (page~\pageref{page:random-variables} for definition)
+\[
+\Expect f(X) \geq f(\Expect X)
+\]
+if probability density function (PDF) $p_X$ given,
+\[
+\int f(x) p_X(x) dx \geq f\left(\int x p_X(x) dx\right)
+\]
+\end{myinequality}
+\vfill
+\myfoilhead{Proof for $n=3$}
+\bit
+\item for any $x,y,z$ and $\alpha,\beta,\gamma>0$ with $\alpha + \beta + \gamma = 1$
+\begin{eqnarray*}
+\alpha f(x) + \beta f(y) + \gamma f(z)
+&=&
+(\alpha+\beta)\left(\frac{\alpha}{\alpha+\beta} f(x) + \frac{\beta}{\alpha + \beta} f(y)\right) + \gamma f(z)
+\\
+&\geq&
+(\alpha+\beta)f\left(\frac{\alpha}{\alpha+\beta} x + \frac{\beta}{\alpha + \beta} y\right) + \gamma f(z)
+\\
+&\geq&
+f\left((\alpha+\beta)\left(\frac{\alpha}{\alpha+\beta} x + \frac{\beta}{\alpha + \beta} y\right) + \gamma z \right)
+\\
+&=&
+f(\alpha x + \beta y + \gamma z )
+\end{eqnarray*}
+\eit
+\myfoilhead{Proof for all $n$}
+\bit
+\item
+use mathematical induction
+\bit
+\vitem
+assume that Jensen's inequality holds for $1\leq n\leq m$
+\vitem
+for distinct $x_i$ and $\alpha_i>0$ ($1\leq i\leq m+1$) with $\alpha_1 + \cdots + \alpha_{m+1} = 1$
+\begin{eqnarray*}
+\sum^{m+1}_{i=1} \alpha_i f(x_i)
+&=&
+\left(\sum^m_{j=1} \alpha_j\right) \sum^m_{i=1} \left(\frac{\alpha_i}{\sum^m_{j=1} \alpha_j} f(x_i)\right) + \alpha_{m+1} f(x_{m+1})
+\\
+&\geq&
+\left(\sum^m_{j=1} \alpha_j\right) f\left(\sum^m_{i=1} \left(\frac{\alpha_i}{\sum^m_{j=1} \alpha_j} x_i\right)\right) + \alpha_{m+1} f(x_{m+1})
+\\
+&=&
+\left(\sum^m_{j=1} \alpha_j\right) f\left(\frac{1}{\sum^m_{j=1} \alpha_j}\sum^m_{i=1} {\alpha_i}{} x_i\right) + \alpha_{m+1} f(x_{m+1})
+\\
+&\geq&
+f\left( \sum^m_{i=1} \alpha_i x_i + \alpha_{m+1} x_{m+1}\right)
+=
+f\left( \sum^{m+1}_{i=1} \alpha_i x_i \right)
+\end{eqnarray*}
+\eit
+\eit
+\myfoilhead{1st and 2nd order conditions for convexity}
+\bit
+\item 1st order condition (assuming differentiable $f:\reals\to\reals$)
+- $f$ is strictly convex \iaoi\ for any $x\neq y$
+\index{convex functions!first order condition}
+\[
+f(y) > f(x) + f'(x)(y-x)
+\]
+\vitem 2nd order condition (assuming twice-differentiable $f:\reals\to\reals$)
+\index{convex functions!second order condition}
+\bit
+\vitem if $f''(x)>0$, $f$ is strictly convex
+\vitem $f$ is convex \iaoi\ for any $x$
+\[
+f''(x) \geq 0
+\]
+\eit
+\eit
+\vfill
+\myfoilhead{Jensen's inequality examples}
+\bit
+\item $f(x)=x^2$ is strictly convex
+\[
+\frac{a^2 + b^2}{2}
+\geq
+\left(\frac{a+b}{2}\right)^2
+\]
+\vitem $f(x)=x^4$ is strictly convex
+\[
+\frac{a^4 + b^4}{2}
+\geq
+\left(\frac{a+b}{2}\right)^4
+\]
+\vitem $f(x)=\exp(x)$ is strictly convex
+\[
+\frac{\exp(a) + \exp(b)}{2}
+\geq
+\exp\left(\frac{a+b}{2}\right)
+\]
+\vvitem equality holds \iaoi\ $a=b$ for all inequalities
+\eit
+\myfoilhead{1st and 2nd order conditions for convexity - vector version}
+\bit
+\vitem
+1st order condition (assuming differentiable $f:\reals^n\to\reals$)
+- $f$ is strict convex \iaoi\ for any $x,y$
+\index{convex functions!first order condition!vector functions}
+\[
+f(y) > f(x) + \nabla f(x)^T (y-x)
+\]
+where $\nabla f(x) \in\reals^{n}$ with $\nabla f(x)_{i} = \partial f(x) / \partial x_i$
+\vitem
+2nd order condition (assuming twice-differentiable $f:\reals^n\to\reals$)
+\index{convex functions!second order condition!vector functions}
+\bit
+\vitem
+if $\nabla^2 f(x) \succ 0$, $f$ is strictly convex
+\vitem
+$f$ is convex \iaoi\ for any $x$
+\[
+\nabla^2 f(x)\succeq 0
+\]
+\eit
+where $\nabla^2 f(x) \in\reals^{n\times n}$
+is Hessian matrix of $f$ evaluated at $x$,
+\ie,
+$\nabla^2 f(x)_{i,j} = \partial^2 f(x) / \partial x_i \partial x_j$
+\eit
+\vfill
+\myfoilhead{Jensen's inequality examples - vector version}
+\bit
+\item assume $f:\reals^n\to\reals$
+\vitem $f(x)=\|x\|_2 = \sqrt{\sum x_i^2}$ is strictly convex
+\[
+(\|a\|_2 + 2\|b\|_2 )/3
+\geq
+\left\|(a+2b)/3\right\|_2
+\]
+\bit
+\item equality holds \iaoi\ $a=b\in\reals^n$
+\eit
+\vitem $f(x)=\|x\|_p = \left(\sum |x_i|^p\right)^{1/p}$ ($p>1$) is strictly convex
+\[
+\frac{1}{k}
+\left(\sum_{i=1}^k\|x^{(i)}\|_p \right)
+\geq
+\left\|\frac{1}{k}\sum_{i=1}^k x^{(i)}\right\|_p
+\]
+\bit
+\item equality holds \iaoi\ $x^{(1)}=\cdots=x^{(k)}\in\reals^n$
+\eit
+\eit
+\myfoilhead{AM $\geq$ GM}
+\bit
+\item
+for all $a,b>0$
+\[
+\frac{a + b}{2} \geq \sqrt{ab}
+\]
+\bit
+\item
+equality holds if and only if $a=b$
+\eit
+\vitem
+below most general form holds
+\eit
+\begin{myinequality}{AM-GM inequality}
+for any $n$ $a_i>0$ and $\alpha_i>0$ with $\alpha_1+\cdots+\alpha_n=1$
+\[
+\alpha_1 a_1 + \cdots + \alpha_n a_n
+\geq
+{a_1^{\alpha_1} \cdots a_n^{\alpha_n}}
+\]
+where equality holds if and only if $a_1=\cdots=a_n$
+\end{myinequality}
+\bit
+\item
+let's prove these incrementally
+(for rational $\alpha_i$)
+\eit
+\vfill
+\myfoilhead{Proof of AM $\geq$ GM - simplest case}
+\bit
+\item use fact that $x^2\geq0$ for any $x\in\reals$
+\vitem for any $a,b>0$
+\begin{eqnarray*}
+&&
+(\sqrt{a}-\sqrt{b})^2 \geq 0
+\\
+&\Leftrightarrow&
+a^2 - 2\sqrt{ab} + b^2 \geq 0
+\\
+&\Leftrightarrow&
+a + b \geq 2\sqrt{ab}
+\\
+&\Leftrightarrow&
+\frac{a + b}{2} \geq \sqrt{ab}
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $a=b$
+\eit
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - when $n=4$ and $n=8$}
+\bit
+\item for any $a,b,c,d>0$
+\[
+\frac{a+b+c+d}{4}
+\geq
+\frac{2\sqrt{ab} + 2\sqrt{cd}}{4}
+=
+\frac{\sqrt{ab} + \sqrt{cd}}{2}
+\geq
+\sqrt{\sqrt{ab} \sqrt{cd}}
+=
+\sqrt[4]{abcd}
+\]
+\bit
+\item equality holds if and only if $a=b$ and $c=d$ and $ab=cd$
+if and only if $a=b=c=d$
+\eit
+\vitem likewise, for $a_1,\ldots,a_8>0$
+\begin{eqnarray*}
+\frac{a_1+\cdots+a_8}{8}
+&\geq&
+\frac{\sqrt{a_1a_2} + \sqrt{a_3a_4} + \sqrt{a_5a_6} + \sqrt{a_7a_8}}{4}
+\\
+&\geq&
+\sqrt[4]{\sqrt{a_1a_2} \sqrt{a_3a_4} \sqrt{a_5a_6} \sqrt{a_7a_8}}
+\\
+&=&
+\sqrt[8]{a_1\cdots a_8}
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $a_1=\cdots=a_8$
+\eit
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - when $n=2^m$}
+\bit
+\item generalized to cases $n=2^m$
+\[
+\left(\sum_{a=1}^{2^m} a_i\right) / 2^m\geq \left({\prod_{a=1}^{2^m} a_i}\right)^{1/2^m}
+\]
+\bit
+\item equality holds if and only if $a_1=\cdots=a_{2^m}$
+\eit
+\vitem can be proved by \emph{mathematical induction}
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - when $n=3$}
+\bit
+\item proof for $n=3$
+\begin{eqnarray*}
+&&
+\frac{a+b+c}{3} = \frac{a + b + c + (a+b+c)/3}{4}
+\geq \sqrt[4]{abc(a+b+c)/3}
+\\
+&\Rightarrow&
+\left(\frac{a+b+c}{3}\right)^4 \geq {abc(a+b+c)/3}
+\\
+&\Leftrightarrow&
+\left(\frac{a+b+c}{3}\right)^3 \geq abc
+\\
+&\Leftrightarrow&
+\frac{a+b+c}{3} \geq \sqrt[3]{abc}
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $a=b=c=(a+b+c)/3$ if and only if $a=b=c$
+\eit
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - for all integers}
+\bit
+\item for any integer $n\neq 2^m$
+\vitem for $m$ such that $2^m>n$
+\begin{eqnarray*}
+&&
+\frac{a_1+\cdots+a_n}{n} = \frac{a_1 + \cdots + a_n + (2^m-n) (a_1+\cdots+a_n) /n}{2^m}
+\\
+&&
+\geq
+\sqrt[2^m]{a_1\cdots a_n \cdot ((a_1 + \cdots + a_n)/n)^{2^m-n}}
+\\
+&\Leftrightarrow&
+\left(\frac{a_1+\cdots+a_n}{n}\right)^{2^m}
+\geq
+{a_1\cdots a_n \cdot \left(\frac{a_1 + \cdots + a_n}{n}\right)^{2^m-n}}
+\\
+&\Leftrightarrow&
+\left(\frac{a_1+\cdots+a_n}{n}\right)^{n}
+\geq
+{a_1\cdots a_n}
+\\
+&\Leftrightarrow&
+\frac{a_1+\cdots+a_n}{n}
+\geq
+\sqrt[n]{a_1\cdots a_n}
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $a_1=\cdots=a_n$
+\eit
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - rational $\alpha_i$}
+\bit
+\item
+given $n$ positive rational $\alpha_i$,
+we can find $n$ natural numbers $q_i$
+such that
+\[
+\alpha_i = \frac{q_i}{ N}
+\]
+where $q_1+\cdots+q_n=N$
+\vitem
+for any $n$ positive $a_i\in\reals$ and positive $n$ $\alpha_i\in\rationals$ with $\alpha_1+\cdots+\alpha_n=1$
+\[
+\alpha_1 a_1 + \cdots + \alpha_n a_n
+= \frac{q_1 a_1 + \cdots + q_n a_n}{N}
+\geq \sqrt[N]{a_1^{q_1}\cdots a_n^{q_n}}
+= a_1^{\alpha_1}\cdots a_n^{\alpha_n}
+\]
+\bit
+\item
+equality holds if and only if $a_1=\cdots=a_n$
+\eit
+\eit
+\myfoilhead{Proof of AM $\geq$ GM - real $\alpha_i$}
+\bit
+\item
+exist $n$ rational sequences $\{ \beta_{i,1}, \beta_{i,2}, \ldots\}$ ($1\leq i\leq n$) such that
+\begin{eqnarray*}
+&&
+\beta_{1,j}+\cdots+\beta_{n,j}=1 \ \forall \ j\geq1
+\\
+&&
+\lim_{j\to\infty} \beta_{i,j} = \alpha_i \ \forall \ 1\leq i\leq n
+\end{eqnarray*}
+\vitem
+for all $j$
+\[
+\beta_{1,j} a_1 + \cdots + \beta_{n,j} a_n
+\geq
+a_1^{\beta_{1,j}}\cdots a_n^{\beta_{n,j}}
+\]
+hence
+\begin{eqnarray*}
+&&
+\lim_{j\to\infty} \left(\beta_{1,j} a_1 + \cdots + \beta_{n,j} a_n \right)
+\geq
+\lim_{j\to\infty} a_1^{\beta_{1,j}}\cdots a_n^{\beta_{n,j}}
+\\
+&\Leftrightarrow&
+\alpha_1 a_1 + \cdots + \alpha_n a_n
+\geq
+a_1^{\alpha_1}\cdots a_n^{\alpha_n}
+\end{eqnarray*}
+\vitem \emph{cannot} prove equality condition from above proof method
+\eit
+\myfoilhead{Proof of AM $\geq$ GM using Jensen's inequality}
+\bit
+\item
+$(-\log)$ is strictly convex function because
+\[
+\frac{d^2}{dx^2} \left(-\log(x)\right)
+= \frac{d}{dx} \left(-\frac{1}{x} \right)
+= \frac{1}{x^2} > 0
+\]
+\vitem
+Jensen's inequality implies for $a_i >0$, $\alpha_i >0$ with $\sum \alpha_i = 1$
+\begin{eqnarray*}
+-\log\left(\prod a_i^{\alpha_i}\right)
+= -\sum \log\left( a_i^{\alpha_i}\right)
+=
+\sum \alpha_i (-\log(a_i)) \geq -\log \left(\sum \alpha_i a_i\right)
+\end{eqnarray*}
+\vitem
+$(-\log)$ strictly monotonically decreases, hence $\prod a_i^{\alpha_i} \leq \sum \alpha_i a_i$,
+having just proved
+\[
+\alpha_1 a_1 + \cdots + \alpha_n a_n
+\geq
+a_1^{\alpha_1}\cdots a_n^{\alpha_n}
+\]
+where equality if and only if $a_i$ are equal
+(by Jensen's inequality's equality condition)
+\eit
+\myfoilhead{Cauchy-Schwarz inequality}
+\begin{myinequality}{Cauchy-Schwarz inequality}
+for any $a_i, b_i\in\reals$
+\index{Cauchy-Schwarz inequality}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality}
+\[
+( a_1^2 + \cdots + a_n^2 )
+( b_1^2 + \cdots + b_n^2 )
+\geq
+(a_1b_1 + \cdots + a_nb_n)^2
+\]
+\end{myinequality}
+\bit
+\vitem middle school proof
+\begin{eqnarray*}
+&&\sum (t a_i + b_i)^2 \geq 0 \ \forall\ t \in \reals
+\\
+&\Leftrightarrow&
+t^2 \sum a_i^2 + 2t \sum a_ib_i + \sum b_i^2 \geq 0 \ \forall\ t \in \reals
+\\
+&\Leftrightarrow&
+\Delta = \left(\sum a_ib_i \right)^2 - \sum a_i^2 \sum b_i^2 \leq 0
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $\exists t\in\reals$, $t a_i + b_i=0$ for all $1\leq i\leq n$
+\eit
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - another proof}
+\bit
+\item $x\geq0$ for any $x\in\reals$, hence
+\begin{eqnarray*}
+&&
+\sum_i \sum_j (a_ib_j - a_jb_i)^2 \geq0
+\\
+&\Leftrightarrow&
+\sum_i \sum_j (a_i^2b_j^2 - 2a_ia_jb_ib_j + a_j^2b_i^2) \geq0
+\\
+&\Leftrightarrow&
+\sum_i \sum_j a_i^2b_j^2 + \sum_i \sum_j a_j^2b_i^2 -2 \sum_i \sum_j a_ia_jb_ib_j \geq 0
+\\
+&\Leftrightarrow&
+2 \sum_i a_i^2 \sum_j b_j^2 - 2 \sum_i a_ib_i \sum_j a_jb_j \geq 0
+\\
+&\Leftrightarrow&
+\sum_i a_i^2 \sum_j b_j^2 - \left(\sum_i a_ib_i\right)^2 \geq0
+\end{eqnarray*}
+\bit
+\item equality holds if and only if $a_ib_j=a_jb_i$ for all $1\leq i,j\leq n$
+\eit
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - still another proof}
+\bit
+\item for any $x,y\in\reals$ and $\alpha,\beta>0$ with $\alpha + \beta = 1$
+\begin{eqnarray*}
+&&
+(\alpha x - \beta y)^2
+=
+\alpha^2 x^2 + \beta^2 y^2 - 2\alpha \beta xy
+\\
+&&
+=
+\alpha(1-\beta) x^2 + (1-\alpha)\beta y^2 - 2\alpha \beta xy
+\geq
+0
+\\
+&\Leftrightarrow&
+\alpha x^2 + \beta y^2
+\geq
+\alpha \beta x^2 + \alpha \beta y^2 + 2\alpha \beta xy
+= \alpha \beta (x+y)^2
+\\
+&\Leftrightarrow&
+x^2 / \alpha + y^2 / \beta \geq (x+y)^2
+\end{eqnarray*}
+\item plug in $x=a_i$, $y=b_i$, $\alpha = A/(A+B)$, $\beta=B/(A+B)$
+where $A = \sqrt{\sum a_i^2}$, $B = \sqrt{\sum b_i^2}$
+\begin{eqnarray*}
+&&
+\sum (a_i^2 / \alpha + b_i^2 / \beta) \geq \sum (a_i+b_i)^2
+\Leftrightarrow
+(A+B)^2 \geq A^2 + B^2 + 2 \sum a_i b_i
+\\
+&\Leftrightarrow&
+AB \geq \sum a_i b_i
+\Leftrightarrow
+A^2B^2 \geq \left(\sum a_i b_i\right)^2
+\Leftrightarrow
+{\sum a_i^2}{\sum b_i^2} \geq \left(\sum a_i b_i \right)^2
+\end{eqnarray*}
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - proof using determinant}
+\bit
+\item almost the same proof as first one - but using $2$-by-$2$ matrix determinant
+\begin{eqnarray*}
+&&\sum (x a_i + y b_i )^2 \geq 0 \ \forall\ x,y \in \reals
+\\
+&\Leftrightarrow&
+x^2 \sum a_i^2 + 2xy \sum a_ib_i + y^2\sum b_i^2 \geq 0 \ \forall \ x, y \in \reals
+\\
+&\Leftrightarrow&
+\begin{my-matrix}{cc}
+x & y
+\end{my-matrix}
+\begin{my-matrix}{cc}
+\sum a_i^2 & \sum a_ib_i
+\\
+\sum a_ib_i & \sum b_i^2
+\end{my-matrix}
+\begin{my-matrix}{c}
+x \\ y
+\end{my-matrix}
+\geq 0
+\ \forall \ x, y \in \reals
+\\
+\\
+&\Leftrightarrow&
+\left|
+\begin{array}{cc}
+\sum a_i^2 & \sum a_ib_i
+\\
+\sum a_ib_i & \sum b_i^2
+\end{array}
+\right|
+\geq 0
+\Leftrightarrow
+\sum a_i^2 \sum b_i^2 - \left(\sum a_ib_i \right)^2 \geq0
+\end{eqnarray*}
+\bit
+\item equality holds \iaoi\
+$$
+\left(
+\exists x,y\in\reals \mbox{ with } xy\neq0
+\right)
+\left(
+xa_i + yb_i=0\ \
+\forall 1\leq i\leq n
+\right)
+$$
+\eit
+\vitem allows \eemph{beautiful generalization} of Cauchy-Schwarz inequality
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - generalization}
+\index{Cauchy-Schwarz inequality!generalization}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality!generalization}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality!generalization}
+\pagelabel{page:Cauchy-Schwarz inequality - generalization}
+\bit
+\item
+want to say something like $\sum_{i=1}^n (x a_i + y b_i + z c_i + w d_i + \cdots)^2$
+\vitem run out of alphabets \ldots\ - use double subscripts
+\begin{eqna}
+&&
+\sum_{i=1}^n (x_1 A_{1,i} + x_2 A_{2,i} + \cdots + x_m A_{m,i})^2 \geq 0 \ \forall\ x_i \in \reals
+\\
+&\Leftrightarrow&
+\sum_{i=1}^n (x^T a_i)^2
+=
+\sum_{i=1}^n x^T a_ia_i^T x
+=
+x^T \left(\sum_{i=1}^n a_ia_i^T\right) x \geq 0 \ \forall\ x \in \reals^m
+\\
+&\Leftrightarrow&
+\left|
+\begin{array}{cccc}
+\sum_{i=1}^n A_{1,i}^2 & \sum_{i=1}^n A_{1,i} A_{2,i} & \cdots & \sum_{i=1}^n A_{1,i} A_{m,i}
+\\
+\sum_{i=1}^n A_{1,i}A_{2,i} & \sum_{i=1}^n A_{2,i}^2 & \cdots & \sum_{i=1}^n A_{2,i} A_{m,i}
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+\sum_{i=1}^n A_{1,i}A_{m,i} & \sum_{i=1}^n A_{2,i}A_{m,i} & \cdots & \sum_{i=1}^n A_{m,i}^2
+\end{array}
+\right|
+\geq 0
+\end{eqna}
+\vspace{1em}
+\bit
+\item []
+where $a_i = \begin{my-matrix}{ccc} A_{1,i} &\cdots & A_{m,i}\end{my-matrix}^T \in\reals^m$
+\vitem
+equality holds \iaoi\ $\exists x\neq0\in\reals^m$, $x^Ta_i =0$ for all $1\leq i\leq n$\
+\eit
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - three series of variables}
+\bit
+\item
+let $m=3$
+\begin{eqnarray*}
+&&
+\begin{my-matrix}{ccc}
+\sum a_{i}^2 & \sum a_{i} b_{i} & \sum a_{i} c_{i}
+\\
+\sum a_{i}b_{i} & \sum b_{i}^2 & \sum b_{i} c_{i}
+\\
+\sum a_{i}c_{i} & \sum b_{i}c_{i} & \sum c_{i}^2
+\end{my-matrix}
+\succeq 0
+\\
+&\Rightarrow&
+\sum a_i^2 \sum b_i^2 \sum c_i^2 + 2 \sum a_ib_i \sum b_ic_i \sum c_ia_i
+\\
+&&
+\geq \sum a_i^2 \left(\sum b_i c_i\right)^2 + \sum b_i^2 \left(\sum a_i c_i\right)^2 + \sum c_i^2 \left(\sum a_i b_i\right)^2
+\end{eqnarray*}
+\bit
+\item
+equality holds if and only if $\exists x,y,z\in\reals$, $xa_i + yb_i + zc_i=0$ for all $1\leq i\leq n$
+\eit
+\vitem
+questions for you
+\bit
+\vitem
+what does this mean?
+\vitem
+any real-world applications?
+\eit
+\eit
+\myfoilhead{Cauchy-Schwarz inequality - extensions}
+\index{Cauchy-Schwarz inequality!extension}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality!extension}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality!extension}
+\begin{myinequality}{Cauchy-Schwarz inequality - for complex numbers}
+\index{Cauchy-Schwarz inequality!for complex numbers}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality!for complex numbers}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality!for complex numbers}
+for $a_i, b_i \in\complexes$
+\[
+\sum |a_i|^2 \sum |b_i|^2 \geq \left|\sum a_i b_i \right|^2
+\]
+\end{myinequality}
+\vspace{-.3cm}
+\begin{myinequality}{Cauchy-Schwarz inequality - for infinite sequences}
+\index{Cauchy-Schwarz inequality!for infinite sequences}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality!for infinite sequences}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality!for infinite sequences}
+for two complex infinite sequences
+$\seq{a_i}_{i=1}^\infty$
+and
+$\seq{b_i}_{i=1}^\infty$
+\[
+\sum^\infty_{i=1} |a_i|^2 \sum^\infty_{i=1} |b_i|^2 \geq \left|\sum^\infty_{i=1} a_i b_i \right|^2
+\]
+\end{myinequality}
+\vspace{-.3cm}
+\begin{myinequality}{Cauchy-Schwarz inequality - for complex functions}
+\index{Cauchy-Schwarz inequality!for complex functions}
+\index{Schwarz, Hermann!Cauchy-Schwarz inequality!for complex functions}
+\index{Cauchy, Augustin-Louis!Cauchy-Schwarz inequality!for complex functions}
+for two complex functions $f,g:[0,1] \to \complexes$
+\[
+\int |f|^2 \int |g|^2 \geq \left|\int f g \right|^2
+\]
+\end{myinequality}
+\bit
+\vitem note that \eemph{all these can be further generalized
+as in page~\pageref{page:Cauchy-Schwarz inequality - generalization}}
+\eit
+\titlefoil{Number Theory - Queen of Mathematics}{number-theory}
+\myfoilhead{Integers}
+\bit
+\item
+integers ($\integers$)
+-
+$\ldots -2, -1, 0, 1, 2, \ldots$
+\bit
+\vitem
+first defined by Bertrand Russell
+\vitem
+algebraic structure - commutative ring
+\bit
+\vitem [-]
+addition, multiplication defined, but divison \emph{not} defined
+\vitem [-]
+addition, multiplication are associative
+\vitem [-]
+multiplication distributive over addition
+\vitem [-]
+addition, multiplication are commutative
+\eit
+\eit
+\vitem
+natural numbers ($\naturals$)
+\bit
+\vitem
+$1, 2, \ldots$
+\eit
+\eit
+\myfoilhead{Division and prime numbers}
+\bit
+\item divisors for $n\in\naturals$
+\[
+\set{d\in\naturals}{ d \mbox{ divides } n}
+\]
+\vitem prime numbers
+\bit
+\item $p$ is primes if $1$ and $p$ are only divisors
+\eit
+\eit
+\labelfoilhead{Fundamental theorem of arithmetic}
+\begin{mytheorem}{fundamental theorem of arithmetic}
+\index{fundamental theorem of arithmetic}
+\index{fundamental theorem!of arithmetic}
+integer $n\geq2$ can be factored uniquely into products of primes,
+\ie,
+exist distinct primes, $p_1$, \ldots, $p_k$, and $e_1,\ldots, e_k\in\naturals$
+such that
+$$
+n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k}
+$$
+\end{mytheorem}
+\bit
+\vitem
+hence,
+integers are \emph{factorial ring}
+(\definitionname~\ref{definition:factorial ring})
+\eit
+\vfill
+\myfoilhead{Elementary quantities}
+\bit
+\item
+greatest common divisor (gcd) (of $a$ and $b$)
+\index{greatest common divisor}
+\index{greatest common divisor!integers}
+\[
+\gcd(a,b) = \max \set{d}{d\mbox{ divides both }a \mbox{ and } b}
+\]
+\bit
+\vitem
+for definition of gcd
+for general entire rings,
+refer to \definitionname~\ref{definition:greatest common divisor}
+\eit
+\vitem
+least common multiple (lcm) (of $a$ and $b$)
+\index{least common multiple}
+\index{least common multiple!integers}
+\[
+\mbox{lcm}(a,b) = \min \set{m}{\mbox{both } a \mbox{ and } b \mbox{ divides }m}
+\]
+\vitem
+$a$ and $b$ coprime, relatively prime, mutually prime $\Leftrightarrow$ $\gcd(a,b)=1$
+\eit
+\vfill
+\myfoilhead{Are there infinite number of prime numbers?}
+\bit
+\item
+yes!
+\vitem
+proof
+\bit
+\vitem
+assume there only exist finite number of prime numbers, \eg, $p_1 < p_2 < \cdots <p_n$\
+\vitem
+but then, $p_1 \cdot p_2 \cdots p_n + 1$ is prime,
+but which is greater than $p_n$, hence contradiction
+\eit
+\eit
+\vfill
+\myfoilhead{Integers modulo $n$}
+\begin{mydefinition}{modulo}
+when $n$ divides $a-b$,
+$a$, said to be \define{equivalent to} $b$ \define{modulo $n$},
+denoted by
+$$
+a \equiv b \Mod{n}
+$$
+read as \define{``$a$ congruent to $b$ mod $n$''}
+\end{mydefinition}
+\bit
+\vitem
+$a\equiv b\Mod{n}$ and $c\equiv d\Mod{n}$ imply
+\bit
+\vitem
+$a+c\equiv b+d \Mod{n}$
+\vitem
+$ac\equiv bd \Mod{n}$
+\eit
+\eit
+\begin{mydefinition}{congruence class}
+\index{congruence class}
+\index{integers!congruence class}
+\index{congruence class!integers}
+\index{residue class under modulo}
+\index{integers!residue class under modulo}
+\index{residue class under modulo!integers}
+classes determined by modulo relation,
+called \define{congruence} or \define{residue class under modulo}
+\end{mydefinition}
+\begin{mydefinition}{integers modulo n}
+\index{integers modulo $n$}
+\index{integers mod $n$}
+\index{integers!integers modulo $n$}
+\index{integers!integers mod $n$}
+set of equivalence classes under modulo,
+denoted by \define{$\integers/n \integers$},
+called \define{integers modulo $n$} or \define{integers mod $n$}
+\end{mydefinition}
+\myfoilhead{Euler's theorem}
+\begin{mydefinition}{Euler's totient function}
+\index{Euler, Leonhard!Euler's totient function}
+\index{Euler, Leonhard!phi-function}
+\index{Euler phi-function}
+\index{Euler's totient function}
+for $n\in\naturals$,
+$$
+\varphi(n)
+= (p_1-1)p_1^{e_1-1} \cdots (p_k-1)p_k^{e_k-1}
+= n \prod_{\mathrm{prime}\ p\ \mathrm{dividing}\ n} (1-1/p)
+$$
+called \define{Euler's totient function},
+also called \define{Euler $\varphi$-function}
+\index{Euler $\varphi$-function}
+\index{Euler, Leonhard!$\varphi$-function}
+\end{mydefinition}
+\bit
+\item \eg, $\varphi(12) = \varphi(2^2\cdot 3^1) = 1\cdot2^1\cdot 2\cdot3^0 = 4$,
+$\varphi(10) = \varphi(2^1\cdot5^1) = 1\cdot2^0\cdot 4\cdot 5^0 =4$
+\eit
+\begin{mytheorem}{Euler's theorem - number theory}
+\index{Euler's theorem}
+\index{Euler, Leonhard!Euler's theorem}
+for coprime $n$ and $a$
+$$
+a^{\varphi(n)} \equiv 1 \Mod{n}
+$$
+\end{mytheorem}
+\bit
+\item
+\eg, $5^4 \equiv 1 \Mod{12}$ whereas $4^4 \equiv 4 \neq 1 \Mod{12}$
+\eit
+\bit
+\vitem
+\eemph{Euler's theorem underlies RSA cryptosystem, which is pervasively used in internet communication}
+\eit
+\titlefoil{Trigonometric functions}{Trigonometric-functions}
+\myfoilhead{Trigonometric functions}
+\bit
+\item
+real functions relating angle of right-angled triangle to ratios of two side lengths,
+called \define{trigonometric functions}
+\index{trigonometric functions}
+\bit
+\item
+also called circular functions, angle functions, or goniometric functions
+\index{trigonometric functions!circular functions}
+\index{trigonometric functions!angle functions}
+\index{trigonometric functions!goniometric functions}
+\eit
+\vitem
+widely used in sciences related to
+geometry, such as
+navigation, solid mechanics, celestial mechanics, geodesy, \etc\
+\vitem
+trigonometric functions most widely used in modern mathematics are
+\bit
+\item
+sine, cosine, tangent functions - denoted by $\sin$, $\cos$, $\tan$ respectively
+\item
+reciprocals - cosecant, secant, cotangent - denoted by $\csc$, $\sec$, $\cot$ respectively
+\eit
+\eit
+\myfoilhead{Definitions of trigonometric functions}
+\bit
+\item basic definitions (\figref{definition of trigonometric functions})\
+\index{trigonometric functions!sine}
+\index{trigonometric functions!cosine}
+\index{trigonometric functions!tangent}
+\index{trigonometric functions!cosecant}
+\index{trigonometric functions!secant}
+\index{trigonometric functions!cotangent}
+\[
+\begin{array}{lll}
+\sin \theta = a/c = \mbox{opposite}/\mbox{hypotenuse},
+&
+\csc \theta = c/a = 1/\sin \theta
+\\
+\cos \theta = b/c = \mbox{adjacent}/\mbox{hypotenuse},
+&
+\sec \theta = c/b = 1/\cos \theta
+\\
+\tan \theta = a/b = \mbox{opposite}/\mbox{adjacent} = \sin \theta / \cos \theta,
+&
+\cot \theta = b/a = 1/\tan \theta
+\end{array}
+\]
+\eit
+\vfill
+\begin{figure}
+\begin{center}
+\mypsfrag{a}{$a$ - opposite}
+\mypsfrag{b}{$\begin{array}{c}b\\\mbox{adjacent}\end{array}$}
+\mypsfrag{c}{hypotenuse - $c$}
+\mypsfrag{A}{$A$}
+\mypsfrag{B}{$B$}
+\mypsfrag{C}{$C$}
+\mypsfrag{theta}{$\theta$}
+\includegraphics[width=.4\textwidth]{figures/right-angled-triangle}
+\idxfig{definition of trigonometric functions}
+\label{fig:definition of trigonometric functions}
+\end{center}
+\end{figure}
+\labelfoilhead{Pythagorean theorem and trigonometric functions}
+\bit
+\item
+Pythagorean theorem implies $a^2 + b^2 = c^2$, thus $(a/c)^2 + (b/c)^2 = 1$
+(\figref{triangle for pythagorean theorem}),
+hence
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+\Leftrightarrow
+\tan^2 \theta + 1 = \sec^2 \theta
+\Leftrightarrow
+1 + \cot^2 \theta = \csc^2 \theta
+$$
+\eit
+\vfill
+\begin{figure}
+\begin{center}
+\mypsfrag{a}{$a$ - opposite}
+\mypsfrag{b}{$\begin{array}{c}b\\\mbox{adjacent}\end{array}$}
+\mypsfrag{c}{hypotenuse - $c$}
+\mypsfrag{A}{$A$}
+\mypsfrag{B}{$B$}
+\mypsfrag{C}{$C$}
+\mypsfrag{theta}{$\theta$}
+\includegraphics[width=.4\textwidth]{figures/right-angled-triangle}
+\idxfig{triangle for pythagorean theorem}
+\label{fig:triangle for pythagorean theorem}
+\end{center}
+\end{figure}
+\myfoilhead{Unit for angles - radians vs degrees}
+\bit
+\item
+for trigonometric functions, most times use \emph{radians} for units of angles instead of \emph{degrees}
+\vitem
+why use radians? - cuz can write following (clean) formula, \eg,
+\bit
+\item
+{length of arc having central angle} $\theta$ { (in radius)} = $\theta r$
+\item
+{area of sector having central angle} $\theta$ { (in radius)} = $\theta r^2 /2$
+\eit
+\vitem
+both proportional to each other - very easy to convert
+$$
+d^\circ = \frac{d}{180} \pi \mbox{ radians}
+\Leftrightarrow
+\theta \mbox{ radians} = \left( \frac{180}{\pi} \theta \right)^\circ
+$$
+\vitem
+\eg\ (drop ``radians'' when writing)
+\bit
+\item
+$0 = 0^\circ$,
+$\pi/12 = 15^\circ$,
+$2\pi/12 = 30^\circ$,
+$3\pi/12 = 45^\circ$,
+$4\pi/12 = 60^\circ$,
+\item
+$5\pi/12 = 75^\circ$,
+$6\pi/12 = 90^\circ$
+$7\pi/12 = 105^\circ$,
+$8\pi/12 = 120^\circ$,
+\item
+$9\pi/12 = 135^\circ$,
+$10\pi/12 = 150^\circ$,
+$11\pi/12 = 165^\circ$,
+$12\pi/12 = 180^\circ$,
+\eit
+\eit
+\myfoilhead{Some values of sine function}
+\bit
+\item
+derive from \figref{triangles for special values of sin}
+\begin{eqnarray*}
+\sin 0 &=& \sin 0^\circ = 0
+\\
+\sin ({\pi}/{6}) &=& \sin 30^\circ = 1/2
+\\
+\sin ({\pi}/{4}) &=& \sin 45^\circ = 1/\sqrt{2}
+\\
+\sin ({\pi}/{3}) &=& \sin 60^\circ = \sqrt{3}/{2}
+\\
+\sin ({\pi}/{2}) &=& \sin 90^\circ = 1
+\end{eqnarray*}
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{1}{$1$}
+\mypsfrag{2}{$2$}
+\mypsfrag{sqrt 2}{$\sqrt{2}$}
+\mypsfrag{sqrt 3}{$\sqrt{3}$}
+\mypsfrag{30}{$\pi/6 = 30^\circ$}
+\mypsfrag{45}{$\pi/4 = 45^\circ$}
+\mypsfrag{60}{$\pi/3 = 60^\circ$}
+\includegraphics[width=.9\textwidth]{figures/right-angled-triangle-values}
+\idxfig{triangles for special values of sin}
+\label{fig:triangles for special values of sin}
+\end{center}
+\end{figure}
+\myfoilhead{Some values of cosine function}
+\bit
+\item
+derive from \figref{triangles for special values of cos}
+\begin{eqnarray*}
+\cos 0 &=& \cos 0^\circ = 1
+\\
+\cos ({\pi}/{6}) &=& \cos 30^\circ = \sqrt{3}/2
+\\
+\cos ({\pi}/{4}) &=& \cos 45^\circ = 1/\sqrt{2}
+\\
+\cos ({\pi}/{3}) &=& \cos 60^\circ = {1}/{2}
+\\
+\cos ({\pi}/{2}) &=& \cos 90^\circ = 0
+\end{eqnarray*}
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{1}{$1$}
+\mypsfrag{2}{$2$}
+\mypsfrag{sqrt 2}{$\sqrt{2}$}
+\mypsfrag{sqrt 3}{$\sqrt{3}$}
+\mypsfrag{30}{$\pi/6 = 30^\circ$}
+\mypsfrag{45}{$\pi/4 = 45^\circ$}
+\mypsfrag{60}{$\pi/3 = 60^\circ$}
+\includegraphics[width=.9\textwidth]{figures/right-angled-triangle-values}
+\idxfig{triangles for special values of cos}
+\label{fig:triangles for special values of cos}
+\end{center}
+\end{figure}
+\myfoilhead{More values of trigonometric functions}
+\bit
+\item
+below are values of trigonometric functions
+for some angles
+\[
+\begin{array}{|c|c|c|c|c|}
+\hline
+\mbox{degrees} & \mbox{radians} & \sin\theta & \cos\theta & \tan\theta
+\\
+\hline
+0 & 0^\circ & 0 & 1 & 0
+\\
+\pi/12 & 15^\circ & (\sqrt{6} - \sqrt{2})/4 & (\sqrt{6}+\sqrt{2})/4 & 2-\sqrt{3}
+\\
+\pi/6 & 30^\circ & 1/2 & \sqrt{3}/2 & 1/\sqrt{3}
+\\
+\pi/4 & 45^\circ & 1/\sqrt{2} & 1/\sqrt{2} & 1
+\\
+\pi/3 & 60^\circ & \sqrt{3}/2 & 1/2 & \sqrt{3}
+\\
+5\pi/12 & 75^\circ & (\sqrt{6} + \sqrt{2})/4 & (\sqrt{6}-\sqrt{2})/4 & 2+\sqrt{3}
+\\
+\pi/2 & 90^\circ & 1 & 0 & \pm \infty\mbox{ (cannot be defined)
+}
+\\
+\hline
+\end{array}
+\]
+\vitem
+who can we get values for $\pi/12$ and $5\pi/12$?
+\bit
+\item
+do not worry; we have not learned how to get it yet - but we will!
+\bit
+\item [-] I don't know when, though - depends on Kim :)
+\eit
+\eit
+\eit
+\vfill
+\myfoilhead{Trigonometric functions as coordiates of points on unit circle}
+\bit
+\item
+consider point on unit circle whose angle with (positive direction) of $x$-axis is $\theta$\
+(\figref{trigonometric function values as Cartesian coordinates of points on unit circle})
+\bit
+\item
+$x$-coordinate of the point is $\cos \theta$
+\item
+$y$-coordinate of the point is $\sin \theta$
+\eit
+\vitem
+following this rule,
+enables us to calculate trigonometric function values for every angle;
+even those greater than $\pi/2=90^\circ$ or even negative angles
+\vitem
+in next slides, will derive several conversion formula using this
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{xy}{$(\cos \theta, \sin\theta)$}
+\mypsfrag{theta}{$\theta$}
+\mypsfrag{cos theta}{$\cos\theta$}
+\mypsfrag{sin theta}{$\sin\theta$}
+\mypsfrag{01}{$(0,1)$}
+\mypsfrag{0-1}{$(0,-1)$}
+\mypsfrag{10}{$(1,0)$}
+\mypsfrag{-10}{$(-1,0)$}
+\includegraphics[width=.40\textwidth]{figures/py-tri-basic-psfragable}
+\idxfig{trigonometric function values as Cartesian coordinates of points on unit circle}
+\label{fig:trigonometric function values as Cartesian coordinates of points on unit circle}
+\end{center}
+\end{figure}
+\myfoilhead{Conversion formula for $\cos(\pi-\theta)$, $\sin(\pi-\theta)$, $\tan(\pi-\theta)$}
+\bit
+\item
+derive following formula from \figref{trigonometric function conversion formula for pi minus thera}
+\bit
+\item
+$\cos(\pi-\theta) = - \cos\theta$
+\item
+$\sin(\pi-\theta) = \sin\theta$
+\item
+$\tan(\pi-\theta) = \sin(\pi-\theta)/\cos(\pi-\theta) = -\tan \theta$
+\eit
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{xy}{$(\cos \theta, \sin\theta)$}
+\mypsfrag{xy1}{$(\cos (\pi-\theta), \sin(\pi-\theta))$}
+\mypsfrag{theta}{$\theta$}
+\mypsfrag{cos theta}{$\cos\theta$}
+\mypsfrag{cos theta0}{$(\cos\theta,0)$}
+\mypsfrag{-cos theta0}{$(-\cos\theta,0)$}
+\mypsfrag{0sin theta}{$(0, \sin\theta)$}
+\mypsfrag{sin theta}{$\sin\theta$}
+\mypsfrag{pi-theta}{$\pi-\theta$}
+\mypsfrag{01}{$(0,1)$}
+\mypsfrag{0-1}{$(0,-1)$}
+\mypsfrag{10}{$(1,0)$}
+\mypsfrag{-10}{$(-1,0)$}
+\includegraphics[width=0.65\textwidth]{figures/py-pi-minus-theta-psfragable}
+\idxfig{trigonometric function conversion formula for $\pi - \theta$}
+\label{fig:trigonometric function conversion formula for pi minus thera}
+\end{center}
+\end{figure}
+\myfoilhead{Conversion formula for $\cos(-\theta)$, $\sin(-\theta)$, $\tan(-\theta)$}
+\bit
+\item
+derive following formula from \figref{trigonometric function conversion formula for minus theta}\
+\bit
+\item
+$\cos(-\theta) = \cos\theta$
+\item
+$\sin(-\theta) = -\sin\theta$
+\item
+$\tan(-\theta) = \sin(-\theta)/\cos(-\theta) = -\tan \theta$
+\eit
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{xy}{$(\cos \theta, \sin\theta)$}
+\mypsfrag{xy1}{$(\cos (-\theta), \sin(-\theta))$}
+\mypsfrag{theta}{$\theta$}
+\mypsfrag{-theta}{$-\theta$}
+\mypsfrag{cos theta}{$\cos\theta$}
+\mypsfrag{sin theta}{$\sin\theta$}
+\mypsfrag{pi-theta}{$\pi-\theta$}
+\mypsfrag{01}{$(0,1)$}
+\mypsfrag{0-1}{$(0,-1)$}
+\mypsfrag{10}{$(1,0)$}
+\mypsfrag{-10}{$(-1,0)$}
+\includegraphics[width=0.4\textwidth]{figures/py-minus-theta-psfragable}
+\idxfig{trigonometric function conversion formula for $- \theta$}
+\label{fig:trigonometric function conversion formula for minus theta}
+\end{center}
+\end{figure}
+\myfoilhead{Conversion formula for $\cos(\theta+\pi/2)$, $\sin(\theta+\pi/2)$, $\tan(\theta+\pi/2)$}
+\bit
+\item
+derive following formula from \figref{tri conversion rules for theta plus pi over 2}
+\bit
+\item
+$\cos(\theta+\pi/2) = -\sin\theta$
+\item
+$\sin(\theta+\pi/2) = \cos\theta$
+\item
+$\tan(\theta+\pi/2) = \sin(\theta+\pi/2)/\cos(\theta+\pi/2) = -\cos\theta/\sin\theta= -\cot \theta$
+\eit
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{xy}{$(\cos \theta, \sin\theta)$}
+\mypsfrag{xy1}{$(\cos(\theta+\pi/2),\sin(\theta+\pi/2))$}
+\mypsfrag{theta}{$\theta$}
+\mypsfrag{theta2}{$\theta+\pi/2$}
+\mypsfrag{0cos theta}{$(0, \cos \theta)$}
+\mypsfrag{-sin theta0}{$(-\sin \theta,0)$}
+\mypsfrag{0sin theta}{$(0, \sin \theta)$}
+\mypsfrag{cos theta0}{$(\cos \theta,0)$}
+\includegraphics[width=0.55\textwidth]{figures/py-theta-plus-half-pi-psfragable}
+\idxfig{trigonometric function conversion formula for $\theta+\pi/2$}
+\label{fig:tri conversion rules for theta plus pi over 2}
+\end{center}
+\end{figure}
+\iffalse
+\myfoilhead{Conversion formula for trigonometric functions}
+\bit
+\item
+can consider many other cases from similar drawings
+\vitem
+below table shows some formula
+\[
+\begin{array}{|c|r|r|r|}
+\hline
+\xi & \sin\xi & \cos\xi & \tan\xi
+\\
+\hline
+\theta +\pi/2& \cos\theta & -\sin\theta & -\cot\theta
+\\
+\theta + \pi & -\sin\theta & -\cos\theta & \tan\theta
+\\
+\theta + 3\pi/2 & -\cos\theta & \sin\theta & -\cot\theta
+\\
+\theta + 2\pi & \sin\theta & \cos\theta & \tan\theta
+\\
+-\theta & -\sin\theta & \cos\theta & -\tan\theta
+\\
+\pi/2-\theta & \cos\theta & \sin\theta & \cot\theta
+\\
+\pi-\theta & \sin\theta & -\cos\theta & -\tan\theta
+\\
+3\pi/2-\theta & -\cos\theta & -\sin\theta & \cot\theta
+\\
+2\pi-\theta & -\sin\theta & \cos\theta & -\tan\theta
+\\
+\hline
+\end{array}
+\]
+\vitem
+\eemph{actually you can derive every formula using only these three:
+$\sin(-\theta)=-\sin(\theta)$, $\sin(\theta + \pi/2) = \cos(\theta)$, $\sin(\theta+\pi)=-\sin(\theta)$; try to figure out how!}
+\eit
+\myfoilhead{Evaluation using conversion formula - 1}
+\bit
+\item
+let's try to calculate trigonometric function values for various angles
+given four values below only - can we?
+\[
+\sin 0 = 0,
+\ \
+\sin(\pi/6) = 1/2,
+\ \
+\sin(\pi/4) = 1/\sqrt{2},
+\ \
+\sin(\pi/3) = \sqrt{3}/2,
+\]
+\vitem
+examples
+\[
+\begin{array}{cccl}
+\cos (30^\circ) &=& \cos (\pi/6) &= \cos(\pi/2 - \pi/3) = \sin(\pi/3) = \sqrt{3}/2
+\\
+\tan (30^\circ) &=& \tan (\pi/6) &= \sin(\pi/6) / \cos(\pi/6) = 1/ \sqrt{3}
+\\
+\\
+\cos (60^\circ) &=& \cos (\pi/3) &= \cos(\pi/2 - \pi/6) = \sin(\pi/6) = {1}/2
+\\
+\tan (60^\circ) &=& \tan (\pi/3) &= \sin(\pi/3) / \cos(\pi/3) = \sqrt{3}
+\\
+\\
+\sin (120^\circ) &=& \sin(2\pi/3) &= \sin(\pi - \pi/3) = \sin(\pi/3) = \sqrt{3}/2
+\\
+\cos (120^\circ) &=& \cos(2\pi/3) &= \cos(\pi - \pi/3) = -\cos(\pi/3) = -1/2
+\\
+\tan (120^\circ) &=& \tan (2\pi/3) &= \sin(2\pi/3) / \cos(2\pi/3) = -\sqrt{3}
+\end{array}
+\]
+\eit
+\myfoilhead{Evaluation using conversion formula - 2}
+\bit
+\item
+more examples
+\[
+\begin{array}{cccl}
+\sin(-45^\circ ) &=&\sin(-\pi/4) &= - \sin(\pi/4) = - 1/\sqrt{2}
+\\
+\cos(-45^\circ ) &=&\cos(-\pi/4) &= \cos(\pi/4) = 1/\sqrt{2}
+\\
+\tan(-45^\circ) &=& \tan(-\pi/4) &= \sin(-\pi/4) / \cos(-\pi/4) = -1
+\\
+\\
+\sin(210^\circ ) &=&\sin(7\pi/6) &= \sin(\pi/6 + \pi) = -\sin(\pi/6) = - 1/{2}
+\\
+\cos(210^\circ ) &=&\cos(7\pi/6) &= \cos(\pi/6 + \pi) = -\cos(\pi/6) = - \sqrt{3}/{2}
+\\
+\tan(210^\circ) &=& \tan(7\pi/6) &= \sin(7\pi/6) / \cos(7\pi/6) = 1/\sqrt{3}
+\\
+\\
+\sin(315^\circ ) &=&\sin(7\pi/4) &= \sin(2\pi - \pi/4) = -\sin(\pi/4) = - 1/\sqrt{2}
+\\
+\cos(315^\circ ) &=&\cos(7\pi/4) &= \cos(2\pi - \pi/4) = \cos(\pi/4) = 1/\sqrt{2}
+\\
+\tan(315^\circ) &=& \tan(7\pi/4) &= \sin(7\pi/4) / \cos(7\pi/4) = -1
+\end{array}
+\]
+\eit
+\myfoilhead{Figuring out conversion formula using graphs without memorizing them}
+\bit
+\item
+\bit
+\item
+\eit
+\vitem
+\bit
+\item
+\eit
+\eit
+\myfoilhead{Law of sines}
+\begin{mylaw}{law of sines}
+$$
+\frac{a}{\sin A}
+=
+\frac{b}{\sin B}
+=
+\frac{c}{\sin C}
+$$
+\end{mylaw}
+\vfill
+\begin{figure}
+\begin{center}
+\mypsfrag{A}{$A$}
+\mypsfrag{B}{$B$}
+\mypsfrag{C}{$C$}
+\mypsfrag{a}{$a$}
+\mypsfrag{b}{$b$}
+\mypsfrag{c}{$c$}
+\includegraphics[width=.30\textwidth]{figures/py-triangle-psfragable}
+\idxfig{triangle}
+\label{fig:triangle}
+\end{center}
+\end{figure}
+\vfill
+\begin{proof}
+From \figref{triangle}, the height of triangle when $a$ is chosen as base of the triangle is $c\sin B = b\sin C$,
+hence $b/\sin B = c/\sin C$.
+Applying this to another side gives us $a/\sin A = b/\sin B = c/\sin C$.
+\eemph{Please make sure yourself whether this is true for obtuse triangles, too!}
+\end{proof}
+\myfoilhead{Law of cosines}
+\begin{mylaw}{law of cosines}
+\begin{eqnarray*}
+a^2 &=& b^2 + c^2 - 2bc \cos A
+\\
+b^2 &=& c^2 + a^2 - 2ca \cos B
+\\
+c^2 &=& a^2 + b^2 - 2ab \cos C
+\end{eqnarray*}
+\end{mylaw}
+\vfill
+\begin{proof}
+From \figref{triangle}, applying Pythagorean theorem to side, $b$,
+yields
+\begin{eqnarray*}
+b^2
+& = &
+(c\sin B)^2 + (a-c\cos B)^2
+\\
+&=&
+c^2 (\sin^2 B + \cos^2 B) - 2ac \cos B + a^2
+=
+a^2 + c^2 - 2ac \cos B
+\end{eqnarray*}
+where $\sin^2 B + \cos^2 B=1$ shown \foilref{Pythagorean theorem and trigonometric functions}\ is used.
+Similar equations arise by choosing the side of length $a$ or the side of length $c$
+to apply Pythagorean theorem.
+\eemph{Please make sure yourself whether this is true for obtuse triangles, too!}
+\end{proof}
+\myfoilhead{Quiz for Beth - triangulation}
+\bit
+\item
+suppose you want to know the distance between the target point, $X$, and line, $\overline{AB}$ (\figref{triangulation}).
+however you are on the other side of the river,
+which is so wide that you cannot cross.
+but you can measure two angles $\alpha$ and $\beta$ and distance, $d$, between $A$ and $B$.
+\vitem
+do you think you can calculate (exactly) distance between $X$ and $\overline{AB}$,
+\ie, length of dotted line in \figref{triangulation}?
+if so, how?
+(hint: would ``law of sines'' be helpful?)
+\eit
+\begin{figure}
+\begin{center}
+\mypsfrag{a}{$d$}
+\mypsfrag{b}{}
+\mypsfrag{c}{}
+\mypsfrag{A}{$X$ (target)}
+\mypsfrag{B}{$A$}
+\mypsfrag{C}{$B$}
+\mypsfrag{alpha}{$\alpha$}
+\mypsfrag{beta}{$\beta$}
+\includegraphics[width=.5\textwidth]{figures/py-triangulation-psfragable}
+\idxfig{triangulation}
+\label{fig:triangulation}
+\end{center}
+\end{figure}
+\myfoilhead{Trigonometric identities}
+\begin{myformula}{trigonometric identities}
+\begin{eqnarray*}
+\sin(\alpha + \beta) &=& \sin(\alpha)\cos(\beta) + \cos(\alpha)\sin(\beta)
+\\
+\cos(\alpha + \beta) &=& \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta)
+\\
+\tan(\alpha + \beta) &=& (\tan\alpha + \tan \beta) / (1-\tan\alpha\tan\beta)
+\\
+\sin 2\theta
+&=&
+2\sin\theta\cos\theta
+\\
+\cos 2\theta
+&=&
+\cos^2\theta- \sin^2\theta = 2\cos^2\theta - 1 = 1-2\sin^2\theta
+\\
+\tan2\theta &=& 2\tan\theta / (1-\tan^2\theta)
+\\
+\cos \alpha + \cos \beta
+&=&
+2\cos \left(\frac{\alpha + \beta}{2}\right) \cos \left(\frac{\alpha - \beta}{2}\right)
+\\
+\sin \alpha + \sin \beta
+&=&
+2\sin \left(\frac{\alpha + \beta}{2}\right) \cos \left(\frac{\alpha - \beta}{2}\right)
+\end{eqnarray*}
+\end{myformula}
+-- note all other formula can be drived from first one
+\fi
+\ifthenelse{\equal{\value{numsectionsforwhichproofexists}}{0}}{}{
+}
+\TITLEFOIL{References}{References}
+\myfoilhead{}
+\bibliographystyle{alpha}
+\bibliography{../../FrequentlyUsed/latex/mybib}
+\end{document}

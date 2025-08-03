@@ -1,0 +1,31 @@
+title: Convex Optimization
+categories:
+- blog
+conditionals:
+  allslides: no
+  preamble: yes
+  trig: no
+  stories: no
+  algebra: no
+  aalgebra: no
+  ranalysis: no
+  meastheory: no
+  topspaces: no
+  absmeas: no
+  measprob: no
+  cvxopt: yes
+  sproof: no
+  ynindex: no
+date: Fri Aug  1 07:00:00 PDT 2025
+extract_figures: true
+generate_preview: true
+output_markdown: ../../_posts/2025-08-01-PDT - convex optimization.markdown
+permalink: /math/rig/convex-optimization
+tags:
+- math
+- optimization
+- convex optimization
+- dual problem
+- duality
+verbose_errors: true
+def_tex: ./markdown_defs.tex

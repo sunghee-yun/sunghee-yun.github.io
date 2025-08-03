@@ -1,0 +1,33 @@
+"""
+foiltex to markdown conversion config
+"""
+
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import List, Dict
+
+import yaml
+
+
+@dataclass
+class FoiltexToMarkdownConversionConfig:
+    """Configuration for the conversion process"""
+
+    title: str
+    date: str
+    permalink: str
+    categories: List[str]
+    output_markdown: str
+    tags: List[str] = field(default_factory=list)
+    conditionals: Dict[str, bool] = field(default_factory=dict)
+    extract_figures: bool = True
+    generate_preview: bool = True
+    verbose_errors: bool = True
+    def_tex: str | None = None
+
+    @classmethod
+    def from_yaml(cls, yaml_file: Path):
+        """Load configuration from YAML file"""
+        with open(yaml_file, "r") as f:
+            data = yaml.safe_load(f)
+        return cls(**data)

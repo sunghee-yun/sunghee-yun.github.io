@@ -1,0 +1,944 @@
+%% users inputting this file should define below yes/no commands
+
+%\def\pdfpsfrag{yes or no}
+%\def\reusepsfragpdf{yes or no}
+%\def\foiltex{yes or no}
+%\def\algfontmode{yes or no}
+
+%% yes/no conditional 
+
+\usepackage{ifthen}
+\newcommand\yesnoexec[3]{
+\ifthenelse{\equal{#1}{yes}}
+{#2%
+}{
+	\ifthenelse{\equal{#1}{no}}{#3}{\errmessage{{#1} should be either "yes" or "no"}}
+}
+}
+
+\ifdefined\pdfpsfrag \else
+\def\pdfpsfrag{no}
+\fi
+
+\yesnoexec{\pdfpsfrag}{%
+\ifdefined\reusepsfragpdf \else
+\def\reusepsfragpdf{no}
+\fi
+}{}
+
+\ifdefined\foiltex \else
+\def\foiltex{no}
+\fi
+
+\ifdefined\algfontmode \else
+\def\algfontmode{no}
+\fi
+
+\yesnoexec{\algfontmode}{%
+%\usepackage[subscriptcorrection,slantedGreek,nofontinfo,mtpcal,mtphrb,mtpccal,mtpscr,mtpfrak]{mtpro2}
+\usepackage[mtpccal,mtpscr]{mtpro2}
+%\usepackage[mtpccal,mtpfrak,mtpscr]{mtpro2}
+%\usepackage[mathscr]{euscript} % mathscr
+\usepackage{amsfonts} % mathfrak
+
+\newcommand\mathalgfont[1]{\mathcal{#1}}
+\newcommand\mathcalfont[1]{\mathscr{#1}}
+}{%
+\usepackage{amssymb} % mathfrak
+\usepackage{mathrsfs} % mathscr
+
+\newcommand\mathalgfont[1]{\mathscr{#1}}
+\newcommand\mathcalfont[1]{\mathcal{#1}}
+}
+
+
+%% PICTURE ENVIRONMENT
+
+\newcommand\rect[6]{%
+\put(#1,#2){\line(1,0){#5}}%
+\put(#1,#2){\line(0,1){#6}}%
+\put(#1,#4){\line(1,0){#5}}%
+\put(#3,#2){\line(0,1){#6}}%
+}
+
+\newcommand\crect[7]{%
+\put(#1,#2){\color{#7}\line(1,0){#5}}%
+\put(#1,#2){\color{#7}\line(0,1){#6}}%
+\put(#1,#4){\color{#7}\line(1,0){#5}}%
+\put(#3,#2){\color{#7}\line(0,1){#6}}%
+}
+
+\newcommand\pptext[3]{
+	\put(#1){\makebox(0,0)[#2]{#3}}
+}
+
+\newcommand\ptext[4]{\pptext{#1}{#2}{\textcolor{#4}{#3}}}
+
+
+%% COLOR DEFINITIONS
+
+%\usepackage[]{hyperref} % i put below due to conflict between hyperref package and \newtheorem\theorem
+\usepackage[
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  citecolor=blue,
+%  pdftitle={Your Document Title},
+  pdfauthor={Sunghee Yun}
+]{hyperref}
+
+\usepackage[dvipsnames]{xcolor} % for below color definitions
+
+\definecolor{rgb-60-60-60}{rgb}{.6, .6, .6}
+\definecolor{rgb-10-80-10}{rgb}{.1, .8, .1}
+\definecolor{crimson}{rgb}{0.86, 0.08, 0.24}
+\definecolor{dimgray}{rgb}{0.41, 0.41, 0.41}
+\definecolor{lavendergray}{rgb}{0.77, 0.76, 0.82}
+\definecolor{cobalt}{rgb}{0.0, 0.28, 0.67}
+\definecolor{unitednationsblue}{rgb}{0.36, 0.57, 0.9}
+\definecolor{ultramarine}{rgb}{0.07, 0.04, 0.56}
+\definecolor{ultramarineblue}{rgb}{0.25, 0.4, 0.96}
+\definecolor{ufogreen}{rgb}{0.24, 0.82, 0.44}
+\definecolor{tropicalrainforest}{rgb}{0.0, 0.46, 0.37}
+\definecolor{tiffanyblue}{rgb}{0.04, 0.73, 0.71}
+\definecolor{springgreen}{rgb}{0.0, 1.0, 0.5}
+\definecolor{Lime-Green}{HTML}{32cd32}
+\definecolor{saddle-brown}{RGB}{139,69,19}
+\definecolor{sienna}{RGB}{160,82,45}
+\definecolor{chocolate}{RGB}{210,105,30}
+
+% SOME COMMANDS & ENVIRONMENTS FOR MAKING LECTURE NOTES
+
+\newcounter{oursection}
+\newcommand{\oursection}[1]{
+ \addtocounter{oursection}{1}
+ \setcounter{equation}{0}
+ \clearpage \begin{center} {\Huge\bfseries #1} \end{center}
+ {\vspace*{0.15cm} \hrule height.3mm} \bigskip
+ \addcontentsline{toc}{section}{#1}
+}
+\newcommand{\oursectionf}[1]{  % for use with foiltex
+ \addtocounter{oursection}{1}
+ \setcounter{equation}{0}
+ \foilhead[-.5cm]{#1 \vspace*{0.8cm} \hrule height.3mm }
+ \LogoOn
+}
+\newcommand{\oursectionfl}[1]{  % for use with foiltex landscape
+ \addtocounter{oursection}{1}
+ \setcounter{equation}{0}
+ \foilhead[-1.0cm]{#1}
+ \LogoOn
+}
+
+\newcounter{lecture}
+\newcommand{\lecture}[1]{
+ \addtocounter{lecture}{1}
+ \setcounter{equation}{0}
+ \setcounter{page}{1}
+ \renewcommand{\theequation}{\arabic{equation}}
+ \renewcommand{\thepage}{\arabic{lecture} -- \arabic{page}}
+ \raggedright \sffamily \LARGE
+ \cleardoublepage\begin{center}
+ {\Huge\bfseries Lecture \arabic{lecture} \bigskip \\ #1}\end{center}
+ {\vspace*{0.15cm} \hrule height.3mm} \bigskip
+ \addcontentsline{toc}{chapter}{\protect\numberline{\arabic{lecture}}{#1}}
+ \pagestyle{myheadings}
+ \markboth{Lecture \arabic{lecture}}{#1}
+}
+\newcommand{\lecturef}[1]{
+ \addtocounter{lecture}{1}
+ \setcounter{equation}{0}
+ \setcounter{page}{1}
+ \renewcommand{\theequation}{\arabic{equation}}
+ \renewcommand{\thepage}{\arabic{lecture}--\arabic{page}}
+ \parindent 0pt
+ \MyLogo{#1}
+ \rightfooter{\thepage}
+ \leftheader{}
+ \rightheader{}
+ \LogoOff
+ \begin{center}
+ {\large\bfseries Lecture \arabic{lecture} \bigskip \\ #1}
+ \end{center}
+ {\vspace*{0.8cm} \hrule height.3mm}
+ \bigskip
+}
+\newcommand{\lecturefl}[1]{   % use with foiltex landscape
+ \addtocounter{lecture}{1}
+ \setcounter{equation}{0}
+ \setcounter{page}{1}
+ \renewcommand{\theequation}{\arabic{equation}}
+ \renewcommand{\thepage}{\arabic{lecture}--\arabic{page}}
+ \addtolength{\topmargin}{-1.5cm}
+ \raggedright
+ \parindent 0pt
+ \rightfooter{\thepage}
+ \leftheader{}
+ \rightheader{}
+ \LogoOff
+ \begin{center}
+ {\Large \bfseries Lecture \arabic{lecture} \\*[\bigskipamount] {#1}}
+ \end{center}
+ \MyLogo{#1}
+}
+
+
+% NORMAL SENTENCES
+
+% acronyms
+
+\newcommand{\eg}{{\it e.g.}}
+\newcommand{\ie}{{\it i.e.}}
+\newcommand{\etc}{{\it etc.}}
+\newcommand{\cf}{{\it cf.}}
+
+\newcommand{\graystrikethrough}[1]{\textcolor{rgb-60-60-60}{\sout{#1}}}
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+\newcommand\brfootnote[1]{\let\thefootnote\relax\footnotetext}
+
+% THEOREMS AND SUCH
+
+\usepackage{thmtools}
+
+\yesnoexec{\foiltex}{%
+	\declaretheorem{axiom}
+	\declaretheorem{law}
+	\declaretheorem{principle}
+	\declaretheorem{definition}
+	\declaretheorem{theorem}
+	\declaretheorem{lemma}
+	\declaretheorem{proposition}
+	\declaretheorem{corollary}
+	\declaretheorem{conjecture}
+	\declaretheorem{inequality}
+	\declaretheorem{formula}
+	\declaretheorem{algorithm}
+}{%
+	\declaretheorem[numberwithin=section]{axiom}
+	\declaretheorem[numberwithin=section]{law}
+	\declaretheorem[numberwithin=section]{principle}
+	\declaretheorem[numberwithin=section]{definition}
+	\declaretheorem[numberwithin=section]{theorem}
+	\declaretheorem[numberwithin=section]{lemma}
+	\declaretheorem[numberwithin=section]{proposition}
+	\declaretheorem[numberwithin=section]{corollary}
+	\declaretheorem[numberwithin=section]{conjecture}
+	\declaretheorem[numberwithin=section]{inequality}
+	\declaretheorem[numberwithin=section]{formula}
+	\declaretheorem[numberwithin=section]{algorithm}
+}
+
+\newcommand\axiomname{Axiom}
+\newcommand\lawname{Law}
+\newcommand\principlename{Principle}
+\newcommand\definitionname{Definition}
+\newcommand\theoremname{Theorem}
+\newcommand\lemmaname{Lemma}
+\newcommand\propositionname{Proposition}
+\newcommand\corollaryname{Corollary}
+\newcommand\conjecturename{Conjecture}
+\newcommand\inequalityname{Ineq}
+\newcommand\formulaname{Formula}
+\newcommand\algorithmname{Algorithm}
+
+% alias
+\newcommand\definename{\definitionname}
+
+\newenvironment{proof}{\begin{quote}\textit{Proof}:}{\end{quote}}
+\newenvironment{solution}{\begin{quote}\textit{Solution}:}{\end{quote}}
+\newenvironment{pcode}{\begin{quote}\textit{Python source code}:}{\end{quote}}
+\newenvironment{names}{\begin{itshape}}{\end{itshape}}
+
+\newcommand{\qed}{{\bf Q.E.D.}}
+\renewcommand{\qed}{\rule[-.5ex]{.5em}{2ex}}
+\newcommand{\textfn}[1]{\textsl{#1}}
+
+% table
+
+\newcommand{\tparbox}[2]{%
+{\parbox[c]{#1}{\center\vspace{-.4\baselineskip}{#2}\vspace{.3\baselineskip}}}}
+
+% software
+
+\newenvironment{code}{\begin{quote}\begin{tt}}{\end{tt}\end{quote}}
+
+% math
+
+\newcommand{\pluseq}{\mathrel{+}=}
+
+\newcommand{\bmyeq}{\[}
+\newcommand{\emyeq}{\]}
+\newcommand{\bmyeql}[1]{\begin{equation}\label{#1}}
+\newcommand{\emyeql}{\end{equation}}
+%\newenvironment{myeq}{\[}{\]}
+%\newenvironment{myeql}[1]{\begin{equation}\label{#1}}{\end{equation}}
+
+\newcommand{\onehalf}{\ensuremath{\frac{1}{2}}}
+\newcommand{\onethird}{\ensuremath{\frac{1}{3}}}
+\newcommand{\onefourth}{\frac{1}{4}}
+\newcommand{\sumft}[2]{\sum_{#1}^{#2}}
+\newcommand{\sumioneton}{\sumionetok{n}}
+\newcommand{\sumionetok}[1]{\sum_{i=1}^#1}
+\newcommand{\sumoneto}[2]{\sum_{#1=1}^{#2}}
+\newcommand{\sumoneton}[1]{\sumoneto{#1}{n}}
+\newcommand{\prodoneto}[2]{\prod_{#1=1}^{#2}}
+\newcommand{\prodoneton}[1]{\prodoneto{#1}{n}}
+
+\newcommand{\listoneto}[1]{\ensuremath{1,2,\ldots,#1}}
+\newcommand{\diagxoneto}[2]{\ensuremath{\diag({#1}_1,{#1}_2,\ldots,{#1}_{#2})}}
+\newcommand{\setxoneto}[2]{\ensuremath{\{\listxoneto{#1}{#2}\}}}
+\newcommand{\listxoneto}[2]{\ensuremath{{#1}_1,{#1}_2,\ldots,{#1}_{#2}}}
+\newcommand{\setoneto}[1]{\ensuremath{\{1,2,\ldots,#1\}}}
+
+\newcommand{\diagmat}[2]{\diagoneto{#1}{#2}}
+
+\newcommand{\setoneton}[1]{\setoneton{#1}}
+\newcommand{\setxtok}[2]{\setxoneto{#1}{#2}}
+
+% matrices
+
+\newcommand{\colvectwo}[2]{\ensuremath{\begin{my-matrix}{c}{#1}\\{#2}\end{my-matrix}}}
+\newcommand{\colvecthree}[3]{\ensuremath{\begin{my-matrix}{c}{#1}\\{#2}\\{#3}\end{my-matrix}}}
+\newcommand{\colvecfour}[4]{\ensuremath{\begin{my-matrix}{c}{#1}\\{#2}\\{#3}\\{#4}\end{my-matrix}}}
+\newcommand{\rowvectwo}[2]{\ensuremath{\begin{my-matrix}{cc}{#1}&{#2}\end{my-matrix}}}
+\newcommand{\rowvecthree}[3]{\ensuremath{\begin{my-matrix}{ccc}{#1}&{#2}&{#3}\end{my-matrix}}}
+\newcommand{\rowvecfour}[4]{\ensuremath{\begin{my-matrix}{cccc}{#1}&{#2}&{#3}&{#4}\end{my-matrix}}}
+\newcommand{\diagtwo}[2]{\ensuremath{\begin{my-matrix}{cc}{#1}&0\\0& {#2}\end{my-matrix}}}
+\newcommand{\mattwotwo}[4]{\ensuremath{\begin{my-matrix}{cc}{#1}&{#2}\\{#3}&{#4}\end{my-matrix}}}
+\newcommand{\bigmat}[9]{\ensuremath{\begin{my-matrix}{cccc} #1&#2&\cdots&#3\\ #4&#5&\cdots&#6\\ \vdots&\vdots&\ddots&\vdots\\ #7&#8&\cdots&#9 \end{my-matrix}}}
+%\newcommand{\matdotff}[9]{\matff{#1}{#2}{\cdots}{#3}{#4}{#5}{\cdots}{#6}{\vdots}{\vdots}{\ddots}{\vdots}{#7}{#8}{\cdots}{#9}}
+
+\newcommand{\matthreethree}[9]{%
+	\begin{my-matrix}{ccc}%
+	{#1}&{#2}&{#3}%
+	\\{#4}&{#5}&{#6}%
+	\\{#7}&{#8}&{#9}%
+	\end{my-matrix}%
+}
+\newcommand{\matthreethreeT}[9]{%
+	\matthreethree%
+	{#1}{#4}{#7}%
+	{#2}{#5}{#8}%
+	{#3}{#6}{#9}%
+}
+
+\newenvironment{my-matrix}{\left[\begin{array}}{\end{array}\right]}
+
+\newcommand{\mbyn}[2]{\ensuremath{#1\times #2}}
+\newcommand{\realmat}[2]{\ensuremath{\reals^{\mbyn{#1}{#2}}}}
+\newcommand{\realsqmat}[1]{\ensuremath{\reals^{\mbyn{#1}{#1}}}}
+\newcommand{\defequal}{\triangleq}
+\newcommand\symset[1]{\ensuremath{\mbox{\bf S}^{#1}}}
+\newcommand\possemidefset[1]{\ensuremath{\mbox{\bf S}_+^{#1}}}
+\newcommand\posdefset[1]{\ensuremath{\mbox{\bf S}_{++}^{#1}}}
+
+% spaces for integral, etc.
+
+\newcommand{\dspace}{\,}
+\newcommand{\dx}{{\dspace dx}}
+\newcommand{\dy}{{\dspace dy}}
+\newcommand{\dt}{{\dspace dt}}
+\newcommand{\intspace}{\!\!}
+\newcommand{\sqrtspace}{\,}
+\newcommand{\aftersqrtspace}{\sqrtspace}
+\newcommand{\dividespace}{\!}
+
+
+\usepackage{amsmath}
+
+%\DeclareMathOperator\support{support}
+\newcommand\support{\operatorname*{\bf support}}
+%\newcommand\support{{\mathop{\bf support}}}
+
+
+\DeclareMathOperator\Img{Im}
+\DeclareMathOperator\Ker{Ker}
+\DeclareMathOperator\Gal{Gal}
+\DeclareMathOperator\Map{Map}
+\DeclareMathOperator\Aut{Aut}
+\DeclareMathOperator\End{End}
+\DeclareMathOperator\Irr{Irr}
+\DeclareMathOperator\ev{ev}
+\DeclareMathOperator\affinehull{\bf aff}
+\DeclareMathOperator\relint{\bf relint}
+\DeclareMathOperator\cvxhull{\bf Conv}
+\DeclareMathOperator\boundary{\bf bd}
+\DeclareMathOperator\epi{\bf epi}
+\DeclareMathOperator\hypo{\bf hypo}
+
+\newcommand{\arginf}{\mathop{\mathrm{arginf}}}
+\newcommand{\argsup}{\mathop{\mathrm {argsup}}}
+\newcommand{\argmin}{\mathop{\mathrm {argmin}}}
+\newcommand{\argmax}{\mathop{\mathrm {argmax}}}
+
+\newcommand\ereals{\reals\cup\{-\infty,\infty\}}
+\newcommand{\reals}{\ensuremath{\mbox{\bf R}}}
+\newcommand{\preals}{\ensuremath{\reals_{+}}}
+\newcommand{\prealk}[1]{\ensuremath{\reals_{+}^{#1}}}
+\newcommand{\ppreals}{\ensuremath{\reals_{++}}}
+\newcommand{\pprealk}[1]{\ensuremath{\reals_{++}^{#1}}}
+\newcommand{\complexes}{\ensuremath{\mbox{\bf C}}}
+\newcommand{\integers}{{\mbox{\bf Z}}}
+\newcommand{\naturals}{{\mbox{\bf N}}}
+\newcommand{\rationals}{{\ensuremath{\mbox{\bf Q}}}}
+
+\newcommand{\realspace}[2]{\reals^{#1\times #2}}
+\newcommand{\compspace}[2]{\complexes^{#1\times #2}}
+
+\newcommand{\identity}{\mbox{\bf I}}
+\newcommand{\nullspace}{{\mathcalfont N}}
+\newcommand{\range}{{\mathcalfont R}}
+
+% vectors, sets, etc.
+
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\ones}{\mathbf 1}
+\newcommand{\ordinal}{^{\mathrm{th}}}
+\newcommand{\set}[2]{\ensuremath{\{#1|#2\}}}
+\newcommand{\bigset}[2]{\ensuremath{\left\{{#1}\left|{#2}\right.\right\}}}
+\newcommand{\bigsetl}[2]{\left\{\left.{#1}\right|{#2}\right\}}
+
+% operators
+
+\newcommand{\Expect}{\mathop{\bf E{}}}
+\newcommand{\Var}{\mathop{\bf  Var{}}}
+\newcommand{\Cov}{\mathop{\bf Cov}}
+\newcommand{\Prob}{\mathop{\bf Prob}}
+%\newcommand\Prob{\operatorname*{\bf P}}
+\newcommand\prob[1]{\Prob\left\{#1\right\}}
+\renewcommand\prob[1]{\Prob\left(#1\right)}
+
+\newcommand{\smallo}{{\mathop{\bf o}}}
+
+\newcommand{\jac}{{\mathcalfont{J}}}
+\newcommand{\diag}{\mathop{\bf diag}}
+\newcommand{\Rank}{\mathop{\bf Rank}}
+\newcommand{\rank}{\mathop{\bf rank}}
+\newcommand{\dimn}{\mathop{\bf dim}}
+\newcommand{\Tr}{\mathop{\bf Tr}} % trace
+\newcommand{\dom}{\mathop{\bf dom}}
+\newcommand{\Det}{\det}
+\newcommand{\adj}{\mathop{\bf adj}}
+\newcommand{\minor}{\mathop{\bf minor}}
+%\newcommand{\Det}{{\mathop{\bf Det}}}
+%\newcommand{\determinant}[1]{|#1|}
+\newcommand{\sign}{{\mathop{\bf sign}}}
+\newcommand{\dist}{{\mathop{\bf dist}}}
+
+% probability space
+
+\newcommand{\probsubset}{{\mathcalfont{P}}}
+\newcommand{\eset}{{\mathcalfont{E}}}
+
+\newcommand{\probspace}{{\Omega}}
+
+% optimization
+
+% phrases
+
+\newcommand\iaoi{\emph{if and only if}}
+\newcommand\wrt{with respect to}
+
+% mathematicians' names
+
+\newcommand\cara{Carath\'{e}odory}
+
+% FOR ANALYSIS
+% names of families, collections, sets, etc.
+
+\newcommand{\group}[2]{\ensuremath{(#1,#2)}}
+\newcommand{\generates}[1]{\ensuremath{\langle {#1} \rangle}}
+\newcommand{\generatest}[1]{\ensuremath{\left\langle {#1} \right\rangle}}
+\newcommand{\perm}[1]{\ensuremath{\mathrm{Perm}(#1)}} % permutations
+\newcommand{\aut}[1]{\ensuremath{\mathrm{Aut}(#1)}} % set of automorphisms (as a group)
+\newcommand{\injhomeo}{\hookrightarrow}
+\newcommand{\isomorph}{\approx}
+\newcommand{\ideal}[1]{\ensuremath{\mathfrak{#1}}}
+
+\newcommand{\collk}[1]{\ensuremath{{\mathcalfont{#1}}}} % collection
+\newcommand{\classk}[1]{\ensuremath{\collk{#1}}} % class
+\newcommand{\algk}[1]{\ensuremath{\mathalgfont{#1}}} % algebra
+\newcommand{\metrics}[2]{\ensuremath{\langle {#1}, {#2}\rangle}} % metric space
+
+\newcommand{\topol}[1]{\ensuremath{\mathfrak{#1}}} % topology
+\newcommand{\topos}[2]{\ensuremath{{\langle {#1}, \topol{#2}\rangle}}} % topological space
+
+\newcommand{\measu}[2]{\ensuremath{({#1}, {#2})}} % measurable space
+\newcommand{\meas}[3]{\ensuremath{({#1}, {#2}, {#3})}} % measure space
+\newcommand{\meast}[3]{\ensuremath{\left({#1}, {#2}, {#3}\right)}} % measure space
+
+\newcommand{\powerset}{\mathcalfont{P}}
+\newcommand{\field}{\mbox{\bf F}}
+\newcommand\primefield[1]{\ensuremath{\field_{#1}}}
+\newcommand\finitefield[2]{\ensuremath{\field_{{#1}^{#2}}}}
+\newcommand\frobmap[2]{\ensuremath{\varphi_{{#1},{#2}}}}
+\newcommand{\compl}[1]{\ensuremath{\tilde{#1}}} % set complement
+\newcommand{\interior}[1]{\ensuremath{{#1}^\circ}} % set interior
+\newcommand{\subsetset}[1]{\ensuremath{\mathcalfont{#1}}} % set of subsets
+
+\newcommand{\pair}[2]{\ensuremath{{\langle {#1}, {#2}\rangle}}}
+\newcommand{\innerp}[2]{\ensuremath{\langle{#1},{#2}\rangle}} % inner product
+\newcommand{\innerpt}[2]{\ensuremath{\left\langle{#1},{#2}\right\rangle}} % inner product - tall version
+\newcommand{\dimext}[2]{\ensuremath{[{#1}:{#2}]}}
+
+\newcommand\restrict[2]{\ensuremath{{#1}|{#2}}}
+\newcommand\algclosure[1]{\ensuremath{{#1}^\mathrm{a}}}
+\newcommand\sepclosure[1]{\ensuremath{{#1}^\mathrm{sep}}}
+\newcommand\maxabext[1]{\ensuremath{{#1}^\mathrm{ab}}}
+
+\newcommand\ball[2]{\ensuremath{B(#1,#2)}}
+
+% optimization
+
+\newcommand\optfdk[2]{\ensuremath{{#1}^\mathrm{#2}}}
+\newcommand\tildeoptfdk[2]{\ensuremath{{\tilde{#1}}^\mathrm{#2}}}
+\newcommand\fobj{\optfdk{f}{obj}}
+\newcommand\fie{\optfdk{f}{ie}}
+\newcommand\feq{\optfdk{f}{eq}}
+\newcommand\tildefobj{\tildeoptfdk{f}{obj}}
+\newcommand\tildefie{\tildeoptfdk{f}{ie}}
+\newcommand\tildefeq{\tildeoptfdk{f}{eq}}
+
+\newcommand\xdomain{\ensuremath{\mathcalfont{X}}}
+\newcommand\xobj{\optfdk{\xdomain}{obj}}
+\newcommand\xie{\optfdk{\xdomain}{ie}}
+\newcommand\xeq{\optfdk{\xdomain}{eq}}
+
+\newcommand\optdomain{\ensuremath{\mathcalfont{D}}}
+\newcommand\optfeasset{\ensuremath{\mathcalfont{F}}}
+
+\def\DeltaSirDir{yes}
+\newcommand\sdirletter[2]{\ifthenelse{\equal{\DeltaSirDir}{yes}}{\ensuremath{\Delta #1}}{\ensuremath{#2}}}
+\newcommand\seqk[2]{\ensuremath{{#1}^{(#2)}}}
+\newcommand\xseqk[1]{\seqk{x}{#1}}
+\newcommand\nuseqk[1]{\seqk{\nu}{#1}}
+\newcommand\lbdseqk[1]{\seqk{\lambda}{#1}}
+\newcommand\sdir{\sdirletter{x}{v}}
+\newcommand\sdirlbd{\sdirletter{\lambda}{\Delta \lambda}}
+\newcommand\sdirnu{\sdirletter{\nu}{w}}
+\newcommand\sdiry{\sdirletter{y}{\Delta y}}
+\newcommand\ntsdir{\ensuremath{\sdir_\mathrm{nt}}}
+\newcommand\pdsdir{\ensuremath{\sdir_\mathrm{pd}}}
+\newcommand\ntsdirnu{\ensuremath{\sdirnu_\mathrm{nt}}}
+\newcommand\pdsdirnu{\ensuremath{\sdirnu_\mathrm{pd}}}
+\newcommand\pdsdirlbd{\ensuremath{\sdirlbd_\mathrm{pd}}}
+\newcommand\pdsdiry{\ensuremath{\sdiry_\mathrm{pd}}}
+\newcommand\sdirk[1]{\seqk{\sdir}{#1}}
+\newcommand\slen{\ensuremath{t}}
+\newcommand\slenk[1]{\seqk{\slen}{#1}}
+
+\newcommand\onelineoptprob[3]{\ensuremath{%
+	\mbox{#1}\;\;{#2}
+%	\;\;
+	\ifthenelse{\equal{#3}{}}{}{%
+	\quad%
+	\mbox{s.t.}\;%
+	{#3}%
+}}}
+
+% mo, relation, sequence, indexed collection, etc.
+
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+\newcommand{\rel}{\mathbf{R}}
+\newcommand{\relxy}[2]{{#1}\ \rel\ {#2}}
+\newcommand{\seq}[1]{\ensuremath{{\left\langle{#1}\right\rangle}}}
+\newcommand{\seqscr}[3]{\ensuremath{\seq{#1}_{#2}^{#3}}}
+\newcommand{\indexedcol}[1]{\ensuremath{{\{{#1}\}}}}
+
+% CLOSURE
+
+%command for alg-closure that automatically adapts its 'bar' to the arg based on the args length (including '\')
+\newcommand{\ols}[1]{\mskip.5\thinmuskip\overline{\mskip-.5\thinmuskip {#1} \mskip-.5\thinmuskip}\mskip.5\thinmuskip} % overline short
+\newcommand{\olsi}[1]{\,\overline{\!{#1}}} % overline short italic
+\makeatletter
+\newcommand\closure[1]{\ensuremath{%
+	\tctestifnum{\count@stringtoks{#1}>1} %checks if number of chars in arg > 1 (including '\')
+	{\ols{#1}} %if arg is longer than just one char, e.g. \mathbb{Q}, \mathbb{F},...
+	{\olsi{#1}} %if arg is just one char, e.g. K, L,...
+}%
+}
+% FROM TOKCYCLE:
+\long\def\count@stringtoks#1{\tc@earg\count@toks{\string#1}}
+\long\def\count@toks#1{\the\numexpr-1\count@@toks#1.\tc@endcnt}
+\long\def\count@@toks#1#2\tc@endcnt{+1\tc@ifempty{#2}{\relax}{\count@@toks#2\tc@endcnt}}
+\def\tc@ifempty#1{\tc@testxifx{\expandafter\relax\detokenize{#1}\relax}}
+\long\def\tc@earg#1#2{\expandafter#1\expandafter{#2}}
+\long\def\tctestifnum#1{\tctestifcon{\ifnum#1\relax}}
+\long\def\tctestifcon#1{#1\expandafter\tc@exfirst\else\expandafter\tc@exsecond\fi}
+\long\def\tc@testxifx{\tc@earg\tctestifx}
+\long\def\tctestifx#1{\tctestifcon{\ifx#1}}
+\long\def\tc@exfirst#1#2{#1}
+\long\def\tc@exsecond#1#2{#2}
+\makeatother
+%
+
+
+% graphics - include figures
+
+%\newcommand\includefig[2]{\yesnoexec{\pdfpsfrag}{\includegraphics[#2]{#1}}{\includegraphics[#2]{#1}}}
+\newcommand\mypsfrag[2]{\yesnoexec{\pdfpsfrag}{\psfrag{#1}{#2}}{}}
+
+\newcommand\puttwofigs[2]{%
+	\begin{center}
+	\hfill
+	{#1}
+	\hfill
+	{#2}
+	\hfill
+	\hfill
+	\ %
+	\end{center}
+}
+
+\newcommand\puttworoundedfigs[3]{%
+	\begin{center}
+	\hfill
+	{\roundedbox{#1}{#2}}
+	\hfill
+	{\roundedbox{#1}{#3}}
+	\hfill
+	\hfill
+	\ %
+	\end{center}
+}
+
+\newcommand\roundedbox[2]{%
+\begin{tikzpicture}%
+\sbox0{#2}%
+\path[clip,draw,rounded corners=#1] (0,0) rectangle (\wd0,\ht0);%
+\path (0.5\wd0,0.5\ht0) node[inner sep=0pt]{\usebox0};%
+\end{tikzpicture}%
+}
+
+% COMMANDS ORIGINALLY INTENDED FOR FOILTEX
+
+\newcommand\specialidxprefix{ZZ}
+\newcommand\idximportant[1]{\index{\specialidxprefix-important!#1}}
+\newcommand\idxrevisit[1]{\index{\specialidxprefix-revisit!#1}}
+\newcommand\idxtodo[1]{\index{\specialidxprefix-todo!#1}}
+\newcommand\idxfig[1]{\index{\specialidxprefix-figures!#1}}
+
+% page label and reference
+\newcommand\pagelabel{\phantomsection\label}
+
+% enumeration - bullet points
+
+\usepackage{enumitem}
+\newcommand\bit{\begin{itemize}}
+\newcommand\eit{\end{itemize}}
+\newcommand\ibit{\begin{itemize}[leftmargin=1.5em]}
+\newcommand\iitem{\item [-]}
+
+% *my* theorems and such
+
+\newcommand\theoremslikepostvspace{\vspace{-.5em}}
+\newcommand\theoremslikepostvspacet{\vspace{-1em}}
+
+\newcommand\notempty[1]{\ifthenelse{\not \equal{#1}{}}}
+
+\newcommand\mybegin[3]{%
+\notempty{#3}{%
+\begin{#1}[#3]%
+\index{#3}\index{#2!#3}%
+\label{#1:#3}\pagelabel{page:#1:#3}%
+}{%
+\begin{#1}
+}%
+}
+
+\newcommand\myend[1]{%
+\end{#1}
+\theoremslikepostvspace
+}
+
+\newenvironment{myaxiom}[1]{\mybegin{axiom}{axioms}{#1}}{\myend{axiom}}
+\newenvironment{mylaw}[1]{\mybegin{law}{laws}{#1}}{\myend{law}}
+\newenvironment{myprinciple}[1]{\mybegin{principle}{principles}{#1}}{\myend{principle}}
+\newenvironment{mydefinition}[1]{\mybegin{definition}{definitions}{#1}}{\myend{definition}}
+\newenvironment{mytheorem}[1]{\mybegin{theorem}{theorems}{#1}}{\myend{theorem}}
+\newenvironment{mylemma}[1]{\mybegin{lemma}{lemmas}{#1}}{\myend{lemma}}
+\newenvironment{myproposition}[1]{\mybegin{proposition}{propositions}{#1}}{\myend{proposition}}
+\newenvironment{mycorollary}[1]{\mybegin{corollary}{corollaries}{#1}}{\myend{corollary}}
+\newenvironment{myconjecture}[1]{\mybegin{conjecture}{conjectures}{#1}}{\myend{conjecture}}
+\newenvironment{myinequality}[1]{\mybegin{inequality}{inequalities}{#1}}{\myend{inequality}}
+\newenvironment{myformula}[1]{\mybegin{formula}{formula}{#1}}{\myend{formula}}
+\newenvironment{myalgorithm}[1]{\mybegin{algorithm}{algorithms}{#1}}{\myend{algorithm}}
+
+% proof env
+
+\newtheorem{proofenv}{Proof}
+\newenvironment{myproof}[1]{%
+\item%
+\begin{proofenv}%
+\label{proof:#1}
+\label{proof!#1}
+(Proof for ``{#1}'' on page~\pageref{page:statement:#1})%
+\end{proofenv}%
+}{%
+\vspace{.5em}
+}
+
+\newcommand\proofref[1]{%
+%\textcolor{gray}%
+{%
+%(Refer to \hyperref[proof:#1]{Proof}~\ref{proof:#1}%
+%(proved in \hyperref[proof:#1]{Proof}~\ref{proof:#1}%
+(proof can be found in \hyperref[proof:#1]{Proof}~\ref{proof:#1}%
+\pagelabel{page:statement:#1})%
+}%
+}
+
+% terms for definitions, facts, special emphasis, (lemma, theorem, etc.) names
+
+\newcommand\define[1]{\emph{\textcolor{blue}{#1}}}
+\newcommand\fact[1]{\emph{\textcolor{Lime-Green}{#1}}}
+\newcommand\cemph[1]{\emph{\textcolor{blue}{{#1}}}}
+\newcommand\eemph[1]{\emph{\textcolor{crimson}{#1}}}
+\newcommand\name[1]{\emph{\textcolor{chocolate}{#1}}}
+
+% equations
+
+\newenvironment{eqn}{%
+%
+\vspace{-.7em}
+\[\\
+%
+}
+{
+\]\\
+\vspace{-3.4em}\\
+}
+
+% when equation is too tall
+\newenvironment{teqn}{%
+%
+\vspace{-.7em}
+\[\\
+%
+}
+{
+\]\\
+\vspace{-3.0em}\\
+}
+
+% when equation is too long
+\newenvironment{leqn}{%
+%
+\vspace{-2.0em}
+\[\\
+%
+}
+{
+\]\\
+\vspace{-4.7em}\\
+}
+
+\newenvironment{eqna}{%
+%
+\vspace{-3.7em}
+\begin{eqnarray*}\\
+%
+}
+{
+\end{eqnarray*}\\
+\vspace{-4.5em}\\
+}
+
+
+%% FOR FOILTEX
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\yesnoexec{\foiltex}{
+\usepackage{mathtools}
+
+
+%% figure reference
+
+\newcommand\figref[1]{the figure}
+\newcommand\foilref[1]{on page~\pageref{foil:#1}}
+
+%% enumeration - bullet points
+
+\renewcommand\bit{\begin{itemize}[leftmargin=1.1em]}
+\renewcommand\ibit{\begin{itemize}[leftmargin=2em]}
+
+\newcommand\shrinkspacewithintheoremslikehalf{\vspace{-.5em}}
+\newcommand\shrinkspacewithintheoremslike{\vspace{-1em}}
+\newcommand\shrinkspacewithintheoremsliket{\vspace{-2em}}
+
+\newcommand\vitem{\vfill \item}
+\newcommand\vvitem{\vfill \vfill \item}
+\newcommand\viitem{\vfill \iitem}
+
+\newcommand\vfillt {\vfill\vfill}
+\newcommand\vfillth{\vfill\vfill\vfill}
+\newcommand\vfillf {\vfill\vfill\vfill\vfill}
+\newcommand\vfillfi{\vfill\vfill\vfill\vfill\vfill}
+\newcommand\vfills {\vfill\vfill\vfill\vfill\vfill\vfill}
+\newcommand\vfillse{\vfill\vfill\vfill\vfill\vfill\vfill\vfill}
+\newcommand\vfille {\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill}
+\newcommand\vfilln {\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill}
+\newcommand\vfillte{\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill\vfill}
+
+
+%% index
+\usepackage{makeidx}
+\makeindex
+
+\setlength{\columnsep}{2em}
+\newenvironment{theindex}{%
+	\let\item\par
+	\newcommand\idxitem{\par\hangindent 40pt}
+	\newcommand\subitem{\vspace{-12pt} \idxitem \hspace*{20pt}}
+	\newcommand\subsubitem{\vspace{-12pt} \idxitem \hspace*{30pt}}
+	\newcommand\indexspace{\par \vskip 3pt \relax}
+	\twocolumn
+}{%
+}
+
+%% slide commands and formatting
+
+\setlength{\parindent}{0in}
+\newlength{\lift}
+\setlength{\lift}{.5in}
+\newlength{\pageheight}
+%\setlength{\pageheight}{4in + \lift}
+\setlength{\pageheight}{4.5in}
+
+\newcommand{\raiselength}{0in}
+\newcommand{\figraiselength}{0in}
+
+\newcommand\labelfoilhead[1]{%
+\myfoilhead{#1}%
+\pagelabel{foil:#1}%
+%\label{foil:#1}%
+}
+
+\newcommand\myfoilhead[1]{%
+\foilhead{#1}%
+\vspace{-\lift}%
+}
+
+\newcommand{\titlefoil}[2]{%
+\myfoilhead{}%
+%\index{#1}
+\pagelabel{title-page:#2}
+\thispagestyle{empty}%
+%\addtocounter{page}{-1}%
+%
+\vfill%
+\begin{center}%
+\Large%
+\bf%
+{#1}
+\end{center}%
+\vfill%
+\MyLogo{\LOGO\ - {\hyperref[title-page:#2]{#1}}}
+}
+
+\newcommand\LOGO{\talktitle}
+
+\newcommand{\TITLEFOIL}[2]{%
+\myfoilhead{}%
+\pagelabel{super-title-page:#2}
+%\index{#1}
+\thispagestyle{empty}%
+%\addtocounter{page}{-1}%
+%
+\vfill%
+\begin{center}%
+\huge%
+\bf%
+{#1}
+\end{center}%
+\vfill%
+\renewcommand\LOGO{\talktitle\ - {\hyperref[super-title-page:#2]{#1}}}
+\MyLogo{\LOGO}
+}
+
+\newcommand{\nntwocols}[6]{%
+\begin{minipage}[t][\pageheight]{#1}\vspace*{0ex}{#6}\end{minipage}%
+\hfill%
+\begin{minipage}[t]{#2}%
+\hfill
+\raisebox{-\height+0.7\baselineskip - #4}%
+{\hspace*{-3in}{#3}}%
+#5
+\end{minipage}%
+}
+\newcommand{\ntwocols}[7]{\nntwocols{#1}{#2}{\includegraphics[#4]{#3}}{#5}{#6}{#7}}
+
+\newcommand{\nntwocolss}[6]{%
+\begin{minipage}[t]{#2}%
+\hfill
+\raisebox{-\height+0.7\baselineskip - #4}%
+{#5 \hspace*{-3in}{#3}\hfill\ %
+}\end{minipage}%
+\hfill%
+\begin{minipage}[t][\pageheight]{#1}\vspace*{0ex}{#6}\end{minipage}%
+}
+\newcommand{\ntwocolss}[7]{\nntwocolss{#1}{#2}{\includegraphics[#4]{#3}}{#5}{#6}{#7}}
+
+\newcommand{\ntwocolstwofigs}[8]{%
+\begin{minipage}[t][\pageheight]{#1}\vspace*{0ex}{#8}\end{minipage}%
+\hfill
+\begin{minipage}[t]{#2}%
+\begin{center}\raisebox{-\height+0.7\baselineskip - #7}{%
+\ \hfill\includegraphics[#4]{#3}
+}\end{center}\ \vfill\ \begin{center}\raisebox{0in}{%
+\ \hfill\includegraphics[#6]{#5}
+}\end{center}
+\end{minipage}%
+}
+
+\newcommand{\ntwocolsstwofigs}[8]{%
+\begin{minipage}[t]{#2}%
+\begin{center}\raisebox{-\height+0.7\baselineskip - #7}{%
+\includegraphics[#4]{#3}
+\hfill\ %
+}\end{center}%
+\ \vfill\ %
+\begin{center}\raisebox{0in}{%
+\includegraphics[#6]{#5}
+\hfill\ %
+}\end{center}%
+\end{minipage}%
+%}
+\hfill%
+\begin{minipage}[t][\pageheight]{#1}%
+\vspace*{0ex}
+{
+#8%
+}%
+\end{minipage}%
+}
+
+\newcommand\twocolsnormalsize[6]{\ntwocols{#1}{#2}{#3}{#4}{#5}{}{#6}}
+
+\newcommand\twocols[6]{\twocolsnormalsize{#1}{#2}{#3}{#4}{#5}{\small #6}}
+
+\newcommand{\twocolssnormalsize}[6]{\ntwocolss{#1}{#2}{#3}{#4}{#5}{}{#6}}
+\newcommand{\twocolss}[6]{\twocolssnormalsize{#1}{#2}{#3}{#4}{#5}{\small #6}}
+
+
+}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%% PACKAGE IMPORTS
+
+\yesnoexec{\pdfpsfrag}{%
+	\usepackage{psfrag}%
+	\yesnoexec{\reusepsfragpdf}{\usepackage[off]{auto-pst-pdf}}{\usepackage{auto-pst-pdf}}%
+}{%
+	\usepackage{graphicx}%
+}%
+
