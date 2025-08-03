@@ -1,4 +1,4 @@
-title: Convex Optimization
+title: Abstract Measure Theory
 categories:
 - blog
 conditionals:
@@ -8,24 +8,21 @@ conditionals:
   stories: no
   algebra: no
   aalgebra: no
-  ranalysis: no
+  ranalysis: yes
   meastheory: no
   topspaces: no
-  absmeas: no
+  absmeas: yes
   measprob: no
-  cvxopt: yes
+  cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 07:00:00 PDT 2025
+date: Fri Aug  1 05:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../_posts/2025-08-01-PDT - convex optimization.markdown
-permalink: /math/rig/convex-optimization
+output_markdown: ../../../_posts/2025-08-01-PDT - abstract measure theory.markdown
+permalink: /math/rig/abstract-measure-theory
 tags:
 - math
-- optimization
-- convex optimization
-- dual problem
-- duality
+- abstract measure theory
 verbose_errors: true
 def_tex: ./markdown_defs.tex

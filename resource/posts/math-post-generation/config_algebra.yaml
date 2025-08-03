@@ -1,4 +1,4 @@
-title: Topological Spaces
+title: Inequalities and Number Theory
 categories:
 - blog
 conditionals:
@@ -6,24 +6,25 @@ conditionals:
   preamble: yes
   trig: no
   stories: no
-  algebra: no
+  algebra: yes
   aalgebra: no
-  ranalysis: yes
+  ranalysis: no
   meastheory: no
-  topspaces: yes
+  topspaces: no
   absmeas: no
   measprob: no
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 04:00:00 PDT 2025
+date: Fri Aug  1 01:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../_posts/2025-08-01-PDT - topological spaces.markdown
-permalink: /math/rig/topological-spaces
+output_markdown: ../../../_posts/2025-08-01-PDT - inequalities and number theory.markdown
+permalink: /math/rig/algebra
 tags:
 - math
-- topology
-- topological spaces
+- algebra
+- inequalities
+- number theory
 verbose_errors: true
 def_tex: ./markdown_defs.tex

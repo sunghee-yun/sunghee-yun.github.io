@@ -1,4 +1,4 @@
-title: Inequalities and Number Theory
+title: Measure-theoretic Treatment of Statistics
 categories:
 - blog
 conditionals:
@@ -6,25 +6,24 @@ conditionals:
   preamble: yes
   trig: no
   stories: no
-  algebra: yes
+  algebra: no
   aalgebra: no
   ranalysis: no
   meastheory: no
   topspaces: no
   absmeas: no
-  measprob: no
+  measprob: yes
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 01:00:00 PDT 2025
+date: Fri Aug  1 06:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../_posts/2025-08-01-PDT - inequalities and number theory.markdown
-permalink: /math/rig/algebra
+output_markdown: ../../../_posts/2025-08-01-PDT - measure-theoretic treatment of statistics.markdown
+permalink: /math/rig/measure-theoretic-treatment-of-statistics
 tags:
 - math
-- algebra
-- inequalities
-- number theory
+- measure theory
+- statistics
 verbose_errors: true
 def_tex: ./markdown_defs.tex

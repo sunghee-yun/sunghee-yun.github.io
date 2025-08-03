@@ -1,4 +1,4 @@
-title: Measure-theoretic Treatment of Statistics
+title: Measure Theory
 categories:
 - blog
 conditionals:
@@ -8,22 +8,21 @@ conditionals:
   stories: no
   algebra: no
   aalgebra: no
-  ranalysis: no
-  meastheory: no
+  ranalysis: yes
+  meastheory: yes
   topspaces: no
   absmeas: no
-  measprob: yes
+  measprob: no
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 06:00:00 PDT 2025
+date: Fri Aug  1 03:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../_posts/2025-08-01-PDT - measure-theoretic treatment of statistics.markdown
-permalink: /math/rig/measure-theoretic-treatment-of-statistics
+output_markdown: ../../../_posts/2025-08-01-PDT - measure theory.markdown
+permalink: /math/rig/measure-theory
 tags:
 - math
 - measure theory
-- statistics
 verbose_errors: true
 def_tex: ./markdown_defs.tex

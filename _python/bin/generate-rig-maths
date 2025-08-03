@@ -1,7 +1,0 @@
-python convert_foiltex_to_markdown.py config_algebra.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_aalgebra.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_mtheory.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_topspaces.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_absmeas.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_measprob.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
-python convert_foiltex_to_markdown.py config_cvxopt.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"

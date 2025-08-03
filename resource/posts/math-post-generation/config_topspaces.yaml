@@ -1,4 +1,4 @@
-title: Abstract Measure Theory
+title: Topological Spaces
 categories:
 - blog
 conditionals:
@@ -10,19 +10,20 @@ conditionals:
   aalgebra: no
   ranalysis: yes
   meastheory: no
-  topspaces: no
-  absmeas: yes
+  topspaces: yes
+  absmeas: no
   measprob: no
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 05:00:00 PDT 2025
+date: Fri Aug  1 04:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../_posts/2025-08-01-PDT - abstract measure theory.markdown
-permalink: /math/rig/abstract-measure-theory
+output_markdown: ../../../_posts/2025-08-01-PDT - topological spaces.markdown
+permalink: /math/rig/topological-spaces
 tags:
 - math
-- abstract measure theory
+- topology
+- topological spaces
 verbose_errors: true
 def_tex: ./markdown_defs.tex
