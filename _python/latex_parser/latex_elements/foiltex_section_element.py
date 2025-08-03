@@ -2,6 +2,7 @@
 my foiltex section element, e.g., \\TITLEFOIL, \\titlefoil, \\myfoilhead
 """
 
+from latex_parser.latex_elements.latex_element_base import LaTeXElementBase
 from latex_parser.latex_elements.token_element import TokenElement
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.tokens.slide_section_base import SlideSectionBase
@@ -27,9 +28,9 @@ class FoiltexSectionElement(TokenElement):
 
         assert len(self.token.title) > 0
 
-        if self.level >= 3:
-            return f"\n<h{self.level}>" + f"{self.token.title}</h{self.level}>\n"
+        title: str = LaTeXElementBase.process_markdown_string(self.token.title)
 
-        return (
-            f'\n<h{self.level} id="{self.token.label}">' + f"{self.token.title}</h{self.level}>\n"
-        )
+        if self.level >= 3:
+            return f"\n<h{self.level}>" + f"{title}</h{self.level}>\n"
+
+        return f'\n<h{self.level} id="{self.token.label}">' + f"{title}</h{self.level}>\n"

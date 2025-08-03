@@ -10,7 +10,7 @@ from freq_used.logging_utils import set_logging_basic_config
 
 from latex_parser.tokenizers.latex_tokenizer import LaTeXTokenizer
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
-from latex_parser.tokenizers.tokens.user_defined_command import UserDefinedCommand
+from latex_parser.tokenizers.tokens.user_defined_command import UserDefinedCommandToken
 from latex_parser.tokenizers.tokens.punctuation_token import PunctuationToken
 
 logger: Logger = getLogger()
@@ -49,7 +49,7 @@ class TestLaTeXTokenizer(unittest.TestCase):
             raise
         finally:
             LaTeXTokenBase.log_statistics()
-            logger.info(sorted(UserDefinedCommand.user_command_set))
+            logger.info(sorted(UserDefinedCommandToken.USER_COMMAND_SET))
             logger.info(PunctuationToken.punctuation_set)
 
         self.assertTrue(True)  # add assertion here

@@ -16,7 +16,7 @@ from latex_parser.tokenizers.tokens.braced_phrase import BracedPhrase
 
 class KeywordBase(LaTeXTokenBase):
     num_instances: int = 0
-    theorem_like_names: list[str] = [
+    THEOREM_LIKE_NAMES: list[str] = [
         "myaxiom",
         "mylaw",
         "myprinciple",
@@ -31,7 +31,7 @@ class KeywordBase(LaTeXTokenBase):
         "myalgorithm",
     ]
 
-    reg_exp_theorem_like_names = "|".join(theorem_like_names)
+    REG_EXP_THEOREM_LIKE_NAMES = "|".join(THEOREM_LIKE_NAMES)
 
     def __init__(self, string: str, line_num: int) -> None:
         super().__init__(string, line_num)
@@ -45,12 +45,18 @@ class KeywordBase(LaTeXTokenBase):
         from latex_parser.tokenizers.tokens.top_title_foil import TopTitleFoil
         from latex_parser.tokenizers.tokens.title_foil import TitleFoil
         from latex_parser.tokenizers.tokens.my_foilhead import MyFoilhead
-        from latex_parser.tokenizers.tokens.begin_document_token import BeginDocumentToken
+        from latex_parser.tokenizers.tokens.begin_document_token import (
+            BeginDocumentToken,
+        )
         from latex_parser.tokenizers.tokens.end_document_token import EndDocumentToken
-        from latex_parser.tokenizers.tokens.begin_theorem_like_token import BeginTheoremLikeToken
-        from latex_parser.tokenizers.tokens.end_theorem_like_token import EndTheoremLikeToken
+        from latex_parser.tokenizers.tokens.begin_theorem_like_token import (
+            BeginTheoremLikeToken,
+        )
+        from latex_parser.tokenizers.tokens.end_theorem_like_token import (
+            EndTheoremLikeToken,
+        )
 
-        match: Match | None = re.match(r"(\\(v+i?|i|b)?item)", source_left)
+        match: Match | None = re.match(r"(\\(v+i?|i|b)?item\s*(\[.*])?)", source_left)
         if match:
             return ItemToken(match.group(1), line_num), match.span()[1]
 
@@ -84,7 +90,7 @@ class KeywordBase(LaTeXTokenBase):
                 match.span()[1],
             )
 
-        match = re.match(r"(\\myfoilhead\s*)", source_left)
+        match = re.match(r"(\\(myfoilhead|labelfoilhead)\s*)", source_left)
         if match:
             token, length = BracedPhrase.parse_and_create(
                 source_left[match.span()[1] :], line_num  # noqa: E203
@@ -103,7 +109,7 @@ class KeywordBase(LaTeXTokenBase):
             return EndDocumentToken(match.group(1), line_num), match.span()[1]
 
         match = re.match(
-            r"(\\begin\s*{\s*(" + cls.reg_exp_theorem_like_names + r")\s*}{\s*([\s\S]*?)\s*})",
+            r"(\\begin\s*{\s*(" + cls.REG_EXP_THEOREM_LIKE_NAMES + r")\s*}{\s*([\s\S]*?)\s*})",
             source_left,
         )
         if match:
@@ -113,9 +119,12 @@ class KeywordBase(LaTeXTokenBase):
             )
 
         match = re.match(
-            r"(\\end\s*{\s*(" + cls.reg_exp_theorem_like_names + r")\s*})", source_left
+            r"(\\end\s*{\s*(" + cls.REG_EXP_THEOREM_LIKE_NAMES + r")\s*})", source_left
         )
         if match:
-            return EndTheoremLikeToken(match.group(1), line_num, match.group(2)), match.span()[1]
+            return (
+                EndTheoremLikeToken(match.group(1), line_num, match.group(2)),
+                match.span()[1],
+            )
 
         raise ParsingException()

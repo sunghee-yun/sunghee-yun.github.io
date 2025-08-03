@@ -7,6 +7,7 @@ from re import Match
 
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.parsing_exception import ParsingException
+from utils import parse_nested_braced_clause
 
 
 class BracedPhrase(LaTeXTokenBase):
@@ -22,7 +23,11 @@ class BracedPhrase(LaTeXTokenBase):
         if match:
             return f"<code>{match.group(1).strip()}</code>"
 
-        return self.string
+        assert (
+            len(self.string) >= 2 and self.string.startswith("{") and self.string.endswith("}")
+        ), self.string
+
+        return self.string[1:-1]
 
     @property
     def abbr_string(self) -> str:
@@ -34,32 +39,9 @@ class BracedPhrase(LaTeXTokenBase):
 
     @classmethod
     def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
-        if source_left.startswith("{"):
-            number_braces_opened: int = 1
-            escape_character_just_before: bool = False
-            for idx, character in enumerate(source_left[1:]):
-                if character == "\\":
-                    escape_character_just_before = True
-                    continue
+        try:
+            parsed_string: str = parse_nested_braced_clause(source_left)
+        except Exception as e:
+            raise ParsingException(str(e))
 
-                if (
-                    not escape_character_just_before or (idx >= 2 and source_left[idx - 1] == "\\")
-                ) and character == "}":
-                    number_braces_opened -= 1
-
-                if number_braces_opened == 0:
-                    break
-
-                if (
-                    not escape_character_just_before or (idx >= 2 and source_left[idx - 1] == "\\")
-                ) and character == "{":
-                    number_braces_opened += 1
-
-                escape_character_just_before = False
-
-            if number_braces_opened > 0:
-                raise ParsingException("Open braces are not completed closed!")
-
-            return BracedPhrase(source_left[: idx + 2], line_num), idx + 2
-
-        raise ParsingException()
+        return BracedPhrase(parsed_string, line_num), len(parsed_string)

@@ -29,22 +29,35 @@ class MathPhraseBase(LaTeXTokenBase):
         pass
 
     @property
+    def markdown_content(self) -> str:
+        return self.content
+
+    @property
     def markdown_str(self) -> str:
-        return f"\n{self.opening_markdown_symbol}\n{self.content}\n{self.closing_markdown_symbol}\n"
+        return (
+            f"\n{self.opening_markdown_symbol}"
+            + f"\n{self.markdown_content}\n{self.closing_markdown_symbol}\n"
+        )
 
     @classmethod
     def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
         from latex_parser.tokenizers.tokens.math_phrase import MathPhrase
-        from latex_parser.tokenizers.tokens.multiline_math_phrase import MultilineMathPhrase
-        from latex_parser.tokenizers.tokens.equation_math_phrase import EquationMathPhrase
-        from latex_parser.tokenizers.tokens.eqnarray_math_phrase import EqnArrayMathPhrase
-
-        if source_left.startswith("$$\nX_n\\Rightarrow X, \\mbox{\\ie"):
-            pass
+        from latex_parser.tokenizers.tokens.multiline_math_phrase import (
+            MultilineMathPhrase,
+        )
+        from latex_parser.tokenizers.tokens.equation_math_phrase import (
+            EquationMathPhrase,
+        )
+        from latex_parser.tokenizers.tokens.eqnarray_math_phrase import (
+            EqnArrayMathPhrase,
+        )
 
         match: Match | None = re.match(r"(\$([^$]+)\$)", source_left)
         if match:
-            return MathPhrase(match.group(1), line_num, match.group(2).strip()), match.span()[1]
+            return (
+                MathPhrase(match.group(1), line_num, match.group(2).strip()),
+                match.span()[1],
+            )
 
         match = re.match(r"(\$\$([\s\S]*?)\$\$)", source_left)
         if match:
@@ -61,7 +74,8 @@ class MathPhraseBase(LaTeXTokenBase):
             )
 
         match = re.match(
-            r"(\\begin\s*{\s*equation\s*}((.|\n)*?)\\end\s*{\s*equation\s*})", source_left
+            r"(\\begin\s*{\s*equation\s*}((.|\n)*?)\\end\s*{\s*equation\s*})",
+            source_left,
         )
         if match:
             return (
@@ -84,7 +98,8 @@ class MathPhraseBase(LaTeXTokenBase):
             )
 
         match = re.match(
-            r"(\\begin\s*{\s*eqnarray(\*?)\s*}((.|\n)*?)\\end\s*{\s*eqnarray\*?\s*})", source_left
+            r"(\\begin\s*{\s*eqnarray(\*?)\s*}((.|\n)*?)\\end\s*{\s*eqnarray\*?\s*})",
+            source_left,
         )
         if match:
             return (

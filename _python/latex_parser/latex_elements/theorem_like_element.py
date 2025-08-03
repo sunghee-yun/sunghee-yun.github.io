@@ -55,7 +55,11 @@ class TheoremLikeElement(LaTeXElementBase):
             [
                 indent
                 + f'<div class="{self.type.value}" id="{self.type.value}:{self.name}"'
-                + (f' data-name="{self.name}"' if len(self.name) > 0 else "")
+                + (
+                    f' data-name="{LaTeXElementBase.process_markdown_string(self.name)}"'
+                    if len(self.name) > 0
+                    else ""
+                )
                 + ">",
                 self.contents.to_markdown_str(indent + "\t"),
                 indent + "</div>",

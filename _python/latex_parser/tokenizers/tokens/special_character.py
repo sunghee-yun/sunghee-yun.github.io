@@ -19,7 +19,7 @@ class SpecialCharacter(LaTeXTokenBase):
     @classmethod
     def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
         match: Match | None = re.match(
-            r"((\\#)|(---)|(--)|('')|(``)|(\\&)|(\\)|(/)|(`)|('))", source_left
+            r"((\\;)|(\\#)|(---)|(--)|('')|(``)|(\\&)|(\\)|(/)|(`)|('))", source_left
         )
         if match:
             return SpecialCharacter(match.group(1), line_num), match.span()[1]
@@ -28,6 +28,12 @@ class SpecialCharacter(LaTeXTokenBase):
 
     @property
     def markdown_str(self) -> str:
+        if self.string == r"\;":
+            return " "
+
+        if self.string == r"\#":
+            return "#"
+
         if self.string == r"\&":
             return "&amp;"
 
@@ -54,8 +60,5 @@ class SpecialCharacter(LaTeXTokenBase):
 
         if self.string == "/":
             return "/"
-
-        if self.string == r"\#":
-            return "#"
 
         assert False

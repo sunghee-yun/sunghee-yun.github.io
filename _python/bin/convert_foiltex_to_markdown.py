@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import logging
+from logging import Logger, getLogger
 
 import click
 from click import command, option, argument
@@ -18,6 +19,11 @@ from freq_used.logging_utils import set_logging_basic_config
 
 from converters.foiltex_markdown_conversion_config import FoiltexToMarkdownConversionConfig
 from converters.foiltex_markdown_converter import LaTeXToMarkdownConverter
+from latex_parser.tokenizers.tokens.latex_command import LaTeXCommandToken
+from latex_parser.tokenizers.tokens.user_defined_command import UserDefinedCommandToken
+from latex_parser.tokenizers.tokens.def_command import DefCommandToken
+
+logger: Logger = getLogger()
 
 
 @command(help="Convert Math Slide LaTeX to Jekyll Markdown")
@@ -51,6 +57,13 @@ def main(
     except Exception as e:
         print(f"Conversion failed: {e}")
         raise
+    finally:
+        logger.warning("LaTeX commands NOT taken are of:")
+        logger.warning(" / ".join(sorted(LaTeXCommandToken.COMMANDS_DEFINED)))
+        logger.warning("User-defined commands NOT taken are of:")
+        logger.warning(" / ".join(sorted(UserDefinedCommandToken.COMMANDS_NOT_TAKEN_CARE_OF)))
+        logger.warning("New commands defined:")
+        logger.warning(" / ".join(sorted(DefCommandToken.COMMANDS_DEFINED)))
 
 
 if __name__ == "__main__":

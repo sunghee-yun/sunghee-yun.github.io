@@ -4,12 +4,15 @@ foiltex to markdown converter
 
 import os
 import time
+from collections import OrderedDict
 from logging import Logger, getLogger
 from pathlib import Path
 
 import yaml
 
-from converters.foiltex_markdown_conversion_config import FoiltexToMarkdownConversionConfig
+from converters.foiltex_markdown_conversion_config import (
+    FoiltexToMarkdownConversionConfig,
+)
 from converters.latex_parser_to_markdown_converter import LatexParserToMarkdownConverter
 from latex_parser.conditional_processor import LaTeXConditionalProcessor
 from latex_parser.latex_parser import LaTeXParser
@@ -33,7 +36,8 @@ class LaTeXToMarkdownConverter:
         extracted_tex: str = lcp.process_document(content)
 
         tmp_tex_filepath: str = os.path.join(
-            os.curdir, os.path.splitext(os.path.split(self.config.output_markdown)[1])[0] + ".tex"
+            os.curdir,
+            os.path.splitext(os.path.split(self.config.output_markdown)[1])[0] + ".tex",
         )
 
         with open(tmp_tex_filepath, "w") as fid:
@@ -62,19 +66,26 @@ class LaTeXToMarkdownConverter:
     @property
     def front_matter(self) -> str:
         """Generate Jekyll front matter"""
-        front_matter_ = {
-            "title": self.config.title,
-            "date": self.config.date,
-            "last_modified_at": time.strftime("%a %b %_d %H:%M:%S %Z %Y"),
-            "permalink": self.config.permalink,
-            "categories": self.config.categories,
-            "tags": self.config.tags,
-            "toc": True,
-            "toc_label": "&nbsp;Table of Contents",
-            "toc_icon": "fa-solid fa-list",
-            "toc_sticky": True,
-            "usemathjax": True,
-        }
+        front_matter_ = OrderedDict(
+            [
+                ("title", self.config.title),
+                ("date", self.config.date),
+                ("last_modified_at", time.strftime("%a %b %_d %H:%M:%S %Z %Y")),
+                ("permalink", self.config.permalink),
+                ("categories", self.config.categories),
+                ("tags", self.config.tags),
+                ("toc", True),
+                ("toc_label", "&nbsp;Table of Contents"),
+                ("toc_icon", "fa-solid fa-list"),
+                ("toc_sticky", True),
+                ("usemathjax", True),
+            ]
+        )
+
+        def represent_ordereddict(dumper, data):
+            return dumper.represent_dict(data.items())
+
+        yaml.add_representer(OrderedDict, represent_ordereddict)
 
         yaml_content = yaml.dump(front_matter_, default_flow_style=False)
         return f"---\n{yaml_content}---"

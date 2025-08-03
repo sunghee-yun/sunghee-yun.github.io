@@ -7,14 +7,16 @@ from re import Match
 from typing import Generator
 
 from latex_parser.tokenizers.parsing_exception import ParsingException
+from latex_parser.tokenizers.tokens.algorithmic_clause import AlgorithmicClause
 from latex_parser.tokenizers.tokens.braced_phrase import BracedPhrase
 from latex_parser.tokenizers.tokens.bracketed_phrase import BracketedPhrase
-from latex_parser.tokenizers.tokens.command_base import CommandBase
+from latex_parser.tokenizers.tokens.command_token_base import CommandTokenBase
 from latex_parser.tokenizers.tokens.keyword_base import KeywordBase
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.tokens.math_phrase_base import MathPhraseBase
 from latex_parser.tokenizers.tokens.new_lines_token import NewLines
 from latex_parser.tokenizers.tokens.punctuation_token import PunctuationToken
+from latex_parser.tokenizers.tokens.refer import Refer
 from latex_parser.tokenizers.tokens.special_character import SpecialCharacter
 from latex_parser.tokenizers.tokens.special_number_string import SpecialNumberString
 from latex_parser.tokenizers.tokens.special_string import SpecialString
@@ -59,10 +61,12 @@ class LaTeXTokenizer:
 
             token_parsed: bool = False
             for cls in [
-                WordToken,
                 MathPhraseBase,
+                AlgorithmicClause,
+                WordToken,
                 KeywordBase,
-                CommandBase,
+                Refer,
+                CommandTokenBase,
                 BracedPhrase,
                 PunctuationToken,
                 BracketedPhrase,

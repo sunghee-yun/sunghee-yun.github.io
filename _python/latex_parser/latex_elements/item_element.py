@@ -21,5 +21,9 @@ class ItemElement(LaTeXElementBase):
 
     def to_markdown_str(self, indent: str = "") -> str:
         return "\n".join(
-            [indent + "<li>", self.contents.to_markdown_str(indent + "\t"), indent + "</li>"]
+            [
+                indent + "<li>",
+                self.contents.to_markdown_str(indent + "\t"),
+                indent + "</li>",
+            ]
         )

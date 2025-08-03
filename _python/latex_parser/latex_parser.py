@@ -8,9 +8,12 @@ from logging import Logger, getLogger
 from latex_parser.latex_elements.itemize_element import ItemizeElement
 from latex_parser.latex_elements.latex_contents import LaTeXContents
 from latex_parser.latex_elements.latex_document import LaTeXDocument
-from latex_parser.latex_elements.theorem_like_element import TheoremLikeElement, TheoremLikeType
+from latex_parser.latex_elements.theorem_like_element import (
+    TheoremLikeElement,
+    TheoremLikeType,
+)
 from latex_parser.latex_elements.token_element import TokenElement
-from latex_parser.latex_elements.latex_command_element import LatexCommandElement
+from latex_parser.latex_elements.latex_command_element import LaTeXCommandElement
 from latex_parser.latex_elements.foiltex_section_element import FoiltexSectionElement
 from latex_parser.latex_elements.item_element import ItemElement
 from latex_parser.latex_elements.latex_element_base import LaTeXElementBase
@@ -18,16 +21,18 @@ from latex_parser.parsing_error import ParsingError
 from latex_parser.tokenizers.latex_tokenizer import LaTeXTokenizer
 from latex_parser.tokenizers.tokens.begin_document_token import BeginDocumentToken
 from latex_parser.tokenizers.tokens.begin_itemize_token import BeginItemizeToken
-from latex_parser.tokenizers.tokens.begin_theorem_like_token import BeginTheoremLikeToken
+from latex_parser.tokenizers.tokens.begin_theorem_like_token import (
+    BeginTheoremLikeToken,
+)
 from latex_parser.tokenizers.tokens.braced_phrase import BracedPhrase
 from latex_parser.tokenizers.tokens.bracketed_phrase import BracketedPhrase
-from latex_parser.tokenizers.tokens.command_base import CommandBase
+from latex_parser.tokenizers.tokens.command_token_base import CommandTokenBase
 from latex_parser.tokenizers.tokens.end_document_token import EndDocumentToken
 from latex_parser.tokenizers.tokens.end_itemize_token import EndItemizeToken
 from latex_parser.tokenizers.tokens.end_theorem_like_token import EndTheoremLikeToken
 from latex_parser.tokenizers.tokens.item_token import ItemToken
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
-from latex_parser.tokenizers.tokens.latex_command import LaTeXCommand
+from latex_parser.tokenizers.tokens.latex_command import LaTeXCommandToken
 from latex_parser.tokenizers.tokens.new_lines_token import NewLines
 from latex_parser.tokenizers.tokens.white_spaces import WhiteSpaces
 from latex_parser.tokenizers.tokens.top_title_foil import TopTitleFoil
@@ -63,7 +68,7 @@ class LaTeXParser:
         itemize_mode: ItemizeMode = ItemizeMode.NOT_ITEMIZE
         begin_theorem_like_token: BeginTheoremLikeToken | None = None
 
-        latex_command: CommandBase | None = None
+        latex_command: CommandTokenBase | None = None
         latex_command_arg_list: list[BracedPhrase] = list()
         latex_command_opt_arg_list: list[BracketedPhrase] = list()
         latex_command_spaces: list[NewLines | WhiteSpaces] = list()
@@ -88,7 +93,7 @@ class LaTeXParser:
                     continue
 
                 content_stack[-1].add_element(
-                    LatexCommandElement(
+                    LaTeXCommandElement(
                         latex_command,
                         [braced_phrase.string[1:-1] for braced_phrase in latex_command_arg_list],
                         [
@@ -137,7 +142,7 @@ class LaTeXParser:
 
                 if (
                     isinstance(token, (NewLines, WhiteSpaces))
-                    or isinstance(token, LaTeXCommand)
+                    or isinstance(token, LaTeXCommandToken)
                     and token.string == r"\vfill"
                 ):
                     continue
@@ -177,7 +182,7 @@ class LaTeXParser:
                 met_end_document = True
                 break
 
-            if isinstance(token, CommandBase):
+            if isinstance(token, CommandTokenBase):
                 assert latex_command is None
                 assert len(latex_command_arg_list) == 0, (
                     latex_command_arg_list,

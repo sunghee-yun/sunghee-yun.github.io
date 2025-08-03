@@ -108,7 +108,10 @@ class LaTeXConditionalProcessor:
                 elif char == "}":
                     brace_count -= 1
                     if brace_count == 0:
-                        return start + 1, i  # Return content positions (excluding braces)
+                        return (
+                            start + 1,
+                            i,
+                        )  # Return content positions (excluding braces)
 
                 i += 1
 
