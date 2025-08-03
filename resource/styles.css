@@ -238,6 +238,11 @@ figcaption {
 	font-style: italic;
 }
 
+.eemph {
+	color: rgb(86%, 8%, 24%);
+	font-style: italic;
+}
+
 .define {
 	color: blue;
 	font-style: italic;
