@@ -1,18 +1,18 @@
 ---
+title: Inequalities and Number Theory
+date: Fri Aug  1 01:00:00 PDT 2025
+last_modified_at: Sun Aug  3 05:49:25 PDT 2025
+permalink: /math/rig/algebra
 categories:
 - blog
-date: Fri Aug  1 01:00:00 PDT 2025
-last_modified_at: Sat Aug  2 18:46:51 PDT 2025
-permalink: /math/rig/algebra
 tags:
 - math
 - algebra
 - inequalities
 - number theory
-title: Inequalities and Number Theory
 toc: true
-toc_icon: fa-solid fa-list
 toc_label: '&nbsp;Table of Contents'
+toc_icon: fa-solid fa-list
 toc_sticky: true
 usemathjax: true
 ---
@@ -24,21 +24,32 @@ updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 
 $$
 	%
-	\newcommand{\naturals}{\mathbb{N}}
-	\newcommand{\integers}{\mathbb{Z}}
-	\newcommand{\rationals}{\mathbb{Q}}
-	\newcommand{\reals}{\mathbb{R}}
-	\newcommand{\preals}{\mathbb{R}_+}
-	\newcommand{\prealk}[1]{\reals_{+}^{#1}}
-	\newcommand{\ppreals}{\mathbb{R}_{++}}
-	\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
-	\newcommand{\complexes}{\mathbb{C}}
-	\newcommand{\dom}{\mathop{\bf dom {}}}
-	\newcommand{\field}{\mathbb{F}}
-	\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
+	\newcommand{\algA}{\algk{A}}
+	\newcommand{\algC}{\algk{C}}
 	\newcommand{\bigtimes}{\times}
 	\newcommand{\compl}[1]{\tilde{#1}}
+	\newcommand{\complexes}{\mathbb{C}}
+	\newcommand{\dom}{\mathop{\bf dom {}}}
+	\newcommand{\ereals}{\reals\cup\{-\infty,\infty\}}
+	\newcommand{\field}{\mathbb{F}}
+	\newcommand{\integers}{\mathbb{Z}}
+	\newcommand{\lbdseqk}[1]{\seqk{\lambda}{#1}}
+	\newcommand{\meas}[3]{({#1}, {#2}, {#3})}
+	\newcommand{\measu}[2]{({#1}, {#2})}
+	\newcommand{\meast}[3]{\left({#1}, {#2}, {#3}\right)}
+	\newcommand{\naturals}{\mathbb{N}}
+	\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
+	\newcommand{\pair}[2]{\langle {#1}, {#2}\rangle}
+	\newcommand{\rationals}{\mathbb{Q}}
+	\newcommand{\reals}{\mathbb{R}}
+	\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
 	\newcommand{\powerset}{\mathcal{P}}
+	\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
+	\newcommand{\ppreals}{\mathbb{R}_{++}}
+	\newcommand{\prealk}[1]{\reals_{+}^{#1}}
+	\newcommand{\preals}{\mathbb{R}_+}
+	\newcommand{\tXJ}{\topos{X}{J}}
+	%
 	\newcommand{\relint}{\mathop{\bf relint {}}}
 	\newcommand{\boundary}{\mathop{\bf bd {}}}
 	\newcommand{\subsetset}[1]{\mathcal{#1}}
@@ -103,8 +114,8 @@ $$
 	\newcommand{\sdirlbd}{\sdirletter{\lambda}{\Delta \lambda}}
 	\newcommand{\sdir}{\sdirletter{x}{v}}
 	\newcommand{\seqk}[2]{#1^{(#2)}}
+	\newcommand{\seqscr}[3]{\seq{#1}_{#2}^{#3}}
 	\newcommand{\xseqk}[1]{\seqk{x}{#1}}
-	\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
 	\newcommand{\sdirk}[1]{\seqk{\sdir}{#1}}
 	\newcommand{\sdiry}{\sdirletter{y}{\Delta y}}
 	\newcommand{\slen}{t}
@@ -120,6 +131,7 @@ $$
 	%
 	\newcommand{\algk}[1]{\mathalgfont{#1}}
 	\newcommand{\collk}[1]{\mathcalfont{#1}}
+	\newcommand{\classk}[1]{\collk{#1}}
 	\newcommand{\indexedcol}[1]{\{#1\}}
 	\newcommand{\rel}{\mathbf{R}}
 	\newcommand{\relxy}[2]{#1\;\rel\;{#2}}
@@ -171,6 +183,9 @@ $$
 	%
 	\newcommand{\bigpropercone}{\mathcalfont{K}}
 	%
+	\newcommand{\prescript}[3]{\;^{#1}{#3}}
+	%
+	%
 $$
 
 # Introduction
@@ -186,60 +201,51 @@ $$
 
 
 
-<h3 id="my-foilhead-2">Notations</h3>
+<h3>Notations</h3>
 
 
 <ul>
 <li>
-	
-sets of numbers
+	sets of numbers
 	<ul>
 	<li>
-		
-$\naturals$ - set of natural numbers
+		$\naturals$ - set of natural numbers
 
 
 
 	</li>
 	<li>
-		
-$\integers$ - set of integers
+		$\integers$ - set of integers
 
 
 
 	</li>
 	<li>
-		
-$\integers_+$ - set of nonnegative integers
+		$\integers_+$ - set of nonnegative integers
 
 	</li>
 	<li>
-		
-$\rationals$ - set of rational numbers
-
-
-
-	</li>
-	<li>
-		
-$\reals$ - set of real numbers
+		$\rationals$ - set of rational numbers
 
 
 
 	</li>
 	<li>
-		
-$\preals$ - set of nonnegative real numbers
+		$\reals$ - set of real numbers
+
+
 
 	</li>
 	<li>
-		
-$\ppreals$ - set of positive real numbers
+		$\preals$ - set of nonnegative real numbers
 
 	</li>
 	<li>
-		
-$\complexes$ - set of complex numbers
+		$\ppreals$ - set of positive real numbers
+
+	</li>
+	<li>
+		$\complexes$ - set of complex numbers
 
 
 
@@ -248,13 +254,11 @@ $\complexes$ - set of complex numbers
 
 </li>
 <li>
-	
-sequences $\seq{x_i}$ and the like
+	sequences $\seq{x_i}$ and the like
 
 	<ul>
 	<li>
-		
-finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ whenever unambiguously understood
+		finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ whenever unambiguously understood
 
 
 
@@ -262,77 +266,65 @@ finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ 
 
 	</li>
 	<li>
-		
-similarly for other operations, <i>e.g.</i>, $\sum x_i$, $\prod x_i$, $\cup A_i$, $\cap A_i$, $\bigtimes A_i$
+		similarly for other operations, <i>e.g.</i>, $\sum x_i$, $\prod x_i$, $\cup A_i$, $\cap A_i$, $\bigtimes A_i$
 
 	</li>
 	<li>
-		
-similarly for integrals, <i>e.g.</i>, $\int f$ for $\int_{-\infty}^\infty f$
+		similarly for integrals, <i>e.g.</i>, $\int f$ for $\int_{-\infty}^\infty f$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-sets
+	sets
 	<ul>
 	<li>
-		
-$\compl{A}$ - complement of $A$
+		$\compl{A}$ - complement of $A$
 
 
 
 	</li>
 	<li>
-		
-$A\sim B$ - $A\cap \compl{B}$
+		$A\sim B$ - $A\cap \compl{B}$
 
 
 
 	</li>
 	<li>
-		
-$A\Delta B$ - $(A\cap \compl{B}) \cup (\compl{A} \cap B)$
+		$A\Delta B$ - $(A\cap \compl{B}) \cup (\compl{A} \cap B)$
 
 	</li>
 	<li>
-		
-$\powerset(A)$ - set of all subsets of $A$
+		$\powerset(A)$ - set of all subsets of $A$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-sets in metric vector spaces
+	sets in metric vector spaces
 	<ul>
 	<li>
-		
- - closure of set $A$
+		$\closure{A}$ - closure of set $A$
 
 
 
 	</li>
 	<li>
-		
- - interior of set $A$
+		$\interior{A}$ - interior of set $A$
 
 
 
 	</li>
 	<li>
-		
-$\relint A$ - relative interior of set $A$
+		$\relint A$ - relative interior of set $A$
 
 
 
 	</li>
 	<li>
-		
-$\boundary A$ - boundary of set $A$
+		$\boundary A$ - boundary of set $A$
 
 
 
@@ -341,13 +333,11 @@ $\boundary A$ - boundary of set $A$
 
 </li>
 <li>
-	
-set algebra
+	set algebra
 	<ul>
 	<li>
-		
-$\sigma(\subsetset{A})$ - $\sigma$-algebra generated by ,
-, smallest $\sigma$-algebra containing 
+		$\sigma(\subsetset{A})$ - $\sigma$-algebra generated by $\subsetset{A}$,
+<i>i.e.</i>, smallest $\sigma$-algebra containing $\subsetset{A}$
 
 
 	</li>
@@ -355,40 +345,36 @@ $\sigma(\subsetset{A})$ - $\sigma$-algebra generated by ,
 
 </li>
 <li>
-	
-norms in $\reals^n$
+	norms in $\reals^n$
 
 
 	<ul>
 	<li>
-		
-$\|x\|_p$ ($p\geq1$) - $p$-norm of $x\in\reals^n$, , $(|x_1|^p + \cdots + |x_n|^p)^{1/p}$
+		$\|x\|_p$ ($p\geq1$) - $p$-norm of $x\in\reals^n$, <i>i.e.</i>, $(|x_1|^p + \cdots + |x_n|^p)^{1/p}$
 
 	</li>
 	<li>
-		
-<i>e.g.</i>, $\|x\|_2$ - Euclidean norm
+		<i>e.g.</i>, $\|x\|_2$ - Euclidean norm
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-matrices and vectors
+	matrices and vectors
 	<ul>
 	<li>
-		 $a_{i}$ - $i$-th entry of vector $a$
+		$a_{i}$ - $i$-th entry of vector $a$
 
 	</li>
 	<li>
-		 $A_{ij}$ - entry of matrix $A$ at position $(i,j)$,
-, entry in $i$-th row and $j$-th column
+		$A_{ij}$ - entry of matrix $A$ at position $(i,j)$,
+<i>i.e.</i>, entry in $i$-th row and $j$-th column
 
 	</li>
 	<li>
-		 $\Tr(A)$ - trace of $A \in\reals^{n\times n}$,
-, $A_{1,1}+ \cdots + A_{n,n}$
+		$\Tr(A)$ - trace of $A \in\reals^{n\times n}$,
+<i>i.e.</i>, $A_{1,1}+ \cdots + A_{n,n}$
 
 
 
@@ -397,27 +383,23 @@ matrices and vectors
 
 </li>
 <li>
-	
-symmetric, positive definite, and positive semi-definite matrices
+	symmetric, positive definite, and positive semi-definite matrices
 	<ul>
 	<li>
-		
-$\symset{n}\subset \reals^{n\times n}$ - set of symmetric matrices
+		$\symset{n}\subset \reals^{n\times n}$ - set of symmetric matrices
 
 
 
 	</li>
 	<li>
-		
-$\possemidefset{n}\subset \symset{n}$ - set of positive semi-definite matrices;
+		$\possemidefset{n}\subset \symset{n}$ - set of positive semi-definite matrices;
 $A\succeq0 \Leftrightarrow A \in \possemidefset{n}$
 
 
 
 	</li>
 	<li>
-		
-$\posdefset{n}\subset \symset{n}$ - set of positive definite matrices;
+		$\posdefset{n}\subset \symset{n}$ - set of positive definite matrices;
 $A\succ0 \Leftrightarrow A \in \posdefset{n}$
 
 
@@ -427,14 +409,12 @@ $A\succ0 \Leftrightarrow A \in \posdefset{n}$
 
 </li>
 <li>
-	
-sometimes,
+	sometimes,
 use Python script-like notations
 (with serious abuse of mathematical notations)
 	<ul>
 	<li>
-		
-use $f:\reals\to\reals$ as if it were $f:\reals^n \to \reals^n$,
+		use $f:\reals\to\reals$ as if it were $f:\reals^n \to \reals^n$,
 <i>e.g.</i>,
 
 $$
@@ -448,13 +428,12 @@ $$
 $$
 
 which corresponds to Python code <code>numpy.exp(x)</code> or <code>numpy.log(x)</code>
-where <code>x</code> is instance of <code>numpy.ndarray</code>, , <code>numpy</code> array
+where <code>x</code> is instance of <code>numpy.ndarray</code>, <i>i.e.</i>, <code>numpy</code> array
 
 	</li>
 	<li>
-		
-use $\sum x$ to mean $\ones^T x$ for $x\in\reals^n$,
-
+		use $\sum x$ to mean $\ones^T x$ for $x\in\reals^n$,
+<i>i.e.</i>
 
 $$
 \sum x = x_1 + \cdots + x_n
@@ -465,8 +444,7 @@ where <code>x</code> is <code>numpy</code> array
 
 	</li>
 	<li>
-		
-use $x/y$ for $x,y\in\reals^n$ to mean
+		use $x/y$ for $x,y\in\reals^n$ to mean
 
 $$
 \rowvecthree{x_1/y_1}{\cdots}{x_n/y_n}^T
@@ -477,8 +455,7 @@ where <code>x</code> and <code>y</code> are $1$-d <code>numpy</code> arrays
 
 	</li>
 	<li>
-		
-use $X/Y$ for $X,Y\in\reals^{m\times n}$ to mean
+		use $X/Y$ for $X,Y\in\reals^{m\times n}$ to mean
 
 $$
 \begin{my-matrix}{cccc}
@@ -502,7 +479,7 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 </ul>
 
 
-<h3 id="my-foilhead-3">Some definitions</h3>
+<h3>Some definitions</h3>
 
 
 <div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
@@ -536,7 +513,7 @@ statement $P(x)$,
 said to happen <span class="define">almost everywhere</span> or <span class="define">a.e.</span> or <span class="define">almost surely</span> or <span class="define">a.s.</span>
 (depending on context)
 associated with
-measure space 
+measure space $\meas{X}{\algB}{\mu}$
 if
 
 $$
@@ -553,27 +530,23 @@ $$
 </div>
 
 
-<h3 id="my-foilhead-4">Some conventions</h3>
+<h3>Some conventions</h3>
 
 
 <ul>
 <li>
-	
-(for some subjects) use following conventions
+	(for some subjects) use following conventions
 	<ul>
 	<li>
-		
-$0\cdot \infty = \infty \cdot 0 = 0$
+		$0\cdot \infty = \infty \cdot 0 = 0$
 
 	</li>
 	<li>
-		
-$(\forall x\in\ppreals)(x\cdot \infty = \infty \cdot x = \infty)$
+		$(\forall x\in\ppreals)(x\cdot \infty = \infty \cdot x = \infty)$
 
 	</li>
 	<li>
-		
-$\infty \cdot \infty = \infty$
+		$\infty \cdot \infty = \infty$
 
 	</li>
 	</ul>
@@ -589,15 +562,14 @@ $\infty \cdot \infty = \infty$
 <h2 id="Inequalities">Inequalities</h2>
 
 
-<h3 id="my-foilhead-5">Jensen's inequality</h3>
+<h3>Jensen's inequality</h3>
 
 <ul>
 <li>
-	
-strictly convex function: for any $x\neq y$ and $0< \alpha <1$
+	strictly convex function: for any $x\neq y$ and $0< \alpha <1$
 
 
-(~)
+(<a href="#definition:convex functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) > f(\alpha x + (1-\alpha) y)
@@ -606,9 +578,9 @@ $$
 
 </li>
 <li>
-	 convex function: for any $x, y$ and $0< \alpha <1$
+	convex function: for any $x, y$ and $0< \alpha <1$
 
-(~)
+(<a href="#definition:convex functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) \geq f(\alpha x + (1-\alpha) y)
@@ -633,20 +605,18 @@ $$
 
 	<ul>
 	<li>
-		
-if $f$ is strictly convex, equality holds if and only if $x_1=\cdots=x_n$
+		if $f$ is strictly convex, equality holds if and only if $x_1=\cdots=x_n$
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-6">Jensen's inequality - for random variables</h3>
+<h3>Jensen's inequality - for random variables</h3>
 
 <ul>
 <li>
-	
-discrete random variable interpretation of Jensen's inequality in summation form - assume $\Prob(X=x_i) = \alpha_i$, then
+	discrete random variable interpretation of Jensen's inequality in summation form - assume $\Prob(X=x_i) = \alpha_i$, then
 
 $$
 \Expect f(X)
@@ -661,7 +631,7 @@ $$
 
 </li>
 <li>
-	 true for any random variables $X$
+	true for any random variables $X$
 
 </li>
 </ul>
@@ -686,11 +656,11 @@ $$
 </div>
 
 
-<h3 id="my-foilhead-7">Proof for $n=3$</h3>
+<h3>Proof for $n=3$</h3>
 
 <ul>
 <li>
-	 for any $x,y,z$ and $\alpha,\beta,\gamma>0$ with $\alpha + \beta + \gamma = 1$
+	for any $x,y,z$ and $\alpha,\beta,\gamma>0$ with $\alpha + \beta + \gamma = 1$
 
 $$
 \begin{eqnarray*}
@@ -713,21 +683,18 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-8">Proof for all $n$</h3>
+<h3>Proof for all $n$</h3>
 
 <ul>
 <li>
-	
-use mathematical induction
+	use mathematical induction
 	<ul>
 	<li>
-		
-assume that Jensen's inequality holds for $1\leq n\leq m$
+		assume that Jensen's inequality holds for $1\leq n\leq m$
 
 	</li>
 	<li>
-		
-for distinct $x_i$ and $\alpha_i>0$ ($1\leq i\leq m+1$) with $\alpha_1 + \cdots + \alpha_{m+1} = 1$
+		for distinct $x_i$ and $\alpha_i>0$ ($1\leq i\leq m+1$) with $\alpha_1 + \cdots + \alpha_{m+1} = 1$
 
 $$
 \begin{eqnarray*}
@@ -755,11 +722,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-9">1st and 2nd order conditions for convexity</h3>
+<h3>1st and 2nd order conditions for convexity</h3>
 
 <ul>
 <li>
-	 1st order condition (assuming differentiable $f:\reals\to\reals$)
+	1st order condition (assuming differentiable $f:\reals\to\reals$)
 - $f$ is strictly convex if and only if for any $x\neq y$
 
 
@@ -770,15 +737,15 @@ $$
 
 </li>
 <li>
-	 2nd order condition (assuming twice-differentiable $f:\reals\to\reals$)
+	2nd order condition (assuming twice-differentiable $f:\reals\to\reals$)
 
 	<ul>
 	<li>
-		 if $f''(x)>0$, $f$ is strictly convex
+		if $f''(x)>0$, $f$ is strictly convex
 
 	</li>
 	<li>
-		 $f$ is convex if and only if for any $x$
+		$f$ is convex if and only if for any $x$
 
 $$
 f''(x) \geq 0
@@ -792,11 +759,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-10">Jensen's inequality examples</h3>
+<h3>Jensen's inequality examples</h3>
 
 <ul>
 <li>
-	 $f(x)=x^2$ is strictly convex
+	$f(x)=x^2$ is strictly convex
 
 $$
 \frac{a^2 + b^2}{2}
@@ -807,7 +774,7 @@ $$
 
 </li>
 <li>
-	 $f(x)=x^4$ is strictly convex
+	$f(x)=x^4$ is strictly convex
 
 $$
 \frac{a^4 + b^4}{2}
@@ -818,7 +785,7 @@ $$
 
 </li>
 <li>
-	 $f(x)=\exp(x)$ is strictly convex
+	$f(x)=\exp(x)$ is strictly convex
 
 $$
 \frac{\exp(a) + \exp(b)}{2}
@@ -829,17 +796,16 @@ $$
 
 </li>
 <li>
-	 equality holds if and only if $a=b$ for all inequalities
+	equality holds if and only if $a=b$ for all inequalities
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-11">1st and 2nd order conditions for convexity - vector version</h3>
+<h3>1st and 2nd order conditions for convexity - vector version</h3>
 
 <ul>
 <li>
-	
-1st order condition (assuming differentiable $f:\reals^n\to\reals$)
+	1st order condition (assuming differentiable $f:\reals^n\to\reals$)
 - $f$ is strict convex if and only if for any $x,y$
 
 
@@ -851,18 +817,15 @@ where $\nabla f(x) \in\reals^{n}$ with $\nabla f(x)_{i} = \partial f(x) / \parti
 
 </li>
 <li>
-	
-2nd order condition (assuming twice-differentiable $f:\reals^n\to\reals$)
+	2nd order condition (assuming twice-differentiable $f:\reals^n\to\reals$)
 
 	<ul>
 	<li>
-		
-if $\nabla^2 f(x) \succ 0$, $f$ is strictly convex
+		if $\nabla^2 f(x) \succ 0$, $f$ is strictly convex
 
 	</li>
 	<li>
-		
-$f$ is convex if and only if for any $x$
+		$f$ is convex if and only if for any $x$
 
 $$
 \nabla^2 f(x)\succeq 0
@@ -873,22 +836,22 @@ $$
 	</ul>
 where $\nabla^2 f(x) \in\reals^{n\times n}$
 is Hessian matrix of $f$ evaluated at $x$,
-,
+<i>i.e.</i>,
 $\nabla^2 f(x)_{i,j} = \partial^2 f(x) / \partial x_i \partial x_j$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-12">Jensen's inequality examples - vector version</h3>
+<h3>Jensen's inequality examples - vector version</h3>
 
 <ul>
 <li>
-	 assume $f:\reals^n\to\reals$
+	assume $f:\reals^n\to\reals$
 
 </li>
 <li>
-	 $f(x)=\|x\|_2 = \sqrt{\sum x_i^2}$ is strictly convex
+	$f(x)=\|x\|_2 = \sqrt{\sum x_i^2}$ is strictly convex
 
 $$
 (\|a\|_2 + 2\|b\|_2 )/3
@@ -898,14 +861,14 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a=b\in\reals^n$
+		equality holds if and only if $a=b\in\reals^n$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	 $f(x)=\|x\|_p = \left(\sum |x_i|^p\right)^{1/p}$ ($p>1$) is strictly convex
+	$f(x)=\|x\|_p = \left(\sum |x_i|^p\right)^{1/p}$ ($p>1$) is strictly convex
 
 $$
 \frac{1}{k}
@@ -916,7 +879,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $x^{(1)}=\cdots=x^{(k)}\in\reals^n$
+		equality holds if and only if $x^{(1)}=\cdots=x^{(k)}\in\reals^n$
 
 	</li>
 	</ul>
@@ -924,12 +887,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-13">AM $\geq$ GM</h3>
+<h3>AM $\geq$ GM</h3>
 
 <ul>
 <li>
-	
-for all $a,b>0$
+	for all $a,b>0$
 
 $$
 \frac{a + b}{2} \geq \sqrt{ab}
@@ -937,16 +899,14 @@ $$
 
 	<ul>
 	<li>
-		
-equality holds if and only if $a=b$
+		equality holds if and only if $a=b$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-below most general form holds
+	below most general form holds
 
 </li>
 </ul>
@@ -965,23 +925,22 @@ where equality holds if and only if $a_1=\cdots=a_n$
 </div>
 <ul>
 <li>
-	
-let's prove these incrementally
+	let's prove these incrementally
 (for rational $\alpha_i$)
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-14">Proof of AM $\geq$ GM - simplest case</h3>
+<h3>Proof of AM $\geq$ GM - simplest case</h3>
 
 <ul>
 <li>
-	 use fact that $x^2\geq0$ for any $x\in\reals$
+	use fact that $x^2\geq0$ for any $x\in\reals$
 
 </li>
 <li>
-	 for any $a,b>0$
+	for any $a,b>0$
 
 $$
 \begin{eqnarray*}
@@ -1001,7 +960,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a=b$
+		equality holds if and only if $a=b$
 
 	</li>
 	</ul>
@@ -1009,11 +968,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-15">Proof of AM $\geq$ GM - when $n=4$ and $n=8$</h3>
+<h3>Proof of AM $\geq$ GM - when $n=4$ and $n=8$</h3>
 
 <ul>
 <li>
-	 for any $a,b,c,d>0$
+	for any $a,b,c,d>0$
 
 $$
 \frac{a+b+c+d}{4}
@@ -1029,7 +988,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a=b$ and $c=d$ and $ab=cd$
+		equality holds if and only if $a=b$ and $c=d$ and $ab=cd$
 if and only if $a=b=c=d$
 
 	</li>
@@ -1037,7 +996,7 @@ if and only if $a=b=c=d$
 
 </li>
 <li>
-	 likewise, for $a_1,\ldots,a_8>0$
+	likewise, for $a_1,\ldots,a_8>0$
 
 $$
 \begin{eqnarray*}
@@ -1055,7 +1014,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a_1=\cdots=a_8$
+		equality holds if and only if $a_1=\cdots=a_8$
 
 	</li>
 	</ul>
@@ -1063,11 +1022,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-16">Proof of AM $\geq$ GM - when $n=2^m$</h3>
+<h3>Proof of AM $\geq$ GM - when $n=2^m$</h3>
 
 <ul>
 <li>
-	 generalized to cases $n=2^m$
+	generalized to cases $n=2^m$
 
 $$
 \left(\sum_{a=1}^{2^m} a_i\right) / 2^m\geq \left({\prod_{a=1}^{2^m} a_i}\right)^{1/2^m}
@@ -1075,23 +1034,23 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a_1=\cdots=a_{2^m}$
+		equality holds if and only if $a_1=\cdots=a_{2^m}$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	 can be proved by <i>mathematical induction</i>
+	can be proved by <i>mathematical induction</i>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-17">Proof of AM $\geq$ GM - when $n=3$</h3>
+<h3>Proof of AM $\geq$ GM - when $n=3$</h3>
 
 <ul>
 <li>
-	 proof for $n=3$
+	proof for $n=3$
 
 $$
 \begin{eqnarray*}
@@ -1112,7 +1071,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a=b=c=(a+b+c)/3$ if and only if $a=b=c$
+		equality holds if and only if $a=b=c=(a+b+c)/3$ if and only if $a=b=c$
 
 	</li>
 	</ul>
@@ -1120,15 +1079,15 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-18">Proof of AM $\geq$ GM - for all integers</h3>
+<h3>Proof of AM $\geq$ GM - for all integers</h3>
 
 <ul>
 <li>
-	 for any integer $n\neq 2^m$
+	for any integer $n\neq 2^m$
 
 </li>
 <li>
-	 for $m$ such that $2^m>n$
+	for $m$ such that $2^m>n$
 
 $$
 \begin{eqnarray*}
@@ -1158,7 +1117,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a_1=\cdots=a_n$
+		equality holds if and only if $a_1=\cdots=a_n$
 
 	</li>
 	</ul>
@@ -1166,12 +1125,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-19">Proof of AM $\geq$ GM - rational $\alpha_i$</h3>
+<h3>Proof of AM $\geq$ GM - rational $\alpha_i$</h3>
 
 <ul>
 <li>
-	
-given $n$ positive rational $\alpha_i$,
+	given $n$ positive rational $\alpha_i$,
 we can find $n$ natural numbers $q_i$
 such that
 
@@ -1183,8 +1141,7 @@ where $q_1+\cdots+q_n=N$
 
 </li>
 <li>
-	
-for any $n$ positive $a_i\in\reals$ and positive $n$ $\alpha_i\in\rationals$ with $\alpha_1+\cdots+\alpha_n=1$
+	for any $n$ positive $a_i\in\reals$ and positive $n$ $\alpha_i\in\rationals$ with $\alpha_1+\cdots+\alpha_n=1$
 
 $$
 \alpha_1 a_1 + \cdots + \alpha_n a_n
@@ -1195,8 +1152,7 @@ $$
 
 	<ul>
 	<li>
-		
-equality holds if and only if $a_1=\cdots=a_n$
+		equality holds if and only if $a_1=\cdots=a_n$
 
 	</li>
 	</ul>
@@ -1204,12 +1160,11 @@ equality holds if and only if $a_1=\cdots=a_n$
 </li>
 </ul>
 
-<h3 id="my-foilhead-20">Proof of AM $\geq$ GM - real $\alpha_i$</h3>
+<h3>Proof of AM $\geq$ GM - real $\alpha_i$</h3>
 
 <ul>
 <li>
-	
-exist $n$ rational sequences $\{ \beta_{i,1}, \beta_{i,2}, \ldots\}$ ($1\leq i\leq n$) such that
+	exist $n$ rational sequences $\{ \beta_{i,1}, \beta_{i,2}, \ldots\}$ ($1\leq i\leq n$) such that
 
 $$
 \begin{eqnarray*}
@@ -1224,8 +1179,7 @@ $$
 
 </li>
 <li>
-	
-for all $j$
+	for all $j$
 
 $$
 \beta_{1,j} a_1 + \cdots + \beta_{n,j} a_n
@@ -1252,17 +1206,16 @@ $$
 
 </li>
 <li>
-	 <i>cannot</i> prove equality condition from above proof method
+	<i>cannot</i> prove equality condition from above proof method
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-21">Proof of AM $\geq$ GM using Jensen's inequality</h3>
+<h3>Proof of AM $\geq$ GM using Jensen's inequality</h3>
 
 <ul>
 <li>
-	
-$(-\log)$ is strictly convex function because
+	$(-\log)$ is strictly convex function because
 
 $$
 \frac{d^2}{dx^2} \left(-\log(x)\right)
@@ -1273,8 +1226,7 @@ $$
 
 </li>
 <li>
-	
-Jensen's inequality implies for $a_i >0$, $\alpha_i >0$ with $\sum \alpha_i = 1$
+	Jensen's inequality implies for $a_i >0$, $\alpha_i >0$ with $\sum \alpha_i = 1$
 
 $$
 \begin{eqnarray*}
@@ -1288,8 +1240,7 @@ $$
 
 </li>
 <li>
-	
-$(-\log)$ strictly monotonically decreases, hence $\prod a_i^{\alpha_i} \leq \sum \alpha_i a_i$,
+	$(-\log)$ strictly monotonically decreases, hence $\prod a_i^{\alpha_i} \leq \sum \alpha_i a_i$,
 having just proved
 
 $$
@@ -1304,7 +1255,7 @@ where equality if and only if $a_i$ are equal
 </li>
 </ul>
 
-<h3 id="my-foilhead-22">Cauchy-Schwarz inequality</h3>
+<h3>Cauchy-Schwarz inequality</h3>
 
 <div class="inequality" id="inequality:Cauchy-Schwarz inequality" data-name="Cauchy-Schwarz inequality">
 	
@@ -1325,7 +1276,7 @@ $$
 </div>
 <ul>
 <li>
-	 middle school proof
+	middle school proof
 
 $$
 \begin{eqnarray*}
@@ -1341,7 +1292,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $\exists t\in\reals$, $t a_i + b_i=0$ for all $1\leq i\leq n$
+		equality holds if and only if $\exists t\in\reals$, $t a_i + b_i=0$ for all $1\leq i\leq n$
 
 	</li>
 	</ul>
@@ -1349,11 +1300,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-23">Cauchy-Schwarz inequality - another proof</h3>
+<h3>Cauchy-Schwarz inequality - another proof</h3>
 
 <ul>
 <li>
-	 $x\geq0$ for any $x\in\reals$, hence
+	$x\geq0$ for any $x\in\reals$, hence
 
 $$
 \begin{eqnarray*}
@@ -1376,7 +1327,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if $a_ib_j=a_jb_i$ for all $1\leq i,j\leq n$
+		equality holds if and only if $a_ib_j=a_jb_i$ for all $1\leq i,j\leq n$
 
 	</li>
 	</ul>
@@ -1384,11 +1335,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-24">Cauchy-Schwarz inequality - still another proof</h3>
+<h3>Cauchy-Schwarz inequality - still another proof</h3>
 
 <ul>
 <li>
-	 for any $x,y\in\reals$ and $\alpha,\beta>0$ with $\alpha + \beta = 1$
+	for any $x,y\in\reals$ and $\alpha,\beta>0$ with $\alpha + \beta = 1$
 
 $$
 \begin{eqnarray*}
@@ -1417,7 +1368,7 @@ $$
 
 </li>
 <li>
-	 plug in $x=a_i$, $y=b_i$, $\alpha = A/(A+B)$, $\beta=B/(A+B)$
+	plug in $x=a_i$, $y=b_i$, $\alpha = A/(A+B)$, $\beta=B/(A+B)$
 where $A = \sqrt{\sum a_i^2}$, $B = \sqrt{\sum b_i^2}$
 
 $$
@@ -1440,11 +1391,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-25">Cauchy-Schwarz inequality - proof using determinant</h3>
+<h3>Cauchy-Schwarz inequality - proof using determinant</h3>
 
 <ul>
 <li>
-	 almost the same proof as first one - but using $2$-by-$2$ matrix determinant
+	almost the same proof as first one - but using $2$-by-$2$ matrix determinant
 
 $$
 \begin{eqnarray*}
@@ -1485,7 +1436,7 @@ $$
 
 	<ul>
 	<li>
-		 equality holds if and only if
+		equality holds if and only if
 
 $$
 \left(
@@ -1503,12 +1454,12 @@ $$
 
 </li>
 <li>
-	 allows <span class="eemph">beautiful generalization</span> of Cauchy-Schwarz inequality
+	allows <span class="eemph">beautiful generalization</span> of Cauchy-Schwarz inequality
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-26">Cauchy-Schwarz inequality - generalization</h3>
+<h3>Cauchy-Schwarz inequality - generalization</h3>
 
 
 
@@ -1516,12 +1467,11 @@ $$
 
 <ul>
 <li>
-	
-want to say something like $\sum_{i=1}^n (x a_i + y b_i + z c_i + w d_i + \cdots)^2$
+	want to say something like $\sum_{i=1}^n (x a_i + y b_i + z c_i + w d_i + \cdots)^2$
 
 </li>
 <li>
-	 run out of alphabets  - use double subscripts
+	run out of alphabets  - use double subscripts
 
 $$
 \begin{eqnarray*}
@@ -1554,13 +1504,12 @@ $$
 
 	<ul>
 	<li>
-		 []
+		
 where $a_i = \begin{my-matrix}{ccc} A_{1,i} &\cdots & A_{m,i}\end{my-matrix}^T \in\reals^m$
 
 	</li>
 	<li>
-		
-equality holds if and only if $\exists x\neq0\in\reals^m$, $x^Ta_i =0$ for all $1\leq i\leq n$
+		equality holds if and only if $\exists x\neq0\in\reals^m$, $x^Ta_i =0$ for all $1\leq i\leq n$
 
 	</li>
 	</ul>
@@ -1568,12 +1517,11 @@ equality holds if and only if $\exists x\neq0\in\reals^m$, $x^Ta_i =0$ for all $
 </li>
 </ul>
 
-<h3 id="my-foilhead-27">Cauchy-Schwarz inequality - three series of variables</h3>
+<h3>Cauchy-Schwarz inequality - three series of variables</h3>
 
 <ul>
 <li>
-	
-let $m=3$
+	let $m=3$
 
 $$
 \begin{eqnarray*}
@@ -1597,25 +1545,21 @@ $$
 
 	<ul>
 	<li>
-		
-equality holds if and only if $\exists x,y,z\in\reals$, $xa_i + yb_i + zc_i=0$ for all $1\leq i\leq n$
+		equality holds if and only if $\exists x,y,z\in\reals$, $xa_i + yb_i + zc_i=0$ for all $1\leq i\leq n$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-questions for you
+	questions for you
 	<ul>
 	<li>
-		
-what does this mean?
+		what does this mean?
 
 	</li>
 	<li>
-		
-any real-world applications?
+		any real-world applications?
 
 	</li>
 	</ul>
@@ -1623,7 +1567,7 @@ any real-world applications?
 </li>
 </ul>
 
-<h3 id="my-foilhead-28">Cauchy-Schwarz inequality - extensions</h3>
+<h3>Cauchy-Schwarz inequality - extensions</h3>
 
 
 
@@ -1674,7 +1618,7 @@ $$
 </div>
 <ul>
 <li>
-	 note that <span class="eemph">all these can be further generalized
+	note that <span class="eemph">all these can be further generalized
 as in page~\pageref{page:Cauchy-Schwarz inequality - generalization}</span>
 
 </li>
@@ -1683,41 +1627,38 @@ as in page~\pageref{page:Cauchy-Schwarz inequality - generalization}</span>
 <h2 id="number-theory">Number Theory - Queen of Mathematics</h2>
 
 
-<h3 id="my-foilhead-29">Integers</h3>
+<h3>Integers</h3>
 
 <ul>
 <li>
-	
-integers ($\integers$)
+	integers ($\integers$)
 -
 $\ldots -2, -1, 0, 1, 2, \ldots$
 	<ul>
 	<li>
-		
-first defined by Bertrand Russell
+		first defined by Bertrand Russell
 
 	</li>
 	<li>
-		
-algebraic structure - commutative ring
+		algebraic structure - commutative ring
 		<ul>
 		<li>
-			 [-]
+			
 addition, multiplication defined, but divison <i>not</i> defined
 
 		</li>
 		<li>
-			 [-]
+			
 addition, multiplication are associative
 
 		</li>
 		<li>
-			 [-]
+			
 multiplication distributive over addition
 
 		</li>
 		<li>
-			 [-]
+			
 addition, multiplication are commutative
 
 		</li>
@@ -1728,12 +1669,10 @@ addition, multiplication are commutative
 
 </li>
 <li>
-	
-natural numbers ($\naturals$)
+	natural numbers ($\naturals$)
 	<ul>
 	<li>
-		
-$1, 2, \ldots$
+		$1, 2, \ldots$
 
 	</li>
 	</ul>
@@ -1741,11 +1680,11 @@ $1, 2, \ldots$
 </li>
 </ul>
 
-<h3 id="my-foilhead-30">Division and prime numbers</h3>
+<h3>Division and prime numbers</h3>
 
 <ul>
 <li>
-	 divisors for $n\in\naturals$
+	divisors for $n\in\naturals$
 
 $$
 \set{d\in\naturals}{ d \mbox{ divides } n}
@@ -1754,10 +1693,10 @@ $$
 
 </li>
 <li>
-	 prime numbers
+	prime numbers
 	<ul>
 	<li>
-		 $p$ is primes if $1$ and $p$ are only divisors
+		$p$ is primes if $1$ and $p$ are only divisors
 
 	</li>
 	</ul>
@@ -1765,12 +1704,14 @@ $$
 </li>
 </ul>
 
+<h3>Fundamental theorem of arithmetic</h3>
+
 <div class="theorem" id="theorem:fundamental theorem of arithmetic" data-name="fundamental theorem of arithmetic">
 	
 
 
 integer $n\geq2$ can be factored uniquely into products of primes,
-,
+<i>i.e.</i>,
 exist distinct primes, $p_1$, , $p_k$, and $e_1,\ldots, e_k\in\naturals$
 such that
 
@@ -1782,21 +1723,19 @@ $$
 </div>
 <ul>
 <li>
-	
-hence,
+	hence,
 integers are <i>factorial ring</i>
-(~)
+(<a href="#definition:factorial ring"></a>)
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-31">Elementary quantities</h3>
+<h3>Elementary quantities</h3>
 
 <ul>
 <li>
-	
-greatest common divisor (gcd) (of $a$ and $b$)
+	greatest common divisor (gcd) (of $a$ and $b$)
 
 
 
@@ -1806,18 +1745,16 @@ $$
 
 	<ul>
 	<li>
-		
-for definition of gcd
+		for definition of gcd
 for general entire rings,
-refer to ~
+refer to <a href="#definition:greatest common divisor"></a>
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-least common multiple (lcm) (of $a$ and $b$)
+	least common multiple (lcm) (of $a$ and $b$)
 
 
 
@@ -1828,33 +1765,28 @@ $$
 
 </li>
 <li>
-	
-$a$ and $b$ coprime, relatively prime, mutually prime $\Leftrightarrow$ $\gcd(a,b)=1$
+	$a$ and $b$ coprime, relatively prime, mutually prime $\Leftrightarrow$ $\gcd(a,b)=1$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-32">Are there infinite number of prime numbers?</h3>
+<h3>Are there infinite number of prime numbers?</h3>
 
 <ul>
 <li>
-	
-yes!
+	yes!
 
 </li>
 <li>
-	
-proof
+	proof
 	<ul>
 	<li>
-		
-assume there only exist finite number of prime numbers, <i>e.g.</i>, $p_1 < p_2 < \cdots <p_n$
+		assume there only exist finite number of prime numbers, <i>e.g.</i>, $p_1 < p_2 < \cdots <p_n$
 
 	</li>
 	<li>
-		
-but then, $p_1 \cdot p_2 \cdots p_n + 1$ is prime,
+		but then, $p_1 \cdot p_2 \cdots p_n + 1$ is prime,
 but which is greater than $p_n$, hence contradiction
 
 	</li>
@@ -1864,7 +1796,7 @@ but which is greater than $p_n$, hence contradiction
 </ul>
 
 
-<h3 id="my-foilhead-33">Integers modulo $n$</h3>
+<h3>Integers modulo $n$</h3>
 
 <div class="definition" id="definition:modulo" data-name="modulo">
 	
@@ -1881,17 +1813,14 @@ read as <span class="define">``$a$ congruent to $b$ mod $n$''</span>
 </div>
 <ul>
 <li>
-	
-$a\equiv b\Mod{n}$ and $c\equiv d\Mod{n}$ imply
+	$a\equiv b\Mod{n}$ and $c\equiv d\Mod{n}$ imply
 	<ul>
 	<li>
-		
-$a+c\equiv b+d \Mod{n}$
+		$a+c\equiv b+d \Mod{n}$
 
 	</li>
 	<li>
-		
-$ac\equiv bd \Mod{n}$
+		$ac\equiv bd \Mod{n}$
 
 	</li>
 	</ul>
@@ -1922,7 +1851,7 @@ called <span class="define">integers modulo $n$</span> or <span class="define">i
 
 </div>
 
-<h3 id="my-foilhead-34">Euler's theorem</h3>
+<h3>Euler's theorem</h3>
 
 <div class="definition" id="definition:Euler's totient function" data-name="Euler's totient function">
 	
@@ -1946,7 +1875,7 @@ also called <span class="define">Euler $\varphi$-function</span>
 </div>
 <ul>
 <li>
-	 <i>e.g.</i>, $\varphi(12) = \varphi(2^2\cdot 3^1) = 1\cdot2^1\cdot 2\cdot3^0 = 4$,
+	<i>e.g.</i>, $\varphi(12) = \varphi(2^2\cdot 3^1) = 1\cdot2^1\cdot 2\cdot3^0 = 4$,
 $\varphi(10) = \varphi(2^1\cdot5^1) = 1\cdot2^0\cdot 4\cdot 5^0 =4$
 
 </li>
@@ -1965,15 +1894,13 @@ $$
 </div>
 <ul>
 <li>
-	
-<i>e.g.</i>, $5^4 \equiv 1 \Mod{12}$ whereas $4^4 \equiv 4 \neq 1 \Mod{12}$
+	<i>e.g.</i>, $5^4 \equiv 1 \Mod{12}$ whereas $4^4 \equiv 4 \neq 1 \Mod{12}$
 
 </li>
 </ul>
 <ul>
 <li>
-	
-<span class="eemph">Euler's theorem underlies RSA cryptosystem, which is pervasively used in internet communication</span>
+	<span class="eemph">Euler's theorem underlies RSA cryptosystem, which is pervasively used in internet communication</span>
 
 </li>
 </ul>

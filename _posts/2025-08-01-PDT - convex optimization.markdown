@@ -1,19 +1,19 @@
 ---
+title: Convex Optimization
+date: Fri Aug  1 07:00:00 PDT 2025
+last_modified_at: Sun Aug  3 05:49:28 PDT 2025
+permalink: /math/rig/convex-optimization
 categories:
 - blog
-date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Sat Aug  2 18:46:54 PDT 2025
-permalink: /math/rig/convex-optimization
 tags:
 - math
 - optimization
 - convex optimization
 - dual problem
 - duality
-title: Convex Optimization
 toc: true
-toc_icon: fa-solid fa-list
 toc_label: '&nbsp;Table of Contents'
+toc_icon: fa-solid fa-list
 toc_sticky: true
 usemathjax: true
 ---
@@ -25,21 +25,32 @@ updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 
 $$
 	%
-	\newcommand{\naturals}{\mathbb{N}}
-	\newcommand{\integers}{\mathbb{Z}}
-	\newcommand{\rationals}{\mathbb{Q}}
-	\newcommand{\reals}{\mathbb{R}}
-	\newcommand{\preals}{\mathbb{R}_+}
-	\newcommand{\prealk}[1]{\reals_{+}^{#1}}
-	\newcommand{\ppreals}{\mathbb{R}_{++}}
-	\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
-	\newcommand{\complexes}{\mathbb{C}}
-	\newcommand{\dom}{\mathop{\bf dom {}}}
-	\newcommand{\field}{\mathbb{F}}
-	\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
+	\newcommand{\algA}{\algk{A}}
+	\newcommand{\algC}{\algk{C}}
 	\newcommand{\bigtimes}{\times}
 	\newcommand{\compl}[1]{\tilde{#1}}
+	\newcommand{\complexes}{\mathbb{C}}
+	\newcommand{\dom}{\mathop{\bf dom {}}}
+	\newcommand{\ereals}{\reals\cup\{-\infty,\infty\}}
+	\newcommand{\field}{\mathbb{F}}
+	\newcommand{\integers}{\mathbb{Z}}
+	\newcommand{\lbdseqk}[1]{\seqk{\lambda}{#1}}
+	\newcommand{\meas}[3]{({#1}, {#2}, {#3})}
+	\newcommand{\measu}[2]{({#1}, {#2})}
+	\newcommand{\meast}[3]{\left({#1}, {#2}, {#3}\right)}
+	\newcommand{\naturals}{\mathbb{N}}
+	\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
+	\newcommand{\pair}[2]{\langle {#1}, {#2}\rangle}
+	\newcommand{\rationals}{\mathbb{Q}}
+	\newcommand{\reals}{\mathbb{R}}
+	\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
 	\newcommand{\powerset}{\mathcal{P}}
+	\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
+	\newcommand{\ppreals}{\mathbb{R}_{++}}
+	\newcommand{\prealk}[1]{\reals_{+}^{#1}}
+	\newcommand{\preals}{\mathbb{R}_+}
+	\newcommand{\tXJ}{\topos{X}{J}}
+	%
 	\newcommand{\relint}{\mathop{\bf relint {}}}
 	\newcommand{\boundary}{\mathop{\bf bd {}}}
 	\newcommand{\subsetset}[1]{\mathcal{#1}}
@@ -104,8 +115,8 @@ $$
 	\newcommand{\sdirlbd}{\sdirletter{\lambda}{\Delta \lambda}}
 	\newcommand{\sdir}{\sdirletter{x}{v}}
 	\newcommand{\seqk}[2]{#1^{(#2)}}
+	\newcommand{\seqscr}[3]{\seq{#1}_{#2}^{#3}}
 	\newcommand{\xseqk}[1]{\seqk{x}{#1}}
-	\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
 	\newcommand{\sdirk}[1]{\seqk{\sdir}{#1}}
 	\newcommand{\sdiry}{\sdirletter{y}{\Delta y}}
 	\newcommand{\slen}{t}
@@ -121,6 +132,7 @@ $$
 	%
 	\newcommand{\algk}[1]{\mathalgfont{#1}}
 	\newcommand{\collk}[1]{\mathcalfont{#1}}
+	\newcommand{\classk}[1]{\collk{#1}}
 	\newcommand{\indexedcol}[1]{\{#1\}}
 	\newcommand{\rel}{\mathbf{R}}
 	\newcommand{\relxy}[2]{#1\;\rel\;{#2}}
@@ -172,6 +184,9 @@ $$
 	%
 	\newcommand{\bigpropercone}{\mathcalfont{K}}
 	%
+	\newcommand{\prescript}[3]{\;^{#1}{#3}}
+	%
+	%
 $$
 
 # Introduction
@@ -187,60 +202,51 @@ $$
 
 
 
-<h3 id="my-foilhead-2">Notations</h3>
+<h3>Notations</h3>
 
 
 <ul>
 <li>
-	
-sets of numbers
+	sets of numbers
 	<ul>
 	<li>
-		
-$\naturals$ - set of natural numbers
+		$\naturals$ - set of natural numbers
 
 
 
 	</li>
 	<li>
-		
-$\integers$ - set of integers
+		$\integers$ - set of integers
 
 
 
 	</li>
 	<li>
-		
-$\integers_+$ - set of nonnegative integers
+		$\integers_+$ - set of nonnegative integers
 
 	</li>
 	<li>
-		
-$\rationals$ - set of rational numbers
-
-
-
-	</li>
-	<li>
-		
-$\reals$ - set of real numbers
+		$\rationals$ - set of rational numbers
 
 
 
 	</li>
 	<li>
-		
-$\preals$ - set of nonnegative real numbers
+		$\reals$ - set of real numbers
+
+
 
 	</li>
 	<li>
-		
-$\ppreals$ - set of positive real numbers
+		$\preals$ - set of nonnegative real numbers
 
 	</li>
 	<li>
-		
-$\complexes$ - set of complex numbers
+		$\ppreals$ - set of positive real numbers
+
+	</li>
+	<li>
+		$\complexes$ - set of complex numbers
 
 
 
@@ -249,13 +255,11 @@ $\complexes$ - set of complex numbers
 
 </li>
 <li>
-	
-sequences $\seq{x_i}$ and the like
+	sequences $\seq{x_i}$ and the like
 
 	<ul>
 	<li>
-		
-finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ whenever unambiguously understood
+		finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ whenever unambiguously understood
 
 
 
@@ -263,77 +267,65 @@ finite $\seq{x_i}_{i=1}^n$, infinite $\seq{x_i}_{i=1}^\infty$ - use $\seq{x_i}$ 
 
 	</li>
 	<li>
-		
-similarly for other operations, <i>e.g.</i>, $\sum x_i$, $\prod x_i$, $\cup A_i$, $\cap A_i$, $\bigtimes A_i$
+		similarly for other operations, <i>e.g.</i>, $\sum x_i$, $\prod x_i$, $\cup A_i$, $\cap A_i$, $\bigtimes A_i$
 
 	</li>
 	<li>
-		
-similarly for integrals, <i>e.g.</i>, $\int f$ for $\int_{-\infty}^\infty f$
+		similarly for integrals, <i>e.g.</i>, $\int f$ for $\int_{-\infty}^\infty f$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-sets
+	sets
 	<ul>
 	<li>
-		
-$\compl{A}$ - complement of $A$
+		$\compl{A}$ - complement of $A$
 
 
 
 	</li>
 	<li>
-		
-$A\sim B$ - $A\cap \compl{B}$
+		$A\sim B$ - $A\cap \compl{B}$
 
 
 
 	</li>
 	<li>
-		
-$A\Delta B$ - $(A\cap \compl{B}) \cup (\compl{A} \cap B)$
+		$A\Delta B$ - $(A\cap \compl{B}) \cup (\compl{A} \cap B)$
 
 	</li>
 	<li>
-		
-$\powerset(A)$ - set of all subsets of $A$
+		$\powerset(A)$ - set of all subsets of $A$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-sets in metric vector spaces
+	sets in metric vector spaces
 	<ul>
 	<li>
-		
- - closure of set $A$
+		$\closure{A}$ - closure of set $A$
 
 
 
 	</li>
 	<li>
-		
- - interior of set $A$
+		$\interior{A}$ - interior of set $A$
 
 
 
 	</li>
 	<li>
-		
-$\relint A$ - relative interior of set $A$
+		$\relint A$ - relative interior of set $A$
 
 
 
 	</li>
 	<li>
-		
-$\boundary A$ - boundary of set $A$
+		$\boundary A$ - boundary of set $A$
 
 
 
@@ -342,13 +334,11 @@ $\boundary A$ - boundary of set $A$
 
 </li>
 <li>
-	
-set algebra
+	set algebra
 	<ul>
 	<li>
-		
-$\sigma(\subsetset{A})$ - $\sigma$-algebra generated by ,
-, smallest $\sigma$-algebra containing 
+		$\sigma(\subsetset{A})$ - $\sigma$-algebra generated by $\subsetset{A}$,
+<i>i.e.</i>, smallest $\sigma$-algebra containing $\subsetset{A}$
 
 
 	</li>
@@ -356,40 +346,36 @@ $\sigma(\subsetset{A})$ - $\sigma$-algebra generated by ,
 
 </li>
 <li>
-	
-norms in $\reals^n$
+	norms in $\reals^n$
 
 
 	<ul>
 	<li>
-		
-$\|x\|_p$ ($p\geq1$) - $p$-norm of $x\in\reals^n$, , $(|x_1|^p + \cdots + |x_n|^p)^{1/p}$
+		$\|x\|_p$ ($p\geq1$) - $p$-norm of $x\in\reals^n$, <i>i.e.</i>, $(|x_1|^p + \cdots + |x_n|^p)^{1/p}$
 
 	</li>
 	<li>
-		
-<i>e.g.</i>, $\|x\|_2$ - Euclidean norm
+		<i>e.g.</i>, $\|x\|_2$ - Euclidean norm
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-matrices and vectors
+	matrices and vectors
 	<ul>
 	<li>
-		 $a_{i}$ - $i$-th entry of vector $a$
+		$a_{i}$ - $i$-th entry of vector $a$
 
 	</li>
 	<li>
-		 $A_{ij}$ - entry of matrix $A$ at position $(i,j)$,
-, entry in $i$-th row and $j$-th column
+		$A_{ij}$ - entry of matrix $A$ at position $(i,j)$,
+<i>i.e.</i>, entry in $i$-th row and $j$-th column
 
 	</li>
 	<li>
-		 $\Tr(A)$ - trace of $A \in\reals^{n\times n}$,
-, $A_{1,1}+ \cdots + A_{n,n}$
+		$\Tr(A)$ - trace of $A \in\reals^{n\times n}$,
+<i>i.e.</i>, $A_{1,1}+ \cdots + A_{n,n}$
 
 
 
@@ -398,27 +384,23 @@ matrices and vectors
 
 </li>
 <li>
-	
-symmetric, positive definite, and positive semi-definite matrices
+	symmetric, positive definite, and positive semi-definite matrices
 	<ul>
 	<li>
-		
-$\symset{n}\subset \reals^{n\times n}$ - set of symmetric matrices
+		$\symset{n}\subset \reals^{n\times n}$ - set of symmetric matrices
 
 
 
 	</li>
 	<li>
-		
-$\possemidefset{n}\subset \symset{n}$ - set of positive semi-definite matrices;
+		$\possemidefset{n}\subset \symset{n}$ - set of positive semi-definite matrices;
 $A\succeq0 \Leftrightarrow A \in \possemidefset{n}$
 
 
 
 	</li>
 	<li>
-		
-$\posdefset{n}\subset \symset{n}$ - set of positive definite matrices;
+		$\posdefset{n}\subset \symset{n}$ - set of positive definite matrices;
 $A\succ0 \Leftrightarrow A \in \posdefset{n}$
 
 
@@ -428,14 +410,12 @@ $A\succ0 \Leftrightarrow A \in \posdefset{n}$
 
 </li>
 <li>
-	
-sometimes,
+	sometimes,
 use Python script-like notations
 (with serious abuse of mathematical notations)
 	<ul>
 	<li>
-		
-use $f:\reals\to\reals$ as if it were $f:\reals^n \to \reals^n$,
+		use $f:\reals\to\reals$ as if it were $f:\reals^n \to \reals^n$,
 <i>e.g.</i>,
 
 $$
@@ -449,13 +429,12 @@ $$
 $$
 
 which corresponds to Python code <code>numpy.exp(x)</code> or <code>numpy.log(x)</code>
-where <code>x</code> is instance of <code>numpy.ndarray</code>, , <code>numpy</code> array
+where <code>x</code> is instance of <code>numpy.ndarray</code>, <i>i.e.</i>, <code>numpy</code> array
 
 	</li>
 	<li>
-		
-use $\sum x$ to mean $\ones^T x$ for $x\in\reals^n$,
-
+		use $\sum x$ to mean $\ones^T x$ for $x\in\reals^n$,
+<i>i.e.</i>
 
 $$
 \sum x = x_1 + \cdots + x_n
@@ -466,8 +445,7 @@ where <code>x</code> is <code>numpy</code> array
 
 	</li>
 	<li>
-		
-use $x/y$ for $x,y\in\reals^n$ to mean
+		use $x/y$ for $x,y\in\reals^n$ to mean
 
 $$
 \rowvecthree{x_1/y_1}{\cdots}{x_n/y_n}^T
@@ -478,8 +456,7 @@ where <code>x</code> and <code>y</code> are $1$-d <code>numpy</code> arrays
 
 	</li>
 	<li>
-		
-use $X/Y$ for $X,Y\in\reals^{m\times n}$ to mean
+		use $X/Y$ for $X,Y\in\reals^{m\times n}$ to mean
 
 $$
 \begin{my-matrix}{cccc}
@@ -503,7 +480,7 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 </ul>
 
 
-<h3 id="my-foilhead-3">Some definitions</h3>
+<h3>Some definitions</h3>
 
 
 <div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
@@ -537,7 +514,7 @@ statement $P(x)$,
 said to happen <span class="define">almost everywhere</span> or <span class="define">a.e.</span> or <span class="define">almost surely</span> or <span class="define">a.s.</span>
 (depending on context)
 associated with
-measure space 
+measure space $\meas{X}{\algB}{\mu}$
 if
 
 $$
@@ -554,27 +531,23 @@ $$
 </div>
 
 
-<h3 id="my-foilhead-4">Some conventions</h3>
+<h3>Some conventions</h3>
 
 
 <ul>
 <li>
-	
-(for some subjects) use following conventions
+	(for some subjects) use following conventions
 	<ul>
 	<li>
-		
-$0\cdot \infty = \infty \cdot 0 = 0$
+		$0\cdot \infty = \infty \cdot 0 = 0$
 
 	</li>
 	<li>
-		
-$(\forall x\in\ppreals)(x\cdot \infty = \infty \cdot x = \infty)$
+		$(\forall x\in\ppreals)(x\cdot \infty = \infty \cdot x = \infty)$
 
 	</li>
 	<li>
-		
-$\infty \cdot \infty = \infty$
+		$\infty \cdot \infty = \infty$
 
 	</li>
 	</ul>
@@ -617,7 +590,7 @@ $\infty \cdot \infty = \infty$
 <h2 id="Convex Sets">Convex Sets</h2>
 
 
-<h3 id="my-foilhead-5">Lines and line segmenets</h3>
+<h3>Lines and line segmenets</h3>
 
 <div class="definition" id="definition:lines" data-name="lines">
 	
@@ -642,13 +615,13 @@ called <span class="define">line segment connecting $x$ and $y$</span>
 
 </div>
 
-<h3 id="my-foilhead-6">Affine sets</h3>
+<h3>Affine sets</h3>
 
 <div class="definition" id="definition:affine sets" data-name="affine sets">
 	
 set, $C\subset \reals^n$,
 every line going through any two points in which
-is contained in $C$, 
+is contained in $C$, <i>i.e.</i>
 
 $$
 \left(
@@ -670,7 +643,7 @@ intersection of all affine sets containing $C$,
 called <span class="define">affine hull of $C$</span>,
 denoted by <span class="define">$\affinehull C$</span>,
 which is equal to
-set of all affine combinations of points in $C$, 
+set of all affine combinations of points in $C$, <i>i.e.</i>
 
 $$
 \bigcup_{n\in\naturals}
@@ -687,7 +660,7 @@ called <span class="define">affine dimension</span>
 
 </div>
 
-<h3 id="my-foilhead-7">Relative interiors and boundaries</h3>
+<h3>Relative interiors and boundaries</h3>
 
 <div class="definition" id="definition:relative interiors of sets" data-name="relative interiors of sets">
 	
@@ -715,13 +688,13 @@ called <span class="define">relative boundary of $C$</span>
 
 </div>
 
-<h3 id="my-foilhead-8">Convex sets</h3>
+<h3>Convex sets</h3>
 
 <div class="definition" id="definition:convex sets" data-name="convex sets">
 	
 set, $C\subset \reals^n$,
 every line segment connecting any two points in which
-is contained in $C$, 
+is contained in $C$, <i>i.e.</i>
 
 $$
 \left(
@@ -745,7 +718,7 @@ intersection of all convex sets containing $C$,
 called <span class="define">convex hull of $C$</span>,
 denoted by <span class="define">$\cvxhull C$</span>,
 which is equal to
-set of all convex combinations of points in $C$, 
+set of all convex combinations of points in $C$, <i>i.e.</i>
 
 $$
 \bigcup_{n\in\naturals}
@@ -756,13 +729,12 @@ $$
 </div>
 <ul>
 <li>
-	
-convex hull (of course) is convex set
+	convex hull (of course) is convex set
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-9">Cones</h3>
+<h3>Cones</h3>
 
 <div class="definition" id="definition:cones" data-name="cones">
 	
@@ -801,19 +773,17 @@ $$
 </div>
 <ul>
 <li>
-	
-convex cone (of course) is convex set
+	convex cone (of course) is convex set
 
 </li>
 <li>
-	
-examples of convex cones:
-, , , and 
+	examples of convex cones:
+$\prealk{n}$, $\pprealk{n}$, $\possemidefset{n}$, and $\posdefset{n}$
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-10">Hyperplanes and half spaces</h3>
+<h3>Hyperplanes and half spaces</h3>
 
 <div class="definition" id="definition:hyperplanes" data-name="hyperplanes">
 	
@@ -845,13 +815,12 @@ for some $a\neq0 \in \reals^n$ and $b\in \reals$
 </div>
 <ul>
 <li>
-	
-hyperplanes and half spaces are convex sets
+	hyperplanes and half spaces are convex sets
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-11">Euclidean balls and ellipsoids</h3>
+<h3>Euclidean balls and ellipsoids</h3>
 
 <div class="definition" id="definition:Euclidean ball" data-name="Euclidean ball">
 	
@@ -859,7 +828,7 @@ set of all points distance of which from point, $x\in\reals^n$,
 is no greater than $r>0$,
 called <span class="define">(Euclidean) ball centered at $x$ with radius, $r$</span>,
 denoted by <span class="define">$\ball{x}{r}$</span>,
-
+<i>i.e.</i>
 
 $$
 \ball{x}{r} = \set{y\in\reals^n}{\|y-x\|_2\leq r}
@@ -871,7 +840,7 @@ $$
 	
 ball elongated along $n$ orthogonal axes,
 called <span class="define">ellipsoid</span>,
-,
+<i>i.e.</i>,
 
 $$
 \set{y\in\reals^n}{(y-x)^TP^{-1}(y-x)\leq 1}
@@ -882,13 +851,12 @@ for some $x\in\reals^n$ and $P\in \posdefset{n}$
 </div>
 <ul>
 <li>
-	
-Euclidean balls and ellipsoids are convex sets
+	Euclidean balls and ellipsoids are convex sets
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-12">Norm balls and norm cones</h3>
+<h3>Norm balls and norm cones</h3>
 
 <div class="definition" id="definition:norm ball" data-name="norm ball">
 	
@@ -896,7 +864,7 @@ for norm, $\|\cdot\|:\reals^n\to\preals$,
 set of all points distance of which measured in the norm from point, $x\in\reals^n$,
 is no greater than $r>0$,
 called <span class="define">norm ball centered at $x$ with radius, $r$, associated with norm, $\|\cdot\|$</span>,
-
+<i>i.e.</i>
 
 $$
 \set{y\in\reals^n}{\|y-x\|\leq r}
@@ -926,13 +894,12 @@ called <span class="define">second-order cone</span>
 </div>
 <ul>
 <li>
-	
-norm balls and norm cones are convex sets
+	norm balls and norm cones are convex sets
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-13">Polyhedra</h3>
+<h3>Polyhedra</h3>
 
 <div class="definition" id="definition:polyhedra" data-name="polyhedra">
 	
@@ -949,13 +916,12 @@ for $A\in\reals^{m\times n}$, $b\in\reals^m$, $C\in\reals^{p\times n}$, $d\in\re
 </div>
 <ul>
 <li>
-	
-polyhedron is convex set (by ~)
+	polyhedron is convex set (by <a href="#proposition:convexity preserving set operations"></a>)
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-14">Convexity preserving set operations</h3>
+<h3>Convexity preserving set operations</h3>
 
 <div class="proposition" id="proposition:convexity preserving set operations" data-name="convexity preserving set operations">
 	
@@ -963,12 +929,10 @@ polyhedron is convex set (by ~)
 
 	<ul>
 	<li>
-		
-intersection preserves convexity
+		intersection preserves convexity
 		<ul>
 		<li>
-			
-for (any) collection of convex sets, ,
+			for (any) collection of convex sets, $\coll$,
 
 $$
 \bigcap_{C\in\coll} C
@@ -981,12 +945,10 @@ $$
 
 	</li>
 	<li>
-		
-scalar scaling preserves convexity
+		scalar scaling preserves convexity
 		<ul>
 		<li>
-			
-for convex set $C$
+			for convex set $C$
 
 $$
 \alpha C
@@ -998,12 +960,10 @@ $$
 
 	</li>
 	<li>
-		
-sum preserves convexity
+		sum preserves convexity
 		<ul>
 		<li>
-			
-for convex sets $C$ and $D$
+			for convex sets $C$ and $D$
 
 $$
 C+D
@@ -1015,12 +975,10 @@ $$
 
 	</li>
 	<li>
-		
-direct product preserves convexity
+		direct product preserves convexity
 		<ul>
 		<li>
-			
-for convex sets $C$ and $D$
+			for convex sets $C$ and $D$
 
 $$
 C\times D
@@ -1032,12 +990,10 @@ $$
 
 	</li>
 	<li>
-		
-projection preserves convexity
+		projection preserves convexity
 		<ul>
 		<li>
-			
-for convex set $C\subset A \times B$
+			for convex set $C\subset A \times B$
 
 $$
 \set{x\in A}{(\exists y)((x,y)\in C)}
@@ -1050,12 +1006,10 @@ is convex
 
 	</li>
 	<li>
-		
-image and inverse image by affine function preserve convexity
+		image and inverse image by affine function preserve convexity
 		<ul>
 		<li>
-			
-for affine function $f:A\to B$ and convex sets $C\subset A$ and $D\subset B$
+			for affine function $f:A\to B$ and convex sets $C\subset A$ and $D\subset B$
 
 $$
 f(C) \;\& \; f^{-1}(D)
@@ -1068,15 +1022,13 @@ are convex
 
 	</li>
 	<li>
-		
-image and inverse image by linear-fractional function preserve convexity
+		image and inverse image by linear-fractional function preserve convexity
 		<ul>
 		<li>
-			
-for convex sets $C\subset \reals^n, D\subset \reals^m$
+			for convex sets $C\subset \reals^n, D\subset \reals^m$
 and
 linear-fractional function, $g:\reals^n\to\reals^m$,
-, function defined by $g(x) = (Ax+b)/(c^Tx+d)$
+<i>i.e.</i>, function defined by $g(x) = (Ax+b)/(c^Tx+d)$
 for $A\in\reals^{m\times n}$, $b\in\reals^m$, $c\in\reals^n$, and $d\in\reals$
 
 $$
@@ -1094,7 +1046,7 @@ are convex
 </div>
 
 
-<h3 id="my-foilhead-15">Proper cones and generalized inequalities</h3>
+<h3>Proper cones and generalized inequalities</h3>
 
 <div class="definition" id="definition:proper cones" data-name="proper cones">
 	
@@ -1102,13 +1054,11 @@ closed convex cone $K$ which is
 
 	<ul>
 	<li>
-		
-solid, , $\interior{K}\neq \emptyset$
+		solid, <i>i.e.</i>, $\interior{K}\neq \emptyset$
 
 	</li>
 	<li>
-		
-pointed, , $x\in vK$ and $-x\in K$ imply $x=0$
+		pointed, <i>i.e.</i>, $x\in vK$ and $-x\in K$ imply $x=0$
 
 	</li>
 	</ul>
@@ -1118,9 +1068,8 @@ called <span class="define">proper cone</span>
 </div>
 <ul>
 <li>
-	
-examples of proper cones:
- and 
+	examples of proper cones:
+$\prealk{n}$ and $\possemidefset{n}$
 
 </li>
 </ul>
@@ -1132,8 +1081,7 @@ defines <span class="define">generalized inequalities</span>
 
 	<ul>
 	<li>
-		
-{(nonstrict) generalized inequality}
+		(nonstrict) generalized inequality
 
 $$
 x \preceq_K y
@@ -1144,8 +1092,7 @@ $$
 
 	</li>
 	<li>
-		
-{strict generalized inequality}
+		strict generalized inequality
 
 $$
 x \prec_K y
@@ -1160,22 +1107,20 @@ $$
 </div>
 <ul>
 <li>
-	
-$\preceq_K$ and $\prec_K$ are partial orderings
+	$\preceq_K$ and $\prec_K$ are partial orderings
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-16">Convex sets induced by generalized inequalities</h3>
+<h3>Convex sets induced by generalized inequalities</h3>
 
 <ul>
 <li>
-	
-for affine function $g:\reals^n\to\symset{m}$,
-, $f(x)=A_0 + A_1 x_1 + \cdots + A_n x_n$
+	for affine function $g:\reals^n\to\symset{m}$,
+<i>i.e.</i>, $f(x)=A_0 + A_1 x_1 + \cdots + A_n x_n$
 for some $A_0,\ldots,A_n\in\symset{m}$,
-$f^{-1}(\possemidefset{n})$ is convex (by ~),
-,
+$f^{-1}(\possemidefset{n})$ is convex (by <a href="#proposition:convexity preserving set operations"></a>),
+<i>i.e.</i>,
 
 $$
 \set{x\in\reals^n}{A_0 + A_1 x_1 + \cdots + A_n x_n \succeq 0} \subset \reals^n
@@ -1185,8 +1130,7 @@ is convex
 
 </li>
 <li>
-	
-can negate each matrix $A_i$ and have same results,
+	can negate each matrix $A_i$ and have same results,
 hence
 
 $$
@@ -1199,13 +1143,13 @@ is (also) convex
 </ul>
 
 
-<h3 id="my-foilhead-17">Separating and supporting hyperplanes</h3>
+<h3>Separating and supporting hyperplanes</h3>
 
 <div class="theorem" id="theorem:separating hyperplane theorem" data-name="separating hyperplane theorem">
 	
 for nonempty disjoint convex sets $C$ and $D$,
 exists hyperplane which separates $C$ and $D$,
-
+<i>i.e.</i>
 
 $$
 \left(
@@ -1226,7 +1170,7 @@ $$
 <div class="definition" id="definition:separating hyperplanes" data-name="separating hyperplanes">
 	
 for nonempty disjoint convex sets $C$ and $D$,
-hyperplane satisfying property in ~,
+hyperplane satisfying property in <a href="#theorem:separating hyperplane theorem"></a>,
 called <span class="define">separating hyperplane</span>,
 said to <span class="define">separate $C$ and $D$</span>
 
@@ -1236,7 +1180,7 @@ said to <span class="define">separate $C$ and $D$</span>
 for nonempty convex set $C$
 and $x\in \boundary C$,
 exists hyperplane passing through $x$,
-,
+<i>i.e.</i>,
 
 $$
 \left(
@@ -1256,12 +1200,12 @@ $$
 	
 for nonempty convex set $C$
 and $x\in \boundary C$,
-hyperplane satisfied property in ~,
+hyperplane satisfied property in <a href="#theorem:supporting hyperplane theorem"></a>,
 called <span class="define">supporting hyperplane</span>
 
 </div>
 
-<h3 id="my-foilhead-18">Dual cones</h3>
+<h3>Dual cones</h3>
 
 
 
@@ -1279,7 +1223,7 @@ denoted by <span class="define">$K^\ast$</span>
 </div>
 <ul>
 <li>
-	  illustrates $x \in K^\ast$ while $z\not\in K^\ast$
+	the figure illustrates $x \in K^\ast$ while $z\not\in K^\ast$
 
 </li>
 </ul>
@@ -1293,7 +1237,7 @@ denoted by <span class="define">$K^\ast$</span>
 
 
 
-<h3 id="my-foilhead-19">Dual norms</h3>
+<h3>Dual norms</h3>
 
 <div class="definition" id="definition:dual norms" data-name="dual norms">
 	
@@ -1310,26 +1254,22 @@ denoted by <span class="define">$\|\cdot\|_\ast$</span>
 </div>
 <ul>
 <li>
-	
-examples
+	examples
 	<ul>
 	<li>
-		
-dual cone of subspace $V\subset \reals^n$
+		dual cone of subspace $V\subset \reals^n$
 is orthogonal complement of $V$, $V^\perp$,
 where
 $V^\perp=\set{y}{\forall v\in V,v^Ty = 0}$
 
 	</li>
 	<li>
-		
- and  are self-dual
+		$\prealk{n}$ and $\possemidefset{n}$ are self-dual
 
 	</li>
 	<li>
-		
-<i>dual of norm cone</i> is <i>norm cone associated with dual norm</i>,
-,
+		<i>dual of norm cone</i> is <i>norm cone associated with dual norm</i>,
+<i>i.e.</i>,
 if $K=\set{(x,t)\in\reals^{n} \times \reals}{\|x\|\leq t}$
 
 $$
@@ -1343,7 +1283,7 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-20">Properties of dual cones</h3>
+<h3>Properties of dual cones</h3>
 
 <div class="proposition" id="proposition:properties of dual cones" data-name="properties of dual cones">
 	
@@ -1351,33 +1291,27 @@ for cones $K$, $K_1$, and $K_2$
 
 	<ul>
 	<li>
-		
-$K^\ast$ is closed and convex
+		$K^\ast$ is closed and convex
 
 	</li>
 	<li>
-		
-$K_1\subset K_2 \Rightarrow K_2^\ast \subset K_1^\ast$
+		$K_1\subset K_2 \Rightarrow K_2^\ast \subset K_1^\ast$
 
 	</li>
 	<li>
-		
-if $\interior{K} \neq \emptyset$, $K^\ast$ is pointed
+		if $\interior{K} \neq \emptyset$, $K^\ast$ is pointed
 
 	</li>
 	<li>
-		
-if  is pointed, $\interior{(K^\ast)} \neq \emptyset$
+		if $\closure{K}$ is pointed, $\interior{(K^\ast)} \neq \emptyset$
 
 	</li>
 	<li>
-		
-$K^{\ast\ast}=(K^\ast)^\ast$ is closure of convex hull of $K$,
+		$K^{\ast\ast}=(K^\ast)^\ast$ is closure of convex hull of $K$,
 
 	</li>
 	<li>
-		
-$K^\ast$ is closed and convex
+		$K^\ast$ is closed and convex
 
 	</li>
 	</ul>
@@ -1386,30 +1320,26 @@ thus,
 
 	<ul>
 	<li>
-		
-if $K$ is closed and convex, $K^{\ast\ast} = K$
+		if $K$ is closed and convex, $K^{\ast\ast} = K$
 
 	</li>
 	<li>
-		
-dual of proper cone is proper cone
+		dual of proper cone is proper cone
 
 	</li>
 	<li>
-		
-for proper cone $K$, $K^{\ast\ast}=K$
+		for proper cone $K$, $K^{\ast\ast}=K$
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-21">Dual generalized inequalities</h3>
+<h3>Dual generalized inequalities</h3>
 
 <ul>
 <li>
-	
-dual of proper cone is proper (~),
+	dual of proper cone is proper (<a href="#proposition:properties of dual cones"></a>),
 hence the dual also induces generalized inequalities
 
 </li>
@@ -1421,13 +1351,11 @@ for proper cone $K$,
 
 	<ul>
 	<li>
-		
-$x\preceq_K y$ if and only if $(\forall \lambda \succeq_{K^\ast} 0)(\lambda^T x \leq \lambda^T y)$
+		$x\preceq_K y$ if and only if $(\forall \lambda \succeq_{K^\ast} 0)(\lambda^T x \leq \lambda^T y)$
 
 	</li>
 	<li>
-		
-$x\prec_K y$ if and only if $(\forall \lambda \succeq_{K^\ast} 0 \mbox{ with } \lambda\neq0)(\lambda^T x < \lambda^T y)$
+		$x\prec_K y$ if and only if $(\forall \lambda \succeq_{K^\ast} 0 \mbox{ with } \lambda\neq0)(\lambda^T x < \lambda^T y)$
 
 	</li>
 	</ul>
@@ -1437,20 +1365,18 @@ above are equivalent to
 
 	<ul>
 	<li>
-		
-$x\preceq_{K^\ast} y$ if and only if $(\forall \lambda \succeq_{K} 0)(\lambda^T x \leq \lambda^T y)$
+		$x\preceq_{K^\ast} y$ if and only if $(\forall \lambda \succeq_{K} 0)(\lambda^T x \leq \lambda^T y)$
 
 	</li>
 	<li>
-		
-$x\prec_{K^\ast} y$ if and only if $(\forall \lambda \succeq_{K} 0 \mbox{ with } \lambda\neq0)(\lambda^T x < \lambda^T y)$
+		$x\prec_{K^\ast} y$ if and only if $(\forall \lambda \succeq_{K} 0 \mbox{ with } \lambda\neq0)(\lambda^T x < \lambda^T y)$
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-22">Theorem of alternative for linear strict generalized inequalities</h3>
+<h3>Theorem of alternative for linear strict generalized inequalities</h3>
 
 <div class="theorem" id="theorem:theorem of alternative for linear strict generalized inequalities" data-name="theorem of alternative for linear strict generalized inequalities">
 	
@@ -1476,7 +1402,7 @@ A^T \lambda = 0,\
 $$
 
 Above two inequality systems are <i>alternative</i>,
-, for any data, $A$ and $b$,
+<i>i.e.</i>, for any data, $A$ and $b$,
 exactly one of them is feasible.
 
 
@@ -1485,7 +1411,7 @@ exactly one of them is feasible.
 <h2 id="Convex Functions">Convex Functions</h2>
 
 
-<h3 id="my-foilhead-23">Convex functions</h3>
+<h3>Convex functions</h3>
 
 <div class="definition" id="definition:convex functions" data-name="convex functions">
 	
@@ -1493,8 +1419,7 @@ exactly one of them is feasible.
 
 	<ul>
 	<li>
-		
-function $f:\reals^n\to\reals$
+		function $f:\reals^n\to\reals$
 the domain of which is convex
 and which satisfies
 
@@ -1513,8 +1438,7 @@ said to be <span class="define">convex</span>
 
 	</li>
 	<li>
-		
-function $f:\reals^n\to\reals$
+		function $f:\reals^n\to\reals$
 the domain of which is convex
 and which satisfies
 
@@ -1541,16 +1465,14 @@ said to be <span class="define">strictly convex</span>
 
 	<ul>
 	<li>
-		
-function $f:\reals^n\to\reals$
+		function $f:\reals^n\to\reals$
 the domain of which is convex
 where $-f$ is convex,
 said to be <span class="define">concave</span>
 
 	</li>
 	<li>
-		
-function $f:\reals^n\to\reals$
+		function $f:\reals^n\to\reals$
 the domain of which is convex
 where $-f$ is strictly convex,
 said to be <span class="define">strictly concave</span>
@@ -1560,7 +1482,7 @@ said to be <span class="define">strictly concave</span>
 
 </div>
 
-<h3 id="my-foilhead-24">Extended real-value extensions of convex functions</h3>
+<h3>Extended real-value extensions of convex functions</h3>
 
 <div class="definition" id="definition:extended real-value extension of convex functions" data-name="extended real-value extension of convex functions">
 	
@@ -1584,14 +1506,12 @@ called <span class="define">extended real-value extension of $f$</span>
 </div>
 <ul>
 <li>
-	
-using extended real-value extensions of convex functions,
+	using extended real-value extensions of convex functions,
 can drop &ldquo;$\dom f$'' in equations,
 <i>e.g.</i>,
 	<ul>
 	<li>
-		
-$f$ is convex if and only if its extended-value extension $\tilde{f}$ satisfies
+		$f$ is convex if and only if its extended-value extension $\tilde{f}$ satisfies
 
 $$
 \left(
@@ -1607,8 +1527,7 @@ $$
 
 	</li>
 	<li>
-		
-$f$ is strictly convex if and only if its extended-value extension $\tilde{f}$ satisfies
+		$f$ is strictly convex if and only if its extended-value extension $\tilde{f}$ satisfies
 
 $$
 \left(
@@ -1628,19 +1547,18 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-25">First-order condition for convexity</h3>
+<h3>First-order condition for convexity</h3>
 
 <div class="theorem" id="theorem:first-order condition for convexity" data-name="first-order condition for convexity">
 	
 differentiable $f$,
-, $\dom f$ is open
+<i>i.e.</i>, $\dom f$ is open
 and gradient $\nabla f$ exists at every point in $\dom f$,
 is
 
 	<ul>
 	<li>
-		
-convex if and only if $\dom f$ is convex
+		convex if and only if $\dom f$ is convex
 and
 
 $$
@@ -1655,8 +1573,7 @@ $$
 
 	</li>
 	<li>
-		
-strictly convex if and only if $\dom f$ is convex
+		strictly convex if and only if $\dom f$ is convex
 and
 
 $$
@@ -1675,32 +1592,27 @@ $$
 </div>
 <ul>
 <li>
-	
-~
+	<a href="#theorem:first-order condition for convexity"></a>
 implies
 that
 for convex function $f$
 	<ul>
 	<li>
-		
-first-order Taylor approximation is <i>global underestimator</i>
+		first-order Taylor approximation is <i>global underestimator</i>
 
 	</li>
 	<li>
-		
-can derive
+		can derive
 global information
 from
 local information
 		<ul>
 		<li>
-			
-<i>e.g.</i>, if $\nabla f(x)=0$, $x$ is global minimizer
+			<i>e.g.</i>, if $\nabla f(x)=0$, $x$ is global minimizer
 
 		</li>
 		<li>
-			
-<span class="eemph">explains remarkable properties of convex functions and convex optimization problems</span>
+			<span class="eemph">explains remarkable properties of convex functions and convex optimization problems</span>
 
 		</li>
 		</ul>
@@ -1711,12 +1623,12 @@ local information
 </li>
 </ul>
 
-<h3 id="my-foilhead-26">Second-order condition for convexity</h3>
+<h3>Second-order condition for convexity</h3>
 
 <div class="theorem" id="theorem:second-order condition for convexity" data-name="second-order condition for convexity">
 	
 twice-differentiable $f$,
-, $\dom f$ is open
+<i>i.e.</i>, $\dom f$ is open
 and Hessian $\nabla^2 f$ exists at every point in $\dom f$,
 is
 convex if and only if $\dom f$ is convex
@@ -1733,8 +1645,7 @@ $$
 
 	<ul>
 	<li>
-		
-if $\dom f$ is convex and
+		if $\dom f$ is convex and
 
 $$
 \left(
@@ -1752,72 +1663,62 @@ it is strictly convex
 
 </div>
 
-<h3 id="my-foilhead-27">Convex function examples</h3>
+<h3>Convex function examples</h3>
 
 <ul>
 <li>
-	
-assume function $f:\reals^n\to\reals$
+	assume function $f:\reals^n\to\reals$
 and $\dom f =\reals^n$
 unlesss specified otherwise
 
 </li>
 <li>
-	
-affine function, , $f(x)=a^Tx +b$ for some $a\in\reals^n$ and $b\in\reals$, is convex
+	affine function, <i>i.e.</i>, $f(x)=a^Tx +b$ for some $a\in\reals^n$ and $b\in\reals$, is convex
 
 </li>
 <li>
-	
-quadratic functions
+	quadratic functions
 - if $f(x) = x^T Px + q^Tx$
 for some $P\in\symset{n}$ and $q\in\reals^n$
 	<ul>
 	<li>
-		
-$f$ is convex if and only if $P\succeq0$
+		$f$ is convex if and only if $P\succeq0$
 
 	</li>
 	<li>
-		
-$f$ is strictly convex if and only if $P\succ0$
+		$f$ is strictly convex if and only if $P\succ0$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-exponential function,
-, $f(x) = \exp(a^Tx+b)$ for some $a\in\reals^n$ and $b\in\reals$,
+	exponential function,
+<i>i.e.</i>, $f(x) = \exp(a^Tx+b)$ for some $a\in\reals^n$ and $b\in\reals$,
 is convex
 
 </li>
 <li>
-	
-power,
-, $f(x) = x^a$ for some $a\geq1$,
+	power,
+<i>i.e.</i>, $f(x) = x^a$ for some $a\geq1$,
 is convex on $\ppreals$
 
 </li>
 <li>
-	
-power of absolute value,
-, $f(x) = |x|^a$ for some $a\geq1$,
+	power of absolute value,
+<i>i.e.</i>, $f(x) = |x|^a$ for some $a\geq1$,
 is convex on $\reals$
 
 </li>
 <li>
-	
-logarithm function,
-, $f(x) = \log x$,
-is concave on 
+	logarithm function,
+<i>i.e.</i>, $f(x) = \log x$,
+is concave on $\ppreals$
 
 </li>
 <li>
-	
-negative entropy,
-,
+	negative entropy,
+<i>i.e.</i>,
 
 $$
 f(x) = \left\{\begin{array}{ll}
@@ -1827,54 +1728,48 @@ x\log x & \mbox{if } x >0
 \end{array}\right.
 $$
 
-is convex on 
+is convex on $\preals$
 
 </li>
 <li>
-	
-norm as function is convex
+	norm as function is convex
 (by definition of norms,
-, triangle inequality &amp; absolute homogeneity)
+<i>i.e.</i>, triangle inequality &amp; absolute homogeneity)
 
 </li>
 <li>
-	
-max function,
-, $f(x)=\max(x_1,\ldots,x_n\}$,
+	max function,
+<i>i.e.</i>, $f(x)=\max(x_1,\ldots,x_n\}$,
 is convex
 
 </li>
 <li>
-	
-quadratic-over-linear function,
+	quadratic-over-linear function,
 $f(x,y) = x^2/y$,
 is convex on $\reals\times \ppreals$
 
 </li>
 <li>
-	
-log-sum-exp,
+	log-sum-exp,
 $f(x) = \log(\exp(x_1)+\cdots+\exp(x_n))$,
 is convex
 
 </li>
 <li>
-	
-geometric mean,
+	geometric mean,
 $f(x) = (\prod_{i=1}^n x_i )^{1/n}$,
-is concave on 
+is concave on $\pprealk{n}$
 
 </li>
 <li>
-	
-log-determinant,
+	log-determinant,
 $f(X) = \log \det X$,
-is concave on 
+is concave on $\posdefset{n}$
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-28">Sublevel sets and superlevel sets</h3>
+<h3>Sublevel sets and superlevel sets</h3>
 
 <div class="definition" id="definition:sublevel sets" data-name="sublevel sets">
 	
@@ -1904,13 +1799,11 @@ called <span class="define">$\alpha$-superlevel set of $f$</span>
 
 	<ul>
 	<li>
-		
-every sublevel set of convex function is convex
+		every sublevel set of convex function is convex
 
 	</li>
 	<li>
-		
-and every superlevel set of concave function is convex
+		and every superlevel set of concave function is convex
 
 	</li>
 	</ul>
@@ -1918,12 +1811,10 @@ and every superlevel set of concave function is convex
 </div>
 <ul>
 <li>
-	
-note, however, converse is not true
+	note, however, converse is not true
 	<ul>
 	<li>
-		
-<i>e.g.</i>, every sublevel set of $\log$ is convex, but $\log$ is concave
+		<i>e.g.</i>, every sublevel set of $\log$ is convex, but $\log$ is concave
 
 	</li>
 	</ul>
@@ -1932,7 +1823,7 @@ note, however, converse is not true
 </ul>
 
 
-<h3 id="my-foilhead-29">Epigraphs and hypographs</h3>
+<h3>Epigraphs and hypographs</h3>
 
 <div class="definition" id="definition:epigraphs" data-name="epigraphs">
 	
@@ -1964,20 +1855,18 @@ denoted by <span class="define">$\hypo f$</span>
 
 	<ul>
 	<li>
-		
-function is convex if and only if its epigraph is convex
+		function is convex if and only if its epigraph is convex
 
 	</li>
 	<li>
-		
-function is concave if and only if its hypograph is convex
+		function is concave if and only if its hypograph is convex
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-30">Convexity preserving function operations</h3>
+<h3>Convexity preserving function operations</h3>
 
 <div class="proposition" id="proposition:convexity preserving function operations" data-name="convexity preserving function operations">
 	
@@ -1985,12 +1874,10 @@ function is concave if and only if its hypograph is convex
 
 	<ul>
 	<li>
-		
-nonnegative weighted sum preserves convexity
+		nonnegative weighted sum preserves convexity
 		<ul>
 		<li>
-			
-for convex functions $f_1$, , $f_n$ and nonnegative weights $w_1,\ldots, w_n$
+			for convex functions $f_1$, , $f_n$ and nonnegative weights $w_1,\ldots, w_n$
 
 $$
 w_1 f_1 + \cdots w_n f_n
@@ -2003,12 +1890,10 @@ is convex
 
 	</li>
 	<li>
-		
-nonnegative weighted integration preserves convexity
+		nonnegative weighted integration preserves convexity
 		<ul>
 		<li>
-			
-for measurable set $Y$,
+			for measurable set $Y$,
 $w:Y\to\preals$,
 and
 $f:X \times Y$
@@ -2026,12 +1911,10 @@ is convex
 
 	</li>
 	<li>
-		
-pointwise maximum preserves convexity
+		pointwise maximum preserves convexity
 		<ul>
 		<li>
-			
-for convex functions $f_1$, , $f_n$
+			for convex functions $f_1$, , $f_n$
 
 $$
 \max\{f_1, \ldots, f_n\}
@@ -2044,12 +1927,10 @@ is convex
 
 	</li>
 	<li>
-		
-pointwise supremum preserves convexity
+		pointwise supremum preserves convexity
 		<ul>
 		<li>
-			
-for indexed family of convex functions $\indexedcol{f_\lambda}_{\lambda\in\Lambda}$
+			for indexed family of convex functions $\indexedcol{f_\lambda}_{\lambda\in\Lambda}$
 
 $$
 \sup_{\lambda \in \Lambda} f_\lambda
@@ -2063,32 +1944,26 @@ is convex
 
 	</li>
 	<li>
-		
-composition
+		composition
 
 		<ul>
 		<li>
-			
-suppose $g:\reals^n\to\reals^k$, $h:\reals^k\to\reals$, and $f=h\circ g$
+			suppose $g:\reals^n\to\reals^k$, $h:\reals^k\to\reals$, and $f=h\circ g$
 			<ul>
 			<li>
-				
-$f$ convex if $h$ convex &amp; nondecreasing in each argument, and $g_i$ convex
+				$f$ convex if $h$ convex &amp; nondecreasing in each argument, and $g_i$ convex
 
 			</li>
 			<li>
-				
-$f$ convex if $h$ convex &amp; nonincreasing in each argument, and $g_i$ concave
+				$f$ convex if $h$ convex &amp; nonincreasing in each argument, and $g_i$ concave
 
 			</li>
 			<li>
-				
-$f$ concave if $h$ concave &amp; nondecreasing in each argument, and $g_i$ concave
+				$f$ concave if $h$ concave &amp; nondecreasing in each argument, and $g_i$ concave
 
 			</li>
 			<li>
-				
-$f$ concave if $h$ concave &amp; nonincreasing in each argument, and $g_i$ convex
+				$f$ concave if $h$ concave &amp; nonincreasing in each argument, and $g_i$ convex
 
 			</li>
 			</ul>
@@ -2098,18 +1973,16 @@ $f$ concave if $h$ concave &amp; nonincreasing in each argument, and $g_i$ conve
 
 	</li>
 	<li>
-		
-minimization
+		minimization
 		<ul>
 		<li>
-			
-for function $f(x,y)$ convex in $(x,y)$ and convex set $C$
+			for function $f(x,y)$ convex in $(x,y)$ and convex set $C$
 
 $$
 \inf_{y\in C} f(x,y)
 $$
 
-is convex provided it is bounded below where domain is 
+is convex provided it is bounded below where domain is $\set{x}{(\exists y\in C)((x,y) \in \dom f)}$
 
 
 		</li>
@@ -2117,12 +1990,10 @@ is convex provided it is bounded below where domain is
 
 	</li>
 	<li>
-		
-perspective of convex function preserves convexity
+		perspective of convex function preserves convexity
 		<ul>
 		<li>
-			
-for convex function $f:X\to\reals$,
+			for convex function $f:X\to\reals$,
 function $g:X\times \reals \to \reals$
 defined by
 
@@ -2141,19 +2012,17 @@ is convex
 
 </div>
 
-<h3 id="my-foilhead-31">Convex functions examples</h3>
+<h3>Convex functions examples</h3>
 
-~
+<a href="#proposition:convexity preserving function operations"></a>
 implies
 
 <ul>
 <li>
-	
-piecewise-linear function is convex, 
+	piecewise-linear function is convex, <i>i.e.</i>
 	<ul>
 	<li>
-		
-$\max\{a_1^Tx+b_1,\ldots,a_m^T x + b_m\}$
+		$\max\{a_1^Tx+b_1,\ldots,a_m^T x + b_m\}$
 for some $a_i\in\reals^n$ and $b_i\in\reals$
 is convex
 
@@ -2162,12 +2031,10 @@ is convex
 
 </li>
 <li>
-	
-sum of $k$ largest components is convex, 
+	sum of $k$ largest components is convex, <i>i.e.</i>
 	<ul>
 	<li>
-		
-$x_{[1]} + \cdots + x_{[k]}$
+		$x_{[1]} + \cdots + x_{[k]}$
 where $x_{[i]}$ denotes $i$-th largest component,
 is convex
 (since $f(x) = \max\set{x_{i_1}+\cdots+x_{i_r}}{1\leq i_1< i_2<\cdots < i_r\leq n}$)
@@ -2177,12 +2044,10 @@ is convex
 
 </li>
 <li>
-	
-support function of set, ,
+	support function of set, <i>i.e.</i>,
 	<ul>
 	<li>
-		
-$\sup\set{x^Ty}{y\in A}$
+		$\sup\set{x^Ty}{y\in A}$
 for $A\subset\reals^n$
 is convex
 
@@ -2191,12 +2056,10 @@ is convex
 
 </li>
 <li>
-	
-distance (when measured by arbitrary norm) to farthest point of set
+	distance (when measured by arbitrary norm) to farthest point of set
 	<ul>
 	<li>
-		
-$\sup\set{\|x-y\|}{y\in A}$
+		$\sup\set{\|x-y\|}{y\in A}$
 for $A\subset\reals^n$
 is convex
 
@@ -2205,16 +2068,14 @@ is convex
 
 </li>
 <li>
-	
-least-squares cost as function of weights
+	least-squares cost as function of weights
 	<ul>
 	<li>
-		
-$\inf_{x\in\reals^n} \sum^n_{i=1} w_i(a_i^Tx - b_i)^2$ for some $a_i\in\reals^n$ and $b_i\in\reals$
+		$\inf_{x\in\reals^n} \sum^n_{i=1} w_i(a_i^Tx - b_i)^2$ for some $a_i\in\reals^n$ and $b_i\in\reals$
 is concave
 		<ul>
 		<li>
-			 note that above function equals to
+			note that above function equals to
 $\sum_{i=1}^n w_i b_i^2 - \sum_{i=1}^n w_i^2 b_i^2 a_i^T \left( \sum_{j=1}^n w_ja_ja_j^T\right)^{-1} a_i$
 but not clear whether it is concave
 
@@ -2231,12 +2092,10 @@ but not clear whether it is concave
 
 <ul>
 <li>
-	
-maximum eigenvalue of symmetric matrix
+	maximum eigenvalue of symmetric matrix
 	<ul>
 	<li>
-		
-$\lambda_\mathrm{max}(F(x)) = \sup\set{y^TF(x)y}{\|y\|_2 \leq 1}$
+		$\lambda_\mathrm{max}(F(x)) = \sup\set{y^TF(x)y}{\|y\|_2 \leq 1}$
 where $F:\reals^n\to \symset{m}$
 is linear function in $x$
 
@@ -2245,12 +2104,10 @@ is linear function in $x$
 
 </li>
 <li>
-	
-norm of matrix
+	norm of matrix
 	<ul>
 	<li>
-		
-$\sup\set{u^TG(x)v}{\|u\|_2 \leq 1, \|v\|_2\leq1}$
+		$\sup\set{u^TG(x)v}{\|u\|_2 \leq 1, \|v\|_2\leq1}$
 where $G:\reals^n\to \reals^{m\times n}$
 is linear function in $x$
 
@@ -2259,12 +2116,10 @@ is linear function in $x$
 
 </li>
 <li>
-	
-distance (when measured by arbitrary norm) to convex set
+	distance (when measured by arbitrary norm) to convex set
 	<ul>
 	<li>
-		
-for convex set $C$,
+		for convex set $C$,
 $\inf\set{\|x-y\|}{y\in C}$
 
 	</li>
@@ -2272,13 +2127,11 @@ $\inf\set{\|x-y\|}{y\in C}$
 
 </li>
 <li>
-	
-infimum of convex function
+	infimum of convex function
 subject to linear constraint
 	<ul>
 	<li>
-		
-for convex function $h$,
+		for convex function $h$,
 $\inf\set{h(y)}{Ay=x}$ is convex
 (since it is $\inf_y (h(y) + I_{Ay=x}(x,y))$)
 
@@ -2287,12 +2140,10 @@ $\inf\set{h(y)}{Ay=x}$ is convex
 
 </li>
 <li>
-	
-perspective of Euclidean norm squared
+	perspective of Euclidean norm squared
 	<ul>
 	<li>
-		
-map $(x,t) \mapsto x^Tx /t$
+		map $(x,t) \mapsto x^Tx /t$
 induces convex function in $(x,t)$ for $t>0$
 
 	</li>
@@ -2300,12 +2151,10 @@ induces convex function in $(x,t)$ for $t>0$
 
 </li>
 <li>
-	
-perspective of negative log
+	perspective of negative log
 	<ul>
 	<li>
-		
-map $(x,t) \mapsto -t \log(x/t)$
+		map $(x,t) \mapsto -t \log(x/t)$
 induces convex function in $(x,t) \in \pprealk{2}$
 
 	</li>
@@ -2318,12 +2167,10 @@ induces convex function in $(x,t) \in \pprealk{2}$
 
 <ul>
 <li>
-	
-perspective of convex function
+	perspective of convex function
 	<ul>
 	<li>
-		
-for convex function $f:\reals^n\to\reals$,
+		for convex function $f:\reals^n\to\reals$,
 function $g:\reals^n\to\reals$
 defined by
 
@@ -2341,7 +2188,7 @@ is convex
 </li>
 </ul>
 
-<h3 id="my-foilhead-34">Conjugate functions</h3>
+<h3>Conjugate functions</h3>
 
 <div class="definition" id="definition:conjugate functions" data-name="conjugate functions">
 	
@@ -2358,11 +2205,10 @@ denoted by <span class="define">$f^\ast$</span>
 
 <ul>
 <li>
-	
-conjugate function is convex for any function $f$
+	conjugate function is convex for any function $f$
 because it is supremum
 of linear (hence convex) functions (in $x$)
-(~)
+(<a href="#proposition:convexity preserving function operations"></a>)
 
 </li>
 </ul>
@@ -2390,16 +2236,14 @@ where closed function $f$ is defined by function with closed $\epi f$
 
 </div>
 
-<h3 id="my-foilhead-35">Conjugate function examples</h3>
+<h3>Conjugate function examples</h3>
 
 <ul>
 <li>
-	
-strictly convex quadratic function
+	strictly convex quadratic function
 	<ul>
 	<li>
-		
-for $f:\reals^n \to \preals$
+		for $f:\reals^n \to \preals$
 defined $f(x) = x^TQx/2$ where $Q\in \posdefset{n}$,
 
 $$
@@ -2415,12 +2259,10 @@ which is also strictly convex quadratic function
 
 </li>
 <li>
-	
-log-determinant
+	log-determinant
 	<ul>
 	<li>
-		
-for
+		for
 function $f:\posdefset{n} \to \reals$
 defined by $f(X) = \log \det X^{-1}$
 
@@ -2438,12 +2280,10 @@ where $\dom f^\ast = -\posdefset{n}$
 
 </li>
 <li>
-	
-indicator function
+	indicator function
 	<ul>
 	<li>
-		
-for
+		for
 indicator function $I_A:\reals^n\to\{0,\infty\}$ with $A\subset \reals^n$
 
 $$
@@ -2457,12 +2297,10 @@ which is support function of $A$
 
 </li>
 <li>
-	
-log-sum-exp function
+	log-sum-exp function
 	<ul>
 	<li>
-		
-for
+		for
 function $f: \reals^n \to \reals$
 defined by $f(x) = \log(\sum_{i=1}^n \exp(x_i))$
 
@@ -2477,12 +2315,10 @@ $$
 
 </li>
 <li>
-	
-norm
+	norm
 	<ul>
 	<li>
-		
-for norm function $f:\reals^n\to\preals$ defined by $f(x)=\|x\|$
+		for norm function $f:\reals^n\to\preals$ defined by $f(x)=\|x\|$
 
 $$
 f^\ast(x)
@@ -2497,12 +2333,10 @@ $$
 
 </li>
 <li>
-	
-norm squared
+	norm squared
 	<ul>
 	<li>
-		
-for
+		for
 function $f: \reals \to \preals$
 defined by $f(x) = \|x\|^2/2$
 
@@ -2516,12 +2350,10 @@ $$
 
 </li>
 <li>
-	
-differentiable convex function
+	differentiable convex function
 	<ul>
 	<li>
-		
-for
+		for
 differentiable convex function $f:\reals^n\to\reals$
 
 $$
@@ -2536,12 +2368,10 @@ where $y^\ast = \argsup_y (x^Ty-f(y))$
 
 </li>
 <li>
-	
-sum of independent functions
+	sum of independent functions
 	<ul>
 	<li>
-		
-for
+		for
 function $f:\reals^n\times \reals^m \to \reals$ defined by $f(x,y) = f_1(x) + f_2(y)$
 where $f_1:\reals^n\to\reals$ and $f_2:\reals^m\to\reals$
 
@@ -2556,7 +2386,7 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-36">Convex functions \wrt\ generalized inequalities</h3>
+<h3>Convex functions \wrt\ generalized inequalities</h3>
 
 <div class="definition" id="definition:$K$-convex functions" data-name="$K$-convex functions">
 	
@@ -2564,8 +2394,7 @@ for proper cone $K$,
 
 	<ul>
 	<li>
-		
-function $f$ satisfying
+		function $f$ satisfying
 
 $$
 \left(
@@ -2582,8 +2411,7 @@ called <span class="define">$K$-convex</span>
 
 	</li>
 	<li>
-		
-function $f$ satisfying
+		function $f$ satisfying
 
 $$
 \left(
@@ -2608,58 +2436,51 @@ for proper cone $K$
 
 	<ul>
 	<li>
-		
-function $f$ is $K$-convex if and only if for every $w\succeq_{K^\ast}0$, $w^Tf$ is convex
+		function $f$ is $K$-convex if and only if for every $w\succeq_{K^\ast}0$, $w^Tf$ is convex
 
 	</li>
 	<li>
-		
-function $f$ is strictly $K$-convex if and only if for every nonzero $w\succeq_{K^\ast}0$, $w^Tf$ is strictly convex
+		function $f$ is strictly $K$-convex if and only if for every nonzero $w\succeq_{K^\ast}0$, $w^Tf$ is strictly convex
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-37">Matrix convexity</h3>
+<h3>Matrix convexity</h3>
 
 <div class="definition" id="definition:matrix convexity" data-name="matrix convexity">
 	
-function of $\reals^n$ into 
+function of $\reals^n$ into $\symset{m}$
 which is $K$-convex where $K=\possemidefset{m}$,
 called <span class="define">matrix convex</span>
 
 </div>
 <ul>
 <li>
-	
-examples of matrix convexity
+	examples of matrix convexity
 	<ul>
 	<li>
-		
-function of $\reals^{n\times m}$ into 
+		function of $\reals^{n\times m}$ into $\possemidefset{n}$
 defined by $X\mapsto XX^T$
 is matrix convex
 
 	</li>
 	<li>
-		
-function of  into itself
+		function of $\posdefset{n}$ into itself
 defined by $X\mapsto X^p$
 is matrix convex for $1\leq p\leq 2$ or $-1\leq p \leq0$,
 and matrix concave for $0\leq p\leq1$
 
 	</li>
 	<li>
-		
-function of  into 
+		function of $\symset{n}$ into $\posdefset{n}$
 defined by $X\mapsto \exp(X)$
 is <i>not</i> matrix convex
 
 	</li>
 	<li>
-		
-quadratic matrix function of $\reals^{m\times n}$ into 
+		quadratic matrix function of $\reals^{m\times n}$ into $\symset{n}$
 defined by $X\mapsto X^TAX + B^TX + X^TB + C$
 for $A\in\symset{m}$, $B\in\reals^{m\times n}$, and $C\in\symset{n}$
 is matrix convex when $A\succeq0$
@@ -2674,12 +2495,12 @@ is matrix convex when $A\succeq0$
 <h2 id="Convex Optimization Problems">Convex Optimization Problems</h2>
 
 
-<h3 id="my-foilhead-38">Optimization problems</h3>
+<h3>Optimization problems</h3>
 
 <div class="definition" id="definition:optimization problems" data-name="optimization problems">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \reals^m$, $\feq: \xeq \to \reals^p$
-where , , and  are subsets of common set $\xdomain$
+where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
 
 $$
 \begin{array}{ll}
@@ -2698,15 +2519,13 @@ where $x$ is <span class="define">optimization variable</span>
 
 	<ul>
 	<li>
-		
-, , and  are
+		$\fobj$, $\fie$, and $\feq$ are
 <span class="define">objective function</span>,
 <span class="define">inequality \& equality contraint function</span>
 
 	</li>
 	<li>
-		
-$\fie(x) \preceq 0$ and $\feq(x) = 0$
+		$\fie(x) \preceq 0$ and $\feq(x) = 0$
 are
 <span class="define">inequality contraints</span>
 and
@@ -2714,31 +2533,26 @@ and
 
 	</li>
 	<li>
-		
-$\optdomain = \xobj \cap \xie \cap \xeq$ is <span class="define">domain</span> of optimization problem
+		$\optdomain = \xobj \cap \xie \cap \xeq$ is <span class="define">domain</span> of optimization problem
 
 	</li>
 	<li>
-		
-$\optfeasset =\set{x\in \optdomain}{\fie(x) \preceq0, \feq(x)=0}$, called <span class="define">feasible set</span>,
+		$\optfeasset =\set{x\in \optdomain}{\fie(x) \preceq0, \feq(x)=0}$, called <span class="define">feasible set</span>,
 $x\in\optdomain$, said to be <span class="define">feasible</span> if $x\in\optfeasset$,
 optimization problem, said to be <span class="define">feasible</span> if $\optfeasset\neq \emptyset$
 
 	</li>
 	<li>
-		
-$p^\ast = \inf\set{\fobj(x)}{x\in\optfeasset}$, called <span class="define">optimal value</span> of optimization problem
+		$p^\ast = \inf\set{\fobj(x)}{x\in\optfeasset}$, called <span class="define">optimal value</span> of optimization problem
 
 	</li>
 	<li>
-		
-if optimization problem is <i>infeasible</i>, <span class="define">$p^\ast = \infty$</span>
+		if optimization problem is <i>infeasible</i>, <span class="define">$p^\ast = \infty$</span>
 (following convention that infimum of empty set is $\infty$)
 
 	</li>
 	<li>
-		
-if $p^\ast=-\infty$,
+		if $p^\ast=-\infty$,
 optimization problem
 said to be <span class="define">unbounded</span>
 
@@ -2747,27 +2561,24 @@ said to be <span class="define">unbounded</span>
 
 </div>
 
-<h3 id="my-foilhead-39">Global and local optimalities</h3>
+<h3>Global and local optimalities</h3>
 
 <div class="definition" id="definition:global optimality" data-name="global optimality">
 	
 for optimization problem
-in ~
+in <a href="#definition:optimization problems"></a>
 
 	<ul>
 	<li>
-		
-$x\in \optfeasset$ with $\fobj(x) = p^\ast$, called <span class="define">(global) optimal point</span>
+		$x\in \optfeasset$ with $\fobj(x) = p^\ast$, called <span class="define">(global) optimal point</span>
 
 	</li>
 	<li>
-		
-$X_\mathrm{opt} = \set{x\in \optfeasset}{\fobj(x)=p^\ast}$, called <span class="define">optimal set</span>
+		$X_\mathrm{opt} = \set{x\in \optfeasset}{\fobj(x)=p^\ast}$, called <span class="define">optimal set</span>
 
 	</li>
 	<li>
-		
-when $X_\mathrm{opt} \neq \emptyset$, we say optimal value is <span class="define">attained</span> or <span class="define">achieved</span>
+		when $X_\mathrm{opt} \neq \emptyset$, we say optimal value is <span class="define">attained</span> or <span class="define">achieved</span>
 and
 optimization problem is <span class="define">solvable</span>
 
@@ -2778,8 +2589,7 @@ optimization problem is <span class="define">solvable</span>
 
 <ul>
 <li>
-	
-optimization problem is <i>not</i> solvable if $p^\ast = \infty$ or $p^\ast = -\infty$
+	optimization problem is <i>not</i> solvable if $p^\ast = \infty$ or $p^\ast = -\infty$
 (converse is not true)
 
 </li>
@@ -2787,13 +2597,13 @@ optimization problem is <i>not</i> solvable if $p^\ast = \infty$ or $p^\ast = -\
 <div class="definition" id="definition:local optimality" data-name="local optimality">
 	
 for optimization problem
-in ~
+in <a href="#definition:optimization problems"></a>
 where $\xdomain$ is metric space,
 $x\in\optfeasset$ satisfying
 $\inf\set{\fobj(z)}{z\in\optfeasset, \rho(z,x)\leq r}$
 where $\rho:\xdomain\times \xdomain\to\preals$ is metric,
 for some $r>0$, said to be <span class="define">locally optimal</span>,
-,
+<i>i.e.</i>,
 $x$ solves
 
 $$
@@ -2812,7 +2622,7 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-40">Equivalent optimization problems</h3>
+<h3>Equivalent optimization problems</h3>
 
 <div class="definition" id="definition:equivalent optimization problems" data-name="equivalent optimization problems">
 	
@@ -2823,12 +2633,10 @@ said to be <span class="define">equivalent</span>
 </div>
 <ul>
 <li>
-	
-below two optimization problems are equivalent
+	below two optimization problems are equivalent
 	<ul>
 	<li>
 		
-
 $$
 \begin{array}{ll}
 \mbox{minimize}
@@ -2845,7 +2653,6 @@ $$
 	</li>
 	<li>
 		
-
 $$
 \begin{array}{ll}
 \mbox{minimize}
@@ -2864,7 +2671,7 @@ $$
 
 </li>
 <li>
-	[]
+	
 since if $(x^\ast, y^\ast)$ solves first,
 $(u,v)=(x^\ast/2, 3y^\ast)$ solves second,
 and if $(u^\ast, v^\ast)$ solves second,
@@ -2873,13 +2680,12 @@ $(x,y)=(2u^\ast, v^\ast/3)$ solves first
 </li>
 </ul>
 
-<h3 id="my-foilhead-41">Change of variables</h3>
+<h3>Change of variables</h3>
 
 <ul>
 <li>
-	
-given function $\phi:\mathcalfont{Z} \to \xdomain$,
-optimization problem in ~
+	given function $\phi:\mathcalfont{Z} \to \xdomain$,
+optimization problem in <a href="#definition:optimization problems"></a>
 can be rewritten as
 
 $$
@@ -2898,34 +2704,30 @@ where $z\in\mathcalfont{Z}$ is optimization variable
 
 </li>
 <li>
-	
-if $\phi$ is injective and $\optdomain \subset \phi(\mathcalfont{Z})$,
+	if $\phi$ is injective and $\optdomain \subset \phi(\mathcalfont{Z})$,
 above optimization problem
 and
-optimization problem in ~
+optimization problem in <a href="#definition:optimization problems"></a>
 are equivalent,
-
+<i>i.e.</i>
 	<ul>
 	<li>
-		
-$X_\mathrm{opt}$ is optimal set of problem in ~
+		$X_\mathrm{opt}$ is optimal set of problem in <a href="#definition:optimization problems"></a>
 $\Rightarrow$
 $\phi^{-1}(X_\mathrm{opt})$ is optimal set of above problem
 
 	</li>
 	<li>
-		
-$Z_\mathrm{opt}$ is optimal set of above problem
+		$Z_\mathrm{opt}$ is optimal set of above problem
 $\Rightarrow$
-$\phi(Z_\mathrm{opt})$ is optimal set of problem in ~
+$\phi(Z_\mathrm{opt})$ is optimal set of problem in <a href="#definition:optimization problems"></a>
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-two optimization problems said to be related by
+	two optimization problems said to be related by
 <span class="define">
 change of variable or substitution of variable $x=\phi(z)$
 </span>
@@ -2933,23 +2735,22 @@ change of variable or substitution of variable $x=\phi(z)$
 </li>
 </ul>
 
-<h3 id="my-foilhead-42">Convex optimization</h3>
+<h3>Convex optimization</h3>
 
 <div class="definition" id="definition:convex optimization" data-name="convex optimization">
 	
-optimization problem in ~
-where  is Banach space,
-,
+optimization problem in <a href="#definition:optimization problems"></a>
+where $\xdomain$ is Banach space,
+<i>i.e.</i>,
 complete linear normed vector space,
- &amp;  are convex functions,
+$\fobj$ &amp; $\fie$ are convex functions,
 and
- is affine function,
+$\feq$ is affine function,
 called <span class="define">convex optimization problem</span>
 
 	<ul>
 	<li>
-		
-when $\xdomain= \reals^n$, optimization problem can be formulated as
+		when $\xdomain= \reals^n$, optimization problem can be formulated as
 
 $$
 \begin{array}{ll}
@@ -2971,13 +2772,11 @@ for some $A\in\reals^{p\times n}$ and $b\in\reals^p$
 </div>
 <ul>
 <li>
-	
-domain of convex optimization problem is <i>convex</i>
+	domain of convex optimization problem is <i>convex</i>
 	<ul>
 	<li>
-		
-since
-domains of , , and  are convex (by definition of convex functions)
+		since
+domains of $\fobj$, $\fie$, and $\feq$ are convex (by definition of convex functions)
 and intersection of convex sets is convex
 
 	</li>
@@ -2985,13 +2784,11 @@ and intersection of convex sets is convex
 
 </li>
 <li>
-	
-feasible set of convex optimization problem
+	feasible set of convex optimization problem
 is <i>convex</i>
 	<ul>
 	<li>
-		
-since
+		since
 sublevel sets of convex functions are convex,
 feasible sets for affine function is either empty set, singleton, or affine sets, all of which are convex sets
 
@@ -3001,12 +2798,12 @@ feasible sets for affine function is either empty set, singleton, or affine sets
 </li>
 </ul>
 
-<h3 id="my-foilhead-43">Optimality conditions for convex optimization problems</h3>
+<h3>Optimality conditions for convex optimization problems</h3>
 
 <div class="theorem" id="theorem:local optimality implies global optimality" data-name="local optimality implies global optimality">
 	
 for convex optimization problem
-(in ~),
+(in <a href="#definition:convex optimization"></a>),
 every local optimal point is global optimal point
 
 </div>
@@ -3014,14 +2811,13 @@ every local optimal point is global optimal point
 <div class="theorem" id="theorem:optimality conditions for convex optimality problems" data-name="optimality conditions for convex optimality problems">
 	
 for convex optimization problem
-(in ~),
-when  is differentiable
-(, $\dom \fobj$ is open and $\nabla \fobj$ exists everywhere in $\dom \fobj$)
+(in <a href="#definition:convex optimization"></a>),
+when $\fobj$ is differentiable
+(<i>i.e.</i>, $\dom \fobj$ is open and $\nabla \fobj$ exists everywhere in $\dom \fobj$)
 
 	<ul>
 	<li>
-		
-$x\in\optdomain$ is optimal if and only if $x\in\optfeasset$ and
+		$x\in\optdomain$ is optimal if and only if $x\in\optfeasset$ and
 
 $$
 \left(
@@ -3035,8 +2831,7 @@ $$
 
 	</li>
 	<li>
-		
-for unconstrained problems, $x\in\optdomain$ is optimal if and only if 
+		for unconstrained problems, $x\in\optdomain$ is optimal if and only if 
 $$
 \nabla \fobj(x)=0
 $$
@@ -3048,12 +2843,11 @@ $$
 </div>
 
 
-<h3 id="my-foilhead-44">Optimality conditions for some convex optimization problems</h3>
+<h3>Optimality conditions for some convex optimization problems</h3>
 
 <ul>
 <li>
-	
-unconstrained convex quadratic optimization
+	unconstrained convex quadratic optimization
 
 $$
 \begin{array}{ll}
@@ -3065,8 +2859,7 @@ $$
 where $\xobj=\reals^n$ and $P\in\possemidefset{n}$
 	<ul>
 	<li>
-		
-$x$ is optimal if and only if
+		$x$ is optimal if and only if
 
 $$
 \nabla \fobj(x) = Px + q = 0
@@ -3075,18 +2868,15 @@ $$
 exist three cases
 		<ul>
 		<li>
-			
-if $P\in\posdefset{n}$, exists unique optimum $x^\ast = -P^{-1}q$
+			if $P\in\posdefset{n}$, exists unique optimum $x^\ast = -P^{-1}q$
 
 		</li>
 		<li>
-			
-if $q\in\range(P)$, $X_\mathrm{opt}=-P^\dagger q + \nullspace(P)$
+			if $q\in\range(P)$, $X_\mathrm{opt}=-P^\dagger q + \nullspace(P)$
 
 		</li>
 		<li>
-			
-if $q\not\in\range(P)$, $p^\ast = -\infty$
+			if $q\not\in\range(P)$, $p^\ast = -\infty$
 
 		</li>
 		</ul>
@@ -3096,8 +2886,7 @@ if $q\not\in\range(P)$, $p^\ast = -\infty$
 
 </li>
 <li>
-	
-analytic centering
+	analytic centering
 
 $$
 \begin{array}{ll}
@@ -3109,8 +2898,7 @@ $$
 where $\xobj = \set{x\in\reals^n}{Ax \prec b}$
 	<ul>
 	<li>
-		
-$x$ is optimal if and only if
+		$x$ is optimal if and only if
 
 $$
 \nabla \fobj(x) = \sum_{i=1}^m \frac{1}{b_i-a_i^Tx}a_i = 0
@@ -3119,18 +2907,15 @@ $$
 exist three cases
 		<ul>
 		<li>
-			
-exists unique optimum, which happens if and only if  is nonempty and bounded
+			exists unique optimum, which happens if and only if $\set{x}{b_i-a_i^Tx}$ is nonempty and bounded
 
 		</li>
 		<li>
-			
-exist infinitely many optima, in which case, $X_\mathrm{opt}$ is affine set
+			exist infinitely many optima, in which case, $X_\mathrm{opt}$ is affine set
 
 		</li>
 		<li>
-			
-exists no optimum, which happens if and only if  is unbounded below
+			exists no optimum, which happens if and only if $\fobj$ is unbounded below
 
 		</li>
 		</ul>
@@ -3140,8 +2925,7 @@ exists no optimum, which happens if and only if  is unbounded below
 
 </li>
 <li>
-	
-convex optimization problem with equality constraints only
+	convex optimization problem with equality constraints only
 
 $$
 \begin{array}{ll}
@@ -3156,8 +2940,7 @@ $$
 where $\xdomain=\reals^n$
 	<ul>
 	<li>
-		
-$x$ is optimal if and only if
+		$x$ is optimal if and only if
 
 $$
 \nabla \fobj(x) \perp \nullspace(A)
@@ -3178,12 +2961,12 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-45">Linear programming</h3>
+<h3>Linear programming</h3>
 
 <div class="definition" id="definition:linear programming" data-name="linear programming">
 	
-convex optimization problem in ~
-with $\xdomain=\reals^n$ and linear  &amp; ,
+convex optimization problem in <a href="#definition:convex optimization"></a>
+with $\xdomain=\reals^n$ and linear $\fobj$ &amp; $\fie$,
 called <span class="define">linear program (LP)</span>,
 which can be formulated as
 
@@ -3203,8 +2986,7 @@ where $c\in\reals^n$, $C\in\reals^{m\times n}$, $d\in\reals^m$, $A\in\reals^{p\t
 
 	<ul>
 	<li>
-		
-can transform above LP into <span class="define">standard form LP</span>
+		can transform above LP into <span class="define">standard form LP</span>
 
 $$
 \begin{array}{ll}
@@ -3224,27 +3006,24 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-46">LP examples</h3>
+<h3>LP examples</h3>
 
 <ul>
 <li>
-	
-diet problem
+	diet problem
 -
 find amount of $n$ different food to minimize purchase cost
 while satisfying nutrition requirements
 	<ul>
 	<li>
-		
-assume exist $n$ food and $m$ nutritions,
+		assume exist $n$ food and $m$ nutritions,
 $c_i$ is cost of food $i$,
 $A_{ji}$ is amount of nutrition $j$ contained in unit quantity of food $i$,
 $b_j$ is amount requirement for nutrition $j$
 
 	</li>
 	<li>
-		
-diet problem can be formulated as LP
+		diet problem can be formulated as LP
 
 $$
 \begin{array}{ll}
@@ -3264,18 +3043,15 @@ $$
 
 </li>
 <li>
-	
-Chebyshev center of polyhedron
+	Chebyshev center of polyhedron
 - find largest Euclidean ball contained in polyhedron
 	<ul>
 	<li>
-		
-assume polyhedron is 
+		assume polyhedron is $\set{x\in\reals^n}{a_i^Tx \leq b_i, i=1,\ldots, m}$
 
 	</li>
 	<li>
-		
-problem of finding Chebyshev center of polyhedron can be formulated as LP
+		problem of finding Chebyshev center of polyhedron can be formulated as LP
 
 $$
 \begin{array}{ll}
@@ -3294,18 +3070,15 @@ where optimization variables are $x\in\reals^n$ and $r\in\reals$
 
 </li>
 <li>
-	
-piecewise-linear minimization
+	piecewise-linear minimization
 - minimize maximum of affine functions
 	<ul>
 	<li>
-		
-assume $m$ affine functions $a_i^Tx + b_i$
+		assume $m$ affine functions $a_i^Tx + b_i$
 
 	</li>
 	<li>
-		
-piecewise-linear minimization problem
+		piecewise-linear minimization problem
 can be formulated as LP
 
 $$
@@ -3324,8 +3097,7 @@ $$
 
 </li>
 <li>
-	
-linear-fractional program
+	linear-fractional program
 
 $$
 \begin{array}{ll}
@@ -3347,8 +3119,7 @@ $$
 
 	<ul>
 	<li>
-		
-if feasible set is nonempty,
+		if feasible set is nonempty,
 can be formulated as LP
 
 $$
@@ -3374,14 +3145,14 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-47">Quadratic programming</h3>
+<h3>Quadratic programming</h3>
 
 <div class="definition" id="definition:quadratic programming" data-name="quadratic programming">
 	
-convex optimization problem in ~
+convex optimization problem in <a href="#definition:convex optimization"></a>
 with
 $\xdomain=\reals^n$ and
-convex quadratic  and linear ,
+convex quadratic $\fobj$ and linear $\fie$,
 called <span class="define">quadratic program (QP)</span>,
 which can be formulated as
 
@@ -3405,23 +3176,20 @@ $A\in\reals^{p\times n}$, $b\in\reals^p$
 </div>
 <ul>
 <li>
-	
-when $P=0$, QP reduces to LP,
+	when $P=0$, QP reduces to LP,
 hence <i>LP is specialization of QP</i>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-48">QP examples</h3>
+<h3>QP examples</h3>
 
 <ul>
 <li>
-	
-least-squares (LS) problems
+	least-squares (LS) problems
 	<ul>
 	<li>
-		
-LS can be formulated as QP
+		LS can be formulated as QP
 
 $$
 \begin{array}{ll}
@@ -3436,19 +3204,17 @@ $$
 
 </li>
 <li>
-	 distance between two polyhedra
+	distance between two polyhedra
 	<ul>
 	<li>
-		
-assume two polyhedra
-
+		assume two polyhedra
+$\set{x\in\reals^n}{Ax\preceq b, Cx =d}$
 and
-
+$\set{x\in\reals^n}{\tilde{A}x\preceq \tilde{b}, \tilde{C}x =\tilde{d}}$
 
 	</li>
 	<li>
-		
-problem of finding distance between two polyhedra
+		problem of finding distance between two polyhedra
 can be formulated as QP
 
 $$
@@ -3470,14 +3236,14 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-49">Quadratically constrained quadratic programming</h3>
+<h3>Quadratically constrained quadratic programming</h3>
 
 <div class="definition" id="definition:quadratically constrained quadratic programming" data-name="quadratically constrained quadratic programming">
 	
-convex optimization problem in ~
+convex optimization problem in <a href="#definition:convex optimization"></a>
 with $\xdomain=\reals^n$
 and
-convex quadratic  &amp; ,
+convex quadratic $\fobj$ &amp; $\fie$,
 called <span class="define">quadratically constrained quadratic program (QCQP)</span>,
 which can be formulated as
 
@@ -3500,21 +3266,20 @@ $A\in\reals^{p\times n}$, $b\in\reals^p$
 </div>
 <ul>
 <li>
-	
-when $P_i=0$ for $i=1,\ldots,m$, QCQP reduces to QP,
+	when $P_i=0$ for $i=1,\ldots,m$, QCQP reduces to QP,
 hence <i>QP is specialization of QCQP</i>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-50">Second-order cone programming</h3>
+<h3>Second-order cone programming</h3>
 
 <div class="definition" id="definition:second-order cone programming" data-name="second-order cone programming">
 	
-convex optimization problem in ~
+convex optimization problem in <a href="#definition:convex optimization"></a>
 with $\xdomain=\reals^n$
 and
-linear  and convex 
+linear $\fobj$ and convex $\fie$
 of form
 
 $$
@@ -3539,19 +3304,17 @@ called <span class="define">second-order cone program (SOCP)</span>
 </div>
 <ul>
 <li>
-	
-when $b_i=0$, SOCP reduces to QCQP,
+	when $b_i=0$, SOCP reduces to QCQP,
 hence <i>QCQP is specialization of SOCP</i>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-51">SOCP examples</h3>
+<h3>SOCP examples</h3>
 
 <ul>
 <li>
-	
-robust linear program
+	robust linear program
 -
 minimize $c^T x$
 while satisfying
@@ -3560,7 +3323,7 @@ for every $\tilde{a}_i \in \set{a_i+P_iu}{\|u\|_2\leq1}$
 where $P_i\in\symset{n}$
 	<ul>
 	<li>
-		 can be formulated as SOCP
+		can be formulated as SOCP
 
 $$
 \begin{array}{ll}
@@ -3578,8 +3341,7 @@ $$
 
 </li>
 <li>
-	
-linear program with random constraints
+	linear program with random constraints
 -
 minimize $c^T x$
 while satisfying
@@ -3588,8 +3350,7 @@ with probability no less than $\eta$
 where $\tilde{a} \sim \normal(a_i,\Sigma_i)$
 	<ul>
 	<li>
-		
-can be formulated as SOCP
+		can be formulated as SOCP
 
 $$
 \begin{array}{ll}
@@ -3609,7 +3370,7 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-52">Geometric programming</h3>
+<h3>Geometric programming</h3>
 
 <div class="definition" id="definition:monomial functions" data-name="monomial functions">
 	
@@ -3655,26 +3416,24 @@ called <span class="define">geometric program (GP)</span>
 
 </div>
 
-<h3 id="my-foilhead-53">Geometric programming in convex form</h3>
+<h3>Geometric programming in convex form</h3>
 
 <ul>
 <li>
-	
-geometric program in
-~
+	geometric program in
+<a href="#definition:geometric programming"></a>
 is not convex optimization problem (as it is)
 
 </li>
 <li>
-	
-however, can be transformed to equivalent convex optimization problem
+	however, can be transformed to equivalent convex optimization problem
 by change of variables and transformation of functions
 
 </li>
 </ul>
 <div class="proposition" id="proposition:geometric programming in convex form" data-name="geometric programming in convex form">
 	
-geometric program (in ~)
+geometric program (in <a href="#definition:geometric programming"></a>)
 can be transformed to equivalent convex optimization problem
 
 $$
@@ -3701,13 +3460,13 @@ where optimization variable is $y=\log(x)\in\reals^n$
 
 </div>
 
-<h3 id="my-foilhead-54">Convex optimization with generalized inequalities</h3>
+<h3>Convex optimization with generalized inequalities</h3>
 
 <div class="definition" id="definition:convex optimization with generalized inequality constraints" data-name="convex optimization with generalized inequality constraints">
 	
-convex optimization problem in ~
+convex optimization problem in <a href="#definition:convex optimization"></a>
 with inequality constraints replaced by generalized inequality constraints,
-
+<i>i.e.</i>
 
 $$
 \begin{array}{ll}
@@ -3731,31 +3490,26 @@ called <span class="define">convex optimization problem with generalized inequal
 
 <ul>
 <li>
-	
-problem in ~
-reduces to convex optimization problem in ~
+	problem in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+reduces to convex optimization problem in <a href="#definition:convex optimization"></a>
 when $q=1$ and $K_1=\prealk{m}$,
 hence <i>convex optimization is specialization of convex optimization with generalized inequalities</i>
 
 </li>
 <li>
-	
-like convex optimization
+	like convex optimization
 	<ul>
 	<li>
-		
-feasible set is $\optfeasset = \set{x\in\optdomain}{\fie_i(x)\preceq_{K_i} 0, Ax=b}$ is convex
+		feasible set is $\optfeasset = \set{x\in\optdomain}{\fie_i(x)\preceq_{K_i} 0, Ax=b}$ is convex
 
 	</li>
 	<li>
-		
-local optimality implies global optimality
+		local optimality implies global optimality
 
 	</li>
 	<li>
-		
-optimality conditions in
-~
+		optimality conditions in
+<a href="#theorem:optimality conditions for convex optimality problems"></a>
 applies without modification
 
 	</li>
@@ -3765,13 +3519,13 @@ applies without modification
 </ul>
 
 
-<h3 id="my-foilhead-55">Conic programming</h3>
+<h3>Conic programming</h3>
 
 <div class="definition" id="definition:conic programming" data-name="conic programming">
 	
 convex optimization problem with generalized inequality constraints
-in ~
-with linear  and one affine 
+in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+with linear $\fobj$ and one affine $\fie$
 
 $$
 \begin{array}{ll}
@@ -3789,8 +3543,7 @@ called <span class="define">conic program (CP)</span>
 
 	<ul>
 	<li>
-		
-can transform above CP to <span class="define">standard form CP</span>
+		can transform above CP to <span class="define">standard form CP</span>
 
 $$
 \begin{array}{ll}
@@ -3811,18 +3564,17 @@ $$
 </div>
 <ul>
 <li>
-	
-cone program is one of simplest convex optimization problems
+	cone program is one of simplest convex optimization problems
 with generalized inequalities
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-56">Semidefinite programming</h3>
+<h3>Semidefinite programming</h3>
 
 <div class="definition" id="definition:semidefinite programming" data-name="semidefinite programming">
 	
-conic program in ~
+conic program in <a href="#definition:conic programming"></a>
 with $\xdomain=\reals^n$ and $K=\possemidefset{n}$
 
 $$
@@ -3842,13 +3594,11 @@ called <span class="define">semidefinite program (SDP)</span>
 
 	<ul>
 	<li>
-		
-above inequality, called <span class="define">linear matrix inequality (LMI)</span>
+		above inequality, called <span class="define">linear matrix inequality (LMI)</span>
 
 	</li>
 	<li>
-		
-can transform SDP to standard form SDP
+		can transform SDP to standard form SDP
 
 $$
 \begin{array}{ll}
@@ -3869,33 +3619,30 @@ where $\xdomain=\possemidefset{n}$ and $C,A_1,\ldots,A_p\in\symset{n}$ and $b_i\
 
 </div>
 
-<h3 id="my-foilhead-57">SDP examples</h3>
+<h3>SDP examples</h3>
 
 <ul>
 <li>
-	 LP
+	LP
 	<ul>
 	<li>
-		
-if $k=m$, $F_i=\diag(C_{1,i}, \ldots, C_{m,i})$, $G=-\diag(d_1,\ldots, d_m)$
-in ~,
-SDP reduces to LP in ~
+		if $k=m$, $F_i=\diag(C_{1,i}, \ldots, C_{m,i})$, $G=-\diag(d_1,\ldots, d_m)$
+in <a href="#definition:semidefinite programming"></a>,
+SDP reduces to LP in <a href="#definition:linear programming"></a>
 
 	</li>
 	<li>
-		
-hence, LP is specialization of SDP
+		hence, LP is specialization of SDP
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	 SOCP
+	SOCP
 	<ul>
 	<li>
-		
-SOCP in ~
+		SOCP in <a href="#definition:second-order cone programming"></a>
 is equivalent to
 
 $$
@@ -3917,13 +3664,12 @@ i=1,\ldots,m
 \end{array}
 $$
 
-which can be transformed to SDP in ~,
+which can be transformed to SDP in <a href="#definition:semidefinite programming"></a>,
 thus, SDP reduces to SOCP
 
 	</li>
 	<li>
-		
-hence, SOCP is specialization of SDP
+		hence, SOCP is specialization of SDP
 
 	</li>
 	</ul>
@@ -3931,12 +3677,12 @@ hence, SOCP is specialization of SDP
 </li>
 </ul>
 
-<h3 id="my-foilhead-58">Determinant maximization problems</h3>
+<h3>Determinant maximization problems</h3>
 
 <div class="definition" id="definition:determinant maximization problems" data-name="determinant maximization problems">
 	
 convex optimization problem with generalized inequality constraints
-in ~
+in <a href="#definition:convex optimization with generalized inequality constraints"></a>
 with $\xdomain=\reals^n$
 of form
 
@@ -3968,28 +3714,25 @@ or simply <span class="define">max-det problem</span>
 </div>
 <ul>
 <li>
-	
-if $l=1$, $C_1=\cdots=C_n=0$, $D=1$,
+	if $l=1$, $C_1=\cdots=C_n=0$, $D=1$,
 max-det problem reduces to SDP,
 hence <i>SDP is specialization of max-det problem</i>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-59">Diagrams for containment of convex optimization problems</h3>
+<h3>Diagrams for containment of convex optimization problems</h3>
 
 <ul>
 <li>
-	
-
+	the figure
 shows
 containment relations among convex optimization problems
 
 </li>
 <li>
-	
-vertical lines ending with filled circles indicate existence of direct reductions,
-, optimization problem transformations to special cases
+	vertical lines ending with filled circles indicate existence of direct reductions,
+<i>i.e.</i>, optimization problem transformations to special cases
 
 </li>
 </ul>
@@ -4010,11 +3753,11 @@ vertical lines ending with filled circles indicate existence of direct reduction
 <h2 id="Duality">Duality</h2>
 
 
-<h3 id="my-foilhead-60">Lagrangian</h3>
+<h3>Lagrangian</h3>
 
 <div class="definition" id="definition:Lagrangian" data-name="Lagrangian">
 	
-for optimization problem in ~
+for optimization problem in <a href="#definition:optimization problems"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \reals^m \times \reals^p \to \reals$
 defined by
@@ -4028,28 +3771,23 @@ where
 
 	<ul>
 	<li>
-		
-$\lambda$, called <span class="define">Lagrange multiplier associated inequality constraints</span> $\fie(x)\preceq0$
+		$\lambda$, called <span class="define">Lagrange multiplier associated inequality constraints</span> $\fie(x)\preceq0$
 
 	</li>
 	<li>
-		
-$\lambda_i$, called <span class="define">Lagrange multiplier associated $i$-th inequality constraint</span> $\fie_i(x)\leq0$
+		$\lambda_i$, called <span class="define">Lagrange multiplier associated $i$-th inequality constraint</span> $\fie_i(x)\leq0$
 
 	</li>
 	<li>
-		
-$\nu$, called <span class="define">Lagrange multiplier associated equality constraints</span> $\feq(x)=0$
+		$\nu$, called <span class="define">Lagrange multiplier associated equality constraints</span> $\feq(x)=0$
 
 	</li>
 	<li>
-		
-$\nu_i$, called <span class="define">Lagrange multiplier associated $i$-th equality constraint</span> $\feq_i(x)=0$
+		$\nu_i$, called <span class="define">Lagrange multiplier associated $i$-th equality constraint</span> $\feq_i(x)=0$
 
 	</li>
 	<li>
-		
-$\lambda$ and $\nu$,
+		$\lambda$ and $\nu$,
 called <span class="define">dual variables</span> or <span class="define">Lagrange multiplier vectors</span> associated with the optimization problem
 
 	</li>
@@ -4059,11 +3797,11 @@ called <span class="define">dual variables</span> or <span class="define">Lagran
 
 
 
-<h3 id="my-foilhead-61">Lagrange dual functions</h3>
+<h3>Lagrange dual functions</h3>
 
 <div class="definition" id="definition:Lagrange dual functions" data-name="Lagrange dual functions">
 	
-for optimization problem in ~
+for optimization problem in <a href="#definition:optimization problems"></a>
 for which Lagrangian is defined,
 function $g:\reals^m \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -4087,22 +3825,19 @@ associated with the optimization problem
 
 <ul>
 <li>
-	
-$g$ is <i>(always) concave function</i> (even when optimization problem is not convex)
+	$g$ is <i>(always) concave function</i> (even when optimization problem is not convex)
 	<ul>
 	<li>
-		
-since is pointwise infimum of linear (hence concave) functions is concave
+		since is pointwise infimum of linear (hence concave) functions is concave
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-$g(\lambda,\nu)$ provides
+	$g(\lambda,\nu)$ provides
 lower bound for optimal value of associated optimization problem,
-,
+<i>i.e.</i>,
 
 $$
 g(\lambda,\nu) \leq p^\ast
@@ -4112,8 +3847,7 @@ for every $\lambda\succeq0$
 
 </li>
 <li>
-	
-$(\lambda,\nu) \in \set{(\lambda,\nu)}{\lambda\succeq0, g(\lambda,\nu)>-\infty}$,
+	$(\lambda,\nu) \in \set{(\lambda,\nu)}{\lambda\succeq0, g(\lambda,\nu)>-\infty}$,
 said to be <span class="define">dual feasible</span>
 
 
@@ -4121,12 +3855,11 @@ said to be <span class="define">dual feasible</span>
 </ul>
 
 
-<h3 id="my-foilhead-62">Dual function examples</h3>
+<h3>Dual function examples</h3>
 
 <ul>
 <li>
-	
-LS solution of linear equations
+	LS solution of linear equations
 
 $$
 \lssollineqs{primal}
@@ -4134,13 +3867,11 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\nu) = x^T x + \nu^T(Ax-b)$
+		Lagrangian - $L(x,\nu) = x^T x + \nu^T(Ax-b)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 
 $$
@@ -4153,8 +3884,7 @@ $$
 
 </li>
 <li>
-	
-standard form LP
+	standard form LP
 
 $$
 \begin{array}{ll}
@@ -4170,13 +3900,11 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\lambda,\nu) = c^T x - \lambda^T x + \nu^T(Ax-b)$
+		Lagrangian - $L(x,\lambda,\nu) = c^T x - \lambda^T x + \nu^T(Ax-b)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 
 $$
@@ -4189,8 +3917,7 @@ $$
 
 		<ul>
 		<li>
-			
-hence, set of dual feasible points is 
+			hence, set of dual feasible points is $\set{(A^T\nu + c,\nu)}{A^T\nu +c \succeq0}$
 
 		</li>
 		</ul>
@@ -4200,8 +3927,7 @@ hence, set of dual feasible points is
 
 </li>
 <li>
-	
-<i>maximum cut</i>, sometimes called <i>max-cut</i>, problem, which is NP-hard
+	<i>maximum cut</i>, sometimes called <i>max-cut</i>, problem, which is NP-hard
 
 
 $$
@@ -4217,13 +3943,11 @@ $$
 where $W\in\symset{n}$
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\nu) = x^T(W+\diag(\nu))x - \ones^Tx$
+		Lagrangian - $L(x,\nu) = x^T(W+\diag(\nu))x - \ones^Tx$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\nu) = \left\{\begin{array}{ll}
@@ -4236,8 +3960,7 @@ $$
 
 		<ul>
 		<li>
-			
-hence, set of dual feasible points is 
+			hence, set of dual feasible points is $\set{\nu}{W+\diag(\nu)\succeq0}$
 
 		</li>
 		</ul>
@@ -4247,8 +3970,7 @@ hence, set of dual feasible points is
 
 </li>
 <li>
-	
-some trivial problem
+	some trivial problem
 
 $$
 \begin{array}{ll}
@@ -4262,13 +3984,11 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\nu) =f(x)+\nu^Tx$
+		Lagrangian - $L(x,\nu) =f(x)+\nu^Tx$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\nu) = \inf_{x\in\reals^n} (f(x)+\nu^Tx)
@@ -4278,8 +3998,7 @@ $$
 
 		<ul>
 		<li>
-			
-hence, set of dual feasible points is $-\dom f^\ast$,
+			hence, set of dual feasible points is $-\dom f^\ast$,
 and
 for every $f:\reals^n\to\reals$ and $\nu\in\reals^n$
 
@@ -4296,8 +4015,7 @@ $$
 
 </li>
 <li>
-	
-minimization with linear inequality and equality constraints
+	minimization with linear inequality and equality constraints
 
 $$
 \begin{array}{ll}
@@ -4313,13 +4031,11 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\lambda, \nu) = f(x) + \lambda^T(Ax-b) + \nu^T(Cx-d)$
+		Lagrangian - $L(x,\lambda, \nu) = f(x) + \lambda^T(Ax-b) + \nu^T(Cx-d)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\nu) = -b^T\lambda - d^T\nu - f^\ast(-A^T \lambda - C^T\nu)
@@ -4327,9 +4043,8 @@ $$
 
 		<ul>
 		<li>
-			
-hence, set of dual feasible points
-is 
+			hence, set of dual feasible points
+is $\set{(\lambda,\nu)}{-A^T\lambda - C^T\nu \in \dom f^\ast, \lambda\succeq 0}$
 
 		</li>
 		</ul>
@@ -4339,8 +4054,7 @@ is
 
 </li>
 <li>
-	
-equality constrained norm minimization
+	equality constrained norm minimization
 
 $$
 \begin{array}{ll}
@@ -4354,13 +4068,11 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\nu) = \|x\| + \nu^T(Ax-b)$
+		Lagrangian - $L(x,\nu) = \|x\| + \nu^T(Ax-b)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\nu) = -b^T\nu -\sup_{x\in\reals^n} ((-A^T\nu)^Tx - \|x\|)
@@ -4373,9 +4085,8 @@ $$
 
 		<ul>
 		<li>
-			
-hence, set of dual feasible points
-is 
+			hence, set of dual feasible points
+is $\set{\nu}{\|A^T\nu\|_\ast \leq1}$
 
 		</li>
 		</ul>
@@ -4385,23 +4096,20 @@ is
 
 </li>
 <li>
-	
-entropy maximization
+	entropy maximization
 
 $$
 \entmax{primal}
 $$
 
-where domain of objective function is 
+where domain of objective function is $\pprealk{n}$
 	<ul>
 	<li>
-		
-Lagrangian - $L(x,\lambda,\nu) = \sum_{i=1}^n x_i\log x_i + \lambda^T(Ax-b) + \nu(\ones^Tx-1)$
+		Lagrangian - $L(x,\lambda,\nu) = \sum_{i=1}^n x_i\log x_i + \lambda^T(Ax-b) + \nu(\ones^Tx-1)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 
 $$
@@ -4416,23 +4124,20 @@ where $a_i$ is $i$-th column vector of $A$
 
 </li>
 <li>
-	
-minimum volume covering ellipsoid
+	minimum volume covering ellipsoid
 
 $$
 \minvolcovering{primal}
 $$
 
-where domain of objective function is 
+where domain of objective function is $\posdefset{n}$
 	<ul>
 	<li>
-		
-Lagrangian - $L(X,\lambda) = -\log \det X + \sum_{i=1}^m \lambda_i(a_i^T X a_i - 1)$
+		Lagrangian - $L(X,\lambda) = -\log \det X + \sum_{i=1}^m \lambda_i(a_i^T X a_i - 1)$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 
 $$
@@ -4448,47 +4153,42 @@ obtained using $f^\ast(Y) = -\log\det(-Y) - n$
 </li>
 </ul>
 
-<h3 id="my-foilhead-63">Best lower bound</h3>
+<h3>Best lower bound</h3>
 
 <ul>
 <li>
-	
-for every $(\lambda,\nu)$ with $\lambda\succeq 0$,
-Lagrange dual function $g(\lambda,\nu)$ (in ~)
+	for every $(\lambda,\nu)$ with $\lambda\succeq 0$,
+Lagrange dual function $g(\lambda,\nu)$ (in <a href="#definition:Lagrange dual functions"></a>)
 provides lower bound for optimal value $p^\ast$
-for optimization problem in ~
+for optimization problem in <a href="#definition:optimization problems"></a>
 
 </li>
 <li>
-	
-natural question to ask is
+	natural question to ask is
 	<ul>
 	<li>
-		
-how good is the lower bound?
+		how good is the lower bound?
 
 	</li>
 	<li>
-		
-what is best lower bound we can achieve?
+		what is best lower bound we can achieve?
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-these questions lead to definition of <i>Lagrange dual problem</i>
+	these questions lead to definition of <i>Lagrange dual problem</i>
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-64">Lagrange dual problems</h3>
+<h3>Lagrange dual problems</h3>
 
 <div class="definition" id="definition:Lagrange dual problems" data-name="Lagrange dual problems">
 	
-for optimization problem in ~,
+for optimization problem in <a href="#definition:optimization problems"></a>,
 optimization problem
 
 $$
@@ -4502,38 +4202,33 @@ g(\lambda,\nu)
 $$
 
 called <span class="define">Lagrange dual problem</span>
-associated with problem in ~
+associated with problem in <a href="#definition:optimization problems"></a>
 
 	<ul>
 	<li>
-		
-original problem in ~,
+		original problem in <a href="#definition:optimization problems"></a>,
 (somestime) called <span class="define">primal problem</span>
 
 	</li>
 	<li>
-		
-domain is $\reals^m\times \reals^p$
+		domain is $\reals^m\times \reals^p$
 
 	</li>
 	<li>
-		
-<span class="define">dual feasibility</span> defined in page~,
-, $(\lambda,\nu)$ satisfying
+		<span class="define">dual feasibility</span> defined in page~,
+<i>i.e.</i>, $(\lambda,\nu)$ satisfying
 $\lambda \succeq 0 \quad g(\lambda,\nu) > -\infty$
 indeed means
 feasibility for Lagrange dual problem
 
 	</li>
 	<li>
-		
-$d^\ast = \sup\set{g(\lambda,\nu)}{\lambda\in\reals^m,\:\nu\in\reals^p,\:\lambda\succeq 0}$,
+		$d^\ast = \sup\set{g(\lambda,\nu)}{\lambda\in\reals^m,\:\nu\in\reals^p,\:\lambda\succeq 0}$,
 called <span class="define">dual optimal value</span>
 
 	</li>
 	<li>
-		
-$(\lambda^\ast,\nu^\ast) = \argsup\set{g(\lambda,\nu)}{\lambda\in\reals^m,\:\nu\in\reals^p,\:\lambda\succeq 0}$,
+		$(\lambda^\ast,\nu^\ast) = \argsup\set{g(\lambda,\nu)}{\lambda\in\reals^m,\:\nu\in\reals^p,\:\lambda\succeq 0}$,
 said to be <span class="define">dual optimal</span> or called <span class="define">optimal Lagrange multipliers</span> (if exists)
 
 	</li>
@@ -4544,8 +4239,7 @@ said to be <span class="define">dual optimal</span> or called <span class="defin
 
 <ul>
 <li>
-	
-Lagrange dual problem in ~
+	Lagrange dual problem in <a href="#definition:Lagrange dual problems"></a>
 is convex optimization (even though original problem is not)
 since $g(\lambda,\nu)$ is always convex
 
@@ -4553,28 +4247,25 @@ since $g(\lambda,\nu)$ is always convex
 </ul>
 
 
-<h3 id="my-foilhead-65">Making dual constraints explicit dual problems</h3>
+<h3>Making dual constraints explicit dual problems</h3>
 
 <ul>
 <li>
-	
-(out specific) way we define Lagrange dual function in ~
+	(out specific) way we define Lagrange dual function in <a href="#definition:Lagrange dual functions"></a>
 as function $g$ of $\reals^m \times \reals^p$ into $\reals\cup\{-\infty\}$,
-,
+<i>i.e.</i>,
 $\dom g = \reals^n\times\reals^p$
 
 </li>
 <li>
-	
-however,
+	however,
 in many cases,
-feasible set 
+feasible set $\set{(\lambda,\nu)}{\lambda \succeq 0 \quad g(\lambda,\nu) > -\infty}$
 is proper subset of $\reals^n\times\reals^p$
 
 </li>
 <li>
-	
-can make this implicit feasibility condition
+	can make this implicit feasibility condition
 explicit by adding it as constraint
 (as shown in following examples)
 
@@ -4582,16 +4273,14 @@ explicit by adding it as constraint
 </li>
 </ul>
 
-<h3 id="my-foilhead-66">Lagrange dual problems associated with LPs</h3>
+<h3>Lagrange dual problems associated with LPs</h3>
 
 <ul>
 <li>
-	
-standard form LP
+	standard form LP
 	<ul>
 	<li>
-		
-primal problem
+		primal problem
 
 $$
 \begin{array}{ll}
@@ -4608,8 +4297,7 @@ $$
 
 	</li>
 	<li>
-		
-Lagrange dual problem
+		Lagrange dual problem
 
 $$
 \begin{array}{ll}
@@ -4629,8 +4317,7 @@ $$
 for Lagrange dual function)
 		<ul>
 		<li>
-			
-can make dual feasibility explicit by adding it to constraints
+			can make dual feasibility explicit by adding it to constraints
 as mentioned on page~
 
 $$
@@ -4648,8 +4335,7 @@ $$
 
 		</li>
 		<li>
-			
-can further simplify problem
+			can further simplify problem
 
 $$
 \begin{array}{ll}
@@ -4667,19 +4353,16 @@ $$
 
 	</li>
 	<li>
-		
-last problem is <i>inequality form LP</i>
+		last problem is <i>inequality form LP</i>
 
 	</li>
 	<li>
-		
-all three problems are equivalent,
+		all three problems are equivalent,
 but <i>not</i> same problems
 
 	</li>
 	<li>
-		
-will, however, with abuse of terminology,
+		will, however, with abuse of terminology,
 refer to all three problems
 as Lagrange dual problem
 
@@ -4688,12 +4371,10 @@ as Lagrange dual problem
 
 </li>
 <li>
-	
-inequality form LP
+	inequality form LP
 	<ul>
 	<li>
-		
-primal problem
+		primal problem
 
 $$
 \begin{array}{ll}
@@ -4708,8 +4389,7 @@ $$
 
 	</li>
 	<li>
-		
-Lagrangian
+		Lagrangian
 
 $$
 L(x,\lambda) = c^Tx + \lambda^T(Ax-b)
@@ -4718,8 +4398,7 @@ $$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\lambda)
@@ -4736,8 +4415,7 @@ $$
 
 	</li>
 	<li>
-		
-Lagrange dual problem
+		Lagrange dual problem
 
 $$
 \begin{array}{ll}
@@ -4756,8 +4434,7 @@ $$
 
 		<ul>
 		<li>
-			
-can make dual feasibility explicit by adding it to constraints
+			can make dual feasibility explicit by adding it to constraints
 as mentioned on page~
 
 $$
@@ -4778,33 +4455,29 @@ $$
 
 	</li>
 	<li>
-		
-dual problem is <i>standard form LP</i>
+		dual problem is <i>standard form LP</i>
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-thus,
+	thus,
 dual of standard form LP is inequality form LP
 and vice versa
 
 </li>
 <li>
-	
-also, for both cases, dual of dual is same as primal problem
+	also, for both cases, dual of dual is same as primal problem
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-67">Lagrange dual problem of equality constrained optimization problem</h3>
+<h3>Lagrange dual problem of equality constrained optimization problem</h3>
 
 <ul>
 <li>
-	
-equality constrained optimization problem
+	equality constrained optimization problem
 
 $$
 \begin{array}{ll}
@@ -4819,8 +4492,7 @@ $$
 
 </li>
 <li>
-	
-dual function
+	dual function
 
 $$
 \begin{eqnarray*}
@@ -4843,8 +4515,7 @@ $$
 
 </li>
 <li>
-	
-dual problem
+	dual problem
 
 $$
 \begin{array}{ll}
@@ -4858,12 +4529,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-68">Lagrange dual problem associated with equality constrained quadratic program</h3>
+<h3>Lagrange dual problem associated with equality constrained quadratic program</h3>
 
 <ul>
 <li>
-	
-strictly convex quadratic problem
+	strictly convex quadratic problem
 
 $$
 \begin{array}{ll}
@@ -4877,8 +4547,7 @@ $$
 
 	<ul>
 	<li>
-		
-conjugate function of objective function
+		conjugate function of objective function
 
 $$
 {\fobj}^\ast(x)
@@ -4893,8 +4562,7 @@ $$
 
 	</li>
 	<li>
-		
-dual problem
+		dual problem
 
 $$
 \begin{array}{ll}
@@ -4911,12 +4579,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-69">Lagrange dual problems associated with nonconvex quadratic problems</h3>
+<h3>Lagrange dual problems associated with nonconvex quadratic problems</h3>
 
 <ul>
 <li>
-	
-primal problem
+	primal problem
 
 $$
 \noncvxquadprob{primal}
@@ -4925,13 +4592,11 @@ $$
 where $A\in\symset{n}$, $A\not\in\possemidefset{n}$, and $b\in\reals^n$
 	<ul>
 	<li>
-		
-since $A\not\succeq 0$, not convex optimization problem
+		since $A\not\succeq 0$, not convex optimization problem
 
 	</li>
 	<li>
-		
-sometimes called <span class="define">trust region problem</span>
+		sometimes called <span class="define">trust region problem</span>
 arising minimizing second-order approximation of function
 over bounded region
 
@@ -4940,8 +4605,7 @@ over bounded region
 
 </li>
 <li>
-	
-Lagrange dual function
+	Lagrange dual function
 
 $$
 g(\lambda)
@@ -4953,8 +4617,7 @@ where $(A+\lambda I)^\dagger$ is pseudo-inverse of $A+\lambda I$
 
 </li>
 <li>
-	
-Lagrange dual problem
+	Lagrange dual problem
 
 
 $$
@@ -4964,21 +4627,18 @@ $$
 where optimization variable is $\lambda \in\reals$
 	<ul>
 	<li>
-		
-note we do not need constraint $\lambda \geq0$
+		note we do not need constraint $\lambda \geq0$
 since it is implied by $A+\lambda I \succeq 0$
 
 	</li>
 	<li>
-		
-though not obvious from what it appears to be,
+		though not obvious from what it appears to be,
 it is (of course) convex optimization problem
-(by definition of Lagrange dual function, , ~)
+(by definition of Lagrange dual function, <i>i.e.</i>, <a href="#definition:Lagrange dual functions"></a>)
 
 	</li>
 	<li>
-		
-can be expressed ar
+		can be expressed ar
 
 $$
 \begin{array}{ll}
@@ -5000,12 +4660,11 @@ we interpret $(q_i^Tb)^2/0$ as 0 if $q_i^T0$ and $\infty$ otherwise
 </li>
 </ul>
 
-<h3 id="my-foilhead-70">Weak duality</h3>
+<h3>Weak duality</h3>
 
 <ul>
 <li>
-	
-since $g(\lambda,\nu)\leq p^\ast$ for every $\lambda\succeq 0$,
+	since $g(\lambda,\nu)\leq p^\ast$ for every $\lambda\succeq 0$,
 we have
 
 $$
@@ -5021,9 +4680,9 @@ $$
 	
 property that
 that
-optimal value of optimization problem (in ~)
+optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
 is always no less than
-optimal value of Lagrange daul problem (in ~)
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>)
 
 $$
 d^\ast \leq p^\ast
@@ -5033,28 +4692,24 @@ called <span class="define">weak duality</span>
 
 	<ul>
 	<li>
-		
-$d^\ast$ is best lower bound for primal problem
+		$d^\ast$ is best lower bound for primal problem
 that can be obtained from Lagrange dual function (by definition)
 
 	</li>
 	<li>
-		
-weak duality holds even when $d^\ast$ or/and $p^\ast$ are not finite, <i>e.g.</i>
+		weak duality holds even when $d^\ast$ or/and $p^\ast$ are not finite, <i>e.g.</i>
 		<ul>
 		<li>
-			
-<i>if primal problem is unbounded below</i> so that $p^\ast=-\infty$,
+			<i>if primal problem is unbounded below</i> so that $p^\ast=-\infty$,
 must have $d^\ast = -\infty$,
-, <i>dual problem is infeasible</i>
+<i>i.e.</i>, <i>dual problem is infeasible</i>
 
 		</li>
 		<li>
-			
-conversely,
+			conversely,
 <i>if dual problem is unbounded above</i> so that $d^\ast = \infty$,
 must have $p^\ast=\infty$,
-, <i>primal problem is infeasible</i>
+<i>i.e.</i>, <i>primal problem is infeasible</i>
 
 		</li>
 		</ul>
@@ -5064,15 +4719,15 @@ must have $p^\ast=\infty$,
 
 </div>
 
-<h3 id="my-foilhead-71">Optimal duality gap</h3>
+<h3>Optimal duality gap</h3>
 
 <div class="definition" id="definition:optimal duality gap" data-name="optimal duality gap">
 	
 difference between
-optimal value of optimization problem (in ~)
+optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
 and
-optimal value of Lagrange daul problem (in ~),
-
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+<i>i.e.</i>
 
 $$
 p^\ast - d^\ast
@@ -5083,12 +4738,10 @@ called <span class="define">optimal duality gap</span>
 </div>
 <ul>
 <li>
-	
-sometimes used for lower bound of optimal value of problem which is difficult to solve
+	sometimes used for lower bound of optimal value of problem which is difficult to solve
 	<ul>
 	<li>
-		
-for example,
+		for example,
 dual problem
 of max-cut problem (on page~),
 which is NP-hard,
@@ -5107,8 +4760,7 @@ $$
 where optimization variable is $\nu\in\reals^n$
 		<ul>
 		<li>
-			
-the dual problem can be solved very efficiently using polynomial time algorithms
+			the dual problem can be solved very efficiently using polynomial time algorithms
 while primal problme <i>cannot</i> be solved unless $n$ is very small
 
 		</li>
@@ -5120,15 +4772,15 @@ while primal problme <i>cannot</i> be solved unless $n$ is very small
 </li>
 </ul>
 
-<h3 id="my-foilhead-72">Strong duality</h3>
+<h3>Strong duality</h3>
 
 <div class="definition" id="definition:strong duality" data-name="strong duality">
 	
 if
-optimal value of optimization problem (in ~)
+optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
 equals to
-optimal value of Lagrange daul problem (in ~),
-
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+<i>i.e.</i>
 
 $$
 p^\ast = d^\ast
@@ -5139,18 +4791,15 @@ $$
 </div>
 <ul>
 <li>
-	
-strong duality does <i>not</i> hold in general
+	strong duality does <i>not</i> hold in general
 	<ul>
 	<li>
-		
-if it held always, max-cut problem, which is NP-hard, can be solved in polynomial time,
+		if it held always, max-cut problem, which is NP-hard, can be solved in polynomial time,
 which would be one of biggest breakthrough in field of theoretical computer science
 
 	</li>
 	<li>
-		
-may mean some of strongest cryptography methods, <i>e.g.</i>, homeomorphic cryptography,
+		may mean some of strongest cryptography methods, <i>e.g.</i>, homeomorphic cryptography,
 can be broken
 
 	</li>
@@ -5159,12 +4808,11 @@ can be broken
 </li>
 </ul>
 
-<h3 id="my-foilhead-73">Slater's theorem</h3>
+<h3>Slater's theorem</h3>
 
 <ul>
 <li>
-	
-exist many conditions
+	exist many conditions
 which guarantee strong duality,
 which are called <i>constraint qualifications</i>
 - one of them is Slater's condition
@@ -5174,7 +4822,7 @@ which are called <i>constraint qualifications</i>
 <div class="theorem" id="theorem:Slater's theorem" data-name="Slater's theorem">
 	
 if
-optimization problem is convex (~),
+optimization problem is convex (<a href="#definition:convex optimization"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -5187,13 +4835,11 @@ $$
 
 	<ul>
 	<li>
-		
-such condition, called <span class="define">Slater's condition</span>
+		such condition, called <span class="define">Slater's condition</span>
 
 	</li>
 	<li>
-		
-such point, (sometimes) said to be <span class="define">strictly feasible</span>
+		such point, (sometimes) said to be <span class="define">strictly feasible</span>
 
 	</li>
 	</ul>
@@ -5214,12 +4860,11 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-74">Strong duality for LS solution of linear equations</h3>
+<h3>Strong duality for LS solution of linear equations</h3>
 
 <ul>
 <li>
-	
-primal problem
+	primal problem
 
 $$
 \lssollineqs{primal}
@@ -5228,8 +4873,7 @@ $$
 
 </li>
 <li>
-	
-dual problem
+	dual problem
 
 $$
 \lssollineqs{dual}
@@ -5239,18 +4883,16 @@ $$
 
 </li>
 <li>
-	
-&ldquo;dual is always feasible''
+	&ldquo;dual is always feasible''
 and
 &ldquo;primal is feasible $\Rightarrow$ Slater's condition holds'',
 thus
-Slater's theorem (~)
+Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
 implies,
 exist only three cases
 	<ul>
 	<li>
-		
-$(d^\ast = p^\ast \in \reals)$
+		$(d^\ast = p^\ast \in \reals)$
 or
 $(d^\ast \in \reals\:\&\: p^\ast = \infty)$
 or
@@ -5261,56 +4903,48 @@ $(d^\ast = p^\ast = \infty)$
 
 </li>
 <li>
-	
-if primal is infeasible, though,
+	if primal is infeasible, though,
 $b\not\in\range(A)$,
 thus
 exists $z$, such that $A^Tz=0$ and $b^Tz \neq0$,
-then line  makes dual problem unbounded above,
+then line $\set{tz}{t\in\reals}$ makes dual problem unbounded above,
 hence $d^\ast=\infty$
 
 </li>
 <li>
-	
-hence, <i>strong duality always holds</i>,
-, $(d^\ast= p^\ast \in \reals)$ or $(d^\ast = p^\ast = \infty)$
+	hence, <i>strong duality always holds</i>,
+<i>i.e.</i>, $(d^\ast= p^\ast \in \reals)$ or $(d^\ast = p^\ast = \infty)$
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-75">Strong duality for LP</h3>
+<h3>Strong duality for LP</h3>
 
 <ul>
 <li>
-	
-every LP either is infeasible or satisfies Slater's condition
+	every LP either is infeasible or satisfies Slater's condition
 
 </li>
 <li>
-	
-dual of LP is LP,
-hence, Slater's theorem (~)
+	dual of LP is LP,
+hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
 implies
 	<ul>
 	<li>
-		
-if primal is feaisble,
+		if primal is feaisble,
 either $(d^\ast=p^\ast= -\infty)$ or $(d^\ast=p^\ast\in\reals)$
 
 	</li>
 	<li>
-		
-if dual is feaisble,
+		if dual is feaisble,
 either $(d^\ast=p^\ast= \infty)$ or $(d^\ast=p^\ast\in\reals)$
 
 	</li>
 	<li>
-		
-only other case left is $(d^\ast=-\infty\;\&\;p^\ast= \infty)$
+		only other case left is $(d^\ast=-\infty\;\&\;p^\ast= \infty)$
 		<ul>
 		<li>
-			
-indeed, this pathological case can happen
+			indeed, this pathological case can happen
 
 		</li>
 		</ul>
@@ -5321,12 +4955,11 @@ indeed, this pathological case can happen
 </li>
 </ul>
 
-<h3 id="my-foilhead-76">Strong duality for entropy maximization</h3>
+<h3>Strong duality for entropy maximization</h3>
 
 <ul>
 <li>
-	
-primal problem
+	primal problem
 
 $$
 \entmax{primal}
@@ -5335,8 +4968,7 @@ $$
 
 </li>
 <li>
-	
-dual problem
+	dual problem
 (refer to page~ for Lagrange dual function)
 
 $$
@@ -5346,9 +4978,8 @@ $$
 
 </li>
 <li>
-	
-dual problem is feasible,
-hence, Slater's theorem (~)
+	dual problem is feasible,
+hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
 implies,
 if exists $x\succ 0$ with $Ax \preceq b$ and $\ones^T x =1$,
 strong duality holds,
@@ -5356,8 +4987,7 @@ and indeed $d^\ast=p^\ast\in\reals$
 
 </li>
 <li>
-	
-by the way,
+	by the way,
 can simplify dual problem by maximizing dual objective function over $\nu$
 
 $$
@@ -5365,19 +4995,18 @@ $$
 $$
 
 which is geometry program in convex form
-(~)
+(<a href="#proposition:geometric programming in convex form"></a>)
 with nonnegativity contraint
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-77">Strong duality for minimum volume covering ellipsoid</h3>
+<h3>Strong duality for minimum volume covering ellipsoid</h3>
 
 <ul>
 <li>
-	
-primal problem
+	primal problem
 
 $$
 \minvolcovering{primal}
@@ -5387,8 +5016,7 @@ where $\optdomain=\posdefset{n}$
 
 </li>
 <li>
-	
-dual problem
+	dual problem
 
 $$
 \minvolcovering{dual}
@@ -5398,32 +5026,30 @@ $$
 
 </li>
 <li>
-	
-$X=\alpha I$ with large enough $\alpha>0$ satisfies primal's constraints,
+	$X=\alpha I$ with large enough $\alpha>0$ satisfies primal's constraints,
 hence Slater's condition <i>always</i> holds,
 thus,
 <i>strong duality always holds</i>,
-, $(d^\ast = p^\ast \in \reals)$ or $(d^\ast = p^\ast = -\infty)$
+<i>i.e.</i>, $(d^\ast = p^\ast \in \reals)$ or $(d^\ast = p^\ast = -\infty)$
 
 </li>
 <li>
-	 in fact, $\range(a_1,\ldots,a_m) = \reals^n$ if and only if $d^\ast=p^\ast\in\reals^n$
+	in fact, $\range(a_1,\ldots,a_m) = \reals^n$ if and only if $d^\ast=p^\ast\in\reals^n$
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-78">Strong duality for trust region nonconvex quadratic problems</h3>
+<h3>Strong duality for trust region nonconvex quadratic problems</h3>
 
 <ul>
 <li>
-	 one of rare occasions
+	one of rare occasions
 in which
 <i>strong duality obtains for nonconvex problems</i>
 
 </li>
 <li>
-	
-primal problem
+	primal problem
 
 $$
 \noncvxquadprob{primal}
@@ -5433,8 +5059,7 @@ where $A\in\symset{n}$, $A\not\in\possemidefset{n}$, and $b\in\reals^n$
 
 </li>
 <li>
-	
-Lagrange dual problem (page~)
+	Lagrange dual problem (page~)
 
 $$
 \noncvxquadprob{dual}
@@ -5443,15 +5068,13 @@ $$
 
 </li>
 <li>
-	
-<i>strong duality always holds</i>
+	<i>strong duality always holds</i>
 and $d^\ast=p^\ast\in\reals$
 (since dual problem is feasible - large enough $\lambda$ satisfies dual constraints)
 
 </li>
 <li>
-	
-in fact, exists stronger result
+	in fact, exists stronger result
 - <i>strong dual holds</i> for optimization problem with quadratic objective
 and <i>one</i> quadratic inequality constraint,
 provided Slater's condition holds
@@ -5459,37 +5082,32 @@ provided Slater's condition holds
 </li>
 </ul>
 
-<h3 id="my-foilhead-79">Matrix games using mixed strategies</h3>
+<h3>Matrix games using mixed strategies</h3>
 
 
 <ul>
 <li>
-	
-matrix game - consider game with two players $A$ and $B$
+	matrix game - consider game with two players $A$ and $B$
 	<ul>
 	<li>
-		
-player $A$ makes choice $1\leq a\leq n$,
+		player $A$ makes choice $1\leq a\leq n$,
 player $B$ makes choice $1\leq b\leq m$,
 then player $A$ makes payment of $P_{ab}$ to player $B$
 
 	</li>
 	<li>
-		
-matrix $P\in\reals^{n\times m}$, called <span class="define">payoff matrix</span>
+		matrix $P\in\reals^{n\times m}$, called <span class="define">payoff matrix</span>
 
 	</li>
 	<li>
-		
-player $A$ tries to pay as little as possible
+		player $A$ tries to pay as little as possible
 &amp;
 player $B$ tries to received as much as possible
 
 	</li>
 	<li>
-		
-players use <span class="define">randomized or mixed strategies</span>,
-, each player makes choice randomly and independently of other player's choice
+		players use <span class="define">randomized or mixed strategies</span>,
+<i>i.e.</i>, each player makes choice randomly and independently of other player's choice
 according to probability distributions
 
 $$
@@ -5504,8 +5122,7 @@ $$
 
 </li>
 <li>
-	
-expected payoff (from player $A$ to player $B$)
+	expected payoff (from player $A$ to player $B$)
 
 $$
 \sum_i \sum_j u_iv_jP_{ij} = u^TPv
@@ -5514,12 +5131,10 @@ $$
 
 </li>
 <li>
-	
-assume player $A$'s strategy is known to play $B$
+	assume player $A$'s strategy is known to play $B$
 	<ul>
 	<li>
-		
-player $B$ will choose $v$ to maximize $u^TPv$
+		player $B$ will choose $v$ to maximize $u^TPv$
 
 $$
 \sup\set{u^TPv}{v\succeq 0,\; \ones^Tv=1}
@@ -5529,8 +5144,7 @@ $$
 
 	</li>
 	<li>
-		
-player $A$ (assuming that player $B$ will employ above strategy to maximize payment)
+		player $A$ (assuming that player $B$ will employ above strategy to maximize payment)
 will choose $u$ to minimize payment
 
 $$
@@ -5548,12 +5162,10 @@ $$
 
 </li>
 <li>
-	
-assume player $B$'s strategy is known to play $A$
+	assume player $B$'s strategy is known to play $A$
 	<ul>
 	<li>
-		
-then player $B$ will do same to maximize payment
+		then player $B$ will do same to maximize payment
 (assuming that player $A$ will employ such strategy to minimize payment)
 
 $$
@@ -5572,12 +5184,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-80">Strong duality for matrix games using mixed strategies</h3>
+<h3>Strong duality for matrix games using mixed strategies</h3>
 
 <ul>
 <li>
-	
-in matrix game,
+	in matrix game,
 can guess
 in frist came,
 player $B$ has advantage over player $A$ because $A$'s strategy's exposed to $B$,
@@ -5587,22 +5198,19 @@ optimal value of first problem is greater than that of second problem
 
 </li>
 <li>
-	
-surprising,
+	surprising,
 no one has advantage over the other,
-, optimal values of two problems are <i>same</i>
+<i>i.e.</i>, optimal values of two problems are <i>same</i>
 -
 will show this
 
 </li>
 <li>
-	
-first observe both problems are (convex) piecewise-linear optimization problems
+	first observe both problems are (convex) piecewise-linear optimization problems
 
 </li>
 <li>
-	
-formulate first problem as LP
+	formulate first problem as LP
 
 $$
 \begin{array}{ll}
@@ -5616,8 +5224,7 @@ $$
 
 	<ul>
 	<li>
-		
-Lagrangian
+		Lagrangian
 
 $$
 L(u,t,\lambda_1, \lambda_2,\nu) = \nu + (1-\ones^T\lambda_1)t + (P\lambda_1 - \nu \ones - \lambda_2)^Tu
@@ -5626,8 +5233,7 @@ $$
 
 	</li>
 	<li>
-		
-Lagrange dual function
+		Lagrange dual function
 
 $$
 g(\lambda_1, \lambda_2,\nu) = \left\{\begin{array}{ll}
@@ -5643,8 +5249,7 @@ $$
 
 </li>
 <li>
-	
-Lagrange dual problem
+	Lagrange dual problem
 
 $$
 \begin{array}{ll}
@@ -5661,8 +5266,7 @@ $$
 
 </li>
 <li>
-	
-eliminating $\lambda_2$ gives
+	eliminating $\lambda_2$ gives
 below Lagrange dual problem
 
 $$
@@ -5679,34 +5283,30 @@ which is equivalent to second problem in matrix game
 
 </li>
 <li>
-	
-weak duality confirms &ldquo;player who knows other player's strategy has advantage or on par''
+	weak duality confirms &ldquo;player who knows other player's strategy has advantage or on par''
 
 </li>
 <li>
-	
-moreoever,
+	moreoever,
 primal problem satisfies Slater's condition, hence <i>strong duality {always} holds</i>,
 and dual is feasible,
 hence $d^\ast=p^\ast\in\reals$,
-, regardless of who knows other player's strategy,
+<i>i.e.</i>, regardless of who knows other player's strategy,
 no player has advantage
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-81">Geometric interpretation of duality</h3>
+<h3>Geometric interpretation of duality</h3>
 
 <ul>
 <li>
-	
-assume (not necessarily convex) optimization problem
-in ~
+	assume (not necessarily convex) optimization problem
+in <a href="#definition:optimization problems"></a>
 
 </li>
 <li>
-	
-define graph
+	define graph
 
 $$
 G = \set{(\fie(x), \feq(x), \fobj(x))}{x\in\optdomain}
@@ -5716,14 +5316,13 @@ $$
 
 </li>
 <li>
-	
-for every $\lambda\succeq 0$ and $\nu$
+	for every $\lambda\succeq 0$ and $\nu$
 
 $$
 \begin{eqnarray*}
-\lefteqn{
-p^\ast = \inf\set{t}{(u,v,t) \in G, u\preceq 0, v = 0}
-}
+
+p^\ast &=& \inf\set{t}{(u,v,t) \in G, u\preceq 0, v &=& 0}
+
 \\
 &
 \geq
@@ -5744,14 +5343,12 @@ $\set{(u,v,t)}{(u,v,t) \in G, u\preceq 0, v = 0} \subset G$
 
 </li>
 <li>
-	
-above establishes <i>weak duality</i>
+	above establishes <i>weak duality</i>
 <i>using graph</i>
 
 </li>
 <li>
-	
-last equality implies that
+	last equality implies that
 
 $$
 (\lambda, \nu, 1)^T (u,v,t) \geq g(\lambda,\nu)
@@ -5768,8 +5365,7 @@ $(\lambda, \nu, 1)$ and $g(\lambda,\nu)$ define
 
 <ul>
 <li>
-	
-
+	the figure
 shows $G$ as area inside closed curve
 contained in $\reals^m\times\reals^p\times\reals$ where $m=1$ and $p=0$
 as primal optimal value $p^\ast$ and supporting hyperplane
@@ -5786,8 +5382,7 @@ $\lambda u + t = g(\lambda)$
 
 <ul>
 <li>
-	
-
+	the figure
 shows three hyperplanes determined by three values for $\lambda$,
 one of which $\lambda^\ast$ is optimal solution for dual problem
 
@@ -5801,18 +5396,17 @@ one of which $\lambda^\ast$ is optimal solution for dual problem
 
 
 
-<h3 id="my-foilhead-82">Epigraph interpretation of duality</h3>
+<h3>Epigraph interpretation of duality</h3>
 
 <ul>
 <li>
-	
-define extended graph over $G$ - sort of epigraph of $G$
+	define extended graph over $G$ - sort of epigraph of $G$
 
 $$
 \begin{eqnarray*}
-\lefteqn{
-H = G + \preals^m \times \{0\} \times \preals
-}
+
+H &=& G + \preals^m \times \{0\} \times \preals
+
 \\
 &
 =
@@ -5824,7 +5418,7 @@ $$
 
 </li>
 <li>
-	 if $\lambda\succeq 0$, $g(\lambda,\nu) = \inf\set{(\lambda,\nu,1)^T(u,v,t)}{(u,v,t) \in H}$, thus
+	if $\lambda\succeq 0$, $g(\lambda,\nu) = \inf\set{(\lambda,\nu,1)^T(u,v,t)}{(u,v,t) \in H}$, thus
 
 $$
 (\lambda,\nu,1)^T (u,v,t) \geq g(\lambda,\nu)
@@ -5834,8 +5428,7 @@ defines nonvertical supporting hyperplane for $H$
 
 </li>
 <li>
-	
-now $p^\ast = \inf\set{t}{(0,0,t)\in H}$, hence $(0,0,p^\ast) \in \boundary H$, hence
+	now $p^\ast = \inf\set{t}{(0,0,t)\in H}$, hence $(0,0,p^\ast) \in \boundary H$, hence
 
 $$
 p^\ast =(\lambda,\nu,1)^T (0,0,p^\ast) \geq g(\lambda,\nu)
@@ -5844,13 +5437,11 @@ $$
 
 </li>
 <li>
-	
-once again establishes <i>weak duality</i>
+	once again establishes <i>weak duality</i>
 
 </li>
 <li>
-	
-
+	the figure
 shows epigraph interpretation
 
 </li>
@@ -5863,12 +5454,11 @@ shows epigraph interpretation
 
 
 
-<h3 id="my-foilhead-83">Proof of strong duality under constraint qualification</h3>
+<h3>Proof of strong duality under constraint qualification</h3>
 
 <ul>
 <li>
-	
-now we show proof of strong duality
+	now we show proof of strong duality
 - this is one of rare cases where proof is shown in main slides
 instead of &ldquo;selected proofs'' section like Galois theory
 since - (I hope) it will give you some good intuition about
@@ -5876,35 +5466,30 @@ why strong duality holds for (most) convex optimization problems
 
 </li>
 <li>
-	
-assume Slater's condition holds,
-,
- and  are convex,  is affine,
+	assume Slater's condition holds,
+<i>i.e.</i>,
+$\fobj$ and $\fie$ are convex, $\feq$ is affine,
 and
 exists $x\in\optdomain$
 such that $\fie(x) \prec 0$ and $\feq(x) = 0$
 
 </li>
 <li>
-	
-further assume  has interior (hence, $\relint \optdomain = \interior{\optdomain}$
+	further assume $\optdomain$ has interior (hence, $\relint \optdomain = \interior{\optdomain}$
 and $\rank A=p$
 
 </li>
 <li>
-	
-assume $p^\ast\in\reals$ - since exists feasible $x$, the other possibility is $p^\ast = -\infty$,
+	assume $p^\ast\in\reals$ - since exists feasible $x$, the other possibility is $p^\ast = -\infty$,
 but then, $d^\ast = -\infty$, hence strong duality holds
 
 </li>
 <li>
-	
-$H$ is convex 
+	$H$ is convex 
 
 </li>
 <li>
-	
-now define
+	now define
 
 $$
 B = \set{(0,0,s)\in\reals^m\times\reals^p\times\reals}{s<p^\ast}
@@ -5913,8 +5498,7 @@ $$
 
 </li>
 <li>
-	
-then $B\cap H=\emptyset$, hence ~
+	then $B\cap H=\emptyset$, hence <a href="#theorem:separating hyperplane theorem"></a>
 implies exists separable hyperplane with $(\tilde{\lambda}, \tilde{\nu}, \mu)\neq 0$ and $\alpha$
 such that
 
@@ -5933,12 +5517,10 @@ $$
 
 </li>
 <li>
-	
-then $\tilde{\lambda} \succeq 0$ &amp; $\mu\geq0$ - assume $\mu>0$
+	then $\tilde{\lambda} \succeq 0$ &amp; $\mu\geq0$ - assume $\mu>0$
 	<ul>
 	<li>
-		
-can prove when $\mu=0$, but kind of tedius, plus,
+		can prove when $\mu=0$, but kind of tedius, plus,
 whole purpose is provide good intuition,
 so will not do it here
 
@@ -5947,8 +5529,7 @@ so will not do it here
 
 </li>
 <li>
-	
-above second inequality implies $\mu p^\ast \leq \alpha$ and
+	above second inequality implies $\mu p^\ast \leq \alpha$ and
 for some $x\in\optdomain$
 
 $$
@@ -5966,8 +5547,7 @@ $$
 
 </li>
 <li>
-	
-finally, weak duality implies
+	finally, weak duality implies
 
 $$
 g(\lambda,\nu) = p^\ast
@@ -5985,12 +5565,11 @@ where $\lambda = \tilde{\lambda}/\mu$ &amp; $\nu = \tilde{\nu}/\mu$
 
 
 
-<h3 id="my-foilhead-84">Max-min characterization of weak and strong dualities</h3>
+<h3>Max-min characterization of weak and strong dualities</h3>
 
 <ul>
 <li>
-	
-note
+	note
 
 
 $$
@@ -6015,16 +5594,14 @@ $$
 
 </li>
 <li>
-	
-thus
+	thus
 $p^\ast = \inf_{x\in\optdomain} \sup_{\lambda\succeq 0, \nu} L(x,\lambda,\nu)$
 whereas
 $d^\ast = \sup_{\lambda\succeq 0,\nu} \inf_{x\in\optdomain} L(x,\lambda,\nu)$
 
 </li>
 <li>
-	
-weak duality means
+	weak duality means
 
 $$
 \sup_{\lambda\succeq 0, \nu} \inf_{x\in\optdomain} L(x,\lambda,\nu)
@@ -6035,8 +5612,7 @@ $$
 
 </li>
 <li>
-	
-strong duality means
+	strong duality means
 
 $$
 \sup_{\lambda\succeq 0, \nu} \inf_{x\in\optdomain} L(x,\lambda,\nu)
@@ -6048,12 +5624,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-85">Max-min inequality</h3>
+<h3>Max-min inequality</h3>
 
 <ul>
 <li>
-	
-indeed, inequality
+	indeed, inequality
 $\sup_{\lambda\succeq 0} \inf_{x\in\optdomain} L(x,\lambda,\nu)
 \leq
 \inf_{x\in\optdomain} \sup_{\lambda\succeq 0} L(x,\lambda,\nu)$
@@ -6090,20 +5665,19 @@ $$
 </div>
 <ul>
 <li>
-	
-this happens,
+	this happens,
 <i>e.g.</i>,
 $X=\optdomain$,
 $Y=\prealk{m} \times \reals^p$,
 $f$ is Lagrangian of
 optimization problem
-(in ~)
+(in <a href="#definition:optimization problems"></a>)
 for which strong duality holds
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-86">Saddle-points</h3>
+<h3>Saddle-points</h3>
 
 <div class="definition" id="definition:saddle-points" data-name="saddle-points">
 	
@@ -6125,8 +5699,7 @@ called <span class="define">saddle-point for $f$ (and $X$ and $Y$)</span>
 </div>
 <ul>
 <li>
-	
-if assumption in ~ holds,
+	if assumption in <a href="#definition:saddle-points"></a> holds,
 $x^\ast$ minimizes $f(x,y^\ast)$ over $X$
 and
 $y^\ast$ maximizes $f(x^\ast,y)$ over $Y$
@@ -6141,8 +5714,7 @@ $$
 
 	<ul>
 	<li>
-		
-strong max-min property (in ~)
+		strong max-min property (in <a href="#definition:strong max-min property"></a>)
 holds with $f(x^\ast,y^\ast)$ as common value
 
 	</li>
@@ -6152,12 +5724,11 @@ holds with $f(x^\ast,y^\ast)$ as common value
 </ul>
 
 
-<h3 id="my-foilhead-87">Saddle-point interpretation of strong duality</h3>
+<h3>Saddle-point interpretation of strong duality</h3>
 
 <ul>
 <li>
-	
-for primal optimum $x^\ast$ and dual optimum $(\lambda^\ast,\nu^\ast)$
+	for primal optimum $x^\ast$ and dual optimum $(\lambda^\ast,\nu^\ast)$
 
 
 $$
@@ -6167,8 +5738,7 @@ $$
 
 </li>
 <li>
-	
-if strong duality holds,
+	if strong duality holds,
 for every $x\in\optdomain$, $\lambda\succeq 0$, and $\nu$
 
 
@@ -6182,17 +5752,15 @@ $$
 
 	<ul>
 	<li>
-		
-thus $x^\ast$ and $(\lambda^\ast,\nu^\ast)$ form saddle-point of Lagrangian
+		thus $x^\ast$ and $(\lambda^\ast,\nu^\ast)$ form saddle-point of Lagrangian
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-conversely, if $\tilde{x}$ and $(\tilde{\lambda},\tilde{\nu})$ are saddle-point of Lagrangian,
-,
+	conversely, if $\tilde{x}$ and $(\tilde{\lambda},\tilde{\nu})$ are saddle-point of Lagrangian,
+<i>i.e.</i>,
 for every $x\in\optdomain$, $\lambda\succeq 0$, and $\nu$
 
 
@@ -6206,8 +5774,7 @@ $$
 
 	<ul>
 	<li>
-		
-hence
+		hence
 $g(\tilde{\lambda},\tilde{\nu})
 = \inf_{x\in\optdomain} L(x,\tilde{\lambda},\tilde{\nu})
 = L(\tilde{x}, \tilde{\lambda},\tilde{\nu})
@@ -6219,8 +5786,7 @@ $\fobj(\tilde{x}) \leq \fobj(x^\ast)$
 
 	</li>
 	<li>
-		
-thus $\tilde{x}$ and $(\tilde{\lambda}, \tilde{\nu})$ are primal and dual optimal
+		thus $\tilde{x}$ and $(\tilde{\lambda}, \tilde{\nu})$ are primal and dual optimal
 
 	</li>
 	</ul>
@@ -6228,13 +5794,12 @@ thus $\tilde{x}$ and $(\tilde{\lambda}, \tilde{\nu})$ are primal and dual optima
 </li>
 </ul>
 
-<h3 id="my-foilhead-88">Game interpretation</h3>
+<h3>Game interpretation</h3>
 
 
 <ul>
 <li>
-	
-assume
+	assume
 two players play zero-sum game with payment function $f:X\times Y\to \reals$
 where
 player $A$ pays player $B$ amount equal to $f(x,y)$
@@ -6242,44 +5807,37 @@ when player $A$ chooses $x$ and player $B$ chooses $y$
 
 </li>
 <li>
-	
-player $A$ will try to minimize $f(x,y)$
+	player $A$ will try to minimize $f(x,y)$
 and
 player $B$ will try to maximize $f(x,y)$
 
 </li>
 <li>
-	
-assume player $A$ chooses first
+	assume player $A$ chooses first
 then player $B$ chooses after learning opponent's choice
 	<ul>
 	<li>
-		
-if player $A$ chooses $x$, player $B$ will choose $\argsup_{y\in Y} f(x,y)$
+		if player $A$ chooses $x$, player $B$ will choose $\argsup_{y\in Y} f(x,y)$
 
 	</li>
 	<li>
-		
-knowing that, player $A$ will first choose $\arginf_{x\in X} \sup_{y\in Y} f(x,y)$
+		knowing that, player $A$ will first choose $\arginf_{x\in X} \sup_{y\in Y} f(x,y)$
 
 	</li>
 	<li>
-		
-hence payment will be $\inf_{x\in X} \sup_{y\in Y} f(x,y)$
+		hence payment will be $\inf_{x\in X} \sup_{y\in Y} f(x,y)$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-if player $B$ makes her choise first, opposite happens, ,
+	if player $B$ makes her choise first, opposite happens, <i>i.e.</i>,
 payment will be $\sup_{y\in Y} \inf_{x\in X} f(x,y)$
 
 </li>
 <li>
-	
-max-min inequality of ~ says
+	max-min inequality of <a href="#inequality:max-min inequality"></a> says
 
 $$
 \sup_{y\in Y} \inf_{x\in X} f(x,y)
@@ -6287,14 +5845,13 @@ $$
 \inf_{x\in X} \sup_{y\in Y} f(x,y)
 $$
 
-, whowever chooses later has advantage,
+<i>i.e.</i>, whowever chooses later has advantage,
 which is similar or rather same as
 matrix games using mixed strategies on page~
 
 </li>
 <li>
-	
-saddle-point for $f$ (and $X$ and $Y$),
+	saddle-point for $f$ (and $X$ and $Y$),
 $(x^\ast,y^\ast)$,
 called <span class="define">solution of game</span>
 - $x^\ast$ is optimal choice for player $A$
@@ -6304,59 +5861,51 @@ $x^\ast$ is optimal choice for player $B$
 </li>
 </ul>
 
-<h3 id="my-foilhead-89">Game interpretation for weak and strong dualities</h3>
+<h3>Game interpretation for weak and strong dualities</h3>
 
 <ul>
 <li>
-	
-assume payment function in zero-sum game on page~
+	assume payment function in zero-sum game on page~
 is Lagrangian of optimization problem
-in ~
+in <a href="#definition:optimization problems"></a>
 
 </li>
 <li>
-	
-assume that $X=\xdomain$ and $Y=\prealk{n} \times \reals^p$
+	assume that $X=\xdomain$ and $Y=\prealk{n} \times \reals^p$
 
 </li>
 <li>
-	
-if player $A$ chooses first, knowing that player $B$ will choose $\argsup_{(\lambda,\nu)\in Y}L(x,\lambda,\nu)$,
+	if player $A$ chooses first, knowing that player $B$ will choose $\argsup_{(\lambda,\nu)\in Y}L(x,\lambda,\nu)$,
 she will choose $x^\ast = \arginf_{x\in\xdomain} \sup_{(\lambda,\nu)\in Y}L(x,\lambda,\nu)$
 
 </li>
 <li>
-	
-likewise, player $B$ will choose
+	likewise, player $B$ will choose
 $(\lambda^\ast,\nu^\ast) = \argsup_{(\lambda,\nu)\in Y} \inf_{x\in\xdomain} L(x,\lambda,\nu)$
 
 </li>
 <li>
-	
-optimal dualtiy gap $p^\ast - d^\ast$ equals to advantage player who goes second has
+	optimal dualtiy gap $p^\ast - d^\ast$ equals to advantage player who goes second has
 
 </li>
 <li>
-	
-if strong dualtiy holds, $(x^\ast, \lambda^\ast, \nu^\ast)$ is solution of game,
+	if strong dualtiy holds, $(x^\ast, \lambda^\ast, \nu^\ast)$ is solution of game,
 in which case no one has advantage
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-90">Certificate of suboptimality</h3>
+<h3>Certificate of suboptimality</h3>
 
 <ul>
 <li>
-	
-dual feasible point $(\lambda,\nu)$
+	dual feasible point $(\lambda,\nu)$
 degree of suboptimality of current solution
 
 </li>
 <li>
-	
-assume $x$ is feasible solution,
+	assume $x$ is feasible solution,
 then
 
 $$
@@ -6369,34 +5918,30 @@ from optimal point point $x^\ast$
 
 </li>
 <li>
-	
-for this reason,
+	for this reason,
 $(\lambda,\nu)$, called <span class="define">certificate of suboptimality</span>
 
 </li>
 <li>
-	
-$x$ is $\epsilon$-suboptimal for primal problem
+	$x$ is $\epsilon$-suboptimal for primal problem
 and
 $(\lambda,\nu)$ is $\epsilon$-suboptimal for dual problem
 
 </li>
 <li>
-	
-strong duality means we <i>could</i>
+	strong duality means we <i>could</i>
 find arbitrarily small certificate of suboptimality
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-91">Complementary slackness</h3>
+<h3>Complementary slackness</h3>
 
 <ul>
 <li>
-	
-assume strong duality holds for optimization problem
-in ~
+	assume strong duality holds for optimization problem
+in <a href="#definition:optimization problems"></a>
 and assume $x^\ast$ is primal optimum and $(\lambda^\ast,\nu^\ast)$ is dual optimum,
 then
 
@@ -6409,13 +5954,11 @@ $$
 
 </li>
 <li>
-	
-$\feq(x^\ast)=0$ implies ${\lambda^\ast}^T \fie(x^\ast)=0$
+	$\feq(x^\ast)=0$ implies ${\lambda^\ast}^T \fie(x^\ast)=0$
 
 </li>
 <li>
-	
-then $\lambda^\ast \succeq 0$ and $\fie(x^\ast) \preceq 0$ imply
+	then $\lambda^\ast \succeq 0$ and $\fie(x^\ast) \preceq 0$ imply
 
 $$
 \lambda_i^\ast \fie_i(x^\ast) = 0
@@ -6442,12 +5985,12 @@ this property, called <span class="define">complementary slackness</span>
 </div>
 
 
-<h3 id="my-foilhead-92">KKT optimality conditions</h3>
+<h3>KKT optimality conditions</h3>
 
 <div class="definition" id="definition:KKT optimality conditions" data-name="KKT optimality conditions">
 	
-for optimization problem in ~
-where , , and  are all differentiable,
+for optimization problem in <a href="#definition:optimization problems"></a>
+where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
 
@@ -6489,48 +6032,45 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 
 </div>
 
-<h3 id="my-foilhead-93">KKT necessary for optimality with strong duality</h3>
+<h3>KKT necessary for optimality with strong duality</h3>
 
 <div class="theorem" id="theorem:KKT necessary for optimality with strong duality" data-name="KKT necessary for optimality with strong duality">
 	
-for optimization problem in ~
-where , , and  are all differentiable,
+for optimization problem in <a href="#definition:optimization problems"></a>
+where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if strong duality holds,
 primal and dual optimal solutions $x^\ast$ and $(\lambda^\ast, \nu)$
-satisfy KKT optimality conditions (in ~),
-,
+satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
+<i>i.e.</i>,
 for every optimization problem
 
 	<ul>
 	<li>
-		
-when strong duality holds,
+		when strong duality holds,
 KKT optimality conditions are necessary for primal and dual optimality
 
 	</li>
 	<li>
-		 []
+		
 or equivalently
 
 	</li>
 	<li>
-		
-primal and dual optimality with strong duality imply KKT optimality conditions
+		primal and dual optimality with strong duality imply KKT optimality conditions
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-94">KKT and convexity sufficient for optimality with strong duality</h3>
+<h3>KKT and convexity sufficient for optimality with strong duality</h3>
 
 <ul>
 <li>
-	
-assume convex optimization problem where , , and  are all differentiable
+	assume convex optimization problem where $\fobj$, $\fie$, and $\feq$ are all differentiable
 and ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
 satisfying KKT conditions,
-
+<i>i.e.</i>
 
 $$
 \fie({x}) \preceq 0, \; \feq({x}) = 0
@@ -6545,9 +6085,8 @@ $$
 
 </li>
 <li>
-	
-since $L(x,\lambda,\nu)$ is convex for $\lambda\succeq 0$,
-,
+	since $L(x,\lambda,\nu)$ is convex for $\lambda\succeq 0$,
+<i>i.e.</i>,
 each of $\fobj(x)$, $\lambda^T \fie(x)$, and $\nu^T \feq(x)$
 is convex,
 vanishing gradient implies $x$ achieves infimum for Lagrangian,
@@ -6562,9 +6101,8 @@ $$
 
 </li>
 <li>
-	
-thus, strong duality holds,
-,
+	thus, strong duality holds,
+<i>i.e.</i>,
 $x$ and $(\lambda,\nu)$ are primal and dual optimal solutions
 with zero duality gap
 
@@ -6576,28 +6114,26 @@ with zero duality gap
 
 <div class="theorem" id="theorem:KKT and convexity sufficient for optimality with strong duality" data-name="KKT and convexity sufficient for optimality with strong duality">
 	
-for convex optimization problem in ~
-where , , and  are all differentiable,
+for convex optimization problem in <a href="#definition:convex optimization"></a>
+where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
-satisfy KKT optimality conditions (in ~),
+satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
 they are primal and dual optimal solutions having zero duality gap
-
+<i>i.e.</i>
 
 	<ul>
 	<li>
-		
-for convex optimization problem,
+		for convex optimization problem,
 KKT optimality conditions are sufficient for primal and dual optimality with strong duality
 
 	</li>
 	<li>
-		 []
+		
 or equivalently
 
 	</li>
 	<li>
-		
-KKT optimality conditions and convexity
+		KKT optimality conditions and convexity
 imply primal and dual optimality and strong duality
 
 	</li>
@@ -6606,17 +6142,15 @@ imply primal and dual optimality and strong duality
 </div>
 <ul>
 <li>
-	
-~
+	<a href="#theorem:KKT necessary for optimality with strong duality"></a>
 together with
-~
+<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
 implies
 that
 for convex optimization problem
 	<ul>
 	<li>
-		
-<i>
+		<i>
 KKT optimality conditions are necessary and sufficient
 for primal and dual optimality with strong duality
 </i>
@@ -6627,13 +6161,12 @@ for primal and dual optimality with strong duality
 </li>
 </ul>
 
-<h3 id="my-foilhead-96">Solving primal problems via dual problems</h3>
+<h3>Solving primal problems via dual problems</h3>
 
 
 <ul>
 <li>
-	
-when strong duality holds,
+	when strong duality holds,
 can retrieve primal optimum from dual optimum
 since
 primal optimal solution is minimize of
@@ -6646,22 +6179,19 @@ where $(\lambda^\ast, \nu^\ast)$ is dual optimum
 
 </li>
 <li>
-	
-example - entropy maximization
+	example - entropy maximization
 ($\optdomain = \pprealk{n}$)
 	<ul>
 	<li>
-		
-primal problem - 
+		primal problem - 
 
 	</li>
 	<li>
-		
-dual problem - 
+		dual problem - 
 
 	</li>
 	<li>
-		 provided dual optimum $(\lambda^\ast,\nu^\ast)$,
+		provided dual optimum $(\lambda^\ast,\nu^\ast)$,
 primal optimum is
 
 $$
@@ -6675,8 +6205,7 @@ $$
 
 	</li>
 	<li>
-		
-$\nabla_x L(x,\lambda^\ast,\nu^\ast) = \log x + A^T \lambda^\ast + (1+\nu^\ast)\ones$,
+		$\nabla_x L(x,\lambda^\ast,\nu^\ast) = \log x + A^T \lambda^\ast + (1+\nu^\ast)\ones$,
 hence
 
 $$
@@ -6691,13 +6220,12 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-97">Perturbed optimization problems</h3>
+<h3>Perturbed optimization problems</h3>
 
 
 <ul>
 <li>
-	
-original problem in ~
+	original problem in <a href="#definition:optimization problems"></a>
 with perturbed constraints
 
 $$
@@ -6716,9 +6244,8 @@ where $u\in\reals^m$ and $v\in\reals^p$
 
 </li>
 <li>
-	
-define $p^\ast(u,v)$ as optimal value of above <i>perturbed</i> problem,
-
+	define $p^\ast(u,v)$ as optimal value of above <i>perturbed</i> problem,
+<i>i.e.</i>
 
 $$
 p^\ast(u,v) = \inf\set{\fobj(x)}{x\in\optdomain, \fie(x) \preceq u, \feq(x) = v}
@@ -6732,8 +6259,7 @@ $p^\ast(0,0)=p^\ast$
 
 </li>
 <li>
-	
-assume and dual optimum $(\lambda^\ast,\nu^\ast)$,
+	assume and dual optimum $(\lambda^\ast,\nu^\ast)$,
 if strong duality holds,
 for every feasible $x$ for perturbed problem
 
@@ -6758,8 +6284,7 @@ $$
 
 </li>
 <li>
-	
-
+	the figure
 shows this for optimization problem
 with one inequality constraint and no equality constraint
 
@@ -6774,12 +6299,11 @@ with one inequality constraint and no equality constraint
 
 
 
-<h3 id="my-foilhead-98">Global sensitivity analysis via perturbed problems</h3>
+<h3>Global sensitivity analysis via perturbed problems</h3>
 
 <ul>
 <li>
-	
-recall
+	recall
 
 $$
 p^\ast(u,v)\geq p^\ast(0,0) - {\lambda^\ast}^T u - {\nu^\ast}^T v
@@ -6788,31 +6312,26 @@ $$
 
 </li>
 <li>
-	
-interpretations
+	interpretations
 	<ul>
 	<li>
-		
-if $\lambda^\ast_i$ is large, when $i$-th inequality constraint is tightened,
+		if $\lambda^\ast_i$ is large, when $i$-th inequality constraint is tightened,
 optimal value increases a lot
 
 	</li>
 	<li>
-		
-if $\lambda^\ast_i$ is small, when $i$-th inequality constraint is relaxed,
+		if $\lambda^\ast_i$ is small, when $i$-th inequality constraint is relaxed,
 optimal value decreases not a lot
 
 	</li>
 	<li>
-		
-if $|\nu^\ast_i|$ is large,
+		if $|\nu^\ast_i|$ is large,
 reducing $v_i$ when $\nu^\ast_i>0$ or increasing $v_i$ when $\nu^\ast_i<0$
 increases optimval value a lot
 
 	</li>
 	<li>
-		
-if $|\nu^\ast_i|$ is small,
+		if $|\nu^\ast_i|$ is small,
 increasing $v_i$ when $\nu^\ast_i>0$ or decreasing $v_i$ when $\nu^\ast_i<0$
 decreases optimval value not a lot
 
@@ -6821,24 +6340,21 @@ decreases optimval value not a lot
 
 </li>
 <li>
-	
-it only gives lower bounds - will explore local behavior
+	it only gives lower bounds - will explore local behavior
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-99">Local sensitivity analysis via perturbed problems</h3>
+<h3>Local sensitivity analysis via perturbed problems</h3>
 
 <ul>
 <li>
-	
-assume $p^\ast(u,v)$ is differentiable with respect to $u$ and $v$,
-, $\nabla_{(u,v)} p^\ast(u,v)$ exist
+	assume $p^\ast(u,v)$ is differentiable with respect to $u$ and $v$,
+<i>i.e.</i>, $\nabla_{(u,v)} p^\ast(u,v)$ exist
 	<ul>
 	<li>
-		
-then
+		then
 
 $$
 \frac{\partial}{\partial u_i} p^\ast (0,0)
@@ -6865,8 +6381,7 @@ $$
 
 	</li>
 	<li>
-		
-obtain same result for $v_i$, hence
+		obtain same result for $v_i$, hence
 
 $$
 \nabla_u\; p^\ast (0,0) = -\lambda
@@ -6880,25 +6395,22 @@ $$
 
 </li>
 <li>
-	
-so larger $\lambda_i$ or $|\nu_i|$ means larger change in optimal value of perturbed problem
+	so larger $\lambda_i$ or $|\nu_i|$ means larger change in optimal value of perturbed problem
 when $u_i$ or $v_i$ change a bit and vice versa
 quantitatively, - $\lambda_i$ an $\nu_i$ provide exact ratio and direction
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-100">Different dual problems for equivalent optimization problems - 1</h3>
+<h3>Different dual problems for equivalent optimization problems - 1</h3>
 
 <ul>
 <li>
-	
-introducing new variables and equality constraints
+	introducing new variables and equality constraints
 for unconstrained problems
 	<ul>
 	<li>
-		
-unconstrained optimization problem
+		unconstrained optimization problem
 
 $$
 \begin{array}{ll}
@@ -6909,8 +6421,7 @@ $$
 
 		<ul>
 		<li>
-			
-dual Lagrange function is $g = p^\ast$,
+			dual Lagrange function is $g = p^\ast$,
 hence strong duality holds,
 which, however, does not provide useful information
 
@@ -6919,8 +6430,7 @@ which, however, does not provide useful information
 
 	</li>
 	<li>
-		
-reformulate as equivalent optimization problem
+		reformulate as equivalent optimization problem
 
 $$
 \begin{array}{ll}
@@ -6934,22 +6444,19 @@ $$
 
 		<ul>
 		<li>
-			
-Lagrangian
+			Lagrangian
 -
 $L(x,y,\nu) = f(y) + \nu^T(Ax+b-y)$
 
 		</li>
 		<li>
-			
-Lagrange dual function
+			Lagrange dual function
 -
 $g(\nu) = -I(A^T\nu = 0) + b^T\nu - f^\ast(\nu)$
 
 		</li>
 		<li>
-			
-dual optimization problem
+			dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -6976,12 +6483,10 @@ $$
 
 <ul>
 <li>
-	
-examples
+	examples
 	<ul>
 	<li>
-		
-unconstrained geometric problem
+		unconstrained geometric problem
 
 $$
 \begin{array}{ll}
@@ -6994,8 +6499,7 @@ $$
 
 		<ul>
 		<li>
-			
-reformulation
+			reformulation
 
 $$
 \begin{array}{ll}
@@ -7012,8 +6516,7 @@ $$
 
 		</li>
 		<li>
-			
-dual optimization problem
+			dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7037,8 +6540,7 @@ entropy maximization problem
 
 	</li>
 	<li>
-		
-norm minimization problem
+		norm minimization problem
 
 $$
 \begin{array}{ll}
@@ -7049,8 +6551,7 @@ $$
 
 		<ul>
 		<li>
-			
-reformulation
+			reformulation
 
 $$
 \begin{array}{ll}
@@ -7065,8 +6566,7 @@ $$
 
 		</li>
 		<li>
-			
-dual optimization problem
+			dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7091,17 +6591,15 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-102">Different dual problems for equivalent optimization problems - 2</h3>
+<h3>Different dual problems for equivalent optimization problems - 2</h3>
 
 <ul>
 <li>
-	
-introducing new variables and equality constraints
+	introducing new variables and equality constraints
 for constrained problems
 	<ul>
 	<li>
-		
-inequality constrained optimization problem
+		inequality constrained optimization problem
 
 $$
 \begin{array}{ll}
@@ -7116,8 +6614,7 @@ $$
 
 	</li>
 	<li>
-		
-reformulation
+		reformulation
 
 $$
 \begin{array}{ll}
@@ -7134,8 +6631,7 @@ $$
 
 	</li>
 	<li>
-		
-dual optimization problem
+		dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7162,12 +6658,10 @@ $$
 
 <ul>
 <li>
-	
-examples
+	examples
 	<ul>
 	<li>
-		
-inequality constrained geometric program
+		inequality constrained geometric program
 
 $$
 \begin{array}{ll}
@@ -7185,8 +6679,7 @@ and $\sum z := \sum_{i=1}^k z_i\in\reals$
 for $z\in\reals^k$
 		<ul>
 		<li>
-			
-reformulation
+			reformulation
 
 $$
 \begin{array}{ll}
@@ -7204,8 +6697,7 @@ $$
 
 		</li>
 		<li>
-			
-dual optimization problem
+			dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7232,8 +6724,7 @@ for $z\in\pprealk{k}$
 
 		</li>
 		<li>
-			
-simplified dual optimization problem
+			simplified dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7262,16 +6753,14 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-104">Different dual problems for equivalent optimization problems - 3</h3>
+<h3>Different dual problems for equivalent optimization problems - 3</h3>
 
 <ul>
 <li>
-	
-transforming objectives
+	transforming objectives
 	<ul>
 	<li>
-		
-norm minimization problem
+		norm minimization problem
 
 $$
 \begin{array}{ll}
@@ -7283,8 +6772,7 @@ $$
 
 	</li>
 	<li>
-		
-reformulation
+		reformulation
 
 $$
 \begin{array}{ll}
@@ -7299,8 +6787,7 @@ $$
 
 	</li>
 	<li>
-		
-dual optimization problem
+		dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7320,16 +6807,14 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-105">Different dual problems for equivalent optimization problems - 4</h3>
+<h3>Different dual problems for equivalent optimization problems - 4</h3>
 
 <ul>
 <li>
-	
-making contraints implicit
+	making contraints implicit
 	<ul>
 	<li>
-		
-LP with box constraints
+		LP with box constraints
 
 $$
 \begin{array}{ll}
@@ -7345,8 +6830,7 @@ $$
 
 	</li>
 	<li>
-		
-dual optimization problem
+		dual optimization problem
 
 $$
 \begin{array}{ll}
@@ -7362,8 +6846,7 @@ $$
 
 	</li>
 	<li>
-		
-reformulation
+		reformulation
 
 $$
 \begin{array}{ll}
@@ -7379,8 +6862,7 @@ $$
 
 	</li>
 	<li>
-		
-dual optimization problem for reformulated primal problem
+		dual optimization problem for reformulated primal problem
 
 $$
 \begin{array}{ll}
@@ -7402,18 +6884,18 @@ $$
 <h2 id="Theorems of Alternatives">Theorems of Alternatives</h2>
 
 
-<h3 id="my-foilhead-106">Weak alternatives</h3>
+<h3>Weak alternatives</h3>
 
 <div class="theorem" id="theorem:weak alternatives of two systems" data-name="weak alternatives of two systems">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
-where  and  are subsets of common set $\xdomain$,
+where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
 which is subset of Banach space,
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$,
 and
 $\lambda\in\reals^m$ &amp; $\nu\in\reals^p$,
 below two systems of inequalities and equalities are weak alternatives,
-, at most one of them is feasible
+<i>i.e.</i>, at most one of them is feasible
 
 $$
 \fie(x) \preceq 0
@@ -7437,17 +6919,15 @@ $$
 </div>
 <ul>
 <li>
-	
-can prove ~
+	can prove <a href="#theorem:weak alternatives of two systems"></a>
 using duality of optimization problems
 
 </li>
 <li>
-	
-consider primal and dual problems
+	consider primal and dual problems
 	<ul>
 	<li>
-		 primal problem
+		primal problem
 
 $$
 \begin{array}{ll}
@@ -7464,7 +6944,7 @@ $$
 
 	</li>
 	<li>
-		 dual problem
+		dual problem
 
 $$
 \begin{array}{ll}
@@ -7493,19 +6973,17 @@ $$
 
 </li>
 <li>
-	
-then
+	then
 $p^\ast,\; d^\ast \in \{0,\infty\}$
 
 </li>
 <li>
-	
-now assume <i>first system of \theoremname~\ref{theorem:weak alternatives of two systems}\
+	now assume <i>first system of \theoremname~\ref{theorem:weak alternatives of two systems}\
 is feasible,</i> then $p^\ast = 0$, hence
 weak duality applies $d^\ast=0$,
 thus there exist no $\lambda$ and $\nu$ such that $\lambda\succeq 0$
 and $g(\lambda,\nu) > 0$
-, <i>second system is infeasible,</i>
+<i>i.e.</i>, <i>second system is infeasible,</i>
 since otherwise there exist $\lambda$ and $\nu$
 making $g(\lambda,\nu)$ arbitrarily large;
 if $\tilde{\lambda}\succeq 0$ and $\tilde{\nu}$
@@ -7515,8 +6993,7 @@ goes to $\infty$ when $\alpha\to\infty$
 
 </li>
 <li>
-	
-assume <i>second system is feasible,</i>
+	assume <i>second system is feasible,</i>
 then
 $g(\lambda,\nu)$ can be arbitrarily large
 for above reasons,
@@ -7527,30 +7004,29 @@ which implies
 
 </li>
 <li>
-	
-therefore two systems are weak alternatives;
+	therefore two systems are weak alternatives;
 at most one of them is feasible
 
 </li>
 <li>
-	 []
+	
 (actually, not hard to prove it without using weak duality)
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-107">Weak alternatives with strict inequalities</h3>
+<h3>Weak alternatives with strict inequalities</h3>
 
 <div class="theorem" id="theorem:weak alternatives of two systems with strict inequalities" data-name="weak alternatives of two systems with strict inequalities">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
-where  and  are subsets of common set $\xdomain$,
+where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
 which is subset of Banach space,
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$,
 and
 $\lambda\in\reals^m$ &amp; $\nu\in\reals^p$,
 below two systems of inequalities and equalities are weak alternatives,
-, at most one of them is feasible
+<i>i.e.</i>, at most one of them is feasible
 
 $$
 \fie(x) \prec 0
@@ -7576,18 +7052,18 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-108">Strong alternatives</h3>
+<h3>Strong alternatives</h3>
 
 <div class="theorem" id="theorem:strong alternatives of two systems" data-name="strong alternatives of two systems">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
-where  and  are subsets $\reals^n$
+where $\xie$ and $\xeq$ are subsets $\reals^n$
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$
 and
 $\lambda\in\reals^m$ &amp; $\nu\in\reals^p$,
 if exists $x \in \relint \optdomain$ with $\feq(x)=0$,
 below two systems of inequalities and equalities are strong alternatives,
-, exactly one of them is feasible
+<i>i.e.</i>, exactly one of them is feasible
 
 $$
 \fie(x) \preceq 0
@@ -7610,18 +7086,18 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-109">Strong alternatives with strict inequalities</h3>
+<h3>Strong alternatives with strict inequalities</h3>
 
 <div class="theorem" id="theorem:strong alternatives of two systems with strict inequalities" data-name="strong alternatives of two systems with strict inequalities">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
-where  and  are subsets $\reals^n$
+where $\xie$ and $\xeq$ are subsets $\reals^n$
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$
 and
 $\lambda\in\reals^m$ &amp; $\nu\in\reals^p$,
 if exists $x \in \relint \optdomain$ with $\feq(x)=0$,
 below two systems of inequalities and equalities are strong alternatives,
-, exactly one of them is feasible
+<i>i.e.</i>, exactly one of them is feasible
 
 $$
 \fie(x) \prec 0
@@ -7648,13 +7124,11 @@ $$
 </div>
 <ul>
 <li>
-	
-proof -
+	proof -
 consider convex optimization problem and its dual
 	<ul>
 	<li>
-		
-primal problem
+		primal problem
 
 $$
 \begin{array}{ll}
@@ -7671,8 +7145,7 @@ $$
 
 	</li>
 	<li>
-		
-dual problem
+		dual problem
 
 $$
 \begin{array}{ll}
@@ -7699,25 +7172,22 @@ $g(\lambda,\nu)
 
 </li>
 <li>
-	
-first observe Slater's condition
+	first observe Slater's condition
 holds for primal problem
-since by hypothesis of ~,
+since by hypothesis of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>,
 exists $y\in\relint \optdomain$ with $\feq(y)=0$,
 hence $(y,\fie(y))\in\xie\times \reals$
 is primal feasible satisifying Slater's condition
 
 </li>
 <li>
-	
-hence Slater's theorem (~)
+	hence Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
 implies
 $d^\ast=p^\ast$
 
 </li>
 <li>
-	
-assume first system
+	assume first system
 is feasible,
 then primal problem is strictly feasible and $d^\ast = p^\ast<0$,
 hence second system infeasible
@@ -7728,32 +7198,29 @@ hence $d^\ast\geq0$
 
 </li>
 <li>
-	
-assume first system
+	assume first system
 is infeasible,
 then $d^\ast = p^\ast\geq0$,
 hence
-Slater's theorem (~)
+Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
 implies exists dual optimal $(\lambda^\ast,\nu^\ast)$ (whether or not $d^\ast=\infty$),
 hence $(\lambda^\ast,\nu^\ast)$ is feasible point for second system
-of ~
+of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
 
 </li>
 <li>
-	
-therefore
+	therefore
 two systems are strong alternatives;
 each is feasible if and only if the other is infeasible
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-110">Strong alternatives for linear inequalities</h3>
+<h3>Strong alternatives for linear inequalities</h3>
 
 <ul>
 <li>
-	
-dual function of feasibility problem for $Ax\preceq b$
+	dual function of feasibility problem for $Ax\preceq b$
 is
 
 $$
@@ -7771,14 +7238,12 @@ $$
 
 </li>
 <li>
-	
-hence
+	hence
 alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
 
 </li>
 <li>
-	
-thus ~
+	thus <a href="#theorem:strong alternatives of two systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -7790,10 +7255,9 @@ $$
 
 </li>
 <li>
-	
-similarly
+	similarly
 alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
-and ~
+and <a href="#theorem:strong alternatives of two systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -7807,7 +7271,7 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-111">Farkas' lemma</h3>
+<h3>Farkas' lemma</h3>
 
 <div class="theorem" id="theorem:Farkas' lemma" data-name="Farkas' lemma">
 	
@@ -7826,20 +7290,17 @@ $$
 
 <ul>
 <li>
-	
-will prove ~
+	will prove <a href="#theorem:Farkas' lemma"></a>
 using LP and its dual
 
 </li>
 <li>
-	
-consider LP
+	consider LP
 $\left(\mbox{minimize}\; c^T x \quad \mbox{subject to}\; Ax \preceq 0\right)$
 
 </li>
 <li>
-	
-dual function is
+	dual function is
 $g(y)
 =
 \inf_{x\in\reals^n} \left(c^Tx + y^TAx \right)
@@ -7854,8 +7315,7 @@ $g(y)
 
 </li>
 <li>
-	
-hence dual problem is
+	hence dual problem is
 $\left(
 \mbox{maximize}
 \;
@@ -7871,16 +7331,14 @@ y \succeq 0
 
 </li>
 <li>
-	
-assume first system is feasible,
+	assume first system is feasible,
 then homogeneity of primal problem implies $p^\ast = -\infty$,
-thus $d^\ast$, , dual is infeasible,
+thus $d^\ast$, <i>i.e.</i>, dual is infeasible,
 hence second system is infeasible
 
 </li>
 <li>
-	
-assume first system is infeasible,
+	assume first system is infeasible,
 since primal is always feasible,
 $p^\ast=0$,
 hence strong duality implies $d^\ast =0$,
@@ -7894,12 +7352,12 @@ thus second system is feasible
 
 
 
-<h3 id="my-foilhead-112">Optimization problems with generalized inequalities</h3>
+<h3>Optimization problems with generalized inequalities</h3>
 
 <div class="definition" id="definition:optimization problems with generalized inequalities" data-name="optimization problems with generalized inequalities">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \bigtimes_{i=1}^m \reals^{k_i}$, $\feq: \xeq \to \reals^p$
-where , , and  are subsets of common set $\xdomain$
+where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
 
 $$
 \begin{array}{ll}
@@ -7922,37 +7380,35 @@ $K_1\subset \reals^{k_1},\ldots, K_n\subset \reals^{k_m}$
 
 	<ul>
 	<li>
-		
-every terminology and associated notation is same
-as of optimization problem in ~
+		every terminology and associated notation is same
+as of optimization problem in <a href="#definition:optimization problems"></a>
 such as
 objective &amp; inequality &amp; equality contraint functions,
-{domain} of optimization problem ,
-feasible set ,
+domain of optimization problem $\optdomain$,
+feasible set $\optfeasset$,
 optimal value $p^\ast$
 
 	</li>
 	<li>
-		
-note that
+		note that
 when $K_i=\preals$ (hence $\bigpropercone=\prealk{m}$),
-above optimization problem coincides with that in ~,
-,
-{optimization problems with generalized inequalities}
-{subsume}
-{(normal) optimization problems}
+above optimization problem coincides with that in <a href="#definition:optimization problems"></a>,
+<i>i.e.</i>,
+optimization problems with generalized inequalities
+subsume
+(normal) optimization problems
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-113">Lagrangian for generalized inequalities</h3>
+<h3>Lagrangian for generalized inequalities</h3>
 
 <div class="definition" id="definition:Lagrangian for generalized inequalities" data-name="Lagrangian for generalized inequalities">
 	
 for optimization problem in
-~
+<a href="#definition:optimization problems with generalized inequalities"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \bigtimes_{i=1}^m \reals^{k_i} \times \reals^p \to \reals$
 defined by
@@ -7966,18 +7422,16 @@ where
 
 	<ul>
 	<li>
-		
-every terminology and associated notation is same
-as of optimization problem in ~
+		every terminology and associated notation is same
+as of optimization problem in <a href="#definition:Lagrangian"></a>
 such as
 dual variables or Lagrange multipliers $\lambda$ and $\nu$.
 
 	</li>
 	<li>
-		
-Lagrangian for generalized inequalities
-{subsumes}
-(normal) Lagrangian (~)
+		Lagrangian for generalized inequalities
+subsumes
+(normal) Lagrangian (<a href="#definition:Lagrangian"></a>)
 
 	</li>
 	</ul>
@@ -7987,11 +7441,11 @@ Lagrangian for generalized inequalities
 
 
 
-<h3 id="my-foilhead-114">Lagrange dual functions for generalized inequalities</h3>
+<h3>Lagrange dual functions for generalized inequalities</h3>
 
 <div class="definition" id="definition:Lagrange dual functions for generalized inequalities" data-name="Lagrange dual functions for generalized inequalities">
 	
-for optimization problem in ~
+for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
 for which Lagrangian is defined,
 function $g:\bigtimes \reals^{k_i} \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -8012,10 +7466,9 @@ associated with optimization problem
 
 	<ul>
 	<li>
-		
-Lagrange dual functions for generalized inequalities
-{subsume}
-(normal) Lagrange dual functions (~)
+		Lagrange dual functions for generalized inequalities
+subsume
+(normal) Lagrange dual functions (<a href="#definition:Lagrange dual functions"></a>)
 
 	</li>
 	</ul>
@@ -8026,42 +7479,39 @@ Lagrange dual functions for generalized inequalities
 
 <ul>
 <li>
-	
-$g$ is <i>concave function</i>
+	$g$ is <i>concave function</i>
 
 </li>
 <li>
-	
-$g(\lambda,\nu)$
+	$g(\lambda,\nu)$
 is
 lower bound for optimal value of associated optimization problem
-,
+<i>i.e.</i>,
 
 $$
 g(\lambda,\nu) \leq p^\ast
 $$
 
 for every $\lambda\succeq_\bigpropercone^\ast0$
-where $\bigpropercone^\ast$ denotes dual cone of ,
-,
+where $\bigpropercone^\ast$ denotes dual cone of $\bigpropercone$,
+<i>i.e.</i>,
 $\bigpropercone^\ast = \bigtimes K_i^\ast$
 where $K_i^\ast\subset\reals^{k_i}$ is dual cone of $K_i\subset\reals^{k_i}$
 
 </li>
 <li>
-	
-$(\lambda,\nu)$
+	$(\lambda,\nu)$
 with $\lambda\succeq_\bigpropercone 0$ and $g(\lambda,\nu)>-\infty$
 said to be <span class="define">dual feasible</span>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-115">Lagrange dual problems for generalized inequalities</h3>
+<h3>Lagrange dual problems for generalized inequalities</h3>
 
 <div class="definition" id="definition:Lagrange dual problems for generalized inequalities" data-name="Lagrange dual problems for generalized inequalities">
 	
-for optimization problem in ~,
+for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>,
 optimization problem
 
 $$
@@ -8074,18 +7524,17 @@ g(\lambda,\nu)
 \end{array}
 $$
 
-where $\bigpropercone^\ast$ denotes dual cone of ,
-,
+where $\bigpropercone^\ast$ denotes dual cone of $\bigpropercone$,
+<i>i.e.</i>,
 $\bigpropercone^\ast = \bigtimes K_i^\ast$
 where $K_i^\ast\subset\reals^{k_i}$ is dual cone of $K_i\subset\reals^{k_i}$,
 called <span class="define">Lagrange dual problem</span>
-associated with problem in ~
+associated with problem in <a href="#definition:optimization problems with generalized inequalities"></a>
 
 	<ul>
 	<li>
-		
-every terminology and related notation
-is same as that in ~
+		every terminology and related notation
+is same as that in <a href="#definition:Lagrange dual problems"></a>
 such as
 dual feasibility,
 dual optimal value $d^\ast$,
@@ -8093,10 +7542,9 @@ optimal Lagrange multipliers $(\lambda^\ast,\nu^\ast)$
 
 	</li>
 	<li>
-		
-Lagrange dual problems for generalized inequalities
-{subsume}
-(normal) Lagrange dual problems (~)
+		Lagrange dual problems for generalized inequalities
+subsume
+(normal) Lagrange dual problems (<a href="#definition:Lagrange dual problems"></a>)
 
 	</li>
 	</ul>
@@ -8106,8 +7554,7 @@ Lagrange dual problems for generalized inequalities
 
 <ul>
 <li>
-	
-Lagrange dual problem in ~
+	Lagrange dual problem in <a href="#definition:Lagrange dual problems for generalized inequalities"></a>
 is convex optimization
 since $g(\lambda,\nu)$ is convex
 
@@ -8115,18 +7562,18 @@ since $g(\lambda,\nu)$ is convex
 </ul>
 
 
-<h3 id="my-foilhead-116">Slater's theorem for generalized inequalities</h3>
+<h3>Slater's theorem for generalized inequalities</h3>
 
 <div class="theorem" id="theorem:Slater's theorem for generalized inequalities" data-name="Slater's theorem for generalized inequalities">
 	
 if optimization problem
-in ~
+in <a href="#definition:optimization problems with generalized inequalities"></a>
 is convex,
-,
- is convex,
- is -convex
-(, every $\fie_i$ is $K_i$-convex)
-(~),
+<i>i.e.</i>,
+$\fobj$ is convex,
+$\fie$ is $\bigpropercone$-convex
+(<i>i.e.</i>, every $\fie_i$ is $K_i$-convex)
+(<a href="#definition:$K$-convex functions"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -8139,30 +7586,26 @@ $$
 
 	<ul>
 	<li>
-		
-such condition, called <span class="define">Slater's condition</span>
+		such condition, called <span class="define">Slater's condition</span>
 
 	</li>
 	<li>
-		
-such point, (sometimes) said to be <span class="define">strictly feasible</span>
+		such point, (sometimes) said to be <span class="define">strictly feasible</span>
 
 	</li>
 	<li>
-		
-note resemblance with Slater's theorem in ~
+		note resemblance with Slater's theorem in <a href="#theorem:Slater's theorem"></a>
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-117">Duality for SDP</h3>
+<h3>Duality for SDP</h3>
 
 <ul>
 <li>
-	
-(inequality form) SDP
+	(inequality form) SDP
 
 
 $$
@@ -8180,8 +7623,7 @@ and $\bigpropercone = \possemidefset{k}$
 
 </li>
 <li>
-	
-Lagrangian
+	Lagrangian
 
 $$
 L(x,Z)
@@ -8193,8 +7635,7 @@ where $X\bullet Y = \Tr XY$ for $X,Y\in\symset{k}$
 
 </li>
 <li>
-	
-Lagrange dual function
+	Lagrange dual function
 
 $$
 g(Z) = \inf_{x\in\reals^n} L(x,Z)
@@ -8211,8 +7652,7 @@ $$
 
 </li>
 <li>
-	
-Lagrange dual problem
+	Lagrange dual problem
 
 
 $$
@@ -8227,28 +7667,27 @@ Z \succeq 0
 \end{array}
 $$
 
-where fact that  is self-dual,
-,
+where fact that $\possemidefset{k}$ is self-dual,
+<i>i.e.</i>,
 $\bigpropercone^\ast = \bigpropercone$
 
 </li>
 <li>
-	
-Slater's theorem (~)
+	Slater's theorem (<a href="#theorem:Slater's theorem for generalized inequalities"></a>)
 implies if primal problem is strictly feasible,
-,
+<i>i.e.</i>,
 exists $x\in\reals^n$ such that $\sum x_iF_i + G\prec 0$,
 strong duality holds
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-118">KKT optimality conditions for generalized inequalities</h3>
+<h3>KKT optimality conditions for generalized inequalities</h3>
 
 <div class="definition" id="definition:KKT optimality conditions for generalized inequalities" data-name="KKT optimality conditions for generalized inequalities">
 	
-for optimization problem in ~
-where , , and  are all differentiable,
+for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\bigtimes \reals^{k_i} \times\reals^p$
 
@@ -8290,26 +7729,24 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 
 	<ul>
 	<li>
-		
-note KKT optimality conditions for generalized inequalities
+		note KKT optimality conditions for generalized inequalities
 subsume
 (normal) KKT optimality conditions
-(~)
+(<a href="#definition:KKT optimality conditions"></a>)
 
 	</li>
 	</ul>
 
 </div>
 
-<h3 id="my-foilhead-119">KKT conditions and optimalities for generalized inequalities</h3>
+<h3>KKT conditions and optimalities for generalized inequalities</h3>
 
 <ul>
 <li>
-	
-for every optimization problem with generalized inequalities
-(~),
+	for every optimization problem with generalized inequalities
+(<a href="#definition:optimization problems with generalized inequalities"></a>),
 every statement for normal optimization problem
-(~),
+(<a href="#definition:optimization problems"></a>),
 regarding relations among
 KKT conditions,
 optimality,
@@ -8319,30 +7756,26 @@ strong duality,
 is <i>exactly the same</i>
 	<ul>
 	<li>
-		
-for every optimization problem with generalized inequalities
-(~)
+		for every optimization problem with generalized inequalities
+(<a href="#definition:optimization problems with generalized inequalities"></a>)
 		<ul>
 		<li>
-			
-if strong duality holds,
+			if strong duality holds,
 primal and dual optimal points satisfy KKT optimality conditions
-in ~
-(same as ~)
+in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>
+(same as <a href="#theorem:KKT necessary for optimality with strong duality"></a>)
 
 		</li>
 		<li>
-			
-if optimization problem is convex and
+			if optimization problem is convex and
 primal and dual solutions satisfy KKT optimality conditions
-in ~,
+in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>,
 the solutions are optimal with strong duality
-(same as ~)
+(same as <a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>)
 
 		</li>
 		<li>
-			
-therefore,
+			therefore,
 for convex optimization problem,
 <i>KKT optimality conditions are necessary and sufficient
 for primal and dual optimality with strong duality</i>
@@ -8357,12 +7790,11 @@ for primal and dual optimality with strong duality</i>
 </ul>
 
 
-<h3 id="my-foilhead-120">Perturbation and sensitivity analysis for generalized inequalities</h3>
+<h3>Perturbation and sensitivity analysis for generalized inequalities</h3>
 
 <ul>
 <li>
-	
-original problem in ~
+	original problem in <a href="#definition:optimization problems with generalized inequalities"></a>
 with perturbed constraints
 
 $$
@@ -8381,16 +7813,14 @@ where $u\in\reals^m$ and $v\in\reals^p$
 
 </li>
 <li>
-	
-define $p^\ast(u,v) = p^\ast(u,v) = \inf\set{\fobj(x)}{x\in\optdomain, \fie(x) \preceq u, \feq(x) = v}$,
+	define $p^\ast(u,v) = p^\ast(u,v) = \inf\set{\fobj(x)}{x\in\optdomain, \fie(x) \preceq u, \feq(x) = v}$,
 which is convex when problem is convex optimization problem
 - note
 $p^\ast(0,0)=p^\ast$
 
 </li>
 <li>
-	
-as for normal optimization problem case (page~),
+	as for normal optimization problem case (page~),
 if and dual optimum $(\lambda^\ast,\nu^\ast)$,
 if strong duality holds,
 
@@ -8410,18 +7840,16 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-121">Sensitivity analysis for SDP</h3>
+<h3>Sensitivity analysis for SDP</h3>
 
 <ul>
 <li>
-	
-assume inequality form SDP and its dual problem
+	assume inequality form SDP and its dual problem
 on page~ and page~
 
 </li>
 <li>
-	
-consider perturbed SDP
+	consider perturbed SDP
 
 $$
 \begin{array}{ll}
@@ -8436,8 +7864,7 @@ $$
 for some $U\in\symset{k}$
 	<ul>
 	<li>
-		
-define $p^\ast:\symset{k} \to \reals$
+		define $p^\ast:\symset{k} \to \reals$
 such that
 $p^\ast(U)$ is optimal value of above problem
 
@@ -8446,14 +7873,12 @@ $p^\ast(U)$ is optimal value of above problem
 
 </li>
 <li>
-	
-assume $x^\ast\in\reals^n$ and $Z^\ast\in\possemidefset{k}$
+	assume $x^\ast\in\reals^n$ and $Z^\ast\in\possemidefset{k}$
 are primal and dual optimum with zero dualty gap
 
 </li>
 <li>
-	
-then
+	then
 
 $$
 p^\ast(U) \geq p^\ast - Z^\ast \bullet U
@@ -8462,8 +7887,7 @@ $$
 
 </li>
 <li>
-	
-if $\nabla_U p^\ast$ exists at $U=0$
+	if $\nabla_U p^\ast$ exists at $U=0$
 
 $$
 \nabla_U p^\ast(0) = - Z^\ast
@@ -8474,12 +7898,12 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-122">Weak alternatives for generalized inequalities</h3>
+<h3>Weak alternatives for generalized inequalities</h3>
 
 <div class="theorem" id="theorem:weak alternatives for generalized inequalities" data-name="weak alternatives for generalized inequalities">
 	
 for $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; $\feq:\xeq \to \reals^p$
-where  and  are subsets of common Banach space
+where $\xie$ and $\xeq$ are subsets of common Banach space
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$,
 and $\lambda \in \bigtimes \reals^{k_i}$ &amp; $\nu \in \reals^p$,
 below pairs of systems are strong alternatives
@@ -8522,18 +7946,18 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-~
+<a href="#theorem:weak alternatives of two systems"></a>
 and
-~
+<a href="#theorem:weak alternatives of two systems with strict inequalities"></a>
 
 </div>
 
-<h3 id="my-foilhead-123">Strong alternatives for generalized inequalities</h3>
+<h3>Strong alternatives for generalized inequalities</h3>
 
 <div class="theorem" id="theorem:strong alternatives for generalized inequalities" data-name="strong alternatives for generalized inequalities">
 	
-for -convex $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; affine $\feq:\xeq \to \reals^p$
-where  and  are subsets of $\reals^n$
+for $\bigpropercone$-convex $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; affine $\feq:\xeq \to \reals^p$
+where $\xie$ and $\xeq$ are subsets of $\reals^n$
 assuming $\optdomain = \xie \cap \xeq \neq \emptyset$,
 and $\lambda \in \bigtimes \reals^{k_i}$ &amp; $\nu \in \reals^p$,
 if exists $x\in\relint \optdomain$ with $\feq(x)=0$,
@@ -8577,22 +8001,20 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-~
+<a href="#theorem:strong alternatives of two systems"></a>
 and
-~
+<a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
 
 </div>
 
-<h3 id="my-foilhead-124">Strong alternatives for SDP</h3>
+<h3>Strong alternatives for SDP</h3>
 
 <ul>
 <li>
-	
-for $F_1,\ldots,F_n,G\in\symset{k}$, $x\in\reals^n$, and $Z\in\symset{k}$
+	for $F_1,\ldots,F_n,G\in\symset{k}$, $x\in\reals^n$, and $Z\in\symset{k}$
 	<ul>
 	<li>
-		
-below systems are strong alternatives
+		below systems are strong alternatives
 
 $$
 x_1F_1 + \cdots + x_nF_n + G \prec 0
@@ -8608,8 +8030,7 @@ $$
 
 	</li>
 	<li>
-		
-if $\sum v_i F_i \succeq 0 \Rightarrow \sum v_i F_i = 0$,
+		if $\sum v_i F_i \succeq 0 \Rightarrow \sum v_i F_i = 0$,
 below systems are strong alternatives
 
 $$
@@ -8634,14 +8055,13 @@ $$
 <h2 id="Unconstrained Minimization">Unconstrained Minimization</h2>
 
 
-<h3 id="my-foilhead-125">Unconstrained minimization</h3>
+<h3>Unconstrained minimization</h3>
 
 <ul>
 <li>
-	
-consider
+	consider
 unconstrained convex optimization problem,
-, $m=p=0$ in ~
+<i>i.e.</i>, $m=p=0$ in <a href="#definition:convex optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -8655,25 +8075,21 @@ domain of optimization problem is $\optdomain\ = \xobj \subset \reals^n$
 
 </li>
 <li>
-	
-assume
+	assume
 	<ul>
 	<li>
-		
- is twice-differentiable (hence by definition  is open)
+		$\fobj$ is twice-differentiable (hence by definition $\xobj$ is open)
 
 	</li>
 	<li>
-		
-optimal solution $x^\ast$ exists, , $p^\ast = \inf_{x\in\optdomain} \fobj(x) = \fobj(x^\ast)$
+		optimal solution $x^\ast$ exists, <i>i.e.</i>, $p^\ast = \inf_{x\in\optdomain} \fobj(x) = \fobj(x^\ast)$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-~
+	<a href="#theorem:first-order condition for convexity"></a>
 implies
 $x^\ast$ is optimal solution
 if and only if
@@ -8685,11 +8101,10 @@ $$
 
 </li>
 <li>
-	
-can solve above equation directly for few cases,
+	can solve above equation directly for few cases,
 but usually
 depend on iterative method,
-,
+<i>i.e.</i>,
 find sequence of points $\xseqk{0}, \xseqk{1}, \ldots \in \xobj$
 such that
 $\lim_{k\to\infty} \fobj(\xseqk{k}) = p^\ast$
@@ -8698,17 +8113,15 @@ $\lim_{k\to\infty} \fobj(\xseqk{k}) = p^\ast$
 </ul>
 
 
-<h3 id="my-foilhead-126">Requirements for iterative methods</h3>
+<h3>Requirements for iterative methods</h3>
 
 <ul>
 <li>
-	
-requirements for iterative methods
+	requirements for iterative methods
 	<ul>
 	<li>
-		
-initial point  should be in domain of optimization problem,
-
+		initial point $\xseqk{0}$ should be in domain of optimization problem,
+<i>i.e.</i>
 
 $$
 \xseqk{0} \in \xobj\
@@ -8717,8 +8130,7 @@ $$
 
 	</li>
 	<li>
-		
-sublevel set of $\fobj(\xseqk{0})$
+		sublevel set of $\fobj(\xseqk{0})$
 
 $$
 S = \bigset{x\in\xobj}{\fobj(x) \leq \fobj(\xseqk{0})}
@@ -8731,27 +8143,23 @@ should be closed
 
 </li>
 <li>
-	
-<i>e.g.</i>
+	<i>e.g.</i>
 	<ul>
 	<li>
-		
-sublevel set of $\fobj(\xseqk{0})$
+		sublevel set of $\fobj(\xseqk{0})$
 is closed for all $\xseqk{0}\in\xobj$
-if  is closed, , all its sublevel sets are closed
+if $\fobj$ is closed, <i>i.e.</i>, all its sublevel sets are closed
 
 	</li>
 	<li>
-		
- is closed
-if $\xobj = \reals^n$ and  is continuous
+		$\fobj$ is closed
+if $\xobj = \reals^n$ and $\fobj$ is continuous
 
 	</li>
 	<li>
-		
- is closed
-if  is continuous,
- is open,
+		$\fobj$ is closed
+if $\fobj$ is continuous,
+$\xobj$ is open,
 and $\fobj(x) \to \infty$ as $x \to \boundary \xobj$
 
 	</li>
@@ -8761,12 +8169,11 @@ and $\fobj(x) \to \infty$ as $x \to \boundary \xobj$
 </ul>
 
 
-<h3 id="my-foilhead-127">Unconstrained minimization examples</h3>
+<h3>Unconstrained minimization examples</h3>
 
 <ul>
 <li>
-	
-convex quadratic problem
+	convex quadratic problem
 
 $$
 \begin{array}{ll}
@@ -8779,8 +8186,7 @@ $$
 where $P\in\possemidefset{n}$ and $q\in\reals^n$
 	<ul>
 	<li>
-		
-solution obtained by solving
+		solution obtained by solving
 
 $$
 \nabla \fobj(x^\ast) = P x^\ast + q = 0
@@ -8788,21 +8194,18 @@ $$
 
 		<ul>
 		<li>
-			
-if solution exists, $x^\ast = - P^\dagger q$ (thus $p^\ast>-\infty$)
+			if solution exists, $x^\ast = - P^\dagger q$ (thus $p^\ast>-\infty$)
 
 		</li>
 		<li>
-			
-otherwise, problem is unbounded below, , $p^\ast = -\infty$
+			otherwise, problem is unbounded below, <i>i.e.</i>, $p^\ast = -\infty$
 
 		</li>
 		</ul>
 
 	</li>
 	<li>
-		
-<span class="eemph">
+		<span class="eemph">
 ability to analytically solve quadratic minimization problem
 is basis for Newton's method,
 power method for unconstrained minimization
@@ -8810,8 +8213,7 @@ power method for unconstrained minimization
 
 	</li>
 	<li>
-		
-least-squares (LS) is special case of convex quadratic problem
+		least-squares (LS) is special case of convex quadratic problem
 
 $$
 \begin{array}{ll}
@@ -8823,8 +8225,7 @@ $$
 
 		<ul>
 		<li>
-			
-optimal always exists, can be obtained via normal equations
+			optimal always exists, can be obtained via normal equations
 
 $$
 A^T Ax^\ast = b
@@ -8839,8 +8240,7 @@ $$
 
 </li>
 <li>
-	
-unconstrained GP
+	unconstrained GP
 
 $$
 \begin{array}{ll}
@@ -8855,8 +8255,7 @@ $$
 for $A\in\reals^{m\times n}$ and $b\in\reals^m$
 	<ul>
 	<li>
-		
-solution obtained by solving
+		solution obtained by solving
 
 $$
 \nabla \fobj(x^\ast) = \frac{\sum A^T \exp(Ax^\ast+b)}{\sum \exp(Ax^\ast+b)} = 0
@@ -8865,10 +8264,9 @@ $$
 
 	</li>
 	<li>
-		
-need to resort to iterative method -
-since $\xobj = \reals^n$ and  is continuous,
- is closed,
+		need to resort to iterative method -
+since $\xobj = \reals^n$ and $\fobj$ is continuous,
+$\fobj$ is closed,
 hence
 every point in $\reals^n$ can be initial point
 
@@ -8877,8 +8275,7 @@ every point in $\reals^n$ can be initial point
 
 </li>
 <li>
-	
-analytic center of linear inequalities
+	analytic center of linear inequalities
 
 $$
 \begin{array}{ll}
@@ -8890,26 +8287,23 @@ $$
 where $\xobj = \set{x\in\reals^n}{b-Ax \succ 0}$
 	<ul>
 	<li>
-		
-need to resort to iterative method -
-since  is open,  is continuous,
+		need to resort to iterative method -
+since $\xobj$ is open, $\fobj$ is continuous,
 and $\fobj(x) \to \infty$ as $x\to\boundary \xobj$,
- is closed,
+$\fobj$ is closed,
 hence
-every point in  can be initial point
+every point in $\xobj$ can be initial point
 
 	</li>
 	<li>
-		
-, called <span class="define">logarithmic barrier</span> for inequalities $Ax\preceq b$
+		$\fobj$, called <span class="define">logarithmic barrier</span> for inequalities $Ax\preceq b$
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-analytic center of LMI
+	analytic center of LMI
 
 $$
 \begin{array}{ll}
@@ -8928,18 +8322,16 @@ where $F_i\in \symset{k}$
 and $\xobj = \set{x\in\reals^n}{F(x)\succ 0}$
 	<ul>
 	<li>
-		
-need to resort to iterative method -
-since  is open,  is continuous,
+		need to resort to iterative method -
+since $\xobj$ is open, $\fobj$ is continuous,
 and $\fobj(x) \to \infty$ as $x\to\boundary \xobj$,
- is closed,
+$\fobj$ is closed,
 hence
-every point in  can be initial point
+every point in $\xobj$ can be initial point
 
 	</li>
 	<li>
-		
-, called <span class="define">logarithmic barrier</span> for LMI
+		$\fobj$, called <span class="define">logarithmic barrier</span> for LMI
 
 	</li>
 	</ul>
@@ -8948,12 +8340,11 @@ every point in  can be initial point
 </ul>
 
 
-<h3 id="my-foilhead-128">Strong convexity and implications</h3>
+<h3>Strong convexity and implications</h3>
 
 <ul>
 <li>
-	
-function $\fobj$ is strongly convex on $S$
+	function $\fobj$ is strongly convex on $S$
 
 $$
 \left(
@@ -8970,8 +8361,7 @@ $$
 
 </li>
 <li>
-	
-strong convexity implies for every $x,y\in S$
+	strong convexity implies for every $x,y\in S$
 
 $$
 \fobj(y) \geq \fobj(x) + \nabla \fobj(x)^T (y-x) + ({m}/{2}) \|y-x\|_2^2
@@ -8979,11 +8369,10 @@ $$
 
 	<ul>
 	<li>
-		
-which implies
+		which implies
 gradient provides optimality certificate
 and tells us how far current point is from optimum,
-
+<i>i.e.</i>
 
 $$
 \fobj(x) - p^\ast \leq ({1}/{2m}) \|\nabla \fobj(x)\|_2^2
@@ -8997,10 +8386,9 @@ $$
 
 </li>
 <li>
-	
-first equation implies sublevel sets contained in $S$ is bounded,
+	first equation implies sublevel sets contained in $S$ is bounded,
 hence continuous function $\nabla^2 \fobj(x)$ is also bounded,
-,
+<i>i.e.</i>,
 $\left( \exists M >0 \right) \left( \nabla^2 \fobj(x) \preceq M I \right)$,
 then
 
@@ -9013,7 +8401,7 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-129">Iterative methods</h3>
+<h3>Iterative methods</h3>
 
 <div class="definition" id="definition:iterative meethods" data-name="iterative meethods">
 	
@@ -9034,15 +8422,15 @@ $$
 $$
 
 called <span class="define">iterative method with search direction</span>
-where , called <span class="define">search direction</span>,
-, called <span class="define">step length</span> (which actually is not length)
+where $\sdirk{k}$, called <span class="define">search direction</span>,
+$\slenk{k}$, called <span class="define">step length</span> (which actually is not length)
 
 </div>
 <div class="definition" id="definition:descent methods" data-name="descent methods">
 	
 for function $f:S\to\reals$,
 iterative method reducing function value,
-
+<i>i.e.</i>
 
 $$
 \fobj(\xseqk{k+1}) \leq \fobj(\xseqk{k})
@@ -9054,15 +8442,15 @@ called <span class="define">descent method</span>
 </div>
 
 
-<h3 id="my-foilhead-130">Line search methods</h3>
+<h3>Line search methods</h3>
 
 <div class="definition" id="definition:line search method" data-name="line search method">
 	
 for iterating method with search directions,
 determining
-search direction 
+search direction $\sdirk{k}$
 and
-step length 
+step length $\slenk{k}$
 for each step,
 called <span class="define">line search method</span>
 
@@ -9070,7 +8458,7 @@ called <span class="define">line search method</span>
 <div class="algorithm" id="algorithm:exact line search" data-name="exact line search">
 	
 for descent iterating method with search directions,
-determine  by
+determine $\slen$ by
 
 $$
 \slen = \argmin_{s>0} \fobj(x +s\sdir)
@@ -9081,59 +8469,86 @@ $$
 <div class="algorithm" id="algorithm:backtracking line search" data-name="backtracking line search">
 	
 for descent iterating method with search directions,
-determine  by
+determine $\slen$ by
+<ul>
+<li>
+	<strong>Require:</strong>	$\fobj$, \sdirk{k}, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+</li>
 
- $\fobj$, , $\alpha\in(0,0.5)$, $\beta\in(0,1)$
- $\slen:=1$
+<li>
+	<strong></strong>	$\slen:=1$ 
+</li>
 
+<li>
+	<strong>while</strong>	$\fobj(\xseqk{k} + \slen \sdirk{k}) > \fobj(\xseqk{k}) + \alpha \slen \nabla \fobj(\xseqk{k})^T \sdirk{k}$ do
+</li>
 
+<li>
+	<strong></strong>	$\slen := \beta \slen$ 
+</li>
 
-
+<li>
+	<strong>end while</strong>
+</li>
+</ul>
 
 </div>
 
 
-<h3 id="my-foilhead-131">Gradient descent method</h3>
+<h3>Gradient descent method</h3>
 
 <div class="algorithm" id="algorithm:gradient descent method" data-name="gradient descent method">
 	
+<ul>
+<li>
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ 
+</li>
 
- $\fobj$, initial point $x\in \dom \fobj$
+<li>
+	<strong>repeat</strong>
+</li>
+<li>
+	<strong></strong>	search direction - $\sdir := - \nabla \fobj(x)$ 
+</li>
 
+<li>
+	<strong></strong>	do line search to choose $\slen>0$ 
+</li>
 
+<li>
+	<strong></strong>	update - $x := x + \slen \sdir$ 
+</li>
 
+<li>
+	<strong>until</strong>	stopping criterion satisfied 
+</li>
 
-
-
+</ul>
 
 </div>
 
-<h3 id="my-foilhead-132">Summary of gradient descent method</h3>
+<h3>Summary of gradient descent method</h3>
 
 <ul>
 <li>
-	
-gradient method often exhibits approximately linear convergence,
-,
+	gradient method often exhibits approximately linear convergence,
+<i>i.e.</i>,
 error $\fobj(\xseqk{k})-p^\ast$ converges to zero approximately as geometric series
 
 </li>
 <li>
-	
-choice of backtracking parameters $\alpha$ and $\beta$
+	choice of backtracking parameters $\alpha$ and $\beta$
 has noticeable but not dramatic effect on convergence
 
 </li>
 <li>
-	
-exact line search sometimes improves convergence of gradient method,
+	exact line search sometimes improves convergence of gradient method,
 but not by large,
 hence mostly not worth implementation
 
 </li>
 <li>
-	
-converge rate depends greatly on condition number of Hessian
+	converge rate depends greatly on condition number of Hessian
 or sublevel sets
 - when condition number if large, gradient method can be useless
 
@@ -9141,26 +8556,23 @@ or sublevel sets
 </ul>
 
 
-<h3 id="my-foilhead-133">Newton's method - motivation</h3>
+<h3>Newton's method - motivation</h3>
 
 <ul>
 <li>
-	
-second-order Taylor expansion of $\fobj$
+	second-order Taylor expansion of $\fobj$
 -
 $\hat{\fobj}(\sdir) =
 \fobj(x + \sdir) = \fobj(x) + \nabla \fobj(x)^T \sdir + \frac{1}{2} \sdir^T \nabla^2 \fobj(x) \sdir$
 
 </li>
 <li>
-	
-minimum of Taylor expansion achieved when
+	minimum of Taylor expansion achieved when
 $\nabla \hat{\fobj}(\sdir) = \nabla \fobj(x) + \nabla^2 \fobj(x) v = 0$
 
 </li>
 <li>
-	
-solution called <span class="define">Newton step</span>
+	solution called <span class="define">Newton step</span>
 
 $$
 \sdir_\mathrm{nt}(x) = - \nabla^2 \fobj(x)^{-1} \nabla \fobj(x)
@@ -9170,13 +8582,11 @@ assuming $\nabla^2\fobj(x)\succ0$
 
 </li>
 <li>
-	
-thus Newton step minimizes local quadratic approximation of function
+	thus Newton step minimizes local quadratic approximation of function
 
 </li>
 <li>
-	
-difference of current and quadratic approximation minimum
+	difference of current and quadratic approximation minimum
 
 $$
 \fobj(x) - \hat{\fobj}(\sdir_\mathrm{tn}(x))
@@ -9189,8 +8599,7 @@ $$
 
 </li>
 <li>
-	
-<span class="define">Newton decrement</span>
+	<span class="define">Newton decrement</span>
 
 
 
@@ -9207,28 +8616,52 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-134">Newton's method</h3>
+<h3>Newton's method</h3>
 
 <div class="algorithm" id="algorithm:Newton's method" data-name="Newton's method">
 	
 damped descent method using Newton step
+<ul>
+<li>
+	<strong>Require:</strong>	\fobj, initial point $x\in \dom \fobj$, tolerance $\epsilon>0$ 
+</li>
 
- , initial point $x\in \dom \fobj$, tolerance $\epsilon>0$
+<li>
+	<strong>loop</strong>
+</li>
+<li>
+	<strong></strong>	computer Newton step and descrement
+$$
+\sdir_\mathrm{nt}(x) := -\nabla^2 \fobj(x)^{-1} \nabla \fobj(x)
+\quad
+\lambda(x)^2 := \nabla \fobj(x)^T \nabla^2 \fobj(x)^{-1} \nabla \fobj(x)
+$$
+ 
+</li>
 
+<li>
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+</li>
 
+<li>
+	<strong></strong>	do line search to choose $t>0$ 
+</li>
 
+<li>
+	<strong></strong>	update - $x := x + \slen \sdir_\mathrm{nt}$ 
+</li>
 
-
-
-
+<li>
+	<strong>end loop</strong>
+</li>
+</ul>
 
 </div>
 
 
 <ul>
 <li>
-	
-Newton step is descent direction since
+	Newton step is descent direction since
 
 $$
 \left.
@@ -9248,16 +8681,14 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-135">Assumptions for convergence analysis of Newton's method</h3>
+<h3>Assumptions for convergence analysis of Newton's method</h3>
 
 <ul>
 <li>
-	
-assumptions
+	assumptions
 	<ul>
 	<li>
-		
-strong convexity and boundedness of Hessian on sublevel set
+		strong convexity and boundedness of Hessian on sublevel set
 
 $$
 \left(
@@ -9274,8 +8705,7 @@ $$
 
 	</li>
 	<li>
-		
-Lipschitz continuity of Hessian on sublevel set
+		Lipschitz continuity of Hessian on sublevel set
 
 $$
 \left(
@@ -9295,18 +8725,16 @@ $$
 
 </li>
 <li>
-	
-Lipschitz continuity constant $L$ plays critical role
+	Lipschitz continuity constant $L$ plays critical role
 in performance of Newton's method
 	<ul>
 	<li>
-		
-intuition says
+		intuition says
 Newton's method
 works well for functions
 whose quadratic approximations
 do not change fast,
-,
+<i>i.e.</i>,
 when $L$ is small
 
 	</li>
@@ -9316,7 +8744,7 @@ when $L$ is small
 </ul>
 
 
-<h3 id="my-foilhead-136">Convergence analysis of Newton's method</h3>
+<h3>Convergence analysis of Newton's method</h3>
 
 <div class="theorem" id="theorem:convergence analysis of Newton's method" data-name="convergence analysis of Newton's method">
 	
@@ -9328,8 +8756,7 @@ for each step $k$
 
 	<ul>
 	<li>
-		
-damped Newton phase
+		damped Newton phase
 -
 if $\|\nabla \fobj(\xseqk{k})\|_2 \geq \eta$,
 
@@ -9340,8 +8767,7 @@ $$
 
 	</li>
 	<li>
-		
-quadratic convergence phase
+		quadratic convergence phase
 -
 if $\|\nabla \fobj(\xseqk{k})\|_2 < \eta$,
 backtracking line search selects step length $\slenk{k}=1$
@@ -9371,37 +8797,33 @@ $$
 
 </div>
 
-<h3 id="my-foilhead-137">Summary of Newton's method</h3>
+<h3>Summary of Newton's method</h3>
 
 <ul>
 <li>
-	
-Newton's method is <i>affine invariant</i>,
+	Newton's method is <i>affine invariant</i>,
 hence <i>performance is independent of condition number unlike gradient method</i>
 
 </li>
 <li>
-	
-once entering quadratic convergence phase,
+	once entering quadratic convergence phase,
 Newton's method converges extremely fast
 
 </li>
 <li>
-	
-performance not much dependent on choice of algorithm parameters
+	performance not much dependent on choice of algorithm parameters
 
 </li>
 <li>
-	
-big disadvantage is
+	big disadvantage is
 computational cost for evaluating search direction,
-, solving linear system
+<i>i.e.</i>, solving linear system
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-138">Self-concordance</h3>
+<h3>Self-concordance</h3>
 
 <div class="definition" id="definition:self-concordance" data-name="self-concordance">
 	
@@ -9455,17 +8877,16 @@ are self-concordant
 </div>
 
 
-<h3 id="my-foilhead-139">Why self-concordance?</h3>
+<h3>Why self-concordance?</h3>
 
 <ul>
 <li>
-	
-convergence analysis of Newton's method depends on
+	convergence analysis of Newton's method depends on
 assumptions about function characteristics,
 <i>e.g.</i>,
 $m,M, L > 0$
 for strong convexity, continuity of Hessian,
-
+<i>i.e.</i>
 
 $$
 m I \preceq \nabla^2 f(x) \preceq M I
@@ -9476,8 +8897,7 @@ $$
 
 </li>
 <li>
-	
-<span class="define">self-concordance</span>
+	<span class="define">self-concordance</span>
 discovered by Nesterov and Nemirovski
 (who gave name self-concordance)
 plays important role
@@ -9485,20 +8905,17 @@ for reasons
 such as
 	<ul>
 	<li>
-		
-convergence analysis does not depend any function characterizing paramters
+		convergence analysis does not depend any function characterizing paramters
 
 	</li>
 	<li>
-		
-many barrier functions which are used for interior-point methods,
+		many barrier functions which are used for interior-point methods,
 which are important class of optimization algorithms
 are self-concordance
 
 	</li>
 	<li>
-		
-property of self-concordance is affine invariant
+		property of self-concordance is affine invariant
 
 	</li>
 	</ul>
@@ -9506,12 +8923,12 @@ property of self-concordance is affine invariant
 </li>
 </ul>
 
-<h3 id="my-foilhead-140">Self-concordance preserving operations</h3>
+<h3>Self-concordance preserving operations</h3>
 
 <div class="proposition" id="proposition:self-concordance preserving operations" data-name="self-concordance preserving operations">
 	
 self-concordance is preserved by <i>positive scaling, addition, and affine transformation,</i>
-,
+<i>i.e.</i>,
 if $f, g:X\to\reals$ are self-concordant functions with $X\subset\reals^n$,
 $h:H\to\reals^n$ with $H\subset \reals^m$ are affine functions,
 and $a>0$
@@ -9530,12 +8947,11 @@ $\dom f\circ h = \set{x\in H}{h(x) \in X}$
 
 </div>
 
-<h3 id="my-foilhead-141">Self-concordant function examples</h3>
+<h3>Self-concordant function examples</h3>
 
 <ul>
 <li>
-	
-negative logarithm
+	negative logarithm
 -
 $f:\ppreals \to \reals$ with
 
@@ -9552,8 +8968,7 @@ $$
 
 </li>
 <li>
-	
-negative entropy plus negative logarithm
+	negative entropy plus negative logarithm
 -
 $f:\ppreals \to \reals$ with 
 $$
@@ -9570,8 +8985,7 @@ $$
 
 </li>
 <li>
-	
-log barrier for linear inequalities
+	log barrier for linear inequalities
 -
 for $A\in\reals^{m\times n}$ and $b\in\reals^m$
 
@@ -9582,13 +8996,12 @@ $$
 with $\dom f = \set{x\in\reals^n}{b-Ax \succ 0}$
 is self-concordant
 by
-~,
-, $f$ is affine transformation of sum of self-concordant functions
+<a href="#proposition:self-concordance preserving operations"></a>,
+<i>i.e.</i>, $f$ is affine transformation of sum of self-concordant functions
 
 </li>
 <li>
-	
-log-determinant
+	log-determinant
 -
 $f:\posdefset{n}\to\reals$
 with
@@ -9606,9 +9019,9 @@ since
 
 $$
 \begin{eqnarray*}
-\lefteqn{
-g(t) = - \log \det (X^{1/2} (I + tX^{-1/2} V X^{-1/2})X^{1/2})
-}
+
+g(t) &=& - \log \det (X^{1/2} (I + tX^{-1/2} V X^{-1/2})X^{1/2})
+
 \\
 &=&
 -\log\det X - \log\det(I+tX^{-1/2}VX^{-1/2})
@@ -9622,13 +9035,12 @@ where
 $\lambda_i(X,V)$ is $i$-th eigenvalue of $X^{-1/2}VX^{1/2}$
 is self-concordant
 by
-~,
-, $g$ is affine transformation of sum of self-concordant functions
+<a href="#proposition:self-concordance preserving operations"></a>,
+<i>i.e.</i>, $g$ is affine transformation of sum of self-concordant functions
 
 </li>
 <li>
-	
-log of concave quadratic
+	log of concave quadratic
 -
 $f:X\to\reals$
 with
@@ -9644,8 +9056,7 @@ $X=\set{x\in\reals^n}{x^TPx + q^Tx + r<0}$
 
 </li>
 <li>
-	
-function $f:X\to\reals$
+	function $f:X\to\reals$
 with
 
 $$
@@ -9665,40 +9076,34 @@ are self-concordant
 if $g$ is one of below
 	<ul>
 	<li>
-		
-$g(x) = -x^p$ for $0<p\leq 1$
+		$g(x) = -x^p$ for $0<p\leq 1$
 
 	</li>
 	<li>
-		
-$g(x) = -\log x$
+		$g(x) = -\log x$
 
 	</li>
 	<li>
-		
-$g(x) = x \log x$
+		$g(x) = x \log x$
 
 	</li>
 	<li>
-		
-$g(x) = x^p$ for $-1\leq p\leq 0$
+		$g(x) = x^p$ for $-1\leq p\leq 0$
 
 	</li>
 	<li>
-		
-$g(x) = (ax+b)^2/x$ for $a,b\in\reals$
+		$g(x) = (ax+b)^2/x$ for $a,b\in\reals$
 
 	</li>
 	</ul>
 since above $g$ satisfy
 $|g'''(x)| \leq 3 g''(x)/x$
 for every $x\in\dom g$
-(~)
+(<a href="#proposition:self-concordance for logarithms"></a>)
 
 </li>
 <li>
-	
-function $f:X\to\reals$
+	function $f:X\to\reals$
 with $X = \set{(x,y)}{\|x\|_2 < y}\subset \reals^n \times \ppreals$
 defined by
 
@@ -9706,12 +9111,11 @@ $$
 f(x,y) = -\log(y^2-x^Tx)
 $$
 
-is self-concordant - can be proved using ~
+is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
 
 </li>
 <li>
-	
-function $f:X\to\reals$
+	function $f:X\to\reals$
 with $X = \set{(x,y)}{|x|^p < y}\subset \reals \times \ppreals$
 defined by
 
@@ -9720,12 +9124,11 @@ f(x,y) = -2\log y - \log(y^{2/p}- x^2)
 $$
 
 where $p\geq1$
-is self-concordant - can be proved using ~
+is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
 
 </li>
 <li>
-	
-function $f:X\to\reals$
+	function $f:X\to\reals$
 with $X = \set{(x,y)}{\exp(x) < y}\subset \reals \times \ppreals$
 defined by
 
@@ -9733,12 +9136,12 @@ $$
 f(x,y) = -\log y - \log(\log y - x)
 $$
 
-is self-concordant - can be proved using ~
+is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-142">Properties of self-concordant functions</h3>
+<h3>Properties of self-concordant functions</h3>
 
 <div class="definition" id="definition:Newton decrement" data-name="Newton decrement">
 	
@@ -9755,8 +9158,7 @@ called <span class="define">Newton decrement</span>
 
 	<ul>
 	<li>
-		
-note
+		note
 
 $$
 \lambda(x)
@@ -9791,14 +9193,13 @@ if $\lambda(x) \leq 0.68$
 </div>
 
 
-<h3 id="my-foilhead-143">Stopping criteria for self-concordant objective functions</h3>
+<h3>Stopping criteria for self-concordant objective functions</h3>
 
 <ul>
 <li>
-	
-recall $\lambda(x)^2$ provides <i>approximate</i> optimality certificate,
+	recall $\lambda(x)^2$ provides <i>approximate</i> optimality certificate,
 (page~)
-,
+<i>i.e.</i>,
 assuming $\fobj$ is well approximated by quadratic function around $x$
 
 $$
@@ -9808,10 +9209,9 @@ $$
 
 </li>
 <li>
-	
-however, strict convexity together with self-concordance
+	however, strict convexity together with self-concordance
 provides proven bound
-(by ~)
+(by <a href="#theorem:optimality certificate for self-concordant functions"></a>)
 
 $$
 \fobj(x) - p^\ast \leq \lambda(x)^2
@@ -9821,8 +9221,7 @@ for $\lambda(x) \leq 0.68$
 
 </li>
 <li>
-	
-hence can use following stopping criterion for guaranteed bound
+	hence can use following stopping criterion for guaranteed bound
 
 $$
 \lambda(x)^2 \leq \epsilon
@@ -9838,18 +9237,17 @@ for $\epsilon \leq 0.68^2$
 </ul>
 
 
-<h3 id="my-foilhead-144">Convergence analysis of Newton's method for self-concordant functions</h3>
+<h3>Convergence analysis of Newton's method for self-concordant functions</h3>
 
 <div class="theorem" id="theorem:convergence analysis of Newton's method for self-concordant functions" data-name="convergence analysis of Newton's method for self-concordant functions">
 	
-for strictly convex self-concordant function ,
+for strictly convex self-concordant function $\fobj$,
 exist $0<\eta\leq 1/4$ and $\gamma>0$ (which depend only on line search parameters)
 such that
 
 	<ul>
 	<li>
-		
-damped Newton phase
+		damped Newton phase
 -
 if $\lambda(\xseqk{k})>\eta$
 
@@ -9860,8 +9258,7 @@ $$
 
 	</li>
 	<li>
-		
-quadratic convergence phase
+		quadratic convergence phase
 -
 if $\lambda(\xseqk{k})\leq\eta$
 backtracking line search selects step length $\slenk{k}=1$
@@ -9891,14 +9288,13 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 <h2 id="Equality Constrained Minimization">Equality Constrained Minimization</h2>
 
 
-<h3 id="my-foilhead-145">Equality constrained minimization</h3>
+<h3>Equality constrained minimization</h3>
 
 <ul>
 <li>
-	
-consider
+	consider
 equality constrained convex optimization problem,
-, $m=0$ in ~
+<i>i.e.</i>, $m=0$ in <a href="#definition:convex optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -9917,23 +9313,19 @@ domain of optimization problem is $\optdomain\ = \xobj \subset \reals^n$
 
 </li>
 <li>
-	
-assume
+	assume
 	<ul>
 	<li>
-		
-$\rank A = p<n$,
-, rows of $A$ are linearly independent
+		$\rank A = p<n$,
+<i>i.e.</i>, rows of $A$ are linearly independent
 
 	</li>
 	<li>
-		
- is twice-differentiable (hence by definition  is open)
+		$\fobj$ is twice-differentiable (hence by definition $\xobj$ is open)
 
 	</li>
 	<li>
-		
-optimal solution $x^\ast$ exists, , $p^\ast = \inf_{x\in\optfeasset} \fobj(x) = \fobj(x^\ast)$
+		optimal solution $x^\ast$ exists, <i>i.e.</i>, $p^\ast = \inf_{x\in\optfeasset} \fobj(x) = \fobj(x^\ast)$
 and $Ax^\ast = b$
 
 	</li>
@@ -9943,18 +9335,17 @@ and $Ax^\ast = b$
 </ul>
 
 
-<h3 id="my-foilhead-146">Solving KKT for equality constrained minimization</h3>
+<h3>Solving KKT for equality constrained minimization</h3>
 
 <ul>
 <li>
-	
-~
+	<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
 implies
 $x^\ast\in\xobj$ is optimal solution if and only if
 exists $\nu^\ast\in\reals^p$
 satisfy KKT optimality conditions,
 
-,
+<i>i.e.</i>,
 
 $$
 \begin{eqnarray*}
@@ -9969,31 +9360,26 @@ $$
 
 </li>
 <li>
-	
-solving equality constrained problem
+	solving equality constrained problem
 is equivalent to
 solving KKT equations
 	<ul>
 	<li>
-		
-handful types of problems can be solved analytically
+		handful types of problems can be solved analytically
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-using unconstrained minimization methods
+	using unconstrained minimization methods
 	<ul>
 	<li>
-		
-can eliminate equality constraints and apply unconstrained minimization methods
+		can eliminate equality constraints and apply unconstrained minimization methods
 
 	</li>
 	<li>
-		
-solving dual problem using unconstrained minimization methods
+		solving dual problem using unconstrained minimization methods
 and retrieve primal solution (refer to page~)
 
 	</li>
@@ -10001,12 +9387,10 @@ and retrieve primal solution (refer to page~)
 
 </li>
 <li>
-	
-will discuss Newton's method directly handling equality constraints
+	will discuss Newton's method directly handling equality constraints
 	<ul>
 	<li>
-		
-preserving problem structure such as sparsity
+		preserving problem structure such as sparsity
 
 	</li>
 	</ul>
@@ -10015,12 +9399,11 @@ preserving problem structure such as sparsity
 </ul>
 
 
-<h3 id="my-foilhead-147">Equality constrained convex quadratic minimization</h3>
+<h3>Equality constrained convex quadratic minimization</h3>
 
 <ul>
 <li>
-	
-equality constrained convex quadratic minimization problem
+	equality constrained convex quadratic minimization problem
 
 $$
 \begin{array}{ll}
@@ -10036,13 +9419,11 @@ where $P\in\possemidefset{n}$ and $A\in\reals^{p\times n}$
 
 </li>
 <li>
-	
-important since basis for extension of Newton's method to equality constrained problems
+	important since basis for extension of Newton's method to equality constrained problems
 
 </li>
 <li>
-	
-<span class="define">KKT system</span>
+	<span class="define">KKT system</span>
 
 $$
 Ax^\ast = b \; \& \; Px^\ast + q + A^T\nu^\ast = 0
@@ -10060,38 +9441,33 @@ $$
 
 </li>
 <li>
-	
-exist primal and dual optimum $(x^\ast,\nu^\ast)$ if and only if KKT system has solution;
+	exist primal and dual optimum $(x^\ast,\nu^\ast)$ if and only if KKT system has solution;
 otherwise, problem is unbounded below
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-148">Eliminating equality constraints</h3>
+<h3>Eliminating equality constraints</h3>
 
 <ul>
 <li>
-	
-can solve equality constrained convex optimization
+	can solve equality constrained convex optimization
 by
 	<ul>
 	<li>
-		
-eliminating equality constraints and
+		eliminating equality constraints and
 
 	</li>
 	<li>
-		
-using optimization method for solving unconstrained optimization
+		using optimization method for solving unconstrained optimization
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-note
+	note
 
 $$
 \optfeasset
@@ -10106,8 +9482,7 @@ where $\range(F) = \nullspace(A)$
 
 </li>
 <li>
-	
-thus original problem equivalent to
+	thus original problem equivalent to
 
 $$
 \begin{array}{ll}
@@ -10119,13 +9494,11 @@ $$
 
 </li>
 <li>
-	
-if $z^\ast$ is optimal solution, $x^\ast = Fz^\ast + x_0$
+	if $z^\ast$ is optimal solution, $x^\ast = Fz^\ast + x_0$
 
 </li>
 <li>
-	
-optimal dual can be retrieved by
+	optimal dual can be retrieved by
 
 $$
 \nu^\ast = - (AA^T)^{-1} A\nabla \fobj(x^\ast)
@@ -10135,12 +9508,11 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-149">Solving dual problems</h3>
+<h3>Solving dual problems</h3>
 
 <ul>
 <li>
-	
-Lagrange dual function of equality constrained problem
+	Lagrange dual function of equality constrained problem
 
 $$
 \begin{eqnarray*}
@@ -10165,8 +9537,7 @@ $$
 
 </li>
 <li>
-	
-dual problem
+	dual problem
 
 $$
 \begin{array}{ll}
@@ -10178,8 +9549,7 @@ $$
 
 </li>
 <li>
-	
-by assumption, strong duality holds, hence
+	by assumption, strong duality holds, hence
 if $\nu^\ast$ is dual optimum
 
 $$
@@ -10189,39 +9559,33 @@ $$
 
 </li>
 <li>
-	
-if dual objective is twice-differentiable,
+	if dual objective is twice-differentiable,
 can solve dual problem using unconstrained minimization methods
 
 </li>
 <li>
-	
-primal optimum can be retrieved using method on page~)
+	primal optimum can be retrieved using method on page~)
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-150">Newton's method with equality constraints</h3>
+<h3>Newton's method with equality constraints</h3>
 
 <ul>
 <li>
-	
-finally discuss Newton's method which directly handles equality constraints
+	finally discuss Newton's method which directly handles equality constraints
 	<ul>
 	<li>
-		
-similar to Newton's method for unconstrained minimization
+		similar to Newton's method for unconstrained minimization
 
 	</li>
 	<li>
-		
-initial point, however, should be feasible, , $\xseqk{0}\in\xobj$ and $A\xseqk{0} = b$
+		initial point, however, should be feasible, <i>i.e.</i>, $\xseqk{0}\in\xobj$ and $A\xseqk{0} = b$
 
 	</li>
 	<li>
-		
-Newton step tailored for equality constrained problem
+		Newton step tailored for equality constrained problem
 
 	</li>
 	</ul>
@@ -10230,12 +9594,11 @@ Newton step tailored for equality constrained problem
 </ul>
 
 
-<h3 id="my-foilhead-151">Newton step via second-order approximation</h3>
+<h3>Newton step via second-order approximation</h3>
 
 <ul>
 <li>
-	
-solve original problem approximately by solving
+	solve original problem approximately by solving
 
 $$
 \begin{array}{ll}
@@ -10251,8 +9614,7 @@ where $x\in\optfeasset$
 
 </li>
 <li>
-	
-<i>Newton step for equality constrained minimization problem</i>,
+	<i>Newton step for equality constrained minimization problem</i>,
 defined by
 solution of
 KKT system
@@ -10271,12 +9633,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-152">Newton step via solving linearized KKT optimality conditions</h3>
+<h3>Newton step via solving linearized KKT optimality conditions</h3>
 
 <ul>
 <li>
-	
-recall KKT optimality conditions for equality constrained convex optimization problem
+	recall KKT optimality conditions for equality constrained convex optimization problem
 
 $$
 Ax^\ast = b
@@ -10289,8 +9650,7 @@ $$
 
 </li>
 <li>
-	
-linearize KKT conditions
+	linearize KKT conditions
 
 $$
 \begin{eqnarray*}
@@ -10316,8 +9676,7 @@ where $x\in\optfeasset$
 
 </li>
 <li>
-	
-Newton step defined by above equations
+	Newton step defined by above equations
 is equivalent
 to
 that obtained by second-order approximation
@@ -10326,12 +9685,11 @@ that obtained by second-order approximation
 </ul>
 
 
-<h3 id="my-foilhead-153">Newton decrement for equality constrained minimization</h3>
+<h3>Newton decrement for equality constrained minimization</h3>
 
 <ul>
 <li>
-	
-<span class="define">Newton descrement for equality constrained problem</span>
+	<span class="define">Newton descrement for equality constrained problem</span>
 is defined by
 
 $$
@@ -10345,17 +9703,15 @@ $$
 
 </li>
 <li>
-	
-same expression as that for unconstrained minimization,
+	same expression as that for unconstrained minimization,
 but is <i>different</i>
 since Newton step $\sdir_\mathrm{nt}$ is different from that for unconstrained minimization,
-, $\sdir_\mathrm{nt} \neq -\nabla^2 \fobj(x)^{-1} \nabla \fobj(x)$
-(refer to ~)
+<i>i.e.</i>, $\sdir_\mathrm{nt} \neq -\nabla^2 \fobj(x)^{-1} \nabla \fobj(x)$
+(refer to <a href="#definition:Newton decrement"></a>)
 
 </li>
 <li>
-	
-however, as before,
+	however, as before,
 
 $$
 \fobj(x) - \inf_{\sdir\in\reals^n}\set{\hat{\fobj}(x+\sdir)}{A(x+\sdir)=b}
@@ -10382,35 +9738,52 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-154">Feasible Newton's method for equality constrained minimization</h3>
+<h3>Feasible Newton's method for equality constrained minimization</h3>
 
 <div class="algorithm" id="algorithm:feasible Newton's method for equality constrained minimization" data-name="feasible Newton's method for equality constrained minimization">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$ 
+</li>
 
- $\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$
+<li>
+	<strong>loop</strong>
+</li>
+<li>
+	<strong></strong>	computer Newton step and descrement $\ntsdir(x)$ \& $\lambda(x)$
+ 
+</li>
 
+<li>
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+</li>
 
+<li>
+	<strong></strong>	do line search on \fobj\ to choose $t>0$ 
+</li>
 
+<li>
+	<strong></strong>	update - $x := x + \slen \ntsdir$ 
+</li>
 
-
-
-
+<li>
+	<strong>end loop</strong>
+</li>
+</ul>
 
 </div>
 <ul>
 <li>
-	
-~
+	<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
 	<ul>
 	<li>
-		
-assumes
+		assumes
 KKT matrix is nonsingular for every step
 
 	</li>
 	<li>
-		
-is <i>feasible descent method</i>
+		is <i>feasible descent method</i>
 since all iterates are feasible with $\fobj(\xseqk{k+1}) <\fobj(\xseqk{k})$
 
 	</li>
@@ -10420,24 +9793,21 @@ since all iterates are feasible with $\fobj(\xseqk{k+1}) <\fobj(\xseqk{k})$
 </ul>
 
 
-<h3 id="my-foilhead-155">Assumptions for convergence analysis of feasible Newton's method for equality constrained minimization</h3>
+<h3>Assumptions for convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
 
 <ul>
 <li>
-	
-feasibility of initial point - $\xseqk{0}\in\dom \fobj \;\&\; A\xseqk{0}=b$
+	feasibility of initial point - $\xseqk{0}\in\dom \fobj \;\&\; A\xseqk{0}=b$
 
 </li>
 <li>
-	
-sublevel set $S = \set{x\in \dom \fobj}{\fobj(x) \leq \fobj(\xseqk{0}),\; Ax=b}$
+	sublevel set $S = \set{x\in \dom \fobj}{\fobj(x) \leq \fobj(\xseqk{0}),\; Ax=b}$
 is closed
 
 </li>
 <li>
-	
-boundedness of Hessian on $S$
+	boundedness of Hessian on $S$
 
 $$
 \left(
@@ -10454,8 +9824,7 @@ $$
 
 </li>
 <li>
-	
-boundedness of KKT matrix on $S$
+	boundedness of KKT matrix on $S$
 - corresponds to strong convexity assumption in unconstrained minimization
 
 $$
@@ -10476,8 +9845,7 @@ $$
 
 </li>
 <li>
-	
-Lipschitz continuity of Hessian on $S$
+	Lipschitz continuity of Hessian on $S$
 
 $$
 \left(
@@ -10499,33 +9867,29 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-156">Convergence analysis of feasible Newton's method for equality constrained minimization</h3>
+<h3>Convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
 
 <ul>
 <li>
-	
-convergence analysis of Newton's method for equality constrained minimization
+	convergence analysis of Newton's method for equality constrained minimization
 can be done by analyzing
 unconstrained minimization after eliminating equality constraints
 
 </li>
 <li>
-	
-thus, yield <i>exactly same</i> results as
+	thus, yield <i>exactly same</i> results as
 for unconstrained minimization
-(~)
+(<a href="#theorem:convergence analysis of Newton's method"></a>)
 (with different parameter values),
-,
+<i>i.e.</i>,
 	<ul>
 	<li>
-		
-consists of damped Newton phase and quadratic convergence phase
+		consists of damped Newton phase and quadratic convergence phase
 
 	</li>
 	<li>
-		
-# iterations required to achieve $\fobj(\xseqk{k})-p^\ast \leq \epsilon$
+		# iterations required to achieve $\fobj(\xseqk{k})-p^\ast \leq \epsilon$
 is
 
 $$
@@ -10538,12 +9902,11 @@ $$
 
 </li>
 <li>
-	
-for # iterations required to achieve $\fobj(\xseqk{k})-p^\ast \leq \epsilon$
+	for # iterations required to achieve $\fobj(\xseqk{k})-p^\ast \leq \epsilon$
 for self-concordant functions
 is also same as
 for unconstrained minimization
-(~)
+(<a href="#theorem:convergence analysis of Newton's method for self-concordant functions"></a>)
 
 $$
 \left(\fobj(\xseqk{0}) - p^\ast\right)/{\gamma}
@@ -10556,17 +9919,15 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 </ul>
 
 
-<h3 id="my-foilhead-157">Newton step at infeasible points</h3>
+<h3>Newton step at infeasible points</h3>
 
 <ul>
 <li>
-	
-only assume that $x\in\dom \fobj$ (hence, can be infeasible)
+	only assume that $x\in\dom \fobj$ (hence, can be infeasible)
 
 </li>
 <li>
-	
-(as before) linearize KKT conditions
+	(as before) linearize KKT conditions
 
 $$
 \begin{eqnarray*}
@@ -10598,24 +9959,21 @@ $$
 
 </li>
 <li>
-	
-same as feasible Newton step <i>except second component on RHS of KKT system</i>
+	same as feasible Newton step <i>except second component on RHS of KKT system</i>
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-158">Interpretation as primal-dual Newton step</h3>
+<h3>Interpretation as primal-dual Newton step</h3>
 
 <ul>
 <li>
-	
-update both primal and dual variables $x$ and $\nu$
+	update both primal and dual variables $x$ and $\nu$
 
 </li>
 <li>
-	
-define $r:\reals^n\to\reals^p\to\reals^n\times\reals^p$
+	define $r:\reals^n\to\reals^p\to\reals^n\times\reals^p$
 by
 
 $$
@@ -10647,12 +10005,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-159">Equivalence of infeasible Newton step to primal-dual Newton step</h3>
+<h3>Equivalence of infeasible Newton step to primal-dual Newton step</h3>
 
 <ul>
 <li>
-	
-linearize $r$ to obtain primal-dual Newton step, 
+	linearize $r$ to obtain primal-dual Newton step, <i>i.e.</i>
 
 $$
 \begin{eqnarray*}
@@ -10670,8 +10027,7 @@ $$
 
 </li>
 <li>
-	
-letting $\nu^+= \nu + \pdsdirnu$ gives
+	letting $\nu^+= \nu + \pdsdirnu$ gives
 
 $$
 \mattwotwo{\nabla^2f(x)}{A^T}{A}{0}
@@ -10682,13 +10038,11 @@ $$
 
 	<ul>
 	<li>
-		
-equivalent to infeasible Newton step
+		equivalent to infeasible Newton step
 
 	</li>
 	<li>
-		
-reveals that current value of dual variable not needed
+		reveals that current value of dual variable not needed
 
 	</li>
 	</ul>
@@ -10697,23 +10051,22 @@ reveals that current value of dual variable not needed
 </ul>
 
 
-<h3 id="my-foilhead-160">Residual norm reduction property</h3>
+<h3>Residual norm reduction property</h3>
 
 <ul>
 <li>
-	
-infeasible Newton step is <i>not</i> descent direction (unlike feasible Newton step)
+	infeasible Newton step is <i>not</i> descent direction (unlike feasible Newton step)
 since
 
 $$
 \begin{eqnarray*}
-\lefteqn{
+
 \left. \left(
 \frac{d}{dt}\fobj(x+t\pdsdir)
 \right) \right|_{t=0}
-=
+&=&
 \nabla \fobj(x) ^T \pdsdir
-}
+
 \\
 &=&
 - \pdsdir^T \left(\nabla^2 \fobj(x) \pdsdir + A^Tw \right)
@@ -10726,8 +10079,7 @@ which is not necessarily negative
 
 </li>
 <li>
-	
-however, norm of residual decreases in infeasible Newton direction
+	however, norm of residual decreases in infeasible Newton direction
 
 $$
 \begin{eqnarray*}
@@ -10762,19 +10114,17 @@ where $y=(x,\nu)$ and $\pdsdiry = (\pdsdir, \pdsdirnu)$
 
 </li>
 <li>
-	
-can use $r(\xseqk{k},\nuseqk{k})$ to measure optimization progress for infeasible Newton's method
+	can use $r(\xseqk{k},\nuseqk{k})$ to measure optimization progress for infeasible Newton's method
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-161">Full and damped step feasibility property</h3>
+<h3>Full and damped step feasibility property</h3>
 
 <ul>
 <li>
-	
-assume step length is $t$ at some iteration,
+	assume step length is $t$ at some iteration,
 then
 
 $$
@@ -10786,8 +10136,7 @@ $$
 
 </li>
 <li>
-	
-hence
+	hence
 $l>k$
 
 $$
@@ -10802,13 +10151,11 @@ $$
 
 	<ul>
 	<li>
-		
-primal residual reduced by $1-\seqk{t}{k}$ at step $k$
+		primal residual reduced by $1-\seqk{t}{k}$ at step $k$
 
 	</li>
 	<li>
-		
-Newton step becomes feasible step once full step length ($t=1$) taken
+		Newton step becomes feasible step once full step length ($t=1$) taken
 
 	</li>
 	</ul>
@@ -10817,41 +10164,64 @@ Newton step becomes feasible step once full step length ($t=1$) taken
 </ul>
 
 
-<h3 id="my-foilhead-162">Infeasible Newton's method for equality constrained minimization</h3>
+<h3>Infeasible Newton's method for equality constrained minimization</h3>
 
 <div class="algorithm" id="algorithm:infeasible Newton's method for equality constrained minimization" data-name="infeasible Newton's method for equality constrained minimization">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ \& $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ \& $\epsilon_\mathrm{dual}>0$ 
+</li>
 
- $\fobj$, initial point $x\in \dom \fobj$ &amp; $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ &amp; $\epsilon_\mathrm{dual}>0$
+<li>
+	<strong>repeat</strong>
+</li>
+<li>
+	<strong></strong>	computer Newton step and descrement
+$\pdsdir(x)$
+\&
+$\pdsdirnu(x)$,
+\
+ 
+</li>
 
+<li>
+	<strong></strong>	do line search on $r(x,\nu)$ to choose $\slen>0$ 
+</li>
 
+<li>
+	<strong></strong>	update
+-
+$x := x + \slen \pdsdir$
+\&
+$\nu := \nu + \slen \pdsdirnu$
+ 
+</li>
 
+<li>
+	<strong>until</strong>	$\|r_\mathrm{dual}(x,\nu)\| \leq \epsilon_\mathrm{dual}$ \& $\|Ax-b\| \leq \epsilon_\mathrm{pri}$ 
+</li>
 
-
-
+</ul>
 
 </div>
 <ul>
 <li>
-	
-note similarity and difference of
-~
+	note similarity and difference of
+<a href="#algorithm:infeasible Newton's method for equality constrained minimization"></a>
 &amp;
-~
+<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
 	<ul>
 	<li>
-		
-line search done not on , but on primal-dual residuals $r(x,\nu)$
+		line search done not on $\fobj$, but on primal-dual residuals $r(x,\nu)$
 
 	</li>
 	<li>
-		
-stopping criteria depends on $r(x,\nu)$, not on Newton decrementa $\lambda(x)^2$
+		stopping criteria depends on $r(x,\nu)$, not on Newton decrementa $\lambda(x)^2$
 
 	</li>
 	<li>
-		
-primal and dual feasibility checked separately
+		primal and dual feasibility checked separately
 - here norm in $\|Ax-b\|$ can be any norm,
 <i>e.g.</i>,
 $\|\cdot\|_0$,
@@ -10867,29 +10237,27 @@ depending on specific application
 </ul>
 
 
-<h3 id="my-foilhead-163">Line search methods for infeasible Newton's method</h3>
+<h3>Line search methods for infeasible Newton's method</h3>
 
 
 <ul>
 <li>
-	
-line search methods for infeasible Newton's method,
-,
-~
+	line search methods for infeasible Newton's method,
+<i>i.e.</i>,
+<a href="#algorithm:exact line search"></a>
 &amp;
-~
-same with  replaced by $\|r(x,\nu)\|_2$,
+<a href="#algorithm:backtracking line search"></a>
+same with $\fobj$ replaced by $\|r(x,\nu)\|_2$,
 
 </li>
 <li>
-	
-but they have special forms (of course)
+	but they have special forms (of course)
 - refer to below special case descriptions
 
 </li>
 </ul>
 <div class="algorithm" id="algorithm:exact line search for infeasible Newton's method" data-name="exact line search for infeasible Newton's method">
-	;
+	 
 
 $$
 \slen = \argmin_{s>0} \|r(x +s\pdsdir, \nu + s\pdsdirnu)\|_2
@@ -10898,40 +10266,52 @@ $$
 
 </div>
 <div class="algorithm" id="algorithm:backtracking line search for infeasible Newton's method" data-name="backtracking line search for infeasible Newton's method">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	\sdir, \sdirnu, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+</li>
 
- , , $\alpha\in(0,0.5)$, $\beta\in(0,1)$
- $\slen:=1$
+<li>
+	<strong></strong>	$\slen:=1$ 
+</li>
 
+<li>
+	<strong>while</strong>	$\|r(x +\slen\pdsdir, \nu + \slen\pdsdirnu)\|_2 > (1-\alpha \slen)\|r(x,\nu)\|_2$
+ do
+</li>
 
+<li>
+	<strong></strong>	$\slen := \beta \slen$ 
+</li>
 
-
+<li>
+	<strong>end while</strong>
+</li>
+</ul>
 
 </div>
 
 
-<h3 id="my-foilhead-164">Pros and cons of infeasible Newton's method</h3>
+<h3>Pros and cons of infeasible Newton's method</h3>
 
 <ul>
 <li>
-	 pros
+	pros
 	<ul>
 	<li>
-		
-do not need to find feasible point separately,
+		do not need to find feasible point separately,
 <i>e.g.</i>
 		<ul>
 		<li>
-			
-&ldquo;''
+			&ldquo;''
 
 		</li>
 		</ul>
 can be solved by converting to
 		<ul>
 		<li>
-			
-&ldquo;''
+			&ldquo;''
 
 		</li>
 		</ul>
@@ -10939,8 +10319,7 @@ and solved by infeasible Newton's method
 
 	</li>
 	<li>
-		
-if step length is one at any iteration,
+		if step length is one at any iteration,
 following steps coincides with feasible Newton's method
 - could switch to feasible Newton's method
 
@@ -10949,17 +10328,15 @@ following steps coincides with feasible Newton's method
 
 </li>
 <li>
-	 cons
+	cons
 	<ul>
 	<li>
-		
-exists no clear way to detect feasibility - primal residual decreases slowly
+		exists no clear way to detect feasibility - primal residual decreases slowly
 (phase I method in interior point method resolves this problem)
 
 	</li>
 	<li>
-		
-convergence of infeasible Newton's method can be very slow
+		convergence of infeasible Newton's method can be very slow
 (until feasibility is achieved0
 
 	</li>
@@ -10969,13 +10346,12 @@ convergence of infeasible Newton's method can be very slow
 </ul>
 
 
-<h3 id="my-foilhead-165">Assumptions for convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
+<h3>Assumptions for convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
 
 
 <ul>
 <li>
-	
-sublevel set $S = \bigset{(x,\nu)\in \dom \fobj\times \reals^m}{
+	sublevel set $S = \bigset{(x,\nu)\in \dom \fobj\times \reals^m}{
 \|r(x,\nu)\|_2
 \leq
 \|r(\xseqk{0},\nuseqk{0})\|_2
@@ -10985,8 +10361,7 @@ which always holds because $\|r\|_2$ is closed
 
 </li>
 <li>
-	
-boundedness of KKT matrix on $S$
+	boundedness of KKT matrix on $S$
 
 $$
 \left(
@@ -11010,8 +10385,7 @@ $$
 
 </li>
 <li>
-	
-Lipschitz continuity of Hessian on $S$
+	Lipschitz continuity of Hessian on $S$
 
 $$
 \left(
@@ -11031,31 +10405,27 @@ $$
 
 </li>
 <li>
-	
-above assumptions imply $\set{x\in\dom \fobj}{Ax=b}\neq\emptyset$
+	above assumptions imply $\set{x\in\dom \fobj}{Ax=b}\neq\emptyset$
 and exist optimal point $(x^\ast,\nu^\ast)$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-166">Convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
+<h3>Convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
 
 <ul>
 <li>
-	
-very simliar to that for Newton's method for unconstrained minimization
+	very simliar to that for Newton's method for unconstrained minimization
 
 </li>
 <li>
-	
-consist of two phases - like unconstrained minimization or infeasible Newton's method (refer to
-~
+	consist of two phases - like unconstrained minimization or infeasible Newton's method (refer to
+<a href="#theorem:convergence analysis of Newton's method"></a>
 or page~)
 	<ul>
 	<li>
-		
-damped Newton phase
+		damped Newton phase
 -
 if $\|r(\xseqk{k},\nuseqk{k})\|_2> 1/(K^2L)$
 
@@ -11069,8 +10439,7 @@ $$
 
 	</li>
 	<li>
-		
-quadratic convergence
+		quadratic convergence
 damped Newton phase
 -
 if $\|r(\xseqk{k},\nuseqk{k})\|_2 \leq 1/(K^2L)$
@@ -11090,8 +10459,7 @@ $$
 
 </li>
 <li>
-	
-# iterations of infeasible Newton's method required to satisfy $\|r(\xseqk{k},\nuseqk{k})\|_2\leq\epsilon$
+	# iterations of infeasible Newton's method required to satisfy $\|r(\xseqk{k},\nuseqk{k})\|_2\leq\epsilon$
 
 $$
 \|r(\xseqk{0},\nuseqk{0})\| /(\alpha \beta / K^2L)
@@ -11101,8 +10469,7 @@ $$
 
 </li>
 <li>
-	
-$(\xseqk{k},\nuseqk{k})$ converges to $(x^\ast,\nu^\ast)$
+	$(\xseqk{k},\nuseqk{k})$ converges to $(x^\ast,\nu^\ast)$
 
 </li>
 </ul>
@@ -11111,32 +10478,27 @@ $(\xseqk{k},\nuseqk{k})$ converges to $(x^\ast,\nu^\ast)$
 <h2 id="Barrier Interior-point Methods">Barrier Interior-point Methods</h2>
 
 
-<h3 id="my-foilhead-167">Interior-point methods</h3>
+<h3>Interior-point methods</h3>
 
 <ul>
 <li>
-	
-want to solve inequality constrained minimization problem
+	want to solve inequality constrained minimization problem
 
 </li>
 <li>
-	
-interior-point methods solve convex optimization problem (~)
-or KKT optimality conditions (~)
+	interior-point methods solve convex optimization problem (<a href="#definition:convex optimization"></a>)
+or KKT optimality conditions (<a href="#definition:KKT optimality conditions"></a>)
 by
 	<ul>
 	<li>
-		
-applying Newton's method to sequence of
+		applying Newton's method to sequence of
 		<ul>
 		<li>
-			
-equality constrained problems or
+			equality constrained problems or
 
 		</li>
 		<li>
-			
-modified versions of KKT optimality conditions
+			modified versions of KKT optimality conditions
 
 		</li>
 		</ul>
@@ -11146,28 +10508,23 @@ modified versions of KKT optimality conditions
 
 </li>
 <li>
-	
-discuss interior-point <span class="define">barrier method</span> &amp; interior-point <span class="define">primal-dual method</span>
+	discuss interior-point <span class="define">barrier method</span> &amp; interior-point <span class="define">primal-dual method</span>
 
 </li>
 <li>
-	
-hierarchy of convex optimization algorithms
+	hierarchy of convex optimization algorithms
 	<ul>
 	<li>
-		
-simplest - linear equality constrained quadratic program - can solve analytically
+		simplest - linear equality constrained quadratic program - can solve analytically
 
 	</li>
 	<li>
-		
-Newton's method - solve linear equality constrained convex optimization problem
+		Newton's method - solve linear equality constrained convex optimization problem
 by solving sequence of linear equality constrained quadratic programs
 
 	</li>
 	<li>
-		
-interior-point methods
+		interior-point methods
 - solve linear equality &amp; convex inequality constrained problem
 by solving sequence of lienar equality constrained convex optimization problem
 
@@ -11178,17 +10535,15 @@ by solving sequence of lienar equality constrained convex optimization problem
 </ul>
 
 
-<h3 id="my-foilhead-168">Indicator function barriers</h3>
+<h3>Indicator function barriers</h3>
 
 <ul>
 <li>
-	
-approxmiate general convex inequality constrained problem as linear equality constrained problem
+	approxmiate general convex inequality constrained problem as linear equality constrained problem
 
 </li>
 <li>
-	
-make inequality constraints implicit in objective function
+	make inequality constraints implicit in objective function
 
 $$
 \begin{array}{ll}
@@ -11200,7 +10555,7 @@ Ax=b
 \end{array}
 $$
 
-where $I_-:\reals\to \reals$ is indicator function for nonpositive real numbers, 
+where $I_-:\reals\to \reals$ is indicator function for nonpositive real numbers, <i>i.e.</i>
 
 $$
 I_{-}(u) = \left\{\begin{array}{ll}
@@ -11215,12 +10570,11 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-169">Logarithmic barriers</h3>
+<h3>Logarithmic barriers</h3>
 
 <ul>
 <li>
-	
-approximate indicator function by logarithmic function
+	approximate indicator function by logarithmic function
 
 $$
 \hat{I}_- = -(1/t) \log(-u)
@@ -11243,20 +10597,17 @@ $$
 
 </li>
 <li>
-	
-objective function is convex due to composition rule for convexity preservation
+	objective function is convex due to composition rule for convexity preservation
 (page~),
 and differentiable
 
 </li>
 <li>
-	
-hence, can use Newton's method to solve it
+	hence, can use Newton's method to solve it
 
 </li>
 <li>
-	
-function $\phi$ defined by
+	function $\phi$ defined by
 
 $$
 \phi(x) = - \sum \log(-\fie(x))
@@ -11267,20 +10618,18 @@ called <span class="define">logarithmic barrier</span> or <span class="define">l
 
 </li>
 <li>
-	
-solve sequence of log barrier problems as we increase $t$
+	solve sequence of log barrier problems as we increase $t$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-170">Central path</h3>
+<h3>Central path</h3>
 
 
 <ul>
 <li>
-	
-optimization problem
+	optimization problem
 
 $$
 \begin{array}{ll}
@@ -11302,19 +10651,17 @@ $$
 
 </li>
 <li>
-	
-solution of above problem, called <span class="define">central point</span>, denoted by <span class="define">$x^\ast(t)$</span>,
+	solution of above problem, called <span class="define">central point</span>, denoted by <span class="define">$x^\ast(t)$</span>,
 set of central points, called <span class="define">central path</span>
 
 </li>
 <li>
-	
-intuition says $x^\ast(t)$ will converge to $x^\ast$
+	intuition says $x^\ast(t)$ will converge to $x^\ast$
 as $t\to\infty$
 
 </li>
 <li>
-	 KKT conditions imply
+	KKT conditions imply
 
 $$
 Ax^\ast(t) = b \quad \fie(x^\ast(t)) \prec 0
@@ -11338,8 +10685,7 @@ $$
 
 </li>
 <li>
-	
-thus if we let $\lambda^\ast(t) = -1/t\fie_i(x^\ast(t))$,
+	thus if we let $\lambda^\ast(t) = -1/t\fie_i(x^\ast(t))$,
 $x^\ast(t)$ minimizes
 
 $$
@@ -11347,23 +10693,22 @@ L(x,\lambda^\ast(t),\nu^\ast(t))
 = \fobj(x) + {\lambda^\ast(t)}^T \fie(x) + {\nu^\ast(t)}^T (Ax-b)
 $$
 
-where $L$ is Lagrangian of original problem in ~
+where $L$ is Lagrangian of original problem in <a href="#definition:convex optimization"></a>
 
 </li>
 <li>
-	
-hence, dual function $g(\lambda^\ast(t),\nu^\ast(t))$ is finite
+	hence, dual function $g(\lambda^\ast(t),\nu^\ast(t))$ is finite
 and
 
 $$
 \begin{eqnarray*}
-\lefteqn{
+
 g(\lambda^\ast(t), \nu^\ast(t))
-=
+&=&
 \inf_{x\in\xdomain} L(x,\lambda^\ast(t),\nu^\ast(t))
-=
+&=&
 L(x^\ast(t),\lambda^\ast(t),\nu^\ast(t))
-}
+
 \\
 &
 =
@@ -11383,7 +10728,7 @@ $$
 
 </li>
 <li>
-	 []
+	
 that is,
 
 
@@ -11395,7 +10740,7 @@ $x^\ast(t)$ is no more than $m/t$-suboptimal
 
 </li>
 <li>
-	 []
+	
 which
 confirms out intuition that $x^\ast(t)\to x^\ast$ as $t\to\infty$
 
@@ -11403,13 +10748,12 @@ confirms out intuition that $x^\ast(t)\to x^\ast$ as $t\to\infty$
 </ul>
 
 
-<h3 id="my-foilhead-171">Central path interpretation via KKT conditions</h3>
+<h3>Central path interpretation via KKT conditions</h3>
 
 <ul>
 <li>
-	
-previous arguments imply that $x$ is central point,
-, $x=x^\ast(t)$ for some $t>0$
+	previous arguments imply that $x$ is central point,
+<i>i.e.</i>, $x=x^\ast(t)$ for some $t>0$
 if and only if
 exist $\lambda$ and $\nu$ such that
 
@@ -11447,13 +10791,11 @@ called <span class="define">centrality conditions</span>
 
 </li>
 <li>
-	
-only difference between centrality conditions and KKT conditions in ~
+	only difference between centrality conditions and KKT conditions in <a href="#definition:KKT optimality conditions"></a>
 is <i>complementary $1/t$-slackness</i>
 	<ul>
 	<li>
-		
-note that I've just made up term &ldquo;complementary $1/t$-slackness''
+		note that I've just made up term &ldquo;complementary $1/t$-slackness''
 - you won't be able to find terminology in any literature
 
 	</li>
@@ -11461,34 +10803,29 @@ note that I've just made up term &ldquo;complementary $1/t$-slackness''
 
 </li>
 <li>
-	
-for large $t$, $\lambda^\ast(t)$ &amp; $\nu^\ast(t)$ <i>very closely</i> satisfy (true) complementary slackness
+	for large $t$, $\lambda^\ast(t)$ &amp; $\nu^\ast(t)$ <i>very closely</i> satisfy (true) complementary slackness
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-172">Central path interpretation via force field</h3>
+<h3>Central path interpretation via force field</h3>
 
 <ul>
 <li>
-	
-assume exist no equality constraints
+	assume exist no equality constraints
 
 </li>
 <li>
-	
-interpret $\phi$ as potential energy by some force field, <i>e.g.</i>, electrical field
+	interpret $\phi$ as potential energy by some force field, <i>e.g.</i>, electrical field
 and $t\fobj$ as potential energy by some other force field, <i>e.g.</i>, gravity
 
 </li>
 <li>
-	
-then
+	then
 	<ul>
 	<li>
-		
-force by first force field (in $n$-dimensional space), which we call <i>barrier force</i>, is
+		force by first force field (in $n$-dimensional space), which we call <i>barrier force</i>, is
 
 $$
 - \nabla \phi(x) = \sum \frac{1}{\fie_i(x)} \nabla \fie_i(x)
@@ -11497,8 +10834,7 @@ $$
 
 	</li>
 	<li>
-		
-force by second force field, which we call <i>objective force</i>, is
+		force by second force field, which we call <i>objective force</i>, is
 
 $$
 - \nabla (t\fobj(x)) = -t \nabla \fobj(x)
@@ -11510,17 +10846,14 @@ $$
 
 </li>
 <li>
-	
-$x^\ast(t)$ is point where two forces exactly balance each other
+	$x^\ast(t)$ is point where two forces exactly balance each other
 	<ul>
 	<li>
-		
-as $x$ approach boundary, barrier force pushes $x$ harder from barriers,
+		as $x$ approach boundary, barrier force pushes $x$ harder from barriers,
 
 	</li>
 	<li>
-		
-as $t$ increases, objective force pushes $x$ harder to point where objective potential energy is minimized
+		as $t$ increases, objective force pushes $x$ harder to point where objective potential energy is minimized
 
 	</li>
 	</ul>
@@ -11529,18 +10862,16 @@ as $t$ increases, objective force pushes $x$ harder to point where objective pot
 </ul>
 
 
-<h3 id="my-foilhead-173">Equality constrained problem using log barrier</h3>
+<h3>Equality constrained problem using log barrier</h3>
 
 <ul>
 <li>
-	
-central point $x^\ast(t)$ is $m/t$-suboptimal point
+	central point $x^\ast(t)$ is $m/t$-suboptimal point
 guaranteed by optimality certificate $g(\lambda^\ast(t),\nu^\ast(t))$
 
 </li>
 <li>
-	
-hence solving below problem provides solution with $\epsilon$-suboptimality
+	hence solving below problem provides solution with $\epsilon$-suboptimality
 
 $$
 \begin{array}{ll}
@@ -11555,8 +10886,7 @@ $$
 
 </li>
 <li>
-	
-but works only for small problems
+	but works only for small problems
 since for large $m/\epsilon$,
 objective function ill behaves
 
@@ -11564,31 +10894,58 @@ objective function ill behaves
 </ul>
 
 
-<h3 id="my-foilhead-174">Barrier methods</h3>
+<h3>Barrier methods</h3>
 
 <div class="algorithm" id="algorithm:barrier method" data-name="barrier method">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$ 
+</li>
 
- strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$
+<li>
+	<strong>repeat</strong>
+</li>
+<li>
+	<strong></strong>	centering step -
+find $x^\ast(t)$
+by minimizing $t\fobj + \phi$ subject to $Ax=b$
+starting at $x$
+ 
+</li>
 
+<li>
+	<strong></strong>	(optionally)
+compute $\lambda^\ast(t)$ \& $\nu^\ast(t)$
+ 
+</li>
 
+<li>
+	<strong></strong>	stopping criterion - quit if $m/t<\epsilon$
+ 
+</li>
 
+<li>
+	<strong></strong>	increase $t$ - $t := \mu t$
+ 
+</li>
 
+<li>
+	<strong></strong>	update $x$ - $x := x^\ast(t)$
+ 
+</li>
 
-
-
-
+\Until
+</ul>
 
 </div>
 <ul>
 <li>
-	
-<span class="define">barrier method</span>, also called <span class="define">path-following method</span>,
+	<span class="define">barrier method</span>, also called <span class="define">path-following method</span>,
 solves sequence of equality constrained optimization problem with log barrier
 	<ul>
 	<li>
-		
-when first proposed by Fiacco and McCormick in 1960s,
+		when first proposed by Fiacco and McCormick in 1960s,
 it was called <span class="define">sequential unconstrained minimization technique (SUMT)</span>
 
 	</li>
@@ -11596,39 +10953,34 @@ it was called <span class="define">sequential unconstrained minimization techniq
 
 </li>
 <li>
-	
-<span class="define">centering step</span> also called <span class="define">outer iteration</span>
+	<span class="define">centering step</span> also called <span class="define">outer iteration</span>
 
 </li>
 <li>
-	
-each iteration of algorithm used for equality constrained problem,
+	each iteration of algorithm used for equality constrained problem,
 called <span class="define">inner iteration</span>
 
 </li>
 </ul>
 
-<h3 id="my-foilhead-175">Accuracy in centering in barrier method</h3>
+<h3>Accuracy in centering in barrier method</h3>
 
 <ul>
 <li>
-	
-accuracy of centering
+	accuracy of centering
 	<ul>
 	<li>
-		
-only goal of centering is getting close to $x^\ast$,
+		only goal of centering is getting close to $x^\ast$,
 hence exact calculation of $x^\ast(t)$ not critical
 as long as approximates of $x^\ast(t)$ go to $x^\ast$
 
 	</li>
 	<li>
-		
-while cannot calculate $g(\lambda,\nu)$ for this case,
+		while cannot calculate $g(\lambda,\nu)$ for this case,
 below provides dual feasible point
 when
-Newton step  for optimization problem on page~ is small,
-, for nearly centered
+Newton step $\ntsdir$ for optimization problem on page~ is small,
+<i>i.e.</i>, for nearly centered
 
 $$
 \tilde{\lambda}_i
@@ -11645,33 +10997,28 @@ $$
 </li>
 </ul>
 
-<h3 id="my-foilhead-176">Choices of parameters of barrier method</h3>
+<h3>Choices of parameters of barrier method</h3>
 
 <ul>
 <li>
-	
-choice of $\mu$
+	choice of $\mu$
 	<ul>
 	<li>
-		
-$\mu$ determines aggressiveness of $t$-update
+		$\mu$ determines aggressiveness of $t$-update
 		<ul>
 		<li>
-			
-larger $\mu$, less outer iterations, but more inner iterations
+			larger $\mu$, less outer iterations, but more inner iterations
 
 		</li>
 		<li>
-			
-smaller $\mu$, less outer iterations, but more inner iterations
+			smaller $\mu$, less outer iterations, but more inner iterations
 
 		</li>
 		</ul>
 
 	</li>
 	<li>
-		
-values from $10$ to $20$ for $\mu$
+		values from $10$ to $20$ for $\mu$
 seem to work well
 
 	</li>
@@ -11679,12 +11026,11 @@ seem to work well
 
 </li>
 <li>
-	
-candidates for choice of initial $t$
-- choose  such that
+	candidates for choice of initial $t$
+- choose $\seqk{t}{0}$ such that
 	<ul>
 	<li>
-		 []
+		
 
 $$
 m / \seqk{t}{0} \approx \fobj(\xseqk{0}) - p^\ast
@@ -11693,7 +11039,7 @@ $$
 
 	</li>
 	<li>
-		 [or]
+		
 make central path condition on page~ maximally satisfied
 
 $$
@@ -11713,28 +11059,25 @@ $$
 </ul>
 
 
-<h3 id="my-foilhead-177">Convergence analysis of barrier method</h3>
+<h3>Convergence analysis of barrier method</h3>
 
 <ul>
 <li>
-	
-assuming $t\fobj + \phi$
+	assuming $t\fobj + \phi$
 can be minimized by Newton's method
 for
-,
+$\seqk{t}{0}$,
 $\mu\seqk{t}{0}$,
 $\mu^2\seqk{t}{0}$,
 
 
 </li>
 <li>
-	
-at $k$'th step, duality gap achieved is $m/\mu^k\seqk{t}{0}$
+	at $k$'th step, duality gap achieved is $m/\mu^k\seqk{t}{0}$
 
 </li>
 <li>
-	
-# centering steps required to achieve accuracy of $\epsilon$ is
+	# centering steps required to achieve accuracy of $\epsilon$ is
 
 $$
 \left\lceil
@@ -11746,22 +11089,19 @@ plus one (initial centering step)
 
 </li>
 <li>
-	
-for convergence of centering
+	for convergence of centering
 	<ul>
 	<li>
-		
-for feasible centering problem,
+		for feasible centering problem,
 $t\fobj + \phi$ should satisfy conditions on page~,
-,
+<i>i.e.</i>,
 initial sublevel set is closed,
 associated inverse KKT matrix is bounded
 &amp; Hessian satisfies Lipschitz condition
 
 	</li>
 	<li>
-		
-for infeasible centering problem,
+		for infeasible centering problem,
 $t\fobj + \phi$ should satisfy conditions on page~
 
 	</li>
@@ -11773,65 +11113,55 @@ $t\fobj + \phi$ should satisfy conditions on page~
 <h2 id="Primal-dual Interior-point Methods">Primal-dual Interior-point Methods</h2>
 
 
-<h3 id="my-foilhead-178">Primal-dual \& barrier interior-point methods</h3>
+<h3>Primal-dual \& barrier interior-point methods</h3>
 
 <ul>
 <li>
-	
-in primal-dual interior-point methods
+	in primal-dual interior-point methods
 	<ul>
 	<li>
-		
-both primal and dual variables are updated at each iteration
+		both primal and dual variables are updated at each iteration
 
 	</li>
 	<li>
-		
-search directions are obtained from Newton's method,
+		search directions are obtained from Newton's method,
 applied to modified KKT equations,
-,
+<i>i.e.</i>,
 optimality conditions for logarithmic barrier centering problem
 
 	</li>
 	<li>
-		
-primal-dual search directions are similar to, but not quite the same as,
+		primal-dual search directions are similar to, but not quite the same as,
 search directions arising in barrier methods
 
 	</li>
 	<li>
-		
-primal and dual iterates are {not} necessarily feasible
+		primal and dual iterates are not necessarily feasible
 
 	</li>
 	</ul>
 
 </li>
 <li>
-	
-primal-dual interior-point methods
+	primal-dual interior-point methods
 	<ul>
 	<li>
-		
-often more efficient than barrier methods
+		often more efficient than barrier methods
 especially when high accuracy is required
 - can exhibit better than linear convergence
 
 	</li>
 	<li>
-		
-(customized versions) outperform barrier method
+		(customized versions) outperform barrier method
 for several basic problems, such as, LP, QP, SOCP, GP, SDP
 
 	</li>
 	<li>
-		
-can work for feasible, but <i>not</i> strictly feasible problems
+		can work for feasible, but <i>not</i> strictly feasible problems
 
 	</li>
 	<li>
-		
-still active research topic, but show great promise
+		still active research topic, but show great promise
 
 	</li>
 	</ul>
@@ -11840,12 +11170,11 @@ still active research topic, but show great promise
 </ul>
 
 
-<h3 id="my-foilhead-179">Modified KKT conditions and central points</h3>
+<h3>Modified KKT conditions and central points</h3>
 
 <ul>
 <li>
-	
-modified KKT conditions (for convex optimization in ~) expressed as
+	modified KKT conditions (for convex optimization in <a href="#definition:convex optimization"></a>) expressed as
 
 $$
 r_t(x,\lambda,\nu)
@@ -11880,18 +11209,15 @@ $$
 
 </li>
 <li>
-	
-if $x$, $\lambda$, $\nu$ satisfy $r_t(x,\lambda,\nu)=0$ (and $\fie(x) \prec 0$),
+	if $x$, $\lambda$, $\nu$ satisfy $r_t(x,\lambda,\nu)=0$ (and $\fie(x) \prec 0$),
 then
 	<ul>
 	<li>
-		
-$x=x^\ast(t)$, $\lambda=\lambda^\ast(t)$, $\nu=\nu^\ast(t)$
+		$x=x^\ast(t)$, $\lambda=\lambda^\ast(t)$, $\nu=\nu^\ast(t)$
 
 	</li>
 	<li>
-		
-$x$ is primal feasible and $\lambda$ &amp; $\nu$ are dual feasible
+		$x$ is primal feasible and $\lambda$ &amp; $\nu$ are dual feasible
 with duality gap $m/t$
 
 	</li>
@@ -11901,19 +11227,17 @@ with duality gap $m/t$
 </ul>
 
 
-<h3 id="my-foilhead-180">Primal-dual search direction</h3>
+<h3>Primal-dual search direction</h3>
 
 <ul>
 <li>
-	
-assume current (primal-dual) point $y=(x,\lambda,\nu)$
+	assume current (primal-dual) point $y=(x,\lambda,\nu)$
 and Newton step $\sdiry =( \sdir, \sdirnu, \sdirlbd)$
 
 </li>
 <li>
-	
-as before, linearize equation to obtain Newton step,
-,
+	as before, linearize equation to obtain Newton step,
+<i>i.e.</i>,
 
 $$
 r_t(y+\sdiry) \approx r_t(y) + Dr_t(y) \sdiry = 0
@@ -11956,32 +11280,28 @@ $$
 
 </li>
 <li>
-	
-above equation determines
+	above equation determines
 <span class="define">primal-dual search direction</span> $\pdsdiry = (\pdsdir, \pdsdirlbd, \pdsdirnu)$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-181">Surrogate duality gap</h3>
+<h3>Surrogate duality gap</h3>
 
 <ul>
 <li>
-	
-iterates , , and  of primal-dual interior-point method
+	iterates $\xseqk{k}$, $\lbdseqk{k}$, and $\nuseqk{k}$ of primal-dual interior-point method
 are <i>not</i> necessarily feasible
 
 </li>
 <li>
-	
-hence, cannot easily evaluate duality gap 
+	hence, cannot easily evaluate duality gap $\seqk{\eta}{k}$
 as for barrier method
 
 </li>
 <li>
-	
-define <span class="define">surrogate duality gap</span>
+	define <span class="define">surrogate duality gap</span>
 for $\fie(x) \prec 0$ and $\lambda\succeq0$
 as
 
@@ -11992,38 +11312,65 @@ $$
 
 </li>
 <li>
-	
-$\hat{\eta}$ would be duality gap if $x$ were primal feasible and $\lambda$ &amp; $\nu$ were dual feasible
+	$\hat{\eta}$ would be duality gap if $x$ were primal feasible and $\lambda$ &amp; $\nu$ were dual feasible
 
 </li>
 <li>
-	
-value $t$ corresponding to surrogate duality gap $\hat{\eta}$ is $m/\hat{\eta}$
+	value $t$ corresponding to surrogate duality gap $\hat{\eta}$ is $m/\hat{\eta}$
 
 </li>
 </ul>
 
 
-<h3 id="my-foilhead-182">Primal-dual interior-point method</h3>
+<h3>Primal-dual interior-point method</h3>
 
 <div class="algorithm" id="algorithm:primal-dual interior-point method" data-name="primal-dual interior-point method">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	initial point $x$ with $\fie(x)\prec0$, $\lambda \succ 0$, $\mu > 1$,
+$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$ 
+</li>
 
- initial point $x$ with $\fie(x)\prec0$, $\lambda \succ 0$, $\mu > 1$,
-$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$
+<li>
+	<strong>repeat</strong>
+</li>
+<li>
+	<strong></strong>	set $t := \mu m /\hat{\eta}$
+ 
+</li>
 
+<li>
+	<strong></strong>	computer primal-dual search direction $\pdsdiry = (\pdsdir, \pdsdirlbd, \pdsdirnu)$
+ 
+</li>
 
+<li>
+	<strong></strong>	do line search to choose $s>0$ 
+</li>
 
+<li>
+	<strong></strong>	update
+-
+$x := x + s \pdsdir$,
+$\lambda := \lambda + s \pdsdirnu$,
+$\nu := \nu + s \pdsdirnu$
+ 
+</li>
 
+<li>
+	<strong>until</strong>	$\|r_\mathrm{pri}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{pri}$,
+$\|r_\mathrm{dual}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{dual}$,
+$\hat{\eta} \leq \epsilon$
+ 
+</li>
 
-
-
+</ul>
 
 </div>
 <ul>
 <li>
-	
-common to choose small
+	common to choose small
 $\epsilon_\mathrm{pri}$, $\epsilon_\mathrm{dual}$, &amp; $\epsilon$
 since primal-dual method often shows faster than linear convergence
 
@@ -12031,36 +11378,58 @@ since primal-dual method often shows faster than linear convergence
 </ul>
 
 
-<h3 id="my-foilhead-183">Line search for primal-dual interior-point method</h3>
+<h3>Line search for primal-dual interior-point method</h3>
 
 <ul>
 <li>
-	
-liner search is standard backtracking line search on $r(x,\lambda,\nu)$
-similar to that in ~
+	liner search is standard backtracking line search on $r(x,\lambda,\nu)$
+similar to that in <a href="#algorithm:exact line search for infeasible Newton's method"></a>
 except making sure that $\fie(x) \prec 0$ and $\lambda\succ0$
 
 </li>
 <li>
-	
-note initial $s$
-in ~
+	note initial $s$
+in <a href="#algorithm:backtracking line search for primal-dual interior-point method"></a>
 is largest $s$ that makes $\lambda + s\pdsdirlbd$ positive
 
 </li>
 </ul>
 <div class="algorithm" id="algorithm:backtracking line search for primal-dual interior-point method" data-name="backtracking line search for primal-dual interior-point method">
-	;
+	 
+<ul>
+<li>
+	<strong>Require:</strong>	\pdsdir, \pdsdirlbd, \pdsdirnu, $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$ 
+</li>
 
- , , , $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$
- $s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$
+<li>
+	<strong></strong>	$s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$ 
+</li>
 
+<li>
+	<strong>while</strong>	$\fie (x +s\pdsdir) \not \prec 0$
+ do
+</li>
 
+<li>
+	<strong></strong>	$t := \beta t$ 
+</li>
 
+<li>
+	<strong>end while</strong>
+</li>
+<li>
+	<strong>while</strong>	$\|r(x +s\pdsdir, \lambda + s\pdsdirlbd, \nu + s\pdsdirnu)\|_2 > (1-\alpha s)\|r(x,\lambda,\nu)\|_2$
+ do
+</li>
 
+<li>
+	<strong></strong>	$t := \beta t$ 
+</li>
 
-
-
+<li>
+	<strong>end while</strong>
+</li>
+</ul>
 
 </div>
 
