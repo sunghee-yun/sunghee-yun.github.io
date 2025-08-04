@@ -7,7 +7,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Wed Jul 30 10:32:17 PDT 2025
-last_modified_at: Sun Aug  3 19:07:28 PDT 2025
+last_modified_at: Sun Aug  3 19:40:58 PDT 2025
 ---
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
@@ -42,6 +42,7 @@ last_modified_at: Sun Aug  3 19:07:28 PDT 2025
 
 # Rigorously
 
+- [{{ rig_all_math.title }}]({{ rig_all_math.url }})
 - [{{ rig_linalg.title }}]({{ rig_linalg.url }})
 - [{{ rig_aalgebra.title }}]({{ rig_aalgebra.url }})
 - [{{ rig_mtheory.title }}]({{ rig_mtheory.url }})
@@ -49,4 +50,3 @@ last_modified_at: Sun Aug  3 19:07:28 PDT 2025
 - [{{ rig_absmeas.title }}]({{ rig_absmeas.url }})
 - [{{ rig_measprob.title }}]({{ rig_measprob.url }})
 - [{{ rig_cvxopt.title }}]({{ rig_cvxopt.url }})
-- [{{ rig_all_math.title }}]({{ rig_all_math.url }})
