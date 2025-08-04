@@ -56,16 +56,25 @@ def main(
     try:
         converter.convert_to_markdown(tex_file)
     except Exception as e:
-        print(f"Conversion failed: {e}")
+        logger.error(e.__class__.__name__)
+        logger.error(f"Conversion failed: {e}")
         raise
     finally:
         LaTeXTokenBase.log_statistics()
         logger.warning("LaTeX commands NOT taken are of:")
-        logger.warning(" / ".join(sorted(LaTeXCommandToken.COMMANDS_DEFINED)))
+        logger.warning(
+            " / ".join(sorted(LaTeXCommandToken.COMMANDS_IGNORED_WHEN_CONVERTED_TO_MARKDOWN))
+        )
         logger.warning("User-defined commands NOT taken are of:")
-        logger.warning(" / ".join(sorted(UserDefinedCommandToken.COMMANDS_NOT_TAKEN_CARE_OF)))
-        logger.warning("New commands defined:")
-        logger.warning(" / ".join(sorted(DefCommandToken.COMMANDS_DEFINED)))
+        logger.warning(
+            " / ".join(sorted(UserDefinedCommandToken.COMMANDS_IGNORED_WHEN_CONVERTED_TO_MARKDOWN))
+        )
+        logger.info("LaTeX commands called:")
+        logger.info(" / ".join(sorted(LaTeXCommandToken.COMMANDS_CALLED)))
+        logger.info("User-defined commands called:")
+        logger.info(" / ".join(sorted(UserDefinedCommandToken.COMMANDS_CALLED)))
+        logger.info("Commands defined:")
+        logger.info(" / ".join(sorted(DefCommandToken.COMMANDS_DEFINED)))
 
 
 if __name__ == "__main__":

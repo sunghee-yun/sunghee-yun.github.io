@@ -118,12 +118,16 @@ class LaTeXParser:
 
                 env_name: str = begin_theorem_like_token.env_name
 
-                assert env_name.startswith("my") and len(env_name) > 2, env_name
+                env_enum_name: str = env_name
+
+                if env_name != "proof":
+                    assert len(env_name) > 2 and env_name.startswith("my"), env_name
+                    env_enum_name = env_name[2:]
 
                 assert len(content_stack) >= 2, len(content_stack)
 
                 theorem_like_element: TheoremLikeElement = TheoremLikeElement(
-                    TheoremLikeType(env_name[2:]),
+                    TheoremLikeType(env_enum_name),
                     begin_theorem_like_token.name,
                     content_stack.pop(),
                 )

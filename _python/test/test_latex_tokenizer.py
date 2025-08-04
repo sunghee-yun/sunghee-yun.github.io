@@ -49,7 +49,7 @@ class TestLaTeXTokenizer(unittest.TestCase):
             raise
         finally:
             LaTeXTokenBase.log_statistics()
-            logger.info(sorted(UserDefinedCommandToken.USER_COMMAND_SET))
+            logger.info(sorted(UserDefinedCommandToken.COMMANDS_CALLED))
             logger.info(PunctuationToken.punctuation_set)
 
         self.assertTrue(True)  # add assertion here

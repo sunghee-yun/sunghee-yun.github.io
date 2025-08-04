@@ -45,14 +45,14 @@ class AlgorithmicEnv(LaTeXTokenBase):
                 + r"\s*{\s*([\s\S]*?)}(\s*("
                 + "|".join([rf"\\{keyword}" for keyword in self.ALL_KEYWORDS])
                 + "|<li>))",
-                rf"<li>\n\t<strong>{command}</strong>\t\1 {postfix}\n</li>\n\2",
+                rf"<li>\n\t<strong>{command}</strong>\t\1 <strong>{postfix}</strong>\n</li>\n\2",
                 string,
             )
 
         def replace_clause_end(keyword: str, command: str, postfix: str, string: str) -> str:
             return re.sub(
                 r"\\" + keyword + r"\s*{\s*([\s\S]*?)}\s*$",
-                rf"<li>\n\t<strong>{command}</strong>\t\1 {postfix}\n</li>\n",
+                rf"<li>\n\t<strong>{command}</strong>\t\1 <strong>{postfix}</strong>\n</li>\n",
                 string,
             )
 

@@ -39,7 +39,11 @@ class EqnArrayMathClause(MathClauseBase):
             else:
                 lefteqn_clause_ = "&&" + lefteqn_clause_
 
-            return lefteqn_clause_ + string_after_lefteqn[len(lefteqn_clause) :]  # noqa: E203
+            semi_final_result: str = (
+                lefteqn_clause_ + string_after_lefteqn[len(lefteqn_clause) :]  # noqa: E203
+            )
+            return semi_final_result.replace("={}", "\n\\\\\n&=& ")
+
         return self.content
 
     @classmethod

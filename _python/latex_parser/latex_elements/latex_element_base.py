@@ -21,4 +21,6 @@ class LaTeXElementBase(ABC):
         string = re.sub(r"\\'{(a|e|i|o|u|y)}", r"\1&#769;", string, flags=re.IGNORECASE)
         string = re.sub(r'\\"(a|e|i|o|u|y)', r"\1&#776;", string, flags=re.IGNORECASE)
         string = re.sub(r'\\"{(a|e|i|o|u|y)}', r"\1&#776;", string, flags=re.IGNORECASE)
+        string = re.sub("``", "&ldquo;", string)
+        string = re.sub("''", "&rdquo;", string)
         return string

@@ -24,10 +24,11 @@ from latex_parser.tokenizers.tokens.keyword_base import KeywordBase
 class BeginTheoremLikeToken(KeywordBase):
     num_instances: int = 0
 
-    def __init__(self, string: str, line_num: int, env_name: str, name: str) -> None:
+    def __init__(self, string: str, line_num: int, env_name: str, name: str | None) -> None:
+        assert name is not None or env_name == "proof", (env_name, name)
         super().__init__(string, line_num)
         self.env_name: str = env_name
-        self.name: str = name
+        self.name: str | None = name
         BeginTheoremLikeToken.num_instances += 1
 
     @classmethod
@@ -40,6 +41,14 @@ class BeginTheoremLikeToken(KeywordBase):
         if match:
             return (
                 BeginTheoremLikeToken(match.group(1), line_num, match.group(2), match.group(3)),
+                match.span()[1],
+            )
+
+        match = re.match(r"(\\begin\s*{\s*(proof)\s*})", source_left)
+
+        if match:
+            return (
+                BeginTheoremLikeToken(match.group(1), line_num, match.group(2), None),
                 match.span()[1],
             )
 

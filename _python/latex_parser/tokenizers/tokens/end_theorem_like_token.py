@@ -35,9 +35,10 @@ class EndTheoremLikeToken(KeywordBase):
             r"(\\end\s*{\s*(" + cls.REG_EXP_THEOREM_LIKE_NAMES + r")\s*})", source_left
         )
         if match:
-            return (
-                EndTheoremLikeToken(match.group(1), line_num, match.group(2)),
-                match.span()[1],
-            )
+            return EndTheoremLikeToken(match.group(1), line_num, match.group(2)), match.span()[1]
+
+        match = re.match(r"(\\end\s*{\s*(proof)\s*})", source_left)
+        if match:
+            return EndTheoremLikeToken(match.group(1), line_num, match.group(2)), match.span()[1]
 
         raise ParsingException()

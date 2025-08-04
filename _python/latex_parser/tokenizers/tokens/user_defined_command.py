@@ -8,10 +8,9 @@ from latex_parser.tokenizers.tokens.command_token_base import CommandTokenBase
 
 class UserDefinedCommandToken(CommandTokenBase):
     num_instances: int = 0
-    USER_COMMAND_SET: set[str] = set()
 
-    COMMANDS_NOT_TAKEN_CARE_OF: set[str] = set()
-
+    COMMANDS_CALLED: set[str] = set()
+    COMMANDS_IGNORED_WHEN_CONVERTED_TO_MARKDOWN: set[str] = set()
     NUM_ARGS: dict[str, tuple[bool, int, int]] = dict(
         algclosure=(True, 1, 0),
         alg=(True, 0, 0),
@@ -44,6 +43,7 @@ class UserDefinedCommandToken(CommandTokenBase):
         integers=(True, 0, 0),
         lbdseqk=(True, 1, 0),
         minvolcoveringdualfcn=(True, 1, 0),
+        notation=(True, 1, 0),
         ntsdir=(True, 0, 0),
         nuseqk=(True, 1, 0),
         openconv=(True, 0, 0),
@@ -236,33 +236,21 @@ class UserDefinedCommandToken(CommandTokenBase):
     def __init__(self, string: str, line_num: int) -> None:
         super().__init__(string, line_num)
         UserDefinedCommandToken.num_instances += 1
-        UserDefinedCommandToken.USER_COMMAND_SET.add(string)
 
-    def latex_command_to_markdown_str(self, arg_list: list[str], opt_arg_list: list[str]) -> str:
-        # print(self, self.string, len(arg_list), len(opt_arg_list))
-        taken_care_of, num_arg_list, num_opt_arg_list = self.NUM_ARGS[self.string[1:]]
-        assert len(arg_list) == num_arg_list, (
-            self,
-            self.string,
-            arg_list,
-            len(arg_list),
-            num_arg_list,
-        )
-        assert len(opt_arg_list) <= num_opt_arg_list, (len(opt_arg_list), num_opt_arg_list)
-
-        if not taken_care_of:
-            self.COMMANDS_NOT_TAKEN_CARE_OF.add(self.string)
-            return ""
+    def _latex_command_to_markdown_str(
+        self, arg_list: list[str], opt_arg_list: list[str], max_num_opt_arg_list: int
+    ) -> str:
+        num_arg_list: int = len(arg_list)
 
         if self.string[1:] in self.ENSUREMATH_MATH_COMMANDS:
             arg_str: str = "".join(["{" + arg + "}" for arg in arg_list])
             opt_arg_str: str = "".join([f"[{opt_arg}]" for opt_arg in opt_arg_list])
             return f"${self.string}{opt_arg_str}{arg_str}$"
 
-        if num_arg_list == 0 and num_opt_arg_list == 0:
+        if num_arg_list == 0 and max_num_opt_arg_list == 0:
             return self.NO_ARG_STRING_MAP[self.string[1:]]
 
-        if num_arg_list == 1 and num_opt_arg_list == 0:
+        if num_arg_list == 1 and max_num_opt_arg_list == 0:
             arg: str = LaTeXElementBase.process_markdown_string(arg_list[0])
 
             if self.string == r"\figref":
@@ -289,12 +277,15 @@ class UserDefinedCommandToken(CommandTokenBase):
             if self.string == r"\name":
                 return f'<span class="name-font">{arg}</span>'
 
+            if self.string == r"\notation":
+                return f'<span class="notation">{arg}</span>'
+
             if self.string == '\\"':
                 assert len(arg.strip()) == 1, arg.strip()
                 return f"{arg.strip()}&#776;"
 
-        if num_arg_list == 2 and num_opt_arg_list == 0:
+        if num_arg_list == 2 and max_num_opt_arg_list == 0:
             if self.string == "\\mypsfrag":
                 return ""
 
-        assert False, self.string
+        raise NotImplementedError(self.string)

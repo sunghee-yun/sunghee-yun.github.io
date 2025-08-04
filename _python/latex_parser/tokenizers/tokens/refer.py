@@ -10,6 +10,7 @@ from re import Match
 from latex_parser.tokenizers.tokens.keyword_base import KeywordBase
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.parsing_exception import ParsingException
+from latex_parser.utils import make_label_consistent
 
 
 class Refer(KeywordBase):
@@ -47,4 +48,4 @@ class Refer(KeywordBase):
 
     @property
     def markdown_str(self) -> str:
-        return f'<a href="#{self.label}"></a>'
+        return f'<a href="#{make_label_consistent(self.label)}"></a>'
