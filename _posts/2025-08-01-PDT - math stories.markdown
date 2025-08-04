@@ -1,7 +1,7 @@
 ---
 title: Math Stories
 date: Fri Aug  1 00:00:00 PDT 2025
-last_modified_at: Mon Aug  4 04:56:08 PDT 2025
+last_modified_at: Mon Aug  4 16:01:17 PDT 2025
 permalink: /math/rig/math-stories
 categories:
 - blog
@@ -205,25 +205,9 @@ $$
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---arithmetic" data-name="Fundamental theorem of arithmetic">
 	
-integer 
-$
-n\geq2
-$
- can be factored uniquely into products of primes,
+integer $n\geq2$ can be factored uniquely into products of primes,
 <i>i.e.</i>,
-exist distinct primes, 
-$
-p_1
-$
-, &hellip;, 
-$
-p_k
-$
-, and 
-$
-e_1,\ldots, e_k\in\naturals
-$
-
+exist distinct primes, $p_1$, &hellip;, $p_k$, and $e_1,\ldots, e_k\in\naturals$
 such that
 
 $$
@@ -244,16 +228,8 @@ has at least one complex root,
 or equivalently,
 (the field of complex numbers) is algebraically closed,
 or equivalently,
-every non-zero, single-variable, degree 
-$
-n
-$
- polynomial with complex coefficients has,
-counted with multiplicity, exactly 
-$
-n
-$
- complex roots.
+every non-zero, single-variable, degree $n$ polynomial with complex coefficients has,
+counted with multiplicity, exactly $n$ complex roots.
 
 </div>
 <ul>
@@ -277,16 +253,8 @@ named when algebra was synonymous with the theory of equations
 	<li>
 		<span class="define">first fundamental theorem of calculus</span>
 -
-for continuous real-valued function 
-$
-f:[a,b]\to\reals
-$
-,
-function 
-$
-F:[a,b]\to\reals
-$
-
+for continuous real-valued function $f:[a,b]\to\reals$,
+function $F:[a,b]\to\reals$
 defined by
 
 $$
@@ -295,17 +263,9 @@ F(x) = \int_a^x f(t) dt
 
 $$
 
-is uniformly continuous on 
-$
-[a,b]
-$
-
+is uniformly continuous on $[a,b]$
 and
-differentiable on open interval 
-$
-(a,b)
-$
-
+differentiable on open interval $(a,b)$
 and
 
 $$
@@ -314,21 +274,9 @@ F'(x) = f(x)
 
 $$
 
-for all 
-$
-x\in(a,b)
-$
-,
+for all $x\in(a,b)$,
 hence
-
-$
-F
-$
- is antiderivative of 
-$
-f
-$
-
+$F$ is antiderivative of $f$
 
 	</li>
 	<li>
@@ -336,26 +284,10 @@ $
 or
 <span class="define">Newton-Leibniz theorem</span>
 -
-for real-valued function 
-$
-f:[a,b]\to\reals
-$
-
+for real-valued function $f:[a,b]\to\reals$
 and
-continuous function 
-$
-F:[a,b]\to\reals
-$
-
-which is antiderivative of 
-$
-f
-$
- in 
-$
-(a,b)
-$
-,
+continuous function $F:[a,b]\to\reals$
+which is antiderivative of $f$ in $(a,b)$,
 <i>i.e.</i>
 
 $$
@@ -364,15 +296,7 @@ F'(x) = f(x)
 
 $$
 
-if 
-$
-f
-$
- is Riemann integrable on 
-$
-[a,b]
-$
-,
+if $f$ is Riemann integrable on $[a,b]$,
 then
 
 $$
@@ -393,16 +317,8 @@ $$
 	
 every subgroup of a cyclic group is cyclic;
 moreover,
-for finite cyclic group of order 
-$
-n
-$
-,
-every subgroup's order is a divisor of 
-$
-n
-$
-,
+for finite cyclic group of order $n$,
+every subgroup's order is a divisor of $n$,
 and exists exactly one subgroup for each divisor.
 
 </div>
@@ -411,34 +327,10 @@ and exists exactly one subgroup for each divisor.
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---equivalence---relations" data-name="Fundamental theorem of equivalence relations">
 	
-equivalence relation 
-$
-\sim
-$
- on set 
-$
-X
-$
- partitions 
-$
-X
-$
-;
+equivalence relation $\sim$ on set $X$ partitions $X$;
 conversely,
-corresponding to any partition of 
-$
-X
-$
-,
-exists equivalence relation 
-$
-\sim
-$
- on 
-$
-X
-$
-
+corresponding to any partition of $X$,
+exists equivalence relation $\sim$ on $X$
 
 </div>
 
@@ -446,67 +338,27 @@ $
 
 <div class="theorem" id="theorem:Fundamental---theorem---for---Galois---theory" data-name="Fundamental theorem for Galois theory">
 	
-for finite Galois extension, 
-$
-K/k
-$
-
+for finite Galois extension, $K/k$
 
 	<ul>
 	<li>
-		map 
-$
-H \mapsto K^H
-$
-
+		map $H \mapsto K^H$
 induces isomorphism between
-set of subgroups of 
-$
-G(K/k)
-$
- &amp; set of intermediate fields
+set of subgroups of $G(K/k)$ &amp; set of intermediate fields
 
 	</li>
 	<li>
-		subgroup, 
-$
-H
-$
-, of 
-$
-G(K/k)
-$
-,
+		subgroup, $H$, of $G(K/k)$,
 is normal
 if and only if
-
-$
-K^H/k
-$
- is Galois
+$K^H/k$ is Galois
 
 	</li>
 	<li>
-		for normal subgroup, 
-$
-H
-$
-,
-
-$
-\sigma\mapsto \restrict{\sigma}{K^H}
-$
-
-induces isomorphism between 
-$
-G(K/k)/H
-$
- and
-
-$
-G(K^H/k)
-$
-
+		for normal subgroup, $H$,
+$\sigma\mapsto \restrict{\sigma}{K^H}$
+induces isomorphism between $G(K/k)/H$ and
+$G(K^H/k)$
 
 	</li>
 	</ul>
@@ -517,45 +369,13 @@ $
 
 <div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
 	
-number of columns of matrix 
-$
-M
-$
- is
-sume of rank of 
-$
-M
-$
- and nullity of 
-$
-M
-$
-,
+number of columns of matrix $M$ is
+sume of rank of $M$ and nullity of $M$,
 or equivalently,
-dimension of domain of linear transformation 
-$
-f
-$
-
-is sum of rank of 
-$
-f
-$
- (dimension of image of 
-$
-f
-$
-)
+dimension of domain of linear transformation $f$
+is sum of rank of $f$ (dimension of image of $f$)
 and
-nullity of 
-$
-f
-$
- (dimension of kernel of 
-$
-f
-$
-)
+nullity of $f$ (dimension of kernel of $f$)
 
 </div>
 
@@ -575,31 +395,11 @@ $$
 
 $$
 
-if 
-$
-P=\set{x\in\reals^n}{Ax \leq b}
-$
-
+if $P=\set{x\in\reals^n}{Ax \leq b}$
 is bounded polyhedron (hence polytope)
-and 
-$
-x^\ast
-$
- is optimal solution,
-then 
-$
-x^\ast
-$
- is either extreme point (<i>i.e.</i>, vertex) of 
-$
-P
-$
-
-or lies on some face of 
-$
-P
-$
-
+and $x^\ast$ is optimal solution,
+then $x^\ast$ is either extreme point (<i>i.e.</i>, vertex) of $P$
+or lies on some face of $P$
 
 </div>
 
@@ -643,26 +443,14 @@ is space of bounded linear functionals on the space
 
 	</li>
 	<li>
-		can find necessary and sufficient conditions for 
-$
-K
-$
--convexity
+		can find necessary and sufficient conditions for $K$-convexity
 using <i>dual</i> generalized inequalities
 (<a href="#proposition:dual---characterization---of---$K$-convexity"></a>)
 
 	</li>
 	<li>
 		duality can be observed even in fundamental theorem for Galois theory,
-<i>i.e.</i>, 
-$
-G(K/E) \leftrightarrow E
-$
- &amp; 
-$
-H \leftrightarrow K^H
-$
-
+<i>i.e.</i>, $G(K/E) \leftrightarrow E$ &amp; $H \leftrightarrow K^H$
 (<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
 
 	</li>
