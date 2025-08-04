@@ -35,3 +35,7 @@ class MathClause(ExpandableMathClauseBase):
     @property
     def closing_markdown_symbol(self) -> str:
         return "$"
+
+    @property
+    def new_line(self) -> str:
+        return ""

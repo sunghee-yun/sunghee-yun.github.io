@@ -33,9 +33,18 @@ class MathClauseBase(LaTeXTokenBase):
     @property
     def markdown_str(self) -> str:
         return (
-            f"\n{self.opening_markdown_symbol}"
-            + f"\n{self.markdown_content}\n{self.closing_markdown_symbol}\n"
+            self.new_line
+            + self.opening_markdown_symbol
+            + self.new_line
+            + self.markdown_content
+            + self.new_line
+            + self.closing_markdown_symbol
+            + self.new_line
         )
+
+    @property
+    def new_line(self) -> str:
+        return "\n"
 
     @classmethod
     def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
