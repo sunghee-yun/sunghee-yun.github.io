@@ -1,7 +1,7 @@
 ---
 title: Abstract Measure Theory
 date: Fri Aug  1 05:00:00 PDT 2025
-last_modified_at: Mon Aug  4 03:41:41 PDT 2025
+last_modified_at: Mon Aug  4 04:56:11 PDT 2025
 permalink: /math/rig/abstract-measure-theory
 categories:
 - blog

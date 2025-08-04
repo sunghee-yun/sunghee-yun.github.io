@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Mon Aug  4 03:41:42 PDT 2025
+last_modified_at: Mon Aug  4 04:56:11 PDT 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog

@@ -1,7 +1,7 @@
 ---
 title: Measure Theory
 date: Fri Aug  1 03:00:00 PDT 2025
-last_modified_at: Mon Aug  4 03:41:39 PDT 2025
+last_modified_at: Mon Aug  4 04:56:10 PDT 2025
 permalink: /math/rig/measure-theory
 categories:
 - blog

@@ -1,7 +1,7 @@
 ---
-title: All Math Topics in All the Multiverses
+title: All Math Topics in All Multiverses
 date: Fri Aug  2 00:00:00 PDT 2025
-last_modified_at: Mon Aug  4 03:41:44 PDT 2025
+last_modified_at: Mon Aug  4 04:56:13 PDT 2025
 permalink: /math/rig/everything
 categories:
 - blog
@@ -871,7 +871,412 @@ $
 <h1 id="super-title-page:Stories">Math Stories</h1>
 
 
-<h3>Some fundamental theorems in math!</h3>
+<h2 id="title-page:Fundamental---Theorems">Fundamental Theorems</h2>
+
+
+<h3>Fundamental theorem of arithmetic</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---arithmetic" data-name="Fundamental theorem of arithmetic">
+	
+integer 
+$
+n\geq2
+$
+ can be factored uniquely into products of primes,
+<i>i.e.</i>,
+exist distinct primes, 
+$
+p_1
+$
+, &hellip;, 
+$
+p_k
+$
+, and 
+$
+e_1,\ldots, e_k\in\naturals
+$
+
+such that
+
+$$
+
+n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k}
+
+$$
+
+
+</div>
+
+<h3>Fundamental theorem of algebra</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---algebra" data-name="Fundamental theorem of algebra">
+	
+every non-constant single-variable polynomial with complex coefficients
+has at least one complex root,
+or equivalently,
+(the field of complex numbers) is algebraically closed,
+or equivalently,
+every non-zero, single-variable, degree 
+$
+n
+$
+ polynomial with complex coefficients has,
+counted with multiplicity, exactly 
+$
+n
+$
+ complex roots.
+
+</div>
+<ul>
+<li>
+	the <span class="name-font">fundamental theorem of algebra</span>, also called <span class="name-font">d'Alembert's theorem</span> or the <span class="name-font">d'Alembert–Gauss theorem</span>
+
+</li>
+<li>
+	despite its name,
+not fundamental for modern algebra;
+named when algebra was synonymous with the theory of equations
+
+</li>
+</ul>
+
+<h3>Fundamental theorem of calculus</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---calculus" data-name="Fundamental theorem of calculus">
+	
+	<ul>
+	<li>
+		<span class="define">first fundamental theorem of calculus</span>
+-
+for continuous real-valued function 
+$
+f:[a,b]\to\reals
+$
+,
+function 
+$
+F:[a,b]\to\reals
+$
+
+defined by
+
+$$
+
+F(x) = \int_a^x f(t) dt
+
+$$
+
+is uniformly continuous on 
+$
+[a,b]
+$
+
+and
+differentiable on open interval 
+$
+(a,b)
+$
+
+and
+
+$$
+
+F'(x) = f(x)
+
+$$
+
+for all 
+$
+x\in(a,b)
+$
+,
+hence
+
+$
+F
+$
+ is antiderivative of 
+$
+f
+$
+
+
+	</li>
+	<li>
+		<span class="define">second fundamental theorem of calculus</span>
+or
+<span class="define">Newton-Leibniz theorem</span>
+-
+for real-valued function 
+$
+f:[a,b]\to\reals
+$
+
+and
+continuous function 
+$
+F:[a,b]\to\reals
+$
+
+which is antiderivative of 
+$
+f
+$
+ in 
+$
+(a,b)
+$
+,
+<i>i.e.</i>
+
+$$
+
+F'(x) = f(x)
+
+$$
+
+if 
+$
+f
+$
+ is Riemann integrable on 
+$
+[a,b]
+$
+,
+then
+
+$$
+
+\int_a^b f(x) dx = F(b) - F(a)
+
+$$
+
+
+	</li>
+	</ul>
+
+</div>
+
+<h3>Fundamental theorem of cyclic groups</h3>
+
+<div class="theorem" id="theorem:Fundamental---theomre---of---cyclic---groups" data-name="Fundamental theomre of cyclic groups">
+	
+every subgroup of a cyclic group is cyclic;
+moreover,
+for finite cyclic group of order 
+$
+n
+$
+,
+every subgroup's order is a divisor of 
+$
+n
+$
+,
+and exists exactly one subgroup for each divisor.
+
+</div>
+
+<h3>Fundamental theorem of equivalence relations</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---equivalence---relations" data-name="Fundamental theorem of equivalence relations">
+	
+equivalence relation 
+$
+\sim
+$
+ on set 
+$
+X
+$
+ partitions 
+$
+X
+$
+;
+conversely,
+corresponding to any partition of 
+$
+X
+$
+,
+exists equivalence relation 
+$
+\sim
+$
+ on 
+$
+X
+$
+
+
+</div>
+
+<h3>Fundamental theorem for Galois theory</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---for---Galois---theory" data-name="Fundamental theorem for Galois theory">
+	
+for finite Galois extension, 
+$
+K/k
+$
+
+
+	<ul>
+	<li>
+		map 
+$
+H \mapsto K^H
+$
+
+induces isomorphism between
+set of subgroups of 
+$
+G(K/k)
+$
+ &amp; set of intermediate fields
+
+	</li>
+	<li>
+		subgroup, 
+$
+H
+$
+, of 
+$
+G(K/k)
+$
+,
+is normal
+if and only if
+
+$
+K^H/k
+$
+ is Galois
+
+	</li>
+	<li>
+		for normal subgroup, 
+$
+H
+$
+,
+
+$
+\sigma\mapsto \restrict{\sigma}{K^H}
+$
+
+induces isomorphism between 
+$
+G(K/k)/H
+$
+ and
+
+$
+G(K^H/k)
+$
+
+
+	</li>
+	</ul>
+
+</div>
+
+<h3>Fundamental theorem of linear algebra</h3>
+
+<div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
+	
+number of columns of matrix 
+$
+M
+$
+ is
+sume of rank of 
+$
+M
+$
+ and nullity of 
+$
+M
+$
+,
+or equivalently,
+dimension of domain of linear transformation 
+$
+f
+$
+
+is sum of rank of 
+$
+f
+$
+ (dimension of image of 
+$
+f
+$
+)
+and
+nullity of 
+$
+f
+$
+ (dimension of kernel of 
+$
+f
+$
+)
+
+</div>
+
+<h3>Fundamental theorem of linear programming</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---linear---programming" data-name="Fundamental theorem of linear programming">
+	
+for linear program
+
+$$
+
+\begin{array}{ll}
+\mbox{minimal} & c^Tx
+\\
+\mbox{subject to} & Ax \leq b
+\end{array}
+
+$$
+
+if 
+$
+P=\set{x\in\reals^n}{Ax \leq b}
+$
+
+is bounded polyhedron (hence polytope)
+and 
+$
+x^\ast
+$
+ is optimal solution,
+then 
+$
+x^\ast
+$
+ is either extreme point (<i>i.e.</i>, vertex) of 
+$
+P
+$
+
+or lies on some face of 
+$
+P
+$
+
+
+</div>
+
+<h2 id="title-page:Duality">Duality</h2>
 
 
 <h3>Dualities</h3>
