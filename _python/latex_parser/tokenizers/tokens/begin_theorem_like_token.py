@@ -1,16 +1,16 @@
 """
-- \\begin{myaxiom}{...}
-- \\begin{mylaw}{...}
-- \\begin{myprinciple}{...}
-- \\begin{mydefinition}{...}
-- \\begin{mytheorem}{...}
-- \\begin{mylemma}{...}
-- \\begin{myproposition}{...}
-- \\begin{mycorollary}{...}
-- \\begin{myconjecture}{...}
-- \\begin{myinequality}{...}
-- \\begin{myformula}{...}
 - \\begin{myalgorithm}{...}
+- \\begin{myaxiom}{...}
+- \\begin{myconjecture}{...}
+- \\begin{mycorollary}{...}
+- \\begin{mydefinition}{...}
+- \\begin{myformula}{...}
+- \\begin{myinequality}{...}
+- \\begin{mylaw}{...}
+- \\begin{mylemma}{...}
+- \\begin{myprinciple}{...}
+- \\begin{myproposition}{...}
+- \\begin{mytheorem}{...}
 """
 
 import re

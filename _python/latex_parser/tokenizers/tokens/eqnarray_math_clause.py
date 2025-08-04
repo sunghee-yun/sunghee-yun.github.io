@@ -18,6 +18,27 @@ class EqnArrayMathClause(MathClauseBase):
         super().__init__(string, line_num, content)
         EqnArrayMathClause.num_instances += 1
 
+    @classmethod
+    def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
+        match: Match | None = re.match(
+            r"(\\begin\s*{\s*eqnarray(\*?)\s*}((.|\n)*?)\\end\s*{\s*eqnarray\*?\s*})",
+            source_left,
+        )
+        if match:
+            return (
+                EqnArrayMathClause(match.group(1), line_num, match.group(3)),
+                match.span()[1],
+            )
+
+        match = re.match(r"(\\begin\s*{\s*eqna\s*}((.|\n)*?)\\end\s*{\s*eqna\s*})", source_left)
+        if match:
+            return (
+                EqnArrayMathClause(match.group(1), line_num, match.group(2)),
+                match.span()[1],
+            )
+
+        raise ParsingException()
+
     @property
     def opening_markdown_symbol(self) -> str:
         return "$$\n\\begin{eqnarray*}"
@@ -28,41 +49,23 @@ class EqnArrayMathClause(MathClauseBase):
 
     @property
     def markdown_content(self) -> str:
-        match: Match | None = re.match(r"\\lefteqn\s*([\s\S]*)$", self.content)
+        semi_final_result: str = self.content
+
+        match: Match | None = re.match(r"[\s\S]*\\lefteqn\s*([\s\S]*)$", self.content)
         if match:
             string_after_lefteqn: str = match.group(1)
             lefteqn_clause: str = parse_nested_braced_clause(string_after_lefteqn)
             lefteqn_clause_: str = lefteqn_clause[1:-1]
             if "=" in lefteqn_clause_:
                 assert re.match(r"[\s\S]*\s=\s", lefteqn_clause_) is not None, lefteqn_clause_
-                lefteqn_clause_ = re.sub(r"(\s)=(\s)", r"\1&=&\2", lefteqn_clause_)
+                lefteqn_clause_ = re.sub(r"(\s)=(\s)", r"\1&=&\2", lefteqn_clause_, 1)
             else:
                 lefteqn_clause_ = "&&" + lefteqn_clause_
 
-            semi_final_result: str = (
+            semi_final_result = (
                 lefteqn_clause_ + string_after_lefteqn[len(lefteqn_clause) :]  # noqa: E203
             )
-            return semi_final_result.replace("={}", "\n\\\\\n&=& ")
 
-        return self.content
-
-    @classmethod
-    def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
-        match: Match | None = re.match(
-            r"(\\begin\s*{\s*eqnarray(\*?)\s*}((.|\n)*?)\\end\s*{\s*eqnarray\*?\s*})",
-            source_left,
-        )
-        if match:
-            return (
-                EqnArrayMathClause(match.group(1), line_num, match.group(3).strip()),
-                match.span()[1],
-            )
-
-        match = re.match(r"(\\begin\s*{\s*eqna\s*}((.|\n)*?)\\end\s*{\s*eqna\s*})", source_left)
-        if match:
-            return (
-                EqnArrayMathClause(match.group(1), line_num, match.group(2).strip()),
-                match.span()[1],
-            )
-
-        raise ParsingException()
+        semi_final_result = re.sub(r"([^}\s]+){}", r"\n\\\\\n&\1&", semi_final_result)
+        return re.sub(r"(\s){}", r"\1\n\\\\\n&&", semi_final_result)
+        # return semi_final_result.replace("={}", "\n\\\\\n&=& ")

@@ -17,14 +17,6 @@ class EquationMathClause(MathClauseBase):
         super().__init__(string, line_num, content)
         EquationMathClause.num_instances += 1
 
-    @property
-    def opening_markdown_symbol(self) -> str:
-        return "$$\n\\begin{equation}"
-
-    @property
-    def closing_markdown_symbol(self) -> str:
-        return "\\end{equation}\n$$"
-
     @classmethod
     def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
         match: Match | None = re.match(
@@ -32,8 +24,16 @@ class EquationMathClause(MathClauseBase):
         )
         if match:
             return (
-                EquationMathClause(match.group(1), line_num, match.group(2).strip()),
+                EquationMathClause(match.group(1), line_num, match.group(2)),
                 match.span()[1],
             )
 
         raise ParsingException()
+
+    @property
+    def opening_markdown_symbol(self) -> str:
+        return "$$\n\\begin{equation}"
+
+    @property
+    def closing_markdown_symbol(self) -> str:
+        return "\\end{equation}\n$$"
