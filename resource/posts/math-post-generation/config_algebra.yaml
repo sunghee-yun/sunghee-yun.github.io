@@ -19,7 +19,7 @@ conditionals:
 date: Fri Aug  1 01:00:00 PDT 2025
 extract_figures: true
 generate_preview: true
-output_markdown: ../../../_posts/2025-08-01-PDT - inequalities and number theory.markdown
+output_markdown: ../../../_posts/2025-08-01-PDT - algebra.markdown
 permalink: /math/rig/algebra
 tags:
 - math
