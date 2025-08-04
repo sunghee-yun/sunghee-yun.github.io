@@ -1,7 +1,7 @@
 ---
 title: All Math Topics in All Multiverses
 date: Fri Aug  2 00:00:00 PDT 2025
-last_modified_at: Mon Aug  4 04:56:13 PDT 2025
+last_modified_at: Mon Aug  4 05:26:28 PDT 2025
 permalink: /math/rig/everything
 categories:
 - blog
@@ -36883,9 +36883,8 @@ hence the dual also induces generalized inequalities
 
 </li>
 </ul>
-<div class="proposition" id="proposition:">
+<div class="proposition" id="proposition:generalized---inequalities---and---dual---generalized---inequalities" data-name="generalized inequalities and dual generalized inequalities">
 	
-<div id="proposition:generalized---inequalities---and---dual---generalized---inequalities"></div>
 for proper cone 
 $
 K

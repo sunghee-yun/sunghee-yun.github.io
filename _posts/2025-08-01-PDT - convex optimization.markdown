@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Mon Aug  4 04:56:11 PDT 2025
+last_modified_at: Mon Aug  4 05:26:25 PDT 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -2142,9 +2142,8 @@ hence the dual also induces generalized inequalities
 
 </li>
 </ul>
-<div class="proposition" id="proposition:">
+<div class="proposition" id="proposition:generalized---inequalities---and---dual---generalized---inequalities" data-name="generalized inequalities and dual generalized inequalities">
 	
-<div id="proposition:generalized---inequalities---and---dual---generalized---inequalities"></div>
 for proper cone 
 $
 K
