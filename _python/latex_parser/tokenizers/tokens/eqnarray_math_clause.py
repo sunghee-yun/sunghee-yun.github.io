@@ -37,7 +37,7 @@ class EqnArrayMathClause(MathClauseBase):
                 assert re.match(r"[\s\S]*\s=\s", lefteqn_clause_) is not None, lefteqn_clause_
                 lefteqn_clause_ = re.sub(r"(\s)=(\s)", r"\1&=&\2", lefteqn_clause_)
             else:
-                lefteqn_clause_ = "&=&" + lefteqn_clause_
+                lefteqn_clause_ = "&&" + lefteqn_clause_
 
             return lefteqn_clause_ + string_after_lefteqn[len(lefteqn_clause) :]  # noqa: E203
         return self.content
