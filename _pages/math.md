@@ -7,7 +7,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Wed Jul 30 10:32:17 PDT 2025
-last_modified_at: Sun Aug  3 19:40:58 PDT 2025
+last_modified_at: Sun Aug  3 20:08:12 PDT 2025
 ---
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
@@ -21,6 +21,7 @@ last_modified_at: Sun Aug  3 19:40:58 PDT 2025
 {% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
 {% assign rig_linalg = site.posts | where: "permalink", "/math/rig/linear-algebra" | first %}
+{% assign rig_algebra = site.posts | where: "permalink", "/math/rig/algebra" | first %}
 {% assign rig_aalgebra = site.posts | where: "permalink", "/math/rig/abstract-algebra" | first %}
 {% assign rig_mtheory = site.posts | where: "permalink", "/math/rig/measure-theory" | first %}
 {% assign rig_topspaces = site.posts | where: "permalink", "/math/rig/topological-spaces" | first %}
@@ -44,6 +45,7 @@ last_modified_at: Sun Aug  3 19:40:58 PDT 2025
 
 - [{{ rig_all_math.title }}]({{ rig_all_math.url }})
 - [{{ rig_linalg.title }}]({{ rig_linalg.url }})
+- [{{ rig_algebra.title }}]({{ rig_algebra.url }})
 - [{{ rig_aalgebra.title }}]({{ rig_aalgebra.url }})
 - [{{ rig_mtheory.title }}]({{ rig_mtheory.url }})
 - [{{ rig_topspaces.title }}]({{ rig_topspaces.url }})
