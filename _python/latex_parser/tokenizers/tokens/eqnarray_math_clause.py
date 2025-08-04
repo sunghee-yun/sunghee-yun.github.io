@@ -5,16 +5,18 @@ LaTeX equation - \\begin{eqnarray} ... \\end{eqnarray} or \\begin{eqnarray*} ...
 import re
 from re import Match
 
-from latex_parser.tokenizers.tokens.math_phrase_base import MathPhraseBase
+from latex_parser.tokenizers.parsing_exception import ParsingException
+from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
+from latex_parser.tokenizers.tokens.math_clause_base import MathClauseBase
 from utils import parse_nested_braced_clause
 
 
-class EqnArrayMathPhrase(MathPhraseBase):
+class EqnArrayMathClause(MathClauseBase):
     num_instances: int = 0
 
     def __init__(self, string: str, line_num: int, content: str) -> None:
         super().__init__(string, line_num, content)
-        EqnArrayMathPhrase.num_instances += 1
+        EqnArrayMathClause.num_instances += 1
 
     @property
     def opening_markdown_symbol(self) -> str:
@@ -39,3 +41,24 @@ class EqnArrayMathPhrase(MathPhraseBase):
 
             return lefteqn_clause_ + string_after_lefteqn[len(lefteqn_clause) :]  # noqa: E203
         return self.content
+
+    @classmethod
+    def parse_and_create(cls, source_left: str, line_num: int) -> tuple[LaTeXTokenBase, int]:
+        match: Match | None = re.match(
+            r"(\\begin\s*{\s*eqnarray(\*?)\s*}((.|\n)*?)\\end\s*{\s*eqnarray\*?\s*})",
+            source_left,
+        )
+        if match:
+            return (
+                EqnArrayMathClause(match.group(1), line_num, match.group(3).strip()),
+                match.span()[1],
+            )
+
+        match = re.match(r"(\\begin\s*{\s*eqna\s*}((.|\n)*?)\\end\s*{\s*eqna\s*})", source_left)
+        if match:
+            return (
+                EqnArrayMathClause(match.group(1), line_num, match.group(2).strip()),
+                match.span()[1],
+            )
+
+        raise ParsingException()

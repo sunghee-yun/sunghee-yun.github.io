@@ -37,4 +37,4 @@ class LaTeXTokenBase(ABC):
             [cls] + list(get_all_subclasses(LaTeXTokenBase)),
             key=lambda x: (x.num_instances, x.__name__),
         ):
-            logger.debug(f"{subclass.__name__} - {subclass.num_instances} instance")
+            logger.info(f"{subclass.__name__} - {subclass.num_instances} instance")

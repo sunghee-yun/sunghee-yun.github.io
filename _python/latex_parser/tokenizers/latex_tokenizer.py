@@ -7,13 +7,13 @@ from re import Match
 from typing import Generator
 
 from latex_parser.tokenizers.parsing_exception import ParsingException
-from latex_parser.tokenizers.tokens.algorithmic_clause import AlgorithmicClause
-from latex_parser.tokenizers.tokens.braced_phrase import BracedPhrase
-from latex_parser.tokenizers.tokens.bracketed_phrase import BracketedPhrase
+from latex_parser.tokenizers.tokens.algorithmic_clause import AlgorithmicEnv
+from latex_parser.tokenizers.tokens.braced_clause import BracedClause
+from latex_parser.tokenizers.tokens.bracketed_clause import BracketedClause
 from latex_parser.tokenizers.tokens.command_token_base import CommandTokenBase
 from latex_parser.tokenizers.tokens.keyword_base import KeywordBase
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
-from latex_parser.tokenizers.tokens.math_phrase_base import MathPhraseBase
+from latex_parser.tokenizers.tokens.math_clause_base import MathClauseBase
 from latex_parser.tokenizers.tokens.new_lines_token import NewLines
 from latex_parser.tokenizers.tokens.punctuation_token import PunctuationToken
 from latex_parser.tokenizers.tokens.refer import Refer
@@ -61,18 +61,18 @@ class LaTeXTokenizer:
 
             token_parsed: bool = False
             for cls in [
-                MathPhraseBase,
-                AlgorithmicClause,
-                WordToken,
-                KeywordBase,
-                Refer,
-                CommandTokenBase,
-                BracedPhrase,
-                PunctuationToken,
-                BracketedPhrase,
-                SpecialCharacter,
-                SpecialString,
-                SpecialNumberString,
+                WordToken,  # ~ 24889
+                MathClauseBase,  # ~ 5945
+                KeywordBase,  # ~ 6402
+                PunctuationToken,  # ~ 4760
+                Refer,  # ~ 194
+                AlgorithmicEnv,  # ~ 9
+                CommandTokenBase,  # ~ 4462
+                BracedClause,  # ~ 4373
+                SpecialCharacter,  # ~ 979
+                BracketedClause,  # ~ 45
+                SpecialString,  # ~ 0
+                SpecialNumberString,  # ~ 0
             ]:
                 try:
                     token, length = cls.parse_and_create(  # type:ignore

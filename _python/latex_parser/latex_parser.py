@@ -24,14 +24,13 @@ from latex_parser.tokenizers.tokens.begin_itemize_token import BeginItemizeToken
 from latex_parser.tokenizers.tokens.begin_theorem_like_token import (
     BeginTheoremLikeToken,
 )
-from latex_parser.tokenizers.tokens.braced_phrase import BracedPhrase
-from latex_parser.tokenizers.tokens.bracketed_phrase import BracketedPhrase
+from latex_parser.tokenizers.tokens.braced_clause import BracedClause
+from latex_parser.tokenizers.tokens.bracketed_clause import BracketedClause
 from latex_parser.tokenizers.tokens.command_token_base import CommandTokenBase
 from latex_parser.tokenizers.tokens.end_document_token import EndDocumentToken
 from latex_parser.tokenizers.tokens.end_itemize_token import EndItemizeToken
 from latex_parser.tokenizers.tokens.end_theorem_like_token import EndTheoremLikeToken
 from latex_parser.tokenizers.tokens.item_token import ItemToken
-from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.tokens.latex_command import LaTeXCommandToken
 from latex_parser.tokenizers.tokens.new_lines_token import NewLines
 from latex_parser.tokenizers.tokens.white_spaces import WhiteSpaces
@@ -69,8 +68,8 @@ class LaTeXParser:
         begin_theorem_like_token: BeginTheoremLikeToken | None = None
 
         latex_command: CommandTokenBase | None = None
-        latex_command_arg_list: list[BracedPhrase] = list()
-        latex_command_opt_arg_list: list[BracketedPhrase] = list()
+        latex_command_arg_list: list[BracedClause] = list()
+        latex_command_opt_arg_list: list[BracketedClause] = list()
         latex_command_spaces: list[NewLines | WhiteSpaces] = list()
         latex_command_waiting_for_opt_args: bool = False
         for idx, token in enumerate(latex_tokenizer.tokenize()):
@@ -81,12 +80,12 @@ class LaTeXParser:
                     latex_command_spaces.append(token)
                     continue
 
-                if latex_command_waiting_for_opt_args and isinstance(token, BracketedPhrase):
+                if latex_command_waiting_for_opt_args and isinstance(token, BracketedClause):
                     latex_command_spaces = list()
                     latex_command_opt_arg_list.append(token)
                     continue
 
-                if isinstance(token, BracedPhrase):
+                if isinstance(token, BracedClause):
                     latex_command_waiting_for_opt_args = False
                     latex_command_spaces = list()
                     latex_command_arg_list.append(token)
@@ -95,7 +94,7 @@ class LaTeXParser:
                 content_stack[-1].add_element(
                     LaTeXCommandElement(
                         latex_command,
-                        [braced_phrase.string[1:-1] for braced_phrase in latex_command_arg_list],
+                        [braced_clause.string[1:-1] for braced_clause in latex_command_arg_list],
                         [
                             bracketed_arg.string[1:-1]
                             for bracketed_arg in latex_command_opt_arg_list
@@ -212,7 +211,5 @@ class LaTeXParser:
 
         if not met_end_document:
             logger.warning(r"The document misses `\end{document}` statement!")
-
-        LaTeXTokenBase.log_statistics()
 
         return LaTeXDocument(preamble, main_body)

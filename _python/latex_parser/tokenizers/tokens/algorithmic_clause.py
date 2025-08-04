@@ -1,5 +1,11 @@
 """
-LaTeX math phrase
+LaTeX algorithmic env
+
+\\begin{algorithmic}
+.
+.
+.
+\\end{algorithmic}
 """
 
 import re
@@ -9,7 +15,7 @@ from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.parsing_exception import ParsingException
 
 
-class AlgorithmicClause(LaTeXTokenBase):
+class AlgorithmicEnv(LaTeXTokenBase):
     num_instances: int = 0
 
     SINGLE_KEYWORDS: dict[str, str] = dict(
@@ -28,7 +34,7 @@ class AlgorithmicClause(LaTeXTokenBase):
     def __init__(self, string: str, line_num: int, content: str) -> None:
         super().__init__(string, line_num)
         self.content: str = content
-        AlgorithmicClause.num_instances += 1
+        AlgorithmicEnv.num_instances += 1
 
     @property
     def markdown_str(self) -> str:
@@ -78,6 +84,6 @@ class AlgorithmicClause(LaTeXTokenBase):
             raise ParsingException()
 
         return (
-            AlgorithmicClause(match.group(1), line_num, match.group(2).strip()),
+            AlgorithmicEnv(match.group(1), line_num, match.group(2).strip()),
             match.span()[1],
         )

@@ -20,6 +20,7 @@ from freq_used.logging_utils import set_logging_basic_config
 from converters.foiltex_markdown_conversion_config import FoiltexToMarkdownConversionConfig
 from converters.foiltex_markdown_converter import LaTeXToMarkdownConverter
 from latex_parser.tokenizers.tokens.latex_command import LaTeXCommandToken
+from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.tokens.user_defined_command import UserDefinedCommandToken
 from latex_parser.tokenizers.tokens.def_command import DefCommandToken
 
@@ -58,6 +59,7 @@ def main(
         print(f"Conversion failed: {e}")
         raise
     finally:
+        LaTeXTokenBase.log_statistics()
         logger.warning("LaTeX commands NOT taken are of:")
         logger.warning(" / ".join(sorted(LaTeXCommandToken.COMMANDS_DEFINED)))
         logger.warning("User-defined commands NOT taken are of:")

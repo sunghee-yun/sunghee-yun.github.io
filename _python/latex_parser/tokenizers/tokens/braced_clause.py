@@ -10,12 +10,12 @@ from latex_parser.tokenizers.parsing_exception import ParsingException
 from utils import parse_nested_braced_clause
 
 
-class BracedPhrase(LaTeXTokenBase):
+class BracedClause(LaTeXTokenBase):
     num_instances: int = 0
 
     def __init__(self, string: str, line_num: int) -> None:
         super().__init__(string, line_num)
-        BracedPhrase.num_instances += 1
+        BracedClause.num_instances += 1
 
     @property
     def markdown_str(self) -> str:
@@ -44,4 +44,4 @@ class BracedPhrase(LaTeXTokenBase):
         except Exception as e:
             raise ParsingException(str(e))
 
-        return BracedPhrase(parsed_string, line_num), len(parsed_string)
+        return BracedClause(parsed_string, line_num), len(parsed_string)

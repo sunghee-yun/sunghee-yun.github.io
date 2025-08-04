@@ -1,5 +1,5 @@
 """
-plain word or phrase
+plain word or clause
 """
 
 import re
