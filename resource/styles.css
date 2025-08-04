@@ -28,49 +28,83 @@ body {
 	color: #222;
 	/* text-align: justify; */
 
-	counter-reset: theorem lemma corollary proposition conjecture inequality definition algorithm;
+	counter-reset: algorithm axiom conjecture corollary definition formula inequality law lemma principle proposition theorem;
 }
 
-.theorem { counter-increment: theorem; }
-.lemma { counter-increment: lemma; }
-.corollary { counter-increment: corollary; }
-.proposition { counter-increment: proposition; }
-.conjecture { counter-increment: conjecture; }
-.inequality { counter-increment: inequality; }
-.definition { counter-increment: definition; }
 .algorithm { counter-increment: algorithm; }
+.axiom { counter-increment: axiom; }
+.conjecture { counter-increment: conjecture; }
+.corollary { counter-increment: corollary; }
+.definition { counter-increment: definition; }
+.formula { counter-increment: formula; }
+.inequality { counter-increment: inequality; }
+.law { counter-increment: law; }
+.lemma { counter-increment: lemma; }
+.principle { counter-increment: principle; }
+.proposition { counter-increment: proposition; }
+.theorem { counter-increment: theorem; }
 
-.theorem, .lemma, .corollary, .proposition, .conjecture, .inequality, .definition, .algorithm, .proof {
+.algorithm,
+.axiom,
+.conjecture,
+.corollary,
+.definition,
+.formula,
+.inequality,
+.law,
+.lemma,
+.principle,
+.proposition,
+.theorem,
+.proof {
   margin: 0 0 1em 0;
   font-weight: normal;
 }
 
-.theorem::before, .lemma::before, .corollary::before,
-.proposition::before, .conjecture::before, .inequality::before, .definition::before, .algorithm::before,
+.algorithm::before,
+.axiom::before,
+.conjecture::before,
+.corollary::before,
+.definition::before,
+.formula::before,
+.inequality::before,
+.law::before,
+.lemma::before,
+.principle::before,
+.proposition::before,
+.theorem::before,
 .proof:before {
   font-weight: bold;
 }
 
 /* Individual labels without data-name */
-.theorem::before { content: "Theorem " counter(theorem) ". "; color: green; }
-.lemma::before { content: "Lemma " counter(lemma) ". "; color: #48a860; }
-.corollary::before { content: "Corollary " counter(corollary) ". "; color: #03ac13; }
-.proposition::before { content: "Proposition " counter(proposition) ". "; }
-.conjecture::before { content: "Conjecture " counter(conjecture) ". "; }
-.inequality::before { content: "Inequality " counter(inequality) ". "; }
-.definition::before { content: "Definition " counter(definition) ". "; color: blue; }
 .algorithm::before { content: "Algorithm " counter(algorithm) ". "; color: #fa9d00; }
+.axiom::before { content: "Axiom " counter(axiom) ". "; color: #990f02; }
+.conjecture::before { content: "Conjecture " counter(conjecture) ". "; }
+.corollary::before { content: "Corollary " counter(corollary) ". "; color: #03ac13; }
+.definition::before { content: "Definition " counter(definition) ". "; color: blue; }
+.formula::before { content: "Formula " counter(formula) ". "; color: #2832c2; }
+.inequality::before { content: "Inequality " counter(inequality) ". "; }
+.law::before { content: "Law " counter(law) ". "; color: #b90e0a; }
+.lemma::before { content: "Lemma " counter(lemma) ". "; color: #48a860; }
+.principle::before { content: "Principle " counter(principle) ". "; color: #d21404; }
+.proposition::before { content: "Proposition " counter(proposition) ". "; color: #52b2bf; }
+.theorem::before { content: "Theorem " counter(theorem) ". "; color: green; }
 .proof::before { content: "Proof."; color: #ed2939; }
 
 /* Individual labels WITH data-name */
-.theorem[data-name]::before { content: "Theorem " counter(theorem) ". [" attr(data-name) "] "; color: green; }
-.lemma[data-name]::before { content: "Lemma " counter(lemma) ". [" attr(data-name) "] "; color: #48a860; }
-.corollary[data-name]::before { content: "Corollary " counter(corollary) ". [" attr(data-name) "] "; color: #03ac13; }
-.proposition[data-name]::before { content: "Proposition " counter(proposition) ". [" attr(data-name) "] "; }
-.conjecture[data-name]::before { content: "Conjecture " counter(conjecture) ". [" attr(data-name) "] "; }
-.inequality[data-name]::before { content: "Inequality " counter(inequality) ". [" attr(data-name) "] "; }
-.definition[data-name]::before { content: "Definition " counter(definition) ". [" attr(data-name) "] "; color: blue; }
 .algorithm[data-name]::before { content: "Algorithm " counter(algorithm) ". [" attr(data-name) "] "; color: #fa9d00; }
+.axiom[data-name]::before { content: "Axiom " counter(axiom) ". [" attr(data-name) "] "; color: #990f02; }
+.conjecture[data-name]::before { content: "Conjecture " counter(conjecture) ". [" attr(data-name) "] "; }
+.corollary[data-name]::before { content: "Corollary " counter(corollary) ". [" attr(data-name) "] "; color: #03ac13; }
+.definition[data-name]::before { content: "Definition " counter(definition) ". [" attr(data-name) "] "; color: blue; }
+.formula[data-name]::before { content: "Formula " counter(formula) ". [" attr(data-name) "] "; color: #2832c2; }
+.inequality[data-name]::before { content: "Inequality " counter(inequality) ". [" attr(data-name) "] "; }
+.law[data-name]::before { content: "Law " counter(law) ". [" attr(data-name) "] "; color: #b90e0a; }
+.lemma[data-name]::before { content: "Lemma " counter(lemma) ". [" attr(data-name) "] "; color: #48a860; }
+.principle[data-name]::before { content: "Principle " counter(principle) ". [" attr(data-name) "] "; color: #d21404; }
+.proposition[data-name]::before { content: "Proposition " counter(proposition) ". [" attr(data-name) "] "; color: #52b2bf; }
+.theorem[data-name]::before { content: "Theorem " counter(theorem) ". [" attr(data-name) "] "; color: green; }
 
 @font-face {
     font-family: "PrettyKorean";
