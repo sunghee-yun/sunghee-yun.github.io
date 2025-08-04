@@ -1,7 +1,7 @@
 ---
 title: Inequalities and Number Theory
 date: Fri Aug  1 01:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:25 PDT 2025
+last_modified_at: Sun Aug  3 23:56:23 PDT 2025
 permalink: /math/rig/algebra
 categories:
 - blog
@@ -203,7 +203,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -481,8 +481,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -503,7 +503,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -532,7 +532,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -555,11 +555,11 @@ $$
 </ul>
 
 
-<h1 id="algebra">Algebra</h1>
+<h1 id="super-title-page:algebra">Algebra</h1>
 
 
 
-<h2 id="Inequalities">Inequalities</h2>
+<h2 id="title-page:Inequalities">Inequalities</h2>
 
 
 <h3>Jensen's inequality</h3>
@@ -569,7 +569,7 @@ $$
 	strictly convex function: for any $x\neq y$ and $0< \alpha <1$
 
 
-(<a href="#definition:convex functions"></a>)
+(<a href="#definition:convex---functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) > f(\alpha x + (1-\alpha) y)
@@ -580,7 +580,7 @@ $$
 <li>
 	convex function: for any $x, y$ and $0< \alpha <1$
 
-(<a href="#definition:convex functions"></a>)
+(<a href="#definition:convex---functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) \geq f(\alpha x + (1-\alpha) y)
@@ -589,7 +589,7 @@ $$
 
 </li>
 </ul>
-<div class="inequality" id="inequality:Jensen's inequality - for finite sequences" data-name="Jensen's inequality - for finite sequences">
+<div class="inequality" id="inequality:Jensen's---inequality-------for---finite---sequences" data-name="Jensen's inequality - for finite sequences">
 	
 
 
@@ -636,11 +636,11 @@ $$
 </li>
 </ul>
 
-<div class="inequality" id="inequality:Jensen's inequality - for random variables" data-name="Jensen's inequality - for random variables">
+<div class="inequality" id="inequality:Jensen's---inequality-------for---random---variables" data-name="Jensen's inequality - for random variables">
 	
 
 
-for random vector $X$ (page~ for definition)
+for random vector $X$ (page~<a href="#page:random-variables">here</a> for definition)
 
 $$
 \Expect f(X) \geq f(\Expect X)
@@ -910,7 +910,7 @@ $$
 
 </li>
 </ul>
-<div class="inequality" id="inequality:AM-GM inequality" data-name="AM-GM inequality">
+<div class="inequality" id="inequality:AM-GM---inequality" data-name="AM-GM inequality">
 	
 for any $n$ $a_i>0$ and $\alpha_i>0$ with $\alpha_1+\cdots+\alpha_n=1$
 
@@ -1257,7 +1257,7 @@ where equality if and only if $a_i$ are equal
 
 <h3>Cauchy-Schwarz inequality</h3>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality" data-name="Cauchy-Schwarz inequality">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality" data-name="Cauchy-Schwarz inequality">
 	
 for any $a_i, b_i\in\reals$
 
@@ -1464,14 +1464,14 @@ $$
 
 
 
-
+<div id="page:Cauchy-Schwarz---inequality-------generalization"></div>
 <ul>
 <li>
 	want to say something like $\sum_{i=1}^n (x a_i + y b_i + z c_i + w d_i + \cdots)^2$
 
 </li>
 <li>
-	run out of alphabets  - use double subscripts
+	run out of alphabets &hellip; - use double subscripts
 
 $$
 \begin{eqnarray*}
@@ -1572,7 +1572,7 @@ $$
 
 
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for complex numbers" data-name="Cauchy-Schwarz inequality - for complex numbers">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---complex---numbers" data-name="Cauchy-Schwarz inequality - for complex numbers">
 	
 
 
@@ -1586,7 +1586,7 @@ $$
 
 </div>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for infinite sequences" data-name="Cauchy-Schwarz inequality - for infinite sequences">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---infinite---sequences" data-name="Cauchy-Schwarz inequality - for infinite sequences">
 	
 
 
@@ -1603,7 +1603,7 @@ $$
 
 </div>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for complex functions" data-name="Cauchy-Schwarz inequality - for complex functions">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---complex---functions" data-name="Cauchy-Schwarz inequality - for complex functions">
 	
 
 
@@ -1624,7 +1624,7 @@ as in page~\pageref{page:Cauchy-Schwarz inequality - generalization}</span>
 </li>
 </ul>
 
-<h2 id="number-theory">Number Theory - Queen of Mathematics</h2>
+<h2 id="title-page:number-theory">Number Theory - Queen of Mathematics</h2>
 
 
 <h3>Integers</h3>
@@ -1706,13 +1706,13 @@ $$
 
 <h3>Fundamental theorem of arithmetic</h3>
 
-<div class="theorem" id="theorem:fundamental theorem of arithmetic" data-name="fundamental theorem of arithmetic">
+<div class="theorem" id="theorem:fundamental---theorem---of---arithmetic" data-name="fundamental theorem of arithmetic">
 	
 
 
 integer $n\geq2$ can be factored uniquely into products of primes,
 <i>i.e.</i>,
-exist distinct primes, $p_1$, , $p_k$, and $e_1,\ldots, e_k\in\naturals$
+exist distinct primes, $p_1$, &hellip;, $p_k$, and $e_1,\ldots, e_k\in\naturals$
 such that
 
 $$
@@ -1725,7 +1725,7 @@ $$
 <li>
 	hence,
 integers are <i>factorial ring</i>
-(<a href="#definition:factorial ring"></a>)
+(<a href="#definition:factorial---ring"></a>)
 
 </li>
 </ul>
@@ -1747,7 +1747,7 @@ $$
 	<li>
 		for definition of gcd
 for general entire rings,
-refer to <a href="#definition:greatest common divisor"></a>
+refer to <a href="#definition:greatest---common---divisor"></a>
 
 	</li>
 	</ul>
@@ -1808,7 +1808,7 @@ $$
 a \equiv b \Mod{n}
 $$
 
-read as <span class="define">``$a$ congruent to $b$ mod $n$''</span>
+read as &ldquo;<span class="define">$a$ congruent to $b$ mod $n$</span>''
 
 </div>
 <ul>
@@ -1827,7 +1827,7 @@ read as <span class="define">``$a$ congruent to $b$ mod $n$''</span>
 
 </li>
 </ul>
-<div class="definition" id="definition:congruence class" data-name="congruence class">
+<div class="definition" id="definition:congruence---class" data-name="congruence class">
 	
 
 
@@ -1839,21 +1839,21 @@ classes determined by modulo relation,
 called <span class="define">congruence</span> or <span class="define">residue class under modulo</span>
 
 </div>
-<div class="definition" id="definition:integers modulo n" data-name="integers modulo n">
+<div class="definition" id="definition:integers---modulo---n" data-name="integers modulo n">
 	
 
 
 
 
 set of equivalence classes under modulo,
-denoted by <span class="define">$\integers/n \integers$</span>,
+denoted by <span class="notation">$\integers/n \integers$</span>,
 called <span class="define">integers modulo $n$</span> or <span class="define">integers mod $n$</span>
 
 </div>
 
 <h3>Euler's theorem</h3>
 
-<div class="definition" id="definition:Euler's totient function" data-name="Euler's totient function">
+<div class="definition" id="definition:Euler's---totient---function" data-name="Euler's totient function">
 	
 
 
@@ -1880,7 +1880,7 @@ $\varphi(10) = \varphi(2^1\cdot5^1) = 1\cdot2^0\cdot 4\cdot 5^0 =4$
 
 </li>
 </ul>
-<div class="theorem" id="theorem:Euler's theorem - number theory" data-name="Euler's theorem - number theory">
+<div class="theorem" id="theorem:Euler's---theorem-------number---theory" data-name="Euler's theorem - number theory">
 	
 
 

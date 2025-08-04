@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:28 PDT 2025
+last_modified_at: Sun Aug  3 23:56:27 PDT 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -204,7 +204,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -482,8 +482,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -504,7 +504,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -533,7 +533,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -556,7 +556,7 @@ $$
 </ul>
 
 
-<h1 id="Convex Optimization">Convex Optimization</h1>
+<h1 id="super-title-page:Convex---Optimization">Convex Optimization</h1>
 
 
 
@@ -587,7 +587,7 @@ $$
 
 
 
-<h2 id="Convex Sets">Convex Sets</h2>
+<h2 id="title-page:Convex---Sets">Convex Sets</h2>
 
 
 <h3>Lines and line segmenets</h3>
@@ -603,7 +603,7 @@ $$
 called <span class="define">line going through $x$ and $y$</span>
 
 </div>
-<div class="definition" id="definition:line segmenets" data-name="line segmenets">
+<div class="definition" id="definition:line---segmenets" data-name="line segmenets">
 	
 for some $x,y\in\reals^n$
 
@@ -617,7 +617,7 @@ called <span class="define">line segment connecting $x$ and $y$</span>
 
 <h3>Affine sets</h3>
 
-<div class="definition" id="definition:affine sets" data-name="affine sets">
+<div class="definition" id="definition:affine---sets" data-name="affine sets">
 	
 set, $C\subset \reals^n$,
 every line going through any two points in which
@@ -636,12 +636,12 @@ called
 <span class="define">affine set</span>
 
 </div>
-<div class="definition" id="definition:affine hulls" data-name="affine hulls">
+<div class="definition" id="definition:affine---hulls" data-name="affine hulls">
 	
 for set, $C\subset\reals^n$,
 intersection of all affine sets containing $C$,
 called <span class="define">affine hull of $C$</span>,
-denoted by <span class="define">$\affinehull C$</span>,
+denoted by <span class="notation">$\affinehull C$</span>,
 which is equal to
 set of all affine combinations of points in $C$, <i>i.e.</i>
 
@@ -652,7 +652,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:affine dimension" data-name="affine dimension">
+<div class="definition" id="definition:affine---dimension" data-name="affine dimension">
 	
 for $C\subset \reals^n$,
 dimension of $\affinehull C$,
@@ -662,7 +662,7 @@ called <span class="define">affine dimension</span>
 
 <h3>Relative interiors and boundaries</h3>
 
-<div class="definition" id="definition:relative interiors of sets" data-name="relative interiors of sets">
+<div class="definition" id="definition:relative---interiors---of---sets" data-name="relative interiors of sets">
 	
 for $C\subset \reals^n$,
 
@@ -677,10 +677,10 @@ $$
 $$
 
 is called <span class="define">relative interior of $C$</span> or <span class="define">interior relative to $C$</span>,
-denoted by <span class="define">$\relint C$</span>
+denoted by <span class="notation">$\relint C$</span>
 
 </div>
-<div class="definition" id="definition:relative boundaries of sets" data-name="relative boundaries of sets">
+<div class="definition" id="definition:relative---boundaries---of---sets" data-name="relative boundaries of sets">
 	
 for $C\subset \reals^n$,
 $\closure{C}\sim \relint C$,
@@ -690,7 +690,7 @@ called <span class="define">relative boundary of $C$</span>
 
 <h3>Convex sets</h3>
 
-<div class="definition" id="definition:convex sets" data-name="convex sets">
+<div class="definition" id="definition:convex---sets" data-name="convex sets">
 	
 set, $C\subset \reals^n$,
 every line segment connecting any two points in which
@@ -711,12 +711,12 @@ $$
 called <span class="define">convex set</span>
 
 </div>
-<div class="definition" id="definition:convex hulls" data-name="convex hulls">
+<div class="definition" id="definition:convex---hulls" data-name="convex hulls">
 	
 for set, $C\subset \reals^n$,
 intersection of all convex sets containing $C$,
 called <span class="define">convex hull of $C$</span>,
-denoted by <span class="define">$\cvxhull C$</span>,
+denoted by <span class="notation">$\cvxhull C$</span>,
 which is equal to
 set of all convex combinations of points in $C$, <i>i.e.</i>
 
@@ -753,7 +753,7 @@ $$
 called <span class="define">cone</span> or <span class="define">nonnegative homogeneous</span>
 
 </div>
-<div class="definition" id="definition:convex cone" data-name="convex cone">
+<div class="definition" id="definition:convex---cone" data-name="convex cone">
 	
 set, $C\subset \reals^n$,
 which is both convex and cone,
@@ -799,7 +799,7 @@ $$
 for some $a\neq0 \in \reals^n$ and $b\in \reals$
 
 </div>
-<div class="definition" id="definition:half spaces" data-name="half spaces">
+<div class="definition" id="definition:half---spaces" data-name="half spaces">
 	
 one of two sets divided by hyperplane,
 called <span class="define">half space</span>;
@@ -822,12 +822,12 @@ for some $a\neq0 \in \reals^n$ and $b\in \reals$
 
 <h3>Euclidean balls and ellipsoids</h3>
 
-<div class="definition" id="definition:Euclidean ball" data-name="Euclidean ball">
+<div class="definition" id="definition:Euclidean---ball" data-name="Euclidean ball">
 	
 set of all points distance of which from point, $x\in\reals^n$,
 is no greater than $r>0$,
 called <span class="define">(Euclidean) ball centered at $x$ with radius, $r$</span>,
-denoted by <span class="define">$\ball{x}{r}$</span>,
+denoted by <span class="notation">$\ball{x}{r}$</span>,
 <i>i.e.</i>
 
 $$
@@ -858,7 +858,7 @@ for some $x\in\reals^n$ and $P\in \posdefset{n}$
 
 <h3>Norm balls and norm cones</h3>
 
-<div class="definition" id="definition:norm ball" data-name="norm ball">
+<div class="definition" id="definition:norm---ball" data-name="norm ball">
 	
 for norm, $\|\cdot\|:\reals^n\to\preals$,
 set of all points distance of which measured in the norm from point, $x\in\reals^n$,
@@ -872,7 +872,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:norm cone" data-name="norm cone">
+<div class="definition" id="definition:norm---cone" data-name="norm cone">
 	
 for norm, $\|\cdot\|:\reals^n\to\preals$,
 $x\in\reals^n$,
@@ -886,7 +886,7 @@ $$
 called <span class="define">cone associated with norm, $\|\cdot\|$</span>
 
 </div>
-<div class="definition" id="definition:second-order cone" data-name="second-order cone">
+<div class="definition" id="definition:second-order---cone" data-name="second-order cone">
 	
 norm cone associated with Euclidean norm,
 called <span class="define">second-order cone</span>
@@ -916,14 +916,14 @@ for $A\in\reals^{m\times n}$, $b\in\reals^m$, $C\in\reals^{p\times n}$, $d\in\re
 </div>
 <ul>
 <li>
-	polyhedron is convex set (by <a href="#proposition:convexity preserving set operations"></a>)
+	polyhedron is convex set (by <a href="#proposition:convexity---preserving---set---operations"></a>)
 
 </li>
 </ul>
 
 <h3>Convexity preserving set operations</h3>
 
-<div class="proposition" id="proposition:convexity preserving set operations" data-name="convexity preserving set operations">
+<div class="proposition" id="proposition:convexity---preserving---set---operations" data-name="convexity preserving set operations">
 	
 
 
@@ -1048,7 +1048,7 @@ are convex
 
 <h3>Proper cones and generalized inequalities</h3>
 
-<div class="definition" id="definition:proper cones" data-name="proper cones">
+<div class="definition" id="definition:proper---cones" data-name="proper cones">
 	
 closed convex cone $K$ which is
 
@@ -1073,7 +1073,7 @@ $\prealk{n}$ and $\possemidefset{n}$
 
 </li>
 </ul>
-<div class="definition" id="definition:generalized inequalities" data-name="generalized inequalities">
+<div class="definition" id="definition:generalized---inequalities" data-name="generalized inequalities">
 	
 proper cone $K$
 defines <span class="define">generalized inequalities</span>
@@ -1119,7 +1119,7 @@ $$
 	for affine function $g:\reals^n\to\symset{m}$,
 <i>i.e.</i>, $f(x)=A_0 + A_1 x_1 + \cdots + A_n x_n$
 for some $A_0,\ldots,A_n\in\symset{m}$,
-$f^{-1}(\possemidefset{n})$ is convex (by <a href="#proposition:convexity preserving set operations"></a>),
+$f^{-1}(\possemidefset{n})$ is convex (by <a href="#proposition:convexity---preserving---set---operations"></a>),
 <i>i.e.</i>,
 
 $$
@@ -1145,7 +1145,7 @@ is (also) convex
 
 <h3>Separating and supporting hyperplanes</h3>
 
-<div class="theorem" id="theorem:separating hyperplane theorem" data-name="separating hyperplane theorem">
+<div class="theorem" id="theorem:separating---hyperplane---theorem" data-name="separating hyperplane theorem">
 	
 for nonempty disjoint convex sets $C$ and $D$,
 exists hyperplane which separates $C$ and $D$,
@@ -1167,15 +1167,15 @@ $$
 
 
 </div>
-<div class="definition" id="definition:separating hyperplanes" data-name="separating hyperplanes">
+<div class="definition" id="definition:separating---hyperplanes" data-name="separating hyperplanes">
 	
 for nonempty disjoint convex sets $C$ and $D$,
-hyperplane satisfying property in <a href="#theorem:separating hyperplane theorem"></a>,
+hyperplane satisfying property in <a href="#theorem:separating---hyperplane---theorem"></a>,
 called <span class="define">separating hyperplane</span>,
 said to <span class="define">separate $C$ and $D$</span>
 
 </div>
-<div class="theorem" id="theorem:supporting hyperplane theorem" data-name="supporting hyperplane theorem">
+<div class="theorem" id="theorem:supporting---hyperplane---theorem" data-name="supporting hyperplane theorem">
 	
 for nonempty convex set $C$
 and $x\in \boundary C$,
@@ -1196,11 +1196,11 @@ $$
 
 
 </div>
-<div class="definition" id="definition:supporting hyperplanes" data-name="supporting hyperplanes">
+<div class="definition" id="definition:supporting---hyperplanes" data-name="supporting hyperplanes">
 	
 for nonempty convex set $C$
 and $x\in \boundary C$,
-hyperplane satisfied property in <a href="#theorem:supporting hyperplane theorem"></a>,
+hyperplane satisfied property in <a href="#theorem:supporting---hyperplane---theorem"></a>,
 called <span class="define">supporting hyperplane</span>
 
 </div>
@@ -1209,7 +1209,7 @@ called <span class="define">supporting hyperplane</span>
 
 
 
-<div class="definition" id="definition:dual cones" data-name="dual cones">
+<div class="definition" id="definition:dual---cones" data-name="dual cones">
 	
 for cone $K$,
 
@@ -1218,7 +1218,7 @@ $$
 $$
 
 called <span class="define">dual cone of $K$</span>,
-denoted by <span class="define">$K^\ast$</span>
+denoted by <span class="notation">$K^\ast$</span>
 
 </div>
 <ul>
@@ -1230,16 +1230,16 @@ denoted by <span class="define">$K^\ast$</span>
 
 
 
+&nbsp;
 
 
-
-
+<div id="fig:dual---cone"></div>
 
 
 
 <h3>Dual norms</h3>
 
-<div class="definition" id="definition:dual norms" data-name="dual norms">
+<div class="definition" id="definition:dual---norms" data-name="dual norms">
 	
 for norm $\|\cdot\|$,
 fudnction defined by
@@ -1249,7 +1249,7 @@ y \mapsto \sup \set{y^Tx}{\|x\|\leq 1}
 $$
 
 called <span class="define">dual norm of $\|\cdot\|$</span>,
-denoted by <span class="define">$\|\cdot\|_\ast$</span>
+denoted by <span class="notation">$\|\cdot\|_\ast$</span>
 
 </div>
 <ul>
@@ -1285,7 +1285,7 @@ $$
 
 <h3>Properties of dual cones</h3>
 
-<div class="proposition" id="proposition:properties of dual cones" data-name="properties of dual cones">
+<div class="proposition" id="proposition:properties---of---dual---cones" data-name="properties of dual cones">
 	
 for cones $K$, $K_1$, and $K_2$
 
@@ -1339,14 +1339,14 @@ thus,
 
 <ul>
 <li>
-	dual of proper cone is proper (<a href="#proposition:properties of dual cones"></a>),
+	dual of proper cone is proper (<a href="#proposition:properties---of---dual---cones"></a>),
 hence the dual also induces generalized inequalities
 
 </li>
 </ul>
 <div class="proposition" id="proposition:">
 	
-
+<div id="proposition:generalized---inequalities---and---dual---generalized---inequalities"></div>
 for proper cone $K$,
 
 	<ul>
@@ -1378,7 +1378,7 @@ above are equivalent to
 
 <h3>Theorem of alternative for linear strict generalized inequalities</h3>
 
-<div class="theorem" id="theorem:theorem of alternative for linear strict generalized inequalities" data-name="theorem of alternative for linear strict generalized inequalities">
+<div class="theorem" id="theorem:theorem---of---alternative---for---linear---strict---generalized---inequalities" data-name="theorem of alternative for linear strict generalized inequalities">
 	
 for
 proper cone $K\subset \reals^m$,
@@ -1408,12 +1408,12 @@ exactly one of them is feasible.
 
 </div>
 
-<h2 id="Convex Functions">Convex Functions</h2>
+<h2 id="title-page:Convex---Functions">Convex Functions</h2>
 
 
 <h3>Convex functions</h3>
 
-<div class="definition" id="definition:convex functions" data-name="convex functions">
+<div class="definition" id="definition:convex---functions" data-name="convex functions">
 	
 
 
@@ -1459,7 +1459,7 @@ said to be <span class="define">strictly convex</span>
 	</ul>
 
 </div>
-<div class="definition" id="definition:concave functions" data-name="concave functions">
+<div class="definition" id="definition:concave---functions" data-name="concave functions">
 	
 
 
@@ -1484,7 +1484,7 @@ said to be <span class="define">strictly concave</span>
 
 <h3>Extended real-value extensions of convex functions</h3>
 
-<div class="definition" id="definition:extended real-value extension of convex functions" data-name="extended real-value extension of convex functions">
+<div class="definition" id="definition:extended---real-value---extension---of---convex---functions" data-name="extended real-value extension of convex functions">
 	
 for convex function $f$,
 function
@@ -1549,7 +1549,7 @@ $$
 
 <h3>First-order condition for convexity</h3>
 
-<div class="theorem" id="theorem:first-order condition for convexity" data-name="first-order condition for convexity">
+<div class="theorem" id="theorem:first-order---condition---for---convexity" data-name="first-order condition for convexity">
 	
 differentiable $f$,
 <i>i.e.</i>, $\dom f$ is open
@@ -1592,7 +1592,7 @@ $$
 </div>
 <ul>
 <li>
-	<a href="#theorem:first-order condition for convexity"></a>
+	<a href="#theorem:first-order---condition---for---convexity"></a>
 implies
 that
 for convex function $f$
@@ -1625,7 +1625,7 @@ local information
 
 <h3>Second-order condition for convexity</h3>
 
-<div class="theorem" id="theorem:second-order condition for convexity" data-name="second-order condition for convexity">
+<div class="theorem" id="theorem:second-order---condition---for---convexity" data-name="second-order condition for convexity">
 	
 twice-differentiable $f$,
 <i>i.e.</i>, $\dom f$ is open
@@ -1771,7 +1771,7 @@ is concave on $\posdefset{n}$
 
 <h3>Sublevel sets and superlevel sets</h3>
 
-<div class="definition" id="definition:sublevel sets" data-name="sublevel sets">
+<div class="definition" id="definition:sublevel---sets" data-name="sublevel sets">
 	
 for function $f$ and $\alpha\in\reals$,
 
@@ -1782,7 +1782,7 @@ $$
 called <span class="define">$\alpha$-sublevel set of $f$</span>
 
 </div>
-<div class="definition" id="definition:superlevel sets" data-name="superlevel sets">
+<div class="definition" id="definition:superlevel---sets" data-name="superlevel sets">
 	
 for function $f$ and $\alpha\in\reals$,
 
@@ -1793,7 +1793,7 @@ $$
 called <span class="define">$\alpha$-superlevel set of $f$</span>
 
 </div>
-<div class="proposition" id="proposition:convexity of level sets" data-name="convexity of level sets">
+<div class="proposition" id="proposition:convexity---of---level---sets" data-name="convexity of level sets">
 	
 
 
@@ -1834,7 +1834,7 @@ $$
 $$
 
 called <span class="define">epigraph of $f$</span>,
-denoted by <span class="define">$\epi f$</span>
+denoted by <span class="notation">$\epi f$</span>
 
 </div>
 <div class="definition" id="definition:hypographs" data-name="hypographs">
@@ -1846,10 +1846,10 @@ $$
 $$
 
 called <span class="define">hypograph of $f$</span>,
-denoted by <span class="define">$\hypo f$</span>
+denoted by <span class="notation">$\hypo f$</span>
 
 </div>
-<div class="proposition" id="proposition:graphs and convexity" data-name="graphs and convexity">
+<div class="proposition" id="proposition:graphs---and---convexity" data-name="graphs and convexity">
 	
 
 
@@ -1868,7 +1868,7 @@ denoted by <span class="define">$\hypo f$</span>
 
 <h3>Convexity preserving function operations</h3>
 
-<div class="proposition" id="proposition:convexity preserving function operations" data-name="convexity preserving function operations">
+<div class="proposition" id="proposition:convexity---preserving---function---operations" data-name="convexity preserving function operations">
 	
 
 
@@ -1877,7 +1877,7 @@ denoted by <span class="define">$\hypo f$</span>
 		nonnegative weighted sum preserves convexity
 		<ul>
 		<li>
-			for convex functions $f_1$, , $f_n$ and nonnegative weights $w_1,\ldots, w_n$
+			for convex functions $f_1$, &hellip;, $f_n$ and nonnegative weights $w_1,\ldots, w_n$
 
 $$
 w_1 f_1 + \cdots w_n f_n
@@ -1914,7 +1914,7 @@ is convex
 		pointwise maximum preserves convexity
 		<ul>
 		<li>
-			for convex functions $f_1$, , $f_n$
+			for convex functions $f_1$, &hellip;, $f_n$
 
 $$
 \max\{f_1, \ldots, f_n\}
@@ -1945,7 +1945,7 @@ is convex
 	</li>
 	<li>
 		composition
-
+<div id="page:convexity---preserving---operation-------composition"></div>
 		<ul>
 		<li>
 			suppose $g:\reals^n\to\reals^k$, $h:\reals^k\to\reals$, and $f=h\circ g$
@@ -2014,7 +2014,7 @@ is convex
 
 <h3>Convex functions examples</h3>
 
-<a href="#proposition:convexity preserving function operations"></a>
+<a href="#proposition:convexity---preserving---function---operations"></a>
 implies
 
 <ul>
@@ -2190,7 +2190,7 @@ is convex
 
 <h3>Conjugate functions</h3>
 
-<div class="definition" id="definition:conjugate functions" data-name="conjugate functions">
+<div class="definition" id="definition:conjugate---functions" data-name="conjugate functions">
 	
 for function $f$
 
@@ -2199,7 +2199,7 @@ $$
 $$
 
 called <span class="define">conjugate function of $f$</span>,
-denoted by <span class="define">$f^\ast$</span>
+denoted by <span class="notation">$f^\ast$</span>
 
 </div>
 
@@ -2208,11 +2208,11 @@ denoted by <span class="define">$f^\ast$</span>
 	conjugate function is convex for any function $f$
 because it is supremum
 of linear (hence convex) functions (in $x$)
-(<a href="#proposition:convexity preserving function operations"></a>)
+(<a href="#proposition:convexity---preserving---function---operations"></a>)
 
 </li>
 </ul>
-<div class="inequality" id="inequality:Fenchel's inequality" data-name="Fenchel's inequality">
+<div class="inequality" id="inequality:Fenchel's---inequality" data-name="Fenchel's inequality">
 	
 definition of conjugate function implies
 
@@ -2224,7 +2224,7 @@ sometimes called <i>Young's inequality</i>
 
 </div>
 
-<div class="proposition" id="proposition:conjugate of conjugate" data-name="conjugate of conjugate">
+<div class="proposition" id="proposition:conjugate---of---conjugate" data-name="conjugate of conjugate">
 	
 for convex and closed function $f$
 
@@ -2388,7 +2388,7 @@ $$
 
 <h3>Convex functions \wrt\ generalized inequalities</h3>
 
-<div class="definition" id="definition:$K$-convex functions" data-name="$K$-convex functions">
+<div class="definition" id="definition:$K$-convex---functions" data-name="$K$-convex functions">
 	
 for proper cone $K$,
 
@@ -2430,7 +2430,7 @@ called <span class="define">strictly $K$-convex</span>
 	</ul>
 
 </div>
-<div class="proposition" id="proposition:dual characterization of $K$-convexity" data-name="dual characterization of $K$-convexity">
+<div class="proposition" id="proposition:dual---characterization---of---$K$-convexity" data-name="dual characterization of $K$-convexity">
 	
 for proper cone $K$
 
@@ -2449,7 +2449,7 @@ for proper cone $K$
 
 <h3>Matrix convexity</h3>
 
-<div class="definition" id="definition:matrix convexity" data-name="matrix convexity">
+<div class="definition" id="definition:matrix---convexity" data-name="matrix convexity">
 	
 function of $\reals^n$ into $\symset{m}$
 which is $K$-convex where $K=\possemidefset{m}$,
@@ -2492,12 +2492,12 @@ is matrix convex when $A\succeq0$
 </ul>
 
 
-<h2 id="Convex Optimization Problems">Convex Optimization Problems</h2>
+<h2 id="title-page:Convex---Optimization---Problems">Convex Optimization Problems</h2>
 
 
 <h3>Optimization problems</h3>
 
-<div class="definition" id="definition:optimization problems" data-name="optimization problems">
+<div class="definition" id="definition:optimization---problems" data-name="optimization problems">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \reals^m$, $\feq: \xeq \to \reals^p$
 where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
@@ -2563,10 +2563,10 @@ said to be <span class="define">unbounded</span>
 
 <h3>Global and local optimalities</h3>
 
-<div class="definition" id="definition:global optimality" data-name="global optimality">
+<div class="definition" id="definition:global---optimality" data-name="global optimality">
 	
 for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 	<ul>
 	<li>
@@ -2594,10 +2594,10 @@ optimization problem is <span class="define">solvable</span>
 
 </li>
 </ul>
-<div class="definition" id="definition:local optimality" data-name="local optimality">
+<div class="definition" id="definition:local---optimality" data-name="local optimality">
 	
 for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 where $\xdomain$ is metric space,
 $x\in\optfeasset$ satisfying
 $\inf\set{\fobj(z)}{z\in\optfeasset, \rho(z,x)\leq r}$
@@ -2624,7 +2624,7 @@ $$
 
 <h3>Equivalent optimization problems</h3>
 
-<div class="definition" id="definition:equivalent optimization problems" data-name="equivalent optimization problems">
+<div class="definition" id="definition:equivalent---optimization---problems" data-name="equivalent optimization problems">
 	
 two optimization problems
 where solving one readily solve the other,
@@ -2685,7 +2685,7 @@ $(x,y)=(2u^\ast, v^\ast/3)$ solves first
 <ul>
 <li>
 	given function $\phi:\mathcalfont{Z} \to \xdomain$,
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 can be rewritten as
 
 $$
@@ -2707,12 +2707,12 @@ where $z\in\mathcalfont{Z}$ is optimization variable
 	if $\phi$ is injective and $\optdomain \subset \phi(\mathcalfont{Z})$,
 above optimization problem
 and
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 are equivalent,
 <i>i.e.</i>
 	<ul>
 	<li>
-		$X_\mathrm{opt}$ is optimal set of problem in <a href="#definition:optimization problems"></a>
+		$X_\mathrm{opt}$ is optimal set of problem in <a href="#definition:optimization---problems"></a>
 $\Rightarrow$
 $\phi^{-1}(X_\mathrm{opt})$ is optimal set of above problem
 
@@ -2720,7 +2720,7 @@ $\phi^{-1}(X_\mathrm{opt})$ is optimal set of above problem
 	<li>
 		$Z_\mathrm{opt}$ is optimal set of above problem
 $\Rightarrow$
-$\phi(Z_\mathrm{opt})$ is optimal set of problem in <a href="#definition:optimization problems"></a>
+$\phi(Z_\mathrm{opt})$ is optimal set of problem in <a href="#definition:optimization---problems"></a>
 
 	</li>
 	</ul>
@@ -2737,9 +2737,9 @@ change of variable or substitution of variable $x=\phi(z)$
 
 <h3>Convex optimization</h3>
 
-<div class="definition" id="definition:convex optimization" data-name="convex optimization">
+<div class="definition" id="definition:convex---optimization" data-name="convex optimization">
 	
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 where $\xdomain$ is Banach space,
 <i>i.e.</i>,
 complete linear normed vector space,
@@ -2800,18 +2800,18 @@ feasible sets for affine function is either empty set, singleton, or affine sets
 
 <h3>Optimality conditions for convex optimization problems</h3>
 
-<div class="theorem" id="theorem:local optimality implies global optimality" data-name="local optimality implies global optimality">
+<div class="theorem" id="theorem:local---optimality---implies---global---optimality" data-name="local optimality implies global optimality">
 	
 for convex optimization problem
-(in <a href="#definition:convex optimization"></a>),
+(in <a href="#definition:convex---optimization"></a>),
 every local optimal point is global optimal point
 
 </div>
 
-<div class="theorem" id="theorem:optimality conditions for convex optimality problems" data-name="optimality conditions for convex optimality problems">
+<div class="theorem" id="theorem:optimality---conditions---for---convex---optimality---problems" data-name="optimality conditions for convex optimality problems">
 	
 for convex optimization problem
-(in <a href="#definition:convex optimization"></a>),
+(in <a href="#definition:convex---optimization"></a>),
 when $\fobj$ is differentiable
 (<i>i.e.</i>, $\dom \fobj$ is open and $\nabla \fobj$ exists everywhere in $\dom \fobj$)
 
@@ -2963,9 +2963,9 @@ $$
 
 <h3>Linear programming</h3>
 
-<div class="definition" id="definition:linear programming" data-name="linear programming">
+<div class="definition" id="definition:linear---programming" data-name="linear programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$ and linear $\fobj$ &amp; $\fie$,
 called <span class="define">linear program (LP)</span>,
 which can be formulated as
@@ -3147,9 +3147,9 @@ $$
 
 <h3>Quadratic programming</h3>
 
-<div class="definition" id="definition:quadratic programming" data-name="quadratic programming">
+<div class="definition" id="definition:quadratic---programming" data-name="quadratic programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with
 $\xdomain=\reals^n$ and
 convex quadratic $\fobj$ and linear $\fie$,
@@ -3238,9 +3238,9 @@ $$
 
 <h3>Quadratically constrained quadratic programming</h3>
 
-<div class="definition" id="definition:quadratically constrained quadratic programming" data-name="quadratically constrained quadratic programming">
+<div class="definition" id="definition:quadratically---constrained---quadratic---programming" data-name="quadratically constrained quadratic programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$
 and
 convex quadratic $\fobj$ &amp; $\fie$,
@@ -3274,9 +3274,9 @@ hence <i>QP is specialization of QCQP</i>
 
 <h3>Second-order cone programming</h3>
 
-<div class="definition" id="definition:second-order cone programming" data-name="second-order cone programming">
+<div class="definition" id="definition:second-order---cone---programming" data-name="second-order cone programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$
 and
 linear $\fobj$ and convex $\fie$
@@ -3372,7 +3372,7 @@ $$
 
 <h3>Geometric programming</h3>
 
-<div class="definition" id="definition:monomial functions" data-name="monomial functions">
+<div class="definition" id="definition:monomial---functions" data-name="monomial functions">
 	
 function $f:\pprealk{n}\to\reals$
 defined by
@@ -3386,7 +3386,7 @@ called <span class="define">monomial function</span>
 or simply <span class="define">monomial</span>
 
 </div>
-<div class="definition" id="definition:posynomial functions" data-name="posynomial functions">
+<div class="definition" id="definition:posynomial---functions" data-name="posynomial functions">
 	
 function $f:\pprealk{n}\to\reals$
 which is finite sum of monomial functions,
@@ -3394,7 +3394,7 @@ called <span class="define">posynomial function</span>
 or simply <span class="define">posynomial</span>
 
 </div>
-<div class="definition" id="definition:geometric programming" data-name="geometric programming">
+<div class="definition" id="definition:geometric---programming" data-name="geometric programming">
 	
 optimization problem
 
@@ -3421,7 +3421,7 @@ called <span class="define">geometric program (GP)</span>
 <ul>
 <li>
 	geometric program in
-<a href="#definition:geometric programming"></a>
+<a href="#definition:geometric---programming"></a>
 is not convex optimization problem (as it is)
 
 </li>
@@ -3431,9 +3431,9 @@ by change of variables and transformation of functions
 
 </li>
 </ul>
-<div class="proposition" id="proposition:geometric programming in convex form" data-name="geometric programming in convex form">
+<div class="proposition" id="proposition:geometric---programming---in---convex---form" data-name="geometric programming in convex form">
 	
-geometric program (in <a href="#definition:geometric programming"></a>)
+geometric program (in <a href="#definition:geometric---programming"></a>)
 can be transformed to equivalent convex optimization problem
 
 $$
@@ -3462,9 +3462,9 @@ where optimization variable is $y=\log(x)\in\reals^n$
 
 <h3>Convex optimization with generalized inequalities</h3>
 
-<div class="definition" id="definition:convex optimization with generalized inequality constraints" data-name="convex optimization with generalized inequality constraints">
+<div class="definition" id="definition:convex---optimization---with---generalized---inequality---constraints" data-name="convex optimization with generalized inequality constraints">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with inequality constraints replaced by generalized inequality constraints,
 <i>i.e.</i>
 
@@ -3490,8 +3490,8 @@ called <span class="define">convex optimization problem with generalized inequal
 
 <ul>
 <li>
-	problem in <a href="#definition:convex optimization with generalized inequality constraints"></a>
-reduces to convex optimization problem in <a href="#definition:convex optimization"></a>
+	problem in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
+reduces to convex optimization problem in <a href="#definition:convex---optimization"></a>
 when $q=1$ and $K_1=\prealk{m}$,
 hence <i>convex optimization is specialization of convex optimization with generalized inequalities</i>
 
@@ -3509,7 +3509,7 @@ hence <i>convex optimization is specialization of convex optimization with gener
 	</li>
 	<li>
 		optimality conditions in
-<a href="#theorem:optimality conditions for convex optimality problems"></a>
+<a href="#theorem:optimality---conditions---for---convex---optimality---problems"></a>
 applies without modification
 
 	</li>
@@ -3521,10 +3521,10 @@ applies without modification
 
 <h3>Conic programming</h3>
 
-<div class="definition" id="definition:conic programming" data-name="conic programming">
+<div class="definition" id="definition:conic---programming" data-name="conic programming">
 	
 convex optimization problem with generalized inequality constraints
-in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
 with linear $\fobj$ and one affine $\fie$
 
 $$
@@ -3572,9 +3572,9 @@ with generalized inequalities
 
 <h3>Semidefinite programming</h3>
 
-<div class="definition" id="definition:semidefinite programming" data-name="semidefinite programming">
+<div class="definition" id="definition:semidefinite---programming" data-name="semidefinite programming">
 	
-conic program in <a href="#definition:conic programming"></a>
+conic program in <a href="#definition:conic---programming"></a>
 with $\xdomain=\reals^n$ and $K=\possemidefset{n}$
 
 $$
@@ -3627,8 +3627,8 @@ where $\xdomain=\possemidefset{n}$ and $C,A_1,\ldots,A_p\in\symset{n}$ and $b_i\
 	<ul>
 	<li>
 		if $k=m$, $F_i=\diag(C_{1,i}, \ldots, C_{m,i})$, $G=-\diag(d_1,\ldots, d_m)$
-in <a href="#definition:semidefinite programming"></a>,
-SDP reduces to LP in <a href="#definition:linear programming"></a>
+in <a href="#definition:semidefinite---programming"></a>,
+SDP reduces to LP in <a href="#definition:linear---programming"></a>
 
 	</li>
 	<li>
@@ -3642,7 +3642,7 @@ SDP reduces to LP in <a href="#definition:linear programming"></a>
 	SOCP
 	<ul>
 	<li>
-		SOCP in <a href="#definition:second-order cone programming"></a>
+		SOCP in <a href="#definition:second-order---cone---programming"></a>
 is equivalent to
 
 $$
@@ -3664,7 +3664,7 @@ i=1,\ldots,m
 \end{array}
 $$
 
-which can be transformed to SDP in <a href="#definition:semidefinite programming"></a>,
+which can be transformed to SDP in <a href="#definition:semidefinite---programming"></a>,
 thus, SDP reduces to SOCP
 
 	</li>
@@ -3679,10 +3679,10 @@ thus, SDP reduces to SOCP
 
 <h3>Determinant maximization problems</h3>
 
-<div class="definition" id="definition:determinant maximization problems" data-name="determinant maximization problems">
+<div class="definition" id="definition:determinant---maximization---problems" data-name="determinant maximization problems">
 	
 convex optimization problem with generalized inequality constraints
-in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
 with $\xdomain=\reals^n$
 of form
 
@@ -3746,18 +3746,18 @@ containment relations among convex optimization problems
 
 
 
+<div id="fig:diagrams---for---containment---of---convex---optimization---problems"></div>
 
 
 
-
-<h2 id="Duality">Duality</h2>
+<h2 id="title-page:Duality">Duality</h2>
 
 
 <h3>Lagrangian</h3>
 
 <div class="definition" id="definition:Lagrangian" data-name="Lagrangian">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \reals^m \times \reals^p \to \reals$
 defined by
@@ -3799,9 +3799,9 @@ called <span class="define">dual variables</span> or <span class="define">Lagran
 
 <h3>Lagrange dual functions</h3>
 
-<div class="definition" id="definition:Lagrange dual functions" data-name="Lagrange dual functions">
+<div class="definition" id="definition:Lagrange---dual---functions" data-name="Lagrange dual functions">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 for which Lagrangian is defined,
 function $g:\reals^m \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -3849,7 +3849,7 @@ for every $\lambda\succeq0$
 <li>
 	$(\lambda,\nu) \in \set{(\lambda,\nu)}{\lambda\succeq0, g(\lambda,\nu)>-\infty}$,
 said to be <span class="define">dual feasible</span>
-
+<div id="page:dual---feasible"></div>
 
 </li>
 </ul>
@@ -3872,7 +3872,7 @@ $$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---LS---solution---of---lines---equations"></div>
 
 $$
 \lssollineqs{dual fcn}
@@ -3905,7 +3905,7 @@ $$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---standard---form---LP"></div>
 
 $$
 g(\lambda,\nu) = \left\{\begin{array}{ll}
@@ -3928,7 +3928,7 @@ $$
 </li>
 <li>
 	<i>maximum cut</i>, sometimes called <i>max-cut</i>, problem, which is NP-hard
-
+<div id="page:max-cut---problem"></div>
 
 $$
 \begin{array}{ll}
@@ -4110,7 +4110,7 @@ where domain of objective function is $\pprealk{n}$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---entropy---maximization"></div>
 
 $$
 g(\lambda,\nu) = \entmax{dual fcn}
@@ -4138,7 +4138,7 @@ where domain of objective function is $\posdefset{n}$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---minimum---volume---covering---ellipsoid"></div>
 
 $$
 g(\lambda)
@@ -4158,9 +4158,9 @@ obtained using $f^\ast(Y) = -\log\det(-Y) - n$
 <ul>
 <li>
 	for every $(\lambda,\nu)$ with $\lambda\succeq 0$,
-Lagrange dual function $g(\lambda,\nu)$ (in <a href="#definition:Lagrange dual functions"></a>)
+Lagrange dual function $g(\lambda,\nu)$ (in <a href="#definition:Lagrange---dual---functions"></a>)
 provides lower bound for optimal value $p^\ast$
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -4186,9 +4186,9 @@ for optimization problem in <a href="#definition:optimization problems"></a>
 
 <h3>Lagrange dual problems</h3>
 
-<div class="definition" id="definition:Lagrange dual problems" data-name="Lagrange dual problems">
+<div class="definition" id="definition:Lagrange---dual---problems" data-name="Lagrange dual problems">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>,
+for optimization problem in <a href="#definition:optimization---problems"></a>,
 optimization problem
 
 $$
@@ -4202,11 +4202,11 @@ g(\lambda,\nu)
 $$
 
 called <span class="define">Lagrange dual problem</span>
-associated with problem in <a href="#definition:optimization problems"></a>
+associated with problem in <a href="#definition:optimization---problems"></a>
 
 	<ul>
 	<li>
-		original problem in <a href="#definition:optimization problems"></a>,
+		original problem in <a href="#definition:optimization---problems"></a>,
 (somestime) called <span class="define">primal problem</span>
 
 	</li>
@@ -4215,7 +4215,7 @@ associated with problem in <a href="#definition:optimization problems"></a>
 
 	</li>
 	<li>
-		<span class="define">dual feasibility</span> defined in page~,
+		<span class="define">dual feasibility</span> defined in page~<a href="#page:dual---feasible">here</a>,
 <i>i.e.</i>, $(\lambda,\nu)$ satisfying
 $\lambda \succeq 0 \quad g(\lambda,\nu) > -\infty$
 indeed means
@@ -4239,7 +4239,7 @@ said to be <span class="define">dual optimal</span> or called <span class="defin
 
 <ul>
 <li>
-	Lagrange dual problem in <a href="#definition:Lagrange dual problems"></a>
+	Lagrange dual problem in <a href="#definition:Lagrange---dual---problems"></a>
 is convex optimization (even though original problem is not)
 since $g(\lambda,\nu)$ is always convex
 
@@ -4251,7 +4251,7 @@ since $g(\lambda,\nu)$ is always convex
 
 <ul>
 <li>
-	(out specific) way we define Lagrange dual function in <a href="#definition:Lagrange dual functions"></a>
+	(out specific) way we define Lagrange dual function in <a href="#definition:Lagrange---dual---functions"></a>
 as function $g$ of $\reals^m \times \reals^p$ into $\reals\cup\{-\infty\}$,
 <i>i.e.</i>,
 $\dom g = \reals^n\times\reals^p$
@@ -4268,7 +4268,7 @@ is proper subset of $\reals^n\times\reals^p$
 	can make this implicit feasibility condition
 explicit by adding it as constraint
 (as shown in following examples)
-
+<div id="page:make---implicit---dual---feasibility---explicit"></div>
 
 </li>
 </ul>
@@ -4313,12 +4313,12 @@ g(\lambda,\nu) = \left\{\begin{array}{ll}
 \end{array}
 $$
 
-(refer to page~
+(refer to page~<a href="#page:dual---function---of---standard---form---LP">here</a>
 for Lagrange dual function)
 		<ul>
 		<li>
 			can make dual feasibility explicit by adding it to constraints
-as mentioned on page~
+as mentioned on page~<a href="#page:make---implicit---dual---feasibility---explicit">here</a>
 
 $$
 \begin{array}{ll}
@@ -4435,7 +4435,7 @@ $$
 		<ul>
 		<li>
 			can make dual feasibility explicit by adding it to constraints
-as mentioned on page~
+as mentioned on page~<a href="#page:make---implicit---dual---feasibility---explicit">here</a>
 
 $$
 \begin{array}{ll}
@@ -4618,7 +4618,7 @@ where $(A+\lambda I)^\dagger$ is pseudo-inverse of $A+\lambda I$
 </li>
 <li>
 	Lagrange dual problem
-
+<div id="page:dual---problem---of---trust---region---nonconvex---quadratic---problems"></div>
 
 $$
 \noncvxquadprob{dual}
@@ -4634,7 +4634,7 @@ since it is implied by $A+\lambda I \succeq 0$
 	<li>
 		though not obvious from what it appears to be,
 it is (of course) convex optimization problem
-(by definition of Lagrange dual function, <i>i.e.</i>, <a href="#definition:Lagrange dual functions"></a>)
+(by definition of Lagrange dual function, <i>i.e.</i>, <a href="#definition:Lagrange---dual---functions"></a>)
 
 	</li>
 	<li>
@@ -4676,13 +4676,13 @@ $$
 
 </li>
 </ul>
-<div class="definition" id="definition:weak duality" data-name="weak duality">
+<div class="definition" id="definition:weak---duality" data-name="weak duality">
 	
 property that
 that
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 is always no less than
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>)
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>)
 
 $$
 d^\ast \leq p^\ast
@@ -4721,12 +4721,12 @@ must have $p^\ast=\infty$,
 
 <h3>Optimal duality gap</h3>
 
-<div class="definition" id="definition:optimal duality gap" data-name="optimal duality gap">
+<div class="definition" id="definition:optimal---duality---gap" data-name="optimal duality gap">
 	
 difference between
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 and
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>),
 <i>i.e.</i>
 
 $$
@@ -4743,7 +4743,7 @@ called <span class="define">optimal duality gap</span>
 	<li>
 		for example,
 dual problem
-of max-cut problem (on page~),
+of max-cut problem (on page~<a href="#page:max-cut---problem">here</a>),
 which is NP-hard,
 is
 
@@ -4774,12 +4774,12 @@ while primal problme <i>cannot</i> be solved unless $n$ is very small
 
 <h3>Strong duality</h3>
 
-<div class="definition" id="definition:strong duality" data-name="strong duality">
+<div class="definition" id="definition:strong---duality" data-name="strong duality">
 	
 if
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 equals to
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>),
 <i>i.e.</i>
 
 $$
@@ -4819,10 +4819,10 @@ which are called <i>constraint qualifications</i>
 
 </li>
 </ul>
-<div class="theorem" id="theorem:Slater's theorem" data-name="Slater's theorem">
+<div class="theorem" id="theorem:Slater's---theorem" data-name="Slater's theorem">
 	
 if
-optimization problem is convex (<a href="#definition:convex optimization"></a>),
+optimization problem is convex (<a href="#definition:convex---optimization"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -4846,7 +4846,7 @@ $$
 
 when there are affine inequality constraints,
 can refine Slater's condition
-- if first $k$ inequality constraint functions $\fie_1$, , $\fie_k$ are affine,
+- if first $k$ inequality constraint functions $\fie_1$, &hellip;, $\fie_k$ are affine,
 Slater's condition can be relaxed to
 
 $$
@@ -4879,7 +4879,7 @@ $$
 \lssollineqs{dual}
 $$
 
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---LS---solution---of---lines---equations">here</a> for Lagrange dual function)
 
 </li>
 <li>
@@ -4887,7 +4887,7 @@ $$
 and
 &ldquo;primal is feasible $\Rightarrow$ Slater's condition holds'',
 thus
-Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies,
 exist only three cases
 	<ul>
@@ -4927,7 +4927,7 @@ hence $d^\ast=\infty$
 </li>
 <li>
 	dual of LP is LP,
-hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+hence, Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies
 	<ul>
 	<li>
@@ -4969,7 +4969,7 @@ $$
 </li>
 <li>
 	dual problem
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---entropy---maximization">here</a> for Lagrange dual function)
 
 $$
 \entmax{dual}
@@ -4979,7 +4979,7 @@ $$
 </li>
 <li>
 	dual problem is feasible,
-hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+hence, Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies,
 if exists $x\succ 0$ with $Ax \preceq b$ and $\ones^T x =1$,
 strong duality holds,
@@ -4995,7 +4995,7 @@ $$
 $$
 
 which is geometry program in convex form
-(<a href="#proposition:geometric programming in convex form"></a>)
+(<a href="#proposition:geometric---programming---in---convex---form"></a>)
 with nonnegativity contraint
 
 </li>
@@ -5022,7 +5022,7 @@ $$
 \minvolcovering{dual}
 $$
 
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---minimum---volume---covering---ellipsoid">here</a> for Lagrange dual function)
 
 </li>
 <li>
@@ -5059,7 +5059,7 @@ where $A\in\symset{n}$, $A\not\in\possemidefset{n}$, and $b\in\reals^n$
 
 </li>
 <li>
-	Lagrange dual problem (page~)
+	Lagrange dual problem (page~<a href="#page:dual---problem---of---trust---region---nonconvex---quadratic---problems">here</a>)
 
 $$
 \noncvxquadprob{dual}
@@ -5084,7 +5084,7 @@ provided Slater's condition holds
 
 <h3>Matrix games using mixed strategies</h3>
 
-
+<div id="page:Matrix---games---using---mixed---strategies"></div>
 <ul>
 <li>
 	matrix game - consider game with two players $A$ and $B$
@@ -5302,7 +5302,7 @@ no player has advantage
 <ul>
 <li>
 	assume (not necessarily convex) optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -5377,7 +5377,7 @@ $\lambda u + t = g(\lambda)$
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------1"></div>
 
 
 <ul>
@@ -5392,7 +5392,7 @@ one of which $\lambda^\ast$ is optimal solution for dual problem
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------2"></div>
 
 
 
@@ -5450,7 +5450,7 @@ shows epigraph interpretation
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------3"></div>
 
 
 
@@ -5498,7 +5498,7 @@ $$
 
 </li>
 <li>
-	then $B\cap H=\emptyset$, hence <a href="#theorem:separating hyperplane theorem"></a>
+	then $B\cap H=\emptyset$, hence <a href="#theorem:separating---hyperplane---theorem"></a>
 implies exists separable hyperplane with $(\tilde{\lambda}, \tilde{\nu}, \mu)\neq 0$ and $\alpha$
 such that
 
@@ -5561,7 +5561,7 @@ where $\lambda = \tilde{\lambda}/\mu$ &amp; $\nu = \tilde{\nu}/\mu$
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------4"></div>
 
 
 
@@ -5636,7 +5636,7 @@ holds for general case
 
 </li>
 </ul>
-<div class="inequality" id="inequality:max-min inequality" data-name="max-min inequality">
+<div class="inequality" id="inequality:max-min---inequality" data-name="max-min inequality">
 	
 for $f:{X} \times {Y} \to \reals$
 
@@ -5649,7 +5649,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:strong max-min property" data-name="strong max-min property">
+<div class="definition" id="definition:strong---max-min---property" data-name="strong max-min property">
 	
 if below equality holds, we say
 $f$ (and $X$ and $Y$) satisfies <span class="define">strong max-min property</span>
@@ -5671,7 +5671,7 @@ $X=\optdomain$,
 $Y=\prealk{m} \times \reals^p$,
 $f$ is Lagrangian of
 optimization problem
-(in <a href="#definition:optimization problems"></a>)
+(in <a href="#definition:optimization---problems"></a>)
 for which strong duality holds
 
 </li>
@@ -5714,7 +5714,7 @@ $$
 
 	<ul>
 	<li>
-		strong max-min property (in <a href="#definition:strong max-min property"></a>)
+		strong max-min property (in <a href="#definition:strong---max-min---property"></a>)
 holds with $f(x^\ast,y^\ast)$ as common value
 
 	</li>
@@ -5796,7 +5796,7 @@ $\fobj(\tilde{x}) \leq \fobj(x^\ast)$
 
 <h3>Game interpretation</h3>
 
-
+<div id="page:Game---interpretation"></div>
 <ul>
 <li>
 	assume
@@ -5837,7 +5837,7 @@ payment will be $\sup_{y\in Y} \inf_{x\in X} f(x,y)$
 
 </li>
 <li>
-	max-min inequality of <a href="#inequality:max-min inequality"></a> says
+	max-min inequality of <a href="#inequality:max-min---inequality"></a> says
 
 $$
 \sup_{y\in Y} \inf_{x\in X} f(x,y)
@@ -5847,7 +5847,7 @@ $$
 
 <i>i.e.</i>, whowever chooses later has advantage,
 which is similar or rather same as
-matrix games using mixed strategies on page~
+matrix games using mixed strategies on page~<a href="#page:Matrix---games---using---mixed---strategies">here</a>
 
 </li>
 <li>
@@ -5865,9 +5865,9 @@ $x^\ast$ is optimal choice for player $B$
 
 <ul>
 <li>
-	assume payment function in zero-sum game on page~
+	assume payment function in zero-sum game on page~<a href="#page:Game---interpretation">here</a>
 is Lagrangian of optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -5941,7 +5941,7 @@ find arbitrarily small certificate of suboptimality
 <ul>
 <li>
 	assume strong duality holds for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 and assume $x^\ast$ is primal optimum and $(\lambda^\ast,\nu^\ast)$ is dual optimum,
 then
 
@@ -5969,7 +5969,7 @@ $$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:complementary slackness" data-name="complementary slackness">
+<div class="proposition" id="proposition:complementary---slackness" data-name="complementary slackness">
 	
 when strong duality holds,
 for primal and dual optimal points $x^\ast$ and $(\lambda^\ast, \nu)$
@@ -5987,9 +5987,9 @@ this property, called <span class="define">complementary slackness</span>
 
 <h3>KKT optimality conditions</h3>
 
-<div class="definition" id="definition:KKT optimality conditions" data-name="KKT optimality conditions">
+<div class="definition" id="definition:KKT---optimality---conditions" data-name="KKT optimality conditions">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
@@ -6034,13 +6034,13 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 
 <h3>KKT necessary for optimality with strong duality</h3>
 
-<div class="theorem" id="theorem:KKT necessary for optimality with strong duality" data-name="KKT necessary for optimality with strong duality">
+<div class="theorem" id="theorem:KKT---necessary---for---optimality---with---strong---duality" data-name="KKT necessary for optimality with strong duality">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if strong duality holds,
 primal and dual optimal solutions $x^\ast$ and $(\lambda^\ast, \nu)$
-satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
+satisfy KKT optimality conditions (in <a href="#definition:KKT---optimality---conditions"></a>),
 <i>i.e.</i>,
 for every optimization problem
 
@@ -6112,12 +6112,12 @@ with zero duality gap
 
 
 
-<div class="theorem" id="theorem:KKT and convexity sufficient for optimality with strong duality" data-name="KKT and convexity sufficient for optimality with strong duality">
+<div class="theorem" id="theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality" data-name="KKT and convexity sufficient for optimality with strong duality">
 	
-for convex optimization problem in <a href="#definition:convex optimization"></a>
+for convex optimization problem in <a href="#definition:convex---optimization"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
-satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
+satisfy KKT optimality conditions (in <a href="#definition:KKT---optimality---conditions"></a>),
 they are primal and dual optimal solutions having zero duality gap
 <i>i.e.</i>
 
@@ -6142,9 +6142,9 @@ imply primal and dual optimality and strong duality
 </div>
 <ul>
 <li>
-	<a href="#theorem:KKT necessary for optimality with strong duality"></a>
+	<a href="#theorem:KKT---necessary---for---optimality---with---strong---duality"></a>
 together with
-<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
+<a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>
 implies
 that
 for convex optimization problem
@@ -6163,7 +6163,7 @@ for primal and dual optimality with strong duality
 
 <h3>Solving primal problems via dual problems</h3>
 
-
+<div id="page:Solving---primal---problems---via---dual---problems"></div>
 <ul>
 <li>
 	when strong duality holds,
@@ -6222,10 +6222,10 @@ $$
 
 <h3>Perturbed optimization problems</h3>
 
-
+<div id="page:Perturbed---optimization---problems"></div>
 <ul>
 <li>
-	original problem in <a href="#definition:optimization problems"></a>
+	original problem in <a href="#definition:optimization---problems"></a>
 with perturbed constraints
 
 $$
@@ -6294,7 +6294,7 @@ with one inequality constraint and no equality constraint
 
 
 
-
+<div id="fig:sensitivity---analysis---of---optimal---value"></div>
 
 
 
@@ -6881,12 +6881,12 @@ $$
 </ul>
 
 
-<h2 id="Theorems of Alternatives">Theorems of Alternatives</h2>
+<h2 id="title-page:Theorems---of---Alternatives">Theorems of Alternatives</h2>
 
 
 <h3>Weak alternatives</h3>
 
-<div class="theorem" id="theorem:weak alternatives of two systems" data-name="weak alternatives of two systems">
+<div class="theorem" id="theorem:weak---alternatives---of---two---systems" data-name="weak alternatives of two systems">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
@@ -6919,7 +6919,7 @@ $$
 </div>
 <ul>
 <li>
-	can prove <a href="#theorem:weak alternatives of two systems"></a>
+	can prove <a href="#theorem:weak---alternatives---of---two---systems"></a>
 using duality of optimization problems
 
 </li>
@@ -7017,7 +7017,7 @@ at most one of them is feasible
 
 <h3>Weak alternatives with strict inequalities</h3>
 
-<div class="theorem" id="theorem:weak alternatives of two systems with strict inequalities" data-name="weak alternatives of two systems with strict inequalities">
+<div class="theorem" id="theorem:weak---alternatives---of---two---systems---with---strict---inequalities" data-name="weak alternatives of two systems with strict inequalities">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
@@ -7054,7 +7054,7 @@ $$
 
 <h3>Strong alternatives</h3>
 
-<div class="theorem" id="theorem:strong alternatives of two systems" data-name="strong alternatives of two systems">
+<div class="theorem" id="theorem:strong---alternatives---of---two---systems" data-name="strong alternatives of two systems">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets $\reals^n$
@@ -7088,7 +7088,7 @@ $$
 
 <h3>Strong alternatives with strict inequalities</h3>
 
-<div class="theorem" id="theorem:strong alternatives of two systems with strict inequalities" data-name="strong alternatives of two systems with strict inequalities">
+<div class="theorem" id="theorem:strong---alternatives---of---two---systems---with---strict---inequalities" data-name="strong alternatives of two systems with strict inequalities">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets $\reals^n$
@@ -7174,14 +7174,14 @@ $g(\lambda,\nu)
 <li>
 	first observe Slater's condition
 holds for primal problem
-since by hypothesis of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>,
+since by hypothesis of <a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>,
 exists $y\in\relint \optdomain$ with $\feq(y)=0$,
 hence $(y,\fie(y))\in\xie\times \reals$
 is primal feasible satisifying Slater's condition
 
 </li>
 <li>
-	hence Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+	hence Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies
 $d^\ast=p^\ast$
 
@@ -7202,10 +7202,10 @@ hence $d^\ast\geq0$
 is infeasible,
 then $d^\ast = p^\ast\geq0$,
 hence
-Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies exists dual optimal $(\lambda^\ast,\nu^\ast)$ (whether or not $d^\ast=\infty$),
 hence $(\lambda^\ast,\nu^\ast)$ is feasible point for second system
-of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
+of <a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </li>
 <li>
@@ -7243,7 +7243,7 @@ alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
 
 </li>
 <li>
-	thus <a href="#theorem:strong alternatives of two systems"></a>
+	thus <a href="#theorem:strong---alternatives---of---two---systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -7257,7 +7257,7 @@ $$
 <li>
 	similarly
 alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
-and <a href="#theorem:strong alternatives of two systems"></a>
+and <a href="#theorem:strong---alternatives---of---two---systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -7273,7 +7273,7 @@ $$
 
 <h3>Farkas' lemma</h3>
 
-<div class="theorem" id="theorem:Farkas' lemma" data-name="Farkas' lemma">
+<div class="theorem" id="theorem:Farkas'---lemma" data-name="Farkas' lemma">
 	
 below systems of inequalities and equalities are strong alternatives
 
@@ -7290,7 +7290,7 @@ $$
 
 <ul>
 <li>
-	will prove <a href="#theorem:Farkas' lemma"></a>
+	will prove <a href="#theorem:Farkas'---lemma"></a>
 using LP and its dual
 
 </li>
@@ -7348,13 +7348,13 @@ thus second system is feasible
 </ul>
 
 
-<h2 id="Convex Optimization with Generalized Inequalities">Convex Optimization with Generalized Inequalities</h2>
+<h2 id="title-page:Convex---Optimization---with---Generalized---Inequalities">Convex Optimization with Generalized Inequalities</h2>
 
 
 
 <h3>Optimization problems with generalized inequalities</h3>
 
-<div class="definition" id="definition:optimization problems with generalized inequalities" data-name="optimization problems with generalized inequalities">
+<div class="definition" id="definition:optimization---problems---with---generalized---inequalities" data-name="optimization problems with generalized inequalities">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \bigtimes_{i=1}^m \reals^{k_i}$, $\feq: \xeq \to \reals^p$
 where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
@@ -7381,7 +7381,7 @@ $K_1\subset \reals^{k_1},\ldots, K_n\subset \reals^{k_m}$
 	<ul>
 	<li>
 		every terminology and associated notation is same
-as of optimization problem in <a href="#definition:optimization problems"></a>
+as of optimization problem in <a href="#definition:optimization---problems"></a>
 such as
 objective &amp; inequality &amp; equality contraint functions,
 domain of optimization problem $\optdomain$,
@@ -7392,7 +7392,7 @@ optimal value $p^\ast$
 	<li>
 		note that
 when $K_i=\preals$ (hence $\bigpropercone=\prealk{m}$),
-above optimization problem coincides with that in <a href="#definition:optimization problems"></a>,
+above optimization problem coincides with that in <a href="#definition:optimization---problems"></a>,
 <i>i.e.</i>,
 optimization problems with generalized inequalities
 subsume
@@ -7405,10 +7405,10 @@ subsume
 
 <h3>Lagrangian for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrangian for generalized inequalities" data-name="Lagrangian for generalized inequalities">
+<div class="definition" id="definition:Lagrangian---for---generalized---inequalities" data-name="Lagrangian for generalized inequalities">
 	
 for optimization problem in
-<a href="#definition:optimization problems with generalized inequalities"></a>
+<a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \bigtimes_{i=1}^m \reals^{k_i} \times \reals^p \to \reals$
 defined by
@@ -7443,9 +7443,9 @@ subsumes
 
 <h3>Lagrange dual functions for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrange dual functions for generalized inequalities" data-name="Lagrange dual functions for generalized inequalities">
+<div class="definition" id="definition:Lagrange---dual---functions---for---generalized---inequalities" data-name="Lagrange dual functions for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 for which Lagrangian is defined,
 function $g:\bigtimes \reals^{k_i} \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -7468,7 +7468,7 @@ associated with optimization problem
 	<li>
 		Lagrange dual functions for generalized inequalities
 subsume
-(normal) Lagrange dual functions (<a href="#definition:Lagrange dual functions"></a>)
+(normal) Lagrange dual functions (<a href="#definition:Lagrange---dual---functions"></a>)
 
 	</li>
 	</ul>
@@ -7509,9 +7509,9 @@ said to be <span class="define">dual feasible</span>
 
 <h3>Lagrange dual problems for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrange dual problems for generalized inequalities" data-name="Lagrange dual problems for generalized inequalities">
+<div class="definition" id="definition:Lagrange---dual---problems---for---generalized---inequalities" data-name="Lagrange dual problems for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>,
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>,
 optimization problem
 
 $$
@@ -7529,12 +7529,12 @@ where $\bigpropercone^\ast$ denotes dual cone of $\bigpropercone$,
 $\bigpropercone^\ast = \bigtimes K_i^\ast$
 where $K_i^\ast\subset\reals^{k_i}$ is dual cone of $K_i\subset\reals^{k_i}$,
 called <span class="define">Lagrange dual problem</span>
-associated with problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+associated with problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 
 	<ul>
 	<li>
 		every terminology and related notation
-is same as that in <a href="#definition:Lagrange dual problems"></a>
+is same as that in <a href="#definition:Lagrange---dual---problems"></a>
 such as
 dual feasibility,
 dual optimal value $d^\ast$,
@@ -7544,7 +7544,7 @@ optimal Lagrange multipliers $(\lambda^\ast,\nu^\ast)$
 	<li>
 		Lagrange dual problems for generalized inequalities
 subsume
-(normal) Lagrange dual problems (<a href="#definition:Lagrange dual problems"></a>)
+(normal) Lagrange dual problems (<a href="#definition:Lagrange---dual---problems"></a>)
 
 	</li>
 	</ul>
@@ -7554,7 +7554,7 @@ subsume
 
 <ul>
 <li>
-	Lagrange dual problem in <a href="#definition:Lagrange dual problems for generalized inequalities"></a>
+	Lagrange dual problem in <a href="#definition:Lagrange---dual---problems---for---generalized---inequalities"></a>
 is convex optimization
 since $g(\lambda,\nu)$ is convex
 
@@ -7564,16 +7564,16 @@ since $g(\lambda,\nu)$ is convex
 
 <h3>Slater's theorem for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:Slater's theorem for generalized inequalities" data-name="Slater's theorem for generalized inequalities">
+<div class="theorem" id="theorem:Slater's---theorem---for---generalized---inequalities" data-name="Slater's theorem for generalized inequalities">
 	
 if optimization problem
-in <a href="#definition:optimization problems with generalized inequalities"></a>
+in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 is convex,
 <i>i.e.</i>,
 $\fobj$ is convex,
 $\fie$ is $\bigpropercone$-convex
 (<i>i.e.</i>, every $\fie_i$ is $K_i$-convex)
-(<a href="#definition:$K$-convex functions"></a>),
+(<a href="#definition:$K$-convex---functions"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -7594,7 +7594,7 @@ $$
 
 	</li>
 	<li>
-		note resemblance with Slater's theorem in <a href="#theorem:Slater's theorem"></a>
+		note resemblance with Slater's theorem in <a href="#theorem:Slater's---theorem"></a>
 
 	</li>
 	</ul>
@@ -7606,7 +7606,7 @@ $$
 <ul>
 <li>
 	(inequality form) SDP
-
+<div id="page:(inequality---form)---SDP"></div>
 
 $$
 \begin{array}{ll}
@@ -7653,7 +7653,7 @@ $$
 </li>
 <li>
 	Lagrange dual problem
-
+<div id="page:dual---of---SDP"></div>
 
 $$
 \begin{array}{ll}
@@ -7673,7 +7673,7 @@ $\bigpropercone^\ast = \bigpropercone$
 
 </li>
 <li>
-	Slater's theorem (<a href="#theorem:Slater's theorem for generalized inequalities"></a>)
+	Slater's theorem (<a href="#theorem:Slater's---theorem---for---generalized---inequalities"></a>)
 implies if primal problem is strictly feasible,
 <i>i.e.</i>,
 exists $x\in\reals^n$ such that $\sum x_iF_i + G\prec 0$,
@@ -7684,9 +7684,9 @@ strong duality holds
 
 <h3>KKT optimality conditions for generalized inequalities</h3>
 
-<div class="definition" id="definition:KKT optimality conditions for generalized inequalities" data-name="KKT optimality conditions for generalized inequalities">
+<div class="definition" id="definition:KKT---optimality---conditions---for---generalized---inequalities" data-name="KKT optimality conditions for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\bigtimes \reals^{k_i} \times\reals^p$
@@ -7732,7 +7732,7 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 		note KKT optimality conditions for generalized inequalities
 subsume
 (normal) KKT optimality conditions
-(<a href="#definition:KKT optimality conditions"></a>)
+(<a href="#definition:KKT---optimality---conditions"></a>)
 
 	</li>
 	</ul>
@@ -7744,9 +7744,9 @@ subsume
 <ul>
 <li>
 	for every optimization problem with generalized inequalities
-(<a href="#definition:optimization problems with generalized inequalities"></a>),
+(<a href="#definition:optimization---problems---with---generalized---inequalities"></a>),
 every statement for normal optimization problem
-(<a href="#definition:optimization problems"></a>),
+(<a href="#definition:optimization---problems"></a>),
 regarding relations among
 KKT conditions,
 optimality,
@@ -7757,21 +7757,21 @@ is <i>exactly the same</i>
 	<ul>
 	<li>
 		for every optimization problem with generalized inequalities
-(<a href="#definition:optimization problems with generalized inequalities"></a>)
+(<a href="#definition:optimization---problems---with---generalized---inequalities"></a>)
 		<ul>
 		<li>
 			if strong duality holds,
 primal and dual optimal points satisfy KKT optimality conditions
-in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>
-(same as <a href="#theorem:KKT necessary for optimality with strong duality"></a>)
+in <a href="#definition:KKT---optimality---conditions---for---generalized---inequalities"></a>
+(same as <a href="#theorem:KKT---necessary---for---optimality---with---strong---duality"></a>)
 
 		</li>
 		<li>
 			if optimization problem is convex and
 primal and dual solutions satisfy KKT optimality conditions
-in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>,
+in <a href="#definition:KKT---optimality---conditions---for---generalized---inequalities"></a>,
 the solutions are optimal with strong duality
-(same as <a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>)
+(same as <a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>)
 
 		</li>
 		<li>
@@ -7794,7 +7794,7 @@ for primal and dual optimality with strong duality</i>
 
 <ul>
 <li>
-	original problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+	original problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 with perturbed constraints
 
 $$
@@ -7820,7 +7820,7 @@ $p^\ast(0,0)=p^\ast$
 
 </li>
 <li>
-	as for normal optimization problem case (page~),
+	as for normal optimization problem case (page~<a href="#page:Perturbed---optimization---problems">here</a>),
 if and dual optimum $(\lambda^\ast,\nu^\ast)$,
 if strong duality holds,
 
@@ -7845,7 +7845,7 @@ $$
 <ul>
 <li>
 	assume inequality form SDP and its dual problem
-on page~ and page~
+on page~<a href="#page:(inequality---form)---SDP">here</a> and page~<a href="#page:dual---of---SDP">here</a>
 
 </li>
 <li>
@@ -7900,7 +7900,7 @@ $$
 
 <h3>Weak alternatives for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:weak alternatives for generalized inequalities" data-name="weak alternatives for generalized inequalities">
+<div class="theorem" id="theorem:weak---alternatives---for---generalized---inequalities" data-name="weak alternatives for generalized inequalities">
 	
 for $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; $\feq:\xeq \to \reals^p$
 where $\xie$ and $\xeq$ are subsets of common Banach space
@@ -7946,15 +7946,15 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-<a href="#theorem:weak alternatives of two systems"></a>
+<a href="#theorem:weak---alternatives---of---two---systems"></a>
 and
-<a href="#theorem:weak alternatives of two systems with strict inequalities"></a>
+<a href="#theorem:weak---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </div>
 
 <h3>Strong alternatives for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:strong alternatives for generalized inequalities" data-name="strong alternatives for generalized inequalities">
+<div class="theorem" id="theorem:strong---alternatives---for---generalized---inequalities" data-name="strong alternatives for generalized inequalities">
 	
 for $\bigpropercone$-convex $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; affine $\feq:\xeq \to \reals^p$
 where $\xie$ and $\xeq$ are subsets of $\reals^n$
@@ -8001,9 +8001,9 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-<a href="#theorem:strong alternatives of two systems"></a>
+<a href="#theorem:strong---alternatives---of---two---systems"></a>
 and
-<a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
+<a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </div>
 
@@ -8052,7 +8052,7 @@ $$
 </ul>
 
 
-<h2 id="Unconstrained Minimization">Unconstrained Minimization</h2>
+<h2 id="title-page:Unconstrained---Minimization">Unconstrained Minimization</h2>
 
 
 <h3>Unconstrained minimization</h3>
@@ -8061,7 +8061,7 @@ $$
 <li>
 	consider
 unconstrained convex optimization problem,
-<i>i.e.</i>, $m=p=0$ in <a href="#definition:convex optimization"></a>
+<i>i.e.</i>, $m=p=0$ in <a href="#definition:convex---optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -8089,7 +8089,7 @@ domain of optimization problem is $\optdomain\ = \xobj \subset \reals^n$
 
 </li>
 <li>
-	<a href="#theorem:first-order condition for convexity"></a>
+	<a href="#theorem:first-order---condition---for---convexity"></a>
 implies
 $x^\ast$ is optimal solution
 if and only if
@@ -8403,14 +8403,14 @@ $$
 
 <h3>Iterative methods</h3>
 
-<div class="definition" id="definition:iterative meethods" data-name="iterative meethods">
+<div class="definition" id="definition:iterative---meethods" data-name="iterative meethods">
 	
 numerical method generating sequence of points $\xseqk{0}, \xseqk{1}, \ldots \in S\subset \reals^n$
 to make $\fobj(\xseqk{k})$ approaches to some desired value from some $f:S\to\reals$,
 called <span class="define">iterative method</span>
 
 </div>
-<div class="definition" id="definition:iterative meethods with search directions" data-name="iterative meethods with search directions">
+<div class="definition" id="definition:iterative---meethods---with---search---directions" data-name="iterative meethods with search directions">
 	
 iterative method generating
 search direction $\sdirk{k}\in\reals^n$ and
@@ -8426,7 +8426,7 @@ where $\sdirk{k}$, called <span class="define">search direction</span>,
 $\slenk{k}$, called <span class="define">step length</span> (which actually is not length)
 
 </div>
-<div class="definition" id="definition:descent methods" data-name="descent methods">
+<div class="definition" id="definition:descent---methods" data-name="descent methods">
 	
 for function $f:S\to\reals$,
 iterative method reducing function value,
@@ -8444,7 +8444,7 @@ called <span class="define">descent method</span>
 
 <h3>Line search methods</h3>
 
-<div class="definition" id="definition:line search method" data-name="line search method">
+<div class="definition" id="definition:line---search---method" data-name="line search method">
 	
 for iterating method with search directions,
 determining
@@ -8455,7 +8455,7 @@ for each step,
 called <span class="define">line search method</span>
 
 </div>
-<div class="algorithm" id="algorithm:exact line search" data-name="exact line search">
+<div class="algorithm" id="algorithm:exact---line---search" data-name="exact line search">
 	
 for descent iterating method with search directions,
 determine $\slen$ by
@@ -8466,25 +8466,25 @@ $$
 
 
 </div>
-<div class="algorithm" id="algorithm:backtracking line search" data-name="backtracking line search">
+<div class="algorithm" id="algorithm:backtracking---line---search" data-name="backtracking line search">
 	
 for descent iterating method with search directions,
 determine $\slen$ by
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, \sdirk{k}, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+	<strong>Require:</strong>	$\fobj$, \sdirk{k}, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen:=1$ 
+	<strong></strong>	$\slen:=1$ <strong></strong>
 </li>
 
 <li>
-	<strong>while</strong>	$\fobj(\xseqk{k} + \slen \sdirk{k}) > \fobj(\xseqk{k}) + \alpha \slen \nabla \fobj(\xseqk{k})^T \sdirk{k}$ do
+	<strong>while</strong>	$\fobj(\xseqk{k} + \slen \sdirk{k}) > \fobj(\xseqk{k}) + \alpha \slen \nabla \fobj(\xseqk{k})^T \sdirk{k}$ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen := \beta \slen$ 
+	<strong></strong>	$\slen := \beta \slen$ <strong></strong>
 </li>
 
 <li>
@@ -8497,30 +8497,30 @@ determine $\slen$ by
 
 <h3>Gradient descent method</h3>
 
-<div class="algorithm" id="algorithm:gradient descent method" data-name="gradient descent method">
+<div class="algorithm" id="algorithm:gradient---descent---method" data-name="gradient descent method">
 	
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ <strong></strong>
 </li>
 
 <li>
 	<strong>repeat</strong>
 </li>
 <li>
-	<strong></strong>	search direction - $\sdir := - \nabla \fobj(x)$ 
+	<strong></strong>	search direction - $\sdir := - \nabla \fobj(x)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $\slen>0$ 
+	<strong></strong>	do line search to choose $\slen>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \sdir$ 
+	<strong></strong>	update - $x := x + \slen \sdir$ <strong></strong>
 </li>
 
 <li>
-	<strong>until</strong>	stopping criterion satisfied 
+	<strong>until</strong>	stopping criterion satisfied <strong></strong>
 </li>
 
 </ul>
@@ -8602,7 +8602,7 @@ $$
 	<span class="define">Newton decrement</span>
 
 
-
+<div id="page:Newton---decrement---in---quadratic---approximation"></div>
 
 $$
 \lambda(x)
@@ -8618,12 +8618,12 @@ $$
 
 <h3>Newton's method</h3>
 
-<div class="algorithm" id="algorithm:Newton's method" data-name="Newton's method">
+<div class="algorithm" id="algorithm:Newton's---method" data-name="Newton's method">
 	
 damped descent method using Newton step
 <ul>
 <li>
-	<strong>Require:</strong>	\fobj, initial point $x\in \dom \fobj$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	\fobj, initial point $x\in \dom \fobj$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -8636,19 +8636,19 @@ $$
 \quad
 \lambda(x)^2 := \nabla \fobj(x)^T \nabla^2 \fobj(x)^{-1} \nabla \fobj(x)
 $$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $t>0$ 
+	<strong></strong>	do line search to choose $t>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \sdir_\mathrm{nt}$ 
+	<strong></strong>	update - $x := x + \slen \sdir_\mathrm{nt}$ <strong></strong>
 </li>
 
 <li>
@@ -8746,7 +8746,7 @@ when $L$ is small
 
 <h3>Convergence analysis of Newton's method</h3>
 
-<div class="theorem" id="theorem:convergence analysis of Newton's method" data-name="convergence analysis of Newton's method">
+<div class="theorem" id="theorem:convergence---analysis---of---Newton's---method" data-name="convergence analysis of Newton's method">
 	
 for function $\fobj$ satisfying strong convexity, Hessian continuity &amp; Lipschitz continuity
 with $m, M, L>0$,
@@ -8847,7 +8847,7 @@ $$
 
 </div>
 
-<div class="proposition" id="proposition:self-concordance for logarithms" data-name="self-concordance for logarithms">
+<div class="proposition" id="proposition:self-concordance---for---logarithms" data-name="self-concordance for logarithms">
 	
 if convex function $g:X\to\reals$ with $X\subset \ppreals$
 satisfies
@@ -8925,7 +8925,7 @@ are self-concordance
 
 <h3>Self-concordance preserving operations</h3>
 
-<div class="proposition" id="proposition:self-concordance preserving operations" data-name="self-concordance preserving operations">
+<div class="proposition" id="proposition:self-concordance---preserving---operations" data-name="self-concordance preserving operations">
 	
 self-concordance is preserved by <i>positive scaling, addition, and affine transformation,</i>
 <i>i.e.</i>,
@@ -8996,7 +8996,7 @@ $$
 with $\dom f = \set{x\in\reals^n}{b-Ax \succ 0}$
 is self-concordant
 by
-<a href="#proposition:self-concordance preserving operations"></a>,
+<a href="#proposition:self-concordance---preserving---operations"></a>,
 <i>i.e.</i>, $f$ is affine transformation of sum of self-concordant functions
 
 </li>
@@ -9035,7 +9035,7 @@ where
 $\lambda_i(X,V)$ is $i$-th eigenvalue of $X^{-1/2}VX^{1/2}$
 is self-concordant
 by
-<a href="#proposition:self-concordance preserving operations"></a>,
+<a href="#proposition:self-concordance---preserving---operations"></a>,
 <i>i.e.</i>, $g$ is affine transformation of sum of self-concordant functions
 
 </li>
@@ -9099,7 +9099,7 @@ if $g$ is one of below
 since above $g$ satisfy
 $|g'''(x)| \leq 3 g''(x)/x$
 for every $x\in\dom g$
-(<a href="#proposition:self-concordance for logarithms"></a>)
+(<a href="#proposition:self-concordance---for---logarithms"></a>)
 
 </li>
 <li>
@@ -9111,7 +9111,7 @@ $$
 f(x,y) = -\log(y^2-x^Tx)
 $$
 
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 <li>
@@ -9124,7 +9124,7 @@ f(x,y) = -2\log y - \log(y^{2/p}- x^2)
 $$
 
 where $p\geq1$
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 <li>
@@ -9136,14 +9136,14 @@ $$
 f(x,y) = -\log y - \log(\log y - x)
 $$
 
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 </ul>
 
 <h3>Properties of self-concordant functions</h3>
 
-<div class="definition" id="definition:Newton decrement" data-name="Newton decrement">
+<div class="definition" id="definition:Newton---decrement" data-name="Newton decrement">
 	
 for convex function $f:X\to\reals$ with $X\subset \reals^n$,
 function $\lambda:\tilde{X}\to\preals$
@@ -9174,7 +9174,7 @@ $$
 </div>
 
 
-<div class="theorem" id="theorem:optimality certificate for self-concordant functions" data-name="optimality certificate for self-concordant functions">
+<div class="theorem" id="theorem:optimality---certificate---for---self-concordant---functions" data-name="optimality certificate for self-concordant functions">
 	
 for strictly convex self-concordant function $f:X\to\reals^n$ with $X\subset \reals^n$,
 Hessian is positive definition everywhere (hence Newton decrement is defined everywhere)
@@ -9198,7 +9198,7 @@ if $\lambda(x) \leq 0.68$
 <ul>
 <li>
 	recall $\lambda(x)^2$ provides <i>approximate</i> optimality certificate,
-(page~)
+(page~<a href="#page:Newton---decrement---in---quadratic---approximation">here</a>)
 <i>i.e.</i>,
 assuming $\fobj$ is well approximated by quadratic function around $x$
 
@@ -9211,7 +9211,7 @@ $$
 <li>
 	however, strict convexity together with self-concordance
 provides proven bound
-(by <a href="#theorem:optimality certificate for self-concordant functions"></a>)
+(by <a href="#theorem:optimality---certificate---for---self-concordant---functions"></a>)
 
 $$
 \fobj(x) - p^\ast \leq \lambda(x)^2
@@ -9239,7 +9239,7 @@ for $\epsilon \leq 0.68^2$
 
 <h3>Convergence analysis of Newton's method for self-concordant functions</h3>
 
-<div class="theorem" id="theorem:convergence analysis of Newton's method for self-concordant functions" data-name="convergence analysis of Newton's method for self-concordant functions">
+<div class="theorem" id="theorem:convergence---analysis---of---Newton's---method---for---self-concordant---functions" data-name="convergence analysis of Newton's method for self-concordant functions">
 	
 for strictly convex self-concordant function $\fobj$,
 exist $0<\eta\leq 1/4$ and $\gamma>0$ (which depend only on line search parameters)
@@ -9285,7 +9285,7 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 </div>
 
 
-<h2 id="Equality Constrained Minimization">Equality Constrained Minimization</h2>
+<h2 id="title-page:Equality---Constrained---Minimization">Equality Constrained Minimization</h2>
 
 
 <h3>Equality constrained minimization</h3>
@@ -9294,7 +9294,7 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 <li>
 	consider
 equality constrained convex optimization problem,
-<i>i.e.</i>, $m=0$ in <a href="#definition:convex optimization"></a>
+<i>i.e.</i>, $m=0$ in <a href="#definition:convex---optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -9339,12 +9339,12 @@ and $Ax^\ast = b$
 
 <ul>
 <li>
-	<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
+	<a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>
 implies
 $x^\ast\in\xobj$ is optimal solution if and only if
 exists $\nu^\ast\in\reals^p$
 satisfy KKT optimality conditions,
-
+<div id="page:KKT---conditions---for---equality---constrained---minimization"></div>
 <i>i.e.</i>,
 
 $$
@@ -9380,7 +9380,7 @@ solving KKT equations
 	</li>
 	<li>
 		solving dual problem using unconstrained minimization methods
-and retrieve primal solution (refer to page~)
+and retrieve primal solution (refer to page~<a href="#page:Solving---primal---problems---via---dual---problems">here</a>)
 
 	</li>
 	</ul>
@@ -9564,7 +9564,7 @@ can solve dual problem using unconstrained minimization methods
 
 </li>
 <li>
-	primal optimum can be retrieved using method on page~)
+	primal optimum can be retrieved using method on page~<a href="#page:Solving---primal---problems---via---dual---problems">here</a>)
 
 </li>
 </ul>
@@ -9707,7 +9707,7 @@ $$
 but is <i>different</i>
 since Newton step $\sdir_\mathrm{nt}$ is different from that for unconstrained minimization,
 <i>i.e.</i>, $\sdir_\mathrm{nt} \neq -\nabla^2 \fobj(x)^{-1} \nabla \fobj(x)$
-(refer to <a href="#definition:Newton decrement"></a>)
+(refer to <a href="#definition:Newton---decrement"></a>)
 
 </li>
 <li>
@@ -9740,11 +9740,11 @@ $$
 
 <h3>Feasible Newton's method for equality constrained minimization</h3>
 
-<div class="algorithm" id="algorithm:feasible Newton's method for equality constrained minimization" data-name="feasible Newton's method for equality constrained minimization">
+<div class="algorithm" id="algorithm:feasible---Newton's---method---for---equality---constrained---minimization" data-name="feasible Newton's method for equality constrained minimization">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -9752,19 +9752,19 @@ $$
 </li>
 <li>
 	<strong></strong>	computer Newton step and descrement $\ntsdir(x)$ \& $\lambda(x)$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search on \fobj\ to choose $t>0$ 
+	<strong></strong>	do line search on \fobj\ to choose $t>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \ntsdir$ 
+	<strong></strong>	update - $x := x + \slen \ntsdir$ <strong></strong>
 </li>
 
 <li>
@@ -9775,7 +9775,7 @@ $$
 </div>
 <ul>
 <li>
-	<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
+	<a href="#algorithm:feasible---Newton's---method---for---equality---constrained---minimization"></a>
 	<ul>
 	<li>
 		assumes
@@ -9795,7 +9795,7 @@ since all iterates are feasible with $\fobj(\xseqk{k+1}) <\fobj(\xseqk{k})$
 
 <h3>Assumptions for convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:conv-analysis-assumptions-feasible-equality-Newton-method"></div>
 <ul>
 <li>
 	feasibility of initial point - $\xseqk{0}\in\dom \fobj \;\&\; A\xseqk{0}=b$
@@ -9869,7 +9869,7 @@ $$
 
 <h3>Convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:Convergence---analysis---of---feasible---Newton's---method---for---equality---constrained---minimization"></div>
 <ul>
 <li>
 	convergence analysis of Newton's method for equality constrained minimization
@@ -9880,7 +9880,7 @@ unconstrained minimization after eliminating equality constraints
 <li>
 	thus, yield <i>exactly same</i> results as
 for unconstrained minimization
-(<a href="#theorem:convergence analysis of Newton's method"></a>)
+(<a href="#theorem:convergence---analysis---of---Newton's---method"></a>)
 (with different parameter values),
 <i>i.e.</i>,
 	<ul>
@@ -9906,7 +9906,7 @@ $$
 for self-concordant functions
 is also same as
 for unconstrained minimization
-(<a href="#theorem:convergence analysis of Newton's method for self-concordant functions"></a>)
+(<a href="#theorem:convergence---analysis---of---Newton's---method---for---self-concordant---functions"></a>)
 
 $$
 \left(\fobj(\xseqk{0}) - p^\ast\right)/{\gamma}
@@ -10070,7 +10070,9 @@ $$
 \\
 &=&
 - \pdsdir^T \left(\nabla^2 \fobj(x) \pdsdir + A^Tw \right)
-=
+
+\\
+&=& 
 - \pdsdir^T \nabla^2 \fobj(x) \pdsdir + (Ax-b)^Tw
 \end{eqnarray*}
 $$
@@ -10166,11 +10168,11 @@ $$
 
 <h3>Infeasible Newton's method for equality constrained minimization</h3>
 
-<div class="algorithm" id="algorithm:infeasible Newton's method for equality constrained minimization" data-name="infeasible Newton's method for equality constrained minimization">
+<div class="algorithm" id="algorithm:infeasible---Newton's---method---for---equality---constrained---minimization" data-name="infeasible Newton's method for equality constrained minimization">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ \& $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ \& $\epsilon_\mathrm{dual}>0$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ \& $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ \& $\epsilon_\mathrm{dual}>0$ <strong></strong>
 </li>
 
 <li>
@@ -10182,11 +10184,11 @@ $\pdsdir(x)$
 \&
 $\pdsdirnu(x)$,
 \
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search on $r(x,\nu)$ to choose $\slen>0$ 
+	<strong></strong>	do line search on $r(x,\nu)$ to choose $\slen>0$ <strong></strong>
 </li>
 
 <li>
@@ -10195,11 +10197,11 @@ $\pdsdirnu(x)$,
 $x := x + \slen \pdsdir$
 \&
 $\nu := \nu + \slen \pdsdirnu$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong>until</strong>	$\|r_\mathrm{dual}(x,\nu)\| \leq \epsilon_\mathrm{dual}$ \& $\|Ax-b\| \leq \epsilon_\mathrm{pri}$ 
+	<strong>until</strong>	$\|r_\mathrm{dual}(x,\nu)\| \leq \epsilon_\mathrm{dual}$ \& $\|Ax-b\| \leq \epsilon_\mathrm{pri}$ <strong></strong>
 </li>
 
 </ul>
@@ -10208,9 +10210,9 @@ $\nu := \nu + \slen \pdsdirnu$
 <ul>
 <li>
 	note similarity and difference of
-<a href="#algorithm:infeasible Newton's method for equality constrained minimization"></a>
+<a href="#algorithm:infeasible---Newton's---method---for---equality---constrained---minimization"></a>
 &amp;
-<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
+<a href="#algorithm:feasible---Newton's---method---for---equality---constrained---minimization"></a>
 	<ul>
 	<li>
 		line search done not on $\fobj$, but on primal-dual residuals $r(x,\nu)$
@@ -10239,14 +10241,14 @@ depending on specific application
 
 <h3>Line search methods for infeasible Newton's method</h3>
 
-
+<div id="page:Line---search---methods---for---infeasible---Newton's---method"></div>
 <ul>
 <li>
 	line search methods for infeasible Newton's method,
 <i>i.e.</i>,
-<a href="#algorithm:exact line search"></a>
+<a href="#algorithm:exact---line---search"></a>
 &amp;
-<a href="#algorithm:backtracking line search"></a>
+<a href="#algorithm:backtracking---line---search"></a>
 same with $\fobj$ replaced by $\|r(x,\nu)\|_2$,
 
 </li>
@@ -10256,7 +10258,7 @@ same with $\fobj$ replaced by $\|r(x,\nu)\|_2$,
 
 </li>
 </ul>
-<div class="algorithm" id="algorithm:exact line search for infeasible Newton's method" data-name="exact line search for infeasible Newton's method">
+<div class="algorithm" id="algorithm:exact---line---search---for---infeasible---Newton's---method" data-name="exact line search for infeasible Newton's method">
 	 
 
 $$
@@ -10265,24 +10267,24 @@ $$
 
 
 </div>
-<div class="algorithm" id="algorithm:backtracking line search for infeasible Newton's method" data-name="backtracking line search for infeasible Newton's method">
+<div class="algorithm" id="algorithm:backtracking---line---search---for---infeasible---Newton's---method" data-name="backtracking line search for infeasible Newton's method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	\sdir, \sdirnu, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+	<strong>Require:</strong>	\sdir, \sdirnu, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen:=1$ 
+	<strong></strong>	$\slen:=1$ <strong></strong>
 </li>
 
 <li>
 	<strong>while</strong>	$\|r(x +\slen\pdsdir, \nu + \slen\pdsdirnu)\|_2 > (1-\alpha \slen)\|r(x,\nu)\|_2$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen := \beta \slen$ 
+	<strong></strong>	$\slen := \beta \slen$ <strong></strong>
 </li>
 
 <li>
@@ -10348,7 +10350,7 @@ following steps coincides with feasible Newton's method
 
 <h3>Assumptions for convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:conv-analysis-assumptions-infeasible-equality-Newton-method"></div>
 <ul>
 <li>
 	sublevel set $S = \bigset{(x,\nu)\in \dom \fobj\times \reals^m}{
@@ -10421,8 +10423,8 @@ and exist optimal point $(x^\ast,\nu^\ast)$
 </li>
 <li>
 	consist of two phases - like unconstrained minimization or infeasible Newton's method (refer to
-<a href="#theorem:convergence analysis of Newton's method"></a>
-or page~)
+<a href="#theorem:convergence---analysis---of---Newton's---method"></a>
+or page~<a href="#page:Convergence---analysis---of---feasible---Newton's---method---for---equality---constrained---minimization">here</a>)
 	<ul>
 	<li>
 		damped Newton phase
@@ -10475,7 +10477,7 @@ $$
 </ul>
 
 
-<h2 id="Barrier Interior-point Methods">Barrier Interior-point Methods</h2>
+<h2 id="title-page:Barrier---Interior-point---Methods">Barrier Interior-point Methods</h2>
 
 
 <h3>Interior-point methods</h3>
@@ -10486,8 +10488,8 @@ $$
 
 </li>
 <li>
-	interior-point methods solve convex optimization problem (<a href="#definition:convex optimization"></a>)
-or KKT optimality conditions (<a href="#definition:KKT optimality conditions"></a>)
+	interior-point methods solve convex optimization problem (<a href="#definition:convex---optimization"></a>)
+or KKT optimality conditions (<a href="#definition:KKT---optimality---conditions"></a>)
 by
 	<ul>
 	<li>
@@ -10598,7 +10600,7 @@ $$
 </li>
 <li>
 	objective function is convex due to composition rule for convexity preservation
-(page~),
+(page~<a href="#page:convexity---preserving---operation-------composition">here</a>),
 and differentiable
 
 </li>
@@ -10626,7 +10628,7 @@ called <span class="define">logarithmic barrier</span> or <span class="define">l
 
 <h3>Central path</h3>
 
-
+<div id="page:Central---path"></div>
 <ul>
 <li>
 	optimization problem
@@ -10651,7 +10653,7 @@ $$
 
 </li>
 <li>
-	solution of above problem, called <span class="define">central point</span>, denoted by <span class="define">$x^\ast(t)$</span>,
+	solution of above problem, called <span class="define">central point</span>, denoted by <span class="notation">$x^\ast(t)$</span>,
 set of central points, called <span class="define">central path</span>
 
 </li>
@@ -10693,7 +10695,7 @@ L(x,\lambda^\ast(t),\nu^\ast(t))
 = \fobj(x) + {\lambda^\ast(t)}^T \fie(x) + {\nu^\ast(t)}^T (Ax-b)
 $$
 
-where $L$ is Lagrangian of original problem in <a href="#definition:convex optimization"></a>
+where $L$ is Lagrangian of original problem in <a href="#definition:convex---optimization"></a>
 
 </li>
 <li>
@@ -10791,7 +10793,7 @@ called <span class="define">centrality conditions</span>
 
 </li>
 <li>
-	only difference between centrality conditions and KKT conditions in <a href="#definition:KKT optimality conditions"></a>
+	only difference between centrality conditions and KKT conditions in <a href="#definition:KKT---optimality---conditions"></a>
 is <i>complementary $1/t$-slackness</i>
 	<ul>
 	<li>
@@ -10896,11 +10898,11 @@ objective function ill behaves
 
 <h3>Barrier methods</h3>
 
-<div class="algorithm" id="algorithm:barrier method" data-name="barrier method">
+<div class="algorithm" id="algorithm:barrier---method" data-name="barrier method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -10911,28 +10913,28 @@ objective function ill behaves
 find $x^\ast(t)$
 by minimizing $t\fobj + \phi$ subject to $Ax=b$
 starting at $x$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	(optionally)
 compute $\lambda^\ast(t)$ \& $\nu^\ast(t)$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	stopping criterion - quit if $m/t<\epsilon$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	increase $t$ - $t := \mu t$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	update $x$ - $x := x^\ast(t)$
- 
+ <strong></strong>
 </li>
 
 \Until
@@ -10979,7 +10981,7 @@ as long as approximates of $x^\ast(t)$ go to $x^\ast$
 		while cannot calculate $g(\lambda,\nu)$ for this case,
 below provides dual feasible point
 when
-Newton step $\ntsdir$ for optimization problem on page~ is small,
+Newton step $\ntsdir$ for optimization problem on page~<a href="#page:Central---path">here</a> is small,
 <i>i.e.</i>, for nearly centered
 
 $$
@@ -11040,7 +11042,7 @@ $$
 	</li>
 	<li>
 		
-make central path condition on page~ maximally satisfied
+make central path condition on page~<a href="#page:Central---path">here</a> maximally satisfied
 
 $$
 \seqk{t}{0}
@@ -11069,7 +11071,7 @@ for
 $\seqk{t}{0}$,
 $\mu\seqk{t}{0}$,
 $\mu^2\seqk{t}{0}$,
-
+&hellip;
 
 </li>
 <li>
@@ -11093,7 +11095,7 @@ plus one (initial centering step)
 	<ul>
 	<li>
 		for feasible centering problem,
-$t\fobj + \phi$ should satisfy conditions on page~,
+$t\fobj + \phi$ should satisfy conditions on page~<a href="#page:conv-analysis-assumptions-feasible-equality-Newton-method">here</a>,
 <i>i.e.</i>,
 initial sublevel set is closed,
 associated inverse KKT matrix is bounded
@@ -11102,7 +11104,7 @@ associated inverse KKT matrix is bounded
 	</li>
 	<li>
 		for infeasible centering problem,
-$t\fobj + \phi$ should satisfy conditions on page~
+$t\fobj + \phi$ should satisfy conditions on page~<a href="#page:conv-analysis-assumptions-infeasible-equality-Newton-method">here</a>
 
 	</li>
 	</ul>
@@ -11110,7 +11112,7 @@ $t\fobj + \phi$ should satisfy conditions on page~
 </li>
 </ul>
 
-<h2 id="Primal-dual Interior-point Methods">Primal-dual Interior-point Methods</h2>
+<h2 id="title-page:Primal-dual---Interior-point---Methods">Primal-dual Interior-point Methods</h2>
 
 
 <h3>Primal-dual \& barrier interior-point methods</h3>
@@ -11174,7 +11176,7 @@ for several basic problems, such as, LP, QP, SOCP, GP, SDP
 
 <ul>
 <li>
-	modified KKT conditions (for convex optimization in <a href="#definition:convex optimization"></a>) expressed as
+	modified KKT conditions (for convex optimization in <a href="#definition:convex---optimization"></a>) expressed as
 
 $$
 r_t(x,\lambda,\nu)
@@ -11189,17 +11191,17 @@ where
 
 $$
 \begin{eqnarray*}
-\mbox{\define{dual residual}}
+\mbox{dual residual}
 &-&
 r_\mathrm{dual}(x,\lambda,\nu)
 = {\nabla \fobj(x) + D\fie(x)^T\lambda + A^T\nu}
 \\
-\mbox{\define{centrality residual}}
+\mbox{centrality residual}
 &-&
 r_\mathrm{cent}(x,\lambda,\nu)
 = {-\diag(\lambda)\fobj(x) - (1/t) \ones}
 \\
-\mbox{\define{primal residual}}
+\mbox{primal residual}
 &-&
 r_\mathrm{pri}(x,\lambda,\nu)
 = {Ax-b}
@@ -11324,12 +11326,12 @@ $$
 
 <h3>Primal-dual interior-point method</h3>
 
-<div class="algorithm" id="algorithm:primal-dual interior-point method" data-name="primal-dual interior-point method">
+<div class="algorithm" id="algorithm:primal-dual---interior-point---method" data-name="primal-dual interior-point method">
 	 
 <ul>
 <li>
 	<strong>Require:</strong>	initial point $x$ with $\fie(x)\prec0$, $\lambda \succ 0$, $\mu > 1$,
-$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$ 
+$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -11337,16 +11339,16 @@ $\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$
 </li>
 <li>
 	<strong></strong>	set $t := \mu m /\hat{\eta}$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	computer primal-dual search direction $\pdsdiry = (\pdsdir, \pdsdirlbd, \pdsdirnu)$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $s>0$ 
+	<strong></strong>	do line search to choose $s>0$ <strong></strong>
 </li>
 
 <li>
@@ -11355,14 +11357,14 @@ $\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$
 $x := x + s \pdsdir$,
 $\lambda := \lambda + s \pdsdirnu$,
 $\nu := \nu + s \pdsdirnu$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong>until</strong>	$\|r_\mathrm{pri}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{pri}$,
 $\|r_\mathrm{dual}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{dual}$,
 $\hat{\eta} \leq \epsilon$
- 
+ <strong></strong>
 </li>
 
 </ul>
@@ -11383,35 +11385,35 @@ since primal-dual method often shows faster than linear convergence
 <ul>
 <li>
 	liner search is standard backtracking line search on $r(x,\lambda,\nu)$
-similar to that in <a href="#algorithm:exact line search for infeasible Newton's method"></a>
+similar to that in <a href="#algorithm:exact---line---search---for---infeasible---Newton's---method"></a>
 except making sure that $\fie(x) \prec 0$ and $\lambda\succ0$
 
 </li>
 <li>
 	note initial $s$
-in <a href="#algorithm:backtracking line search for primal-dual interior-point method"></a>
+in <a href="#algorithm:backtracking---line---search---for---primal-dual---interior-point---method"></a>
 is largest $s$ that makes $\lambda + s\pdsdirlbd$ positive
 
 </li>
 </ul>
-<div class="algorithm" id="algorithm:backtracking line search for primal-dual interior-point method" data-name="backtracking line search for primal-dual interior-point method">
+<div class="algorithm" id="algorithm:backtracking---line---search---for---primal-dual---interior-point---method" data-name="backtracking line search for primal-dual interior-point method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	\pdsdir, \pdsdirlbd, \pdsdirnu, $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$ 
+	<strong>Require:</strong>	\pdsdir, \pdsdirlbd, \pdsdirnu, $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$ 
+	<strong></strong>	$s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$ <strong></strong>
 </li>
 
 <li>
 	<strong>while</strong>	$\fie (x +s\pdsdir) \not \prec 0$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$t := \beta t$ 
+	<strong></strong>	$t := \beta t$ <strong></strong>
 </li>
 
 <li>
@@ -11419,11 +11421,11 @@ is largest $s$ that makes $\lambda + s\pdsdirlbd$ positive
 </li>
 <li>
 	<strong>while</strong>	$\|r(x +s\pdsdir, \lambda + s\pdsdirlbd, \nu + s\pdsdirnu)\|_2 > (1-\alpha s)\|r(x,\lambda,\nu)\|_2$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$t := \beta t$ 
+	<strong></strong>	$t := \beta t$ <strong></strong>
 </li>
 
 <li>

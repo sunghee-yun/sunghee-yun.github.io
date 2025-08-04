@@ -1,7 +1,7 @@
 ---
 title: Topological Spaces
 date: Fri Aug  1 04:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:26 PDT 2025
+last_modified_at: Sun Aug  3 23:56:25 PDT 2025
 permalink: /math/rig/topological-spaces
 categories:
 - blog
@@ -202,7 +202,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -480,8 +480,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -502,7 +502,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -531,7 +531,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -554,16 +554,16 @@ $$
 </ul>
 
 
-<h1 id="Real-Analysis">Real Analysis</h1>
+<h1 id="super-title-page:Real-Analysis">Real Analysis</h1>
 
 
 
-<h2 id="set-theory">Set Theory</h2>
+<h2 id="title-page:set-theory">Set Theory</h2>
 
 
 <h3>Some principles</h3>
 
-<div class="principle" id="principle:principle of mathematical induction" data-name="principle of mathematical induction">
+<div class="principle" id="principle:principle---of---mathematical---induction" data-name="principle of mathematical induction">
 	
 
 $$
@@ -573,14 +573,14 @@ $$
 
 </div>
 
-<div class="principle" id="principle:well ordering principle" data-name="well ordering principle">
+<div class="principle" id="principle:well---ordering---principle" data-name="well ordering principle">
 	
-
+<div id="principle:well-ordering---principle-------smallest---element"></div>
 each nonempty subset of $\naturals$ has a smallest element
 
 </div>
 
-<div class="principle" id="principle:principle of recursive definition" data-name="principle of recursive definition">
+<div class="principle" id="principle:principle---of---recursive---definition" data-name="principle of recursive definition">
 	
 for $f:X\to X$ and $a\in X$,
 exists unique infinite sequence $\langle x_n\rangle_{n=1}^\infty\subset X$
@@ -606,11 +606,11 @@ $$
 <ul>
 <li>
 	note that
-<a href="#principle:principle of mathematical induction"></a>
+<a href="#principle:principle---of---mathematical---induction"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle - smallest element"></a>
+<a href="#principle:well-ordering---principle-------smallest---element"></a>
 $\Rightarrow$
-<a href="#principle:principle of recursive definition"></a>
+<a href="#principle:principle---of---recursive---definition"></a>
 
 </li>
 </ul>
@@ -930,7 +930,7 @@ $$
 <ul>
 <li>
 	$x$ said to <span class="define">stand in relation</span> $\rel$ to $y$,
-denoted by $\relxy{x}{y}$
+denoted by <span class="notation">$\relxy{x}{y}$</span>
 
 </li>
 <li>
@@ -1046,7 +1046,7 @@ denoted by $\relxy{x}{y}$
 
 <h3>Axiom of choice and equivalent principles</h3>
 
-<div class="axiom" id="axiom:axiom of choice" data-name="axiom of choice">
+<div class="axiom" id="axiom:axiom---of---choice" data-name="axiom of choice">
 	
 given a collection of nonempty sets, $\coll$,
 there exists $f:\coll\ \to \cup_{A\in\coll} A$ such that
@@ -1084,7 +1084,7 @@ need axiom of choice when $\coll$ is not finite
 </li>
 </ul>
 
-<div class="principle" id="principle:Hausdorff maximal principle" data-name="Hausdorff maximal principle">
+<div class="principle" id="principle:Hausdorff---maximal---principle" data-name="Hausdorff maximal principle">
 	
 
 for particial ordering $\prec$ on $X$,
@@ -1096,7 +1096,7 @@ $S=T$
 
 </div>
 
-<div class="principle" id="principle:well-ordering principle" data-name="well-ordering principle">
+<div class="principle" id="principle:well-ordering---principle" data-name="well-ordering principle">
 	
 every set $X$ can be well ordered,
 <i>i.e.</i>,
@@ -1106,18 +1106,18 @@ there is a relation $<$ that well orders $X$
 <ul>
 <li>
 	note that
-<a href="#axiom:axiom of choice"></a>
+<a href="#axiom:axiom---of---choice"></a>
 $\Leftrightarrow$
-<a href="#principle:Hausdorff maximal principle"></a>
+<a href="#principle:Hausdorff---maximal---principle"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle"></a>
+<a href="#principle:well-ordering---principle"></a>
 
 </li>
 </ul>
 
 <h3>Infinite direct product</h3>
 
-<div class="definition" id="definition:direct product" data-name="direct product">
+<div class="definition" id="definition:direct---product" data-name="direct product">
 	
 for collection of sets, $\seq{X_\lambda}$, with index set, $\Lambda$,
 
@@ -1148,14 +1148,14 @@ if one of $X_\lambda$ is empty, $\bigtimes X_\lambda$ is empty
 
 </li>
 <li>
-	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom of choice"></a>)
+	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom---of---choice"></a>)
 
 
 
 </li>
 </ul>
 
-<h2 id="real-number-system">Real Number System</h2>
+<h2 id="title-page:real-number-system">Real Number System</h2>
 
 
 <h3>Field axioms</h3>
@@ -1314,7 +1314,7 @@ $x < r < y$
 
 <ul>
 <li>
-	sequence of $\reals$ denoted by $\seq{x_i}_{i=1}^\infty$ or $\seq{x_i}$
+	sequence of $\reals$ denoted by <span class="notation">$\seq{x_i}_{i=1}^\infty$</span> or <span class="notation">$\seq{x_i}$</span>
 	<ul>
 	<li>
 		mapping from $\naturals$ to $\reals$
@@ -1324,7 +1324,7 @@ $x < r < y$
 
 </li>
 <li>
-	limit of $\seq{x_n}$ denoted by $\lim_{n\to\infty} x_n$ or $\lim x_n$ - defined by $a\in\reals$
+	limit of $\seq{x_n}$ denoted by <span class="notation">$\lim_{n\to\infty} x_n$</span> or <span class="notation">$\lim x_n$</span> - defined by $a\in\reals$
 
 $$
 (\forall \epsilon>0)(\exists N\in\naturals) (n \geq N \Rightarrow |x_n-a|<\epsilon)
@@ -1454,12 +1454,12 @@ $$
 
 <h3>Open and closed sets - facts</h3>
 
-
+<div id="page:open-closed-fact"></div>
 <ul>
 <li>
 	<span class="fact-font">every open set is union of countable collection of disjoint open intervals</span>
 
-
+<div id="page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals"></div>
 
 </li>
 <li>
@@ -1487,7 +1487,7 @@ $$
 
 <h3>Covering and Heine-Borel theorem</h3>
 
-
+<div id="page:heine-borel-theorem"></div>
 <ul>
 <li>
 	collection $\coll$ of sets called <span class="define">covering</span> of $A$ if
@@ -1592,7 +1592,7 @@ $$
 
 <h3>Borel sets and Borel $\sigma$-algebra</h3>
 
-
+<div id="page:borel-algebra"></div>
 <ul>
 <li>
 	<span class="define">Borel set</span>
@@ -1623,7 +1623,7 @@ through the operations of countable union, countable intersection, and relative 
 		</li>
 		<li>
 			 smallest $\sigma$-algebra containing all open intervals
-(due to statement on page~)
+(due to statement on page~<a href="#page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals">here</a>)
 
 		</li>
 		</ul>
@@ -1703,12 +1703,12 @@ $$
 </li>
 </ul>
 
-<h2 id="Space Overview">Space Overview</h2>
+<h2 id="title-page:Space---Overview">Space Overview</h2>
 
 
 <h3>Diagrams for relations among various spaces</h3>
 
-
+<div id="page:diagrams-for-relations-among-spaces"></div>
 <ul>
 <li>
 	note from the figure
@@ -1736,12 +1736,12 @@ $$
 
 
 
+<div id="fig:diagrams---for---relations---among---various---spaces"></div>
 
 
 
 
-
-<h2 id="classical-banach-spaces">Classical Banach Spaces</h2>
+<h2 id="title-page:classical-banach-spaces">Classical Banach Spaces</h2>
 
 
 <h3>Normed linear space</h3>
@@ -1908,7 +1908,7 @@ $$
 	<span class="name-font">Ho&#776;lder's inequality -</span> for $p,q\in[1,\infty]$ with $1/p+1/q=1$
 
 
-
+<div id="Holder---inequality!linear---normed---spaces"></div>
 
 $$
 (\forall f\in L^p, g\in L^q)
@@ -1975,7 +1975,7 @@ $$
 
 <h3>Banach space</h3>
 
-
+<div id="page:Banach-space"></div>
 <ul>
 <li>
 	<i>complete normed linear space</i> called <span class="define">Banach space</span>
@@ -2027,8 +2027,8 @@ $$
 
 	<ul>
 	<li>
-		$L^p$ version of Littlewood's second principle (page~)
-
+		$L^p$ version of Littlewood's second principle (page~<a href="#page:littlewood:three:principles">here</a>)
+<div id="page:normed---space---version---of---Littlewood's---second---principle"></div>
 
 
 
@@ -2101,7 +2101,7 @@ there exists $g\in L^q$ such that
 
 
 
-
+<div id="page:Riesz-representation-theorem"></div>
 
 $$
 F(f) = \int fg
@@ -2113,12 +2113,12 @@ where $\|F\|=\|g\|_q$
 </li>
 <li>
 	for each case, $L^q$ is dual of $L^p$
-(refer to page  for definition of dual)
+(refer to page <a href="#page:Dual-of-normed-spaces">here</a> for definition of dual)
 
 </li>
 </ul>
 
-<h2 id="metric-spaces">Metric Spaces</h2>
+<h2 id="title-page:metric-spaces">Metric Spaces</h2>
 
 
 <h3>Metric spaces</h3>
@@ -2282,7 +2282,7 @@ $$
 
 <h3>Dense sets and separability - metric spaces</h3>
 
-
+<div id="page:dense-sets-and-separability-metric-spaces"></div>
 <ul>
 <li>
 	$D\subset X$ said to be dense if
@@ -2490,7 +2490,7 @@ $$
 
 <h3>Completeness - metric spaces</h3>
 
-
+<div id="page:Completeness---metric-spaces"></div>
 <ul>
 <li>
 	$\seq{x_n}$ of metric space, $X$, called <span class="define">Cauchy sequence</span> if
@@ -2530,7 +2530,7 @@ $X^\ast$ is isometric with $\closure{X}$ in $Y$
 
 <h3>Uniform continuity - metric spaces</h3>
 
-
+<div id="page:uniform-continuity-metric-spaces"></div>
 <ul>
 <li>
 	$f:X\to Y$ for metric spaces $\metrics{X}{\rho}$ and $\metrics{Y}{\sigma}$
@@ -2590,7 +2590,7 @@ called <span class="define">uniform property</span>
 
 </li>
 <li>
-	uniform properties are <i>not</i> topological properties, <i>e.g.</i>, $h$ on page~
+	uniform properties are <i>not</i> topological properties, <i>e.g.</i>, $h$ on page~<a href="#page:uniform-continuity-metric-spaces">here</a>
 	<ul>
 	<li>
 		is <span class="define">homeomorphism</span> between incomplete space $[0,1)$ and complete space $\preals$
@@ -2657,7 +2657,7 @@ exists unique continuous extension $g$ of $f$ on $\closure{E}$, which is uniform
 
 <h3>Subspaces</h3>
 
-
+<div id="page:subspaces"></div>
 <ul>
 <li>
 	for metric space, $\metrics{X}{\rho}$,
@@ -2723,20 +2723,20 @@ called <span class="define">subspace</span> of $\metrics{X}{\rho}$
 
 <h3>Compact metric spaces</h3>
 
-
+<div id="page:Compact-metric-spaces"></div>
 
 <ul>
 <li>
 	motivation - want metric spaces where
 	<ul>
 	<li>
-		conclusion of Heine-Borel theorem (page~) are valid
+		conclusion of Heine-Borel theorem (page~<a href="#page:heine-borel-theorem">here</a>) are valid
 
 	</li>
 	<li>
 		many properties of $[0,1]$ are true, <i>e.g.</i>,
 Bolzano-Weierstrass property
-(page~)
+(page~<a href="#page:bolzano-weierstrass-property-and-sequential-compactness">here</a>)
 
 	</li>
 	</ul>
@@ -2809,7 +2809,7 @@ has nonempty intersection
 
 <h3>Bolzano-Weierstrass property and sequential compactness</h3>
 
-
+<div id="page:bolzano-weierstrass-property-and-sequential-compactness"></div>
 <ul>
 <li>
 	metric space said to
@@ -2860,7 +2860,7 @@ sequentially compact</span>
 </li>
 <li>
 	compact metric spaces have corresponding to some of those of complete metric spaces
-(compare with statements on page~)
+(compare with statements on page~<a href="#page:subspaces">here</a>)
 	<ul>
 	<li>
 		every compact subset of metric space is closed <i>and bounded</i>
@@ -2881,7 +2881,7 @@ sequentially compact</span>
 
 <h3>Necessary condition for compactness</h3>
 
-
+<div id="page:Necessary-condition-for-compactness"></div>
 <ul>
 <li>
 	compact metric space is sequentially compact 
@@ -2889,14 +2889,14 @@ sequentially compact</span>
 </li>
 <li>
 	equivalently, compact metric space has Bolzano-Weierstrass property
-(page~)
+(page~<a href="#page:bolzano-weierstrass-property-and-sequential-compactness">here</a>)
 
 </li>
 </ul>
 
 <h3>Necessary conditions for sequentially compactness</h3>
 
-
+<div id="page:sequentially-compact-metric-spaces-facts"></div>
 <ul>
 <li>
 	every continuity real-valued function on sequentially compact space
@@ -2916,7 +2916,7 @@ has <i>Lebesgue number</i>
 
 <h3>Sufficient conditions for compactness</h3>
 
-
+<div id="page:Sufficient-conditions-for-compactness"></div>
 <ul>
 <li>
 	metric space that is totally bounded and has Lebesgue number for every covering
@@ -2927,14 +2927,14 @@ is compact
 
 <h3>Borel-Lebesgue theorem</h3>
 
-
+<div id="page:Borel-Lebesgue-theorem"></div>
 <ul>
 <li>
 	conditions on
-pages ,
-,
+pages <a href="#page:Necessary-condition-for-compactness">here</a>,
+<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
 and
-
+<a href="#page:Sufficient-conditions-for-compactness">here</a>
 imply the following equivalent statements
 	<ul>
 	<li>
@@ -2960,7 +2960,7 @@ imply the following equivalent statements
 
 </li>
 <li>
-	hence, can drop <i>sequentially</i> in every statement on page~,
+	hence, can drop <i>sequentially</i> in every statement on page~<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
 <i>i.e.</i>,
 	<ul>
 	<li>
@@ -2983,7 +2983,7 @@ has <i>Lebesgue number</i>
 
 <h3>Compact metric spaces - other facts</h3>
 
-
+<div id="page:Compact-metric-spaces---other-facts"></div>
 <ul>
 <li>
 	closed subset of compact space is compact
@@ -2993,7 +2993,7 @@ has <i>Lebesgue number</i>
 	compact subset of metric space is <i>closed and bounded</i>
 	<ul>
 	<li>
-		hence, Heine-Borel theorem (page~) implies
+		hence, Heine-Borel theorem (page~<a href="#page:heine-borel-theorem">here</a>) implies
 
 	</li>
 	<li>
@@ -3005,14 +3005,14 @@ has <i>Lebesgue number</i>
 </li>
 <li>
 	metric space is compact if and only if it is complete and totally bounded
-
+<div id="page:compac-complete-and-totally-bounded"></div>
 
 </li>
 <li>
 	thus, <span class="eemph">compactness can be viewed as absolute type of closedness</span>
 	<ul>
 	<li>
-		 refer to page~ for exactly same comments for general topological spaces
+		 refer to page~<a href="#page:Compact-spaces---facts">here</a> for exactly same comments for general topological spaces
 
 	</li>
 	</ul>
@@ -3032,16 +3032,16 @@ is uniformly continuous
 <h3>Diagrams for relations among metric spaces</h3>
 
 
-
+<div id="page:Necessary-and-sufficient-conditions-for-compactness"></div>
 <ul>
 <li>
 	the figure
 shows relations among metric spaces stated on pages
-,
-,
-,
+<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
+<a href="#page:Sufficient-conditions-for-compactness">here</a>,
+<a href="#page:Borel-Lebesgue-theorem">here</a>,
 and
-
+<a href="#page:compac-complete-and-totally-bounded">here</a>
 
 </li>
 </ul>
@@ -3055,7 +3055,7 @@ and
 
 
 
-
+<div id="fig:diagrams---for---relations---among---metric---spaces"></div>
 
 
 
@@ -3111,7 +3111,7 @@ said to be <span class="define">of first category or meager</span>
 	<span class="name-font">Baire theorem -</span>
 
 
-
+<div id="page:Baire-theorem"></div>
 for complete metric space, $X$,
 and countable collection of dense open subsets, $\seq{O_k}\subset X$,
 the intersection of the collection
@@ -3123,7 +3123,7 @@ $$
 is dense
 	<ul>
 	<li>
-		 refer to page~
+		 refer to page~<a href="#page:locally-compact-space-version-of-Baire-theorem">here</a>
 for locally compact space version of Baire theorem
 
 	</li>
@@ -3144,7 +3144,13 @@ union of countable collection of nowhere dense subsets
 <li>
 	Baire category theorem is <i>unusual</i> in that
 <i>uniform property, \ie, completeness of metric spaces,
-implies purely topological nature</i>
+implies purely topological nature</i>&nbsp;(footnote &ndash; 
+&ldquo;no nonempty open subset of complete metric space is of first category&rdquo;
+is purely topological nature
+because if two spaces are (topologically) homeomorphic,
+and no nonempty open subsets of one space is of first category,
+then neither is any nonempty open subset of the other space
+)
 
 </li>
 </ul>
@@ -3168,7 +3174,7 @@ said to be <span class="define">of second category everywhere</span>
 </li>
 <li>
 	locally compact Hausdorff spaces are of second category everywhere, too
-(refer to page~ for definition of locally compact Hausdorff spaces)
+(refer to page~<a href="#page:Locally-compact-Hausdorff-spaces">here</a> for definition of locally compact Hausdorff spaces)
 
 	<ul>
 	<li>
@@ -3280,7 +3286,7 @@ $$
 </li>
 </ul>
 
-<h2 id="topological-spaces">Topological Spaces</h2>
+<h2 id="title-page:topological-spaces">Topological Spaces</h2>
 
 
 
@@ -3637,7 +3643,7 @@ called <span class="define">homeomorphism</span> between $\topos{X}{J}$ and $\to
 
 <h3>Stronger and weaker topologies</h3>
 
-
+<div id="page:topological-spaces-stronger-and-weaker-topologies"></div>
 <ul>
 <li>
 	for two topologies, $\tJ$ and $\tS$ for same $X$ with $\tS\supset\tJ$
@@ -3820,7 +3826,7 @@ where sets of the collection are open
 <h3>Axioms of countability</h3>
 
 
-
+<div id="page:topological-spaces-axioms-of-countability"></div>
 <ul>
 <li>
 	topological space said to satisfy <span class="define">first axiom of countability</span>
@@ -3845,7 +3851,7 @@ exists countable base for the space
 	<ul>
 	<li>
 		every metric space satisfies second axiom of countability
-if and only if separable (refer to page~ for definition of separability)
+if and only if separable (refer to page~<a href="#page:dense-sets-and-separability-metric-spaces">here</a> for definition of separability)
 
 
 
@@ -4038,7 +4044,7 @@ all functions in $\collk{F}$ is continuous
 	<ul>
 	<li>
 		it is weakest topology containing
-- refer to page~
+- refer to page~<a href="#page:topological-spaces-stronger-and-weaker-topologies">here</a>
 
 $$
 \coll\ = \bigcup_{f\in\collk{F}} \bigcup_{O\subset \reals} f^{-1}(O)
@@ -4102,7 +4108,7 @@ provided $X$ satisfied $T_1$ (Tychonoff space)
 <h3>Diagrams for separation axioms for topological spaces</h3>
 
 
-
+<div id="page:Diagram-for-separation-axioms"></div>
 <ul>
 <li>
 	the figure
@@ -4125,7 +4131,7 @@ shows $T_4 \Rightarrow T_{3\frac{1}{2}} \Rightarrow T_3 \Rightarrow T_2 \Rightar
 
 
 
-
+<div id="fig:diagrams---for---separation---axioms---for---topological---spaces"></div>
 
 
 
@@ -4317,25 +4323,25 @@ $\bigsetl{\bigtimes X_\alpha}{O_\alpha\in \tJ_\alpha, O_\alpha = X_\alpha \mbox{
 
 </li>
 <li>
-	if $(\forall \alpha\in\collk{A})(X_\alpha=X)$, $\bigtimes X_{\alpha}$ denoted by $X^\collk{A}$
+	if $(\forall \alpha\in\collk{A})(X_\alpha=X)$, $\bigtimes X_{\alpha}$ denoted by <span class="notation">$X^\collk{A}$</span>
 
 </li>
 </ul>
 
 <h3>Product topology with countable index set</h3>
 
-
+<div id="page:product-topology-with-countable-index-set"></div>
 <ul>
 <li>
 	for countable $\collk{A}$
 
 	<ul>
 	<li>
-		$\bigtimes X_\alpha$ <i>denoted by $X^\omega$ or $X^\naturals$</i>
+		$\bigtimes X_\alpha$ <i>denoted by</i> <span class="notation">$X^\omega$</span> or <span class="notation">$X^\naturals$</span>
 $\because$ only # elements of $\collk{A}$ important
 		<ul>
 		<li>
-			 <i>e.g.</i>, $\mbox{\bf 2}^\omega$ is <i>Cantor set</i> if denoting discrete topology with two elements by 
+			 <i>e.g.</i>, $\textbf{2}^\omega$ is <i>Cantor set</i> if denoting discrete topology with two elements by $\textbf{2}$
 
 		</li>
 		</ul>
@@ -4421,14 +4427,14 @@ then <i>$X$ is homeomorphic to image of $I^\collk{F}$</i>
 </li>
 </ul>
 
-<h2 id="Compact-and-Locally-Compact-Spaces">Compact and Locally Compact Spaces</h2>
+<h2 id="title-page:Compact-and-Locally-Compact-Spaces">Compact and Locally Compact Spaces</h2>
 
 
 <h3>Compact spaces</h3>
 
 <ul>
 <li>
-	compactness for metric spaces (page~)
+	compactness for metric spaces (page~<a href="#page:Compact-metric-spaces">here</a>)
 can be generalized to topological spaces
 	<ul>
 	<li>
@@ -4456,7 +4462,7 @@ has finite subcovering
 
 	</li>
 	<li>
-		thus, Heine-Borel (page~) says every closed and bounded subset of $\reals$
+		thus, Heine-Borel (page~<a href="#page:heine-borel-theorem">here</a>) says every closed and bounded subset of $\reals$
 is compact
 
 	</li>
@@ -4477,7 +4483,7 @@ has nonempty intersection
 
 <h3>Compact spaces - facts</h3>
 
-
+<div id="page:Compact-spaces---facts"></div>
 <ul>
 <li>
 	<span class="eemph">compactness can be viewed as absolute type of closedness</span> because
@@ -4495,7 +4501,7 @@ has nonempty intersection
 
 </li>
 <li>
-	 refer to page~ for exactly the same comments for metric spaces
+	 refer to page~<a href="#page:Compact-metric-spaces---other-facts">here</a> for exactly the same comments for metric spaces
 
 </li>
 <li>
@@ -4538,7 +4544,7 @@ $$
 
 <h3>Countable compactness and Lindelo&#776;f</h3>
 
-
+<div id="page:Countable-compactness-and-Lindelof"></div>
 <ul>
 <li>
 	topological space for which every open covering has countable subcovering
@@ -4572,7 +4578,7 @@ said to be <span class="define">countably compact</span> space
 
 <h3>Bolzano-Weierstrass property and sequential compactness</h3>
 
-
+<div id="page:Bolzano-Weierstrass-property-and-sequential-compactness"></div>
 <ul>
 <li>
 	topological space, $X$, said to have <span class="define">Bolzano-Weierstrass property</span>
@@ -4617,14 +4623,14 @@ is sequentially compact
 <h3>Diagrams for relations among topological spaces</h3>
 
 
-
+<div id="page:Diagrams-for-relations-among-topological-spaces"></div>
 <ul>
 <li>
 	the figure
 shows relations among topological spaces stated on pages
-
+<a href="#page:Countable-compactness-and-Lindelof">here</a>
 and
-
+<a href="#page:Bolzano-Weierstrass-property-and-sequential-compactness">here</a>
 
 </li>
 </ul>
@@ -4638,7 +4644,7 @@ and
 
 
 
-
+<div id="fig:diagrams---for---relations---among---topological---spaces"></div>
 
 
 
@@ -4765,7 +4771,7 @@ but not compact
 
 
 
-
+<div id="page:Locally-compact-Hausdorff-spaces"></div>
 <ul>
 <li>
 	<i>locally compact Hausdorff spaces</i>
@@ -4870,11 +4876,11 @@ $$
 $$
 
 is dense
-
+<div id="page:locally-compact-space-version-of-Baire-theorem"></div>
 	<ul>
 	<li>
 		analogue of Baire theorem for complete metric spaces
-(refer to page~ for Baire theorem)
+(refer to page~<a href="#page:Baire-theorem">here</a> for Baire theorem)
 
 	</li>
 	</ul>
@@ -5038,7 +5044,7 @@ $M=\bigcup O_n$
 </ul>
 
 
-<h2 id="Banach-Spaces">Banach Spaces</h2>
+<h2 id="title-page:Banach-Spaces">Banach Spaces</h2>
 
 
 <h3>Vector spaces</h3>
@@ -5106,7 +5112,7 @@ called <span class="define">Banach space</span>
 
 
 
-
+<div id="page:Banach---spaces"></div>
 	<ul>
 	<li>
 		can be said to be class of spaces endowed with
@@ -5120,7 +5126,7 @@ both topological and algebraic structure
 	examples include
 	<ul>
 	<li>
-		$L^p$ with $1\leq p\leq \infty$ (page~),
+		$L^p$ with $1\leq p\leq \infty$ (page~<a href="#page:Banach-space">here</a>),
 
 	</li>
 	<li>
@@ -5157,7 +5163,7 @@ called <span class="define">subspace</span> or <span class="define">linear manif
 <li>
 	hence, for $A\subset X$,
 exists smallest linear manifold containing $A$,
-often denoted by $\{A\}$
+often denoted by <span class="notation">$\{A\}$</span>
 
 </li>
 <li>
@@ -5269,7 +5275,7 @@ isometrical isomorphism merely amounts to <i>element renaming</i>
 
 <h3>Properties of linear operators on vector spaces</h3>
 
-
+<div id="page:Properties-of-linear-operators"></div>
 <ul>
 <li>
 	for linear operators, point continuity $\Rightarrow$ boundedness $\Rightarrow$ uniform continuity,
@@ -5318,7 +5324,7 @@ while preserving properties of functional
 
 <h3>Hahn-Banach theorem</h3>
 
-
+<div id="page:Hahn-Banach-theorem"></div>
 <ul>
 <li>
 	<span class="name-font">Hahn-Banach theorem -</span>
@@ -5360,12 +5366,12 @@ $$
 
 <h3>Dual spaces of normed spaces</h3>
 
-
+<div id="page:Dual-of-normed-spaces"></div>
 <ul>
 <li>
 	space of <i>bounded linear functionals</i> on <i>normed space</i>, $X$,
 called <span class="define">dual</span> or <span class="define">conjugate</span> of $X$,
-denoted by $X^\ast$
+denoted by <span class="notation">$X^\ast$</span>
 
 
 
@@ -5373,7 +5379,7 @@ denoted by $X^\ast$
 
 </li>
 <li>
-	every dual is Banach space (refer to page~)
+	every dual is Banach space (refer to page~<a href="#page:Properties-of-linear-operators">here</a>)
 
 </li>
 <li>
@@ -5381,7 +5387,7 @@ denoted by $X^\ast$
 	<ul>
 	<li>
 		exists natural representation of bounded linear functional on $L^p$ by $L^q$
-(by Riesz representation theorem on page~)
+(by Riesz representation theorem on page~<a href="#page:Riesz-representation-theorem">here</a>)
 
 	</li>
 	</ul>
@@ -5396,7 +5402,7 @@ denoted by $X^\ast$
 
 <h3>Natural isomorphism</h3>
 
-
+<div id="page:Natural-isomorphism"></div>
 <ul>
 <li>
 	define linear mapping of normed space, $X$, to $X^{\ast\ast}$ (<i>i.e.</i>, dual of dual of $X$),
@@ -5417,7 +5423,7 @@ $\|\varphi(x)\|
 
 	</li>
 	<li>
-		by corollary on page~, there exists
+		by corollary on page~<a href="#page:Hahn-Banach-theorem">here</a>, there exists
 $f\in X^\ast$ such that $f(x)=\|x\|$,
 then $\|f\|=1$, and $f(x)=\|x\|$, thus $\|\varphi(x)\| = \sup_{\|g\|=1, g\in X^\ast} g(x) \geq f(x) = \|x\|$
 
@@ -5452,7 +5458,7 @@ which is subspace of $X^{\ast\ast}$
 <h3>Completeness of natural isomorphism</h3>
 
 
-
+<div id="page:Completeness-of-natural-isomorphism"></div>
 <ul>
 <li>
 	for natural isomorphism, $\varphi$
@@ -5462,7 +5468,7 @@ which is subspace of $X^{\ast\ast}$
 	$X^{\ast\ast}$ is complete, hence Banach space
 	<ul>
 	<li>
-		because bounded linear functional to $\reals$ (refer to page~)
+		because bounded linear functional to $\reals$ (refer to page~<a href="#page:Properties-of-linear-operators">here</a>)
 
 	</li>
 	</ul>
@@ -5470,7 +5476,7 @@ which is subspace of $X^{\ast\ast}$
 </li>
 <li>
 	thus, closure of $\varphi(X)$ in $X^{\ast\ast}$, $\closure{\varphi(X)}$, complete
-(refer to page~)
+(refer to page~<a href="#page:subspaces">here</a>)
 
 </li>
 <li>
@@ -5713,7 +5719,7 @@ to determine <i>translation invariance of topology</i>
 
 <h3>Sufficient and necessarily condition for topological vector spaces</h3>
 
-
+<div id="page:Sufficient-and-necessarily-condition-for-topological-vector-spaces"></div>
 
 <ul>
 <li>
@@ -5770,7 +5776,7 @@ hence can form <i>topological vector space</i>
 
 <h3>Topological isomorphism</h3>
 
-
+<div id="page:Topological-isomorphism"></div>
 <ul>
 <li>
 	in topological vector space,
@@ -5853,7 +5859,7 @@ for all finite $\collk{G}\subset\collF$ and $\epsilon>0$
 
 	</li>
 	<li>
-		basis satisfies properties on page~,
+		basis satisfies properties on page~<a href="#page:Sufficient-and-necessarily-condition-for-topological-vector-spaces">here</a>,
 hence, (above) weak topology makes <i>topological vector space</i>
 
 	</li>
@@ -5920,7 +5926,7 @@ all functionals in $X^{\ast\ast}$ are continuous
 is less useful than weak topology generated by $X$,
 <i>i.e.</i>, that generated by $\varphi(X)$
 where $\varphi$ is the natural embedding of $X$ into $X^{\ast\ast}$
-(refer to page~)
+(refer to page~<a href="#page:Natural-isomorphism">here</a>)
 
 </li>
 <li>
@@ -5962,7 +5968,7 @@ is compact in weak$^\ast$ topology
 
 <h3>Convex sets</h3>
 
-
+<div id="page:Convex---sets"></div>
 <ul>
 <li>
 	for vector space, $X$ and $x,y\in X$
@@ -6324,7 +6330,7 @@ $$
 
 
 
-denoted by $x\perp y$
+denoted by <span class="notation">$x\perp y$</span>
 
 </li>
 <li>
@@ -6384,7 +6390,8 @@ $$
 \|x\|^2 \geq \sum^n_{i=1} a_i^2
 $$
 
-
+	<div class="proof">
+		
 
 $$
 \begin{eqnarray*}
@@ -6410,6 +6417,7 @@ $$
 $$
 
 
+	</div>
 
 </li>
 </ul>
@@ -6499,7 +6507,7 @@ $$
 
 </li>
 <li>
-	Hausdorff maximal principle (<a href="#principle:Hausdorff maximal principle"></a>)
+	Hausdorff maximal principle (<a href="#principle:Hausdorff---maximal---principle"></a>)
 implies existence of maximal orthonormal system,
 hence following statement
 

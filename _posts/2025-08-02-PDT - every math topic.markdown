@@ -1,7 +1,7 @@
 ---
 title: All Math Topics in All the Multiverses
 date: Fri Aug  2 00:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:29 PDT 2025
+last_modified_at: Sun Aug  3 23:56:28 PDT 2025
 permalink: /math/rig/everything
 categories:
 - blog
@@ -200,7 +200,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -478,8 +478,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -500,7 +500,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -529,7 +529,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -552,7 +552,10 @@ $$
 </ul>
 
 
-<h1 id="Stories">Math Stories</h1>
+<h1 id="super-title-page:Stories">Math Stories</h1>
+
+
+<h3>Some fundamental theorems in math!</h3>
 
 
 <h3>Dualities</h3>
@@ -578,29 +581,29 @@ $$
 	<li>
 		<i>dual</i> of normed space
 is space of bounded linear functionals on the space
-(page~)
+(page~<a href="#page:Dual-of-normed-spaces">here</a>)
 
 	</li>
 	<li>
 		<i>dual</i> cones and <i>dual</i> norms are defined
-(<a href="#definition:dual cones"></a> &amp; <a href="#definition:dual norms"></a>)
+(<a href="#definition:dual---cones"></a> &amp; <a href="#definition:dual---norms"></a>)
 
 	</li>
 	<li>
 		can define <i>dual</i> generalized inequalities using dual cones
-(<a href="#proposition:generalized inequalities and dual generalized inequalities"></a>)
+(<a href="#proposition:generalized---inequalities---and---dual---generalized---inequalities"></a>)
 
 	</li>
 	<li>
 		can find necessary and sufficient conditions for $K$-convexity
 using <i>dual</i> generalized inequalities
-(<a href="#proposition:dual characterization of $K$-convexity"></a>)
+(<a href="#proposition:dual---characterization---of---$K$-convexity"></a>)
 
 	</li>
 	<li>
 		duality can be observed even in fundamental theorem for Galois theory,
 <i>i.e.</i>, $G(K/E) \leftrightarrow E$ &amp; $H \leftrightarrow K^H$
-(<a href="#theorem:fundamental theorem for Galois theory"></a>)
+(<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
 
 	</li>
 	<li>
@@ -621,12 +624,12 @@ as in Fourier Transformation
 <li>
 	However,
 never fascinated more
-than ,
+than <a href="#title-page:Duality">duality appearing in optimization</a>,
 <i>e.g.</i>,
 	<ul>
 	<li>
-		properties such as weak duality (<a href="#definition:weak duality"></a>)
-and strong duality (<a href="#definition:strong duality"></a>)
+		properties such as weak duality (<a href="#definition:weak---duality"></a>)
+and strong duality (<a href="#definition:strong---duality"></a>)
 
 	</li>
 	<li>
@@ -635,7 +638,7 @@ hence certificate of suboptimality!
 
 	</li>
 	<li>
-		constraint qualifications such as Slater's condition (<a href="#theorem:Slater's theorem"></a>)
+		constraint qualifications such as Slater's condition (<a href="#theorem:Slater's---theorem"></a>)
 guarantee strong duality!
 
 	</li>
@@ -645,11 +648,11 @@ guarantee strong duality!
 </ul>
 
 
-<h1 id="algebra">Algebra</h1>
+<h1 id="super-title-page:algebra">Algebra</h1>
 
 
 
-<h2 id="Inequalities">Inequalities</h2>
+<h2 id="title-page:Inequalities">Inequalities</h2>
 
 
 <h3>Jensen's inequality</h3>
@@ -659,7 +662,7 @@ guarantee strong duality!
 	strictly convex function: for any $x\neq y$ and $0< \alpha <1$
 
 
-(<a href="#definition:convex functions"></a>)
+(<a href="#definition:convex---functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) > f(\alpha x + (1-\alpha) y)
@@ -670,7 +673,7 @@ $$
 <li>
 	convex function: for any $x, y$ and $0< \alpha <1$
 
-(<a href="#definition:convex functions"></a>)
+(<a href="#definition:convex---functions"></a>)
 
 $$
 \alpha f(x) + (1-\alpha) f(y) \geq f(\alpha x + (1-\alpha) y)
@@ -679,7 +682,7 @@ $$
 
 </li>
 </ul>
-<div class="inequality" id="inequality:Jensen's inequality - for finite sequences" data-name="Jensen's inequality - for finite sequences">
+<div class="inequality" id="inequality:Jensen's---inequality-------for---finite---sequences" data-name="Jensen's inequality - for finite sequences">
 	
 
 
@@ -726,11 +729,11 @@ $$
 </li>
 </ul>
 
-<div class="inequality" id="inequality:Jensen's inequality - for random variables" data-name="Jensen's inequality - for random variables">
+<div class="inequality" id="inequality:Jensen's---inequality-------for---random---variables" data-name="Jensen's inequality - for random variables">
 	
 
 
-for random vector $X$ (page~ for definition)
+for random vector $X$ (page~<a href="#page:random-variables">here</a> for definition)
 
 $$
 \Expect f(X) \geq f(\Expect X)
@@ -1000,7 +1003,7 @@ $$
 
 </li>
 </ul>
-<div class="inequality" id="inequality:AM-GM inequality" data-name="AM-GM inequality">
+<div class="inequality" id="inequality:AM-GM---inequality" data-name="AM-GM inequality">
 	
 for any $n$ $a_i>0$ and $\alpha_i>0$ with $\alpha_1+\cdots+\alpha_n=1$
 
@@ -1347,7 +1350,7 @@ where equality if and only if $a_i$ are equal
 
 <h3>Cauchy-Schwarz inequality</h3>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality" data-name="Cauchy-Schwarz inequality">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality" data-name="Cauchy-Schwarz inequality">
 	
 for any $a_i, b_i\in\reals$
 
@@ -1554,14 +1557,14 @@ $$
 
 
 
-
+<div id="page:Cauchy-Schwarz---inequality-------generalization"></div>
 <ul>
 <li>
 	want to say something like $\sum_{i=1}^n (x a_i + y b_i + z c_i + w d_i + \cdots)^2$
 
 </li>
 <li>
-	run out of alphabets  - use double subscripts
+	run out of alphabets &hellip; - use double subscripts
 
 $$
 \begin{eqnarray*}
@@ -1662,7 +1665,7 @@ $$
 
 
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for complex numbers" data-name="Cauchy-Schwarz inequality - for complex numbers">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---complex---numbers" data-name="Cauchy-Schwarz inequality - for complex numbers">
 	
 
 
@@ -1676,7 +1679,7 @@ $$
 
 </div>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for infinite sequences" data-name="Cauchy-Schwarz inequality - for infinite sequences">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---infinite---sequences" data-name="Cauchy-Schwarz inequality - for infinite sequences">
 	
 
 
@@ -1693,7 +1696,7 @@ $$
 
 </div>
 
-<div class="inequality" id="inequality:Cauchy-Schwarz inequality - for complex functions" data-name="Cauchy-Schwarz inequality - for complex functions">
+<div class="inequality" id="inequality:Cauchy-Schwarz---inequality-------for---complex---functions" data-name="Cauchy-Schwarz inequality - for complex functions">
 	
 
 
@@ -1714,7 +1717,7 @@ as in page~\pageref{page:Cauchy-Schwarz inequality - generalization}</span>
 </li>
 </ul>
 
-<h2 id="number-theory">Number Theory - Queen of Mathematics</h2>
+<h2 id="title-page:number-theory">Number Theory - Queen of Mathematics</h2>
 
 
 <h3>Integers</h3>
@@ -1796,13 +1799,13 @@ $$
 
 <h3>Fundamental theorem of arithmetic</h3>
 
-<div class="theorem" id="theorem:fundamental theorem of arithmetic" data-name="fundamental theorem of arithmetic">
+<div class="theorem" id="theorem:fundamental---theorem---of---arithmetic" data-name="fundamental theorem of arithmetic">
 	
 
 
 integer $n\geq2$ can be factored uniquely into products of primes,
 <i>i.e.</i>,
-exist distinct primes, $p_1$, , $p_k$, and $e_1,\ldots, e_k\in\naturals$
+exist distinct primes, $p_1$, &hellip;, $p_k$, and $e_1,\ldots, e_k\in\naturals$
 such that
 
 $$
@@ -1815,7 +1818,7 @@ $$
 <li>
 	hence,
 integers are <i>factorial ring</i>
-(<a href="#definition:factorial ring"></a>)
+(<a href="#definition:factorial---ring"></a>)
 
 </li>
 </ul>
@@ -1837,7 +1840,7 @@ $$
 	<li>
 		for definition of gcd
 for general entire rings,
-refer to <a href="#definition:greatest common divisor"></a>
+refer to <a href="#definition:greatest---common---divisor"></a>
 
 	</li>
 	</ul>
@@ -1898,7 +1901,7 @@ $$
 a \equiv b \Mod{n}
 $$
 
-read as <span class="define">``$a$ congruent to $b$ mod $n$''</span>
+read as &ldquo;<span class="define">$a$ congruent to $b$ mod $n$</span>''
 
 </div>
 <ul>
@@ -1917,7 +1920,7 @@ read as <span class="define">``$a$ congruent to $b$ mod $n$''</span>
 
 </li>
 </ul>
-<div class="definition" id="definition:congruence class" data-name="congruence class">
+<div class="definition" id="definition:congruence---class" data-name="congruence class">
 	
 
 
@@ -1929,21 +1932,21 @@ classes determined by modulo relation,
 called <span class="define">congruence</span> or <span class="define">residue class under modulo</span>
 
 </div>
-<div class="definition" id="definition:integers modulo n" data-name="integers modulo n">
+<div class="definition" id="definition:integers---modulo---n" data-name="integers modulo n">
 	
 
 
 
 
 set of equivalence classes under modulo,
-denoted by <span class="define">$\integers/n \integers$</span>,
+denoted by <span class="notation">$\integers/n \integers$</span>,
 called <span class="define">integers modulo $n$</span> or <span class="define">integers mod $n$</span>
 
 </div>
 
 <h3>Euler's theorem</h3>
 
-<div class="definition" id="definition:Euler's totient function" data-name="Euler's totient function">
+<div class="definition" id="definition:Euler's---totient---function" data-name="Euler's totient function">
 	
 
 
@@ -1970,7 +1973,7 @@ $\varphi(10) = \varphi(2^1\cdot5^1) = 1\cdot2^0\cdot 4\cdot 5^0 =4$
 
 </li>
 </ul>
-<div class="theorem" id="theorem:Euler's theorem - number theory" data-name="Euler's theorem - number theory">
+<div class="theorem" id="theorem:Euler's---theorem-------number---theory" data-name="Euler's theorem - number theory">
 	
 
 
@@ -1995,7 +1998,7 @@ $$
 </li>
 </ul>
 
-<h1 id="Abstract Algebra">Abstract Algebra</h1>
+<h1 id="super-title-page:Abstract---Algebra">Abstract Algebra</h1>
 
 
 
@@ -2012,7 +2015,7 @@ $$
 
 
 
-<h2 id="Why Abstract Algebra?">Why Abstract Algebra?</h2>
+<h2 id="title-page:Why---Abstract---Algebra?">Why Abstract Algebra?</h2>
 
 
 <h3>Why abstract algebra?</h3>
@@ -2087,12 +2090,12 @@ by Ho&#776;lder
 </ul>
 
 
-<h2 id="Groups">Groups</h2>
+<h2 id="title-page:Groups">Groups</h2>
 
 
 <h3>Monoids</h3>
 
-<div class="definition" id="definition:law of composition" data-name="law of composition">
+<div class="definition" id="definition:law---of---composition" data-name="law of composition">
 	
 mapping $S\times S \to S$ for set $S$,
 called <span class="define">law of composition (of $S$ to itself)</span>
@@ -2114,13 +2117,15 @@ called <span class="define">unit element</span> - always unique
 
 
 
+	</li>
+	</ul>
+
+</div>
+<div class="proof">
+	
 for any two unit elements $e$ and $f$,
 $e = ef = f,$
 hence, $e=f$
-
-
-	</li>
-	</ul>
 
 </div>
 
@@ -2229,7 +2234,7 @@ subgroup consisting only of unit element, called <span class="define">trivial</s
 
 <h3>Cyclic groups, generators, and direct products</h3>
 
-<div class="definition" id="definition:cyclic groups" data-name="cyclic groups">
+<div class="definition" id="definition:cyclic---groups" data-name="cyclic groups">
 	
 
 group $G$ with
@@ -2272,12 +2277,12 @@ $$
 
 called <span class="define">set of generators for $G$</span>,
 said to <span class="define">generate $G$</span>,
-denoted by $G=\generates{S}$
+denoted by <span class="notation">$G=\generates{S}$</span>
 
 
 
 </div>
-<div class="definition" id="definition:direct products" data-name="direct products">
+<div class="definition" id="definition:direct---products" data-name="direct products">
 	
 for two groups $G_1$ and $G_2$,
 group $G_1\times G_2$
@@ -2338,7 +2343,7 @@ called <span class="define">isomorphism</span>,
 
 
 
-sometimes denoted by <span class="define">$G\isomorph G'$</span>
+sometimes denoted by <span class="notation">$G\isomorph G'$</span>
 
 	</li>
 	<li>
@@ -2363,24 +2368,24 @@ sometimes denoted by <span class="define">$G\isomorph G'$</span>
 <ul>
 <li>
 	set of all automorphisms of $G$ is itself group,
-denoted by <span class="define">\aut{G}</span>
+denoted by <span class="notation">\aut{G}</span>
 
 </li>
 </ul>
 
 <h3>Kernel, image, and embedding of homeomorphism</h3>
 
-<div class="definition" id="definition:kernel of homeomorphism" data-name="kernel of homeomorphism">
+<div class="definition" id="definition:kernel---of---homeomorphism" data-name="kernel of homeomorphism">
 	
 
 
 for group-homeomorphism $f:G\to G'$ where $e'$ is unit element of $G'$,
 $f^{-1}(\{e'\})$, which is subgroup of $G$,
 called <span class="define">kernel of $f$</span>,
-denoted by $\Ker{f}$
+denoted by <span class="notation">$\Ker{f}$</span>
 
 </div>
-<div class="definition" id="definition:embedding of homeomorphism" data-name="embedding of homeomorphism">
+<div class="definition" id="definition:embedding---of---homeomorphism" data-name="embedding of homeomorphism">
 	
 
 
@@ -2388,7 +2393,7 @@ homeomorphism $f:G\to G'$ establishing isomorphism between $G$ and $f(G)\subset 
 called <span class="define">embedding</span>
 
 </div>
-<div class="proposition" id="proposition:group homeomorphism and isomorphism" data-name="group homeomorphism and isomorphism">
+<div class="proposition" id="proposition:group---homeomorphism---and---isomorphism" data-name="group homeomorphism and isomorphism">
 	 
 	<ul>
 	<li>
@@ -2423,7 +2428,7 @@ map $f:S\to G'$ has at most one extension to homeomorphism of $G$ into $G'$
 
 <h3>Orthogonal subgroups</h3>
 
-<div class="proposition" id="proposition:orthogonal subgroups" data-name="orthogonal subgroups">
+<div class="proposition" id="proposition:orthogonal---subgroups" data-name="orthogonal subgroups">
 	
 
 
@@ -2436,7 +2441,7 @@ $$
 
 with $(x,y)\mapsto xy$
 is <i>isomorphism</i>
-can generalize to finite number of subgroups, $H_1$, , $H_n$ such that
+can generalize to finite number of subgroups, $H_1$, &hellip;, $H_n$ such that
 
 $$
 H_1 \cdots H_n = G
@@ -2454,7 +2459,7 @@ in which case, $G$ is isomorphic to $H_1\cdots H_n$
 
 <h3>Cosets of groups</h3>
 
-<div class="definition" id="definition:cosets of groups" data-name="cosets of groups">
+<div class="definition" id="definition:cosets---of---groups" data-name="cosets of groups">
 	
 
 
@@ -2472,7 +2477,7 @@ and element in $aH$, called
 
 
 </div>
-<div class="proposition" id="proposition:cosets of groups" data-name="cosets of groups">
+<div class="proposition" id="proposition:cosets---of---groups" data-name="cosets of groups">
 	
 for group $G$ and subgroup $H\subset G$,
 	<ul>
@@ -2497,7 +2502,7 @@ hence all left cosets have same cardinality
 	</ul>
 
 </div>
-<div class="definition" id="definition:index and order of group" data-name="index and order of group">
+<div class="definition" id="definition:index---and---order---of---group" data-name="index and order of group">
 	
 
 
@@ -2505,16 +2510,16 @@ hence all left cosets have same cardinality
 
 number of left cosets of $H$ in $G$,
 called <span class="define">index of $H$ in $G$</span>,
-denoted by $(G:H)$
+denoted by <span class="notation">$(G:H)$</span>
 - index of trivial subgroups,
 called <span class="define">order of $G$</span>,
-denoted by $(G:1)$
+denoted by <span class="notation">$(G:1)$</span>
 
 </div>
 
 <h3>Indices and orders of groups</h3>
 
-<div class="proposition" id="proposition:indices and orders" data-name="indices and orders">
+<div class="proposition" id="proposition:indices---and---orders" data-name="indices and orders">
 	
 for group $G$ and two subgroups $H$ and $K\subset G$ with $K\subset H$,
 
@@ -2535,7 +2540,7 @@ hence, if $(G:1)<\infty$, both $(G:H)$ and $(H:1)$ divide $(G:1)$
 
 <h3>Normal subgroup</h3>
 
-<div class="definition" id="definition:normal subgroups" data-name="normal subgroups">
+<div class="definition" id="definition:normal---subgroups" data-name="normal subgroups">
 	
 
 
@@ -2565,7 +2570,7 @@ in which case
 		set of cosets $\set{xH}{x\in G}$ with law of composition defined by
 $(xH)(yH) = (xy)H,$
 forms group with unit element $H$,
-denoted by <span class="define">$G/H$</span>,
+denoted by <span class="notation">$G/H$</span>,
 called <span class="define">factor group of $G$ by $H$</span>,
 
 
@@ -2584,7 +2589,7 @@ kernel of which is $H$
 	</ul>
 
 </div>
-<div class="proposition" id="proposition:normal subgroups and factor groups" data-name="normal subgroups and factor groups">
+<div class="proposition" id="proposition:normal---subgroups---and---factor---groups" data-name="normal subgroups and factor groups">
 	
  
 
@@ -2617,7 +2622,7 @@ is also normal subgroup
 
 <h3>Normalizers and centralizers</h3>
 
-<div class="definition" id="definition:normalizers and centralizers" data-name="normalizers and centralizers">
+<div class="definition" id="definition:normalizers---and---centralizers" data-name="normalizers and centralizers">
 	
 for subset $S\subset G$ of group $G$,
 
@@ -2659,7 +2664,7 @@ and (of course) is normal
 
 <h3>Normalizers and congruence</h3>
 
-<div class="proposition" id="proposition:normalizers of groups" data-name="normalizers of groups">
+<div class="proposition" id="proposition:normalizers---of---groups" data-name="normalizers of groups">
 	
 subgroup $H\subset G$ of group $G$
 is normal subgroup of its normalizer $N_H$
@@ -2688,7 +2693,7 @@ and $H$ is normal in $KH$
 
 </div>
 
-<div class="definition" id="definition:congruence with respect to normal subgroup" data-name="congruence with respect to normal subgroup">
+<div class="definition" id="definition:congruence---with---respect---to---normal---subgroup" data-name="congruence with respect to normal subgroup">
 	
 
 
@@ -2708,7 +2713,7 @@ read <span class="define">$x$ and $y$ are congruent modulo $H$</span>
 
 <h3>Exact sequences of homeomorphisms</h3>
 
-<div class="definition" id="definition:exact sequences of homeomorphisms" data-name="exact sequences of homeomorphisms">
+<div class="definition" id="definition:exact---sequences---of---homeomorphisms" data-name="exact sequences of homeomorphisms">
 	
 
 
@@ -2774,7 +2779,7 @@ in which vertical mappings are isomorphisms and rows are <i>exact</i>
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---map"></div>
 
 
 
@@ -2870,7 +2875,7 @@ where rows are exact
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---isomorphism"></div>
 
 
 
@@ -2909,7 +2914,7 @@ as shown in the figure,
 
 
 
-
+<div id="fig:commutative---diagram---1"></div>
 
 
 $H$ is normal in $G$
@@ -2934,7 +2939,7 @@ if $f$ is surjective, $\bar{f}$ is isomorphism
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---homeomorphism"></div>
 
 
 
@@ -2943,7 +2948,7 @@ if $f$ is surjective, $\bar{f}$ is isomorphism
 
 <h3>Towers</h3>
 
-<div class="definition" id="definition:towers of groups" data-name="towers of groups">
+<div class="definition" id="definition:towers---of---groups" data-name="towers of groups">
 	
 
 
@@ -2984,7 +2989,7 @@ called <span class="define">tower of subgroups</span>
 
 
 </div>
-<div class="proposition" id="proposition:towers inded by homeomorphism" data-name="towers inded by homeomorphism">
+<div class="proposition" id="proposition:towers---inded---by---homeomorphism" data-name="towers inded by homeomorphism">
 	
 
 for group homeomorphism $f:G\to G'$ and normal tower
@@ -3036,7 +3041,7 @@ is injective
 
 <h3>Refinement of towers and solvability of groups</h3>
 
-<div class="definition" id="definition:refinement of towers" data-name="refinement of towers">
+<div class="definition" id="definition:refinement---of---towers" data-name="refinement of towers">
 	
 
 
@@ -3047,7 +3052,7 @@ called <span class="define">refinement of tower</span>
 
 </div>
 
-<div class="definition" id="definition:solvable groups" data-name="solvable groups">
+<div class="definition" id="definition:solvable---groups" data-name="solvable groups">
 	
 
 
@@ -3057,7 +3062,7 @@ said to be <span class="define">solvable</span>
 
 </div>
 
-<div class="proposition" id="proposition:finite solvable groups" data-name="finite solvable groups">
+<div class="proposition" id="proposition:finite---solvable---groups" data-name="finite solvable groups">
 	 
 
 	<ul>
@@ -3073,7 +3078,7 @@ said to be <span class="define">solvable</span>
 
 </div>
 
-<div class="theorem" id="theorem:Feit-Thompson theorem" data-name="Feit-Thompson theorem">
+<div class="theorem" id="theorem:Feit-Thompson---theorem" data-name="Feit-Thompson theorem">
 	
 
 
@@ -3081,7 +3086,7 @@ group whose order is prime power is solvable
 
 </div>
 
-<div class="theorem" id="theorem:solvability condition in terms of normal subgroups" data-name="solvability condition in terms of normal subgroups">
+<div class="theorem" id="theorem:solvability---condition---in---terms---of---normal---subgroups" data-name="solvability condition in terms of normal subgroups">
 	
 for group $G$ and its normal subgroup $H$,
 $G$ is solvable if and only if
@@ -3101,13 +3106,13 @@ $xyx^{-1}y^{-1}$ for $x,y\in G$,
 called <span class="define">commutator</span>
 
 </div>
-<div class="definition" id="definition:commutator subgroups" data-name="commutator subgroups">
+<div class="definition" id="definition:commutator---subgroups" data-name="commutator subgroups">
 	
 
 
 subgroup generated by commutators of group $G$,
 called <span class="define">commutator subgroup</span>,
-denoted by <span class="define">$G^C$</span>,
+denoted by <span class="notation">$G^C$</span>,
 <i>i.e.</i>
 
 $$
@@ -3145,7 +3150,7 @@ $$
 
 <h3>Simple groups</h3>
 
-<div class="definition" id="definition:simple groups" data-name="simple groups">
+<div class="definition" id="definition:simple---groups" data-name="simple groups">
 	
 
 non-trivial group having no normal subgroup other than itself and trivial subgroup,
@@ -3153,7 +3158,7 @@ said to be <span class="define">simple</span>
 
 </div>
 
-<div class="proposition" id="proposition:simple groups" data-name="simple groups">
+<div class="proposition" id="proposition:simple---groups" data-name="simple groups">
 	
 abelian group is simple
 if and only if
@@ -3164,7 +3169,7 @@ cycle of prime order
 
 <h3>Butterfly lemma</h3>
 
-<div class="lemma" id="lemma:butterfly lemma - Zassenhaus" data-name="butterfly lemma - Zassenhaus">
+<div class="lemma" id="lemma:butterfly---lemma-------Zassenhaus" data-name="butterfly lemma - Zassenhaus">
 	
 
 
@@ -3212,13 +3217,13 @@ $$
 
 
 
-
+<div id="fig:butterfly---lemma"></div>
 
 
 
 <h3>Equivalent towers</h3>
 
-<div class="definition" id="definition:equivalent towers" data-name="equivalent towers">
+<div class="definition" id="definition:equivalent---towers" data-name="equivalent towers">
 	
 
 
@@ -3262,7 +3267,7 @@ said to be <span class="define">equivalent</span>
 
 <h3>Schreier and Jordan-Ho&#776;lder theorems</h3>
 
-<div class="theorem" id="theorem:Schreier theorem" data-name="Schreier theorem">
+<div class="theorem" id="theorem:Schreier---theorem" data-name="Schreier theorem">
 	
 
 
@@ -3272,7 +3277,7 @@ have equivalent refinement
 
 </div>
 
-<div class="theorem" id="theorem:Jordan-Holder theorem" data-name="Jordan-Holder theorem">
+<div class="theorem" id="theorem:Jordan-Holder---theorem" data-name="Jordan-Holder theorem">
 	
 
 
@@ -3287,7 +3292,7 @@ are equivalent
 
 <h3>Cyclic groups</h3>
 
-<div class="definition" id="definition:exponent of groups and group elements" data-name="exponent of groups and group elements">
+<div class="definition" id="definition:exponent---of---groups---and---group---elements" data-name="exponent of groups and group elements">
 	
 
 
@@ -3299,7 +3304,7 @@ called <span class="define">exponent of $G$</span>
 
 </div>
 
-<div class="definition" id="definition:period of group elements" data-name="period of group elements">
+<div class="definition" id="definition:period---of---group---elements" data-name="period of group elements">
 	
 
 
@@ -3309,7 +3314,7 @@ called <span class="define">period of $a$</span>
 
 </div>
 
-<div class="proposition" id="proposition:period of elements of finite groups" data-name="period of elements of finite groups">
+<div class="proposition" id="proposition:period---of---elements---of---finite---groups" data-name="period of elements of finite groups">
 	
 for finite group $G$ of order $n>1$,
 period of every non-unit element $a$ ($\neq e$) devided $n$;
@@ -3318,7 +3323,7 @@ $G$ is cyclic and period of every generator is $n$
 
 </div>
 
-<div class="proposition" id="proposition:subgroups of cyclic groups" data-name="subgroups of cyclic groups">
+<div class="proposition" id="proposition:subgroups---of---cyclic---groups" data-name="subgroups of cyclic groups">
 	
 every subgroup of cyclic group is cyclic
 and image of every homeomorphism of cyclic group is cyclic
@@ -3328,7 +3333,7 @@ and image of every homeomorphism of cyclic group is cyclic
 
 <h3>Properties of cyclic groups</h3>
 
-<div class="proposition" id="proposition:properties of cyclic groups" data-name="properties of cyclic groups">
+<div class="proposition" id="proposition:properties---of---cyclic---groups" data-name="properties of cyclic groups">
 	 
 	<ul>
 	<li>
@@ -3374,7 +3379,7 @@ with $C$ cyclic with prime order
 
 <h3>Symmetric groups and permutations</h3>
 
-<div class="definition" id="definition:symmetric groups and permutations" data-name="symmetric groups and permutations">
+<div class="definition" id="definition:symmetric---groups---and---permutations" data-name="symmetric groups and permutations">
 	
 
 
@@ -3382,7 +3387,7 @@ with $C$ cyclic with prime order
 
 for nonempty set $S$, group $G$ of bijective functions of $S$ onto itself
 with law of composition being function composition,
-called <span class="define">symmetric group of $S$</span>, denoted by <span class="define">\perm{S}</span>;
+called <span class="define">symmetric group of $S$</span>, denoted by <span class="notation">\perm{S}</span>;
 elements in $\perm{S}$ called <span class="define">permutations of $S$</span>;
 element swapping two disjoint elements in $S$ leaving every others left,
 called <span class="define">transposition</span>
@@ -3392,7 +3397,7 @@ called <span class="define">transposition</span>
 
 
 </div>
-<div class="proposition" id="proposition:sign homeomorphism of finite symmetric groups" data-name="sign homeomorphism of finite symmetric groups">
+<div class="proposition" id="proposition:sign---homeomorphism---of---finite---symmetric---groups" data-name="sign homeomorphism of finite symmetric groups">
 	
 for finite symmetric group $S_n$,
 exits unique homeomorphism $\epsilon: S_n \to\{-1,1\}$
@@ -3402,7 +3407,7 @@ mapping every transposition, $\tau$, to $-1$,
 </div>
 
 
-<div class="definition" id="definition:alternating groups" data-name="alternating groups">
+<div class="definition" id="definition:alternating---groups" data-name="alternating groups">
 	
 element of finite symmetric group $\sigma$ with $\epsilon(\sigma)=1$,
 called <span class="define">even</span>,
@@ -3412,18 +3417,18 @@ called <span class="define">odd</span>;
 
 
 
-kernel of $\epsilon$, called <span class="define">alternating group</span>, denoted by <span class="define">$A_n$</span>
+kernel of $\epsilon$, called <span class="define">alternating group</span>, denoted by <span class="notation">$A_n$</span>
 
 
 
 </div>
-<div class="theorem" id="theorem:solvability of finite symmetric groups" data-name="solvability of finite symmetric groups">
+<div class="theorem" id="theorem:solvability---of---finite---symmetric---groups" data-name="solvability of finite symmetric groups">
 	
 symmetric group $S_n$ with $n\geq 5$
 is <i>not</i> solvable
 
 </div>
-<div class="theorem" id="theorem:simplicity of alternating groups" data-name="simplicity of alternating groups">
+<div class="theorem" id="theorem:simplicity---of---alternating---groups" data-name="simplicity of alternating groups">
 	
 alternating group $A_n$ with $n\geq 5$ is simple
 
@@ -3431,7 +3436,7 @@ alternating group $A_n$ with $n\geq 5$ is simple
 
 <h3>Operations of group on set</h3>
 
-<div class="definition" id="definition:operations of group on set" data-name="operations of group on set">
+<div class="definition" id="definition:operations---of---group---on---set" data-name="operations of group on set">
 	
 
 
@@ -3456,7 +3461,7 @@ called <span class="define">operation of $G$ on $S$</span> or <span class="defin
 	<li>
 		denote $\pi(x)$ for $x\in G$
 by <span class="define">$\pi_x$</span>,
-hence homeomorphism denoted by <span class="define">$x\mapsto \pi_x$</span>
+hence homeomorphism denoted by <span class="notation">$x\mapsto \pi_x$</span>
 
 	</li>
 	</ul>
@@ -3495,7 +3500,7 @@ hence $\pi_x$ is homeomorphism of $G$ into $\perm{S}$
 
 <h3>Conjugation</h3>
 
-<div class="definition" id="definition:conjugation of groups" data-name="conjugation of groups">
+<div class="definition" id="definition:conjugation---of---groups" data-name="conjugation of groups">
 	
 
 
@@ -3564,7 +3569,7 @@ $$
 $$
 
 called <span class="define">translation</span>,
-denoted by <span class="define">$T_x:G \to G$</span>
+denoted by <span class="notation">$T_x:G \to G$</span>
 with $T_x(y) = xy$
 
 </div>
@@ -3622,7 +3627,7 @@ $$
 $$
 
 called <span class="define">isotropy of $G$</span>,
-denoted by <span class="define">$G_s$</span>,
+denoted by <span class="notation">$G_s$</span>,
 which is subgroup of $G$
 
 </div>
@@ -3668,7 +3673,7 @@ $$
 
 <h3>Orbits of operation</h3>
 
-<div class="definition" id="definition:orbits of operation" data-name="orbits of operation">
+<div class="definition" id="definition:orbits---of---operation" data-name="orbits of operation">
 	
 
 
@@ -3676,7 +3681,7 @@ $$
 for operation of group $G$ on set $S$,
 $\set{xs}{x\in G}$,
 called <span class="define">orbit of $s$ under $G$</span>,
-denoted by <span class="define">$Gs$</span>
+denoted by <span class="notation">$Gs$</span>
 
 </div>
 <ul>
@@ -3713,7 +3718,7 @@ is index of normalizer of $H$ in $G$
 
 </div>
 
-<div class="definition" id="definition:transitive operation" data-name="transitive operation">
+<div class="definition" id="definition:transitive---operation" data-name="transitive operation">
 	
 
 
@@ -3737,7 +3742,7 @@ where $s_\lambda$ are elements of distinct orbits
 
 </li>
 </ul>
-<div class="formula" id="formula:orbit decomposition formula" data-name="orbit decomposition formula">
+<div class="formula" id="formula:orbit---decomposition---formula" data-name="orbit decomposition formula">
 	
 
 
@@ -3750,7 +3755,7 @@ $$
 
 
 </div>
-<div class="formula" id="formula:class formula" data-name="class formula">
+<div class="formula" id="formula:class---formula" data-name="class formula">
 	
 
 
@@ -3765,7 +3770,7 @@ $$
 
 <h3>Sylow subgroups</h3>
 
-<div class="definition" id="definition:sylow subgroups" data-name="sylow subgroups">
+<div class="definition" id="definition:sylow---subgroups" data-name="sylow subgroups">
 	
 
 
@@ -3786,13 +3791,13 @@ finite abelian group of order divided by prime number $p$
 has subgroup of order $p$
 
 </div>
-<div class="theorem" id="theorem:$p$-Sylow subgroups of finite groups" data-name="$p$-Sylow subgroups of finite groups">
+<div class="theorem" id="theorem:$p$-Sylow---subgroups---of---finite---groups" data-name="$p$-Sylow subgroups of finite groups">
 	
 finite group of order divided by prime number $p$
 has $p$-Sylow subgroup
 
 </div>
-<div class="lemma" id="lemma:number of fixed points of group operations" data-name="number of fixed points of group operations">
+<div class="lemma" id="lemma:number---of---fixed---points---of---group---operations" data-name="number of fixed points of group operations">
 	
 for $p$-group $H$, operating on finite set $S$
 
@@ -3823,7 +3828,7 @@ $|S| \equiv 0\Mod{p}$
 
 <h3>Sylow subgroups and solvability</h3>
 
-<div class="theorem" id="theorem:solvability of finite $p$-groups" data-name="solvability of finite $p$-groups">
+<div class="theorem" id="theorem:solvability---of---finite---$p$-groups" data-name="solvability of finite $p$-groups">
 	
 finite $p$-group is solvable;
 if it is non-trivial,
@@ -3848,13 +3853,13 @@ where $G_i$ is normal in $G$
 and $G_{i+1}/G_i$ is cyclic group of order $p$
 
 </div>
-<div class="lemma" id="lemma:normality of subgroups of order $p$" data-name="normality of subgroups of order $p$">
+<div class="lemma" id="lemma:normality---of---subgroups---of---order---$p$" data-name="normality of subgroups of order $p$">
 	
 for finite group $G$ and smallest prime number dividing order of $G$ $p$,
 every subgroup of index $p$ is normal
 
 </div>
-<div class="proposition" id="proposition:solvability of groups of order $pq$" data-name="solvability of groups of order $pq$">
+<div class="proposition" id="proposition:solvability---of---groups---of---order---$pq$" data-name="solvability of groups of order $pq$">
 	
 group of order $pq$ with $p$ and $q$ being distinct prime numbers,
 is solvable
@@ -3866,8 +3871,8 @@ is solvable
 	<ul>
 	<li>
 		group of order, $35$, is solvable
-- implied by <a href="#proposition:finite solvable groups"></a>
-and <a href="#proposition:properties of cyclic groups"></a>
+- implied by <a href="#proposition:finite---solvable---groups"></a>
+and <a href="#proposition:properties---of---cyclic---groups"></a>
 
 	</li>
 	<li>
@@ -3879,7 +3884,7 @@ and <a href="#proposition:properties of cyclic groups"></a>
 </li>
 </ul>
 
-<h2 id="Rings">Rings</h2>
+<h2 id="title-page:Rings">Rings</h2>
 
 
 <h3>Rings</h3>
@@ -3897,12 +3902,12 @@ called <span class="define">ring</span>
 	<ul>
 	<li>
 		$A$ is commutative group with respect to addition
-- unit element denoted by $0$
+- unit element denoted by <span class="notation">$0$</span>
 
 	</li>
 	<li>
 		$A$ is monoid with respect to multiplication
-- unit element denoted by $1$
+- unit element denoted by <span class="notation">$1$</span>
 
 	</li>
 	<li>
@@ -3969,7 +3974,7 @@ called <span class="define">subring</span>
 
 <h3>More on ring</h3>
 
-<div class="definition" id="definition:multiplicative group of invertible elements of ring" data-name="multiplicative group of invertible elements of ring">
+<div class="definition" id="definition:multiplicative---group---of---invertible---elements---of---ring" data-name="multiplicative group of invertible elements of ring">
 	
 
 
@@ -3982,17 +3987,17 @@ called <span class="define">subring</span>
 subset $U$ of ring $A$
 such that every element of $U$ has both left and right inverses,
 called <span class="define">group of units of $A$</span> or <span class="define">group of invertible elements of $A$</span>,
-sometimes denoted by <span class="define">$A^\ast$</span>
+sometimes denoted by <span class="notation">$A^\ast$</span>
 
 </div>
-<div class="definition" id="definition:division ring" data-name="division ring">
+<div class="definition" id="definition:division---ring" data-name="division ring">
 	
 
 ring with $1\neq0$ and every nonzero element being invertible,
 called <span class="define">division ring</span>
 
 </div>
-<div class="definition" id="definition:commutative ring" data-name="commutative ring">
+<div class="definition" id="definition:commutative---ring" data-name="commutative ring">
 	
 
 ring $A$ with $\left( \forall x,y \in A \right) \left( xy= yx \right)$,
@@ -4000,7 +4005,7 @@ called <span class="define">commutative ring</span>
 
 </div>
 
-<div class="definition" id="definition:center of ring" data-name="center of ring">
+<div class="definition" id="definition:center---of---ring" data-name="center of ring">
 	
 
 
@@ -4100,7 +4105,7 @@ respectively
 	</li>
 	<li>
 		for set $S$, $\Map(S,\reals)$
-(page~)
+(page~<a href="#page:Notations">here</a>)
 is a commutative ring
 
 	</li>
@@ -4161,7 +4166,7 @@ those whose determinants are nonzero
 
 <h3>Group ring</h3>
 
-<div class="definition" id="definition:group ring" data-name="group ring">
+<div class="definition" id="definition:group---ring" data-name="group ring">
 	
 
 
@@ -4187,7 +4192,7 @@ $$
 $$
 
 called <span class="define">group ring</span>,
-denoted by <span class="define">$K[G]$</span>
+denoted by <span class="notation">$K[G]$</span>
 
 	<ul>
 	<li>
@@ -4201,13 +4206,13 @@ defines what is called <span class="define">convolution product</span>
 
 <h3>Convolution product</h3>
 
-<div class="definition" id="definition:convolution product" data-name="convolution product">
+<div class="definition" id="definition:convolution---product" data-name="convolution product">
 	
 
 
 for two functions $f,g$ on group $G$,
 <span class="define">convolution (product)</span>,
-denoted by <span class="define">$f\ast g$</span>,
+denoted by <span class="notation">$f\ast g$</span>,
 defined by
 
 $$
@@ -4290,7 +4295,7 @@ $(0)$ are $A$ itself area ideals
 
 </li>
 </ul>
-<div class="definition" id="definition:principal ideal" data-name="principal ideal">
+<div class="definition" id="definition:principal---ideal" data-name="principal ideal">
 	
 
 
@@ -4304,7 +4309,7 @@ for ring $A$ and $a\in A$, left ideal $Aa$, called <span class="define">principa
 	</ul>
 
 </div>
-<div class="definition" id="definition:principal two-sided ideal" data-name="principal two-sided ideal">
+<div class="definition" id="definition:principal---two-sided---ideal" data-name="principal two-sided ideal">
 	
 
 
@@ -4319,7 +4324,7 @@ $$
 
 
 </div>
-<div class="lemma" id="lemma:ideals of field" data-name="ideals of field">
+<div class="lemma" id="lemma:ideals---of---field" data-name="ideals of field">
 	
 
 only ideals of field
@@ -4327,9 +4332,9 @@ are the field itself and zero ideal
 
 </div>
 
-<h3>Principle rings</h3>
+<h3>Principal rings</h3>
 
-<div class="definition" id="definition:principal ring" data-name="principal ring">
+<div class="definition" id="definition:principal---ring" data-name="principal ring">
 	
 
 commutative ring of which every ideal is principal and $1\neq0$,
@@ -4341,7 +4346,7 @@ called <span class="define">principal ring</span>
 	$\integers$ (set of integers)
 is <i>principal</i> ring
 
-
+<div id="page:nonzero---ideals---of---integers---are---principal"></div>
 
 </li>
 <li>
@@ -4458,7 +4463,7 @@ for right ideals &amp; two-sided ideals
 
 <h3>Generators of ideal</h3>
 
-<div class="definition" id="definition:generators of ideal" data-name="generators of ideal">
+<div class="definition" id="definition:generators---of---ideal" data-name="generators of ideal">
 	
 
 
@@ -4470,7 +4475,7 @@ $$
 $$
 
 with $x_i \in A$, is left ideal,
-denoted by <span class="define">$(a_1,\ldots,a_n)$</span>,
+denoted by <span class="notation">$(a_1,\ldots,a_n)$</span>,
 called <span class="define">generators</span> of the left ideal;
 
 
@@ -4495,7 +4500,7 @@ just like set ($\sigma$-)algebras in set theory
 
 <h3>Entire rings</h3>
 
-<div class="definition" id="definition:zero divisor" data-name="zero divisor">
+<div class="definition" id="definition:zero---divisor" data-name="zero divisor">
 	
 
 
@@ -4505,7 +4510,7 @@ said to be <span class="define">zero divisors</span>
 
 </div>
 
-<div class="definition" id="definition:entire ring" data-name="entire ring">
+<div class="definition" id="definition:entire---ring" data-name="entire ring">
 	
 
 
@@ -4517,7 +4522,7 @@ entire ring, sometimes called <span class="define">integral domain</span>
 
 </div>
 
-<div class="lemma" id="lemma:every field is entire ring" data-name="every field is entire ring">
+<div class="lemma" id="lemma:every---field---is---entire---ring" data-name="every field is entire ring">
 	
 every field is entire ring
 
@@ -4576,21 +4581,21 @@ is ideal of $A$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:injectivity of field homeomorphism" data-name="injectivity of field homeomorphism">
+<div class="proposition" id="proposition:injectivity---of---field---homeomorphism" data-name="injectivity of field homeomorphism">
 	
 
 
 
 ring-homeomorphism from field into field
 is injective
-(due to <a href="#lemma:ideals of field"></a>)
+(due to <a href="#lemma:ideals---of---field"></a>)
 
 </div>
 
 
 <h3>Factor ring and canonical map</h3>
 
-<div class="definition" id="definition:factor ring and residue class" data-name="factor ring and residue class">
+<div class="definition" id="definition:factor---ring---and---residue---class" data-name="factor ring and residue class">
 	
 
 
@@ -4606,7 +4611,7 @@ $(x+\ideal{a})
 xy+\ideal{a},$
 which satisfy all requirements for ring,
 called <span class="define">factor ring</span> or <span class="define">residue class ring</span>,
-denoted by <span class="define">$A/\ideal{a}$</span>;
+denoted by <span class="notation">$A/\ideal{a}$</span>;
 cosets in $A/\ideal{a}$,
 called <span class="define">residue classes modulo \ideal{a}</span>,
 and each coset $x+\ideal{a}$
@@ -4634,7 +4639,7 @@ for $x,y\in A$, if $x-y\in\ideal{a}$, write $x \equiv y \Mod{a}$
 
 </li>
 </ul>
-<div class="definition" id="definition:canonical map of ring" data-name="canonical map of ring">
+<div class="definition" id="definition:canonical---map---of---ring" data-name="canonical map of ring">
 	
 
 
@@ -4650,7 +4655,7 @@ called <span class="define">canonical map of $A$ into $A/\ideal{a}$</span>
 
 <h3>Factor ring induced ring-homeomorphism</h3>
 
-<div class="proposition" id="proposition:factor ring induced ring-homeomorphism" data-name="factor ring induced ring-homeomorphism">
+<div class="proposition" id="proposition:factor---ring---induced---ring-homeomorphism" data-name="factor ring induced ring-homeomorphism">
 	
 
 for ring-homeomorphism $g:A\to A'$
@@ -4670,7 +4675,7 @@ $f:A\to A/\ideal{a}$
 
 
 
-
+<div id="fig:factor-ring-induced-ring-homeomorphism"></div>
 
 <ul>
 <li>
@@ -4685,7 +4690,7 @@ whose kernel contains $\ideal{a}$
 
 <h3>Prime ideal and maximal ideal</h3>
 
-<div class="definition" id="definition:prime ideal" data-name="prime ideal">
+<div class="definition" id="definition:prime---ideal" data-name="prime ideal">
 	
 
 
@@ -4713,7 +4718,7 @@ y \in \ideal{p}
 
 </li>
 </ul>
-<div class="definition" id="definition:maximal ideal" data-name="maximal ideal">
+<div class="definition" id="definition:maximal---ideal" data-name="maximal ideal">
 	
 
 
@@ -4733,7 +4738,7 @@ $$
 called <span class="define">maximal ideal</span>
 
 </div>
-<div class="lemma" id="lemma:properties of prime and maximal ideals" data-name="properties of prime and maximal ideals">
+<div class="lemma" id="lemma:properties---of---prime---and---maximal---ideals" data-name="properties of prime and maximal ideals">
 	
 for commutative ring $A$
 
@@ -4786,14 +4791,14 @@ which is ring-homeomorphism
 
 </li>
 </ul>
-<div class="lemma" id="lemma:image of ring-homeomorphism is subring" data-name="image of ring-homeomorphism is subring">
+<div class="lemma" id="lemma:image---of---ring-homeomorphism---is---subring" data-name="image of ring-homeomorphism is subring">
 	
 image $f(A)$ of ring-homeomorphism $f:A\to B$
 is subring of $B$
 
 
 </div>
-<div class="definition" id="definition:embedding of ring" data-name="embedding of ring">
+<div class="definition" id="definition:embedding---of---ring" data-name="embedding of ring">
 	
 
 
@@ -4802,7 +4807,7 @@ established by injective ring-homeomorphism $f:A\to B$,
 called <span class="define">embedding of ring</span>
 
 </div>
-<div class="definition" id="definition:induced injective ring-homeomorphism" data-name="induced injective ring-homeomorphism">
+<div class="definition" id="definition:induced---injective---ring-homeomorphism" data-name="induced injective ring-homeomorphism">
 	
 
 for ring-homeomorphism $f:A\to A'$
@@ -4857,7 +4862,7 @@ exist two cases; either $n=0$ or $n=p$ for prime number $p$
 
 </li>
 </ul>
-<div class="definition" id="definition:characteristic of ring" data-name="characteristic of ring">
+<div class="definition" id="definition:characteristic---of---ring" data-name="characteristic of ring">
 	
 
 
@@ -4898,7 +4903,7 @@ abbreviated by <span class="define">\primefield{p}</span>
 </li>
 </ul>
 
-<div class="definition" id="definition:prime field" data-name="prime field">
+<div class="definition" id="definition:prime---field" data-name="prime field">
 	
 
 
@@ -4911,7 +4916,7 @@ identify it with $\rationals$ or $\primefield{p}$
 for each case
 
 </div>
-<div class="definition" id="definition:prime ring" data-name="prime ring">
+<div class="definition" id="definition:prime---ring" data-name="prime ring">
 	
 
 
@@ -4935,7 +4940,7 @@ or $\primefield{p}$ if $K$ has characteristic $p$
 <li>
 	every ideal of $\integers$ is principal,
 <i>i.e.</i>, either $\{0\}$ or $n\integers$ for some $n\in\naturals$
-(refer to page~)
+(refer to page~<a href="#page:nonzero---ideals---of---integers---are---principal">here</a>)
 
 </li>
 <li>
@@ -4952,7 +4957,7 @@ or $\primefield{p}$ if $K$ has characteristic $p$
 </li>
 </ul>
 
-<div class="definition" id="definition:ring of integers modulo $n$" data-name="ring of integers modulo $n$">
+<div class="definition" id="definition:ring---of---integers---modulo---$n$" data-name="ring of integers modulo $n$">
 	
 
 
@@ -4963,7 +4968,7 @@ abbreviated as <span class="define">$\mbox{mod }n$</span>
 <ul>
 <li>
 	$\integers/p\integers$ for prime $p$
-is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
+is <i>field</i> and denoted by <span class="notation">\primefield{p}</span>
 
 
 
@@ -4973,7 +4978,7 @@ is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
 
 <h3>Euler phi-function</h3>
 
-<div class="definition" id="definition:Euler phi-function" data-name="Euler phi-function">
+<div class="definition" id="definition:Euler---phi-function" data-name="Euler phi-function">
 	
 
 
@@ -4982,9 +4987,9 @@ is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
 
 
 for $n>1$,
-order of  of $\integers/n\integers$,
+order of <a href="#definition:divison---rings">divison ring</a> of $\integers/n\integers$,
 called <span class="define">Euler phi-function</span>,
-denoted by <span class="define">$\varphi(n)$</span>;
+denoted by <span class="notation">$\varphi(n)$</span>;
 if prime factorization of $n$ is
 
 $$
@@ -5003,7 +5008,7 @@ $$
 
 </div>
 
-<div class="theorem" id="theorem:Euler's theorem" data-name="Euler's theorem">
+<div class="theorem" id="theorem:Euler's---theorem" data-name="Euler's theorem">
 	
 
 
@@ -5019,12 +5024,12 @@ $$
 
 <h3>Chinese remainder theorem</h3>
 
-<div class="theorem" id="theorem:Chinese remainder theorem" data-name="Chinese remainder theorem">
+<div class="theorem" id="theorem:Chinese---remainder---theorem" data-name="Chinese remainder theorem">
 	
 
 for ring $A$
 and
-$n$ ideals $\ideal{a}_1$,  $\ideal{a}_n$ ($n\geq2$)
+$n$ ideals $\ideal{a}_1$, &hellip; $\ideal{a}_n$ ($n\geq2$)
 with $\ideal{a}_i + \ideal{a}_j=A$ for all $i \neq j$
 
 $$
@@ -5046,12 +5051,12 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:isomorphism induced by Chinese remainder theorem" data-name="isomorphism induced by Chinese remainder theorem">
+<div class="corollary" id="corollary:isomorphism---induced---by---Chinese---remainder---theorem" data-name="isomorphism induced by Chinese remainder theorem">
 	
 
 
 for ring $A$,
-$n$ ideals $\ideal{a}_1$,  $\ideal{a}_n$ ($n\geq2$)
+$n$ ideals $\ideal{a}_1$, &hellip; $\ideal{a}_n$ ($n\geq2$)
 with $\ideal{a}_i + \ideal{a}_j=A$ for all $i \neq j$,
 and
 map of $A$ into product induced by canonical maps of $A$ onto $A/\ideal{a}_i$
@@ -5078,7 +5083,7 @@ $$
 
 <h3>Isomorphism of endomorphisms of cyclic groups</h3>
 
-<div class="theorem" id="theorem:isomorphism of endomorphisms of cyclic groups" data-name="isomorphism of endomorphisms of cyclic groups">
+<div class="theorem" id="theorem:isomorphism---of---endomorphisms---of---cyclic---groups" data-name="isomorphism of endomorphisms of cyclic groups">
 	
 
 for cyclic group $A$ of order $n$,
@@ -5110,7 +5115,7 @@ where
 $(\integers/n\integers)^\ast$
 denotes group of units of
 $\integers/n\integers$
-(<a href="#definition:multiplicative group of invertible elements of ring"></a>)
+(<a href="#definition:multiplicative---group---of---invertible---elements---of---ring"></a>)
 
 </div>
 <ul>
@@ -5130,7 +5135,7 @@ for $k\in(\integers/n\integers)^\ast$
 
 <h3>Irreducibility and factorial rings</h3>
 
-<div class="definition" id="definition:irreducible ring element" data-name="irreducible ring element">
+<div class="definition" id="definition:irreducible---ring---element" data-name="irreducible ring element">
 	
 
 
@@ -5150,14 +5155,14 @@ said to be <span class="define">irreducible</span>
 
 </div>
 
-<div class="definition" id="definition:unique factorization into irreducible elements" data-name="unique factorization into irreducible elements">
+<div class="definition" id="definition:unique---factorization---into---irreducible---elements" data-name="unique factorization into irreducible elements">
 	
 
 
 for entire ring $A$,
 element $a\in A$
 for which,
-exists unit $u$ and irreducible elements, $p_1$, , $p_r$ in $A$ such that
+exists unit $u$ and irreducible elements, $p_1$, &hellip;, $p_r$ in $A$ such that
 
 $$
 a = u \prod p_i
@@ -5168,7 +5173,7 @@ said to have <span class="define">unique factorization into irreducible elements
 
 </div>
 
-<div class="definition" id="definition:factorial ring" data-name="factorial ring">
+<div class="definition" id="definition:factorial---ring" data-name="factorial ring">
 	
 
 
@@ -5179,17 +5184,17 @@ called <span class="define">factorial ring</span> or <span class="define">unique
 
 <h3>Greatest common divisor</h3>
 
-<div class="definition" id="definition:devision of entire ring elements" data-name="devision of entire ring elements">
+<div class="definition" id="definition:devision---of---entire---ring---elements" data-name="devision of entire ring elements">
 	
 
 
 for entire ring $A$ and nonzero elements $a,b\in A$,
 <span class="define">$a$ said to divide $b$</span>
 if exists $c\in A$ such that $ac=b$,
-denoted by <span class="define">$a|b$</span>
+denoted by <span class="notation">$a|b$</span>
 
 </div>
-<div class="definition" id="definition:greatest common divisor" data-name="greatest common divisor">
+<div class="definition" id="definition:greatest---common---divisor" data-name="greatest common divisor">
 	
 
 
@@ -5210,7 +5215,7 @@ $$
 called <span class="define">greatest common divisor (g.c.d.) of $a$ and $b$</span>
 
 </div>
-<div class="proposition" id="proposition:existence of greatest common divisor of principal entire rings" data-name="existence of greatest common divisor of principal entire rings">
+<div class="proposition" id="proposition:existence---of---greatest---common---divisor---of---principal---entire---rings" data-name="existence of greatest common divisor of principal entire rings">
 	
 
 
@@ -5220,13 +5225,13 @@ $c\in A$ with $(a,b) = (c)$
 is g.c.d. of $a$ and $b$
 
 </div>
-<div class="theorem" id="theorem:principal entire ring is factorial" data-name="principal entire ring is factorial">
+<div class="theorem" id="theorem:principal---entire---ring---is---factorial" data-name="principal entire ring is factorial">
 	
 principal entire ring is factorial
 
 </div>
 
-<h2 id="Polynomials">Polynomials</h2>
+<h2 id="title-page:Polynomials">Polynomials</h2>
 
 
 
@@ -5299,7 +5304,7 @@ into $A$
 which are equal to $0$
 except finite number of elements of $S$,
 called <span class="define">polynomials over $A$</span>,
-denoted by <span class="define">$A[X]$</span>
+denoted by <span class="notation">$A[X]$</span>
 
 </div>
 <ul>
@@ -5329,7 +5334,7 @@ $a_i\in A$
 
 <h3>Polynomial functions</h3>
 
-<div class="definition" id="definition:polynomial function" data-name="polynomial function">
+<div class="definition" id="definition:polynomial---function" data-name="polynomial function">
 	
 
 for two rings $A$ and $B$ with $A\subset B$
@@ -5343,7 +5348,7 @@ $$
 called <span class="define">polynomial function associated with $f(X)$</span>
 
 </div>
-<div class="definition" id="definition:evaluation homeomorphism" data-name="evaluation homeomorphism">
+<div class="definition" id="definition:evaluation---homeomorphism" data-name="evaluation homeomorphism">
 	
 
 
@@ -5362,7 +5367,7 @@ ring of all polynomial values $f(x)$ for $f\in A[X]$
 
 </li>
 </ul>
-<div class="definition" id="definition:variables and transcendentality" data-name="variables and transcendentality">
+<div class="definition" id="definition:variables---and---transcendentality" data-name="variables and transcendentality">
 	
 
 
@@ -5416,7 +5421,7 @@ $$
 	<li>
 		$f(X) = X^p - X\in \primefield{p}[X]$ is not zero polynomial,
 but because $x^{p-1} \equiv 1$ for every nonzero $x\in\primefield{p}$
-by <a href="#theorem:Euler's theorem"></a> (Euler's theorem),
+by <a href="#theorem:Euler's---theorem"></a> (Euler's theorem),
 $x^p\equiv x$ for every $x\in\primefield{p}$,
 thus for polynomial function, $f_{\primefield{p}}$,
 $f_{\primefield{p}}(x)=0$ for every $x$ in $\primefield{p}$
@@ -5452,7 +5457,7 @@ $$
 
 </li>
 </ul>
-<div class="definition" id="definition:reduction map" data-name="reduction map">
+<div class="definition" id="definition:reduction---map" data-name="reduction map">
 	
 
 
@@ -5469,7 +5474,7 @@ which is complex conjugate of polynomials with complex coefficients
 
 </li>
 </ul>
-<div class="definition" id="definition:reduction of $f$ modulo $p$" data-name="reduction of $f$ modulo $p$">
+<div class="definition" id="definition:reduction---of---$f$---modulo---$p$" data-name="reduction of $f$ modulo $p$">
 	
 
 
@@ -5483,7 +5488,7 @@ sometimes called <span class="define">reduction of $f$ modulo \ideal{p}</span>
 
 <h3>Basic properties of polynomials in one variable</h3>
 
-<div class="theorem" id="theorem:Euclidean algorithm" data-name="Euclidean algorithm">
+<div class="theorem" id="theorem:Euclidean---algorithm" data-name="Euclidean algorithm">
 	
 
 
@@ -5492,7 +5497,7 @@ with commutative ring $A$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 \left(
 \forall f,g \in A[X]
 \mbox{ with leading coefficients of } g \mbox{ unit in }A
@@ -5513,7 +5518,7 @@ $$
 
 </div>
 
-<div class="theorem" id="theorem:principality of polynomial ring" data-name="principality of polynomial ring">
+<div class="theorem" id="theorem:principality---of---polynomial---ring" data-name="principality of polynomial ring">
 	
 
 polynomial ring in one variable $k[X]$ with field $k$
@@ -5521,7 +5526,7 @@ is principal
 
 </div>
 
-<div class="corollary" id="corollary:factoriality of polynomial ring" data-name="factoriality of polynomial ring">
+<div class="corollary" id="corollary:factoriality---of---polynomial---ring" data-name="factoriality of polynomial ring">
 	
 
 polynomial ring in one variable $k[X]$ with field $k$
@@ -5532,7 +5537,7 @@ is factorial
 
 <h3>Constant, monic, and irreducible polynomials</h3>
 
-<div class="definition" id="definition:constant and monic polynomials" data-name="constant and monic polynomials">
+<div class="definition" id="definition:constant---and---monic---polynomials" data-name="constant and monic polynomials">
 	
 
 
@@ -5545,7 +5550,7 @@ called <span class="define">monic polynomial</span>
 
 </div>
 
-<div class="definition" id="definition:irreducible polynomials" data-name="irreducible polynomials">
+<div class="definition" id="definition:irreducible---polynomials" data-name="irreducible polynomials">
 	
 
 
@@ -5568,7 +5573,7 @@ said to be <span class="define">irreducible</span>
 
 <h3>Roots or zeros of polynomials</h3>
 
-<div class="definition" id="definition:root of polynomial" data-name="root of polynomial">
+<div class="definition" id="definition:root---of---polynomial" data-name="root of polynomial">
 	
 
 
@@ -5586,7 +5591,7 @@ called <span class="define">root</span> or <span class="define">zero</span> of $
 
 </div>
 
-<div class="theorem" id="theorem:number of roots of polynomial" data-name="number of roots of polynomial">
+<div class="theorem" id="theorem:number---of---roots---of---polynomial" data-name="number of roots of polynomial">
 	
 
 for field $k$,
@@ -5600,7 +5605,7 @@ $X-a$ divides $f(X)$
 
 <h3>Induction of zero functions</h3>
 
-<div class="corollary" id="corollary:induction of zero function in one variable" data-name="induction of zero function in one variable">
+<div class="corollary" id="corollary:induction---of---zero---function---in---one---variable" data-name="induction of zero function in one variable">
 	
 
 for field $k$ and infinite subset $T\subset k$,
@@ -5621,7 +5626,7 @@ then $f(0)=0$,
 $f$ induces zero function
 
 </div>
-<div class="corollary" id="corollary:induction of zero function in multiple variables" data-name="induction of zero function in multiple variables">
+<div class="corollary" id="corollary:induction---of---zero---function---in---multiple---variables" data-name="induction of zero function in multiple variables">
 	
 
 for field $k$ and $n$ infinite subsets of $k$, $\seq{S_i}_{i=1}^n$,
@@ -5643,7 +5648,7 @@ $f=0$,
 $f$ induces zero function
 
 </div>
-<div class="corollary" id="corollary:induction of zero functions in multiple variables - infinite fields" data-name="induction of zero functions in multiple variables - infinite fields">
+<div class="corollary" id="corollary:induction---of---zero---functions---in---multiple---variables-------infinite---fields" data-name="induction of zero functions in multiple variables - infinite fields">
 	
 
 if polynomial in $n$ variables over infinite field $k$
@@ -5651,7 +5656,7 @@ induces zero function in $k^{(n)}$,
 $f=0$
 
 </div>
-<div class="corollary" id="corollary:induction of zero functions in multiple variables - finite fields" data-name="induction of zero functions in multiple variables - finite fields">
+<div class="corollary" id="corollary:induction---of---zero---functions---in---multiple---variables-------finite---fields" data-name="induction of zero functions in multiple variables - finite fields">
 	
 
 if polynomial in $n$ variables over finite field $k$ of order $q$,
@@ -5675,7 +5680,7 @@ $$
 
 for finite sequence, $\seqscr{a_i}{i=1}{m}$, and
 $\seqscr{\nu_{i,1}}{i=1}{m}$,
-,
+&hellip;,
 $\seqscr{\nu_{i,n}}{i=1}{m}$
 where $a_i\in k$ and $\nu_{i,j} \geq 0$
 
@@ -5694,26 +5699,26 @@ where $0\leq \mu_{i,j} < q$ for all $i,j$
 
 </li>
 </ul>
-<div class="definition" id="definition:reduced polynomials" data-name="reduced polynomials">
+<div class="definition" id="definition:reduced---polynomials" data-name="reduced polynomials">
 	
 
 above polynomial, called <span class="define">reduced polynomial</span>,
-denoted by <span class="define">$f^\ast$</span>
+denoted by <span class="notation">$f^\ast$</span>
 
 </div>
-<div class="corollary" id="corollary:uniqueness of reduced polynomials" data-name="uniqueness of reduced polynomials">
+<div class="corollary" id="corollary:uniqueness---of---reduced---polynomials" data-name="uniqueness of reduced polynomials">
 	
 
 for field $k$ with $q$ elements,
 reduced polynomial is unique
-(by <a href="#corollary:induction of zero functions in multiple variables - finite fields"></a>)
+(by <a href="#corollary:induction---of---zero---functions---in---multiple---variables-------finite---fields"></a>)
 
 </div>
 
 
 <h3>Multiplicative subgroups and $n$-th roots of unity</h3>
 
-<div class="definition" id="definition:multiplicative subgroup of field" data-name="multiplicative subgroup of field">
+<div class="definition" id="definition:multiplicative---subgroup---of---field" data-name="multiplicative subgroup of field">
 	
 
 
@@ -5723,34 +5728,34 @@ called <span class="define">multiplicative subgroup of $k$</span>
 
 </div>
 
-<div class="theorem" id="theorem:finite multiplicative subgroup of field is cyclic" data-name="finite multiplicative subgroup of field is cyclic">
+<div class="theorem" id="theorem:finite---multiplicative---subgroup---of---field---is---cyclic" data-name="finite multiplicative subgroup of field is cyclic">
 	
 finite multiplicative subgroup of field is cyclic
 
 </div>
 
-<div class="corollary" id="corollary:multiplicative subgroup of finite field is cyclic" data-name="multiplicative subgroup of finite field is cyclic">
+<div class="corollary" id="corollary:multiplicative---subgroup---of---finite---field---is---cyclic" data-name="multiplicative subgroup of finite field is cyclic">
 	
 multiplicative subgroup of finite field is cyclic
 
 </div>
 
-<div class="definition" id="definition:primitive $n$-th root of unity" data-name="primitive $n$-th root of unity">
+<div class="definition" id="definition:primitive---$n$-th---root---of---unity" data-name="primitive $n$-th root of unity">
 	
 
 
 
 generator for group of $n$-th roots of unity,
 called <span class="define">primitive $n$-th root of unity</span>;
-group of roots of unity, denoted by <span class="define">$\mu$</span>;
-group of roots of unity in field $k$, denoted by <span class="define">$\mu(k)$</span>
+group of roots of unity, denoted by <span class="notation">$\mu$</span>;
+group of roots of unity in field $k$, denoted by <span class="notation">$\mu(k)$</span>
 
 </div>
 
 
 <h3>Algebraic closedness</h3>
 
-<div class="definition" id="definition:algebraically closed" data-name="algebraically closed">
+<div class="definition" id="definition:algebraically---closed" data-name="algebraically closed">
 	
 
 
@@ -5768,7 +5773,7 @@ said to be <span class="define">algebraically closed</span>
 </li>
 <li>
 	every field is contained in some algebraically closed field
-(<a href="#theorem:existence of algebraically closed field extensions"></a>)
+(<a href="#theorem:existence---of---algebraically---closed---field---extensions"></a>)
 
 </li>
 <li>
@@ -5797,7 +5802,7 @@ $m_1,\ldots,m_r \in \naturals$
 
 <h3>Derivatives of polynomials</h3>
 
-<div class="definition" id="definition:derivative of polynomial over commutative ring" data-name="derivative of polynomial over commutative ring">
+<div class="definition" id="definition:derivative---of---polynomial---over---commutative---ring" data-name="derivative of polynomial over commutative ring">
 	
 
 
@@ -5810,7 +5815,7 @@ Df(X) = na_n X^{n-1} + \cdots + a_1
 $$
 
 called <span class="define">derivative of polynomial</span>,
-denoted by $f'(X)$;
+denoted by <span class="notation">$f'(X)$</span>;
 
 </div>
 <ul>
@@ -5851,7 +5856,7 @@ relatively prime to $(X-a)$ (hence, $g(a)\neq0$)
 
 </li>
 </ul>
-<div class="definition" id="definition:multiplicity and multiple roots" data-name="multiplicity and multiple roots">
+<div class="definition" id="definition:multiplicity---and---multiple---roots" data-name="multiplicity and multiple roots">
 	
 
 
@@ -5863,7 +5868,7 @@ if $m>1$
 
 </div>
 
-<div class="proposition" id="proposition:necessary and sufficient condition for multiple roots" data-name="necessary and sufficient condition for multiple roots">
+<div class="proposition" id="proposition:necessary---and---sufficient---condition---for---multiple---roots" data-name="necessary and sufficient condition for multiple roots">
 	
 
 
@@ -5875,7 +5880,7 @@ $f(a)=0$ and $f'(a)=0$
 
 </div>
 
-<div class="proposition" id="proposition:derivative of polynomial" data-name="derivative of polynomial">
+<div class="proposition" id="proposition:derivative---of---polynomial" data-name="derivative of polynomial">
 	
 
 
@@ -5910,7 +5915,7 @@ iterating $r\geq 1$ times yields endomorphism, $x\mapsto x^{p^r}$
 </li>
 </ul>
 
-<div class="definition" id="definition:Frobenius endomorphism" data-name="Frobenius endomorphism">
+<div class="definition" id="definition:Frobenius---endomorphism" data-name="Frobenius endomorphism">
 	
 
 
@@ -5976,7 +5981,7 @@ hence, polynomial $X^{p^r}-c$ has precisely one root $a$ of multiplicity $p^r$!
 </li>
 </ul>
 
-<h2 id="Algebraic Extension">Algebraic Extension</h2>
+<h2 id="title-page:Algebraic---Extension">Algebraic Extension</h2>
 
 
 
@@ -6007,13 +6012,13 @@ for every field
 
 <h3>Extension of field</h3>
 
-<div class="definition" id="definition:extension of field" data-name="extension of field">
+<div class="definition" id="definition:extension---of---field" data-name="extension of field">
 	
 
 for field $E$ and its subfield $F\subset E$,
 $E$
 said to be <span class="define">extension field of $F$</span>,
-(sometimes) denoted by <span class="define">$E/F$</span>
+(sometimes) denoted by <span class="notation">$E/F$</span>
 (which should <i>not</i> confused with <i>factor group</i>)
 
 	<ul>
@@ -6046,7 +6051,7 @@ called <span class="define">infinite extension of $F$</span>
 
 <h3>Algebraic over field</h3>
 
-<div class="definition" id="definition:algebraic over field" data-name="algebraic over field">
+<div class="definition" id="definition:algebraic---over---field" data-name="algebraic over field">
 	
 
 
@@ -6076,7 +6081,7 @@ can always find such equation like above that $a_0\neq0$
 </div>
 <ul>
 <li>
-	equivalent statements to <a href="#definition:algebraic over field"></a>
+	equivalent statements to <a href="#definition:algebraic---over---field"></a>
 	<ul>
 	<li>
 		exists homeomorphism $\varphi: F[X] \to E$ such that
@@ -6095,7 +6100,7 @@ $$
 	<li>
 		exists evaluation homeomorphism $\ev_\alpha: F[X] \to E$
 with nonzero kernel
-(refer to <a href="#definition:evaluation homeomorphism"></a> for definition of evaluation homeomorphism)
+(refer to <a href="#definition:evaluation---homeomorphism"></a> for definition of evaluation homeomorphism)
 
 	</li>
 	</ul>
@@ -6104,7 +6109,7 @@ with nonzero kernel
 <li>
 	in which case,
 $\Ker \varphi$ is principal ideal
-(by <a href="#theorem:principality of polynomial ring"></a>),
+(by <a href="#theorem:principality---of---polynomial---ring"></a>),
 hence generated by single element,
 thus exists nonzero $p(X) \in F[X]$ (with normalized leading coefficient being $1$)
 so that
@@ -6116,13 +6121,13 @@ $$
 
 </li>
 <li>
-	$F[\alpha]$ <i>entire</i> (<a href="#lemma:every field is entire ring"></a>),
-hence $p(X)$ irreducible (refer to <a href="#definition:prime ideal"></a>)
+	$F[\alpha]$ <i>entire</i> (<a href="#lemma:every---field---is---entire---ring"></a>),
+hence $p(X)$ irreducible (refer to <a href="#definition:prime---ideal"></a>)
 
 </li>
 </ul>
 
-<div class="definition" id="definition:THE irreducible polynomial" data-name="THE irreducible polynomial">
+<div class="definition" id="definition:THE---irreducible---polynomial" data-name="THE irreducible polynomial">
 	
 
 
@@ -6130,14 +6135,14 @@ hence $p(X)$ irreducible (refer to <a href="#definition:prime ideal"></a>)
 normalized $p(X)$ (<i>i.e.</i>, with leading coefficient being $1$)
 uniquely determined by $\alpha$,
 called <span class="define">THE irreducible polynomial of $\alpha$ over $F$</span>,
-denoted by <span class="define">$\Irr(\alpha, F, X)$</span>
+denoted by <span class="notation">$\Irr(\alpha, F, X)$</span>
 
 </div>
 
 
 <h3>Algebraic extensions</h3>
 
-<div class="definition" id="definition:algebraic extension" data-name="algebraic extension">
+<div class="definition" id="definition:algebraic---extension" data-name="algebraic extension">
 	
 
 
@@ -6149,7 +6154,7 @@ said to be <span class="define">algebraic extension of $F$</span>
 
 </div>
 
-<div class="proposition" id="proposition:algebraicness of finite field extensions" data-name="algebraicness of finite field extensions">
+<div class="proposition" id="proposition:algebraicness---of---finite---field---extensions" data-name="algebraicness of finite field extensions">
 	
 
 
@@ -6176,18 +6181,18 @@ is infinite extension of $\rationals$
 
 
 
-<div class="definition" id="definition:dimension of extension" data-name="dimension of extension">
+<div class="definition" id="definition:dimension---of---extension" data-name="dimension of extension">
 	
 
 
 for field $F$ and its extension field $E$,
 dimension of $E$ as vector space over $F$,
 called <span class="define">dimension of $E$ over $F$</span>,
-denoted by <span class="define">\dimext{E}{F}</span>
+denoted by <span class="notation">\dimext{E}{F}</span>
 
 </div>
 
-<div class="proposition" id="proposition:dimension of finite extension" data-name="dimension of finite extension">
+<div class="proposition" id="proposition:dimension---of---finite---extension" data-name="dimension of finite extension">
 	
 
 for field $k$ and its extension fields $F$ and $E$
@@ -6211,7 +6216,7 @@ is basis for $E$ over $k$
 
 </div>
 
-<div class="corollary" id="corollary:finite dimension of extension" data-name="finite dimension of extension">
+<div class="corollary" id="corollary:finite---dimension---of---extension" data-name="finite dimension of extension">
 	
 
 for field $k$ and its extension fields $F$ &amp; $E$
@@ -6229,15 +6234,15 @@ are finite
 
 <h3>Generation of field extensions</h3>
 
-<div class="definition" id="definition:generation of field extensions" data-name="generation of field extensions">
+<div class="definition" id="definition:generation---of---field---extensions" data-name="generation of field extensions">
 	
 
 
 
 for field $k$, its extension field $E$, and $\alpha_1,\ldots, \alpha_n \in E$,
-smallest subfield containing $k$ and $\alpha_1$, , $\alpha_n$,
+smallest subfield containing $k$ and $\alpha_1$, &hellip;, $\alpha_n$,
 said to be <span class="define">finitely generated over $k$ by $\alpha_1$, \ldots, $\alpha_n$</span>,
-denoted by <span class="define">$k(\alpha_1,\ldots, \alpha_n)$</span>
+denoted by <span class="notation">$k(\alpha_1,\ldots, \alpha_n)$</span>
 
 </div>
 <ul>
@@ -6249,7 +6254,7 @@ where $f,g\in k[X]$ and $g(\alpha_1,\ldots, \alpha_n)\neq0$,
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 k(\alpha_1,\ldots,\alpha_n)
 
 \\
@@ -6275,7 +6280,7 @@ $$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:finite extension is finitely generated" data-name="finite extension is finitely generated">
+<div class="proposition" id="proposition:finite---extension---is---finitely---generated" data-name="finite extension is finitely generated">
 	
 
 every finite extension of field is finitely generated
@@ -6284,7 +6289,7 @@ every finite extension of field is finitely generated
 
 <h3>Tower of fields</h3>
 
-<div class="definition" id="definition:tower of fields" data-name="tower of fields">
+<div class="definition" id="definition:tower---of---fields" data-name="tower of fields">
 	
 
 sequence of extension fields
@@ -6303,7 +6308,7 @@ called <span class="define">tower of fields</span>
 
 </div>
 
-<div class="definition" id="definition:finite tower of fields" data-name="finite tower of fields">
+<div class="definition" id="definition:finite---tower---of---fields" data-name="finite tower of fields">
 	
 
 
@@ -6317,7 +6322,7 @@ each step of extensions is finite
 
 <h3>Algebraicness of finitely generated subfields</h3>
 
-<div class="proposition" id="proposition:algebraicness of finitely generated subfield by single element" data-name="algebraicness of finitely generated subfield by single element">
+<div class="proposition" id="proposition:algebraicness---of---finitely---generated---subfield---by---single---element" data-name="algebraicness of finitely generated subfield by single element">
 	
 
 for field $k$, its extension field $E$, and $\alpha\in E$ being algebraic over $k$
@@ -6334,11 +6339,11 @@ $$
 
 hence $k(\alpha)$ is finite extension of $k$,
 thus <i>algebraic extension over $k$</i>
-(by <a href="#proposition:algebraicness of finite field extensions"></a>)
+(by <a href="#proposition:algebraicness---of---finite---field---extensions"></a>)
 
 </div>
 
-<div class="lemma" id="lemma:a fortiori algebraicness" data-name="a fortiori algebraicness">
+<div class="lemma" id="lemma:a---fortiori---algebraicness" data-name="a fortiori algebraicness">
 	
 
 
@@ -6374,23 +6379,23 @@ where $\alpha_i$ is algebraic over $k$
 
 </li>
 <li>
-	then, $\alpha_{i+1}$ is algebraic over $k(\alpha_1,\ldots,\alpha_i)$ (by <a href="#lemma:a fortiori algebraicness"></a>)
+	then, $\alpha_{i+1}$ is algebraic over $k(\alpha_1,\ldots,\alpha_i)$ (by <a href="#lemma:a---fortiori---algebraicness"></a>)
 
 </li>
 </ul>
 
-<div class="proposition" id="proposition:algebraicness of finitely generated subfields by multiple elements" data-name="algebraicness of finitely generated subfields by multiple elements">
+<div class="proposition" id="proposition:algebraicness---of---finitely---generated---subfields---by---multiple---elements" data-name="algebraicness of finitely generated subfields by multiple elements">
 	
 
 for field $k$
 and
-$\alpha_1$, , $\alpha_n$ being algebraic over $k$,
+$\alpha_1$, &hellip;, $\alpha_n$ being algebraic over $k$,
 $E=k(\alpha_1,\ldots,\alpha_n)$
 is finitely algebraic over $k$
-(due to <a href="#proposition:algebraicness of finitely generated subfield by single element"></a>,
-<a href="#proposition:dimension of finite extension"></a>,
+(due to <a href="#proposition:algebraicness---of---finitely---generated---subfield---by---single---element"></a>,
+<a href="#proposition:dimension---of---finite---extension"></a>,
 and
-<a href="#proposition:algebraicness of finite field extensions"></a>).
+<a href="#proposition:algebraicness---of---finite---field---extensions"></a>).
 Indeed, $E = k[\alpha_1, \ldots, \alpha_n]$ and
 
 $$
@@ -6408,14 +6413,14 @@ $$
 
 <h3>Compositum of subfields and lifting</h3>
 
-<div class="definition" id="definition:compositum of subfields" data-name="compositum of subfields">
+<div class="definition" id="definition:compositum---of---subfields" data-name="compositum of subfields">
 	
 
 
 for field $k$ and its extension fields $E$ and $F$, which are subfields of common field $L$,
 smallest subfield of $L$ containing both $E$ and $F$,
 called <span class="define">compositum of $E$ and $F$ in $L$</span>,
-denoted by <span class="define">$EF$</span>
+denoted by <span class="notation">$EF$</span>
 
 	<ul>
 	<li>
@@ -6471,12 +6476,12 @@ called <span class="define">translation of $E$ to $F$</span> or <span class="def
 
 
 
-
+<div id="fig:translation---or---lifting---of---fields"></div>
 
 
 <h3>Finite generation of compositum</h3>
 
-<div class="lemma" id="lemma:finite generation of compositum" data-name="finite generation of compositum">
+<div class="lemma" id="lemma:finite---generation---of---compositum" data-name="finite generation of compositum">
 	
 
 
@@ -6506,12 +6511,12 @@ compositum $EF$ is finitely generated over $F$
 
 
 
-
+<div id="fig:lifting---of---smallest---fields"></div>
 
 
 <h3>Distinguished classes</h3>
 
-<div class="definition" id="definition:distinguished class of field extensions" data-name="distinguished class of field extensions">
+<div class="definition" id="definition:distinguished---class---of---field---extensions" data-name="distinguished class of field extensions">
 	
 
 
@@ -6552,16 +6557,16 @@ $k\subset EF$ is in $\classk{C}$
 
 
 
+&nbsp;
 
 
-
-
+<div id="fig:lattice---diagram---of---fields"></div>
 
 
 
 <h3>Both algebraic and finite extensions are distinguished</h3>
 
-<div class="proposition" id="proposition:algebraic and finite extensions are distinguished" data-name="algebraic and finite extensions are distinguished">
+<div class="proposition" id="proposition:algebraic---and---finite---extensions---are---distinguished" data-name="algebraic and finite extensions are distinguished">
 	
 
 
@@ -6578,17 +6583,18 @@ so is class of finite extensions
 
 <h3>Field embedding and embedding extension</h3>
 
-<div class="definition" id="definition:field embedding" data-name="field embedding">
+<div class="definition" id="definition:field---embedding" data-name="field embedding">
 	
 
 
 for two fields $F$ and $L$,
 injective homeomorphism $\sigma:F\to L$,
 called <span class="define">embedding of $F$ into $L$</span>;
-then (of course) $\sigma$ induces isomorphism of $F$ with its image $\sigma F$
+then (of course) $\sigma$ induces isomorphism of $F$ with its image $\sigma F$&nbsp;(footnote &ndash; 
+Here $\sigma F$ is sometimes written as $F^\sigma$.)
 
 </div>
-<div class="definition" id="definition:field embedding extension" data-name="field embedding extension">
+<div class="definition" id="definition:field---embedding---extension" data-name="field embedding extension">
 	
 
 
@@ -6607,16 +6613,16 @@ diagrams in the figure show these embedding extensions
 
 
 
+&nbsp;
 
 
 
-
-
+<div id="fig:field---embedding---extensions"></div>
 
 
 <ul>
 <li>
-	assuming $F$, $E$, $\sigma$, and $\tau$ same as in <a href="#definition:field embedding extension"></a>,
+	assuming $F$, $E$, $\sigma$, and $\tau$ same as in <a href="#definition:field---embedding---extension"></a>,
 if $\alpha\in E$ is root of $f\in F[X]$, then $\alpha^\tau$ is root of $f^\sigma$
 for
 if $f(X) = \sum_{i=0}^n a_i X^i$, then $f(\alpha) = \sum_{i=0}^n a_i \alpha^i = 0$,
@@ -6632,7 +6638,7 @@ $0
 
 <h3>Embedding of field extensions</h3>
 
-<div class="lemma" id="lemma:field embedding of algebraic extension" data-name="field embedding of algebraic extension">
+<div class="lemma" id="lemma:field---embedding---of---algebraic---extension" data-name="field embedding of algebraic extension">
 	
 
 
@@ -6643,7 +6649,7 @@ is isomorphism
 
 </div>
 
-<div class="lemma" id="lemma:compositums of fields" data-name="compositums of fields">
+<div class="lemma" id="lemma:compositums---of---fields" data-name="compositums of fields">
 	
 
 
@@ -6658,7 +6664,7 @@ $EF$ is field of quotients of these elements
 
 </div>
 
-<div class="lemma" id="lemma:embeddings of compositum of fields" data-name="embeddings of compositum of fields">
+<div class="lemma" id="lemma:embeddings---of---compositum---of---fields" data-name="embeddings of compositum of fields">
 	
 
 
@@ -6724,7 +6730,7 @@ $\alpha \in k[X]^\sigma$ is root of $p^\sigma$ in $k^\sigma(\alpha)$
 
 </li>
 </ul>
-<div class="lemma" id="lemma:existence of roots of irreducible polynomial" data-name="existence of roots of irreducible polynomial">
+<div class="lemma" id="lemma:existence---of---roots---of---irreducible---polynomial" data-name="existence of roots of irreducible polynomial">
 	
 
 for field $k$ and irreducible $p(X)\in k[X]$ with $\deg p \geq 1$,
@@ -6739,7 +6745,7 @@ in field extension of $k^\sigma$
 
 
 
-<div class="proposition" id="proposition:existence of extension fields containing roots" data-name="existence of extension fields containing roots">
+<div class="proposition" id="proposition:existence---of---extension---fields---containing---roots" data-name="existence of extension fields containing roots">
 	
 
 for field $k$ and $f\in k[X]$ with $\deg f \geq 1$,
@@ -6747,15 +6753,15 @@ exists extension of $k$ in which $f$ has root
 
 </div>
 
-<div class="corollary" id="corollary:existence of extension fields containing roots" data-name="existence of extension fields containing roots">
+<div class="corollary" id="corollary:existence---of---extension---fields---containing---roots" data-name="existence of extension fields containing roots">
 	
 
-for field $k$ and $f_1$, , $f_n$ $\in$ $k[X]$ with $\deg f_i \geq 1$,
+for field $k$ and $f_1$, &hellip;, $f_n$ $\in$ $k[X]$ with $\deg f_i \geq 1$,
 exists extension of $k$ in which every $f_i$ has root
 
 </div>
 
-<div class="theorem" id="theorem:existence of algebraically closed field extensions" data-name="existence of algebraically closed field extensions">
+<div class="theorem" id="theorem:existence---of---algebraically---closed---field---extensions" data-name="existence of algebraically closed field extensions">
 	
 
 for every field $k$,
@@ -6763,7 +6769,7 @@ exists algebraically closed extension of $k$
 
 </div>
 
-<div class="corollary" id="corollary:existence of algebraically closed algebraic field extensions" data-name="existence of algebraically closed algebraic field extensions">
+<div class="corollary" id="corollary:existence---of---algebraically---closed---algebraic---field---extensions" data-name="existence of algebraically closed algebraic field extensions">
 	
 
 
@@ -6775,7 +6781,7 @@ exists algebraically closed algebraic extension of $k$
 
 <h3>Isomorphism between algebraically closed algebraic extensions</h3>
 
-<div class="proposition" id="proposition:number of algebraic embedding extensions" data-name="number of algebraic embedding extensions">
+<div class="proposition" id="proposition:number---of---algebraic---embedding---extensions" data-name="number of algebraic embedding extensions">
 	
 
 
@@ -6791,7 +6797,7 @@ hence
 no greater than # roots of $\Irr(\alpha,k,X)$
 
 </div>
-<div class="theorem" id="theorem:algebraic embedding extensions" data-name="algebraic embedding extensions">
+<div class="theorem" id="theorem:algebraic---embedding---extensions" data-name="algebraic embedding extensions">
 	
 
 
@@ -6805,7 +6811,7 @@ if $E$ is algebraically closed and $L$ is algebraic over $k^\sigma$,
 every such embedding extension is isomorphism of $E$ onto $L$
 
 </div>
-<div class="corollary" id="corollary:isomorphism between algebraically closed algebraic extensions" data-name="isomorphism between algebraically closed algebraic extensions">
+<div class="corollary" id="corollary:isomorphism---between---algebraically---closed---algebraic---extensions" data-name="isomorphism between algebraically closed algebraic extensions">
 	
 
 
@@ -6834,14 +6840,14 @@ where $\restrict{\tau}{k}$ is identity
 
 <h3>Algebraic closure</h3>
 
-<div class="definition" id="definition:algebraic closure" data-name="algebraic closure">
+<div class="definition" id="definition:algebraic---closure" data-name="algebraic closure">
 	
 
 
 for field, $k$,
 algebraically closed algebraic extension of $k$, which is determined up to isomorphism,
 called <span class="define">algebraic closure of $k$</span>,
-frequently denoted by <span class="define">\algclosure{k}</span>
+frequently denoted by <span class="notation">\algclosure{k}</span>
 
 </div>
 <ul>
@@ -6875,7 +6881,7 @@ is algebraic closure of $\rationals$, <i>i.e.</i>, $\algclosure{\rationals}$
 </li>
 </ul>
 
-<div class="theorem" id="theorem:countability of algebraic closure of finite fields" data-name="countability of algebraic closure of finite fields">
+<div class="theorem" id="theorem:countability---of---algebraic---closure---of---finite---fields" data-name="countability of algebraic closure of finite fields">
 	
 
 
@@ -6883,7 +6889,7 @@ algebraic closure of finite field is countable
 
 </div>
 
-<div class="theorem" id="theorem:cardinality of algebraic extensions of infinite fields" data-name="cardinality of algebraic extensions of infinite fields">
+<div class="theorem" id="theorem:cardinality---of---algebraic---extensions---of---infinite---fields" data-name="cardinality of algebraic extensions of infinite fields">
 	
 
 
@@ -6897,7 +6903,7 @@ has same cardinality as $k$
 
 
 
-<div class="definition" id="definition:splitting fields" data-name="splitting fields">
+<div class="definition" id="definition:splitting---fields" data-name="splitting fields">
 	
 for field, $k$, and $f\in k[X]$ with $\deg f \geq 1$,
 field extension, $K$, of $k$,
@@ -6908,7 +6914,7 @@ $$
 f(X) = c (X-\alpha_1) \cdots (X-\alpha_n)
 $$
 
-and which is finitely generated over $k$ by $\alpha_1$, , $\alpha_n$
+and which is finitely generated over $k$ by $\alpha_1$, &hellip;, $\alpha_n$
 (hence $K=k(\alpha_1, \ldots, \alpha_n)$),
 called <span class="define">splitting field of $f$</span>
 
@@ -6922,7 +6928,7 @@ in $\algclosure{k}$
 
 </li>
 </ul>
-<div class="theorem" id="theorem:isomorphism between splitting fields" data-name="isomorphism between splitting fields">
+<div class="theorem" id="theorem:isomorphism---between---splitting---fields" data-name="isomorphism between splitting fields">
 	
 
 
@@ -6938,7 +6944,7 @@ is isomorphism of $E$ onto $K$
 
 <h3>Splitting fields for family of polynomials</h3>
 
-<div class="definition" id="definition:splitting fields for family of polynomials" data-name="splitting fields for family of polynomials">
+<div class="definition" id="definition:splitting---fields---for---family---of---polynomials" data-name="splitting fields for family of polynomials">
 	
 for field, $k$,
 index set, $\Lambda$,
@@ -6965,7 +6971,7 @@ called <span class="define">splitting field for family of polynomials</span>
 
 </li>
 </ul>
-<div class="corollary" id="corollary:isomorphism between splitting fields for family of polynomials" data-name="isomorphism between splitting fields for family of polynomials">
+<div class="corollary" id="corollary:isomorphism---between---splitting---fields---for---family---of---polynomials" data-name="isomorphism between splitting fields for family of polynomials">
 	
 for field, $k$,
 index set, $\Lambda$,
@@ -6979,7 +6985,7 @@ is isomorphism of $E$ onto $K$
 
 <h3>Normal extensions</h3>
 
-<div class="theorem" id="theorem:normal extensions" data-name="normal extensions">
+<div class="theorem" id="theorem:normal---extensions" data-name="normal extensions">
 	
 for field, $k$,
 and its algebraic extension, $K$,
@@ -7003,12 +7009,12 @@ splits into linear factors in $K$
 	</ul>
 
 </div>
-<div class="definition" id="definition:normal extensions" data-name="normal extensions">
+<div class="definition" id="definition:normal---extensions" data-name="normal extensions">
 	
 for field, $k$,
 and its algebraic extension, $K$,
 with $k\subset K\subset \algclosure{k}$,
-satisfying properties in <a href="#theorem:normal extensions"></a>,
+satisfying properties in <a href="#theorem:normal---extensions"></a>,
 said to be <span class="define">normal</span>
 
 </div>
@@ -7041,7 +7047,7 @@ because complex roots of $X^4-2$ are not in $\rationals(\sqrt[4]{2})$
 
 <h3>Retention of normality of extensions</h3>
 
-<div class="theorem" id="theorem:retention of normality of extensions" data-name="retention of normality of extensions">
+<div class="theorem" id="theorem:retention---of---normality---of---extensions" data-name="retention of normality of extensions">
 	
 normal extensions remain normal under lifting;
 if $k\subset E\subset K$ and $K$ is normal over $k$,
@@ -7063,7 +7069,7 @@ and so is $K_1\cap K_2$
 		<ul>
 		<li>
 			exists embedding extension of $\sigma$ to $E$ in $L$
-by <a href="#theorem:algebraic embedding extensions"></a>
+by <a href="#theorem:algebraic---embedding---extensions"></a>
 
 		</li>
 		<li>
@@ -7087,7 +7093,7 @@ by <a href="#theorem:algebraic embedding extensions"></a>
 
 	</li>
 	<li>
-		then <a href="#theorem:algebraic embedding extensions"></a>
+		then <a href="#theorem:algebraic---embedding---extensions"></a>
 implies, exists isomorphism, $\lambda:L\to L'$
 extending $\tau\circ \sigma^{-1}$ applied to $F^\sigma$
 
@@ -7108,17 +7114,17 @@ hence exists bijection between $S_\sigma$ and $S_\tau$, hence have same cardinal
 
 </li>
 </ul>
-<div class="definition" id="definition:separable degree of field extensions" data-name="separable degree of field extensions">
+<div class="definition" id="definition:separable---degree---of---field---extensions" data-name="separable degree of field extensions">
 	
 above cardinality only depends on extension $E/F$,
 called <span class="define">separable degree of $E$ over $F$</span>,
-denoted by <span class="define">$[E:F]_s$</span>
+denoted by <span class="notation">$[E:F]_s$</span>
 
 </div>
 
 <h3>Multiplicativity of and upper bound on separable degree of field extensions</h3>
 
-<div class="theorem" id="theorem:multiplicativity of separable degree of field extensions" data-name="multiplicativity of separable degree of field extensions">
+<div class="theorem" id="theorem:multiplicativity---of---separable---degree---of---field---extensions" data-name="multiplicativity of separable degree of field extensions">
 	
 for tower of algebraic field extensions, $k\subset F\subset E$,
 
@@ -7131,7 +7137,7 @@ $$
 
 
 </div>
-<div class="theorem" id="theorem:upper limit on separable degree of field extensions" data-name="upper limit on separable degree of field extensions">
+<div class="theorem" id="theorem:upper---limit---on---separable---degree---of---field---extensions" data-name="upper limit on separable degree of field extensions">
 	
 for finite algebraic field extension, $k\subset E$
 
@@ -7165,7 +7171,7 @@ corresponding equality holds in every step of tower,
 
 <h3>Finite separable field extensions</h3>
 
-<div class="definition" id="definition:finite separable field extensions" data-name="finite separable field extensions">
+<div class="definition" id="definition:finite---separable---field---extensions" data-name="finite separable field extensions">
 	
 for finite algebraic field extension, $E/k$,
 with $[E:k]_s=[E:k]$,
@@ -7173,7 +7179,7 @@ $E$,
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="definition" id="definition:separable algebraic elements" data-name="separable algebraic elements">
+<div class="definition" id="definition:separable---algebraic---elements" data-name="separable algebraic elements">
 	
 for field, $k$,
 $\alpha$, which is algebraic over $k$
@@ -7181,7 +7187,7 @@ with $k(\alpha)$ being separable over $k$,
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="proposition" id="proposition:separability and multiple roots" data-name="separability and multiple roots">
+<div class="proposition" id="proposition:separability---and---multiple---roots" data-name="separability and multiple roots">
 	
 for field, $k$,
 $\alpha$, which is algebraic over $k$,
@@ -7191,7 +7197,7 @@ $\Irr(\alpha,k,X)$
 has no multiple roots
 
 </div>
-<div class="definition" id="definition:separable polynomials" data-name="separable polynomials">
+<div class="definition" id="definition:separable---polynomials" data-name="separable polynomials">
 	
 for field, $k$,
 $f\in k[X]$ with no multiple roots,
@@ -7206,7 +7212,7 @@ if $\alpha \in K$ is separable over $k$,
 then $\alpha$ is separable over $F$
 
 </div>
-<div class="theorem" id="theorem:finite separable field extensions" data-name="finite separable field extensions">
+<div class="theorem" id="theorem:finite---separable---field---extensions" data-name="finite separable field extensions">
 	
 for finite field extension, $E/k$,
 $E$ is separable over $k$
@@ -7217,7 +7223,7 @@ every element of $E$ is separable over $k$
 
 <h3>Arbitrary separable field extensions</h3>
 
-<div class="definition" id="definition:arbitrary separable field extensions" data-name="arbitrary separable field extensions">
+<div class="definition" id="definition:arbitrary---separable---field---extensions" data-name="arbitrary separable field extensions">
 	
 for (not necessarily finite) field extension, $E/k$,
 $E$,
@@ -7240,7 +7246,7 @@ $$
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="theorem" id="theorem:separable field extensions" data-name="separable field extensions">
+<div class="theorem" id="theorem:separable---field---extensions" data-name="separable field extensions">
 	
 for algebraic extension, $E/k$,
 $E$, which is generated by family of elements, $\{\alpha_\lambda\}_{\lambda\in\Lambda}$,
@@ -7248,7 +7254,7 @@ with every $\alpha_\lambda$ is separable over $k$,
 is separable over $k$
 
 </div>
-<div class="theorem" id="theorem:separable extensions are distinguished" data-name="separable extensions are distinguished">
+<div class="theorem" id="theorem:separable---extensions---are---distinguished" data-name="separable extensions are distinguished">
 	
 separable extensions form distinguished class of extensions
 
@@ -7256,15 +7262,15 @@ separable extensions form distinguished class of extensions
 
 <h3>Separable closure and conjugates</h3>
 
-<div class="definition" id="definition:separable closure" data-name="separable closure">
+<div class="definition" id="definition:separable---closure" data-name="separable closure">
 	
 for field, $k$,
 compositum of all separable extensions of $k$ in given algebraic closure $\algclosure{k}$,
 called <span class="define">separable closure of $k$</span>,
-denoted by <span class="define">$k^\mathrm{s}$ or \sepclosure{k}</span>
+denoted by <span class="notation">$k^\mathrm{s}$ or \sepclosure{k}</span>
 
 </div>
-<div class="definition" id="definition:conjugates of fields" data-name="conjugates of fields">
+<div class="definition" id="definition:conjugates---of---fields" data-name="conjugates of fields">
 	
 for algebraic field extension, $E/k$,
 and embedding of $E$, $\sigma$, in $\algclosure{k}$ over $k$,
@@ -7279,14 +7285,14 @@ is compositum of all conjugates of $E$ in $\algclosure{E}$
 
 </li>
 </ul>
-<div class="definition" id="definition:conjugates of elements of fields" data-name="conjugates of elements of fields">
+<div class="definition" id="definition:conjugates---of---elements---of---fields" data-name="conjugates of elements of fields">
 	
 for field, $k$,
 $\alpha$ being algebraic over $k$,
 and
-distinct embeddings, $\sigma_1$, , $\sigma_r$ of $k(\alpha)$ into $\algclosure{k}$ over $k$,
+distinct embeddings, $\sigma_1$, &hellip;, $\sigma_r$ of $k(\alpha)$ into $\algclosure{k}$ over $k$,
 $\alpha^{\sigma_1}$,
-,
+&hellip;,
 $\alpha^{\sigma_r}$,
 called <span class="define">conjugates of $\alpha$ in \algclosure{k}</span>
 
@@ -7294,7 +7300,7 @@ called <span class="define">conjugates of $\alpha$ in \algclosure{k}</span>
 <ul>
 <li>
 	$\alpha^{\sigma_1}$,
-,
+&hellip;,
 $\alpha^{\sigma_r}$
 are simply
 distinct roots of $\Irr(\alpha, k, X)$
@@ -7311,7 +7317,7 @@ $k(\alpha^{\sigma_1}, \ldots, \alpha^{\sigma_r})$
 
 <h3>Prime element theorem</h3>
 
-<div class="theorem" id="theorem:prime element theorem" data-name="prime element theorem">
+<div class="theorem" id="theorem:prime---element---theorem" data-name="prime element theorem">
 	
 for finite algebraic field extension, $E/k$,
 exists $\alpha\in E$ such that $E=k(\alpha)$
@@ -7321,7 +7327,7 @@ if $E$ is separable over $k$,
 exists such element, $\alpha$
 
 </div>
-<div class="definition" id="definition:primitive element of fields" data-name="primitive element of fields">
+<div class="definition" id="definition:primitive---element---of---fields" data-name="primitive element of fields">
 	
 for finite algebraic field extension, $E/k$,
 $\alpha\in E$ with $E=k(\alpha)$,
@@ -7331,11 +7337,11 @@ called <span class="define">primitive element of $E$ over $k$</span>
 
 <h3>Finite fields</h3>
 
-<div class="definition" id="definition:finite fields" data-name="finite fields">
+<div class="definition" id="definition:finite---fields" data-name="finite fields">
 	
 for every prime number, $p$, and integer, $n\geq1$,
 exists finite field of order $p^n$,
-denoted by <span class="define">\finitefield{p}{n}</span>,
+denoted by <span class="notation">\finitefield{p}{n}</span>,
 uniquely determined as subfield of algebraic closure, $\algclosure{\primefield{p}}$,
 which is splitting field of polynomial
 
@@ -7346,21 +7352,21 @@ $$
 and whose elements are roots of $f_{p,n}$
 
 </div>
-<div class="theorem" id="theorem:finite fields" data-name="finite fields">
+<div class="theorem" id="theorem:finite---fields" data-name="finite fields">
 	
 for every finite field, $F$,
 exist prime number, $p$, and integer, $n\geq1$,
 such that $F=\finitefield{p}{n}$
 
 </div>
-<div class="corollary" id="corollary:finite field extensions" data-name="finite field extensions">
+<div class="corollary" id="corollary:finite---field---extensions" data-name="finite field extensions">
 	
 for finite field, , and integer, $m\geq1$,
 exists one and only one extension of degree, $m$,
 which is 
 
 </div>
-<div class="theorem" id="theorem:multiplicative group of finite field" data-name="multiplicative group of finite field">
+<div class="theorem" id="theorem:multiplicative---group---of---finite---field" data-name="multiplicative group of finite field">
 	
 multiplicative group of finite field is cyclic
 
@@ -7368,7 +7374,7 @@ multiplicative group of finite field is cyclic
 
 <h3>Automorphisms of finite fields</h3>
 
-<div class="definition" id="definition:Frobenius mapping" data-name="Frobenius mapping">
+<div class="definition" id="definition:Frobenius---mapping" data-name="Frobenius mapping">
 	
 mapping
 
@@ -7384,7 +7390,7 @@ called <span class="define">Frobenius mapping</span>
 <li>
 	 is (ring) homeomorphism
 with $\Ker \frobmap{p}{n} = \{0\}$ since  is field,
-thus is injective (<a href="#proposition:injectivity of field homeomorphism"></a>),
+thus is injective (<a href="#proposition:injectivity---of---field---homeomorphism"></a>),
 and surjective because  is finite,
 
 </li>
@@ -7394,14 +7400,14 @@ leaving \primefield{p}\ fixed</i>
 
 </li>
 </ul>
-<div class="theorem" id="theorem:group of automorphisms of finite fields" data-name="group of automorphisms of finite fields">
+<div class="theorem" id="theorem:group---of---automorphisms---of---finite---fields" data-name="group of automorphisms of finite fields">
 	
 group of automorphisms of 
 is cyclic of degree $n$,
 generated by 
 
 </div>
-<div class="theorem" id="theorem:group of automorphisms of finite fields over another finite field" data-name="group of automorphisms of finite fields over another finite field">
+<div class="theorem" id="theorem:group---of---automorphisms---of---finite---fields---over---another---finite---field" data-name="group of automorphisms of finite fields over another finite field">
 	
 for prime number, $p$, and integers, $m,n\geq1$,
 in any $\algclosure{\primefield{p}}$,
@@ -7417,7 +7423,7 @@ generated by $\frobmap{p}{m}^n$
 
 </div>
 
-<h2 id="Galois Theory">Galois Theory</h2>
+<h2 id="title-page:Galois---Theory">Galois Theory</h2>
 
 
 
@@ -7473,7 +7479,7 @@ tools to prove
 
 <h3>Fixed fields</h3>
 
-<div class="definition" id="definition:fixed field" data-name="fixed field">
+<div class="definition" id="definition:fixed---field" data-name="fixed field">
 	
 
 for field, $K$, and group of automorphisms, $G$, of $K$,
@@ -7484,7 +7490,7 @@ $$
 
 is subfield of $K$, and
 called <span class="define">fixed field of $G$</span>,
-denoted by <span class="define">$K^G$</span>
+denoted by <span class="notation">$K^G$</span>
 
 </div>
 <ul>
@@ -7529,7 +7535,7 @@ thus field
 
 <h3>Galois extensions and Galois groups</h3>
 
-<div class="definition" id="definition:Galois extensions" data-name="Galois extensions">
+<div class="definition" id="definition:Galois---extensions" data-name="Galois extensions">
 	
 
 
@@ -7543,21 +7549,21 @@ for convenience,
 sometimes say <span class="define">$K/k$ is Galois</span>
 
 </div>
-<div class="definition" id="definition:Galois groups" data-name="Galois groups">
+<div class="definition" id="definition:Galois---groups" data-name="Galois groups">
 	
 
 
 for field, $k$ and its Galois extension, $K$,
 group of automorphisms of $K$ over $k$,
 called <span class="define">Galois group of $K$ over $k$</span>,
-denoted by <span class="define">$G(K/k)$, $G_{K/k}$, $\Gal(K/k)$, or (simply) $G$</span>
+denoted by <span class="notation">$G(K/k)$, $G_{K/k}$, $\Gal(K/k)$, or (simply) $G$</span>
 
 
 
 
 
 </div>
-<div class="definition" id="definition:Galois group of polynomials" data-name="Galois group of polynomials">
+<div class="definition" id="definition:Galois---group---of---polynomials" data-name="Galois group of polynomials">
 	
 for field, $k$, separable $f\in k[X]$ with $\deg f \geq 1$,
 and
@@ -7566,7 +7572,7 @@ Galois group of $K$ over $k$ (<i>i.e.</i>, $G(K/k)$),
 called <span class="define">Galois group of $f$ over $k$</span>
 
 </div>
-<div class="proposition" id="proposition:Galois group of polynomials and symmetric group" data-name="Galois group of polynomials and symmetric group">
+<div class="proposition" id="proposition:Galois---group---of---polynomials---and---symmetric---group" data-name="Galois group of polynomials and symmetric group">
 	
 for field, $k$, separable $f\in k[X]$ with $\deg f \geq 1$,
 and
@@ -7585,7 +7591,7 @@ of $G$ into $S_n$, <i>i.e.</i>, symmetric group on $n$ elements
 
 <h3>Fundamental theorem for Galois theory</h3>
 
-<div class="theorem" id="theorem:fundamental theorem for Galois theory" data-name="fundamental theorem for Galois theory">
+<div class="theorem" id="theorem:fundamental---theorem---for---Galois---theory" data-name="fundamental theorem for Galois theory">
 	
 
 
@@ -7636,14 +7642,14 @@ $G(K^H/k)$
 
 
 
-
+<div id="fig:diagrams---for---Galois---main---result"></div>
 
 
 
 
 <h3>Galois subgroups association with intermediate fields</h3>
 
-<div class="theorem" id="theorem:Galois subgroups associated with intermediate fields - 1" data-name="Galois subgroups associated with intermediate fields - 1">
+<div class="theorem" id="theorem:Galois---subgroups---associated---with---intermediate---fields-------1" data-name="Galois subgroups associated with intermediate fields - 1">
 	
 for Galois extension, $K/k$,
 and intermediate field, $F$
@@ -7670,7 +7676,7 @@ to subgroups of $G$
 
 
 </div>
-<div class="definition" id="definition:Galois subgroups associated with intermediate fields" data-name="Galois subgroups associated with intermediate fields">
+<div class="definition" id="definition:Galois---subgroups---associated---with---intermediate---fields" data-name="Galois subgroups associated with intermediate fields">
 	
 for Galois extension, $K/k$, and intermediate field, $F$,
 subgroup, $G(K/F)\subset G(K/k)$,
@@ -7678,7 +7684,7 @@ called <span class="define">group associated with $F$</span>,
 said to <span class="define">belong to $F$</span>
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 1" data-name="Galois subgroups associated with intermediate fields - 1">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------1" data-name="Galois subgroups associated with intermediate fields - 1">
 	
 for Galois extension, $K/k$,
 and
@@ -7694,7 +7700,7 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 2" data-name="Galois subgroups associated with intermediate fields - 2">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------2" data-name="Galois subgroups associated with intermediate fields - 2">
 	
 for Galois extension, $K/k$,
 and
@@ -7712,7 +7718,7 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 3" data-name="Galois subgroups associated with intermediate fields - 3">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------3" data-name="Galois subgroups associated with intermediate fields - 3">
 	
 for Galois extension, $K/k$,
 and
@@ -7743,9 +7749,9 @@ for some $n\geq1$,
 $E$ is finite over $k$ and $[E:k]\leq n$
 
 </div>
-<div class="theorem" id="theorem:Artin's theorem" data-name="Artin's theorem">
+<div class="theorem" id="theorem:Artin's---theorem" data-name="Artin's theorem">
 	
-
+<div id="theorem:Artins---theorem"></div>
 (Artin)
 for field, $K$,
 finite $\Aut(K)$ of order, $n$,
@@ -7755,13 +7761,13 @@ $G(K/k)= \Aut(K)$,
 and $[K:k] = n$
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 4" data-name="Galois subgroups associated with intermediate fields - 4">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------4" data-name="Galois subgroups associated with intermediate fields - 4">
 	
 for finite Galois extension, $K/k$,
 every subgroup of $G(K/k)$ belongs to intermediate field
 
 </div>
-<div class="theorem" id="theorem:Galois subgroups associated with intermediate fields - 2" data-name="Galois subgroups associated with intermediate fields - 2">
+<div class="theorem" id="theorem:Galois---subgroups---associated---with---intermediate---fields-------2" data-name="Galois subgroups associated with intermediate fields - 2">
 	
 for Galois extension, $K/k$,
 and intermediate field, $F$,
@@ -7797,7 +7803,7 @@ $$
 <ul>
 <li>
 	finally, we prove <i>fundamental theorem for Galois theory</i>
-(<a href="#theorem:fundamental theorem for Galois theory"></a>)
+(<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
 
 </li>
 <li>
@@ -7805,13 +7811,13 @@ $$
 and $H$ is subgroup of $G(K/k)$
 	<ul>
 	<li>
-		<a href="#corollary:Galois subgroups associated with intermediate fields - 4"></a>
+		<a href="#corollary:Galois---subgroups---associated---with---intermediate---fields-------4"></a>
 implies $K^H$ is intermediate field,
 hence
-<a href="#theorem:Galois subgroups associated with intermediate fields - 1"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------1"></a>
 implies
 $K/K^H$ is Galois,
-<a href="#theorem:Artins theorem"></a>
+<a href="#theorem:Artins---theorem"></a>
 implies
 $G(K/K^H) = H$,
 thus,
@@ -7836,7 +7842,7 @@ then $H=G(K/K^H)=G(K/K^{H'})=H'$
 		$\sigma$ is <i>surjective</i>
 since
 for every intermediate field, $F$,
-<a href="#theorem:Galois subgroups associated with intermediate fields - 1"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------1"></a>
 implies
 $K/F$ is Galois, $G(K/F)$ is subgroup of $G(K/k)$, and $K^{G(K/F)}=F$,
 thus,
@@ -7853,18 +7859,18 @@ set of intermediate fields
 
 	</li>
 	<li>
-		since <a href="#theorem:separable extensions are distinguished"></a>
+		since <a href="#theorem:separable---extensions---are---distinguished"></a>
 implies
 separable extensions are distinguished,
 $H^K/k$ is separable,
 thus
-<a href="#theorem:Galois subgroups associated with intermediate fields - 2"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------2"></a>
 implies that $K^H/k$ is Galois if and only if $G(K/K^H)$ is normal
 
 	</li>
 	<li>
 		lastly,
-<a href="#theorem:Galois subgroups associated with intermediate fields - 2"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------2"></a>
 implies that if $K^H/k$ is Galois,
 $G(H^K/k) \isomorph G(K/k) / H$
 
@@ -7876,13 +7882,13 @@ $G(H^K/k) \isomorph G(K/k) / H$
 
 <h3>Abelian and cyclic Galois extensions and groups</h3>
 
-<div class="definition" id="definition:abelian Galois extensions" data-name="abelian Galois extensions">
+<div class="definition" id="definition:abelian---Galois---extensions" data-name="abelian Galois extensions">
 	
 Galois extension with abelian Galois group,
 said to be <span class="define">abelian</span>
 
 </div>
-<div class="definition" id="definition:cyclic Galois extensions" data-name="cyclic Galois extensions">
+<div class="definition" id="definition:cyclic---Galois---extensions" data-name="cyclic Galois extensions">
 	
 Galois extension with cyclic Galois group,
 said to be <span class="define">cyclic</span>
@@ -7906,13 +7912,13 @@ intermediate field, $F$,
 	</ul>
 
 </div>
-<div class="definition" id="definition:maximum abelian extension" data-name="maximum abelian extension">
+<div class="definition" id="definition:maximum---abelian---extension" data-name="maximum abelian extension">
 	
 for field, $k$,
 compositum of all abelian Galois extensions of $k$
 in given $\algclosure{k}$,
 called <span class="define">maximum abelian extension of $k$</span>,
-denoted by <span class="define">\maxabext{k}</span>
+denoted by <span class="notation">\maxabext{k}</span>
 
 </div>
 
@@ -7950,7 +7956,7 @@ theorem illustrated in the figure
 
 
 
-
+<div id="fig:diagram---for---Galois---lifting"></div>
 
 
 <div class="corollary" id="corollary:">
@@ -7996,13 +8002,13 @@ theorem illustrated in the figure
 
 
 
-
+<div id="fig:diagram---for---Galois---two-side---lifting"></div>
 
 
 <div class="corollary" id="corollary:">
 	
 for $n$ Galois extensions, $K_i/k$,
-where $K_1$, , $K_n$ are subfields of common field
+where $K_1$, &hellip;, $K_n$ are subfields of common field
 and
 $K_{i+1}\cap(K_1\cdots K_i) = k$ for $i=1,\ldots,n-1$,
 
@@ -8031,7 +8037,7 @@ of $G(K_1\cdots K_n/k)$ onto $G(K_1/k) \times \cdots \times G(K_n/k)$
 for Galois extension, $K/k$,
 where $G(K/k)$ can be written as $G_1\times \cdots \times G_n$,
 and
-$K_1$, , $K_n$,
+$K_1$, &hellip;, $K_n$,
 each of which is
 fixed field of
 
@@ -8042,7 +8048,7 @@ $$
 
 	<ul>
 	<li>
-		$K_1/k$, , $K_n/k$ are Galois extensions
+		$K_1/k$, &hellip;, $K_n/k$ are Galois extensions
 
 	</li>
 	<li>
@@ -8087,7 +8093,7 @@ both $K/E$ and $E/k$ are abelian Galois extensions
 
 <h3>Solvable and radical extensions</h3>
 
-<div class="definition" id="definition:sovable extensions" data-name="sovable extensions">
+<div class="definition" id="definition:sovable---extensions" data-name="sovable extensions">
 	
 finite separable extension, $E/k$,
 such that
@@ -8099,12 +8105,12 @@ is solvable,
 said to be <span class="define">solvable</span>
 
 </div>
-<div class="theorem" id="theorem:solvable extensions are distinguished" data-name="solvable extensions are distinguished">
+<div class="theorem" id="theorem:solvable---extensions---are---distinguished" data-name="solvable extensions are distinguished">
 	
 solvable extensions form distinguished class of extensions
 
 </div>
-<div class="definition" id="definition:solvable by radicals" data-name="solvable by radicals">
+<div class="definition" id="definition:solvable---by---radicals" data-name="solvable by radicals">
 	
 finite extension, $F/k$,
 such that it is separable
@@ -8135,7 +8141,7 @@ with $E_{i+1}/E_i$ is obtained by adjoining root of
 said to be <span class="define">solvable by radicals</span>
 
 </div>
-<div class="theorem" id="theorem:extensions solvable by radicals" data-name="extensions solvable by radicals">
+<div class="theorem" id="theorem:extensions---solvable---by---radicals" data-name="extensions solvable by radicals">
 	
 separable extension, $E/k$,
 is solvable by radicals
@@ -8146,21 +8152,21 @@ it is solvable
 
 <h3>Applications of Galois theory</h3>
 
-<div class="theorem" id="theorem:insolvability of quintic polynomials" data-name="insolvability of quintic polynomials">
+<div class="theorem" id="theorem:insolvability---of---quintic---polynomials" data-name="insolvability of quintic polynomials">
 	
 general equation of degree, $n$,
 cannot be solved by radicals
 for $n\geq5$
 (implied by
-<a href="#definition:Galois group of polynomials"></a>,
-<a href="#proposition:Galois group of polynomials and symmetric group"></a>,
-<a href="#theorem:extensions solvable by radicals"></a>,
+<a href="#definition:Galois---group---of---polynomials"></a>,
+<a href="#proposition:Galois---group---of---polynomials---and---symmetric---group"></a>,
+<a href="#theorem:extensions---solvable---by---radicals"></a>,
 and
-<a href="#theorem:solvability of finite symmetric groups"></a>)
+<a href="#theorem:solvability---of---finite---symmetric---groups"></a>)
 
 </div>
 
-<div class="theorem" id="theorem:fundamental theorem of algebra" data-name="fundamental theorem of algebra">
+<div class="theorem" id="theorem:fundamental---theorem---of---algebra" data-name="fundamental theorem of algebra">
 	
 
 
@@ -8173,16 +8179,16 @@ $\complexes$ is algebraically closed
 </div>
 
 
-<h1 id="Real-Analysis">Real Analysis</h1>
+<h1 id="super-title-page:Real-Analysis">Real Analysis</h1>
 
 
 
-<h2 id="set-theory">Set Theory</h2>
+<h2 id="title-page:set-theory">Set Theory</h2>
 
 
 <h3>Some principles</h3>
 
-<div class="principle" id="principle:principle of mathematical induction" data-name="principle of mathematical induction">
+<div class="principle" id="principle:principle---of---mathematical---induction" data-name="principle of mathematical induction">
 	
 
 $$
@@ -8192,14 +8198,14 @@ $$
 
 </div>
 
-<div class="principle" id="principle:well ordering principle" data-name="well ordering principle">
+<div class="principle" id="principle:well---ordering---principle" data-name="well ordering principle">
 	
-
+<div id="principle:well-ordering---principle-------smallest---element"></div>
 each nonempty subset of $\naturals$ has a smallest element
 
 </div>
 
-<div class="principle" id="principle:principle of recursive definition" data-name="principle of recursive definition">
+<div class="principle" id="principle:principle---of---recursive---definition" data-name="principle of recursive definition">
 	
 for $f:X\to X$ and $a\in X$,
 exists unique infinite sequence $\langle x_n\rangle_{n=1}^\infty\subset X$
@@ -8225,11 +8231,11 @@ $$
 <ul>
 <li>
 	note that
-<a href="#principle:principle of mathematical induction"></a>
+<a href="#principle:principle---of---mathematical---induction"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle - smallest element"></a>
+<a href="#principle:well-ordering---principle-------smallest---element"></a>
 $\Rightarrow$
-<a href="#principle:principle of recursive definition"></a>
+<a href="#principle:principle---of---recursive---definition"></a>
 
 </li>
 </ul>
@@ -8549,7 +8555,7 @@ $$
 <ul>
 <li>
 	$x$ said to <span class="define">stand in relation</span> $\rel$ to $y$,
-denoted by $\relxy{x}{y}$
+denoted by <span class="notation">$\relxy{x}{y}$</span>
 
 </li>
 <li>
@@ -8665,7 +8671,7 @@ denoted by $\relxy{x}{y}$
 
 <h3>Axiom of choice and equivalent principles</h3>
 
-<div class="axiom" id="axiom:axiom of choice" data-name="axiom of choice">
+<div class="axiom" id="axiom:axiom---of---choice" data-name="axiom of choice">
 	
 given a collection of nonempty sets, $\coll$,
 there exists $f:\coll\ \to \cup_{A\in\coll} A$ such that
@@ -8703,7 +8709,7 @@ need axiom of choice when $\coll$ is not finite
 </li>
 </ul>
 
-<div class="principle" id="principle:Hausdorff maximal principle" data-name="Hausdorff maximal principle">
+<div class="principle" id="principle:Hausdorff---maximal---principle" data-name="Hausdorff maximal principle">
 	
 
 for particial ordering $\prec$ on $X$,
@@ -8715,7 +8721,7 @@ $S=T$
 
 </div>
 
-<div class="principle" id="principle:well-ordering principle" data-name="well-ordering principle">
+<div class="principle" id="principle:well-ordering---principle" data-name="well-ordering principle">
 	
 every set $X$ can be well ordered,
 <i>i.e.</i>,
@@ -8725,18 +8731,18 @@ there is a relation $<$ that well orders $X$
 <ul>
 <li>
 	note that
-<a href="#axiom:axiom of choice"></a>
+<a href="#axiom:axiom---of---choice"></a>
 $\Leftrightarrow$
-<a href="#principle:Hausdorff maximal principle"></a>
+<a href="#principle:Hausdorff---maximal---principle"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle"></a>
+<a href="#principle:well-ordering---principle"></a>
 
 </li>
 </ul>
 
 <h3>Infinite direct product</h3>
 
-<div class="definition" id="definition:direct product" data-name="direct product">
+<div class="definition" id="definition:direct---product" data-name="direct product">
 	
 for collection of sets, $\seq{X_\lambda}$, with index set, $\Lambda$,
 
@@ -8767,14 +8773,14 @@ if one of $X_\lambda$ is empty, $\bigtimes X_\lambda$ is empty
 
 </li>
 <li>
-	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom of choice"></a>)
+	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom---of---choice"></a>)
 
 
 
 </li>
 </ul>
 
-<h2 id="real-number-system">Real Number System</h2>
+<h2 id="title-page:real-number-system">Real Number System</h2>
 
 
 <h3>Field axioms</h3>
@@ -8933,7 +8939,7 @@ $x < r < y$
 
 <ul>
 <li>
-	sequence of $\reals$ denoted by $\seq{x_i}_{i=1}^\infty$ or $\seq{x_i}$
+	sequence of $\reals$ denoted by <span class="notation">$\seq{x_i}_{i=1}^\infty$</span> or <span class="notation">$\seq{x_i}$</span>
 	<ul>
 	<li>
 		mapping from $\naturals$ to $\reals$
@@ -8943,7 +8949,7 @@ $x < r < y$
 
 </li>
 <li>
-	limit of $\seq{x_n}$ denoted by $\lim_{n\to\infty} x_n$ or $\lim x_n$ - defined by $a\in\reals$
+	limit of $\seq{x_n}$ denoted by <span class="notation">$\lim_{n\to\infty} x_n$</span> or <span class="notation">$\lim x_n$</span> - defined by $a\in\reals$
 
 $$
 (\forall \epsilon>0)(\exists N\in\naturals) (n \geq N \Rightarrow |x_n-a|<\epsilon)
@@ -9073,12 +9079,12 @@ $$
 
 <h3>Open and closed sets - facts</h3>
 
-
+<div id="page:open-closed-fact"></div>
 <ul>
 <li>
 	<span class="fact-font">every open set is union of countable collection of disjoint open intervals</span>
 
-
+<div id="page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals"></div>
 
 </li>
 <li>
@@ -9106,7 +9112,7 @@ $$
 
 <h3>Covering and Heine-Borel theorem</h3>
 
-
+<div id="page:heine-borel-theorem"></div>
 <ul>
 <li>
 	collection $\coll$ of sets called <span class="define">covering</span> of $A$ if
@@ -9211,7 +9217,7 @@ $$
 
 <h3>Borel sets and Borel $\sigma$-algebra</h3>
 
-
+<div id="page:borel-algebra"></div>
 <ul>
 <li>
 	<span class="define">Borel set</span>
@@ -9242,7 +9248,7 @@ through the operations of countable union, countable intersection, and relative 
 		</li>
 		<li>
 			 smallest $\sigma$-algebra containing all open intervals
-(due to statement on page~)
+(due to statement on page~<a href="#page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals">here</a>)
 
 		</li>
 		</ul>
@@ -9322,7 +9328,7 @@ $$
 </li>
 </ul>
 
-<h2 id="lebesgue-measure">Lebesgue Measure</h2>
+<h2 id="title-page:lebesgue-measure">Lebesgue Measure</h2>
 
 
 
@@ -9562,7 +9568,7 @@ $$
 
 
 
-
+<div id="page:measurable-sets"></div>
 <ul>
 <li>
 	$E\subset\reals$ called measurable if for every $A\subset\reals$
@@ -9600,15 +9606,15 @@ $$
 	note
 	<ul>
 	<li>
-		every open set is disjoint countable union of open intervals (page~)
+		every open set is disjoint countable union of open intervals (page~<a href="#page:open-closed-fact">here</a>)
 
 	</li>
 	<li>
-		disjoint countable union of measurable sets is measurable (page~)
+		disjoint countable union of measurable sets is measurable (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	<li>
-		open intervals are measurable (page~)
+		open intervals are measurable (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	</ul>
@@ -9622,11 +9628,11 @@ $$
 	also
 	<ul>
 	<li>
-		collection of measurable sets is $\sigma$-algebra (page~)
+		collection of measurable sets is $\sigma$-algebra (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	<li>
-		every open set is Borel set and Borel sets are $\sigma$-algebra (page~)
+		every open set is Borel set and Borel sets are $\sigma$-algebra (page~<a href="#page:borel-algebra">here</a>)
 
 	</li>
 	</ul>
@@ -9783,7 +9789,7 @@ $$
 </li>
 </ul>
 
-<h2 id="measurable-functions">Lebesgue Measurable Functions</h2>
+<h2 id="title-page:measurable-functions">Lebesgue Measurable Functions</h2>
 
 
 <h3>Lebesgue measurable functions</h3>
@@ -9791,7 +9797,7 @@ $$
 
 
 
-
+<div id="page:Lebesgue-measurable-functions"></div>
 <ul>
 <li>
 	for $f:X\to\reals\cup\{-\infty, \infty\}$,
@@ -9847,7 +9853,7 @@ $$
 <h3>Properties of Lebesgue measurable functions</h3>
 
 
-
+<div id="page:measurable:function:facts"></div>
 <ul>
 <li>
 	for real-valued measurable functions, $f$ and $g$, and $c\in\reals$
@@ -9882,7 +9888,7 @@ $$
 
 <h3>Almost everywhere - a.e.</h3>
 
-
+<div id="page:almost:everywhere"></div>
 <ul>
 <li>
 	statement, $P(x)$, called <span class="define">almost everywhere</span> or <span class="define">a.e.</span> if
@@ -9935,7 +9941,7 @@ $$
 
 <h3>Characteristic \& simple functions</h3>
 
-
+<div id="page:Characteristic---and---simple---functions"></div>
 <ul>
 <li>
 	for any $A\subset\reals$, $\chi_A$ called <span class="define">characteristic function</span> if
@@ -9974,7 +9980,7 @@ where $A_i = \set{x}{x= a_i}$
 
 
 
-
+<div id="page:littlewood:three:principles"></div>
 <ul>
 <li>
 	 let $M(E)$ with measurable set, $E$, denote set of measurable functions defined on $E$
@@ -10017,7 +10023,7 @@ $$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall \mbox{ measurable }\seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
 
 \\
@@ -10042,11 +10048,11 @@ $$
 <ul>
 <li>
 	<span class="name-font">Egoroff theorem -</span> provides stronger version of third statement
-on page~
+on page~<a href="#page:littlewood:three:principles">here</a>
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall \mbox{ measurable }\seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
 
 \\
@@ -10060,13 +10066,13 @@ $$
 </li>
 </ul>
 
-<h2 id="lebesgue-integral">Lebesgue Integral</h2>
+<h2 id="title-page:lebesgue-integral">Lebesgue Integral</h2>
 
 
 
 <h3>Integral of simple functions</h3>
 
-
+<div id="page:Integral---of---simple---functions"></div>
 <ul>
 <li>
 	<span class="define">canonical representation</span> of simple function
@@ -10111,7 +10117,7 @@ that vanish out of finite measure set,
 <i>i.e.</i>,
 $\mu\set{x}{\varphi(x)\neq0}<\infty$, $\mu\set{x}{\psi(x)\neq0}<\infty$,
 and for every $a,b\in\reals$
-
+<div id="page:linearity---of---Lebesgue---integral---of---simple---functions"></div>
 
 $$
 \int (a\varphi + b\psi) = a \int\varphi + b \int\psi
@@ -10144,7 +10150,7 @@ $$
 
 <h3>Lebesgue integral of bounded functions</h3>
 
-
+<div id="page:Lebesgue---integral---of---bounded---functions"></div>
 <ul>
 <li>
 	for bounded function, $f$, and finite measurable set, $E$,
@@ -10174,7 +10180,7 @@ $$
 	for bounded measurable function, $f$, defined on measurable set, $E$, with $\mu E < \infty$,
 define <span class="define">(Lebesgue) integral of $f$ over $E$</span>
 
-
+<div id="page:Lebesgue---integral---of---simple---functions"></div>
 
 $$
 \int_E f(x) dx =
@@ -10194,7 +10200,7 @@ $$
 <ul>
 <li>
 	for bounded measurable functions, $f$ and $g$, defined on $E$ with finite measure
-
+<div id="page:linearity---of---nonnegative---integral-------Lebesgue"></div>
 	<ul>
 	<li>
 		for every $a,b\in\reals$
@@ -10275,12 +10281,12 @@ $$
 
 <h3>Lebesgue integral of nonnegative functions</h3>
 
-
+<div id="page:Lebesgue---integral---of---nonnegative---functions"></div>
 <ul>
 <li>
 	for nonnegative measurable function, $f$, defined on measurable set, $E$, define
 
-
+<div id="page:Lebesgue---integral---of---nonnegative---measurable---function"></div>
 
 $$
 \int_E f = \sup_{h:\ \mathrm{bounded\ measurable\ function},\ \mu\set{x}{h(x)\neq0}<\infty,\ h\leq f} \int_E h
@@ -10332,7 +10338,7 @@ $$
 
 <h3>Fatou's lemma and monotone convergence theorem for Lebesgue integral</h3>
 
-
+<div id="page:integral:nonneg:facts"></div>
 <ul>
 <li>
 	<span class="name-font">Fatou's lemma -</span>
@@ -10348,8 +10354,8 @@ $$
 
 	<ul>
 	<li>
-		note $\lim f_n$ is measurable (page~),
-hence $f$ is measurable (page~)
+		note $\lim f_n$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+hence $f$ is measurable (page~<a href="#page:almost:everywhere">here</a>)
 
 	</li>
 	</ul>
@@ -10361,7 +10367,7 @@ for nonnegative increasing measurable function sequence, $\seq{f_n}$,
 with $\lim f_n = f$ a.e. on measurable set, $E$
 
 
-
+<div id="page:Lebesgue-------monotone---convergence---theorem"></div>
 
 $$
 \int_E f = \lim \int_E f_n
@@ -10383,14 +10389,14 @@ $$
 
 <h3>Lebesgue integrability of nonnegative functions</h3>
 
-
+<div id="integrable:nonnegative:function"></div>
 <ul>
 <li>
 	nonnegative measurable function, $f$, said to be <span class="define">integrable</span> over measurable set, $E$, if
 
 
 
-
+<div id="page:Lebesgue---integrability---of---nonnegative---functions"></div>
 
 $$
 \int_E f < \infty
@@ -10450,7 +10456,7 @@ if (nonnegative measurable) functions, $f^+$ and $f^-$, are integrable
 
 
 
-
+<div id="page:Lebesgue---integral"></div>
 
 $$
 \int_E f = \int_E f^+ - \int_E f^-
@@ -10467,7 +10473,7 @@ $$
 <ul>
 <li>
 	for $f$ and $g$ integrable on measure set, $E$, and $a,b\in\reals$
-
+<div id="page:properties---of---Lebesgue---integral"></div>
 	<ul>
 	<li>
 		$af+bg$ is integral and
@@ -10509,19 +10515,19 @@ $$
 	<span class="name-font">Lebesgue convergence theorem -</span>
 for measurable $g$ integrable on measurable set, $E$,
 and measurable sequence $\seq{f_n}$ converging to $f$ with $|f_n|<g$ a.e. on $E$,
-($f$ is measurable (page~),
-every $f_n$ is integrable (page~))
+($f$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+every $f_n$ is integrable (page~<a href="#integrable:nonnegative:function">here</a>))
 and
 
 
 
-
+<div id="page:lebesgue-integral-facts-2"></div>
 
 $$
 \int_E f = \lim \int_E f_n
 $$
 
-
+<div id="page:Lebesgue---convergence---theorem---for---Lebesgue---integral"></div>
 
 
 </li>
@@ -10544,8 +10550,8 @@ $$
 $$
 
 then
-($f$ is measurable (page~),
-every $f_n$ is integrable (page~))
+($f$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+every $f_n$ is integrable (page~<a href="#integrable:nonnegative:function">here</a>))
 and
 
 $$
@@ -10561,9 +10567,9 @@ $$
 
 <ul>
 <li>
-	Fatou's lemma (page~),
-monotone convergence theorem (page~),
-Lebesgue convergence theorem (page~),
+	Fatou's lemma (page~<a href="#page:integral:nonneg:facts">here</a>),
+monotone convergence theorem (page~<a href="#page:integral:nonneg:facts">here</a>),
+Lebesgue convergence theorem (page~<a href="#page:lebesgue-integral-facts-2">here</a>),
 <i>all</i>
 state that under suitable conditions, we say something about
 
@@ -10623,7 +10629,7 @@ $$
 
 </li>
 <li>
-	thus, third statement on page~ implies
+	thus, third statement on page~<a href="#page:littlewood:three:principles">here</a> implies
 
 $$
 (\forall \seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
@@ -10644,9 +10650,9 @@ exists $\seq{f_n}$ converging in measure to $f$ that does not converge to $f$ a.
 
 </li>
 <li>
-	Fatou's lemma (page~),
-monotone convergence theorem (page~),
-Lebesgue convergence theorem (page~)
+	Fatou's lemma (page~<a href="#page:integral:nonneg:facts">here</a>),
+monotone convergence theorem (page~<a href="#page:integral:nonneg:facts">here</a>),
+Lebesgue convergence theorem (page~<a href="#page:lebesgue-integral-facts-2">here</a>)
 <span class="eemph">remain valid!</span>
 even when &ldquo;convergence a.e.'' replaced by &ldquo;convergence in measure''
 
@@ -10655,7 +10661,7 @@ even when &ldquo;convergence a.e.'' replaced by &ldquo;convergence in measure''
 
 <h3>Conditions for convergence in measure</h3>
 
-<div class="proposition" id="proposition:necessary condition for converging in measure" data-name="necessary condition for converging in measure">
+<div class="proposition" id="proposition:necessary---condition---for---converging---in---measure" data-name="necessary condition for converging in measure">
 	
 
 $$
@@ -10669,13 +10675,13 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:necessary and sufficient condition for converging in measure" data-name="necessary and sufficient condition for converging in measure">
+<div class="corollary" id="corollary:necessary---and---sufficient---condition---for---converging---in---measure" data-name="necessary and sufficient condition for converging in measure">
 	
 for sequence $\seq{f_n}$ measurable on $E$ with $\mu E<\infty$
 
 $$
 \begin{eqnarray*}
-&=&\seq{f_n} \mbox{ converging in measure to } f
+&&\seq{f_n} \mbox{ converging in measure to } f
 \\
 &\Leftrightarrow&
 \left(
@@ -10690,12 +10696,12 @@ $$
 
 </div>
 
-<h2 id="Space Overview">Space Overview</h2>
+<h2 id="title-page:Space---Overview">Space Overview</h2>
 
 
 <h3>Diagrams for relations among various spaces</h3>
 
-
+<div id="page:diagrams-for-relations-among-spaces"></div>
 <ul>
 <li>
 	note from the figure
@@ -10723,12 +10729,12 @@ $$
 
 
 
+<div id="fig:diagrams---for---relations---among---various---spaces"></div>
 
 
 
 
-
-<h2 id="classical-banach-spaces">Classical Banach Spaces</h2>
+<h2 id="title-page:classical-banach-spaces">Classical Banach Spaces</h2>
 
 
 <h3>Normed linear space</h3>
@@ -10895,7 +10901,7 @@ $$
 	<span class="name-font">Ho&#776;lder's inequality -</span> for $p,q\in[1,\infty]$ with $1/p+1/q=1$
 
 
-
+<div id="Holder---inequality!linear---normed---spaces"></div>
 
 $$
 (\forall f\in L^p, g\in L^q)
@@ -10962,7 +10968,7 @@ $$
 
 <h3>Banach space</h3>
 
-
+<div id="page:Banach-space"></div>
 <ul>
 <li>
 	<i>complete normed linear space</i> called <span class="define">Banach space</span>
@@ -11014,8 +11020,8 @@ $$
 
 	<ul>
 	<li>
-		$L^p$ version of Littlewood's second principle (page~)
-
+		$L^p$ version of Littlewood's second principle (page~<a href="#page:littlewood:three:principles">here</a>)
+<div id="page:normed---space---version---of---Littlewood's---second---principle"></div>
 
 
 
@@ -11088,7 +11094,7 @@ there exists $g\in L^q$ such that
 
 
 
-
+<div id="page:Riesz-representation-theorem"></div>
 
 $$
 F(f) = \int fg
@@ -11100,12 +11106,12 @@ where $\|F\|=\|g\|_q$
 </li>
 <li>
 	for each case, $L^q$ is dual of $L^p$
-(refer to page  for definition of dual)
+(refer to page <a href="#page:Dual-of-normed-spaces">here</a> for definition of dual)
 
 </li>
 </ul>
 
-<h2 id="metric-spaces">Metric Spaces</h2>
+<h2 id="title-page:metric-spaces">Metric Spaces</h2>
 
 
 <h3>Metric spaces</h3>
@@ -11269,7 +11275,7 @@ $$
 
 <h3>Dense sets and separability - metric spaces</h3>
 
-
+<div id="page:dense-sets-and-separability-metric-spaces"></div>
 <ul>
 <li>
 	$D\subset X$ said to be dense if
@@ -11477,7 +11483,7 @@ $$
 
 <h3>Completeness - metric spaces</h3>
 
-
+<div id="page:Completeness---metric-spaces"></div>
 <ul>
 <li>
 	$\seq{x_n}$ of metric space, $X$, called <span class="define">Cauchy sequence</span> if
@@ -11517,7 +11523,7 @@ $X^\ast$ is isometric with $\closure{X}$ in $Y$
 
 <h3>Uniform continuity - metric spaces</h3>
 
-
+<div id="page:uniform-continuity-metric-spaces"></div>
 <ul>
 <li>
 	$f:X\to Y$ for metric spaces $\metrics{X}{\rho}$ and $\metrics{Y}{\sigma}$
@@ -11577,7 +11583,7 @@ called <span class="define">uniform property</span>
 
 </li>
 <li>
-	uniform properties are <i>not</i> topological properties, <i>e.g.</i>, $h$ on page~
+	uniform properties are <i>not</i> topological properties, <i>e.g.</i>, $h$ on page~<a href="#page:uniform-continuity-metric-spaces">here</a>
 	<ul>
 	<li>
 		is <span class="define">homeomorphism</span> between incomplete space $[0,1)$ and complete space $\preals$
@@ -11644,7 +11650,7 @@ exists unique continuous extension $g$ of $f$ on $\closure{E}$, which is uniform
 
 <h3>Subspaces</h3>
 
-
+<div id="page:subspaces"></div>
 <ul>
 <li>
 	for metric space, $\metrics{X}{\rho}$,
@@ -11710,20 +11716,20 @@ called <span class="define">subspace</span> of $\metrics{X}{\rho}$
 
 <h3>Compact metric spaces</h3>
 
-
+<div id="page:Compact-metric-spaces"></div>
 
 <ul>
 <li>
 	motivation - want metric spaces where
 	<ul>
 	<li>
-		conclusion of Heine-Borel theorem (page~) are valid
+		conclusion of Heine-Borel theorem (page~<a href="#page:heine-borel-theorem">here</a>) are valid
 
 	</li>
 	<li>
 		many properties of $[0,1]$ are true, <i>e.g.</i>,
 Bolzano-Weierstrass property
-(page~)
+(page~<a href="#page:bolzano-weierstrass-property-and-sequential-compactness">here</a>)
 
 	</li>
 	</ul>
@@ -11796,7 +11802,7 @@ has nonempty intersection
 
 <h3>Bolzano-Weierstrass property and sequential compactness</h3>
 
-
+<div id="page:bolzano-weierstrass-property-and-sequential-compactness"></div>
 <ul>
 <li>
 	metric space said to
@@ -11847,7 +11853,7 @@ sequentially compact</span>
 </li>
 <li>
 	compact metric spaces have corresponding to some of those of complete metric spaces
-(compare with statements on page~)
+(compare with statements on page~<a href="#page:subspaces">here</a>)
 	<ul>
 	<li>
 		every compact subset of metric space is closed <i>and bounded</i>
@@ -11868,7 +11874,7 @@ sequentially compact</span>
 
 <h3>Necessary condition for compactness</h3>
 
-
+<div id="page:Necessary-condition-for-compactness"></div>
 <ul>
 <li>
 	compact metric space is sequentially compact 
@@ -11876,14 +11882,14 @@ sequentially compact</span>
 </li>
 <li>
 	equivalently, compact metric space has Bolzano-Weierstrass property
-(page~)
+(page~<a href="#page:bolzano-weierstrass-property-and-sequential-compactness">here</a>)
 
 </li>
 </ul>
 
 <h3>Necessary conditions for sequentially compactness</h3>
 
-
+<div id="page:sequentially-compact-metric-spaces-facts"></div>
 <ul>
 <li>
 	every continuity real-valued function on sequentially compact space
@@ -11903,7 +11909,7 @@ has <i>Lebesgue number</i>
 
 <h3>Sufficient conditions for compactness</h3>
 
-
+<div id="page:Sufficient-conditions-for-compactness"></div>
 <ul>
 <li>
 	metric space that is totally bounded and has Lebesgue number for every covering
@@ -11914,14 +11920,14 @@ is compact
 
 <h3>Borel-Lebesgue theorem</h3>
 
-
+<div id="page:Borel-Lebesgue-theorem"></div>
 <ul>
 <li>
 	conditions on
-pages ,
-,
+pages <a href="#page:Necessary-condition-for-compactness">here</a>,
+<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
 and
-
+<a href="#page:Sufficient-conditions-for-compactness">here</a>
 imply the following equivalent statements
 	<ul>
 	<li>
@@ -11947,7 +11953,7 @@ imply the following equivalent statements
 
 </li>
 <li>
-	hence, can drop <i>sequentially</i> in every statement on page~,
+	hence, can drop <i>sequentially</i> in every statement on page~<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
 <i>i.e.</i>,
 	<ul>
 	<li>
@@ -11970,7 +11976,7 @@ has <i>Lebesgue number</i>
 
 <h3>Compact metric spaces - other facts</h3>
 
-
+<div id="page:Compact-metric-spaces---other-facts"></div>
 <ul>
 <li>
 	closed subset of compact space is compact
@@ -11980,7 +11986,7 @@ has <i>Lebesgue number</i>
 	compact subset of metric space is <i>closed and bounded</i>
 	<ul>
 	<li>
-		hence, Heine-Borel theorem (page~) implies
+		hence, Heine-Borel theorem (page~<a href="#page:heine-borel-theorem">here</a>) implies
 
 	</li>
 	<li>
@@ -11992,14 +11998,14 @@ has <i>Lebesgue number</i>
 </li>
 <li>
 	metric space is compact if and only if it is complete and totally bounded
-
+<div id="page:compac-complete-and-totally-bounded"></div>
 
 </li>
 <li>
 	thus, <span class="eemph">compactness can be viewed as absolute type of closedness</span>
 	<ul>
 	<li>
-		 refer to page~ for exactly same comments for general topological spaces
+		 refer to page~<a href="#page:Compact-spaces---facts">here</a> for exactly same comments for general topological spaces
 
 	</li>
 	</ul>
@@ -12019,16 +12025,16 @@ is uniformly continuous
 <h3>Diagrams for relations among metric spaces</h3>
 
 
-
+<div id="page:Necessary-and-sufficient-conditions-for-compactness"></div>
 <ul>
 <li>
 	the figure
 shows relations among metric spaces stated on pages
-,
-,
-,
+<a href="#page:sequentially-compact-metric-spaces-facts">here</a>,
+<a href="#page:Sufficient-conditions-for-compactness">here</a>,
+<a href="#page:Borel-Lebesgue-theorem">here</a>,
 and
-
+<a href="#page:compac-complete-and-totally-bounded">here</a>
 
 </li>
 </ul>
@@ -12042,7 +12048,7 @@ and
 
 
 
-
+<div id="fig:diagrams---for---relations---among---metric---spaces"></div>
 
 
 
@@ -12098,7 +12104,7 @@ said to be <span class="define">of first category or meager</span>
 	<span class="name-font">Baire theorem -</span>
 
 
-
+<div id="page:Baire-theorem"></div>
 for complete metric space, $X$,
 and countable collection of dense open subsets, $\seq{O_k}\subset X$,
 the intersection of the collection
@@ -12110,7 +12116,7 @@ $$
 is dense
 	<ul>
 	<li>
-		 refer to page~
+		 refer to page~<a href="#page:locally-compact-space-version-of-Baire-theorem">here</a>
 for locally compact space version of Baire theorem
 
 	</li>
@@ -12131,7 +12137,13 @@ union of countable collection of nowhere dense subsets
 <li>
 	Baire category theorem is <i>unusual</i> in that
 <i>uniform property, \ie, completeness of metric spaces,
-implies purely topological nature</i>
+implies purely topological nature</i>&nbsp;(footnote &ndash; 
+&ldquo;no nonempty open subset of complete metric space is of first category&rdquo;
+is purely topological nature
+because if two spaces are (topologically) homeomorphic,
+and no nonempty open subsets of one space is of first category,
+then neither is any nonempty open subset of the other space
+)
 
 </li>
 </ul>
@@ -12155,7 +12167,7 @@ said to be <span class="define">of second category everywhere</span>
 </li>
 <li>
 	locally compact Hausdorff spaces are of second category everywhere, too
-(refer to page~ for definition of locally compact Hausdorff spaces)
+(refer to page~<a href="#page:Locally-compact-Hausdorff-spaces">here</a> for definition of locally compact Hausdorff spaces)
 
 	<ul>
 	<li>
@@ -12267,7 +12279,7 @@ $$
 </li>
 </ul>
 
-<h2 id="topological-spaces">Topological Spaces</h2>
+<h2 id="title-page:topological-spaces">Topological Spaces</h2>
 
 
 
@@ -12624,7 +12636,7 @@ called <span class="define">homeomorphism</span> between $\topos{X}{J}$ and $\to
 
 <h3>Stronger and weaker topologies</h3>
 
-
+<div id="page:topological-spaces-stronger-and-weaker-topologies"></div>
 <ul>
 <li>
 	for two topologies, $\tJ$ and $\tS$ for same $X$ with $\tS\supset\tJ$
@@ -12807,7 +12819,7 @@ where sets of the collection are open
 <h3>Axioms of countability</h3>
 
 
-
+<div id="page:topological-spaces-axioms-of-countability"></div>
 <ul>
 <li>
 	topological space said to satisfy <span class="define">first axiom of countability</span>
@@ -12832,7 +12844,7 @@ exists countable base for the space
 	<ul>
 	<li>
 		every metric space satisfies second axiom of countability
-if and only if separable (refer to page~ for definition of separability)
+if and only if separable (refer to page~<a href="#page:dense-sets-and-separability-metric-spaces">here</a> for definition of separability)
 
 
 
@@ -13025,7 +13037,7 @@ all functions in $\collk{F}$ is continuous
 	<ul>
 	<li>
 		it is weakest topology containing
-- refer to page~
+- refer to page~<a href="#page:topological-spaces-stronger-and-weaker-topologies">here</a>
 
 $$
 \coll\ = \bigcup_{f\in\collk{F}} \bigcup_{O\subset \reals} f^{-1}(O)
@@ -13089,7 +13101,7 @@ provided $X$ satisfied $T_1$ (Tychonoff space)
 <h3>Diagrams for separation axioms for topological spaces</h3>
 
 
-
+<div id="page:Diagram-for-separation-axioms"></div>
 <ul>
 <li>
 	the figure
@@ -13112,7 +13124,7 @@ shows $T_4 \Rightarrow T_{3\frac{1}{2}} \Rightarrow T_3 \Rightarrow T_2 \Rightar
 
 
 
-
+<div id="fig:diagrams---for---separation---axioms---for---topological---spaces"></div>
 
 
 
@@ -13304,25 +13316,25 @@ $\bigsetl{\bigtimes X_\alpha}{O_\alpha\in \tJ_\alpha, O_\alpha = X_\alpha \mbox{
 
 </li>
 <li>
-	if $(\forall \alpha\in\collk{A})(X_\alpha=X)$, $\bigtimes X_{\alpha}$ denoted by $X^\collk{A}$
+	if $(\forall \alpha\in\collk{A})(X_\alpha=X)$, $\bigtimes X_{\alpha}$ denoted by <span class="notation">$X^\collk{A}$</span>
 
 </li>
 </ul>
 
 <h3>Product topology with countable index set</h3>
 
-
+<div id="page:product-topology-with-countable-index-set"></div>
 <ul>
 <li>
 	for countable $\collk{A}$
 
 	<ul>
 	<li>
-		$\bigtimes X_\alpha$ <i>denoted by $X^\omega$ or $X^\naturals$</i>
+		$\bigtimes X_\alpha$ <i>denoted by</i> <span class="notation">$X^\omega$</span> or <span class="notation">$X^\naturals$</span>
 $\because$ only # elements of $\collk{A}$ important
 		<ul>
 		<li>
-			 <i>e.g.</i>, $\mbox{\bf 2}^\omega$ is <i>Cantor set</i> if denoting discrete topology with two elements by 
+			 <i>e.g.</i>, $\textbf{2}^\omega$ is <i>Cantor set</i> if denoting discrete topology with two elements by $\textbf{2}$
 
 		</li>
 		</ul>
@@ -13408,14 +13420,14 @@ then <i>$X$ is homeomorphic to image of $I^\collk{F}$</i>
 </li>
 </ul>
 
-<h2 id="Compact-and-Locally-Compact-Spaces">Compact and Locally Compact Spaces</h2>
+<h2 id="title-page:Compact-and-Locally-Compact-Spaces">Compact and Locally Compact Spaces</h2>
 
 
 <h3>Compact spaces</h3>
 
 <ul>
 <li>
-	compactness for metric spaces (page~)
+	compactness for metric spaces (page~<a href="#page:Compact-metric-spaces">here</a>)
 can be generalized to topological spaces
 	<ul>
 	<li>
@@ -13443,7 +13455,7 @@ has finite subcovering
 
 	</li>
 	<li>
-		thus, Heine-Borel (page~) says every closed and bounded subset of $\reals$
+		thus, Heine-Borel (page~<a href="#page:heine-borel-theorem">here</a>) says every closed and bounded subset of $\reals$
 is compact
 
 	</li>
@@ -13464,7 +13476,7 @@ has nonempty intersection
 
 <h3>Compact spaces - facts</h3>
 
-
+<div id="page:Compact-spaces---facts"></div>
 <ul>
 <li>
 	<span class="eemph">compactness can be viewed as absolute type of closedness</span> because
@@ -13482,7 +13494,7 @@ has nonempty intersection
 
 </li>
 <li>
-	 refer to page~ for exactly the same comments for metric spaces
+	 refer to page~<a href="#page:Compact-metric-spaces---other-facts">here</a> for exactly the same comments for metric spaces
 
 </li>
 <li>
@@ -13525,7 +13537,7 @@ $$
 
 <h3>Countable compactness and Lindelo&#776;f</h3>
 
-
+<div id="page:Countable-compactness-and-Lindelof"></div>
 <ul>
 <li>
 	topological space for which every open covering has countable subcovering
@@ -13559,7 +13571,7 @@ said to be <span class="define">countably compact</span> space
 
 <h3>Bolzano-Weierstrass property and sequential compactness</h3>
 
-
+<div id="page:Bolzano-Weierstrass-property-and-sequential-compactness"></div>
 <ul>
 <li>
 	topological space, $X$, said to have <span class="define">Bolzano-Weierstrass property</span>
@@ -13604,14 +13616,14 @@ is sequentially compact
 <h3>Diagrams for relations among topological spaces</h3>
 
 
-
+<div id="page:Diagrams-for-relations-among-topological-spaces"></div>
 <ul>
 <li>
 	the figure
 shows relations among topological spaces stated on pages
-
+<a href="#page:Countable-compactness-and-Lindelof">here</a>
 and
-
+<a href="#page:Bolzano-Weierstrass-property-and-sequential-compactness">here</a>
 
 </li>
 </ul>
@@ -13625,7 +13637,7 @@ and
 
 
 
-
+<div id="fig:diagrams---for---relations---among---topological---spaces"></div>
 
 
 
@@ -13752,7 +13764,7 @@ but not compact
 
 
 
-
+<div id="page:Locally-compact-Hausdorff-spaces"></div>
 <ul>
 <li>
 	<i>locally compact Hausdorff spaces</i>
@@ -13857,11 +13869,11 @@ $$
 $$
 
 is dense
-
+<div id="page:locally-compact-space-version-of-Baire-theorem"></div>
 	<ul>
 	<li>
 		analogue of Baire theorem for complete metric spaces
-(refer to page~ for Baire theorem)
+(refer to page~<a href="#page:Baire-theorem">here</a> for Baire theorem)
 
 	</li>
 	</ul>
@@ -14025,7 +14037,7 @@ $M=\bigcup O_n$
 </ul>
 
 
-<h2 id="Banach-Spaces">Banach Spaces</h2>
+<h2 id="title-page:Banach-Spaces">Banach Spaces</h2>
 
 
 <h3>Vector spaces</h3>
@@ -14093,7 +14105,7 @@ called <span class="define">Banach space</span>
 
 
 
-
+<div id="page:Banach---spaces"></div>
 	<ul>
 	<li>
 		can be said to be class of spaces endowed with
@@ -14107,7 +14119,7 @@ both topological and algebraic structure
 	examples include
 	<ul>
 	<li>
-		$L^p$ with $1\leq p\leq \infty$ (page~),
+		$L^p$ with $1\leq p\leq \infty$ (page~<a href="#page:Banach-space">here</a>),
 
 	</li>
 	<li>
@@ -14144,7 +14156,7 @@ called <span class="define">subspace</span> or <span class="define">linear manif
 <li>
 	hence, for $A\subset X$,
 exists smallest linear manifold containing $A$,
-often denoted by $\{A\}$
+often denoted by <span class="notation">$\{A\}$</span>
 
 </li>
 <li>
@@ -14256,7 +14268,7 @@ isometrical isomorphism merely amounts to <i>element renaming</i>
 
 <h3>Properties of linear operators on vector spaces</h3>
 
-
+<div id="page:Properties-of-linear-operators"></div>
 <ul>
 <li>
 	for linear operators, point continuity $\Rightarrow$ boundedness $\Rightarrow$ uniform continuity,
@@ -14305,7 +14317,7 @@ while preserving properties of functional
 
 <h3>Hahn-Banach theorem</h3>
 
-
+<div id="page:Hahn-Banach-theorem"></div>
 <ul>
 <li>
 	<span class="name-font">Hahn-Banach theorem -</span>
@@ -14347,12 +14359,12 @@ $$
 
 <h3>Dual spaces of normed spaces</h3>
 
-
+<div id="page:Dual-of-normed-spaces"></div>
 <ul>
 <li>
 	space of <i>bounded linear functionals</i> on <i>normed space</i>, $X$,
 called <span class="define">dual</span> or <span class="define">conjugate</span> of $X$,
-denoted by $X^\ast$
+denoted by <span class="notation">$X^\ast$</span>
 
 
 
@@ -14360,7 +14372,7 @@ denoted by $X^\ast$
 
 </li>
 <li>
-	every dual is Banach space (refer to page~)
+	every dual is Banach space (refer to page~<a href="#page:Properties-of-linear-operators">here</a>)
 
 </li>
 <li>
@@ -14368,7 +14380,7 @@ denoted by $X^\ast$
 	<ul>
 	<li>
 		exists natural representation of bounded linear functional on $L^p$ by $L^q$
-(by Riesz representation theorem on page~)
+(by Riesz representation theorem on page~<a href="#page:Riesz-representation-theorem">here</a>)
 
 	</li>
 	</ul>
@@ -14383,7 +14395,7 @@ denoted by $X^\ast$
 
 <h3>Natural isomorphism</h3>
 
-
+<div id="page:Natural-isomorphism"></div>
 <ul>
 <li>
 	define linear mapping of normed space, $X$, to $X^{\ast\ast}$ (<i>i.e.</i>, dual of dual of $X$),
@@ -14404,7 +14416,7 @@ $\|\varphi(x)\|
 
 	</li>
 	<li>
-		by corollary on page~, there exists
+		by corollary on page~<a href="#page:Hahn-Banach-theorem">here</a>, there exists
 $f\in X^\ast$ such that $f(x)=\|x\|$,
 then $\|f\|=1$, and $f(x)=\|x\|$, thus $\|\varphi(x)\| = \sup_{\|g\|=1, g\in X^\ast} g(x) \geq f(x) = \|x\|$
 
@@ -14439,7 +14451,7 @@ which is subspace of $X^{\ast\ast}$
 <h3>Completeness of natural isomorphism</h3>
 
 
-
+<div id="page:Completeness-of-natural-isomorphism"></div>
 <ul>
 <li>
 	for natural isomorphism, $\varphi$
@@ -14449,7 +14461,7 @@ which is subspace of $X^{\ast\ast}$
 	$X^{\ast\ast}$ is complete, hence Banach space
 	<ul>
 	<li>
-		because bounded linear functional to $\reals$ (refer to page~)
+		because bounded linear functional to $\reals$ (refer to page~<a href="#page:Properties-of-linear-operators">here</a>)
 
 	</li>
 	</ul>
@@ -14457,7 +14469,7 @@ which is subspace of $X^{\ast\ast}$
 </li>
 <li>
 	thus, closure of $\varphi(X)$ in $X^{\ast\ast}$, $\closure{\varphi(X)}$, complete
-(refer to page~)
+(refer to page~<a href="#page:subspaces">here</a>)
 
 </li>
 <li>
@@ -14700,7 +14712,7 @@ to determine <i>translation invariance of topology</i>
 
 <h3>Sufficient and necessarily condition for topological vector spaces</h3>
 
-
+<div id="page:Sufficient-and-necessarily-condition-for-topological-vector-spaces"></div>
 
 <ul>
 <li>
@@ -14757,7 +14769,7 @@ hence can form <i>topological vector space</i>
 
 <h3>Topological isomorphism</h3>
 
-
+<div id="page:Topological-isomorphism"></div>
 <ul>
 <li>
 	in topological vector space,
@@ -14840,7 +14852,7 @@ for all finite $\collk{G}\subset\collF$ and $\epsilon>0$
 
 	</li>
 	<li>
-		basis satisfies properties on page~,
+		basis satisfies properties on page~<a href="#page:Sufficient-and-necessarily-condition-for-topological-vector-spaces">here</a>,
 hence, (above) weak topology makes <i>topological vector space</i>
 
 	</li>
@@ -14907,7 +14919,7 @@ all functionals in $X^{\ast\ast}$ are continuous
 is less useful than weak topology generated by $X$,
 <i>i.e.</i>, that generated by $\varphi(X)$
 where $\varphi$ is the natural embedding of $X$ into $X^{\ast\ast}$
-(refer to page~)
+(refer to page~<a href="#page:Natural-isomorphism">here</a>)
 
 </li>
 <li>
@@ -14949,7 +14961,7 @@ is compact in weak$^\ast$ topology
 
 <h3>Convex sets</h3>
 
-
+<div id="page:Convex---sets"></div>
 <ul>
 <li>
 	for vector space, $X$ and $x,y\in X$
@@ -15311,7 +15323,7 @@ $$
 
 
 
-denoted by $x\perp y$
+denoted by <span class="notation">$x\perp y$</span>
 
 </li>
 <li>
@@ -15371,7 +15383,8 @@ $$
 \|x\|^2 \geq \sum^n_{i=1} a_i^2
 $$
 
-
+	<div class="proof">
+		
 
 $$
 \begin{eqnarray*}
@@ -15397,6 +15410,7 @@ $$
 $$
 
 
+	</div>
 
 </li>
 </ul>
@@ -15486,7 +15500,7 @@ $$
 
 </li>
 <li>
-	Hausdorff maximal principle (<a href="#principle:Hausdorff maximal principle"></a>)
+	Hausdorff maximal principle (<a href="#principle:Hausdorff---maximal---principle"></a>)
 implies existence of maximal orthonormal system,
 hence following statement
 
@@ -15580,7 +15594,7 @@ and $\|f\|=\|y\|$
 </li>
 </ul>
 
-<h2 id="Measure-and-Integration">Measure and Integration</h2>
+<h2 id="title-page:Measure-and-Integration">Measure and Integration</h2>
 
 
 <h3>Purpose of integration theory</h3>
@@ -15629,7 +15643,7 @@ called <span class="define">set function</span>
 called <span class="define">measurable space</span>
 
 
-
+<div id="page:measure!measurable---spaces"></div>
 	<ul>
 	<li>
 		$A\in\algk{B}$, said to be <span class="define">measurable (with respect to \algk{B})</span>
@@ -15687,7 +15701,7 @@ with set of all subsets of $\reals$, $\powerset(\reals)$, and counting measure, 
 </li>
 <li>
 	interesting (and bizarre) example
-
+<div id="page:interesting-(and-bizarre)-example"></div>
 	<ul>
 	<li>
 		$\meas{X}{\collk{A}}{\mu_B}$
@@ -15833,7 +15847,7 @@ said to be <span class="define">semifinite</span>
 </li>
 <li>
 	every $\sigma$-finite measure is semifinite measure
-while measure, $\mu_B$, on page~
+while measure, $\mu_B$, on page~<a href="#page:interesting-(and-bizarre)-example">here</a>
 is not
 
 </li>
@@ -15942,12 +15956,12 @@ but measure can be extended on $\algC$ in more than one ways
 
 <h3>Measurable functions</h3>
 
-
+<div id="page:Measurable---functions"></div>
 <ul>
 <li>
 	concept and properties of measurable functions in abstract measurable space
 almost identical with those of Lebesgue measurable functions
-(page~)
+(page~<a href="#title-page:measurable-functions">here</a>)
 
 </li>
 <li>
@@ -15992,10 +16006,10 @@ called <span class="define">measurable</span> or <span class="define">measurable
 <h3>Properties of measurable functions</h3>
 
 
-
+<div id="page:Properties---of---measurable---functions"></div>
 <ul>
 <li>
-		<div class="theorem" id="theorem:measurability preserving function operations" data-name="measurability preserving function operations">
+		<div class="theorem" id="theorem:measurability---preserving---function---operations" data-name="measurability preserving function operations">
 		
 for measurable functions, $f$ and $g$, and $c\in\reals$
 		<ul>
@@ -16009,7 +16023,7 @@ for measurable functions, $f$ and $g$, and $c\in\reals$
 
 </li>
 <li>
-		<div class="theorem" id="theorem:limits of measurable functions" data-name="limits of measurable functions">
+		<div class="theorem" id="theorem:limits---of---measurable---functions" data-name="limits of measurable functions">
 		
 for every measurable function sequence, $\seq{f_n}$
 		<ul>
@@ -16031,7 +16045,7 @@ for every measurable function sequence, $\seq{f_n}$
 
 <h3>Simple functions and other properties</h3>
 
-
+<div id="page:Simple---functions"></div>
 <ul>
 <li>
 	$\varphi$ called <span class="define">simple function</span> if for distinct $\seq{c_i}_{i=1}^n$
@@ -16126,13 +16140,13 @@ such that $f\leq \alpha$ a.e. on $B_\alpha$ and $f\geq \alpha$ a.e. on $X\sim B_
 
 <h3>Integration</h3>
 
-
+<div id="page:Integration"></div>
 <ul>
 <li>
 	many definitions and proofs of Lebesgue integral
 depend only on properties of Lebesgue measure
 which are also true for arbitrary measure in abstract measure space
-(page~)
+(page~<a href="#title-page:lebesgue-integral">here</a>)
 
 </li>
 <li>
@@ -16171,7 +16185,7 @@ $$
 <li>
 	for bounded function, $f$, identically zero outside measurable set of finite measure
 
-
+<div id="page:integral---of---simple---functions"></div>
 
 $$
 \sup_{\varphi:\ \mathrm{simple},\ \varphi \leq f} \int \varphi
@@ -16212,7 +16226,7 @@ unless otherwise specified
 <ul>
 <li>
 	for Lebesgue integral of nonnegative functions
-(page~)
+(page~<a href="#page:Lebesgue---integral---of---nonnegative---functions">here</a>)
 	<ul>
 	<li>
 		first define integral for bounded measurable functions
@@ -16257,7 +16271,7 @@ integrals of nonnegative simple functions
 	for measurable function, $f:X\to\reals\cup\{\infty\}$, on measure space, $\meas{X}{\algB}{\mu}$,
 define <span class="define">integral of nonnegative extended real-valued measurable function</span>
 
-
+<div id="page:integral---of---nonnegative---extended---real-valued---measurable---function"></div>
 
 $$
 \int f d\mu = \sup_{\varphi:\ \mathrm{simple\ function},\ 0\leq \varphi\leq f} \int \varphi d\mu
@@ -16303,7 +16317,7 @@ with $\lim f_n = f$ a.e. on measurable set, $E$
 
 
 
-
+<div id="page:Fatou's---lemma!integral"></div>
 
 $$
 \int_E f \leq \liminf \int_E f_n
@@ -16317,7 +16331,7 @@ for nonnegative measurable function sequence, $\seq{f_n}$,
 with $f_n\leq f$ for all $n$ and with $\lim f_n = f$ a.e.
 
 
-
+<div id="page:abstract-------monotone---convergence---theorem"></div>
 
 $$
 \int_E f = \lim \int_E f_n
@@ -16333,7 +16347,7 @@ $$
 <ul>
 <li>
 	for nonnegative measurable functions, $f$ and $g$, and $a,b\in\preals$
-
+<div id="page:linearity---of---nonnegative---integral-------abstract"></div>
 
 $$
 \int (af + bg) = a\int f + b\int g
@@ -16365,7 +16379,7 @@ $$
 
 
 
-
+<div id="page:integrability---of---nonnegative---functions"></div>
 
 $$
 \int_E fd\mu <\infty
@@ -16386,7 +16400,7 @@ said to be <span class="define">integrable</span>
 
 
 
-
+<div id="page:integral"></div>
 
 </li>
 <li>
@@ -16407,7 +16421,7 @@ $$
 <li>
 	for $f$ and $g$ integrable on measure set, $E$, and $a,b\in\reals$
 
-
+<div id="page:properties---of---integral"></div>
 	<ul>
 	<li>
 		$af+bg$ is integral and
@@ -16449,7 +16463,7 @@ if
 
 
 
-
+<div id="page:Lebesgue!convergence---theorem"></div>
 
 $$
 |f_n(x)|\leq g(x)
@@ -16461,7 +16475,7 @@ $$
 \int_E f = \lim \int_E f_n
 $$
 
-
+<div id="page:Lebesgue---convergence---theorem"></div>
 
 
 </li>
@@ -16506,7 +16520,7 @@ sequence of measures, $\seq{\mu_n}$, defined on $\algB$, converging setwise to $
 and
 sequence of nonnegative functions, $\seq{f_n}$, each measurable with respect to $\mu_n$,
 converging pointwise to function, $f$, measurable with respect to $\mu$
-(compare with Fatou's lemma on page~)
+(compare with Fatou's lemma on page~<a href="#page:Fatou's---lemma!integral">here</a>)
 
 $$
 \int f d\mu \leq \liminf\int f_n d\mu_n
@@ -16525,7 +16539,7 @@ and
 sequences of functions, $\seq{f_n}$ and $\seq{g_n}$, each of $f_n$ and $g_n$, measurable with respect to $\mu_n$,
 converging pointwise to $f$ and $g$, measurable with respect to $\mu$, respectively,
 such that
-(compare with Lebesgue convergence theorem on page~)
+(compare with Lebesgue convergence theorem on page~<a href="#page:Lebesgue!convergence---theorem">here</a>)
 
 $$
 \lim \int g_n d\mu_n = \int g d\mu < \infty
@@ -16550,13 +16564,13 @@ $$
 	<li>
 		space of measurable functions on $X$ with with $\int |f|^p < \infty$,
 for which element equivalence is defined by being equal a.e.,
-called <span class="define">$L^p$ spaces</span> denoted by $L^p(\mu)$
+called <span class="define">$L^p$ spaces</span> denoted by <span class="notation">$L^p(\mu)$</span>
 
 
 	</li>
 	<li>
 		space of bounded measure functions,
-called <span class="define">$L^\infty$ space</span> denoted by $L^\infty(\mu)$
+called <span class="define">$L^\infty$ space</span> denoted by <span class="notation">$L^\infty(\mu)$</span>
 
 
 	</li>
@@ -16599,13 +16613,13 @@ spaces, $L^p(\mu)$, are Banach spaces
 
 <h3>Ho&#776;lder's inequality and Littlewood's second principle</h3>
 
-
+<div id="page:Holder---inequality-complete---measure---spaces"></div>
 <ul>
 <li>
 	<span class="name-font">Ho&#776;lder's inequality -</span>
 
 
-
+<div id="page:Holder's---inequality!complete---measure---spaces"></div>
 for $p,q\in[1,\infty]$ with $1/p+1/q=1$,
 $f\in L^p(\mu)$ and $g\in L^q(\mu)$ satisfy
 $fg \in L^1(\mu)$ and
@@ -16619,13 +16633,13 @@ $$
 </li>
 <li>
 	<span class="name-font">complete measure space version of Littlewood's second principle -</span>
-
+<div id="page:complete---measure---space---version---of---Littlewood's---second---principle"></div>
 
 for $p\in[1,\infty)$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall f\in L^p(\mu), \epsilon>0)
 
 \\
@@ -16652,7 +16666,7 @@ $$
 
 
 
-
+<div id="page:Riesz---representation---theorem!complete---measure---spaces"></div>
 for $p\in[1,\infty)$ and bounded linear functional, $F$, on $L^p(\mu)$
 and $\sigma$-finite measure, $\mu$,
 exists <i>unique</i> $g\in L^q(\mu)$
@@ -16674,7 +16688,7 @@ Riesz representation theorem holds without assumption of $\sigma$-finiteness of 
 </li>
 </ul>
 
-<h2 id="Measure and Outer Measure">Measure and Outer Measure</h2>
+<h2 id="title-page:Measure---and---Outer---Measure">Measure and Outer Measure</h2>
 
 
 <h3>General measures</h3>
@@ -17072,11 +17086,11 @@ every closed set (hence every Borel set) is measurable with respect to $\mu^\ast
 </li>
 </ul>
 
-<h1 id="Measure Theoretic Treatment of Probabilities">Measure-theoretic Treatment of Probabilities</h1>
+<h1 id="super-title-page:Measure---Theoretic---Treatment---of---Probabilities">Measure-theoretic Treatment of Probabilities</h1>
 
 
 
-<h2 id="Probability Measure">Probability Measure</h2>
+<h2 id="title-page:Probability---Measure">Probability Measure</h2>
 
 
 <h3>Measurable functions</h3>
@@ -17104,8 +17118,8 @@ $$
 
 said to be <span class="define">measurable with respect to $\algF/\algF'$</span>
 
-(thus, measurable functions defined on page~
-and page~
+(thus, measurable functions defined on page~<a href="#page:Lebesgue-measurable-functions">here</a>
+and page~<a href="#page:Measurable---functions">here</a>
 can be said to be measurable with respect to $\collk{B}/\algR$)
 
 </li>
@@ -17146,7 +17160,7 @@ every component, $f_i:\Omega\to\reals$, is measurable with respect to $\algF/\al
 satisfying following properties,
 called <span class="define">probability measure</span>
 
-(refer to page~ for resumblance with measurable spaces)
+(refer to page~<a href="#page:measure!measurable---spaces">here</a> for resumblance with measurable spaces)
 	<ul>
 	<li>
 		$(\forall A\in\algk{F})(0\leq P(A)\leq 1)$
@@ -17241,7 +17255,7 @@ $$
 two probability measures, $P_1$ and $P_2$, on $\sigma(\algk{P})$,
 agreeing $\algk{P}$,
 agree on $\sigma(\algk{P})$
-
+<div id="page:probability-measures-agreeing-on-P-agree-on-sigma-P"></div>
 
 </li>
 </ul>
@@ -17337,7 +17351,7 @@ said to be <span class="define">independent</span>
 
 
 
-
+<div id="probability---spaces!independence!of---collection---of---classes---of---events"></div>
 
 </li>
 <li>
@@ -17345,7 +17359,7 @@ said to be <span class="define">independent</span>
 for independent indexed collection, \seq{\subsetset{A}_\lambda}, with every $\subsetset{A}_\lambda$ being $\pi$-sytem,
 \seq{\sigma(\subsetset{A}_\lambda)} are independent
 </span>
-
+<div id="page:pi-system-induces-independent-sigma-algebras"></div>
 
 </li>
 <li>
@@ -17363,7 +17377,7 @@ are independent
 
 <ul>
 <li>
-		<div class="lemma" id="lemma:first Borel-Cantelli" data-name="first Borel-Cantelli">
+		<div class="lemma" id="lemma:first---Borel-Cantelli" data-name="first Borel-Cantelli">
 		
 
 for sequence of events, $\seq{A_n}$, with $\sum P(A_n)$ converging
@@ -17377,7 +17391,7 @@ $$
 
 </li>
 <li>
-		<div class="lemma" id="lemma:second Borel-Cantelli" data-name="second Borel-Cantelli">
+		<div class="lemma" id="lemma:second---Borel-Cantelli" data-name="second Borel-Cantelli">
 		
 
 for independent sequence of events, $\seq{A_n}$, with $\sum P(A_n)$ diverging
@@ -17591,7 +17605,7 @@ $$
 </li>
 <li>
 	
-(use conventions in page~ for extended real values)
+(use conventions in page~<a href="#page:Some---conventions">here</a> for extended real values)
 
 </li>
 <li>
@@ -17605,7 +17619,7 @@ $$
 		called <span class="define">product measure</span>
 
 
-and denoted by <span class="define">$\mu\times \nu$</span>
+and denoted by <span class="notation">$\mu\times \nu$</span>
 
 	</li>
 	<li>
@@ -17689,12 +17703,12 @@ for $f$, (not necessarily nonnegative) integrable function with respect to $\pi$
 </li>
 </ul>
 
-<h2 id="Random Variables">Random Variables</h2>
+<h2 id="title-page:Random---Variables">Random Variables</h2>
 
 
 <h3>Random variables</h3>
 
-
+<div id="page:random-variables"></div>
 <ul>
 <li>
 	
@@ -17732,7 +17746,7 @@ called <span class="define">$\sigma$-algebra generated by $X$</span>
 
 
 
-and denoted by <span class="define">$\sigma(X)$</span>
+and denoted by <span class="notation">$\sigma(X)$</span>
 	<ul>
 	<li>
 		$\sigma(X)$ consists exactly of sets, $\set{\omega\in \Omega}{X(\omega)\in H}$, for $H\in\algR^n$
@@ -17862,7 +17876,7 @@ $$
 </li>
 <li>
 	
-(refer to statement on page~)
+(refer to statement on page~<a href="#page:probability-measures-agreeing-on-P-agree-on-sigma-P">here</a>)
 	<ul>
 	<li>
 		note, though, $F$ does not need to differentiate to $f$ everywhere;
@@ -17997,7 +18011,7 @@ and similarly for $d\mu_{-i}$
 
 <ul>
 <li>
-	random variables, $X_1$, , $X_n$,
+	random variables, $X_1$, &hellip;, $X_n$,
 with independent $\sigma$-algebras generated by them,
 said to be <span class="define">independent</span>
 
@@ -18006,7 +18020,7 @@ said to be <span class="define">independent</span>
 </li>
 <li>
 	
-(refer to page~ for
+(refer to page~<a href="#probability---spaces!independence!of---collection---of---classes---of---events">here</a> for
 independence of collections of subsets)
 	<ul>
 	<li>
@@ -18046,7 +18060,7 @@ $$
 
 <ul>
 <li>
-	for random variables, $X_1$, , $X_n$,
+	for random variables, $X_1$, &hellip;, $X_n$,
 having $\mu$ and $F:\reals^n\to[0,1]$ as their distribution and CDF,
 with each $X_i$ having $\mu_i$ and $F_i:\reals\to[0,1]$ as its distribution and CDF,
 following statements are <i>equivalent</i>
@@ -18095,9 +18109,9 @@ following statements are <i>equivalent</i>
 
 </li>
 <li>
-	random variables, $X_1$, , $X_n$,
+	random variables, $X_1$, &hellip;, $X_n$,
 each of which is measurable with respect to each of $n$ independent $\sigma$-algebras,
-$\algk{G}_1\subset \algF$, , $\algk{G}_n\subset \algF$
+$\algk{G}_1\subset \algF$, &hellip;, $\algk{G}_n\subset \algF$
 respectively,
 are independent
 
@@ -18110,7 +18124,7 @@ are independent
 
 <ul>
 <li>
-	for random vectors, $X_1:\Omega\to\reals^{d_1}$, , $X_n:\Omega\to\reals^{d_n}$,
+	for random vectors, $X_1:\Omega\to\reals^{d_1}$, &hellip;, $X_n:\Omega\to\reals^{d_n}$,
 having $\mu$ and $F:\reals^{d_1}\times\cdots\times\reals^{d_n}\to[0,1]$ as their distribution and CDF,
 with each $X_i$ having $\mu_i$ and $F_i:\reals^{d_i}\to[0,1]$ as its distribution and CDF,
 following statements are <i>equivalent</i>
@@ -18179,7 +18193,7 @@ are independent
 
 <h3>Probability evaluation for two independent random vectors</h3>
 
-<div class="theorem" id="theorem:Probability evaluation for two independent random vectors" data-name="Probability evaluation for two independent random vectors">
+<div class="theorem" id="theorem:Probability---evaluation---for---two---independent---random---vectors" data-name="Probability evaluation for two independent random vectors">
 	
 for independent random vectors, $X$ and $Y$,
 with distributions, $\mu$ and $\nu$, in $\reals^n$ and $\reals^m$ respectively
@@ -18209,7 +18223,7 @@ $$
 
 <h3>Sequence of random variables</h3>
 
-<div class="theorem" id="theorem:squence of random variables" data-name="squence of random variables">
+<div class="theorem" id="theorem:squence---of---random---variables" data-name="squence of random variables">
 	
 for sequence of probability measures on $\algR$, $\seq{\mu_n}$,
 exists probability space, $\meas{X}{\Omega}{P}$,
@@ -18220,7 +18234,7 @@ such that each $X_n$ has $\mu_n$ as distribution
 
 <h3>Expected values</h3>
 
-<div class="definition" id="definition:expected values" data-name="expected values">
+<div class="definition" id="definition:expected---values" data-name="expected values">
 	
 
 
@@ -18289,7 +18303,7 @@ if $X_n$ converges to $X$ in probability
 
 <h3>Markov and Chebyshev's inequalities</h3>
 
-<div class="inequality" id="inequality:Markov inequality" data-name="Markov inequality">
+<div class="inequality" id="inequality:Markov---inequality" data-name="Markov inequality">
 	
 
 
@@ -18309,7 +18323,7 @@ $$
 for general $X$
 
 </div>
-<div class="inequality" id="inequality:Chebyshev's inequality" data-name="Chebyshev's inequality">
+<div class="inequality" id="inequality:Chebyshev's---inequality" data-name="Chebyshev's inequality">
 	
 
 
@@ -18330,7 +18344,7 @@ for general $X$
 
 <h3>Jensen's, Ho&#776;lder's, and Lyapunov's inequalities</h3>
 
-<div class="inequality" id="inequality:Jensen's inequality" data-name="Jensen's inequality">
+<div class="inequality" id="inequality:Jensen's---inequality" data-name="Jensen's inequality">
 	
 
 
@@ -18345,7 +18359,7 @@ $$
 
 
 </div>
-<div class="inequality" id="inequality:Holder's inequality" data-name="Holder's inequality">
+<div class="inequality" id="inequality:Holder's---inequality" data-name="Holder's inequality">
 	
 
 
@@ -18363,7 +18377,7 @@ $$
 </div>
 
 
-<div class="inequality" id="inequality:Lyapunov's inequality" data-name="Lyapunov's inequality">
+<div class="inequality" id="inequality:Lyapunov's---inequality" data-name="Lyapunov's inequality">
 	
 
 
@@ -18389,7 +18403,7 @@ $$
 <h3>Maximal inequalities</h3>
 
 
-<div class="theorem" id="theorem:Kolmogorov's zero-one law" data-name="Kolmogorov's zero-one law">
+<div class="theorem" id="theorem:Kolmogorov's---zero-one---law" data-name="Kolmogorov's zero-one law">
 	
 
 
@@ -18402,7 +18416,7 @@ $$
 
 </div>
 -- define $S_n = \sum X_i$
-<div class="inequality" id="inequality:Kolmogorov's maximal inequality" data-name="Kolmogorov's maximal inequality">
+<div class="inequality" id="inequality:Kolmogorov's---maximal---inequality" data-name="Kolmogorov's maximal inequality">
 	
 
 
@@ -18415,7 +18429,7 @@ $$
 
 
 </div>
-<div class="inequality" id="inequality:Etemadi's maximal inequality" data-name="Etemadi's maximal inequality">
+<div class="inequality" id="inequality:Etemadi's---maximal---inequality" data-name="Etemadi's maximal inequality">
 	
 
 
@@ -18431,7 +18445,7 @@ $$
 
 <h3>Moments</h3>
 
-<div class="definition" id="definition:moments and absolute moments" data-name="moments and absolute moments">
+<div class="definition" id="definition:moments---and---absolute---moments" data-name="moments and absolute moments">
 	
 
 
@@ -18476,7 +18490,7 @@ called <span class="define">$k$-th absolute moment</span> of $X$ or $\mu$ or $F$
 
 <h3>Moment generating functions</h3>
 
-<div class="definition" id="definition:moment generating function" data-name="moment generating function">
+<div class="definition" id="definition:moment---generating---function" data-name="moment generating function">
 	
 
 
@@ -18523,14 +18537,14 @@ $$
 </li>
 </ul>
 
-<h2 id="Convergence of Random Variables">Convergence of Random Variables</h2>
+<h2 id="title-page:Convergence---of---Random---Variables">Convergence of Random Variables</h2>
 
 
 <h3>Convergences of random variables</h3>
 
 
 
-<div class="definition" id="definition:convergence with probability $1$" data-name="convergence with probability $1$">
+<div class="definition" id="definition:convergence---with---probability---$1$" data-name="convergence with probability $1$">
 	
 
 
@@ -18545,10 +18559,10 @@ $$
 $$
 
 said to <span class="define">converge to $X$ with probability $1$</span>
-and denoted by <span class="define">$X_n\to X$ a.s.</span>
+and denoted by <span class="notation">$X_n\to X$ a.s.</span>
 
 </div>
-<div class="definition" id="definition:convergence in probability" data-name="convergence in probability">
+<div class="definition" id="definition:convergence---in---probability" data-name="convergence in probability">
 	
 
 
@@ -18568,7 +18582,7 @@ $$
 said to <span class="define">converge to $X$ in probability</span>
 
 </div>
-<div class="definition" id="definition:weak convergence" data-name="weak convergence">
+<div class="definition" id="definition:weak---convergence" data-name="weak convergence">
 	
 
 
@@ -18585,10 +18599,10 @@ $$
 $$
 
 said to <span class="define">converge weakly to distribution function, $F$,</span>
-and denoted by <span class="define">$F_n \Rightarrow F$</span>
+and denoted by <span class="notation">$F_n \Rightarrow F$</span>
 
 </div>
-<div class="definition" id="definition:converge in distribution" data-name="converge in distribution">
+<div class="definition" id="definition:converge---in---distribution" data-name="converge in distribution">
 	
 
 
@@ -18596,10 +18610,10 @@ and denoted by <span class="define">$F_n \Rightarrow F$</span>
 When $F_n\Rightarrow F$,
 associated random variables, $\seq{X_n}$,
 said to <span class="define">converge in distribution</span> to $X$, associated with $F$,
-and denoted by <span class="define">$X_n \Rightarrow X$</span>
+and denoted by <span class="notation">$X_n \Rightarrow X$</span>
 
 </div>
-<div class="definition" id="definition:weak convergence of measures" data-name="weak convergence of measures">
+<div class="definition" id="definition:weak---convergence---of---measures" data-name="weak convergence of measures">
 	
 
 
@@ -18637,7 +18651,7 @@ it holds for many other subsets
 
 
 
-<div class="proposition" id="proposition:relations of convergence of random variables" data-name="relations of convergence of random variables">
+<div class="proposition" id="proposition:relations---of---convergence---of---random---variables" data-name="relations of convergence of random variables">
 	
 convergence with probability $1$ implies convergence in probability,
 which implies $X_n\Rightarrow X$, <i>i.e.</i>
@@ -18735,7 +18749,7 @@ $$
 <h3>Strong law of large numbers</h3>
 
 -- define $S_n = \sum_{i=1}^n X_i$
-<div class="theorem" id="theorem:strong law of large numbers" data-name="strong law of large numbers">
+<div class="theorem" id="theorem:strong---law---of---large---numbers" data-name="strong law of large numbers">
 	
 
 
@@ -18758,7 +18772,7 @@ with probability $1$
 
 </li>
 </ul>
-<div class="corollary" id="corollary:strong law of large numbers" data-name="strong law of large numbers">
+<div class="corollary" id="corollary:strong---law---of---large---numbers" data-name="strong law of large numbers">
 	
 for sequence of independent and identically distributed (i.i.d.) random variables
 with $\Expect X_1^- < \infty$ and $\Expect X_1^+ = \infty$ (hence, $\Expect X = \infty$)
@@ -18774,7 +18788,7 @@ with probability $1$
 <h3>Weak law of large numbers</h3>
 
 -- define $S_n = \sum_{i=1}^n X_i$
-<div class="theorem" id="theorem:weak law of large numbers" data-name="weak law of large numbers">
+<div class="theorem" id="theorem:weak---law---of---large---numbers" data-name="weak law of large numbers">
 	
 
 
@@ -18791,7 +18805,7 @@ in probability
 <ul>
 <li>
 	because convergence with probability $1$ implies convergence in probability
-(<a href="#proposition:relations of convergence of random variables"></a>),
+(<a href="#proposition:relations---of---convergence---of---random---variables"></a>),
 strong law of large numbers
 implies
 weak law of large numbers
@@ -18804,7 +18818,7 @@ weak law of large numbers
 
 
 -- assume probability space, $\meas{\Omega}{\algF}{P}$
-<div class="definition" id="definition:normal distributions" data-name="normal distributions">
+<div class="definition" id="definition:normal---distributions" data-name="normal distributions">
 	
 
 
@@ -18822,7 +18836,7 @@ $$
 where $\mu=PX^{-1}$
 for some $\sigma>0$ and $c\in\reals$,
 called <span class="define">normal distribution</span>
-and denoted by <span class="define">$X \sim \normal(c,\sigma^2)$</span>
+and denoted by <span class="notation">$X \sim \normal(c,\sigma^2)$</span>
 
 </div>
 <ul>
@@ -18846,7 +18860,7 @@ when $c=0$ and $\sigma=1$
 
 
 -- assume probability space, $\meas{\Omega}{\algF}{P}$
-<div class="definition" id="definition:multivariate normal distributions" data-name="multivariate normal distributions">
+<div class="definition" id="definition:multivariate---normal---distributions" data-name="multivariate normal distributions">
 	
 
 
@@ -18864,7 +18878,7 @@ $$
 where $\mu=PX^{-1}$
 for some $\Sigma\succ0\in\posdefset{n}$ and $c\in\reals^n$,
 called <span class="define">($n$-dimensional) normal distribution</span>,
-and denoted by <span class="define">$X \sim \normal(c,\Sigma)$</span>
+and denoted by <span class="notation">$X \sim \normal(c,\Sigma)$</span>
 
 </div>
 <ul>
@@ -18882,7 +18896,7 @@ note that $\Expect X=c$ and covariance matrix is $\Sigma$
 
 
 -- define $S_n = \sum^n X_i$
-<div class="theorem" id="theorem:Lindeberg-Levy theorem" data-name="Lindeberg-Levy theorem">
+<div class="theorem" id="theorem:Lindeberg-Levy---theorem" data-name="Lindeberg-Levy theorem">
 	
 
 
@@ -18901,7 +18915,7 @@ where $N$ is standard normal distribution
 <ul>
 <li>
 	
-<a href="#theorem:Lindeberg-Levy theorem"></a> implies
+<a href="#theorem:Lindeberg-Levy---theorem"></a> implies
 
 $$
 S_n / n \Rightarrow c
@@ -18915,7 +18929,7 @@ $$
 
 
 
-<div class="theorem" id="theorem:equivalent statements to weak convergence" data-name="equivalent statements to weak convergence">
+<div class="theorem" id="theorem:equivalent---statements---to---weak---convergence" data-name="equivalent statements to weak convergence">
 	
 each of following statements are equivalent to
 weak convergence of measures, $\seq{\mu_n}$, to $\mu$,
@@ -18940,7 +18954,7 @@ on measurable space, $\measu{\reals^k}{\algR^k}$
 	</ul>
 
 </div>
-<div class="theorem" id="theorem:convergence in distribution of random vector" data-name="convergence in distribution of random vector">
+<div class="theorem" id="theorem:convergence---in---distribution---of---random---vector" data-name="convergence in distribution of random vector">
 	
 for random vectors, $\seq{X_n}$, and random vector, $Y$, of $k$-dimension,
 $X_n\Rightarrow Y$, <i>i.e.</i>, $X_n$ converge to $Y$ in distribution
@@ -18964,7 +18978,7 @@ $$
 
 
 -- assume probability space, $\meas{\Omega}{\algF}{P}$ and define $\sum^n X_i = S_n$
-<div class="theorem" id="theorem:central limit theorem" data-name="central limit theorem">
+<div class="theorem" id="theorem:central---limit---theorem" data-name="central limit theorem">
 	
 for random variables, $\seq{X_n}$, having same distributions with $\Expect X_n = c\in\reals^k$
 and positive definite covariance matrix, $\Sigma\succ0\in\mathcalfont{S}_k$,
@@ -18995,7 +19009,7 @@ where $Y \sim \normal(0,\Sigma)$
 
 </li>
 </ul>
-<div class="theorem" id="theorem:convergence with probability 1 for random series" data-name="convergence with probability 1 for random series">
+<div class="theorem" id="theorem:convergence---with---probability---1---for---random---series" data-name="convergence with probability 1 for random series">
 	
 for independent $\seq{X_n}$ with $\Expect X_n=0$ and $\Var X_n < \infty$
 
@@ -19005,7 +19019,7 @@ $$
 
 
 </div>
-<div class="theorem" id="theorem:convergence conditions for random series" data-name="convergence conditions for random series">
+<div class="theorem" id="theorem:convergence---conditions---for---random---series" data-name="convergence conditions for random series">
 	
 for independent $\seq{X_n}$,
 $\sum X_n$ converges with probability $1$
@@ -19015,13 +19029,13 @@ they converges in probability
 </div>
 
 -- define trucated version of $X_n$ by $X_n^{(c)}$, <i>i.e.</i>, $X_n I_{|X_n|\leq c}$
-<div class="theorem" id="theorem:convergence conditions for truncated random series" data-name="convergence conditions for truncated random series">
+<div class="theorem" id="theorem:convergence---conditions---for---truncated---random---series" data-name="convergence conditions for truncated random series">
 	
 for independent $\seq{X_n}$,
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 \sum X_n
 \mbox{ converge with probability $1$}
 
@@ -19038,7 +19052,7 @@ $$
 
 </div>
 
-<h1 id="Convex Optimization">Convex Optimization</h1>
+<h1 id="super-title-page:Convex---Optimization">Convex Optimization</h1>
 
 
 
@@ -19069,7 +19083,7 @@ $$
 
 
 
-<h2 id="Convex Sets">Convex Sets</h2>
+<h2 id="title-page:Convex---Sets">Convex Sets</h2>
 
 
 <h3>Lines and line segmenets</h3>
@@ -19085,7 +19099,7 @@ $$
 called <span class="define">line going through $x$ and $y$</span>
 
 </div>
-<div class="definition" id="definition:line segmenets" data-name="line segmenets">
+<div class="definition" id="definition:line---segmenets" data-name="line segmenets">
 	
 for some $x,y\in\reals^n$
 
@@ -19099,7 +19113,7 @@ called <span class="define">line segment connecting $x$ and $y$</span>
 
 <h3>Affine sets</h3>
 
-<div class="definition" id="definition:affine sets" data-name="affine sets">
+<div class="definition" id="definition:affine---sets" data-name="affine sets">
 	
 set, $C\subset \reals^n$,
 every line going through any two points in which
@@ -19118,12 +19132,12 @@ called
 <span class="define">affine set</span>
 
 </div>
-<div class="definition" id="definition:affine hulls" data-name="affine hulls">
+<div class="definition" id="definition:affine---hulls" data-name="affine hulls">
 	
 for set, $C\subset\reals^n$,
 intersection of all affine sets containing $C$,
 called <span class="define">affine hull of $C$</span>,
-denoted by <span class="define">$\affinehull C$</span>,
+denoted by <span class="notation">$\affinehull C$</span>,
 which is equal to
 set of all affine combinations of points in $C$, <i>i.e.</i>
 
@@ -19134,7 +19148,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:affine dimension" data-name="affine dimension">
+<div class="definition" id="definition:affine---dimension" data-name="affine dimension">
 	
 for $C\subset \reals^n$,
 dimension of $\affinehull C$,
@@ -19144,7 +19158,7 @@ called <span class="define">affine dimension</span>
 
 <h3>Relative interiors and boundaries</h3>
 
-<div class="definition" id="definition:relative interiors of sets" data-name="relative interiors of sets">
+<div class="definition" id="definition:relative---interiors---of---sets" data-name="relative interiors of sets">
 	
 for $C\subset \reals^n$,
 
@@ -19159,10 +19173,10 @@ $$
 $$
 
 is called <span class="define">relative interior of $C$</span> or <span class="define">interior relative to $C$</span>,
-denoted by <span class="define">$\relint C$</span>
+denoted by <span class="notation">$\relint C$</span>
 
 </div>
-<div class="definition" id="definition:relative boundaries of sets" data-name="relative boundaries of sets">
+<div class="definition" id="definition:relative---boundaries---of---sets" data-name="relative boundaries of sets">
 	
 for $C\subset \reals^n$,
 $\closure{C}\sim \relint C$,
@@ -19172,7 +19186,7 @@ called <span class="define">relative boundary of $C$</span>
 
 <h3>Convex sets</h3>
 
-<div class="definition" id="definition:convex sets" data-name="convex sets">
+<div class="definition" id="definition:convex---sets" data-name="convex sets">
 	
 set, $C\subset \reals^n$,
 every line segment connecting any two points in which
@@ -19193,12 +19207,12 @@ $$
 called <span class="define">convex set</span>
 
 </div>
-<div class="definition" id="definition:convex hulls" data-name="convex hulls">
+<div class="definition" id="definition:convex---hulls" data-name="convex hulls">
 	
 for set, $C\subset \reals^n$,
 intersection of all convex sets containing $C$,
 called <span class="define">convex hull of $C$</span>,
-denoted by <span class="define">$\cvxhull C$</span>,
+denoted by <span class="notation">$\cvxhull C$</span>,
 which is equal to
 set of all convex combinations of points in $C$, <i>i.e.</i>
 
@@ -19235,7 +19249,7 @@ $$
 called <span class="define">cone</span> or <span class="define">nonnegative homogeneous</span>
 
 </div>
-<div class="definition" id="definition:convex cone" data-name="convex cone">
+<div class="definition" id="definition:convex---cone" data-name="convex cone">
 	
 set, $C\subset \reals^n$,
 which is both convex and cone,
@@ -19281,7 +19295,7 @@ $$
 for some $a\neq0 \in \reals^n$ and $b\in \reals$
 
 </div>
-<div class="definition" id="definition:half spaces" data-name="half spaces">
+<div class="definition" id="definition:half---spaces" data-name="half spaces">
 	
 one of two sets divided by hyperplane,
 called <span class="define">half space</span>;
@@ -19304,12 +19318,12 @@ for some $a\neq0 \in \reals^n$ and $b\in \reals$
 
 <h3>Euclidean balls and ellipsoids</h3>
 
-<div class="definition" id="definition:Euclidean ball" data-name="Euclidean ball">
+<div class="definition" id="definition:Euclidean---ball" data-name="Euclidean ball">
 	
 set of all points distance of which from point, $x\in\reals^n$,
 is no greater than $r>0$,
 called <span class="define">(Euclidean) ball centered at $x$ with radius, $r$</span>,
-denoted by <span class="define">$\ball{x}{r}$</span>,
+denoted by <span class="notation">$\ball{x}{r}$</span>,
 <i>i.e.</i>
 
 $$
@@ -19340,7 +19354,7 @@ for some $x\in\reals^n$ and $P\in \posdefset{n}$
 
 <h3>Norm balls and norm cones</h3>
 
-<div class="definition" id="definition:norm ball" data-name="norm ball">
+<div class="definition" id="definition:norm---ball" data-name="norm ball">
 	
 for norm, $\|\cdot\|:\reals^n\to\preals$,
 set of all points distance of which measured in the norm from point, $x\in\reals^n$,
@@ -19354,7 +19368,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:norm cone" data-name="norm cone">
+<div class="definition" id="definition:norm---cone" data-name="norm cone">
 	
 for norm, $\|\cdot\|:\reals^n\to\preals$,
 $x\in\reals^n$,
@@ -19368,7 +19382,7 @@ $$
 called <span class="define">cone associated with norm, $\|\cdot\|$</span>
 
 </div>
-<div class="definition" id="definition:second-order cone" data-name="second-order cone">
+<div class="definition" id="definition:second-order---cone" data-name="second-order cone">
 	
 norm cone associated with Euclidean norm,
 called <span class="define">second-order cone</span>
@@ -19398,14 +19412,14 @@ for $A\in\reals^{m\times n}$, $b\in\reals^m$, $C\in\reals^{p\times n}$, $d\in\re
 </div>
 <ul>
 <li>
-	polyhedron is convex set (by <a href="#proposition:convexity preserving set operations"></a>)
+	polyhedron is convex set (by <a href="#proposition:convexity---preserving---set---operations"></a>)
 
 </li>
 </ul>
 
 <h3>Convexity preserving set operations</h3>
 
-<div class="proposition" id="proposition:convexity preserving set operations" data-name="convexity preserving set operations">
+<div class="proposition" id="proposition:convexity---preserving---set---operations" data-name="convexity preserving set operations">
 	
 
 
@@ -19530,7 +19544,7 @@ are convex
 
 <h3>Proper cones and generalized inequalities</h3>
 
-<div class="definition" id="definition:proper cones" data-name="proper cones">
+<div class="definition" id="definition:proper---cones" data-name="proper cones">
 	
 closed convex cone $K$ which is
 
@@ -19555,7 +19569,7 @@ $\prealk{n}$ and $\possemidefset{n}$
 
 </li>
 </ul>
-<div class="definition" id="definition:generalized inequalities" data-name="generalized inequalities">
+<div class="definition" id="definition:generalized---inequalities" data-name="generalized inequalities">
 	
 proper cone $K$
 defines <span class="define">generalized inequalities</span>
@@ -19601,7 +19615,7 @@ $$
 	for affine function $g:\reals^n\to\symset{m}$,
 <i>i.e.</i>, $f(x)=A_0 + A_1 x_1 + \cdots + A_n x_n$
 for some $A_0,\ldots,A_n\in\symset{m}$,
-$f^{-1}(\possemidefset{n})$ is convex (by <a href="#proposition:convexity preserving set operations"></a>),
+$f^{-1}(\possemidefset{n})$ is convex (by <a href="#proposition:convexity---preserving---set---operations"></a>),
 <i>i.e.</i>,
 
 $$
@@ -19627,7 +19641,7 @@ is (also) convex
 
 <h3>Separating and supporting hyperplanes</h3>
 
-<div class="theorem" id="theorem:separating hyperplane theorem" data-name="separating hyperplane theorem">
+<div class="theorem" id="theorem:separating---hyperplane---theorem" data-name="separating hyperplane theorem">
 	
 for nonempty disjoint convex sets $C$ and $D$,
 exists hyperplane which separates $C$ and $D$,
@@ -19649,15 +19663,15 @@ $$
 
 
 </div>
-<div class="definition" id="definition:separating hyperplanes" data-name="separating hyperplanes">
+<div class="definition" id="definition:separating---hyperplanes" data-name="separating hyperplanes">
 	
 for nonempty disjoint convex sets $C$ and $D$,
-hyperplane satisfying property in <a href="#theorem:separating hyperplane theorem"></a>,
+hyperplane satisfying property in <a href="#theorem:separating---hyperplane---theorem"></a>,
 called <span class="define">separating hyperplane</span>,
 said to <span class="define">separate $C$ and $D$</span>
 
 </div>
-<div class="theorem" id="theorem:supporting hyperplane theorem" data-name="supporting hyperplane theorem">
+<div class="theorem" id="theorem:supporting---hyperplane---theorem" data-name="supporting hyperplane theorem">
 	
 for nonempty convex set $C$
 and $x\in \boundary C$,
@@ -19678,11 +19692,11 @@ $$
 
 
 </div>
-<div class="definition" id="definition:supporting hyperplanes" data-name="supporting hyperplanes">
+<div class="definition" id="definition:supporting---hyperplanes" data-name="supporting hyperplanes">
 	
 for nonempty convex set $C$
 and $x\in \boundary C$,
-hyperplane satisfied property in <a href="#theorem:supporting hyperplane theorem"></a>,
+hyperplane satisfied property in <a href="#theorem:supporting---hyperplane---theorem"></a>,
 called <span class="define">supporting hyperplane</span>
 
 </div>
@@ -19691,7 +19705,7 @@ called <span class="define">supporting hyperplane</span>
 
 
 
-<div class="definition" id="definition:dual cones" data-name="dual cones">
+<div class="definition" id="definition:dual---cones" data-name="dual cones">
 	
 for cone $K$,
 
@@ -19700,7 +19714,7 @@ $$
 $$
 
 called <span class="define">dual cone of $K$</span>,
-denoted by <span class="define">$K^\ast$</span>
+denoted by <span class="notation">$K^\ast$</span>
 
 </div>
 <ul>
@@ -19712,16 +19726,16 @@ denoted by <span class="define">$K^\ast$</span>
 
 
 
+&nbsp;
 
 
-
-
+<div id="fig:dual---cone"></div>
 
 
 
 <h3>Dual norms</h3>
 
-<div class="definition" id="definition:dual norms" data-name="dual norms">
+<div class="definition" id="definition:dual---norms" data-name="dual norms">
 	
 for norm $\|\cdot\|$,
 fudnction defined by
@@ -19731,7 +19745,7 @@ y \mapsto \sup \set{y^Tx}{\|x\|\leq 1}
 $$
 
 called <span class="define">dual norm of $\|\cdot\|$</span>,
-denoted by <span class="define">$\|\cdot\|_\ast$</span>
+denoted by <span class="notation">$\|\cdot\|_\ast$</span>
 
 </div>
 <ul>
@@ -19767,7 +19781,7 @@ $$
 
 <h3>Properties of dual cones</h3>
 
-<div class="proposition" id="proposition:properties of dual cones" data-name="properties of dual cones">
+<div class="proposition" id="proposition:properties---of---dual---cones" data-name="properties of dual cones">
 	
 for cones $K$, $K_1$, and $K_2$
 
@@ -19821,14 +19835,14 @@ thus,
 
 <ul>
 <li>
-	dual of proper cone is proper (<a href="#proposition:properties of dual cones"></a>),
+	dual of proper cone is proper (<a href="#proposition:properties---of---dual---cones"></a>),
 hence the dual also induces generalized inequalities
 
 </li>
 </ul>
 <div class="proposition" id="proposition:">
 	
-
+<div id="proposition:generalized---inequalities---and---dual---generalized---inequalities"></div>
 for proper cone $K$,
 
 	<ul>
@@ -19860,7 +19874,7 @@ above are equivalent to
 
 <h3>Theorem of alternative for linear strict generalized inequalities</h3>
 
-<div class="theorem" id="theorem:theorem of alternative for linear strict generalized inequalities" data-name="theorem of alternative for linear strict generalized inequalities">
+<div class="theorem" id="theorem:theorem---of---alternative---for---linear---strict---generalized---inequalities" data-name="theorem of alternative for linear strict generalized inequalities">
 	
 for
 proper cone $K\subset \reals^m$,
@@ -19890,12 +19904,12 @@ exactly one of them is feasible.
 
 </div>
 
-<h2 id="Convex Functions">Convex Functions</h2>
+<h2 id="title-page:Convex---Functions">Convex Functions</h2>
 
 
 <h3>Convex functions</h3>
 
-<div class="definition" id="definition:convex functions" data-name="convex functions">
+<div class="definition" id="definition:convex---functions" data-name="convex functions">
 	
 
 
@@ -19941,7 +19955,7 @@ said to be <span class="define">strictly convex</span>
 	</ul>
 
 </div>
-<div class="definition" id="definition:concave functions" data-name="concave functions">
+<div class="definition" id="definition:concave---functions" data-name="concave functions">
 	
 
 
@@ -19966,7 +19980,7 @@ said to be <span class="define">strictly concave</span>
 
 <h3>Extended real-value extensions of convex functions</h3>
 
-<div class="definition" id="definition:extended real-value extension of convex functions" data-name="extended real-value extension of convex functions">
+<div class="definition" id="definition:extended---real-value---extension---of---convex---functions" data-name="extended real-value extension of convex functions">
 	
 for convex function $f$,
 function
@@ -20031,7 +20045,7 @@ $$
 
 <h3>First-order condition for convexity</h3>
 
-<div class="theorem" id="theorem:first-order condition for convexity" data-name="first-order condition for convexity">
+<div class="theorem" id="theorem:first-order---condition---for---convexity" data-name="first-order condition for convexity">
 	
 differentiable $f$,
 <i>i.e.</i>, $\dom f$ is open
@@ -20074,7 +20088,7 @@ $$
 </div>
 <ul>
 <li>
-	<a href="#theorem:first-order condition for convexity"></a>
+	<a href="#theorem:first-order---condition---for---convexity"></a>
 implies
 that
 for convex function $f$
@@ -20107,7 +20121,7 @@ local information
 
 <h3>Second-order condition for convexity</h3>
 
-<div class="theorem" id="theorem:second-order condition for convexity" data-name="second-order condition for convexity">
+<div class="theorem" id="theorem:second-order---condition---for---convexity" data-name="second-order condition for convexity">
 	
 twice-differentiable $f$,
 <i>i.e.</i>, $\dom f$ is open
@@ -20253,7 +20267,7 @@ is concave on $\posdefset{n}$
 
 <h3>Sublevel sets and superlevel sets</h3>
 
-<div class="definition" id="definition:sublevel sets" data-name="sublevel sets">
+<div class="definition" id="definition:sublevel---sets" data-name="sublevel sets">
 	
 for function $f$ and $\alpha\in\reals$,
 
@@ -20264,7 +20278,7 @@ $$
 called <span class="define">$\alpha$-sublevel set of $f$</span>
 
 </div>
-<div class="definition" id="definition:superlevel sets" data-name="superlevel sets">
+<div class="definition" id="definition:superlevel---sets" data-name="superlevel sets">
 	
 for function $f$ and $\alpha\in\reals$,
 
@@ -20275,7 +20289,7 @@ $$
 called <span class="define">$\alpha$-superlevel set of $f$</span>
 
 </div>
-<div class="proposition" id="proposition:convexity of level sets" data-name="convexity of level sets">
+<div class="proposition" id="proposition:convexity---of---level---sets" data-name="convexity of level sets">
 	
 
 
@@ -20316,7 +20330,7 @@ $$
 $$
 
 called <span class="define">epigraph of $f$</span>,
-denoted by <span class="define">$\epi f$</span>
+denoted by <span class="notation">$\epi f$</span>
 
 </div>
 <div class="definition" id="definition:hypographs" data-name="hypographs">
@@ -20328,10 +20342,10 @@ $$
 $$
 
 called <span class="define">hypograph of $f$</span>,
-denoted by <span class="define">$\hypo f$</span>
+denoted by <span class="notation">$\hypo f$</span>
 
 </div>
-<div class="proposition" id="proposition:graphs and convexity" data-name="graphs and convexity">
+<div class="proposition" id="proposition:graphs---and---convexity" data-name="graphs and convexity">
 	
 
 
@@ -20350,7 +20364,7 @@ denoted by <span class="define">$\hypo f$</span>
 
 <h3>Convexity preserving function operations</h3>
 
-<div class="proposition" id="proposition:convexity preserving function operations" data-name="convexity preserving function operations">
+<div class="proposition" id="proposition:convexity---preserving---function---operations" data-name="convexity preserving function operations">
 	
 
 
@@ -20359,7 +20373,7 @@ denoted by <span class="define">$\hypo f$</span>
 		nonnegative weighted sum preserves convexity
 		<ul>
 		<li>
-			for convex functions $f_1$, , $f_n$ and nonnegative weights $w_1,\ldots, w_n$
+			for convex functions $f_1$, &hellip;, $f_n$ and nonnegative weights $w_1,\ldots, w_n$
 
 $$
 w_1 f_1 + \cdots w_n f_n
@@ -20396,7 +20410,7 @@ is convex
 		pointwise maximum preserves convexity
 		<ul>
 		<li>
-			for convex functions $f_1$, , $f_n$
+			for convex functions $f_1$, &hellip;, $f_n$
 
 $$
 \max\{f_1, \ldots, f_n\}
@@ -20427,7 +20441,7 @@ is convex
 	</li>
 	<li>
 		composition
-
+<div id="page:convexity---preserving---operation-------composition"></div>
 		<ul>
 		<li>
 			suppose $g:\reals^n\to\reals^k$, $h:\reals^k\to\reals$, and $f=h\circ g$
@@ -20496,7 +20510,7 @@ is convex
 
 <h3>Convex functions examples</h3>
 
-<a href="#proposition:convexity preserving function operations"></a>
+<a href="#proposition:convexity---preserving---function---operations"></a>
 implies
 
 <ul>
@@ -20672,7 +20686,7 @@ is convex
 
 <h3>Conjugate functions</h3>
 
-<div class="definition" id="definition:conjugate functions" data-name="conjugate functions">
+<div class="definition" id="definition:conjugate---functions" data-name="conjugate functions">
 	
 for function $f$
 
@@ -20681,7 +20695,7 @@ $$
 $$
 
 called <span class="define">conjugate function of $f$</span>,
-denoted by <span class="define">$f^\ast$</span>
+denoted by <span class="notation">$f^\ast$</span>
 
 </div>
 
@@ -20690,11 +20704,11 @@ denoted by <span class="define">$f^\ast$</span>
 	conjugate function is convex for any function $f$
 because it is supremum
 of linear (hence convex) functions (in $x$)
-(<a href="#proposition:convexity preserving function operations"></a>)
+(<a href="#proposition:convexity---preserving---function---operations"></a>)
 
 </li>
 </ul>
-<div class="inequality" id="inequality:Fenchel's inequality" data-name="Fenchel's inequality">
+<div class="inequality" id="inequality:Fenchel's---inequality" data-name="Fenchel's inequality">
 	
 definition of conjugate function implies
 
@@ -20706,7 +20720,7 @@ sometimes called <i>Young's inequality</i>
 
 </div>
 
-<div class="proposition" id="proposition:conjugate of conjugate" data-name="conjugate of conjugate">
+<div class="proposition" id="proposition:conjugate---of---conjugate" data-name="conjugate of conjugate">
 	
 for convex and closed function $f$
 
@@ -20870,7 +20884,7 @@ $$
 
 <h3>Convex functions \wrt\ generalized inequalities</h3>
 
-<div class="definition" id="definition:$K$-convex functions" data-name="$K$-convex functions">
+<div class="definition" id="definition:$K$-convex---functions" data-name="$K$-convex functions">
 	
 for proper cone $K$,
 
@@ -20912,7 +20926,7 @@ called <span class="define">strictly $K$-convex</span>
 	</ul>
 
 </div>
-<div class="proposition" id="proposition:dual characterization of $K$-convexity" data-name="dual characterization of $K$-convexity">
+<div class="proposition" id="proposition:dual---characterization---of---$K$-convexity" data-name="dual characterization of $K$-convexity">
 	
 for proper cone $K$
 
@@ -20931,7 +20945,7 @@ for proper cone $K$
 
 <h3>Matrix convexity</h3>
 
-<div class="definition" id="definition:matrix convexity" data-name="matrix convexity">
+<div class="definition" id="definition:matrix---convexity" data-name="matrix convexity">
 	
 function of $\reals^n$ into $\symset{m}$
 which is $K$-convex where $K=\possemidefset{m}$,
@@ -20974,12 +20988,12 @@ is matrix convex when $A\succeq0$
 </ul>
 
 
-<h2 id="Convex Optimization Problems">Convex Optimization Problems</h2>
+<h2 id="title-page:Convex---Optimization---Problems">Convex Optimization Problems</h2>
 
 
 <h3>Optimization problems</h3>
 
-<div class="definition" id="definition:optimization problems" data-name="optimization problems">
+<div class="definition" id="definition:optimization---problems" data-name="optimization problems">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \reals^m$, $\feq: \xeq \to \reals^p$
 where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
@@ -21045,10 +21059,10 @@ said to be <span class="define">unbounded</span>
 
 <h3>Global and local optimalities</h3>
 
-<div class="definition" id="definition:global optimality" data-name="global optimality">
+<div class="definition" id="definition:global---optimality" data-name="global optimality">
 	
 for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 	<ul>
 	<li>
@@ -21076,10 +21090,10 @@ optimization problem is <span class="define">solvable</span>
 
 </li>
 </ul>
-<div class="definition" id="definition:local optimality" data-name="local optimality">
+<div class="definition" id="definition:local---optimality" data-name="local optimality">
 	
 for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 where $\xdomain$ is metric space,
 $x\in\optfeasset$ satisfying
 $\inf\set{\fobj(z)}{z\in\optfeasset, \rho(z,x)\leq r}$
@@ -21106,7 +21120,7 @@ $$
 
 <h3>Equivalent optimization problems</h3>
 
-<div class="definition" id="definition:equivalent optimization problems" data-name="equivalent optimization problems">
+<div class="definition" id="definition:equivalent---optimization---problems" data-name="equivalent optimization problems">
 	
 two optimization problems
 where solving one readily solve the other,
@@ -21167,7 +21181,7 @@ $(x,y)=(2u^\ast, v^\ast/3)$ solves first
 <ul>
 <li>
 	given function $\phi:\mathcalfont{Z} \to \xdomain$,
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 can be rewritten as
 
 $$
@@ -21189,12 +21203,12 @@ where $z\in\mathcalfont{Z}$ is optimization variable
 	if $\phi$ is injective and $\optdomain \subset \phi(\mathcalfont{Z})$,
 above optimization problem
 and
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 are equivalent,
 <i>i.e.</i>
 	<ul>
 	<li>
-		$X_\mathrm{opt}$ is optimal set of problem in <a href="#definition:optimization problems"></a>
+		$X_\mathrm{opt}$ is optimal set of problem in <a href="#definition:optimization---problems"></a>
 $\Rightarrow$
 $\phi^{-1}(X_\mathrm{opt})$ is optimal set of above problem
 
@@ -21202,7 +21216,7 @@ $\phi^{-1}(X_\mathrm{opt})$ is optimal set of above problem
 	<li>
 		$Z_\mathrm{opt}$ is optimal set of above problem
 $\Rightarrow$
-$\phi(Z_\mathrm{opt})$ is optimal set of problem in <a href="#definition:optimization problems"></a>
+$\phi(Z_\mathrm{opt})$ is optimal set of problem in <a href="#definition:optimization---problems"></a>
 
 	</li>
 	</ul>
@@ -21219,9 +21233,9 @@ change of variable or substitution of variable $x=\phi(z)$
 
 <h3>Convex optimization</h3>
 
-<div class="definition" id="definition:convex optimization" data-name="convex optimization">
+<div class="definition" id="definition:convex---optimization" data-name="convex optimization">
 	
-optimization problem in <a href="#definition:optimization problems"></a>
+optimization problem in <a href="#definition:optimization---problems"></a>
 where $\xdomain$ is Banach space,
 <i>i.e.</i>,
 complete linear normed vector space,
@@ -21282,18 +21296,18 @@ feasible sets for affine function is either empty set, singleton, or affine sets
 
 <h3>Optimality conditions for convex optimization problems</h3>
 
-<div class="theorem" id="theorem:local optimality implies global optimality" data-name="local optimality implies global optimality">
+<div class="theorem" id="theorem:local---optimality---implies---global---optimality" data-name="local optimality implies global optimality">
 	
 for convex optimization problem
-(in <a href="#definition:convex optimization"></a>),
+(in <a href="#definition:convex---optimization"></a>),
 every local optimal point is global optimal point
 
 </div>
 
-<div class="theorem" id="theorem:optimality conditions for convex optimality problems" data-name="optimality conditions for convex optimality problems">
+<div class="theorem" id="theorem:optimality---conditions---for---convex---optimality---problems" data-name="optimality conditions for convex optimality problems">
 	
 for convex optimization problem
-(in <a href="#definition:convex optimization"></a>),
+(in <a href="#definition:convex---optimization"></a>),
 when $\fobj$ is differentiable
 (<i>i.e.</i>, $\dom \fobj$ is open and $\nabla \fobj$ exists everywhere in $\dom \fobj$)
 
@@ -21445,9 +21459,9 @@ $$
 
 <h3>Linear programming</h3>
 
-<div class="definition" id="definition:linear programming" data-name="linear programming">
+<div class="definition" id="definition:linear---programming" data-name="linear programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$ and linear $\fobj$ &amp; $\fie$,
 called <span class="define">linear program (LP)</span>,
 which can be formulated as
@@ -21629,9 +21643,9 @@ $$
 
 <h3>Quadratic programming</h3>
 
-<div class="definition" id="definition:quadratic programming" data-name="quadratic programming">
+<div class="definition" id="definition:quadratic---programming" data-name="quadratic programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with
 $\xdomain=\reals^n$ and
 convex quadratic $\fobj$ and linear $\fie$,
@@ -21720,9 +21734,9 @@ $$
 
 <h3>Quadratically constrained quadratic programming</h3>
 
-<div class="definition" id="definition:quadratically constrained quadratic programming" data-name="quadratically constrained quadratic programming">
+<div class="definition" id="definition:quadratically---constrained---quadratic---programming" data-name="quadratically constrained quadratic programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$
 and
 convex quadratic $\fobj$ &amp; $\fie$,
@@ -21756,9 +21770,9 @@ hence <i>QP is specialization of QCQP</i>
 
 <h3>Second-order cone programming</h3>
 
-<div class="definition" id="definition:second-order cone programming" data-name="second-order cone programming">
+<div class="definition" id="definition:second-order---cone---programming" data-name="second-order cone programming">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with $\xdomain=\reals^n$
 and
 linear $\fobj$ and convex $\fie$
@@ -21854,7 +21868,7 @@ $$
 
 <h3>Geometric programming</h3>
 
-<div class="definition" id="definition:monomial functions" data-name="monomial functions">
+<div class="definition" id="definition:monomial---functions" data-name="monomial functions">
 	
 function $f:\pprealk{n}\to\reals$
 defined by
@@ -21868,7 +21882,7 @@ called <span class="define">monomial function</span>
 or simply <span class="define">monomial</span>
 
 </div>
-<div class="definition" id="definition:posynomial functions" data-name="posynomial functions">
+<div class="definition" id="definition:posynomial---functions" data-name="posynomial functions">
 	
 function $f:\pprealk{n}\to\reals$
 which is finite sum of monomial functions,
@@ -21876,7 +21890,7 @@ called <span class="define">posynomial function</span>
 or simply <span class="define">posynomial</span>
 
 </div>
-<div class="definition" id="definition:geometric programming" data-name="geometric programming">
+<div class="definition" id="definition:geometric---programming" data-name="geometric programming">
 	
 optimization problem
 
@@ -21903,7 +21917,7 @@ called <span class="define">geometric program (GP)</span>
 <ul>
 <li>
 	geometric program in
-<a href="#definition:geometric programming"></a>
+<a href="#definition:geometric---programming"></a>
 is not convex optimization problem (as it is)
 
 </li>
@@ -21913,9 +21927,9 @@ by change of variables and transformation of functions
 
 </li>
 </ul>
-<div class="proposition" id="proposition:geometric programming in convex form" data-name="geometric programming in convex form">
+<div class="proposition" id="proposition:geometric---programming---in---convex---form" data-name="geometric programming in convex form">
 	
-geometric program (in <a href="#definition:geometric programming"></a>)
+geometric program (in <a href="#definition:geometric---programming"></a>)
 can be transformed to equivalent convex optimization problem
 
 $$
@@ -21944,9 +21958,9 @@ where optimization variable is $y=\log(x)\in\reals^n$
 
 <h3>Convex optimization with generalized inequalities</h3>
 
-<div class="definition" id="definition:convex optimization with generalized inequality constraints" data-name="convex optimization with generalized inequality constraints">
+<div class="definition" id="definition:convex---optimization---with---generalized---inequality---constraints" data-name="convex optimization with generalized inequality constraints">
 	
-convex optimization problem in <a href="#definition:convex optimization"></a>
+convex optimization problem in <a href="#definition:convex---optimization"></a>
 with inequality constraints replaced by generalized inequality constraints,
 <i>i.e.</i>
 
@@ -21972,8 +21986,8 @@ called <span class="define">convex optimization problem with generalized inequal
 
 <ul>
 <li>
-	problem in <a href="#definition:convex optimization with generalized inequality constraints"></a>
-reduces to convex optimization problem in <a href="#definition:convex optimization"></a>
+	problem in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
+reduces to convex optimization problem in <a href="#definition:convex---optimization"></a>
 when $q=1$ and $K_1=\prealk{m}$,
 hence <i>convex optimization is specialization of convex optimization with generalized inequalities</i>
 
@@ -21991,7 +22005,7 @@ hence <i>convex optimization is specialization of convex optimization with gener
 	</li>
 	<li>
 		optimality conditions in
-<a href="#theorem:optimality conditions for convex optimality problems"></a>
+<a href="#theorem:optimality---conditions---for---convex---optimality---problems"></a>
 applies without modification
 
 	</li>
@@ -22003,10 +22017,10 @@ applies without modification
 
 <h3>Conic programming</h3>
 
-<div class="definition" id="definition:conic programming" data-name="conic programming">
+<div class="definition" id="definition:conic---programming" data-name="conic programming">
 	
 convex optimization problem with generalized inequality constraints
-in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
 with linear $\fobj$ and one affine $\fie$
 
 $$
@@ -22054,9 +22068,9 @@ with generalized inequalities
 
 <h3>Semidefinite programming</h3>
 
-<div class="definition" id="definition:semidefinite programming" data-name="semidefinite programming">
+<div class="definition" id="definition:semidefinite---programming" data-name="semidefinite programming">
 	
-conic program in <a href="#definition:conic programming"></a>
+conic program in <a href="#definition:conic---programming"></a>
 with $\xdomain=\reals^n$ and $K=\possemidefset{n}$
 
 $$
@@ -22109,8 +22123,8 @@ where $\xdomain=\possemidefset{n}$ and $C,A_1,\ldots,A_p\in\symset{n}$ and $b_i\
 	<ul>
 	<li>
 		if $k=m$, $F_i=\diag(C_{1,i}, \ldots, C_{m,i})$, $G=-\diag(d_1,\ldots, d_m)$
-in <a href="#definition:semidefinite programming"></a>,
-SDP reduces to LP in <a href="#definition:linear programming"></a>
+in <a href="#definition:semidefinite---programming"></a>,
+SDP reduces to LP in <a href="#definition:linear---programming"></a>
 
 	</li>
 	<li>
@@ -22124,7 +22138,7 @@ SDP reduces to LP in <a href="#definition:linear programming"></a>
 	SOCP
 	<ul>
 	<li>
-		SOCP in <a href="#definition:second-order cone programming"></a>
+		SOCP in <a href="#definition:second-order---cone---programming"></a>
 is equivalent to
 
 $$
@@ -22146,7 +22160,7 @@ i=1,\ldots,m
 \end{array}
 $$
 
-which can be transformed to SDP in <a href="#definition:semidefinite programming"></a>,
+which can be transformed to SDP in <a href="#definition:semidefinite---programming"></a>,
 thus, SDP reduces to SOCP
 
 	</li>
@@ -22161,10 +22175,10 @@ thus, SDP reduces to SOCP
 
 <h3>Determinant maximization problems</h3>
 
-<div class="definition" id="definition:determinant maximization problems" data-name="determinant maximization problems">
+<div class="definition" id="definition:determinant---maximization---problems" data-name="determinant maximization problems">
 	
 convex optimization problem with generalized inequality constraints
-in <a href="#definition:convex optimization with generalized inequality constraints"></a>
+in <a href="#definition:convex---optimization---with---generalized---inequality---constraints"></a>
 with $\xdomain=\reals^n$
 of form
 
@@ -22228,18 +22242,18 @@ containment relations among convex optimization problems
 
 
 
+<div id="fig:diagrams---for---containment---of---convex---optimization---problems"></div>
 
 
 
-
-<h2 id="Duality">Duality</h2>
+<h2 id="title-page:Duality">Duality</h2>
 
 
 <h3>Lagrangian</h3>
 
 <div class="definition" id="definition:Lagrangian" data-name="Lagrangian">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \reals^m \times \reals^p \to \reals$
 defined by
@@ -22281,9 +22295,9 @@ called <span class="define">dual variables</span> or <span class="define">Lagran
 
 <h3>Lagrange dual functions</h3>
 
-<div class="definition" id="definition:Lagrange dual functions" data-name="Lagrange dual functions">
+<div class="definition" id="definition:Lagrange---dual---functions" data-name="Lagrange dual functions">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 for which Lagrangian is defined,
 function $g:\reals^m \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -22331,7 +22345,7 @@ for every $\lambda\succeq0$
 <li>
 	$(\lambda,\nu) \in \set{(\lambda,\nu)}{\lambda\succeq0, g(\lambda,\nu)>-\infty}$,
 said to be <span class="define">dual feasible</span>
-
+<div id="page:dual---feasible"></div>
 
 </li>
 </ul>
@@ -22354,7 +22368,7 @@ $$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---LS---solution---of---lines---equations"></div>
 
 $$
 \lssollineqs{dual fcn}
@@ -22387,7 +22401,7 @@ $$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---standard---form---LP"></div>
 
 $$
 g(\lambda,\nu) = \left\{\begin{array}{ll}
@@ -22410,7 +22424,7 @@ $$
 </li>
 <li>
 	<i>maximum cut</i>, sometimes called <i>max-cut</i>, problem, which is NP-hard
-
+<div id="page:max-cut---problem"></div>
 
 $$
 \begin{array}{ll}
@@ -22592,7 +22606,7 @@ where domain of objective function is $\pprealk{n}$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---entropy---maximization"></div>
 
 $$
 g(\lambda,\nu) = \entmax{dual fcn}
@@ -22620,7 +22634,7 @@ where domain of objective function is $\posdefset{n}$
 	</li>
 	<li>
 		Lagrange dual function
-
+<div id="page:dual---function---of---minimum---volume---covering---ellipsoid"></div>
 
 $$
 g(\lambda)
@@ -22640,9 +22654,9 @@ obtained using $f^\ast(Y) = -\log\det(-Y) - n$
 <ul>
 <li>
 	for every $(\lambda,\nu)$ with $\lambda\succeq 0$,
-Lagrange dual function $g(\lambda,\nu)$ (in <a href="#definition:Lagrange dual functions"></a>)
+Lagrange dual function $g(\lambda,\nu)$ (in <a href="#definition:Lagrange---dual---functions"></a>)
 provides lower bound for optimal value $p^\ast$
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -22668,9 +22682,9 @@ for optimization problem in <a href="#definition:optimization problems"></a>
 
 <h3>Lagrange dual problems</h3>
 
-<div class="definition" id="definition:Lagrange dual problems" data-name="Lagrange dual problems">
+<div class="definition" id="definition:Lagrange---dual---problems" data-name="Lagrange dual problems">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>,
+for optimization problem in <a href="#definition:optimization---problems"></a>,
 optimization problem
 
 $$
@@ -22684,11 +22698,11 @@ g(\lambda,\nu)
 $$
 
 called <span class="define">Lagrange dual problem</span>
-associated with problem in <a href="#definition:optimization problems"></a>
+associated with problem in <a href="#definition:optimization---problems"></a>
 
 	<ul>
 	<li>
-		original problem in <a href="#definition:optimization problems"></a>,
+		original problem in <a href="#definition:optimization---problems"></a>,
 (somestime) called <span class="define">primal problem</span>
 
 	</li>
@@ -22697,7 +22711,7 @@ associated with problem in <a href="#definition:optimization problems"></a>
 
 	</li>
 	<li>
-		<span class="define">dual feasibility</span> defined in page~,
+		<span class="define">dual feasibility</span> defined in page~<a href="#page:dual---feasible">here</a>,
 <i>i.e.</i>, $(\lambda,\nu)$ satisfying
 $\lambda \succeq 0 \quad g(\lambda,\nu) > -\infty$
 indeed means
@@ -22721,7 +22735,7 @@ said to be <span class="define">dual optimal</span> or called <span class="defin
 
 <ul>
 <li>
-	Lagrange dual problem in <a href="#definition:Lagrange dual problems"></a>
+	Lagrange dual problem in <a href="#definition:Lagrange---dual---problems"></a>
 is convex optimization (even though original problem is not)
 since $g(\lambda,\nu)$ is always convex
 
@@ -22733,7 +22747,7 @@ since $g(\lambda,\nu)$ is always convex
 
 <ul>
 <li>
-	(out specific) way we define Lagrange dual function in <a href="#definition:Lagrange dual functions"></a>
+	(out specific) way we define Lagrange dual function in <a href="#definition:Lagrange---dual---functions"></a>
 as function $g$ of $\reals^m \times \reals^p$ into $\reals\cup\{-\infty\}$,
 <i>i.e.</i>,
 $\dom g = \reals^n\times\reals^p$
@@ -22750,7 +22764,7 @@ is proper subset of $\reals^n\times\reals^p$
 	can make this implicit feasibility condition
 explicit by adding it as constraint
 (as shown in following examples)
-
+<div id="page:make---implicit---dual---feasibility---explicit"></div>
 
 </li>
 </ul>
@@ -22795,12 +22809,12 @@ g(\lambda,\nu) = \left\{\begin{array}{ll}
 \end{array}
 $$
 
-(refer to page~
+(refer to page~<a href="#page:dual---function---of---standard---form---LP">here</a>
 for Lagrange dual function)
 		<ul>
 		<li>
 			can make dual feasibility explicit by adding it to constraints
-as mentioned on page~
+as mentioned on page~<a href="#page:make---implicit---dual---feasibility---explicit">here</a>
 
 $$
 \begin{array}{ll}
@@ -22917,7 +22931,7 @@ $$
 		<ul>
 		<li>
 			can make dual feasibility explicit by adding it to constraints
-as mentioned on page~
+as mentioned on page~<a href="#page:make---implicit---dual---feasibility---explicit">here</a>
 
 $$
 \begin{array}{ll}
@@ -23100,7 +23114,7 @@ where $(A+\lambda I)^\dagger$ is pseudo-inverse of $A+\lambda I$
 </li>
 <li>
 	Lagrange dual problem
-
+<div id="page:dual---problem---of---trust---region---nonconvex---quadratic---problems"></div>
 
 $$
 \noncvxquadprob{dual}
@@ -23116,7 +23130,7 @@ since it is implied by $A+\lambda I \succeq 0$
 	<li>
 		though not obvious from what it appears to be,
 it is (of course) convex optimization problem
-(by definition of Lagrange dual function, <i>i.e.</i>, <a href="#definition:Lagrange dual functions"></a>)
+(by definition of Lagrange dual function, <i>i.e.</i>, <a href="#definition:Lagrange---dual---functions"></a>)
 
 	</li>
 	<li>
@@ -23158,13 +23172,13 @@ $$
 
 </li>
 </ul>
-<div class="definition" id="definition:weak duality" data-name="weak duality">
+<div class="definition" id="definition:weak---duality" data-name="weak duality">
 	
 property that
 that
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 is always no less than
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>)
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>)
 
 $$
 d^\ast \leq p^\ast
@@ -23203,12 +23217,12 @@ must have $p^\ast=\infty$,
 
 <h3>Optimal duality gap</h3>
 
-<div class="definition" id="definition:optimal duality gap" data-name="optimal duality gap">
+<div class="definition" id="definition:optimal---duality---gap" data-name="optimal duality gap">
 	
 difference between
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 and
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>),
 <i>i.e.</i>
 
 $$
@@ -23225,7 +23239,7 @@ called <span class="define">optimal duality gap</span>
 	<li>
 		for example,
 dual problem
-of max-cut problem (on page~),
+of max-cut problem (on page~<a href="#page:max-cut---problem">here</a>),
 which is NP-hard,
 is
 
@@ -23256,12 +23270,12 @@ while primal problme <i>cannot</i> be solved unless $n$ is very small
 
 <h3>Strong duality</h3>
 
-<div class="definition" id="definition:strong duality" data-name="strong duality">
+<div class="definition" id="definition:strong---duality" data-name="strong duality">
 	
 if
-optimal value of optimization problem (in <a href="#definition:optimization problems"></a>)
+optimal value of optimization problem (in <a href="#definition:optimization---problems"></a>)
 equals to
-optimal value of Lagrange daul problem (in <a href="#definition:Lagrange dual problems"></a>),
+optimal value of Lagrange daul problem (in <a href="#definition:Lagrange---dual---problems"></a>),
 <i>i.e.</i>
 
 $$
@@ -23301,10 +23315,10 @@ which are called <i>constraint qualifications</i>
 
 </li>
 </ul>
-<div class="theorem" id="theorem:Slater's theorem" data-name="Slater's theorem">
+<div class="theorem" id="theorem:Slater's---theorem" data-name="Slater's theorem">
 	
 if
-optimization problem is convex (<a href="#definition:convex optimization"></a>),
+optimization problem is convex (<a href="#definition:convex---optimization"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -23328,7 +23342,7 @@ $$
 
 when there are affine inequality constraints,
 can refine Slater's condition
-- if first $k$ inequality constraint functions $\fie_1$, , $\fie_k$ are affine,
+- if first $k$ inequality constraint functions $\fie_1$, &hellip;, $\fie_k$ are affine,
 Slater's condition can be relaxed to
 
 $$
@@ -23361,7 +23375,7 @@ $$
 \lssollineqs{dual}
 $$
 
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---LS---solution---of---lines---equations">here</a> for Lagrange dual function)
 
 </li>
 <li>
@@ -23369,7 +23383,7 @@ $$
 and
 &ldquo;primal is feasible $\Rightarrow$ Slater's condition holds'',
 thus
-Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies,
 exist only three cases
 	<ul>
@@ -23409,7 +23423,7 @@ hence $d^\ast=\infty$
 </li>
 <li>
 	dual of LP is LP,
-hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+hence, Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies
 	<ul>
 	<li>
@@ -23451,7 +23465,7 @@ $$
 </li>
 <li>
 	dual problem
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---entropy---maximization">here</a> for Lagrange dual function)
 
 $$
 \entmax{dual}
@@ -23461,7 +23475,7 @@ $$
 </li>
 <li>
 	dual problem is feasible,
-hence, Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+hence, Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies,
 if exists $x\succ 0$ with $Ax \preceq b$ and $\ones^T x =1$,
 strong duality holds,
@@ -23477,7 +23491,7 @@ $$
 $$
 
 which is geometry program in convex form
-(<a href="#proposition:geometric programming in convex form"></a>)
+(<a href="#proposition:geometric---programming---in---convex---form"></a>)
 with nonnegativity contraint
 
 </li>
@@ -23504,7 +23518,7 @@ $$
 \minvolcovering{dual}
 $$
 
-(refer to page~ for Lagrange dual function)
+(refer to page~<a href="#page:dual---function---of---minimum---volume---covering---ellipsoid">here</a> for Lagrange dual function)
 
 </li>
 <li>
@@ -23541,7 +23555,7 @@ where $A\in\symset{n}$, $A\not\in\possemidefset{n}$, and $b\in\reals^n$
 
 </li>
 <li>
-	Lagrange dual problem (page~)
+	Lagrange dual problem (page~<a href="#page:dual---problem---of---trust---region---nonconvex---quadratic---problems">here</a>)
 
 $$
 \noncvxquadprob{dual}
@@ -23566,7 +23580,7 @@ provided Slater's condition holds
 
 <h3>Matrix games using mixed strategies</h3>
 
-
+<div id="page:Matrix---games---using---mixed---strategies"></div>
 <ul>
 <li>
 	matrix game - consider game with two players $A$ and $B$
@@ -23784,7 +23798,7 @@ no player has advantage
 <ul>
 <li>
 	assume (not necessarily convex) optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -23859,7 +23873,7 @@ $\lambda u + t = g(\lambda)$
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------1"></div>
 
 
 <ul>
@@ -23874,7 +23888,7 @@ one of which $\lambda^\ast$ is optimal solution for dual problem
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------2"></div>
 
 
 
@@ -23932,7 +23946,7 @@ shows epigraph interpretation
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------3"></div>
 
 
 
@@ -23980,7 +23994,7 @@ $$
 
 </li>
 <li>
-	then $B\cap H=\emptyset$, hence <a href="#theorem:separating hyperplane theorem"></a>
+	then $B\cap H=\emptyset$, hence <a href="#theorem:separating---hyperplane---theorem"></a>
 implies exists separable hyperplane with $(\tilde{\lambda}, \tilde{\nu}, \mu)\neq 0$ and $\alpha$
 such that
 
@@ -24043,7 +24057,7 @@ where $\lambda = \tilde{\lambda}/\mu$ &amp; $\nu = \tilde{\nu}/\mu$
 
 
 
-
+<div id="fig:geometric---interpretation---of---duality-------4"></div>
 
 
 
@@ -24118,7 +24132,7 @@ holds for general case
 
 </li>
 </ul>
-<div class="inequality" id="inequality:max-min inequality" data-name="max-min inequality">
+<div class="inequality" id="inequality:max-min---inequality" data-name="max-min inequality">
 	
 for $f:{X} \times {Y} \to \reals$
 
@@ -24131,7 +24145,7 @@ $$
 
 
 </div>
-<div class="definition" id="definition:strong max-min property" data-name="strong max-min property">
+<div class="definition" id="definition:strong---max-min---property" data-name="strong max-min property">
 	
 if below equality holds, we say
 $f$ (and $X$ and $Y$) satisfies <span class="define">strong max-min property</span>
@@ -24153,7 +24167,7 @@ $X=\optdomain$,
 $Y=\prealk{m} \times \reals^p$,
 $f$ is Lagrangian of
 optimization problem
-(in <a href="#definition:optimization problems"></a>)
+(in <a href="#definition:optimization---problems"></a>)
 for which strong duality holds
 
 </li>
@@ -24196,7 +24210,7 @@ $$
 
 	<ul>
 	<li>
-		strong max-min property (in <a href="#definition:strong max-min property"></a>)
+		strong max-min property (in <a href="#definition:strong---max-min---property"></a>)
 holds with $f(x^\ast,y^\ast)$ as common value
 
 	</li>
@@ -24278,7 +24292,7 @@ $\fobj(\tilde{x}) \leq \fobj(x^\ast)$
 
 <h3>Game interpretation</h3>
 
-
+<div id="page:Game---interpretation"></div>
 <ul>
 <li>
 	assume
@@ -24319,7 +24333,7 @@ payment will be $\sup_{y\in Y} \inf_{x\in X} f(x,y)$
 
 </li>
 <li>
-	max-min inequality of <a href="#inequality:max-min inequality"></a> says
+	max-min inequality of <a href="#inequality:max-min---inequality"></a> says
 
 $$
 \sup_{y\in Y} \inf_{x\in X} f(x,y)
@@ -24329,7 +24343,7 @@ $$
 
 <i>i.e.</i>, whowever chooses later has advantage,
 which is similar or rather same as
-matrix games using mixed strategies on page~
+matrix games using mixed strategies on page~<a href="#page:Matrix---games---using---mixed---strategies">here</a>
 
 </li>
 <li>
@@ -24347,9 +24361,9 @@ $x^\ast$ is optimal choice for player $B$
 
 <ul>
 <li>
-	assume payment function in zero-sum game on page~
+	assume payment function in zero-sum game on page~<a href="#page:Game---interpretation">here</a>
 is Lagrangian of optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 
 </li>
 <li>
@@ -24423,7 +24437,7 @@ find arbitrarily small certificate of suboptimality
 <ul>
 <li>
 	assume strong duality holds for optimization problem
-in <a href="#definition:optimization problems"></a>
+in <a href="#definition:optimization---problems"></a>
 and assume $x^\ast$ is primal optimum and $(\lambda^\ast,\nu^\ast)$ is dual optimum,
 then
 
@@ -24451,7 +24465,7 @@ $$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:complementary slackness" data-name="complementary slackness">
+<div class="proposition" id="proposition:complementary---slackness" data-name="complementary slackness">
 	
 when strong duality holds,
 for primal and dual optimal points $x^\ast$ and $(\lambda^\ast, \nu)$
@@ -24469,9 +24483,9 @@ this property, called <span class="define">complementary slackness</span>
 
 <h3>KKT optimality conditions</h3>
 
-<div class="definition" id="definition:KKT optimality conditions" data-name="KKT optimality conditions">
+<div class="definition" id="definition:KKT---optimality---conditions" data-name="KKT optimality conditions">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
@@ -24516,13 +24530,13 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 
 <h3>KKT necessary for optimality with strong duality</h3>
 
-<div class="theorem" id="theorem:KKT necessary for optimality with strong duality" data-name="KKT necessary for optimality with strong duality">
+<div class="theorem" id="theorem:KKT---necessary---for---optimality---with---strong---duality" data-name="KKT necessary for optimality with strong duality">
 	
-for optimization problem in <a href="#definition:optimization problems"></a>
+for optimization problem in <a href="#definition:optimization---problems"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if strong duality holds,
 primal and dual optimal solutions $x^\ast$ and $(\lambda^\ast, \nu)$
-satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
+satisfy KKT optimality conditions (in <a href="#definition:KKT---optimality---conditions"></a>),
 <i>i.e.</i>,
 for every optimization problem
 
@@ -24594,12 +24608,12 @@ with zero duality gap
 
 
 
-<div class="theorem" id="theorem:KKT and convexity sufficient for optimality with strong duality" data-name="KKT and convexity sufficient for optimality with strong duality">
+<div class="theorem" id="theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality" data-name="KKT and convexity sufficient for optimality with strong duality">
 	
-for convex optimization problem in <a href="#definition:convex optimization"></a>
+for convex optimization problem in <a href="#definition:convex---optimization"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 if ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\reals^m\times\reals^p$
-satisfy KKT optimality conditions (in <a href="#definition:KKT optimality conditions"></a>),
+satisfy KKT optimality conditions (in <a href="#definition:KKT---optimality---conditions"></a>),
 they are primal and dual optimal solutions having zero duality gap
 <i>i.e.</i>
 
@@ -24624,9 +24638,9 @@ imply primal and dual optimality and strong duality
 </div>
 <ul>
 <li>
-	<a href="#theorem:KKT necessary for optimality with strong duality"></a>
+	<a href="#theorem:KKT---necessary---for---optimality---with---strong---duality"></a>
 together with
-<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
+<a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>
 implies
 that
 for convex optimization problem
@@ -24645,7 +24659,7 @@ for primal and dual optimality with strong duality
 
 <h3>Solving primal problems via dual problems</h3>
 
-
+<div id="page:Solving---primal---problems---via---dual---problems"></div>
 <ul>
 <li>
 	when strong duality holds,
@@ -24704,10 +24718,10 @@ $$
 
 <h3>Perturbed optimization problems</h3>
 
-
+<div id="page:Perturbed---optimization---problems"></div>
 <ul>
 <li>
-	original problem in <a href="#definition:optimization problems"></a>
+	original problem in <a href="#definition:optimization---problems"></a>
 with perturbed constraints
 
 $$
@@ -24776,7 +24790,7 @@ with one inequality constraint and no equality constraint
 
 
 
-
+<div id="fig:sensitivity---analysis---of---optimal---value"></div>
 
 
 
@@ -25363,12 +25377,12 @@ $$
 </ul>
 
 
-<h2 id="Theorems of Alternatives">Theorems of Alternatives</h2>
+<h2 id="title-page:Theorems---of---Alternatives">Theorems of Alternatives</h2>
 
 
 <h3>Weak alternatives</h3>
 
-<div class="theorem" id="theorem:weak alternatives of two systems" data-name="weak alternatives of two systems">
+<div class="theorem" id="theorem:weak---alternatives---of---two---systems" data-name="weak alternatives of two systems">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
@@ -25401,7 +25415,7 @@ $$
 </div>
 <ul>
 <li>
-	can prove <a href="#theorem:weak alternatives of two systems"></a>
+	can prove <a href="#theorem:weak---alternatives---of---two---systems"></a>
 using duality of optimization problems
 
 </li>
@@ -25499,7 +25513,7 @@ at most one of them is feasible
 
 <h3>Weak alternatives with strict inequalities</h3>
 
-<div class="theorem" id="theorem:weak alternatives of two systems with strict inequalities" data-name="weak alternatives of two systems with strict inequalities">
+<div class="theorem" id="theorem:weak---alternatives---of---two---systems---with---strict---inequalities" data-name="weak alternatives of two systems with strict inequalities">
 	
 for $\fie: \xie\to\reals^m$ &amp; $\feq: \xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets of common set $\xdomain$,
@@ -25536,7 +25550,7 @@ $$
 
 <h3>Strong alternatives</h3>
 
-<div class="theorem" id="theorem:strong alternatives of two systems" data-name="strong alternatives of two systems">
+<div class="theorem" id="theorem:strong---alternatives---of---two---systems" data-name="strong alternatives of two systems">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets $\reals^n$
@@ -25570,7 +25584,7 @@ $$
 
 <h3>Strong alternatives with strict inequalities</h3>
 
-<div class="theorem" id="theorem:strong alternatives of two systems with strict inequalities" data-name="strong alternatives of two systems with strict inequalities">
+<div class="theorem" id="theorem:strong---alternatives---of---two---systems---with---strict---inequalities" data-name="strong alternatives of two systems with strict inequalities">
 	
 for convex $\fie: \xie\to\reals^m$ &amp; affine $\feq:\xeq\to\reals^p$
 where $\xie$ and $\xeq$ are subsets $\reals^n$
@@ -25656,14 +25670,14 @@ $g(\lambda,\nu)
 <li>
 	first observe Slater's condition
 holds for primal problem
-since by hypothesis of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>,
+since by hypothesis of <a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>,
 exists $y\in\relint \optdomain$ with $\feq(y)=0$,
 hence $(y,\fie(y))\in\xie\times \reals$
 is primal feasible satisifying Slater's condition
 
 </li>
 <li>
-	hence Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+	hence Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies
 $d^\ast=p^\ast$
 
@@ -25684,10 +25698,10 @@ hence $d^\ast\geq0$
 is infeasible,
 then $d^\ast = p^\ast\geq0$,
 hence
-Slater's theorem (<a href="#theorem:Slater's theorem"></a>)
+Slater's theorem (<a href="#theorem:Slater's---theorem"></a>)
 implies exists dual optimal $(\lambda^\ast,\nu^\ast)$ (whether or not $d^\ast=\infty$),
 hence $(\lambda^\ast,\nu^\ast)$ is feasible point for second system
-of <a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
+of <a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </li>
 <li>
@@ -25725,7 +25739,7 @@ alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
 
 </li>
 <li>
-	thus <a href="#theorem:strong alternatives of two systems"></a>
+	thus <a href="#theorem:strong---alternatives---of---two---systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -25739,7 +25753,7 @@ $$
 <li>
 	similarly
 alternative system is $\lambda\succeq0,\;b^T\lambda <0,\; A^T\lambda=0$
-and <a href="#theorem:strong alternatives of two systems"></a>
+and <a href="#theorem:strong---alternatives---of---two---systems"></a>
 implies below systems are strong alternatives
 
 $$
@@ -25755,7 +25769,7 @@ $$
 
 <h3>Farkas' lemma</h3>
 
-<div class="theorem" id="theorem:Farkas' lemma" data-name="Farkas' lemma">
+<div class="theorem" id="theorem:Farkas'---lemma" data-name="Farkas' lemma">
 	
 below systems of inequalities and equalities are strong alternatives
 
@@ -25772,7 +25786,7 @@ $$
 
 <ul>
 <li>
-	will prove <a href="#theorem:Farkas' lemma"></a>
+	will prove <a href="#theorem:Farkas'---lemma"></a>
 using LP and its dual
 
 </li>
@@ -25830,13 +25844,13 @@ thus second system is feasible
 </ul>
 
 
-<h2 id="Convex Optimization with Generalized Inequalities">Convex Optimization with Generalized Inequalities</h2>
+<h2 id="title-page:Convex---Optimization---with---Generalized---Inequalities">Convex Optimization with Generalized Inequalities</h2>
 
 
 
 <h3>Optimization problems with generalized inequalities</h3>
 
-<div class="definition" id="definition:optimization problems with generalized inequalities" data-name="optimization problems with generalized inequalities">
+<div class="definition" id="definition:optimization---problems---with---generalized---inequalities" data-name="optimization problems with generalized inequalities">
 	
 for $\fobj:\xobj \to \reals$, $\fie: \xie\to \bigtimes_{i=1}^m \reals^{k_i}$, $\feq: \xeq \to \reals^p$
 where $\xobj$, $\xie$, and $\xeq$ are subsets of common set $\xdomain$
@@ -25863,7 +25877,7 @@ $K_1\subset \reals^{k_1},\ldots, K_n\subset \reals^{k_m}$
 	<ul>
 	<li>
 		every terminology and associated notation is same
-as of optimization problem in <a href="#definition:optimization problems"></a>
+as of optimization problem in <a href="#definition:optimization---problems"></a>
 such as
 objective &amp; inequality &amp; equality contraint functions,
 domain of optimization problem $\optdomain$,
@@ -25874,7 +25888,7 @@ optimal value $p^\ast$
 	<li>
 		note that
 when $K_i=\preals$ (hence $\bigpropercone=\prealk{m}$),
-above optimization problem coincides with that in <a href="#definition:optimization problems"></a>,
+above optimization problem coincides with that in <a href="#definition:optimization---problems"></a>,
 <i>i.e.</i>,
 optimization problems with generalized inequalities
 subsume
@@ -25887,10 +25901,10 @@ subsume
 
 <h3>Lagrangian for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrangian for generalized inequalities" data-name="Lagrangian for generalized inequalities">
+<div class="definition" id="definition:Lagrangian---for---generalized---inequalities" data-name="Lagrangian for generalized inequalities">
 	
 for optimization problem in
-<a href="#definition:optimization problems with generalized inequalities"></a>
+<a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 with nonempty domain $\optdomain$,
 function $L:\optdomain \times \bigtimes_{i=1}^m \reals^{k_i} \times \reals^p \to \reals$
 defined by
@@ -25925,9 +25939,9 @@ subsumes
 
 <h3>Lagrange dual functions for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrange dual functions for generalized inequalities" data-name="Lagrange dual functions for generalized inequalities">
+<div class="definition" id="definition:Lagrange---dual---functions---for---generalized---inequalities" data-name="Lagrange dual functions for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 for which Lagrangian is defined,
 function $g:\bigtimes \reals^{k_i} \times \reals^p \to \reals\cup \{-\infty\}$
 defined by
@@ -25950,7 +25964,7 @@ associated with optimization problem
 	<li>
 		Lagrange dual functions for generalized inequalities
 subsume
-(normal) Lagrange dual functions (<a href="#definition:Lagrange dual functions"></a>)
+(normal) Lagrange dual functions (<a href="#definition:Lagrange---dual---functions"></a>)
 
 	</li>
 	</ul>
@@ -25991,9 +26005,9 @@ said to be <span class="define">dual feasible</span>
 
 <h3>Lagrange dual problems for generalized inequalities</h3>
 
-<div class="definition" id="definition:Lagrange dual problems for generalized inequalities" data-name="Lagrange dual problems for generalized inequalities">
+<div class="definition" id="definition:Lagrange---dual---problems---for---generalized---inequalities" data-name="Lagrange dual problems for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>,
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>,
 optimization problem
 
 $$
@@ -26011,12 +26025,12 @@ where $\bigpropercone^\ast$ denotes dual cone of $\bigpropercone$,
 $\bigpropercone^\ast = \bigtimes K_i^\ast$
 where $K_i^\ast\subset\reals^{k_i}$ is dual cone of $K_i\subset\reals^{k_i}$,
 called <span class="define">Lagrange dual problem</span>
-associated with problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+associated with problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 
 	<ul>
 	<li>
 		every terminology and related notation
-is same as that in <a href="#definition:Lagrange dual problems"></a>
+is same as that in <a href="#definition:Lagrange---dual---problems"></a>
 such as
 dual feasibility,
 dual optimal value $d^\ast$,
@@ -26026,7 +26040,7 @@ optimal Lagrange multipliers $(\lambda^\ast,\nu^\ast)$
 	<li>
 		Lagrange dual problems for generalized inequalities
 subsume
-(normal) Lagrange dual problems (<a href="#definition:Lagrange dual problems"></a>)
+(normal) Lagrange dual problems (<a href="#definition:Lagrange---dual---problems"></a>)
 
 	</li>
 	</ul>
@@ -26036,7 +26050,7 @@ subsume
 
 <ul>
 <li>
-	Lagrange dual problem in <a href="#definition:Lagrange dual problems for generalized inequalities"></a>
+	Lagrange dual problem in <a href="#definition:Lagrange---dual---problems---for---generalized---inequalities"></a>
 is convex optimization
 since $g(\lambda,\nu)$ is convex
 
@@ -26046,16 +26060,16 @@ since $g(\lambda,\nu)$ is convex
 
 <h3>Slater's theorem for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:Slater's theorem for generalized inequalities" data-name="Slater's theorem for generalized inequalities">
+<div class="theorem" id="theorem:Slater's---theorem---for---generalized---inequalities" data-name="Slater's theorem for generalized inequalities">
 	
 if optimization problem
-in <a href="#definition:optimization problems with generalized inequalities"></a>
+in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 is convex,
 <i>i.e.</i>,
 $\fobj$ is convex,
 $\fie$ is $\bigpropercone$-convex
 (<i>i.e.</i>, every $\fie_i$ is $K_i$-convex)
-(<a href="#definition:$K$-convex functions"></a>),
+(<a href="#definition:$K$-convex---functions"></a>),
 and exists feasible $x\in\optdomain$ contained in $\relint \optdomain$
 such that
 
@@ -26076,7 +26090,7 @@ $$
 
 	</li>
 	<li>
-		note resemblance with Slater's theorem in <a href="#theorem:Slater's theorem"></a>
+		note resemblance with Slater's theorem in <a href="#theorem:Slater's---theorem"></a>
 
 	</li>
 	</ul>
@@ -26088,7 +26102,7 @@ $$
 <ul>
 <li>
 	(inequality form) SDP
-
+<div id="page:(inequality---form)---SDP"></div>
 
 $$
 \begin{array}{ll}
@@ -26135,7 +26149,7 @@ $$
 </li>
 <li>
 	Lagrange dual problem
-
+<div id="page:dual---of---SDP"></div>
 
 $$
 \begin{array}{ll}
@@ -26155,7 +26169,7 @@ $\bigpropercone^\ast = \bigpropercone$
 
 </li>
 <li>
-	Slater's theorem (<a href="#theorem:Slater's theorem for generalized inequalities"></a>)
+	Slater's theorem (<a href="#theorem:Slater's---theorem---for---generalized---inequalities"></a>)
 implies if primal problem is strictly feasible,
 <i>i.e.</i>,
 exists $x\in\reals^n$ such that $\sum x_iF_i + G\prec 0$,
@@ -26166,9 +26180,9 @@ strong duality holds
 
 <h3>KKT optimality conditions for generalized inequalities</h3>
 
-<div class="definition" id="definition:KKT optimality conditions for generalized inequalities" data-name="KKT optimality conditions for generalized inequalities">
+<div class="definition" id="definition:KKT---optimality---conditions---for---generalized---inequalities" data-name="KKT optimality conditions for generalized inequalities">
 	
-for optimization problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+for optimization problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 where $\fobj$, $\fie$, and $\feq$ are all differentiable,
 below conditions
 for ${x}\in\optdomain$ and $({\lambda}, {\nu})\in\bigtimes \reals^{k_i} \times\reals^p$
@@ -26214,7 +26228,7 @@ called <span class="define">Karush-Kuhn-Tucker (KKT) optimality conditions</span
 		note KKT optimality conditions for generalized inequalities
 subsume
 (normal) KKT optimality conditions
-(<a href="#definition:KKT optimality conditions"></a>)
+(<a href="#definition:KKT---optimality---conditions"></a>)
 
 	</li>
 	</ul>
@@ -26226,9 +26240,9 @@ subsume
 <ul>
 <li>
 	for every optimization problem with generalized inequalities
-(<a href="#definition:optimization problems with generalized inequalities"></a>),
+(<a href="#definition:optimization---problems---with---generalized---inequalities"></a>),
 every statement for normal optimization problem
-(<a href="#definition:optimization problems"></a>),
+(<a href="#definition:optimization---problems"></a>),
 regarding relations among
 KKT conditions,
 optimality,
@@ -26239,21 +26253,21 @@ is <i>exactly the same</i>
 	<ul>
 	<li>
 		for every optimization problem with generalized inequalities
-(<a href="#definition:optimization problems with generalized inequalities"></a>)
+(<a href="#definition:optimization---problems---with---generalized---inequalities"></a>)
 		<ul>
 		<li>
 			if strong duality holds,
 primal and dual optimal points satisfy KKT optimality conditions
-in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>
-(same as <a href="#theorem:KKT necessary for optimality with strong duality"></a>)
+in <a href="#definition:KKT---optimality---conditions---for---generalized---inequalities"></a>
+(same as <a href="#theorem:KKT---necessary---for---optimality---with---strong---duality"></a>)
 
 		</li>
 		<li>
 			if optimization problem is convex and
 primal and dual solutions satisfy KKT optimality conditions
-in <a href="#definition:KKT optimality conditions for generalized inequalities"></a>,
+in <a href="#definition:KKT---optimality---conditions---for---generalized---inequalities"></a>,
 the solutions are optimal with strong duality
-(same as <a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>)
+(same as <a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>)
 
 		</li>
 		<li>
@@ -26276,7 +26290,7 @@ for primal and dual optimality with strong duality</i>
 
 <ul>
 <li>
-	original problem in <a href="#definition:optimization problems with generalized inequalities"></a>
+	original problem in <a href="#definition:optimization---problems---with---generalized---inequalities"></a>
 with perturbed constraints
 
 $$
@@ -26302,7 +26316,7 @@ $p^\ast(0,0)=p^\ast$
 
 </li>
 <li>
-	as for normal optimization problem case (page~),
+	as for normal optimization problem case (page~<a href="#page:Perturbed---optimization---problems">here</a>),
 if and dual optimum $(\lambda^\ast,\nu^\ast)$,
 if strong duality holds,
 
@@ -26327,7 +26341,7 @@ $$
 <ul>
 <li>
 	assume inequality form SDP and its dual problem
-on page~ and page~
+on page~<a href="#page:(inequality---form)---SDP">here</a> and page~<a href="#page:dual---of---SDP">here</a>
 
 </li>
 <li>
@@ -26382,7 +26396,7 @@ $$
 
 <h3>Weak alternatives for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:weak alternatives for generalized inequalities" data-name="weak alternatives for generalized inequalities">
+<div class="theorem" id="theorem:weak---alternatives---for---generalized---inequalities" data-name="weak alternatives for generalized inequalities">
 	
 for $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; $\feq:\xeq \to \reals^p$
 where $\xie$ and $\xeq$ are subsets of common Banach space
@@ -26428,15 +26442,15 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-<a href="#theorem:weak alternatives of two systems"></a>
+<a href="#theorem:weak---alternatives---of---two---systems"></a>
 and
-<a href="#theorem:weak alternatives of two systems with strict inequalities"></a>
+<a href="#theorem:weak---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </div>
 
 <h3>Strong alternatives for generalized inequalities</h3>
 
-<div class="theorem" id="theorem:strong alternatives for generalized inequalities" data-name="strong alternatives for generalized inequalities">
+<div class="theorem" id="theorem:strong---alternatives---for---generalized---inequalities" data-name="strong alternatives for generalized inequalities">
 	
 for $\bigpropercone$-convex $\fie:\xie \to \bigtimes \reals^{k_i}$ &amp; affine $\feq:\xeq \to \reals^p$
 where $\xie$ and $\xeq$ are subsets of $\reals^n$
@@ -26483,9 +26497,9 @@ g(\lambda,\nu) = \inf_{x\in\optdomain} \left( \lambda^T \fie(x) + \nu^T \feq(x) 
 $$
 
 note this theorem subsumes
-<a href="#theorem:strong alternatives of two systems"></a>
+<a href="#theorem:strong---alternatives---of---two---systems"></a>
 and
-<a href="#theorem:strong alternatives of two systems with strict inequalities"></a>
+<a href="#theorem:strong---alternatives---of---two---systems---with---strict---inequalities"></a>
 
 </div>
 
@@ -26534,7 +26548,7 @@ $$
 </ul>
 
 
-<h2 id="Unconstrained Minimization">Unconstrained Minimization</h2>
+<h2 id="title-page:Unconstrained---Minimization">Unconstrained Minimization</h2>
 
 
 <h3>Unconstrained minimization</h3>
@@ -26543,7 +26557,7 @@ $$
 <li>
 	consider
 unconstrained convex optimization problem,
-<i>i.e.</i>, $m=p=0$ in <a href="#definition:convex optimization"></a>
+<i>i.e.</i>, $m=p=0$ in <a href="#definition:convex---optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -26571,7 +26585,7 @@ domain of optimization problem is $\optdomain\ = \xobj \subset \reals^n$
 
 </li>
 <li>
-	<a href="#theorem:first-order condition for convexity"></a>
+	<a href="#theorem:first-order---condition---for---convexity"></a>
 implies
 $x^\ast$ is optimal solution
 if and only if
@@ -26885,14 +26899,14 @@ $$
 
 <h3>Iterative methods</h3>
 
-<div class="definition" id="definition:iterative meethods" data-name="iterative meethods">
+<div class="definition" id="definition:iterative---meethods" data-name="iterative meethods">
 	
 numerical method generating sequence of points $\xseqk{0}, \xseqk{1}, \ldots \in S\subset \reals^n$
 to make $\fobj(\xseqk{k})$ approaches to some desired value from some $f:S\to\reals$,
 called <span class="define">iterative method</span>
 
 </div>
-<div class="definition" id="definition:iterative meethods with search directions" data-name="iterative meethods with search directions">
+<div class="definition" id="definition:iterative---meethods---with---search---directions" data-name="iterative meethods with search directions">
 	
 iterative method generating
 search direction $\sdirk{k}\in\reals^n$ and
@@ -26908,7 +26922,7 @@ where $\sdirk{k}$, called <span class="define">search direction</span>,
 $\slenk{k}$, called <span class="define">step length</span> (which actually is not length)
 
 </div>
-<div class="definition" id="definition:descent methods" data-name="descent methods">
+<div class="definition" id="definition:descent---methods" data-name="descent methods">
 	
 for function $f:S\to\reals$,
 iterative method reducing function value,
@@ -26926,7 +26940,7 @@ called <span class="define">descent method</span>
 
 <h3>Line search methods</h3>
 
-<div class="definition" id="definition:line search method" data-name="line search method">
+<div class="definition" id="definition:line---search---method" data-name="line search method">
 	
 for iterating method with search directions,
 determining
@@ -26937,7 +26951,7 @@ for each step,
 called <span class="define">line search method</span>
 
 </div>
-<div class="algorithm" id="algorithm:exact line search" data-name="exact line search">
+<div class="algorithm" id="algorithm:exact---line---search" data-name="exact line search">
 	
 for descent iterating method with search directions,
 determine $\slen$ by
@@ -26948,25 +26962,25 @@ $$
 
 
 </div>
-<div class="algorithm" id="algorithm:backtracking line search" data-name="backtracking line search">
+<div class="algorithm" id="algorithm:backtracking---line---search" data-name="backtracking line search">
 	
 for descent iterating method with search directions,
 determine $\slen$ by
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, \sdirk{k}, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+	<strong>Require:</strong>	$\fobj$, \sdirk{k}, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen:=1$ 
+	<strong></strong>	$\slen:=1$ <strong></strong>
 </li>
 
 <li>
-	<strong>while</strong>	$\fobj(\xseqk{k} + \slen \sdirk{k}) > \fobj(\xseqk{k}) + \alpha \slen \nabla \fobj(\xseqk{k})^T \sdirk{k}$ do
+	<strong>while</strong>	$\fobj(\xseqk{k} + \slen \sdirk{k}) > \fobj(\xseqk{k}) + \alpha \slen \nabla \fobj(\xseqk{k})^T \sdirk{k}$ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen := \beta \slen$ 
+	<strong></strong>	$\slen := \beta \slen$ <strong></strong>
 </li>
 
 <li>
@@ -26979,30 +26993,30 @@ determine $\slen$ by
 
 <h3>Gradient descent method</h3>
 
-<div class="algorithm" id="algorithm:gradient descent method" data-name="gradient descent method">
+<div class="algorithm" id="algorithm:gradient---descent---method" data-name="gradient descent method">
 	
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ <strong></strong>
 </li>
 
 <li>
 	<strong>repeat</strong>
 </li>
 <li>
-	<strong></strong>	search direction - $\sdir := - \nabla \fobj(x)$ 
+	<strong></strong>	search direction - $\sdir := - \nabla \fobj(x)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $\slen>0$ 
+	<strong></strong>	do line search to choose $\slen>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \sdir$ 
+	<strong></strong>	update - $x := x + \slen \sdir$ <strong></strong>
 </li>
 
 <li>
-	<strong>until</strong>	stopping criterion satisfied 
+	<strong>until</strong>	stopping criterion satisfied <strong></strong>
 </li>
 
 </ul>
@@ -27084,7 +27098,7 @@ $$
 	<span class="define">Newton decrement</span>
 
 
-
+<div id="page:Newton---decrement---in---quadratic---approximation"></div>
 
 $$
 \lambda(x)
@@ -27100,12 +27114,12 @@ $$
 
 <h3>Newton's method</h3>
 
-<div class="algorithm" id="algorithm:Newton's method" data-name="Newton's method">
+<div class="algorithm" id="algorithm:Newton's---method" data-name="Newton's method">
 	
 damped descent method using Newton step
 <ul>
 <li>
-	<strong>Require:</strong>	\fobj, initial point $x\in \dom \fobj$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	\fobj, initial point $x\in \dom \fobj$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -27118,19 +27132,19 @@ $$
 \quad
 \lambda(x)^2 := \nabla \fobj(x)^T \nabla^2 \fobj(x)^{-1} \nabla \fobj(x)
 $$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $t>0$ 
+	<strong></strong>	do line search to choose $t>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \sdir_\mathrm{nt}$ 
+	<strong></strong>	update - $x := x + \slen \sdir_\mathrm{nt}$ <strong></strong>
 </li>
 
 <li>
@@ -27228,7 +27242,7 @@ when $L$ is small
 
 <h3>Convergence analysis of Newton's method</h3>
 
-<div class="theorem" id="theorem:convergence analysis of Newton's method" data-name="convergence analysis of Newton's method">
+<div class="theorem" id="theorem:convergence---analysis---of---Newton's---method" data-name="convergence analysis of Newton's method">
 	
 for function $\fobj$ satisfying strong convexity, Hessian continuity &amp; Lipschitz continuity
 with $m, M, L>0$,
@@ -27329,7 +27343,7 @@ $$
 
 </div>
 
-<div class="proposition" id="proposition:self-concordance for logarithms" data-name="self-concordance for logarithms">
+<div class="proposition" id="proposition:self-concordance---for---logarithms" data-name="self-concordance for logarithms">
 	
 if convex function $g:X\to\reals$ with $X\subset \ppreals$
 satisfies
@@ -27407,7 +27421,7 @@ are self-concordance
 
 <h3>Self-concordance preserving operations</h3>
 
-<div class="proposition" id="proposition:self-concordance preserving operations" data-name="self-concordance preserving operations">
+<div class="proposition" id="proposition:self-concordance---preserving---operations" data-name="self-concordance preserving operations">
 	
 self-concordance is preserved by <i>positive scaling, addition, and affine transformation,</i>
 <i>i.e.</i>,
@@ -27478,7 +27492,7 @@ $$
 with $\dom f = \set{x\in\reals^n}{b-Ax \succ 0}$
 is self-concordant
 by
-<a href="#proposition:self-concordance preserving operations"></a>,
+<a href="#proposition:self-concordance---preserving---operations"></a>,
 <i>i.e.</i>, $f$ is affine transformation of sum of self-concordant functions
 
 </li>
@@ -27517,7 +27531,7 @@ where
 $\lambda_i(X,V)$ is $i$-th eigenvalue of $X^{-1/2}VX^{1/2}$
 is self-concordant
 by
-<a href="#proposition:self-concordance preserving operations"></a>,
+<a href="#proposition:self-concordance---preserving---operations"></a>,
 <i>i.e.</i>, $g$ is affine transformation of sum of self-concordant functions
 
 </li>
@@ -27581,7 +27595,7 @@ if $g$ is one of below
 since above $g$ satisfy
 $|g'''(x)| \leq 3 g''(x)/x$
 for every $x\in\dom g$
-(<a href="#proposition:self-concordance for logarithms"></a>)
+(<a href="#proposition:self-concordance---for---logarithms"></a>)
 
 </li>
 <li>
@@ -27593,7 +27607,7 @@ $$
 f(x,y) = -\log(y^2-x^Tx)
 $$
 
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 <li>
@@ -27606,7 +27620,7 @@ f(x,y) = -2\log y - \log(y^{2/p}- x^2)
 $$
 
 where $p\geq1$
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 <li>
@@ -27618,14 +27632,14 @@ $$
 f(x,y) = -\log y - \log(\log y - x)
 $$
 
-is self-concordant - can be proved using <a href="#proposition:self-concordance for logarithms"></a>
+is self-concordant - can be proved using <a href="#proposition:self-concordance---for---logarithms"></a>
 
 </li>
 </ul>
 
 <h3>Properties of self-concordant functions</h3>
 
-<div class="definition" id="definition:Newton decrement" data-name="Newton decrement">
+<div class="definition" id="definition:Newton---decrement" data-name="Newton decrement">
 	
 for convex function $f:X\to\reals$ with $X\subset \reals^n$,
 function $\lambda:\tilde{X}\to\preals$
@@ -27656,7 +27670,7 @@ $$
 </div>
 
 
-<div class="theorem" id="theorem:optimality certificate for self-concordant functions" data-name="optimality certificate for self-concordant functions">
+<div class="theorem" id="theorem:optimality---certificate---for---self-concordant---functions" data-name="optimality certificate for self-concordant functions">
 	
 for strictly convex self-concordant function $f:X\to\reals^n$ with $X\subset \reals^n$,
 Hessian is positive definition everywhere (hence Newton decrement is defined everywhere)
@@ -27680,7 +27694,7 @@ if $\lambda(x) \leq 0.68$
 <ul>
 <li>
 	recall $\lambda(x)^2$ provides <i>approximate</i> optimality certificate,
-(page~)
+(page~<a href="#page:Newton---decrement---in---quadratic---approximation">here</a>)
 <i>i.e.</i>,
 assuming $\fobj$ is well approximated by quadratic function around $x$
 
@@ -27693,7 +27707,7 @@ $$
 <li>
 	however, strict convexity together with self-concordance
 provides proven bound
-(by <a href="#theorem:optimality certificate for self-concordant functions"></a>)
+(by <a href="#theorem:optimality---certificate---for---self-concordant---functions"></a>)
 
 $$
 \fobj(x) - p^\ast \leq \lambda(x)^2
@@ -27721,7 +27735,7 @@ for $\epsilon \leq 0.68^2$
 
 <h3>Convergence analysis of Newton's method for self-concordant functions</h3>
 
-<div class="theorem" id="theorem:convergence analysis of Newton's method for self-concordant functions" data-name="convergence analysis of Newton's method for self-concordant functions">
+<div class="theorem" id="theorem:convergence---analysis---of---Newton's---method---for---self-concordant---functions" data-name="convergence analysis of Newton's method for self-concordant functions">
 	
 for strictly convex self-concordant function $\fobj$,
 exist $0<\eta\leq 1/4$ and $\gamma>0$ (which depend only on line search parameters)
@@ -27767,7 +27781,7 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 </div>
 
 
-<h2 id="Equality Constrained Minimization">Equality Constrained Minimization</h2>
+<h2 id="title-page:Equality---Constrained---Minimization">Equality Constrained Minimization</h2>
 
 
 <h3>Equality constrained minimization</h3>
@@ -27776,7 +27790,7 @@ where $\gamma = \alpha \beta (1-2\alpha)^2 / (20-8\alpha)$
 <li>
 	consider
 equality constrained convex optimization problem,
-<i>i.e.</i>, $m=0$ in <a href="#definition:convex optimization"></a>
+<i>i.e.</i>, $m=0$ in <a href="#definition:convex---optimization"></a>
 
 $$
 \begin{array}{ll}
@@ -27821,12 +27835,12 @@ and $Ax^\ast = b$
 
 <ul>
 <li>
-	<a href="#theorem:KKT and convexity sufficient for optimality with strong duality"></a>
+	<a href="#theorem:KKT---and---convexity---sufficient---for---optimality---with---strong---duality"></a>
 implies
 $x^\ast\in\xobj$ is optimal solution if and only if
 exists $\nu^\ast\in\reals^p$
 satisfy KKT optimality conditions,
-
+<div id="page:KKT---conditions---for---equality---constrained---minimization"></div>
 <i>i.e.</i>,
 
 $$
@@ -27862,7 +27876,7 @@ solving KKT equations
 	</li>
 	<li>
 		solving dual problem using unconstrained minimization methods
-and retrieve primal solution (refer to page~)
+and retrieve primal solution (refer to page~<a href="#page:Solving---primal---problems---via---dual---problems">here</a>)
 
 	</li>
 	</ul>
@@ -28046,7 +28060,7 @@ can solve dual problem using unconstrained minimization methods
 
 </li>
 <li>
-	primal optimum can be retrieved using method on page~)
+	primal optimum can be retrieved using method on page~<a href="#page:Solving---primal---problems---via---dual---problems">here</a>)
 
 </li>
 </ul>
@@ -28189,7 +28203,7 @@ $$
 but is <i>different</i>
 since Newton step $\sdir_\mathrm{nt}$ is different from that for unconstrained minimization,
 <i>i.e.</i>, $\sdir_\mathrm{nt} \neq -\nabla^2 \fobj(x)^{-1} \nabla \fobj(x)$
-(refer to <a href="#definition:Newton decrement"></a>)
+(refer to <a href="#definition:Newton---decrement"></a>)
 
 </li>
 <li>
@@ -28222,11 +28236,11 @@ $$
 
 <h3>Feasible Newton's method for equality constrained minimization</h3>
 
-<div class="algorithm" id="algorithm:feasible Newton's method for equality constrained minimization" data-name="feasible Newton's method for equality constrained minimization">
+<div class="algorithm" id="algorithm:feasible---Newton's---method---for---equality---constrained---minimization" data-name="feasible Newton's method for equality constrained minimization">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ with $Ax=b$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -28234,19 +28248,19 @@ $$
 </li>
 <li>
 	<strong></strong>	computer Newton step and descrement $\ntsdir(x)$ \& $\lambda(x)$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ 
+	<strong></strong>	stopping criterion - quit if $\lambda(x)^2/2 < \epsilon$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search on \fobj\ to choose $t>0$ 
+	<strong></strong>	do line search on \fobj\ to choose $t>0$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	update - $x := x + \slen \ntsdir$ 
+	<strong></strong>	update - $x := x + \slen \ntsdir$ <strong></strong>
 </li>
 
 <li>
@@ -28257,7 +28271,7 @@ $$
 </div>
 <ul>
 <li>
-	<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
+	<a href="#algorithm:feasible---Newton's---method---for---equality---constrained---minimization"></a>
 	<ul>
 	<li>
 		assumes
@@ -28277,7 +28291,7 @@ since all iterates are feasible with $\fobj(\xseqk{k+1}) <\fobj(\xseqk{k})$
 
 <h3>Assumptions for convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:conv-analysis-assumptions-feasible-equality-Newton-method"></div>
 <ul>
 <li>
 	feasibility of initial point - $\xseqk{0}\in\dom \fobj \;\&\; A\xseqk{0}=b$
@@ -28351,7 +28365,7 @@ $$
 
 <h3>Convergence analysis of feasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:Convergence---analysis---of---feasible---Newton's---method---for---equality---constrained---minimization"></div>
 <ul>
 <li>
 	convergence analysis of Newton's method for equality constrained minimization
@@ -28362,7 +28376,7 @@ unconstrained minimization after eliminating equality constraints
 <li>
 	thus, yield <i>exactly same</i> results as
 for unconstrained minimization
-(<a href="#theorem:convergence analysis of Newton's method"></a>)
+(<a href="#theorem:convergence---analysis---of---Newton's---method"></a>)
 (with different parameter values),
 <i>i.e.</i>,
 	<ul>
@@ -28388,7 +28402,7 @@ $$
 for self-concordant functions
 is also same as
 for unconstrained minimization
-(<a href="#theorem:convergence analysis of Newton's method for self-concordant functions"></a>)
+(<a href="#theorem:convergence---analysis---of---Newton's---method---for---self-concordant---functions"></a>)
 
 $$
 \left(\fobj(\xseqk{0}) - p^\ast\right)/{\gamma}
@@ -28552,7 +28566,9 @@ $$
 \\
 &=&
 - \pdsdir^T \left(\nabla^2 \fobj(x) \pdsdir + A^Tw \right)
-=
+
+\\
+&=& 
 - \pdsdir^T \nabla^2 \fobj(x) \pdsdir + (Ax-b)^Tw
 \end{eqnarray*}
 $$
@@ -28648,11 +28664,11 @@ $$
 
 <h3>Infeasible Newton's method for equality constrained minimization</h3>
 
-<div class="algorithm" id="algorithm:infeasible Newton's method for equality constrained minimization" data-name="infeasible Newton's method for equality constrained minimization">
+<div class="algorithm" id="algorithm:infeasible---Newton's---method---for---equality---constrained---minimization" data-name="infeasible Newton's method for equality constrained minimization">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ \& $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ \& $\epsilon_\mathrm{dual}>0$ 
+	<strong>Require:</strong>	$\fobj$, initial point $x\in \dom \fobj$ \& $\nu$, tolerance $\epsilon_\mathrm{pri}>0$ \& $\epsilon_\mathrm{dual}>0$ <strong></strong>
 </li>
 
 <li>
@@ -28664,11 +28680,11 @@ $\pdsdir(x)$
 \&
 $\pdsdirnu(x)$,
 \
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search on $r(x,\nu)$ to choose $\slen>0$ 
+	<strong></strong>	do line search on $r(x,\nu)$ to choose $\slen>0$ <strong></strong>
 </li>
 
 <li>
@@ -28677,11 +28693,11 @@ $\pdsdirnu(x)$,
 $x := x + \slen \pdsdir$
 \&
 $\nu := \nu + \slen \pdsdirnu$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong>until</strong>	$\|r_\mathrm{dual}(x,\nu)\| \leq \epsilon_\mathrm{dual}$ \& $\|Ax-b\| \leq \epsilon_\mathrm{pri}$ 
+	<strong>until</strong>	$\|r_\mathrm{dual}(x,\nu)\| \leq \epsilon_\mathrm{dual}$ \& $\|Ax-b\| \leq \epsilon_\mathrm{pri}$ <strong></strong>
 </li>
 
 </ul>
@@ -28690,9 +28706,9 @@ $\nu := \nu + \slen \pdsdirnu$
 <ul>
 <li>
 	note similarity and difference of
-<a href="#algorithm:infeasible Newton's method for equality constrained minimization"></a>
+<a href="#algorithm:infeasible---Newton's---method---for---equality---constrained---minimization"></a>
 &amp;
-<a href="#algorithm:feasible Newton's method for equality constrained minimization"></a>
+<a href="#algorithm:feasible---Newton's---method---for---equality---constrained---minimization"></a>
 	<ul>
 	<li>
 		line search done not on $\fobj$, but on primal-dual residuals $r(x,\nu)$
@@ -28721,14 +28737,14 @@ depending on specific application
 
 <h3>Line search methods for infeasible Newton's method</h3>
 
-
+<div id="page:Line---search---methods---for---infeasible---Newton's---method"></div>
 <ul>
 <li>
 	line search methods for infeasible Newton's method,
 <i>i.e.</i>,
-<a href="#algorithm:exact line search"></a>
+<a href="#algorithm:exact---line---search"></a>
 &amp;
-<a href="#algorithm:backtracking line search"></a>
+<a href="#algorithm:backtracking---line---search"></a>
 same with $\fobj$ replaced by $\|r(x,\nu)\|_2$,
 
 </li>
@@ -28738,7 +28754,7 @@ same with $\fobj$ replaced by $\|r(x,\nu)\|_2$,
 
 </li>
 </ul>
-<div class="algorithm" id="algorithm:exact line search for infeasible Newton's method" data-name="exact line search for infeasible Newton's method">
+<div class="algorithm" id="algorithm:exact---line---search---for---infeasible---Newton's---method" data-name="exact line search for infeasible Newton's method">
 	 
 
 $$
@@ -28747,24 +28763,24 @@ $$
 
 
 </div>
-<div class="algorithm" id="algorithm:backtracking line search for infeasible Newton's method" data-name="backtracking line search for infeasible Newton's method">
+<div class="algorithm" id="algorithm:backtracking---line---search---for---infeasible---Newton's---method" data-name="backtracking line search for infeasible Newton's method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	\sdir, \sdirnu, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ 
+	<strong>Require:</strong>	\sdir, \sdirnu, $\alpha\in(0,0.5)$, $\beta\in(0,1)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen:=1$ 
+	<strong></strong>	$\slen:=1$ <strong></strong>
 </li>
 
 <li>
 	<strong>while</strong>	$\|r(x +\slen\pdsdir, \nu + \slen\pdsdirnu)\|_2 > (1-\alpha \slen)\|r(x,\nu)\|_2$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$\slen := \beta \slen$ 
+	<strong></strong>	$\slen := \beta \slen$ <strong></strong>
 </li>
 
 <li>
@@ -28830,7 +28846,7 @@ following steps coincides with feasible Newton's method
 
 <h3>Assumptions for convergence analysis of infeasible Newton's method for equality constrained minimization</h3>
 
-
+<div id="page:conv-analysis-assumptions-infeasible-equality-Newton-method"></div>
 <ul>
 <li>
 	sublevel set $S = \bigset{(x,\nu)\in \dom \fobj\times \reals^m}{
@@ -28903,8 +28919,8 @@ and exist optimal point $(x^\ast,\nu^\ast)$
 </li>
 <li>
 	consist of two phases - like unconstrained minimization or infeasible Newton's method (refer to
-<a href="#theorem:convergence analysis of Newton's method"></a>
-or page~)
+<a href="#theorem:convergence---analysis---of---Newton's---method"></a>
+or page~<a href="#page:Convergence---analysis---of---feasible---Newton's---method---for---equality---constrained---minimization">here</a>)
 	<ul>
 	<li>
 		damped Newton phase
@@ -28957,7 +28973,7 @@ $$
 </ul>
 
 
-<h2 id="Barrier Interior-point Methods">Barrier Interior-point Methods</h2>
+<h2 id="title-page:Barrier---Interior-point---Methods">Barrier Interior-point Methods</h2>
 
 
 <h3>Interior-point methods</h3>
@@ -28968,8 +28984,8 @@ $$
 
 </li>
 <li>
-	interior-point methods solve convex optimization problem (<a href="#definition:convex optimization"></a>)
-or KKT optimality conditions (<a href="#definition:KKT optimality conditions"></a>)
+	interior-point methods solve convex optimization problem (<a href="#definition:convex---optimization"></a>)
+or KKT optimality conditions (<a href="#definition:KKT---optimality---conditions"></a>)
 by
 	<ul>
 	<li>
@@ -29080,7 +29096,7 @@ $$
 </li>
 <li>
 	objective function is convex due to composition rule for convexity preservation
-(page~),
+(page~<a href="#page:convexity---preserving---operation-------composition">here</a>),
 and differentiable
 
 </li>
@@ -29108,7 +29124,7 @@ called <span class="define">logarithmic barrier</span> or <span class="define">l
 
 <h3>Central path</h3>
 
-
+<div id="page:Central---path"></div>
 <ul>
 <li>
 	optimization problem
@@ -29133,7 +29149,7 @@ $$
 
 </li>
 <li>
-	solution of above problem, called <span class="define">central point</span>, denoted by <span class="define">$x^\ast(t)$</span>,
+	solution of above problem, called <span class="define">central point</span>, denoted by <span class="notation">$x^\ast(t)$</span>,
 set of central points, called <span class="define">central path</span>
 
 </li>
@@ -29175,7 +29191,7 @@ L(x,\lambda^\ast(t),\nu^\ast(t))
 = \fobj(x) + {\lambda^\ast(t)}^T \fie(x) + {\nu^\ast(t)}^T (Ax-b)
 $$
 
-where $L$ is Lagrangian of original problem in <a href="#definition:convex optimization"></a>
+where $L$ is Lagrangian of original problem in <a href="#definition:convex---optimization"></a>
 
 </li>
 <li>
@@ -29273,7 +29289,7 @@ called <span class="define">centrality conditions</span>
 
 </li>
 <li>
-	only difference between centrality conditions and KKT conditions in <a href="#definition:KKT optimality conditions"></a>
+	only difference between centrality conditions and KKT conditions in <a href="#definition:KKT---optimality---conditions"></a>
 is <i>complementary $1/t$-slackness</i>
 	<ul>
 	<li>
@@ -29378,11 +29394,11 @@ objective function ill behaves
 
 <h3>Barrier methods</h3>
 
-<div class="algorithm" id="algorithm:barrier method" data-name="barrier method">
+<div class="algorithm" id="algorithm:barrier---method" data-name="barrier method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$ 
+	<strong>Require:</strong>	strictly feasible $x$, $t>0$, $\mu>1$, tolerance $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -29393,28 +29409,28 @@ objective function ill behaves
 find $x^\ast(t)$
 by minimizing $t\fobj + \phi$ subject to $Ax=b$
 starting at $x$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	(optionally)
 compute $\lambda^\ast(t)$ \& $\nu^\ast(t)$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	stopping criterion - quit if $m/t<\epsilon$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	increase $t$ - $t := \mu t$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	update $x$ - $x := x^\ast(t)$
- 
+ <strong></strong>
 </li>
 
 \Until
@@ -29461,7 +29477,7 @@ as long as approximates of $x^\ast(t)$ go to $x^\ast$
 		while cannot calculate $g(\lambda,\nu)$ for this case,
 below provides dual feasible point
 when
-Newton step $\ntsdir$ for optimization problem on page~ is small,
+Newton step $\ntsdir$ for optimization problem on page~<a href="#page:Central---path">here</a> is small,
 <i>i.e.</i>, for nearly centered
 
 $$
@@ -29522,7 +29538,7 @@ $$
 	</li>
 	<li>
 		
-make central path condition on page~ maximally satisfied
+make central path condition on page~<a href="#page:Central---path">here</a> maximally satisfied
 
 $$
 \seqk{t}{0}
@@ -29551,7 +29567,7 @@ for
 $\seqk{t}{0}$,
 $\mu\seqk{t}{0}$,
 $\mu^2\seqk{t}{0}$,
-
+&hellip;
 
 </li>
 <li>
@@ -29575,7 +29591,7 @@ plus one (initial centering step)
 	<ul>
 	<li>
 		for feasible centering problem,
-$t\fobj + \phi$ should satisfy conditions on page~,
+$t\fobj + \phi$ should satisfy conditions on page~<a href="#page:conv-analysis-assumptions-feasible-equality-Newton-method">here</a>,
 <i>i.e.</i>,
 initial sublevel set is closed,
 associated inverse KKT matrix is bounded
@@ -29584,7 +29600,7 @@ associated inverse KKT matrix is bounded
 	</li>
 	<li>
 		for infeasible centering problem,
-$t\fobj + \phi$ should satisfy conditions on page~
+$t\fobj + \phi$ should satisfy conditions on page~<a href="#page:conv-analysis-assumptions-infeasible-equality-Newton-method">here</a>
 
 	</li>
 	</ul>
@@ -29592,7 +29608,7 @@ $t\fobj + \phi$ should satisfy conditions on page~
 </li>
 </ul>
 
-<h2 id="Primal-dual Interior-point Methods">Primal-dual Interior-point Methods</h2>
+<h2 id="title-page:Primal-dual---Interior-point---Methods">Primal-dual Interior-point Methods</h2>
 
 
 <h3>Primal-dual \& barrier interior-point methods</h3>
@@ -29656,7 +29672,7 @@ for several basic problems, such as, LP, QP, SOCP, GP, SDP
 
 <ul>
 <li>
-	modified KKT conditions (for convex optimization in <a href="#definition:convex optimization"></a>) expressed as
+	modified KKT conditions (for convex optimization in <a href="#definition:convex---optimization"></a>) expressed as
 
 $$
 r_t(x,\lambda,\nu)
@@ -29671,17 +29687,17 @@ where
 
 $$
 \begin{eqnarray*}
-\mbox{\define{dual residual}}
+\mbox{dual residual}
 &-&
 r_\mathrm{dual}(x,\lambda,\nu)
 = {\nabla \fobj(x) + D\fie(x)^T\lambda + A^T\nu}
 \\
-\mbox{\define{centrality residual}}
+\mbox{centrality residual}
 &-&
 r_\mathrm{cent}(x,\lambda,\nu)
 = {-\diag(\lambda)\fobj(x) - (1/t) \ones}
 \\
-\mbox{\define{primal residual}}
+\mbox{primal residual}
 &-&
 r_\mathrm{pri}(x,\lambda,\nu)
 = {Ax-b}
@@ -29806,12 +29822,12 @@ $$
 
 <h3>Primal-dual interior-point method</h3>
 
-<div class="algorithm" id="algorithm:primal-dual interior-point method" data-name="primal-dual interior-point method">
+<div class="algorithm" id="algorithm:primal-dual---interior-point---method" data-name="primal-dual interior-point method">
 	 
 <ul>
 <li>
 	<strong>Require:</strong>	initial point $x$ with $\fie(x)\prec0$, $\lambda \succ 0$, $\mu > 1$,
-$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$ 
+$\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$ <strong></strong>
 </li>
 
 <li>
@@ -29819,16 +29835,16 @@ $\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$
 </li>
 <li>
 	<strong></strong>	set $t := \mu m /\hat{\eta}$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong></strong>	computer primal-dual search direction $\pdsdiry = (\pdsdir, \pdsdirlbd, \pdsdirnu)$
- 
+ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	do line search to choose $s>0$ 
+	<strong></strong>	do line search to choose $s>0$ <strong></strong>
 </li>
 
 <li>
@@ -29837,14 +29853,14 @@ $\epsilon_\mathrm{pri}>0$, $\epsilon_\mathrm{dual}>0$, $\epsilon>0$
 $x := x + s \pdsdir$,
 $\lambda := \lambda + s \pdsdirnu$,
 $\nu := \nu + s \pdsdirnu$
- 
+ <strong></strong>
 </li>
 
 <li>
 	<strong>until</strong>	$\|r_\mathrm{pri}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{pri}$,
 $\|r_\mathrm{dual}(x,\lambda,\nu)\|_2\leq \epsilon_\mathrm{dual}$,
 $\hat{\eta} \leq \epsilon$
- 
+ <strong></strong>
 </li>
 
 </ul>
@@ -29865,35 +29881,35 @@ since primal-dual method often shows faster than linear convergence
 <ul>
 <li>
 	liner search is standard backtracking line search on $r(x,\lambda,\nu)$
-similar to that in <a href="#algorithm:exact line search for infeasible Newton's method"></a>
+similar to that in <a href="#algorithm:exact---line---search---for---infeasible---Newton's---method"></a>
 except making sure that $\fie(x) \prec 0$ and $\lambda\succ0$
 
 </li>
 <li>
 	note initial $s$
-in <a href="#algorithm:backtracking line search for primal-dual interior-point method"></a>
+in <a href="#algorithm:backtracking---line---search---for---primal-dual---interior-point---method"></a>
 is largest $s$ that makes $\lambda + s\pdsdirlbd$ positive
 
 </li>
 </ul>
-<div class="algorithm" id="algorithm:backtracking line search for primal-dual interior-point method" data-name="backtracking line search for primal-dual interior-point method">
+<div class="algorithm" id="algorithm:backtracking---line---search---for---primal-dual---interior-point---method" data-name="backtracking line search for primal-dual interior-point method">
 	 
 <ul>
 <li>
-	<strong>Require:</strong>	\pdsdir, \pdsdirlbd, \pdsdirnu, $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$ 
+	<strong>Require:</strong>	\pdsdir, \pdsdirlbd, \pdsdirnu, $\alpha\in(0.01,0.1)$, $\beta\in(0.3,0.8)$ <strong></strong>
 </li>
 
 <li>
-	<strong></strong>	$s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$ 
+	<strong></strong>	$s:= 0.99\sup\set{s\in[0,1]}{\lambda + s \sdirlbd \succeq 0} = 0.99\min\{1,\min\set{-\lambda_i/\sdirlbd_i}{\sdirlbd_i < 0}\}$ <strong></strong>
 </li>
 
 <li>
 	<strong>while</strong>	$\fie (x +s\pdsdir) \not \prec 0$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$t := \beta t$ 
+	<strong></strong>	$t := \beta t$ <strong></strong>
 </li>
 
 <li>
@@ -29901,11 +29917,11 @@ is largest $s$ that makes $\lambda + s\pdsdirlbd$ positive
 </li>
 <li>
 	<strong>while</strong>	$\|r(x +s\pdsdir, \lambda + s\pdsdirlbd, \nu + s\pdsdirnu)\|_2 > (1-\alpha s)\|r(x,\lambda,\nu)\|_2$
- do
+ <strong>do</strong>
 </li>
 
 <li>
-	<strong></strong>	$t := \beta t$ 
+	<strong></strong>	$t := \beta t$ <strong></strong>
 </li>
 
 <li>

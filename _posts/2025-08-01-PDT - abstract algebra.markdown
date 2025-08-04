@@ -1,7 +1,7 @@
 ---
 title: Abstract Algebra
 date: Fri Aug  1 02:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:25 PDT 2025
+last_modified_at: Sun Aug  3 23:56:24 PDT 2025
 permalink: /math/rig/abstract-algebra
 categories:
 - blog
@@ -201,7 +201,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -479,8 +479,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -501,7 +501,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -530,7 +530,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -553,7 +553,7 @@ $$
 </ul>
 
 
-<h1 id="Abstract Algebra">Abstract Algebra</h1>
+<h1 id="super-title-page:Abstract---Algebra">Abstract Algebra</h1>
 
 
 
@@ -570,7 +570,7 @@ $$
 
 
 
-<h2 id="Why Abstract Algebra?">Why Abstract Algebra?</h2>
+<h2 id="title-page:Why---Abstract---Algebra?">Why Abstract Algebra?</h2>
 
 
 <h3>Why abstract algebra?</h3>
@@ -645,12 +645,12 @@ by Ho&#776;lder
 </ul>
 
 
-<h2 id="Groups">Groups</h2>
+<h2 id="title-page:Groups">Groups</h2>
 
 
 <h3>Monoids</h3>
 
-<div class="definition" id="definition:law of composition" data-name="law of composition">
+<div class="definition" id="definition:law---of---composition" data-name="law of composition">
 	
 mapping $S\times S \to S$ for set $S$,
 called <span class="define">law of composition (of $S$ to itself)</span>
@@ -672,13 +672,15 @@ called <span class="define">unit element</span> - always unique
 
 
 
+	</li>
+	</ul>
+
+</div>
+<div class="proof">
+	
 for any two unit elements $e$ and $f$,
 $e = ef = f,$
 hence, $e=f$
-
-
-	</li>
-	</ul>
 
 </div>
 
@@ -787,7 +789,7 @@ subgroup consisting only of unit element, called <span class="define">trivial</s
 
 <h3>Cyclic groups, generators, and direct products</h3>
 
-<div class="definition" id="definition:cyclic groups" data-name="cyclic groups">
+<div class="definition" id="definition:cyclic---groups" data-name="cyclic groups">
 	
 
 group $G$ with
@@ -830,12 +832,12 @@ $$
 
 called <span class="define">set of generators for $G$</span>,
 said to <span class="define">generate $G$</span>,
-denoted by $G=\generates{S}$
+denoted by <span class="notation">$G=\generates{S}$</span>
 
 
 
 </div>
-<div class="definition" id="definition:direct products" data-name="direct products">
+<div class="definition" id="definition:direct---products" data-name="direct products">
 	
 for two groups $G_1$ and $G_2$,
 group $G_1\times G_2$
@@ -896,7 +898,7 @@ called <span class="define">isomorphism</span>,
 
 
 
-sometimes denoted by <span class="define">$G\isomorph G'$</span>
+sometimes denoted by <span class="notation">$G\isomorph G'$</span>
 
 	</li>
 	<li>
@@ -921,24 +923,24 @@ sometimes denoted by <span class="define">$G\isomorph G'$</span>
 <ul>
 <li>
 	set of all automorphisms of $G$ is itself group,
-denoted by <span class="define">\aut{G}</span>
+denoted by <span class="notation">\aut{G}</span>
 
 </li>
 </ul>
 
 <h3>Kernel, image, and embedding of homeomorphism</h3>
 
-<div class="definition" id="definition:kernel of homeomorphism" data-name="kernel of homeomorphism">
+<div class="definition" id="definition:kernel---of---homeomorphism" data-name="kernel of homeomorphism">
 	
 
 
 for group-homeomorphism $f:G\to G'$ where $e'$ is unit element of $G'$,
 $f^{-1}(\{e'\})$, which is subgroup of $G$,
 called <span class="define">kernel of $f$</span>,
-denoted by $\Ker{f}$
+denoted by <span class="notation">$\Ker{f}$</span>
 
 </div>
-<div class="definition" id="definition:embedding of homeomorphism" data-name="embedding of homeomorphism">
+<div class="definition" id="definition:embedding---of---homeomorphism" data-name="embedding of homeomorphism">
 	
 
 
@@ -946,7 +948,7 @@ homeomorphism $f:G\to G'$ establishing isomorphism between $G$ and $f(G)\subset 
 called <span class="define">embedding</span>
 
 </div>
-<div class="proposition" id="proposition:group homeomorphism and isomorphism" data-name="group homeomorphism and isomorphism">
+<div class="proposition" id="proposition:group---homeomorphism---and---isomorphism" data-name="group homeomorphism and isomorphism">
 	 
 	<ul>
 	<li>
@@ -981,7 +983,7 @@ map $f:S\to G'$ has at most one extension to homeomorphism of $G$ into $G'$
 
 <h3>Orthogonal subgroups</h3>
 
-<div class="proposition" id="proposition:orthogonal subgroups" data-name="orthogonal subgroups">
+<div class="proposition" id="proposition:orthogonal---subgroups" data-name="orthogonal subgroups">
 	
 
 
@@ -994,7 +996,7 @@ $$
 
 with $(x,y)\mapsto xy$
 is <i>isomorphism</i>
-can generalize to finite number of subgroups, $H_1$, , $H_n$ such that
+can generalize to finite number of subgroups, $H_1$, &hellip;, $H_n$ such that
 
 $$
 H_1 \cdots H_n = G
@@ -1012,7 +1014,7 @@ in which case, $G$ is isomorphic to $H_1\cdots H_n$
 
 <h3>Cosets of groups</h3>
 
-<div class="definition" id="definition:cosets of groups" data-name="cosets of groups">
+<div class="definition" id="definition:cosets---of---groups" data-name="cosets of groups">
 	
 
 
@@ -1030,7 +1032,7 @@ and element in $aH$, called
 
 
 </div>
-<div class="proposition" id="proposition:cosets of groups" data-name="cosets of groups">
+<div class="proposition" id="proposition:cosets---of---groups" data-name="cosets of groups">
 	
 for group $G$ and subgroup $H\subset G$,
 	<ul>
@@ -1055,7 +1057,7 @@ hence all left cosets have same cardinality
 	</ul>
 
 </div>
-<div class="definition" id="definition:index and order of group" data-name="index and order of group">
+<div class="definition" id="definition:index---and---order---of---group" data-name="index and order of group">
 	
 
 
@@ -1063,16 +1065,16 @@ hence all left cosets have same cardinality
 
 number of left cosets of $H$ in $G$,
 called <span class="define">index of $H$ in $G$</span>,
-denoted by $(G:H)$
+denoted by <span class="notation">$(G:H)$</span>
 - index of trivial subgroups,
 called <span class="define">order of $G$</span>,
-denoted by $(G:1)$
+denoted by <span class="notation">$(G:1)$</span>
 
 </div>
 
 <h3>Indices and orders of groups</h3>
 
-<div class="proposition" id="proposition:indices and orders" data-name="indices and orders">
+<div class="proposition" id="proposition:indices---and---orders" data-name="indices and orders">
 	
 for group $G$ and two subgroups $H$ and $K\subset G$ with $K\subset H$,
 
@@ -1093,7 +1095,7 @@ hence, if $(G:1)<\infty$, both $(G:H)$ and $(H:1)$ divide $(G:1)$
 
 <h3>Normal subgroup</h3>
 
-<div class="definition" id="definition:normal subgroups" data-name="normal subgroups">
+<div class="definition" id="definition:normal---subgroups" data-name="normal subgroups">
 	
 
 
@@ -1123,7 +1125,7 @@ in which case
 		set of cosets $\set{xH}{x\in G}$ with law of composition defined by
 $(xH)(yH) = (xy)H,$
 forms group with unit element $H$,
-denoted by <span class="define">$G/H$</span>,
+denoted by <span class="notation">$G/H$</span>,
 called <span class="define">factor group of $G$ by $H$</span>,
 
 
@@ -1142,7 +1144,7 @@ kernel of which is $H$
 	</ul>
 
 </div>
-<div class="proposition" id="proposition:normal subgroups and factor groups" data-name="normal subgroups and factor groups">
+<div class="proposition" id="proposition:normal---subgroups---and---factor---groups" data-name="normal subgroups and factor groups">
 	
  
 
@@ -1175,7 +1177,7 @@ is also normal subgroup
 
 <h3>Normalizers and centralizers</h3>
 
-<div class="definition" id="definition:normalizers and centralizers" data-name="normalizers and centralizers">
+<div class="definition" id="definition:normalizers---and---centralizers" data-name="normalizers and centralizers">
 	
 for subset $S\subset G$ of group $G$,
 
@@ -1217,7 +1219,7 @@ and (of course) is normal
 
 <h3>Normalizers and congruence</h3>
 
-<div class="proposition" id="proposition:normalizers of groups" data-name="normalizers of groups">
+<div class="proposition" id="proposition:normalizers---of---groups" data-name="normalizers of groups">
 	
 subgroup $H\subset G$ of group $G$
 is normal subgroup of its normalizer $N_H$
@@ -1246,7 +1248,7 @@ and $H$ is normal in $KH$
 
 </div>
 
-<div class="definition" id="definition:congruence with respect to normal subgroup" data-name="congruence with respect to normal subgroup">
+<div class="definition" id="definition:congruence---with---respect---to---normal---subgroup" data-name="congruence with respect to normal subgroup">
 	
 
 
@@ -1266,7 +1268,7 @@ read <span class="define">$x$ and $y$ are congruent modulo $H$</span>
 
 <h3>Exact sequences of homeomorphisms</h3>
 
-<div class="definition" id="definition:exact sequences of homeomorphisms" data-name="exact sequences of homeomorphisms">
+<div class="definition" id="definition:exact---sequences---of---homeomorphisms" data-name="exact sequences of homeomorphisms">
 	
 
 
@@ -1332,7 +1334,7 @@ in which vertical mappings are isomorphisms and rows are <i>exact</i>
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---map"></div>
 
 
 
@@ -1428,7 +1430,7 @@ where rows are exact
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---isomorphism"></div>
 
 
 
@@ -1467,7 +1469,7 @@ as shown in the figure,
 
 
 
-
+<div id="fig:commutative---diagram---1"></div>
 
 
 $H$ is normal in $G$
@@ -1492,7 +1494,7 @@ if $f$ is surjective, $\bar{f}$ is isomorphism
 
 
 
-
+<div id="fig:commutative---diagram---for---canonical---homeomorphism"></div>
 
 
 
@@ -1501,7 +1503,7 @@ if $f$ is surjective, $\bar{f}$ is isomorphism
 
 <h3>Towers</h3>
 
-<div class="definition" id="definition:towers of groups" data-name="towers of groups">
+<div class="definition" id="definition:towers---of---groups" data-name="towers of groups">
 	
 
 
@@ -1542,7 +1544,7 @@ called <span class="define">tower of subgroups</span>
 
 
 </div>
-<div class="proposition" id="proposition:towers inded by homeomorphism" data-name="towers inded by homeomorphism">
+<div class="proposition" id="proposition:towers---inded---by---homeomorphism" data-name="towers inded by homeomorphism">
 	
 
 for group homeomorphism $f:G\to G'$ and normal tower
@@ -1594,7 +1596,7 @@ is injective
 
 <h3>Refinement of towers and solvability of groups</h3>
 
-<div class="definition" id="definition:refinement of towers" data-name="refinement of towers">
+<div class="definition" id="definition:refinement---of---towers" data-name="refinement of towers">
 	
 
 
@@ -1605,7 +1607,7 @@ called <span class="define">refinement of tower</span>
 
 </div>
 
-<div class="definition" id="definition:solvable groups" data-name="solvable groups">
+<div class="definition" id="definition:solvable---groups" data-name="solvable groups">
 	
 
 
@@ -1615,7 +1617,7 @@ said to be <span class="define">solvable</span>
 
 </div>
 
-<div class="proposition" id="proposition:finite solvable groups" data-name="finite solvable groups">
+<div class="proposition" id="proposition:finite---solvable---groups" data-name="finite solvable groups">
 	 
 
 	<ul>
@@ -1631,7 +1633,7 @@ said to be <span class="define">solvable</span>
 
 </div>
 
-<div class="theorem" id="theorem:Feit-Thompson theorem" data-name="Feit-Thompson theorem">
+<div class="theorem" id="theorem:Feit-Thompson---theorem" data-name="Feit-Thompson theorem">
 	
 
 
@@ -1639,7 +1641,7 @@ group whose order is prime power is solvable
 
 </div>
 
-<div class="theorem" id="theorem:solvability condition in terms of normal subgroups" data-name="solvability condition in terms of normal subgroups">
+<div class="theorem" id="theorem:solvability---condition---in---terms---of---normal---subgroups" data-name="solvability condition in terms of normal subgroups">
 	
 for group $G$ and its normal subgroup $H$,
 $G$ is solvable if and only if
@@ -1659,13 +1661,13 @@ $xyx^{-1}y^{-1}$ for $x,y\in G$,
 called <span class="define">commutator</span>
 
 </div>
-<div class="definition" id="definition:commutator subgroups" data-name="commutator subgroups">
+<div class="definition" id="definition:commutator---subgroups" data-name="commutator subgroups">
 	
 
 
 subgroup generated by commutators of group $G$,
 called <span class="define">commutator subgroup</span>,
-denoted by <span class="define">$G^C$</span>,
+denoted by <span class="notation">$G^C$</span>,
 <i>i.e.</i>
 
 $$
@@ -1703,7 +1705,7 @@ $$
 
 <h3>Simple groups</h3>
 
-<div class="definition" id="definition:simple groups" data-name="simple groups">
+<div class="definition" id="definition:simple---groups" data-name="simple groups">
 	
 
 non-trivial group having no normal subgroup other than itself and trivial subgroup,
@@ -1711,7 +1713,7 @@ said to be <span class="define">simple</span>
 
 </div>
 
-<div class="proposition" id="proposition:simple groups" data-name="simple groups">
+<div class="proposition" id="proposition:simple---groups" data-name="simple groups">
 	
 abelian group is simple
 if and only if
@@ -1722,7 +1724,7 @@ cycle of prime order
 
 <h3>Butterfly lemma</h3>
 
-<div class="lemma" id="lemma:butterfly lemma - Zassenhaus" data-name="butterfly lemma - Zassenhaus">
+<div class="lemma" id="lemma:butterfly---lemma-------Zassenhaus" data-name="butterfly lemma - Zassenhaus">
 	
 
 
@@ -1770,13 +1772,13 @@ $$
 
 
 
-
+<div id="fig:butterfly---lemma"></div>
 
 
 
 <h3>Equivalent towers</h3>
 
-<div class="definition" id="definition:equivalent towers" data-name="equivalent towers">
+<div class="definition" id="definition:equivalent---towers" data-name="equivalent towers">
 	
 
 
@@ -1820,7 +1822,7 @@ said to be <span class="define">equivalent</span>
 
 <h3>Schreier and Jordan-Ho&#776;lder theorems</h3>
 
-<div class="theorem" id="theorem:Schreier theorem" data-name="Schreier theorem">
+<div class="theorem" id="theorem:Schreier---theorem" data-name="Schreier theorem">
 	
 
 
@@ -1830,7 +1832,7 @@ have equivalent refinement
 
 </div>
 
-<div class="theorem" id="theorem:Jordan-Holder theorem" data-name="Jordan-Holder theorem">
+<div class="theorem" id="theorem:Jordan-Holder---theorem" data-name="Jordan-Holder theorem">
 	
 
 
@@ -1845,7 +1847,7 @@ are equivalent
 
 <h3>Cyclic groups</h3>
 
-<div class="definition" id="definition:exponent of groups and group elements" data-name="exponent of groups and group elements">
+<div class="definition" id="definition:exponent---of---groups---and---group---elements" data-name="exponent of groups and group elements">
 	
 
 
@@ -1857,7 +1859,7 @@ called <span class="define">exponent of $G$</span>
 
 </div>
 
-<div class="definition" id="definition:period of group elements" data-name="period of group elements">
+<div class="definition" id="definition:period---of---group---elements" data-name="period of group elements">
 	
 
 
@@ -1867,7 +1869,7 @@ called <span class="define">period of $a$</span>
 
 </div>
 
-<div class="proposition" id="proposition:period of elements of finite groups" data-name="period of elements of finite groups">
+<div class="proposition" id="proposition:period---of---elements---of---finite---groups" data-name="period of elements of finite groups">
 	
 for finite group $G$ of order $n>1$,
 period of every non-unit element $a$ ($\neq e$) devided $n$;
@@ -1876,7 +1878,7 @@ $G$ is cyclic and period of every generator is $n$
 
 </div>
 
-<div class="proposition" id="proposition:subgroups of cyclic groups" data-name="subgroups of cyclic groups">
+<div class="proposition" id="proposition:subgroups---of---cyclic---groups" data-name="subgroups of cyclic groups">
 	
 every subgroup of cyclic group is cyclic
 and image of every homeomorphism of cyclic group is cyclic
@@ -1886,7 +1888,7 @@ and image of every homeomorphism of cyclic group is cyclic
 
 <h3>Properties of cyclic groups</h3>
 
-<div class="proposition" id="proposition:properties of cyclic groups" data-name="properties of cyclic groups">
+<div class="proposition" id="proposition:properties---of---cyclic---groups" data-name="properties of cyclic groups">
 	 
 	<ul>
 	<li>
@@ -1932,7 +1934,7 @@ with $C$ cyclic with prime order
 
 <h3>Symmetric groups and permutations</h3>
 
-<div class="definition" id="definition:symmetric groups and permutations" data-name="symmetric groups and permutations">
+<div class="definition" id="definition:symmetric---groups---and---permutations" data-name="symmetric groups and permutations">
 	
 
 
@@ -1940,7 +1942,7 @@ with $C$ cyclic with prime order
 
 for nonempty set $S$, group $G$ of bijective functions of $S$ onto itself
 with law of composition being function composition,
-called <span class="define">symmetric group of $S$</span>, denoted by <span class="define">\perm{S}</span>;
+called <span class="define">symmetric group of $S$</span>, denoted by <span class="notation">\perm{S}</span>;
 elements in $\perm{S}$ called <span class="define">permutations of $S$</span>;
 element swapping two disjoint elements in $S$ leaving every others left,
 called <span class="define">transposition</span>
@@ -1950,7 +1952,7 @@ called <span class="define">transposition</span>
 
 
 </div>
-<div class="proposition" id="proposition:sign homeomorphism of finite symmetric groups" data-name="sign homeomorphism of finite symmetric groups">
+<div class="proposition" id="proposition:sign---homeomorphism---of---finite---symmetric---groups" data-name="sign homeomorphism of finite symmetric groups">
 	
 for finite symmetric group $S_n$,
 exits unique homeomorphism $\epsilon: S_n \to\{-1,1\}$
@@ -1960,7 +1962,7 @@ mapping every transposition, $\tau$, to $-1$,
 </div>
 
 
-<div class="definition" id="definition:alternating groups" data-name="alternating groups">
+<div class="definition" id="definition:alternating---groups" data-name="alternating groups">
 	
 element of finite symmetric group $\sigma$ with $\epsilon(\sigma)=1$,
 called <span class="define">even</span>,
@@ -1970,18 +1972,18 @@ called <span class="define">odd</span>;
 
 
 
-kernel of $\epsilon$, called <span class="define">alternating group</span>, denoted by <span class="define">$A_n$</span>
+kernel of $\epsilon$, called <span class="define">alternating group</span>, denoted by <span class="notation">$A_n$</span>
 
 
 
 </div>
-<div class="theorem" id="theorem:solvability of finite symmetric groups" data-name="solvability of finite symmetric groups">
+<div class="theorem" id="theorem:solvability---of---finite---symmetric---groups" data-name="solvability of finite symmetric groups">
 	
 symmetric group $S_n$ with $n\geq 5$
 is <i>not</i> solvable
 
 </div>
-<div class="theorem" id="theorem:simplicity of alternating groups" data-name="simplicity of alternating groups">
+<div class="theorem" id="theorem:simplicity---of---alternating---groups" data-name="simplicity of alternating groups">
 	
 alternating group $A_n$ with $n\geq 5$ is simple
 
@@ -1989,7 +1991,7 @@ alternating group $A_n$ with $n\geq 5$ is simple
 
 <h3>Operations of group on set</h3>
 
-<div class="definition" id="definition:operations of group on set" data-name="operations of group on set">
+<div class="definition" id="definition:operations---of---group---on---set" data-name="operations of group on set">
 	
 
 
@@ -2014,7 +2016,7 @@ called <span class="define">operation of $G$ on $S$</span> or <span class="defin
 	<li>
 		denote $\pi(x)$ for $x\in G$
 by <span class="define">$\pi_x$</span>,
-hence homeomorphism denoted by <span class="define">$x\mapsto \pi_x$</span>
+hence homeomorphism denoted by <span class="notation">$x\mapsto \pi_x$</span>
 
 	</li>
 	</ul>
@@ -2053,7 +2055,7 @@ hence $\pi_x$ is homeomorphism of $G$ into $\perm{S}$
 
 <h3>Conjugation</h3>
 
-<div class="definition" id="definition:conjugation of groups" data-name="conjugation of groups">
+<div class="definition" id="definition:conjugation---of---groups" data-name="conjugation of groups">
 	
 
 
@@ -2122,7 +2124,7 @@ $$
 $$
 
 called <span class="define">translation</span>,
-denoted by <span class="define">$T_x:G \to G$</span>
+denoted by <span class="notation">$T_x:G \to G$</span>
 with $T_x(y) = xy$
 
 </div>
@@ -2180,7 +2182,7 @@ $$
 $$
 
 called <span class="define">isotropy of $G$</span>,
-denoted by <span class="define">$G_s$</span>,
+denoted by <span class="notation">$G_s$</span>,
 which is subgroup of $G$
 
 </div>
@@ -2226,7 +2228,7 @@ $$
 
 <h3>Orbits of operation</h3>
 
-<div class="definition" id="definition:orbits of operation" data-name="orbits of operation">
+<div class="definition" id="definition:orbits---of---operation" data-name="orbits of operation">
 	
 
 
@@ -2234,7 +2236,7 @@ $$
 for operation of group $G$ on set $S$,
 $\set{xs}{x\in G}$,
 called <span class="define">orbit of $s$ under $G$</span>,
-denoted by <span class="define">$Gs$</span>
+denoted by <span class="notation">$Gs$</span>
 
 </div>
 <ul>
@@ -2271,7 +2273,7 @@ is index of normalizer of $H$ in $G$
 
 </div>
 
-<div class="definition" id="definition:transitive operation" data-name="transitive operation">
+<div class="definition" id="definition:transitive---operation" data-name="transitive operation">
 	
 
 
@@ -2295,7 +2297,7 @@ where $s_\lambda$ are elements of distinct orbits
 
 </li>
 </ul>
-<div class="formula" id="formula:orbit decomposition formula" data-name="orbit decomposition formula">
+<div class="formula" id="formula:orbit---decomposition---formula" data-name="orbit decomposition formula">
 	
 
 
@@ -2308,7 +2310,7 @@ $$
 
 
 </div>
-<div class="formula" id="formula:class formula" data-name="class formula">
+<div class="formula" id="formula:class---formula" data-name="class formula">
 	
 
 
@@ -2323,7 +2325,7 @@ $$
 
 <h3>Sylow subgroups</h3>
 
-<div class="definition" id="definition:sylow subgroups" data-name="sylow subgroups">
+<div class="definition" id="definition:sylow---subgroups" data-name="sylow subgroups">
 	
 
 
@@ -2344,13 +2346,13 @@ finite abelian group of order divided by prime number $p$
 has subgroup of order $p$
 
 </div>
-<div class="theorem" id="theorem:$p$-Sylow subgroups of finite groups" data-name="$p$-Sylow subgroups of finite groups">
+<div class="theorem" id="theorem:$p$-Sylow---subgroups---of---finite---groups" data-name="$p$-Sylow subgroups of finite groups">
 	
 finite group of order divided by prime number $p$
 has $p$-Sylow subgroup
 
 </div>
-<div class="lemma" id="lemma:number of fixed points of group operations" data-name="number of fixed points of group operations">
+<div class="lemma" id="lemma:number---of---fixed---points---of---group---operations" data-name="number of fixed points of group operations">
 	
 for $p$-group $H$, operating on finite set $S$
 
@@ -2381,7 +2383,7 @@ $|S| \equiv 0\Mod{p}$
 
 <h3>Sylow subgroups and solvability</h3>
 
-<div class="theorem" id="theorem:solvability of finite $p$-groups" data-name="solvability of finite $p$-groups">
+<div class="theorem" id="theorem:solvability---of---finite---$p$-groups" data-name="solvability of finite $p$-groups">
 	
 finite $p$-group is solvable;
 if it is non-trivial,
@@ -2406,13 +2408,13 @@ where $G_i$ is normal in $G$
 and $G_{i+1}/G_i$ is cyclic group of order $p$
 
 </div>
-<div class="lemma" id="lemma:normality of subgroups of order $p$" data-name="normality of subgroups of order $p$">
+<div class="lemma" id="lemma:normality---of---subgroups---of---order---$p$" data-name="normality of subgroups of order $p$">
 	
 for finite group $G$ and smallest prime number dividing order of $G$ $p$,
 every subgroup of index $p$ is normal
 
 </div>
-<div class="proposition" id="proposition:solvability of groups of order $pq$" data-name="solvability of groups of order $pq$">
+<div class="proposition" id="proposition:solvability---of---groups---of---order---$pq$" data-name="solvability of groups of order $pq$">
 	
 group of order $pq$ with $p$ and $q$ being distinct prime numbers,
 is solvable
@@ -2424,8 +2426,8 @@ is solvable
 	<ul>
 	<li>
 		group of order, $35$, is solvable
-- implied by <a href="#proposition:finite solvable groups"></a>
-and <a href="#proposition:properties of cyclic groups"></a>
+- implied by <a href="#proposition:finite---solvable---groups"></a>
+and <a href="#proposition:properties---of---cyclic---groups"></a>
 
 	</li>
 	<li>
@@ -2437,7 +2439,7 @@ and <a href="#proposition:properties of cyclic groups"></a>
 </li>
 </ul>
 
-<h2 id="Rings">Rings</h2>
+<h2 id="title-page:Rings">Rings</h2>
 
 
 <h3>Rings</h3>
@@ -2455,12 +2457,12 @@ called <span class="define">ring</span>
 	<ul>
 	<li>
 		$A$ is commutative group with respect to addition
-- unit element denoted by $0$
+- unit element denoted by <span class="notation">$0$</span>
 
 	</li>
 	<li>
 		$A$ is monoid with respect to multiplication
-- unit element denoted by $1$
+- unit element denoted by <span class="notation">$1$</span>
 
 	</li>
 	<li>
@@ -2527,7 +2529,7 @@ called <span class="define">subring</span>
 
 <h3>More on ring</h3>
 
-<div class="definition" id="definition:multiplicative group of invertible elements of ring" data-name="multiplicative group of invertible elements of ring">
+<div class="definition" id="definition:multiplicative---group---of---invertible---elements---of---ring" data-name="multiplicative group of invertible elements of ring">
 	
 
 
@@ -2540,17 +2542,17 @@ called <span class="define">subring</span>
 subset $U$ of ring $A$
 such that every element of $U$ has both left and right inverses,
 called <span class="define">group of units of $A$</span> or <span class="define">group of invertible elements of $A$</span>,
-sometimes denoted by <span class="define">$A^\ast$</span>
+sometimes denoted by <span class="notation">$A^\ast$</span>
 
 </div>
-<div class="definition" id="definition:division ring" data-name="division ring">
+<div class="definition" id="definition:division---ring" data-name="division ring">
 	
 
 ring with $1\neq0$ and every nonzero element being invertible,
 called <span class="define">division ring</span>
 
 </div>
-<div class="definition" id="definition:commutative ring" data-name="commutative ring">
+<div class="definition" id="definition:commutative---ring" data-name="commutative ring">
 	
 
 ring $A$ with $\left( \forall x,y \in A \right) \left( xy= yx \right)$,
@@ -2558,7 +2560,7 @@ called <span class="define">commutative ring</span>
 
 </div>
 
-<div class="definition" id="definition:center of ring" data-name="center of ring">
+<div class="definition" id="definition:center---of---ring" data-name="center of ring">
 	
 
 
@@ -2658,7 +2660,7 @@ respectively
 	</li>
 	<li>
 		for set $S$, $\Map(S,\reals)$
-(page~)
+(page~<a href="#page:Notations">here</a>)
 is a commutative ring
 
 	</li>
@@ -2719,7 +2721,7 @@ those whose determinants are nonzero
 
 <h3>Group ring</h3>
 
-<div class="definition" id="definition:group ring" data-name="group ring">
+<div class="definition" id="definition:group---ring" data-name="group ring">
 	
 
 
@@ -2745,7 +2747,7 @@ $$
 $$
 
 called <span class="define">group ring</span>,
-denoted by <span class="define">$K[G]$</span>
+denoted by <span class="notation">$K[G]$</span>
 
 	<ul>
 	<li>
@@ -2759,13 +2761,13 @@ defines what is called <span class="define">convolution product</span>
 
 <h3>Convolution product</h3>
 
-<div class="definition" id="definition:convolution product" data-name="convolution product">
+<div class="definition" id="definition:convolution---product" data-name="convolution product">
 	
 
 
 for two functions $f,g$ on group $G$,
 <span class="define">convolution (product)</span>,
-denoted by <span class="define">$f\ast g$</span>,
+denoted by <span class="notation">$f\ast g$</span>,
 defined by
 
 $$
@@ -2848,7 +2850,7 @@ $(0)$ are $A$ itself area ideals
 
 </li>
 </ul>
-<div class="definition" id="definition:principal ideal" data-name="principal ideal">
+<div class="definition" id="definition:principal---ideal" data-name="principal ideal">
 	
 
 
@@ -2862,7 +2864,7 @@ for ring $A$ and $a\in A$, left ideal $Aa$, called <span class="define">principa
 	</ul>
 
 </div>
-<div class="definition" id="definition:principal two-sided ideal" data-name="principal two-sided ideal">
+<div class="definition" id="definition:principal---two-sided---ideal" data-name="principal two-sided ideal">
 	
 
 
@@ -2877,7 +2879,7 @@ $$
 
 
 </div>
-<div class="lemma" id="lemma:ideals of field" data-name="ideals of field">
+<div class="lemma" id="lemma:ideals---of---field" data-name="ideals of field">
 	
 
 only ideals of field
@@ -2885,9 +2887,9 @@ are the field itself and zero ideal
 
 </div>
 
-<h3>Principle rings</h3>
+<h3>Principal rings</h3>
 
-<div class="definition" id="definition:principal ring" data-name="principal ring">
+<div class="definition" id="definition:principal---ring" data-name="principal ring">
 	
 
 commutative ring of which every ideal is principal and $1\neq0$,
@@ -2899,7 +2901,7 @@ called <span class="define">principal ring</span>
 	$\integers$ (set of integers)
 is <i>principal</i> ring
 
-
+<div id="page:nonzero---ideals---of---integers---are---principal"></div>
 
 </li>
 <li>
@@ -3016,7 +3018,7 @@ for right ideals &amp; two-sided ideals
 
 <h3>Generators of ideal</h3>
 
-<div class="definition" id="definition:generators of ideal" data-name="generators of ideal">
+<div class="definition" id="definition:generators---of---ideal" data-name="generators of ideal">
 	
 
 
@@ -3028,7 +3030,7 @@ $$
 $$
 
 with $x_i \in A$, is left ideal,
-denoted by <span class="define">$(a_1,\ldots,a_n)$</span>,
+denoted by <span class="notation">$(a_1,\ldots,a_n)$</span>,
 called <span class="define">generators</span> of the left ideal;
 
 
@@ -3053,7 +3055,7 @@ just like set ($\sigma$-)algebras in set theory
 
 <h3>Entire rings</h3>
 
-<div class="definition" id="definition:zero divisor" data-name="zero divisor">
+<div class="definition" id="definition:zero---divisor" data-name="zero divisor">
 	
 
 
@@ -3063,7 +3065,7 @@ said to be <span class="define">zero divisors</span>
 
 </div>
 
-<div class="definition" id="definition:entire ring" data-name="entire ring">
+<div class="definition" id="definition:entire---ring" data-name="entire ring">
 	
 
 
@@ -3075,7 +3077,7 @@ entire ring, sometimes called <span class="define">integral domain</span>
 
 </div>
 
-<div class="lemma" id="lemma:every field is entire ring" data-name="every field is entire ring">
+<div class="lemma" id="lemma:every---field---is---entire---ring" data-name="every field is entire ring">
 	
 every field is entire ring
 
@@ -3134,21 +3136,21 @@ is ideal of $A$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:injectivity of field homeomorphism" data-name="injectivity of field homeomorphism">
+<div class="proposition" id="proposition:injectivity---of---field---homeomorphism" data-name="injectivity of field homeomorphism">
 	
 
 
 
 ring-homeomorphism from field into field
 is injective
-(due to <a href="#lemma:ideals of field"></a>)
+(due to <a href="#lemma:ideals---of---field"></a>)
 
 </div>
 
 
 <h3>Factor ring and canonical map</h3>
 
-<div class="definition" id="definition:factor ring and residue class" data-name="factor ring and residue class">
+<div class="definition" id="definition:factor---ring---and---residue---class" data-name="factor ring and residue class">
 	
 
 
@@ -3164,7 +3166,7 @@ $(x+\ideal{a})
 xy+\ideal{a},$
 which satisfy all requirements for ring,
 called <span class="define">factor ring</span> or <span class="define">residue class ring</span>,
-denoted by <span class="define">$A/\ideal{a}$</span>;
+denoted by <span class="notation">$A/\ideal{a}$</span>;
 cosets in $A/\ideal{a}$,
 called <span class="define">residue classes modulo \ideal{a}</span>,
 and each coset $x+\ideal{a}$
@@ -3192,7 +3194,7 @@ for $x,y\in A$, if $x-y\in\ideal{a}$, write $x \equiv y \Mod{a}$
 
 </li>
 </ul>
-<div class="definition" id="definition:canonical map of ring" data-name="canonical map of ring">
+<div class="definition" id="definition:canonical---map---of---ring" data-name="canonical map of ring">
 	
 
 
@@ -3208,7 +3210,7 @@ called <span class="define">canonical map of $A$ into $A/\ideal{a}$</span>
 
 <h3>Factor ring induced ring-homeomorphism</h3>
 
-<div class="proposition" id="proposition:factor ring induced ring-homeomorphism" data-name="factor ring induced ring-homeomorphism">
+<div class="proposition" id="proposition:factor---ring---induced---ring-homeomorphism" data-name="factor ring induced ring-homeomorphism">
 	
 
 for ring-homeomorphism $g:A\to A'$
@@ -3228,7 +3230,7 @@ $f:A\to A/\ideal{a}$
 
 
 
-
+<div id="fig:factor-ring-induced-ring-homeomorphism"></div>
 
 <ul>
 <li>
@@ -3243,7 +3245,7 @@ whose kernel contains $\ideal{a}$
 
 <h3>Prime ideal and maximal ideal</h3>
 
-<div class="definition" id="definition:prime ideal" data-name="prime ideal">
+<div class="definition" id="definition:prime---ideal" data-name="prime ideal">
 	
 
 
@@ -3271,7 +3273,7 @@ y \in \ideal{p}
 
 </li>
 </ul>
-<div class="definition" id="definition:maximal ideal" data-name="maximal ideal">
+<div class="definition" id="definition:maximal---ideal" data-name="maximal ideal">
 	
 
 
@@ -3291,7 +3293,7 @@ $$
 called <span class="define">maximal ideal</span>
 
 </div>
-<div class="lemma" id="lemma:properties of prime and maximal ideals" data-name="properties of prime and maximal ideals">
+<div class="lemma" id="lemma:properties---of---prime---and---maximal---ideals" data-name="properties of prime and maximal ideals">
 	
 for commutative ring $A$
 
@@ -3344,14 +3346,14 @@ which is ring-homeomorphism
 
 </li>
 </ul>
-<div class="lemma" id="lemma:image of ring-homeomorphism is subring" data-name="image of ring-homeomorphism is subring">
+<div class="lemma" id="lemma:image---of---ring-homeomorphism---is---subring" data-name="image of ring-homeomorphism is subring">
 	
 image $f(A)$ of ring-homeomorphism $f:A\to B$
 is subring of $B$
 
 
 </div>
-<div class="definition" id="definition:embedding of ring" data-name="embedding of ring">
+<div class="definition" id="definition:embedding---of---ring" data-name="embedding of ring">
 	
 
 
@@ -3360,7 +3362,7 @@ established by injective ring-homeomorphism $f:A\to B$,
 called <span class="define">embedding of ring</span>
 
 </div>
-<div class="definition" id="definition:induced injective ring-homeomorphism" data-name="induced injective ring-homeomorphism">
+<div class="definition" id="definition:induced---injective---ring-homeomorphism" data-name="induced injective ring-homeomorphism">
 	
 
 for ring-homeomorphism $f:A\to A'$
@@ -3415,7 +3417,7 @@ exist two cases; either $n=0$ or $n=p$ for prime number $p$
 
 </li>
 </ul>
-<div class="definition" id="definition:characteristic of ring" data-name="characteristic of ring">
+<div class="definition" id="definition:characteristic---of---ring" data-name="characteristic of ring">
 	
 
 
@@ -3456,7 +3458,7 @@ abbreviated by <span class="define">\primefield{p}</span>
 </li>
 </ul>
 
-<div class="definition" id="definition:prime field" data-name="prime field">
+<div class="definition" id="definition:prime---field" data-name="prime field">
 	
 
 
@@ -3469,7 +3471,7 @@ identify it with $\rationals$ or $\primefield{p}$
 for each case
 
 </div>
-<div class="definition" id="definition:prime ring" data-name="prime ring">
+<div class="definition" id="definition:prime---ring" data-name="prime ring">
 	
 
 
@@ -3493,7 +3495,7 @@ or $\primefield{p}$ if $K$ has characteristic $p$
 <li>
 	every ideal of $\integers$ is principal,
 <i>i.e.</i>, either $\{0\}$ or $n\integers$ for some $n\in\naturals$
-(refer to page~)
+(refer to page~<a href="#page:nonzero---ideals---of---integers---are---principal">here</a>)
 
 </li>
 <li>
@@ -3510,7 +3512,7 @@ or $\primefield{p}$ if $K$ has characteristic $p$
 </li>
 </ul>
 
-<div class="definition" id="definition:ring of integers modulo $n$" data-name="ring of integers modulo $n$">
+<div class="definition" id="definition:ring---of---integers---modulo---$n$" data-name="ring of integers modulo $n$">
 	
 
 
@@ -3521,7 +3523,7 @@ abbreviated as <span class="define">$\mbox{mod }n$</span>
 <ul>
 <li>
 	$\integers/p\integers$ for prime $p$
-is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
+is <i>field</i> and denoted by <span class="notation">\primefield{p}</span>
 
 
 
@@ -3531,7 +3533,7 @@ is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
 
 <h3>Euler phi-function</h3>
 
-<div class="definition" id="definition:Euler phi-function" data-name="Euler phi-function">
+<div class="definition" id="definition:Euler---phi-function" data-name="Euler phi-function">
 	
 
 
@@ -3540,9 +3542,9 @@ is <i>field</i> and denoted by <span class="define">\primefield{p}</span>
 
 
 for $n>1$,
-order of  of $\integers/n\integers$,
+order of <a href="#definition:divison---rings">divison ring</a> of $\integers/n\integers$,
 called <span class="define">Euler phi-function</span>,
-denoted by <span class="define">$\varphi(n)$</span>;
+denoted by <span class="notation">$\varphi(n)$</span>;
 if prime factorization of $n$ is
 
 $$
@@ -3561,7 +3563,7 @@ $$
 
 </div>
 
-<div class="theorem" id="theorem:Euler's theorem" data-name="Euler's theorem">
+<div class="theorem" id="theorem:Euler's---theorem" data-name="Euler's theorem">
 	
 
 
@@ -3577,12 +3579,12 @@ $$
 
 <h3>Chinese remainder theorem</h3>
 
-<div class="theorem" id="theorem:Chinese remainder theorem" data-name="Chinese remainder theorem">
+<div class="theorem" id="theorem:Chinese---remainder---theorem" data-name="Chinese remainder theorem">
 	
 
 for ring $A$
 and
-$n$ ideals $\ideal{a}_1$,  $\ideal{a}_n$ ($n\geq2$)
+$n$ ideals $\ideal{a}_1$, &hellip; $\ideal{a}_n$ ($n\geq2$)
 with $\ideal{a}_i + \ideal{a}_j=A$ for all $i \neq j$
 
 $$
@@ -3604,12 +3606,12 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:isomorphism induced by Chinese remainder theorem" data-name="isomorphism induced by Chinese remainder theorem">
+<div class="corollary" id="corollary:isomorphism---induced---by---Chinese---remainder---theorem" data-name="isomorphism induced by Chinese remainder theorem">
 	
 
 
 for ring $A$,
-$n$ ideals $\ideal{a}_1$,  $\ideal{a}_n$ ($n\geq2$)
+$n$ ideals $\ideal{a}_1$, &hellip; $\ideal{a}_n$ ($n\geq2$)
 with $\ideal{a}_i + \ideal{a}_j=A$ for all $i \neq j$,
 and
 map of $A$ into product induced by canonical maps of $A$ onto $A/\ideal{a}_i$
@@ -3636,7 +3638,7 @@ $$
 
 <h3>Isomorphism of endomorphisms of cyclic groups</h3>
 
-<div class="theorem" id="theorem:isomorphism of endomorphisms of cyclic groups" data-name="isomorphism of endomorphisms of cyclic groups">
+<div class="theorem" id="theorem:isomorphism---of---endomorphisms---of---cyclic---groups" data-name="isomorphism of endomorphisms of cyclic groups">
 	
 
 for cyclic group $A$ of order $n$,
@@ -3668,7 +3670,7 @@ where
 $(\integers/n\integers)^\ast$
 denotes group of units of
 $\integers/n\integers$
-(<a href="#definition:multiplicative group of invertible elements of ring"></a>)
+(<a href="#definition:multiplicative---group---of---invertible---elements---of---ring"></a>)
 
 </div>
 <ul>
@@ -3688,7 +3690,7 @@ for $k\in(\integers/n\integers)^\ast$
 
 <h3>Irreducibility and factorial rings</h3>
 
-<div class="definition" id="definition:irreducible ring element" data-name="irreducible ring element">
+<div class="definition" id="definition:irreducible---ring---element" data-name="irreducible ring element">
 	
 
 
@@ -3708,14 +3710,14 @@ said to be <span class="define">irreducible</span>
 
 </div>
 
-<div class="definition" id="definition:unique factorization into irreducible elements" data-name="unique factorization into irreducible elements">
+<div class="definition" id="definition:unique---factorization---into---irreducible---elements" data-name="unique factorization into irreducible elements">
 	
 
 
 for entire ring $A$,
 element $a\in A$
 for which,
-exists unit $u$ and irreducible elements, $p_1$, , $p_r$ in $A$ such that
+exists unit $u$ and irreducible elements, $p_1$, &hellip;, $p_r$ in $A$ such that
 
 $$
 a = u \prod p_i
@@ -3726,7 +3728,7 @@ said to have <span class="define">unique factorization into irreducible elements
 
 </div>
 
-<div class="definition" id="definition:factorial ring" data-name="factorial ring">
+<div class="definition" id="definition:factorial---ring" data-name="factorial ring">
 	
 
 
@@ -3737,17 +3739,17 @@ called <span class="define">factorial ring</span> or <span class="define">unique
 
 <h3>Greatest common divisor</h3>
 
-<div class="definition" id="definition:devision of entire ring elements" data-name="devision of entire ring elements">
+<div class="definition" id="definition:devision---of---entire---ring---elements" data-name="devision of entire ring elements">
 	
 
 
 for entire ring $A$ and nonzero elements $a,b\in A$,
 <span class="define">$a$ said to divide $b$</span>
 if exists $c\in A$ such that $ac=b$,
-denoted by <span class="define">$a|b$</span>
+denoted by <span class="notation">$a|b$</span>
 
 </div>
-<div class="definition" id="definition:greatest common divisor" data-name="greatest common divisor">
+<div class="definition" id="definition:greatest---common---divisor" data-name="greatest common divisor">
 	
 
 
@@ -3768,7 +3770,7 @@ $$
 called <span class="define">greatest common divisor (g.c.d.) of $a$ and $b$</span>
 
 </div>
-<div class="proposition" id="proposition:existence of greatest common divisor of principal entire rings" data-name="existence of greatest common divisor of principal entire rings">
+<div class="proposition" id="proposition:existence---of---greatest---common---divisor---of---principal---entire---rings" data-name="existence of greatest common divisor of principal entire rings">
 	
 
 
@@ -3778,13 +3780,13 @@ $c\in A$ with $(a,b) = (c)$
 is g.c.d. of $a$ and $b$
 
 </div>
-<div class="theorem" id="theorem:principal entire ring is factorial" data-name="principal entire ring is factorial">
+<div class="theorem" id="theorem:principal---entire---ring---is---factorial" data-name="principal entire ring is factorial">
 	
 principal entire ring is factorial
 
 </div>
 
-<h2 id="Polynomials">Polynomials</h2>
+<h2 id="title-page:Polynomials">Polynomials</h2>
 
 
 
@@ -3857,7 +3859,7 @@ into $A$
 which are equal to $0$
 except finite number of elements of $S$,
 called <span class="define">polynomials over $A$</span>,
-denoted by <span class="define">$A[X]$</span>
+denoted by <span class="notation">$A[X]$</span>
 
 </div>
 <ul>
@@ -3887,7 +3889,7 @@ $a_i\in A$
 
 <h3>Polynomial functions</h3>
 
-<div class="definition" id="definition:polynomial function" data-name="polynomial function">
+<div class="definition" id="definition:polynomial---function" data-name="polynomial function">
 	
 
 for two rings $A$ and $B$ with $A\subset B$
@@ -3901,7 +3903,7 @@ $$
 called <span class="define">polynomial function associated with $f(X)$</span>
 
 </div>
-<div class="definition" id="definition:evaluation homeomorphism" data-name="evaluation homeomorphism">
+<div class="definition" id="definition:evaluation---homeomorphism" data-name="evaluation homeomorphism">
 	
 
 
@@ -3920,7 +3922,7 @@ ring of all polynomial values $f(x)$ for $f\in A[X]$
 
 </li>
 </ul>
-<div class="definition" id="definition:variables and transcendentality" data-name="variables and transcendentality">
+<div class="definition" id="definition:variables---and---transcendentality" data-name="variables and transcendentality">
 	
 
 
@@ -3974,7 +3976,7 @@ $$
 	<li>
 		$f(X) = X^p - X\in \primefield{p}[X]$ is not zero polynomial,
 but because $x^{p-1} \equiv 1$ for every nonzero $x\in\primefield{p}$
-by <a href="#theorem:Euler's theorem"></a> (Euler's theorem),
+by <a href="#theorem:Euler's---theorem"></a> (Euler's theorem),
 $x^p\equiv x$ for every $x\in\primefield{p}$,
 thus for polynomial function, $f_{\primefield{p}}$,
 $f_{\primefield{p}}(x)=0$ for every $x$ in $\primefield{p}$
@@ -4010,7 +4012,7 @@ $$
 
 </li>
 </ul>
-<div class="definition" id="definition:reduction map" data-name="reduction map">
+<div class="definition" id="definition:reduction---map" data-name="reduction map">
 	
 
 
@@ -4027,7 +4029,7 @@ which is complex conjugate of polynomials with complex coefficients
 
 </li>
 </ul>
-<div class="definition" id="definition:reduction of $f$ modulo $p$" data-name="reduction of $f$ modulo $p$">
+<div class="definition" id="definition:reduction---of---$f$---modulo---$p$" data-name="reduction of $f$ modulo $p$">
 	
 
 
@@ -4041,7 +4043,7 @@ sometimes called <span class="define">reduction of $f$ modulo \ideal{p}</span>
 
 <h3>Basic properties of polynomials in one variable</h3>
 
-<div class="theorem" id="theorem:Euclidean algorithm" data-name="Euclidean algorithm">
+<div class="theorem" id="theorem:Euclidean---algorithm" data-name="Euclidean algorithm">
 	
 
 
@@ -4050,7 +4052,7 @@ with commutative ring $A$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 \left(
 \forall f,g \in A[X]
 \mbox{ with leading coefficients of } g \mbox{ unit in }A
@@ -4071,7 +4073,7 @@ $$
 
 </div>
 
-<div class="theorem" id="theorem:principality of polynomial ring" data-name="principality of polynomial ring">
+<div class="theorem" id="theorem:principality---of---polynomial---ring" data-name="principality of polynomial ring">
 	
 
 polynomial ring in one variable $k[X]$ with field $k$
@@ -4079,7 +4081,7 @@ is principal
 
 </div>
 
-<div class="corollary" id="corollary:factoriality of polynomial ring" data-name="factoriality of polynomial ring">
+<div class="corollary" id="corollary:factoriality---of---polynomial---ring" data-name="factoriality of polynomial ring">
 	
 
 polynomial ring in one variable $k[X]$ with field $k$
@@ -4090,7 +4092,7 @@ is factorial
 
 <h3>Constant, monic, and irreducible polynomials</h3>
 
-<div class="definition" id="definition:constant and monic polynomials" data-name="constant and monic polynomials">
+<div class="definition" id="definition:constant---and---monic---polynomials" data-name="constant and monic polynomials">
 	
 
 
@@ -4103,7 +4105,7 @@ called <span class="define">monic polynomial</span>
 
 </div>
 
-<div class="definition" id="definition:irreducible polynomials" data-name="irreducible polynomials">
+<div class="definition" id="definition:irreducible---polynomials" data-name="irreducible polynomials">
 	
 
 
@@ -4126,7 +4128,7 @@ said to be <span class="define">irreducible</span>
 
 <h3>Roots or zeros of polynomials</h3>
 
-<div class="definition" id="definition:root of polynomial" data-name="root of polynomial">
+<div class="definition" id="definition:root---of---polynomial" data-name="root of polynomial">
 	
 
 
@@ -4144,7 +4146,7 @@ called <span class="define">root</span> or <span class="define">zero</span> of $
 
 </div>
 
-<div class="theorem" id="theorem:number of roots of polynomial" data-name="number of roots of polynomial">
+<div class="theorem" id="theorem:number---of---roots---of---polynomial" data-name="number of roots of polynomial">
 	
 
 for field $k$,
@@ -4158,7 +4160,7 @@ $X-a$ divides $f(X)$
 
 <h3>Induction of zero functions</h3>
 
-<div class="corollary" id="corollary:induction of zero function in one variable" data-name="induction of zero function in one variable">
+<div class="corollary" id="corollary:induction---of---zero---function---in---one---variable" data-name="induction of zero function in one variable">
 	
 
 for field $k$ and infinite subset $T\subset k$,
@@ -4179,7 +4181,7 @@ then $f(0)=0$,
 $f$ induces zero function
 
 </div>
-<div class="corollary" id="corollary:induction of zero function in multiple variables" data-name="induction of zero function in multiple variables">
+<div class="corollary" id="corollary:induction---of---zero---function---in---multiple---variables" data-name="induction of zero function in multiple variables">
 	
 
 for field $k$ and $n$ infinite subsets of $k$, $\seq{S_i}_{i=1}^n$,
@@ -4201,7 +4203,7 @@ $f=0$,
 $f$ induces zero function
 
 </div>
-<div class="corollary" id="corollary:induction of zero functions in multiple variables - infinite fields" data-name="induction of zero functions in multiple variables - infinite fields">
+<div class="corollary" id="corollary:induction---of---zero---functions---in---multiple---variables-------infinite---fields" data-name="induction of zero functions in multiple variables - infinite fields">
 	
 
 if polynomial in $n$ variables over infinite field $k$
@@ -4209,7 +4211,7 @@ induces zero function in $k^{(n)}$,
 $f=0$
 
 </div>
-<div class="corollary" id="corollary:induction of zero functions in multiple variables - finite fields" data-name="induction of zero functions in multiple variables - finite fields">
+<div class="corollary" id="corollary:induction---of---zero---functions---in---multiple---variables-------finite---fields" data-name="induction of zero functions in multiple variables - finite fields">
 	
 
 if polynomial in $n$ variables over finite field $k$ of order $q$,
@@ -4233,7 +4235,7 @@ $$
 
 for finite sequence, $\seqscr{a_i}{i=1}{m}$, and
 $\seqscr{\nu_{i,1}}{i=1}{m}$,
-,
+&hellip;,
 $\seqscr{\nu_{i,n}}{i=1}{m}$
 where $a_i\in k$ and $\nu_{i,j} \geq 0$
 
@@ -4252,26 +4254,26 @@ where $0\leq \mu_{i,j} < q$ for all $i,j$
 
 </li>
 </ul>
-<div class="definition" id="definition:reduced polynomials" data-name="reduced polynomials">
+<div class="definition" id="definition:reduced---polynomials" data-name="reduced polynomials">
 	
 
 above polynomial, called <span class="define">reduced polynomial</span>,
-denoted by <span class="define">$f^\ast$</span>
+denoted by <span class="notation">$f^\ast$</span>
 
 </div>
-<div class="corollary" id="corollary:uniqueness of reduced polynomials" data-name="uniqueness of reduced polynomials">
+<div class="corollary" id="corollary:uniqueness---of---reduced---polynomials" data-name="uniqueness of reduced polynomials">
 	
 
 for field $k$ with $q$ elements,
 reduced polynomial is unique
-(by <a href="#corollary:induction of zero functions in multiple variables - finite fields"></a>)
+(by <a href="#corollary:induction---of---zero---functions---in---multiple---variables-------finite---fields"></a>)
 
 </div>
 
 
 <h3>Multiplicative subgroups and $n$-th roots of unity</h3>
 
-<div class="definition" id="definition:multiplicative subgroup of field" data-name="multiplicative subgroup of field">
+<div class="definition" id="definition:multiplicative---subgroup---of---field" data-name="multiplicative subgroup of field">
 	
 
 
@@ -4281,34 +4283,34 @@ called <span class="define">multiplicative subgroup of $k$</span>
 
 </div>
 
-<div class="theorem" id="theorem:finite multiplicative subgroup of field is cyclic" data-name="finite multiplicative subgroup of field is cyclic">
+<div class="theorem" id="theorem:finite---multiplicative---subgroup---of---field---is---cyclic" data-name="finite multiplicative subgroup of field is cyclic">
 	
 finite multiplicative subgroup of field is cyclic
 
 </div>
 
-<div class="corollary" id="corollary:multiplicative subgroup of finite field is cyclic" data-name="multiplicative subgroup of finite field is cyclic">
+<div class="corollary" id="corollary:multiplicative---subgroup---of---finite---field---is---cyclic" data-name="multiplicative subgroup of finite field is cyclic">
 	
 multiplicative subgroup of finite field is cyclic
 
 </div>
 
-<div class="definition" id="definition:primitive $n$-th root of unity" data-name="primitive $n$-th root of unity">
+<div class="definition" id="definition:primitive---$n$-th---root---of---unity" data-name="primitive $n$-th root of unity">
 	
 
 
 
 generator for group of $n$-th roots of unity,
 called <span class="define">primitive $n$-th root of unity</span>;
-group of roots of unity, denoted by <span class="define">$\mu$</span>;
-group of roots of unity in field $k$, denoted by <span class="define">$\mu(k)$</span>
+group of roots of unity, denoted by <span class="notation">$\mu$</span>;
+group of roots of unity in field $k$, denoted by <span class="notation">$\mu(k)$</span>
 
 </div>
 
 
 <h3>Algebraic closedness</h3>
 
-<div class="definition" id="definition:algebraically closed" data-name="algebraically closed">
+<div class="definition" id="definition:algebraically---closed" data-name="algebraically closed">
 	
 
 
@@ -4326,7 +4328,7 @@ said to be <span class="define">algebraically closed</span>
 </li>
 <li>
 	every field is contained in some algebraically closed field
-(<a href="#theorem:existence of algebraically closed field extensions"></a>)
+(<a href="#theorem:existence---of---algebraically---closed---field---extensions"></a>)
 
 </li>
 <li>
@@ -4355,7 +4357,7 @@ $m_1,\ldots,m_r \in \naturals$
 
 <h3>Derivatives of polynomials</h3>
 
-<div class="definition" id="definition:derivative of polynomial over commutative ring" data-name="derivative of polynomial over commutative ring">
+<div class="definition" id="definition:derivative---of---polynomial---over---commutative---ring" data-name="derivative of polynomial over commutative ring">
 	
 
 
@@ -4368,7 +4370,7 @@ Df(X) = na_n X^{n-1} + \cdots + a_1
 $$
 
 called <span class="define">derivative of polynomial</span>,
-denoted by $f'(X)$;
+denoted by <span class="notation">$f'(X)$</span>;
 
 </div>
 <ul>
@@ -4409,7 +4411,7 @@ relatively prime to $(X-a)$ (hence, $g(a)\neq0$)
 
 </li>
 </ul>
-<div class="definition" id="definition:multiplicity and multiple roots" data-name="multiplicity and multiple roots">
+<div class="definition" id="definition:multiplicity---and---multiple---roots" data-name="multiplicity and multiple roots">
 	
 
 
@@ -4421,7 +4423,7 @@ if $m>1$
 
 </div>
 
-<div class="proposition" id="proposition:necessary and sufficient condition for multiple roots" data-name="necessary and sufficient condition for multiple roots">
+<div class="proposition" id="proposition:necessary---and---sufficient---condition---for---multiple---roots" data-name="necessary and sufficient condition for multiple roots">
 	
 
 
@@ -4433,7 +4435,7 @@ $f(a)=0$ and $f'(a)=0$
 
 </div>
 
-<div class="proposition" id="proposition:derivative of polynomial" data-name="derivative of polynomial">
+<div class="proposition" id="proposition:derivative---of---polynomial" data-name="derivative of polynomial">
 	
 
 
@@ -4468,7 +4470,7 @@ iterating $r\geq 1$ times yields endomorphism, $x\mapsto x^{p^r}$
 </li>
 </ul>
 
-<div class="definition" id="definition:Frobenius endomorphism" data-name="Frobenius endomorphism">
+<div class="definition" id="definition:Frobenius---endomorphism" data-name="Frobenius endomorphism">
 	
 
 
@@ -4534,7 +4536,7 @@ hence, polynomial $X^{p^r}-c$ has precisely one root $a$ of multiplicity $p^r$!
 </li>
 </ul>
 
-<h2 id="Algebraic Extension">Algebraic Extension</h2>
+<h2 id="title-page:Algebraic---Extension">Algebraic Extension</h2>
 
 
 
@@ -4565,13 +4567,13 @@ for every field
 
 <h3>Extension of field</h3>
 
-<div class="definition" id="definition:extension of field" data-name="extension of field">
+<div class="definition" id="definition:extension---of---field" data-name="extension of field">
 	
 
 for field $E$ and its subfield $F\subset E$,
 $E$
 said to be <span class="define">extension field of $F$</span>,
-(sometimes) denoted by <span class="define">$E/F$</span>
+(sometimes) denoted by <span class="notation">$E/F$</span>
 (which should <i>not</i> confused with <i>factor group</i>)
 
 	<ul>
@@ -4604,7 +4606,7 @@ called <span class="define">infinite extension of $F$</span>
 
 <h3>Algebraic over field</h3>
 
-<div class="definition" id="definition:algebraic over field" data-name="algebraic over field">
+<div class="definition" id="definition:algebraic---over---field" data-name="algebraic over field">
 	
 
 
@@ -4634,7 +4636,7 @@ can always find such equation like above that $a_0\neq0$
 </div>
 <ul>
 <li>
-	equivalent statements to <a href="#definition:algebraic over field"></a>
+	equivalent statements to <a href="#definition:algebraic---over---field"></a>
 	<ul>
 	<li>
 		exists homeomorphism $\varphi: F[X] \to E$ such that
@@ -4653,7 +4655,7 @@ $$
 	<li>
 		exists evaluation homeomorphism $\ev_\alpha: F[X] \to E$
 with nonzero kernel
-(refer to <a href="#definition:evaluation homeomorphism"></a> for definition of evaluation homeomorphism)
+(refer to <a href="#definition:evaluation---homeomorphism"></a> for definition of evaluation homeomorphism)
 
 	</li>
 	</ul>
@@ -4662,7 +4664,7 @@ with nonzero kernel
 <li>
 	in which case,
 $\Ker \varphi$ is principal ideal
-(by <a href="#theorem:principality of polynomial ring"></a>),
+(by <a href="#theorem:principality---of---polynomial---ring"></a>),
 hence generated by single element,
 thus exists nonzero $p(X) \in F[X]$ (with normalized leading coefficient being $1$)
 so that
@@ -4674,13 +4676,13 @@ $$
 
 </li>
 <li>
-	$F[\alpha]$ <i>entire</i> (<a href="#lemma:every field is entire ring"></a>),
-hence $p(X)$ irreducible (refer to <a href="#definition:prime ideal"></a>)
+	$F[\alpha]$ <i>entire</i> (<a href="#lemma:every---field---is---entire---ring"></a>),
+hence $p(X)$ irreducible (refer to <a href="#definition:prime---ideal"></a>)
 
 </li>
 </ul>
 
-<div class="definition" id="definition:THE irreducible polynomial" data-name="THE irreducible polynomial">
+<div class="definition" id="definition:THE---irreducible---polynomial" data-name="THE irreducible polynomial">
 	
 
 
@@ -4688,14 +4690,14 @@ hence $p(X)$ irreducible (refer to <a href="#definition:prime ideal"></a>)
 normalized $p(X)$ (<i>i.e.</i>, with leading coefficient being $1$)
 uniquely determined by $\alpha$,
 called <span class="define">THE irreducible polynomial of $\alpha$ over $F$</span>,
-denoted by <span class="define">$\Irr(\alpha, F, X)$</span>
+denoted by <span class="notation">$\Irr(\alpha, F, X)$</span>
 
 </div>
 
 
 <h3>Algebraic extensions</h3>
 
-<div class="definition" id="definition:algebraic extension" data-name="algebraic extension">
+<div class="definition" id="definition:algebraic---extension" data-name="algebraic extension">
 	
 
 
@@ -4707,7 +4709,7 @@ said to be <span class="define">algebraic extension of $F$</span>
 
 </div>
 
-<div class="proposition" id="proposition:algebraicness of finite field extensions" data-name="algebraicness of finite field extensions">
+<div class="proposition" id="proposition:algebraicness---of---finite---field---extensions" data-name="algebraicness of finite field extensions">
 	
 
 
@@ -4734,18 +4736,18 @@ is infinite extension of $\rationals$
 
 
 
-<div class="definition" id="definition:dimension of extension" data-name="dimension of extension">
+<div class="definition" id="definition:dimension---of---extension" data-name="dimension of extension">
 	
 
 
 for field $F$ and its extension field $E$,
 dimension of $E$ as vector space over $F$,
 called <span class="define">dimension of $E$ over $F$</span>,
-denoted by <span class="define">\dimext{E}{F}</span>
+denoted by <span class="notation">\dimext{E}{F}</span>
 
 </div>
 
-<div class="proposition" id="proposition:dimension of finite extension" data-name="dimension of finite extension">
+<div class="proposition" id="proposition:dimension---of---finite---extension" data-name="dimension of finite extension">
 	
 
 for field $k$ and its extension fields $F$ and $E$
@@ -4769,7 +4771,7 @@ is basis for $E$ over $k$
 
 </div>
 
-<div class="corollary" id="corollary:finite dimension of extension" data-name="finite dimension of extension">
+<div class="corollary" id="corollary:finite---dimension---of---extension" data-name="finite dimension of extension">
 	
 
 for field $k$ and its extension fields $F$ &amp; $E$
@@ -4787,15 +4789,15 @@ are finite
 
 <h3>Generation of field extensions</h3>
 
-<div class="definition" id="definition:generation of field extensions" data-name="generation of field extensions">
+<div class="definition" id="definition:generation---of---field---extensions" data-name="generation of field extensions">
 	
 
 
 
 for field $k$, its extension field $E$, and $\alpha_1,\ldots, \alpha_n \in E$,
-smallest subfield containing $k$ and $\alpha_1$, , $\alpha_n$,
+smallest subfield containing $k$ and $\alpha_1$, &hellip;, $\alpha_n$,
 said to be <span class="define">finitely generated over $k$ by $\alpha_1$, \ldots, $\alpha_n$</span>,
-denoted by <span class="define">$k(\alpha_1,\ldots, \alpha_n)$</span>
+denoted by <span class="notation">$k(\alpha_1,\ldots, \alpha_n)$</span>
 
 </div>
 <ul>
@@ -4807,7 +4809,7 @@ where $f,g\in k[X]$ and $g(\alpha_1,\ldots, \alpha_n)\neq0$,
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 k(\alpha_1,\ldots,\alpha_n)
 
 \\
@@ -4833,7 +4835,7 @@ $$
 
 </li>
 </ul>
-<div class="proposition" id="proposition:finite extension is finitely generated" data-name="finite extension is finitely generated">
+<div class="proposition" id="proposition:finite---extension---is---finitely---generated" data-name="finite extension is finitely generated">
 	
 
 every finite extension of field is finitely generated
@@ -4842,7 +4844,7 @@ every finite extension of field is finitely generated
 
 <h3>Tower of fields</h3>
 
-<div class="definition" id="definition:tower of fields" data-name="tower of fields">
+<div class="definition" id="definition:tower---of---fields" data-name="tower of fields">
 	
 
 sequence of extension fields
@@ -4861,7 +4863,7 @@ called <span class="define">tower of fields</span>
 
 </div>
 
-<div class="definition" id="definition:finite tower of fields" data-name="finite tower of fields">
+<div class="definition" id="definition:finite---tower---of---fields" data-name="finite tower of fields">
 	
 
 
@@ -4875,7 +4877,7 @@ each step of extensions is finite
 
 <h3>Algebraicness of finitely generated subfields</h3>
 
-<div class="proposition" id="proposition:algebraicness of finitely generated subfield by single element" data-name="algebraicness of finitely generated subfield by single element">
+<div class="proposition" id="proposition:algebraicness---of---finitely---generated---subfield---by---single---element" data-name="algebraicness of finitely generated subfield by single element">
 	
 
 for field $k$, its extension field $E$, and $\alpha\in E$ being algebraic over $k$
@@ -4892,11 +4894,11 @@ $$
 
 hence $k(\alpha)$ is finite extension of $k$,
 thus <i>algebraic extension over $k$</i>
-(by <a href="#proposition:algebraicness of finite field extensions"></a>)
+(by <a href="#proposition:algebraicness---of---finite---field---extensions"></a>)
 
 </div>
 
-<div class="lemma" id="lemma:a fortiori algebraicness" data-name="a fortiori algebraicness">
+<div class="lemma" id="lemma:a---fortiori---algebraicness" data-name="a fortiori algebraicness">
 	
 
 
@@ -4932,23 +4934,23 @@ where $\alpha_i$ is algebraic over $k$
 
 </li>
 <li>
-	then, $\alpha_{i+1}$ is algebraic over $k(\alpha_1,\ldots,\alpha_i)$ (by <a href="#lemma:a fortiori algebraicness"></a>)
+	then, $\alpha_{i+1}$ is algebraic over $k(\alpha_1,\ldots,\alpha_i)$ (by <a href="#lemma:a---fortiori---algebraicness"></a>)
 
 </li>
 </ul>
 
-<div class="proposition" id="proposition:algebraicness of finitely generated subfields by multiple elements" data-name="algebraicness of finitely generated subfields by multiple elements">
+<div class="proposition" id="proposition:algebraicness---of---finitely---generated---subfields---by---multiple---elements" data-name="algebraicness of finitely generated subfields by multiple elements">
 	
 
 for field $k$
 and
-$\alpha_1$, , $\alpha_n$ being algebraic over $k$,
+$\alpha_1$, &hellip;, $\alpha_n$ being algebraic over $k$,
 $E=k(\alpha_1,\ldots,\alpha_n)$
 is finitely algebraic over $k$
-(due to <a href="#proposition:algebraicness of finitely generated subfield by single element"></a>,
-<a href="#proposition:dimension of finite extension"></a>,
+(due to <a href="#proposition:algebraicness---of---finitely---generated---subfield---by---single---element"></a>,
+<a href="#proposition:dimension---of---finite---extension"></a>,
 and
-<a href="#proposition:algebraicness of finite field extensions"></a>).
+<a href="#proposition:algebraicness---of---finite---field---extensions"></a>).
 Indeed, $E = k[\alpha_1, \ldots, \alpha_n]$ and
 
 $$
@@ -4966,14 +4968,14 @@ $$
 
 <h3>Compositum of subfields and lifting</h3>
 
-<div class="definition" id="definition:compositum of subfields" data-name="compositum of subfields">
+<div class="definition" id="definition:compositum---of---subfields" data-name="compositum of subfields">
 	
 
 
 for field $k$ and its extension fields $E$ and $F$, which are subfields of common field $L$,
 smallest subfield of $L$ containing both $E$ and $F$,
 called <span class="define">compositum of $E$ and $F$ in $L$</span>,
-denoted by <span class="define">$EF$</span>
+denoted by <span class="notation">$EF$</span>
 
 	<ul>
 	<li>
@@ -5029,12 +5031,12 @@ called <span class="define">translation of $E$ to $F$</span> or <span class="def
 
 
 
-
+<div id="fig:translation---or---lifting---of---fields"></div>
 
 
 <h3>Finite generation of compositum</h3>
 
-<div class="lemma" id="lemma:finite generation of compositum" data-name="finite generation of compositum">
+<div class="lemma" id="lemma:finite---generation---of---compositum" data-name="finite generation of compositum">
 	
 
 
@@ -5064,12 +5066,12 @@ compositum $EF$ is finitely generated over $F$
 
 
 
-
+<div id="fig:lifting---of---smallest---fields"></div>
 
 
 <h3>Distinguished classes</h3>
 
-<div class="definition" id="definition:distinguished class of field extensions" data-name="distinguished class of field extensions">
+<div class="definition" id="definition:distinguished---class---of---field---extensions" data-name="distinguished class of field extensions">
 	
 
 
@@ -5110,16 +5112,16 @@ $k\subset EF$ is in $\classk{C}$
 
 
 
+&nbsp;
 
 
-
-
+<div id="fig:lattice---diagram---of---fields"></div>
 
 
 
 <h3>Both algebraic and finite extensions are distinguished</h3>
 
-<div class="proposition" id="proposition:algebraic and finite extensions are distinguished" data-name="algebraic and finite extensions are distinguished">
+<div class="proposition" id="proposition:algebraic---and---finite---extensions---are---distinguished" data-name="algebraic and finite extensions are distinguished">
 	
 
 
@@ -5136,17 +5138,18 @@ so is class of finite extensions
 
 <h3>Field embedding and embedding extension</h3>
 
-<div class="definition" id="definition:field embedding" data-name="field embedding">
+<div class="definition" id="definition:field---embedding" data-name="field embedding">
 	
 
 
 for two fields $F$ and $L$,
 injective homeomorphism $\sigma:F\to L$,
 called <span class="define">embedding of $F$ into $L$</span>;
-then (of course) $\sigma$ induces isomorphism of $F$ with its image $\sigma F$
+then (of course) $\sigma$ induces isomorphism of $F$ with its image $\sigma F$&nbsp;(footnote &ndash; 
+Here $\sigma F$ is sometimes written as $F^\sigma$.)
 
 </div>
-<div class="definition" id="definition:field embedding extension" data-name="field embedding extension">
+<div class="definition" id="definition:field---embedding---extension" data-name="field embedding extension">
 	
 
 
@@ -5165,16 +5168,16 @@ diagrams in the figure show these embedding extensions
 
 
 
+&nbsp;
 
 
 
-
-
+<div id="fig:field---embedding---extensions"></div>
 
 
 <ul>
 <li>
-	assuming $F$, $E$, $\sigma$, and $\tau$ same as in <a href="#definition:field embedding extension"></a>,
+	assuming $F$, $E$, $\sigma$, and $\tau$ same as in <a href="#definition:field---embedding---extension"></a>,
 if $\alpha\in E$ is root of $f\in F[X]$, then $\alpha^\tau$ is root of $f^\sigma$
 for
 if $f(X) = \sum_{i=0}^n a_i X^i$, then $f(\alpha) = \sum_{i=0}^n a_i \alpha^i = 0$,
@@ -5190,7 +5193,7 @@ $0
 
 <h3>Embedding of field extensions</h3>
 
-<div class="lemma" id="lemma:field embedding of algebraic extension" data-name="field embedding of algebraic extension">
+<div class="lemma" id="lemma:field---embedding---of---algebraic---extension" data-name="field embedding of algebraic extension">
 	
 
 
@@ -5201,7 +5204,7 @@ is isomorphism
 
 </div>
 
-<div class="lemma" id="lemma:compositums of fields" data-name="compositums of fields">
+<div class="lemma" id="lemma:compositums---of---fields" data-name="compositums of fields">
 	
 
 
@@ -5216,7 +5219,7 @@ $EF$ is field of quotients of these elements
 
 </div>
 
-<div class="lemma" id="lemma:embeddings of compositum of fields" data-name="embeddings of compositum of fields">
+<div class="lemma" id="lemma:embeddings---of---compositum---of---fields" data-name="embeddings of compositum of fields">
 	
 
 
@@ -5282,7 +5285,7 @@ $\alpha \in k[X]^\sigma$ is root of $p^\sigma$ in $k^\sigma(\alpha)$
 
 </li>
 </ul>
-<div class="lemma" id="lemma:existence of roots of irreducible polynomial" data-name="existence of roots of irreducible polynomial">
+<div class="lemma" id="lemma:existence---of---roots---of---irreducible---polynomial" data-name="existence of roots of irreducible polynomial">
 	
 
 for field $k$ and irreducible $p(X)\in k[X]$ with $\deg p \geq 1$,
@@ -5297,7 +5300,7 @@ in field extension of $k^\sigma$
 
 
 
-<div class="proposition" id="proposition:existence of extension fields containing roots" data-name="existence of extension fields containing roots">
+<div class="proposition" id="proposition:existence---of---extension---fields---containing---roots" data-name="existence of extension fields containing roots">
 	
 
 for field $k$ and $f\in k[X]$ with $\deg f \geq 1$,
@@ -5305,15 +5308,15 @@ exists extension of $k$ in which $f$ has root
 
 </div>
 
-<div class="corollary" id="corollary:existence of extension fields containing roots" data-name="existence of extension fields containing roots">
+<div class="corollary" id="corollary:existence---of---extension---fields---containing---roots" data-name="existence of extension fields containing roots">
 	
 
-for field $k$ and $f_1$, , $f_n$ $\in$ $k[X]$ with $\deg f_i \geq 1$,
+for field $k$ and $f_1$, &hellip;, $f_n$ $\in$ $k[X]$ with $\deg f_i \geq 1$,
 exists extension of $k$ in which every $f_i$ has root
 
 </div>
 
-<div class="theorem" id="theorem:existence of algebraically closed field extensions" data-name="existence of algebraically closed field extensions">
+<div class="theorem" id="theorem:existence---of---algebraically---closed---field---extensions" data-name="existence of algebraically closed field extensions">
 	
 
 for every field $k$,
@@ -5321,7 +5324,7 @@ exists algebraically closed extension of $k$
 
 </div>
 
-<div class="corollary" id="corollary:existence of algebraically closed algebraic field extensions" data-name="existence of algebraically closed algebraic field extensions">
+<div class="corollary" id="corollary:existence---of---algebraically---closed---algebraic---field---extensions" data-name="existence of algebraically closed algebraic field extensions">
 	
 
 
@@ -5333,7 +5336,7 @@ exists algebraically closed algebraic extension of $k$
 
 <h3>Isomorphism between algebraically closed algebraic extensions</h3>
 
-<div class="proposition" id="proposition:number of algebraic embedding extensions" data-name="number of algebraic embedding extensions">
+<div class="proposition" id="proposition:number---of---algebraic---embedding---extensions" data-name="number of algebraic embedding extensions">
 	
 
 
@@ -5349,7 +5352,7 @@ hence
 no greater than # roots of $\Irr(\alpha,k,X)$
 
 </div>
-<div class="theorem" id="theorem:algebraic embedding extensions" data-name="algebraic embedding extensions">
+<div class="theorem" id="theorem:algebraic---embedding---extensions" data-name="algebraic embedding extensions">
 	
 
 
@@ -5363,7 +5366,7 @@ if $E$ is algebraically closed and $L$ is algebraic over $k^\sigma$,
 every such embedding extension is isomorphism of $E$ onto $L$
 
 </div>
-<div class="corollary" id="corollary:isomorphism between algebraically closed algebraic extensions" data-name="isomorphism between algebraically closed algebraic extensions">
+<div class="corollary" id="corollary:isomorphism---between---algebraically---closed---algebraic---extensions" data-name="isomorphism between algebraically closed algebraic extensions">
 	
 
 
@@ -5392,14 +5395,14 @@ where $\restrict{\tau}{k}$ is identity
 
 <h3>Algebraic closure</h3>
 
-<div class="definition" id="definition:algebraic closure" data-name="algebraic closure">
+<div class="definition" id="definition:algebraic---closure" data-name="algebraic closure">
 	
 
 
 for field, $k$,
 algebraically closed algebraic extension of $k$, which is determined up to isomorphism,
 called <span class="define">algebraic closure of $k$</span>,
-frequently denoted by <span class="define">\algclosure{k}</span>
+frequently denoted by <span class="notation">\algclosure{k}</span>
 
 </div>
 <ul>
@@ -5433,7 +5436,7 @@ is algebraic closure of $\rationals$, <i>i.e.</i>, $\algclosure{\rationals}$
 </li>
 </ul>
 
-<div class="theorem" id="theorem:countability of algebraic closure of finite fields" data-name="countability of algebraic closure of finite fields">
+<div class="theorem" id="theorem:countability---of---algebraic---closure---of---finite---fields" data-name="countability of algebraic closure of finite fields">
 	
 
 
@@ -5441,7 +5444,7 @@ algebraic closure of finite field is countable
 
 </div>
 
-<div class="theorem" id="theorem:cardinality of algebraic extensions of infinite fields" data-name="cardinality of algebraic extensions of infinite fields">
+<div class="theorem" id="theorem:cardinality---of---algebraic---extensions---of---infinite---fields" data-name="cardinality of algebraic extensions of infinite fields">
 	
 
 
@@ -5455,7 +5458,7 @@ has same cardinality as $k$
 
 
 
-<div class="definition" id="definition:splitting fields" data-name="splitting fields">
+<div class="definition" id="definition:splitting---fields" data-name="splitting fields">
 	
 for field, $k$, and $f\in k[X]$ with $\deg f \geq 1$,
 field extension, $K$, of $k$,
@@ -5466,7 +5469,7 @@ $$
 f(X) = c (X-\alpha_1) \cdots (X-\alpha_n)
 $$
 
-and which is finitely generated over $k$ by $\alpha_1$, , $\alpha_n$
+and which is finitely generated over $k$ by $\alpha_1$, &hellip;, $\alpha_n$
 (hence $K=k(\alpha_1, \ldots, \alpha_n)$),
 called <span class="define">splitting field of $f$</span>
 
@@ -5480,7 +5483,7 @@ in $\algclosure{k}$
 
 </li>
 </ul>
-<div class="theorem" id="theorem:isomorphism between splitting fields" data-name="isomorphism between splitting fields">
+<div class="theorem" id="theorem:isomorphism---between---splitting---fields" data-name="isomorphism between splitting fields">
 	
 
 
@@ -5496,7 +5499,7 @@ is isomorphism of $E$ onto $K$
 
 <h3>Splitting fields for family of polynomials</h3>
 
-<div class="definition" id="definition:splitting fields for family of polynomials" data-name="splitting fields for family of polynomials">
+<div class="definition" id="definition:splitting---fields---for---family---of---polynomials" data-name="splitting fields for family of polynomials">
 	
 for field, $k$,
 index set, $\Lambda$,
@@ -5523,7 +5526,7 @@ called <span class="define">splitting field for family of polynomials</span>
 
 </li>
 </ul>
-<div class="corollary" id="corollary:isomorphism between splitting fields for family of polynomials" data-name="isomorphism between splitting fields for family of polynomials">
+<div class="corollary" id="corollary:isomorphism---between---splitting---fields---for---family---of---polynomials" data-name="isomorphism between splitting fields for family of polynomials">
 	
 for field, $k$,
 index set, $\Lambda$,
@@ -5537,7 +5540,7 @@ is isomorphism of $E$ onto $K$
 
 <h3>Normal extensions</h3>
 
-<div class="theorem" id="theorem:normal extensions" data-name="normal extensions">
+<div class="theorem" id="theorem:normal---extensions" data-name="normal extensions">
 	
 for field, $k$,
 and its algebraic extension, $K$,
@@ -5561,12 +5564,12 @@ splits into linear factors in $K$
 	</ul>
 
 </div>
-<div class="definition" id="definition:normal extensions" data-name="normal extensions">
+<div class="definition" id="definition:normal---extensions" data-name="normal extensions">
 	
 for field, $k$,
 and its algebraic extension, $K$,
 with $k\subset K\subset \algclosure{k}$,
-satisfying properties in <a href="#theorem:normal extensions"></a>,
+satisfying properties in <a href="#theorem:normal---extensions"></a>,
 said to be <span class="define">normal</span>
 
 </div>
@@ -5599,7 +5602,7 @@ because complex roots of $X^4-2$ are not in $\rationals(\sqrt[4]{2})$
 
 <h3>Retention of normality of extensions</h3>
 
-<div class="theorem" id="theorem:retention of normality of extensions" data-name="retention of normality of extensions">
+<div class="theorem" id="theorem:retention---of---normality---of---extensions" data-name="retention of normality of extensions">
 	
 normal extensions remain normal under lifting;
 if $k\subset E\subset K$ and $K$ is normal over $k$,
@@ -5621,7 +5624,7 @@ and so is $K_1\cap K_2$
 		<ul>
 		<li>
 			exists embedding extension of $\sigma$ to $E$ in $L$
-by <a href="#theorem:algebraic embedding extensions"></a>
+by <a href="#theorem:algebraic---embedding---extensions"></a>
 
 		</li>
 		<li>
@@ -5645,7 +5648,7 @@ by <a href="#theorem:algebraic embedding extensions"></a>
 
 	</li>
 	<li>
-		then <a href="#theorem:algebraic embedding extensions"></a>
+		then <a href="#theorem:algebraic---embedding---extensions"></a>
 implies, exists isomorphism, $\lambda:L\to L'$
 extending $\tau\circ \sigma^{-1}$ applied to $F^\sigma$
 
@@ -5666,17 +5669,17 @@ hence exists bijection between $S_\sigma$ and $S_\tau$, hence have same cardinal
 
 </li>
 </ul>
-<div class="definition" id="definition:separable degree of field extensions" data-name="separable degree of field extensions">
+<div class="definition" id="definition:separable---degree---of---field---extensions" data-name="separable degree of field extensions">
 	
 above cardinality only depends on extension $E/F$,
 called <span class="define">separable degree of $E$ over $F$</span>,
-denoted by <span class="define">$[E:F]_s$</span>
+denoted by <span class="notation">$[E:F]_s$</span>
 
 </div>
 
 <h3>Multiplicativity of and upper bound on separable degree of field extensions</h3>
 
-<div class="theorem" id="theorem:multiplicativity of separable degree of field extensions" data-name="multiplicativity of separable degree of field extensions">
+<div class="theorem" id="theorem:multiplicativity---of---separable---degree---of---field---extensions" data-name="multiplicativity of separable degree of field extensions">
 	
 for tower of algebraic field extensions, $k\subset F\subset E$,
 
@@ -5689,7 +5692,7 @@ $$
 
 
 </div>
-<div class="theorem" id="theorem:upper limit on separable degree of field extensions" data-name="upper limit on separable degree of field extensions">
+<div class="theorem" id="theorem:upper---limit---on---separable---degree---of---field---extensions" data-name="upper limit on separable degree of field extensions">
 	
 for finite algebraic field extension, $k\subset E$
 
@@ -5723,7 +5726,7 @@ corresponding equality holds in every step of tower,
 
 <h3>Finite separable field extensions</h3>
 
-<div class="definition" id="definition:finite separable field extensions" data-name="finite separable field extensions">
+<div class="definition" id="definition:finite---separable---field---extensions" data-name="finite separable field extensions">
 	
 for finite algebraic field extension, $E/k$,
 with $[E:k]_s=[E:k]$,
@@ -5731,7 +5734,7 @@ $E$,
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="definition" id="definition:separable algebraic elements" data-name="separable algebraic elements">
+<div class="definition" id="definition:separable---algebraic---elements" data-name="separable algebraic elements">
 	
 for field, $k$,
 $\alpha$, which is algebraic over $k$
@@ -5739,7 +5742,7 @@ with $k(\alpha)$ being separable over $k$,
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="proposition" id="proposition:separability and multiple roots" data-name="separability and multiple roots">
+<div class="proposition" id="proposition:separability---and---multiple---roots" data-name="separability and multiple roots">
 	
 for field, $k$,
 $\alpha$, which is algebraic over $k$,
@@ -5749,7 +5752,7 @@ $\Irr(\alpha,k,X)$
 has no multiple roots
 
 </div>
-<div class="definition" id="definition:separable polynomials" data-name="separable polynomials">
+<div class="definition" id="definition:separable---polynomials" data-name="separable polynomials">
 	
 for field, $k$,
 $f\in k[X]$ with no multiple roots,
@@ -5764,7 +5767,7 @@ if $\alpha \in K$ is separable over $k$,
 then $\alpha$ is separable over $F$
 
 </div>
-<div class="theorem" id="theorem:finite separable field extensions" data-name="finite separable field extensions">
+<div class="theorem" id="theorem:finite---separable---field---extensions" data-name="finite separable field extensions">
 	
 for finite field extension, $E/k$,
 $E$ is separable over $k$
@@ -5775,7 +5778,7 @@ every element of $E$ is separable over $k$
 
 <h3>Arbitrary separable field extensions</h3>
 
-<div class="definition" id="definition:arbitrary separable field extensions" data-name="arbitrary separable field extensions">
+<div class="definition" id="definition:arbitrary---separable---field---extensions" data-name="arbitrary separable field extensions">
 	
 for (not necessarily finite) field extension, $E/k$,
 $E$,
@@ -5798,7 +5801,7 @@ $$
 said to be <span class="define">separable over $k$</span>
 
 </div>
-<div class="theorem" id="theorem:separable field extensions" data-name="separable field extensions">
+<div class="theorem" id="theorem:separable---field---extensions" data-name="separable field extensions">
 	
 for algebraic extension, $E/k$,
 $E$, which is generated by family of elements, $\{\alpha_\lambda\}_{\lambda\in\Lambda}$,
@@ -5806,7 +5809,7 @@ with every $\alpha_\lambda$ is separable over $k$,
 is separable over $k$
 
 </div>
-<div class="theorem" id="theorem:separable extensions are distinguished" data-name="separable extensions are distinguished">
+<div class="theorem" id="theorem:separable---extensions---are---distinguished" data-name="separable extensions are distinguished">
 	
 separable extensions form distinguished class of extensions
 
@@ -5814,15 +5817,15 @@ separable extensions form distinguished class of extensions
 
 <h3>Separable closure and conjugates</h3>
 
-<div class="definition" id="definition:separable closure" data-name="separable closure">
+<div class="definition" id="definition:separable---closure" data-name="separable closure">
 	
 for field, $k$,
 compositum of all separable extensions of $k$ in given algebraic closure $\algclosure{k}$,
 called <span class="define">separable closure of $k$</span>,
-denoted by <span class="define">$k^\mathrm{s}$ or \sepclosure{k}</span>
+denoted by <span class="notation">$k^\mathrm{s}$ or \sepclosure{k}</span>
 
 </div>
-<div class="definition" id="definition:conjugates of fields" data-name="conjugates of fields">
+<div class="definition" id="definition:conjugates---of---fields" data-name="conjugates of fields">
 	
 for algebraic field extension, $E/k$,
 and embedding of $E$, $\sigma$, in $\algclosure{k}$ over $k$,
@@ -5837,14 +5840,14 @@ is compositum of all conjugates of $E$ in $\algclosure{E}$
 
 </li>
 </ul>
-<div class="definition" id="definition:conjugates of elements of fields" data-name="conjugates of elements of fields">
+<div class="definition" id="definition:conjugates---of---elements---of---fields" data-name="conjugates of elements of fields">
 	
 for field, $k$,
 $\alpha$ being algebraic over $k$,
 and
-distinct embeddings, $\sigma_1$, , $\sigma_r$ of $k(\alpha)$ into $\algclosure{k}$ over $k$,
+distinct embeddings, $\sigma_1$, &hellip;, $\sigma_r$ of $k(\alpha)$ into $\algclosure{k}$ over $k$,
 $\alpha^{\sigma_1}$,
-,
+&hellip;,
 $\alpha^{\sigma_r}$,
 called <span class="define">conjugates of $\alpha$ in \algclosure{k}</span>
 
@@ -5852,7 +5855,7 @@ called <span class="define">conjugates of $\alpha$ in \algclosure{k}</span>
 <ul>
 <li>
 	$\alpha^{\sigma_1}$,
-,
+&hellip;,
 $\alpha^{\sigma_r}$
 are simply
 distinct roots of $\Irr(\alpha, k, X)$
@@ -5869,7 +5872,7 @@ $k(\alpha^{\sigma_1}, \ldots, \alpha^{\sigma_r})$
 
 <h3>Prime element theorem</h3>
 
-<div class="theorem" id="theorem:prime element theorem" data-name="prime element theorem">
+<div class="theorem" id="theorem:prime---element---theorem" data-name="prime element theorem">
 	
 for finite algebraic field extension, $E/k$,
 exists $\alpha\in E$ such that $E=k(\alpha)$
@@ -5879,7 +5882,7 @@ if $E$ is separable over $k$,
 exists such element, $\alpha$
 
 </div>
-<div class="definition" id="definition:primitive element of fields" data-name="primitive element of fields">
+<div class="definition" id="definition:primitive---element---of---fields" data-name="primitive element of fields">
 	
 for finite algebraic field extension, $E/k$,
 $\alpha\in E$ with $E=k(\alpha)$,
@@ -5889,11 +5892,11 @@ called <span class="define">primitive element of $E$ over $k$</span>
 
 <h3>Finite fields</h3>
 
-<div class="definition" id="definition:finite fields" data-name="finite fields">
+<div class="definition" id="definition:finite---fields" data-name="finite fields">
 	
 for every prime number, $p$, and integer, $n\geq1$,
 exists finite field of order $p^n$,
-denoted by <span class="define">\finitefield{p}{n}</span>,
+denoted by <span class="notation">\finitefield{p}{n}</span>,
 uniquely determined as subfield of algebraic closure, $\algclosure{\primefield{p}}$,
 which is splitting field of polynomial
 
@@ -5904,21 +5907,21 @@ $$
 and whose elements are roots of $f_{p,n}$
 
 </div>
-<div class="theorem" id="theorem:finite fields" data-name="finite fields">
+<div class="theorem" id="theorem:finite---fields" data-name="finite fields">
 	
 for every finite field, $F$,
 exist prime number, $p$, and integer, $n\geq1$,
 such that $F=\finitefield{p}{n}$
 
 </div>
-<div class="corollary" id="corollary:finite field extensions" data-name="finite field extensions">
+<div class="corollary" id="corollary:finite---field---extensions" data-name="finite field extensions">
 	
 for finite field, , and integer, $m\geq1$,
 exists one and only one extension of degree, $m$,
 which is 
 
 </div>
-<div class="theorem" id="theorem:multiplicative group of finite field" data-name="multiplicative group of finite field">
+<div class="theorem" id="theorem:multiplicative---group---of---finite---field" data-name="multiplicative group of finite field">
 	
 multiplicative group of finite field is cyclic
 
@@ -5926,7 +5929,7 @@ multiplicative group of finite field is cyclic
 
 <h3>Automorphisms of finite fields</h3>
 
-<div class="definition" id="definition:Frobenius mapping" data-name="Frobenius mapping">
+<div class="definition" id="definition:Frobenius---mapping" data-name="Frobenius mapping">
 	
 mapping
 
@@ -5942,7 +5945,7 @@ called <span class="define">Frobenius mapping</span>
 <li>
 	 is (ring) homeomorphism
 with $\Ker \frobmap{p}{n} = \{0\}$ since  is field,
-thus is injective (<a href="#proposition:injectivity of field homeomorphism"></a>),
+thus is injective (<a href="#proposition:injectivity---of---field---homeomorphism"></a>),
 and surjective because  is finite,
 
 </li>
@@ -5952,14 +5955,14 @@ leaving \primefield{p}\ fixed</i>
 
 </li>
 </ul>
-<div class="theorem" id="theorem:group of automorphisms of finite fields" data-name="group of automorphisms of finite fields">
+<div class="theorem" id="theorem:group---of---automorphisms---of---finite---fields" data-name="group of automorphisms of finite fields">
 	
 group of automorphisms of 
 is cyclic of degree $n$,
 generated by 
 
 </div>
-<div class="theorem" id="theorem:group of automorphisms of finite fields over another finite field" data-name="group of automorphisms of finite fields over another finite field">
+<div class="theorem" id="theorem:group---of---automorphisms---of---finite---fields---over---another---finite---field" data-name="group of automorphisms of finite fields over another finite field">
 	
 for prime number, $p$, and integers, $m,n\geq1$,
 in any $\algclosure{\primefield{p}}$,
@@ -5975,7 +5978,7 @@ generated by $\frobmap{p}{m}^n$
 
 </div>
 
-<h2 id="Galois Theory">Galois Theory</h2>
+<h2 id="title-page:Galois---Theory">Galois Theory</h2>
 
 
 
@@ -6031,7 +6034,7 @@ tools to prove
 
 <h3>Fixed fields</h3>
 
-<div class="definition" id="definition:fixed field" data-name="fixed field">
+<div class="definition" id="definition:fixed---field" data-name="fixed field">
 	
 
 for field, $K$, and group of automorphisms, $G$, of $K$,
@@ -6042,7 +6045,7 @@ $$
 
 is subfield of $K$, and
 called <span class="define">fixed field of $G$</span>,
-denoted by <span class="define">$K^G$</span>
+denoted by <span class="notation">$K^G$</span>
 
 </div>
 <ul>
@@ -6087,7 +6090,7 @@ thus field
 
 <h3>Galois extensions and Galois groups</h3>
 
-<div class="definition" id="definition:Galois extensions" data-name="Galois extensions">
+<div class="definition" id="definition:Galois---extensions" data-name="Galois extensions">
 	
 
 
@@ -6101,21 +6104,21 @@ for convenience,
 sometimes say <span class="define">$K/k$ is Galois</span>
 
 </div>
-<div class="definition" id="definition:Galois groups" data-name="Galois groups">
+<div class="definition" id="definition:Galois---groups" data-name="Galois groups">
 	
 
 
 for field, $k$ and its Galois extension, $K$,
 group of automorphisms of $K$ over $k$,
 called <span class="define">Galois group of $K$ over $k$</span>,
-denoted by <span class="define">$G(K/k)$, $G_{K/k}$, $\Gal(K/k)$, or (simply) $G$</span>
+denoted by <span class="notation">$G(K/k)$, $G_{K/k}$, $\Gal(K/k)$, or (simply) $G$</span>
 
 
 
 
 
 </div>
-<div class="definition" id="definition:Galois group of polynomials" data-name="Galois group of polynomials">
+<div class="definition" id="definition:Galois---group---of---polynomials" data-name="Galois group of polynomials">
 	
 for field, $k$, separable $f\in k[X]$ with $\deg f \geq 1$,
 and
@@ -6124,7 +6127,7 @@ Galois group of $K$ over $k$ (<i>i.e.</i>, $G(K/k)$),
 called <span class="define">Galois group of $f$ over $k$</span>
 
 </div>
-<div class="proposition" id="proposition:Galois group of polynomials and symmetric group" data-name="Galois group of polynomials and symmetric group">
+<div class="proposition" id="proposition:Galois---group---of---polynomials---and---symmetric---group" data-name="Galois group of polynomials and symmetric group">
 	
 for field, $k$, separable $f\in k[X]$ with $\deg f \geq 1$,
 and
@@ -6143,7 +6146,7 @@ of $G$ into $S_n$, <i>i.e.</i>, symmetric group on $n$ elements
 
 <h3>Fundamental theorem for Galois theory</h3>
 
-<div class="theorem" id="theorem:fundamental theorem for Galois theory" data-name="fundamental theorem for Galois theory">
+<div class="theorem" id="theorem:fundamental---theorem---for---Galois---theory" data-name="fundamental theorem for Galois theory">
 	
 
 
@@ -6194,14 +6197,14 @@ $G(K^H/k)$
 
 
 
-
+<div id="fig:diagrams---for---Galois---main---result"></div>
 
 
 
 
 <h3>Galois subgroups association with intermediate fields</h3>
 
-<div class="theorem" id="theorem:Galois subgroups associated with intermediate fields - 1" data-name="Galois subgroups associated with intermediate fields - 1">
+<div class="theorem" id="theorem:Galois---subgroups---associated---with---intermediate---fields-------1" data-name="Galois subgroups associated with intermediate fields - 1">
 	
 for Galois extension, $K/k$,
 and intermediate field, $F$
@@ -6228,7 +6231,7 @@ to subgroups of $G$
 
 
 </div>
-<div class="definition" id="definition:Galois subgroups associated with intermediate fields" data-name="Galois subgroups associated with intermediate fields">
+<div class="definition" id="definition:Galois---subgroups---associated---with---intermediate---fields" data-name="Galois subgroups associated with intermediate fields">
 	
 for Galois extension, $K/k$, and intermediate field, $F$,
 subgroup, $G(K/F)\subset G(K/k)$,
@@ -6236,7 +6239,7 @@ called <span class="define">group associated with $F$</span>,
 said to <span class="define">belong to $F$</span>
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 1" data-name="Galois subgroups associated with intermediate fields - 1">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------1" data-name="Galois subgroups associated with intermediate fields - 1">
 	
 for Galois extension, $K/k$,
 and
@@ -6252,7 +6255,7 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 2" data-name="Galois subgroups associated with intermediate fields - 2">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------2" data-name="Galois subgroups associated with intermediate fields - 2">
 	
 for Galois extension, $K/k$,
 and
@@ -6270,7 +6273,7 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 3" data-name="Galois subgroups associated with intermediate fields - 3">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------3" data-name="Galois subgroups associated with intermediate fields - 3">
 	
 for Galois extension, $K/k$,
 and
@@ -6301,9 +6304,9 @@ for some $n\geq1$,
 $E$ is finite over $k$ and $[E:k]\leq n$
 
 </div>
-<div class="theorem" id="theorem:Artin's theorem" data-name="Artin's theorem">
+<div class="theorem" id="theorem:Artin's---theorem" data-name="Artin's theorem">
 	
-
+<div id="theorem:Artins---theorem"></div>
 (Artin)
 for field, $K$,
 finite $\Aut(K)$ of order, $n$,
@@ -6313,13 +6316,13 @@ $G(K/k)= \Aut(K)$,
 and $[K:k] = n$
 
 </div>
-<div class="corollary" id="corollary:Galois subgroups associated with intermediate fields - 4" data-name="Galois subgroups associated with intermediate fields - 4">
+<div class="corollary" id="corollary:Galois---subgroups---associated---with---intermediate---fields-------4" data-name="Galois subgroups associated with intermediate fields - 4">
 	
 for finite Galois extension, $K/k$,
 every subgroup of $G(K/k)$ belongs to intermediate field
 
 </div>
-<div class="theorem" id="theorem:Galois subgroups associated with intermediate fields - 2" data-name="Galois subgroups associated with intermediate fields - 2">
+<div class="theorem" id="theorem:Galois---subgroups---associated---with---intermediate---fields-------2" data-name="Galois subgroups associated with intermediate fields - 2">
 	
 for Galois extension, $K/k$,
 and intermediate field, $F$,
@@ -6355,7 +6358,7 @@ $$
 <ul>
 <li>
 	finally, we prove <i>fundamental theorem for Galois theory</i>
-(<a href="#theorem:fundamental theorem for Galois theory"></a>)
+(<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
 
 </li>
 <li>
@@ -6363,13 +6366,13 @@ $$
 and $H$ is subgroup of $G(K/k)$
 	<ul>
 	<li>
-		<a href="#corollary:Galois subgroups associated with intermediate fields - 4"></a>
+		<a href="#corollary:Galois---subgroups---associated---with---intermediate---fields-------4"></a>
 implies $K^H$ is intermediate field,
 hence
-<a href="#theorem:Galois subgroups associated with intermediate fields - 1"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------1"></a>
 implies
 $K/K^H$ is Galois,
-<a href="#theorem:Artins theorem"></a>
+<a href="#theorem:Artins---theorem"></a>
 implies
 $G(K/K^H) = H$,
 thus,
@@ -6394,7 +6397,7 @@ then $H=G(K/K^H)=G(K/K^{H'})=H'$
 		$\sigma$ is <i>surjective</i>
 since
 for every intermediate field, $F$,
-<a href="#theorem:Galois subgroups associated with intermediate fields - 1"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------1"></a>
 implies
 $K/F$ is Galois, $G(K/F)$ is subgroup of $G(K/k)$, and $K^{G(K/F)}=F$,
 thus,
@@ -6411,18 +6414,18 @@ set of intermediate fields
 
 	</li>
 	<li>
-		since <a href="#theorem:separable extensions are distinguished"></a>
+		since <a href="#theorem:separable---extensions---are---distinguished"></a>
 implies
 separable extensions are distinguished,
 $H^K/k$ is separable,
 thus
-<a href="#theorem:Galois subgroups associated with intermediate fields - 2"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------2"></a>
 implies that $K^H/k$ is Galois if and only if $G(K/K^H)$ is normal
 
 	</li>
 	<li>
 		lastly,
-<a href="#theorem:Galois subgroups associated with intermediate fields - 2"></a>
+<a href="#theorem:Galois---subgroups---associated---with---intermediate---fields-------2"></a>
 implies that if $K^H/k$ is Galois,
 $G(H^K/k) \isomorph G(K/k) / H$
 
@@ -6434,13 +6437,13 @@ $G(H^K/k) \isomorph G(K/k) / H$
 
 <h3>Abelian and cyclic Galois extensions and groups</h3>
 
-<div class="definition" id="definition:abelian Galois extensions" data-name="abelian Galois extensions">
+<div class="definition" id="definition:abelian---Galois---extensions" data-name="abelian Galois extensions">
 	
 Galois extension with abelian Galois group,
 said to be <span class="define">abelian</span>
 
 </div>
-<div class="definition" id="definition:cyclic Galois extensions" data-name="cyclic Galois extensions">
+<div class="definition" id="definition:cyclic---Galois---extensions" data-name="cyclic Galois extensions">
 	
 Galois extension with cyclic Galois group,
 said to be <span class="define">cyclic</span>
@@ -6464,13 +6467,13 @@ intermediate field, $F$,
 	</ul>
 
 </div>
-<div class="definition" id="definition:maximum abelian extension" data-name="maximum abelian extension">
+<div class="definition" id="definition:maximum---abelian---extension" data-name="maximum abelian extension">
 	
 for field, $k$,
 compositum of all abelian Galois extensions of $k$
 in given $\algclosure{k}$,
 called <span class="define">maximum abelian extension of $k$</span>,
-denoted by <span class="define">\maxabext{k}</span>
+denoted by <span class="notation">\maxabext{k}</span>
 
 </div>
 
@@ -6508,7 +6511,7 @@ theorem illustrated in the figure
 
 
 
-
+<div id="fig:diagram---for---Galois---lifting"></div>
 
 
 <div class="corollary" id="corollary:">
@@ -6554,13 +6557,13 @@ theorem illustrated in the figure
 
 
 
-
+<div id="fig:diagram---for---Galois---two-side---lifting"></div>
 
 
 <div class="corollary" id="corollary:">
 	
 for $n$ Galois extensions, $K_i/k$,
-where $K_1$, , $K_n$ are subfields of common field
+where $K_1$, &hellip;, $K_n$ are subfields of common field
 and
 $K_{i+1}\cap(K_1\cdots K_i) = k$ for $i=1,\ldots,n-1$,
 
@@ -6589,7 +6592,7 @@ of $G(K_1\cdots K_n/k)$ onto $G(K_1/k) \times \cdots \times G(K_n/k)$
 for Galois extension, $K/k$,
 where $G(K/k)$ can be written as $G_1\times \cdots \times G_n$,
 and
-$K_1$, , $K_n$,
+$K_1$, &hellip;, $K_n$,
 each of which is
 fixed field of
 
@@ -6600,7 +6603,7 @@ $$
 
 	<ul>
 	<li>
-		$K_1/k$, , $K_n/k$ are Galois extensions
+		$K_1/k$, &hellip;, $K_n/k$ are Galois extensions
 
 	</li>
 	<li>
@@ -6645,7 +6648,7 @@ both $K/E$ and $E/k$ are abelian Galois extensions
 
 <h3>Solvable and radical extensions</h3>
 
-<div class="definition" id="definition:sovable extensions" data-name="sovable extensions">
+<div class="definition" id="definition:sovable---extensions" data-name="sovable extensions">
 	
 finite separable extension, $E/k$,
 such that
@@ -6657,12 +6660,12 @@ is solvable,
 said to be <span class="define">solvable</span>
 
 </div>
-<div class="theorem" id="theorem:solvable extensions are distinguished" data-name="solvable extensions are distinguished">
+<div class="theorem" id="theorem:solvable---extensions---are---distinguished" data-name="solvable extensions are distinguished">
 	
 solvable extensions form distinguished class of extensions
 
 </div>
-<div class="definition" id="definition:solvable by radicals" data-name="solvable by radicals">
+<div class="definition" id="definition:solvable---by---radicals" data-name="solvable by radicals">
 	
 finite extension, $F/k$,
 such that it is separable
@@ -6693,7 +6696,7 @@ with $E_{i+1}/E_i$ is obtained by adjoining root of
 said to be <span class="define">solvable by radicals</span>
 
 </div>
-<div class="theorem" id="theorem:extensions solvable by radicals" data-name="extensions solvable by radicals">
+<div class="theorem" id="theorem:extensions---solvable---by---radicals" data-name="extensions solvable by radicals">
 	
 separable extension, $E/k$,
 is solvable by radicals
@@ -6704,21 +6707,21 @@ it is solvable
 
 <h3>Applications of Galois theory</h3>
 
-<div class="theorem" id="theorem:insolvability of quintic polynomials" data-name="insolvability of quintic polynomials">
+<div class="theorem" id="theorem:insolvability---of---quintic---polynomials" data-name="insolvability of quintic polynomials">
 	
 general equation of degree, $n$,
 cannot be solved by radicals
 for $n\geq5$
 (implied by
-<a href="#definition:Galois group of polynomials"></a>,
-<a href="#proposition:Galois group of polynomials and symmetric group"></a>,
-<a href="#theorem:extensions solvable by radicals"></a>,
+<a href="#definition:Galois---group---of---polynomials"></a>,
+<a href="#proposition:Galois---group---of---polynomials---and---symmetric---group"></a>,
+<a href="#theorem:extensions---solvable---by---radicals"></a>,
 and
-<a href="#theorem:solvability of finite symmetric groups"></a>)
+<a href="#theorem:solvability---of---finite---symmetric---groups"></a>)
 
 </div>
 
-<div class="theorem" id="theorem:fundamental theorem of algebra" data-name="fundamental theorem of algebra">
+<div class="theorem" id="theorem:fundamental---theorem---of---algebra" data-name="fundamental theorem of algebra">
 	
 
 

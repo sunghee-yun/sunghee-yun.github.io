@@ -1,7 +1,7 @@
 ---
 title: Abstract Measure Theory
 date: Fri Aug  1 05:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:27 PDT 2025
+last_modified_at: Sun Aug  3 23:56:26 PDT 2025
 permalink: /math/rig/abstract-measure-theory
 categories:
 - blog
@@ -201,7 +201,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -479,8 +479,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -501,7 +501,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -530,7 +530,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -553,16 +553,16 @@ $$
 </ul>
 
 
-<h1 id="Real-Analysis">Real Analysis</h1>
+<h1 id="super-title-page:Real-Analysis">Real Analysis</h1>
 
 
 
-<h2 id="set-theory">Set Theory</h2>
+<h2 id="title-page:set-theory">Set Theory</h2>
 
 
 <h3>Some principles</h3>
 
-<div class="principle" id="principle:principle of mathematical induction" data-name="principle of mathematical induction">
+<div class="principle" id="principle:principle---of---mathematical---induction" data-name="principle of mathematical induction">
 	
 
 $$
@@ -572,14 +572,14 @@ $$
 
 </div>
 
-<div class="principle" id="principle:well ordering principle" data-name="well ordering principle">
+<div class="principle" id="principle:well---ordering---principle" data-name="well ordering principle">
 	
-
+<div id="principle:well-ordering---principle-------smallest---element"></div>
 each nonempty subset of $\naturals$ has a smallest element
 
 </div>
 
-<div class="principle" id="principle:principle of recursive definition" data-name="principle of recursive definition">
+<div class="principle" id="principle:principle---of---recursive---definition" data-name="principle of recursive definition">
 	
 for $f:X\to X$ and $a\in X$,
 exists unique infinite sequence $\langle x_n\rangle_{n=1}^\infty\subset X$
@@ -605,11 +605,11 @@ $$
 <ul>
 <li>
 	note that
-<a href="#principle:principle of mathematical induction"></a>
+<a href="#principle:principle---of---mathematical---induction"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle - smallest element"></a>
+<a href="#principle:well-ordering---principle-------smallest---element"></a>
 $\Rightarrow$
-<a href="#principle:principle of recursive definition"></a>
+<a href="#principle:principle---of---recursive---definition"></a>
 
 </li>
 </ul>
@@ -929,7 +929,7 @@ $$
 <ul>
 <li>
 	$x$ said to <span class="define">stand in relation</span> $\rel$ to $y$,
-denoted by $\relxy{x}{y}$
+denoted by <span class="notation">$\relxy{x}{y}$</span>
 
 </li>
 <li>
@@ -1045,7 +1045,7 @@ denoted by $\relxy{x}{y}$
 
 <h3>Axiom of choice and equivalent principles</h3>
 
-<div class="axiom" id="axiom:axiom of choice" data-name="axiom of choice">
+<div class="axiom" id="axiom:axiom---of---choice" data-name="axiom of choice">
 	
 given a collection of nonempty sets, $\coll$,
 there exists $f:\coll\ \to \cup_{A\in\coll} A$ such that
@@ -1083,7 +1083,7 @@ need axiom of choice when $\coll$ is not finite
 </li>
 </ul>
 
-<div class="principle" id="principle:Hausdorff maximal principle" data-name="Hausdorff maximal principle">
+<div class="principle" id="principle:Hausdorff---maximal---principle" data-name="Hausdorff maximal principle">
 	
 
 for particial ordering $\prec$ on $X$,
@@ -1095,7 +1095,7 @@ $S=T$
 
 </div>
 
-<div class="principle" id="principle:well-ordering principle" data-name="well-ordering principle">
+<div class="principle" id="principle:well-ordering---principle" data-name="well-ordering principle">
 	
 every set $X$ can be well ordered,
 <i>i.e.</i>,
@@ -1105,18 +1105,18 @@ there is a relation $<$ that well orders $X$
 <ul>
 <li>
 	note that
-<a href="#axiom:axiom of choice"></a>
+<a href="#axiom:axiom---of---choice"></a>
 $\Leftrightarrow$
-<a href="#principle:Hausdorff maximal principle"></a>
+<a href="#principle:Hausdorff---maximal---principle"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle"></a>
+<a href="#principle:well-ordering---principle"></a>
 
 </li>
 </ul>
 
 <h3>Infinite direct product</h3>
 
-<div class="definition" id="definition:direct product" data-name="direct product">
+<div class="definition" id="definition:direct---product" data-name="direct product">
 	
 for collection of sets, $\seq{X_\lambda}$, with index set, $\Lambda$,
 
@@ -1147,14 +1147,14 @@ if one of $X_\lambda$ is empty, $\bigtimes X_\lambda$ is empty
 
 </li>
 <li>
-	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom of choice"></a>)
+	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom---of---choice"></a>)
 
 
 
 </li>
 </ul>
 
-<h2 id="real-number-system">Real Number System</h2>
+<h2 id="title-page:real-number-system">Real Number System</h2>
 
 
 <h3>Field axioms</h3>
@@ -1313,7 +1313,7 @@ $x < r < y$
 
 <ul>
 <li>
-	sequence of $\reals$ denoted by $\seq{x_i}_{i=1}^\infty$ or $\seq{x_i}$
+	sequence of $\reals$ denoted by <span class="notation">$\seq{x_i}_{i=1}^\infty$</span> or <span class="notation">$\seq{x_i}$</span>
 	<ul>
 	<li>
 		mapping from $\naturals$ to $\reals$
@@ -1323,7 +1323,7 @@ $x < r < y$
 
 </li>
 <li>
-	limit of $\seq{x_n}$ denoted by $\lim_{n\to\infty} x_n$ or $\lim x_n$ - defined by $a\in\reals$
+	limit of $\seq{x_n}$ denoted by <span class="notation">$\lim_{n\to\infty} x_n$</span> or <span class="notation">$\lim x_n$</span> - defined by $a\in\reals$
 
 $$
 (\forall \epsilon>0)(\exists N\in\naturals) (n \geq N \Rightarrow |x_n-a|<\epsilon)
@@ -1453,12 +1453,12 @@ $$
 
 <h3>Open and closed sets - facts</h3>
 
-
+<div id="page:open-closed-fact"></div>
 <ul>
 <li>
 	<span class="fact-font">every open set is union of countable collection of disjoint open intervals</span>
 
-
+<div id="page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals"></div>
 
 </li>
 <li>
@@ -1486,7 +1486,7 @@ $$
 
 <h3>Covering and Heine-Borel theorem</h3>
 
-
+<div id="page:heine-borel-theorem"></div>
 <ul>
 <li>
 	collection $\coll$ of sets called <span class="define">covering</span> of $A$ if
@@ -1591,7 +1591,7 @@ $$
 
 <h3>Borel sets and Borel $\sigma$-algebra</h3>
 
-
+<div id="page:borel-algebra"></div>
 <ul>
 <li>
 	<span class="define">Borel set</span>
@@ -1622,7 +1622,7 @@ through the operations of countable union, countable intersection, and relative 
 		</li>
 		<li>
 			 smallest $\sigma$-algebra containing all open intervals
-(due to statement on page~)
+(due to statement on page~<a href="#page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals">here</a>)
 
 		</li>
 		</ul>
@@ -1702,7 +1702,7 @@ $$
 </li>
 </ul>
 
-<h2 id="Measure-and-Integration">Measure and Integration</h2>
+<h2 id="title-page:Measure-and-Integration">Measure and Integration</h2>
 
 
 <h3>Purpose of integration theory</h3>
@@ -1751,7 +1751,7 @@ called <span class="define">set function</span>
 called <span class="define">measurable space</span>
 
 
-
+<div id="page:measure!measurable---spaces"></div>
 	<ul>
 	<li>
 		$A\in\algk{B}$, said to be <span class="define">measurable (with respect to \algk{B})</span>
@@ -1809,7 +1809,7 @@ with set of all subsets of $\reals$, $\powerset(\reals)$, and counting measure, 
 </li>
 <li>
 	interesting (and bizarre) example
-
+<div id="page:interesting-(and-bizarre)-example"></div>
 	<ul>
 	<li>
 		$\meas{X}{\collk{A}}{\mu_B}$
@@ -1955,7 +1955,7 @@ said to be <span class="define">semifinite</span>
 </li>
 <li>
 	every $\sigma$-finite measure is semifinite measure
-while measure, $\mu_B$, on page~
+while measure, $\mu_B$, on page~<a href="#page:interesting-(and-bizarre)-example">here</a>
 is not
 
 </li>
@@ -2064,12 +2064,12 @@ but measure can be extended on $\algC$ in more than one ways
 
 <h3>Measurable functions</h3>
 
-
+<div id="page:Measurable---functions"></div>
 <ul>
 <li>
 	concept and properties of measurable functions in abstract measurable space
 almost identical with those of Lebesgue measurable functions
-(page~)
+(page~<a href="#title-page:measurable-functions">here</a>)
 
 </li>
 <li>
@@ -2114,10 +2114,10 @@ called <span class="define">measurable</span> or <span class="define">measurable
 <h3>Properties of measurable functions</h3>
 
 
-
+<div id="page:Properties---of---measurable---functions"></div>
 <ul>
 <li>
-		<div class="theorem" id="theorem:measurability preserving function operations" data-name="measurability preserving function operations">
+		<div class="theorem" id="theorem:measurability---preserving---function---operations" data-name="measurability preserving function operations">
 		
 for measurable functions, $f$ and $g$, and $c\in\reals$
 		<ul>
@@ -2131,7 +2131,7 @@ for measurable functions, $f$ and $g$, and $c\in\reals$
 
 </li>
 <li>
-		<div class="theorem" id="theorem:limits of measurable functions" data-name="limits of measurable functions">
+		<div class="theorem" id="theorem:limits---of---measurable---functions" data-name="limits of measurable functions">
 		
 for every measurable function sequence, $\seq{f_n}$
 		<ul>
@@ -2153,7 +2153,7 @@ for every measurable function sequence, $\seq{f_n}$
 
 <h3>Simple functions and other properties</h3>
 
-
+<div id="page:Simple---functions"></div>
 <ul>
 <li>
 	$\varphi$ called <span class="define">simple function</span> if for distinct $\seq{c_i}_{i=1}^n$
@@ -2248,13 +2248,13 @@ such that $f\leq \alpha$ a.e. on $B_\alpha$ and $f\geq \alpha$ a.e. on $X\sim B_
 
 <h3>Integration</h3>
 
-
+<div id="page:Integration"></div>
 <ul>
 <li>
 	many definitions and proofs of Lebesgue integral
 depend only on properties of Lebesgue measure
 which are also true for arbitrary measure in abstract measure space
-(page~)
+(page~<a href="#title-page:lebesgue-integral">here</a>)
 
 </li>
 <li>
@@ -2293,7 +2293,7 @@ $$
 <li>
 	for bounded function, $f$, identically zero outside measurable set of finite measure
 
-
+<div id="page:integral---of---simple---functions"></div>
 
 $$
 \sup_{\varphi:\ \mathrm{simple},\ \varphi \leq f} \int \varphi
@@ -2334,7 +2334,7 @@ unless otherwise specified
 <ul>
 <li>
 	for Lebesgue integral of nonnegative functions
-(page~)
+(page~<a href="#page:Lebesgue---integral---of---nonnegative---functions">here</a>)
 	<ul>
 	<li>
 		first define integral for bounded measurable functions
@@ -2379,7 +2379,7 @@ integrals of nonnegative simple functions
 	for measurable function, $f:X\to\reals\cup\{\infty\}$, on measure space, $\meas{X}{\algB}{\mu}$,
 define <span class="define">integral of nonnegative extended real-valued measurable function</span>
 
-
+<div id="page:integral---of---nonnegative---extended---real-valued---measurable---function"></div>
 
 $$
 \int f d\mu = \sup_{\varphi:\ \mathrm{simple\ function},\ 0\leq \varphi\leq f} \int \varphi d\mu
@@ -2425,7 +2425,7 @@ with $\lim f_n = f$ a.e. on measurable set, $E$
 
 
 
-
+<div id="page:Fatou's---lemma!integral"></div>
 
 $$
 \int_E f \leq \liminf \int_E f_n
@@ -2439,7 +2439,7 @@ for nonnegative measurable function sequence, $\seq{f_n}$,
 with $f_n\leq f$ for all $n$ and with $\lim f_n = f$ a.e.
 
 
-
+<div id="page:abstract-------monotone---convergence---theorem"></div>
 
 $$
 \int_E f = \lim \int_E f_n
@@ -2455,7 +2455,7 @@ $$
 <ul>
 <li>
 	for nonnegative measurable functions, $f$ and $g$, and $a,b\in\preals$
-
+<div id="page:linearity---of---nonnegative---integral-------abstract"></div>
 
 $$
 \int (af + bg) = a\int f + b\int g
@@ -2487,7 +2487,7 @@ $$
 
 
 
-
+<div id="page:integrability---of---nonnegative---functions"></div>
 
 $$
 \int_E fd\mu <\infty
@@ -2508,7 +2508,7 @@ said to be <span class="define">integrable</span>
 
 
 
-
+<div id="page:integral"></div>
 
 </li>
 <li>
@@ -2529,7 +2529,7 @@ $$
 <li>
 	for $f$ and $g$ integrable on measure set, $E$, and $a,b\in\reals$
 
-
+<div id="page:properties---of---integral"></div>
 	<ul>
 	<li>
 		$af+bg$ is integral and
@@ -2571,7 +2571,7 @@ if
 
 
 
-
+<div id="page:Lebesgue!convergence---theorem"></div>
 
 $$
 |f_n(x)|\leq g(x)
@@ -2583,7 +2583,7 @@ $$
 \int_E f = \lim \int_E f_n
 $$
 
-
+<div id="page:Lebesgue---convergence---theorem"></div>
 
 
 </li>
@@ -2628,7 +2628,7 @@ sequence of measures, $\seq{\mu_n}$, defined on $\algB$, converging setwise to $
 and
 sequence of nonnegative functions, $\seq{f_n}$, each measurable with respect to $\mu_n$,
 converging pointwise to function, $f$, measurable with respect to $\mu$
-(compare with Fatou's lemma on page~)
+(compare with Fatou's lemma on page~<a href="#page:Fatou's---lemma!integral">here</a>)
 
 $$
 \int f d\mu \leq \liminf\int f_n d\mu_n
@@ -2647,7 +2647,7 @@ and
 sequences of functions, $\seq{f_n}$ and $\seq{g_n}$, each of $f_n$ and $g_n$, measurable with respect to $\mu_n$,
 converging pointwise to $f$ and $g$, measurable with respect to $\mu$, respectively,
 such that
-(compare with Lebesgue convergence theorem on page~)
+(compare with Lebesgue convergence theorem on page~<a href="#page:Lebesgue!convergence---theorem">here</a>)
 
 $$
 \lim \int g_n d\mu_n = \int g d\mu < \infty
@@ -2672,13 +2672,13 @@ $$
 	<li>
 		space of measurable functions on $X$ with with $\int |f|^p < \infty$,
 for which element equivalence is defined by being equal a.e.,
-called <span class="define">$L^p$ spaces</span> denoted by $L^p(\mu)$
+called <span class="define">$L^p$ spaces</span> denoted by <span class="notation">$L^p(\mu)$</span>
 
 
 	</li>
 	<li>
 		space of bounded measure functions,
-called <span class="define">$L^\infty$ space</span> denoted by $L^\infty(\mu)$
+called <span class="define">$L^\infty$ space</span> denoted by <span class="notation">$L^\infty(\mu)$</span>
 
 
 	</li>
@@ -2721,13 +2721,13 @@ spaces, $L^p(\mu)$, are Banach spaces
 
 <h3>Ho&#776;lder's inequality and Littlewood's second principle</h3>
 
-
+<div id="page:Holder---inequality-complete---measure---spaces"></div>
 <ul>
 <li>
 	<span class="name-font">Ho&#776;lder's inequality -</span>
 
 
-
+<div id="page:Holder's---inequality!complete---measure---spaces"></div>
 for $p,q\in[1,\infty]$ with $1/p+1/q=1$,
 $f\in L^p(\mu)$ and $g\in L^q(\mu)$ satisfy
 $fg \in L^1(\mu)$ and
@@ -2741,13 +2741,13 @@ $$
 </li>
 <li>
 	<span class="name-font">complete measure space version of Littlewood's second principle -</span>
-
+<div id="page:complete---measure---space---version---of---Littlewood's---second---principle"></div>
 
 for $p\in[1,\infty)$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall f\in L^p(\mu), \epsilon>0)
 
 \\
@@ -2774,7 +2774,7 @@ $$
 
 
 
-
+<div id="page:Riesz---representation---theorem!complete---measure---spaces"></div>
 for $p\in[1,\infty)$ and bounded linear functional, $F$, on $L^p(\mu)$
 and $\sigma$-finite measure, $\mu$,
 exists <i>unique</i> $g\in L^q(\mu)$
@@ -2796,7 +2796,7 @@ Riesz representation theorem holds without assumption of $\sigma$-finiteness of 
 </li>
 </ul>
 
-<h2 id="Measure and Outer Measure">Measure and Outer Measure</h2>
+<h2 id="title-page:Measure---and---Outer---Measure">Measure and Outer Measure</h2>
 
 
 <h3>General measures</h3>

@@ -1,7 +1,7 @@
 ---
 title: Measure Theory
 date: Fri Aug  1 03:00:00 PDT 2025
-last_modified_at: Sun Aug  3 05:49:26 PDT 2025
+last_modified_at: Sun Aug  3 23:56:24 PDT 2025
 permalink: /math/rig/measure-theory
 categories:
 - blog
@@ -201,7 +201,7 @@ $$
 
 <h3>Notations</h3>
 
-
+<div id="page:Notations"></div>
 <ul>
 <li>
 	sets of numbers
@@ -479,8 +479,8 @@ where <code>X</code> and <code>Y</code> are $2$-d <code>numpy</code> arrays
 
 <h3>Some definitions</h3>
 
-
-<div class="definition" id="definition:infinitely often - i.o." data-name="infinitely often - i.o.">
+<div id="page:Some---definitions"></div>
+<div class="definition" id="definition:infinitely---often-------i.o." data-name="infinitely often - i.o.">
 	
 
 
@@ -501,7 +501,7 @@ $$
 
 </div>
 
-<div class="definition" id="definition:almost everywhere - a.e." data-name="almost everywhere - a.e.">
+<div class="definition" id="definition:almost---everywhere-------a.e." data-name="almost everywhere - a.e.">
 	
 
 
@@ -530,7 +530,7 @@ $$
 
 <h3>Some conventions</h3>
 
-
+<div id="page:Some---conventions"></div>
 <ul>
 <li>
 	(for some subjects) use following conventions
@@ -553,16 +553,16 @@ $$
 </ul>
 
 
-<h1 id="Real-Analysis">Real Analysis</h1>
+<h1 id="super-title-page:Real-Analysis">Real Analysis</h1>
 
 
 
-<h2 id="set-theory">Set Theory</h2>
+<h2 id="title-page:set-theory">Set Theory</h2>
 
 
 <h3>Some principles</h3>
 
-<div class="principle" id="principle:principle of mathematical induction" data-name="principle of mathematical induction">
+<div class="principle" id="principle:principle---of---mathematical---induction" data-name="principle of mathematical induction">
 	
 
 $$
@@ -572,14 +572,14 @@ $$
 
 </div>
 
-<div class="principle" id="principle:well ordering principle" data-name="well ordering principle">
+<div class="principle" id="principle:well---ordering---principle" data-name="well ordering principle">
 	
-
+<div id="principle:well-ordering---principle-------smallest---element"></div>
 each nonempty subset of $\naturals$ has a smallest element
 
 </div>
 
-<div class="principle" id="principle:principle of recursive definition" data-name="principle of recursive definition">
+<div class="principle" id="principle:principle---of---recursive---definition" data-name="principle of recursive definition">
 	
 for $f:X\to X$ and $a\in X$,
 exists unique infinite sequence $\langle x_n\rangle_{n=1}^\infty\subset X$
@@ -605,11 +605,11 @@ $$
 <ul>
 <li>
 	note that
-<a href="#principle:principle of mathematical induction"></a>
+<a href="#principle:principle---of---mathematical---induction"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle - smallest element"></a>
+<a href="#principle:well-ordering---principle-------smallest---element"></a>
 $\Rightarrow$
-<a href="#principle:principle of recursive definition"></a>
+<a href="#principle:principle---of---recursive---definition"></a>
 
 </li>
 </ul>
@@ -929,7 +929,7 @@ $$
 <ul>
 <li>
 	$x$ said to <span class="define">stand in relation</span> $\rel$ to $y$,
-denoted by $\relxy{x}{y}$
+denoted by <span class="notation">$\relxy{x}{y}$</span>
 
 </li>
 <li>
@@ -1045,7 +1045,7 @@ denoted by $\relxy{x}{y}$
 
 <h3>Axiom of choice and equivalent principles</h3>
 
-<div class="axiom" id="axiom:axiom of choice" data-name="axiom of choice">
+<div class="axiom" id="axiom:axiom---of---choice" data-name="axiom of choice">
 	
 given a collection of nonempty sets, $\coll$,
 there exists $f:\coll\ \to \cup_{A\in\coll} A$ such that
@@ -1083,7 +1083,7 @@ need axiom of choice when $\coll$ is not finite
 </li>
 </ul>
 
-<div class="principle" id="principle:Hausdorff maximal principle" data-name="Hausdorff maximal principle">
+<div class="principle" id="principle:Hausdorff---maximal---principle" data-name="Hausdorff maximal principle">
 	
 
 for particial ordering $\prec$ on $X$,
@@ -1095,7 +1095,7 @@ $S=T$
 
 </div>
 
-<div class="principle" id="principle:well-ordering principle" data-name="well-ordering principle">
+<div class="principle" id="principle:well-ordering---principle" data-name="well-ordering principle">
 	
 every set $X$ can be well ordered,
 <i>i.e.</i>,
@@ -1105,18 +1105,18 @@ there is a relation $<$ that well orders $X$
 <ul>
 <li>
 	note that
-<a href="#axiom:axiom of choice"></a>
+<a href="#axiom:axiom---of---choice"></a>
 $\Leftrightarrow$
-<a href="#principle:Hausdorff maximal principle"></a>
+<a href="#principle:Hausdorff---maximal---principle"></a>
 $\Leftrightarrow$
-<a href="#principle:well-ordering principle"></a>
+<a href="#principle:well-ordering---principle"></a>
 
 </li>
 </ul>
 
 <h3>Infinite direct product</h3>
 
-<div class="definition" id="definition:direct product" data-name="direct product">
+<div class="definition" id="definition:direct---product" data-name="direct product">
 	
 for collection of sets, $\seq{X_\lambda}$, with index set, $\Lambda$,
 
@@ -1147,14 +1147,14 @@ if one of $X_\lambda$ is empty, $\bigtimes X_\lambda$ is empty
 
 </li>
 <li>
-	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom of choice"></a>)
+	this is why Bertrand Russell prefers <i>multiplicative axiom</i> to <i>axiom of choice</i> for name of axiom (<a href="#axiom:axiom---of---choice"></a>)
 
 
 
 </li>
 </ul>
 
-<h2 id="real-number-system">Real Number System</h2>
+<h2 id="title-page:real-number-system">Real Number System</h2>
 
 
 <h3>Field axioms</h3>
@@ -1313,7 +1313,7 @@ $x < r < y$
 
 <ul>
 <li>
-	sequence of $\reals$ denoted by $\seq{x_i}_{i=1}^\infty$ or $\seq{x_i}$
+	sequence of $\reals$ denoted by <span class="notation">$\seq{x_i}_{i=1}^\infty$</span> or <span class="notation">$\seq{x_i}$</span>
 	<ul>
 	<li>
 		mapping from $\naturals$ to $\reals$
@@ -1323,7 +1323,7 @@ $x < r < y$
 
 </li>
 <li>
-	limit of $\seq{x_n}$ denoted by $\lim_{n\to\infty} x_n$ or $\lim x_n$ - defined by $a\in\reals$
+	limit of $\seq{x_n}$ denoted by <span class="notation">$\lim_{n\to\infty} x_n$</span> or <span class="notation">$\lim x_n$</span> - defined by $a\in\reals$
 
 $$
 (\forall \epsilon>0)(\exists N\in\naturals) (n \geq N \Rightarrow |x_n-a|<\epsilon)
@@ -1453,12 +1453,12 @@ $$
 
 <h3>Open and closed sets - facts</h3>
 
-
+<div id="page:open-closed-fact"></div>
 <ul>
 <li>
 	<span class="fact-font">every open set is union of countable collection of disjoint open intervals</span>
 
-
+<div id="page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals"></div>
 
 </li>
 <li>
@@ -1486,7 +1486,7 @@ $$
 
 <h3>Covering and Heine-Borel theorem</h3>
 
-
+<div id="page:heine-borel-theorem"></div>
 <ul>
 <li>
 	collection $\coll$ of sets called <span class="define">covering</span> of $A$ if
@@ -1591,7 +1591,7 @@ $$
 
 <h3>Borel sets and Borel $\sigma$-algebra</h3>
 
-
+<div id="page:borel-algebra"></div>
 <ul>
 <li>
 	<span class="define">Borel set</span>
@@ -1622,7 +1622,7 @@ through the operations of countable union, countable intersection, and relative 
 		</li>
 		<li>
 			 smallest $\sigma$-algebra containing all open intervals
-(due to statement on page~)
+(due to statement on page~<a href="#page:open-set-in-reals-is-union-of-countable-collection-of-disjoint-open-intervals">here</a>)
 
 		</li>
 		</ul>
@@ -1702,7 +1702,7 @@ $$
 </li>
 </ul>
 
-<h2 id="lebesgue-measure">Lebesgue Measure</h2>
+<h2 id="title-page:lebesgue-measure">Lebesgue Measure</h2>
 
 
 
@@ -1942,7 +1942,7 @@ $$
 
 
 
-
+<div id="page:measurable-sets"></div>
 <ul>
 <li>
 	$E\subset\reals$ called measurable if for every $A\subset\reals$
@@ -1980,15 +1980,15 @@ $$
 	note
 	<ul>
 	<li>
-		every open set is disjoint countable union of open intervals (page~)
+		every open set is disjoint countable union of open intervals (page~<a href="#page:open-closed-fact">here</a>)
 
 	</li>
 	<li>
-		disjoint countable union of measurable sets is measurable (page~)
+		disjoint countable union of measurable sets is measurable (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	<li>
-		open intervals are measurable (page~)
+		open intervals are measurable (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	</ul>
@@ -2002,11 +2002,11 @@ $$
 	also
 	<ul>
 	<li>
-		collection of measurable sets is $\sigma$-algebra (page~)
+		collection of measurable sets is $\sigma$-algebra (page~<a href="#page:measurable-sets">here</a>)
 
 	</li>
 	<li>
-		every open set is Borel set and Borel sets are $\sigma$-algebra (page~)
+		every open set is Borel set and Borel sets are $\sigma$-algebra (page~<a href="#page:borel-algebra">here</a>)
 
 	</li>
 	</ul>
@@ -2163,7 +2163,7 @@ $$
 </li>
 </ul>
 
-<h2 id="measurable-functions">Lebesgue Measurable Functions</h2>
+<h2 id="title-page:measurable-functions">Lebesgue Measurable Functions</h2>
 
 
 <h3>Lebesgue measurable functions</h3>
@@ -2171,7 +2171,7 @@ $$
 
 
 
-
+<div id="page:Lebesgue-measurable-functions"></div>
 <ul>
 <li>
 	for $f:X\to\reals\cup\{-\infty, \infty\}$,
@@ -2227,7 +2227,7 @@ $$
 <h3>Properties of Lebesgue measurable functions</h3>
 
 
-
+<div id="page:measurable:function:facts"></div>
 <ul>
 <li>
 	for real-valued measurable functions, $f$ and $g$, and $c\in\reals$
@@ -2262,7 +2262,7 @@ $$
 
 <h3>Almost everywhere - a.e.</h3>
 
-
+<div id="page:almost:everywhere"></div>
 <ul>
 <li>
 	statement, $P(x)$, called <span class="define">almost everywhere</span> or <span class="define">a.e.</span> if
@@ -2315,7 +2315,7 @@ $$
 
 <h3>Characteristic \& simple functions</h3>
 
-
+<div id="page:Characteristic---and---simple---functions"></div>
 <ul>
 <li>
 	for any $A\subset\reals$, $\chi_A$ called <span class="define">characteristic function</span> if
@@ -2354,7 +2354,7 @@ where $A_i = \set{x}{x= a_i}$
 
 
 
-
+<div id="page:littlewood:three:principles"></div>
 <ul>
 <li>
 	 let $M(E)$ with measurable set, $E$, denote set of measurable functions defined on $E$
@@ -2397,7 +2397,7 @@ $$
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall \mbox{ measurable }\seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
 
 \\
@@ -2422,11 +2422,11 @@ $$
 <ul>
 <li>
 	<span class="name-font">Egoroff theorem -</span> provides stronger version of third statement
-on page~
+on page~<a href="#page:littlewood:three:principles">here</a>
 
 $$
 \begin{eqnarray*}
-&=&
+&&
 (\forall \mbox{ measurable }\seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
 
 \\
@@ -2440,13 +2440,13 @@ $$
 </li>
 </ul>
 
-<h2 id="lebesgue-integral">Lebesgue Integral</h2>
+<h2 id="title-page:lebesgue-integral">Lebesgue Integral</h2>
 
 
 
 <h3>Integral of simple functions</h3>
 
-
+<div id="page:Integral---of---simple---functions"></div>
 <ul>
 <li>
 	<span class="define">canonical representation</span> of simple function
@@ -2491,7 +2491,7 @@ that vanish out of finite measure set,
 <i>i.e.</i>,
 $\mu\set{x}{\varphi(x)\neq0}<\infty$, $\mu\set{x}{\psi(x)\neq0}<\infty$,
 and for every $a,b\in\reals$
-
+<div id="page:linearity---of---Lebesgue---integral---of---simple---functions"></div>
 
 $$
 \int (a\varphi + b\psi) = a \int\varphi + b \int\psi
@@ -2524,7 +2524,7 @@ $$
 
 <h3>Lebesgue integral of bounded functions</h3>
 
-
+<div id="page:Lebesgue---integral---of---bounded---functions"></div>
 <ul>
 <li>
 	for bounded function, $f$, and finite measurable set, $E$,
@@ -2554,7 +2554,7 @@ $$
 	for bounded measurable function, $f$, defined on measurable set, $E$, with $\mu E < \infty$,
 define <span class="define">(Lebesgue) integral of $f$ over $E$</span>
 
-
+<div id="page:Lebesgue---integral---of---simple---functions"></div>
 
 $$
 \int_E f(x) dx =
@@ -2574,7 +2574,7 @@ $$
 <ul>
 <li>
 	for bounded measurable functions, $f$ and $g$, defined on $E$ with finite measure
-
+<div id="page:linearity---of---nonnegative---integral-------Lebesgue"></div>
 	<ul>
 	<li>
 		for every $a,b\in\reals$
@@ -2655,12 +2655,12 @@ $$
 
 <h3>Lebesgue integral of nonnegative functions</h3>
 
-
+<div id="page:Lebesgue---integral---of---nonnegative---functions"></div>
 <ul>
 <li>
 	for nonnegative measurable function, $f$, defined on measurable set, $E$, define
 
-
+<div id="page:Lebesgue---integral---of---nonnegative---measurable---function"></div>
 
 $$
 \int_E f = \sup_{h:\ \mathrm{bounded\ measurable\ function},\ \mu\set{x}{h(x)\neq0}<\infty,\ h\leq f} \int_E h
@@ -2712,7 +2712,7 @@ $$
 
 <h3>Fatou's lemma and monotone convergence theorem for Lebesgue integral</h3>
 
-
+<div id="page:integral:nonneg:facts"></div>
 <ul>
 <li>
 	<span class="name-font">Fatou's lemma -</span>
@@ -2728,8 +2728,8 @@ $$
 
 	<ul>
 	<li>
-		note $\lim f_n$ is measurable (page~),
-hence $f$ is measurable (page~)
+		note $\lim f_n$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+hence $f$ is measurable (page~<a href="#page:almost:everywhere">here</a>)
 
 	</li>
 	</ul>
@@ -2741,7 +2741,7 @@ for nonnegative increasing measurable function sequence, $\seq{f_n}$,
 with $\lim f_n = f$ a.e. on measurable set, $E$
 
 
-
+<div id="page:Lebesgue-------monotone---convergence---theorem"></div>
 
 $$
 \int_E f = \lim \int_E f_n
@@ -2763,14 +2763,14 @@ $$
 
 <h3>Lebesgue integrability of nonnegative functions</h3>
 
-
+<div id="integrable:nonnegative:function"></div>
 <ul>
 <li>
 	nonnegative measurable function, $f$, said to be <span class="define">integrable</span> over measurable set, $E$, if
 
 
 
-
+<div id="page:Lebesgue---integrability---of---nonnegative---functions"></div>
 
 $$
 \int_E f < \infty
@@ -2830,7 +2830,7 @@ if (nonnegative measurable) functions, $f^+$ and $f^-$, are integrable
 
 
 
-
+<div id="page:Lebesgue---integral"></div>
 
 $$
 \int_E f = \int_E f^+ - \int_E f^-
@@ -2847,7 +2847,7 @@ $$
 <ul>
 <li>
 	for $f$ and $g$ integrable on measure set, $E$, and $a,b\in\reals$
-
+<div id="page:properties---of---Lebesgue---integral"></div>
 	<ul>
 	<li>
 		$af+bg$ is integral and
@@ -2889,19 +2889,19 @@ $$
 	<span class="name-font">Lebesgue convergence theorem -</span>
 for measurable $g$ integrable on measurable set, $E$,
 and measurable sequence $\seq{f_n}$ converging to $f$ with $|f_n|<g$ a.e. on $E$,
-($f$ is measurable (page~),
-every $f_n$ is integrable (page~))
+($f$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+every $f_n$ is integrable (page~<a href="#integrable:nonnegative:function">here</a>))
 and
 
 
 
-
+<div id="page:lebesgue-integral-facts-2"></div>
 
 $$
 \int_E f = \lim \int_E f_n
 $$
 
-
+<div id="page:Lebesgue---convergence---theorem---for---Lebesgue---integral"></div>
 
 
 </li>
@@ -2924,8 +2924,8 @@ $$
 $$
 
 then
-($f$ is measurable (page~),
-every $f_n$ is integrable (page~))
+($f$ is measurable (page~<a href="#page:measurable:function:facts">here</a>),
+every $f_n$ is integrable (page~<a href="#integrable:nonnegative:function">here</a>))
 and
 
 $$
@@ -2941,9 +2941,9 @@ $$
 
 <ul>
 <li>
-	Fatou's lemma (page~),
-monotone convergence theorem (page~),
-Lebesgue convergence theorem (page~),
+	Fatou's lemma (page~<a href="#page:integral:nonneg:facts">here</a>),
+monotone convergence theorem (page~<a href="#page:integral:nonneg:facts">here</a>),
+Lebesgue convergence theorem (page~<a href="#page:lebesgue-integral-facts-2">here</a>),
 <i>all</i>
 state that under suitable conditions, we say something about
 
@@ -3003,7 +3003,7 @@ $$
 
 </li>
 <li>
-	thus, third statement on page~ implies
+	thus, third statement on page~<a href="#page:littlewood:three:principles">here</a> implies
 
 $$
 (\forall \seq{f_n} \mbox{ converging to } f \mbox { a.e. on } E \mbox{ with } \mu E<\infty)
@@ -3024,9 +3024,9 @@ exists $\seq{f_n}$ converging in measure to $f$ that does not converge to $f$ a.
 
 </li>
 <li>
-	Fatou's lemma (page~),
-monotone convergence theorem (page~),
-Lebesgue convergence theorem (page~)
+	Fatou's lemma (page~<a href="#page:integral:nonneg:facts">here</a>),
+monotone convergence theorem (page~<a href="#page:integral:nonneg:facts">here</a>),
+Lebesgue convergence theorem (page~<a href="#page:lebesgue-integral-facts-2">here</a>)
 <span class="eemph">remain valid!</span>
 even when &ldquo;convergence a.e.'' replaced by &ldquo;convergence in measure''
 
@@ -3035,7 +3035,7 @@ even when &ldquo;convergence a.e.'' replaced by &ldquo;convergence in measure''
 
 <h3>Conditions for convergence in measure</h3>
 
-<div class="proposition" id="proposition:necessary condition for converging in measure" data-name="necessary condition for converging in measure">
+<div class="proposition" id="proposition:necessary---condition---for---converging---in---measure" data-name="necessary condition for converging in measure">
 	
 
 $$
@@ -3049,13 +3049,13 @@ $$
 
 
 </div>
-<div class="corollary" id="corollary:necessary and sufficient condition for converging in measure" data-name="necessary and sufficient condition for converging in measure">
+<div class="corollary" id="corollary:necessary---and---sufficient---condition---for---converging---in---measure" data-name="necessary and sufficient condition for converging in measure">
 	
 for sequence $\seq{f_n}$ measurable on $E$ with $\mu E<\infty$
 
 $$
 \begin{eqnarray*}
-&=&\seq{f_n} \mbox{ converging in measure to } f
+&&\seq{f_n} \mbox{ converging in measure to } f
 \\
 &\Leftrightarrow&
 \left(
