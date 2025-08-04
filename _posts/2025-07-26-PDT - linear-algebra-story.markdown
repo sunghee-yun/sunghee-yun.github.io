@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Thu Jul 31 02:42:49 PDT 2025
+last_modified_at: Mon Aug  4 16:21:53 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -1222,6 +1222,8 @@ we can even choose $$n$$ [*orthonormal*](https://en.wikipedia.org/wiki/Orthonorm
 
 Thus, every Hermitian matrix is [diagonalizable](#diagonalizability)!
 
+For real symmetric matrices, we can further choose real orthonormal eigenvectors.
+
 **The eigenvectors of a skew-Hermitian matrix with distinct eigenvalues are orthogonal.**
 
 Let $$A=-A^H\in\complexes^{n\times n}$$ be a [skew-Hermitian matrix](#skew-hermitian-matrices).
@@ -1264,6 +1266,10 @@ we can *choose* $$n$$ [orthogonal](https://en.wikipedia.org/wiki/Orthogonality) 
 and even $$n$$ [*orthonormal*](https://en.wikipedia.org/wiki/Orthonormality) eigenvectors!
 
 Thus, once again, every skew-Hermitian matrix is [diagonalizable](#diagonalizability)!
+
+Note that unlike real symmetric matrices,
+for real skew-symmetric matrices,
+eigenvectors are in $\reals^n$.
 
 ### Diagonalizability
 
