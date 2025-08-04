@@ -7,7 +7,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Wed Jul 30 10:32:17 PDT 2025
-last_modified_at: Mon Aug  4 04:51:35 PDT 2025
+last_modified_at: Mon Aug  4 16:05:57 PDT 2025
 ---
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
@@ -19,6 +19,7 @@ last_modified_at: Mon Aug  4 04:51:35 PDT 2025
 {% assign absmeas = site.posts | where: "permalink", "/math/abstract-measure-theory" | first %}
 {% assign measprob = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
 {% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
+{% assign linalg = site.posts | where: "permalink", "/math/linear-algebra" | first %}
 
 {% assign rig_linalg = site.posts | where: "permalink", "/math/rig/linear-algebra" | first %}
 {% assign rig_math_stories = site.posts | where: "permalink", "/math/rig/math-stories" | first %}
@@ -41,6 +42,7 @@ last_modified_at: Mon Aug  4 04:51:35 PDT 2025
 	- [{{ absmeas.title }}]({{ absmeas.url }})
 	- [{{ measprob.title }}]({{ measprob.url }})
 	- [{{ cvxopt.title }}]({{ cvxopt.url }})
+- [{{ linalg.title }}]({{ linalg.url }})
 
 # Rigorously
 
