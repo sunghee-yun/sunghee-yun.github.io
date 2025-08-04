@@ -1,3 +1,4 @@
+python ../../../_python/bin/convert_foiltex_to_markdown.py config_math_stories.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
 python ../../../_python/bin/convert_foiltex_to_markdown.py config_algebra.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
 python ../../../_python/bin/convert_foiltex_to_markdown.py config_aalgebra.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
 python ../../../_python/bin/convert_foiltex_to_markdown.py config_mtheory.yaml "/Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex"
