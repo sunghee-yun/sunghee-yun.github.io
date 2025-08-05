@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Jul 29 20:36:21 PDT 2025
+last_modified_at: Mon Aug  4 17:42:30 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -164,15 +164,15 @@ $$
 
 \begin{equation}
 \label{eq:def-napier-constant}
-	e = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n
+	e = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n.
 \end{equation}
 
-- The characteristic function of Gaussian $\mathcal{N}(\mu,\sigma)$
+- The characteristic function of Gaussian $\mathcal{N}(0, 1)$
 is
 
 \begin{equation}
 \label{eq:char-fcn-gaussian}
-	e^{it\mu - \frac{1}{2}\sigma^2t^2}.
+	e^{- \frac{1}{2}t^2}.
 \end{equation}
 
 (Refer to [the list of characteristic functions of some distributions](https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)#Examples)).
