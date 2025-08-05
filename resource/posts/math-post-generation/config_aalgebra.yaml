@@ -1,6 +1,21 @@
 title: Abstract Algebra
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - abstract algebra
+  - groups
+  - rings
+  - fields
+  - algebraic extension
+  - Galois theory
+date: Fri Aug  1 02:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - abstract algebra.markdown
+permalink: /math/rig/abstract-algebra
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/20a4eede-0f78-4293-b1d4-8dd8ccef6cb9/audio": "15:35"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,10 +31,3 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 02:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - abstract algebra.markdown
-permalink: /math/rig/abstract-algebra
-tags:
-- math
-- abstract algebra
-def_tex: ./markdown_defs.tex

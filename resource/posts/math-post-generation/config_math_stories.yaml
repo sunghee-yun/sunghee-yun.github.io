@@ -1,6 +1,18 @@
 title: Math Stories
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - stories
+  - duality
+  - fundamental theorems
+date: Fri Aug  1 00:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - math stories.markdown
+permalink: /math/rig/math-stories
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/7dae4e46-7c95-42b0-80f0-ff513147341e/audio": "14:34"
 conditionals:
   allslides: no
   preamble: no
@@ -16,11 +28,4 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 00:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - math stories.markdown
-permalink: /math/rig/math-stories
-tags:
-- math
-- stories
-def_tex: ./markdown_defs.tex
 foilhead_in_toc: true

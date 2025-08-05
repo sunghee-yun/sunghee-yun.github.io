@@ -1,13 +1,18 @@
 ---
 title: Abstract Algebra
 date: Fri Aug  1 02:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:25 PDT 2025
+last_modified_at: Tue Aug  5 01:35:45 PDT 2025
 permalink: /math/rig/abstract-algebra
 categories:
 - blog
 tags:
 - math
 - abstract algebra
+- groups
+- rings
+- fields
+- algebraic extension
+- Galois theory
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -20,6 +25,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [15:35](https://notebooklm.google.com/notebook/20a4eede-0f78-4293-b1d4-8dd8ccef6cb9/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

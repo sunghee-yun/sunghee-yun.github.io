@@ -1,6 +1,18 @@
 title: Abstract Measure Theory
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - abstract measure theory
+  - measure and integration
+  - measure and outer measure
+date: Fri Aug  1 05:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - abstract measure theory.markdown
+permalink: /math/rig/abstract-measure-theory
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/2e2ce14a-0d89-4ea3-8d1d-3e6032f76158/audio": "25:04"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,10 +28,3 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 05:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - abstract measure theory.markdown
-permalink: /math/rig/abstract-measure-theory
-tags:
-- math
-- abstract measure theory
-def_tex: ./markdown_defs.tex

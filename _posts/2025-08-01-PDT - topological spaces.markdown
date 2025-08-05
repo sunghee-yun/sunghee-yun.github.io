@@ -1,7 +1,7 @@
 ---
 title: Topological Spaces
 date: Fri Aug  1 04:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:26 PDT 2025
+last_modified_at: Tue Aug  5 01:35:46 PDT 2025
 permalink: /math/rig/topological-spaces
 categories:
 - blog
@@ -9,6 +9,11 @@ tags:
 - math
 - topology
 - topological spaces
+- Banach spaces
+- Hilbert spaces
+- metric spaces
+- compact spaces
+- complete spaces
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -21,6 +26,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [28:18](https://notebooklm.google.com/notebook/47b4d271-c84d-4105-832b-26597ddc6a07/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

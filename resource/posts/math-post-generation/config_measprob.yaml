@@ -1,6 +1,22 @@
 title: Measure-theoretic Treatment of Statistics
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - measure theory
+  - statistics
+  - probability
+  - random variables
+  - central limit theorem
+  - convergence of random variables
+  - Gaussian distribution
+date: Fri Aug  1 06:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - measure-theoretic treatment of statistics.markdown
+permalink: /math/rig/measure-theoretic-treatment-of-statistics
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/eaccfc8d-a901-4279-a2ed-880bc915ff44/audio": "22:33"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,11 +32,3 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 06:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - measure-theoretic treatment of statistics.markdown
-permalink: /math/rig/measure-theoretic-treatment-of-statistics
-tags:
-- math
-- measure theory
-- statistics
-def_tex: ./markdown_defs.tex

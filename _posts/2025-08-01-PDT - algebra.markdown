@@ -1,7 +1,7 @@
 ---
 title: Inequalities and Number Theory
 date: Fri Aug  1 01:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:25 PDT 2025
+last_modified_at: Tue Aug  5 01:35:45 PDT 2025
 permalink: /math/rig/algebra
 categories:
 - blog
@@ -9,7 +9,11 @@ tags:
 - math
 - algebra
 - inequalities
+- Cauchy-Schwarz inequality
+- Jensen's inequality
+- AM-GM inequality
 - number theory
+- RSA cryptography algorithm
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -22,6 +26,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [14:49](https://notebooklm.google.com/notebook/59cd104b-0127-47f9-a12e-26afe0bedfd9/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

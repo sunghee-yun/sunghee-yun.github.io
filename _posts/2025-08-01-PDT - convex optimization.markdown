@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:27 PDT 2025
+last_modified_at: Tue Aug  5 01:35:48 PDT 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -9,8 +9,13 @@ tags:
 - math
 - optimization
 - convex optimization
+- convex sets
+- convex functions
 - dual problem
 - duality
+- generalized inequalities
+- barrier methods
+- primal-dual methods
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -23,6 +28,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [72:27](https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

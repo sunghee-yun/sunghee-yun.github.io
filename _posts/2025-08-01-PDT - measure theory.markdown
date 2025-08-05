@@ -1,13 +1,19 @@
 ---
 title: Measure Theory
 date: Fri Aug  1 03:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:26 PDT 2025
+last_modified_at: Tue Aug  5 01:35:46 PDT 2025
 permalink: /math/rig/measure-theory
 categories:
 - blog
 tags:
 - math
 - measure theory
+- Lebesgue
+- Lebesgue measure
+- Lebesgue measurable functions
+- Lebesgue integral
+- Borel sets
+- Littlewood's three principles
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -20,6 +26,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [17:23](https://notebooklm.google.com/notebook/2df048a9-65de-4c79-88ba-6e7b955dcb86/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

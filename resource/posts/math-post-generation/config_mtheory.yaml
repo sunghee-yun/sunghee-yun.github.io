@@ -1,6 +1,22 @@
 title: Measure Theory
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - measure theory
+  - Lebesgue
+  - Lebesgue measure
+  - Lebesgue measurable functions
+  - Lebesgue integral
+  - Borel sets
+  - Littlewood's three principles
+date: Fri Aug  1 03:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - measure theory.markdown
+permalink: /math/rig/measure-theory
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/2df048a9-65de-4c79-88ba-6e7b955dcb86/audio": "17:23"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,10 +32,3 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 03:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - measure theory.markdown
-permalink: /math/rig/measure-theory
-tags:
-- math
-- measure theory
-def_tex: ./markdown_defs.tex

@@ -1,6 +1,22 @@
 title: Topological Spaces
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - topology
+  - topological spaces
+  - Banach spaces
+  - Hilbert spaces
+  - metric spaces
+  - compact spaces
+  - complete spaces
+date: Fri Aug  1 04:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - topological spaces.markdown
+permalink: /math/rig/topological-spaces
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/47b4d271-c84d-4105-832b-26597ddc6a07/audio": "28:18"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,11 +32,3 @@ conditionals:
   cvxopt: no
   sproof: no
   ynindex: no
-date: Fri Aug  1 04:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - topological spaces.markdown
-permalink: /math/rig/topological-spaces
-tags:
-- math
-- topology
-- topological spaces
-def_tex: ./markdown_defs.tex

@@ -1,7 +1,7 @@
 ---
 title: Measure-theoretic Treatment of Statistics
 date: Fri Aug  1 06:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:27 PDT 2025
+last_modified_at: Tue Aug  5 01:35:47 PDT 2025
 permalink: /math/rig/measure-theoretic-treatment-of-statistics
 categories:
 - blog
@@ -9,6 +9,11 @@ tags:
 - math
 - measure theory
 - statistics
+- probability
+- random variables
+- central limit theorem
+- convergence of random variables
+- Gaussian distribution
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -21,6 +26,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [22:33](https://notebooklm.google.com/notebook/eaccfc8d-a901-4279-a2ed-880bc915ff44/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

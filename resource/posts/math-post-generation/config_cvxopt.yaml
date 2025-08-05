@@ -1,6 +1,24 @@
 title: Convex Optimization
 categories:
-- blog
+  - blog
+tags:
+  - math
+  - optimization
+  - convex optimization
+  - convex sets
+  - convex functions
+  - dual problem
+  - duality
+  - generalized inequalities
+  - barrier methods
+  - primal-dual methods
+date: Fri Aug  1 07:00:00 PDT 2025
+latex_source: /Users/sungheeyun/workspace/SungheeSeminars/fun math/fun_math_Main.tex
+output_markdown: ../../../_posts/2025-08-01-PDT - convex optimization.markdown
+permalink: /math/rig/convex-optimization
+def_tex: ./markdown_defs.tex
+notebooklm:
+  "https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf/audio": "72:27"
 conditionals:
   allslides: no
   preamble: yes
@@ -16,13 +34,3 @@ conditionals:
   cvxopt: yes
   sproof: no
   ynindex: no
-date: Fri Aug  1 07:00:00 PDT 2025
-output_markdown: ../../../_posts/2025-08-01-PDT - convex optimization.markdown
-permalink: /math/rig/convex-optimization
-tags:
-- math
-- optimization
-- convex optimization
-- dual problem
-- duality
-def_tex: ./markdown_defs.tex

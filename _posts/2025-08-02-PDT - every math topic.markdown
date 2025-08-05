@@ -1,12 +1,59 @@
 ---
 title: All Math Topics in All Multiverses
 date: Fri Aug  2 00:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:29 PDT 2025
+last_modified_at: Tue Aug  5 01:35:44 PDT 2025
 permalink: /math/rig/everything
 categories:
 - blog
 tags:
 - math
+- multiverses
+- algebra
+- inequalities
+- Cauchy-Schwarz inequality
+- Jensen's inequality
+- AM-GM inequality
+- number theory
+- RSA cryptography algorithm
+- abstract algebra
+- groups
+- rings
+- fields
+- algebraic extension
+- Galois theory
+- measure theory
+- Lebesgue
+- Lebesgue measure
+- Lebesgue measurable functions
+- Lebesgue integral
+- Borel sets
+- Littlewood's three principles
+- topology
+- topological spaces
+- Banach spaces
+- Hilbert spaces
+- metric spaces
+- compact spaces
+- complete spaces
+- abstract measure theory
+- measure and integration
+- measure and outer measure
+- measure theory
+- statistics
+- probability
+- random variables
+- central limit theorem
+- convergence of random variables
+- Gaussian distribution
+- optimization
+- convex optimization
+- convex sets
+- convex functions
+- dual problem
+- duality
+- generalized inequalities
+- barrier methods
+- primal-dual methods
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -19,6 +66,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [19:54](https://notebooklm.google.com/notebook/2b0342dc-eaaf-4430-a5ef-f05bd62af9c6/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}

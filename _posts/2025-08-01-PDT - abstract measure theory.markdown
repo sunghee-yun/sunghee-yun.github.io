@@ -1,13 +1,15 @@
 ---
 title: Abstract Measure Theory
 date: Fri Aug  1 05:00:00 PDT 2025
-last_modified_at: Tue Aug  5 00:32:27 PDT 2025
+last_modified_at: Tue Aug  5 01:35:47 PDT 2025
 permalink: /math/rig/abstract-measure-theory
 categories:
 - blog
 tags:
 - math
 - abstract measure theory
+- measure and integration
+- measure and outer measure
 toc: true
 toc_label: '&nbsp;Table of Contents'
 toc_icon: fa-solid fa-list
@@ -20,6 +22,9 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+# NotebookLM Podcast
+
+- [25:04](https://notebooklm.google.com/notebook/2e2ce14a-0d89-4ea3-8d1d-3e6032f76158/audio)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}
