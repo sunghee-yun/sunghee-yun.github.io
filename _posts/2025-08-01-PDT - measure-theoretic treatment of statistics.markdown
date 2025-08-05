@@ -1,7 +1,7 @@
 ---
 title: Measure-theoretic Treatment of Statistics
 date: Fri Aug  1 06:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:20 PDT 2025
+last_modified_at: Tue Aug  5 00:32:27 PDT 2025
 permalink: /math/rig/measure-theoretic-treatment-of-statistics
 categories:
 - blog

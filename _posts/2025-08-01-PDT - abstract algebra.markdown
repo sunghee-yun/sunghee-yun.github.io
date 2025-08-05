@@ -1,7 +1,7 @@
 ---
 title: Abstract Algebra
 date: Fri Aug  1 02:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:18 PDT 2025
+last_modified_at: Tue Aug  5 00:32:25 PDT 2025
 permalink: /math/rig/abstract-algebra
 categories:
 - blog

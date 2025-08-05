@@ -17,12 +17,9 @@ conditionals:
   sproof: no
   ynindex: no
 date: Fri Aug  1 03:00:00 PDT 2025
-extract_figures: true
-generate_preview: true
 output_markdown: ../../../_posts/2025-08-01-PDT - measure theory.markdown
 permalink: /math/rig/measure-theory
 tags:
 - math
 - measure theory
-verbose_errors: true
 def_tex: ./markdown_defs.tex

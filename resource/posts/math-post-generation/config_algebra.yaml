@@ -17,8 +17,6 @@ conditionals:
   sproof: no
   ynindex: no
 date: Fri Aug  1 01:00:00 PDT 2025
-extract_figures: true
-generate_preview: true
 output_markdown: ../../../_posts/2025-08-01-PDT - algebra.markdown
 permalink: /math/rig/algebra
 tags:
@@ -26,5 +24,4 @@ tags:
 - algebra
 - inequalities
 - number theory
-verbose_errors: true
 def_tex: ./markdown_defs.tex

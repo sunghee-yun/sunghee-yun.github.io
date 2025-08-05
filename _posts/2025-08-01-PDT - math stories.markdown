@@ -1,7 +1,7 @@
 ---
 title: Math Stories
 date: Fri Aug  1 00:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:17 PDT 2025
+last_modified_at: Tue Aug  5 00:32:24 PDT 2025
 permalink: /math/rig/math-stories
 categories:
 - blog
@@ -201,7 +201,7 @@ $$
 <h2 id="title-page:Fundamental---Theorems">Fundamental Theorems</h2>
 
 
-<h3>Fundamental theorem of arithmetic</h3>
+<h3 id="my-foilhead-2">Fundamental theorem of arithmetic</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---arithmetic" data-name="Fundamental theorem of arithmetic">
 	
@@ -219,7 +219,7 @@ $$
 
 </div>
 
-<h3>Fundamental theorem of algebra</h3>
+<h3 id="my-foilhead-3">Fundamental theorem of algebra</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---algebra" data-name="Fundamental theorem of algebra">
 	
@@ -245,10 +245,12 @@ named when algebra was synonymous with the theory of equations
 </li>
 </ul>
 
-<h3>Fundamental theorem of calculus</h3>
+<h3 id="my-foilhead-4">Fundamental theorem of calculus</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---calculus" data-name="Fundamental theorem of calculus">
 	
+
+
 	<ul>
 	<li>
 		<span class="define">first fundamental theorem of calculus</span>
@@ -256,13 +258,9 @@ named when algebra was synonymous with the theory of equations
 for continuous real-valued function $f:[a,b]\to\reals$,
 function $F:[a,b]\to\reals$
 defined by
-
-$$
-
+$
 F(x) = \int_a^x f(t) dt
-
-$$
-
+$
 is uniformly continuous on $[a,b]$
 and
 differentiable on open interval $(a,b)$
@@ -289,13 +287,9 @@ and
 continuous function $F:[a,b]\to\reals$
 which is antiderivative of $f$ in $(a,b)$,
 <i>i.e.</i>
-
-$$
-
+$
 F'(x) = f(x)
-
-$$
-
+$,
 if $f$ is Riemann integrable on $[a,b]$,
 then
 
@@ -311,7 +305,37 @@ $$
 
 </div>
 
-<h3>Fundamental theorem of cyclic groups</h3>
+
+<h3 id="my-foilhead-5">Fundamental theorem of calculus for line integrals</h3>
+
+<div class="theorem" id="theorem:gradient---theorem" data-name="gradient theorem">
+	
+line integral through a gradient field can be evaluated by evaluating the original scalar field at the endpoints of the curve,
+<i>i.e.</i>,
+if $\varphi: X \to \reals$ is differentiable function and $\gamma$ is curve in $X\subset \reals$
+which
+starts at point $p\in\reals^n$
+and
+ends at point $q\in\reals^n$,
+then
+
+$$
+
+\int_\gamma \nabla \varphi(x)^T dx = \varphi(q) - \varphi(p)
+
+$$
+
+
+</div>
+<ul>
+<li>
+	generalization of the second fundamental theorem of calculus
+of <a href="#theorem:Fundamental---theorem---of---calculus">Fundamental theorem of calculus</a>
+
+</li>
+</ul>
+
+<h3 id="my-foilhead-6">Fundamental theorem of cyclic groups</h3>
 
 <div class="theorem" id="theorem:Fundamental---theomre---of---cyclic---groups" data-name="Fundamental theomre of cyclic groups">
 	
@@ -323,7 +347,7 @@ and exists exactly one subgroup for each divisor.
 
 </div>
 
-<h3>Fundamental theorem of equivalence relations</h3>
+<h3 id="my-foilhead-7">Fundamental theorem of equivalence relations</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---equivalence---relations" data-name="Fundamental theorem of equivalence relations">
 	
@@ -334,7 +358,122 @@ exists equivalence relation $\sim$ on $X$
 
 </div>
 
-<h3>Fundamental theorem for Galois theory</h3>
+<h3 id="my-foilhead-8">Fundamental theorem of finite abelian groups</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---finite---abelian---groups" data-name="Fundamental theorem of finite abelian groups">
+	
+every finite abelian group
+can be expressed as direct sum of cyclic subgroups of prime-power order,
+<i>i.e.</i>,
+any finite abelian group $G$ is
+isomorphic to direct sum of form
+
+$$
+
+\bigoplus_{i=1}^u \left(\integers/{k_i}\integers\right)
+
+$$
+
+in either of the following canonical ways
+	<ul>
+	<li>
+		numbers $k_1$, &hellip;, $k_u$ are powers of (not necessarily distinct) primes
+
+	</li>
+	<li>
+		$k_1$ divides $k_2$, which divides $k_3$, and so on up to $k_u$
+
+	</li>
+	</ul>
+
+</div>
+<ul>
+<li>
+	also known as
+<span class="name-font">basis theorem for finite abelian groups</span>
+
+</li>
+</ul>
+
+<h3 id="my-foilhead-9">Fundamental theorem of finitely generated abelian groups</h3>
+
+<ul>
+<li>
+	<a href="#theorem:Fundamental---theorem---of---finitely---generated---abelian---groups">Fundamental theorem of finitely generated abelian groups</a>
+generalizes
+<a href="#theorem:Fundamental---theorem---of---finite---abelian---groups">Fundamental theorem of finite abelian groups</a>
+in two ways
+
+</li>
+</ul>
+<div class="theorem" id="theorem:Fundamental---theorem---of---finitely---generated---abelian---groups" data-name="Fundamental theorem of finitely generated abelian groups">
+	
+
+	<ul>
+	<li>
+		primary decomposition
+-
+every finitely generated abelian group is isomorphic to a direct sum of primary cyclic groups and infinite cyclic groups,
+<i>i.e.</i>,
+every finitely generated abelian group $G$ is isomorphic to group of form
+
+$$
+
+G
+=
+\integers^n
+\oplus
+\left(\integers/q_1 \integers\right)
+\oplus
+\cdots
+\oplus
+\left(\integers/q_t \integers\right)
+
+$$
+
+where $n\geq0$ is rank,
+and
+numbers $q_1, \ldots, q_t$
+are powers of (not necessarily distinct) prime numbers;
+in particular,
+$G$ is finite if and only if $n=0$,
+values of $n, q_1, \ldots, q_t$
+are (up to rearranging indices) uniquely determined by $G$,
+<i>i.e.</i>,
+exists one and only one way to represent $G$ as such decomposition
+
+	</li>
+	<li>
+		invariant factor decomposition
+-
+can also write any finitely generated abelian group $G$ as direct sum of form
+
+$$
+
+G
+=
+\integers^{n}
+\oplus
+\left(\integers /{k_{1}}\integers\right)
+\oplus
+\cdots
+\oplus
+\left(\integers /{k_{u}}\integers\right)
+
+$$
+
+where $k_1$ divides $k_2$,
+which divides $k_3$ and so on up to $k_u$;
+again, rank $n$ and invariant factors $k_1, \ldots, k_u$
+are uniquely determined by $G$ (here with a unique order);
+rank and sequence of invariant factors determine group up to isomorphism
+
+	</li>
+	</ul>
+
+</div>
+
+<h3 id="my-foilhead-10">Fundamental theorem for Galois theory</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---for---Galois---theory" data-name="Fundamental theorem for Galois theory">
 	
@@ -365,7 +504,39 @@ $G(K^H/k)$
 
 </div>
 
-<h3>Fundamental theorem of linear algebra</h3>
+<h3 id="my-foilhead-11">Fundamental theorem on homeomorphisms</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---on---homeomorphisms" data-name="Fundamental theorem on homeomorphisms">
+	
+for two groups $G$ and $H$ and
+group homeomorphism $f:G\to H$,
+normal subgroup $N\subset G$,
+natural surjective homeomorphism $\varphi:G\to G/N$
+if $N$ is subset of $\Ker{f}$,
+exists unique homeomorphism $h:G/N\to H$
+such that
+
+$$
+
+f = h \circ \varphi
+
+$$
+
+
+</div>
+
+<h3 id="my-foilhead-12">Fundamental theorem of ideal theory in number fields</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---ideal---theory---in---number---fields" data-name="Fundamental theorem of ideal theory in number fields">
+	
+every nonzero proper ideal in ring of integers
+of number field admits unique factorization into
+product of nonzero prime ideals;
+in other words, every ring of integers of number field is Dedekind domain
+
+</div>
+
+<h3 id="my-foilhead-13">Fundamental theorem of linear algebra</h3>
 
 <div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
 	
@@ -379,7 +550,7 @@ nullity of $f$ (dimension of kernel of $f$)
 
 </div>
 
-<h3>Fundamental theorem of linear programming</h3>
+<h3 id="my-foilhead-14">Fundamental theorem of linear programming</h3>
 
 <div class="theorem" id="theorem:Fundamental---theorem---of---linear---programming" data-name="Fundamental theorem of linear programming">
 	
@@ -403,10 +574,43 @@ or lies on some face of $P$
 
 </div>
 
+<h3 id="my-foilhead-15">Fundamental theorem of symmetric polynomials</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---symmetric---polynomials" data-name="Fundamental theorem of symmetric polynomials">
+	
+for every commutative ring $A$,
+denote ring of symmetric polynomials in variables $X_1$, &hellip;, $X_n$
+with coefficients in $A$
+by $A[X_1,\ldots,X_n]^{S_n}$,
+which is polynomial ringt in $n$ elementary symmetric polynomials $e_k(X_1,\ldots,X_n)$
+for $k=1,\ldots,n$,
+then
+every symmetric polynomial $P(X_1,\ldots,X_n) \in A[X_1,\ldots,X_n]^{S_n}$
+has unique representation
+
+$$
+
+P(X_1, \ldots, X_n) = Q(e_1(X_1,\ldots,X_n), \ldots, e_n(X_1,\ldots,X_n))
+
+$$
+
+for some polynomials $Q\in A[Y_1,\ldots,Y_n]$,
+or equivalently,
+ring homeomorphism
+that sends $Y_k$ to $e_k(X_1,\ldots,X_n)$
+for $k=1,\ldots,n$
+defines
+an isomorphism between
+$A[Y_1,\ldots,Y_n]$
+and
+$A[X_1,\ldots,X_n]^{S_n}$
+
+</div>
+
 <h2 id="title-page:Duality">Duality</h2>
 
 
-<h3>Dualities</h3>
+<h3 id="my-foilhead-16">Dualities</h3>
 
 <ul>
 <li>

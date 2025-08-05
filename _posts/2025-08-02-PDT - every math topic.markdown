@@ -1,7 +1,7 @@
 ---
 title: All Math Topics in All Multiverses
 date: Fri Aug  2 00:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:22 PDT 2025
+last_modified_at: Tue Aug  5 00:32:29 PDT 2025
 permalink: /math/rig/everything
 categories:
 - blog
@@ -185,9 +185,6 @@ $$
 	%
 $$
 
-# Introduction
-
-## Preamble
 
 
 
@@ -196,6 +193,510 @@ $$
 
 
 
+
+<h1 id="super-title-page:Stories">Math Stories</h1>
+
+
+<h2 id="title-page:Fundamental---Theorems">Fundamental Theorems</h2>
+
+
+<h3>Fundamental theorem of arithmetic</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---arithmetic" data-name="Fundamental theorem of arithmetic">
+	
+integer $n\geq2$ can be factored uniquely into products of primes,
+<i>i.e.</i>,
+exist distinct primes, $p_1$, &hellip;, $p_k$, and $e_1,\ldots, e_k\in\naturals$
+such that
+
+$$
+
+n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k}
+
+$$
+
+
+</div>
+
+<h3>Fundamental theorem of algebra</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---algebra" data-name="Fundamental theorem of algebra">
+	
+every non-constant single-variable polynomial with complex coefficients
+has at least one complex root,
+or equivalently,
+(the field of complex numbers) is algebraically closed,
+or equivalently,
+every non-zero, single-variable, degree $n$ polynomial with complex coefficients has,
+counted with multiplicity, exactly $n$ complex roots.
+
+</div>
+<ul>
+<li>
+	the <span class="name-font">fundamental theorem of algebra</span>, also called <span class="name-font">d'Alembert's theorem</span> or the <span class="name-font">d'Alembert–Gauss theorem</span>
+
+</li>
+<li>
+	despite its name,
+not fundamental for modern algebra;
+named when algebra was synonymous with the theory of equations
+
+</li>
+</ul>
+
+<h3>Fundamental theorem of calculus</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---calculus" data-name="Fundamental theorem of calculus">
+	
+
+
+	<ul>
+	<li>
+		<span class="define">first fundamental theorem of calculus</span>
+-
+for continuous real-valued function $f:[a,b]\to\reals$,
+function $F:[a,b]\to\reals$
+defined by
+$
+F(x) = \int_a^x f(t) dt
+$
+is uniformly continuous on $[a,b]$
+and
+differentiable on open interval $(a,b)$
+and
+
+$$
+
+F'(x) = f(x)
+
+$$
+
+for all $x\in(a,b)$,
+hence
+$F$ is antiderivative of $f$
+
+	</li>
+	<li>
+		<span class="define">second fundamental theorem of calculus</span>
+or
+<span class="define">Newton-Leibniz theorem</span>
+-
+for real-valued function $f:[a,b]\to\reals$
+and
+continuous function $F:[a,b]\to\reals$
+which is antiderivative of $f$ in $(a,b)$,
+<i>i.e.</i>
+$
+F'(x) = f(x)
+$,
+if $f$ is Riemann integrable on $[a,b]$,
+then
+
+$$
+
+\int_a^b f(x) dx = F(b) - F(a)
+
+$$
+
+
+	</li>
+	</ul>
+
+</div>
+
+
+<h3>Fundamental theorem of calculus for line integrals</h3>
+
+<div class="theorem" id="theorem:gradient---theorem" data-name="gradient theorem">
+	
+line integral through a gradient field can be evaluated by evaluating the original scalar field at the endpoints of the curve,
+<i>i.e.</i>,
+if $\varphi: X \to \reals$ is differentiable function and $\gamma$ is curve in $X\subset \reals$
+which
+starts at point $p\in\reals^n$
+and
+ends at point $q\in\reals^n$,
+then
+
+$$
+
+\int_\gamma \nabla \varphi(x)^T dx = \varphi(q) - \varphi(p)
+
+$$
+
+
+</div>
+<ul>
+<li>
+	generalization of the second fundamental theorem of calculus
+of <a href="#theorem:Fundamental---theorem---of---calculus">Fundamental theorem of calculus</a>
+
+</li>
+</ul>
+
+<h3>Fundamental theorem of cyclic groups</h3>
+
+<div class="theorem" id="theorem:Fundamental---theomre---of---cyclic---groups" data-name="Fundamental theomre of cyclic groups">
+	
+every subgroup of a cyclic group is cyclic;
+moreover,
+for finite cyclic group of order $n$,
+every subgroup's order is a divisor of $n$,
+and exists exactly one subgroup for each divisor.
+
+</div>
+
+<h3>Fundamental theorem of equivalence relations</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---equivalence---relations" data-name="Fundamental theorem of equivalence relations">
+	
+equivalence relation $\sim$ on set $X$ partitions $X$;
+conversely,
+corresponding to any partition of $X$,
+exists equivalence relation $\sim$ on $X$
+
+</div>
+
+<h3>Fundamental theorem of finite abelian groups</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---finite---abelian---groups" data-name="Fundamental theorem of finite abelian groups">
+	
+every finite abelian group
+can be expressed as direct sum of cyclic subgroups of prime-power order,
+<i>i.e.</i>,
+any finite abelian group $G$ is
+isomorphic to direct sum of form
+
+$$
+
+\bigoplus_{i=1}^u \left(\integers/{k_i}\integers\right)
+
+$$
+
+in either of the following canonical ways
+	<ul>
+	<li>
+		numbers $k_1$, &hellip;, $k_u$ are powers of (not necessarily distinct) primes
+
+	</li>
+	<li>
+		$k_1$ divides $k_2$, which divides $k_3$, and so on up to $k_u$
+
+	</li>
+	</ul>
+
+</div>
+<ul>
+<li>
+	also known as
+<span class="name-font">basis theorem for finite abelian groups</span>
+
+</li>
+</ul>
+
+<h3>Fundamental theorem of finitely generated abelian groups</h3>
+
+<ul>
+<li>
+	<a href="#theorem:Fundamental---theorem---of---finitely---generated---abelian---groups">Fundamental theorem of finitely generated abelian groups</a>
+generalizes
+<a href="#theorem:Fundamental---theorem---of---finite---abelian---groups">Fundamental theorem of finite abelian groups</a>
+in two ways
+
+</li>
+</ul>
+<div class="theorem" id="theorem:Fundamental---theorem---of---finitely---generated---abelian---groups" data-name="Fundamental theorem of finitely generated abelian groups">
+	
+
+	<ul>
+	<li>
+		primary decomposition
+-
+every finitely generated abelian group is isomorphic to a direct sum of primary cyclic groups and infinite cyclic groups,
+<i>i.e.</i>,
+every finitely generated abelian group $G$ is isomorphic to group of form
+
+$$
+
+G
+=
+\integers^n
+\oplus
+\left(\integers/q_1 \integers\right)
+\oplus
+\cdots
+\oplus
+\left(\integers/q_t \integers\right)
+
+$$
+
+where $n\geq0$ is rank,
+and
+numbers $q_1, \ldots, q_t$
+are powers of (not necessarily distinct) prime numbers;
+in particular,
+$G$ is finite if and only if $n=0$,
+values of $n, q_1, \ldots, q_t$
+are (up to rearranging indices) uniquely determined by $G$,
+<i>i.e.</i>,
+exists one and only one way to represent $G$ as such decomposition
+
+	</li>
+	<li>
+		invariant factor decomposition
+-
+can also write any finitely generated abelian group $G$ as direct sum of form
+
+$$
+
+G
+=
+\integers^{n}
+\oplus
+\left(\integers /{k_{1}}\integers\right)
+\oplus
+\cdots
+\oplus
+\left(\integers /{k_{u}}\integers\right)
+
+$$
+
+where $k_1$ divides $k_2$,
+which divides $k_3$ and so on up to $k_u$;
+again, rank $n$ and invariant factors $k_1, \ldots, k_u$
+are uniquely determined by $G$ (here with a unique order);
+rank and sequence of invariant factors determine group up to isomorphism
+
+	</li>
+	</ul>
+
+</div>
+
+<h3>Fundamental theorem for Galois theory</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---for---Galois---theory" data-name="Fundamental theorem for Galois theory">
+	
+for finite Galois extension, $K/k$
+
+	<ul>
+	<li>
+		map $H \mapsto K^H$
+induces isomorphism between
+set of subgroups of $G(K/k)$ &amp; set of intermediate fields
+
+	</li>
+	<li>
+		subgroup, $H$, of $G(K/k)$,
+is normal
+if and only if
+$K^H/k$ is Galois
+
+	</li>
+	<li>
+		for normal subgroup, $H$,
+$\sigma\mapsto \restrict{\sigma}{K^H}$
+induces isomorphism between $G(K/k)/H$ and
+$G(K^H/k)$
+
+	</li>
+	</ul>
+
+</div>
+
+<h3>Fundamental theorem on homeomorphisms</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---on---homeomorphisms" data-name="Fundamental theorem on homeomorphisms">
+	
+for two groups $G$ and $H$ and
+group homeomorphism $f:G\to H$,
+normal subgroup $N\subset G$,
+natural surjective homeomorphism $\varphi:G\to G/N$
+if $N$ is subset of $\Ker{f}$,
+exists unique homeomorphism $h:G/N\to H$
+such that
+
+$$
+
+f = h \circ \varphi
+
+$$
+
+
+</div>
+
+<h3>Fundamental theorem of ideal theory in number fields</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---ideal---theory---in---number---fields" data-name="Fundamental theorem of ideal theory in number fields">
+	
+every nonzero proper ideal in ring of integers
+of number field admits unique factorization into
+product of nonzero prime ideals;
+in other words, every ring of integers of number field is Dedekind domain
+
+</div>
+
+<h3>Fundamental theorem of linear algebra</h3>
+
+<div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
+	
+number of columns of matrix $M$ is
+sume of rank of $M$ and nullity of $M$,
+or equivalently,
+dimension of domain of linear transformation $f$
+is sum of rank of $f$ (dimension of image of $f$)
+and
+nullity of $f$ (dimension of kernel of $f$)
+
+</div>
+
+<h3>Fundamental theorem of linear programming</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---linear---programming" data-name="Fundamental theorem of linear programming">
+	
+for linear program
+
+$$
+
+\begin{array}{ll}
+\mbox{minimal} & c^Tx
+\\
+\mbox{subject to} & Ax \leq b
+\end{array}
+
+$$
+
+if $P=\set{x\in\reals^n}{Ax \leq b}$
+is bounded polyhedron (hence polytope)
+and $x^\ast$ is optimal solution,
+then $x^\ast$ is either extreme point (<i>i.e.</i>, vertex) of $P$
+or lies on some face of $P$
+
+</div>
+
+<h3>Fundamental theorem of symmetric polynomials</h3>
+
+<div class="theorem" id="theorem:Fundamental---theorem---of---symmetric---polynomials" data-name="Fundamental theorem of symmetric polynomials">
+	
+for every commutative ring $A$,
+denote ring of symmetric polynomials in variables $X_1$, &hellip;, $X_n$
+with coefficients in $A$
+by $A[X_1,\ldots,X_n]^{S_n}$,
+which is polynomial ringt in $n$ elementary symmetric polynomials $e_k(X_1,\ldots,X_n)$
+for $k=1,\ldots,n$,
+then
+every symmetric polynomial $P(X_1,\ldots,X_n) \in A[X_1,\ldots,X_n]^{S_n}$
+has unique representation
+
+$$
+
+P(X_1, \ldots, X_n) = Q(e_1(X_1,\ldots,X_n), \ldots, e_n(X_1,\ldots,X_n))
+
+$$
+
+for some polynomials $Q\in A[Y_1,\ldots,Y_n]$,
+or equivalently,
+ring homeomorphism
+that sends $Y_k$ to $e_k(X_1,\ldots,X_n)$
+for $k=1,\ldots,n$
+defines
+an isomorphism between
+$A[Y_1,\ldots,Y_n]$
+and
+$A[X_1,\ldots,X_n]^{S_n}$
+
+</div>
+
+<h2 id="title-page:Duality">Duality</h2>
+
+
+<h3>Dualities</h3>
+
+<ul>
+<li>
+	duality
+	<ul>
+	<li>
+		&ldquo;very pervasive and important concept in (modern) mathematics''
+
+	</li>
+	<li>
+		&ldquo;important general theme having manifestations in almost every area of mathematics''
+
+	</li>
+	</ul>
+
+</li>
+<li>
+	dualities appear in many places in mathematics, <i>e.g.</i>
+	<ul>
+	<li>
+		<i>dual</i> of normed space
+is space of bounded linear functionals on the space
+(page~<a href="#page:Dual-of-normed-spaces">here</a>)
+
+	</li>
+	<li>
+		<i>dual</i> cones and <i>dual</i> norms are defined
+(<a href="#definition:dual---cones"></a> &amp; <a href="#definition:dual---norms"></a>)
+
+	</li>
+	<li>
+		can define <i>dual</i> generalized inequalities using dual cones
+(<a href="#proposition:generalized---inequalities---and---dual---generalized---inequalities"></a>)
+
+	</li>
+	<li>
+		can find necessary and sufficient conditions for $K$-convexity
+using <i>dual</i> generalized inequalities
+(<a href="#proposition:dual---characterization---of---$K$-convexity"></a>)
+
+	</li>
+	<li>
+		duality can be observed even in fundamental theorem for Galois theory,
+<i>i.e.</i>, $G(K/E) \leftrightarrow E$ &amp; $H \leftrightarrow K^H$
+(<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
+
+	</li>
+	<li>
+		exist <i>dualities</i> in continuous / discrete functions in time domain
+and continuous / discrete functions in frequency domain,
+<i>i.e.</i>,
+as in Fourier Transformation
+
+	</li>
+	</ul>
+
+</li>
+</ul>
+
+
+
+<ul>
+<li>
+	However,
+never fascinated more
+than <a href="#title-page:Duality">duality appearing in optimization</a>,
+<i>e.g.</i>,
+	<ul>
+	<li>
+		properties such as weak duality (<a href="#definition:weak---duality"></a>)
+and strong duality (<a href="#definition:strong---duality"></a>)
+
+	</li>
+	<li>
+		dual problem provides some bound for the optimal value of the original problem,
+hence certificate of suboptimality!
+
+	</li>
+	<li>
+		constraint qualifications such as Slater's condition (<a href="#theorem:Slater's---theorem"></a>)
+guarantee strong duality!
+
+	</li>
+	</ul>
+
+</li>
+</ul>
 
 
 <h3>Notations</h3>
@@ -560,307 +1061,6 @@ $$
 	</li>
 	<li>
 		$\infty \cdot \infty = \infty$
-
-	</li>
-	</ul>
-
-</li>
-</ul>
-
-
-<h1 id="super-title-page:Stories">Math Stories</h1>
-
-
-<h2 id="title-page:Fundamental---Theorems">Fundamental Theorems</h2>
-
-
-<h3>Fundamental theorem of arithmetic</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---of---arithmetic" data-name="Fundamental theorem of arithmetic">
-	
-integer $n\geq2$ can be factored uniquely into products of primes,
-<i>i.e.</i>,
-exist distinct primes, $p_1$, &hellip;, $p_k$, and $e_1,\ldots, e_k\in\naturals$
-such that
-
-$$
-
-n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k}
-
-$$
-
-
-</div>
-
-<h3>Fundamental theorem of algebra</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---of---algebra" data-name="Fundamental theorem of algebra">
-	
-every non-constant single-variable polynomial with complex coefficients
-has at least one complex root,
-or equivalently,
-(the field of complex numbers) is algebraically closed,
-or equivalently,
-every non-zero, single-variable, degree $n$ polynomial with complex coefficients has,
-counted with multiplicity, exactly $n$ complex roots.
-
-</div>
-<ul>
-<li>
-	the <span class="name-font">fundamental theorem of algebra</span>, also called <span class="name-font">d'Alembert's theorem</span> or the <span class="name-font">d'Alembert–Gauss theorem</span>
-
-</li>
-<li>
-	despite its name,
-not fundamental for modern algebra;
-named when algebra was synonymous with the theory of equations
-
-</li>
-</ul>
-
-<h3>Fundamental theorem of calculus</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---of---calculus" data-name="Fundamental theorem of calculus">
-	
-	<ul>
-	<li>
-		<span class="define">first fundamental theorem of calculus</span>
--
-for continuous real-valued function $f:[a,b]\to\reals$,
-function $F:[a,b]\to\reals$
-defined by
-
-$$
-
-F(x) = \int_a^x f(t) dt
-
-$$
-
-is uniformly continuous on $[a,b]$
-and
-differentiable on open interval $(a,b)$
-and
-
-$$
-
-F'(x) = f(x)
-
-$$
-
-for all $x\in(a,b)$,
-hence
-$F$ is antiderivative of $f$
-
-	</li>
-	<li>
-		<span class="define">second fundamental theorem of calculus</span>
-or
-<span class="define">Newton-Leibniz theorem</span>
--
-for real-valued function $f:[a,b]\to\reals$
-and
-continuous function $F:[a,b]\to\reals$
-which is antiderivative of $f$ in $(a,b)$,
-<i>i.e.</i>
-
-$$
-
-F'(x) = f(x)
-
-$$
-
-if $f$ is Riemann integrable on $[a,b]$,
-then
-
-$$
-
-\int_a^b f(x) dx = F(b) - F(a)
-
-$$
-
-
-	</li>
-	</ul>
-
-</div>
-
-<h3>Fundamental theorem of cyclic groups</h3>
-
-<div class="theorem" id="theorem:Fundamental---theomre---of---cyclic---groups" data-name="Fundamental theomre of cyclic groups">
-	
-every subgroup of a cyclic group is cyclic;
-moreover,
-for finite cyclic group of order $n$,
-every subgroup's order is a divisor of $n$,
-and exists exactly one subgroup for each divisor.
-
-</div>
-
-<h3>Fundamental theorem of equivalence relations</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---of---equivalence---relations" data-name="Fundamental theorem of equivalence relations">
-	
-equivalence relation $\sim$ on set $X$ partitions $X$;
-conversely,
-corresponding to any partition of $X$,
-exists equivalence relation $\sim$ on $X$
-
-</div>
-
-<h3>Fundamental theorem for Galois theory</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---for---Galois---theory" data-name="Fundamental theorem for Galois theory">
-	
-for finite Galois extension, $K/k$
-
-	<ul>
-	<li>
-		map $H \mapsto K^H$
-induces isomorphism between
-set of subgroups of $G(K/k)$ &amp; set of intermediate fields
-
-	</li>
-	<li>
-		subgroup, $H$, of $G(K/k)$,
-is normal
-if and only if
-$K^H/k$ is Galois
-
-	</li>
-	<li>
-		for normal subgroup, $H$,
-$\sigma\mapsto \restrict{\sigma}{K^H}$
-induces isomorphism between $G(K/k)/H$ and
-$G(K^H/k)$
-
-	</li>
-	</ul>
-
-</div>
-
-<h3>Fundamental theorem of linear algebra</h3>
-
-<div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
-	
-number of columns of matrix $M$ is
-sume of rank of $M$ and nullity of $M$,
-or equivalently,
-dimension of domain of linear transformation $f$
-is sum of rank of $f$ (dimension of image of $f$)
-and
-nullity of $f$ (dimension of kernel of $f$)
-
-</div>
-
-<h3>Fundamental theorem of linear programming</h3>
-
-<div class="theorem" id="theorem:Fundamental---theorem---of---linear---programming" data-name="Fundamental theorem of linear programming">
-	
-for linear program
-
-$$
-
-\begin{array}{ll}
-\mbox{minimal} & c^Tx
-\\
-\mbox{subject to} & Ax \leq b
-\end{array}
-
-$$
-
-if $P=\set{x\in\reals^n}{Ax \leq b}$
-is bounded polyhedron (hence polytope)
-and $x^\ast$ is optimal solution,
-then $x^\ast$ is either extreme point (<i>i.e.</i>, vertex) of $P$
-or lies on some face of $P$
-
-</div>
-
-<h2 id="title-page:Duality">Duality</h2>
-
-
-<h3>Dualities</h3>
-
-<ul>
-<li>
-	duality
-	<ul>
-	<li>
-		&ldquo;very pervasive and important concept in (modern) mathematics''
-
-	</li>
-	<li>
-		&ldquo;important general theme having manifestations in almost every area of mathematics''
-
-	</li>
-	</ul>
-
-</li>
-<li>
-	dualities appear in many places in mathematics, <i>e.g.</i>
-	<ul>
-	<li>
-		<i>dual</i> of normed space
-is space of bounded linear functionals on the space
-(page~<a href="#page:Dual-of-normed-spaces">here</a>)
-
-	</li>
-	<li>
-		<i>dual</i> cones and <i>dual</i> norms are defined
-(<a href="#definition:dual---cones"></a> &amp; <a href="#definition:dual---norms"></a>)
-
-	</li>
-	<li>
-		can define <i>dual</i> generalized inequalities using dual cones
-(<a href="#proposition:generalized---inequalities---and---dual---generalized---inequalities"></a>)
-
-	</li>
-	<li>
-		can find necessary and sufficient conditions for $K$-convexity
-using <i>dual</i> generalized inequalities
-(<a href="#proposition:dual---characterization---of---$K$-convexity"></a>)
-
-	</li>
-	<li>
-		duality can be observed even in fundamental theorem for Galois theory,
-<i>i.e.</i>, $G(K/E) \leftrightarrow E$ &amp; $H \leftrightarrow K^H$
-(<a href="#theorem:fundamental---theorem---for---Galois---theory"></a>)
-
-	</li>
-	<li>
-		exist <i>dualities</i> in continuous / discrete functions in time domain
-and continuous / discrete functions in frequency domain,
-<i>i.e.</i>,
-as in Fourier Transformation
-
-	</li>
-	</ul>
-
-</li>
-</ul>
-
-
-
-<ul>
-<li>
-	However,
-never fascinated more
-than <a href="#title-page:Duality">duality appearing in optimization</a>,
-<i>e.g.</i>,
-	<ul>
-	<li>
-		properties such as weak duality (<a href="#definition:weak---duality"></a>)
-and strong duality (<a href="#definition:strong---duality"></a>)
-
-	</li>
-	<li>
-		dual problem provides some bound for the optimal value of the original problem,
-hence certificate of suboptimality!
-
-	</li>
-	<li>
-		constraint qualifications such as Slater's condition (<a href="#theorem:Slater's---theorem"></a>)
-guarantee strong duality!
 
 	</li>
 	</ul>

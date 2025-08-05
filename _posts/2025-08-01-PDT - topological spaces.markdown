@@ -1,7 +1,7 @@
 ---
 title: Topological Spaces
 date: Fri Aug  1 04:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:19 PDT 2025
+last_modified_at: Tue Aug  5 00:32:26 PDT 2025
 permalink: /math/rig/topological-spaces
 categories:
 - blog

@@ -17,12 +17,10 @@ conditionals:
   sproof: no
   ynindex: no
 date: Fri Aug  1 00:00:00 PDT 2025
-extract_figures: true
-generate_preview: true
 output_markdown: ../../../_posts/2025-08-01-PDT - math stories.markdown
 permalink: /math/rig/math-stories
 tags:
 - math
 - stories
-verbose_errors: true
 def_tex: ./markdown_defs.tex
+foilhead_in_toc: true

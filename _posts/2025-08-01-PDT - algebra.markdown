@@ -1,7 +1,7 @@
 ---
 title: Inequalities and Number Theory
 date: Fri Aug  1 01:00:00 PDT 2025
-last_modified_at: Mon Aug  4 16:01:17 PDT 2025
+last_modified_at: Tue Aug  5 00:32:25 PDT 2025
 permalink: /math/rig/algebra
 categories:
 - blog
