@@ -13,7 +13,7 @@ import yaml
 from converters.foiltex_markdown_conversion_config import (
     FoiltexToMarkdownConversionConfig,
 )
-from converters.latex_parser_to_markdown_converter import LatexParserToMarkdownConverter
+from converters.latex_parser_to_markdown_converter import LaTeXParserToMarkdownConverter
 from latex_parser.conditional_processor import LaTeXConditionalProcessor
 from latex_parser.latex_parser import LaTeXParser
 
@@ -46,8 +46,8 @@ class LaTeXToMarkdownConverter:
 
         latex_parser: LaTeXParser = LaTeXParser(extracted_tex)
 
-        latex_parser_to_markdown_converter: LatexParserToMarkdownConverter = (
-            LatexParserToMarkdownConverter(latex_parser.parse())
+        latex_parser_to_markdown_converter: LaTeXParserToMarkdownConverter = (
+            LaTeXParserToMarkdownConverter(latex_parser.parse())
         )
 
         defs: str = ""

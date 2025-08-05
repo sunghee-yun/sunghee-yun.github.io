@@ -13,7 +13,7 @@ from latex_parser.utils import make_label_consistent
 
 class FoiltexSectionElement(TokenElement):
 
-    LABEL_PRE_FIX: dict[int, str] = {1: "super-title-page:", 2: "title-page:"}
+    LABEL_PRE_FIX: dict[int, str] = {1: "super-title-page:", 2: "title-page:", 3: ""}
 
     def __init__(self, token: LaTeXTokenBase) -> None:
         assert isinstance(token, SlideSectionBase), token.__class__
@@ -34,7 +34,11 @@ class FoiltexSectionElement(TokenElement):
 
         title: str = LaTeXElementBase.process_markdown_string(self.token.title)
 
-        if self.level >= 3:
+        from converters.latex_parser_to_markdown_converter import LaTeXParserToMarkdownConverter
+
+        if self.level >= 3 and (
+            not LaTeXParserToMarkdownConverter.FOILHEAD_IN_TOC or self.level > 3
+        ):
             return f"\n<h{self.level}>" + f"{title}</h{self.level}>\n"
 
         return (

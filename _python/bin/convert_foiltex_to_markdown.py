@@ -19,6 +19,7 @@ from freq_used.logging_utils import set_logging_basic_config
 
 from converters.foiltex_markdown_conversion_config import FoiltexToMarkdownConversionConfig
 from converters.foiltex_markdown_converter import LaTeXToMarkdownConverter
+from converters.latex_parser_to_markdown_converter import LaTeXParserToMarkdownConverter
 from latex_parser.tokenizers.tokens.latex_command import LaTeXCommandToken
 from latex_parser.tokenizers.tokens.latex_token_base import LaTeXTokenBase
 from latex_parser.tokenizers.tokens.user_defined_command import UserDefinedCommandToken
@@ -46,9 +47,12 @@ def main(
     set_logging_basic_config(__file__, level=logging.DEBUG if verbose else logging.INFO)
 
     config_path: Path = Path(config_file)
+    assert config_path.exists(), config_file
     config: FoiltexToMarkdownConversionConfig = FoiltexToMarkdownConversionConfig.from_yaml(
         config_path
     )
+
+    LaTeXParserToMarkdownConverter.set_foilhead_in_toc(config.foilhead_in_toc)
 
     converter: LaTeXToMarkdownConverter = LaTeXToMarkdownConverter(config)
 

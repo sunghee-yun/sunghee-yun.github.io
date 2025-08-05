@@ -20,10 +20,8 @@ class FoiltexToMarkdownConversionConfig:
     output_markdown: str
     tags: List[str] = field(default_factory=list)
     conditionals: Dict[str, bool] = field(default_factory=dict)
-    extract_figures: bool = True
-    generate_preview: bool = True
-    verbose_errors: bool = True
     def_tex: str | None = None
+    foilhead_in_toc: bool = False
 
     @classmethod
     def from_yaml(cls, yaml_file: Path):

@@ -9,9 +9,22 @@ from latex_parser.tokenizers.tokens.my_foilhead import MyFoilhead
 from latex_parser.tokenizers.tokens.top_title_foil import TopTitleFoil
 
 
-class LatexParserToMarkdownConverter:
+class ClassPropertyMeta(type):
+    def __getattr__(cls, name):
+        if name == "FOILHEAD_IN_TOC":
+            return cls._foilhead_in_toc
+        raise AttributeError(f"'{cls.__name__}' has no attribute '{name}'")
+
+
+class LaTeXParserToMarkdownConverter(metaclass=ClassPropertyMeta):
+    _foilhead_in_toc: bool = False
+
+    @classmethod
+    def set_foilhead_in_toc(cls, value: bool) -> None:
+        cls._foilhead_in_toc = value
+
     def __init__(self, latex_document: LaTeXDocument) -> None:
-        self.latex_document: LaTeXDocument = latex_document
+        self._latex_document: LaTeXDocument = latex_document
         self._markdown_str: str = ""
         self._markdown_converted: bool = False
 
@@ -22,7 +35,7 @@ class LatexParserToMarkdownConverter:
 
             mute_mode: bool = False
             first_section: FoiltexSectionElement | None = None
-            for element in self.latex_document.document_body.element_list:
+            for element in self._latex_document.document_body.element_list:
                 if mute_mode and isinstance(element, FoiltexSectionElement):
                     mute_mode = False
 
