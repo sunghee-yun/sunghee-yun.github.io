@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Fri Aug  1 03:08:33 PDT 2025
+last_modified_at: Tue Aug  5 01:50:48 PDT 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -34,6 +34,11 @@ tr:nth-child(even) {
 </style>
 
 {% assign linalg_story = site.posts | where: "permalink", "/math/linear-algebra" | first %}
+
+# NotebookLM Podcasts
+
+- [16:43](https://notebooklm.google.com/notebook/7b158ba3-7c7c-4906-812d-0c5fc1ad0c59/audio)
+- [21:46](https://notebooklm.google.com/notebook/38079fa6-3355-400d-b311-17ba76b6e6a5/audio)
 
 # Vector Spaces
 
