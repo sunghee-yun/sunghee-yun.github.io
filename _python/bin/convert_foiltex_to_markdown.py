@@ -32,16 +32,13 @@ logger: Logger = getLogger()
 @argument(
     "config_file", type=click.Path(exists=True, file_okay=True, dir_okay=False, readable=True)
 )
-@argument("slide_tex", type=click.Path(exists=True, file_okay=True, dir_okay=False, readable=True))
 @option("-v", "--verbose", is_flag=True, help="Verbose mode")
 def main(
     config_file: str,
-    slide_tex: str,
     verbose: bool,
 ) -> None:
 
     assert isinstance(config_file, str)
-    assert isinstance(slide_tex, str)
     assert isinstance(verbose, bool)
 
     set_logging_basic_config(__file__, level=logging.DEBUG if verbose else logging.INFO)
@@ -56,7 +53,8 @@ def main(
 
     converter: LaTeXToMarkdownConverter = LaTeXToMarkdownConverter(config)
 
-    tex_file: Path = Path(slide_tex)
+    tex_file: Path = Path(config.latex_source)
+    assert tex_file.exists(), config.latex_source
     try:
         converter.convert_to_markdown(tex_file)
     except Exception as e:

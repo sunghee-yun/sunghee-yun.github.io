@@ -59,6 +59,7 @@ class LaTeXToMarkdownConverter:
             assert len(defs.split("\n")[-1]) == 0, "|" + defs.split("\n")[-1] + "|"
             fid.write(self.front_matter + "\n\n")
             fid.write(self.preamble + "\n\n")
+            fid.write(self.notebooklm_section)
             fid.write("$$\n")
             fid.write("\n".join([f"\t{def_}" for def_ in defs.split("\n")[:-1]]) + "\n")
             fid.write("$$\n")
@@ -101,3 +102,18 @@ class LaTeXToMarkdownConverter:
                 "{:.notice - -primary}",
             ]
         )
+
+    @property
+    def notebooklm_section(self) -> str:
+        if self.config.notebooklm is None:
+            return ""
+
+        line_list: list[str] = list()
+
+        line_list.append(f"# NotebookLM Podcast{'s' if len(self.config.notebooklm) > 1 else ''}")
+        line_list.append("")
+        for url, time_str in self.config.notebooklm.items():
+            line_list.append(f"- [{time_str}]({url})")
+        line_list.append("")
+
+        return "\n".join(line_list)
