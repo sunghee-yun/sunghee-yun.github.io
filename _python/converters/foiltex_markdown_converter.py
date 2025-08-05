@@ -5,7 +5,7 @@ foiltex to markdown converter
 import os
 import time
 from collections import OrderedDict
-from logging import Logger, getLogger
+from logging import Logger, getLogger, DEBUG
 from pathlib import Path
 
 import yaml
@@ -40,8 +40,9 @@ class LaTeXToMarkdownConverter:
             os.path.splitext(os.path.split(self.config.output_markdown)[1])[0] + ".tex",
         )
 
-        with open(tmp_tex_filepath, "w") as fid:
-            fid.write(extracted_tex)
+        if logger.getEffectiveLevel() == DEBUG:
+            with open(tmp_tex_filepath, "w") as fid:
+                fid.write(extracted_tex)
 
         latex_parser: LaTeXParser = LaTeXParser(extracted_tex)
 
