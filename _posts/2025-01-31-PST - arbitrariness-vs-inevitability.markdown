@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Tue Jul 29 04:07:55 PDT 2025
+last_modified_at: Tue Aug  5 03:38:38 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -37,7 +37,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	Your browser does not support this shorter audio element.
 </audio>
 
-In the movie "Contact," (starring Jodie Foster, one of my favorite female Hollywood stars), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
+In the movie "Contact," (starring Jodie Foster, one of my favorite Hollywood stars), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
 This choice is profoundly significant: even in a universe where different physical laws might reign,
 the concept of prime numbers would remain unchanged.<sup><a href="#footnote1" id="ref1">1</a></sup>
 Prime numbers represent a truth that transcends (arbitrary) intelligent beings' civilization
