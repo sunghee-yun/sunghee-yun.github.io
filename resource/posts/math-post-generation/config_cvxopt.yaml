@@ -18,7 +18,8 @@ output_markdown: ../../../_posts/2025-08-01-PDT - convex optimization.markdown
 permalink: /math/rig/convex-optimization
 def_tex: ./markdown_defs.tex
 notebooklm:
-  "https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf/audio": "72:27"
+  "https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf?artifactId=25ee237c-f90c-4af8-b85d-ada515828ec4": "72:27"
+  "https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf?artifactId=aa23b637-b781-4e85-b39d-c67b079ac6d8": "32:54"
 conditionals:
   allslides: no
   preamble: yes
