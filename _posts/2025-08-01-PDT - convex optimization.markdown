@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Tue Aug  5 01:35:48 PDT 2025
+last_modified_at: Fri Aug  8 20:46:42 KST 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -30,7 +30,7 @@ updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 
 # NotebookLM Podcast
 
-- [72:27](https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf/audio)
+- [72:27](https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf?artifactId=25ee237c-f90c-4af8-b85d-ada515828ec4)
 $$
 	%
 	\newcommand{\algA}{\algk{A}}
