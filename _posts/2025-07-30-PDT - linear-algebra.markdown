@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Tue Aug  5 01:50:48 PDT 2025
+last_modified_at: Sun Aug 10 02:50:56 KST 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -792,9 +792,72 @@ Therefore $\image(\pi) \cap K(\pi) = \{0\}$.
 Therefore $V$ is a direct sum of $\image(\pi)$ and $K(\pi)$.
 </div>
 
-<!--
 ## Matrices
 
+<div class="definition" data-name="matrices">
+A <span class="define">matrix</span> over a field $F$
+is
+a rectangular array of scalrs.
+The array will be written in the form
+$$
+A=
+\begin{bmatrix}
+A_{1,1} & A_{1,2} & \cdots & A_{1,n}
+\\
+A_{2,1} & A_{2,2} & \cdots & A_{2,n}
+\\
+\vdots & \vdots & \ddots & \vdots
+\\
+A_{m,1} & A_{m,2} & \cdots & A_{m,n}
+\end{bmatrix}
+\in
+F^{m\times n}
+$$
+A matrix with $m$ rows and $n$ columns is called an <span class="define">$m$ $\times$ $n$ matrix</span>
+or <span class="define">$m$-by-$n$ matrix</span>.
+$A_{i,j}$ are called
+<span class="define">elements</span>
+or
+<span class="define">entries</span>.
+</div>
+
+<div class="definition" data-name="main diagonal">
+The <span div="define">main diagonal</span> of the matrix $A\in F^{m\times n}$
+is the list of elements $(A_{1,1}, A_{1,2}, \ldots, A_{t,t})$ where $t=\min\{m,n\}$.
+</div>
+
+<div class="definition" data-name="diagonal matrices">
+A <span div="define">diagonal matrix</span> is a square matrix in which
+the elements not in the main diagonal are zero.
+</div>
+
+<div class="definition" data-name="matrix multiplication">
+A matrix-matrix multiplication is defined as a (non-commutative) binary operation
+on
+two matrices $A\in F^{r\times m}$ and $B\in F^{m\times n}$
+defined in such a way that
+the result of $AB$ is a $r$-by-$n$ matrix where
+$$
+(AB)_{i,j} = \sum_{k=1}^m A_{i,k} B_{k,j}
+$$
+for all $1\leq i\leq r$ and $1\leq j\leq n$.
+</div>
+
+{% assign linalg_post = site.posts | where: "permalink", "/math/linear-algebra" | first %}
+
+The motivation for this specific way of defining matrix-matrix multiplication
+is well explained in
+[Matrix-matrix multiplication](/math/linear-algebra#matrix-matrix-multiplication)
+of my another blog post about linear algebra, [{{ linalg_post.title }}]({{ linalg_post.url }}).
+
+<div class="theorem" data-name="rank-nullity theorem">
+For an $A\in F^{m\times n}$,
+the rank of $A$ plus the nullity of $A$ is equal to $n$.
+The rank of a product $BA$ is less than or equal to the rank of either factor.
+</div>
+
+
+<!--
 ## Nonsingular matrices
 
 ## Change of basis
