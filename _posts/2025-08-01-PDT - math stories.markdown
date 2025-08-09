@@ -1,7 +1,7 @@
 ---
 title: Math Stories
 date: Fri Aug  1 00:00:00 PDT 2025
-last_modified_at: Tue Aug  5 01:35:44 PDT 2025
+last_modified_at: Sun Aug 10 02:36:29 KST 2025
 permalink: /math/rig/math-stories
 categories:
 - blog
@@ -546,7 +546,7 @@ in other words, every ring of integers of number field is Dedekind domain
 <div class="theorem" id="theorem:rank-nullity---theorem" data-name="rank-nullity theorem">
 	
 number of columns of matrix $M$ is
-sume of rank of $M$ and nullity of $M$,
+sum of rank of $M$ and nullity of $M$,
 or equivalently,
 dimension of domain of linear transformation $f$
 is sum of rank of $f$ (dimension of image of $f$)
