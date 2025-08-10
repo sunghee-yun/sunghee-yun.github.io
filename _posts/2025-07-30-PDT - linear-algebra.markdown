@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Sun Aug 10 02:50:56 KST 2025
+last_modified_at: Sun Aug 10 16:39:12 KST 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -44,7 +44,7 @@ tr:nth-child(even) {
 
 ## Definition
 
-<div class="definition">
+<div class="definition" data-name="fields">
 A nonempty set of elements with two laws of combination,
 which we call addition and multiplication,
 satisfying the following conditions is called a <span class="define">field</span>
@@ -196,11 +196,11 @@ and is denoted by <span class="notation">$F$</span>.
 </ol>
 </div>
 
-<div class="definition">
+<div class="definition" data-name="scalars">
 The elements of a field are called <span class="define">scalars</span>.
 </div>
 
-<div class="definition" id="definition:vector-space">
+<div class="definition" id="definition:vector-space" data-name="vector spaces">
 A <span class="define">vector space</span> $V$ over a field $F$
 is a nonempty set of elements,
 called <span class="define">vectors</span>,
@@ -322,7 +322,7 @@ is given in [this section](/math/linear-algebra#definition) in [{{ linalg_story.
 
 ## Linear independence &amp; linear dependence
 
-<div class="definition">
+<div class="definition" data-name="linear independence">
 A set of vectors is said to be <span class="define">linearly dependent</span>
 if there exists a non-trivial linear relation among them.
 Otherwise,
@@ -377,7 +377,7 @@ every linearly independent set contains at most $n$ elements.
 
 ## Bases of vector spaces
 
-<div class="definition">
+<div class="definition" data-name="basis">
 A linearly independent set spanning a vector space $V$
 is called a <span class="define">basis</span> or <span class="define">base</span>
 (the plural is <span class="define">bases</span>) of $V$.
@@ -412,7 +412,7 @@ any linearly independent set of vectors can be extended to a basis.
 
 ## Subspaces
 
-<div class="definition">
+<div class="definition" data-name="subspaces">
 A <span class="define">subspace</span> $W$ of a vector space $V$
 is a nonempty subset of $V$ which is itself a vector space
 with respect to the operations of addition and scalar multiplication
@@ -480,7 +480,7 @@ $$
 $$
 </div>
 
-<div class="definition">
+<div class="definition" data-name="direct sum">
 For two subspaces $W_1$ and $W_2$ of a finite dimensional vector space $V$,
 if $W_1\cap W_2 = \{0\}$, the sum $W_1 + W_2$ is said to be <span class="define">direct</span>;
 $W_1+W_2$ is said to be a <span class="define">direct sum</span> of $W_1$ and $W_2$.
@@ -492,7 +492,7 @@ $$
 </span>
 </div>
 
-<div class="definition">
+<div class="definition" data-name="complementary subspaces">
 For two subspaces $W_1$ and $W_2$ of a finite dimensional vector space $V$,
 if $W_1 \oplus W_2 = V$,
 $W_1$ and $W_2$ are said to be <span class="define">complementary</span>
@@ -518,7 +518,7 @@ $$
 
 ## Linear transformations
 
-<div class="definition">
+<div class="definition" data-name="linear transformation">
 Let $U$ and $V$ be vector spaces over a field $F$.
 A <span class="define">linear transformation</span> <span class="notation">$\sigma$</span> of $U$ into $V$
 is
@@ -531,7 +531,7 @@ $$
 $$
 </div>
 
-<div class="definition">
+<div class="definition" data-name="homomorphism (of vector spaces)">
 To describe the special role of the elements of $F$
 in the condition $\sigma(\alpha x) = \alpha\sigma(x)$,
 we say that
@@ -539,17 +539,17 @@ a linear transformation is a <span class="define">homomorphism over $F$</span>
 or an <span class="define">$F$-homomorphism</span>.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="monomorphism">
 When a homomorphism is <i>one-to-one</i>,
 it is called <span class="define">monomorphism</span>.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="epimorphism">
 When a homomorphism is <i>onto</i>, <i>i.e.</i>, $\sigma(U) = V$,
 it is called <span class="define">epimorphism</span>.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="isomorphism">
 A homomorphism that is both an epimorphism and a monomorphism is called an <span class="define">isomorphism</span>.
 </div>
 
@@ -557,7 +557,7 @@ A homomorphism that is both an epimorphism and a monomorphism is called an <span
 The inverse of an isomorphism is also an isomorphism.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="canonical mapping">
 If a homomorphism or isomorphism can be defined uniquely by intrinsic properties
 independent of a choice of basis,
 the mapping is said to be <span class="define">natural</span> or <span class="define">canonical</span>.
@@ -574,7 +574,7 @@ For a linear transformation $\sigma: U\to V$,
 $\sigma(U)=\{\sigma(u)|u \in U\}\subset V$ is a subspace of $V$.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="image">
 For a linear transformation $\sigma: U\to V$,
 the subspace $\sigma(U)$ is called the <span class="define">image</span> of $\sigma$,
 and denoted by <span class="notation">$\image(\sigma)$</span>.
@@ -586,7 +586,7 @@ if $W$ is a subspace of $U$,
 $\sigma(W)$ is a subspace of $V$.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="rank">
 The <span class="define">rank</span>
 of a linear transformation $\sigma: U\to V$
 is defined by the dimension of the image of $\sigma$,
@@ -608,13 +608,13 @@ if $W$ is a subspace of $V$,
 the set $\sigma^{-1}(W)$ is a subspace of $U$.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="kernel">
 For a linear transformation $\sigma: U\to V$,
 the subspace $\sigma^{-1}(0)$ is called the <span class="define">kernel</span> of $\sigma$,
 and denoted by <span class="notation">$K(\sigma)$</span>.
 </div>
 
-<div class="definition">
+<div class="definition" data-name="nullity">
 For a linear transformation $\sigma: U\to V$,
 the dimension of $K(\sigma)$ is called the <span class="define">nullity</span> of $\sigma$,
 and denoted by <span class="notation">$\nu(\sigma)$</span>.
@@ -759,7 +759,7 @@ there exists a (not necessarily unique) linear transformation of $\sigma:U \to V
 such that $\sigma(u_i)=v_i$ for all $1\leq i\leq r$.
 </div>
 
-<div class="theorem">
+<div class="definition" data-name="projection">
 A linear transformation $\pi$ of a vector space into itself with the property that $\pi^2 = \pi$ is called
 <span class="define">projection</span>.
 </div>
@@ -856,9 +856,12 @@ the rank of $A$ plus the nullity of $A$ is equal to $n$.
 The rank of a product $BA$ is less than or equal to the rank of either factor.
 </div>
 
-
 <!--
 ## Nonsingular matrices
+
+<div class="definition" data-name="endomorphism">
+A homomorphism of a set into itself is called an <span class="define">endomorphism</span>.
+</div>
 
 ## Change of basis
 
