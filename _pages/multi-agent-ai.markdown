@@ -1,7 +1,7 @@
 ---
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Tue Jul 22 20:49:37 EDT 2025
+last_modified_at: Sun Aug 10 23:43:20 KST 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -32,11 +32,11 @@ For entrepreneurs, this means that competitive advantage no longer comes from ha
 The question isn't whether AI agents will revolutionize business operations—it's which entrepreneurs will build the companies that lead that revolution.
 </blockquote>
 
-# Some Podcasts
+# Podcasts
 
-- <a href="https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1/audio">Podcast (20:15)</a>
-- <a href="https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771/audio">Podcast (22:22)</a>
-- <a href="https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361/audio">Podcast (28:15)</a>
+- <a href="https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1/audio">The Multi-Agent AI Revolution: Unlocking Collective Intelligence and New Business Models with Privacy (20:15)</a>
+- <a href="https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771/audio">The Multi-Agent AI Revolution: Unlocking Business Value and Competitive Advantage through Collaborative Intelligence (22:22)</a>
+- <a href="https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361/audio">The Multi-Agent AI Revolution: Unlocking Secure Collaborative Intelligence and Competitive Advantage (28:15)</a>
 
 # The AI Landscape Transformation
 
