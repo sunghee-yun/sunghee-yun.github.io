@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Aug 10 17:44:13 KST 2025
+last_modified_at: Sun Aug 10 21:01:21 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -10,10 +10,10 @@ toc_sticky: true
 ---
 
 <a href="/">I</a> am
-Co-Founder &amp; CEO
-@ Erudio Bio Korea, Inc.,
 Co-Founder &amp; CTO
 @ <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
+Co-Founder &amp; CEO
+@ Erudio Bio Korea, Inc.,
 Chief Business Development Officer (CBDO)
 @ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
 Advisor &amp; Evangelist
