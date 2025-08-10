@@ -16,9 +16,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Define all theorem-like types
     const theoremTypes = ['algorithm', 'axiom', 'conjecture', 'corollary', 'definition', 'formula', 'inequality', 'law', 'lemma', 'principle', 'proposition', 'theorem'];
-
-    // Create a map of IDs to numbers
+    // Create a map of IDs to numbers and data names
     const theoremNumbers = {};
+    const dataNames = {};
 
     // Process each type separately for separate numbering
     theoremTypes.forEach(type => {
@@ -26,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
         elements.forEach((element, index) => {
             if (element.id) {
                 theoremNumbers[element.id] = index + 1;
+                // Use getAttribute to get the data-name attribute
+                dataNames[element.id] = element.getAttribute('data-name') || '';
             }
         });
     });
@@ -39,7 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchingType = theoremTypes.find(type => target.classList.contains(type));
             if (matchingType) {
                 const type = matchingType.charAt(0).toUpperCase() + matchingType.slice(1);
-                link.textContent = `${type} ${theoremNumbers[targetId]}`;
+                const dataName = dataNames[targetId];
+                // Include data-name in brackets if it exists
+                if (dataName) {
+                    link.textContent = `${type} ${theoremNumbers[targetId]} [${dataName}]`;
+                } else {
+                    link.textContent = `${type} ${theoremNumbers[targetId]}`;
+                }
             }
         }
     });

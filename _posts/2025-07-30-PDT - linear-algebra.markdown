@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Sun Aug 10 16:39:12 KST 2025
+last_modified_at: Sun Aug 10 22:37:10 KST 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -59,15 +59,172 @@ and is denoted by <span class="notation">$F$</span>.
 	called their <span class="define">sum</span>, which we denote by
 	<span class="notation">
 	$$
-\newcommand{\reals}{\mathbb{R}}
-\newcommand{\complexes}{\mathbb{C}}
-\newcommand{\integers}{\mathbb{Z}}
-\newcommand{\Prob}{\mathop{\bf Prob}}
-\newcommand{\Expect}{\mathop{\bf E{}}}
 \newcommand{\sign}{\mathop{\bf sign}}
-\newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 \newcommand{\lspan}[1]{\langle{#1}\rangle} % linear span
 \newcommand{\image}{\text{Im}}
+%
+\newcommand{\algA}{\algk{A}}
+\newcommand{\algC}{\algk{C}}
+\newcommand{\bigtimes}{\times}
+\newcommand{\compl}[1]{\tilde{#1}}
+\newcommand{\complexes}{\mathbb{C}}
+\newcommand{\dom}{\mathop{\bf dom {}}}
+\newcommand{\ereals}{\reals\cup\{-\infty,\infty\}}
+\newcommand{\field}{\mathbb{F}}
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\lbdseqk}[1]{\seqk{\lambda}{#1}}
+\newcommand{\meas}[3]{({#1}, {#2}, {#3})}
+\newcommand{\measu}[2]{({#1}, {#2})}
+\newcommand{\meast}[3]{\left({#1}, {#2}, {#3}\right)}
+\newcommand{\naturals}{\mathbb{N}}
+\newcommand{\nuseqk}[1]{\seqk{\nu}{#1}}
+\newcommand{\pair}[2]{\langle {#1}, {#2}\rangle}
+\newcommand{\rationals}{\mathbb{Q}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\seq}[1]{\left\langle{#1}\right\rangle}
+\newcommand{\powerset}{\mathcal{P}}
+\newcommand{\pprealk}[1]{\reals_{++}^{#1}}
+\newcommand{\ppreals}{\mathbb{R}_{++}}
+\newcommand{\prealk}[1]{\reals_{+}^{#1}}
+\newcommand{\preals}{\mathbb{R}_+}
+\newcommand{\tXJ}{\topos{X}{J}}
+%
+\newcommand{\relint}{\mathop{\bf relint {}}}
+\newcommand{\boundary}{\mathop{\bf bd {}}}
+\newcommand{\subsetset}[1]{\mathcal{#1}}
+\newcommand{\Tr}{\mathcal{\bf Tr}}
+\newcommand{\symset}[1]{\mathbf{S}^{#1}}
+\newcommand{\possemidefset}[1]{\mathbf{S}_+^{#1}}
+\newcommand{\posdefset}[1]{\mathbf{S}_{++}^{#1}}
+\newcommand{\ones}{\mathbf{1}}
+\newcommand{\Prob}{\mathop{\bf Prob {}}}
+\newcommand{\prob}[1]{\Prob\left\{#1\right\}}
+\newcommand{\Expect}{\mathop{\bf E {}}}
+\newcommand{\Var}{\mathop{\bf  Var{}}}
+\newcommand{\Mod}[1]{\;(\text{mod}\;#1)}
+\newcommand{\ball}[2]{B(#1,#2)}
+\newcommand{\generates}[1]{\langle {#1} \rangle}
+\newcommand{\isomorph}{\approx}
+\newcommand{\isomorph}{\approx}
+\newcommand{\nullspace}{\mathcalfont{N}}
+\newcommand{\range}{\mathcalfont{R}}
+\newcommand{\diag}{\mathop{\bf diag {}}}
+\newcommand{\rank}{\mathop{\bf rank {}}}
+\newcommand{\Ker}{\mathop{\mathrm{Ker} {}}}
+\newcommand{\Map}{\mathop{\mathrm{Map} {}}}
+\newcommand{\End}{\mathop{\mathrm{End} {}}}
+\newcommand{\Img}{\mathop{\mathrm{Im} {}}}
+\newcommand{\Aut}{\mathop{\mathrm{Aut} {}}}
+\newcommand{\Gal}{\mathop{\mathrm{Gal} {}}}
+\newcommand{\Irr}{\mathop{\mathrm{Irr} {}}}
+\newcommand{\arginf}{\mathop{\mathrm{arginf}}}
+\newcommand{\argsup}{\mathop{\mathrm{argsup}}}
+\newcommand{\argmin}{\mathop{\mathrm{argmin}}}
+\newcommand{\ev}{\mathop{\mathrm{ev} {}}}
+\newcommand{\affinehull}{\mathop{\bf aff {}}}
+\newcommand{\cvxhull}{\mathop{\bf Conv {}}}
+\newcommand{\epi}{\mathop{\bf epi {}}}
+\newcommand{\injhomeo}{\hookrightarrow}
+\newcommand{\perm}[1]{\text{Perm}(#1)}
+\newcommand{\aut}[1]{\text{Aut}(#1)}
+\newcommand{\ideal}[1]{\mathfrak{#1}}
+\newcommand{\bigset}[2]{\left\{#1\left|{#2}\right.\right\}}
+\newcommand{\bigsetl}[2]{\left\{\left.{#1}\right|{#2}\right\}}
+\newcommand{\primefield}[1]{\field_{#1}}
+\newcommand{\dimext}[2]{[#1:{#2}]}
+\newcommand{\restrict}[2]{#1|{#2}}
+\newcommand{\algclosure}[1]{#1^\mathrm{a}}
+\newcommand{\finitefield}[2]{\field_{#1^{#2}}}
+\newcommand{\frobmap}[2]{\varphi_{#1,{#2}}}
+%
+%\newcommand{\algfontmode}{}
+%
+%\ifdefined\algfontmode
+%\newcommand\mathalgfont[1]{\mathcal{#1}}
+%\newcommand\mathcalfont[1]{\mathscr{#1}}
+%\else
+\newcommand\mathalgfont[1]{\mathscr{#1}}
+\newcommand\mathcalfont[1]{\mathcal{#1}}
+%\fi
+%
+%\def\DeltaSirDir{yes}
+%\newcommand\sdirletter[2]{\ifthenelse{\equal{\DeltaSirDir}{yes}}{\ensuremath{\Delta #1}}{\ensuremath{#2}}}
+\newcommand{\sdirletter}[2]{\Delta #1}
+\newcommand{\sdirlbd}{\sdirletter{\lambda}{\Delta \lambda}}
+\newcommand{\sdir}{\sdirletter{x}{v}}
+\newcommand{\seqk}[2]{#1^{(#2)}}
+\newcommand{\seqscr}[3]{\seq{#1}_{#2}^{#3}}
+\newcommand{\xseqk}[1]{\seqk{x}{#1}}
+\newcommand{\sdirk}[1]{\seqk{\sdir}{#1}}
+\newcommand{\sdiry}{\sdirletter{y}{\Delta y}}
+\newcommand{\slen}{t}
+\newcommand{\slenk}[1]{\seqk{\slen}{#1}}
+\newcommand{\ntsdir}{\sdir_\mathrm{nt}}
+\newcommand{\pdsdir}{\sdir_\mathrm{pd}}
+\newcommand{\sdirnu}{\sdirletter{\nu}{w}}
+\newcommand{\pdsdirnu}{\sdirnu_\mathrm{pd}}
+\newcommand{\pdsdiry}{\sdiry_\mathrm{pd}}
+\newcommand\pdsdirlbd{\sdirlbd_\mathrm{pd}}
+%
+\newcommand{\normal}{\mathcalfont{N}}
+%
+\newcommand{\algk}[1]{\mathalgfont{#1}}
+\newcommand{\collk}[1]{\mathcalfont{#1}}
+\newcommand{\classk}[1]{\collk{#1}}
+\newcommand{\indexedcol}[1]{\{#1\}}
+\newcommand{\rel}{\mathbf{R}}
+\newcommand{\relxy}[2]{#1\;\rel\;{#2}}
+\newcommand{\innerp}[2]{\langle{#1},{#2}\rangle}
+\newcommand{\innerpt}[2]{\left\langle{#1},{#2}\right\rangle}
+\newcommand{\closure}[1]{\overline{#1}}
+\newcommand{\support}{\mathbf{support}}
+\newcommand{\set}[2]{\{#1|#2\}}
+\newcommand{\metrics}[2]{\langle {#1}, {#2}\rangle}
+\newcommand{\interior}[1]{#1^\circ}
+\newcommand{\topol}[1]{\mathfrak{#1}}
+\newcommand{\topos}[2]{\langle {#1}, \topol{#2}\rangle} % topological space
+%
+\newcommand{\alg}{\algk{A}}
+\newcommand{\algB}{\algk{B}}
+\newcommand{\algF}{\algk{F}}
+\newcommand{\algR}{\algk{R}}
+\newcommand{\algX}{\algk{X}}
+\newcommand{\algY}{\algk{Y}}
+%
+\newcommand\coll{\collk{C}}
+\newcommand\collB{\collk{B}}
+\newcommand\collF{\collk{F}}
+\newcommand\collG{\collk{G}}
+\newcommand{\tJ}{\topol{J}}
+\newcommand{\tS}{\topol{S}}
+\newcommand\openconv{\collk{U}}
+%
+\newenvironment{my-matrix}[1]{\begin{bmatrix}}{\end{bmatrix}}
+\newcommand{\colvectwo}[2]{\begin{my-matrix}{c}{#1}\\{#2}\end{my-matrix}}
+\newcommand{\colvecthree}[3]{\begin{my-matrix}{c}{#1}\\{#2}\\{#3}\end{my-matrix}}
+\newcommand{\rowvecthree}[3]{\begin{bmatrix}{#1}&{#2}&{#3}\end{bmatrix}}
+\newcommand{\mattwotwo}[4]{\begin{bmatrix}{#1}&{#2}\\{#3}&{#4}\end{bmatrix}}
+%
+\newcommand\optfdk[2]{#1^\mathrm{#2}}
+\newcommand\tildeoptfdk[2]{\tilde{#1}^\mathrm{#2}}
+\newcommand\fobj{\optfdk{f}{obj}}
+\newcommand\fie{\optfdk{f}{ie}}
+\newcommand\feq{\optfdk{f}{eq}}
+\newcommand\tildefobj{\tildeoptfdk{f}{obj}}
+\newcommand\tildefie{\tildeoptfdk{f}{ie}}
+\newcommand\tildefeq{\tildeoptfdk{f}{eq}}
+\newcommand\xdomain{\mathcalfont{X}}
+\newcommand\xobj{\optfdk{\xdomain}{obj}}
+\newcommand\xie{\optfdk{\xdomain}{ie}}
+\newcommand\xeq{\optfdk{\xdomain}{eq}}
+\newcommand\optdomain{\mathcalfont{D}}
+\newcommand\optfeasset{\mathcalfont{F}}
+%
+\newcommand{\bigpropercone}{\mathcalfont{K}}
+%
+\newcommand{\prescript}[3]{\;^{#1}{#3}}
+%
+%
 		a+b
 	$$
 	</span>
@@ -713,7 +870,7 @@ hence the proof!
 If $K(\tau) \subset \image(\sigma)$, $\rho(\sigma) = \rho(\tau\sigma) + \nu(\tau)$.
 </div>
 
-<div class="theorem">
+<div class="theorem" id="theorem:rank-of-composition-of-linear-transformations">
 The rank of a product (<i>i.e.</i>, composition) of two linear transformations
 is less than  or equal to the rank of either factor:
 $$
@@ -856,13 +1013,84 @@ the rank of $A$ plus the nullity of $A$ is equal to $n$.
 The rank of a product $BA$ is less than or equal to the rank of either factor.
 </div>
 
-<!--
 ## Nonsingular matrices
 
 <div class="definition" data-name="endomorphism">
 A homomorphism of a set into itself is called an <span class="define">endomorphism</span>.
 </div>
 
+<div class="definition" data-name="automorphism">
+A one-to-one linear transformation $\sigma$ of a vector space onto itself is called an <span class="define">automorphism</span>.
+</div>
+
+<div class="theorem">
+The inverse of an automorphism is an automorphism.
+</div>
+
+<div class="theorem">
+A linear transformation of an $n$-dimensional vector space into itself
+is an automorphism if and only if it is of rank $n$,
+<i>i.e.</i>, if and only if it is an epimorphism.
+</div>
+
+<div class="theorem">
+A linear transformation of an $n$-dimensional vector space into itself
+is an automorphism if and only if its nullity is 0,
+<i>i.e.</i>, if and only if it is an monomorphism.
+</div>
+
+<div class="definition" data-name="nonsingular linear transformation">
+A linear transformation that has an inverse is said to be <span class="define">nonsingular</span> or <span class="define">invertible</span>;
+otherwise it is said to be <span class="define">singular</span>.
+</div>
+
+<div class="definition" data-name="nonsingular matrices">
+A matrix that has an inverse is said to be <span class="define">nonsingular</span> or <span class="define">invertible</span>.
+Only a square matrix can have an inverse.
+</div>
+
+Suppose for $A\in F^{n\times n}$, there exists $B\in F^{n\times n}$ such that $BA=I$,
+[](#theorem:rank-of-composition-of-linear-transformations) implies $\rank A = n$,
+hence $A$ represents an automorphism $\sigma$.
+By definition, $B$ represents the inverse transformation $\sigma^{-1}$,
+hence $B = A^{-1}$.
+Using the very same argument,
+if $C\in F^{n\times n}$ satisfies $AC=I$,
+then $C=A^{-1}$.
+
+<div class="theorem">
+If $A$ and $B$ are square matrices satisfying $BA=I$, then $AB=I$.
+If $A$ and $B$ are square matrices satisfying $AB=I$, then $BA=I$.
+In either case, $B$ is the <i>unique</i> inverse of $A$.
+</div>
+
+<div class="theorem">
+If $A$ and $B$ are nonsingular,
+<ul>
+<li>
+	$AB$ is nonsingular and $(AB)^{-1} = B^{-1} A^{-1}$,
+</li>
+<li>
+	$A^{-1}$ is nonsingular and $(A^{-1})^{-1} = A$,
+</li>
+<li>
+	for $a\neq0$, $aA$ is nonsingular and $(aA)^{-1} = a^{-1} A^{-1}$.
+</li>
+</ul>
+</div>
+
+<div class="theorem">
+If $A$ is nonsingular,
+we can solve uniquely the equations $XA=B$ and $AY=B$ for any matrix $B$ of the proper size
+(but the two solutions need not be equal).
+</div>
+
+<div class="theorem">
+The rank of a (not necessarily square) matrix is not changed
+by multiplication by a nonsingular matrix.
+</div>
+
+<!--
 ## Change of basis
 
 ## Hermite normal form
