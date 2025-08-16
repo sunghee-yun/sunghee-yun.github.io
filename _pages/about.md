@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Aug 10 21:01:21 KST 2025
+last_modified_at: Sun Aug 17 03:02:08 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -108,7 +108,10 @@ My life goal is to help build a future where humanity thrives through the advanc
 	<td>KIC office</td><td>- <a href="https://maps.app.goo.gl/EQR3rsKcMmDqNELH6">3003 N First St, San Jose, CA 95134, USA</a></td>
 </tr>
 <tr>
-	<td>Seoul office</td><td>- <a href="https://naver.me/GPrFr8UZ">Seocho-gu Gangnam-daero 51-gil 1, Seoul 06628, Korea</a></td>
+	<td>Tech Biz Center</td><td>- <a href="https://naver.me/FLyt9xfR">Deokjin-gu Ogong-ro 123, Jeonju-si, Jeonbuk-do, 54870, Korea</a></td>
+</tr>
+<tr>
+	<td>Seoul office</td><td>- <a href="https://naver.me/GPrFr8UZ">Seocho-gu Gangnam-daero 51-gil 1, Seoul, 06628, Korea</a></td>
 </tr>
 <tr>
 	<td>kakaotalk ID</td><td>- shoptyun</td>

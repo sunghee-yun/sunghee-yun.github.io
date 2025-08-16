@@ -63,7 +63,7 @@ plugins:
 author:
   name             : "Mr. Funnybunny"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Co-Founder &amp; CTO @ [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/), Co-Founder &amp; CEO @ Erudio Bio Korea, Inc., Chief Business Development Officer @ [WeStory.ai](https://westory.ai/), Advisor &amp; Evangelist @ [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/home/), [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/people?userID=55317&eventID=11076) @ [Salzburg Global Seminar](https://www.salzburgglobal.org/), Adjunct Professor @ [Sogang University](https://ee.sogang.ac.kr/eng/employee/professor03.php), Advisory Professor @ [DGIST](https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor), Global Advisory Board Member @ [Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University](https://bk4semicon.sogang.ac.kr/kor/about/org.php), Network Expert @ [Gerson Lehrman Group](https://glginsights.com/)"
+  bio              : "Co-Founder &amp; CTO @ [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/), Co-Founder &amp; CEO @ Erudio Bio Korea, Inc., Organization Manager @ [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/), [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/people?userID=55317&eventID=11076) @ [Salzburg Global Seminar](https://www.salzburgglobal.org/), Adjunct Professor @ [Sogang University](https://ee.sogang.ac.kr/eng/employee/professor03.php), Advisory Professor @ [DGIST](https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor), Global Advisory Board Member @ [Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University](https://bk4semicon.sogang.ac.kr/kor/about/org.php), Network Expert @ [Gerson Lehrman Group](https://glginsights.com/), Advisor &amp; Evangelist @ [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/home/), Chief Business Development Officer @ [WeStory.ai](https://westory.ai/)"
 #  location         : "Palo Alto, CA, USA"
 #  email            : sunghee.yun@gmail.com
   links:
@@ -100,6 +100,9 @@ author:
     - label: "KIC, San Jose, CA, USA"
       icon: "fa-solid fa-building"
       url: "https://maps.app.goo.gl/EQR3rsKcMmDqNELH6"
+    - label: "Jeonbuk Tech Biz Center, South Korea"
+      icon: "fa-solid fa-building"
+      url: "https://naver.me/FLyt9xfR"
     - label: "D.N., Seoul, South Korea"
       icon: "fa-regular fa-building"
       url: "https://naver.me/GPrFr8UZ"
@@ -179,6 +182,9 @@ footer:
     - label: "KIC, San Jose, CA, USA"
       icon: "fa-solid fa-building"
       url: "https://maps.app.goo.gl/EQR3rsKcMmDqNELH6"
+    - label: "Jeonbuk Tech Biz Center, South Korea"
+      icon: "fa-solid fa-building"
+      url: "https://naver.me/FLyt9xfR"
     - label: "D.N., Seoul, South Korea"
       icon: "fa-regular fa-building"
       url: "https://naver.me/GPrFr8UZ"
