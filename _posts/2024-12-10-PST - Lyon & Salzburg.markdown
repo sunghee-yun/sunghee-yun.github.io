@@ -1,7 +1,7 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Fri Jul 11 12:46:04 PDT 2025
+last_modified_at: Mon Aug 18 02:33:32 KST 2025
 categories:
  - blog
 tags:
@@ -544,8 +544,8 @@ These hearty Bavarian classics, enjoyed in the warm glow of historic establishme
 
 <div class="img-container-justified">
 &nbsp;
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5492.jpg">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5501.JPG">
+<img style="max-width: 37.5%;" src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5492.jpg">
+<img style="max-width: 50.0%;" src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5501.JPG">
 &nbsp;
 </div>
 <figcaption>
