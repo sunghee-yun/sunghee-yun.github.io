@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jul 26 18:16:03 PDT 2025
+last_modified_at: Mon Aug 18 17:45:42 KST 2025
 ---
 
 <!--
@@ -316,7 +316,13 @@ last_modified_at: Sat Jul 26 18:16:03 PDT 2025
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Pohang
 		- 17-Sep-2025 KST
-		- <i>Train tickets not purchased yet</i>
+		- [KTX](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
+			&ndash; from Gwangmyeong @ 8:54am to Pohang @ 10:55am on 17-Sep-2025 KST
+		- [KTX](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
+			&ndash; from Pohang @ 9:36pm to Gwangmyeong @ 11:48pm on 17-Sep-2025 KST
+	- 2 night trip to Suwon
+		- 22-Sep-2025 ~ 24-Sep-2025 KST
+		- [stay](/resource/trips/2025-09 - Seoul/Hotel Reservation for Quantum Bio - 2025 0922 ~ 0924.pdf) @ [Courtyard Marriott Suwon](https://naver.me/xAF7m4Em)
 
 <h4>Aug</h4>
 
@@ -332,6 +338,7 @@ last_modified_at: Sat Jul 26 18:16:03 PDT 2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 night trip to Pohang
+		- 12-Aug-2025 ~ 13-Aug-2025
 		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
 			&ndash; from Suseo @ 9:20am to Gyungjoo @ 11:26am on 12-Aug-2025 KST
 		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
@@ -350,8 +357,6 @@ last_modified_at: Sat Jul 26 18:16:03 PDT 2025
 		&ndash; from EWR @ 3:55pm EDT to SFO @ 7:04pm PDT on 25-Aug-2025
 		(6h 9m)
 	- stay @ [Jisun's home, Scarsdale, NY](https://maps.app.goo.gl/EgzEBKAEsukPLgdQ7)
-	- 1 night trip to Pohang
-		 - 12-Aug-2025 ~ 13-Aug-2025
 
 <h4>Jun</h4>
 
