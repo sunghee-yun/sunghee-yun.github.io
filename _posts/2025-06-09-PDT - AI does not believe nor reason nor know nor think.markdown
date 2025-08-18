@@ -1,7 +1,7 @@
 ---
 title: AI (with current ML/DL architecture) does not believe nor reason nor know nor think!
 date: Mon Jun  9 14:27:31 PDT 2025
-last_modified_at: Mon Aug 18 20:26:36 KST 2025
+last_modified_at: Mon Aug 18 22:40:51 KST 2025
 permalink: /ai/reason
 categories:
  - blog
@@ -63,9 +63,12 @@ The future belongs not to human-like AI, but to AI that amplifies uniquely human
 
 # NotebookLM Podcasts
 
-- [Decoding AI - Why Large Language Models Don't Think, Believe, or Know Like Us](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=9b14b9db-aca0-495d-a033-556c696651af)
-- [Beyond Belief - Deconstructing AI's True Capabilities and Humanizing the Machine](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=e5b8c9e6-7af9-4ceb-b698-1818488c7da9)
-- [Beyond Human - Deconstructing AI's True Capabilities and Limits](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=a199d127-3a6d-4f06-8326-cfbab1022739)
+- [Decoding AI - Why Large Language Models Don't Think, Believe, or Know Like Us (14:29)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=9b14b9db-aca0-495d-a033-556c696651af)
+- [Beyond Belief - Deconstructing AI's True Capabilities and Humanizing the Machine (13:00)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=e5b8c9e6-7af9-4ceb-b698-1818488c7da9)
+- [Beyond Human - Deconstructing AI's True Capabilities and Limits (10:47)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=a199d127-3a6d-4f06-8326-cfbab1022739)
+- [Decoding AI - Why Large Language Models Don't Think, Believe, or Know Like Us (10:34)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=2f0bb0e9-8350-4af3-98b2-152ae623e7db)
+- [Decoding AI - Why Your LLM Doesn't Think, Believe, or Know (and Why It Matters) (12:12)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=061caa44-48ed-41bd-8682-22e8686a3548)
+- [Beyond Belief - Why Your AI Doesn't Think Like You Do (11:10)](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=e20bdee2-dd0c-49e2-b450-4133c8a55a07)
 
 # The Illusion of Understanding
 
