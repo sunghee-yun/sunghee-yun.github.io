@@ -1,7 +1,7 @@
 ---
 title: AI (with current ML/DL architecture) does not believe nor reason nor know nor think!
 date: Mon Jun  9 14:27:31 PDT 2025
-last_modified_at: Mon Aug 18 17:50:20 KST 2025
+last_modified_at: Mon Aug 18 20:26:36 KST 2025
 permalink: /ai/reason
 categories:
  - blog
@@ -60,6 +60,12 @@ This clarity doesn't diminish the achievement—it grounds it in reality, where 
 The future belongs not to human-like AI, but to AI that amplifies uniquely human capabilities while remaining clearly and distinctly itself. This distinction isn't a limitation—it's the foundation for a technological future worthy of our highest aspirations.
 </span>
 </blockquote>
+
+# NotebookLM Podcasts
+
+- [Decoding AI - Why Large Language Models Don't Think, Believe, or Know Like Us](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=9b14b9db-aca0-495d-a033-556c696651af)
+- [Beyond Belief - Deconstructing AI's True Capabilities and Humanizing the Machine](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=e5b8c9e6-7af9-4ceb-b698-1818488c7da9)
+- [Beyond Human - Deconstructing AI's True Capabilities and Limits](https://notebooklm.google.com/notebook/71746115-d83a-4fd0-a47b-867210e33405?artifactId=a199d127-3a6d-4f06-8326-cfbab1022739)
 
 # The Illusion of Understanding
 
