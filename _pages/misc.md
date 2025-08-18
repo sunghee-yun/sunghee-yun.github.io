@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Aug 18 17:45:42 KST 2025
+last_modified_at: Mon Aug 18 20:12:47 KST 2025
 ---
 
 <!--
@@ -67,6 +67,10 @@ last_modified_at: Mon Aug 18 17:45:42 KST 2025
 
 ## 2025 {#arts-and-culture-2025}
 
+- ME
+	&ndash; Movie
+	&ndash; [Independence Army - A War that has not ended](/resource/tickets/2025-08/KakaoTalk_Photo_2025-08-18-19-58-23.jpeg)
+	@ [CGV Riverside, Seoul, South Korea](https://naver.me/xFLuJl2r)
 - Ghayoung and ME
 	&ndash; Classical Music Concert
 	&ndash; Festival Orchestra of Lincoln Center - Forklore &amp; Legends
