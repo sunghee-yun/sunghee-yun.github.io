@@ -427,6 +427,7 @@
 		]
 	},
 	{
+		"id": "to-cot-or-not-to-cot",
 		"category": ["ai", "llm"],
 		"title": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning arxiv",
 		"date": "18-Sep-2024",

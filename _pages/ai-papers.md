@@ -307,7 +307,7 @@ Korean versions
 	@ 05-Nov-2024
 	(<a href="https://arxiv.org/abs/2411.02959v1">arxiv</a>)
 </li>
-<li>
+<li id="to-cot-or-not-to-cot">
 	"To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning arxiv"
 	@ 18-Sep-2024
 	(<a href="https://arxiv.org/abs/2409.12183">arxiv</a>)
@@ -640,7 +640,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	@ 30-Sep-2024
 	(<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394268832.ch21">Wiley</a>)
 </li>
-<li>
+<li id="to-cot-or-not-to-cot">
 	"To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning arxiv"
 	@ 18-Sep-2024
 	(<a href="https://arxiv.org/abs/2409.12183">arxiv</a>)
