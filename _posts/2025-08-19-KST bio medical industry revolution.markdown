@@ -1,7 +1,7 @@
 ---
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Wed Aug 20 01:13:14 KST 2025
+last_modified_at: Wed Aug 20 03:59:42 KST 2025
 permalink: /blog/bio-medical-revolution
 categories:
  - blog
@@ -117,6 +117,15 @@ These uniquely human experiences—and the wisdom they generate—must remain at
 We stand at an unprecedented convergence: AI technology has finally matured enough to tackle biology's complexity, just as our greatest health challenges—born from extended lifespans our DNA never anticipated—demand revolutionary solutions. Yet we must ensure this revolution serves human flourishing, not technological dominance.
 </span>
 </blockquote-->
+
+# NotebookLM Podcasts
+
+- [Living Healthier, Longer: The AI, Biology, and  Health Asset Revolution (19:28)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=4520a696-127a-4b99-bd5c-0eb24a9d2fb9)
+- [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset_Management (21:50)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=ec8665c0-d07c-4cd5-bb24-ac718f50539a)
+- [Healthspan Revolution: AI, Biology, and Mastering Your Life s Most Valuable Asset (26:14)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=1176ebd9-ddd5-4b84-9c3d-ef28761df1fc)
+- [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management (18:36)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=7c3f3918-d8fb-440b-8373-06b069398987)
+- [Longevity's Next Frontier: How AI and Health Asset Management are Redefining Human Thriving (27:05)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=05740307-8d59-4d9e-a5f1-f4a19598f9d5)
+- [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management (20:31)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=c81f5614-a35a-47ea-95de-fd20af7e8db1)
 
 # The Durable Truth That Changes Everything
 
