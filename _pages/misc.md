@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Aug 19 16:42:38 KST 2025
+last_modified_at: Tue Aug 19 16:59:18 KST 2025
 ---
 
 <!--
@@ -353,8 +353,10 @@ last_modified_at: Tue Aug 19 16:42:38 KST 2025
 		- 19-Aug-2025 KST ([SRT invoice](/resource/trips/2025-08 - Seoul/2025 0819 KST - biz travel - train fare - KRW 80,300.pdf))
 		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1020 - Suseo -> Iksan.jpeg)
 			&ndash; from Suseo @ ~~10:20am~~ 10:35am to Iksan @ ~~11:47am~~ 12:05pm on 19-Aug-2025 KST
+			(1h 30m)
 		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1615 - Iksan -> Suseo.jpeg)
 			&ndash; from Iksan @ 4:15pm to Suseo @ 5:36pm on 19-Aug-2025 KST
+			(1h 21m)
 
 <h4>Jul</h4>
 
