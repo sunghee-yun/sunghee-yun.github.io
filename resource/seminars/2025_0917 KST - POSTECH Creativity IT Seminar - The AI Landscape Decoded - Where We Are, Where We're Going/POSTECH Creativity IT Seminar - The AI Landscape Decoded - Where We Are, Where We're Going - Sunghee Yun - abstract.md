@@ -1,0 +1,23 @@
+---
+layout: single
+title: "[POSTECH Creativity IT Seminar] The AI Landscape Decoded - Where We Are, Where We're Going"
+permalink: /seminars/2025_0917 KST - POSTECH Creativity IT Seminar - The AI Landscape Decoded - Where We Are, Where We're Going/abstract
+last_modified_at: Wed Aug 20 02:57:21 KST 2025
+author_profile: true
+---
+
+# Abstract
+
+Artificial Intelligence (AI) has evolved from symbolic reasoning and rule-based systems to the transformative breakthroughs of deep learning, large language models (LLMs), and multimodal generative AI. This seminar explores the trajectory of AI development, highlighting pivotal milestones such as the deep learning revolution, the advent of Transformer architectures, and the rise of agentic AI systems. We will examine how technological progress—fueled by exponential data growth, advances in hardware accelerators, and massive private and public investments—has propelled AI into the mainstream, reshaping industries and redefining productivity at an unprecedented pace.
+
+A central theme of the seminar is the emergence of AI agents powered by multimodal LLMs. These systems integrate text, vision, audio, and structured data to perceive, reason, and act in complex environments, ushering in a new era of human-AI collaboration. Applications span from creative design and scientific discovery to healthcare diagnostics and autonomous systems, revealing both the vast potential and the pressing challenges in building reliable, interpretable, and ethical AI systems. Alongside these technological advances, we will also discuss critical societal questions around bias, consciousness, and the implications of striving for human-level AI.
+
+Finally, the seminar connects AI’s evolution with biotechnology, where models like AlphaFold have demonstrated AI’s ability to solve grand scientific challenges. By accelerating drug discovery, enabling personalized medicine, and integrating multi-omic data, AI is reshaping the future of healthcare and life sciences. These developments highlight not only the extraordinary promise of AI as a creative and scientific partner but also the responsibilities of researchers, industry leaders, and policymakers in steering AI toward outcomes that enhance human welfare while mitigating risks.
+
+## shorter version
+
+Artificial Intelligence (AI) has progressed from symbolic reasoning and rule-based systems to deep learning, large language models (LLMs), and multimodal generative AI. This seminar traces major milestones, including the rise of Transformers and agentic AI, showing how advances in data, hardware, and investment have accelerated adoption and reshaped industries.
+
+A central focus is the emergence of AI agents powered by multimodal LLMs, integrating text, vision, audio, and structured data. These agents enable creative design, scientific discovery, healthcare diagnostics, and autonomous systems, while raising questions of reliability, bias, and ethics. We will also consider whether AI can reason, believe, or approach human-level performance, and what this means for society.
+
+The seminar further explores AI’s convergence with biotechnology. Models like AlphaFold have solved long-standing challenges and opened paths to personalized medicine, drug discovery, and data-driven biology. Together, these advances demonstrate AI’s role as both a creative partner and a driver of transformative impact in science, technology, and healthcare.
