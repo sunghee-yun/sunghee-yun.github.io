@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Aug 19 16:59:18 KST 2025
+last_modified_at: Tue Aug 19 22:46:35 KST 2025
 ---
 
 <!--
@@ -343,18 +343,26 @@ last_modified_at: Tue Aug 19 16:59:18 KST 2025
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Jeonbuk &amp; Daejun
 		- 08-Aug-2025 KST
+		- KTX 451
+			&ndash; from Gwangmyeong @ 7:55am to Iksan @ 8:53am on 08-Aug-2025 KST
+			(58m)
+		- KTX 451
+			&ndash; from Daejeon @ 6:25pm to Gwangmyeong @ 7:13pm on 08-Aug-2025 KST
+			(48m)
 	- 1 night trip to Pohang
 		- 12-Aug-2025 ~ 13-Aug-2025 KST ([SRT invoice](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf))
-		- SRT
+		- SRT 321
 			&ndash; from Suseo @ 9:20am to Gyungjoo @ 11:26am on 12-Aug-2025 KST
-		- SRT
+			(2h 6m)
+		- SRT 370
 			&ndash; from Gyungjoo @ 9:05pm to Suseo @ 11:12pm on 13-Aug-2025 KST
+			(2h 7m)
 	- 1 day trip to Iksan
 		- 19-Aug-2025 KST ([SRT invoice](/resource/trips/2025-08 - Seoul/2025 0819 KST - biz travel - train fare - KRW 80,300.pdf))
-		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1020 - Suseo -> Iksan.jpeg)
+		- [SRT 607 13-6B](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1020 - Suseo -> Iksan.jpeg)
 			&ndash; from Suseo @ ~~10:20am~~ 10:35am to Iksan @ ~~11:47am~~ 12:05pm on 19-Aug-2025 KST
 			(1h 30m)
-		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1615 - Iksan -> Suseo.jpeg)
+		- [SRT 614 3-10C](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1615 - Iksan -> Suseo.jpeg)
 			&ndash; from Iksan @ 4:15pm to Suseo @ 5:36pm on 19-Aug-2025 KST
 			(1h 21m)
 
