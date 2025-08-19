@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Aug 18 20:12:47 KST 2025
+last_modified_at: Tue Aug 19 16:42:38 KST 2025
 ---
 
 <!--
@@ -268,7 +268,7 @@ last_modified_at: Mon Aug 18 20:12:47 KST 2025
 		&ndash; OZ 212
 		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 21-Dec-2025
 		(10h 35m)
-	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
 - biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
 	6 nights
@@ -294,7 +294,7 @@ last_modified_at: Mon Aug 18 20:12:47 KST 2025
 		&ndash; OZ 212
 		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 25-Oct-2025
 		(10h 35m)
-	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
 	- 2 night trip to Jeju for International Conference on ICT Convergence (ICTC) 2025
 		@ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
 		- [flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
@@ -317,7 +317,7 @@ last_modified_at: Mon Aug 18 20:12:47 KST 2025
 		&ndash; OZ 212
 		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 27-Sep-2025
 		(10h 35m)
-	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
 	- 1 day trip to Pohang
 		- 17-Sep-2025 KST
 		- [KTX](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
@@ -331,22 +331,30 @@ last_modified_at: Mon Aug 18 20:12:47 KST 2025
 <h4>Aug</h4>
 
 - biz trip to Seoul &ndash; 14 nights
-	- 06-Aug-2025 PDT ~ 20-Aug-2025 PDT
-	- [flight](/resource/trips/2025-08 - Seoul/www.expedia.com-egti-AYV-183-Q5EF.pdf)
+	- 06-Aug-2025 PDT ~ 20-Aug-2025 PDT [flight invoice](/resource/trips/2025-08 - Seoul/www.expedia.com-egti-AYV-183-Q5EF.pdf)
+	- flight
 		&ndash; United 893
 		&ndash; from SFO @ 10:40am on 06-Aug-2025 PDT to ICN @ 3pm on 07-Aug-2025 KST
 		(12h 20m)
-	- [return flight](/resource/trips/2025-08 - Seoul/www.expedia.com-egti-AYV-183-Q5EF.pdf)
+	- return flight
 		&ndash; United 892
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 20-Aug-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
+	- 1 day trip to Jeonbuk &amp; Daejun
+		- 08-Aug-2025 KST
 	- 1 night trip to Pohang
-		- 12-Aug-2025 ~ 13-Aug-2025
-		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
+		- 12-Aug-2025 ~ 13-Aug-2025 KST ([SRT invoice](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf))
+		- SRT
 			&ndash; from Suseo @ 9:20am to Gyungjoo @ 11:26am on 12-Aug-2025 KST
-		- [SRT](/resource/trips/2025-08 - Seoul/SRT - Suseo - Gyungjoo.pdf)
+		- SRT
 			&ndash; from Gyungjoo @ 9:05pm to Suseo @ 11:12pm on 13-Aug-2025 KST
+	- 1 day trip to Iksan
+		- 19-Aug-2025 KST ([SRT invoice](/resource/trips/2025-08 - Seoul/2025 0819 KST - biz travel - train fare - KRW 80,300.pdf))
+		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1020 - Suseo -> Iksan.jpeg)
+			&ndash; from Suseo @ ~~10:20am~~ 10:35am to Iksan @ ~~11:47am~~ 12:05pm on 19-Aug-2025 KST
+		- [SRT](/resource/trips/2025-08 - Seoul/SRT ticket - 2025 0819 1615 - Iksan -> Suseo.jpeg)
+			&ndash; from Iksan @ 4:15pm to Suseo @ 5:36pm on 19-Aug-2025 KST
 
 <h4>Jul</h4>
 
