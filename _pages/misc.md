@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Aug 19 22:46:35 KST 2025
+last_modified_at: Wed Aug 20 17:19:27 KST 2025
 ---
 
 <!--
@@ -338,7 +338,7 @@ last_modified_at: Tue Aug 19 22:46:35 KST 2025
 		(12h 20m)
 	- return flight
 		&ndash; United 892
-		&ndash; from ICN @ 4:50pm KST to SFO @ 11:50am PDT on 20-Aug-2025
+		&ndash; from ICN @ ~~4:50pm~~ 4:42pm KST to SFO @ ~~11:50am~~ 12:04pm PDT on 20-Aug-2025
 		(11h)
 	- stay @ [가락동](https://naver.me/xMjVc5Yq)
 	- 1 day trip to Jeonbuk &amp; Daejun
