@@ -1,0 +1,17 @@
+---
+layout: single
+title: "[SNU ECS Four-Departments Joint Seminar] AI Pulse Check - What Silicon Valley Is Actually Building Right Now"
+permalink: /seminars/2025_0918 KST - SNU ECS Four-Departments Joint Seminar - AI Pulse Check - What Silicon Valley Is Actually Building Right Now/abstract
+last_modified_at: Thu Aug 21 01:49:55 KST 2025
+author_profile: true
+---
+
+# Abstract
+
+This seminar provides a comprehensive examination of artificial intelligence's current trajectory, tracing its evolution from early rule-based systems through the transformative deep learning revolution to today's sophisticated multimodal AI agents. We explore the remarkable progression from the 2012 AlexNet breakthrough and 2016's AlphaGo victory to recent breakthroughs including GPT-4o, Claude Sonnet, and AlphaFold 3, demonstrating how AI has achieved unprecedented capabilities in image recognition, natural language processing, and scientific discovery. The presentation analyzes key market indicators showing AI's explosive growth, including ChatGPT's rapid user acquisition, NVIDIA's exceptional earnings performance, and over $28 billion in cumulative AI startup funding since 2020.
+
+The seminar delves into the emergence of agentic AI as the next frontier, powered by multimodal large language models that integrate text, visual, and audio capabilities. We examine how the success of transformer architectures has revolutionized not just natural language processing but enabled AI systems to connect the non-linguistic world through language-based reasoning. This multimodal approach has spawned sophisticated AI agents capable of perceiving complex environments, reasoning across modalities, and engaging in natural human-AI collaboration across industries from healthcare and scientific research to autonomous vehicles and creative applications.
+
+Drawing from extensive Silicon Valley experience at Samsung, Amazon, Gauss Labs, and Erudio Bio, the presentation offers insider insights into the cultural engine driving innovation in the region. We explore the unique characteristics that enable Silicon Valley's technological leadership: risk-taking culture, genuine respect for technical talent, accessible capital, talent density, and collaborative competition. Through case studies including Amazon's customer-obsessed innovation principles and the challenges of Korean conglomerate spin-offs, we examine how cultural differences in risk appetite, decision-making speed, and innovation focus impact global technology development.
+
+The seminar concludes with strategic insights for bridging Silicon Valley's software and AI strengths with Korea's manufacturing excellence, emphasizing the importance of customer-centric innovation, balancing agility with long-term vision, and fostering cross-cultural collaboration. We address whether current AI enthusiasm represents sustainable growth or speculative hype, comparing AI's trajectory to historical technology adoption cycles while highlighting AI's demonstrated utility across diverse domains. The presentation provides actionable frameworks for leveraging AI to solve real-world industrial challenges while building successful global technology ventures that combine diverse cultural perspectives and technical expertise.
