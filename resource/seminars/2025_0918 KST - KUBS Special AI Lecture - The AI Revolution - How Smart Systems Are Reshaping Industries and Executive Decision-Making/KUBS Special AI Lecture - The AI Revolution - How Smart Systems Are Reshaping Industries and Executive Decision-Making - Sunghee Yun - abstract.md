@@ -1,0 +1,17 @@
+---
+layout: single
+title: "[KUBS Special AI Lecture] The AI Revolution - How Smart Systems Are Reshaping Industries and Executive Decision-Making"
+permalink: /seminars/2025_0918 KST - KUBS Special AI Lecture - The AI Revolution - How Smart Systems Are Reshaping Industries and Executive Decision-Making/abstract
+last_modified_at: Thu Aug 21 01:15:42 KST 2025
+author_profile: true
+---
+
+# Abstract
+
+Artificial Intelligence has evolved dramatically over the past seven decades, progressing from early symbolic reasoning and rule-based systems to today’s era of deep learning, generative AI, and large language models. This trajectory has been marked by milestones such as the deep learning revolution in computer vision, the arrival of transformer architectures, and multimodal systems capable of integrating text, images, and speech. More recently, agentic AI has emerged, with systems able not only to analyze data but to autonomously perceive, reason, and act in context. These advances represent a profound shift in how machines extend and augment human intelligence, ushering in what many now regard as the dawn of a new technological era.
+
+The implications for industry are already visible. In manufacturing, AI-driven virtual metrology, anomaly detection, and time-series modeling are transforming yield management, predictive maintenance, and process optimization. In healthcare, breakthroughs like AlphaFold have reshaped biomedical research, accelerating drug discovery and personalized medicine. In financial services and logistics, AI-powered forecasting and risk modeling are enhancing agility, efficiency, and resilience. Even in creative industries, from advertising and gaming to product design, generative models are redefining what is possible. Across sectors, these applications reveal how AI is no longer a distant frontier technology but a foundational tool that is rewriting the rules of competition and growth.
+
+At the same time, AI’s rise creates new paradigms for executive decision-making. Far from replacing leadership judgment, advanced AI systems increasingly act as collaborators—providing real-time analysis, scenario modeling, and strategic recommendations. Executives are learning to leverage AI not only as an efficiency enabler but as a partner in navigating complexity and uncertainty. The shift toward AI-human collaboration demands a rethinking of decision-making processes, where leaders balance intuition and experience with data-driven insights. This evolution challenges traditional management structures, while offering unprecedented opportunities to redefine productivity, creativity, and strategic foresight at the highest levels of organizations.
+
+Yet opportunities come intertwined with challenges. Executives must navigate issues of data readiness, bias, governance, and ethics while making substantial investments in digital transformation. The accelerating pace of AI development raises concerns about overestimation, hype cycles, and workforce disruption, even as it promises unparalleled economic value. Responsible adoption requires recognizing both the potential and the limits of AI, ensuring trust, accountability, and alignment with human values. This lecture will examine the technological trajectory of AI, its industry-transforming impacts, and the ethical and strategic considerations leaders must weigh. By taking a balanced view, decision-makers can harness AI not merely as a disruptive force but as a catalyst for long-term innovation, resilience, and societal benefit.
