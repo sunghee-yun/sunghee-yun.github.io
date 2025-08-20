@@ -1,8 +1,8 @@
 ---
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Wed Aug 20 03:59:42 KST 2025
-permalink: /blog/bio-medical-revolution
+last_modified_at: Wed Aug 20 13:30:29 KST 2025
+permalink: /bio-medical/revolution
 categories:
  - blog
 tags:
