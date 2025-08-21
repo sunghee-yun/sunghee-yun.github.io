@@ -1,4 +1,5 @@
 ---
+layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
 last_modified_at: Sun Aug 10 23:43:20 KST 2025
@@ -13,6 +14,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true  # Add this line
+author_profile: true
 ---
 
 <!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
