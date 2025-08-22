@@ -36,9 +36,9 @@ The question isn't whether AI agents will revolutionize business operations—it
 
 # Podcasts
 
-- <a href="https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1/audio">The Multi-Agent AI Revolution: Unlocking Collective Intelligence and New Business Models with Privacy (20:15)</a>
-- <a href="https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771/audio">The Multi-Agent AI Revolution: Unlocking Business Value and Competitive Advantage through Collaborative Intelligence (22:22)</a>
-- <a href="https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361/audio">The Multi-Agent AI Revolution: Unlocking Secure Collaborative Intelligence and Competitive Advantage (28:15)</a>
+- [The Multi-Agent AI Revolution: Unlocking Collective Intelligence and New Business Models with Privacy (20:15)](https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1?artifactId=cf5c00cd-164f-400b-9a03-c4ba1414bd5d){:target="_blank"}
+- [The Multi-Agent AI Revolution: Unlocking Business Value and Competitive Advantage through Collaborative Intelligence (22:22)](https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771?artifactId=c8196ae2-6cf6-4f91-9fae-f2b555e169f6){:target="_blank"}
+- [The Multi-Agent AI Revolution: Unlocking Secure Collaborative Intelligence and Competitive Advantage (28:15)](https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361?artifactId=c721e9c3-1534-4b21-b598-47cc64648656){:target="_blank"}
 
 # The AI Landscape Transformation
 
