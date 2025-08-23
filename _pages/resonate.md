@@ -6,10 +6,14 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Aug 23 15:21:30 PDT 2025
+last_modified_at: Sat Aug 23 16:05:08 PDT 2025
 ---
 
-# NotebookLM Podcasts
+<h2>Some Podcasts</h2>
+
+- [Decoding Sunghee Yun - A Homepage Blueprint for Interconnected Thinking and Global Innovation (15:21)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=acf26dc3-e03b-43ea-9c43-2f63294b0a2b){:target="_blank"}
+- [From Biotech to Bach  Synthesizing Innovation, Philosophy, and Global Culture (12:13)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=f9462e07-d446-489f-b8af-86939eac70b8){:target="_blank"}
+- [Deconstructing a Digital Polymath - Unpacking Sunghee Yun's Interconnected Mind and Multifaceted Journey (16:16)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=90470f2a-dfe3-49c1-b028-64911a9a7870){:target="_blank"}
 
 <audio id="podcast-1" controls>
 	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-01.wav">
@@ -26,7 +30,7 @@ last_modified_at: Sat Aug 23 15:21:30 PDT 2025
 	Your browser does not support this shorter audio element.
 </audio>
 
-# Books
+## Books
 
 - [Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
 &ndash; first read and every single problem was solved in 1993; revisited in 1994
@@ -63,15 +67,15 @@ last_modified_at: Sat Aug 23 15:21:30 PDT 2025
 - [Quest for Meaning: Values, Ethics, and the Modern Experience (The Great Courses: Modern Philosophy) - by Robert H. Kane](https://www.thegreatcoursesplus.com/quest-for-meaning-values-ethics-and-the-modern-experience)
 &ndash; first read in 2025
 
-# Artists
+## Artists
 
-## Anne-Marie
+### Anne-Marie
 
 - [<i class="fa-brands fa-square-youtube"></i> Anne Marie - 2002 Song #livevideo #viral #shorts](https://youtube.com/shorts/kecpfUbdBFM?si=mImWS92ebYAyZs_r)
 - [<i class="fa-brands fa-youtube"></i> Anne-Marie - 2002 (Glastonbury 2019)](https://youtu.be/PRXCbRzTeGA?si=4qFtqHGpmmXil6gv)
 - [<i class="fa-brands fa-youtube"></i> 앤-마리(Anne-Marie)의 킬링보이스를 라이브로! – 2002, FRIENDS, Birthday, PSYCHO, Beautiful, Perfect to Me - 딩고뮤직](https://youtu.be/SAzUYWru-w0?si=3-INmLd1VM8WcEqu)
 
-## 송소희
+### 송소희
 
 - [송소희 &#91;Official&#93;](https://www.youtube.com/@SongSohee_Official)
 - [<i class="fa-brands fa-square-youtube"></i> (YouTube Short) Not a Dream (Live) - 사람 목소리가 어떻게 대자연](https://youtube.com/shorts/Yl6RummwdeQ?si=98pcrNlXHpLQ0nbT)
@@ -79,11 +83,11 @@ last_modified_at: Sat Aug 23 15:21:30 PDT 2025
 - [<i class="fa-brands fa-youtube"></i> 송소희(Song Sohee) - 풍류 (장기타령) [Live Clip]](https://youtu.be/cj-5WqYP1VQ?si=un79U7Tba-YzzIq6)
 - [<i class="fa-brands fa-square-youtube"></i> Original Sound (Contains music from: Not a Dream (Live)&sdot;Song So Hee](https://youtube.com/shorts/zzmRjdNzHLM?si=YoDR9kOMkshPdw80)
 
-## 이선희
+### 이선희
 
 - [<i class="fa-brands fa-youtube"></i> 이선희 Lee Sun Hee Concert - 불꽃처럼](https://youtu.be/5TXnHQIxpls?si=-8WlaUmB-JnVGFYw)
 - [<i class="fa-brands fa-square-youtube"></i> 이선희 '불꽃처럼' 최고로 잘 나가던 시절 #shorts](https://youtube.com/shorts/P_8Kh46m5Wk?si=99MMNeV5r4ezR18R)
 
-## 조용필
+### 조용필
 
 - [<i class="fa-brands fa-youtube"></i> 조용필 - 돌아와요 부산항에](https://youtu.be/sfOhQkdexro?si=ijcX-29CW7LyP7S9)
