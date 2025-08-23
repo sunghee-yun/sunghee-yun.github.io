@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jul 12 15:54:31 PDT 2025
+last_modified_at: Sat Aug 23 07:37:18 PDT 2025
 ---
 
 # NotebookLM Podcasts
@@ -40,38 +40,38 @@ Korean versions
 
 # Books
 
-- Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
-&mdash; first read and every single problem was solved in 1993; revisited in 1994
-- Convex Optimization - by Stephen Boyd and Lieven Vandenberghe [Stanford University](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
-&mdash; first encountered what were destined to be in the book in 1999
-- The Elegant Universe - by Brian Greene [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Elegant_Universe)
-&mdash; first read in 2004
-- A Brief History of Time - by Stephen Hawking [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/A_Brief_History_of_Time)
-&mdash; first read in 2010
-- The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Language_of_God)
-&mdash; first read in ~ 2010
-- Justice: What's the Right Thing to Do? - by Michael J. Sandel [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F)
-&mdash; first read in 2011
-- The Power of Now: A Guide to Spiritual Enlightenment - Eckhart Tolle [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Power_of_Now)
-&mdash; first read in ??
-- Practicing Mindfulness: An Introduction to Meditation (The Great Courses: Better Living) — by Mark W. Muesse [The Great Courses](https://www.thegreatcoursesplus.com/practicing-mindfulness-an-introduction-to-meditation)
-&mdash; first read in ~ 2015
-- The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - by Eric Ries [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Lean_Startup)
-&mdash; first read in ~ 2015
-- Zero to One: Notes on Startups, or How to Build the Future - by Peter Thiel [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Zero_to_One)
-&mdash; first read in ~ 2015
-- Sapiens: A Brief History of Humankind - by Yuval Noah Harari [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind)
-&mdash; first read in 2015
-- The Signal and the Noise: Why So Many Predictions Fail - but Some Don't - by Nate Silver [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise)
-&mdash; first read in ~ 2016
-- Thinking, Fast and Slow - by Daniel Kahneman [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
-&mdash; first read in 2016
-- Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller [<i class="fa-brands fa-wikipedia-w"></i>](https://en.wikipedia.org/wiki/Chip_War)
-&mdash; first read in 2024
-- Civil Liberties and the Bill of Rights (The Great Courses: Modern History) - by John E. Finn [The Great Courses](https://www.thegreatcoursesplus.com/civil-liberties-and-the-bill-of-rights)
-&mdash; first read in 2024
-- Quest for Meaning: Values, Ethics, and the Modern Experience (The Great Courses: Modern Philosophy) - by Robert H. Kane [The Great Courses](https://www.thegreatcoursesplus.com/quest-for-meaning-values-ethics-and-the-modern-experience)
-&mdash; first read in 2025
+- [Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
+&ndash; first read and every single problem was solved in 1993; revisited in 1994
+- [Convex Optimization - by Stephen Boyd and Lieven Vandenberghe](https://stanford.edu/~boyd/cvxbook/) [PDF](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+&ndash; first encountered what were destined to be in the book in 1999
+- [The Elegant Universe - by Brian Greene](https://en.wikipedia.org/wiki/The_Elegant_Universe)
+&ndash; first read in 2004
+- [A Brief History of Time - by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time)
+&ndash; first read in 2010
+- [The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins](https://en.wikipedia.org/wiki/The_Language_of_God)
+&ndash; first read in ~ 2010
+- [Justice: What's the Right Thing to Do? - by Michael J. Sandel](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F)
+&ndash; first read in 2011
+- [The Power of Now: A Guide to Spiritual Enlightenment - Eckhart Tolle](https://en.wikipedia.org/wiki/The_Power_of_Now)
+&ndash; first read in ??
+- [Practicing Mindfulness: An Introduction to Meditation (The Great Courses: Better Living) — by Mark W. Muesse](https://www.thegreatcoursesplus.com/practicing-mindfulness-an-introduction-to-meditation)
+&ndash; first read in ~ 2015
+- [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - by Eric Ries](https://en.wikipedia.org/wiki/The_Lean_Startup)
+&ndash; first read in ~ 2015
+- [Zero to One: Notes on Startups, or How to Build the Future - by Peter Thiel](https://en.wikipedia.org/wiki/Zero_to_One)
+&ndash; first read in ~ 2015
+- [Sapiens: A Brief History of Humankind - by Yuval Noah Harari](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind)
+&ndash; first read in 2015
+- [The Signal and the Noise: Why So Many Predictions Fail - but Some Don't - by Nate Silver](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise)
+&ndash; first read in ~ 2016
+- [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+&ndash; first read in 2016
+- [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War)
+&ndash; first read in 2024
+- [Civil Liberties and the Bill of Rights (The Great Courses: Modern History) - by John E. Finn](https://www.thegreatcoursesplus.com/civil-liberties-and-the-bill-of-rights)
+&ndash; first read in 2024
+- [Quest for Meaning: Values, Ethics, and the Modern Experience (The Great Courses: Modern Philosophy) - by Robert H. Kane](https://www.thegreatcoursesplus.com/quest-for-meaning-values-ethics-and-the-modern-experience)
+&ndash; first read in 2025
 
 # Artists
 
