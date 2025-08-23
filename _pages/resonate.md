@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Aug 23 11:28:31 PDT 2025
+last_modified_at: Sat Aug 23 15:21:30 PDT 2025
 ---
 
 # NotebookLM Podcasts
@@ -23,18 +23,6 @@ last_modified_at: Sat Aug 23 11:28:31 PDT 2025
 
 <audio id="podcast-3" controls>
 	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-03.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
-Korean versions
-
-<audio id="podcast-kor-1" controls>
-	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-kor-01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
-<audio id="podcast-kor-2" controls>
-	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-kor-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
