@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Sat Aug 23 22:26:51 PDT 2025
+last_modified_at: Sun Aug 24 10:45:13 PDT 2025
 categories:
  - blog
 tags:
@@ -148,9 +148,17 @@ In hindsight, this position draws insights from existentialist philosophy while 
 
 [Jean-Paul Sartre](https://en.wikipedia.org/wiki/Jean-Paul_Sartre)'s famous declaration that "existence precedes essence" provides a starting point for this understanding. For Sartre, human beings are fundamentally different from other objects in the world because we exist first and then create our essence through our choices and actions. A hammer has its essence (hammerness) determined by its creator's intentions, but humans are "thrown" into existence without predetermined purpose and must create their own essence through radical freedom and responsibility.
 
+<div class="img-container">
+<img src="/resource/posts/2025-01-24-PST - Why do we live/Sartre.jpg">
+</div>
+
 However, Sartre's existentialism, while insightful, tends toward an overly voluntaristic view of meaning creation. In his framework, individuals create meaning through pure will and choice, as if consciousness operates in a social and historical vacuum. This approach underestimates the extent to which meaning emerges through relationships, culture, and intersubjective experience. We don't create meaning in isolation but through engagement with others, with traditions, and with the world around us.
 
 The phenomenological tradition, particularly the work of [Maurice Merleau-Ponty](https://en.wikipedia.org/wiki/Maurice_Merleau-Ponty), offers valuable corrections to pure existentialism. Merleau-Ponty emphasized that consciousness is always embodied consciousness—we encounter the world through our bodies, not just our minds. This embodied engagement creates meaning that isn't purely intellectual or volitional but emerges from our full being-in-the-world. Meaning, from this perspective, isn't something we think into existence but something we live into existence through our embodied practices and relationships.
+
+<div class="img-container">
+<img src="/resource/posts/2025-01-24-PST - Why do we live/Heidegger.jpeg">
+</div>
 
 [Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger)'s concept of [&ldquo;thrownness&rdquo; (Geworfenheit)](https://en.wikipedia.org/wiki/Thrownness) also contributes to this understanding. We don't choose the circumstances of our birth, our cultural context, or many of the fundamental conditions that shape our lives. We are &ldquo;thrown&rdquo; into a particular time, place, and situation. However, within these given conditions, we have the capacity to project ourselves toward future possibilities. Meaning emerges in this dynamic between thrownness and projection—between the given and the chosen.
 
@@ -167,6 +175,10 @@ Several prominent philosophers would likely object to this position. [Thomas Nag
 Nagel's objection deserves careful consideration because it points to a real philosophical problem. However, it may rest on an overly intellectualized understanding of meaning. The infinite regress problem assumes that meaning must be grounded in something more ultimate than itself—but this assumption may be mistaken. Many valuable human experiences and practices don't require ultimate justification to be worthwhile. <span class="emph">We don't need cosmic validation to find music beautiful, love fulfilling, or justice worth pursuing. These experiences carry their value within themselves rather than deriving it from external sources.</span>
 
 [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus) would likely raise different objections to my position. In "[The Myth of Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus)," Camus argues that we must fully acknowledge the absurdity of existence—the mismatch between human need for meaning and the universe's silence about meaning. For Camus, the authentic response to absurdity is neither suicide nor philosophical escape (including religious faith) but revolt—the decision to live fully despite meaninglessness. Creating meaning, from Camus's perspective, might represent a form of philosophical escape that fails to honestly confront the human condition.
+
+<div class="img-container">
+<img src="/resource/posts/2025-01-24-PST - Why do we live/albert-camus-300x206.jpg">
+</div>
 
 Camus's objection illuminates an important distinction between acknowledging meaninglessness and embracing meaninglessness. My position doesn't deny the absence of inherent cosmic meaning—it accepts this absence fully. However, it suggests that recognizing the absence of inherent meaning opens up space for created meaning rather than requiring us to live in permanent revolt against meaninglessness. The choice to create meaning isn't a denial of absurdity but a creative response to it.
 
@@ -185,6 +197,10 @@ The meaning of life isn't an inherent truth waiting to be discovered. It isn't u
 This understanding draws on but goes beyond existentialist philosophy by recognizing that meaning creation is both individual and collective, both chosen and given, both rational and embodied. <span class="emph">We create meaning not in isolation but in relationship—with other people, with cultural traditions, with the natural world, and with possibilities that call us forward. The meaning we create is genuinely our own, yet it emerges from and contributes to larger patterns of human flourishing.</span>
 
 The practical implications of this understanding are profound. If meaning is something we create rather than discover, then we bear responsibility for the quality and direction of our meaning-making activities. This responsibility is both liberating and demanding. We are free to choose what matters to us, but we must live with the consequences of our choices. We cannot blame God, nature, society, or fate for the meaninglessness of our lives—but we also cannot credit these external forces with providing our meaning.
+
+<div class="img-container">
+<img src="/resource/posts/2025-01-24-PST - Why do we live/little-prince.gif">
+</div>
 
 The creative view of meaning also suggests that <span class="emph">meaning-making is an ongoing process rather than a one-time achievement</span>. Just as artists continue creating throughout their lives, we continue creating meaning throughout our lives. <span class="emph">The meanings we create in youth may no longer serve us in middle age; the purposes that drive us in health may need revision in illness; the values we embrace in prosperity may require reconsideration in adversity. This dynamic quality of meaning prevents it from becoming dogmatic or rigid while requiring ongoing attention and care.</span>
 
