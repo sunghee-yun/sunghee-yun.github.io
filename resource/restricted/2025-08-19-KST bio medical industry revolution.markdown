@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Wed Aug 20 13:30:29 KST 2025
+last_modified_at: Sat Aug 23 18:31:34 PDT 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -350,7 +350,7 @@ Life-long health asset management requires sophisticated technological infrastru
 
 **AI-Powered Health Assistants**
 &ndash;
-Multi-agent AI systems that can integrate data from multiple sources (genetic testing, biomarker analysis, wearable devices, lifestyle tracking) to provide personalized health recommendations.
+[Multi-agent AI systems](/multi-agent-ai-biz-landscape) that can integrate data from multiple sources (genetic testing, biomarker analysis, wearable devices, lifestyle tracking) to provide personalized health recommendations.
 
 **Biological Age Tracking**
 &ndash;
@@ -536,7 +536,7 @@ The future of human health will be determined by the decisions entrepreneurs mak
 
 As I reflect on my journey from the mathematical foundations of Convex Optimization at Stanford University to the cutting-edge AI applications in biotechnology today, I'm struck by how seemingly disparate technological advances have converged to create this unprecedented moment. But I'm even more struck by the responsibility this convergence places on all of us working at the intersection of technology and human health.
 
-The same mathematical principles that powered my circuit optimization tools at Samsung now drive the neural networks behind [AlphaFold 3](https://deepmind.google/science/alphafold/). The pattern recognition algorithms that improved Amazon's recommendation systems now identify biomarkers for early disease detection. The multi-agent AI architectures I've written about are beginning to coordinate complex drug discovery processes across global research networks.
+The same mathematical principles that powered my circuit optimization tools at Samsung now drive the neural networks behind [AlphaFold 3](https://deepmind.google/science/alphafold/). The pattern recognition algorithms that improved Amazon's recommendation systems now identify biomarkers for early disease detection. [The multi-agent AI architectures I've written about](/multi-agent-ai-biz-landscape) are beginning to coordinate complex drug discovery processes across global research networks.
 
 But this convergence represents more than technological achievement—it embodies our species' response to one of its greatest challenges, guided by our deepest values. For the first time in human history, we live long enough to experience the full complexity of biological aging. For the first time, we possess the computational tools necessary to understand and intervene in that complexity. And for the first time, we have the global infrastructure to deploy solutions at the scale required—if we choose to do so equitably.
 
