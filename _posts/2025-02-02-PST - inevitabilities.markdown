@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Mon Aug  4 17:42:30 PDT 2025
+last_modified_at: Sat Aug 23 17:38:10 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -1103,6 +1103,14 @@ The ubiquity of sinusoidal waves in nature now reveals itself as a manifestation
 <img style="max-width: 75%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Extension_to_multiplications_of_arbitrary_multi-d_145d10c6-4efa-4e4a-b66a-2e903ab37567_3.png">
 </div>
 -->
+
+<br>
+[Sunghee
+<br>
+<br>
+Mathematician, Thinker &amp; Seeker of Universal Truth
+<br>
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 <hr>
 <ol>

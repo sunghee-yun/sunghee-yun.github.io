@@ -1,7 +1,7 @@
 ---
 title: AI (with current ML/DL architecture) does not believe nor reason nor know nor think!
 date: Mon Jun  9 14:27:31 PDT 2025
-last_modified_at: Mon Aug 18 22:40:51 KST 2025
+last_modified_at: Sat Aug 23 17:37:05 PDT 2025
 permalink: /ai/reason
 categories:
  - blog
@@ -208,6 +208,14 @@ We stand at a remarkable moment in technological history. The systems we're buil
 This clarity doesn't diminish the achievement—it grounds it in reality, where all sustainable progress must ultimately reside. Just as the Rhône River in Lyon carried both Roman vessels and the narratives of human civilization, our technological innovations carry forward human values and aspirations. But we must never forget that we, not our creations, remain the authors of that story.
 
 The future belongs not to human-like AI, but to AI that amplifies uniquely human capabilities while remaining clearly and distinctly itself. This distinction isn't a limitation—it's the foundation for a technological future worthy of our highest aspirations.
+
+<br>
+[Sunghee
+<br>
+<br>
+Mathematician, Thinker &amp; Seeker of Universal Truth
+<br>
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 <hr>
 <ol>

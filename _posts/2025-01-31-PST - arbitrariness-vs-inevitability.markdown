@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Tue Aug  5 03:38:38 PDT 2025
+last_modified_at: Sat Aug 23 17:34:25 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -645,12 +645,12 @@ except that this specific multiplication $$E=mc^2$$ makes the units of both side
 <font class="emph">Why does this have to be true?</font>
 
 <br>
-31-Jan-2025 PST
-
-[Sunghee Yun](/)
+[Sunghee
 <br>
 <br>
-Philosopher Thinker
+Mathematician, Thinker &amp; Seeker of Universal Truth
+<br>
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 <hr>
 <ol>

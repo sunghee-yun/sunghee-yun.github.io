@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Mon Aug  4 16:21:53 PDT 2025
+last_modified_at: Sat Aug 23 17:32:55 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -1647,6 +1647,14 @@ and
 [electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering).
 It also provides the foundation and theoretical framework
 that underlies the [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) and related methods.
+
+<br>
+[Sunghee
+<br>
+<br>
+Mathematician, Thinker &amp; Seeker of Universal Truth
+<br>
+Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 
 <hr>
 <ol>
