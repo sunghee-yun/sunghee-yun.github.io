@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Sat Aug 23 16:50:31 PDT 2025
+last_modified_at: Sat Aug 23 17:55:37 PDT 2025
 categories:
  - blog
 tags:
@@ -26,6 +26,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > &hellip; Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.
 
 <h1>NotebookLM Podcasts</h1>
+
+- [Meaning Made - How One Seeker Flipped the &ldquo;Why Do We Live?&rdquo; Question (17:50)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=0ca81854-c4b9-4a53-b487-60f70760c6c8){:target="_blank"}
+- [Creating Your Meaning - Why &ldquo;Why Do We Live?&rdquo; Is the Wrong Question (15:14)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=9f2a5812-de8c-4153-8602-241eac23b79b){:target="_blank"}
+- [Meaning Is Not Found, It's Created - Sunghee Yun's Journey to Redefine Life's Big Question (15:52)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=49129ffc-dff2-4c57-b72f-6d94e6cf2d34){:target="_blank"}
 
 <audio id="podcast-1" controls>
 	<source type="audio/wav" src="/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating Life's Meaning_ A Personal Journey-02.wav">
