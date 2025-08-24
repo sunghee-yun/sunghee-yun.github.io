@@ -1,7 +1,7 @@
 ---
 title: "From Ancient Equations to Artificial Intelligence &ndash; Linear Algebra"
 date: Sat Jul 26 18:29:58 PDT 2025
-last_modified_at: Sat Aug 23 17:32:55 PDT 2025
+last_modified_at: Sun Aug 24 14:19:28 PDT 2025
 permalink: /math/linear-algebra
 categories:
  - blog
@@ -52,10 +52,10 @@ This work is dedicated to those brilliant team members who illuminated my days a
 Their curiosity and engagement transformed routine lectures into explorations of mathematical beauty, and their questions continue to inspire my thinking **even more than 10** years later.
 {: .notice--success}
 
-# NotebookLM Podcasts
+<h1>NotebookLM Podcasts</h1>
 
-- [27:26](https://notebooklm.google.com/notebook/9bc4fc2c-7de5-4f56-8d74-2dd09fb48fc6/audio)
-- [33:11](https://notebooklm.google.com/notebook/90b5a5f3-f848-482a-9a9d-95d18c6d9bc4/audio)
+- [Linear Algebra - The Hidden Language Driving AI, Engineering, and Everything Modern (27:26)](https://notebooklm.google.com/notebook/9bc4fc2c-7de5-4f56-8d74-2dd09fb48fc6?artifactId=39cfe01b-6521-408a-bfdb-f214e6624572){:target="_blank"}
+- [Linear Algebra - The Hidden Language Driving AI, Quantum Physics, and Our Modern World (33:11)](https://notebooklm.google.com/notebook/90b5a5f3-f848-482a-9a9d-95d18c6d9bc4?artifactId=3f23c5a8-3e04-46ad-accf-6940eba47d96){:target="_blank"}
 
 # Vector Spaces
 
