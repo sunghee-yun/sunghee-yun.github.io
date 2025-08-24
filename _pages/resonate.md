@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Aug 23 16:05:08 PDT 2025
+last_modified_at: Sun Aug 24 08:59:21 PDT 2025
 ---
 
 <h2>Some Podcasts</h2>
@@ -61,6 +61,8 @@ last_modified_at: Sat Aug 23 16:05:08 PDT 2025
 - [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 &ndash; first read in 2016
 - [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War)
+&ndash; first read in 2024
+- [Four Wise Men - The Lives and Teachings of Confucius, the Buddha, Jesus, and Muhammad - by Mark William Muesse](https://www.google.com/books/edition/Four_Wise_Men/70Q0vgAACAAJ?hl=en)
 &ndash; first read in 2024
 - [Civil Liberties and the Bill of Rights (The Great Courses: Modern History) - by John E. Finn](https://www.thegreatcoursesplus.com/civil-liberties-and-the-bill-of-rights)
 &ndash; first read in 2024
