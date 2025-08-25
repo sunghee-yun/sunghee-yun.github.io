@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Sun Aug 24 15:06:49 PDT 2025
+last_modified_at: Sun Aug 24 17:51:57 PDT 2025
 categories:
  - blog
 tags:
@@ -2267,7 +2267,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h2 id="48">
 	제48장
 	-
-	日損일손
+	일손日損
 </h2>
 
 > 덜어내고 덜어내야 도를 이룬다.
