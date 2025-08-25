@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Sun Aug 24 17:51:57 PDT 2025
+last_modified_at: Sun Aug 24 22:01:52 PDT 2025
 categories:
  - blog
 tags:
@@ -2348,122 +2348,453 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="49">
+	제49장
+	-
+	덕선德善
+</h2>
+
+> 고정된 자기 마음이 없고<br>
+> 사람들의 마음을 자기 마음으로 삼는 자가 성인이다.
+
+<div class="translation-container">
+<p>
+	聖人無常心
+	以百姓心爲心
+<span class="chinese-korean-transliteration">
+	성인무상심
+	이백성심위심
+</span>
+<span class="chinese-korean-translation">
+	성인들에겐 고정된 마음이 없나니,
+	<br>
+	백성의 마음을 자기 마음으로 삼는다.
+</span>
+</p>
+
+<p>
+	善者吾善之
+	不善者吾亦善之
+	德善
+<span class="chinese-korean-transliteration">
+	선자오선지
+	불선자오역선지
+	덕선
+</span>
+<span class="chinese-korean-translation">
+	선한 사람에게 나도 선으로 대하지만
+	<br>
+	선하지 않은 사람에게도 선으로 대하나니
+	<br>
+	그리하여 선이 이루어진다.
+</span>
+</p>
+
+<p>
+	信者吾信之
+	不信者吾亦信之
+	德信
+<span class="chinese-korean-transliteration">
+	신자오신지
+	불신자오역신지
+	덕신
+</span>
+<span class="chinese-korean-translation">
+	신의 있는 사람에게 나도 신의로 대하지만
+	<br>
+	신의 없는 사람에게도 신의로 대하나니
+	<br>
+	그리하여 신의가 이루어진다.
+</span>
+</p>
+
+<p>
+	聖人在天下歙歙焉
+	爲天下渾其心
+<span class="chinese-korean-transliteration">
+	성인재천하흡흡언
+	위천하혼기심
+</span>
+<span class="chinese-korean-translation">
+	성인은 세상에 임할 때는 모든 것을 포용하고
+	<br>
+	천하를 위하는그의 마음에는 일체의 분별심이 없도다.
+</span>
+</p>
+
+<p>
+	百姓皆注其耳目
+	聖人皆孩之
+<span class="chinese-korean-transliteration">
+	백성개주기이목
+	성인개해지
+</span>
+<span class="chinese-korean-translation">
+	백성들은 모두 자기의 귀나 눈에 집중할 뿐이니
+	<br>
+	그리하여 성인은 다 어린아이처럼 되게 한다.
+</span>
+</p>
+</div>
+
+<h2 id="50">제50장 - 생사生死</h2>
+
+> 생각을 잘 살펴 보라.<br>
+> 나온 것은 들어가고<br>
+> 들어가면 또 나온다.
+>
+> 하지만 나오고 들어가게 하는 것은 생사가 없다.
+
+<div class="translation-container">
+<p>
+	出生入死
+	生之徒十有三
+	死之徒十有三
+<span class="chinese-korean-transliteration">
+	출생입사
+	생지도십유삼
+	사지도십유삼
+</span>
+<span class="chinese-korean-translation">
+	나옴을 삶이라 하고 들어감을 죽음이라 한다면
+	<br>
+	살아있는 무리 중에 장수하는 사람이 십분의 삼 정도요
+	<br>
+	죽은 무리 중에 요절한 사람이 십분의 삼 정도요
+</span>
+</p>
+
+<p>
+	人之生
+	動之死地
+	亦十有三
+<span class="chinese-korean-transliteration">
+	인지생
+	동지사지
+	역십유삼
+</span>
+<span class="chinese-korean-translation">
+	사람으로 태어나서
+	<br>
+	일찌기 죽음의 자리로 가는 사람도
+	<br>
+	십분의 삼 정도이다.
+</span>
+</p>
+
+<p>
+	夫何故
+	以其生生之厚
+<span class="chinese-korean-transliteration">
+	부하고
+	이기생생지후
+</span>
+<span class="chinese-korean-translation">
+	왜 그러한고?
+	<br>
+	나와서 그 나옴을 더 두텁게 하려고 하기 때문이다.
+</span>
+</p>
+
+<p>
+	蓋聞善攝生者
+	陸行不遇虎兕
+	入軍不被甲兵
+<span class="chinese-korean-transliteration">
+	개문선섭생자
+	륙행불우호시
+	입군불피갑병
+</span>
+<span class="chinese-korean-translation">
+	듣건대 섭생을 잘하는 사람은
+	<br>
+	육지를 돌아다녀도 외뿔난 들소나 범을 만나지 않고
+	<br>
+	전쟁터에 가도 무기의 상해를 입지 않는다고 한다.
+</span>
+</p>
+
+<p>
+	無所投其角
+	虎無所措其爪
+	兵無所容其刃
+<span class="chinese-korean-transliteration">
+	무소투기각
+	호무소조기조
+	병무소용기인
+</span>
+<span class="chinese-korean-translation">
+	들소는 그 뿔로 받을 곳이 없고
+	<br>
+	범은 그 발톱으로 할퀼 곳이 없으며
+	<br>
+	무기는 그 칼날로 파고들 곳이 없다고 한다.
+</span>
+</p>
+
+<p>
+	夫何故
+	以其無死地
+<span class="chinese-korean-transliteration">
+	부하고
+	이기무사지
+</span>
+<span class="chinese-korean-translation">
+	왜 그러한고?
+	<br>
+	그는 죽음의 자리 즉 사지로 들어가지 않기 때문이다.
+</span>
+</p>
+</div>
+
+<h2 id="51">제51장 - 종귀尊貴</h2>
+
+> 도가 모든 것을 낳고<br>
+> 덕이 모든 것을 기른다.
+
+<div class="translation-container">
+<p>
+	道生之
+	德畜之
+	物形之
+	勢成之
+<span class="chinese-korean-transliteration">
+	도생지
+	덕축지
+	물형지
+	세성지
+</span>
+<span class="chinese-korean-translation">
+	도는 모든 것을 낳고
+	<br>
+	덕은 모든 것을 기르고
+	<br>
+	물건은 모든 것을 꼴지우고
+	<br>
+	세력는 모든 것을 이룬다.
+</span>
+</p>
+
+<p>
+	是以萬物莫不存道而貴德
+<span class="chinese-korean-transliteration">
+	시이만물막불존도이귀덕
+</span>
+<span class="chinese-korean-translation">
+	그러기에 모든 것은 도를 존중하고 덕을 귀하게 여기지 않을 수 없다.
+</span>
+</p>
+
+<p>
+	道之尊
+	德之貴
+	夫莫之命而常自然
+<span class="chinese-korean-transliteration">
+	도지존
+	덕지귀
+	부막지명이상자연
+</span>
+<span class="chinese-korean-translation">
+	도를 존중하고
+	<br>
+	덕을 귀하게 여기는 것은
+	<br>
+	명령 때문이 아니라 저절로 그렇게 되는 것이다.
+</span>
+</p>
+
+<p>
+	故道生之
+	德畜之
+	長之
+	育之
+	亭之
+	毒之
+	養之
+	覆之
+<span class="chinese-korean-transliteration">
+	고도생지
+	덕축지
+	장지
+	육지
+	정지
+	독지
+	양지
+	복지
+</span>
+<span class="chinese-korean-translation">
+	그러므로 도가 모든 것을 낳고
+	<br>
+	덕이 모든 것을 기르고
+	<br>
+	자라게 하고
+	<br>
+	양육하고
+	<br>
+	감싸주고
+	<br>
+	실하게 하고
+	<br>
+	먹여주고
+	<br>
+	덮어준다.
+</span>
+</p>
+</div>
+
+<p>
+	生而不有
+	爲而不恃
+	長而不宰
+<span class="chinese-korean-transliteration">
+	생이불유
+	위이불시
+	장이불재
+</span>
+<span class="chinese-korean-translation">
+	낳으나 가지려고 하지 않고
+	<br>
+	이루나 거기에 기대려 하지 않고
+	<br>
+	기르나 지배하려 하지 않는다.
+</span>
+</p>
+
+<p>
+	是謂玄德
+<span class="chinese-korean-transliteration">
+	시위원덕
+</span>
+<span class="chinese-korean-translation">
+	이를 일컬어 신비한 덕이라 한다.
+</span>
+</p>
+</div>
+
+
+<h2 id="52">제52장 - 수모守母</h2>
+
+> 입을 열고 일을 벌리면<br>
+> 편생 구제받을 길이 없다.
+
+<div class="translation-container">
+<p>
+	天下有始
+	以爲天下母
+<span class="chinese-korean-transliteration">
+	천하유시
+	이위천하모
+</span>
+<span class="chinese-korean-translation">
+	천하만물은 그 시작이 있는데
+	<br>
+	그 시작이 세상의 어머니이다.
+</span>
+</p>
+
+<p>
+	旣得其母
+	以知其子
+	旣知其子
+	復守其母
+	沒身不殆
+<span class="chinese-korean-transliteration">
+	기득기모
+	이지기자
+	기지기자
+	복수기모
+	몰신불태
+</span>
+<span class="chinese-korean-translation">
+	그 어머니를 얻으면
+	그 자식을 알 수 있고
+	<br>
+	그 자식을 알면
+	그 어머니를 다시 지킬 수 있나니,
+	<br>
+	몸이 다하는 날까지 위태로울 것이 없다.
+</span>
+</p>
+
+<p>
+	塞其兌
+	閉其門
+	終身不勤
+<span class="chinese-korean-transliteration">
+	새기태
+	폐기문
+	종신불근
+</span>
+<span class="chinese-korean-translation">
+	언설의 입을 꽉다물고
+	<br>
+	탐욕의 문을 꽉 닫으라
+	<br>
+	평생토록 수고롭지 않을 것이다.
+</span>
+</p>
+
+<p>
+	開其兌
+	濟其事
+	終身不救
+<span class="chinese-korean-transliteration">
+	개기태
+	제기사
+	종신불구
+</span>
+<span class="chinese-korean-translation">
+	입을 열어라
+	<br>
+	일을 벌려 놓아라
+	<br>
+	평생토록 구제받을 길이 없을 것이다.
+</span>
+</p>
+
+<p>
+	見小曰明
+	守柔曰强
+<span class="chinese-korean-transliteration">
+	견소왈명
+	수유왈강
+</span>
+<span class="chinese-korean-translation">
+	작은 것을 보는 것이 밝음이요
+	<br>
+	부드러움을 지키는 것이 강함이다.
+</span>
+</p>
+
+<p>
+	用其光
+	復歸其明
+	無遺身殃
+<span class="chinese-korean-transliteration">
+	용기광
+	복귀기명
+	무유신앙
+</span>
+<span class="chinese-korean-translation">
+	빛을 써서
+	그 밝음으로 돌아간다면
+	<br>
+	몸에 재앙이 남는 일이 없을 것이다.
+</span>
+</p>
+
+<p>
+	是爲習常
+<span class="chinese-korean-transliteration">
+	시위습상
+</span>
+<span class="chinese-korean-translation">
+	이것이 영원을 배우는 것이다.
+</span>
+</p>
+</div>
+
 <!--
-49. 德善(덕선)
-
-고정된 자기 마음이 없고,
-사람들의 마음을 자기 마음으로 삼는 자가 성인이다.
-
-聖人無常心(성인무상심) : 성인들에겐 고정된 마음이 없나니,
-以百姓心爲心(이백성심위심) : 백성의 마음을 자기 마음으로 삼는다.
-善者吾善之(선자오선지) : 선한 사람에게 나도 선으로 대하지만
-不善者吾亦善之(불선자오역선지) : 선하지 않은 사람에게도 선으로 대하나니,
-德善(덕선) : 그리하여 선이 이루어진다.
-信者吾信之(신자오신지) : 신의 있는 사람에게 나도 신의로 대하지만
-不信者吾亦信之(불신자오역신지) : 신의 없는 사람에게도 신의로 대하나니,
-德信(덕신) : 그리하여 신의가 이루어진다.
-聖人在天下歙歙焉(성인재천하흡흡언) : 성인은 세상에 임할 때는 모든 것을 포용하고
-爲天下渾其心(위천하혼기심) : 천하를 위하는그의 마음에는 일체의 분별심이 없도다.
-百姓皆注其耳目(백성개주기이목) : 백성들은 모두 자기의 귀나 눈에 집중할 뿐이니,
-
-聖人皆孩之(성인개해지) : 그리하여 성인은 다 어린아이처럼 되게 한다.
-
-
-
-50. 生死(생사)
-
-
-
-생각을 잘 살펴 보라.
-
-나온 것은 들어가고,
-
-들어가면 또 나온다.
-
-하지만 나오고 들어가게 하는 것은 생사가 없다.
-
-
-出生入死(출생입사) : 나옴을 삶이라 하고 들어감을 죽음이라 한다면
-生之徒十有三(생지도십유삼) : 살아있는 무리 중에 장수하는 사람이 십분의 삼 정도요
-死之徒十有三(사지도십유삼) : 죽은 무리 중에 요절한 사람이 십분의 삼 정도요
-人之生(인지생) : 사람으로 태어나서
-動之死地(동지사지) : 일찌기 죽음의 자리로 가는 사람도
-亦十有三(역십유삼) : 십분의 삼 정도이다.
-夫何故(부하고) : 왜 그러한고?
-以其生生之厚(이기생생지후) : 나와서 그 나옴을 더 두텁게 하려고 하기 때문이다.
-蓋聞善攝生者(개문선섭생자) : 듣건대 섭생을 잘하는 사람은
-陸行不遇虎兕(륙행불우호시) : 육지를 돌아다녀도 외뿔난 들소나 범을 만나지 않고
-入軍不被甲兵(입군불피갑병) : 전쟁터에 가도 무기의 상해를 입지 않는다고 한다.
-無所投其角(무소투기각) : 들소는 그 뿔로 받을 곳이 없고
-虎無所措其爪(호무소조기조) : 범은 그 발톱으로 할퀼 곳이 없으며
-兵無所容其刃(병무소용기인) : 무기는 그 칼날로 파고들 곳이 없다고 한다.
-夫何故(부하고) : 왜 그러한고?
-以其無死地(이기무사지) : 그는 죽음의 자리 즉 사지로 들어가지 않기 때문이다.
-
-
-
-51. 尊貴(종귀)
-
-
-
-도가 모든 것을 낳고
-
-덕이 모든 것을 기른다.
-
-
-道生之(도생지) : 도는 모든 것을 낳고
-德畜之(덕축지) : 덕은 모든 것을 기르고
-物形之(물형지) : 물건은 모든 것을 꼴지우고
-勢成之(세성지) : 세력는 모든 것을 이룬다.
-是以萬物莫不存道而貴德(시이만물막불존도이귀덕) : 그러기에 모든 것은 도를 존중하고 덕을 귀하게 여기지 않을 수 없다.
-道之尊(도지존) : 도를 존중하고
-德之貴(덕지귀) : 덕을 귀하게 여기는 것은
-夫莫之命而常自然(부막지명이상자연) : 명령 때문이 아니라 저절로 그렇게 되는 것이다.
-故道生之(고도생지) : 그러므로 도가 모든 것을 낳고
-德畜之(덕축지) : 덕이 모든 것을 기르고
-長之(장지) : 자라게 하고
-育之(육지) : 양육하고
-亭之(정지) : 감싸주고
-毒之(독지) : 실하게 하고
-養之(양지) : 먹여주고
-覆之(복지) : 덮어줍니다.
-生而不有(생이불유) : 낳으나 가지려고 하지 않고
-爲而不恃(위이불시) : 이루나 거기에 기대려 하지 않고
-長而不宰(장이불재) : 기르나 지배하려 하지 않는다.
-是謂玄德(시위원덕) : 이를 일컬어 신비한 덕이라 한다.
-
-
-
-52. 守母(수모)
-
-
-
-입을 열고 일을 벌리면
-
-편생 구제받을 길이 없다.
-
-
-天下有始(천하유시) : 천하만물은 그 시작이 있는데
-以爲天下母(이위천하모) : 그 시작이 세상의 어머니이다
-旣得其母(기득기모) : 그 어머니를 얻으면
-以知其子(이지기자) : 그 자식을 알 수 있고
-旣知其子(기지기자) : 그 자식을 알면
-復守其母(복수기모) : 그 어머니를 다시 지킬 수 있나니,
-沒身不殆(몰신불태) : 몸이 다하는 날까지 위태로울 것이 없다.
-塞其兌(새기태) : 언설의 입을 꽉다물고
-閉其門(폐기문) : 탐욕의 문을 꽉 닫으라
-終身不勤(종신불근) : 평생토록 수고롭지 않을 것이다.
-開其兌(개기태) : 입을 열어라
-濟其事(제기사) : 일을 벌려 놓아라
-終身不救(종신불구) : 평생토록 구제받을 길이 없을 것이다.
-見小曰明(견소왈명) : 작은 것을 보는 것이 밝음이요
-守柔曰强(수유왈강) : 부드러움을 지키는 것이 강함이다.
-用其光(용기광) : 빛을 써서
-復歸其明(복귀기명) : 그 밝음으로 돌아간다면
-無遺身殃(무유신앙) : 몸에 재앙이 남는 일이 없을 것이다.
-是爲習常(시위습상) : 이것이 영원을 배우는 것이다.
-
-
 
 53. 大道(대도)
 
