@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (1~30)
 permalink: /tao-te-ching/01
 date: 2024-09-28
-last_modified_at: Sun Aug 24 14:53:49 PDT 2025
+last_modified_at: Sun Aug 24 18:06:54 PDT 2025
 categories:
  - blog
 tags:
@@ -19,12 +19,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<!--h1>NotebookLM Podcasts</h1-->
+<h2>NotebookLM Podcasts</h2>
 
-<!--audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-09-28-PDT - Tao Te Ching/NotebookLM/Tao Te Ching_ Ancient Wisdom for Modern Life-01.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
+- [Beyond Doing - Unlocking Ancient Tao Te Ching Wisdom for Modern Life (16:30)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=37192493-a224-48f2-bf9d-e9d78c0ffcbf){:target="_blank"}
+- [Unlocking Ancient Wisdom - Tao Te Ching's Radical Path to Non-Action and Inner Peace (13:38)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=cacaf28b-6fc8-417e-a408-3300e09ac78c){:target="_blank"}
+- [The Tao of Now - Ancient Wisdom for Living in a Busy World (18:28)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=54e7fac7-8e7a-45e5-b88f-e5b14979445c){:target="_blank"}
 
 <!--h1 id="links">
 	Links
