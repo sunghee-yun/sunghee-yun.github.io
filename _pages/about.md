@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Aug 17 03:02:08 KST 2025
+last_modified_at: Sun Aug 24 21:27:32 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -39,7 +39,7 @@ spearheaded research &amp; development of the core technology &amp; products
 as CTO, Global Head of Research, Chief Applied Scientist &amp; Senior Fellow.
 Before <a href="https://www.gausslabs.ai/">Gauss Labs</a>, I drove various AI technology and product developments
 and productionizations in the field of e-Commerce @ <a href="https://www.amazon.com/">Amazon.com, Inc.</a> where one of the projects
-created a 200 USD revenue increase via the Amazon Mobile Shopping App.
+created a 200 million USD revenue increase via the Amazon Mobile Shopping App.
 Before <a href="https:///www.amazon.com/">Amazon</a>,
 I worked for
 Software Research Center,
