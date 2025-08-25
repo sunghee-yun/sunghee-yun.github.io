@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Aug 20 17:19:27 KST 2025
+last_modified_at: Mon Aug 25 10:13:45 PDT 2025
 ---
 
 <!--
@@ -259,12 +259,12 @@ last_modified_at: Wed Aug 20 17:19:27 KST 2025
 <h4>Dec</h4>
 
 - biz trip to Seoul &ndash; 12 nights
-	- 09-Dec-2025 PST ~ 21-Dec-2025 PST
-	- [flight](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+	- 09-Dec-2025 PST ~ 21-Dec-2025 PST [flight invoice](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+	- flight
 		&ndash; United 893
 		&ndash; from SFO @ 10:30am on 09-Dec-2025 PST to ICN @ 4:15pm on 10-Dec-2025 KST
 		(13h)
-	- [return flight](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+	- return flight
 		&ndash; OZ 212
 		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 21-Dec-2025
 		(10h 35m)
@@ -272,15 +272,15 @@ last_modified_at: Wed Aug 20 17:19:27 KST 2025
 - biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
 	6 nights
-	- 01-Dec-2025 PST ~ 07-Dec-2025 PST
-	- [flight](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+	- 01-Dec-2025 PST ~ 07-Dec-2025 PST [flight invoice](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+	- flight
 		&ndash; AS 3429 operated by SUBSIDIARY/FRANCHISE
-		&ndash; from SJC @ 2:36pm to SAN @ 3:59pm on 01-Dec-2025 PST
-		(1h 23m)
-	- [return flight](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+		&ndash; from SJC @ 2:59pm to SAN @ 4:28pm on 01-Dec-2025 PST
+		(1h 29m)
+	- return flight
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
-		&ndash; from SAN @ 4:50pm to SJC @ 6:18pm on 07-Dec-2025 PST
-		(1h 28m)
+		&ndash; from SAN @ 5:09pm to SJC @ 6:48pm on 07-Dec-2025 PST
+		(1h 39m)
 
 <h4>Oct</h4>
 
