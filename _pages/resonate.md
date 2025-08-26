@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Aug 24 08:59:21 PDT 2025
+last_modified_at: Tue Aug 26 12:06:58 PDT 2025
 ---
 
 <h2>Some Podcasts</h2>
@@ -33,13 +33,13 @@ last_modified_at: Sun Aug 24 08:59:21 PDT 2025
 ## Books
 
 - [Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
-&ndash; first read and every single problem was solved in 1993; revisited in 1994
+&ndash; first read in 1993 when I worked through every single problem in the book; revisited in 1994
 - [Convex Optimization - by Stephen Boyd and Lieven Vandenberghe](https://stanford.edu/~boyd/cvxbook/) [PDF](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
 &ndash; first encountered what were destined to be in the book in 1999
 - [Ludwig Wittgenstein: The Duty of Genius](https://www.google.com/search?sca_esv=035b65082be3e816&rlz=1C5MACD_enUS1124US1124&sxsrf=AE3TifPH95DsRX0tp3_nPkxhqSpItMm6cw:1755973452417&q=ludwig+wittgenstein+the+duty+of+genius+ray+monk&si=AMgyJEtULK0SKwwDiAHLrI671RJyxXmlVtN5N4wWiYQeP_AdFZTeHxxUOdb4AmiCnKsgoGDQGLyhHeQ_lQfua8bblU_XxusFVaNUqOKoSLFQGxtoTqv1qLgZEeFhXUKZcnMLqAJzScf33p8ZS0DoAPP-xJ1ktAYi-w%3D%3D&sa=X&ved=2ahUKEwii8PbuxqGPAxV748kDHVt4ODsQyNoBKAB6BAgvEAA&ictx=1&biw=1283&bih=928&dpr=1)
 &ndash; first read in ~ 2002
 - [The Elegant Universe - by Brian Greene](https://en.wikipedia.org/wiki/The_Elegant_Universe)
-&ndash; first read in 2004
+&ndash; first read in 2004; I vividly remember I opened this book one evening and couldn't put it down until I'd finished it five hours later!
 - [A Brief History of Time - by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time)
 &ndash; first read in 2010
 - [The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins](https://en.wikipedia.org/wiki/The_Language_of_God)
