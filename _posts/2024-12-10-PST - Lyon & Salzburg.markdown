@@ -1,13 +1,16 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 date: 10-Dec-2024
-last_modified_at: Mon Aug 18 02:33:32 KST 2025
+last_modified_at: Tue Aug 26 12:16:20 PDT 2025
 categories:
  - blog
+ - AI
 tags:
- - family
- - trip
- - New York
+ - AI
+ - humanity
+ - Lyon
+ - Salzburg
+ - München
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"

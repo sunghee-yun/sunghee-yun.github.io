@@ -1,10 +1,11 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Sat Jul 12 02:36:08 PDT 2025
+last_modified_at: Tue Aug 26 12:15:38 PDT 2025
 permalink: /ai/data
 categories:
  - blog
+ - AI
 tags:
  - AI
  - technology
@@ -14,10 +15,6 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
-
-<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
-<br>
-cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;

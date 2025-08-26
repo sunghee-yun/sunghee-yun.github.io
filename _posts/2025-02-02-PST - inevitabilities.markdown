@@ -1,10 +1,11 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Sat Aug 23 17:38:10 PDT 2025
+last_modified_at: Tue Aug 26 12:54:57 PDT 2025
 permalink: /prajna/inevitabilities
 categories:
  - blog
+ - Universal Truth
 tags:
  - inevitabilities
 toc: true
@@ -13,10 +14,6 @@ toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true  # for LaTeXing
 ---
-
-<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
-<br>
-cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
@@ -72,11 +69,11 @@ $$
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 $$
 
-# NotebookLM Podcasts
+<h1>NotebookLM Podcasts</h1>
 
-- [11:51](https://notebooklm.google.com/notebook/16049e9c-6cee-4a8b-b8b5-d805bb6ecd0f/audio)
-- [12:04](https://notebooklm.google.com/notebook/0074c597-e262-465c-88c3-197ee48b5652/audio)
-- [13:26](https://notebooklm.google.com/notebook/58bc83a2-542e-4938-9d8e-d678bc541f11/audio)
+- [Beyond Coincidence - Unpacking the Inevitable Mathematical Patterns of Our Universe (11:51)](https://notebooklm.google.com/notebook/16049e9c-6cee-4a8b-b8b5-d805bb6ecd0f?artifactId=f0284dac-f70a-42d2-b1d0-4c8885769797){:target="_blank"}
+- [Beyond Coincidence - Mathematical Truths That Shape All Possible Universes (12:04)](https://notebooklm.google.com/notebook/0074c597-e262-465c-88c3-197ee48b5652?artifactId=58e95dcd-7edf-4720-8530-9ffb17f66529){:target="_blank"}
+- [Unavoidable Patterns - How Math Shapes Any Universe (13:26)](https://notebooklm.google.com/notebook/58bc83a2-542e-4938-9d8e-d678bc541f11?artifactId=4b499c1f-a3c7-474b-b3bc-60e6249fb6a7){:target="_blank"}
 
 {% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
 

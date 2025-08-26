@@ -5,6 +5,7 @@ last_modified_at: Sat Aug 23 17:34:25 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
+ - Universal Truth
 tags:
  - inevitability vs arbitrariness
 toc: true
@@ -13,10 +14,6 @@ toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
 ---
-
-<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
-<br>
-cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
