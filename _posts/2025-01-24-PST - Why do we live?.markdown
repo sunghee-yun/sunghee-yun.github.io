@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Tue Aug 26 12:09:50 PDT 2025
+last_modified_at: Wed Aug 27 20:13:33 PDT 2025
 categories:
  - blog
 tags:
@@ -74,7 +74,7 @@ even when I was very little.
 
 As the child of non-religious parents, I didn't rely on divine beings to find meaning. This absence of religious framework, while liberating in some ways, created a particular challenge. Religious traditions, whatever their ultimate truth claims, provide ready-made answers to life's big questions. The religiously raised child receives a complete cosmology: you exist because God created you, your purpose is to serve God and follow divine commandments, and your ultimate destiny lies in an afterlife determined by your earthly conduct. Without this framework, the burden of creating meaning falls entirely upon the individual—a daunting task for a developing mind.
 
-During high school, I explored Christianity but found its answers unsatisfactory, as the Bible failed to convincingly demonstrate God's existence, hence for example, making the "Christian type" of purpose-driven life arguments unconvincing. (I know this cannot disprove anything.) My engagement with Christianity was earnest and thorough—I attended youth groups, read theological texts, and genuinely attempted to embrace faith. The intellectual obstacles, however, proved insurmountable. The problem of evil, the historical inconsistencies in religious texts, and the absence of empirical evidence for supernatural claims created cognitive dissonance that I couldn't resolve through faith alone.
+During high school, I explored Christianity but found its answers unsatisfactory, as the Bible failed to convincingly demonstrate God's existence, hence for example, making the "Christian type" of purpose-driven life arguments unconvincing. (I know this cannot disprove anything.) My engagement with Christianity was earnest and thorough—I attended youth groups, read theological texts, and genuinely attempted to embrace faith. The intellectual obstacles, however, proved insurmountable. The problem of evil, the historical inconsistencies in religious texts, and the absence of empirical (and non-empirical) evidence for supernatural claims created cognitive dissonance that I couldn't resolve through faith alone.
 
 The philosophical implications of rejecting religious answers to life's meaning are significant. As [Dostoevsky](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky) famously wrote through Ivan Karamazov, "If there is no God, everything is permitted." This statement captures the vertigo that accompanies the loss of divine authority—without a cosmic lawgiver, we must create our own moral frameworks and purposes. Some find this prospect liberating; others find it terrifying. For me, it was both.
 
