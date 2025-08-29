@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Sun Aug 24 22:01:52 PDT 2025
+last_modified_at: Thu Aug 28 23:22:16 PDT 2025
 categories:
  - blog
 tags:
@@ -2794,64 +2794,217 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+
+<h2 id="53">제53장 - 대도大道</h2>
+
+> 대도의 길은 그지없이 평탄하고 쉬운 길인데도<br>
+> 사람들은 샛길을 가면서 고통스럽다고 하더라.
+
+<div class="translation-container">
+<p>
+	使我介然有知
+	行於大道
+	唯施是畏
+<span class="chinese-korean-transliteration">
+	사아개연유지
+	행어대도
+	유시시외
+</span>
+<span class="chinese-korean-translation">
+	내개 겨자씨만한 앎이 있다면
+	<br>
+	대도의 길을 걸을 것이며
+	<br>
+	이에서 벋어날까 두려워하리라.
+</span>
+</p>
+
+<p>
+	大道甚夷
+	而民好徑
+<span class="chinese-korean-transliteration">
+	대도심이
+	이민호경
+</span>
+<span class="chinese-korean-translation">
+	대도의 길이 그지없이 평탄한데도
+	<br>
+	사람들은 샛길만 좋아한다.
+</span>
+</p>
+
+<p>
+	朝甚除
+	田甚蕪
+	倉甚虛
+<span class="chinese-korean-transliteration">
+	조심제
+	전심무
+	창심허
+</span>
+<span class="chinese-korean-translation">
+	조정은 화려하나
+	<br>
+	밭에는 잡초가 무성하여
+	<br>
+	곳간이 텅 비어 있도다.
+</span>
+</p>
+
+<p>
+	服文綵
+	帶利劍
+	厭飮食
+	財貨有餘
+<span class="chinese-korean-transliteration">
+	복문채
+	대리검
+	염음식
+	재화유여
+</span>
+<span class="chinese-korean-translation">
+	그런데도 한 쪽에서는 비단옷 걸쳐입고
+	<br>
+	날카로운 칼을 차고
+	<br>
+	음식에 물릴 지경이 되고
+	<br>
+	재산은 쓰고도 남으니
+</span>
+</p>
+
+<p>
+	是謂盜夸
+	非道也哉
+<span class="chinese-korean-transliteration">
+	시위도과
+	비도야재
+</span>
+<span class="chinese-korean-translation">
+	이것이 도둑 아니고 무엇인가?
+	<br>
+	정말로 도가 아니다.
+</span>
+</p>
+</div>
+
+<h2 id="54">제54장 - 선건善建</h2>
+
+> 도에 뿌리를 내린 사람은 뽑히지 않을 것이다.
+
+<div class="translation-container">
+<p>
+	善建者不拔
+	善抱者不脫
+	子孫以祭祀不輟
+<span class="chinese-korean-transliteration">
+	선건자불발
+	선포자불탈
+	자손이제사불철
+</span>
+<span class="chinese-korean-translation">
+	도에 굳건히 선 사람은 뽑히지 않고
+	<br>
+	도를 확실히 품은 사람은 떨어져 나가지 않으며,
+	<br>
+	그 자손은 대대로 제사를 그치지 않을 것이다.
+</span>
+</p>
+
+<p>
+	修之於身
+	其德乃眞
+	修之於家
+	其德乃餘
+<span class="chinese-korean-transliteration">
+	수지어신
+	기덕내진
+	수지어가
+	기덕내여
+</span>
+<span class="chinese-korean-translation">
+	도를 자신에게 실천하면
+	<br>
+	그 덕이 참될 것이고
+	<br>
+	가정에서 실천하면
+	<br>
+	그 덕이 넉넉하게 될 것이고
+</span>
+</p>
+
+<p>
+	修之於鄕
+	其德乃長
+	修之於國
+	其德乃豊
+	修之於天下
+	其德乃普
+<span class="chinese-korean-transliteration">
+	수지어향
+	기덕내장
+	수지어국
+	기덕내풍
+	수지어천하
+	기덕내보
+</span>
+<span class="chinese-korean-translation">
+	마을에서 실천하면
+	<br>
+	그 덕이 자라날 것이고
+	<br>
+	나라에서 실천하면
+	<br>
+	그 덕이 풍성해질 것이고
+	<br>
+	세상에서 실천하면
+	<br>
+	그 덕이 두루 퍼질 것이다.
+</span>
+</p>
+
+<p>
+	故以身觀身
+	以家觀家
+	以鄕觀鄕
+	以國觀國
+	以天下觀天下
+<span class="chinese-korean-transliteration">
+	고이신관신
+	이가관가
+	이향관향
+	이국관국
+	이천하관천하
+</span>
+<span class="chinese-korean-translation">
+	그러므로 자신의 몸으로 다른 사람의 몸을 보고
+	<br>
+	자신의 가정으로 다른가정을 보고
+	<br>
+	자신의 마을로 다른마을을 보고
+	<br>
+	자신의 나라로 다른나라를 보고
+	<br>
+	이 세상으로 다른세상을 보라.
+</span>
+</p>
+
+<p>
+	吾何以知天下然哉
+	以此
+<span class="chinese-korean-transliteration">
+	오하이지천하연재
+	이차
+</span>
+<span class="chinese-korean-translation">
+	내가 천하가 이러함을 어떻게 알 수 있겠는가?
+	<br>
+	이를 통해서이다.
+</span>
+</p>
+</div>
+
 <!--
-
-53. 大道(대도)
-
-
-
-대도의 길은 그지없이 평탄하고 쉬운 길인데도
-
-사람들은 샛길을 가면서 고통스럽다고 하더라.
-
-
-使我介然有知(사아개연유지) : 내개 겨자씨만한 앎이 있다면
-行於大道(행어대도) : 대도의 길을 걸을 것이며
-唯施是畏(유시시외) : 이에서 벋어날까 두려워하리라.
-大道甚夷(대도심이) : 대도의 길이 그지없이 평탄한데도.
-而民好徑(이민호경) : 사람들은 샛길만 좋아한다.
-朝甚除(조심제) : 조정은 화려하나
-田甚蕪(전심무) : 밭에는 잡초가 무성하여
-倉甚虛(창심허) : 곳간이 텅 비어 있도다.
-服文綵(복문채) : 그런데도 한 쪽에서는 비단옷 걸쳐입고
-帶利劍(대리검) : 날카로운 칼을 차고
-厭飮食(염음식) : 음식에 물릴 지경이 되고
-財貨有餘(재화유여) : 재산은 쓰고도 남으니
-是謂盜夸(시위도과) : 이것이 도둑 아니고 무엇인가?
-非道也哉(비도야재) : 정말로 도가 아니다.
-
-
-
-54. 善建(선건)
-
-
-
-도에 뿌리를 내린 사람은 뽑히지 않을 것이다.
-
-
-善建者不拔(선건자불발) : 도에 굳건히 선 사람은 뽑히지 않고
-善抱者不脫(선포자불탈) : 도를 확실히 품은 사람은 떨어져 나가지 않으며,
-子孫以祭祀不輟(자손이제사불철) : 그 자손은 대대로 제사를 그치지 않을 것이다.
-修之於身(수지어신) : 도를 자신에게 실천하면
-其德乃眞(기덕내진) : 그 덕이 참될 것이고
-修之於家(수지어가) : 가정에서 실천하면
-其德乃餘(기덕내여) : 그 덕이 넉넉하게 될 것이고
-修之於鄕(수지어향) : 마을에서 실천하면
-其德乃長(기덕내장) : 그 덕이 자라날 것이고
-修之於國(수지어국) : 나라에서 실천하면
-其德乃豊(기덕내풍) : 그 덕이 풍성해질 것이고
-修之於天下(수지어천하) : 세상에서 실천하면
-其德乃普(기덕내보) : 그 덕이 두루 퍼질 것이다.
-故以身觀身(고이신관신) : 그러므로 자신의 몸으로 다른 사람의 몸을 보고
-以家觀家(이가관가) : 자신의 가정으로 다른가정을 보고
-以鄕觀鄕(이향관향) : 자신의 마을로 다른마을을 보고
-以國觀國(이국관국) : 자신의 나라로 다른나라를 보고
-以天下觀天下(이천하관천하) : 이 세상으로 다른세상을 보라.
-吾何以知天下然哉(오하이지천하연재) : 내가 천하가 이러함을 어떻게 알 수 있겠는가?
-以此(이차) : 이를 통해서이다.
-
-
-
 55. 含德(함덕)
 
 
