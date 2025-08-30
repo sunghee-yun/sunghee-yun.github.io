@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Thu Aug 28 23:22:16 PDT 2025
+last_modified_at: Sat Aug 30 00:08:34 PDT 2025
 categories:
  - blog
 tags:
@@ -18,61 +18,6 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
-
-<!--h1 id="links">
-	Links
-</h1>
-<a href="#31">31</a>
-<a href="#32">32</a>
-<a href="#33">33</a>
-<a href="#34">34</a>
-<a href="#35">35</a>
-<a href="#36">36</a>
-<a href="#37">37</a>
-<a href="#38">38</a>
-<a href="#39">39</a>
-<a href="#40">40</a>
-<a href="#41">41</a>
-<a href="#42">42</a>
-<a href="#43">43</a>
-<a href="#44">44</a>
-<a href="#45">45</a>
-<a href="#46">46</a>
-<a href="#47">47</a-->
-<!--a href="#48">48</a>
-<a href="#49">49</a>
-<a href="#50">50</a>
-<a href="#51">51</a>
-<a href="#52">52</a>
-<a href="#53">53</a>
-<a href="#54">54</a>
-<a href="#55">55</a>
-<a href="#56">56</a>
-<a href="#57">57</a>
-<a href="#58">58</a>
-<a href="#59">59</a>
-<a href="#60">60</a>
-<a href="#61">61</a>
-<a href="#62">62</a>
-<a href="#63">63</a>
-<a href="#64">64</a>
-<a href="#65">65</a>
-<a href="#66">66</a>
-<a href="#67">67</a>
-<a href="#68">68</a>
-<a href="#69">69</a>
-<a href="#70">70</a>
-<a href="#71">71</a>
-<a href="#72">72</a>
-<a href="#73">73</a>
-<a href="#74">74</a>
-<a href="#75">75</a>
-<a href="#76">76</a>
-<a href="#77">77</a>
-<a href="#78">78</a>
-<a href="#79">79</a>
-<a href="#80">80</a>
-<a href="#81">81</a-->
 
 <h1 id="highlight">
 	Key phrases highlighted by me
@@ -3004,174 +2949,675 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="55">제55장 - 함덕含德</h2>
+
+> 덕을 두터이 지닌 사람은 갓난아이와 같다.
+
+<div class="translation-container">
+<p>
+	含德之厚
+	比於赤子
+<span class="chinese-korean-transliteration">
+	함덕지후
+	비어적자
+</span>
+<span class="chinese-korean-translation">
+	덕을 두터이 지닌 사람은
+	<br>
+	갓난아이와 같다.
+</span>
+</p>
+
+<p>
+	毒蟲不螫
+	猛獸不據
+	攫鳥不搏
+<span class="chinese-korean-transliteration">
+	독충불석
+	맹수불거
+	확조불박
+</span>
+<span class="chinese-korean-translation">
+	독이 있는 벌레가 쏘지도 못하고
+	<br>
+	사나운 짐승이 덤벼들지도 못하며
+	<br>
+	무서운 날짐승이 후려치지도 못한다.
+</span>
+</p>
+
+<p>
+	骨弱筋柔而握固
+	未知牝牡之合而脧作
+	精之至也
+<span class="chinese-korean-transliteration">
+	골약근유이악고
+	미지빈모지합이최작
+	정지지야
+</span>
+<span class="chinese-korean-translation">
+	그 뼈도 약하고 그 힘줄도 부드러우나 그 잡는 힘은 단단하다.
+	<br>
+	아직 남녀의 교합을 알지 못하나 생식기가 일어서고
+	<br>
+	정기도 지극하다.
+</span>
+</p>
+
+<p>
+	終日號而不嗄
+	和之至也
+<span class="chinese-korean-transliteration">
+	종일호이불사
+	화지지야
+</span>
+<span class="chinese-korean-translation">
+	하루 종일 울어도 목이 쉬지 않나니,
+	<br>
+	이것이 완전히 조화이다.
+</span>
+</p>
+
+<p>
+	知和曰常
+	知常曰明
+<span class="chinese-korean-transliteration">
+	지화왈상
+	지상왈명
+</span>
+<span class="chinese-korean-translation">
+	조화를 아는 것이 영원이요,
+	<br>
+	영원을 아는 것이 밝음이다.
+</span>
+</p>
+
+<p>
+	益生曰祥
+	心使氣曰强
+<span class="chinese-korean-transliteration">
+	익생왈상
+	심사기왈강
+</span>
+<span class="chinese-korean-translation">
+	수명을 더하려 하는 것은 불길한 일이요
+	<br>
+	마음으로 기를 부리려 하는 것은 강포다.
+</span>
+</p>
+
+<p>
+	物壯則老
+	謂之不道
+<span class="chinese-korean-transliteration">
+	물장즉로
+	위지불도
+</span>
+<span class="chinese-korean-translation">
+	무엇이나 기운이 지나치면 쇠하게 마련인데
+	<br>
+	도가 아닌 까닭이다.
+</span>
+</p>
+
+<p>
+	不道早已
+<span class="chinese-korean-transliteration">
+</span>
+	불도조이
+<span class="chinese-korean-translation">
+	도가 아닌 것은 얼마 가지 않아 끝장이 난다.
+</span>
+</p>
+</div>
+
+<h2 id="56">제56장 - 도귀道貴</h2>
+
+> 아는 사람은 말이 없고<br>
+> 말하는 사람은 알지 못한다.<br>
+> 도는 가까이 다가갈 수도 없고<br>
+> 멀리할 수도 없기 때문이다.
+
+<div class="translation-container">
+<p>
+	知者不言
+	言者不知
+<span class="chinese-korean-transliteration">
+	지자불언
+	언자불지
+</span>
+<span class="chinese-korean-translation">
+	아는 사람은 말이 없고
+	<br>
+	말하는 사람은 알지 못한다.
+</span>
+</p>
+
+<p>
+	塞其兌
+	閉其門
+<span class="chinese-korean-transliteration">
+	새기태
+	폐기문
+</span>
+<span class="chinese-korean-translation">
+	입을 다물고
+	<br>
+	문을 꽉 닫는다.
+</span>
+</p>
+
+<p>
+	挫其銳
+	解其分
+	和其光
+	同其塵
+<span class="chinese-korean-transliteration">
+	좌기예
+	해기분
+	화기광
+	동기진
+</span>
+<span class="chinese-korean-translation">
+	날카로운 것을 무디게 하고
+	<br>
+	얽힌 것을 풀어주고
+	<br>
+	빛을 부드럽게 하고
+	<br>
+	티끌과 하나가 된다.
+</span>
+</p>
+
+<p>
+	是謂玄同
+<span class="chinese-korean-transliteration">
+	시위현동
+</span>
+<span class="chinese-korean-translation">
+	이것이 &lt;신비스런 하나됨&gt;이다.
+</span>
+</p>
+
+<p>
+	故不可得而親
+	不可得而疏
+<span class="chinese-korean-transliteration">
+	고불가득이친
+	불가득이소
+</span>
+<span class="chinese-korean-translation">
+	현동이어서 가까이할수만도 없고
+	<br>
+	멀리할 수도 없다.
+</span>
+</p>
+
+<p>
+	不可得而利
+	不可得而害
+<span class="chinese-korean-transliteration">
+	불가득이리
+	불가득이해
+</span>
+<span class="chinese-korean-translation">
+	이롭게 할 수도 없고
+	<br>
+	해롭게 할 수도 없다.
+</span>
+</p>
+
+<p>
+	不可得而貴
+	不可得而賤
+<span class="chinese-korean-transliteration">
+	불가득이귀
+	불가득이천
+</span>
+<span class="chinese-korean-translation">
+	귀하게 할 수도 없고
+	<br>
+	천하게 할 수도 없다.
+</span>
+</p>
+
+<p>
+	故爲天下貴
+<span class="chinese-korean-transliteration">
+	고위천하귀
+</span>
+<span class="chinese-korean-translation">
+	그러기에 세상이 이를 귀하게 여긴다.
+</span>
+</p>
+</div>
+
+<h2 id="57">제57장 - 치국治國</h2>
+
+> 그대의 인위적인 계획과 관념을 버려보라!<br>
+> 그러면 저럴로 될 것이다.
+
+<div class="translation-container">
+<p>
+	以正治國
+	以奇用兵
+	以無事取天下
+<span class="chinese-korean-transliteration">
+	이정치국
+	이기용병
+	이무사취천하
+</span>
+<span class="chinese-korean-translation">
+	올바름으로 나라를 다스리고
+	<br>
+	기이한 방법으로 군사를 활용하며
+	<br>
+	일 없음으로 천하를 얻는다.
+</span>
+</p>
+
+<p>
+	吾何以知其然哉
+<span class="chinese-korean-transliteration">
+	오하이지기연재
+</span>
+<span class="chinese-korean-translation">
+	내가 그러함을 어떻게 알겠는가?
+</span>
+</p>
+
+<p>
+	以此
+<span class="chinese-korean-transliteration">
+	이차
+</span>
+<span class="chinese-korean-translation">
+	다음과 같은 사실 때문이다.
+</span>
+</p>
+
+<p>
+	天下多忌諱
+	而民彌貧
+	民多利器
+	國家滋昏
+<span class="chinese-korean-transliteration">
+	천하다기휘
+	이민미빈
+	민다리기
+	국가자혼
+</span>
+<span class="chinese-korean-translation">
+	세상에 금하고 가리는 것이 많을수록
+	<br>
+	사람이 더욱 가난해지고
+	<br>
+	사람 사이에 날카로운 무기가 많을수록
+	<br>
+	나라가 더욱 혼미해지며
+</span>
+</p>
+
+<p>
+	人多伎巧
+	奇物滋起
+	法令滋彰
+	盜賊多有
+<span class="chinese-korean-transliteration">
+	인다기교
+	기물자기
+	법령자창
+	도적다유
+</span>
+<span class="chinese-korean-translation">
+	사람 사이에 잔꾀가 많을수록
+	<br>
+	괴상한 물건이 더욱 많아지고
+	<br>
+	법이나 명령이 요란할수록
+	<br>
+	도둑이 더욱 많아진다.
+</span>
+</p>
+
+<p>
+	故聖人云
+<span class="chinese-korean-transliteration">
+	고성인운
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인이 말씀하셨습니다.
+</span>
+</p>
+
+<p>
+	我無爲而民自化
+	我好靜而民自正
+	我無事而民自富
+	我無欲而民自樸
+<span class="chinese-korean-transliteration">
+	아무위이민자화
+	아호정이민자정
+	아무사이민자부
+	아무욕이민자박
+</span>
+<span class="chinese-korean-translation">
+	&lt;내가 억지로 일을 하지 않으므로 백성이 절로 바뀌고
+	<br>
+	내가 고요를 좋아함으로 백성이 저절로 바르게 되고
+	<br>
+	내가 일을 꾸미지 않으므로 백성이 저절로 부유하게 되고
+	<br>
+	내가 욕심을 내지 않으므로 백성이 저절로 소박한 통나무가 된다.&gt;
+</span>
+</p>
+
+<p>
+<span class="chinese-korean-transliteration">
+</span>
+<span class="chinese-korean-translation">
+	<br>
+</span>
+</p>
+</div>
+
+<h2 id="58">제58장 - 찰정察政</h2>
+
+> 복만 추구하지 말라.<br>
+> 화라고 하는데서 복이 나오고<br>
+> 복이라고 하는데에 화가 숨어있다.
+
+<div class="translation-container">
+<p>
+	其政悶悶
+	其民淳淳
+	其政察察
+	其民缺缺
+<span class="chinese-korean-transliteration">
+	기정민민
+	기민순순
+	기정찰찰
+	기민결결
+</span>
+<span class="chinese-korean-translation">
+	정치가 맹맹하면
+	<br>
+	백성이 순박해지고
+	<br>
+	정치가 똑똑하면
+	<br>
+	백성이 못되게 된다.
+</span>
+</p>
+
+<p>
+	禍兮福之所倚
+	福兮禍之所伏
+<span class="chinese-korean-transliteration">
+	화혜복지소의
+	복혜화지소복
+</span>
+<span class="chinese-korean-translation">
+	화라고 생각되는 데서 복이 나오고
+	<br>
+	복이라고 생각되는 데 화가 숨어 있다.
+</span>
+</p>
+
+<p>
+	孰知其極
+<span class="chinese-korean-transliteration">
+	숙지기극
+</span>
+<span class="chinese-korean-translation">
+	누가 그 끝을 알 수 있겠는가?
+</span>
+</p>
+
+<p>
+	其無正
+<span class="chinese-korean-transliteration">
+	기무정
+</span>
+<span class="chinese-korean-translation">
+	절대적으로 옳은 것은 없다.
+</span>
+</p>
+
+<p>
+	正復爲奇
+	善復爲妖
+<span class="chinese-korean-transliteration">
+	정복위기
+	선복위요
+</span>
+<span class="chinese-korean-translation">
+	올바름이 변하여 이상스런 것이 되고
+	<br>
+	선한 것이 변하여 사악한 것이 된다.
+</span>
+</p>
+
+<p>
+	人之迷
+	其日固久
+<span class="chinese-korean-transliteration">
+	인지미
+	기일고구
+</span>
+<span class="chinese-korean-translation">
+	사람들의 미혹됨이
+	<br>
+	실로 오래 되었도다.
+</span>
+</p>
+
+<p>
+	是以聖人方而不割
+	廉而不劌
+	直而不肆
+	光而不燿
+<span class="chinese-korean-transliteration">
+	시이성인방이불할
+	렴이불귀
+	직이불사
+	광이불요
+</span>
+<span class="chinese-korean-translation">
+	그리하여 성인은 반듯하나 다치게 하지는 않고
+	<br>
+	예리하나 잘라 내지는 않고
+	<br>
+	곧으나 너무 뻗지는 않고
+	<br>
+	빛나나 눈부시게 하지는 않는다.
+</span>
+</p>
+</div>
+
+<h2 id="59">제59장 - 장생長生</h2>
+
+> 그대가 처한 현실의 어머니를 모시면 영원할 것이다.
+
+<div class="translation-container">
+<p>
+	治人事天莫若嗇
+<span class="chinese-korean-transliteration">
+	치인사천막약색
+</span>
+<span class="chinese-korean-translation">
+	사람을 지도하고 하늘을 섬기는 일에 검약하는 일보다 좋은 것은 없다.
+</span>
+</p>
+
+<p>
+	夫唯嗇
+	是以早服
+<span class="chinese-korean-transliteration">
+	부유색
+	시이조복
+</span>
+<span class="chinese-korean-translation">
+	검약하는 일은
+	<br>
+	일찌감치 도에 복종하는 일이다.
+</span>
+</p>
+
+<p>
+	早服
+	謂之重積德
+<span class="chinese-korean-transliteration">
+	조복
+	위지중적덕
+</span>
+<span class="chinese-korean-translation">
+	일찌감치 도에 복종한다는 것은
+	<br>
+	덕을 많이 쌓는 일이다.
+</span>
+</p>
+
+<p>
+	重積德
+	則無不克
+<span class="chinese-korean-transliteration">
+	중적덕
+	즉무불극
+</span>
+<span class="chinese-korean-translation">
+	덕을 많이 쌓으면
+	<br>
+	이겨 내지 못할 것이 없다.
+</span>
+</p>
+
+<p>
+	無不克
+	則莫知其極
+	莫知其極
+	可以有國
+<span class="chinese-korean-transliteration">
+	무불극
+	즉막지기극
+	막지기극
+	가이유국
+</span>
+<span class="chinese-korean-translation">
+	이겨 내지 못할 것이 없으면
+	<br>
+	그 능력의 끝을 알 수 없고
+	<br>
+	그 능력의 끝을 알 수 없을 정도가 되면
+	<br>
+	나라를 맡을 만하다.
+</span>
+</p>
+
+<p>
+	有國之母
+	可以長久
+<span class="chinese-korean-transliteration">
+	유국지모
+	가이장구
+</span>
+<span class="chinese-korean-translation">
+	나라의 어머니를 모시면
+	<br>
+	영원할 것이다.
+</span>
+</p>
+
+<p>
+	是謂深根固柢
+	長生久視之道
+<span class="chinese-korean-transliteration">
+	시위심근고저
+	장생구시지도
+</span>
+<span class="chinese-korean-translation">
+	이것이 바로 깊은 뿌리, 튼튼한 바탕으로서
+	<br>
+	영원한 삶, 오래봄의 길이다.
+</span>
+</p>
+</div>
+
+<h2 id="60">제60장 - 치대국治大國</h2>
+
+> 지금 그대가 당하는 좋지 않은 것에<br>
+> 맞서는 것을 주지 않으면<br>
+> 좋지 않은 것은 저절로 사라질 것이다.
+
+<div class="translation-container">
+<p>
+	治大國若烹小鮮
+<span class="chinese-korean-transliteration">
+	치대국약팽소선
+</span>
+<span class="chinese-korean-translation">
+	큰 나라를 다스리는 것은 작은 생선을 조리하는 것과 같다.
+</span>
+</p>
+
+<p>
+	以道莅天下
+	其鬼不神
+<span class="chinese-korean-transliteration">
+	이도리천하
+	기귀불신
+</span>
+<span class="chinese-korean-translation">
+	도로써 세상을 다스리면
+	<br>
+	귀신도 힘을 쓰지 못하게 된다.
+</span>
+</p>
+
+<p>
+	非其鬼不神
+	其神不傷人
+<span class="chinese-korean-transliteration">
+	비기귀불신
+	기신불상인
+</span>
+<span class="chinese-korean-translation">
+	귀신이 힘이 없기 때문이 아니라
+	<br>
+	힘이 있어도 사람을 해칠 수가 없는 것이다.
+</span>
+</p>
+
+<p>
+	非其神不傷人
+	聖人亦不傷人
+<span class="chinese-korean-transliteration">
+	비기신불상인
+	성인역불상인
+</span>
+<span class="chinese-korean-translation">
+	귀신도 사람을 해치지 않을 뿐만 아니라
+	<br>
+	성인도 역시 사람을 해치지 않는 것이다.
+</span>
+</p>
+
+<p>
+	夫兩不相傷
+	故德交歸焉
+<span class="chinese-korean-transliteration">
+	부량불상상
+	고덕교귀언
+</span>
+<span class="chinese-korean-translation">
+	이렇게 양쪽이 모두 해치지 않으니
+	<br>
+	그 덕이 서로에게 돌아간다.
+</span>
+</p>
+</div>
+
 <!--
-55. 含德(함덕)
-
-
-
-덕을 두터이 지닌 사람은 갓난아이와 같다.
-
-
-含德之厚(함덕지후) : 덕을 두터이 지닌 사람은
-比於赤子(비어적자) : 갓난아이와 같다.
-毒蟲不螫(독충불석) : 독이 있는 벌레가 쏘지도 못하고
-猛獸不據(맹수불거) : 사나운 짐승이 덤벼들지도 못하며
-攫鳥不搏(확조불박) : 무서운 날짐승이 후려치지도 못한다.
-骨弱筋柔而握固(골약근유이악고) : 그 뼈도 약하고 그 힘줄도 부드러우나 그 잡는 힘은 단단하다.
-未知牝牡之合而脧作(미지빈모지합이최작) : 아직 남녀의 교합을 알지 못하나 생식기가 일어서고
-精之至也(정지지야) : 정기도 지극하다.
-終日號而不嗄(종일호이불사) : 하루 종일 울어도 목이 쉬지 않나니,
-和之至也(화지지야) : 이것이 완전히 조화이다.
-知和曰常(지화왈상) : 조화를 아는 것이 영원이요,
-知常曰明(지상왈명) : 영원을 아는 것이 밝음이다.
-益生曰祥(익생왈상) : 수명을 더하려 하는 것은 불길한 일이요,
-心使氣曰强(심사기왈강) : 마음으로 기를 부리려 하는 것은 강포다.
-物壯則老(물장즉로) : 무엇이나 기운이 지나치면 쇠하게 마련인데,
-謂之不道(위지불도) : 도가 아닌 까닭이다.
-不道早已(불도조이) : 도가 아닌 것은 얼마 가지 않아 끝장이 난다.
-
-
-
-56. 道貴(도귀)
-
-
-
-아는사람은 말이 없고
-
-말하는 사람은 알지 못한다.
-
-도는 가까이 다가갈 수도 없고
-
-멀리할 수도 없기 때문이다.
-
-
-知者不言(지자불언) : 아는 사람은 말이 없고
-言者不知(언자불지) : 말하는 사람은 알지 못한다.
-塞其兌(새기태) : 입을 다물고
-閉其門(폐기문) : 문을 꽉 닫는다.
-挫其銳(좌기예) : 날카로운 것을 무디게 하고
-解其分(해기분) : 얽힌 것을 풀어주고
-和其光(화기광) : 빛을 부드럽게 하고
-同其塵(동기진) : 티끌과 하나가 된다.
-是謂玄同(시위현동) : 이것이 <신비스런 하나됨>이다.
-故不可得而親(고불가득이친) : 현동이어서 가까이할 수만도 없고
-不可得而疏(불가득이소) : 멀리할 수도 없다.
-不可得而利(불가득이리) : 이롭게 할 수도 없고
-不可得而害(불가득이해) : 해롭게 할 수도 없다.
-不可得而貴(불가득이귀) : 귀하게 할 수도 없고
-不可得而賤(불가득이천) : 천하게 할 수도 없다.
-故爲天下貴(고위천하귀) : 그러기에 세상이 이를 귀하게 여긴다.
-
-
-
-57. 治國(치국)
-
-
-
-그대의 인위적인 계획과 관념을 버려보라!
-
-그러면 저럴로 될 것이다.
-
-
-以正治國(이정치국) : 올바름으로 나라를 다스리고,
-以奇用兵(이기용병) : 기이한 방법으로 군사를 활용하며,
-以無事取天下(이무사취천하) : 일 없음으로 천하를 얻는다.
-吾何以知其然哉(오하이지기연재) : 내가 그러함을 어떻게 알겠는가?
-以此(이차) : 다음과 같은 사실 때문이다.
-天下多忌諱(천하다기휘) : 세상에 금하고 가리는 것이 많을수록
-而民彌貧(이민미빈) : 사람이 더욱 가난해지고,
-民多利器(민다리기) : 사람 사이에 날카로운 무기가 많을수록
-國家滋昏(국가자혼) : 나라가 더욱 혼미해지며,
-人多伎巧(인다기교) : 사람 사이에 잔꾀가 많을수록
-奇物滋起(기물자기) : 괴상한 물건이 더욱 많아지고,
-法令滋彰(법령자창) : 법이나 명령이 요란할수록
-盜賊多有(도적다유) : 도둑이 더욱 많아진다.
-故聖人云(고성인운) : 그러므로 성인이 말씀하셨습니다.
-我無爲而民自化(아무위이민자화) : <내가 억지로 일을 하지 않으므로 백성이 절로 바뀌고,
-我好靜而民自正(아호정이민자정) : 내가 고요를 좋아함으로 백성이 저절로 바르게 되고,
-我無事而民自富(아무사이민자부) : 내가 일을 꾸미지 않으므로 백성이 저절로 부유하게 되고,
-我無欲而民自樸(아무욕이민자박) : 내가 욕심을 내지 않으므로 백성이 저절로 소박한 통나무가 된다.>
-
-
-
-58. 察政(찰정)
-
-
-
-복만 추구하지 말라.
-
-화라고 하는데서 복이 나오고,
-
-복이라고 하는데에 화가 숨어있다.
-
-
-其政悶悶(기정민민) : 정치가 맹맹하면
-其民淳淳(기민순순) : 백성이 순박해지고
-其政察察(기정찰찰) : 정치가 똑똑하면
-其民缺缺(기민결결) : 백성이 못되게 된다.
-禍兮福之所倚(화혜복지소의) : 화라고 생각되는 데서 복이 나오고
-福兮禍之所伏(복혜화지소복) : 복이라고 생각되는 데 화가 숨어 있다.
-孰知其極(숙지기극) : 누가 그 끝을 알 수 있겠는가?
-其無正(기무정) : 절대적으로 옳은 것은 없다.
-正復爲奇(정복위기) : 올바름이 변하여 이상스런 것이 되고
-善復爲妖(선복위요) : 선한 것이 변하여 사악한 것이 된다.
-人之迷(인지미) : 사람들의 미혹됨이
-其日固久(기일고구) : 실로 오래 되었도다.
-是以聖人方而不割(시이성인방이불할) : 그리하여 성인은 반듯하나 다치게 하지는 않고
-廉而不劌(렴이불귀) : 예리하나 잘라 내지는 않고
-直而不肆(직이불사) : 곧으나 너무 뻗지는 않고
-光而不燿(광이불요) : 빛나나 눈부시게 하지는 않는다.
-
-
-
-59. 長生(장생)
-
-
-
-그대가 처한 현실의 어머니를 모시면 영원할 것이다.
-
-
-治人事天莫若嗇(치인사천막약색) : 사람을 지도하고 하늘을 섬기는 일에 검약하는 일보다 좋은 것은 없다.
-夫唯嗇(부유색) : 검약하는 일은
-是以早服(시이조복) : 일찌감치 도에 복종하는 일이다.
-早服(조복) : 일찌감치 도에 복종한다는 것은
-謂之重積德(위지중적덕) : 덕을 많이 쌓는 일이다.
-重積德(중적덕) : 덕을 많이 쌓으면
-則無不克(즉무불극) : 이겨 내지 못할 것이 없다.
-無不克(무불극) : 이겨 내지 못할 것이 없으면
-則莫知其極(즉막지기극) : 그 능력의 끝을 알 수 없고,
-莫知其極(막지기극) : 그 능력의 끝을 알 수 없을 정도가 되면
-可以有國(가이유국) : 나라를 맡을 만하다.
-有國之母(유국지모) : 나라의 어머니를 모시면
-可以長久(가이장구) : 영원할 것이다.
-是謂深根固柢(시위심근고저) : 이것이 바로 깊은 뿌리, 튼튼한 바탕으로서
-長生久視之道(장생구시지도) : 영원한 삶, 오래봄의 길이다.
-
-
-
-60. 治大國(치대국)
-
-
-
-지금 그대가 당하는 좋지 않은 것에
-
-맞서는 것을 주지 않으면
-
-좋지 않은 것은 저절로 사라질 것이다.
-
-
-治大國若烹小鮮(치대국약팽소선) : 큰 나라를 다스리는 것은 작은 생선을 조리하는 것과 같다.
-以道莅天下(이도리천하) : 도로써 세상을 다스리면
-其鬼不神(기귀불신) : 귀신도 힘을 쓰지 못하게 된다.
-非其鬼不神(비기귀불신) : 귀신이 힘이 없기 때문이 아니라
-其神不傷人(기신불상인) : 힘이 있어도 사람을 해칠 수가 없는 것이다.
-非其神不傷人(비기신불상인) : 귀신도 사람을 해치지 않을 뿐만 아니라,
-聖人亦不傷人(성인역불상인) : 성인도 역시 사람을 해치지 않는 것이다.
-夫兩不相傷(부량불상상) : 이렇게 양쪽이 모두 해치지 않으니
-故德交歸焉(고덕교귀언) : 그 덕이 서로에게 돌아간다.
-
-
-
 61. 爲下(위하)
 
 
