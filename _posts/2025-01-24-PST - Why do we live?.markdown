@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Wed Aug 27 20:30:19 PDT 2025
+last_modified_at: Fri Aug 29 22:22:50 PDT 2025
 categories:
  - blog
 tags:
@@ -80,13 +80,13 @@ The philosophical implications of rejecting religious answers to life's meaning 
 
 # The Wittgenstein Moment and the Burden of Gifts
 
-A turning point came in around 2000 when I read the two-volume biography of [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein), subtitled "The Duty of Genius" ([this](https://product.kyobobook.co.kr/detail/S000001364617){:target="_blank"} and [this](https://product.kyobobook.co.kr/detail/S000001364618){:target="_blank"}). The moment I saw that subtitle, something stirred within me—which is probably what drew me to pick up those books at the bookstore in the first place. I still can't fully explain that impulse or why those particular volumes called to me that day. They weren't gifts or recommendations from friends; the choice was entirely my own, though I only recognized its significance in retrospect. At the time, I couldn't articulate why the subtitle struck me so powerfully, but after reading the biography, I came to understand it this way: Wittgenstein recognized his exceptional intellect and understood that he had no intellectual equal among his contemporaries. He knew he surpassed even his mentor [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell) in many respects, particularly in philosophy. This awareness of his rare gift created a sense of obligation—a duty to contribute something meaningful to humanity, simply because he had been given this extraordinary capacity, whether he had asked for it or not.
+A turning point came in around 2000 when I read the two-volume biography of [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein), subtitled "The Duty of Genius" ([this](https://product.kyobobook.co.kr/detail/S000001364617){:target="_blank"} and [this](https://product.kyobobook.co.kr/detail/S000001364618){:target="_blank"}). The moment I saw that subtitle, something stirred within me—which is probably what drew me to pick up those books at the bookstore in the first place. I still can't fully explain that impulse or why those particular volumes called to me that day. (They weren't gifts or recommendations from friends; the choice was entirely my own, though I only recognized its significance in retrospect.) At the time, I couldn't articulate why the subtitle struck me so powerfully, but after reading the biography, I came to understand it this way: Wittgenstein recognized his exceptional intellect and understood that he had no intellectual equal among his contemporaries. He knew he surpassed even his mentor [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell) in many respects, particularly in philosophy. This awareness of his rare gift created a sense of obligation—a duty to contribute something meaningful to humanity, simply because he had been given this extraordinary capacity, whether he had asked for it or not.
 
-The concept of the "Duty of Genius" reveals a particular approach to life's meaning that deserves deeper examination. Wittgenstein's biography portrays a man tormented by his own intellectual gifts—he felt compelled to use his extraordinary mind not for personal gain or comfort, but for humanity's benefit. This created an almost unbearable psychological burden. He abandoned a promising career in engineering, gave away his inherited fortune, and subjected himself to intense philosophical labor that often left him mentally and physically exhausted.
+The concept of the <span class="emph">"Duty of Genius"</span> reveals a particular approach to life's meaning that deserves deeper examination. Wittgenstein's biography portrays a man tormented by his own intellectual gifts—he felt compelled to use his extraordinary mind not for personal gain or comfort, but for humanity's benefit. This created an almost unbearable psychological burden. He abandoned a promising career in engineering, gave away his inherited fortune, and subjected himself to intense philosophical labor that often left him mentally and physically exhausted.
 
 Wittgenstein's approach to meaning through obligation and service represents one strand of thought about life's purpose that has deep philosophical roots. [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)'s [categorical imperative](https://en.wikipedia.org/wiki/Categorical_imperative) suggests we have moral duties that transcend personal desires—we should act according to principles we could will to be universal laws. From this perspective, exceptional abilities create exceptional obligations. The person with rare intellectual gifts has a duty to use them for the greater good, just as the person with great wealth or power has corresponding responsibilities.
 
-This line of thoughts struck me deeply that time, now I think, compelling me to search for my own purpose, even though I didn't consider myself his intellectual equal at that time. The Wittgenstein model of meaning-through-obligation appealed to me because it provided a secular framework for purpose that didn't require religious faith. If I possessed any special talents or abilities, perhaps my meaning lay in using them to benefit others. This perspective offered a way to escape the apparent meaninglessness of a purely materialistic worldview while avoiding the intellectual compromises required by religious faith.
+This line of thoughts struck me deeply that time, now I think, compelling me to search for my own purpose, even though I didn't consider myself his intellectual equal *at that time*. The Wittgenstein model of meaning-through-obligation appealed to me because it provided a secular framework for purpose that didn't require religious faith. If I possessed any special talents or abilities, perhaps my meaning lay in using them to benefit others. This perspective offered a way to escape the apparent meaninglessness of a purely materialistic worldview while avoiding the intellectual compromises required by religious faith.
 
 <div class="img-container">
 <img src="/resource/posts/2025-01-24-PST - Why do we live/einstein.png">
@@ -113,7 +113,7 @@ When I refer to "Buddha's teachings" (here or anywhere else), I use the term as 
 
 > &hellip; The absence of inherent meaning doesn't end the story—it opens up new possibilities for understanding what meaning might be and how it might function in human experience.
 
-It happened that, since 2015, I had become deeply interested in Buddha's teachings; not the Buddhism as a religion, but his original teachings he taught to help people overcome the (inevitable) suffering. As I explored concepts of mercy, compassion, [nirvāna](https://en.wikipedia.org/wiki/Nirvana), enlightenment, and [Anātman](https://en.wikipedia.org/wiki/Anatt%C4%81), these teachings started transforming my life and have eventually led me to nirvāna. During this period, influenced by Buddha's teachings, I concluded that life had no inherent meaning (of course!).
+It happened that, since 2015, I had become deeply interested in Buddha's teachings; not the Buddhism as a religion, but his original teachings he taught to help people overcome the (inevitable) suffering, or to be more precise, the [dukkha](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha)<sup><a href="#footnote1" id="ref1">1</a></sup>. As I explored concepts of mercy, compassion, [nirvāna](https://en.wikipedia.org/wiki/Nirvana), enlightenment, and [Anātman](https://en.wikipedia.org/wiki/Anatt%C4%81), these teachings started transforming my life and have eventually *led me to nirvāna*. During this period, influenced by Buddha's teachings, I concluded that life had no inherent meaning (of course!).
 
 The Buddha's approach to life's fundamental questions differs radically from Western philosophical traditions. Rather than asking "What is the meaning of life?" or "Why do we exist?", Buddhism begins with the observation that existence is characterized by [dukkha](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha) (suffering or dissatisfaction). [The Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths) diagnose the human condition: life contains suffering, suffering arises from attachment and craving, suffering can cease, and there is a path to end suffering. This framework reframes existential questions entirely—instead of seeking meaning, we should seek liberation from the psychological states that make existence burdensome.
 
@@ -217,3 +217,14 @@ The question "Do I want meaning in my life?" preserves genuine choice while open
 Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
 Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
+
+<hr>
+<ol>
+<li id="footnote1">
+	Duḥkha (/ˈduːkə/; Sanskrit: दुःख, Pali: dukkha)
+	is an important concept in Buddhism, Jainism and Hinduism
+	meaning something like "suffering", "pain", "unease", or "unsatisfactoriness".
+	However, (for obvious reasons)
+	there is no English word exactly describing it.
+&nbsp;<a href="#ref1">↩</a></li>
+</ol>
