@@ -5,8 +5,8 @@ last_modified_at: Fri Jul 11 16:56:46 PDT 2025
 categories:
  - blog
 tags:
- - Mahayana Buddhism
  - Buddhism
+ - Mahayana Buddhism
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"

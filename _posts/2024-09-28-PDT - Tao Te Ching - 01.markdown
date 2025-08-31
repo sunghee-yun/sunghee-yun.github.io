@@ -6,8 +6,7 @@ last_modified_at: Sun Aug 24 18:06:54 PDT 2025
 categories:
  - blog
 tags:
- - Heart Sutra
- - Buddhism
+ - Tao Te Ching
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
