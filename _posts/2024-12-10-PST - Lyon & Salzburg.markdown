@@ -1,7 +1,8 @@
 ---
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
+permalink: /ai/bridging-technology-and-humanity
 date: 10-Dec-2024
-last_modified_at: Tue Aug 26 12:16:20 PDT 2025
+last_modified_at: Sun Aug 31 00:33:41 PDT 2025
 categories:
  - blog
  - AI

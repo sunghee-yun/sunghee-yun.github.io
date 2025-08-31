@@ -1,7 +1,8 @@
 ---
 title: Technology, Growth, and Inequality &ndash; The Case of AI
+permalink: /ai/salzburg-report-case-of-ai
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Tue Aug 26 12:16:45 PDT 2025
+last_modified_at: Sun Aug 31 00:33:41 PDT 2025
 categories:
  - blog
  - AI
