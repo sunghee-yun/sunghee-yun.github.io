@@ -1,7 +1,8 @@
 ---
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
+permalink: /ai/llm/energy-challenge
 date: 06-Oct-2024
-last_modified_at: Tue Aug 26 12:15:00 PDT 2025
+last_modified_at: Mon Sep  1 15:30:41 PDT 2025
 categories:
  - blog
  - AI

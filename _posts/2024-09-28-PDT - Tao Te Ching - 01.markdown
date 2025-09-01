@@ -2,10 +2,11 @@
 title: Tao Te Ching - 도덕경道德經 (1~30)
 permalink: /tao-te-ching/01
 date: 2024-09-28
-last_modified_at: Sun Aug 24 18:06:54 PDT 2025
+last_modified_at: Mon Sep  1 16:19:30 PDT 2025
 categories:
  - blog
 tags:
+ - Taoism
  - Tao Te Ching
 toc: true
 toc_label: "&nbsp;Table of Contents"
@@ -23,91 +24,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - [Beyond Doing - Unlocking Ancient Tao Te Ching Wisdom for Modern Life (16:30)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=37192493-a224-48f2-bf9d-e9d78c0ffcbf){:target="_blank"}
 - [Unlocking Ancient Wisdom - Tao Te Ching's Radical Path to Non-Action and Inner Peace (13:38)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=cacaf28b-6fc8-417e-a408-3300e09ac78c){:target="_blank"}
 - [The Tao of Now - Ancient Wisdom for Living in a Busy World (18:28)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=54e7fac7-8e7a-45e5-b88f-e5b14979445c){:target="_blank"}
-
-<!--h1 id="links">
-	Links
-</h1>
-<a href="#1">01</a>
-<a href="#2">02</a>
-<a href="#3">03</a>
-<a href="#4">04</a>
-<a href="#5">05</a>
-<a href="#6">06</a>
-<a href="#7">07</a>
-<a href="#8">08</a>
-<a href="#9">09</a>
-<a href="#10">10</a>
-<a href="#11">11</a>
-<a href="#12">12</a>
-<a href="#13">13</a>
-<a href="#14">14</a>
-<a href="#15">15</a>
-<a href="#16">16</a>
-<a href="#17">17</a>
-<a href="#18">18</a>
-<a href="#19">19</a>
-<a href="#20">20</a>
-<a href="#21">21</a>
-<a href="#22">22</a>
-<a href="#23">23</a>
-<a href="#24">24</a>
-<a href="#25">25</a>
-<a href="#26">26</a>
-<a href="#27">27</a>
-<a href="#28">28</a>
-<a href="#29">29</a>
-<a href="#30">30</a>
-<a href="#31">31</a>
-<a href="#32">32</a>
-<a href="#33">33</a>
-<a href="#34">34</a>
-<a href="#35">35</a>
-<a href="#36">36</a>
-<a href="#37">37</a>
-<a href="#38">38</a>
-<a href="#39">39</a>
-<a href="#40">40</a>
-<a href="#41">41</a>
-<a href="#42">42</a>
-<a href="#43">43</a>
-<a href="#44">44</a>
-<a href="#45">45</a>
-<a href="#46">46</a>
-<a href="#47">47</a-->
-<!--a href="#48">48</a>
-<a href="#49">49</a>
-<a href="#50">50</a>
-<a href="#51">51</a>
-<a href="#52">52</a>
-<a href="#53">53</a>
-<a href="#54">54</a>
-<a href="#55">55</a>
-<a href="#56">56</a>
-<a href="#57">57</a>
-<a href="#58">58</a>
-<a href="#59">59</a>
-<a href="#60">60</a>
-<a href="#61">61</a>
-<a href="#62">62</a>
-<a href="#63">63</a>
-<a href="#64">64</a>
-<a href="#65">65</a>
-<a href="#66">66</a>
-<a href="#67">67</a>
-<a href="#68">68</a>
-<a href="#69">69</a>
-<a href="#70">70</a>
-<a href="#71">71</a>
-<a href="#72">72</a>
-<a href="#73">73</a>
-<a href="#74">74</a>
-<a href="#75">75</a>
-<a href="#76">76</a>
-<a href="#77">77</a>
-<a href="#78">78</a>
-<a href="#79">79</a>
-<a href="#80">80</a>
-<a href="#81">81</a-->
 
 <h1 id="intro">
 	Intro
