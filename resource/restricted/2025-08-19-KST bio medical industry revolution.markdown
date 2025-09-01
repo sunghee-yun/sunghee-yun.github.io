@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Sun Aug 31 00:33:41 PDT 2025
+last_modified_at: Mon Sep  1 15:17:27 PDT 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -83,6 +83,11 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 </blockquote-->
 
 <h1>NotebookLM Podcasts</h1>
+
+<audio id="podcast-1" controls>
+	<source type="audio/mp4" src="/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
+	Your browser does not support this shorter audio element.
+</audio>
 
 - [Living Healthier, Longer: The AI, Biology, and  Health Asset Revolution (19:28)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=4520a696-127a-4b99-bd5c-0eb24a9d2fb9){:target="_blank"}
 - [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset_Management (21:50)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=ec8665c0-d07c-4cd5-bb24-ac718f50539a){:target="_blank"}
