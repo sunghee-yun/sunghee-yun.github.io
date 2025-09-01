@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 date: Wed Jul 30 10:40:27 PDT 2025
-last_modified_at: Sun Aug 10 22:37:10 KST 2025
+last_modified_at: Sun Aug 31 18:21:40 PDT 2025
 permalink: /math/rig/linear-algebra
 categories:
  - blog
@@ -35,10 +35,10 @@ tr:nth-child(even) {
 
 {% assign linalg_story = site.posts | where: "permalink", "/math/linear-algebra" | first %}
 
-# NotebookLM Podcasts
+<h1>NotebookLM Podcasts</h1>
 
-- [16:43](https://notebooklm.google.com/notebook/7b158ba3-7c7c-4906-812d-0c5fc1ad0c59/audio)
-- [21:46](https://notebooklm.google.com/notebook/38079fa6-3355-400d-b311-17ba76b6e6a5/audio)
+- [Decoding Linear Algebra - The Hidden Language of Modern Tech, AI, and Data Science (16:43)](https://notebooklm.google.com/notebook/7b158ba3-7c7c-4906-812d-0c5fc1ad0c59?artifactId=76334fc5-0150-435e-8e82-e1b11366b3f3){:target="_blank"}
+- [Demystifying Linear Algebra - A Deep Dive into Fields, Spaces, and Transformations (21:46)](https://notebooklm.google.com/notebook/38079fa6-3355-400d-b311-17ba76b6e6a5?artifactId=bc798e06-d39e-4a9e-87d6-8b1c679c103c){:target="_blank"}
 
 # Vector Spaces
 
