@@ -3,7 +3,7 @@ main:
     url: /about
   - title: "posts"
     url: /posts
-  - title: "MATH"
+  - title: "math"
     url: /math
   - title: "AI Insights"
     url: /articles
