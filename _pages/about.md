@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Aug 24 21:27:32 PDT 2025
+last_modified_at: Thu Sep  4 01:21:37 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -14,10 +14,8 @@ Co-Founder &amp; CTO
 @ <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
 Co-Founder &amp; CEO
 @ Erudio Bio Korea, Inc.,
-Chief Business Development Officer (CBDO)
-@ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
-Advisor &amp; Evangelist
-@ <a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>,
+the Leader
+of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>,
 <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
 @ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
 <a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
@@ -28,9 +26,13 @@ of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineeri
 @ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
 <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
 @ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
-and
 Network Expert Consultant
-@ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>
+@ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
+Chief Business Development Officer (CBDO)
+@ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
+and
+Advisor
+@ <a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>.
 
 Before founding the new AI biotech company,
 I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
@@ -76,6 +78,8 @@ to drive business innovation, predict industry trends, assess their broad impact
 provide policy and technology recommendations
 by understanding and having differentiated insight
 into technology, industry, business, and markets.
+
+As the Leader of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>, I foster collaboration between industry leaders, researchers, and policymakers to advance responsible AI technologies and establish ethical frameworks for AI deployment across critical sectors including healthcare, finance, and biotechnology. K-PAI serves as a vital bridge connecting cutting-edge AI research with real-world applications, where my experience at companies like Erudio Bio, Gauss Labs, Amazon, and Samsung provides unique insights into the practical challenges of implementing secure and trustworthy AI solutions at scale. Through K-PAI's seminars, workshops, and policy discussions, I work to ensure that as AI systems become more pervasive, they are built with responsible design principles that balance innovation with societal benefits, particularly addressing the complex regulatory landscapes across the US, Europe, and Asia-Pacific regions where different technological standards and cultural expectations around AI governance create both challenges and opportunities for sustainable AI development that serves humanity's long-term interests.
 
 As a
 <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>,
@@ -124,20 +128,22 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 Sunghee Yun is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
-Advisor and Evangelist at CryptoLab, Inc.,
+Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
+the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
 and
-Chief Business Development Officer at WeStory.ai.
+KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
 He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
-Sunghee's expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as an Adjunct Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University, alongside his fellowship at KFAS-Salzburg Global Leadership Initiative.
+Sunghee's expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as an Adjunct Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 
 ## long
 
 Sunghee Yun is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
-Advisor and Evangelist at CryptoLab, Inc.,
+the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
+Chief Business Development Officer at WeStory.ai,
 and
-Chief Business Development Officer at WeStory.ai.
+Advisor at CryptoLab, Inc.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor,
 where he developed AI and optimization tools for chip design, manufacturing, and testing—solutions
 that continue to be utilized daily by many Samsung engineers.
