@@ -1,8 +1,8 @@
 ---
-title: "Partial information is not (necessarily) better than ignorance"
-permalink: /prajna/partial-information
+title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
+permalink: /prajna/wisdom-of-strategic-ignorance
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Fri Sep  5 03:52:37 PDT 2025
+last_modified_at: Fri Sep  5 05:07:33 PDT 2025
 categories:
  - blog
  - Cognitive Science
@@ -34,11 +34,12 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 > In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain usefully ignorant rather than confidently wrong.
 
-<!--h1>NotebookLM Podcasts</h1>
+<h1>NotebookLM Podcasts</h1>
 
-- [(X:XX)](/)
-- [(Y:YY)](/)
--->
+- [The Danger of Knowing (Just) Enough - Why Partial Information Can Be Worse Than Ignorance (19:07)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=3a308f01-0696-4f34-a60d-1d3b7da901a7){:target=" blank"}
+- [The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing (17:13)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=58234e99-fd2f-497b-990e-79e0dade626c){:target=" blank"}
+- [The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance (20:16)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=7ba3b4ae-0f09-40f1-8ac1-a9a87e21e674){:target=" blank"}
+- [The Danger of Partial Information - Why Knowing Less Can Be Better Than Knowing Just Enough (18:27)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=22f243d3-892b-4484-9341-76c199c7807b){:target=" blank"}
 
 # The Seductive Completeness of Incomplete Information
 
