@@ -1,7 +1,8 @@
 ---
-title: Richness of Music Notes - despite single dimensionality
+#title: Richness of Music Notes - despite single dimensionality
+title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Sat Sep  6 03:30:33 PDT 2025
+last_modified_at: Sat Sep  6 15:59:21 PDT 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -232,14 +233,14 @@ Entrepreneur, Engineer, Scientist, Creator, and Connector of Ideas (and, most of
 	Probably except to <a href="https://en.wikipedia.org/wiki/William_Shakespeare">William Shakespeare</a>!
 &nbsp;<a href="#ref2">↩</a></li>
 <li id="footnote3">
-	Probably except to <a href="/math">Sunghee Yun</a>! &ndash; pun (&amp; contradiction) intended &#x2605;^^&#x2605;
+	Probably except to <a href="/math">Sunghee Yun</a>! &ndash; pun (and contradiction) intended &#x2605;^^&#x2605;
 &nbsp;<a href="#ref3">↩</a></li>
 <li id="footnote4">
 	Obviously, the adjective expression <i>multi-dimensional</i> in &ldquo;multi-dimensional conscious experience&rdquo;
 	cannot possibly (even remotely) express correctly the richness of the consciousness,
-	in which, probably &ldquo;richness&rdquo; here can't be a proper expression, either.
+	in which, probably &ldquo;richness&rdquo; can't be a proper expression, either.
 	Once again, <a href="https://en.wikipedia.org/wiki/Ludwig_Wittgenstein">Wittgenstein</a> can't be more right about
-	his arguments on the incapacity of our languages!
+	his arguments on the incapacity (or rather limits) of our languages (which was clearly seen by <a href="https://en.wikipedia.org/wiki/The_Buddha">Gautama Siddhartha</a> thousands of years ago)!
 &nbsp;<a href="#ref4">↩</a></li>
 <li id="footnote5">
 	The same comments as <a href="#footnote4">4</a>!
