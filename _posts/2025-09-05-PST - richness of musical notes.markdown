@@ -1,7 +1,7 @@
 ---
 title: Richness of Music Notes - despite single dimensionality
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Sat Sep  6 03:00:56 PDT 2025
+last_modified_at: Sat Sep  6 03:30:33 PDT 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -36,12 +36,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 > The mathematics of frequency provides the vocabulary; consciousness provides the grammar; culture provides the literature; and the result is the impossible, beautiful richness of musical experience that emerges from the interaction between the simplest possible acoustic phenomena and the most complex information-processing system we know &ndash; <span class="emph">the conscious mind encountering beauty in time!</span>
 
-<!--
-<h1>NotebookLM Podcasts</h1>
+<h1>Podcasts</h1>
 
-[The Impossible Richness of Simple Frequencies - How One Dimension Creates Infinite Musical Worlds (13:42)](https://notebooklm.google.com/notebook/example)
-[From Mathematics to Mozart - Why Musical Beauty Transcends Physical Reality (12:18)](https://notebooklm.google.com/notebook/example)
--->
+- [The Dimensional Paradox - How One Sound Wave Becomes Profound Music (22:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=8d10385f-3a83-4a24-897d-62d1be9614df){:target="_blank"}
+- [The Dimensional Paradox - How One Sound Wave Creates the Universe of Beauty and Emotions (14:56)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=ce66f76d-f6c1-43b8-82a5-1dad7161bf20){:target="_blank"}
+- [The Dimensional Paradox of Music - From Sound Waves to Soulful Emotions (13:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=1c6a7bcf-84cf-46f7-86a2-d1ac6b560906){:target="_blank"}
 
 # Dimensional Paradox
 
