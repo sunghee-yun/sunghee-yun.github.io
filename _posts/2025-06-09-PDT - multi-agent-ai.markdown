@@ -2,7 +2,7 @@
 layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Sun Aug 10 23:43:20 KST 2025
+last_modified_at: Sat Sep  6 02:43:51 PDT 2025 
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -26,15 +26,11 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<blockquote>
-For entrepreneurs, this means that competitive advantage no longer comes from having access to the best AI model (since they're increasingly commoditized), but from having the best data architecture and domain-specific knowledge bases.
-</blockquote>
+> For entrepreneurs, this means that competitive advantage no longer comes from having access to the best AI model (since they're increasingly commoditized), but from having the best data architecture and domain-specific knowledge bases.
 
-<blockquote>
-The question isn't whether AI agents will revolutionize business operations—it's which entrepreneurs will build the companies that lead that revolution.
-</blockquote>
+> The question isn't whether AI agents will revolutionize business operations—it's which entrepreneurs will build the companies that lead that revolution.
 
-# Podcasts
+<h1>Podcasts</h1>
 
 - [The Multi-Agent AI Revolution: Unlocking Collective Intelligence and New Business Models with Privacy (20:15)](https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1?artifactId=cf5c00cd-164f-400b-9a03-c4ba1414bd5d){:target="_blank"}
 - [The Multi-Agent AI Revolution: Unlocking Business Value and Competitive Advantage through Collaborative Intelligence (22:22)](https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771?artifactId=c8196ae2-6cf6-4f91-9fae-f2b555e169f6){:target="_blank"}
