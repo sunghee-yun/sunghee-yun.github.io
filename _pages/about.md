@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Thu Sep  4 01:21:37 PDT 2025
+last_modified_at: Fri Sep  5 18:53:53 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -16,16 +16,18 @@ Co-Founder &amp; CEO
 @ Erudio Bio Korea, Inc.,
 the Leader
 of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>,
+Task Force Member of AI-Korean Medicine Integration Initiative Task Force (1st Term)
+@ <a href="https://www.akom.org/">The Association of Korean Medicine</a>,
 <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
 @ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
+<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
+@ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 <a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
 of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
 @ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
 <a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
 of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
 @ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
-<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
-@ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 Network Expert Consultant
 @ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
 Chief Business Development Officer (CBDO)

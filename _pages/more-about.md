@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Thu Sep  4 01:21:50 PDT 2025
+last_modified_at: Fri Sep  5 18:54:53 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -28,7 +28,29 @@ If you have reached this page, you are among the chosen few :) because this page
 
 This page illuminates how my business and social activities interconnect with the multiple roles I hold, and most importantly, with the future I am designing &amp; planning and executing. It complements my [About page](/about/) while revealing a different dimension of my work.
 
-While my multiple concurrent roles&mdash;Co-Founder &amp; CTO @ <a href="https://www.erudio.bio/">Erudio Bio, Inc., CA, USA</a>, Co-Founder &amp; CEO @ Erudio Bio Korea, Inc., the Leader of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>, <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a> @ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>, <a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a> of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a> @ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>, <a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a> of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a> @ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>, <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a> @ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>, Network Expert Consultant @ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>, Chief Business Development Officer (CBDO) @ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>, and Advisor @ <a href="https://www.cryptolab.co.kr/en/">CryptoLab, Inc.</a>&mdash;across too many domains, they're all interconnected threads of the same intellectual fabric.
+While my multiple concurrent roles&mdash;Co-Founder &amp; CTO
+@ <a href="https://www.erudio.bio/">Erudio Bio, Inc., CA, USA</a>,
+Co-Founder &amp; CEO
+@ Erudio Bio Korea, Inc.,
+the Leader
+of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>,
+Task Force Member of AI-Korean Medicine Integration Initiative Task Force (1st Term)
+@ <a href="https://www.akom.org/">The Association of Korean Medicine</a>,
+<a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
+@ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
+<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
+@ <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a> of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
+@ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
+<a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a> of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
+@ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+Network Expert Consultant
+@ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
+Chief Business Development Officer (CBDO)
+@ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
+and
+Advisor
+@ <a href="https://www.cryptolab.co.kr/en/">CryptoLab, Inc.</a>&mdash;across too many domains, they're all interconnected threads of the same intellectual fabric.
 
 ## The Convergence - AI, Data, and Biotech
 
@@ -182,12 +204,14 @@ Here are resources that provide deeper insight into my work and perspectives:
 	- [{{ llm_energy.title }}]({{ llm_energy.url }})
 	- [{{ salzburg_report.title }}]({{ salzburg_report.url }})
 - Organization websites:
-  - [Erudio Bio, Inc.](https://www.erudio.bio/)
-  - [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/)
-  - [WeStory.ai](https://westory.ai/)
-  - [K-PAI](https://k-privateai.github.io/)
+  - [Erudio Bio, Inc.](https://www.erudio.bio/) / [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/)
+  - [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/)
   - [KFAS-Salzburg Global Leadership Initiative Fellows](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative)
+  - [Salzburg Global Seminar](https://www.salzburgglobal.org/)
   - [Photos - Uncertain Futures and Connections Reimagined: Connecting Technologies](https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/)
+  - [The Association of Korean Medicine](https://www.akom.org/)
+  - [WeStory.ai](https://westory.ai/)
+  - [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/)
 
 I hope this page helps you better understand my integrated vision and the interconnected nature of my work. :)
 
