@@ -2,7 +2,7 @@
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Fri Sep  5 05:07:33 PDT 2025
+last_modified_at: Fri Sep  5 22:13:32 PDT 2025
 categories:
  - blog
  - Cognitive Science
@@ -23,10 +23,10 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 **Share on**
-[X](https://x.com/intent/tweet?text=Partial+information+is+not+%28necessarily%29+better+than+no+information%20{{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
-| [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&quote=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
 | [Instagram](https://www.instagram.com/)
+| [X](https://x.com/intent/tweet?text=Partial+information+is+not+%28necessarily%29+better+than+no+information%20{{ site.url }}{{ site.baseurl }}{{ page.url }})
+| [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&quote=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
 
 > The human mind's tendency to construct complete narratives from incomplete data isn't a bug—it's a feature that once ensured our survival. But in our information-saturated age, this same cognitive mechanism can lead us astray in ways our ancestors never could have imagined.
 
