@@ -2,7 +2,7 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Sat Sep  6 19:51:31 PDT 2025
+last_modified_at: Sun Sep  7 02:24:25 PDT 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -262,6 +262,6 @@ Entrepreneur, Engineer, Scientist, Creator, and Connector of Ideas (and, most of
 	To be more precise,
 	the most complex flawed information-processing system
 	&ndash;
-	pun intended (together with factualness)
+	pun (together with self-evident factualness &#x2605;^^&#x2605;) intended
 &nbsp;<a href="#ref10">↩</a></li>
 </ol>
