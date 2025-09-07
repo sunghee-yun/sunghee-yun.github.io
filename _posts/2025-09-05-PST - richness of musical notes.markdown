@@ -2,7 +2,7 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Sat Sep  6 15:59:21 PDT 2025
+last_modified_at: Sat Sep  6 19:51:31 PDT 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -215,8 +215,9 @@ This insight connects to my broader philosophical framework &ndash; just as [Mea
 
 [Standing at that piano in Salzburg, playing Mozart's music](/ai/bridging-technology-and-humanity), I was participating in one of humanity's most profound achievements &ndash; the discovery that simple mathematical relationships can become vehicles for infinite conscious richness when filtered through the miraculous complexity of aware experience.
 
-The mathematics of frequency provides the vocabulary; consciousness provides the grammar; culture provides the literature; and the result is the impossible, beautiful richness of musical experience that emerges from the interaction between the simplest possible acoustic phenomena and the most complex information-processing system we know &ndash; <span class="emph">the conscious mind encountering beauty in time!</span>
+The mathematics of frequency provides the vocabulary; consciousness provides the grammar; culture provides the literature; and the result is the impossible, beautiful richness of musical experience that emerges from the interaction between the simplest possible acoustic phenomena and the most complex information-processing system we know<sup><a href="#footnote10" id="ref10">10</a></sup> &ndash; <span class="emph">the conscious mind encountering beauty in time!</span>
 
+<br>
 [Sunghee
 <br>
 <br>
@@ -257,4 +258,10 @@ Entrepreneur, Engineer, Scientist, Creator, and Connector of Ideas (and, most of
 <li id="footnote9">
 	The same applies as in <a href="#footnote4">4</a>!
 &nbsp;<a href="#ref9">↩</a></li>
+<li id="footnote10">
+	To be more precise,
+	the most complex flawed information-processing system
+	&ndash;
+	pun intended (together with factualness)
+&nbsp;<a href="#ref10">↩</a></li>
 </ol>
