@@ -2,11 +2,10 @@
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Sat Sep  6 01:38:31 PDT 2025
+last_modified_at: Mon Sep  8 01:39:02 PDT 2025
 categories:
  - blog
  - Cognitive Science
- - AI
 tags:
  - cognitive science
  - evolution theory
