@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Fri Aug 29 22:41:36 PDT 2025
+last_modified_at: Wed Sep 10 02:43:16 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -61,7 +61,7 @@ His upcoming collaboration with K-PAI in September on "Creative Intelligence - A
 
 ## Program Highlights (5pm ~ 8pm)
 
-### Opening & Welcome Reception (5pm ~ 5:30pm)
+### Opening & Welcome Reception (5pm ~ 6pm)
 
 Families gather with traditional Korean refreshments including songpyeon (송편) and seasonal treats, creating a warm Chuseok atmosphere. Children and adults mingle in a relaxed setting designed to foster intergenerational connections.
 
@@ -80,7 +80,7 @@ Maestro Baek will open our musical journey with an intimate piano recital featur
 - A special Arirang variation showcasing how traditional Korean music has been reimagined across cultures
 -->
 
-### Concert Showcase - Visual Journey (5:30pm ~ 5:50pm)
+### Concert Showcase - Visual Journey (6pm ~ 6:30pm)
 
 **"The Dancing Conductor in Action"**
 
@@ -136,7 +136,7 @@ Video highlights from Maestro Baek's performances, including:
 - Special focus on Disney OST performances and other family-friendly concerts
 -->
 
-### Cultural Bridge Talk - "From Engineering to Music: Following Your Heart" (5:50pm ~ 6:40pm)
+### Cultural Bridge Talk - "From Engineering to Music: Following Your Heart" (6:30pm ~ 7:20pm)
 
 **Interactive Presentation for the Whole Family**
 
@@ -163,17 +163,21 @@ Video highlights from Maestro Baek's performances, including:
 - **Musical Memory Sharing**: Brief moment for families to share what music means in their homes
 -->
 
-### Q&A and Family Sharing (6:40pm ~ 7pm)
+### Q&A and Family Sharing (7:20pm ~ 8pm)
 
 Open discussion where families can ask questions about music education, cultural preservation, and how to nurture children's artistic interests while maintaining academic excellence—a topic close to many Korean families' hearts.
 
+<!--
 ### Light Dinner & Cultural Exchange (7pm ~ 7:40pm)
 
 Enjoy a delicious light dinner featuring Korean and Korean-American fusion dishes while families continue their conversations. This relaxed dining atmosphere provides the perfect opportunity for deeper cultural exchange and community building.
+-->
 
+<!--
 ### Closing Ceremony - "A Musical Thanksgiving" (7:40pm ~ 8:00pm)
 
 A special moment of gratitude combining Korean Chuseok traditions with musical celebration, acknowledging both our heritage and our American community.
+-->
 
 # Why This Event is Special
 
@@ -207,7 +211,8 @@ We look forward to making music and memories together!
 
 따뜻한 마음으로,
 
-[Event Organizing Committee]
-[Contact information - Coming Soon!]
+[Sunghee Yun](https://sungheeyun.github.io)
+&amp;
+[Yoonhak Baek](https://www.chosun.com/site/data/html_dir/2018/08/03/2018080300096.html)
 
-*This special family event is organized independently and complements the professional K-PAI forum series while celebrating our community's cultural richness.*
+*This special family event is organized independently and complements the professional [K-PAI](https://k-privateai.github.io/) forum series while celebrating our community's cultural richness.*
