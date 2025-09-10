@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Wed Sep 10 02:43:16 PDT 2025
+last_modified_at: Wed Sep 10 14:54:34 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -47,7 +47,7 @@ This unique event celebrates how music serves as a bridge—connecting grandpare
 
 Join us for an evening of musical discovery, cultural connection, and family bonding as we explore how melodies transcend generations and create harmony across cultures. This heartwarming gathering is designed specifically for families—a complement to the professional forums typically held in our tech community.
 
-- <font color="red"><strong>Please RSVP via [registration link] - Coming Soon!</strong></font>
+- <font color="red"><strong>Please RSVP via <a href="https://luma.com/m5rui98a">this link</a>!</strong></font>
 - **Free admission for all families**
 
 ## Special Guest - Maestro Yoonhak Baek (백윤학 지휘자)
