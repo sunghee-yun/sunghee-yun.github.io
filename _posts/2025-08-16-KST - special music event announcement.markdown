@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Fri Sep 12 02:14:32 PDT 2025
+last_modified_at: Fri Sep 12 02:27:25 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -42,7 +42,9 @@ This unique event celebrates how music serves as a bridge—connecting grandpare
 - **Date**: October 4, 2025 (Saturday)
 - **Time**: 5pm - 8pm PDT
 - **Venue**: Stanford University
-- **Audience**: Korean (and non-Korean) families and friends, all ages welcome!
+&ndash;
+We're considering two potential auditoriums at Stanford for the event. The exact location will be announced on the website (and in the reminder email) once it's decided.
+- **Audience**: Korean &amp; non-Korean families and friends, all ages welcome!
 - **Light dinner will be provided!**
 
 Join us for an evening of musical discovery, cultural connection, and family bonding as we explore how melodies transcend generations and create harmony across cultures. This heartwarming gathering is designed specifically for families—a complement to the professional forums typically held in our tech community.
