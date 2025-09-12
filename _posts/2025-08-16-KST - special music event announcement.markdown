@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Wed Sep 10 14:54:34 PDT 2025
+last_modified_at: Fri Sep 12 02:14:32 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -33,7 +33,7 @@ to share this musical celebration with your family and friends!
 # Invitation
 
 ---
-Dear Korean Families and Music-Loving Community in Silicon Valley!
+Dear both Korean &amp; non-Korean Families and Music-Loving Community in Silicon Valley!
 
 We warmly invite you to a very special pre-Chuseok celebration that bridges generations, cultures, and hearts through the universal language of music. As we prepare for Korean Thanksgiving, join us for an intimate family gathering featuring the remarkable **Maestro Yoonhak Baek (백윤학 지휘자)**, whose inspiring journey from Seoul Science High School Mathematics Olympiad (MO) to internationally acclaimed conductor embodies the beautiful fusion of analytical excellence and artistic passion.
 
