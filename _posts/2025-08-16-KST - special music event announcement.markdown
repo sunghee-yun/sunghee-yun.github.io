@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Fri Sep 12 02:27:25 PDT 2025
+last_modified_at: Fri Sep 12 02:45:04 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -183,7 +183,7 @@ A special moment of gratitude combining Korean Chuseok traditions with musical c
 
 # Why This Event is Special
 
-This gathering offers Korean families in Silicon Valley a rare opportunity to celebrate their cultural heritage while embracing their American community identity. Children will see how their Korean background enriches their appreciation of music, while parents and grandparents connect over shared melodies that span generations.
+This gathering offers Korean (and non-Korean) families in Silicon Valley a rare opportunity to celebrate their cultural heritage while embracing their American community identity. Children will see how their Korean background enriches their appreciation of music, while parents and grandparents connect over shared melodies that span generations.
 
 Maestro Baek's unique background—from mathematics excellence to musical artistry—provides an inspiring example for families balancing academic achievement with creative expression. His story demonstrates that pursuing passion doesn't mean abandoning excellence, but rather finding new ways to achieve it.
 
