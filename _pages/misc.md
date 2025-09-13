@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Aug 25 10:13:45 PDT 2025
+last_modified_at: Sat Sep 13 16:40:24 PDT 2025
 ---
 
 <!--
@@ -259,7 +259,7 @@ last_modified_at: Mon Aug 25 10:13:45 PDT 2025
 <h4>Dec</h4>
 
 - biz trip to Seoul &ndash; 12 nights
-	- 09-Dec-2025 PST ~ 21-Dec-2025 PST [flight invoice](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
+	- 09-Dec-2025 PST ~ 21-Dec-2025 PST &ndash; [flight invoice](/resource/trips/2025-12 - Seoul/www.expedia.com-egti-I1K-RJ9-S4FA.pdf)
 	- flight
 		&ndash; United 893
 		&ndash; from SFO @ 10:30am on 09-Dec-2025 PST to ICN @ 4:15pm on 10-Dec-2025 KST
@@ -272,7 +272,7 @@ last_modified_at: Mon Aug 25 10:13:45 PDT 2025
 - biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
 	6 nights
-	- 01-Dec-2025 PST ~ 07-Dec-2025 PST [flight invoice](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
+	- 01-Dec-2025 PST ~ 07-Dec-2025 PST &ndash; [flight invoice](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
 	- flight
 		&ndash; AS 3429 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SJC @ 2:59pm to SAN @ 4:28pm on 01-Dec-2025 PST
@@ -285,18 +285,19 @@ last_modified_at: Mon Aug 25 10:13:45 PDT 2025
 <h4>Oct</h4>
 
 - biz trip to Seoul &ndash; 12 nights
-	- 13-Oct-2025 PDT ~ 25-Oct-2025 PDT
-	- [flight](/resource/trips/2025-10 - Seoul/www.expedia.com-egti-XIU-ICR-W9TS.pdf)
+	- 13-Oct-2025 PDT ~ 25-Oct-2025 PDT &ndash; [flight invoice](/resource/trips/2025-10 - Seoul/www.expedia.com-egti-XIU-ICR-W9TS.pdf)
+	- flight
 		&ndash; Air Premia 112
 		&ndash; from SFO @ 3:30pm on 13-Oct-2025 PDT to ICN @ 8:30pm on 14-Oct-2025 KST
 		(13h)
-	- [return flight](/resource/trips/2025-10 - Seoul/www.expedia.com-egti-XIU-ICR-W9TS.pdf)
+	- return flight
 		&ndash; OZ 212
 		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 25-Oct-2025
 		(10h 35m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
 	- 2 night trip to Jeju for International Conference on ICT Convergence (ICTC) 2025
 		@ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
+		- 15-Oct-2025 ~ 17-Oct-2025 &ndash; [e-ticket](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
 		- [flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
 			&ndash; 7C 111
 			&ndash; from GMP @ 9:25am to CJU @ 10:40am on 15-Oct-2025 KST
@@ -308,24 +309,24 @@ last_modified_at: Mon Aug 25 10:13:45 PDT 2025
 <h4>Sep</h4>
 
 - biz trip to Seoul &ndash; 13 nights
-	- 14-Sep-2025 PDT ~ 27-Sep-2025 PDT
-	- [flight](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
+	- 14-Sep-2025 PDT ~ 27-Sep-2025 PDT &ndash; [flight invoice](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
+	- flight
 		&ndash; OZ 211
 		&ndash; from SFO @ 11:30pm on 14-Sep-2025 PDT to ICN @ 4:30am on 16-Sep-2025 KST
 		(13h)
-	- [return flight](/resource/trips/2025-09 - Seoul/www.expedia.com-egti-9M5-6NK-RZRB.pdf)
+	- return flight
 		&ndash; OZ 212
 		&ndash; from ICN @ 8:55pm KST to SFO @ 3:30pm PDT on 27-Sep-2025
 		(10h 35m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
 	- 1 day trip to Pohang
-		- 17-Sep-2025 KST
-		- [KTX](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
+		- 17-Sep-2025 KST &ndash; [train tickets](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
+		- KTX
 			&ndash; from Gwangmyeong @ 8:54am to Pohang @ 10:55am on 17-Sep-2025 KST
-		- [KTX](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
+		- KTX
 			&ndash; from Pohang @ 9:36pm to Gwangmyeong @ 11:48pm on 17-Sep-2025 KST
 	- 2 night trip to Suwon
-		- 22-Sep-2025 ~ 24-Sep-2025 KST
+		- 22-Sep-2025 ~ 24-Sep-2025 KST &ndash; [invoice](/resource/trips/2025-09 - Seoul/Hotel Reservation for Quantum Bio - 2025 0922 ~ 0924.pdf)
 		- [stay](/resource/trips/2025-09 - Seoul/Hotel Reservation for Quantum Bio - 2025 0922 ~ 0924.pdf) @ [Courtyard Marriott Suwon](https://naver.me/xAF7m4Em)
 
 <h4>Aug</h4>
