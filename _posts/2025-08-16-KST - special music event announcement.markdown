@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Fri Sep 12 02:45:04 PDT 2025
+last_modified_at: Sat Sep 13 16:16:30 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -86,39 +86,11 @@ Maestro Baek will open our musical journey with an intimate piano recital featur
 
 **"The Dancing Conductor in Action"**
 
-Experience Maestro Baek's remarkable performances through these featured videos:
+Experience Maestro Baek's remarkable performances through these featured videos!
 
-<!--
-#### Method 1: Simple Markdown Links (Most Compatible)
-
-**Featured Performance Videos:**
-- [Maestro Baek conducting Disney OST](https://youtu.be/7S1LJ8ic02E?si=xm5O2oZHNcPFLUqJ)
-- [Behind the Scenes with the Orchestra](https://youtu.be/tLWBYWqggTw?si=_YoRgcUJ6_Wqasax)
--->
-
-<!--
-#### Method 2: HTML iframe Embeds (If your platform supports HTML)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7S1LJ8ic02E"
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tLWBYWqggTw"
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
--->
-
-<!--
-#### Method 3: Responsive HTML Embeds (Better for mobile)
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/7S1LJ8ic02E"
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-  frameborder="0" allowfullscreen></iframe>
+<div style="width: 90%; margin: 0 auto;">
+{% include video id="jCM4XW6oOWc" provider="youtube" %}
 </div>
--->
-
-<!--
-#### Method 4: Jekyll/GitHub Pages Style (If using Jekyll)
--->
 
 <div style="width: 90%; margin: 0 auto;">
 {% include video id="7S1LJ8ic02E" provider="youtube" %}
@@ -128,15 +100,11 @@ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 {% include video id="tLWBYWqggTw" provider="youtube" %}
 </div>
 
-Through carefully selected video highlights, families will witness Maestro Baek's remarkable performances that have captivated audiences with their infectious joy and energy. These behind-the-scenes glimpses reveal his signature conducting style that makes even the most serious orchestra musicians break into smiles during performances. We'll see genuine audience reactions to his festival-like concerts, where traditional classical music boundaries dissolve into pure celebration. Special attention will be given to his Disney OST performances and other family-friendly concerts, showing how classical music can be both sophisticated and wonderfully accessible to children and adults alike.
+<div style="width: 90%; margin: 0 auto;">
+{% include video id="6drBPlMZCE0" provider="youtube" %}
+</div>
 
-<!--
-Video highlights from Maestro Baek's performances, including:
-- Behind-the-scenes moments showing his joyful conducting style
-- Orchestra musicians smiling and enjoying the music
-- Audience reactions to his festival-like performances
-- Special focus on Disney OST performances and other family-friendly concerts
--->
+Through carefully selected video highlights, families will witness Maestro Baek's remarkable performances that have captivated audiences with their infectious joy and energy. These behind-the-scenes glimpses reveal his signature conducting style that makes even the most serious orchestra musicians break into smiles during performances. We'll see genuine audience reactions to his festival-like concerts, where traditional classical music boundaries dissolve into pure celebration. Special attention will be given to his Disney OST performances and other family-friendly concerts, showing how classical music can be both sophisticated and wonderfully accessible to children and adults alike.
 
 ### Cultural Bridge Talk - "From Engineering to Music: Following Your Heart" (6:30pm ~ 7:20pm)
 
