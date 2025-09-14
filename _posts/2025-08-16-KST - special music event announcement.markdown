@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Sat Sep 13 16:16:30 PDT 2025
+last_modified_at: Sat Sep 13 18:52:54 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -105,6 +105,16 @@ Experience Maestro Baek's remarkable performances through these featured videos!
 </div>
 
 Through carefully selected video highlights, families will witness Maestro Baek's remarkable performances that have captivated audiences with their infectious joy and energy. These behind-the-scenes glimpses reveal his signature conducting style that makes even the most serious orchestra musicians break into smiles during performances. We'll see genuine audience reactions to his festival-like concerts, where traditional classical music boundaries dissolve into pure celebration. Special attention will be given to his Disney OST performances and other family-friendly concerts, showing how classical music can be both sophisticated and wonderfully accessible to children and adults alike.
+
+<span id="baek-performance"><strong>Other performances of Maestro Baek!</strong></span>
+
+- [[내인생의클래식] 지휘자 백윤학 편](https://youtu.be/IzPb0JkEtU8?si=keyYsi7fSyc_9XvG)
+- [[지휘자직캠] 알라딘 OST Medley (Aladdin Medley) I 지브리 & 디즈니 OST FESTA](https://youtu.be/tR8I0_Ya2Ig?si=WyUbOBJ2dj6A2QHb)
+- [[공연실황] 기쿠지로의 여름 OST SUMMER I 지브리 & 디즈니 OST FESTA](https://youtu.be/47E2E95cON4?si=P90oaq0Lh1sk7sBu)
+- [캐리비안의 해적 (Pirates of the Caribbean) OST I 디즈니&픽사 OST FESTA](https://youtu.be/EZHItt4kdDg?si=Bk-dthqBpb9Pv5yH)
+- [[공연실황] 겨울왕국 메들리 (Frozen medley) I 지브리&디즈니 OST FESTA](https://youtu.be/AGTG_yaB8eo?si=G2nlsHPQAYjFX3Nm)
+- [인크레더블 (The Incredibles) OST - THE INCREDIBLES I 디즈니&픽사 OST FESTA](https://youtu.be/DryJoaN6I3E?si=IWya5reLFXqaJKfX)
+
 
 ### Cultural Bridge Talk - "From Engineering to Music: Following Your Heart" (6:30pm ~ 7:20pm)
 
