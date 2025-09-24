@@ -8,7 +8,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Thu Sep 25 01:22:16 KST 2025
+last_modified_at: Thu Sep 25 01:31:16 KST 2025
 ---
 
 Here is (not quite) a comprehensive list of invited talks, lectures, consultations, panel discussions, and knowledge-sharing sessions that I have delivered and organized (and continue to deliver and organize) across prestigious academic institutions, leading corporations, government organizations, and international forums on transformative technologies and critical social topics including Large Language Models (LLMs), generative AI (genAI), AI Agents, private AI, homomorphic cryptography, industrial AI applications, semiconductor manufacturing innovations, and the broader societal, economic, and ethical implications of artificial intelligence. These engagements span from intimate executive consultations with Fortune 500 companies to large-scale university seminars, from policy discussions with government leaders to technical deep-dives with research teams, reflecting my commitment to bridging the gap between cutting-edge AI research and practical real-world applications across diverse domains and stakeholder communities.
@@ -519,7 +519,8 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 
 <ul>
 <li id="ai-consultation-for-solidgm">
-	[Solidigm Executive AI Consultation] Technical &amp; Business AI Strategy Consulation for Data Center Flash Storages
+	"[Solidigm Executive AI Consultation] Technical &amp; Business AI Strategy Consulation for Data Center Flash Storages"
+	invited by Solidigm CEO
 	(30-Oct-2024 PDT)
 </li>
 <li>
