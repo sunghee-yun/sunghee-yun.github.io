@@ -8,7 +8,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Mon Aug 25 10:24:33 PDT 2025
+last_modified_at: Thu Sep 25 01:22:16 KST 2025
 ---
 
 Here is (not quite) a comprehensive list of invited talks, lectures, consultations, panel discussions, and knowledge-sharing sessions that I have delivered and organized (and continue to deliver and organize) across prestigious academic institutions, leading corporations, government organizations, and international forums on transformative technologies and critical social topics including Large Language Models (LLMs), generative AI (genAI), AI Agents, private AI, homomorphic cryptography, industrial AI applications, semiconductor manufacturing innovations, and the broader societal, economic, and ethical implications of artificial intelligence. These engagements span from intimate executive consultations with Fortune 500 companies to large-scale university seminars, from policy discussions with government leaders to technical deep-dives with research teams, reflecting my commitment to bridging the gap between cutting-edge AI research and practical real-world applications across diverse domains and stakeholder communities.
@@ -33,15 +33,24 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 &nbsp;
 </div>
 
-<h3>Oct</h3>
+<h3 id="sem-2025-oct">Oct</h3>
 
 <ul>
+<li id="seoul-tech-ai-seminar-oct-2025">
+	"[Hanyang Univ Special AI Lecture] Innovation Leadership in the AI Era - Knowledge, Experience, and Insight for Tomorrow's Technology Managers"
+	invited by
+	Hanyang University Graduate School of Technology &amp; Innovation Management
+	(21-Oct-2025 KST)
+	-
+	<a href="/seminars/2025_1021 KST - Hanyang Univ Special AI Lecture - Innovation Leadership in the AI Era - Knowledge, Experience, and Insight for Tomorrow's Technology Managers/abstract">abstract</a>
+</li>
 <li id="seoul-tech-ai-seminar-oct-2025">
 	"[SEOULTECH Special AI Lecture] Beyond ChatGPT - Navigating AI Agents, Biotech Convergence, and Global Transformation"
 	invited by
 	Seoul National University of Science and Technology (SEOULTECH)
 	(20-Oct-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/25496a45-21e9-4a95-a748-d9c690eec289?artifactId=ef6e6fe1-2fff-465d-9649-973cea9f313c" target="_blank">podcast (21:25)</a>
 	<a href="/seminars/2025_1020 KST - SEOULTECH Special AI Lecture - Beyond ChatGPT - Navigating AI Agents, Biotech Convergence, and Global Transformation/abstract">abstract</a>
 	<a href="/resource/seminars/2025_1020 KST - SEOULTECH Special AI Lecture - Beyond ChatGPT - Navigating AI Agents, Biotech Convergence, and Global Transformation/SEOULTECH Special AI Lecture - Beyond ChatGPT - Navigating AI Agents, Biotech Convergence, and Global Transformation - Sunghee Yun.pdf">slides</a>
 </li>
@@ -50,6 +59,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by International Conference on ICT Convergence (ICTC) 2025
 	(15-Oct-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/39e8f461-9018-4e7d-bb01-ab4d87165290?artifactId=ee91d48a-3af9-4f0f-9ab2-be2f42c6112f" target="_blank">podcast (23:16)</a>
 	<a href="/seminars/2025_1015 KST - ICTC 2025 AI Seminar - Convergent AI Innovation - From Protein Folding Breakthroughs to Agentic AI for Sustainable Future/abstract">abstract</a>
 	<a href="/resource/seminars/2025_1015 KST - ICTC 2025 AI Seminar - Convergent AI Innovation - From Protein Folding Breakthroughs to Agentic AI for Sustainable Future/ICTC 2025 AI Seminar - Convergent AI Innovation - From Protein Folding Breakthroughs to Agentic AI for Sustainable Future - Sunghee Yun.pdf">slides</a>
 </li>
@@ -58,7 +68,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by Korea Innovation Center Silicon Valley (KICSV)
 	(06-Oct-2025 PDT)
 	-
-	<a href="https://notebooklm.google.com/notebook/aac6a286-f241-4958-bd88-e4495ff19d41/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/aac6a286-f241-4958-bd88-e4495ff19d41?artifactId=ebeb2be3-40b7-438c-be3f-77d0afd86788" target="_blank">podcast (39:38)</a>
 	<a href="/seminars/2025_1006 PDT - KICSV Special AI Lecture - Mathematics for AI - Theory into Practice/abstract">abstract</a>
 	<a href="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Mathematics for AI - Theory into Practice/KICSV Special AI Lecture - Mathematics for AI - Theory into Practice - Sunghee Yun.pdf">slides</a>
 </li>
@@ -67,33 +77,43 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by Korea Innovation Center Silicon Valley (KICSV)
 	(06-Oct-2025 PDT)
 	-
-	<a href="https://notebooklm.google.com/notebook/53965a61-060e-42e7-a029-16398c54960e/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/53965a61-060e-42e7-a029-16398c54960e?artifactId=07666bc8-c08c-41c0-8a57-58aeceaecbb8" target="_blank">podcast (8:00)</a>
 	<a href="/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/abstract">abstract</a>
 	<a href="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/KICSV Special AI Lecture - Core AI Concepts and Modern Architectures - Sunghee Yun.pdf">slides</a>
 </li>
 </ul>
 
-<h3>Sep</h3>
+<h3 id="sem-2025-sep">Sep</h3>
 
 <ul>
+<li id="korean-medicine-ai-integration-sep-2025">
+	"[Korean Medicine AI Integration Task Force Meeting] From Silicon Valley to Biotech Valley - How Agentic AI is Reshaping Drug Discovery"
+	invited by The Association of Korean Medicine
+	(26-Sep-2025 KST)
+	-
+	<a href="/seminars/2025_0926 KST - Korean Medicine AI Integration TF - From Silicon Valley to Biotech Valley - How Agentic AI is Reshaping Drug Discovery/abstract">abstract</a>
+	<a href="/resource/seminars/2025_0926 KST - Korean Medicine AI Integration TF - From Silicon Valley to Biotech Valley - How Agentic AI is Reshaping Drug Discovery/Korean Medicine AI Integration TF - From Silicon Valley to Biotech Valley - How Agentic AI is Reshaping Drug Discovery - Sunghee Yun.pdf">slides</a>
+</li>
 <li id="g-biva-innovation-salon-sep-2025">
 	"[G-BIVA Innovation Salon] Intelligent Agents, Intelligent Medicine - AI's Role in Next-Gen Healthcare"
-	invited by G-Bio Week X AI Connect with G-FAIR 2025
+	invited by Suwon City KSEA SV K-BioX Summit 8
 	(23-Sep-2025 KST)
 </li>
 <li id="g-bio-ai-seminar-sep-2025">
-	"[G-Bio Week X AI Connect] From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine"
-	invited by G-Bio Week X AI Connect with G-FAIR 2025
+	"[G-Quantum Bio Summit 2025] From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine"
+	invited by Suwon City KSEA SV K-BioX Summit 8
 	(23-Sep-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/7112b196-2ab9-49ab-b3ab-59c4a3ca6f0c?artifactId=2eb7746d-76b2-432c-b9fc-b720da6d60d9" target="_blank">podcast (17:42)</a>
 	<a href="/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine - Sunghee Yun.pdf">slides</a>
 </li>
 <li id="ai-seminar-snu-ecs-sep-2025">
-	"[SNU ECS Four-Departments Joint Seminar] AI Pulse Check - What Silicon Valley Is Actually Building Right Now"
+	"[SNU ECE Four-Departments Joint Seminar] AI Pulse Check - What Silicon Valley Is Actually Building Right Now"
 	invited by <a href="https://ece.snu.ac.kr/en">Department of Electrical and Computer Engineering (ECE)</a>, <a href="https://en.snu.ac.kr/">Seoul National University (SNU)</a>
 	(18-Sep-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/d75b7749-6ced-46da-90d8-c731482cdd93?artifactId=60125acf-fd11-4475-ba65-2a219717fd5d" target="_blank">podcast (18:47)</a>
 	<a href="/seminars/2025_0918 KST - SNU ECS Four-Departments Joint Seminar - AI Pulse Check - What Silicon Valley Is Actually Building Right Now/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0918 KST - SNU ECS Four-Departments Joint Seminar - AI Pulse Check - What Silicon Valley Is Actually Building Right Now/SNU ECS Four-Departments Joint Seminar - AI Pulse Check - What Silicon Valley Is Actually Building Right Now - Sunghee Yun.pdf">slides</a>
 </li>
@@ -102,6 +122,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by <a href="https://biz.korea.ac.kr/eng">Korea University Business School</a>
 	(18-Sep-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/3d5fb217-f5f6-409e-9915-a5e9153cbcaf?artifactId=b3a3589c-754a-4053-9ab4-f7474dfcdc5f" target="_blank">podcast (21:31)</a>
 	<a href="/seminars/2025_0918 KST - KUBS Special AI Lecture - The AI Revolution - How Smart Systems Are Reshaping Industries and Executive Decision-Making/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0918 KST - KUBS Special AI Lecture - The AI Revolution - How Smart Systems Are Reshaping Industries and Executive Decision-Making/KUBS Special AI Lecture - The AI Revolution - How Smart Systems Are Reshaping Industries and Executive Decision-Making - Sunghee Yun.pdf">slides</a>
 </li>
@@ -110,6 +131,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by <a href="https://cite.postech.ac.kr/eng/">Department of Convergence IT Engineering</a>, <a href="https://www.postech.ac.kr/eng/">POSTECH</a>
 	(17-Sep-2025 KST)
 	-
+	<a href="https://notebooklm.google.com/notebook/8819f378-a1de-4ab0-8f14-c36c48736fb8?artifactId=b64c1682-af16-44c8-87a8-cfbdb960a093" target="_blank">podcast (32:15)</a>
 	<a href="/seminars/2025_0917 KST - POSTECH Creativity IT Seminar - The AI Landscape Decoded - Where We Are, Where We're Going/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0917 KST - POSTECH Creativity IT Seminar - The AI Landscape Decoded - Where We Are, Where We're Going/POSTECH Creativity IT Seminar - The AI Landscape Decoded - Where We Are, Where We're Going - Sunghee Yun.pdf">slides</a>
 </li>
@@ -135,7 +157,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 		Korea Advanced Institute of Science &amp; Technology (KAIST)
 	(03-Jul-2025 KST)
 	-
-	<a href="https://notebooklm.google.com/notebook/0c1e737d-b13b-4808-91b8-2dc086a0f2eb/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/0c1e737d-b13b-4808-91b8-2dc086a0f2eb?artifactId=35753715-7d4f-492d-9089-2ad7a67dee63" target="_blank">podcast (25:05)</a>
 	<a href="/seminars/2025_0703 KST - KAIST Medical Science and Engineering AI Special Lecture - Leading AI Innovation Across Industries - Silicon Valley Insights on Technology Transfer from Tech to Biotech/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0703 KST - KAIST Medical Science and Engineering AI Special Lecture - Leading AI Innovation Across Industries - Silicon Valley Insights on Technology Transfer from Tech to Biotech/KAIST Medical Science and Engineering AI Special Lecture - Leading AI Innovation Across Industries - Silicon Valley Insights on Technology Transfer from Tech to Biotech - Sunghee Yun.pdf">slides</a>
 </li>
@@ -144,7 +166,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by <a href="https://www.ip-korea.org/">Institut Pasteur Korea</a>
 	(02-Jul-2025 KST)
 	-
-	<a href="https://notebooklm.google.com/notebook/67636df4-0f0d-40ad-ab86-36e1ec3a85de/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/67636df4-0f0d-40ad-ab86-36e1ec3a85de?artifactId=b630b2a2-120b-4fbe-ad0d-5c74127e70f3" target="_blank">podcast (39:32)</a>
 	<a href="/seminars/2025_0702 KST - Institut Pasteur AI Special Lecture - Silicon Valley AI Innovation - Silicon Valley Insights on Technology Transfer from Semiconductor & E-Commerce to AI-Powered Biotech/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0702 KST - Institut Pasteur AI Special Lecture - Silicon Valley AI Innovation - Silicon Valley Insights on Technology Transfer from Semiconductor & E-Commerce to AI-Powered Biotech/Institut Pasteur AI Special Lecture - Silicon Valley AI Innovation - Silicon Valley Insights on Technology Transfer from Semiconductor & E-Commerce to AI-Powered Biotech - Sunghee Yun.pdf">slides</a>
 </li>
@@ -153,7 +175,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by Department of Applied Statistics and Department of Statistics and Data Science, Yonsei University
 	(01-Jul-2025 KST)
 	-
-	<a href="https://notebooklm.google.com/notebook/a25a654c-76a0-421a-a3f7-33f9d9499816/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/a25a654c-76a0-421a-a3f7-33f9d9499816?artifactId=b2c1aec8-3699-4f87-ab50-633c552c4258" target="_blank">podcast (6:37)</a>
 	<a href="/seminars/2025_0701 KST - Yonsei University Applied Statistics AI-Biotech Seminar - The Era of Agentic AI - From Deep Learning and LLMs to Biotech Breakthroughs/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0701 KST - Yonsei University Applied Statistics AI-Biotech Seminar - The Era of Agentic AI - From Deep Learning and LLMs to Biotech Breakthroughs/Yonsei University Applied Statistics AI-Biotech Seminar - The Era of Agentic AI - From Deep Learning and LLMs to Biotech Breakthroughs - Sunghee Yun.pdf">slides</a>
 </li>
@@ -162,7 +184,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	invited by Division of Mechanical and Biomedical Engineering, Ewha Womans University
 	(01-Jul-2025 KST)
 	-
-	<a href="https://notebooklm.google.com/notebook/710739ca-022b-4e74-9f90-a3eadda7db48/audio">[NotebookLM]</a>
+	<a href="https://notebooklm.google.com/notebook/710739ca-022b-4e74-9f90-a3eadda7db48?artifactId=d48e4afb-aa54-412f-a84e-d1f18567646a" target="_blank">podcast (12:50)</a>
 	<a href="/seminars/2025_0701 KST - Ewha Womans University AI Seminar - Building Tomorrow's Healthcare - LLM, genAI, Agentic AI, and Human-Centered Innovation/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0701 KST - Ewha Womans University AI Seminar - Building Tomorrow's Healthcare - LLM, genAI, Agentic AI, and Human-Centered Innovation/Ewha Womans University AI Seminar - Building Tomorrow's Healthcare - LLM, genAI, Agentic AI, and Human-Centered Innovation - Sunghee Yun.pdf">slides</a>
 	<a href="/resource/seminars/2025_0701 KST - Ewha Womans University AI Seminar - Building Tomorrow's Healthcare - LLM, genAI, Agentic AI, and Human-Centered Innovation/photos/KakaoTalk_Photo_2025-07-01-17-38-02.jpeg">photo 1</a>
@@ -198,8 +220,8 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	(27-Jun-2025 KST)
 	-
 	<a href="https://notebooklm.google.com/notebook/cbc62a36-d2c9-4553-b9e9-0afa276172e2/audio">[NotebookLM]</a>
-	<a href="https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=57">Presentation</a>
-	<a href="https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=187">Interview</a>
+	<a href="https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=57" target="_blank">Presentation (YouTube)</a>
+	<a href="https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=187" target="_blank">Interview (YouTube)</a>
 	<a href="/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/abstract">abstract</a>
 	<a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience - Sunghee Yun.pdf">slides</a>
 	<a href="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">poster</a>
@@ -595,7 +617,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 	<a href="/resource/seminars/2024_0624 - Sognag University Seminar/photos/Sogang seminar - 1.jpeg">photo 1</a>
 	<a href="/resource/seminars/2024_0624 - Sognag University Seminar/photos/Sogang seminar - 2.png">photo 2</a>
 </li>
-<li>
+<li id="ai-seminar-postech-jun-2024">
 	"[POSTECH 2024 LINC 3.0 + GSAI Joint Seminar] Industrial AI - Best Practices in Semiconductor Manufacturing"
 	invited by <a href="https://www.postech.ac.kr/eng/">POSTECH</a>
 	(19-Jun-2024 KST)
