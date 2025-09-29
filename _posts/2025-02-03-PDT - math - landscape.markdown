@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Jul 21 21:14:51 EDT 2025
+last_modified_at: Mon Sep 29 03:56:50 PDT 2025
 categories:
  - blog
 tags:
@@ -53,10 +53,10 @@ and enriches their mathematical exploration journey.
 	Your browser does not support this shorter audio element.
 </audio>
 
-<audio id="podcast-3" controls>
+<!--audio id="podcast-3" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
 <h2>based on Math Codex</h2>
 
@@ -70,15 +70,15 @@ and enriches their mathematical exploration journey.
 	Your browser does not support this shorter audio element.
 </audio>
 
-<audio id="podcast-slides-3" controls>
+<!--audio id="podcast-slides-3" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-slides-4" controls>
+<!--audio id="podcast-slides-4" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
 # Child blog posts
 
