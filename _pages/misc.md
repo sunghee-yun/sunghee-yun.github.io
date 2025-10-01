@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Sep 13 16:40:24 PDT 2025
+last_modified_at: Wed Oct  1 06:37:32 PDT 2025
 ---
 
 <!--
@@ -298,13 +298,19 @@ last_modified_at: Sat Sep 13 16:40:24 PDT 2025
 	- 2 night trip to Jeju for International Conference on ICT Convergence (ICTC) 2025
 		@ [Lotte Hotel Jeju](https://naver.me/5l73yRex)
 		- 15-Oct-2025 ~ 17-Oct-2025 &ndash; [e-ticket](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
-		- [flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
+		- flight
 			&ndash; 7C 111
 			&ndash; from GMP @ 9:25am to CJU @ 10:40am on 15-Oct-2025 KST
-		- [return flight](/resource/trips/2025-10 - Seoul/Gmail - Sunghee Jeju Airline - e-ticket.pdf)
+		- return flight
 			&ndash; 7C 142
 			&ndash; from GMP @ 9:20pm to CJU @ 10:35pm on 17-Oct-2025 KST
 		- stay @ [Benikea Jungmun Hotel](https://naver.me/F0zvWKf9)
+	- 1 day trip to DGIST
+		- 22-Oct-2025 SRT &ndash; [train tickets](/resource/trips/2025-10 - Seoul/2025 1022 - SRT - Suseo <-> Dongdaegu.pdf)
+		- SRT 327
+			&ndash; from Suseo @ 10:50am to Dongdaegu @ 12:31pm on 22-Oct-2025 KST
+		- SRT 372
+			&ndash; from Dongdaegu @ 9:37pm to Dongtan @ 11:01pm on 22-Oct-2025 KST
 
 <h4>Sep</h4>
 
@@ -321,9 +327,9 @@ last_modified_at: Sat Sep 13 16:40:24 PDT 2025
 	- stay @ [수지](https://naver.me/FbqzqrjR)
 	- 1 day trip to Pohang
 		- 17-Sep-2025 KST &ndash; [train tickets](/resource/trips/2025-09 - Seoul/Receipt - KTX - Kwangmyung <-> Pohang - 2025 0917.png)
-		- KTX
+		- KTX-산천 4031
 			&ndash; from Gwangmyeong @ 8:54am to Pohang @ 10:55am on 17-Sep-2025 KST
-		- KTX
+		- KTX-산천 254
 			&ndash; from Pohang @ 9:36pm to Gwangmyeong @ 11:48pm on 17-Sep-2025 KST
 	- 2 night trip to Suwon
 		- 22-Sep-2025 ~ 24-Sep-2025 KST &ndash; [invoice](/resource/trips/2025-09 - Seoul/Hotel Reservation for Quantum Bio - 2025 0922 ~ 0924.pdf)
