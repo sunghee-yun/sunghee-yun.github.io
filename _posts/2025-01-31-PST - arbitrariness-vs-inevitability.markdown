@@ -25,12 +25,12 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

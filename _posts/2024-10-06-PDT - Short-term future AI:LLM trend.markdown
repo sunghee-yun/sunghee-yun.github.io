@@ -30,7 +30,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h1>NotebookLM Podcasts</h1>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

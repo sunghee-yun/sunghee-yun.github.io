@@ -43,7 +43,7 @@ but to those who can most effectively organize and leverage their domain-specifi
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

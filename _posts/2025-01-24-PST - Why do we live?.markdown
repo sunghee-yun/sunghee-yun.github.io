@@ -36,17 +36,17 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 -->
 
 <audio id="podcast-1" controls>
-	<source type="audio/mp4" src="https://snuee94.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Made__How_One_Seeker_Flipped_the__Why_Do_We_Live__Question.m4a">
+	<source type="audio/mp4" src="https://unju-middle.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Made__How_One_Seeker_Flipped_the__Why_Do_We_Live__Question.m4a">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/mp4" src="https://snuee94.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating_Your_Meaning__Why__Why_Do_We_Live__Is_the_Wrong_Question.m4a">
+	<source type="audio/mp4" src="https://unju-middle.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating_Your_Meaning__Why__Why_Do_We_Live__Is_the_Wrong_Question.m4a">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-3" controls>
-	<source type="audio/mp4" src="https://snuee94.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Is_Not_Found,_It_s_Created__Sunghee_Yun_s_Journey_to_Redefine_Life_s_Big_Question.m4a">
+	<source type="audio/mp4" src="https://unju-middle.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Is_Not_Found,_It_s_Created__Sunghee_Yun_s_Journey_to_Redefine_Life_s_Big_Question.m4a">
 	Your browser does not support this shorter audio element.
 </audio>
 

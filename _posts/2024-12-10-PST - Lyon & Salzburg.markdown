@@ -36,12 +36,12 @@ but by a deep understanding of its human impact and cultural context.
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
+	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
