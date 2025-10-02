@@ -2,7 +2,7 @@
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 permalink: /ai/llm/energy-challenge
 date: 06-Oct-2024
-last_modified_at: Sat Sep  6 02:05:42 PDT 2025
+last_modified_at: Thu Oct  2 10:41:05 PDT 2025
 categories:
  - blog
  - AI
@@ -30,7 +30,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h1>NotebookLM Podcasts</h1>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
+	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

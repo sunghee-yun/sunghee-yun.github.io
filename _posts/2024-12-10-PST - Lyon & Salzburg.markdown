@@ -2,7 +2,7 @@
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 permalink: /ai/bridging-technology-and-humanity
 date: 10-Dec-2024
-last_modified_at: Sun Aug 31 00:33:41 PDT 2025
+last_modified_at: Thu Oct  2 10:41:05 PDT 2025
 categories:
  - blog
  - AI
@@ -36,12 +36,12 @@ but by a deep understanding of its human impact and cultural context.
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
+	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
+	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

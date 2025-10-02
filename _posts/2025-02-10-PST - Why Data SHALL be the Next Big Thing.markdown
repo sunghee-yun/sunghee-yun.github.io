@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Tue Aug 26 12:15:38 PDT 2025
+last_modified_at: Thu Oct  2 10:41:05 PDT 2025
 permalink: /ai/data
 categories:
  - blog
@@ -43,7 +43,7 @@ but to those who can most effectively organize and leverage their domain-specifi
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
+	<source type="audio/wav" src="https://snuee94.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
