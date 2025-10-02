@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Thu Oct  2 10:22:04 PDT 2025
+last_modified_at: Thu Oct  2 10:38:30 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -31,6 +31,20 @@ Use this link
 to share this musical celebration with your family and friends!
 
 # Invitation
+
+> **⚠️ CRITICAL UPDATE - PLEASE READ CAREFULLY ⚠️**
+>
+> **Your previous Luma registration does NOT guarantee attendance!**
+>
+> Due to space limitations (100 seats at EVGR Theater vs 400+ registrations), we are implementing a selection process based on your personal stories and connection to this event.
+>
+> **ACTION REQUIRED:**
+> 1. **Fill out our story form by 01-Oct-2025: [https://forms.gle/i2wikNv8YET5Zroe7](https://forms.gle/i2wikNv8YET5Zroe7)**
+> 1. Share why this event matters to you and your family
+> 1. Consider volunteering (volunteers will be invited to attend!)
+>
+> **Selected attendees will be notified by 02-Oct-2025**
+{: .notice--warning}
 
 ---
 Dear both Korean &amp; non-Korean Families and Music-Loving Community in Silicon Valley!
