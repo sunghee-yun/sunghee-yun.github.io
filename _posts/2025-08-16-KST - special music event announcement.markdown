@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Fri Oct  3 08:02:57 PDT 2025
+last_modified_at: Fri Oct  3 10:45:56 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -46,6 +46,34 @@ to share this musical celebration with your family and friends!
 > **Selected attendees will be notified by 02-Oct-2025**
 {: .notice--warning}
 
+> **A Personal Message from Maestro Yoonhak Baek**
+>
+> 안녕하세요.
+>
+> 춤추는 지휘자 백윤학입니다.
+>
+> 먼저, 10월 4일 스탠포드 대학교에서 열리는 제 강연에 보내주신 큰 관심과 성원에 진심으로 감사드립니다. 사실 20명 남짓 함께 나누는 작은 자리로 기획했는데, 무려 400명 가까이 신청해 주셨습니다. 제게는 과분한 사랑이자 동시에 큰 책임감을 느끼게 하는 순간입니다.
+>
+> 그러나 여러 차례 장소를 조율했음에도 불구하고, 현실적인 제약으로 인해 이번 강연은 부득이하게 스탠포드 대학교 강연홀에서 약 100명 규모로만 진행할 수밖에 없게 되었습니다. 많은 분들을 모시지 못하게 된 점, 진심으로 송구스럽게 생각합니다.
+>
+> 이번 강연은 사연과 신청 동기를 보내주신 분들 가운데 정성껏 선정하여 100분을 모시려 합니다. 모두 함께할 수 없는 상황이 안타깝지만, 보내주신 말씀 하나하나에 귀 기울이며 최대한 공정하게 모실 수 있도록 하겠습니다.
+>
+> 또한, 이번 강연을 함께 만들어갈 자원봉사자 분들을 모집합니다. 자원봉사로 참여해 주신 분들은 이번 100명 강연에도 별도로 모실 예정입니다. 작은 자리지만 저와 함께 따뜻한 무대를 준비해 주신다면 큰 힘이 될 것 같습니다.
+>
+> 저는 그동안 한국과 여러 무대에서 음악을 통해 소통하는 길을 걸어왔습니다. 이번 미국 강연 또한 제 음악 인생에서 특별한 순간이 될 것 같습니다. 부족한 부분이 있더라도, 여러분께 조금이라도 보답하는 자리를 만들기 위해 최선을 다하겠습니다.
+>
+> 다시 한 번, 보내주신 큰 성원에 깊이 감사드립니다.
+>
+> 곧 직접 뵙고 함께 호흡할 수 있기를 바랍니다.
+>
+> 감사합니다.
+>
+> <br>
+> Sep. 29, 2025
+>
+> 춤추는 지휘자 백윤학 드림
+{: .notice--warning}
+
 ---
 Dear both Korean &amp; non-Korean Families and Music-Loving Community in Silicon Valley!
 
@@ -56,6 +84,7 @@ This unique event celebrates how music serves as a bridge—connecting grandpare
 - **Date**: October 4, 2025 (Saturday)
 - **Time**: 5pm - 8pm PDT
 - **Venue**: [EVGR Theater, Stanford University](https://maps.app.goo.gl/W3qRPoNthuNzsjG5A)
+- **Parking**: [Parking Structure 5](https://maps.app.goo.gl/9R78KVAHMkPoGNdv6)
 - **Audience**: Korean &amp; non-Korean families and friends, all ages welcome!
 - **Light dinner will be provided!**
 
