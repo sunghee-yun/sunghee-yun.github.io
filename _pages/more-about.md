@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Fri Sep  5 18:54:53 PDT 2025
+last_modified_at: Sun Oct  5 17:08:40 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -13,12 +13,12 @@ toc_sticky: true
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Thu Oct  2 10:41:05 PDT 2025
+last_modified_at: Sun Oct  5 16:21:58 PDT 2025
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -25,12 +25,12 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://unju-middle.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Fri Jul 11 16:56:46 PDT 2025
+last_modified_at: Sun Oct  5 17:13:18 PDT 2025
 categories:
  - blog
 tags:
@@ -21,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-09-12-PDT - Mahayana Buddhism/NotebookLM/Mahayana Buddhism & Ways to Awakening-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-12-PDT - Mahayana Buddhism/NotebookLM/Mahayana Buddhism & Ways to Awakening-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

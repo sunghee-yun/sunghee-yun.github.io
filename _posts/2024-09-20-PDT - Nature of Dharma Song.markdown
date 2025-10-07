@@ -1,7 +1,7 @@
 ---
 title: Nature of Dharma Song - 법성게法性偈
 date: 2024-09-20 18:07 PDT
-last_modified_at: Fri Jul 11 17:01:31 PDT 2025
+last_modified_at: Sun Oct  5 17:15:18 PDT 2025
 categories:
 - blog
 tags:
@@ -21,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-09-20-PDT - Nature of Dharma Song/NotebookLM/The Nature of Dharma Song_ A Buddhist Classic-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Nature of Dharma Song/NotebookLM/The Nature of Dharma Song_ A Buddhist Classic-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

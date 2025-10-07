@@ -2,7 +2,7 @@
 permalink: /math/abstract-measure-theory
 title: Beyond Lebesgue &ndash; The Universal Language of Abstract Measure Theory
 date: Mon Jul 14 12:12:03 PDT 2025
-last_modified_at: Tue Jul 15 00:39:52 PDT 2025
+last_modified_at: Sun Oct  5 17:47:53 PDT 2025
 categories:
  - blog
 tags:
@@ -83,24 +83,24 @@ What moves me most about abstract measure theory is how it transforms technical 
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-03.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Abstract Measure Theory_ The Universal Language of Size-03.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Abstract Algebraic Theory Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Universal Truths in Abstract Measure Theory-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - abstract-measure-theory/NotebookLM/Universal Truths in Abstract Measure Theory-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

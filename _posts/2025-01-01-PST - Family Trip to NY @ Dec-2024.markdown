@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Sat Jul 12 01:41:38 PDT 2025
+last_modified_at: Sun Oct  5 17:21:03 PDT 2025
 categories:
  - blog
 tags:
@@ -30,7 +30,7 @@ This trip was more than just a vacation; it was a symphony of memories that will
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

@@ -6,7 +6,7 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Sat Jul 12 15:55:57 PDT 2025
+last_modified_at: Sun Oct  5 17:07:51 PDT 2025
 ---
 
 <script>
@@ -30,24 +30,24 @@ last_modified_at: Sat Jul 12 15:55:57 PDT 2025
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 Korean versions
 
 <audio id="podcast-kor-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-kor-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-learning/NotebookLM/Sunghee's AI Learning Hub-kor-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

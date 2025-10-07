@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Aug 26 12:06:58 PDT 2025
+last_modified_at: Sun Oct  5 16:45:52 PDT 2025
 ---
 
 <h2>Some Podcasts</h2>
@@ -16,17 +16,17 @@ last_modified_at: Tue Aug 26 12:06:58 PDT 2025
 - [Deconstructing a Digital Polymath - Unpacking Sunghee Yun's Interconnected Mind and Multifaceted Journey (16:16)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=90470f2a-dfe3-49c1-b028-64911a9a7870){:target="_blank"}
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-03.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-03.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

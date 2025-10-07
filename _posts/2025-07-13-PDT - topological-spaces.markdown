@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Mon Jul 28 01:09:32 PDT 2025
+last_modified_at: Sun Oct  5 17:47:00 PDT 2025
 categories:
  - blog
 tags:
@@ -109,24 +109,24 @@ while still being structured enough to support powerful analytical techniques.</
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Topological Spaces Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/Topological and Metric Spaces_ A Fundamental Guide-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/Topological and Metric Spaces_ A Fundamental Guide-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

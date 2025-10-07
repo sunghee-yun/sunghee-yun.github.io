@@ -2,7 +2,7 @@
 title: Technology, Growth, and Inequality &ndash; The Case of AI
 permalink: /ai/salzburg-report-case-of-ai
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Sun Aug 31 00:33:41 PDT 2025
+last_modified_at: Sun Oct  5 17:24:35 PDT 2025
 categories:
  - blog
  - AI
@@ -24,7 +24,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-01-25-PST - Salzburg Report - Group 1 - Technology, Growth, and Inequality - The Case of AI/NotebookLM/AI's Dual Nature_ Fairness, Ethics, and Equitable Access-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-25-PST - Salzburg Report - Group 1 - Technology, Growth, and Inequality - The Case of AI/NotebookLM/AI's Dual Nature_ Fairness, Ethics, and Equitable Access-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

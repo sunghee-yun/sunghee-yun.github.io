@@ -1,7 +1,7 @@
 ---
 title: Press Release - WeStory.ai Transforms Personal Storytelling Through AI-Powered Biography Creation
 date: Tue Jan 14 19:03:10 PST 2025
-last_modified_at: Sat Jul 12 02:05:17 PDT 2025
+last_modified_at: Sun Oct  5 17:21:32 PDT 2025
 categories:
  - pr&faq
 tags:
@@ -21,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-01-14-PST - Press Release - WeStory/NotebookLM/WeStory_ai_ AI Transforms Personal Storytelling and Legacy Creation-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-14-PST - Press Release - WeStory/NotebookLM/WeStory_ai_ AI Transforms Personal Storytelling and Legacy Creation-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

@@ -1,7 +1,7 @@
 ---
 title: Comparison of AI accelerators
 date: 01-Oct-2024
-last_modified_at: Thu Jul 31 00:25:13 PDT 2025
+last_modified_at: Sun Oct  5 17:17:28 PDT 2025
 tags:
  - AI
  - GPU
@@ -22,7 +22,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2024-10-01-PDT - ai-hardware/NotebookLM/AI Accelerator Comparison_ Nvidia, Intel, AMD, Google, Apple, Meta, Microsoft-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-10-01-PDT - ai-hardware/NotebookLM/AI Accelerator Comparison_ Nvidia, Intel, AMD, Google, Apple, Meta, Microsoft-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

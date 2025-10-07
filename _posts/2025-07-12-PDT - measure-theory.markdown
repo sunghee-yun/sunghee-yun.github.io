@@ -2,7 +2,7 @@
 permalink: /math/measure-theory
 title: The Revolution that Transformed Analysis Forever &ndash; Lebesgue's Gift to Modern Analysis
 date: Sat Jul 12 04:59:40 PDT 2025
-last_modified_at: Tue Jul 15 00:39:02 PDT 2025
+last_modified_at: Sun Oct  5 17:46:12 PDT 2025
 categories:
  - blog
 tags:
@@ -70,19 +70,19 @@ Lebesgue's integral doesn't just extend Riemann's&mdash;it reveals the deeper st
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Lebesgue's Measure Theory_ A Conceptual Revolution in Analysis-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Measure Theory Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Measure Theory_ Real Analysis and Lebesgue Integration-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-12-PDT - measure-theory/NotebookLM/Measure Theory_ Real Analysis and Lebesgue Integration-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

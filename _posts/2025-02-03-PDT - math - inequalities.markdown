@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Mon Sep 29 03:51:28 PDT 2025
+last_modified_at: Sun Oct  5 17:37:01 PDT 2025
 categories:
  - blog
 tags:
@@ -52,11 +52,11 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 04.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 04.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 03.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 03.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 <!--audio id="podcast-3" controls>
@@ -71,12 +71,12 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 <h2>based on Algebra Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-slides-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

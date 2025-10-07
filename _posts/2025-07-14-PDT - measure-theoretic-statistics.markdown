@@ -2,7 +2,7 @@
 permalink: /math/measure-theoretic-statistics
 title: The Mathematical Soul of Statistics &ndash; When Probability Meets Measure Theory
 date: Mon Jul 14 19:09:52 PDT 2025
-last_modified_at: Tue Jul 15 20:29:35 PDT 2025
+last_modified_at: Sun Oct  5 17:32:14 PDT 2025
 categories:
  - blog
 tags:
@@ -63,19 +63,19 @@ The central limit theorem stands as one of the most remarkable theorems in all o
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/The Mathematical Soul of Statistics-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/The Mathematical Soul of Statistics-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/The Mathematical Soul of Statistics-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/The Mathematical Soul of Statistics-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Measure-theoretic Treatment of Statistics Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/Measure-Theoretic Statistics_ Probabilities, Variables, and Convergences-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - measure-theoretic-statistics/NotebookLM/Measure-Theoretic Statistics_ Probabilities, Variables, and Convergences-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

@@ -29,23 +29,23 @@ toc_sticky: true
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 Korean versions
 
 <audio id="podcast-kor-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-01.wav">
 </audio>
 
 <audio id="podcast-kor-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-02.wav">
 </audio>
 
 # Charter

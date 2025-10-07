@@ -2,7 +2,7 @@
 permalink: /math/abstract-algebra
 title: The Architecture of Mathematical Truth &ndash; A Journey Through Abstract Algebra
 date: Fri Jul 11 00:17:30 PDT 2025
-last_modified_at: Wed Jul 16 00:03:56 PDT 2025
+last_modified_at: Sun Oct  5 17:44:47 PDT 2025
 categories:
  - blog
 tags:
@@ -44,24 +44,24 @@ Abstract algebra taught me that mathematical abstraction isn't a retreat from re
 <h2>based on this blog</h2>
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-03.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/The Architecture of Mathematical Truth-03.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <h2>based on Abstract Algebra Codex</h2>
 
 <audio id="podcast-slides-1" controls>
-	<source type="audio/wav" src="/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/Abstract Algebra_ Groups, Rings, Fields, and Galois Theory-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-11-PDT - abstract-algebra/NotebookLM/Abstract Algebra_ Groups, Rings, Fields, and Galois Theory-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 

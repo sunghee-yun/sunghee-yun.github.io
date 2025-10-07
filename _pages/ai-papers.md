@@ -29,23 +29,23 @@ toc_sticky: true
 # NotebookLM Podcasts
 
 <audio id="podcast-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-01.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 <audio id="podcast-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-02.wav">
 	Your browser does not support this shorter audio element.
 </audio>
 
 Korean versions
 
 <audio id="podcast-kor-1" controls>
-	<source type="audio/wav" src="/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-01.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-01.wav">
 </audio>
 
 <audio id="podcast-kor-2" controls>
-	<source type="audio/wav" src="/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-02.wav">
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-02.wav">
 </audio>
 
 # Charter
