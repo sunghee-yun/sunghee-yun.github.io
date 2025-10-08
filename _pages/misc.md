@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Oct  1 06:37:32 PDT 2025
+last_modified_at: Wed Oct  8 10:34:42 PDT 2025
 ---
 
 <!--
@@ -281,6 +281,20 @@ last_modified_at: Wed Oct  1 06:37:32 PDT 2025
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SAN @ 5:09pm to SJC @ 6:48pm on 07-Dec-2025 PST
 		(1h 39m)
+
+<h4>Nov</h4>
+
+- biz trip to Seoul &ndash; 12 nights
+	- 16-Nov-2025 PST ~ 28-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11 - Seoul/www.expedia.com-egti-5O4-TYQ-AVH6.pdf)
+	- flight
+		&ndash; Air Premia 112
+		&ndash; from SFO @ 2:30pm on 16-Nov-2025 PST to ICN @ 8:30pm on 17-Nov-2025 KST
+		(13h)
+	- return flight
+		&ndash; Air Premia 111
+		&ndash; from ICN @ 6:55pm KST to SFO @ 12:30pm PST on 28-Nov-2025
+		(10h 35m)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
 
 <h4>Oct</h4>
 
