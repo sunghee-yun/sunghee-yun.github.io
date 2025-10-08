@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Wed Oct  8 00:39:28 PDT 2025
+last_modified_at: Wed Oct  8 00:53:19 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -46,7 +46,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # The Unexpected Convergence
 
-Standing in that Stanford lecture hall, surrounded by 120 attendees carefully selected from nearly 400 applicants, I couldn't help but reflect on the strange and beautiful path that brought us here. Yoonhak and I had walked similar roads once—both at Seoul Science High School's Mathematics Olympiad Club, both studying Electrical Engineering at [Seoul National University](https://en.snu.ac.kr/). But while I ventured into [Convex Optimization](https://web.stanford.edu/~boyd/), semiconductors, AI, and eventually biotech through
+Standing in that Stanford lecture hall, surrounded by 120 attendees carefully selected from nearly 400 applicants, I couldn't help but reflect on the strange and beautiful path that brought us here.
+[Yoonhak](https://www.chosun.com/site/data/html_dir/2018/08/03/2018080300096.html) and [I](/) had walked similar roads once—both at Seoul Science High School's Mathematics Olympiad Club, both studying Electrical Engineering at [Seoul National University](https://en.snu.ac.kr/). But while I ventured into [Convex Optimization](https://web.stanford.edu/~boyd/), semiconductors, AI, and eventually biotech through
 [Stanford University](https://www.stanford.edu/),
 [Samsung Electronics](https://www.samsung.com/),
 [Amazon.com, Inc.](https://www.aboutamazon.com/),
