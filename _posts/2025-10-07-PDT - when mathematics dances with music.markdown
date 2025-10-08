@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Wed Oct  8 00:53:19 PDT 2025
+last_modified_at: Wed Oct  8 08:50:43 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -245,9 +245,18 @@ Entrepreneur, Engineer, Scientist, Creator & Connector of Ideas (and, most of al
 
 *This reflection emerges from an evening at Stanford on October 4, 2025, where my old friend Maestro Yoonhak Baek demonstrated that the distance between mathematics and music, between Seoul Science High School and the Curtis Institute, between engineering precision and artistic expression, is not as vast as we might think—provided we have the courage to walk the bridge.*
 
-# Audience Feedback
+# Feedback from the Audience
 
-> **A Message from [Prof. Jae H. Pyeon](https://www.linkedin.com/in/jae-h-pyeon-a8563399/)**
+> **A message from a friend of mine!**
+>
+>어제 행사 기획하는라 고생많았지?  울와이프가 아주 좋았다고 하더라고.. ( 내용을 조금 전해들었는데, 나도 재미있어서 관련 유투브 열심히 찾아보고 있음 ^^   2^(1/12)가 이렇게나 특별한 수였다니..! )
+>
+>너 덕분에 윤학이도 정말 오래만에 보고 ( 거의 30년만… ㅎㅎ)
+>
+>여러 모로 바쁠텐데 이런 좋은 행사까지 기획하고..  정말 대단함!! 그리고 땡스!!!
+{: .notice--warning}
+
+> **A Message from [Prof. Jae H. Pyeon](https://www.linkedin.com/in/jae-h-pyeon-a8563399/)!**
 >
 >서울 페스타 필하모닉 오케스트라 지휘자 백윤학 교수의 스탠퍼드 강연을 다녀와서
 >
