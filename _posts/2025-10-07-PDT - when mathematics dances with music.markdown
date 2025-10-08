@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Tue Oct  7 18:52:46 PDT 2025
+last_modified_at: Tue Oct  7 23:43:41 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -41,7 +41,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 > &hellip; <span class="emph">AI cannot touch our souls precisely because it lacks the integrated understanding that Yoonhak demonstrated—the ability to feel the mathematics and analyze the feeling simultaneously.</span>
 
-The announcement page of this event can be found @ [{{ post.title }}]({{ post.url }}).
+> The announcement page of this event can be found @ [{{ post.title }}]({{ post.url }}).
+{: .notice--success}
 
 # The Unexpected Convergence
 
