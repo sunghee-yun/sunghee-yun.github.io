@@ -5,6 +5,8 @@ last_modified_at: Sat Oct  4 15:31:22 PDT 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
+ - music
+ - event
 tags:
  - family-event
  - korean-culture
