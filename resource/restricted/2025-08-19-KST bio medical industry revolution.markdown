@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Mon Sep  1 15:17:27 PDT 2025
+last_modified_at: Wed Oct  8 09:31:03 PDT 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -85,7 +85,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 <h1>NotebookLM Podcasts</h1>
 
 <audio id="podcast-1" controls>
-	<source type="audio/mp4" src="/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
+	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
 	Your browser does not support this shorter audio element.
 </audio>
 
