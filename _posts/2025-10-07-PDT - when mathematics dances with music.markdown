@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Wed Oct  8 08:50:43 PDT 2025
+last_modified_at: Sun Oct 12 10:47:20 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -25,13 +25,19 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+{% assign post = site.posts | where: "permalink", "/event-announcements/korean-family-harmony" | first %}
+
 **Share on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
-{% assign post = site.posts | where: "permalink", "/event-announcements/korean-family-harmony" | first %}
+> The announcement page of this event can be found @ [{{ post.title }}]({{ post.url }}).
+{: .notice--success}
+
+> A local press release - [춤추는 지휘자 백윤학 교수, 스탠포드에서 강연 열어 by SF Korean](https://www.sfkorean.com/subs/news_detail.php?news_id=24540&kind=B&cate=0){:target="_blank"}
+{: .notice--info}
 
 > &hellip; <span class="emph">something profound about our community here in the Bay Area. This wasn't just curiosity about a Korean cultural event or casual interest in classical music. The audience knew they were about to witness something rare &ndash; someone who could speak both the language of mathematics and the language of the soul.</span>
 
@@ -40,9 +46,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > <span class="emph">Yoonhak embodies this duality perfectly. Watching him explain how the harmonic series emerges from the physics of vibrating strings, then immediately pivot to demonstrating why this mathematical fact produces *emotional* consonance—this is someone who has genuinely integrated both modes of understanding.</span>
 
 > &hellip; <span class="emph">AI cannot touch our souls precisely because it lacks the integrated understanding that Yoonhak demonstrated—the ability to feel the mathematics and analyze the feeling simultaneously.</span>
-
-> The announcement page of this event can be found @ [{{ post.title }}]({{ post.url }}).
-{: .notice--success}
 
 # The Unexpected Convergence
 
