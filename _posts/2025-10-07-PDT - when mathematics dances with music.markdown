@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Sun Oct 12 12:26:58 PDT 2025
+last_modified_at: Sun Oct 12 12:38:36 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -51,9 +51,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 ## Videos
 
-<div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;">
+<div style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
-<video width="100%" controls>
+<video id="podcast-video-01" width="100%" controls>
     <source src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/When_Math_Dances_With_Music.mp4" type="video/mp4">
 </video>
 </div>
