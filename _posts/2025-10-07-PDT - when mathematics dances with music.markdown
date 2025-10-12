@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Sun Oct 12 10:47:20 PDT 2025
+last_modified_at: Sun Oct 12 11:47:25 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -46,6 +46,13 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > <span class="emph">Yoonhak embodies this duality perfectly. Watching him explain how the harmonic series emerges from the physics of vibrating strings, then immediately pivot to demonstrating why this mathematical fact produces *emotional* consonance—this is someone who has genuinely integrated both modes of understanding.</span>
 
 > &hellip; <span class="emph">AI cannot touch our souls precisely because it lacks the integrated understanding that Yoonhak demonstrated—the ability to feel the mathematics and analyze the feeling simultaneously.</span>
+
+# AI generates Podcasts
+
+<audio id="podcast-audio-01" controls>
+	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/Silicon_Valley_s_Soul_Search__How_Math_and_Music_Bridge_Logic_a.m4a">
+	Your browser does not support this longest audio element.
+</audio>
 
 # The Unexpected Convergence
 
