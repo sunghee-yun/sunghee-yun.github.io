@@ -55,6 +55,23 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
+// Get the 'video' parameter from URL
+const urlParams = new URLSearchParams(window.location.search);
+const videoId = urlParams.get('video');
+
+if (videoId) {
+    // Find the element and play the video
+    const container = document.getElementById(videoId);
+    if (container) {
+        const video = container.querySelector('video');
+        if (video) {
+            video.play();
+            // Optional: scroll to the video
+            container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+}
+
 // Function to get URL parameters
 function getUrlParameter(name) {
     const urlParams = new URLSearchParams(window.location.search);
