@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Sun Oct 12 11:54:45 PDT 2025
+last_modified_at: Sun Oct 12 12:00:55 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -51,7 +51,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 ## Videos
 
-<div id="video" style="text-align: center; margin-bottom: 1em;">
+<div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
 <video width="100%" controls>
     <source src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/When_Math_Dances_With_Music.mp4" type="video/mp4">
@@ -62,6 +62,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <audio id="podcast-audio-01" controls>
 	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/Silicon_Valley_s_Soul_Search__How_Math_and_Music_Bridge_Logic_a.m4a">
+	Your browser does not support this longest audio element.
+</audio>
+
+<audio id="podcast-audio-02" controls>
+	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/The_Fusion_of_Code_and_Soul__Maestro_Baek_s_Stanford_Lecture_on.m4a">
 	Your browser does not support this longest audio element.
 </audio>
 
