@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Sun Oct 12 21:21:49 PDT 2025
+last_modified_at: Sun Oct 12 21:41:26 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -53,7 +53,7 @@ Use this link — <a href="{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ pa
 
 # AI generates Podcasts
 
-## Videos
+## Video
 
 <div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
