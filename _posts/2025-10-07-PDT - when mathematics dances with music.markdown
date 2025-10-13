@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Sun Oct 12 16:55:55 PDT 2025
+last_modified_at: Sun Oct 12 21:21:49 PDT 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -32,6 +32,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
+
+Want to share this reflection?
+Use this link — <a href="{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ page.url }}</a> — to share!
+{: .notice--info}
 
 > The announcement page of this event can be found @ [{{ post.title }}]({{ post.url }}).
 {: .notice--success}
