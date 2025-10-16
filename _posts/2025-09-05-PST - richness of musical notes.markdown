@@ -2,7 +2,7 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Mon Sep  8 03:46:08 PDT 2025
+last_modified_at: Thu Oct 16 10:06:06 KST 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -39,7 +39,12 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 > The mathematics of frequency provides the vocabulary; consciousness provides the grammar; culture provides the literature; and the result is the impossible, beautiful richness of musical experience that emerges from the interaction between the simplest possible acoustic phenomena and the most complex information-processing system we know &ndash; <span class="emph">the conscious mind encountering beauty in time!</span>
 
-<h1>Podcasts</h1>
+<h1>AI creates Podcasts for Me!</h1>
+
+<audio id="podcast-audio-1" controls>
+	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__From_Sound_Waves_to_Soulful_E.m4a">
+	Your browser does not support this longest audio element.
+</audio>
 
 - [The Dimensional Paradox of Music - Unpacking Emotion, Consciousness, and the Universe's Soundtrack (22:05)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=25376e1d-c9e7-40e1-86d4-4f661f277989){:target="_blank"}
 - [The Dimensional Paradox of Music - Unpacking Emotion, Consciousness, and the Universe's Soundtrack (17:49)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=f60bc9c8-483e-4e5d-b2f5-700b87b60a9b){:target="_blank"}
@@ -47,7 +52,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - [The "Mathematical Impossibility" of Music - How Consciousness Creates Richness from Sound Waves (15:02)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=fb484098-74ae-4167-a0ef-667435eab0a9){:target="_blank"}
 - [The Dimensional Paradox - How One Sound Wave Becomes Profound Music (22:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=8d10385f-3a83-4a24-897d-62d1be9614df){:target="_blank"}
 - [The Dimensional Paradox - How One Sound Wave Creates the Universe of Music and Consciousness (14:56)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=ce66f76d-f6c1-43b8-82a5-1dad7161bf20){:target="_blank"}
+
+<!--
 - [The Dimensional Paradox of Music - From Sound Waves to Soulful Experience (13:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=1c6a7bcf-84cf-46f7-86a2-d1ac6b560906){:target="_blank"}
+-->
 
 # Dimensional Paradox
 
