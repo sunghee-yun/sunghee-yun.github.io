@@ -467,6 +467,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.thestreet.com/technology/former-intel-ceo-drops-curt-2-word-verdict-on-ai">Former Intel CEO drops curt 2-word verdict on AI - A familiar voice weighs in on the AI frenzy</a>
+	- The Street
+	@ 14-Oct-2025
+</li>
+<li>
 	<a href="https://garymarcus.substack.com/p/is-openai-more-like-wework-or-theranos">Is OpenAI more like WeWork or Theranos?</a>
 	- Marcus on AI
 	@ 19-Oct-2024
@@ -1208,6 +1213,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.thestreet.com/technology/former-intel-ceo-drops-curt-2-word-verdict-on-ai">Former Intel CEO drops curt 2-word verdict on AI - A familiar voice weighs in on the AI frenzy</a>
+	- The Street
+	@ 14-Oct-2025
+</li>
 <li>
 	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
 	- LinkedIn Newsletter - The Future of Digital Health
