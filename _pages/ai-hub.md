@@ -98,6 +98,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <a href="#all-articles-in-reverse-chronological-order">All articles in reverse chronological order</a>
 
+<h1 id="sunghee">Sunghee</h1>
+
+<ul>
+<li>
+	<a href="https://n.news.naver.com/article/008/0005264969?type=journalists">어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라</a>
+	- 머니투데이
+	@ 20-Oct-2025 KST
+</li>
+</ul>
+
 <h1 id="entrepreneurship">Entrepreneurship</h1>
 
 <ul>
@@ -1213,6 +1223,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://n.news.naver.com/article/008/0005264969?type=journalists">어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라</a>
+	- 머니투데이
+	@ 20-Oct-2025 KST
+</li>
 <li>
 	<a href="https://www.thestreet.com/technology/former-intel-ceo-drops-curt-2-word-verdict-on-ai">Former Intel CEO drops curt 2-word verdict on AI - A familiar voice weighs in on the AI frenzy</a>
 	- The Street
