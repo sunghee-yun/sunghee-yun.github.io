@@ -102,9 +102,19 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
+	- 고려대학교 경영대학원 CDTB
+	@ 27-Oct-2025 KST
+</li>
+<li>
 	<a href="https://n.news.naver.com/article/008/0005264969?type=journalists">어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라</a>
 	- 머니투데이
 	@ 20-Oct-2025 KST
+</li>
+<li>
+	<a href="https://blog.naver.com/bookcation/223851899591">🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법</a>
+	- 영재학교 이야기
+	@ 01-May-2025 KST
 </li>
 </ul>
 
@@ -1224,6 +1234,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
+	- 고려대학교 경영대학원 CDTB
+	@ 27-Oct-2025 KST
+</li>
+<li>
 	<a href="https://n.news.naver.com/article/008/0005264969?type=journalists">어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라</a>
 	- 머니투데이
 	@ 20-Oct-2025 KST
@@ -1232,6 +1247,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.thestreet.com/technology/former-intel-ceo-drops-curt-2-word-verdict-on-ai">Former Intel CEO drops curt 2-word verdict on AI - A familiar voice weighs in on the AI frenzy</a>
 	- The Street
 	@ 14-Oct-2025
+</li>
+<li>
+	<a href="https://blog.naver.com/bookcation/223851899591">🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법</a>
+	- 영재학교 이야기
+	@ 01-May-2025 KST
 </li>
 <li>
 	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>

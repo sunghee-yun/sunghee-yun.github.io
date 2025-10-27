@@ -1,6 +1,20 @@
 [
 	{
 		"category": ["sunghee"],
+		"url": "https://blog.naver.com/bookcation/223851899591",
+		"title": "🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법",
+		"date": "01-May-2025 KST",
+		"press": "영재학교 이야기"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://biz.korea.ac.kr/news/news_view.html?no=4297",
+		"title": "고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최",
+		"date": "27-Oct-2025 KST",
+		"press": "고려대학교 경영대학원 CDTB"
+	},
+	{
+		"category": ["sunghee"],
 		"url": "https://n.news.naver.com/article/008/0005264969?type=journalists",
 		"title": "어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라",
 		"date": "20-Oct-2025 KST",
