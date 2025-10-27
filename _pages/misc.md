@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Oct 27 01:34:43 PDT 2025
+last_modified_at: Mon Oct 27 11:30:49 PDT 2025
 ---
 
 <!--
@@ -16,6 +16,10 @@ last_modified_at: Mon Oct 27 01:34:43 PDT 2025
 - [중앙선거관리위원회 재외선거 홈페이지 - https://naver.me/x7vop8rs](https://www.nec.go.kr/site/abroad/main.do)
 -->
 
+# Erudio
+
+- AFP, CA19-9, CA125 II, CEA, FT4 IV, TSH
+
 # English expressions
 
 - [be that as it may](https://dictionary.cambridge.org/us/dictionary/english/be-that-as-it-may)
@@ -23,15 +27,15 @@ last_modified_at: Mon Oct 27 01:34:43 PDT 2025
 
 # Potential AI talks
 
-- contact 김경도 @ sk hynix CIS for Korea biz trip in Jul-2025
+- ~~{CC} contact 김경도 @ sk hynix CIS for Korea biz trip in Jul-2025~~
 
 # Coffee chats to be arranged
 
-- contact 이태주 for Boston biz trip in Jun-2025
-- contact 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025
-- contact 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025
-- contact 김재영 for Korea biz trip in <s>Apr-2025</s> May-2025
-- contact Sujin Kim for Korea biz trip in <s>Apr-2025</s> May-2025
+- ~~{CC} contact 이태주 for Boston biz trip in Jun-2025~~
+- ~~{CC} contact 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} contact 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} contact 김재영 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} contact Sujin Kim for Korea biz trip in <s>Apr-2025</s> May-2025~~
 - <s>contact 유승오 for Korea biz trip in Apr-2025</s>
 - <s><font color="gray">contact 소희정 for Korea biz trip in Apr-2025</font></s>
 - <s><font color="gray">contact 윤명훈 for Korea biz trip in Apr-2025</font></s>
@@ -39,6 +43,7 @@ last_modified_at: Mon Oct 27 01:34:43 PDT 2025
 - <s>contact 정주연 for Korea biz trip in Apr-2025</s>
 - <s><font color="gray"> contact 이국녕 for Korea biz trip in Apr-2025</font></s>
 
+<!--
 # Candidate research discussions
 
 - [Division of Interdisciplinary Bioscience &amp; Bioengineering (i-bio) of POSTECH](https://ibio.postech.ac.kr/web/?top=study&sub=lab)
@@ -52,12 +57,13 @@ last_modified_at: Mon Oct 27 01:34:43 PDT 2025
 	- [Nano-Precision Mechano-Biology Group (나노정밀 역학생물학 연구실)](http://shonlab.postech.ac.kr/)
 [intro](https://www.youtube.com/watch?v=HZrHeKGi9a4)
 	- [Lab for Biological, Biomimetic, Eco-friendly Materials (친환경 생체모사 재료 연구실)](http://lbem.postech.ac.kr/)
+-->
 
 # Gifts
 
 ## 2025 {#gifts-2025}
 
-- 04-Jan-2024
+- 04-Jan-2025
 	&ndash;
 	Beth's card
 	[front](/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-27_001.jpeg)
