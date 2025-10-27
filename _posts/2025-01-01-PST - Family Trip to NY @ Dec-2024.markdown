@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Sun Oct  5 17:21:03 PDT 2025
+last_modified_at: Mon Oct 27 11:19:17 PDT 2025
 categories:
  - blog
 tags:
@@ -142,7 +142,7 @@ The harmony of our instruments echoed the harmony of our families, creating a be
 <div id="video" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
 <video width="90%" controls>
-    <source src="/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
+    <source src="https://sungheeyun-podcasts.github.io/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
 </video>
 </div>
 
