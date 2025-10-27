@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Special AI Lecture for Hwarang Friends] Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower"
-permalink: /seminars/2025_1115 PST - Special AI Lecture for Hwarang friends - AI Awakens - From ChatGPT to Your Future Superpowers/abstract
+permalink: /seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/abstract
 last_modified_at: Sat Oct 18 14:41:20 KST 2025
 author_profile: true
 ---
