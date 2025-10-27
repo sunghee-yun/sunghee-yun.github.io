@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Oct  8 10:34:42 PDT 2025
+last_modified_at: Mon Oct 27 01:34:43 PDT 2025
 ---
 
 <!--
@@ -285,7 +285,7 @@ last_modified_at: Wed Oct  8 10:34:42 PDT 2025
 <h4>Nov</h4>
 
 - biz trip to Seoul &ndash; 12 nights
-	- 16-Nov-2025 PST ~ 28-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11 - Seoul/www.expedia.com-egti-5O4-TYQ-AVH6.pdf)
+	- 16-Nov-2025 PST ~ 28-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-16 - Seoul/www.expedia.com-egti-5O4-TYQ-AVH6.pdf)
 	- flight
 		&ndash; Air Premia 112
 		&ndash; from SFO @ 2:30pm on 16-Nov-2025 PST to ICN @ 8:30pm on 17-Nov-2025 KST
@@ -293,6 +293,17 @@ last_modified_at: Wed Oct  8 10:34:42 PDT 2025
 	- return flight
 		&ndash; Air Premia 111
 		&ndash; from ICN @ 6:55pm KST to SFO @ 12:30pm PST on 28-Nov-2025
+		(10h 35m)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
+- biz trip to Seoul &ndash; 3 nights
+	- 05-Nov-2025 PST ~ 08-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-05 - Seoul/www.expedia.com-egti-E1J-VA1-W62P.pdf)
+	- flight
+		&ndash; United 805
+		&ndash; from SFO @ 11:45pm on 05-Nov-2025 PST to ICN @ 5:40am on 07-Nov-2025 KST
+		(12h 55m)
+	- return flight
+		&ndash; United 892
+		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 08-Nov-2025
 		(10h 35m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
 
@@ -321,8 +332,7 @@ last_modified_at: Wed Oct  8 10:34:42 PDT 2025
 		- stay @ [Benikea Jungmun Hotel](https://naver.me/F0zvWKf9)
 	- 1 day trip to DGIST
 		- 22-Oct-2025 SRT &ndash; [train tickets](/resource/trips/2025-10 - Seoul/2025 1022 - SRT - Suseo <-> Dongdaegu.pdf)
-		- SRT 327
-			&ndash; from Suseo @ 10:50am to Dongdaegu @ 12:31pm on 22-Oct-2025 KST
+		- ~~SRT 327 &ndash; from Suseo @ 10:50am to Dongdaegu @ 12:31pm on 22-Oct-2025 KST~~ KTX 027 &ndash; from Seoul Station @ 11:58am to Dongdaegu @ 1:47pm on 22-Oct-2025 KST
 		- SRT 372
 			&ndash; from Dongdaegu @ 9:37pm to Dongtan @ 11:01pm on 22-Oct-2025 KST
 
