@@ -8,8 +8,50 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Tue Oct 28 05:32:49 PDT 2025
+last_modified_at: Tue Oct 28 08:00:49 PDT 2025
 ---
+
+<div>
+	<audio id="podcast-seminars-03" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Dizzying_Calendar__Mapping_AI_s_Agentic_Revolution,_Biotech.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-04" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Decoding_the_Future_Agentic_AI,_Biotech_Drug_Discovery,_and_the.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-05" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Virtuous_Cycle_of_Innovation__Tracing_the_Agentic_AI_and_Bi.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-06" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_Agentic_AI_Revolution_from_.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-07" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_AI_Metamorphosis_from_Optim.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-08" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Cross-Disciplinary_Map__Tracking_an_AI_Titan_s_Leap_from_LL.m4a">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-1" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Sunghee Yun's AI Seminars and Consultations-01.wav">
+		Your browser does not support this shorter audio element.
+	</audio>
+
+	<audio id="podcast-seminars-2" controls>
+		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Sunghee Yun's AI Seminars and Consultations-02.wav">
+		Your browser does not support this shorter audio element.
+	</audio>
+</div>
 
 Here is (not quite) a (comprehensive) list of invited talks, lectures, consultations, panel discussions, and knowledge-sharing sessions that I have delivered and organized (and continue to deliver and organize) across prestigious academic institutions, leading corporations, government organizations, and international forums on transformative technologies and critical social topics including Large Language Models (LLMs), generative AI (genAI), AI Agents, private AI, homomorphic cryptography, industrial AI applications, semiconductor manufacturing innovations, and the broader societal, economic, and ethical implications of artificial intelligence. These engagements span from intimate executive consultations with Fortune 500 companies to large-scale university seminars, from policy discussions with government leaders to technical deep-dives with research teams, reflecting my commitment to bridging the gap between cutting-edge AI research and practical real-world applications across diverse domains and stakeholder communities.
 
@@ -17,10 +59,10 @@ Here is (not quite) a (comprehensive) list of invited talks, lectures, consultat
 &nbsp;
 <!--div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;"-->
 <video width="45%" controls>
-    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/Blueprint_for_Innovation.mp4">
+    <source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/videos/Blueprint_for_Innovation.mp4">
 </video>
 <video width="45%" controls>
-    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/Charting_AI_s_Evolution.mp4">
+    <source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/videos/Charting_AI_s_Evolution.mp4">
 </video>
 &nbsp;
 </div>
@@ -40,10 +82,10 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 &nbsp;
 <!--div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;"-->
 <video width="45%" controls>
-    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/The_AI_Knowledge_Cycle.mp4">
+    <source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/videos/The_AI_Knowledge_Cycle.mp4">
 </video>
 <video width="45%" controls>
-    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/The_AI_Revolution_Core_Sample.mp4">
+    <source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/videos/The_AI_Revolution_Core_Sample.mp4">
 </video>
 &nbsp;
 </div>
