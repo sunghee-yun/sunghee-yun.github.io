@@ -8,12 +8,38 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Mon Oct 27 04:20:36 PDT 2025
+last_modified_at: Tue Oct 28 03:05:59 PDT 2025
 ---
 
 Here is (not quite) a (comprehensive) list of invited talks, lectures, consultations, panel discussions, and knowledge-sharing sessions that I have delivered and organized (and continue to deliver and organize) across prestigious academic institutions, leading corporations, government organizations, and international forums on transformative technologies and critical social topics including Large Language Models (LLMs), generative AI (genAI), AI Agents, private AI, homomorphic cryptography, industrial AI applications, semiconductor manufacturing innovations, and the broader societal, economic, and ethical implications of artificial intelligence. These engagements span from intimate executive consultations with Fortune 500 companies to large-scale university seminars, from policy discussions with government leaders to technical deep-dives with research teams, reflecting my commitment to bridging the gap between cutting-edge AI research and practical real-world applications across diverse domains and stakeholder communities.
 
+<div id="podcast-video-01" class="img-container-justified">
+&nbsp;
+<!--div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;"-->
+<video width="45%" controls>
+    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/Blueprint_for_Innovation.mp4">
+</video>
+<video width="45%" controls>
+    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/Charting_AI_s_Evolution.mp4">
+</video>
+&nbsp;
+</div>
+
 These seminars serve as dynamic intellectual laboratories where cutting-edge research meets real-world application. My purpose extends beyond simply sharing knowledge—these engagements create vibrant ecosystems of cross-pollinating ideas where academic rigor intersects with industry pragmatism. Through deep Q&A exchanges with diverse audiences and collaborative discussions with leading professors, researchers, and industry pioneers, I gain invaluable insights into how AI technology is being perceived, adopted, and challenged across different sectors and cultural contexts. Each interaction reveals new perspectives on implementation challenges, ethical considerations, and societal implications that cannot be gleaned from research papers or industry reports alone. These exchanges have proven invaluable to my own ventures, often revealing unexpected market opportunities and leading to critical strategic partnerships that directly benefit Erudio Bio, WeStory.ai, and my collaborations with CryptoLab.
+
+<div id="podcast-video-03" class="img-container-justified">
+&nbsp;
+<!--div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;"-->
+<video width="45%" controls>
+    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/The_AI_Knowledge_Cycle.mp4">
+</video>
+<video width="45%" controls>
+    <source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/seminars/NotebookLM/videos/The_AI_Revolution_Core_Sample.mp4">
+</video>
+&nbsp;
+</div>
+
+The intellectual synthesis that emerges from these exchanges organically crystallizes into uniquely differentiated insights that transcend traditional disciplinary boundaries. Conversations about AI's philosophical implications with humanities scholars inform my understanding of consciousness and creativity, while discussions with biotech researchers illuminate the convergence of artificial and biological intelligence—insights that directly shape Erudio Bio's strategic direction. Exchanges with cryptography experts deepen my appreciation for privacy-preserving technologies, strengthening my advisory role at CryptoLab, and dialogues with medical professionals reveal the profound ethical dimensions of AI in healthcare while uncovering potential technological partnerships. This continuous intellectual cross-fertilization generates novel intuitions about not only AI's technological trajectory, but its ripple effects across homomorphic cryptography, blockchain, digital communications, biotechnology, medical science, pharmacology, and nano-science. These organically-formed insights then flow back into the academic and industry communities through subsequent lectures, consultations, and collaborative research, creating a virtuous cycle of knowledge creation and dissemination that advances both theoretical understanding and practical innovation while simultaneously identifying strategic opportunities that fuel my entrepreneurial endeavors.
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
@@ -21,8 +47,6 @@ These seminars serve as dynamic intellectual laboratories where cutting-edge res
 <img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
 &nbsp;
 </div>
-
-The intellectual synthesis that emerges from these exchanges organically crystallizes into uniquely differentiated insights that transcend traditional disciplinary boundaries. Conversations about AI's philosophical implications with humanities scholars inform my understanding of consciousness and creativity, while discussions with biotech researchers illuminate the convergence of artificial and biological intelligence—insights that directly shape Erudio Bio's strategic direction. Exchanges with cryptography experts deepen my appreciation for privacy-preserving technologies, strengthening my advisory role at CryptoLab, and dialogues with medical professionals reveal the profound ethical dimensions of AI in healthcare while uncovering potential technological partnerships. This continuous intellectual cross-fertilization generates novel intuitions about not only AI's technological trajectory, but its ripple effects across homomorphic cryptography, blockchain, digital communications, biotechnology, medical science, pharmacology, and nano-science. These organically-formed insights then flow back into the academic and industry communities through subsequent lectures, consultations, and collaborative research, creating a virtuous cycle of knowledge creation and dissemination that advances both theoretical understanding and practical innovation while simultaneously identifying strategic opportunities that fuel my entrepreneurial endeavors.
 
 <h2 id="sem-2025">2025</h2>
 
