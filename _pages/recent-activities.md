@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Wed Oct 29 16:18:31 PDT 2025
+last_modified_at: Wed Oct 29 16:57:49 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -43,7 +43,7 @@ semiconductor optimization &amp; Machine Learning (ML) at Samsung,
 through e-commerce innovation via Artificial Intelligent (AI) at Amazon (where one project generated $200M in revenue),
 to co-founding [Gauss Labs](https://gausslabs.ai/){:target="_blank"} and serving as CTO—an industrial AI company—and now to the frontier of AI-powered biotechnology.
 I hold a Ph.D. in Electrical Engineering from Stanford University,
-where I studied under [Prof. Stephen P. Boyd](https://stanford.edu/~boyd/), the world's leading authority on Convex Optimization.
+where I studied under [Prof. Stephen P. Boyd](https://stanford.edu/~boyd/){:target="_blank"}, the world's leading authority on Convex Optimization.
 
 What drives me is connecting the dots between seemingly disparate fields. My background spans the theoretical depth of mathematics and convex optimization, the practical demands of engineering and AI development, and the philosophical questions of how technology shapes society. This interdisciplinary perspective allows me to see patterns others might miss—whether in technology trends, market dynamics, or the broader societal implications of AI advancement.
 
@@ -73,11 +73,90 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 # Leadership Roles
 
 ## Erudio Bio - Co-Founder &amp; CTO / Erudio Bio Korea - Co-Founder &amp; CEO
-**2024 - Present**
 
+<!--
 At [Erudio Bio](https://sungheeyun-erudio.github.io/){:target="_blank"}, we're building AI-powered platforms for biomarker discovery and precision medicine. Our approach combines multimodal AI, large language models, and biological knowledge graphs to accelerate drug discovery and development.
 
 **Recent Milestone** In 2025, Erudio Bio was awarded a grant from the **[Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"}** to advance our work in AI-driven biomarker platforms for global health challenges.
+-->
+
+At [Erudio Bio](https://www.erudio.bio/){:target="_blank"}, we're pioneering the next generation of drug discovery and precision medicine through AI-powered biomarker platforms. Our mission is to transform how we understand disease, identify therapeutic targets, and develop treatments—accelerating the path from biological insight to patient impact.
+
+**The Vision: AI-Driven Biological Intelligence**
+
+The pharmaceutical industry faces a fundamental challenge: despite massive investments, drug development remains slow, expensive, and failure-prone. Most drug candidates fail in late-stage trials because we don't fully understand the biological mechanisms of disease. Erudio Bio is changing this paradigm by building AI systems that can integrate and reason across the entire landscape of biological knowledge—from genomics and proteomics to clinical data and scientific literature.
+
+<!--
+**Technical Approach**
+
+Our platform combines cutting-edge AI technologies:
+- **Multimodal AI**: Integrating diverse data types—genomic sequences, protein structures, medical imaging, electronic health records, and scientific literature
+- **Large Language Models (LLMs)**: Processing and understanding vast bodies of biomedical research to extract insights that would be impossible for humans to synthesize manually
+- **Biological Knowledge Graphs**: Representing complex relationships between genes, proteins, diseases, and drugs in computationally tractable ways
+- **Agentic AI Systems**: Autonomous AI agents that can formulate hypotheses, design experiments, and iteratively refine biological understanding
+
+This convergence allows us to discover biomarkers—biological signatures of disease—that are more precise, more predictive, and more actionable than traditional approaches.
+-->
+
+**Recent Milestones**
+
+**Gates Foundation Grant (2025)**: We were awarded a prestigious grant from the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"} to advance our AI-driven biomarker platforms for global health challenges. This recognition validates our approach and extends our impact beyond commercial drug development to addressing diseases that disproportionately affect underserved populations.
+
+**Versatile Smart Assay (VSA) Platform**: Our patented VSA technology represents a breakthrough in biomarker detection, enabling rapid, accurate, and cost-effective analysis of multiple biomarkers simultaneously. We developed this technology in partnership with world-class institutions:
+- **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
+- **[Harvard Medical School](https://hms.harvard.edu/){:target="_blank"}** - Clinical validation and medical expertise
+- **[Stanford Medicine](https://med.stanford.edu/){:target="_blank"}** - Translational research and innovation
+
+**Strategic Partnerships & Collaborations**
+
+We're building an ecosystem of world-class partners across academia, healthcare, and industry:
+
+*Clinical & Research Partnerships:*
+- **[Seoul National University Bundang Hospital (SNUBH)](https://www.snubh.org/){:target="_blank"}**: Joint development of integrated biochip medical device for cancer diagnosis and monitoring using our VSA platform for multiple biomarker detection—a collaboration that brings our AI-driven insights directly into clinical practice
+- **[Institut Pasteur Korea](https://www.ip-korea.org/){:target="_blank"}**: Infectious disease research and drug discovery
+- **[Na-Eun Hospital](http://www.na-eun.com/){:target="_blank"}**: Clinical applications and validation
+
+<!--
+- **[Seoul National University Hospital (SNUH)](https://www.snuh.org/){:target="_blank"}** Health Innovation Center
+- **[Seoul Asan Medical Center](https://www.amc.seoul.kr/){:target="_blank"}**: One of Korea's premier medical institutions
+-->
+
+*Technology & Industry Partners:*
+- **[Lulumedic](https://www.lulumedic.com/){:target="_blank"}**: Bio data platform integration, combining their data infrastructure with our AI analytics
+- **[Korea Research Institute of Bioscience and Biotechnology (KRIBB)](https://www.kribb.re.kr/){:target="_blank"}**: Advanced bioscience research
+- **[National Nanofab Center](https://www.nnfc.re.kr/){:target="_blank"}**: Nanofabrication and micro/nano device development
+
+This partnership network spans the US and Korea, connecting Silicon Valley innovation with Korean clinical excellence and manufacturing capabilities.
+
+**What Makes Erudio Bio Different**
+
+<!--
+Unlike traditional biotech companies that focus on a single therapeutic area or drug candidate, we're building foundational AI infrastructure that can accelerate discovery across multiple diseases simultaneously. Our platform learns from every analysis, every dataset, every published paper—becoming more powerful and more insightful over time.
+
+Our **Versatile Smart Assay (VSA)** technology bridges the gap between AI-driven discovery and clinical application—enabling us not just to identify biomarkers computationally, but to actually measure them in patient samples with unprecedented speed and accuracy. This end-to-end capability, from computational discovery to clinical detection, is rare in the industry.
+-->
+
+We're also uniquely positioned at the intersection of:
+- **Silicon Valley AI innovation** and **biotech/pharma domain expertise**
+- **Cutting-edge machine learning** and **rigorous biological validation**
+- **Academic research excellence** and **commercial product development**
+- **US and Korean markets**, with operations in both countries
+
+<!--
+**Why This Matters**
+
+The convergence of AI and biology represents one of the most consequential technological transformations of our era. Just as AlphaFold revolutionized protein structure prediction, AI-powered platforms like ours can revolutionize how we discover drugs, understand disease mechanisms, and ultimately improve human health.
+
+For me personally, Erudio Bio represents the culmination of my journey from theoretical optimization to practical AI applications. After years of applying AI to semiconductors and e-commerce, working on problems that directly impact human health and longevity feels profoundly meaningful. We're not just building better algorithms—we're building tools that could help cure diseases, extend healthy lifespan, and reduce human suffering.
+
+**The Path Ahead**
+
+We're rapidly expanding our team, deepening our partnerships with world-leading medical institutions like SNUBH, Harvard Medical School, and Stanford Medicine, and building strategic alliances with pharmaceutical companies and research organizations globally. Through collaborations like our cancer diagnostic device development with SNUBH and data platform integration with Lulumedic, we're scaling our VSA platform to tackle increasingly complex biological questions across multiple disease areas.
+
+Our goal is to become the essential AI infrastructure layer for the next generation of precision medicine—the platform that every pharma company, biotech startup, hospital system, and academic researcher uses to accelerate their work from discovery to clinical application.
+
+Learn more at [erudio.bio](https://www.erudio.bio/){:target="_blank"}
+-->
 
 ## KFAS-Salzburg Global Leadership Initiative Fellow
 **December 2024 - Present**
