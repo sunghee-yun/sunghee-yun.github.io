@@ -8,37 +8,37 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Tue Oct 28 08:00:49 PDT 2025
+last_modified_at: Tue Oct 28 21:46:30 PDT 2025
 ---
 
 <div>
 	<audio id="podcast-seminars-03" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Dizzying_Calendar__Mapping_AI_s_Agentic_Revolution,_Biotech.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Dizzying_Calendar__Mapping_AI_s_Agentic_Revolution,_Biotech.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
 	<audio id="podcast-seminars-04" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Decoding_the_Future_Agentic_AI,_Biotech_Drug_Discovery,_and_the.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Decoding_the_Future_Agentic_AI,_Biotech_Drug_Discovery,_and_the.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
 	<audio id="podcast-seminars-05" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Virtuous_Cycle_of_Innovation__Tracing_the_Agentic_AI_and_Bi.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Virtuous_Cycle_of_Innovation__Tracing_the_Agentic_AI_and_Bi.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
 	<audio id="podcast-seminars-06" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_Agentic_AI_Revolution_from_.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_Agentic_AI_Revolution_from_.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
 	<audio id="podcast-seminars-07" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_AI_Metamorphosis_from_Optim.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/Intellectual_Arbitrage__Mapping_the_AI_Metamorphosis_from_Optim.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
 	<audio id="podcast-seminars-08" controls>
-		<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Cross-Disciplinary_Map__Tracking_an_AI_Titan_s_Leap_from_LL.m4a">
+		<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/seminars/NotebookLM/The_Cross-Disciplinary_Map__Tracking_an_AI_Titan_s_Leap_from_LL.m4a">
 		Your browser does not support this shorter audio element.
 	</audio>
 
@@ -191,7 +191,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 <div class="img-container-justified">
 &nbsp;
 <img style="max-width: 40%;" src="/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/posters/KakaoTalk_Photo_2025-10-11-23-22-15.png">
-<img style="max-width: 40%;" src="/resource/seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/posters/KakaoTalk_Photo_2025-10-26-22-17-42.jpeg">
+<img style="max-width: 40%;" src="/resource/seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/posters/KakaoTalk_Photo_2025-10-28-15-38-23.jpeg">
 &nbsp;
 </div>
 
