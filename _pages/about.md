@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Sep  5 18:53:53 PDT 2025
+last_modified_at: Wed Oct 29 08:26:25 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -169,7 +169,17 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 
 # Press exposure
 
-- [(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing - 2023년 11월 01일(수) @ 27-Oct-2023 KST](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/)
+- [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
+	recorded @ 08-Oct-2025 PDT
+- [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
+	&ndash; 고려대학교 경영대학원 CDTB
+	@ 27-Oct-2025 KST
+- [어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라](https://n.news.naver.com/article/008/0005264969?type=journalists){:target="_blank"}
+	&ndash; 머니투데이
+	@ 20-Oct-2025 KST
+- [(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/){:target="_blank"}
+	&ndash; 서울대학교 데이터사이언스 대학원
+	@ 27-Oct-2023 KST
 
 ## When joining Amazon in 2017
 
