@@ -8,7 +8,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Mon Jul 14 16:24:35 PDT 2025
-last_modified_at: Tue Oct 28 21:46:30 PDT 2025
+last_modified_at: Wed Oct 29 05:56:13 PDT 2025
 ---
 
 <div>
@@ -134,7 +134,7 @@ The intellectual synthesis that emerges from these exchanges organically crystal
 <h3 id="sem-2025-dec">Dec</h3>
 
 <div class="img-container">
-<img style="max-width: 60%;" src="/resource/seminars/2025_1213 KST - AI-BioX ConfEX Grand Summit 2025/posters/coex ai-biox 2025 - poster.png">
+<img style="max-width: 60%;" src="/resource/seminars/2025_1211 KST - AI-BioX ConfEX Grand Summit 2025/posters/KakaoTalk_Photo_2025-10-27-12-03-17.png">
 </div>
 
 <ul>
