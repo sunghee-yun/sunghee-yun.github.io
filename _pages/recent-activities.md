@@ -3,12 +3,116 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 10:52:15 PDT 2025
+last_modified_at: Thu Oct 30 16:03:43 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
+
+# AI creates Podcasts!
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Polymath Innovator!</strong>
+		<span style="opacity: 0.8;">(05:39)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Polymath_Innovator.mp4">
+		</video>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Sunghee Yun Connects Worlds!</strong>
+		<span style="opacity: 0.8;">(05:53)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/Sunghee_Yun__Connects_Worlds.mp4">
+		</video>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>From Pure Math to Global Health - How Sunghee Yun Built the AI Bridge Between Silicon Valley and Biotech</strong>
+		<span style="opacity: 0.8;">(14:36)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-01" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Pure_Math_to_Global_Health__How_Sunghee_Yun_Built_the_AI_B.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>From Stanford Math to Global Biotech - The Architect Bridging Convex Optimization, Amazon AI, and Drug Discovery Ethics</strong>
+		<span style="opacity: 0.8;">(14:20)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-02" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Stanford_Math_to_Global_Biotech__The_Architect_Bridging_Co.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>From Math Theory to Biotech Breakthrough - The Unlikely Quest for Global AI Reliability in Human Health</strong>
+		<span style="opacity: 0.8;">(12:32)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-03" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Math_Theory_to_Biotech_Breakthrough__The_Unlikely_Quest_fo.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>From Boyd's Math to Bio-TCAD - How One Tech Leader Connects AI, Global Health, and Responsible Policy</strong>
+		<span style="opacity: 0.8;">(12:37)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-04" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Boyd_s_Math_to_Bio-TCAD__How_One_Tech_Leader_Connects_AI,_.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>From Convex Optimization to Curing Cancer - Decoding the Interdisciplinary AI Career That's Bridging Math, Biotech, and Global Policy</strong>
+		<span style="opacity: 0.8;">(13:11)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-05" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Convex_Optimization_to_Curing_Cancer__Decoding_the_Interdi.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Modern Dot Connector - How Deep Math Fuels $200M AI, Biotech Breakthroughs, and Ethical Governance</strong>
+		<span style="opacity: 0.8;">(13:13)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-05" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Modern_Dot_Connector__How_Deep_Math_Fuels_$200M_AI,_Biotech.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 # Who I Am
 
