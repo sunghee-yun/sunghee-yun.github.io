@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Oct 27 11:30:49 PDT 2025
+last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 ---
 
 <!--
@@ -301,6 +301,16 @@ last_modified_at: Mon Oct 27 11:30:49 PDT 2025
 		&ndash; from ICN @ 6:55pm KST to SFO @ 12:30pm PST on 28-Nov-2025
 		(10h 35m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- 1 night trip to Jeju for Jeju Food Tech Industry Growth Strategy Seminar
+		@ [Bio-Convergence Center](https://naver.me/502Udaod)
+		- 21-Nov-2025 ~ 22-Nov-2025 &ndash; [flight schedule](/resource/trips/2025-11-16 - Seoul/Screenshot 2025-10-29 at 9.40.17 PM.png)
+		- flight
+			&ndash; OZ8931
+			&ndash; from GMP @ 10:55am to CJU @ 12:10pm on 21-Nov-2025 KST
+		- return flight
+			&ndash; OZ8956
+			&ndash; from CJU @ 3:05pm to GMP @ 4:20pm on 22-Nov-2025 KST
+		- stay @ [Shinshin Hotel Jeju Airport](https://naver.me/xrSQddYN) ([booking confirmation](/resource/trips/2025-11-16 - Seoul/Shinshin Hotel Booking.pdf))
 - biz trip to Seoul &ndash; 3 nights
 	- 05-Nov-2025 PST ~ 08-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-05 - Seoul/www.expedia.com-egti-E1J-VA1-W62P.pdf)
 	- flight
@@ -334,7 +344,7 @@ last_modified_at: Mon Oct 27 11:30:49 PDT 2025
 			&ndash; from GMP @ 9:25am to CJU @ 10:40am on 15-Oct-2025 KST
 		- return flight
 			&ndash; 7C 142
-			&ndash; from GMP @ 9:20pm to CJU @ 10:35pm on 17-Oct-2025 KST
+			&ndash; from CJU @ 9:20pm to GMP @ 10:35pm on 17-Oct-2025 KST
 		- stay @ [Benikea Jungmun Hotel](https://naver.me/F0zvWKf9)
 	- 1 day trip to DGIST
 		- 22-Oct-2025 SRT &ndash; [train tickets](/resource/trips/2025-10 - Seoul/2025 1022 - SRT - Suseo <-> Dongdaegu.pdf)
