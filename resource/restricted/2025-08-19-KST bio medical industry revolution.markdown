@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Wed Oct  8 09:31:03 PDT 2025
+last_modified_at: Thu Oct 30 05:13:46 PDT 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -82,19 +82,105 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 </span>
 </blockquote-->
 
-<h1>NotebookLM Podcasts</h1>
+<h1>AI creates Podcasts!</h1>
 
-<audio id="podcast-1" controls>
-	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
-	Your browser does not support this shorter audio element.
-</audio>
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Living Healthier, Longer: The AI, Biology, and Health Asset Revolution</strong>
+		<span style="opacity: 0.8;">(19:28)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
-- [Living Healthier, Longer: The AI, Biology, and  Health Asset Revolution (19:28)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=4520a696-127a-4b99-bd5c-0eb24a9d2fb9){:target="_blank"}
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset_Management</strong>
+		<span style="opacity: 0.8;">(21:50)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 01.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<!--
 - [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset_Management (21:50)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=ec8665c0-d07c-4cd5-bb24-ac718f50539a){:target="_blank"}
+-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Healthspan Revolution: AI, Biology, and Mastering Your Life s Most Valuable Asset</strong>
+		<span style="opacity: 0.8;">(26:14)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Healthspan_Revolution__AI,_Biology,_and_Mastering_Your_Life_s_Most_Valuable_Asset.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<!--
 - [Healthspan Revolution: AI, Biology, and Mastering Your Life s Most Valuable Asset (26:14)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=1176ebd9-ddd5-4b84-9c3d-ef28761df1fc){:target="_blank"}
+-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management</strong>
+		<span style="opacity: 0.8;">(18:36)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 02.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<!--
 - [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management (18:36)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=7c3f3918-d8fb-440b-8373-06b069398987){:target="_blank"}
+-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Longevity's Next Frontier: How AI and Health Asset Management are Redefining Human Thriving</strong>
+		<span style="opacity: 0.8;">(27:05)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Longevity_s_Next_Frontier__How_AI_and__Health_Asset_Management__are_Redefining_Human_Thriving.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<!--
 - [Longevity's Next Frontier: How AI and Health Asset Management are Redefining Human Thriving (27:05)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=05740307-8d59-4d9e-a5f1-f4a19598f9d5){:target="_blank"}
+-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management</strong>
+		<span style="opacity: 0.8;">(20:31)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 03.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
+<!--
 - [The Bio-Medical Revolution: AI, Longevity, and the Ethical Imperative of Health Asset Management (20:31)](https://notebooklm.google.com/notebook/49d09e40-7718-4c1e-923e-01c53eba9642?artifactId=c81f5614-a35a-47ea-95de-fd20af7e8db1){:target="_blank"}
+-->
 
 # The Durable Truth That Changes Everything
 
