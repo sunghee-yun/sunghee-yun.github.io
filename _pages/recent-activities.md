@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Wed Oct 29 16:57:49 PDT 2025
+last_modified_at: Wed Oct 29 17:09:09 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -51,10 +51,14 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 
 # Some of My Press Exposures
 
+- [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
+	&ndash; 고려대학교 경영대학원 CDTB
+	@ 30-Oct-2025 KST
 - [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
 	recorded @ 08-Oct-2025 PDT
 - [어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라](https://n.news.naver.com/article/008/0005264969?type=journalists){:target="_blank"}
 	&ndash; 머니투데이
+	@ 20-Oct-2025 KST
 - [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
 	&ndash; 고려대학교 경영대학원 CDTB
 	@ 27-Oct-2025 KST
