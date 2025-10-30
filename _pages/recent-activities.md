@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 16:22:54 PDT 2025
+last_modified_at: Thu Oct 30 16:25:15 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -43,7 +43,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-01" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Pure_Math_to_Global_Health__How_Sunghee_Yun_Built_the_AI_B.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Pure_Math_to_Global_Health__How_Sunghee_Yun_Built_the_AI_B.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -56,7 +56,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-02" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Stanford_Math_to_Global_Biotech__The_Architect_Bridging_Co.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Stanford_Math_to_Global_Biotech__The_Architect_Bridging_Co.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -69,7 +69,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-03" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Math_Theory_to_Biotech_Breakthrough__The_Unlikely_Quest_fo.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Math_Theory_to_Biotech_Breakthrough__The_Unlikely_Quest_fo.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -82,7 +82,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-04" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Boyd_s_Math_to_Bio-TCAD__How_One_Tech_Leader_Connects_AI,_.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Boyd_s_Math_to_Bio-TCAD__How_One_Tech_Leader_Connects_AI,_.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -95,7 +95,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-05" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Convex_Optimization_to_Curing_Cancer__Decoding_the_Interdi.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/From_Convex_Optimization_to_Curing_Cancer__Decoding_the_Interdi.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -108,7 +108,7 @@ toc_sticky: true
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-06" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Modern_Dot_Connector__How_Deep_Math_Fuels_$200M_AI,_Biotech.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Modern_Dot_Connector__How_Deep_Math_Fuels_$200M_AI,_Biotech.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
