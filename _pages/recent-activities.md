@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 07:10:39 PDT 2025
+last_modified_at: Thu Oct 30 10:52:15 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -12,7 +12,7 @@ toc_sticky: true
 
 # Who I Am
 
-I am Co-Founder &amp; CTO at [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}
+[I](/) am Co-Founder &amp; CTO at [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}
 and Co-Founder &amp; CEO at Erudio Bio Korea, Inc.
 where we're pioneering AI-driven biomarker discovery and drug development,
 serve as a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"}
@@ -117,6 +117,45 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 
 # Leadership Roles
 
+## Founder &amp; Leader of K-PAI!
+
+<span style="color:red;">**The K-PAI Phenomenon**</span>
+
+<!--div style="margin-top: 1em;" class="img-container-justified"-->
+<div class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006.jpeg">
+<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011.jpeg">
+&nbsp;
+</div>
+
+<!--
+**November 2024 - Present**
+-->
+
+What started as a vision has grown into one of the most unexpected and transformative chapters of my career.
+As Founder and Leader of [Silicon Valley Privacy-preserving AI Forum (K-PAI)](https://k-privateai.github.io/){:target="_blank"},
+I've built a thriving community that has made me a household name among Korean professionals throughout Silicon Valley's South Bay.
+Today, nearly every Korean in the South Bay (tech) community knows me as
+"the K-PAI person"—a recognition that reflects the Forum's remarkable impact and reach.
+
+<!--
+K-PAI is a pioneering community of professionals dedicated to building privacy-preserving Artificial Intelligence solutions
+through cross-disciplinary collaboration,
+bridging technical innovation with legal frameworks and humanistic principles.
+What makes K-PAI unique is its holistic approach—we don't just discuss technology; we explore the intersection of AI with privacy, security, ethics, business, policy, and human values.
+-->
+
+<!--
+**Community Impact**
+
+Since our launch in November 2024, K-PAI has become the premier forum for AI professionals, researchers, entrepreneurs, and policymakers in Silicon Valley. Our monthly forums attract:
+- Top speakers from leading companies (Google, Microsoft, Amazon, SK hynix, LG, a16z crypto, Altos Ventures, Quinn Emanuel)
+- Professors from world-class universities (Stanford, Arizona State, Seoul National University)
+- Executives and founders from cutting-edge AI startups
+- Policymakers and legal experts shaping AI regulation
+-->
+
 ## Erudio Bio - Co-Founder &amp; CTO / Erudio Bio Korea - Co-Founder &amp; CEO
 
 <!--
@@ -145,9 +184,9 @@ This convergence allows us to discover biomarkers—biological signatures of dis
 
 ### Recent Milestones
 
-**Gates Foundation Grant (2025)**: We were awarded a prestigious grant from the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"} to advance our AI-driven biomarker platforms for global health challenges. This recognition validates our approach and extends our impact beyond commercial drug development to addressing diseases that disproportionately affect underserved populations.
+<span style="color:red;">**Gates Foundation Grant (2025)**</span> We were awarded a Prestigious Grant from the [Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"} to advance our AI-driven biomarker platforms for global health challenges. This recognition validates our approach and extends our impact beyond commercial drug development to addressing diseases that disproportionately affect underserved populations.
 
-**Versatile Smart Assay (VSA) Platform**: Our patented VSA technology represents a breakthrough in biomarker detection, enabling rapid, accurate, and cost-effective analysis of multiple biomarkers simultaneously. We developed this technology in partnership with world-class institutions:
+**Versatile Smart Assay (VSA) Platform** Our patented VSA technology represents a breakthrough in biomarker detection, enabling rapid, accurate, and cost-effective analysis of multiple biomarkers simultaneously. We developed this technology in partnership with world-class institutions:
 - **[Stanford Medicine](https://med.stanford.edu/){:target="_blank"}** - Translational research and innovation
 - **[Harvard Medical School](https://hms.harvard.edu/){:target="_blank"}** - Clinical validation and medical expertise
 - **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
@@ -256,53 +295,20 @@ Read our group's report: [Technology, Growth, and Inequality: The Case of AI](/a
 
 Please read my related blog post: [Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München](/ai/bridging-technology-and-humanity)
 
-## Silicon Valley Privacy Preserving AI Forum (K-PAI) - Founder & Leader
-
-<!--div style="margin-top: 1em;" class="img-container-justified"-->
-<div class="img-container-justified">
-&nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006.jpeg">
-<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011.jpeg">
-&nbsp;
-</div>
-
-**November 2024 - Present**
-
-What started as a vision has grown into one of the most unexpected and transformative chapters of my career.
-As Founder and Leader of [K-PAI](https://k-privateai.github.io/){:target="_blank"},
-I've built a thriving community that has made me a household name among Korean professionals throughout Silicon Valley's South Bay.
-Today, nearly every Korean in the South Bay (tech) community knows me as
-"the K-PAI person"—a recognition that reflects the Forum's remarkable impact and reach.
-
-**The K-PAI Movement**
-
-K-PAI is a pioneering community of professionals dedicated to building privacy-preserving Artificial Intelligence solutions
-through cross-disciplinary collaboration,
-bridging technical innovation with legal frameworks and humanistic principles.
-What makes K-PAI unique is its holistic approach—we don't just discuss technology; we explore the intersection of AI with privacy, security, ethics, business, policy, and human values.
-
-**Community Impact**
-
-Since our launch in November 2024, K-PAI has become the premier forum for AI professionals, researchers, entrepreneurs, and policymakers in Silicon Valley. Our monthly forums attract:
-- Top speakers from leading companies (Google, Microsoft, Amazon, SK hynix, LG, a16z crypto, Altos Ventures, Quinn Emanuel)
-- Professors from world-class universities (Stanford, Arizona State, Seoul National University)
-- Executives and founders from cutting-edge AI startups
-- Policymakers and legal experts shaping AI regulation
-
 # What Makes My Perspective Unique
 
 My approach to AI and technology is grounded in unusual depth across multiple dimensions:
 
-**Mathematical Foundations** I studied under [one of few living legends in optimization theory (and the only legend throughout the human history in Convex Optimization)](https://web.stanford.edu/~boyd/), giving me rare insight into the mathematical structures that underpin modern AI. This theoretical grounding enables me to understand not just how AI systems work, but why they work—and more importantly, when they won't.
+<span style="color:red;">**Mathematical Foundations**</span> I studied under [one of few living legends in optimization theory (and the only legend throughout the human history in Convex Optimization)](https://web.stanford.edu/~boyd/), giving me rare insight into the mathematical structures that underpin modern AI. This theoretical grounding enables me to understand not just how AI systems work, but why they work—and more importantly, when they won't.
 (Please refer to the blog posts about (pure) math that I've written [here](/math/) for better understanding!)
 
-**Cross-Industry Experience** From semiconductor manufacturing to e-commerce to biotech, I've seen how AI transforms different industries. This breadth reveals patterns in technology adoption, implementation challenges, and business value creation that are invisible when viewing a single sector.
+<span style="color:red;">**Cross-Industry Experience**</span> From semiconductor manufacturing to e-commerce to biotech, I've seen how AI transforms different industries. This breadth reveals patterns in technology adoption, implementation challenges, and business value creation that are invisible when viewing a single sector.
 (Please refer to my blog posts related to these topics such as
 [this](/multi-agent-ai-biz-landscape)
 or [this](/ai/data)
 or [this](/ai/llm/energy-challenge)!)
 
-**Technology-Humanities Bridge** While deeply technical, I'm equally engaged with philosophy, history, cognitive science, and social sciences. This allows me to think about AI not just as a technology problem but as a societal transformation—considering questions of consciousness, ethics, economic equity, and human flourishing alongside technical architecture and algorithmic efficiency.
+<span style="color:red;">**Technology-Humanities Bridge**</span> While deeply technical, I'm equally engaged with philosophy, history, cognitive science, and social sciences. This allows me to think about AI not just as a technology problem but as a societal transformation—considering questions of consciousness, ethics, economic equity, and human flourishing alongside technical architecture and algorithmic efficiency.
 (Please refer to some of my blog posts or articles related to these topics such as
 [this](/ai/bridging-technology-and-humanity)
 or [this](/ai/salzburg-report-case-of-ai)
@@ -310,10 +316,10 @@ or [this](/prajna/wisdom-of-strategic-ignorance)
 or [this](/prajna/wonders/richness-of-musical-notes)
 or [this](/ai/reason)!)
 
-**Entrepreneurial & Strategic Lens** Having co-founded companies and advised Fortune 500 executives, I understand the full spectrum from breakthrough research to market realization, from technical feasibility to business viability, from product development to strategic positioning.
+<span style="color:red;">**Entrepreneurial & Strategic Lens**</span> Having co-founded companies and advised Fortune 500 executives, I understand the full spectrum from breakthrough research to market realization, from technical feasibility to business viability, from product development to strategic positioning.
 (Please refer to my special lectures on various topics of AI and Convex Optimization and consultations for executives of Fortune 500 companies [here](/#sem)!)
 
-**Community Builder & Connector** Through founding and leading [K-PAI](https://k-privateai.github.io/), I've demonstrated the ability to build thriving communities that bridge disciplines, cultures, and institutions. This community-building expertise—connecting people, ideas, and opportunities—has become one of my most impactful contributions to Silicon Valley's tech ecosystem.
+<span style="color:red;">**Community Builder & Connector**</span> Through founding and leading [K-PAI](https://k-privateai.github.io/), I've demonstrated the ability to build thriving communities that bridge disciplines, cultures, and institutions. This community-building expertise—connecting people, ideas, and opportunities—has become one of my most impactful contributions to Silicon Valley's tech ecosystem.
 (You can see everything, I mean everything about K-PAI [here](https://k-privateai.github.io/),
 including, but not limited to, [all the forum announcements, reflections, blog posts](https://k-privateai.github.io/posts/), [partnership](https://k-privateai.github.io/#perpetual-partnership-with-kotra), [K-PAI membership](https://k-privateai.github.io/membership/), and [K-PAI committee](https://k-privateai.github.io/committee/)!)
 
