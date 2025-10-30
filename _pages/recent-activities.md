@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 16:09:35 PDT 2025
+last_modified_at: Thu Oct 30 16:22:54 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -107,7 +107,7 @@ toc_sticky: true
 		<span style="opacity: 0.8;">(13:13)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-05" controls style="width: 100%;">
+		<audio id="podcast-06" controls style="width: 100%;">
 			<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Modern_Dot_Connector__How_Deep_Math_Fuels_$200M_AI,_Biotech.m4a">
 			Your browser does not support this audio element.
 		</audio>
