@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Wed Oct 29 17:09:09 PDT 2025
+last_modified_at: Thu Oct 30 07:10:39 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -52,16 +52,42 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 # Some of My Press Exposures
 
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
-	&ndash; 고려대학교 경영대학원 CDTB
+	&ndash; 아시아경제
 	@ 30-Oct-2025 KST
+
+> 현재 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해 초기 단계에서 충분히 검증하지 못하기 때문이다. 에루디오바이오의 bioTCAD는 동적 힘 분광법으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써 새로운 저비용치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMICs)가 혜택을 받을 수 있다.
+>
+> 한편 에루디오바이오는 지난 7월 한국 법인 에루디오바이오코리아를 설립해 서울대학교 분당병원과 암 바이오마커 검출 제품 공동 개발을 추진하고 있다. 한국인 특화 암 진단 솔루션 개발을 목표로 기관생명윤리위원회(IRB) 승인 절차가 진행 중이며, 연내 승인 완료를 목표로 하고 있다. 이 기술은 기존 다중화 진단의 핵심 한계인 교차반응성과 위양성 문제를 해결해 암 조기 진단의 정확도를 크게 높일 수 있을 것으로 기대된다. 내년 상반기 첫 임상 데이터를 확보하고, 2027년 상반기 식품의약품안전처에 의료기기 허가를 신청할 예정이다.
+
 - [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
 	recorded @ 08-Oct-2025 PDT
+
+<div class="img-container">
+<img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
+</div>
+
 - [어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라](https://n.news.naver.com/article/008/0005264969?type=journalists){:target="_blank"}
 	&ndash; 머니투데이
 	@ 20-Oct-2025 KST
+
+<div class="img-container">
+<img src="/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png">
+</div>
+
 - [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
 	&ndash; 고려대학교 경영대학원 CDTB
 	@ 27-Oct-2025 KST
+
+<div class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
+<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
+&nbsp;
+</div>
+
+- [윤성희 자문교수, SK의 AI 승부수 "가우스랩스" R&D 최고책임자로](https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do)
+	&ndash; 대구경북과학기술대학교
+	@ 23-Sep-2020 KST
 - [최태원의 승부수&hellip; SK그룹, 美 실리콘밸리서 AI 자회사 출범](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html){:target="_blank"}
 	&ndash; Chosun Biz
 	@ 22-Sep-2020 KST
@@ -71,8 +97,23 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 - [가우스랩스 출범 10개월&hellip; '올해 말까지 현재 2배 규모 AI 인재 채용'](https://www.aifnlife.co.kr/news/articleView.html?idxno=8993){:target="_blank"}
 	&ndash; AI라이프경제
 	@ 30-Jun-2021 KST
+- ["반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다" - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다](https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs)
+	&ndash; SK hynix Newsroom
+	@ 29-Jun-2021 KST
 
-(For more of my press exposures, please refer to [Press exposure](/about/#press-exposure) section.)
+<div class="img-container">
+<img src="/resource/press/Sunghee Yun - Global RnD Head.jpg">
+</div>
+
+- [AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 '정조준'](https://www.fetv.co.kr/news/article.html?no=64174)
+	&ndash; Financial Economic TV
+	@ 22-Sep-2020 KST
+
+<div class="img-container">
+<img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg">
+</div>
+
+(For more of my press exposures, please refer to [Press Exposures](/about/#press-exposure) section.)
 
 # Leadership Roles
 
@@ -86,7 +127,7 @@ At [Erudio Bio](https://sungheeyun-erudio.github.io/){:target="_blank"}, we're b
 
 At [Erudio Bio](https://www.erudio.bio/){:target="_blank"}, we're pioneering the next generation of drug discovery and precision medicine through AI-powered biomarker platforms. Our mission is to transform how we understand disease, identify therapeutic targets, and develop treatments—accelerating the path from biological insight to patient impact.
 
-**The Vision: AI-Driven Biological Intelligence**
+### The Vision - AI-Driven Biological Intelligence
 
 The pharmaceutical industry faces a fundamental challenge: despite massive investments, drug development remains slow, expensive, and failure-prone. Most drug candidates fail in late-stage trials because we don't fully understand the biological mechanisms of disease. Erudio Bio is changing this paradigm by building AI systems that can integrate and reason across the entire landscape of biological knowledge—from genomics and proteomics to clinical data and scientific literature.
 
@@ -102,20 +143,28 @@ Our platform combines cutting-edge AI technologies:
 This convergence allows us to discover biomarkers—biological signatures of disease—that are more precise, more predictive, and more actionable than traditional approaches.
 -->
 
-**Recent Milestones**
+### Recent Milestones
 
 **Gates Foundation Grant (2025)**: We were awarded a prestigious grant from the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"} to advance our AI-driven biomarker platforms for global health challenges. This recognition validates our approach and extends our impact beyond commercial drug development to addressing diseases that disproportionately affect underserved populations.
 
 **Versatile Smart Assay (VSA) Platform**: Our patented VSA technology represents a breakthrough in biomarker detection, enabling rapid, accurate, and cost-effective analysis of multiple biomarkers simultaneously. We developed this technology in partnership with world-class institutions:
-- **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
-- **[Harvard Medical School](https://hms.harvard.edu/){:target="_blank"}** - Clinical validation and medical expertise
 - **[Stanford Medicine](https://med.stanford.edu/){:target="_blank"}** - Translational research and innovation
+- **[Harvard Medical School](https://hms.harvard.edu/){:target="_blank"}** - Clinical validation and medical expertise
+- **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
 
-**Strategic Partnerships & Collaborations**
+<div class="img-container-justified">
+&nbsp;
+<img width="30%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
+<img width="30%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
+<img width="30%" src="/resource/org-logos/analog-devices-logo.png">
+&nbsp;
+</div>
+
+### Strategic &amp; Technical Partnerships
 
 We're building an ecosystem of world-class partners across academia, healthcare, and industry:
 
-*Clinical & Research Partnerships:*
+**Clinical & Research Partnerships**
 - **[Seoul National University Bundang Hospital (SNUBH)](https://www.snubh.org/){:target="_blank"}**: Joint development of integrated biochip medical device for cancer diagnosis and monitoring using our VSA platform for multiple biomarker detection—a collaboration that brings our AI-driven insights directly into clinical practice
 - **[Institut Pasteur Korea](https://www.ip-korea.org/){:target="_blank"}**: Infectious disease research and drug discovery
 - **[Na-Eun Hospital](http://www.na-eun.com/){:target="_blank"}**: Clinical applications and validation
@@ -125,10 +174,26 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 - **[Seoul Asan Medical Center](https://www.amc.seoul.kr/){:target="_blank"}**: One of Korea's premier medical institutions
 -->
 
-*Technology & Industry Partners:*
+<div class="img-container-justified">
+&nbsp;
+<img width="30%" src="/resource/org-logos/snubh-logo.png">
+<img width="30%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
+<img width="30%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
+&nbsp;
+</div>
+
+**Technology & Industry Partners**
 - **[Lulumedic](https://www.lulumedic.com/){:target="_blank"}**: Bio data platform integration, combining their data infrastructure with our AI analytics
 - **[Korea Research Institute of Bioscience and Biotechnology (KRIBB)](https://www.kribb.re.kr/){:target="_blank"}**: Advanced bioscience research
 - **[National Nanofab Center](https://www.nnfc.re.kr/){:target="_blank"}**: Nanofabrication and micro/nano device development
+
+<div class="img-container-justified">
+&nbsp;
+<img width="30%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
+<img width="30%" src="/resource/org-logos/kribb-logo-eng.jpeg">
+<img width="30%" src="/resource/org-logos/nanofab-logo.svg">
+&nbsp;
+</div>
 
 This partnership network spans the US and Korea, connecting Silicon Valley innovation with Korean clinical excellence and manufacturing capabilities.
 
@@ -141,10 +206,10 @@ Our **Versatile Smart Assay (VSA)** technology bridges the gap between AI-driven
 -->
 
 We're also uniquely positioned at the intersection of:
-- **Silicon Valley AI innovation** and **biotech/pharma domain expertise**
-- **Cutting-edge machine learning** and **rigorous biological validation**
-- **Academic research excellence** and **commercial product development**
-- **US and Korean markets**, with operations in both countries
+- <span style="color:red;">**Silicon Valley AI innovation**</span> and **biotech/pharma domain expertise**
+- <span style="color:red;">**Cutting-edge Machine Learning (ML) and Artificial Intelligence (AI)**</span> and **rigorous biological validation**
+- <span style="color:red;">**Academic research excellence**</span> and <span style="color:red;">**commercial product development**</span>
+- <span style="color:red;">**US and Korean markets**</span> with operations in both countries
 
 <!--
 **Why This Matters**
@@ -192,6 +257,15 @@ Read our group's report: [Technology, Growth, and Inequality: The Case of AI](/a
 Please read my related blog post: [Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München](/ai/bridging-technology-and-humanity)
 
 ## Silicon Valley Privacy Preserving AI Forum (K-PAI) - Founder & Leader
+
+<!--div style="margin-top: 1em;" class="img-container-justified"-->
+<div class="img-container-justified">
+&nbsp;
+<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006.jpeg">
+<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011.jpeg">
+&nbsp;
+</div>
+
 **November 2024 - Present**
 
 What started as a vision has grown into one of the most unexpected and transformative chapters of my career.
