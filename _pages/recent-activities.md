@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 16:03:43 PDT 2025
+last_modified_at: Thu Oct 30 16:09:35 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -12,7 +12,7 @@ toc_sticky: true
 
 # AI creates Podcasts!
 
-<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
 	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 		<strong>The Polymath Innovator!</strong>
 		<span style="opacity: 0.8;">(05:39)</span>
@@ -24,7 +24,7 @@ toc_sticky: true
 	</div>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
 	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 		<strong>Sunghee Yun Connects Worlds!</strong>
 		<span style="opacity: 0.8;">(05:53)</span>
