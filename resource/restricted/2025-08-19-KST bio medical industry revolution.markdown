@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Thu Oct 30 05:13:46 PDT 2025
+last_modified_at: Thu Oct 30 05:21:46 PDT 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -90,7 +90,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(19:28)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-01" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Living_Healthier,_Longer__The_AI,_Biology,_and__Health_Asset__Revolution.m4a">
 			Your browser does not support this audio element.
 		</audio>
@@ -103,7 +103,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(21:50)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-02" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 01.m4a">
 			Your browser does not support this audio element.
 		</audio>
@@ -120,7 +120,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(26:14)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-03" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Healthspan_Revolution__AI,_Biology,_and_Mastering_Your_Life_s_Most_Valuable_Asset.m4a">
 			Your browser does not support this audio element.
 		</audio>
@@ -137,7 +137,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(18:36)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-04" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 02.m4a">
 			Your browser does not support this audio element.
 		</audio>
@@ -154,7 +154,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(27:05)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-05" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/Longevity_s_Next_Frontier__How_AI_and__Health_Asset_Management__are_Redefining_Human_Thriving.m4a">
 			Your browser does not support this audio element.
 		</audio>
@@ -171,7 +171,7 @@ We stand at an unprecedented convergence: AI technology has finally matured enou
 		<span style="opacity: 0.8;">(20:31)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-1" controls style="width: 100%;">
+		<audio id="podcast-06" controls style="width: 100%;">
 			<source type="audio/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/posts/2025-08-19-KST bio medical industry revolution/NotebookLM/The_Bio-Medical_Revolution__AI,_Longevity,_and_the_Ethical_Imperative_of_Health_Asset_Management - 03.m4a">
 			Your browser does not support this audio element.
 		</audio>
