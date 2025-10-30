@@ -13,12 +13,12 @@ main:
     url: /papers
   - title: "AI Learning"
     url: /ai-learning
-  - title: "tags"
-    url: /tags
+  - title: "resonate"
+    url: /resonate
   - title: "cats"
     url: /categories
-  - title: "Resonate"
-    url: /resonate
+  - title: "tags"
+    url: /tags
   - title: "books"
     url: /books
   - title: "lectures"
