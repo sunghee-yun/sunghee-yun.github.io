@@ -26,18 +26,36 @@ toc_sticky: true
 	});
 </script>
 
-# NotebookLM Podcasts
+# AI creates Podcasts
 
-<audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-01.wav">
-	Your browser does not support this shorter audio element.
-</audio>
+<div class="img-container-justified">
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>AI Insights - Technology, Trends, and Impacts</strong>
+			<span style="opacity: 0.8;">(11:25)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>AI Insights - Technology, Trends, and Impacts</strong>
+			<span style="opacity: 0.8;">(15:36)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
-<audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-02.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
+<!--
 Korean versions
 
 <audio id="podcast-kor-1" controls>
@@ -47,6 +65,7 @@ Korean versions
 <audio id="podcast-kor-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-hub/NotebookLM/AI Insights_ Technology, Trends, and Impacts-kor-02.wav">
 </audio>
+-->
 
 # Charter
 
