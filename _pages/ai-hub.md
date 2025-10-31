@@ -151,14 +151,39 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 27-Oct-2024
 </li>
 <li>
+	<a href="https://www.smedaily.co.kr/news/articleView.html?idxno=207272">SK그룹의 AI 싱크탱크 ‘가우스랩스’</a>
+	- 중소기업신문
+	@ 29-Jun-2021
+</li>
+<li>
 	<a href="https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs">“반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다” - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다</a>
 	- SK hynix Newsroom
 	@ 29-Jun-2021
 </li>
 <li>
+	<a href="https://www.koreaittimes.com/news/articleView.html?idxno=100615">SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital</a>
+	- Korea IT Times
+	@ 23-Sep-2020
+</li>
+<li>
 	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
 	- 대구경북과학기술대학교 (DGIST)
 	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.opinionnews.co.kr/news/articleView.html?idxno=40391">SK, ‘산업 AI 솔루션’ 사업 진출…AI 전문기업 ‘가우스랩스’ 설립</a>
+	- 오피니언뉴스
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://www.seoulfn.com/news/articleView.html?idxno=395963">SK하이닉스, AI 전문회사 ‘가우스랩스’ 설립</a>
+	- 서울파이낸스
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://www.itbiznews.com/news/articleView.html?idxno=20158">인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소</a>
+	- IT BizNews
+	@ 22-Sep-2020
 </li>
 <li>
 	<a href="https://www.fetv.co.kr/news/article.html?no=64174">AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 ‘정조준’</a>
@@ -2224,14 +2249,39 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
+	<a href="https://www.smedaily.co.kr/news/articleView.html?idxno=207272">SK그룹의 AI 싱크탱크 ‘가우스랩스’</a>
+	- 중소기업신문
+	@ 29-Jun-2021
+</li>
+<li>
 	<a href="https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs">“반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다” - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다</a>
 	- SK hynix Newsroom
 	@ 29-Jun-2021
 </li>
 <li>
+	<a href="https://www.koreaittimes.com/news/articleView.html?idxno=100615">SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital</a>
+	- Korea IT Times
+	@ 23-Sep-2020
+</li>
+<li>
 	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
 	- 대구경북과학기술대학교 (DGIST)
 	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.opinionnews.co.kr/news/articleView.html?idxno=40391">SK, ‘산업 AI 솔루션’ 사업 진출…AI 전문기업 ‘가우스랩스’ 설립</a>
+	- 오피니언뉴스
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://www.seoulfn.com/news/articleView.html?idxno=395963">SK하이닉스, AI 전문회사 ‘가우스랩스’ 설립</a>
+	- 서울파이낸스
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://www.itbiznews.com/news/articleView.html?idxno=20158">인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소</a>
+	- IT BizNews
+	@ 22-Sep-2020
 </li>
 <li>
 	<a href="https://www.fetv.co.kr/news/article.html?no=64174">AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 ‘정조준’</a>

@@ -1,6 +1,41 @@
 [
 	{
 		"category": ["sunghee"],
+		"title": "SK, ‘산업 AI 솔루션’ 사업 진출…AI 전문기업 ‘가우스랩스’ 설립",
+		"press": "오피니언뉴스",
+		"date": "22-Sep-2020",
+		"url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=40391"
+	},
+	{
+		"category": ["sunghee"],
+		"title": "SK그룹의 AI 싱크탱크 ‘가우스랩스’",
+		"press": "중소기업신문",
+		"date": "29-Jun-2021",
+		"url": "https://www.smedaily.co.kr/news/articleView.html?idxno=207272"
+	},
+	{
+		"category": ["sunghee"],
+		"title": "SK하이닉스, AI 전문회사 ‘가우스랩스’ 설립",
+		"press": "서울파이낸스",
+		"date": "22-Sep-2020",
+		"url": "https://www.seoulfn.com/news/articleView.html?idxno=395963"
+	},
+	{
+		"category": ["sunghee"],
+		"title": "인공지능(AI) 전문기업 가우스랩스, 한국오피스 개소",
+		"press": "IT BizNews",
+		"date": "22-Sep-2020",
+		"url": "https://www.itbiznews.com/news/articleView.html?idxno=20158"
+	},
+	{
+		"category": ["sunghee"],
+		"title": "SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital",
+		"press": "Korea IT Times",
+		"date": "23-Sep-2020",
+		"url": "https://www.koreaittimes.com/news/articleView.html?idxno=100615"
+	},
+	{
+		"category": ["sunghee"],
 		"url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=197867",
 		"title": "‘두뇌유출’ 애국심만으로 붙잡기 어렵다",
 		"press": "전국매일신문",
