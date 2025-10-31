@@ -102,6 +102,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- 아시아경제
+	@ 30-Oct-2025
+</li>
+<li>
 	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
 	- 고려대학교 경영대학원 CDTB
 	@ 27-Oct-2025 KST
@@ -118,27 +123,14 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </li>
 </ul>
 
-<h1 id="entrepreneurship">Entrepreneurship</h1>
-
-<ul>
-<li>
-	<a href="https://m.mk.co.kr/news/business/11128871">선·후배 관계가 전부라는 이 남자…미국 전역 한국인 창업자들 불러모으더니</a>
-	@ 01-Oct-2024 KST
-</li>
-<li>
-	<a href="https://n.news.naver.com/article/011/0004390880?sid=101">디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다</a>
-	@ 10-Sep-2024 KST
-</li>
-<li>
-	<a href="https://www.darkdaily.com/2024/05/31/ex-theranos-founder-and-ceo-elizabeth-holmes-reduced-her-prison-sentence-by-nearly-two-years/">Ex-Theranos Founder and CEO Elizabeth Holmes Reduced Her Prison Sentence by Nearly Two Years</a>
-	- DarkDaily
-	@ 31-May-2024
-</li>
-</ul>
-
 <h1 id="biotech">Biotech &amp; medical &amp; healthcare</h1>
 
 <ul>
+<li>
+	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- 아시아경제
+	@ 30-Oct-2025
+</li>
 <li>
 	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
 	- LinkedIn Newsletter - The Future of Digital Health
@@ -209,6 +201,24 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.newyorker.com/magazine/2014/12/15/blood-simpler">Blood, Simpler</a>
 	- New Yorker
 	@ 08-Dec-2014
+</li>
+</ul>
+
+<h1 id="entrepreneurship">Entrepreneurship</h1>
+
+<ul>
+<li>
+	<a href="https://m.mk.co.kr/news/business/11128871">선·후배 관계가 전부라는 이 남자…미국 전역 한국인 창업자들 불러모으더니</a>
+	@ 01-Oct-2024 KST
+</li>
+<li>
+	<a href="https://n.news.naver.com/article/011/0004390880?sid=101">디노티시아, AI 핵심 기술 '벡터 DB' 기술 확보 나섰다</a>
+	@ 10-Sep-2024 KST
+</li>
+<li>
+	<a href="https://www.darkdaily.com/2024/05/31/ex-theranos-founder-and-ceo-elizabeth-holmes-reduced-her-prison-sentence-by-nearly-two-years/">Ex-Theranos Founder and CEO Elizabeth Holmes Reduced Her Prison Sentence by Nearly Two Years</a>
+	- DarkDaily
+	@ 31-May-2024
 </li>
 </ul>
 
@@ -1233,6 +1243,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- 아시아경제
+	@ 30-Oct-2025
+</li>
+<li>
+	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- 아시아경제
+	@ 30-Oct-2025
+</li>
 <li>
 	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
 	- 고려대학교 경영대학원 CDTB

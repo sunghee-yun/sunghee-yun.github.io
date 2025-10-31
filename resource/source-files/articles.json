@@ -1,6 +1,13 @@
 [
 	{
 		"category": ["sunghee"],
+		"url": "https://www.asiae.co.kr/article/2025103008554006190",
+		"title": "에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다",
+		"date": "30-Oct-2025",
+		"press": "아시아경제"
+	},
+	{
+		"category": ["sunghee"],
 		"url": "https://blog.naver.com/bookcation/223851899591",
 		"title": "🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법",
 		"date": "01-May-2025 KST",
@@ -62,6 +69,13 @@
 		"title": "The OpenAI Mafia is Racing to Bigger AI Supercomputers",
 		"date": "05-Sep-2024",
 		"press": "AI Supremacy"
+	},
+	{
+		"category": ["biotech"],
+		"url": "https://www.asiae.co.kr/article/2025103008554006190",
+		"title": "에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다",
+		"date": "30-Oct-2025",
+		"press": "아시아경제"
 	},
 	{
 		"category": ["biotech"],
