@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Thu Oct 30 16:25:15 PDT 2025
+last_modified_at: Fri Oct 31 02:04:06 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -20,6 +20,7 @@ toc_sticky: true
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<video width="100%" controls>
 			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Polymath_Innovator.mp4">
+			Your browser does not support this video element.
 		</video>
 	</div>
 </div>
@@ -32,6 +33,7 @@ toc_sticky: true
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<video width="100%" controls>
 			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/Sunghee_Yun__Connects_Worlds.mp4">
+			Your browser does not support this video element.
 		</video>
 	</div>
 </div>
