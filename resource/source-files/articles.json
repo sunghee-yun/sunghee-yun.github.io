@@ -1,6 +1,20 @@
 [
 	{
 		"category": ["sunghee"],
+		"url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=197867",
+		"title": "‘두뇌유출’ 애국심만으로 붙잡기 어렵다",
+		"press": "전국매일신문",
+		"date": "20-Dec-2017"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM",
+		"title": "대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌 유출 우려”",
+		"press": "SBS News",
+		"date": "19-Dec-2017"
+	},
+	{
+		"category": ["sunghee"],
 		"url": "https://n.news.naver.com/mnews/article/001/0009760685?sid=001",
 		"title": "대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”",
 		"press": "연합뉴스",

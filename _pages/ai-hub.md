@@ -171,6 +171,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 22-Sep-2020
 </li>
 <li>
+	<a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=197867">‘두뇌유출’ 애국심만으로 붙잡기 어렵다</a>
+	- 전국매일신문
+	@ 20-Dec-2017
+</li>
+<li>
+	<a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌 유출 우려”</a>
+	- SBS News
+	@ 19-Dec-2017
+</li>
+<li>
 	<a href="https://n.news.naver.com/mnews/article/001/0009760685?sid=001">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”</a>
 	- 연합뉴스
 	@ 19-Dec-2017
@@ -2237,6 +2247,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/">Why was Theranos so believable? Medicine needs to look in the mirror</a>
 	- STAT News
 	@ 24-May-2018
+</li>
+<li>
+	<a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=197867">‘두뇌유출’ 애국심만으로 붙잡기 어렵다</a>
+	- 전국매일신문
+	@ 20-Dec-2017
+</li>
+<li>
+	<a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌 유출 우려”</a>
+	- SBS News
+	@ 19-Dec-2017
 </li>
 <li>
 	<a href="https://n.news.naver.com/mnews/article/001/0009760685?sid=001">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”</a>
