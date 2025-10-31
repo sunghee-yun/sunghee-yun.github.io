@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Oct 31 03:14:08 PDT 2025
+last_modified_at: Fri Oct 31 03:45:05 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -542,7 +542,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 >
 > 인공지능(AI) 분야 전문가로 알려진 그는 현재 아마존에서 [컨벡스 최적화](https://web.stanford.edu/~boyd) 및 딥러닝 부문을 담당하는 것으로 알려졌습니다.
 
-- [(전국매일신문) '두뇌유출' 애국심만으로 붙잡기 어렵다 @ 20-Dec-2017](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
+- ['두뇌유출' 애국심만으로 붙잡기 어렵다](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
 	&ndash; 전국매일신문
 	@ 20-Dec-2017
 
