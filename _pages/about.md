@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Oct 31 01:13:10 PDT 2025
+last_modified_at: Fri Oct 31 02:43:14 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -123,6 +123,132 @@ My life goal is to help build a future where humanity thrives through the advanc
 	<td>kakaotalk ID</td><td>- shoptyun</td>
 </tr>
 </table>
+
+# AI creates Podcasts for Me!
+
+## Video Podcasts
+
+<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Sunghee Yun - Pioneer's Journey</strong>
+		<span style="opacity: 0.8;">(07:07)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/Sunghee_Yun__Pioneer_s_Journey.mp4">
+			Your browser does not support this video element.
+		</video>
+	</div>
+</div>
+
+<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>AI Pioneer - Sunghee Yun</strong>
+		<span style="opacity: 0.8;">(05:10)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/AI_Pioneer__Sunghee_Yun - 01.mp4">
+			Your browser does not support this video element.
+		</video>
+	</div>
+</div>
+
+<div id="podcast-video-03" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>AI Pioneer - Sunghee Yun</strong>
+		<span style="opacity: 0.8;">(05:57)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/AI_Pioneer__Sunghee_Yun - 02.mp4">
+			Your browser does not support this video element.
+		</video>
+	</div>
+</div>
+
+## Audio Podcasts
+
+<div class="img-container-justified">
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>From Silicon to Life-Saving Drugs - How Convex Optimization Powers Multi-Billion Dollar AI Careers</strong>
+			<span style="opacity: 0.8;">(13:36)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/From_Silicon_to_Life-Saving_Drugs__How_Convex_Optimization_Powe.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Universal Language of Impact - How an AI Polymath Used Convex Optimization to Transform Chips, E-Commerce ($200M Win), Biotech, and Global AI Policy</strong>
+			<span style="opacity: 0.8;">(14:48)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-02" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/The_Universal_Language_of_Impact__How_an_AI_Polymath_Used_Conve.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The AI Polymath - How One Stanford PhD Used Guaranteed Optimization to Conquer Semiconductors, Amazon, and Global Health Policy</strong>
+			<span style="opacity: 0.8;">(15:26)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-03" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/The_AI_Polymath__How_One_Stanford_PhD_Used_Guaranteed_Optimizat.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Universal Key - How Convex Optimization Powers a $200 Million AI Jump from Chip Design to Biotech and Global Policy</strong>
+			<span style="opacity: 0.8;">(11:21)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-04" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/The_Universal_Key__How_Convex_Optimization_Powers_a_$200_Millio.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Sector-Agnostic AI Master - From Samsung Chips and Amazon Billions to Biotech and Global Policy Via Convex Optimization</strong>
+			<span style="opacity: 0.8;">(12:10)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-05" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/The_Sector-Agnostic_AI_Master__From_Samsung_Chips_and_Amazon_Bi.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The AI Polymath - How Convex Optimization Connects Samsung Chips, Amazon's $200 Million Revenue, and the Future of Global Biotech Policy</strong>
+			<span style="opacity: 0.8;">(15:57)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-06" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/The_AI_Polymath__How_Convex_Optimization_Connects_Samsung_Chips.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Bio
 
