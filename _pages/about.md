@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Thu Oct 30 06:55:43 PDT 2025
+last_modified_at: Fri Oct 31 01:13:10 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -381,12 +381,47 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 - [中 이어 美 까지&hellip; 4차혁명 핵심인력 빼가기 '초비상'](https://n.news.naver.com/mnews/article/021/0002337315?sid=101)
 	&ndash; 문화일보
 	@ 19-Dec-2017
+
+> 19일 관련 산업계에 따르면 지난 7월 삼성전자 소프트웨어 연구·개발(R&D)센터에서 딥러닝 등 AI 개발을 맡았던 [Y](/) 박사가 아마존으로 이직했다.
+> &hellip;
+> [Y](/) 박사는 아마존에서 컨벡스 최적화와 딥러닝 연구팀을 이끌고 있다.
+>
+> 그는 지난 2004년부터 올 6월 말까지 삼성전자 메모리반도체 마케팅 분석 등을 맡아왔다.
+> 미국 유학 당시 세계적인 석학 [스티븐 보이드](https://web.stanford.edu/~boyd/)에게 딥러닝을 배운 AI 전문가다.
+
 - [대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌유출 우려"](https://n.news.naver.com/mnews/article/001/0009760685?sid=001)
 	&ndash; 연합뉴스
 	@ 19-Dec-2017
+
+> [삼성전자 R&D센터 수석연구원](/) 아마존行…배터리 업계도 '비상'
+>
+> (서울=연합뉴스) 이승관 김동현 기자 = 국내 주요 대기업의 전문 기술인력들이 최근 미국과 중국 기업으로 잇따라 이직하면서 이른바 ['브레인 드레인(brain drain·두뇌유출)'](https://en.wikipedia.org/wiki/Human_capital_flight)에 대한 우려가 나오고 있다.
+>
+> 19일 업계에 따르면 삼성전자 소프트웨어 R&D(연구개발) 센터에서 근무하던 [윤尹모 수석연구원(부장급)](/)이 지난 6월말 사표를 낸 뒤 7월말 세계 최대의 온라인 쇼핑업체인 아마존으로 직장을 옮겼다.
+>
+> 서울대 전자공학과를 졸업한 뒤 스탠포드대 전자공학과에서 유학한 [윤尹 씨](/)는 삼성전자 디자인기술팀,
+> 메모리 마케팅팀 등에서 근무했으며, 아마존에서는 시니어 소프트웨어 개발 연구원 자리를 맡았다.
+>
+> 인공지능(AI) 분야 전문가로 알려진 그는 현재 아마존에서 [컨벡스 최적화](https://web.stanford.edu/~boyd) 및 딥러닝 부문을 담당하는 것으로 알려졌다.
+
 - [대기업 기술 인력, 美·中으로 잇따라 이직&hellip;"두뇌 유출 우려"](https://news.sbs.co.kr/news/endPage.do?news_id=N1004537091&plink=ORI&cooper=DAUM)
 	&ndash; SBS News
 	@ 19-Dec-2017
+
+> 국내 주요 대기업의 전문 기술인력들이 최근 미국과 중국 기업으로 잇따라 이직하면서 이른바 ['브레인 드레인(brain drain·두뇌유출)'](https://en.wikipedia.org/wiki/Human_capital_flight)에 대한 우려가 나오고 있습니다.
+>
+> 업계에 따르면 삼성전자 소프트웨어 R&D(연구개발) 센터에서 근무하던 [윤尹 모 수석연구원(부장급)](/)이 지난 6월말 사표를 낸 뒤 7월말 세계 최대의 온라인 쇼핑업체인 아마존으로 직장을 옮겼습니다.
+>
+> 서울대 전자공학과를 졸업한 뒤 스탠퍼드대 전자공학과에서 유학한 [윤尹 씨](/)는 삼성전자 디자인기술팀, 메모리 마케팅팀 등에서 근무했으며, 아마존에서는 시니어 소프트웨어 개발 연구원 자리를 맡았습니다.
+>
+> 인공지능(AI) 분야 전문가로 알려진 그는 현재 아마존에서 [컨벡스 최적화](https://web.stanford.edu/~boyd) 및 딥러닝 부문을 담당하는 것으로 알려졌습니다.
+
 - [(전국매일신문) '두뇌유출' 애국심만으로 붙잡기 어렵다 @ 20-Dec-2017](https://www.jeonmae.co.kr/news/articleView.html?idxno=197867)
 	&ndash; 전국매일신문
 	@ 20-Dec-2017
+
+> 국내 주요 대기업의 전문 기술인력들이 최근 미국과 중국 기업으로 잇따라 이직하면서 이른바 '[브레인 드레인(brain drain·두뇌유출)](https://en.wikipedia.org/wiki/Human_capital_flight)'에 대한 우려가 나오고 있다.
+>
+> 업계에 따르면 삼성전자 소프트웨어 R&D(연구개발) 센터에서 근무하던 [윤尹모 수석연구원(부장급)](/)이 지난 6월말 사표를 낸 뒤 7월말 세계 최대의 온라인 쇼핑업체인 아마존으로 직장을 옮겼다.
+>
+> 서울대 전자공학과를 졸업한 뒤 스탠퍼드대 전자공학과에서 유학한 [윤尹씨](/)는 삼성전자 디자인기술팀, 메모리 마케팅팀 등에서 근무했으며, 아마존에서는 시니어 소프트웨어 개발 연구원 자리를 맡았다. 인공지능(AI) 분야 전문가로 알려진 그는 현재 아마존에서 [컨벡스 최적화](https://web.stanford.edu/~boyd) 및 딥러닝 부문을 담당하는 것으로 알려졌다.
