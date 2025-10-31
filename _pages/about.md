@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Oct 31 02:43:14 PDT 2025
+last_modified_at: Fri Oct 31 03:14:08 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -342,7 +342,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 ## Co-Founder &amp; CTO &amp; Global R&amp;D Head @ Gauss Labs
 
 - [윤성희 자문교수, SK의 AI 승부수 "가우스랩스" R&D 최고책임자로](https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do)
-	&ndash; 대구경북과학기술대학교
+	&ndash; 대구경북과학기술대학교 (DGIST)
 	@ 23-Sep-2020 KST
 
 <div class="img-container">
