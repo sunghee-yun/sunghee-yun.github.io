@@ -1,6 +1,69 @@
 [
 	{
 		"category": ["sunghee"],
+		"url": "https://n.news.naver.com/mnews/article/001/0009760685?sid=001",
+		"title": "대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”",
+		"press": "연합뉴스",
+		"date": "19-Dec-2017"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://n.news.naver.com/mnews/article/021/0002337315?sid=101",
+		"title": "中 이어 美 까지… 4차혁명 핵심인력 빼가기 ‘초비상’",
+		"date": "19-Dec-2017",
+		"press": "문화일보"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://www.fetv.co.kr/news/article.html?no=64174",
+		"title": "AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 ‘정조준’",
+		"date": "22-Sep-2020",
+		"press": "Financial Economic TV"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs",
+		"title": "“반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다” - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다",
+		"date": "29-Jun-2021",
+		"press": "SK hynix Newsroom"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html",
+		"title": "최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범",
+		"date": "22-Sep-2020",
+		"press": "Chosun Biz"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do",
+		"title": "윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로",
+		"date": "23-Sep-2020",
+		"press": "대구경북과학기술대학교 (DGIST)"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/",
+		"title": "(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing",
+		"date": "27-Oct-2024",
+		"press": "서울대학교 데이터사이언스 대학원"
+	},
+	{
+		"category": ["sunghee"],
+		"url": "https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/",
+		"title": "Holistic Landscape of Biotechnology + AI",
+		"date": "08-Oct-2025",
+		"press": "Riverside the Ground Up Podcast"
+	},
+	{
+		"category": ["biotech"],
+		"url": "https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/",
+		"title": "Holistic Landscape of Biotechnology + AI",
+		"date": "08-Oct-2025",
+		"press": "Riverside the Ground Up Podcast"
+	},
+	{
+		"category": ["sunghee"],
 		"url": "https://www.asiae.co.kr/article/2025103008554006190",
 		"title": "에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다",
 		"date": "30-Oct-2025",

@@ -117,9 +117,49 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 20-Oct-2025 KST
 </li>
 <li>
+	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
+	- Riverside the Ground Up Podcast
+	@ 08-Oct-2025
+</li>
+<li>
 	<a href="https://blog.naver.com/bookcation/223851899591">🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법</a>
 	- 영재학교 이야기
 	@ 01-May-2025 KST
+</li>
+<li>
+	<a href="https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/">(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing</a>
+	- 서울대학교 데이터사이언스 대학원
+	@ 27-Oct-2024
+</li>
+<li>
+	<a href="https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs">“반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다” - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다</a>
+	- SK hynix Newsroom
+	@ 29-Jun-2021
+</li>
+<li>
+	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
+	- 대구경북과학기술대학교 (DGIST)
+	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.fetv.co.kr/news/article.html?no=64174">AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 ‘정조준’</a>
+	- Financial Economic TV
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html">최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범</a>
+	- Chosun Biz
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://n.news.naver.com/mnews/article/001/0009760685?sid=001">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”</a>
+	- 연합뉴스
+	@ 19-Dec-2017
+</li>
+<li>
+	<a href="https://n.news.naver.com/mnews/article/021/0002337315?sid=101">中 이어 美 까지… 4차혁명 핵심인력 빼가기 ‘초비상’</a>
+	- 문화일보
+	@ 19-Dec-2017
 </li>
 </ul>
 
@@ -130,6 +170,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
+</li>
+<li>
+	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
+	- Riverside the Ground Up Podcast
+	@ 08-Oct-2025
 </li>
 <li>
 	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
@@ -1269,6 +1314,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 14-Oct-2025
 </li>
 <li>
+	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
+	- Riverside the Ground Up Podcast
+	@ 08-Oct-2025
+</li>
+<li>
+	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
+	- Riverside the Ground Up Podcast
+	@ 08-Oct-2025
+</li>
+<li>
 	<a href="https://blog.naver.com/bookcation/223851899591">🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법</a>
 	- 영재학교 이야기
 	@ 01-May-2025 KST
@@ -1406,6 +1461,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus" id="nvidia-xai-supercomputer">NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI - NVIDIA Spectrum-X Makes Colossal NVIDIA Hopper 100,000-GPU System Possible</a>
 	- NVIDIA Newsroom
 	@ 28-Oct-2024
+</li>
+<li>
+	<a href="https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/">(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing</a>
+	- 서울대학교 데이터사이언스 대학원
+	@ 27-Oct-2024
 </li>
 <li>
 	<a href="https://medium.com/illumination/twelve-smart-steps-to-become-a-millionaire-in-the-next-few-years-e8009d882bab">Twelve Smart Steps to Become a Millionaire in the Next Few Years</a>
@@ -2135,9 +2195,39 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
+	<a href="https://news.skhynix.co.kr/post/first-ai-specialized-company-gauss-labs">“반도체와 함께 Industrial AI 분야 Top Tier가 되겠습니다” - SK그룹의 첫 AI 전문 기업 ‘가우스랩스’를 가다</a>
+	- SK hynix Newsroom
+	@ 29-Jun-2021
+</li>
+<li>
+	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
+	- 대구경북과학기술대학교 (DGIST)
+	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.fetv.co.kr/news/article.html?no=64174">AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 ‘정조준’</a>
+	- Financial Economic TV
+	@ 22-Sep-2020
+</li>
+<li>
+	<a href="https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html">최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범</a>
+	- Chosun Biz
+	@ 22-Sep-2020
+</li>
+<li>
 	<a href="https://www.statnews.com/2018/05/24/theranos-elizabeth-holmes-hype-believability/">Why was Theranos so believable? Medicine needs to look in the mirror</a>
 	- STAT News
 	@ 24-May-2018
+</li>
+<li>
+	<a href="https://n.news.naver.com/mnews/article/001/0009760685?sid=001">대기업 기술 인력, 美·中으로 잇따라 이직…“두뇌유출 우려”</a>
+	- 연합뉴스
+	@ 19-Dec-2017
+</li>
+<li>
+	<a href="https://n.news.naver.com/mnews/article/021/0002337315?sid=101">中 이어 美 까지… 4차혁명 핵심인력 빼가기 ‘초비상’</a>
+	- 문화일보
+	@ 19-Dec-2017
 </li>
 <li>
 	<a href="https://aeon.co/essays/beyond-humans-what-other-kinds-of-minds-might-be-out-there">Conscious exotica</a>
