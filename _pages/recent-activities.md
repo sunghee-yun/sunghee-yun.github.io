@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Fri Oct 31 15:57:06 PDT 2025
+last_modified_at: Sat Nov  1 11:43:36 PDT 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -172,8 +172,12 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 - [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
 	recorded @ 08-Oct-2025 PDT
 
-<div class="img-container">
+<!--div class="img-container">
 <img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
+</div-->
+
+<div style="width: 98%; margin: 0 auto;">
+{% include video id="i-A5LS-Wb4Q" provider="youtube" %}
 </div>
 
 - [어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라](https://n.news.naver.com/article/008/0005264969?type=journalists){:target="_blank"}
