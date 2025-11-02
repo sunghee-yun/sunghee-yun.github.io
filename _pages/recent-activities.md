@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sun Nov  2 08:48:07 PST 2025
+last_modified_at: Sun Nov  2 15:42:45 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -203,6 +203,9 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 &nbsp;
 </div>
 
+- [(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/){:target="_blank"}
+	&ndash; 서울대학교 데이터사이언스 대학원
+	@ 27-Oct-2023 KST
 - [윤성희 자문교수, SK의 AI 승부수 "가우스랩스" R&D 최고책임자로](https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do)
 	&ndash; 대구경북과학기술대학교
 	@ 23-Sep-2020 KST
