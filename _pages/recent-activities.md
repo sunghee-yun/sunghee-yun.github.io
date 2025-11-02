@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sat Nov  1 11:43:36 PDT 2025
+last_modified_at: Sun Nov  2 08:48:07 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -164,6 +164,10 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
 	&ndash; 아시아경제
 	@ 30-Oct-2025 KST
+
+<div class="img-container">
+<img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
+</div>
 
 > 현재 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해 초기 단계에서 충분히 검증하지 못하기 때문이다. 에루디오바이오의 bioTCAD는 동적 힘 분광법으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써 새로운 저비용치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMICs)가 혜택을 받을 수 있다.
 >
