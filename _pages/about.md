@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Fri Oct 31 03:45:05 PDT 2025
+last_modified_at: Sun Nov  2 08:33:07 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -301,6 +301,10 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 	&ndash; 아시아경제
 	@ 30-Oct-2025 KST
 
+<div class="img-container">
+<img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
+</div>
+
 > 현재 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해 초기 단계에서 충분히 검증하지 못하기 때문이다. 에루디오바이오의 bioTCAD는 동적 힘 분광법으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써 새로운 저비용치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMICs)가 혜택을 받을 수 있다.
 >
 > 한편 에루디오바이오는 지난 7월 한국 법인 에루디오바이오코리아를 설립해 서울대학교 분당병원과 암 바이오마커 검출 제품 공동 개발을 추진하고 있다. 한국인 특화 암 진단 솔루션 개발을 목표로 기관생명윤리위원회(IRB) 승인 절차가 진행 중이며, 연내 승인 완료를 목표로 하고 있다. 이 기술은 기존 다중화 진단의 핵심 한계인 교차반응성과 위양성 문제를 해결해 암 조기 진단의 정확도를 크게 높일 수 있을 것으로 기대된다. 내년 상반기 첫 임상 데이터를 확보하고, 2027년 상반기 식품의약품안전처에 의료기기 허가를 신청할 예정이다.
@@ -308,8 +312,12 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 - [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
 	recorded @ 08-Oct-2025 PDT
 
-<div class="img-container">
+<!--div class="img-container">
 <img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
+</div-->
+
+<div style="width: 98%; margin: 0 auto;">
+{% include video id="i-A5LS-Wb4Q" provider="youtube" %}
 </div>
 
 - [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
