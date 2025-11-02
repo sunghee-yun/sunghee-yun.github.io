@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Wed Oct 29 22:15:54 PDT 2025
+last_modified_at: Sun Nov  2 09:00:03 PST 2025
 ---
 
 <!--
@@ -305,10 +305,10 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 		@ [Bio-Convergence Center](https://naver.me/502Udaod)
 		- 21-Nov-2025 ~ 22-Nov-2025 &ndash; [flight schedule](/resource/trips/2025-11-16 - Seoul/Screenshot 2025-10-29 at 9.40.17 PM.png)
 		- flight
-			&ndash; OZ8931
+			&ndash; OZ 8931
 			&ndash; from GMP @ 10:55am to CJU @ 12:10pm on 21-Nov-2025 KST
 		- return flight
-			&ndash; OZ8956
+			&ndash; OZ 8956
 			&ndash; from CJU @ 3:05pm to GMP @ 4:20pm on 22-Nov-2025 KST
 		- stay @ [Shinshin Hotel Jeju Airport](https://naver.me/xrSQddYN) ([booking confirmation](/resource/trips/2025-11-16 - Seoul/Shinshin Hotel Booking.pdf))
 - biz trip to Seoul &ndash; 3 nights
@@ -1299,7 +1299,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 1
 		-
-		OZ0211
+		OZ 0211
 		-
 		from SFO @ 03-Jun-2022 PDT
 		to ICN @ 04-Jun-2022 KST
@@ -1307,7 +1307,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 2
 		-
-		OZ0212
+		OZ 0212
 		-
 		from ICN @ 26-Jun-2022 KST
 		to SFO
@@ -2365,7 +2365,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 1
 		-
-		OZ0747
+		OZ 0747
 		-
 		from ICN 04-Apr-2008 KST
 		to HKT
@@ -2373,7 +2373,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 2
 		-
-		OZ0748
+		OZ 0748
 		-
 		from HKT
 		to ICN 08-Apr-2008 KST
@@ -2654,7 +2654,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 1
 		-
-		OZ0213
+		OZ 0213
 		-
 		from SFO @ 20-Dec-2002 PDT
 		to ICN @ 21-Dec-2002 KST
@@ -2662,7 +2662,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 2
 		-
-		OZ0214
+		OZ 0214
 		-
 		from ICN @ 26-Dec-2002 KST
 		to SFO @ 26-Dec-2002 PDT
@@ -2745,7 +2745,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 1
 		-
-		OZ0213
+		OZ 0213
 		-
 		from SFO @ 08-Jun-2001 PDT
 		to ICN @ 09-Jun-2001 KST
@@ -2753,7 +2753,7 @@ last_modified_at: Wed Oct 29 22:15:54 PDT 2025
 	<li>
 		flight 2
 		-
-		OZ0214
+		OZ 0214
 		-
 		from ICN @ 21-Jun-2001 KST
 		to SFO @ 21-Jun-2001 PDT
