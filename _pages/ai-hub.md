@@ -151,6 +151,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 27-Oct-2024
 </li>
 <li>
+	<a href="https://www.aifnlife.co.kr/news/articleView.html?idxno=8993">가우스랩스 출범 10개월…‘올해 말까지 현재 2배 규모 AI 인재 채용’</a>
+	- AI라이프경제
+	@ 30-Jun-2021 KST
+</li>
+<li>
 	<a href="https://www.smedaily.co.kr/news/articleView.html?idxno=207272">SK그룹의 AI 싱크탱크 ‘가우스랩스’</a>
 	- 중소기업신문
 	@ 29-Jun-2021
@@ -169,6 +174,21 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
 	- 대구경북과학기술대학교 (DGIST)
 	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.mk.co.kr/news/business/9533361">SK, 美에 AI 전문사 ‘가우스랩스’ 설립</a>
+	- 매일경제
+	@ 22-Sep-2020 KST
+</li>
+<li>
+	<a href="https://www.kbiznews.co.kr/news/articleView.html?idxno=72876">SK그룹의 첫 AI 별도 법인… ‘가우스랩스’ 출범</a>
+	- 중소기업뉴스
+	@ 22-Sep-2020 KST
+</li>
+<li>
+	<a href="https://www.hankyung.com/article/2020092263455">최태원의 AI 승부수…美 실리콘밸리에 AI 전문회사 세워</a>
+	- 한경
+	@ 22-Sep-2020 KST
 </li>
 <li>
 	<a href="https://www.opinionnews.co.kr/news/articleView.html?idxno=40391">SK, ‘산업 AI 솔루션’ 사업 진출…AI 전문기업 ‘가우스랩스’ 설립</a>
@@ -2249,6 +2269,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	</div>
 </li>
 <li>
+	<a href="https://www.aifnlife.co.kr/news/articleView.html?idxno=8993">가우스랩스 출범 10개월…‘올해 말까지 현재 2배 규모 AI 인재 채용’</a>
+	- AI라이프경제
+	@ 30-Jun-2021 KST
+</li>
+<li>
 	<a href="https://www.smedaily.co.kr/news/articleView.html?idxno=207272">SK그룹의 AI 싱크탱크 ‘가우스랩스’</a>
 	- 중소기업신문
 	@ 29-Jun-2021
@@ -2267,6 +2292,21 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.dgist.ac.kr/bbs/BBSMSTR_000000000124/view.do">윤성희 자문교수, SK의 AI 승부수 “가우스랩스” R&D 최고책임자로</a>
 	- 대구경북과학기술대학교 (DGIST)
 	@ 23-Sep-2020
+</li>
+<li>
+	<a href="https://www.mk.co.kr/news/business/9533361">SK, 美에 AI 전문사 ‘가우스랩스’ 설립</a>
+	- 매일경제
+	@ 22-Sep-2020 KST
+</li>
+<li>
+	<a href="https://www.kbiznews.co.kr/news/articleView.html?idxno=72876">SK그룹의 첫 AI 별도 법인… ‘가우스랩스’ 출범</a>
+	- 중소기업뉴스
+	@ 22-Sep-2020 KST
+</li>
+<li>
+	<a href="https://www.hankyung.com/article/2020092263455">최태원의 AI 승부수…美 실리콘밸리에 AI 전문회사 세워</a>
+	- 한경
+	@ 22-Sep-2020 KST
 </li>
 <li>
 	<a href="https://www.opinionnews.co.kr/news/articleView.html?idxno=40391">SK, ‘산업 AI 솔루션’ 사업 진출…AI 전문기업 ‘가우스랩스’ 설립</a>
