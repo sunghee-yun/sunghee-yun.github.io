@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Nov  2 09:00:03 PST 2025
+last_modified_at: Mon Nov  3 07:25:15 PST 2025
 ---
 
 <!--
@@ -257,6 +257,26 @@ last_modified_at: Sun Nov  2 09:00:03 PST 2025
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHQ3aTIyazIzcjdyOXRuczU3cTBmMmRjb3EgY2l1NXY0NDlwdWlxZjdtZDRoc2hrbjlncnNAZw&amp;tmsrc=ciu5v449puiqf7md4hshkn9grs%40group.calendar.google.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 
 # Trips
+
+## 2026 &#126; 2030 {#trips-2021-2030}
+
+<h3>2026</h3>
+
+<h4>Feb</h4>
+
+- biz trip to Austin, Texas for [Texas A&amp;M &amp; KSEA Austin Chapter Special AI Lectures](/#ksea-austin-ai-talk-feb-2026)
+	&ndash;
+	3 nights
+	- 11-Feb-2026 PST ~ 14-Feb-2025 PST &ndash; [flight invoice](/resource/trips/2026-02 - Austin, Texas/www.expedia.com-egti-2JI-17D-4PL9.pdf){:target="_blank"}
+	- flight
+		&ndash; United 717
+		&ndash; from SFO @ 11:20am 11-Feb-2026 PST to AUS-Austin-Bergstrom Intl. @ 4:53pm on 11-Feb-2026 CST
+		(3h 33m)
+	- return flight
+		&ndash; United 292
+		&ndash; from AUS-Austin-Bergstrom Intl. @ 5:58pm 14-Feb-2026 SFO to SJC @ 8:08pm on 14-Feb-2026 PST
+		(4h 10m)
+	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}!
 
 ## 2021 &#126; 2025 {#trips-2021-2025}
 
