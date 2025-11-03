@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sun Nov  2 15:42:45 PST 2025
+last_modified_at: Sun Nov  2 16:00:12 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -234,7 +234,7 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 <img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg">
 </div>
 
-(For more of my press exposures, please refer to [Press Exposures](/about/#press-exposure) section.)
+(For more of my press exposures, please refer to [Press Exposures](/about/#press-exposures) section.)
 
 # Leadership Roles
 
