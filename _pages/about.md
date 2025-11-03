@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sun Nov  2 08:33:07 PST 2025
+last_modified_at: Sun Nov  2 19:37:02 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -22,7 +22,7 @@ Task Force Member of AI-Korean Medicine Integration Initiative Task Force (1st T
 @ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
 <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
 @ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">a Visiting Professor</a>
 of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
 @ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
 <a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
@@ -94,7 +94,7 @@ while considering the geopolitical dynamics of key players like the US, China, J
 
 I also dedicate to fostering knowledge, insight, and experience transfer and innovation
 by serving as
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a>
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">a Visiting Professor</a>
 of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
 @ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
 <a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
@@ -262,7 +262,7 @@ and
 KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
 He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
-[Sunghee](/)'s expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as an Adjunct Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
+[Sunghee](/)'s expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as a Visiting Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 
 ## long
 
@@ -288,7 +288,7 @@ from semiconductor design &amp; manufacturing and e-Commerce to industrial AI an
 His expertise spans the development of agentic AIs leveraging large language models (LLMs),
 multimodal generative AI (genAI), and AI Agents.
 He currently serves in several active roles,
-including as an Adjunct Professor at Sogang University, Advisory Professor at DGIST,
+including as a Visiting Professor at Sogang University, Advisory Professor at DGIST,
 and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 He is also a KFAS-Salzburg Global Leadership Initiative Fellow,
 where he focuses on addressing the challenges and opportunities presented by AI technology in shaping our future.

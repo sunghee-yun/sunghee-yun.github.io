@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sun Nov  2 16:00:12 PST 2025
+last_modified_at: Sun Nov  2 19:37:02 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -129,7 +129,7 @@ serve as a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzb
 and
 a Member of AI-Korean Medicine Integration Initiative Task Force for the [Association of Korean Medicine](https://www.akom.org){:target="_blank"},
 and
-hold positions as Adjunct Professor at Sogang University and Advisory Professor at DGIST.
+hold positions a Visiting Professor at Sogang University and Advisory Professor at DGIST.
 
 I'm also Leader of the [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/){:target="_blank"}—a role that has unexpectedly become one of the defining aspects of my career.
 Through K-PAI, I've become widely recognized throughout Silicon Valley's Korean community

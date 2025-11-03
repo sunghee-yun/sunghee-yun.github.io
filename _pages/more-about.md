@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Sun Oct  5 17:08:40 PDT 2025
+last_modified_at: Sun Nov  2 19:37:02 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -40,7 +40,7 @@ Task Force Member of AI-Korean Medicine Integration Initiative Task Force (1st T
 @ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
 <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
 @ <a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Adjunct Professor</a> of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
+<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">a Visiting Professor</a> of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
 @ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
 <a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a> of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
 @ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,

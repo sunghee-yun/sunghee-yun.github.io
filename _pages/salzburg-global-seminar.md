@@ -7,7 +7,7 @@ toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
 date: Tue Oct 29 08:00:30 PDT 2024
-last_modified_at: Tue Oct 29 08:00:30 PDT 2024
+last_modified_at: Sun Nov  2 19:37:02 PST 2025
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -69,7 +69,7 @@ Co-Chair:
 	Policy Officer, Delegation of the European Union to India, India
 - [Sunghee Yun]({{ site.url }}/) <a href="https://www.linkedin.com/in/sungheeyun/"><img width=20 height=20 src="/resource/favicons/icons8-linkedin-480.svg"></a>
 	-
-	Co-founder and CTO - AI Technology & Product Strategy, Erudio Bio, Inc., Adjunct Professor, Sogang University, Advisory Professor, DGIST, United States of America
+	Co-founder and CTO - AI Technology &amp; Product Strategy, Erudio Bio, Inc., Visiting Professor, Sogang University, Advisory Professor, DGIST, United States of America
 
 
 <h1 id="sub-theme-2">

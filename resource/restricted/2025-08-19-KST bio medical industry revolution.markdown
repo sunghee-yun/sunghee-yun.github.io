@@ -2,7 +2,7 @@
 layout: single
 title: The Bio &amp; Medical Industry Revolution - Durable Truths, AI Breakthroughs, and Life-Long Health Asset Management
 date: Mon Aug 18 01:27:25 KST 2025
-last_modified_at: Fri Oct 31 16:28:04 PDT 2025
+last_modified_at: Sun Nov  2 19:37:02 PST 2025
 permalink: /bio-medical/revolution
 categories:
  - blog
@@ -551,7 +551,7 @@ The key is matching your specific solution to the ecosystem that best supports i
 My decision to co-found [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/) represents the culmination of insights gained
 across multiple roles in multiple technology sectors
 ([Co-Founder &amp; CTO at Gauss Labs, Inc., Senior Applied Scientist at Amazon.com, Inc., Principal Engineer at Samsung Electronics,
-Advisor at CryptoLab, Inc., and Adjunct and Advisory Professors @ Sogang University and DGIST](/about))
+Advisor at CryptoLab, Inc., and Visiting and Advisory Professors @ Sogang University and DGIST](/about))
 and my growing understanding of technology's role in human flourishing. Having seen how optimization algorithms transformed semiconductor design, how AI revolutionized e-commerce, and how industrial AI changed manufacturing, I recognized that bio &amp; medical applications represent the natural evolution of these technologies toward their highest purpose
 &ndash;
 improving human health and longevity.
