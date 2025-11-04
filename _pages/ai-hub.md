@@ -126,6 +126,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 30-Oct-2025
 </li>
 <li>
+	<a href="https://news.nate.com/view/20251030n06544">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- nate 뉴스
+	@ 30-Oct-2025 KST
+</li>
+<li>
 	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
 	- 고려대학교 경영대학원 CDTB
 	@ 27-Oct-2025 KST
@@ -1366,6 +1371,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
+</li>
+<li>
+	<a href="https://news.nate.com/view/20251030n06544">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
+	- nate 뉴스
+	@ 30-Oct-2025 KST
 </li>
 <li>
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
