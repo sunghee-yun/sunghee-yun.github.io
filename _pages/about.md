@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Mon Nov  3 18:44:55 PST 2025
+last_modified_at: Tue Nov  4 17:16:27 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -300,10 +300,12 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
 	&ndash; 아시아경제
 	@ 30-Oct-2025 KST
-
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://news.nate.com/view/20251030n06544){:target="_blank"}
 	&ndash; nate 뉴스
 	@ 30-Oct-2025 KST
+- [Erudio Bio, Inc. in Gates Foundation](https://www.gatesfoundation.org/about/committed-grants/2025/08/inv-094094){:target="_blank"}
+	&ndash; [Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"}
+	@ Aug-2025 PDT
 
 <div class="img-container">
 <img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
