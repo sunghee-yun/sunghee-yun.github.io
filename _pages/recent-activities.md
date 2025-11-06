@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Mon Nov  3 18:45:47 PST 2025
+last_modified_at: Wed Nov  5 18:25:58 PST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -13,18 +13,6 @@ toc_sticky: true
 # AI creates Podcasts!
 
 <div class="img-container-justified">
-	<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Polymath Innovator!</strong>
-			<span style="opacity: 0.8;">(05:39)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Polymath_Innovator.mp4">
-				Your browser does not support this video element.
-			</video>
-		</div>
-	</div>
 	<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Sunghee Yun Connects Worlds!</strong>
@@ -33,6 +21,18 @@ toc_sticky: true
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
 				<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/Sunghee_Yun__Connects_Worlds.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
+	</div>
+	<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Polymath Innovator!</strong>
+			<span style="opacity: 0.8;">(05:39)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/recent-activities/NotebookLM/The_Polymath_Innovator.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
