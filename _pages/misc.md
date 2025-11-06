@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Nov  3 18:49:59 PST 2025
+last_modified_at: Thu Nov  6 01:28:33 PST 2025
 ---
 
 <!--
@@ -337,7 +337,9 @@ last_modified_at: Mon Nov  3 18:49:59 PST 2025
 			&ndash; OZ 8956
 			&ndash; from CJU @ 3:05pm to GMP @ 4:20pm on 22-Nov-2025 KST
 		- stay @ [Shinshin Hotel Jeju Airport](https://naver.me/xrSQddYN){:target="_blank"} ([booking confirmation](/resource/trips/2025-11-16 - Seoul/Shinshin Hotel Booking.pdf){:target="_blank"})
-- biz trip to Seoul &ndash; 3 nights
+- biz trip to Seoul for IFEZ X K-BioX ABDD Summit in Song-do
+	&ndash;
+	3 nights
 	- 05-Nov-2025 PST ~ 08-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-05 - Seoul/www.expedia.com-egti-E1J-VA1-W62P.pdf)
 	- flight
 		&ndash; United 805
