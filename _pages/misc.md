@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Thu Nov  6 01:28:33 PST 2025
+last_modified_at: Tue Nov 11 07:13:53 PST 2025
 ---
 
 <!--
@@ -321,12 +321,6 @@ last_modified_at: Thu Nov  6 01:28:33 PST 2025
 		&ndash; from ICN @ 6:55pm KST to SFO @ 12:30pm PST on 28-Nov-2025
 		(10h 35m)
 	- stay @ [수지](https://naver.me/FbqzqrjR){:target="_blank"}
-	- 1 day trip to Daegu
-		- 18-Nov-2025 KST &ndash; [train ticket receipt](/resource/trips/2025-11-16 - Seoul/1.pdf){:target="_blank"}
-		- SRT 319
-			&ndash; from Dongtan @ 9:23am to Dongdaegu @ 10:56am on 18-Nov-2025 KST
-		- SRT 372
-			&ndash; from Dongdaegu @ 9:37pm to Dongtan @ 11:01pm on 18-Nov-2025 KST
 	- 1 night trip to Jeju for Jeju Food Tech Industry Growth Strategy Seminar
 		@ [Bio-Convergence Center](https://naver.me/502Udaod){:target="_blank"}
 		- 21-Nov-2025 ~ 22-Nov-2025 &ndash; [flight schedule](/resource/trips/2025-11-16 - Seoul/Screenshot 2025-10-29 at 9.40.17 PM.png){:target="_blank"}
@@ -337,6 +331,14 @@ last_modified_at: Thu Nov  6 01:28:33 PST 2025
 			&ndash; OZ 8956
 			&ndash; from CJU @ 3:05pm to GMP @ 4:20pm on 22-Nov-2025 KST
 		- stay @ [Shinshin Hotel Jeju Airport](https://naver.me/xrSQddYN){:target="_blank"} ([booking confirmation](/resource/trips/2025-11-16 - Seoul/Shinshin Hotel Booking.pdf){:target="_blank"})
+	- 1 night trip to Daegu and Daejeon
+		- 24-Nov-2025 KST &ndash; [train ticket receipt](/resource/trips/2025-11-16 - Seoul/2.pdf){:target="_blank"}
+		- SRT 333
+			&ndash; from Dongtan @ 1:08pm to Dongdaegu @ 2:34pm on 24-Nov-2025 KST
+		- SRT 328
+			&ndash; from Dongdaegu @ 11:35am to Daejeon @ 12:17pm on 25-Nov-2025 KST
+		- SRT 366
+			&ndash; from Daejeon @ 9:23pm to Dongtan @ 10:09pm on 25-Nov-2025 KST
 - biz trip to Seoul for IFEZ X K-BioX ABDD Summit in Song-do
 	&ndash;
 	3 nights
