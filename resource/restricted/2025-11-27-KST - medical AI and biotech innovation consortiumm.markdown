@@ -2,7 +2,7 @@
 layout: single
 title: Medical AI &amp; Biotech Innovation Consortium
 date: Wed Nov 26 02:43:49 KST 2025
-last_modified_at: Thu Nov 27 03:28:14 KST 2025
+last_modified_at: Thu Nov 27 07:28:35 KST 2025
 permalink: /bio-medical/consortium
 categories:
  - blog
@@ -66,6 +66,13 @@ For the first time, AI capabilities match biological complexity:
 
 Our team represents a once-in-a-generation convergence of capabilities:
 
+**Chanik Park** — Execution power and customer relationships:
+- CCO at MangoBoost, direct experience commercializing cutting-edge technology
+- Former VP at Samsung Electronics with extensive enterprise sales experience
+- Deep understanding of technology adoption cycles in large organizations
+- Established relationships with potential enterprise customers
+- Proven ability to translate technical capability into business value
+
 **Sunghee Yun** — World-class AI architect with proven track record:
 - PhD from Stanford under Stephen Boyd (Erdős number 3, mathematical genealogy to Gauss)
 - Led industrial AI at Samsung (12 years, tools still used by hundreds of engineers)
@@ -74,13 +81,6 @@ Our team represents a once-in-a-generation convergence of capabilities:
 - Leading K-PAI (Silicon Valley Privacy-Preserving AI Forum) with direct access to cutting-edge AI developments
 - Extensive academic network: delivered 70+ AI seminars at KAIST, SNU, POSTECH, Korea University, etc.
 - Deep theoretical foundation in convex optimization, the mathematical basis of modern AI
-
-**Chanik Park** — Execution power and customer relationships:
-- CCO at MangoBoost, direct experience commercializing cutting-edge technology
-- Former VP at Samsung Electronics with extensive enterprise sales experience
-- Deep understanding of technology adoption cycles in large organizations
-- Established relationships with potential enterprise customers
-- Proven ability to translate technical capability into business value
 
 **Don Kim** — Unmatched US-Korea network bridge:
 - HR Head at SK hynix America, one of the world's largest semiconductor companies
