@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Tue Nov  4 17:16:27 PST 2025
+last_modified_at: Thu Nov 27 11:59:47 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -323,7 +323,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 </div-->
 
 <div style="width: 98%; margin: 0 auto;">
-{% include video id="i-A5LS-Wb4Q" provider="youtube" %}
+{% include video id="850LLqQlltY" provider="youtube" %}
 </div>
 
 - [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
