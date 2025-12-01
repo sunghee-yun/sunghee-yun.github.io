@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 05:22:55 PST 2025
+last_modified_at: Mon Dec  1 05:47:16 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -533,7 +533,8 @@ For convex problems, the KKT conditions are both necessary and sufficient for op
 
 I remember working through a particularly tricky problem set where we had to use the KKT conditions to solve a portfolio optimization problem analytically. The problem involved maximizing expected return while constraining risk and requiring certain positions to be non-negative. After hours of algebra, the KKT conditions revealed something beautiful: at the optimum, assets split into three categories. Some had positive holdings (with zero dual variable—their non-negativity constraint wasn't binding). Some had zero holdings (with positive dual variable—they would enter the portfolio only if their expected return increased). And some had holdings exactly at their constraint boundaries.
 
-The complementary slackness condition encoded this perfectly: for each constraint, either the constraint is satisfied with slack ($f_i(x^\ast) < 0$*) and its dual variable is zero (*$\lambda_i^\ast = 0$), or the constraint is active ($*f_i(x^\ast) = 0$) and its dual variable is positive (*$\lambda_i^\ast > 0$).
+<span id="aa"></span>
+The complementary slackness condition encoded this perfectly: for each constraint, either the constraint is satisfied with slack ($f_i(x^\ast) < 0$) and its dual variable is zero ($\lambda_i^\ast = 0$), or the constraint is active ($f_i(x^\ast) = 0$) and its dual variable is positive ($\lambda_i^\ast > 0$).
 
 This single condition—$\lambda_i^\ast f_i(x^\ast) = 0$—captured the entire economics of constrained resource allocation.
 
@@ -733,7 +734,6 @@ He was right, but wrong, too.
 He was right in that I finally had that understanding in Prof. Boyd's Convex Optimization class.
 He was (kind of) wrong in that that happened in a totally unexpected way.
 
-<span id="aa"></span>
 In Boyd's office, working on convex optimization, I found my place in that lineage stretching back to Gauss
 (who not only called Number Theory as the Queen of Mathematics, but also devised a very practical mathematical method
 called Least-Square Methods, which is literally still being used in every modern mathematical tools including Excel sheets every day today).
