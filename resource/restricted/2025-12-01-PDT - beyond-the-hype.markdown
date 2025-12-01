@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 05:47:16 PST 2025
+last_modified_at: Mon Dec  1 06:11:16 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -533,7 +533,6 @@ For convex problems, the KKT conditions are both necessary and sufficient for op
 
 I remember working through a particularly tricky problem set where we had to use the KKT conditions to solve a portfolio optimization problem analytically. The problem involved maximizing expected return while constraining risk and requiring certain positions to be non-negative. After hours of algebra, the KKT conditions revealed something beautiful: at the optimum, assets split into three categories. Some had positive holdings (with zero dual variable—their non-negativity constraint wasn't binding). Some had zero holdings (with positive dual variable—they would enter the portfolio only if their expected return increased). And some had holdings exactly at their constraint boundaries.
 
-<span id="aa"></span>
 The complementary slackness condition encoded this perfectly: for each constraint, either the constraint is satisfied with slack ($f_i(x^\ast) < 0$) and its dual variable is zero ($\lambda_i^\ast = 0$), or the constraint is active ($f_i(x^\ast) = 0$) and its dual variable is positive ($\lambda_i^\ast > 0$).
 
 This single condition—$\lambda_i^\ast f_i(x^\ast) = 0$—captured the entire economics of constrained resource allocation.
@@ -618,6 +617,8 @@ The objective function—that thing we're trying to minimize or maximize—comes
 
 Convex optimization gives you guaranteed success reaching your objective. But it offers no guidance on whether that objective is worth reaching.
 
+Boyd's words about universal truths and temporary custodians stayed with me. Because my own path to becoming one of those custodians was anything but inevitable.
+
 ### Finding My Place in the Lineage
 
 That genealogy chart Boyd showed me—the line from him to Gauss—it represented more than intellectual history. It represented something I'd been searching for since childhood without knowing quite what I was searching for.
@@ -650,7 +651,7 @@ But there was something else, too—something that would eventually lead me to o
 
 I loved coding.
 
-Not the way most software developers loved it—not (only) for building applications or solving practical problems—but (also) for its structural beauty. The way elegant code revealed mathematical patterns. The way a well-designed algorithm expressed abstract logic in concrete form. The way you could see the architecture of a solution in the organization of the code itself.
+Not the way most software developers loved it—not primarily for building applications or solving practical problems—but for its structural beauty. The way elegant code revealed mathematical patterns. The way a well-designed algorithm expressed abstract logic in concrete form. The way you could see the architecture of a solution in the organization of the code itself.
 
 I loved coding for the same reason I loved mathematics: both revealed beautiful structures hiding beneath surface complexity. A good algorithm was like a good proof—economical, clear, and inevitable.
 
@@ -703,7 +704,8 @@ I didn't wait until morning. I couldn't.
 I did what I had to do.
 I opened my email and wrote to Prof. Boyd right then, at 2 AM:
 
-"Professor Boyd,
+<span id="aa"></span>
+"Dear Prof. Boyd,
 
 I would like to work with you on convex optimization.
 I don't know yet exactly what research problems or topics I want to pursue, but I know this is the field where I belong. Would you consider taking me as your PhD student?"
@@ -725,12 +727,12 @@ He accepted me into his research group. Just like that.
 Two quarters. That's all it took from arriving at Stanford to finding my life's work. Not because I'd planned it strategically, but because I'd finally encountered the thing my obsessive mathematical mind had been searching for all along.
 
 My father and teacher had been right, in the end. Electrical engineering did give me mathematics and practical impact. Just not in digital communication, not in the field I'd expected.
-But in the field I had never imagined would exists somewhere in this world.
+But in a field I had never imagined existed.
 
 I remembered when I told Prof. In-Joong Ha in SNU that I wanted to understand (or rather know) what the positive-definiteness of matrices mean.
 Prof. Ha told me that that's exactly one of many things that you would learn in graduate school.
 I hoped so badly that I would have that understanding once I arrive at Stanford.
-He was right, but wrong, too.
+He was right, but also wrong in an interesting way.
 He was right in that I finally had that understanding in Prof. Boyd's Convex Optimization class.
 He was (kind of) wrong in that that happened in a totally unexpected way.
 
