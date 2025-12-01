@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 06:11:16 PST 2025
+last_modified_at: Mon Dec  1 14:29:57 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -704,7 +704,6 @@ I didn't wait until morning. I couldn't.
 I did what I had to do.
 I opened my email and wrote to Prof. Boyd right then, at 2 AM:
 
-<span id="aa"></span>
 "Dear Prof. Boyd,
 
 I would like to work with you on convex optimization.
@@ -882,6 +881,335 @@ The mathematics is universal. What we do with it is not.
 - Building iOpt: A rebellious ML platform in a Galaxy-dominated workplace
 - Real impact: Tools still used by 200+ engineers daily
 - **[Anthropological lens: Corporate culture, resistance to change, and the rituals of engineering organizations]**
+
+The Samsung Semiconductor fabrication facility in Hwasung occupies more space than I could comprehend on my first day in 2004. Clean rooms the size of football fields. Machines worth hundreds of millions of dollars. Production lines running 24/7, fabricating chips that would power phones, computers, and servers around the world.
+
+I'd come from Stanford, where we proved theorems on whiteboards and ran simulations on workstations. Here, mathematics met physical reality at nanometer scale. Here, optimization theory would either work in the real world—or reveal itself as elegant abstraction with no practical power.
+
+Stanford had prepared me for the mathematics. He hadn't prepared me for corporate politics, skeptical engineers, or the crushing weight of decisions worth billions of dollars.
+
+### From Theory to Silicon
+
+My role at Samsung was officially "Senior Engineer" in the Computer-Aided Engineering (CAE) Team of Memory Business Division
+of Samsung Semiconductor, Inc.
+Practically, it meant: take the convex optimization theory you learned at Stanford and make it work for designing actual semiconductor circuits.
+
+The challenge was both technical and cultural.
+
+Technically: Circuit design for semiconductor memory chips involves thousands of design parameters—transistor widths, lengths, oxide thicknesses, resistances, and capacitances.
+These parameters must satisfy hundreds of constraints (*e.g.*, power consumption limits, speed requirements, reliability specifications, and manufacturing tolerances) while optimizing multiple objectives (*e.g.*, minimize area, maximize speed, reduce power, and improve yield).
+
+This is exactly the kind of problem convex optimization was built for. Except real circuit design had been done by experienced engineers using intuition, rules of thumb, and iterative trial-and-error for decades. They were *good* at it. Really good.
+
+Why would they trust algorithms?
+
+Culturally: Samsung in 2004 was a hierarchical organization where respect flowed from experience and seniority. I was 28 years old with a fresh PhD and zero years of industry experience. The senior engineers I'd be working with had been designing circuits since I was in high school. Some had been at Samsung longer than I'd been alive.
+
+My first meeting with the Memory Design team was polite but skeptical.
+
+"So you're going to use... what? Mathematical optimization to design circuits?"
+
+"Yes. Convex optimization specifically. It can—"
+
+"We've been designing these circuits for fifteen years. We know what works."
+
+"I'm sure you do. But optimization can systematically explore design spaces that would take months manually—"
+
+"Design isn't just mathematics. It's intuition. Experience. Understanding how circuits *actually behave*, not how equations say they should behave."
+
+This was going to be harder than I thought.
+
+### Building Trust, One Problem at a Time
+
+I didn't try to replace the experienced engineers. That would have been foolish and arrogant. Instead, I started small.
+
+"Give me your hardest problem. Something you've been stuck on. Let me try optimization on it."
+
+The team gave me a circuit sizing problem they'd been wrestling with for weeks—balancing speed, power, and area for a critical DRAM sense amplifier. Hundreds of parameters. Conflicting requirements. No obvious solution.
+
+I spent three days formulating it as an optimization problem, checking my constraints against actual circuit behavior, validating my objective function against their design priorities.
+
+It wasn't exactly a convex optimization problem. However, it could come up with a convex optimization problem
+that can approximately solve the original problem.
+
+Then I ran the optimization.
+
+The solution was... surprising. It suggested parameter values that violated several "rules of thumb" the experienced engineers swore by. Transistors that were "too wide" by conventional wisdom. Voltages that seemed counterintuitive.
+
+"This can't be right," one engineer said when I showed the results.
+
+"Let's simulate it," I suggested.
+
+We ran detailed SPICE simulations—the gold standard for circuit verification. The optimized design worked. Not just worked—it was 15% faster, 10% lower power, and 8% smaller area than their best manual design.
+
+Silence in the conference room.
+
+"Run it again," another engineer said. "Use different starting points. See if you get the same answer."
+
+I ran it ten more times with random initializations. Every run converged to the same solution. That's the power of convexity—the global optimum is unique and findable.
+
+That's when skepticism started turning into curiosity.
+
+### The iOpt Platform: Democratizing Optimization
+
+Word spread. Other teams started asking: "Can you optimize our circuit too?"
+
+But I couldn't manually formulate every circuit as an optimization problem. I needed to build infrastructure—tools that other engineers could use without understanding the underlying mathematics.
+
+This became iOpt (Integration Optimization)—a platform that would eventually be used by hundreds of Samsung engineers and remain in use for a decade after I left.
+
+The key insight: engineers shouldn't need to know convex optimization theory. They should be able to:
+1. Specify their circuit topology
+2. Define their constraints in engineering terms
+3. Choose their optimization objectives
+4. Let the platform handle the mathematical formulation and solution
+
+Building iOpt taught me something Boyd never mentioned: **the distance between elegant theory and usable tools is vast.**
+
+Convex optimization theory is beautiful—clean mathematical formulations, provable convergence, guaranteed global optimality. But real circuits don't arrive pre-formulated as convex problems. Real engineers don't speak in terms of Lagrangians and KKT conditions. Real design flows have legacy tools, existing constraints, organizational inertia.
+
+Making optimization *usable* required:
+- Automatic problem formulation (translating engineering specs into mathematical constraints)
+- Robust numerical methods (handling the messy reality of circuit models)
+- Integration with existing tools (SPICE simulators, layout systems, verification flows)
+- Error handling (gracefully dealing with infeasible specifications)
+- Results visualization (showing engineers *why* the solution makes sense)
+
+I spent more time on user interface design and tool integration than on optimization algorithms. The mathematics I'd learned at Stanford was necessary but not sufficient. Making it *useful* required understanding how engineers actually work.
+
+### The DRAM Cell Design Revolution
+
+The project that would define my Samsung career—though I wouldn't realize its full significance until years later—began in 2009.
+
+Samsung was planning the next generation of DRAM architecture. Not an incremental improvement but a fundamental redesign that would determine the company's competitive position for the next decade. The strategic choice of cell scheme would translate into tens of billions of dollars in revenue.
+
+This wasn't just another circuit optimization problem. This was deciding the *architecture*—the fundamental structure that would constrain every design decision for years to come.
+
+The challenge: evaluate dozens of potential cell architectures, each with hundreds of design parameters, under multiple process technology scenarios, optimizing for area, speed, power, and manufacturability simultaneously.
+
+Doing this manually—with experienced engineers evaluating each architecture through simulation and intuition—would take years. And even then, you couldn't be sure you'd found the optimal architecture. Maybe some other configuration would have been better?
+
+Convex optimization offered something unprecedented: *mathematical proof* of optimality. Not "this seems good based on the cases we tried" but "this is provably the best possible solution given these constraints."
+
+The Next-Generation DRAM Cell Scheme Design Team asked if I could apply optimization to this problem.
+
+My answer: "Yes. But this is going to require significant computational resources and tight collaboration between teams."
+
+What I didn't mention: someone in my reporting chain had different ideas.
+
+### Doing the Right Thing (Even When It Costs You)
+
+A senior colleague pulled me aside early in the project.
+
+"Sunghee, I need to talk to you about this DRAM cell architecture project."
+
+"Sure, what about it?"
+
+"You should pull back from it. Focus on projects that will benefit our team more directly. This collaboration... it won't help our group's performance metrics. Won't help our bonuses. Won't help our visibility with management."
+
+I was confused. "But this is critical for Samsung overall. The whole strategic direction of DRAM for the next ten years—"
+
+"Right. But it's not *our* project. Let the Next-Generation DRAM Cell Scheme Design Team handle it. We should focus on work that shows *our* team's value."
+
+I understood the logic. In large organizations, teams compete for resources and recognition. Working on another team's strategic project might benefit Samsung but wouldn't necessarily benefit *our* team's metrics.
+
+But the logic made no sense to me. I was employed by Samsung. Samsung was paying my salary to use my skills and expertise for Samsung's benefit. And clearly, Samsung's most critical need was solving this DRAM architecture optimization problem. Plus, it was really fun project!
+
+The choice seemed obvious: I should work on the problem that mattered most for the company, regardless of internal politics.
+
+"I appreciate your perspective," I told my colleague diplomatically. "But I think I should contribute where I can have the most impact."
+
+His expression made clear this wasn't the answer they wanted.
+
+So I worked on the project anyway. Quietly. Collaborating closely with the partner team, spending evenings and weekends formulating the optimization problems, running massive computational experiments, validating results against simulations.
+
+Officially, it wasn't my team's priority. Unofficially, I was fully committed.
+
+The work was exhilarating. This was optimization at the scale and stakes I'd never experienced—not academic problems with right answers in the back of the book, but real strategic decisions with billions of dollars and Samsung's competitive future hanging in the balance.
+
+I formulated the architecture evaluation as a massive optimization problem—thousands of variables, complex constraints encoding manufacturing realities, objective functions balancing competing priorities. Then I systematically evaluated every candidate architecture, computing the *optimal* design for each under multiple scenarios.
+
+The results were definitive. One particular cell architecture consistently outperformed all alternatives across the entire parameter space. Not marginally better—dramatically better. And I could prove it mathematically.
+
+<!--
+~~The Next-Generation DRAM Cell Scheme Design Team was thrilled. The results gave them exactly what they needed: not just a recommendation but *proof* that this architecture was optimal. They had never had such experience. Until then, they had used their experience, intuition, and know-how. The Team Head told me that he was glad to see that they finally had a scientific way of doing their work, and most of all, mathematical, definitive proof that this is the best ever shot that could get!
+Samsung adopted that cell scheme.~~
+-->
+
+The Next-Generation DRAM Cell Scheme Design Team was thrilled. For years, they'd relied on experience, intuition, and iterative testing—making the best decisions they could, but never truly knowing if a better architecture existed somewhere in the vast design space they hadn't explored. Now they had something unprecedented: not just a recommendation but mathematical proof that this architecture was optimal.
+
+The Team Head pulled me aside after the presentation. "For the first time in my career," he said, "I can stand in front of Samsung's executives and say with certainty: 'This is the best possible design.' Not 'this is the best we found' or 'this worked well in our tests.' But the best possible. That changes everything."
+
+Samsung adopted that cell scheme. It would indeed guide their DRAM strategy for the next decade.
+
+As for recognition? My own team barely acknowledged the work—for obvious reasons given the earlier conversation. No performance review mentioned it. No bonus reflected it. No promotion resulted from it.
+
+I didn't mind. The work itself had been deeply satisfying. I'd applied everything Boyd taught me to a problem of genuine consequence. I'd seen optimization prove its value at industrial scale. I'd built relationships with engineers who appreciated what mathematics could do.
+
+Then I forgot about it. Moved on to other projects. Life continued.
+
+### The Long Game - Ten Years Later
+
+Fast forward to late 2019.
+
+I was being recruited to join SK Group's new industrial AI startup company as a Founding Member and Head of Global R&D. The opportunity was exciting—building AI systems for manufacturing at scale, leading a global team, shaping strategy for a major corporate initiative.
+
+But SK Group did their due diligence carefully. They talked to former colleagues, industry contacts, and people who'd worked with me over the years.
+
+One of their vice chairs reached out to someone from that Next-Generation DRAM Cell Scheme Design Team I'd collaborated with on the DRAM architecture project—the team I'd worked with "secretly" because my own management didn't prioritize it.
+I learned about this conversation months later, after I'd joined what would become Gauss Labs Inc.
+
+The vice chair had asked: "Tell me about Sunghee Yun. What was he like to work with?"
+
+The Next-Generation DRAM Cell Scheme Design Team Leader's response, as I heard it: "Sunghee? He's brilliant. Absolutely brilliant. But more than that—he has integrity. He doesn't care about credit or politics. He cares about solving the right problems. Ten years ago, he helped us make the most important strategic decision of that decade. Didn't ask for recognition. Just wanted to do excellent work. If you're hiring him, you're getting someone rare."
+
+That conversation—about work I'd done quietly, in defiance of short-term team politics, a decade earlier—apparently carried significant weight in SK Group's decision.
+
+I had no idea any of this was happening. I didn't do the DRAM work expecting future payoffs. I did it because it was clearly the right thing to do—use my capabilities where they'd have the most impact for my employer.
+
+But here's what I learned: **doing the right thing compounds in ways you can't predict.**
+
+Not because you'll always be rewarded. Sometimes you won't be. Sometimes politics wins and integrity loses.
+
+But because over long enough time horizons, people remember who does good work for the right reasons. They remember who can be trusted to put the mission above their own short-term gain. They remember who has both capability and character.
+
+The person who advised me to avoid the DRAM project wasn't wrong about the short-term calculus. Our team's metrics probably didn't benefit. My bonuses that year probably weren't affected.
+
+But they were wrong about what actually matters. The Next-Generation DRAM Cell Scheme Design Team Leader favorably remembered our collaboration a decade later and spoke up when it counted. That conversation helped shape the trajectory of my career in ways no performance review or bonus ever could.
+
+SK Group's response to that recommendation showed just how much it mattered. They made me an offer requiring special approval from the Chairman himself—rare even for executive positions. They opened a US office for Gauss Labs specifically to accommodate me, restructuring plans that had assumed Korea-based leadership. I turned them down for six months. I was thriving at Amazon, had no desire to return to Korea, and saw clear growth ahead. But they persisted—because their due diligence had uncovered that decade-old DRAM collaboration and understood its significance. Eventually, that persistence convinced me. Not the compensation, substantial as it was. But the recognition that an organization would restructure around work I'd done quietly, without recognition, a decade prior.
+
+And honestly? I'd make the same choice even if SK Group had never called. Even if that conversation had never happened. Even if the work had remained permanently unrecognized.
+
+Because doing the right thing matters whether or not you get rewarded eventually.
+
+This is perhaps the most important lesson that Samsung taught me—one that Boyd's mathematics couldn't teach: **technical excellence matters, but character matters more.**
+
+XXX
+
+### Leaving Samsung, Carrying Both Tools and Questions
+
+By 2017, I'd spent thirteen years at Samsung. I'd built tools that hundreds of engineers still used. I'd applied convex optimization to problems worth billions. I'd seen mathematical theory prove its power in silicon.
+
+But I was restless.
+
+The questions I'd started asking in 2004—about what we *should* optimize for—had grown louder. Samsung's answers increasingly felt incomplete. The company was brilliant at execution, at optimization, at reaching whatever objectives management specified. But those objectives themselves? They came from market pressures, quarterly targets, competitive dynamics. Not from deep thinking about what actually mattered.
+
+I didn't have better answers. But I knew I wanted to work somewhere I could ask the questions more directly.
+
+When Amazon recruited me in 2017, I was ready for something different. Not just a new company but a new domain where optimization would face different challenges.
+
+I didn't know yet that Amazon would teach me an even darker lesson about optimization's power—and its dangers when divorced from wisdom about human values.
+
+### What Thirteen Years at Samsung Taught Me
+
+Looking back, my Samsung years clarified three insights that would shape everything after:
+
+**First: Abstract mathematics becomes powerful only when embodied in usable tools.**
+
+<span id="aa"></span>
+Boyd taught me convex optimization theory. Samsung taught me that theory alone changes nothing. You need platforms, interfaces, integrations, documentation, training, and support. You need to meet engineers where they are. The mathematics matters, but the *engineering* around the mathematics matters just as much.
+
+**Second: Organizations optimize for what they measure.**
+
+Samsung measured yield, area, speed, and power. So that's what got optimized. The company was extraordinarily good at it—world-class execution. But what about reliability? Sustainability? Worker wellbeing? Long-term resilience? These weren't in the optimization objective function, so they didn't get optimized for. Sometimes they got worse as "externalities" of optimizing what *was* measured.
+
+**Third: Doing the right thing is never wasted, even when it's not immediately rewarded.**
+
+That DRAM architecture work I did "secretly" against short-term team politics? It came back to matter a decade later in ways I couldn't have predicted. More importantly, it taught me that integrity and excellence compound over time. Character is a long game.
+
+These lessons—some technical, some organizational, some moral—would prove essential when I arrived at Amazon, where optimization operated at unprecedented scale and where its consequences touched hundreds of millions of lives.
+
+---
+
+### Anthropological Lens: Corporate Optimization and the Tyranny of Metrics
+
+*By Jun-Young Park*
+
+Sunghee's Samsung years reveal a crucial anthropological insight: **organizations don't just *use* optimization—they *become* what they optimize for.**
+
+When Samsung adopted convex optimization for circuit design, they weren't just adding a new tool. They were reshaping how problems were defined, what solutions were considered legitimate, what trade-offs were visible, and ultimately what the organization valued.
+
+**The Seduction of Measurability**
+
+Notice what happened: once optimization tools proved successful, engineers started treating *optimizability* as a criterion for what problems to work on. Problems that couldn't be cleanly formulated as optimization problems—requiring judgment, intuition, long-term thinking—got deprioritized.
+
+This is what anthropologists call *metricization*—the process by which quantifiable measures gradually colonize decision-making until "what we can measure" becomes indistinguishable from "what matters."
+
+iOpt's success accelerated this process. The more the platform was used, the more Samsung's engineering culture shifted toward seeing problems as optimization problems. Alternative approaches—simulation-based exploration, experience-driven intuition, experimental prototyping—lost prestige and resources.
+
+The mathematics wasn't wrong. But its very success changed what kinds of questions got asked.
+
+**Short-Termism as Emergent Property**
+
+The DRAM cell architecture story reveals something profound about organizational dynamics: even when individuals *want* to act in the organization's long-term interest, internal incentive structures often punish them for it.
+
+The colleague who advised Sunghee to avoid the project wasn't personally malicious. They were responding rationally to how their team was evaluated—on short-term deliverables and visible achievements. The fact that Sunghee's work would determine Samsung's competitive position for a decade was *irrelevant* to that quarter's performance review.
+
+This is classic principal-agent misalignment, but notice the cruel irony: optimization tools make this *worse*, not better. When teams are measured by optimization metrics (speed up design time! improve yield! reduce costs!), they'll optimize exactly those metrics—even when doing so undermines broader organizational goals.
+
+You can't optimize your way out of bad optimization objectives. And organizations rarely optimize their *optimization objectives* with the same rigor they apply to everything else.
+
+**The Morality Play of Technical Work**
+
+Sunghee presents his decision to work on the DRAM project despite pushback as an obvious moral choice. And in retrospect, it seems clear cut—of course you should work on what matters most for the organization paying you!
+
+But most engineers in similar situations make the opposite choice. They optimize for their immediate career metrics: pleasing their direct manager, showing visible results on team projects, avoiding work that doesn't "count" for promotion.
+
+They're not being unethical—they're being *rational* within their local incentive structure.
+
+What made Sunghee's choice possible? Probably some combination of:
+1. Confidence in his skills (he could do both projects if needed)
+2. Sufficient reputation that he wasn't in immediate career danger
+3. Personal values that genuinely prioritized mission over metrics
+4. Possibly some Korean cultural values around loyalty to employer
+
+But the deeper question is: why should individual engineers need to be *heroes* to do what's obviously best for their employer? What kind of organizational structure creates that dilemma in the first place?
+
+**The Validation Cycle**
+
+Here's what fascinates me: Sunghee's "reward" for integrity came ten years later when an SK Group vice chair happened to talk to the right person. This feels like a moral fable—good deeds eventually rewarded!
+
+But this is survivor bias. For every Sunghee whose integrity happens to be discovered and rewarded, there are dozens of engineers who did the right thing and faced only costs: poor performance reviews, missed promotions, career stagnation.
+
+We tell stories about the successes because they're inspiring and because they validate our belief that systems eventually reward merit. We don't tell stories about the equally competent, equally ethical engineers who got pushed out or burned out because they didn't play the optimization game.
+
+This doesn't undermine Sunghee's point that "doing the right thing matters whether or not you get rewarded." That's true. But it obscures the systemic problem: organizations that *rely* on individual integrity to overcome structural dysfunction are organizations with broken incentives.
+
+**The Manufacturing of Indifference**
+
+The story about yield optimization—relaxing quality standards to pass more chips—is chilling precisely because it's so normal.
+
+Nobody decided: "Let's ship potentially unreliable products to boost short-term numbers!" Instead, someone said: "Let's optimize yield while meeting specifications." The rest followed inevitably from the mathematical structure of the problem.
+
+This is what Hannah Arendt called the *banality of evil* transplanted to corporate optimization. No malicious intent required. Just:
+1. Define clear, measurable objectives (maximize yield)
+2. Specify minimum constraints (meet specs)
+3. Apply sophisticated optimization tools
+4. Execute the optimal solution professionally
+
+At no point does anyone need to ask: "Should we do this?" The optimization framework answers that question implicitly: if it's mathematically optimal given your stated objectives, you should do it.
+
+The space for ethical reflection has been optimized away.
+
+**What Samsung Couldn't Teach**
+
+Sunghee left Samsung with powerful tools and deep questions. The tools worked—brilliantly. The questions remained unanswered.
+
+This is where Anthropology becomes essential. Because the questions Sunghee was asking aren't *technical* questions. They're questions about:
+- What actually constitutes value (not what's easily measured)
+- What time horizons matter (not just this quarter's results)
+- Whose interests count (not just shareholders or executives)
+- What externalities are acceptable (not what's legally permitted)
+- What kind of organization we want to be (not just what maximizes metrics)
+
+These questions can't be answered by better optimization algorithms. They require what optimization deliberately excludes: judgment, values, political deliberation, historical awareness, ethical reasoning.
+
+Understanding *how* optimization works (Sunghee's expertise) is essential. Understanding *what* optimization *does*—how it reshapes organizations, incentives, decision-making, and values—is equally essential.
+
+That's the gap between engineering and anthropology. Between *tool* and *critique*. Between *how* and *why*.
+
+And it's the gap this book is trying to bridge.
 
 ## Chapter 3: Amazon — The $200 Million Lesson in Recommender Systems (2017-2020)
 
