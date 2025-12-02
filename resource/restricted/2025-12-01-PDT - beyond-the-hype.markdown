@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 14:29:57 PST 2025
+last_modified_at: Mon Dec  1 15:56:49 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -876,22 +876,15 @@ The mathematics is universal. What we do with it is not.
 
 ## Chapter 2: Samsung — When AI Met Silicon (2004-2017)
 
-- Circuit optimization: Optimizing hundreds of parameters simultaneously
-- The DRAM cell design revolution: From human intuition to mathematical proof
-- Building iOpt: A rebellious ML platform in a Galaxy-dominated workplace
-- Real impact: Tools still used by 200+ engineers daily
-- **[Anthropological lens: Corporate culture, resistance to change, and the rituals of engineering organizations]**
-
 The Samsung Semiconductor fabrication facility in Hwasung occupies more space than I could comprehend on my first day in 2004. Clean rooms the size of football fields. Machines worth hundreds of millions of dollars. Production lines running 24/7, fabricating chips that would power phones, computers, and servers around the world.
 
 I'd come from Stanford, where we proved theorems on whiteboards and ran simulations on workstations. Here, mathematics met physical reality at nanometer scale. Here, optimization theory would either work in the real world—or reveal itself as elegant abstraction with no practical power.
 
-Stanford had prepared me for the mathematics. He hadn't prepared me for corporate politics, skeptical engineers, or the crushing weight of decisions worth billions of dollars.
+Stanford had prepared me for the mathematics. It hadn't prepared me for corporate politics, skeptical engineers, or the crushing weight of decisions worth billions of dollars.
 
 ### From Theory to Silicon
 
-My role at Samsung was officially "Senior Engineer" in the Computer-Aided Engineering (CAE) Team of Memory Business Division
-of Samsung Semiconductor, Inc.
+My role at Samsung was officially "Senior Engineer" in the Computer-Aided Engineering (CAE) Team of Memory Business Division of Samsung Semiconductor, Inc.
 Practically, it meant: take the convex optimization theory you learned at Stanford and make it work for designing actual semiconductor circuits.
 
 The challenge was both technical and cultural.
@@ -929,9 +922,7 @@ The team gave me a circuit sizing problem they'd been wrestling with for weeks�
 
 I spent three days formulating it as an optimization problem, checking my constraints against actual circuit behavior, validating my objective function against their design priorities.
 
-It wasn't exactly a convex optimization problem. However, it could come up with a convex optimization problem
-that can approximately solve the original problem.
-
+It wasn't exactly a convex optimization problem. However, I could formulate a convex optimization problem that would approximately solve the original problem.
 Then I ran the optimization.
 
 The solution was... surprising. It suggested parameter values that violated several "rules of thumb" the experienced engineers swore by. Transistors that were "too wide" by conventional wisdom. Voltages that seemed counterintuitive.
@@ -1013,13 +1004,13 @@ I was confused. "But this is critical for Samsung overall. The whole strategic d
 
 I understood the logic. In large organizations, teams compete for resources and recognition. Working on another team's strategic project might benefit Samsung but wouldn't necessarily benefit *our* team's metrics.
 
-But the logic made no sense to me. I was employed by Samsung. Samsung was paying my salary to use my skills and expertise for Samsung's benefit. And clearly, Samsung's most critical need was solving this DRAM architecture optimization problem. Plus, it was really fun project!
+But the logic made no sense to me. I was employed by Samsung. Samsung was paying my salary to use my skills and expertise for Samsung's benefit. And clearly, Samsung's most critical need was solving this DRAM architecture optimization problem. Plus, it was a really fun project!
 
 The choice seemed obvious: I should work on the problem that mattered most for the company, regardless of internal politics.
 
 "I appreciate your perspective," I told my colleague diplomatically. "But I think I should contribute where I can have the most impact."
 
-His expression made clear this wasn't the answer they wanted.
+His expression made clear this wasn't the answer he wanted.
 
 So I worked on the project anyway. Quietly. Collaborating closely with the partner team, spending evenings and weekends formulating the optimization problems, running massive computational experiments, validating results against simulations.
 
@@ -1030,11 +1021,6 @@ The work was exhilarating. This was optimization at the scale and stakes I'd nev
 I formulated the architecture evaluation as a massive optimization problem—thousands of variables, complex constraints encoding manufacturing realities, objective functions balancing competing priorities. Then I systematically evaluated every candidate architecture, computing the *optimal* design for each under multiple scenarios.
 
 The results were definitive. One particular cell architecture consistently outperformed all alternatives across the entire parameter space. Not marginally better—dramatically better. And I could prove it mathematically.
-
-<!--
-~~The Next-Generation DRAM Cell Scheme Design Team was thrilled. The results gave them exactly what they needed: not just a recommendation but *proof* that this architecture was optimal. They had never had such experience. Until then, they had used their experience, intuition, and know-how. The Team Head told me that he was glad to see that they finally had a scientific way of doing their work, and most of all, mathematical, definitive proof that this is the best ever shot that could get!
-Samsung adopted that cell scheme.~~
--->
 
 The Next-Generation DRAM Cell Scheme Design Team was thrilled. For years, they'd relied on experience, intuition, and iterative testing—making the best decisions they could, but never truly knowing if a better architecture existed somewhere in the vast design space they hadn't explored. Now they had something unprecedented: not just a recommendation but mathematical proof that this architecture was optimal.
 
@@ -1048,7 +1034,7 @@ I didn't mind. The work itself had been deeply satisfying. I'd applied everythin
 
 Then I forgot about it. Moved on to other projects. Life continued.
 
-### The Long Game - Ten Years Later
+### The Long Game: Ten Years Later
 
 Fast forward to late 2019.
 
@@ -1085,21 +1071,77 @@ Because doing the right thing matters whether or not you get rewarded eventually
 
 This is perhaps the most important lesson that Samsung taught me—one that Boyd's mathematics couldn't teach: **technical excellence matters, but character matters more.**
 
-XXX
+### **Discovering Machine Learning (2010-2015)**
 
-### Leaving Samsung, Carrying Both Tools and Questions
+Around 2010, a new buzzword started circulating through Silicon Valley and gradually reached Samsung: Big Data!
 
-By 2017, I'd spent thirteen years at Samsung. I'd built tools that hundreds of engineers still used. I'd applied convex optimization to problems worth billions. I'd seen mathematical theory prove its power in silicon.
+I was curious but skeptical. What exactly was big data? And what did it have to do with the circuit optimization I'd been doing?
 
-But I was restless.
+Then Prof. Boyd—still my informal advisor years after graduation—sent me an email: "Sunghee, you should look into something called machine learning. It's going to be important. And I think you'll find the mathematics familiar."
 
-The questions I'd started asking in 2004—about what we *should* optimize for—had grown louder. Samsung's answers increasingly felt incomplete. The company was brilliant at execution, at optimization, at reaching whatever objectives management specified. But those objectives themselves? They came from market pressures, quarterly targets, competitive dynamics. Not from deep thinking about what actually mattered.
+I started exploring. Online seminars. Technical papers. Some classes Samsung offered on emerging technologies. Books on statistical learning theory.
 
-I didn't have better answers. But I knew I wanted to work somewhere I could ask the questions more directly.
+And then I saw it.
 
-When Amazon recruited me in 2017, I was ready for something different. Not just a new company but a new domain where optimization would face different challenges.
+At the heart of virtually every supervised learning algorithm—logistic regression, support vector machines, neural networks—there was an optimization problem. Not just any optimization problem, but often a *convex* optimization problem.
 
-I didn't know yet that Amazon would teach me an even darker lesson about optimization's power—and its dangers when divorced from wisdom about human values.
+Training a support vector machine? That's solving a quadratic program with linear constraints—classic convex optimization.
+Fitting a logistic regression model? That's minimizing a convex loss function.
+Even neural networks, which involve non-convex optimization overall, solve convex subproblems at every layer during backpropagation.
+
+This wasn't a new field. This was *my* field wearing different clothes.
+
+Other engineers at Samsung were struggling to understand machine learning—what these algorithms did, why they worked, how to apply them. They were learning it as a new discipline, memorizing formulas and techniques without deep understanding of the underlying mathematics.
+
+But for me? With my convex optimization background, years of theoretical training, and decade of industrial practice, I could see through to the mathematical core. I understood not just *what* these algorithms did but *why* they worked, when they'd succeed, when they'd fail, and how to modify them for specific problems.
+
+It wasn't easier for me in the sense of requiring less effort. It was easier in the sense that I understood the inner workings of ML algorithms better than most ML scientists at the time—because I'd spent a decade studying and applying exactly the mathematical machinery these algorithms relied on.
+
+Then in 2012, something remarkable happened.
+
+A team led by Geoffrey Hinton entered a deep neural network called AlexNet in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC). They didn't just win. They crushed the competition—reducing the error rate from 26% to 15%, a margin of victory that seemed almost impossible.
+
+Suddenly, people weren't just talking about machine learning. They were talking about *Deep Learning*.
+
+I started reading everything I could find. Academic papers from major ML conferences such as NIPS, CVPR, ICLR, *etc.* Blog posts from Silicon Valley researchers. Technical reports from Nvidia, Google, Facebook, and Microsoft. The field was exploding.
+
+And I realized something important: **this was the future.**
+
+Not just for tech companies but for every industry. Not just for software but for hardware, manufacturing, biotech, everything. AI was about to transform how we would build products, serve customers, and make decisions.
+
+By 2015, my conviction had crystallized: I needed to be in Silicon Valley. Not visiting. Not consulting remotely. But *immersed* in the ecosystem where this AI revolution was happening.
+
+Samsung was a great company. Korea was home. I'd built a successful career there. But if I wanted to be at the forefront of AI—to work on the hardest problems, with the best talents, at the scale and speed this transformation demanded—I needed to be in Silicon Valley.
+
+Coincidentally—or perhaps inevitably, given how the AI hiring market was exploding—recruiters from Silicon Valley tech companies started reaching out. Nvidia, Amazon, Google, Facebook, and Microsoft. They'd seen my work. They needed people who understood both the theoretical foundations and the practical realities of building AI systems at scale.
+
+### **The Decision to Join Amazon (2017)**
+
+In 2017, I made what would prove to be one of the best decisions of my life; I accepted an offer from Amazon to join as a Senior Applied Scientist.
+
+The decision wasn't easy. Samsung had been good to me. I'd built lasting relationships, created tools still in use, contributed to strategic decisions worth billions. Korea was comfortable. Familiar. Home.
+
+But Amazon offered something I couldn't find in Korea: the chance to work on AI problems at unprecedented scale, with world-class teams, in a company that was betting its future on machine learning.
+
+Amazon in 2017 was already using ML everywhere—recommendation systems, supply chain optimization, fraud detection, Alexa, and AWS services.
+(Actually, Amazon was one of the first companies that used ML for their business even before we named the technology ML.)
+But they were just getting started. The company was aggressively hiring ML scientists and engineers, investing billions in AI infrastructure, pushing the boundaries of what was possible.
+
+I'd be working on recommendation systems—using ML to help hundreds of millions of customers discover products they'd love. Not toy problems or academic datasets. Real systems touching real people, generating real business value.
+
+The mathematics I'd learned from Boyd, the engineering discipline I'd developed at Samsung, the ML knowledge I'd acquired over the past seven years—all of it would come together in work that mattered at a scale I'd never experienced.
+
+I said yes.
+
+And over the next few years at Amazon, I'd work on multiple high-impact AI projects. One of them—a recommendation system improvement I led—would generate more than $200 million in incremental revenue.
+
+But I'd also learn something darker about optimization at scale. Something about what happens when you optimize brilliantly for metrics that don't quite capture what actually matters. Something about the gap between mathematical success and human flourishing.
+
+That lesson—painful, necessary, transformative—would eventually lead me to Gauss Labs, and later to Erudio Bio, where I'm still trying to figure out how to build AI systems that serve human values, not just mathematical objectives.
+
+<!--
+But that's getting ahead of the story.
+-->
 
 ### What Thirteen Years at Samsung Taught Me
 
@@ -1107,7 +1149,6 @@ Looking back, my Samsung years clarified three insights that would shape everyth
 
 **First: Abstract mathematics becomes powerful only when embodied in usable tools.**
 
-<span id="aa"></span>
 Boyd taught me convex optimization theory. Samsung taught me that theory alone changes nothing. You need platforms, interfaces, integrations, documentation, training, and support. You need to meet engineers where they are. The mathematics matters, but the *engineering* around the mathematics matters just as much.
 
 **Second: Organizations optimize for what they measure.**
@@ -1117,6 +1158,10 @@ Samsung measured yield, area, speed, and power. So that's what got optimized. Th
 **Third: Doing the right thing is never wasted, even when it's not immediately rewarded.**
 
 That DRAM architecture work I did "secretly" against short-term team politics? It came back to matter a decade later in ways I couldn't have predicted. More importantly, it taught me that integrity and excellence compound over time. Character is a long game.
+
+**Fourth: Deep expertise in fundamentals gives you unfair advantages in emerging fields.**
+
+When machine learning exploded in the 2010s, many engineers scrambled to learn new techniques without understanding the underlying mathematics. My decade of optimization expertise meant I could see through to the core principles—understanding not just what these algorithms did but why they worked and how to extend them. Fundamentals compound. Techniques come and go. Mathematical understanding endures.
 
 These lessons—some technical, some organizational, some moral—would prove essential when I arrived at Amazon, where optimization operated at unprecedented scale and where its consequences touched hundreds of millions of lives.
 
@@ -1144,7 +1189,7 @@ The mathematics wasn't wrong. But its very success changed what kinds of questio
 
 The DRAM cell architecture story reveals something profound about organizational dynamics: even when individuals *want* to act in the organization's long-term interest, internal incentive structures often punish them for it.
 
-The colleague who advised Sunghee to avoid the project wasn't personally malicious. They were responding rationally to how their team was evaluated—on short-term deliverables and visible achievements. The fact that Sunghee's work would determine Samsung's competitive position for a decade was *irrelevant* to that quarter's performance review.
+The senior colleague who advised Sunghee to avoid the project wasn't personally malicious. They were responding rationally to how their team was evaluated—on short-term deliverables and visible achievements. The fact that Sunghee's work would determine Samsung's competitive position for a decade was *irrelevant* to that quarter's performance review.
 
 This is classic principal-agent misalignment, but notice the cruel irony: optimization tools make this *worse*, not better. When teams are measured by optimization metrics (speed up design time! improve yield! reduce costs!), they'll optimize exactly those metrics—even when doing so undermines broader organizational goals.
 
@@ -1170,40 +1215,54 @@ But the deeper question is: why should individual engineers need to be *heroes* 
 
 Here's what fascinates me: Sunghee's "reward" for integrity came ten years later when an SK Group vice chair happened to talk to the right person. This feels like a moral fable—good deeds eventually rewarded!
 
-But this is survivor bias. For every Sunghee whose integrity happens to be discovered and rewarded, there are dozens of engineers who did the right thing and faced only costs: poor performance reviews, missed promotions, career stagnation.
+<span id="aa"></span>
+But this is survivor bias. For every Sunghee whose integrity happens to be discovered and rewarded, there are dozens of engineers who did the right thing and faced only costs: poor performance reviews, missed promotions, and career stagnation.
 
 We tell stories about the successes because they're inspiring and because they validate our belief that systems eventually reward merit. We don't tell stories about the equally competent, equally ethical engineers who got pushed out or burned out because they didn't play the optimization game.
 
 This doesn't undermine Sunghee's point that "doing the right thing matters whether or not you get rewarded." That's true. But it obscures the systemic problem: organizations that *rely* on individual integrity to overcome structural dysfunction are organizations with broken incentives.
 
-**The Manufacturing of Indifference**
+**The Paradigm Shift: From Circuits to Learning**
 
-The story about yield optimization—relaxing quality standards to pass more chips—is chilling precisely because it's so normal.
+The transition Sunghee describes—from circuit optimization to machine learning—reveals something anthropologists call *epistemic transfer*: how expertise in one domain gets reframed as expertise in an emerging domain.
 
-Nobody decided: "Let's ship potentially unreliable products to boost short-term numbers!" Instead, someone said: "Let's optimize yield while meeting specifications." The rest followed inevitably from the mathematical structure of the problem.
+When "big data" and "machine learning" became buzzwords around 2010, they carried an aura of novelty—completely new fields requiring completely new expertise. Organizations scrambled to hire "data scientists" and "ML engineers" as if these were entirely new species of professional.
 
-This is what Hannah Arendt called the *banality of evil* transplanted to corporate optimization. No malicious intent required. Just:
-1. Define clear, measurable objectives (maximize yield)
-2. Specify minimum constraints (meet specs)
-3. Apply sophisticated optimization tools
-4. Execute the optimal solution professionally
+But Sunghee's experience reveals the truth: machine learning wasn't fundamentally new. It was largely *applied optimization theory* dressed in different terminology, working with different kinds of data.
 
-At no point does anyone need to ask: "Should we do this?" The optimization framework answers that question implicitly: if it's mathematically optimal given your stated objectives, you should do it.
+This created a fascinating dynamic: engineers who'd spent years on "traditional" optimization suddenly found their expertise unexpectedly relevant to the hottest new field. Meanwhile, self-taught ML practitioners who'd learned techniques without mathematical foundations struggled to understand why their models worked, when they'd fail, and how to fix them.
 
-The space for ethical reflection has been optimized away.
+The prestige economy inverted almost overnight. Optimization—previously seen as a specialized, somewhat old-fashioned discipline—suddenly became essential infrastructure for the AI revolution. Boyd's textbook, published in 2004, became required reading for ML researchers a decade later.
 
-**What Samsung Couldn't Teach**
+But notice what got lost in translation: the *questions* that optimization theory forces you to ask. What are you optimizing for? Why? Who benefits? What are you not measuring?
 
-Sunghee left Samsung with powerful tools and deep questions. The tools worked—brilliantly. The questions remained unanswered.
+ML culture, especially in its early industrial applications, inherited optimization's *techniques* without inheriting its *caution*. The result was systems that optimized brilliantly for poorly chosen objectives—engagement, clicks, revenue—without asking whether those objectives served human flourishing.
 
-This is where Anthropology becomes essential. Because the questions Sunghee was asking aren't *technical* questions. They're questions about:
-- What actually constitutes value (not what's easily measured)
-- What time horizons matter (not just this quarter's results)
-- Whose interests count (not just shareholders or executives)
-- What externalities are acceptable (not what's legally permitted)
-- What kind of organization we want to be (not just what maximizes metrics)
+**The Geographic Imperative**
 
-These questions can't be answered by better optimization algorithms. They require what optimization deliberately excludes: judgment, values, political deliberation, historical awareness, ethical reasoning.
+Sunghee's recognition that he needed to be in Silicon Valley to work on AI reveals another anthropological truth: **innovation is spatially clustered not just because of resource concentration but because of shared cultural frames.**
+
+Yes, Silicon Valley had more AI talent, more funding, more computational resources. But more fundamentally, it had a *culture* that treated AI as the future, that normalized experimentation, that rewarded risk-taking in ways Korean corporate culture didn't.
+
+This isn't about Korean culture being inferior—it's about different optimization objectives. Korean companies like Samsung optimize for execution, reliability, manufacturing excellence. Silicon Valley companies optimize for innovation, disruption, "move fast and break things."
+
+Neither is inherently better. But they're different. And if you want to work on emerging AI technologies, being physically present in a culture that treats AI as normal, obvious, and inevitable gives you advantages no amount of remote participation can match.
+
+The decision to leave Samsung wasn't just about a job change. It was about changing *cultural context*—immersing himself in an environment where his interests and expertise would be amplified rather than seen as adjacent to the core business.
+
+**What the Metrics Miss**
+
+Sunghee's fourth lesson—that deep expertise in fundamentals gives unfair advantages in emerging fields—points to something optimization culture systematically undervalues: *generalizable understanding* versus *specific skills*.
+
+Organizations optimize hiring, training, and promotion around demonstrable skills: "Can you design this circuit?" "Can you build this model?" "Can you ship this feature?"
+
+They don't know how to measure—and therefore don't optimize for—deep mathematical understanding that might become relevant to problems that don't exist yet.
+
+This is why Sunghee's optimization expertise turned out to be so valuable for machine learning: not because anyone at Samsung was optimizing for "prepare engineers for the coming AI revolution" but almost despite the organization's optimization objectives.
+
+The most valuable forms of knowledge are often the hardest to measure. And what you can't measure, you can't optimize for.
+
+This is the fundamental tension this book explores: optimization is extraordinarily powerful for reaching specified objectives. But the most important human capabilities—judgment, wisdom, moral reasoning, generalized understanding—resist optimization precisely because they can't be reduced to measurable objectives.
 
 Understanding *how* optimization works (Sunghee's expertise) is essential. Understanding *what* optimization *does*—how it reshapes organizations, incentives, decision-making, and values—is equally essential.
 
