@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 15:56:49 PST 2025
+last_modified_at: Mon Dec  1 16:20:51 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -1298,9 +1298,7 @@ And it's the gap this book is trying to bridge.
 
 *A reflection on what these five stages reveal about AI's real capabilities and limits*
 
----
-
-## ART II: DEMYSTIFYING AI — What It Is, What It Isn't, and What It Means
+# PART II: DEMYSTIFYING AI — What It Is, What It Isn't, and What It Means
 
 *Subtitled: The Truth Behind the Hype (And Why It Matters)*
 
