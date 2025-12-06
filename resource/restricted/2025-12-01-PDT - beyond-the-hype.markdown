@@ -2,7 +2,7 @@
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Mon Dec  1 16:20:51 PST 2025
+last_modified_at: Sat Dec  6 00:28:35 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -21,10 +21,9 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-
-
 # Prologue: The Question Behind the Algorithm
 
+<!--
 The email arrived at 6:47 AM on a Tuesday in December 2019, the subject line glowing in the pre-dawn darkness of my Vancouver home office:
 
 "Q4 Impact Analysis - Mobile Shopping Recommendations."
@@ -43,7 +42,10 @@ I should have felt triumph. I should have forwarded the email to my team with ce
 
 Instead, I sat there in the dark, watching the rain streak down the window, my coffee growing cold in a Stanford mug someone had given me a decade ago, feeling only a strange, expanding hollowness.
 
-The house was silent except for the furnace clicking on somewhere in the family room. My wife and daughter were still asleep. The sky outside was that flat grey that makes December mornings in Vancouver feel like the world hasn't quite committed to existing yet. On my desk: two monitors, a mechanical keyboard worn smooth on the ASDF keys, and a framed photo of Stephen Boyd from my Stanford graduation.
+The house was silent except for the furnace clicking on somewhere in the family room. My wife and daughter were still asleep. The sky outside was that flat grey that makes December mornings in Vancouver feel like the world hasn't quite committed to existing yet.
+
+<span id="beth's-suggestion"></span>
+On my desk: my daughter's drawing of a piano, reminding me of that ninth-grade revelation. A mechanical keyboard worn smooth from years of optimization code at Samsung and Amazon. A framed photo of Stephen Boyd from my Stanford graduation. A small DRAM circuit board from the Samsung's DRAM architecture project that nobody thought mattered. A coffee-stained printout of Amazon's Leadership Principles, "Have Backbone; Disagree and Commit" highlighted in yellow. And two monitors showing protein structure analysis.
 
 I had optimized the objective function perfectly. The algorithms hummed. The revenue graphs climbed. Every metric exceeded, every quarterly review triumphant, every stakeholder satisfied. I had done exactly what Amazon hired me to do—taken twenty six years of mathematical training, from Seoul Science High School's Mathematics Olympiad rooms through Boyd's legendary Convex Optimization lectures at Stanford, through Samsung's semiconductor fabs where I'd revolutionized DRAM cell design, and applied it all to the vast machinery of digital commerce.
 
@@ -53,6 +55,45 @@ But somehow, watching that number glow on the screen, I understood with sudden c
 Not wrong mathematically. Not wrong technically. Not even wrong commercially.
 
 But I knew it was *wrong* somehow.
+
+-->
+
+The Chime window opened, and Kabir's face filled my monitor—the brightest expression I'd ever seen from him.
+
+It was December 2019, a grey Vancouver morning. My wife and daughter were still asleep. I was alone in my home office, staring at the screen, waiting for the words I'd been both hoping for and dreading for the past week.
+
+"The A/B test results are in," Kabir said from his Seattle office.
+
+Seven days. That's how long we'd waited. Seven days to account for weekly patterns in customer behavior—Monday through Friday variations, weekend shopping habits. Seven days after three weeks of nightmare when our first algorithm version had *lost* revenue, when I'd hurt Amazon's business, when the three teams in Vancouver, Seattle, and San Francisco had worked around the clock analyzing what went wrong.
+
+Seven days to know if version two would work.
+
+"Annual revenue increase through Amazon Mobile Shopping App," Kabir read from his screen, voice carefully controlled but unable to hide the excitement: "$207,133,371.12."
+
+I stared at the number.
+
+$207 million.
+
+Two hundred and seven million dollars. Not profit—revenue. But revenue that wouldn't exist without my algorithm choosing the optimal main menus for each Amazon customer every day. Revenue from increased engagement, more pleasant shopping journeys, and better matches between what customers wanted and what they saw first.
+
+God, it worked brilliantly.
+
+I should have felt triumphant. Three years earlier, I'd left a comfortable position at Samsung to join Amazon specifically for moments like this—applying AI at scale that mattered, touching hundreds of millions of lives, and generating measurable impact.
+
+The mathematics had worked perfectly. Collaborative filtering combined with content-based filtering, customized statistical methods solving the cold-start problem, and algorithms tested and refined until they provably improved customer experience.
+
+**But sitting there in my Vancouver home office, watching Kabir's excited face on the monitor, I felt something unexpected: emptiness.**
+
+Not because the work didn't matter. It did. Customers found products they wanted more easily. Amazon grew its business. My career advanced.
+
+But because I suddenly understood, with uncomfortable clarity, that I'd become extraordinarily good at optimizing for objectives I hadn't chosen and wasn't sure I believed in.
+
+<span id="beth's-suggestion"></span>
+On my desk: two monitors, one still showing Kabir's congratulatory smile, the other displaying data dashboards I'd built. A framed photo of Prof. Stephen Boyd from my Stanford graduation, his understated smile reminding me that convexity guarantees success only after you've chosen what to optimize for. A mechanical keyboard worn smooth on the ASDF keys from years of writing optimization algorithms—first at Samsung, then here. A small circuit board from Samsung's DRAM architecture project. My daughter's drawing of a piano, reminding me of that ninth-grade revelation. And beneath it all, a coffee-stained printout of Amazon's Leadership Principles, "Have Backbone; Disagree and Commit" highlighted in yellow.
+
+The $207 million would be reported up the chain. Kabir would present to his VP. My manager Adam would mention it in my promotion case for Principal Applied Scientist. Somewhere, Jeff Bezos would see a metric tick upward.
+
+But I kept thinking about a different number. A different moment. A different kind of value that no A/B test could measure.
 
 ---
 
@@ -268,7 +309,7 @@ Let's begin.
 
 *Subtitled: How Algorithms Actually Get Applied (And What Works)*
 
-## Chapter 1: The Foundation — Stanford, Boyd, and the Mathematics of Optimization
+# Chapter 1: The Foundation — Stanford, Boyd, and the Mathematics of Optimization
 
 The late afternoon sun streamed through the tall windows of Packard Building's second floor, illuminating dust motes that hung in the air like tiny mathematical points suspended in space. It was winter 1999, my first academic year at Stanford, when the apprenticeship I'd hoped for became real: Prof. Boyd had accepted me as his PhD student. I sat across from him in his corner office, watching him sketch an optimization landscape on his whiteboard with practiced strokes.
 
@@ -292,7 +333,7 @@ It was 1999. The dot-com bubble was about to burst leaving many parts of Silicon
 
 ---
 
-### The Miracle of Convexity
+## The Miracle of Convexity
 
 To understand why this matters—not just for academic mathematics but for everything from the circuits in your smartphone to the algorithms that recommend your next purchase—you need to grasp what convexity actually *means*.
 
@@ -332,7 +373,7 @@ This guarantee transforms the impossible into the systematic. It turns art into 
 
 ---
 
-### Not an Accident—A Search for Mathematical Beauty
+## Not an Accident—A Search for Mathematical Beauty
 
 I'd loved mathematics obsessively since childhood—winning medals at the Korean Mathematics Olympiad, insisting on proving every theorem in my engineering textbooks in college while classmates just wanted to use the formulas. When I arrived at Stanford in 1998 planning to research digital communication (the hot field then, like AI is now), I thought I knew my path.
 
@@ -420,7 +461,7 @@ Convex optimization reveals its full power through duality theory. If convexity 
 It *was* remarkable. And in that moment, I understood that I wasn't just learning techniques. I was learning to see mathematical structure—the architecture of solvable problems, the hidden elegances that make certain questions answerable.
 -->
 
-### The First-Order Optimality Condition
+## The First-Order Optimality Condition
 
 One of the most beautiful results in convex optimization is also one of the simplest. For a differentiable convex function, a point $x^\ast$ is optimal if and only if
 
@@ -442,7 +483,7 @@ In a world of uncertainty, heuristics, and approximations, this kind of guarante
 
 ---
 
-### Duality: The Hidden Perspective
+## Duality: The Hidden Perspective
 
 If convexity is the heart of optimization theory, duality is its soul.
 
@@ -497,7 +538,7 @@ At Amazon, dual perspectives would illuminate what the primal obscured. When col
 
 At Erudio Bio, duality theory shapes our entire approach to biomarker discovery. Finding cancer signatures in biological data means optimizing detection accuracy under strict constraints: limited samples, measurement noise, biological variability. The primal asks what biomarker combinations achieve our accuracy targets. The dual asks what accuracy is actually achievable given our constraints—and which constraints limit us most. This perspective transforms experimental design: instead of trying random biomarker combinations hoping for accuracy improvements, we compute exactly which additional measurements would most relax our binding constraints. Pure mathematics, guiding the search for tools that might save lives."
 
-### The KKT Conditions: Where Geometry Meets Analysis
+## The KKT Conditions: Where Geometry Meets Analysis
 
 The Karush-Kuhn-Tucker (KKT) conditions represent one of the most elegant bridges between geometry and analysis in all of mathematics.
 
@@ -539,7 +580,7 @@ This single condition—$\lambda_i^\ast f_i(x^\ast) = 0$—captured the entire e
 
 Pure. Elegant. Universal.
 
-### Interior-Point Methods: Revolution in Algorithms
+## Interior-Point Methods: Revolution in Algorithms
 
 The theoretical beauty of convex optimization would matter less if we couldn't actually *solve* these problems efficiently. This is where interior-point methods enter the story—a algorithmic revolution that occurred in the 1980s.
 
@@ -559,7 +600,7 @@ Boyd's textbook, *Convex Optimization* (co-authored with Lieven Vandenberghe), c
 
 That book is now cited over 84,000 times. It shaped how an entire generation of researchers and practitioners think about optimization. And it emerged from the same tradition Boyd was teaching me: **mathematical precision in service of practical problem-solving.**
 
-### Why This Powers Modern AI
+## Why This Powers Modern AI
 
 Fast forward twenty six years from those afternoon sessions in Boyd's office. Today, virtually every machine learning system relies on the foundations we were studying in EE364.
 
@@ -595,7 +636,7 @@ So when people ask "How does AI actually work?" a significant part of the answer
 
 The infrastructure is mathematical. The applications are human. And the gap between those two is where everything interesting—and dangerous—happens.
 
-### Mathematical Lineage and Universal Truths
+## Mathematical Lineage and Universal Truths
 
 One afternoon in his office, Boyd showed me his academic genealogy chart—the mathematical family tree tracing advisor-student relationships backward through history.
 
@@ -619,7 +660,7 @@ Convex optimization gives you guaranteed success reaching your objective. But it
 
 Boyd's words about universal truths and temporary custodians stayed with me. Because my own path to becoming one of those custodians was anything but inevitable.
 
-### Finding My Place in the Lineage
+## Finding My Place in the Lineage
 
 That genealogy chart Boyd showed me—the line from him to Gauss—it represented more than intellectual history. It represented something I'd been searching for since childhood without knowing quite what I was searching for.
 
@@ -752,7 +793,7 @@ Not accident. Not serendipity.
 Just a long-held love finally meeting its proper object.
 
 
-### What Stanford Taught Me Beyond Mathematics
+## What Stanford Taught Me Beyond Mathematics
 
 Looking back, my years with Boyd taught me three things that shaped everything that followed:
 
@@ -774,9 +815,7 @@ Convex optimization gives you guaranteed success reaching any objective you spec
 
 This lesson I'm still learning. It's the gap between the fourteen-year-old at the piano (overwhelmed by beauty, asking *why* this matters) and the engineer watching $207 million flow from optimized algorithms (understanding *how* it works but questioning *what* it's for).
 
----
-
-### Leaving Stanford, Carrying Questions
+## Leaving Stanford, Carrying Questions
 
 In 2004, I defended my PhD dissertation: "Convex Optimization for Digital Integrated Circuit Applications." The work was solid—I'd developed new algorithms for digital circuit sizing using new class of convex optimization called generalized geometric program to handle more complex circuit constraints.
 
@@ -798,9 +837,7 @@ But I carried questions too—questions that mathematics couldn't answer:
 
 These questions would follow me to Samsung, where algorithms would meet silicon. To Amazon, where theory would generate hundreds of millions in revenue. To Gauss Labs, where industrial AI would confront manufacturing reality. To Erudio Bio, where optimization would serve human health.
 
----
-
-### Anthropological Lens: The Culture of Silicon Valley Academia and the Mythology of Mentorship
+## Anthropological Lens: The Culture of Silicon Valley Academia and the Mythology of Mentorship
 
 *By Jun-Young Park*
 
@@ -874,7 +911,7 @@ Understanding convex optimization is essential for working with modern AI system
 
 The mathematics is universal. What we do with it is not.
 
-## Chapter 2: Samsung — When AI Met Silicon (2004-2017)
+# Chapter 2: Samsung — When AI Met Silicon (2004-2017)
 
 The Samsung Semiconductor fabrication facility in Hwasung occupies more space than I could comprehend on my first day in 2004. Clean rooms the size of football fields. Machines worth hundreds of millions of dollars. Production lines running 24/7, fabricating chips that would power phones, computers, and servers around the world.
 
@@ -882,7 +919,7 @@ I'd come from Stanford, where we proved theorems on whiteboards and ran simulati
 
 Stanford had prepared me for the mathematics. It hadn't prepared me for corporate politics, skeptical engineers, or the crushing weight of decisions worth billions of dollars.
 
-### From Theory to Silicon
+## From Theory to Silicon
 
 My role at Samsung was officially "Senior Engineer" in the Computer-Aided Engineering (CAE) Team of Memory Business Division of Samsung Semiconductor, Inc.
 Practically, it meant: take the convex optimization theory you learned at Stanford and make it work for designing actual semiconductor circuits.
@@ -912,7 +949,7 @@ My first meeting with the Memory Design team was polite but skeptical.
 
 This was going to be harder than I thought.
 
-### Building Trust, One Problem at a Time
+## Building Trust, One Problem at a Time
 
 I didn't try to replace the experienced engineers. That would have been foolish and arrogant. Instead, I started small.
 
@@ -941,7 +978,7 @@ I ran it ten more times with random initializations. Every run converged to the 
 
 That's when skepticism started turning into curiosity.
 
-### The iOpt Platform: Democratizing Optimization
+## The iOpt Platform: Democratizing Optimization
 
 Word spread. Other teams started asking: "Can you optimize our circuit too?"
 
@@ -968,7 +1005,7 @@ Making optimization *usable* required:
 
 I spent more time on user interface design and tool integration than on optimization algorithms. The mathematics I'd learned at Stanford was necessary but not sufficient. Making it *useful* required understanding how engineers actually work.
 
-### The DRAM Cell Design Revolution
+## The DRAM Cell Design Revolution
 
 The project that would define my Samsung career—though I wouldn't realize its full significance until years later—began in 2009.
 
@@ -988,7 +1025,7 @@ My answer: "Yes. But this is going to require significant computational resource
 
 What I didn't mention: someone in my reporting chain had different ideas.
 
-### Doing the Right Thing (Even When It Costs You)
+## Doing the Right Thing (Even When It Costs You)
 
 A senior colleague pulled me aside early in the project.
 
@@ -1034,7 +1071,7 @@ I didn't mind. The work itself had been deeply satisfying. I'd applied everythin
 
 Then I forgot about it. Moved on to other projects. Life continued.
 
-### The Long Game: Ten Years Later
+## The Long Game: Ten Years Later
 
 Fast forward to late 2019.
 
@@ -1071,7 +1108,7 @@ Because doing the right thing matters whether or not you get rewarded eventually
 
 This is perhaps the most important lesson that Samsung taught me—one that Boyd's mathematics couldn't teach: **technical excellence matters, but character matters more.**
 
-### **Discovering Machine Learning (2010-2015)**
+## Discovering Machine Learning (2010-2015)
 
 Around 2010, a new buzzword started circulating through Silicon Valley and gradually reached Samsung: Big Data!
 
@@ -1115,7 +1152,7 @@ Samsung was a great company. Korea was home. I'd built a successful career there
 
 Coincidentally—or perhaps inevitably, given how the AI hiring market was exploding—recruiters from Silicon Valley tech companies started reaching out. Nvidia, Amazon, Google, Facebook, and Microsoft. They'd seen my work. They needed people who understood both the theoretical foundations and the practical realities of building AI systems at scale.
 
-### **The Decision to Join Amazon (2017)**
+## The Decision to Join Amazon (2017)
 
 In 2017, I made what would prove to be one of the best decisions of my life; I accepted an offer from Amazon to join as a Senior Applied Scientist.
 
@@ -1143,7 +1180,7 @@ That lesson—painful, necessary, transformative—would eventually lead me to G
 But that's getting ahead of the story.
 -->
 
-### What Thirteen Years at Samsung Taught Me
+## What Thirteen Years at Samsung Taught Me
 
 Looking back, my Samsung years clarified three insights that would shape everything after:
 
@@ -1165,9 +1202,7 @@ When machine learning exploded in the 2010s, many engineers scrambled to learn n
 
 These lessons—some technical, some organizational, some moral—would prove essential when I arrived at Amazon, where optimization operated at unprecedented scale and where its consequences touched hundreds of millions of lives.
 
----
-
-### Anthropological Lens: Corporate Optimization and the Tyranny of Metrics
+## Anthropological Lens: Corporate Optimization and the Tyranny of Metrics
 
 *By Jun-Young Park*
 
@@ -1215,7 +1250,6 @@ But the deeper question is: why should individual engineers need to be *heroes* 
 
 Here's what fascinates me: Sunghee's "reward" for integrity came ten years later when an SK Group vice chair happened to talk to the right person. This feels like a moral fable—good deeds eventually rewarded!
 
-<span id="aa"></span>
 But this is survivor bias. For every Sunghee whose integrity happens to be discovered and rewarded, there are dozens of engineers who did the right thing and faced only costs: poor performance reviews, missed promotions, and career stagnation.
 
 We tell stories about the successes because they're inspiring and because they validate our belief that systems eventually reward merit. We don't tell stories about the equally competent, equally ethical engineers who got pushed out or burned out because they didn't play the optimization game.
@@ -1270,15 +1304,542 @@ That's the gap between engineering and anthropology. Between *tool* and *critiqu
 
 And it's the gap this book is trying to bridge.
 
-## Chapter 3: Amazon — The $200 Million Lesson in Recommender Systems (2017-2020)
+# Chapter 3: Amazon — When Optimization Met Scale (2017-2020)
 
-- Moving from semiconductors to e-commerce: What transfers and what doesn't
-- How recommendation algorithms actually create value (not magic, math)
-- The Mobile Shopping App project: Architecture, implementation, impact
-- Why deep learning isn't always the answer
-- **[Anthropological lens: Consumer behavior, digital desire, and the invisible algorithms shaping modern commerce]**
+<!--
+I'd be driving to Samsung's Hwasung facility, listening to audiobooks about machine learning—mostly published in real-time by Silicon Valley researchers and practitioners. Or I'd be reading blog posts during lunch, following the explosion of interest after AlexNet's stunning ImageNet victory.
+-->
 
-## Chapter 4: Gauss Labs — Industrial AI and the Bayesian Reality Check (2020-2023)
+I'd be driving to Samsung Semiconductor's Hwasung campus, listening to audiobooks about machine learning (ML) and absorbing the holistic picture of Silicon Valley's AI ecosystem—not just the algorithms but the culture, the business models, the way companies were reorganizing around AI—mostly content published in real-time by Silicon Valley researchers, practitioners, and entrepreneurs. Or I'd be reading blog posts during lunch, following the explosion of interest after AlexNet's stunning ImageNet victory.
+
+And I'd think: *This is going to change everything.*
+
+Not incrementally. Not gradually. But fundamentally, the way the internet changed everything in the late 1990s, the way smartphones changed everything in the late 2000s. AI—though at that time almost nobody used that term; "machine learning" was the standard phrase for these new waves—was going to transform every industry, every product, and every business model.
+
+Looking back now from 2025, I can say with certainty: **I was right.**
+
+Except for one thing: the impact was even **way greater** than I could ever imagine.
+
+I predicted transformation. What actually happened was something closer to revolution. GPT-4 and large language models reshaping how humans interact with computers. Generative AI touching everything from art to software development. AI agents automating entire workflows. The technology progressing faster, penetrating deeper, mattering more than even my ambitious 2012 predictions suggested.
+
+But back then, in 2012 through 2017, the future impact wasn't obvious to most people around me.
+
+The evidence was everywhere—in the papers, in the blog posts, in the investments Silicon Valley companies were making, and the talent wars already beginning. You didn't need special insight about the industry or prophetic vision about the future. You just had to read the textbooks, follow the research, and think logically about the implications.
+
+But when I looked around Samsung—talking to colleagues, attending meetings, and observing priorities—almost nobody else saw it. Most people were busy with their everyday routines, focused on the next quarter's deliverables, and optimizing the problems they already knew how to solve.
+
+And that created a deeply unsettling cognitive dissonance.
+
+When you believe something this strongly, and almost everyone around you seems oblivious to it, you don't automatically think: "I'm the only one who sees the truth!" You think: "There's no way all these smart, experienced people are wrong. I must be missing something. I must be wrong."
+
+But basic logical thinking kept reassuring me that I was right. The math worked. The results were reproducible. The trajectory was clear. This wasn't speculation or hype. This was pattern recognition backed by evidence.
+
+So I made a choice: act on what the evidence showed, not on what the consensus believed.
+
+## Preparing for the Wave (2010-2017)
+
+Starting around 2010, I began seriously integrating machine learning techniques into iOpt. Not as a separate initiative but as natural extensions of the optimization work I'd been doing.
+
+I worked on diverse projects with the DRAM Design Team, NAND Flash Memory Design Team, Process Team, Test Team, and others—applying ML where it made sense and learning what worked and what didn't at industrial scale.
+
+In 2015, I was asked to lead a special Task Force—not requested, *ordered*—by the CEO and President of Samsung Semiconductor Division. The project required flying to Suzhou, China five times within six months. High stakes. High visibility. High pressure.
+
+The work went well enough that in 2016, an Executive Vice President who'd recognized my contribution asked me to join the Strategic Sales and Marketing Team of Samsung Semiconductor Memory Division. This was unusual—CAE engineers didn't typically move into sales and marketing. But he wanted someone who could apply ML techniques to marketing data, and I was curious about seeing the business from that angle.
+
+That year gave me something unexpected: insight into the nature of economic prediction. Working with marketing data, applying diverse ML techniques, I finally saw a holistic view of the worldwide DRAM and NAND Flash Memory markets. And I learned something important: the complexity and unpredictability of markets meant that trying to beat them through individual stock picking was mostly a waste of time and mental energy. Better to just use mutual funds and spend your cognitive resources on problems where expertise actually matters.
+
+(This lesson probably saved me from countless hours of futile market analysis in the years since.)
+
+In 2017, Samsung Device Solution's Software Research Center asked me to join their team. They needed ML expertise badly. I accepted and worked on decentralized deep learning—quite similar to what Google was calling "federated learning" at the time.
+
+And then, as I mentioned in the previous chapter, Silicon Valley recruiters started calling.
+
+## The Decision: Amazon (2017)
+
+<!--
+By 2017, the cognitive dissonance had become unbearable.
+-->
+
+I *knew* the AI era was coming. Every textbook, every paper, every serious analysis pointed to the same conclusion. The impact would be enormous, transformative, irreversible.
+But I was in Korea, where most of my colleagues still didn't see it. Where the infrastructure, the talent density, and the cultural momentum for AI wasn't there yet.
+
+If I wanted to be at the forefront of this transformation—working on the hardest problems, with the best teams, at the scale where AI would matter most—I needed to be join Silicon Valley big tech companies.
+
+The decision to join Amazon wasn't easy. Samsung had been good to me. Korea was home. I was 41 years old with a family—my daughter and my wife. This wasn't like going to Stanford at 22, young and unencumbered.
+
+But Amazon in 2017 was placing massive bets on machine learning. Recommendation systems. Supply chain optimization. Alexa. AWS. Fraud detection. They were hiring aggressively, investing billions, and pushing boundaries.
+
+And crucially: they had *scale*. Hundreds of millions of customers. Exabytes of data. Infrastructure that could train models most companies couldn't even conceptualize.
+
+I said yes.
+
+## Amazon's Secret Weapon: Culture, Not Technology
+
+Before diving into the projects, I need to explain something about Amazon that most people misunderstand.
+
+When people talk about Amazon's success, they focus on technology: AWS infrastructure, sophisticated algorithms, and massive scale. These matter. But they're not the secret.
+
+**Amazon's secret weapon is culture.**
+
+Specifically: the Leadership Principles.
+
+These aren't corporate platitudes on a wall that nobody follows. They're the actual operating system of how Amazon makes decisions, evaluates people, resolves conflicts, and chooses priorities.
+
+There are fourteen principles (now sixteen, but fourteen when I was there). Let me highlight the ones that I liked most.
+
+**Customer Obsession**: "Leaders start with the customer and work backwards."
+
+This isn't "customers are important" lip service. It's the forcing function for every decision. You can't launch a project without explaining what customer problems or pain points it solves. You can't win an argument by citing elegant technology—only by showing customer benefit.
+
+**Invent and Simplify**: "Leaders expect and require innovation and invention from their teams and always find ways to simplify."
+
+This principle gave me permission—expectation, really—to not just use off-the-shelf ML algorithms but to invent custom solutions when standard approaches didn't work.
+
+**Have Backbone; Disagree and Commit**: "Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly."
+
+This one I loved **most**. It captured something essential about high-functioning organizations: you should argue fiercely for what you believe is right, but once the decision is made, you execute it fully even if it wasn't your preferred approach. No passive-aggressive undermining. No "I told you so" when things go wrong. Commit with full accountability.
+
+**Dive Deep**: "Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdotes differ."
+
+This principle meant I couldn't just hand-wave about "AI" or "ML algorithms." I had to understand the mathematics deeply, the data thoroughly, the customer problem precisely.
+
+<!--
+**Bias for Action**: "Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking."
+
+This principle distinguished Amazon from the corporate paralysis I'd seen elsewhere. At Samsung, decisions often required multiple approval layers, extensive documentation, consensus building across teams. By the time you got permission to try something, the opportunity had often passed.
+
+Amazon's bias for action meant: if a decision is reversible, make it quickly with available information. Don't wait for perfect data. Don't require unanimous approval. Try it, measure the results, and reverse course if wrong.
+
+This is why A/B testing was religious at Amazon. You didn't need to convince everyone your idea was right. You needed to convince your manager to let you test it. Then the data would decide. If your algorithm improved metrics, great—scale it up. If it hurt metrics, kill it quickly and try something else.
+
+The Main Menu Personalization project exemplified this. When our first version lost revenue, we didn't form committees to study what went wrong for months. We analyzed furiously for three weeks, formed hypotheses, launched version two, and tested again. Fast iteration, measurement-driven decisions, willingness to fail fast and learn.
+
+Without bias for action, I'd probably still be writing proposals about TestBot instead of having built it.
+-->
+
+**Bias for Action**: "Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking."
+
+This principle distinguished Amazon from the corporate paralysis I'd seen elsewhere. At Samsung, decisions often required multiple approval layers, extensive documentation, and consensus building across teams. By the time you got permission to try something, the opportunity had often passed.
+
+Amazon's bias for action meant: if a decision is reversible, make it quickly with available information. Don't wait for perfect data. Don't require unanimous approval. Try it, measure the results, and reverse course if wrong.
+
+Jeff Bezos himself captured this philosophy: "If your product is flawless or bug-free when deployed, it's deployed too late." He also insisted that leaders should make decisions with approximately 70% of the perfect data required—waiting for 90% or 100% means you're moving too slowly, and competitors who act on 70% will beat you.
+
+This is why A/B testing was religious at Amazon. You didn't need to convince everyone your idea was right. You needed to convince your manager to let you test it. Then the data would decide. If your algorithm improved metrics, great—scale it up. If it hurt metrics, kill it quickly and try something else.
+
+The Amazon Mobile Shopping App Main Menu Personalization project, which created $200 million additional revenue, exemplified this. When our first version lost revenue, we didn't form committees to study what went wrong for months. We analyzed furiously for three weeks, formed hypotheses, launched version two, and tested again. Fast iteration, measurement-driven decisions, willingness to fail fast and learn.
+
+<!--
+Without bias for action, I'd probably still be writing proposals about TestBot instead of having built it.
+-->
+
+These principles created an environment where:
+- Engineers couldn't hide behind technical complexity to avoid explaining value
+- Managers couldn't ignore technical details they found inconvenient
+- Teams couldn't optimize local metrics at the expense of customer experience
+- Individuals had both permission and obligation to challenge bad decisions
+
+**I believe Amazon's culture, more than any single technology, explains their sustained success.**
+
+<!--
+You can copy AWS. You can hire ML scientists. You can build data centers. But you can't easily copy a culture that actually operationalizes customer obsession and rigorous thinking at scale. Someone even says "You can't create or cultivate culture of a company. The company is a culture!"
+-->
+
+You can copy AWS. You can hire ML scientists. You can build data centers. But you can't easily copy a culture that actually operationalizes customer obsession and rigorous thinking at scale. Culture isn't a program you implement or a set of posters on the wall. The company is its culture—they're indistinguishable.
+
+## The PR/FAQ Process: Working Backwards from the Customer
+
+One of Amazon's most distinctive practices is the PR/FAQ (Press Release / Frequently Asked Questions) process for new initiatives.
+
+Here's how it works:
+
+Before writing any code, building any system, or launching any project, you write two documents:
+
+1. **A Press Release** announcing the completed project as if it already exists and has launched. This forces you to articulate:
+   - What customer problem does this solve?
+   - Why should customers care?
+   - What's the benefit in clear, non-technical language?
+   - What makes this meaningfully better than alternatives?
+
+2. **An FAQ document** answering questions like:
+   - Why is this technically feasible?
+   - What are the risks?
+   - What resources are required?
+   - How do we measure success?
+   - What are we NOT doing and why?
+
+The process seems backwards if you're used to technology-first thinking. Engineers naturally want to start with: "Here's a cool algorithm we could build..." or "We have this data, let's do something with it."
+
+PR/FAQ forces the opposite: start with the customer value proposition. Only proceed if you can articulate that clearly. Then work backwards to the technical solution.
+
+When I was exploring potential AI projects after my first success (more on that shortly), Adam—my manager, who I considered almost an ideal manager—and I went through the PR/FAQ process rigorously. We collected feedback from various teams, listed around a dozen potential projects, then used PR/FAQ to triage and identify which would have the highest customer impact with reasonable technical risk.
+
+The discipline of this process saved months of work on projects that would have been technically interesting but ultimately not valuable enough to customers to justify the resources.
+
+## Project One: Mobile App Cold Start Time Prediction
+
+My first major project at Amazon came directly from the top—an S-Team Goal, which meant it originated from Jeff Bezos, then Amazon's CEO, himself.
+
+The problem: predicting how long the Amazon Mobile Shopping App would take to start.
+
+This sounds trivial until you understand the stakes. Some psychologists say customers leave a website if loading takes more than three seconds. For Amazon, where revenue runs into hundreds of billions annually, app start time is *critical*. Every fraction of a second matters.
+
+And there was complexity that made this hard.
+
+Amazon's Mobile Shopping App team released new versions constantly—every other week, alternating between iOS and Android. One week Android update, next week iOS, then Android again. Real agile, genuinely fast-moving.
+
+Before each release, test engineers needed to verify the app started quickly enough. But here's the problem: there are hundreds of device types among Amazon's customers—different iPhone models, countless Android manufacturers and models, different OS versions, different Wi-Fi conditions, different network carriers.
+
+In our test lab, we had maybe two dozen devices and relatively homogeneous network conditions. How could we predict app start time for hundreds of millions of customers across hundreds of device types in wildly varying network conditions based on testing a couple dozen devices in controlled environments?
+
+The challenge required:
+1. Estimating the distribution of device types among all customers
+2. Estimating internet connection condition distributions
+3. Using AI techniques, similar to time-series anomaly detection, to predict performance
+4. Dealing with non-normal distributions that required studying new statistical methods
+
+Here's where my strong background in mathematics and statistics—not just machine learning—became crucial.
+
+I didn't just apply off-the-shelf AI algorithms. I read papers from the 1960s on advanced statistical methods. I combined classical statistics with modern AI. I understood the mathematical principles deeply enough to adapt techniques to this specific problem.
+
+Suhail, then director of the entire Amazon Mobile Shopping organization, told me that before my work, the chance of correctly predicting whether start time would be acceptable was essentially 50/50—random guessing.
+
+My algorithm achieved 97% accuracy for iOS and 94% for Android.
+
+That success earned me something invaluable at Amazon: trust from leadership.
+
+## Project Two: Main Menu Personalization—The $207 Million Algorithm
+
+After the cold start prediction success, I was tasked with something more ambitious: examining and collecting all potential AI projects across the Mobile organization and partner teams.
+
+Adam and I went through the PR/FAQ process I described earlier, collecting feedback from various teams, evaluating roughly a dozen potential projects. We triaged based on customer impact, technical feasibility, and strategic importance.
+
+The winner: **Mobile Shopping App Main Menu Personalization**.
+
+Let me explain the problem.
+
+On Amazon's retail website—viewed on desktops or laptops—you can see various stores: Books, Electronics, Kindle Store, Women's Clothing, Men's Clothing, etc. At that time, there were about 44 different stores.
+
+But on the Mobile App, screen real estate is limited. We could only show a handful of main menus by default to each customer.
+
+Amazon, in a sense, was born with machine learning. They'd been using recommendation systems for book recommendations since before "machine learning" became a standard term—using these techniques almost before knowing they'd be called ML. So Amazon already had advanced ML-based system for optimizing which main menus to show each customer.
+
+My task: make it significantly better.
+
+I researched extensively and decided on an approach: collaborative filtering combined with content-based filtering, plus customized statistical methods and advanced AI techniques to resolve cold-start problems (new users with no history).
+
+Once again, I wasn't using only AI algorithms. I combined them with traditional statistical methods. My mathematical background freed me from being stuck with a limited toolkit—I could use whatever methods worked best for the problem.
+
+This time, we formed a large coalition team across three cities:
+- Me and my team in Vancouver
+- Product managers in Seattle
+- Software development engineers in San Francisco
+
+The SF software engineers were incredible. One day, I tried downloading data for all Mobile Shopping App active users for the past 8 weeks. Because Amazon has a tremendous number of customers, it took 8 hours just to download the data.
+Considering we wanted to run my algorithm daily, 8 hours was intolerable.
+
+The SF engineers reduced that time to 8 minutes.
+
+To me, it was like magic. This is why I genuinely respected software development engineers and made teamwork a priority. (I later heard from other Amazon Applied Scientists that conflicts between applied scientists and software engineers were common. Maybe my respect for their craft made the difference.)
+
+But then came the nightmare.
+
+We finally launched the algorithm and increased the portion of customers fed by our new system. The A/B test results came in.
+
+**We were losing revenue.**
+
+The following three weeks felt like never-ending nightmare. I'd actually hurt Amazon's business. The three teams worked day and night, analyzing data, debugging, and trying to understand what went wrong.
+
+We found plausible reasons for the poor performance and launched a second version.
+
+Then came the day we'd know if version two worked.
+
+A/B testing isn't simple. You need at least seven days to account for weekly patterns (Monday through Friday variations, weekend behavior). So we waited. Analyzed. Worried.
+
+I still vividly remember Kabir—the project manager in Seattle—appearing on my monitor with the brightest face I'd ever seen.
+
+"The results are in," he said.
+
+**The new algorithm would increase annual revenue through the Amazon Mobile Shopping App by $207,133,371.12.**
+
+I couldn't believe it. Well, I *believed* the algorithm would work eventually. But that number? That specific, enormous number?
+
+<span id="aa"></span>
+My algorithm was choosing the best main menus for each customer every day, increasing engagement, and making shopping journeys more pleasant. And at Amazon's scale, those small improvements in engagement translated into massive revenue increases.
+
+The timing couldn't have been better. When I joined Amazon in 2017, revenue through the Mobile Shopping App was smaller than revenue through the Amazon retail website on PCs. But by the time I was working on this project, mobile revenue had exceeded desktop revenue.
+
+The mobile era had arrived. And we'd optimized for exactly the right moment.
+
+I joked with Adam: "Should we ask your boss if we can get, say, 1% of $200 million? I'll split it with you fifty-fifty."
+
+Unfortunately, that never happened. But I got something more valuable: even more trust from leadership. Which meant I could finally launch my own audacious project.
+
+## Project Three: TestBot—Automated Healing for Broken Tests
+
+With trust established from two successful projects, I could pursue something riskier, more ambitious, more uncertain.
+
+The problem: automatically fix broken integration testing for mobile apps.
+
+Testing mobile apps requires simulating user actions through the graphical interface. Amazon used software called Espresso that emulated customer actions—touching buttons, filling out forms, navigating screens, *etc.*
+
+But here's how it worked under the hood: to push a button, the test code needed to know the button's ID. Test engineers had numerous test scenarios, and they manually wrote Espresso code for each.
+
+The problem? **Tests were brittle.**
+
+When the UI changed—a button moved, a form reorganized, a screen redesigned—test scripts broke. Engineers had to manually update scripts every time. With Amazon's fast release cadence (every other week), this created constant firefighting.
+
+I decided to use deep reinforcement learning to:
+1. **Detect when tests broke**
+2. **Automatically fix the tests** by rewriting scripts
+3. **Heal the entire pipeline** automatically without human intervention
+
+Once again, I didn't use off-the-shelf algorithms. I studied the fundamental inner workings, even getting into philosophical thinking about what "understanding" means for an AI system. Amazingly, this philosophical approach helped with practical implementation.
+
+The work focused primarily on Build Verification Tests (BVT)—also called smoke tests—which are the first-line checks that basic functionality works.
+
+But I went further.
+
+The statistical nature of my algorithms enabled finding the most probable paths that would break tests—essentially, predicting where future bugs would likely emerge.
+
+This was critical because test coverage can never be 100% (almost by definition). There's always a chance newly released apps will unexpectedly crash for customers. When that happens, it's an emergency. We'd open a war room, and work until we fixed it, because it means millions of dollars lost per second.
+
+Having algorithmically-identified probable breaking sequences meant we could prevent catastrophes before they happened.
+
+TestBot was destined to be my last project at Amazon. I wouldn't have been able to start something this challenging—where success wasn't guaranteed—without the credibility from my previous two projects.
+
+## COVID-19 and the Tsunami of Decisions
+
+Then 2020 arrived. COVID-19.
+
+Suddenly, all Amazonians were deep into work-from-home mode. Surprisingly, many people expressed concerns about work-life harmony—the boundary between work and life had blurred. People were working longer hours, finding it hard to disconnect.
+
+This seemed quite different from what was happening in Korea, from what I could tell. Perhaps it was Amazon's strength—ownership, deep dive, customer obsession—taken to an extreme when your home became your office.
+
+But I had something else on my mind.
+
+By that time, I was going through agonizing moments because I had three offers:
+
+1. **DGIST**: Head of AI Graduate School
+2. **Seoul National University**: Professor in Data Science Graduate School
+3. **SK hynix**: Co-Founder and CTO for a newly spinning off industrial AI startup (soon to be called Gauss Labs)
+
+Plus a fourth option: staying at Amazon, where Adam was supporting my promotion to Principal Applied Scientist (a role that didn't even exist in Vancouver yet).
+
+For probably the first time in my life, I realized that **having options isn't necessarily a good thing.**
+At some moments, I even thought it was a curse to have options, because otherwise I wouldn't have to go through these agonies.
+
+The academic offers were prestigious. I'd always maintained peculiar and unique academic muscles even through my industry years. At Samsung, I'd opened several classes and became a popular internal lecturer teaching basic linear algebra, basic statistics, advanced linear algebra, advanced statistics, and even convex optimization—all in addition to my normal responsibilities. At Amazon, I also taught many machine learning classes internally and informally mentored more than ten Amazonians.
+
+Teaching came naturally. Research interested me. Academia had appeal.
+
+Amazon represented continued growth in an environment I understood, with people I respected, doing work that mattered at unprecedented scale.
+
+But the SK hynix offer—co-founding Gauss Labs—was simultaneously the most attractive and most terrifying choice of my life.
+
+It required courage I wasn't sure I had.
+
+Going to Stanford at 22 was one thing. Joining Amazon at 41 with a family—my daughter and my wife—was another level of risk. But joining a startup? I'd literally been telling my daughter: "Your daddy may seem rebellious in big established companies like Samsung and Amazon, but I'm actually quite conservative. Plus, I know that even before the dot-com bubble, the success rate of startups in Silicon Valley was around 3%, and normally it's less than 1%. So in my life, there's no joining a startup company."
+
+Going to Stanford at 22 was one thing. Joining Amazon at 41 with a family—my daughter and my wife—was another level of risk. But joining a startup? I'd literally been telling my daughter: "I know Daddy seems like he takes chances at work, but I'm actually pretty careful about the really big stuff. And startup companies? Those are really risky, honey. Most of them don't work out. So Daddy's going to stick with companies like Samsung and Amazon—the safe ones. Okay?"
+
+Now I was considering exactly that.
+
+## The Offer I Couldn't Refuse
+
+For six months, SK hynix kept approaching me. For six months, I kept declining.
+
+Finally, I made up my mind. "I'm sorry," I told them, "but my family wants to stay in Canada. Plus, I can see a very promising career path at Amazon."
+
+Then the HR Head of SK hynix made an offer that was totally unexpected.
+
+A compensation package so large he had to get special approval from the Chairman of SK Group himself. (This rarely happened, even for executive positions.)
+
+And something even more audacious: they would open a US office in Silicon Valley for Gauss Labs specifically to accommodate me. I wouldn't have to return to Korea.
+
+These were offers I could not reject.
+
+More than the compensation—though it was substantial—it was the recognition. An organization was willing to restructure its plans around work I'd done quietly, without recognition, a decade earlier at Samsung. They'd done their due diligence, talked to people who'd worked with me, and decided I was worth this kind of investment.
+
+So I determined to embark on yet another journey. Moving again, but into uncharted territory.
+
+It would prove to be another of the best decisions of my life.
+
+## What Three Years at Amazon Taught Me
+
+Looking back, my Amazon years crystallized four critical lessons:
+
+**First: Deep learning doesn't do everything. Mathematical foundations matter enormously.**
+
+My muscles in statistics and mathematics helped me constantly. Collaborative filtering, to me, was just matrix factorization—understanding it required no mental effort because I was versed in linear algebra and numerical linear algebra. When standard ML techniques didn't work, I could draw on classical statistics from papers published in the 1960s. Technical depth in fundamentals gave me flexibility that pure ML specialists often lacked.
+
+**Second: Being an AI generalist, not a specialist, was a strategic advantage.**
+
+I didn't do ML research for my PhD. When I got my degree in 2004, almost nobody was doing deep learning research because deep learning *didn't work* at that time. Nobody except Geoffrey Hinton really believed in it. I wasn't a computer vision specialist. I wasn't an NLP expert. I wasn't a reinforcement learning researcher, either.
+
+But I could self-study and learn every necessary technique whenever I needed them. This generalist approach—grounded in mathematical fundamentals—let me tackle wildly different problems: time-series prediction, recommendation systems, reinforcement learning for test automation.
+
+**Third: Technology comes second, not first. Customer problems come first.**
+
+I didn't choose technology then hunt for problems. I wrote PR/FAQs, got them reviewed by people with diverse backgrounds, focused on customers' pain points, then started thinking about which technology would work best. This ordering—customer first, technology second—was crucial to actual impact versus mere technical elegance.
+
+**Fourth: Genuinely respecting software development engineers made everything better.**
+
+The teamwork I had with the SF and Seattle teams for the Main Menu Personalization project couldn't have been better. I heard from other Applied Scientists that conflicts between scientists and engineers were common at Amazon. Maybe my genuine respect for their craft made the difference. Or maybe recognizing that turning "8 hours to 8 minutes" was as impressive as any ML algorithm helped build mutual respect.
+
+The latter two lessons—customer focus and cross-functional collaboration—were crucial factors in my success. The first two—mathematical depth and generalist breadth—gave me the technical capabilities. But capabilities without collaboration and customer focus don't generate $207 million in revenue.
+
+## Anthropological Lens: The Peculiar Culture of Amazon and the Metrics That Shape Us
+
+*By Jun-Young Park*
+
+Sunghee's Amazon experience reveals something anthropologists find endlessly fascinating: **how organizational culture functions as both enabler and constraint.**
+
+When Sunghee says Amazon's culture was more important than its technology, he's making a claim that sounds like corporate platitude but actually reflects deep anthropological truth.
+
+**Culture as Operating System**
+
+Most companies have "values" listed on websites that nobody actually follows. Amazon's Leadership Principles function differently—they're the *actual decision-making framework* that resolves conflicts, allocates resources, and evaluates performance.
+
+This is what anthropologists call an **enacted culture** versus an **espoused culture**. Many organizations espouse customer focus but enact shareholder primacy or manager appeasement. Amazon, whatever its other flaws, genuinely enacts customer obsession as the primary optimization objective.
+
+The PR/FAQ process is particularly brilliant as a cultural technology. By forcing teams to articulate customer value *before* building anything, it creates a structural barrier against the engineer's natural instinct to build cool technology for its own sake.
+
+Notice the inversion: instead of "we have this capability, let's find uses for it," the process demands "customers need this, let's figure out how to build it." This doesn't guarantee success, but it dramatically increases the probability that technical work will actually matter.
+
+**"Have Backbone; Disagree and Commit" as Social Technology**
+
+The principle Sunghee loved most—"Have Backbone; Disagree and Commit"—is anthropologically sophisticated in ways most people miss.
+
+It acknowledges a fundamental tension in organizations: you need both dissent (to avoid groupthink) and unity (to execute effectively). Most organizations fail at one or both:
+- Too much harmony &rarr; nobody challenges bad decisions &rarr; strategic drift
+- Too much conflict &rarr; nothing ever gets decided &rarr; organizational paralysis
+
+<!--
+- Too much conflict → nothing ever gets decided → organizational paralysis
+-->
+
+"Have Backbone; Disagree and Commit" attempts to resolve this by *temporally separating* dissent and unity:
+- **Before decision**: strong obligation to voice disagreement, even when uncomfortable
+- **After decision**: strong obligation to commit fully, even if you disagreed
+
+This works only if the culture actually protects dissenters from punishment. If disagreeing with your manager hurts your career, the principle becomes a tool for enforcing conformity under the guise of "disagreement."
+
+Whether Amazon achieves this in practice is debatable. But the principle itself reflects genuine wisdom about organizational decision-making.
+
+**The Dangers of Measurable Objectives**
+
+Here's the darker side of Amazon's culture: what gets measured gets optimized, and **what doesn't get measured gets ignored or actively degraded.**
+
+Sunghee's $207 million revenue increase is measurable, reportable, and promotable. It's an optimization success story.
+
+But Amazon's culture also produced:
+- Warehouse workers pushed to physical limits by algorithms optimizing productivity
+- Delivery drivers surveilled constantly, penalized for bathroom breaks
+- Third-party sellers exploited by algorithms identifying successful products to copy
+- Communities destroyed by tax avoidance strategies optimizing shareholder returns
+
+These aren't bugs in Amazon's culture. They're features. When customer obsession means "give customers what they want at the lowest price," and everything else is subordinate to that objective, you get both $207 million revenue increases and warehouse workers peeing in bottles because bathroom breaks hurt productivity metrics.
+
+The PR/FAQ process that prevents wasteful technology projects doesn't prevent exploitative labor practices—because those practices are *optimization successes* given Amazon's stated objectives.
+
+This is the tyranny of metrics that Sunghee encountered at Samsung and Amazon: organizations become extraordinarily good at optimizing what they measure, and extraordinarily indifferent to what they don't.
+
+**The Survivor Bias in "Having Options"**
+
+Sunghee describes having four career options as a curse. But let's acknowledge: **having four attractive options is an extraordinary privilege** that results from decades of compound advantages.
+
+His mathematical foundation from Boyd. His optimization expertise from Samsung. His ML skills from self-study. His $207 million success at Amazon. His integrity demonstrated ten years earlier on the DRAM project. All of these created the conditions where multiple prestigious institutions wanted to hire him.
+
+Most engineers face different constraints:
+- Visa status limiting mobility
+- Family health insurance tied to current employer
+- Student debt requiring steady income
+- Lack of credentials that prestigious institutions require
+- No network of people vouching for their character
+
+For them, "having options" isn't a curse—it's an impossible dream.
+
+This doesn't diminish Sunghee's genuine anguish over the decision. Choosing between good options is genuinely difficult. But it's a *privileged* difficulty that most workers never experience.
+
+The question an anthropologist asks: what systemic conditions make this kind of privilege accessible to some and unavailable to others? And are those conditions just?
+
+**The Hidden Cost of "Ownership"**
+
+Sunghee mentions that during COVID work-from-home, Amazonians worried about work-life balance because boundaries blurred. He attributes this to Amazon's cultural principles like "Ownership" and "Deep Dive"—strengths taken to extremes.
+
+But anthropologists recognize this differently: as **the privatization of social reproduction.**
+
+When Amazon cultivates a culture where dedicated employees work through dinner, answer emails at midnight, and check Slack on weekends, they're not just getting more labor per employee. They're externalizing the costs of that labor onto families.
+
+Who picks up kids from school when both parents are in back-to-back meetings? Who cooks dinner when "ownership" means working until the problem is solved? Who maintains relationships when "customer obsession" means customers always come first?
+
+Usually: women, disproportionately. The invisible labor of social reproduction that makes intensive corporate cultures possible falls heaviest on those already doing unpaid care work.
+
+Amazon's culture succeeds partly because it can assume employees have other people handling the life logistics that Amazon's demands make impossible to handle yourself.
+
+This isn't a critique of Sunghee, who clearly cares about his family. It's a structural observation: cultures of intense dedication work only by externalizing costs onto families, partners, and particularly women who disproportionately handle domestic labor.
+
+**What the "$207 Million" Doesn't Measure**
+
+The $207 million revenue increase is real, measurable, impressive. It represents genuine value creation—customers finding products they want more efficiently.
+
+But here's what it doesn't measure:
+- The psychological manipulation embedded in the algorithm (exploiting cognitive biases)
+- The environmental cost of increased consumption
+- The labor conditions in warehouses fulfilling those orders
+- The small businesses destroyed by Amazon's market power
+- The privacy surrendered by customers tracked through every interaction
+- The algorithmic bias potentially directing different products to different demographic groups
+
+These aren't hypothetical concerns. They're real costs that don't appear in the revenue calculation because they're externalities—borne by people and systems outside the optimization objective.
+A truly comprehensive accounting of the algorithm's impact would need to measure not just revenue but total welfare across all stakeholders: customers, workers, communities, environment, society.
+
+But that's not how Amazon measures success. And it's not how Sunghee's performance was evaluated.
+This is the gap between micro-optimization (make this algorithm better) and macro-assessment (is this system creating net good in the world).
+
+**The Conservative Radical**
+
+I'm fascinated by Sunghee's self-description as "quite conservative" despite seeming rebellious at Samsung and Amazon.
+
+He's right that he's conservative in important ways:
+- Won't join startups (until he did)
+- Prioritizes family stability
+- Prefers established institutions
+- Values proven fundamentals over trendy techniques
+
+But he's also genuinely radical:
+- Defying team politics to work on what matters (DRAM project)
+- Choosing customer value over local incentives
+- Leaving secure positions for uncertain opportunities (Stanford, Amazon, Gauss Labs)
+- Constantly learning new fields rather than specializing safely
+
+The resolution: **Sunghee is conservative in values but radical in pursuit of those values.**
+He won't chase trends or take foolish risks. But when his conservative principles (integrity, excellence, and service) conflict with conservative institutions (Samsung's team politics, and Amazon's metrics), he'll risk the institution to preserve the principles.
+
+This is a particular kind of integrity that's both admirable and rare: the willingness to be uncomfortable, to take risks, and to defy convention—not for self-aggrandizement but in service of principles you genuinely believe in.
+Most people optimize for comfort and conformity. Sunghee optimized for a strange combination: conservative values pursued through sometimes radical means.
+
+**The Mathematics of Career Decisions**
+
+Finally, consider the decision itself: four options, six months of agony, and ultimately choosing the riskiest path.
+
+This can't be optimized mathematically. There's no objective function that captures:
+- professional growth vs. family stability
+- prestige vs. impact
+- safety vs. meaning
+- short-term comfort vs. long-term fulfillment
+
+These involve incommensurable values that can't be reduced to a single metric. This is precisely where optimization fails—where human judgment, values, and perhaps courage are required.
+
+The fact that the "right" choice (Gauss Labs) wasn't obvious even to someone with Sunghee's analytical capabilities tells you something important: **the most consequential decisions in life resist optimization.**
+
+You can optimize your recommendation algorithm. You can optimize your test automation. You can even optimize your career within a chosen path. But choosing the path itself? That requires something optimization can't provide: wisdom, courage, and the ability to live with irreducible uncertainty.
+
+That's the gap this book keeps revealing: between the power of optimization for well-defined problems and its inadequacy for the most important questions we face.
+Understanding where optimization works is engineering. Understanding where it fails is wisdom.
+
+# Chapter 4: Gauss Labs — Industrial AI and the Bayesian Reality Check (2020-2023)
 
 - Co-founding SK Group's first AI company: The Silicon Valley-Korea bridge
 - When Bayesian methods outperform deep learning: Real examples from manufacturing
@@ -1286,7 +1847,7 @@ And it's the gap this book is trying to bridge.
 - Building AI for real factories, not PowerPoint presentations
 - **[Anthropological lens: The clash between innovation rhetoric and operational reality; the human element in "smart" factories]**
 
-## Chapter 5: Erudio Bio — AI Meets the Complexity of Life (2023-Present)
+# Chapter 5: Erudio Bio — AI Meets the Complexity of Life (2023-Present)
 
 - From circuits to cells: Why biotech is AI's next frontier
 - AlphaFold, Bio-TCAD, and the data scarcity wall in medicine
@@ -1294,7 +1855,7 @@ And it's the gap this book is trying to bridge.
 - The Gates Foundation grant: Validation and responsibility
 - **[Anthropological lens: The culture of medicine, the ethics of AI in healthcare, and who benefits from biological breakthroughs]**
 
-## Interlude: The Pattern Emerges
+# Interlude: The Pattern Emerges
 
 *A reflection on what these five stages reveal about AI's real capabilities and limits*
 
@@ -1302,7 +1863,7 @@ And it's the gap this book is trying to bridge.
 
 *Subtitled: The Truth Behind the Hype (And Why It Matters)*
 
-## Chapter 6: What LLMs Actually Do — The Conditional Probability Truth
+# Chapter 6: What LLMs Actually Do — The Conditional Probability Truth
 
 - Opening the black box: Transformers, attention mechanisms, and pattern completion
 - The Tom Cruise's mother example: Why LLMs don't truly "know" anything
@@ -1310,7 +1871,7 @@ And it's the gap this book is trying to bridge.
 - The architecture of illusion: How statistical correlation mimics comprehension
 - **[Anthropological lens: Why humans are so easily fooled by linguistic fluency; the anthropomorphization trap]**
 
-## Chapter 7: AI Cannot Believe, Reason, Know, or Think
+# Chapter 7: AI Cannot Believe, Reason, Know, or Think
 
 - The philosophical precision we need: Defining knowledge, belief, reasoning
 - Why "chain of thought" is pattern matching, not reasoning
@@ -1318,7 +1879,7 @@ And it's the gap this book is trying to bridge.
 - Mozart's birthplace and the soul AI cannot touch
 - **[Anthropological lens: Cultural constructions of intelligence, consciousness across societies, and why Western categories may mislead us]**
 
-## Chapter 8: The Hallucination Problem — Not a Bug, a Feature
+# Chapter 8: The Hallucination Problem — Not a Bug, a Feature
 
 - Why LLMs hallucinate: It's baked into the architecture
 - Confidence without knowledge: The most dangerous combination
@@ -1326,7 +1887,7 @@ And it's the gap this book is trying to bridge.
 - Can we fix it? Technical and philosophical limitations
 - **[Anthropological lens: Truth, trust, and authority in the age of confident AI misinformation]**
 
-## Chapter 9: AI Fairness, Bias, and the Inequality Accelerator
+# Chapter 9: AI Fairness, Bias, and the Inequality Accelerator
 
 - The Salzburg Global Seminar: Technology, growth, and inequality
 - Why AI systems inherit and amplify human biases
@@ -1335,7 +1896,7 @@ And it's the gap this book is trying to bridge.
 - Who benefits from AI advancement? Who pays the cost?
 - **[Anthropological lens: Power structures, technological colonialism, and whose values get encoded into "neutral" systems]**
 
-## Chapter 10: The Energy Crisis Nobody Talks About
+# Chapter 10: The Energy Crisis Nobody Talks About
 
 - LLMs' staggering energy consumption: The invisible cost
 - Why Sam Altman wants trillions and nuclear fusion
@@ -1343,7 +1904,7 @@ And it's the gap this book is trying to bridge.
 - Sustainability vs. scale: Can we have both?
 - **[Anthropological lens: Modern society's relationship with energy, growth ideology, and the mythology of limitless progress]**
 
-## Chapter 11: Why Digital Transformation Fails — The Human Factor
+# Chapter 11: Why Digital Transformation Fails — The Human Factor
 
 - The 70% failure rate: Why most AI projects don't deliver
 - Technology vs. culture: When algorithms meet organizational reality
@@ -1352,7 +1913,7 @@ And it's the gap this book is trying to bridge.
 - Real stories from Samsung, Amazon, and Gauss Labs
 - **[Anthropological lens: Organizational culture, power dynamics, resistance to change, and the rituals that shape technology adoption]**
 
-## Chapter 12: Data is Destiny — The Real Competitive Advantage
+# Chapter 12: Data is Destiny — The Real Competitive Advantage
 
 - Why models are commoditizing but data isn't
 - RAG, vector databases, and domain-specific knowledge
@@ -1360,7 +1921,7 @@ And it's the gap this book is trying to bridge.
 - Building data moats in the age of AI agents
 - **[Anthropological lens: Knowledge as cultural capital; who owns information in digital societies]**
 
-## Chapter 13: Multi-Agent AI — The Next Paradigm
+# Chapter 13: Multi-Agent AI — The Next Paradigm
 
 - From single models to agent societies
 - Collective intelligence vs. monolithic systems
@@ -1368,7 +1929,7 @@ And it's the gap this book is trying to bridge.
 - Real applications: Where multi-agent systems shine
 - **[Anthropological lens: Parallels to human social organization; what agent cooperation reveals about collective intelligence]**
 
-## Chapter 14: The Healthspan Revolution — AI's Most Important Application
+# Chapter 14: The Healthspan Revolution — AI's Most Important Application
 
 - Why living longer isn't enough: The healthspan challenge
 - Erudio Bio's mission: From cancer detection to health asset management
@@ -1376,11 +1937,7 @@ And it's the gap this book is trying to bridge.
 - The ethical imperative: Ensuring access for all
 - **[Anthropological lens: Cultural attitudes toward aging, death, health across societies; medicalization and its discontents]**
 
----
-
-## PILOGUE: Optimizing for Humanity
-
-## Chapter 15: The Future We Choose — Technology, Wisdom, and Values
+# Chapter 15: The Future We Choose — Technology, Wisdom, and Values
 
 - AI that amplifies human capabilities, not replaces human agency
 - The Rhône River reflection: Technology carrying human values forward
@@ -1389,16 +1946,16 @@ And it's the gap this book is trying to bridge.
 - The irreplaceable value of human creativity, consciousness, and wisdom
 - **[Final anthropological reflection: What makes us human in an age of intelligent machines; cultural evolution and technological change]**
 
----
+# EPILOGUE: Optimizing for Humanity
 
-## PPENDICES
+# APPENDICES
 
-**Appendix A:** Glossary of Technical Terms (for non-technical readers)
+## Appendix A: Glossary of Technical Terms (for non-technical readers)
 
-**Appendix B:** Mathematical Foundations — A Primer on Convex Optimization and Neural Networks
+## Appendix B: Mathematical Foundations — A Primer on Convex Optimization and Neural Networks
 
-**Appendix C:** Resources for Further Learning (Books, Papers, Courses)
+## Appendix C: Resources for Further Learning (Books, Papers, Courses)
 
-**Appendix D:** The K-PAI Framework — Building Responsible AI Communities
+## Appendix D: The K-PAI Framework — Building Responsible AI Communities
 
-**Appendix E:** Interview Guide — Questions for Evaluating AI Solutions in Your Organization
+## Appendix E: Interview Guide — Questions for Evaluating AI Solutions in Your Organization
