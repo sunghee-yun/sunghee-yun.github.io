@@ -2,7 +2,7 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Thu Oct 16 10:06:06 KST 2025
+last_modified_at: Sat Dec 13 12:08:09 KST 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -41,17 +41,127 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <h1>AI creates Podcasts for Me!</h1>
 
-<audio id="podcast-audio-1" controls>
+<!--audio id="podcast-audio-1" controls>
 	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__From_Sound_Waves_to_Soulful_E.m4a">
 	Your browser does not support this longest audio element.
-</audio>
+</audio-->
 
+<!--
 - [The Dimensional Paradox of Music - Unpacking Emotion, Consciousness, and the Universe's Soundtrack (22:05)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=25376e1d-c9e7-40e1-86d4-4f661f277989){:target="_blank"}
 - [The Dimensional Paradox of Music - Unpacking Emotion, Consciousness, and the Universe's Soundtrack (17:49)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=f60bc9c8-483e-4e5d-b2f5-700b87b60a9b){:target="_blank"}
 - [The Dimensional Paradox of Music - Unpacking Emotion, Consciousness, and the Universe's Soundtrack (15:08)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=677873fe-0642-429d-979e-e4cb2a820f70){:target="_blank"}
 - [The "Mathematical Impossibility" of Music - How Consciousness Creates Richness from Sound Waves (15:02)](https://notebooklm.google.com/notebook/5c36bd8a-ed99-46ce-87b9-e077ace21432?artifactId=fb484098-74ae-4167-a0ef-667435eab0a9){:target="_blank"}
 - [The Dimensional Paradox - How One Sound Wave Becomes Profound Music (22:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=8d10385f-3a83-4a24-897d-62d1be9614df){:target="_blank"}
 - [The Dimensional Paradox - How One Sound Wave Creates the Universe of Music and Consciousness (14:56)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=ce66f76d-f6c1-43b8-82a5-1dad7161bf20){:target="_blank"}
+-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox of Music: From Sound Waves to Soulful Experience</strong>
+			<span style="opacity: 0.8;">(13:57)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-5" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__From_Sound_Waves_to_Soulful_E.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox of Music: Unpacking Sound, Consciousness, and the Universe</strong>
+			<span style="opacity: 0.8;">(22:05)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-6" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__Unpacking_Sound,_Consciousnes.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox of Music: How Consciousness Orchestrates Meaning from Simple Sound</strong>
+			<span style="opacity: 0.8;">(17:49)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-5" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__How_Consciousness_Orchestrate.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox of Music: Unpacking Emotion, Consciousness, and the Universe's Soundtrack</strong>
+			<span style="opacity: 0.8;">(15:08)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-6" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__Unpacking_Emotion,_Consciousn.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The "Mathematical Impossibility" of Music: How Consciousness Creates Richness from Sound Waves</strong>
+			<span style="opacity: 0.8;">(15:02)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-5" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The__Mathematical_Impossibility__of_Music__How_Consciousness_Cr.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox: How One Sound Wave Becomes Profound Music</strong>
+			<span style="opacity: 0.8;">(22:57)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-6" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox__How_One_Sound_Wave_Becomes_Profound_Mu.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Dimensional Paradox: How One Sound Wave Creates the Universe of Music and Consciousness</strong>
+			<span style="opacity: 0.8;">(14:56)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-5" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox__How_One_Sound_Wave_Creates_the_Univers.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Is Musical Depth Math or Consciousness</strong>
+			<span style="opacity: 0.8;">(16:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-6" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/Is_Musical_Depth_Math_or_Consciousness.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <!--
 - [The Dimensional Paradox of Music - From Sound Waves to Soulful Experience (13:57)](https://notebooklm.google.com/notebook/f0a4f0f6-d7c7-437a-b033-18094fe9ad25?artifactId=1c6a7bcf-84cf-46f7-86a2-d1ac6b560906){:target="_blank"}
