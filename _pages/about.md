@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Thu Nov 27 11:59:47 KST 2025
+last_modified_at: Tue Dec 16 21:19:23 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -297,11 +297,11 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 
 ## Co-Founder &amp; CTO @ [Erudio Bio](https://www.erudio.bio/) / CEO @ Erudio Bio Korea / [Silicon Valley Privacy-preserving AI Form (K-PAI)](https://k-privateai.github.io/) Leader
 
+- [빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}
+	&ndash; 머니투데이
+	@ 15-Dec-2025 KST
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
 	&ndash; 아시아경제
-	@ 30-Oct-2025 KST
-- [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://news.nate.com/view/20251030n06544){:target="_blank"}
-	&ndash; nate 뉴스
 	@ 30-Oct-2025 KST
 - [Erudio Bio, Inc. in Gates Foundation](https://www.gatesfoundation.org/about/committed-grants/2025/08/inv-094094){:target="_blank"}
 	&ndash; [Gates Foundation](https://www.gatesfoundation.org/){:target="_blank"}
