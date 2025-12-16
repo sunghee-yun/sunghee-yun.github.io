@@ -1,6 +1,20 @@
 [
 	{
 		"category": ["sunghee"],
+		"title": "빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다",
+		"press": "머니투데이",
+		"date": "15-Dec-2025 KST",
+		"url": "https://www.mt.co.kr/tech/2025/12/15/2025121200524048774"
+	},
+	{
+		"category": ["sunghee"],
+		"title": "빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다",
+		"press": "nate 뉴스",
+		"date": "15-Dec-2025 KST",
+		"url": "https://news.nate.com/view/20251215n26404"
+	},
+	{
+		"category": ["sunghee"],
 		"title": "SK, 美에 AI 전문사 ‘가우스랩스’ 설립",
 		"press": "매일경제",
 		"date": "22-Sep-2020 KST",
@@ -134,6 +148,20 @@
 	},
 	{
 		"category": ["biotech"],
+		"url": "https://www.hankyung.com/article/2025101761971",
+		"title": "'AI 헬스케어' 보폭 넓히는 삼성전자, 美 그레일에 1560억 투자",
+		"date": "29-Oct-2025",
+		"press": "한경"
+	},
+	{
+		"category": ["biotech"],
+		"url": "https://pharm.edaily.co.kr/News/Read?newsId=01095526642270600",
+		"title": "&ldquo;경이로운 수준&rdquo; 빌 게이츠가 K바이오 주목한 이유 [화제의 바이오人]",
+		"date": "24-Aug-2025",
+		"press": "Pharm Daily"
+	},
+	{
+		"category": ["biotech"],
 		"url": "https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/",
 		"title": "Holistic Landscape of Biotechnology + AI",
 		"date": "08-Oct-2025",
@@ -216,6 +244,13 @@
 		"title": "The OpenAI Mafia is Racing to Bigger AI Supercomputers",
 		"date": "05-Sep-2024",
 		"press": "AI Supremacy"
+	},
+	{
+		"category": ["biotech"],
+		"title": "빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다",
+		"press": "머니투데이",
+		"date": "15-Dec-2025 KST",
+		"url": "https://www.mt.co.kr/tech/2025/12/15/2025121200524048774"
 	},
 	{
 		"category": ["biotech"],
@@ -423,10 +458,24 @@
 	},
 	{
 		"category": ["ai", "industry"],
+		"url": "https://www.mt.co.kr/tech/2025/10/20/2025101508054555471",
+		"title": "정부 나서 돈 쏟아붓더니…중국, AI 특허·인재 이미 미국 넘었다",
+		"press": "머니투데이",
+		"date": "20-Oct-2025"
+	},
+	{
+		"category": ["ai", "industry"],
 		"url": "https://fortune.com/2024/10/01/openai-sam-altman-mira-murati-gpt-4o-o1-chatgpt-turbulent-year/",
 		"title": "Before Mira Murati’s surprise exit from OpenAI, staff grumbled its o1 model had been released prematurely",
 		"press": "Fortune",
 		"date": "01-Oct-2024"
+	},
+	{
+		"category": ["ai", "industry"],
+		"url": "https://www.mt.co.kr/tech/2025/10/30/2025103010110556846",
+		"title": "생성형 AI 도입으로 잘나가더니 3만명 해고한 북미…국내는?",
+		"press": "머니투데이",
+		"date": "30-Oct-2025"
 	},
 	{
 		"category": ["ai", "industry"],

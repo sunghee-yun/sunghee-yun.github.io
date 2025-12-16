@@ -121,6 +121,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- 머니투데이
+	@ 15-Dec-2025 KST
+</li>
+<li>
+	<a href="https://news.nate.com/view/20251215n26404">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- nate 뉴스
+	@ 15-Dec-2025 KST
+</li>
+<li>
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
@@ -246,14 +256,29 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- 머니투데이
+	@ 15-Dec-2025 KST
+</li>
+<li>
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
 </li>
 <li>
+	<a href="https://www.hankyung.com/article/2025101761971">'AI 헬스케어' 보폭 넓히는 삼성전자, 美 그레일에 1560억 투자</a>
+	- 한경
+	@ 29-Oct-2025
+</li>
+<li>
 	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
 	- Riverside the Ground Up Podcast
 	@ 08-Oct-2025
+</li>
+<li>
+	<a href="https://pharm.edaily.co.kr/News/Read?newsId=01095526642270600">&ldquo;경이로운 수준&rdquo; 빌 게이츠가 K바이오 주목한 이유 [화제의 바이오人]</a>
+	- Pharm Daily
+	@ 24-Aug-2025
 </li>
 <li>
 	<a href="https://www.linkedin.com/pulse/5-digital-health-areas-impacted-fda-layoffs-bertalan-mesk%C3%B3-md-phd-wb1mf/">5 Digital Health Areas To Be Impacted By The FDA Layoffs</a>
@@ -427,6 +452,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h2 id="ai-industry">Industry</h2>
 
 <ul>
+<li>
+	<a href="https://www.mt.co.kr/tech/2025/10/30/2025103010110556846">생성형 AI 도입으로 잘나가더니 3만명 해고한 북미…국내는?</a>
+	- 머니투데이
+	@ 30-Oct-2025
+</li>
+<li>
+	<a href="https://www.mt.co.kr/tech/2025/10/20/2025101508054555471">정부 나서 돈 쏟아붓더니…중국, AI 특허·인재 이미 미국 넘었다</a>
+	- 머니투데이
+	@ 20-Oct-2025
+</li>
 <li>
 	<a href="https://fortune.com/2024/10/01/openai-sam-altman-mira-murati-gpt-4o-o1-chatgpt-turbulent-year/">Before Mira Murati’s surprise exit from OpenAI, staff grumbled its o1 model had been released prematurely</a>
 	- Fortune
@@ -1368,6 +1403,21 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
 <li>
+	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- 머니투데이
+	@ 15-Dec-2025 KST
+</li>
+<li>
+	<a href="https://news.nate.com/view/20251215n26404">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- nate 뉴스
+	@ 15-Dec-2025 KST
+</li>
+<li>
+	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
+	- 머니투데이
+	@ 15-Dec-2025 KST
+</li>
+<li>
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
@@ -1383,6 +1433,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	@ 30-Oct-2025
 </li>
 <li>
+	<a href="https://www.mt.co.kr/tech/2025/10/30/2025103010110556846">생성형 AI 도입으로 잘나가더니 3만명 해고한 북미…국내는?</a>
+	- 머니투데이
+	@ 30-Oct-2025
+</li>
+<li>
+	<a href="https://www.hankyung.com/article/2025101761971">'AI 헬스케어' 보폭 넓히는 삼성전자, 美 그레일에 1560억 투자</a>
+	- 한경
+	@ 29-Oct-2025
+</li>
+<li>
 	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
 	- 고려대학교 경영대학원 CDTB
 	@ 27-Oct-2025 KST
@@ -1391,6 +1451,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://n.news.naver.com/article/008/0005264969?type=journalists">어디서도 못 사는 K데이터&hellip;반도체·의료산업 차별성 살려라</a>
 	- 머니투데이
 	@ 20-Oct-2025 KST
+</li>
+<li>
+	<a href="https://www.mt.co.kr/tech/2025/10/20/2025101508054555471">정부 나서 돈 쏟아붓더니…중국, AI 특허·인재 이미 미국 넘었다</a>
+	- 머니투데이
+	@ 20-Oct-2025
 </li>
 <li>
 	<a href="https://www.thestreet.com/technology/former-intel-ceo-drops-curt-2-word-verdict-on-ai">Former Intel CEO drops curt 2-word verdict on AI - A familiar voice weighs in on the AI frenzy</a>
@@ -1406,6 +1471,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/">Holistic Landscape of Biotechnology + AI</a>
 	- Riverside the Ground Up Podcast
 	@ 08-Oct-2025
+</li>
+<li>
+	<a href="https://pharm.edaily.co.kr/News/Read?newsId=01095526642270600">&ldquo;경이로운 수준&rdquo; 빌 게이츠가 K바이오 주목한 이유 [화제의 바이오人]</a>
+	- Pharm Daily
+	@ 24-Aug-2025
 </li>
 <li>
 	<a href="https://blog.naver.com/bookcation/223851899591">🤔 실리콘벨리 AI 전문가에게 듣는 AI 시대의 생존법</a>
