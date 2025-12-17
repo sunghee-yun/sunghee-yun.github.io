@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Wed Nov  5 18:25:58 PST 2025
+last_modified_at: Wed Dec 17 21:47:01 KST 2025
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -161,13 +161,19 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 
 # Some of My Press Exposures
 
+- [빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}
+	&ndash; 머니투데이
+	@ 15-Dec-2025 KST
+
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}
 	&ndash; 아시아경제
 	@ 30-Oct-2025 KST
 
+<!--
 - [에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다](https://news.nate.com/view/20251030n06544){:target="_blank"}
 	&ndash; nate 뉴스
 	@ 30-Oct-2025 KST
+-->
 
 <div class="img-container">
 <img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
