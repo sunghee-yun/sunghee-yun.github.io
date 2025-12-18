@@ -1,6 +1,13 @@
 [
 	{
 		"category": ["sunghee"],
+		"title": "[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과",
+		"press": "News Korea",
+		"date": "18-Dec-2025 KST",
+		"url": "https://www.newskorea.ne.kr/news/articleView.html?idxno=18397"
+	},
+	{
+		"category": ["sunghee"],
 		"title": "빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다",
 		"press": "머니투데이",
 		"date": "15-Dec-2025 KST",
@@ -145,6 +152,13 @@
 		"title": "Holistic Landscape of Biotechnology + AI",
 		"date": "08-Oct-2025",
 		"press": "Riverside the Ground Up Podcast"
+	},
+	{
+		"category": ["biotech"],
+		"title": "[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과",
+		"press": "News Korea",
+		"date": "18-Dec-2025 KST",
+		"url": "https://www.newskorea.ne.kr/news/articleView.html?idxno=18397"
 	},
 	{
 		"category": ["biotech"],

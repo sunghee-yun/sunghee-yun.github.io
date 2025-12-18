@@ -121,6 +121,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://www.newskorea.ne.kr/news/articleView.html?idxno=18397">[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과</a>
+	- News Korea
+	@ 18-Dec-2025 KST
+</li>
+<li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
 	@ 15-Dec-2025 KST
@@ -255,6 +260,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 <h1 id="biotech">Biotech &amp; medical &amp; healthcare</h1>
 
 <ul>
+<li>
+	<a href="https://www.newskorea.ne.kr/news/articleView.html?idxno=18397">[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과</a>
+	- News Korea
+	@ 18-Dec-2025 KST
+</li>
 <li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
@@ -1402,6 +1412,16 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://www.newskorea.ne.kr/news/articleView.html?idxno=18397">[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과</a>
+	- News Korea
+	@ 18-Dec-2025 KST
+</li>
+<li>
+	<a href="https://www.newskorea.ne.kr/news/articleView.html?idxno=18397">[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과</a>
+	- News Korea
+	@ 18-Dec-2025 KST
+</li>
 <li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
