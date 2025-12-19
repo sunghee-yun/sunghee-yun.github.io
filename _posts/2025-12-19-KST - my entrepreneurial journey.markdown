@@ -1,7 +1,7 @@
 ---
 title: "나의 창업 스토리 - 수학에서 생명과학까지, 영재성을 창업으로 꽃피운 여정"
 date: Thu Dec 18 10:21:28 KST 2025
-last_modified_at: Fri Dec 19 23:58:17 KST 2025
+last_modified_at: Sat Dec 20 00:31:07 KST 2025
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -27,7 +27,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # 지금, 여기
 
-나는 현재 Silicon Valley에 설립한 AI-Biotech 회사 Erudio Bio의 공동창업자이자 최고기술책임자(CTO)이고 Erudio Bio의 한국지사 Erudio Bio Korea의 대표이사이다. 그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)의 창립멤버이자 리더이다. 그 외에도 74년 역사의 비영리단체 Salzburg Global Seminar의 KFAS-Salzburg Global Leadership Initiative Fellow, 대한한의사협회 인공지능 TF 위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다. 그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다. 그리고 최근 Erudio Bio는 게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다.
+나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 에루디오바이오(Erudio Bio)의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 에루디오바이오코리아(Erudio Bio Korea)의 대표이사이다.
+그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)의 창립멤버이자 리더이다. 그 외에도 74년 역사의 비영리단체 Salzburg Global Seminar의 KFAS-Salzburg Global Leadership Initiative Fellow, 대한한의사협회 인공지능 TF 위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다. 그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다. 그리고 최근 Erudio Bio는 게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다.
 
 # 어린시절 - 근본적인 원인의 탐구
 
