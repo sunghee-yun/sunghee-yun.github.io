@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "나의 창업 스토리 - 수학에서 생명과학까지, 영재성을 창업으로 꽃피운 여정 (기고문)"
-date: Fri Dec 19 00:25:08 KST 2025
+date: Sat Dec 20 15:08:28 KST 2025
 last_modified_at: Sat Dec 20 11:44:02 KST 2025
 permalink: /contributions/my-entrepreneurial-journey/compact
 categories:
@@ -31,7 +31,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 나는 실리콜밸리(Silicon Valley)의 AI-Biotech 회사 에루디오바이오(Erudio Bio)의 공동창업자이자 최고기술책임자(CTO)이며
 한국지사 대표이다.
 또한 실리콘밸리 프라이버시 보존 AI 포럼(K-PAI: Silicon Valley Privacy-Preserving AI Forum)의 창립멤버이자 리더로서
-사업가·투자자·엔지니어·과학자 등 다양한 분야의 사람들을 연결하는 생태계를 만들고 있다. 올해만 AI 및 Biotech 관련 특강 50여 회를 진행했으며, 최근 Erudio Bio는 게이츠 재단으로부터 백만불 Grant를 받았다.
+사업가·투자자·엔지니어·과학자 등 다양한 분야의 사람들을 연결하는 생태계를 만들고 있다.
+그 외에도 74년 역사의 비영리단체 Salzburg Global Seminar의 KFAS-Salzburg Global Leadership Initiative Fellow,
+대한한의사협회 인공지능 TF 위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수,
+그 외 다수 기업의 자문도 맡고 있다.
+그리고 올해만 AI 및 Biotech 관련 특강 50여 회를 진행했으며, 최근 Erudio Bio는 게이츠 재단으로부터 백만불 Grant를 받았다.
 
 # 어린시절 - 근본적인 원인의 탐구
 
