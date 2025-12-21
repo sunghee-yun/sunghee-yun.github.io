@@ -1,7 +1,7 @@
 ---
 title: "나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sun Dec 21 22:10:35 KST 2025
+last_modified_at: Sun Dec 21 23:28:39 KST 2025
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -24,6 +24,39 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
+<div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;">
+<!--video width="320" height="240" controls-->
+<video width="100%" controls>
+    <source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_to_Life_Science.mp4">
+</video>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Technical Anchor Versus Connector Success</strong>
+			<span style="opacity: 0.8;">(13:18)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-5" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Technical_Anchor_Versus_Connector_Success.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Math Optimization Solves Health Crises</strong>
+			<span style="opacity: 0.8;">(15:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-eng-6" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_Optimization_Solves_Health_Crises.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # 지금, 여기
 
