@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Nov 11 07:13:53 PST 2025
+last_modified_at: Sun Dec 21 21:50:24 KST 2025
 ---
 
 <!--
@@ -133,7 +133,7 @@ last_modified_at: Tue Nov 11 07:13:53 PST 2025
 	<a href="https://seatgeek.com/account/tickets/17085328">Kiss of Life</a>
 	@ <a href="https://maps.app.goo.gl/2NjGDQR1jxkjY8XcA">The Warfield</a>
 	- 10-Dec-2024 PST
-	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+	<#	new file:   #	new file:   #	new file:   #	new file:   #	new file:   #	new file:   a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	-
 	<a href="/resource/music/concert-tickets/2024_1210 - Kiss of Life @ The Warfield - ticket - Sunghee.jpeg">Sunghee's ticket</a>
 </li>
@@ -292,34 +292,42 @@ last_modified_at: Tue Nov 11 07:13:53 PST 2025
 		(13h)
 	- return flight
 		&ndash; OZ 212
-		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 21-Dec-2025
-		(10h 35m)
+		&ndash; from ICN @ ~~6pm~~ 8:47pm KST to SFO @ ~~11:35am~~ 2:13pm PST on 21-Dec-2025
+		(~~10h 35m~~ 10h 26m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
-- biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
+	- 1 day trip to Daegu to visit Keimyung University Dongsan Hospital
+		- 15-Dec-2025 KST
+		- KTX 072 &ndash; from Gwangmyeong @ 12:17pm to Dongdaegu @ 1:47pm
+		- KTX 218 &ndash; from Dongdaegu @ 7:12pm to Gwangmyeong @ 8:46pm
+
+- ~~biz trip to San Diego for [NeurIPS 2025](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/tmp6il_2pc8.pdf)
 	&ndash;
-	6 nights
-	- 01-Dec-2025 PST ~ 07-Dec-2025 PST &ndash; [flight invoice](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)
-	- flight
+	6 nights~~
+	- ~~01-Dec-2025 PST ~ 07-Dec-2025 PST &ndash; [flight invoice](/resource/trips/2025-12 - San Deigo for NeurIPS 2025/www.expedia.com-egti-KRT-B7K-WJTT.pdf)~~
+	- ~~flight
 		&ndash; AS 3429 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SJC @ 2:59pm to SAN @ 4:28pm on 01-Dec-2025 PST
-		(1h 29m)
-	- return flight
+		(1h 29m)~~
+	- ~~return flight
 		&ndash; AS 3498 operated by SUBSIDIARY/FRANCHISE
 		&ndash; from SAN @ 5:09pm to SJC @ 6:48pm on 07-Dec-2025 PST
-		(1h 39m)
+		(1h 39m)~~
 
 <h4>Nov</h4>
 
-- biz trip to Seoul &ndash; 12 nights
-	- 16-Nov-2025 PST ~ 28-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-16 - Seoul/www.expedia.com-egti-5O4-TYQ-AVH6.pdf){:target="_blank"}
+- biz trip to Seoul &ndash; ~~12~~ 13 nights
+	- 16-Nov-2025 PST ~ ~~28-Nov-2025~~ 29-Nov-2025 PST &ndash; [flight invoice](/resource/trips/2025-11-16 - Seoul/www.expedia.com-egti-5O4-TYQ-AVH6.pdf){:target="_blank"}
 	- flight
 		&ndash; Air Premia 112
 		&ndash; from SFO @ 2:30pm on 16-Nov-2025 PST to ICN @ 8:30pm on 17-Nov-2025 KST
 		(13h)
 	- return flight
-		&ndash; Air Premia 111
+		&ndash; ~~Air Premia 111
 		&ndash; from ICN @ 6:55pm KST to SFO @ 12:30pm PST on 28-Nov-2025
-		(10h 35m)
+		(10h 35m)~~
+		UA 806
+		&ndash; from ICN @ 12:45pm KST to SFO @ 6:30am PST on 29-Nov-2025
+		(10h 45m)
 	- stay @ [수지](https://naver.me/FbqzqrjR){:target="_blank"}
 	- 1 night trip to Jeju for Jeju Food Tech Industry Growth Strategy Seminar
 		@ [Bio-Convergence Center](https://naver.me/502Udaod){:target="_blank"}
