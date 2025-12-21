@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[San Jose State University Special AI Lecture Series I - The Historical Foundation & Modern Landscape] From Connectionism vs Symbolism to the Agentic Revolution - Understanding Deep Learning, LLMs, and the Path to Multi-Modal Intelligence"
+permalink: /seminars/2025_1229 PST - San Jose State University Special AI Lecture Series I - The Historical Foundation & Modern Landscape/abstract
+last_modified_at: Mon Dec 22 02:10:48 KST 2025
+author_profile: true
+---
+
+# Abstract
+
+This foundational lecture traces the complete evolutionary arc of artificial intelligence from its philosophical origins to the current agentic revolution, providing essential historical context for understanding today's AI landscape. Beginning with Alan Turing's seminal 1950 vision of thinking machines and the historic clash between symbolist and connectionist paradigms at the 1956 Dartmouth Conference, we examine how deep learning emerged as the decisive victor despite decades of AI winters and competing approaches. The lecture chronicles the watershed moments that shaped modern AI—from expert systems and probabilistic models through the deep learning revolution catalyzed by AlexNet's 2012 ImageNet victory, to the transformer architecture's 2017 breakthrough that fundamentally changed natural language processing and beyond.
+
+We analyze concrete evidence of AI's transformative impact through major technological achievements spanning 2014-2025, including AlphaGo's defeat of human champions, AlphaFold's solution to the 50-year protein folding problem, the explosive adoption of ChatGPT reaching 35 million users in five months, and the emergence of embodied AI through humanoid robots like Figure 02 and Optimus. Market indicators—from NVIDIA's extraordinary 101% year-over-year growth to the $28.2 billion in cumulative AI startup funding—demonstrate AI's economic significance while raising critical questions about hype cycles, sustainable value creation, and the fundamental differences between AI's trajectory and previous technology bubbles like the 1990s fiber optic infrastructure boom.
+
+The lecture culminates in examining the progression from Big Data through Deep Learning to Large Language Models and finally to Agentic AI, revealing how multimodal learning represents far more than technological advancement—it embodies a fundamental shift in how AI systems understand and interact with the world. By exploring how LLMs connect the non-linguistic world (open system) through natural language (closed system)—a representation optimized through thousands of generations of human evolution—we illuminate why these models transcend mere language processing to become general-purpose learning mechanisms. This foundation sets the stage for understanding AI agents as sophisticated multimodal systems that perceive environments through vision, audio, and text, reason across modalities, and autonomously execute complex tasks, ultimately reshaping industries from scientific research and healthcare to creative collaboration and environmental monitoring.
