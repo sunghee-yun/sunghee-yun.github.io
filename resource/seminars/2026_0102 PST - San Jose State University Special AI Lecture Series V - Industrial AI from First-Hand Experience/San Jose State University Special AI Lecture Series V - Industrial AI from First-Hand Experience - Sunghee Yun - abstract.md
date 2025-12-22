@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[San Jose State University Special AI Lecture Series V - Industrial AI from First-Hand Experience] From Theory to Production - Manufacturing AI Systems, Computer Vision, Virtual Metrology, and Project Success Strategies"
+permalink: /seminars/2026_0102 PST - San Jose State University Special AI Lecture Series V - Industrial AI from First-Hand Experience/abstract
+last_modified_at: Sun Dec 21 17:08:45 PST 2025
+author_profile: true
+---
+
+# Abstract
+
+While frontier AI research pursues human-level intelligence, Industrial AI (inAI) tackles a fundamentally different challenge: creating tangible value in manufacturing environments through customer value creation, productivity improvement, and production optimization. This lecture bridges the gap between academic AI theory and production reality, drawing from first-hand experience deploying AI systems at Samsung Semiconductor, Amazon, and Gauss Labs across semiconductor, steel, oil & gas, and other manufacturing industries. Unlike foundation models that learn universal features, industrial AI demands data-centric approaches where "you need 1,000 models for 1,000 problems," each battling challenging data characteristics including severe drift and shift, extreme label imbalance, and very fat data with poor quality.
+
+The technical core examines two pillars of manufacturing AI: computer vision ML for measurement and inspection (semantic segmentation, defect detection, anomaly detection using embedding space representations) and time-series ML for virtual metrology and predictive maintenance. Virtual Metrology—predicting measurements without physically measuring them—serves as our case study, where Gauss Labs' home-grown online adaptive ensemble learning method outperformed competitors including Samsung and Intel's in-house tools, reducing process variation by tens of percent and becoming the company's main revenue source. We'll explore the mathematical formulation of VM as a weighted optimization problem, Bayesian approaches for credibility interval evaluation (because every point prediction is wrong), and why none of the algorithms in academic papers work off-the-shelf in real manufacturing environments.
+
+Beyond algorithms, successful manufacturing AI productionization demands excellence in MLOps, seamless development-to-production pipelines, strategic separation of reusable versus customer-specific components, and handling critical bottlenecks around data latency, availability, and reliability. The lecture concludes by examining broader AI industry dynamics: OpenAI's $8.5B annual burn rate reflecting the resource-intensive nature of frontier AI, the disruptive impact of open-source models like Meta's Llama 3.1 on business models and industry democratization, and the evolving power dynamics between tech giants and AI companies. The goal is maximum impact via inAI—knowing when to build home-grown solutions versus leveraging off-the-shelf tools, never underestimating domain expertise, and remembering that in production, data quality and software engineering excellence matter more than algorithmic sophistication.
