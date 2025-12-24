@@ -63,7 +63,20 @@ plugins:
 author:
   name             : "Mr. Funnybunny"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Co-Founder &amp; CTO @ [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/), Co-Founder &amp; CEO @ Erudio Bio Korea, Inc., Leader of [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/), Director of AI Semiconductor @ [K-BioX](https://kbiox.net/), AI-Korean Medicine Integration Initiative Task Force Member @ [The Association of Korean Medicine](https://www.akom.org/), [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/people?userID=55317&eventID=11076) @ [Salzburg Global Seminar](https://www.salzburgglobal.org/), Visiting Professor @ [Sogang University](https://ee.sogang.ac.kr/eng/employee/professor03.php), Advisory Professor @ [DGIST](https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor), Global Advisory Board Member @ [Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University](https://bk4semicon.sogang.ac.kr/kor/about/org.php), Network Expert @ [Gerson Lehrman Group](https://glginsights.com/), Chief Business Development Officer @ [WeStory.ai](https://westory.ai/), and Advisor @ [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/home/)"
+  bio              : 'Co-Founder &amp; CTO @ [Erudio Bio, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"},
+  Co-Founder &amp; CEO @ Erudio Bio Korea, Inc.,
+  Leader of [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/){:target="_blank"},
+  CGO / Global Managing Partner @ [LULUMEDIC](https://www.lulumedic.com/en/){:target="_blank"},
+  [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} @ [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"},
+  AI-Korean Medicine Integration Initiative Task Force Member @ [The Association of Korean Medicine](https://www.akom.org/English/Index){:target="_blank"},
+  Director of AI Semiconductor @ [K-BioX](https://kbiox.net/){:target="_blank"},
+  Visiting Professor @ [Sogang University](https://ee.sogang.ac.kr/eng/employee/professor03.php){:target="_blank"},
+  Advisory Professor @ [DGIST](https://www.dgist.ac.kr/en_eecs/?bo_table=eng2_1&sca=Advisory+Professor){:target="_blank"},
+  Global Advisory Board Member @ [Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University](https://bk4semicon.sogang.ac.kr/kor/about/org.php){:target="_blank"},
+  Network Expert @ [Gerson Lehrman Group](https://glginsights.com/){:target="_blank"},
+  Chief Business Development Officer @ [WeStory.ai](https://westory.ai/){:target="_blank"},
+  and
+  Advisor @ [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/home/){:target="_blank"}'
 #  location         : "Palo Alto, CA, USA"
 #  email            : sunghee.yun@gmail.com
   links:
