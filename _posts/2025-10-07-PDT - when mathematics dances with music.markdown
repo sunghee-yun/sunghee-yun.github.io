@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Thu Dec 25 09:02:19 PST 2025
+last_modified_at: Thu Dec 25 09:15:52 PST 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -51,9 +51,13 @@ Use this link — <a href="{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ pa
 
 > &hellip; <span class="emph">AI cannot touch our souls precisely because it lacks the integrated understanding that Yoonhak demonstrated—the ability to feel the mathematics and analyze the feeling simultaneously.</span>
 
+<!--
 # AI generates Podcasts
+-->
 
+<!--
 ## Video
+-->
 
 <div id="podcast-video-01" style="text-align: center; margin-bottom: 1em;">
 <!--video width="320" height="240" controls-->
@@ -62,17 +66,46 @@ Use this link — <a href="{{ page.url }}">{{ site.url }}{{ site.baseurl }}{{ pa
 </video>
 </div>
 
+<!--
 ## Audios
+-->
 
-<audio id="podcast-audio-01" controls>
+<!--audio id="podcast-audio-01" controls>
 	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/Silicon_Valley_s_Soul_Search__How_Math_and_Music_Bridge_Logic_a.m4a">
 	Your browser does not support this longest audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-audio-02" controls>
+<!--audio id="podcast-audio-02" controls>
 	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/The_Fusion_of_Code_and_Soul__Maestro_Baek_s_Stanford_Lecture_on.m4a">
 	Your browser does not support this longest audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Silicon Valley's Soul Search - How Math and Music Bridge Logic and Emotion</strong>
+			<span style="opacity: 0.8;">(13:09)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/Silicon_Valley_s_Soul_Search__How_Math_and_Music_Bridge_Logic_a.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Fusion of Code and Soul - Maestro Baek's Stanford Lecture on Harmonic Beauty</strong>
+			<span style="opacity: 0.8;">(13:14)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-10-07-PDT - when mathematics dances with music/NotebookLM/The_Fusion_of_Code_and_Soul__Maestro_Baek_s_Stanford_Lecture_on.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The Unexpected Convergence
 
