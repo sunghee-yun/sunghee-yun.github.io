@@ -2,7 +2,7 @@
 layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Thu Dec 25 09:24:12 PST 2025
+last_modified_at: Thu Dec 25 09:37:24 PST 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -31,11 +31,52 @@ cats: {% for category in page.categories %} <a href="/categories/#{{ category }}
 
 > The question isn't whether AI agents will revolutionize business operations—it's which entrepreneurs will build the companies that lead that revolution.
 
-<h1>Podcasts</h1>
+<!--h1>Podcasts</h1-->
 
+<!--
 - [The Multi-Agent AI Revolution: Unlocking Collective Intelligence and New Business Models with Privacy (20:15)](https://notebooklm.google.com/notebook/25fd6c94-84d1-4e57-abad-e8763b4b6fe1?artifactId=cf5c00cd-164f-400b-9a03-c4ba1414bd5d){:target="_blank"}
 - [The Multi-Agent AI Revolution: Unlocking Business Value and Competitive Advantage through Collaborative Intelligence (22:22)](https://notebooklm.google.com/notebook/09ec7d1b-eaff-47ec-8f80-68dcfe18a771?artifactId=c8196ae2-6cf6-4f91-9fae-f2b555e169f6){:target="_blank"}
 - [The Multi-Agent AI Revolution: Unlocking Secure Collaborative Intelligence and Competitive Advantage (28:15)](https://notebooklm.google.com/notebook/1d06baa8-9b9d-42d6-80f8-8bb7ee772361?artifactId=c721e9c3-1534-4b21-b598-47cc64648656){:target="_blank"}
+-->
+
+<div class="img-container-justified">
+	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Multi-Agent AI Revolution - Unlocking Collective Intelligence and New Business Models with Privacy</strong>
+			<span style="opacity: 0.8;">(20:15)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Collective_Intelligence_and_New_Business_Models_with_Privac.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Multi-Agent AI Revolution - Unlocking Business Value and Competitive Advantage through Collaborative Intelligence</strong>
+			<span style="opacity: 0.8;">(22:22)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Business_Value_and_Competitive_Advantage_Through_Collaborat.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Multi-Agent AI Revolution: Unlocking Secure Collaborative Intelligence and Competitive Advantage</strong>
+			<span style="opacity: 0.8;">(28:15)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-03" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Secure_Collaborative_Intelligence_and_Competitive_Advantage.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The AI Landscape Transformation
 
