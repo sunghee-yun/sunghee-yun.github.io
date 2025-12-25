@@ -2,7 +2,7 @@
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 permalink: /ai/bridging-technology-and-humanity
 date: 10-Dec-2024
-last_modified_at: Thu Dec 25 11:10:16 PST 2025
+last_modified_at: Thu Dec 25 11:58:31 PST 2025
 categories:
  - blog
  - AI
@@ -31,19 +31,48 @@ but by a deep understanding of its human impact and cultural context.
 </font>
 </blockquote>
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Bridging Technology and Humanity - A European Reflection - 01</strong>
+			<span style="opacity: 0.8;">(14:44)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Bridging Technology and Humanity - A European Reflection - 02</strong>
+			<span style="opacity: 0.8;">(16:56)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-12-10-PST - Lyon & Salzburg/NotebookLM/Bridging Technology and Humanity_ A European Reflection-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <h1 id="lyon">Lyon</h1>
 

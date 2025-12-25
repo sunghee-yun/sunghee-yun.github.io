@@ -1,7 +1,7 @@
 ---
 title: "나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Dec 25 09:37:12 PST 2025
+last_modified_at: Thu Dec 25 11:51:00 PST 2025
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -46,7 +46,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(13:18)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-1" controls style="width: 100%;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Technical_Anchor_Versus_Connector_Success.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -58,7 +58,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(15:17)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-2" controls style="width: 100%;">
+			<audio id="podcast-audio-02" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_Optimization_Solves_Health_Crises.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -70,7 +70,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(38:14)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-3" controls style="width: 100%;">
+			<audio id="podcast-audio-03" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_Optimization_From_Chips_to_Cures.m4a">
 				Your browser does not support this audio element.
 			</audio>

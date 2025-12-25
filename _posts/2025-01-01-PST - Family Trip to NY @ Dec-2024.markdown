@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Thu Dec 25 11:45:01 PST 2025
+last_modified_at: Thu Dec 25 11:54:16 PST 2025
 categories:
  - blog
 tags:
@@ -27,12 +27,23 @@ This trip was more than just a vacation; it was a symphony of memories that will
 </font>
 </blockquote>
 
-# NotebookLM Podcasts
-
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Cherishable New York Family Memories</strong>
+		<span style="opacity: 0.8;">(07:36)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-audio-01" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="story">Cherishable memories of ours</h1>
 
