@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Mon Oct 27 11:19:17 PDT 2025
+last_modified_at: Thu Dec 25 11:36:13 PST 2025
 categories:
  - blog
 tags:
@@ -194,10 +194,10 @@ This trip was more than just a vacation; it was a symphony of memories that will
 <h3 id="rockefeller">Rockefeller Center</h3>
 
 <div class="img-container">
-	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-54 011.jpeg">
+	<img style="max-width: 100%;" src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-54 011.jpeg">
 </div>
 
-<div class="img-container">
+<div class="img-container-justified">
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-29 013.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-53 010.jpeg">
@@ -205,42 +205,41 @@ This trip was more than just a vacation; it was a symphony of memories that will
 
 
 <div class="img-container">
-	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
+	<img style="max-width: 100%;" src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
+	<img style="max-width: 100%;" src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
 </div>
 
-<div class="img-container">
+<div class="img-container-justified">
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-17 007.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-19 008.jpeg">
 </div>
 
 
-<div class="img-container">
+<div class="img-container-justified">
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-30 014.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-20 009.jpeg">
 </div>
 
-<div class="img-container">
+<div class="img-container-justified">
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-14 005.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-24 011.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
+	<img style="max-width: 100%;" src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
 </div>
 
-<div class="img-container">
+<div class="img-container-justified">
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-07-34 016.jpeg">
 	&nbsp;
 	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-06-25 029.jpeg">
 </div>
-
 
 <h3 id="pasta-corner">Pasta corner</h3>
 
@@ -257,13 +256,12 @@ This trip was more than just a vacation; it was a symphony of memories that will
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-44 005.jpeg">
+	<img src="/resource/trips/2024-NY/KakaoTalk_Photo_2025-01-01-17-05-44 005.jpeg">
 </div>
-
 
 <h2 id="flight-back-home">Flight back home on 31-Dec-2024</h2>
 
