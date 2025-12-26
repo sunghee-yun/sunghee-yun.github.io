@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Oct  5 16:45:52 PDT 2025
+last_modified_at: Thu Dec 25 18:51:00 PST 2025
 ---
 
 <h2>Some Podcasts</h2>
@@ -73,23 +73,23 @@ last_modified_at: Sun Oct  5 16:45:52 PDT 2025
 
 ### Anne-Marie
 
-- [<i class="fa-brands fa-square-youtube"></i> Anne Marie - 2002 Song #livevideo #viral #shorts](https://youtube.com/shorts/kecpfUbdBFM?si=mImWS92ebYAyZs_r)
-- [<i class="fa-brands fa-youtube"></i> Anne-Marie - 2002 (Glastonbury 2019)](https://youtu.be/PRXCbRzTeGA?si=4qFtqHGpmmXil6gv)
-- [<i class="fa-brands fa-youtube"></i> 앤-마리(Anne-Marie)의 킬링보이스를 라이브로! – 2002, FRIENDS, Birthday, PSYCHO, Beautiful, Perfect to Me - 딩고뮤직](https://youtu.be/SAzUYWru-w0?si=3-INmLd1VM8WcEqu)
+- [<i class="fa-brands fa-square-youtube"></i> Anne Marie - 2002 Song #livevideo #viral #shorts](https://youtube.com/shorts/kecpfUbdBFM?si=mImWS92ebYAyZs_r){:target="_blank"}
+- [<i class="fa-brands fa-youtube"></i> Anne-Marie - 2002 (Glastonbury 2019)](https://youtu.be/PRXCbRzTeGA?si=4qFtqHGpmmXil6gv){:target="_blank"}
+- [<i class="fa-brands fa-youtube"></i> 앤-마리(Anne-Marie)의 킬링보이스를 라이브로! – 2002, FRIENDS, Birthday, PSYCHO, Beautiful, Perfect to Me - 딩고뮤직](https://youtu.be/SAzUYWru-w0?si=3-INmLd1VM8WcEqu){:target="_blank"}
 
 ### 송소희
 
-- [송소희 &#91;Official&#93;](https://www.youtube.com/@SongSohee_Official)
-- [<i class="fa-brands fa-square-youtube"></i> (YouTube Short) Not a Dream (Live) - 사람 목소리가 어떻게 대자연](https://youtube.com/shorts/Yl6RummwdeQ?si=98pcrNlXHpLQ0nbT)
-- [<i class="fa-brands fa-youtube"></i> 송소희(Song Sohee) - Not a Dream (미발매 자작곡) [Live Clip]](https://youtu.be/Zbo7UY8dxh8?si=W3i5yOdPBuxciwlc)
-- [<i class="fa-brands fa-youtube"></i> 송소희(Song Sohee) - 풍류 (장기타령) [Live Clip]](https://youtu.be/cj-5WqYP1VQ?si=un79U7Tba-YzzIq6)
-- [<i class="fa-brands fa-square-youtube"></i> Original Sound (Contains music from: Not a Dream (Live)&sdot;Song So Hee](https://youtube.com/shorts/zzmRjdNzHLM?si=YoDR9kOMkshPdw80)
+- [송소희 &#91;Official&#93;](https://www.youtube.com/@SongSohee_Official){:target="_blank"}
+- [<i class="fa-brands fa-square-youtube"></i> (YouTube Short) Not a Dream (Live) - 사람 목소리가 어떻게 대자연](https://youtube.com/shorts/Yl6RummwdeQ?si=98pcrNlXHpLQ0nbT){:target="_blank"}
+- [<i class="fa-brands fa-youtube"></i> 송소희(Song Sohee) - Not a Dream (미발매 자작곡) [Live Clip]](https://youtu.be/Zbo7UY8dxh8?si=W3i5yOdPBuxciwlc){:target="_blank"}
+- [<i class="fa-brands fa-youtube"></i> 송소희(Song Sohee) - 풍류 (장기타령) [Live Clip]](https://youtu.be/cj-5WqYP1VQ?si=un79U7Tba-YzzIq6){:target="_blank"}
+- [<i class="fa-brands fa-square-youtube"></i> Original Sound (Contains music from: Not a Dream (Live)&sdot;Song So Hee](https://youtube.com/shorts/zzmRjdNzHLM?si=YoDR9kOMkshPdw80){:target="_blank"}
 
 ### 이선희
 
-- [<i class="fa-brands fa-youtube"></i> 이선희 Lee Sun Hee Concert - 불꽃처럼](https://youtu.be/5TXnHQIxpls?si=-8WlaUmB-JnVGFYw)
-- [<i class="fa-brands fa-square-youtube"></i> 이선희 '불꽃처럼' 최고로 잘 나가던 시절 #shorts](https://youtube.com/shorts/P_8Kh46m5Wk?si=99MMNeV5r4ezR18R)
+- [<i class="fa-brands fa-youtube"></i> 이선희 Lee Sun Hee Concert - 불꽃처럼](https://youtu.be/5TXnHQIxpls?si=-8WlaUmB-JnVGFYw){:target="_blank"}
+- [<i class="fa-brands fa-square-youtube"></i> 이선희 '불꽃처럼' 최고로 잘 나가던 시절 #shorts](https://youtube.com/shorts/P_8Kh46m5Wk?si=99MMNeV5r4ezR18R){:target="_blank"}
 
 ### 조용필
 
-- [<i class="fa-brands fa-youtube"></i> 조용필 - 돌아와요 부산항에](https://youtu.be/sfOhQkdexro?si=ijcX-29CW7LyP7S9)
+- [<i class="fa-brands fa-youtube"></i> 조용필 - 돌아와요 부산항에](https://youtu.be/sfOhQkdexro?si=ijcX-29CW7LyP7S9){:target="_blank"}
