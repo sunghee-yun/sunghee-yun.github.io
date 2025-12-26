@@ -2,7 +2,7 @@
 permalink: /math/cvxopt
 title: When Every Path Leads to Success &ndash; The Convex Optimization
 date: Mon Jul 14 21:02:12 PDT 2025
-last_modified_at: Sun Oct  5 17:51:34 PDT 2025
+last_modified_at: Thu Dec 25 19:15:11 PST 2025
 categories:
  - blog
 tags:
@@ -66,38 +66,96 @@ It reveals that certain optimization problems possess a remarkable geometric str
 that guarantees global optimality and enables the development of efficient algorithms.</a>
 </blockquote>
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-3" controls>
+<!--audio id="podcast-3" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-03.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<h2>based on Convex Optimization Codex</h2>
+<!--h2>based on Convex Optimization Codex</h2-->
 
-<audio id="podcast-slides-1" controls>
+<!--audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Fundamentals and Applications-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-# Parent blog post
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Convex Optimization - Every Path Leads to Success - 01</strong>
+			<span style="opacity: 0.8;">(15:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Convex Optimization - Every Path Leads to Success - 02</strong>
+			<span style="opacity: 0.8;">(15:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Convex Optimization - Every Path Leads to Success - 03</strong>
+			<span style="opacity: 0.8;">(21:42)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-3" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Every Path Leads to Success-03.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Convex Optimization - Fundamentals and Applications</strong>
+			<span style="opacity: 0.8;">(25:08)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-slides-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-14-PDT - cvx-opt/NotebookLM/Convex Optimization_ Fundamentals and Applications-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+# Related blog posts
+
+## Parent blog post
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 - [{{ math_landscape.title }}]({{ math_landscape.url }})
 
-# Sibling blog posts
+## Sibling blog posts
 
 {% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
