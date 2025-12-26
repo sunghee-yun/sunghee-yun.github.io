@@ -7,11 +7,11 @@ main:
     url: /posts
   - title: "math"
     url: /math
-  - title: "AI Insights"
+  - title: "ai insights"
     url: /articles
-  - title: "AI Papers"
+  - title: "ai papers"
     url: /papers
-  - title: "AI Learning"
+  - title: "ai learning"
     url: /ai-learning
   - title: "resonate"
     url: /resonate
