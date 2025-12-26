@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Fri Aug  8 20:50:26 KST 2025
+last_modified_at: Thu Dec 25 21:07:15 PST 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -28,10 +28,28 @@ posted: {{page.date | date: "%d-%b-%Y"}}
 updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 {:.notice - -primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
+<!--
 - [72:27](https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf?artifactId=25ee237c-f90c-4af8-b85d-ada515828ec4)
 - [32:54](https://notebooklm.google.com/notebook/62e34419-fa16-4df6-a6f1-5b90b46949bf?artifactId=aa23b637-b781-4e85-b39d-c67b079ac6d8)
+-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Unlocking Optimal Decisions: A Deep Dive into Convex Optimization</strong>
+		<span style="opacity: 0.8;">(32:54)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-audio-01" controls style="width: 100%;">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-08-01-PDT - convex optimization/Unlocking_Optimal_Decisions__A_Deep_Dive_into_Convex_Optimization.m4a">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
+
 $$
 	%
 	\newcommand{\algA}{\algk{A}}
