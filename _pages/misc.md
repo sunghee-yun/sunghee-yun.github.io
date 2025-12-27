@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sun Dec 21 21:50:24 KST 2025
+last_modified_at: Sat Dec 27 02:30:26 PST 2025
 ---
 
 <!--
@@ -133,7 +133,7 @@ last_modified_at: Sun Dec 21 21:50:24 KST 2025
 	<a href="https://seatgeek.com/account/tickets/17085328">Kiss of Life</a>
 	@ <a href="https://maps.app.goo.gl/2NjGDQR1jxkjY8XcA">The Warfield</a>
 	- 10-Dec-2024 PST
-	<#	new file:   #	new file:   #	new file:   #	new file:   #	new file:   #	new file:   a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
+	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVmZ2ZyN2Q0aXFkZG5zYzVlZm9qNW05M3Ygc3VuZ2hlZS55dW5AbQ&tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	-
 	<a href="/resource/music/concert-tickets/2024_1210 - Kiss of Life @ The Warfield - ticket - Sunghee.jpeg">Sunghee's ticket</a>
 </li>
