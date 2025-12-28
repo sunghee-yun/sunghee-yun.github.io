@@ -3,6 +3,8 @@ main:
     url: /about
   - title: "activities"
     url: /recent-activities
+  - title: "podcasts"
+    url: /podcasts
   - title: "posts"
     url: /posts
   - title: "math"
