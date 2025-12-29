@@ -1,7 +1,7 @@
 ---
-title: "나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
+title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Dec 25 20:56:45 PST 2025
+last_modified_at: Mon Dec 29 10:45:41 PST 2025
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -24,18 +24,33 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
+이 글은 [부산영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}의 요청에 의해 쓰여진 글이고 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}에 실릴 예정입니다.
+{: .notice--warning}
+
 <div class="img-container-justified">
-	<div id="podcast-video-01" style="width:49%; text-align: center; margin-bottom: 1em;">
-	<!--video width="320" height="240" controls-->
-	<video width="100%" controls>
-		<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Connecting_Dots__Sunghee_Yun.mp4">
-	</video>
+	<div id="podcast-seminars-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Connecting Dots - Sunghee_Yun</strong>
+			<span style="opacity: 0.8;">(08:01)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Connecting_Dots__Sunghee_Yun.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
 	</div>
-	<div id="podcast-video-02" style="width:49%; text-align: center; margin-bottom: 1em;">
-	<!--video width="320" height="240" controls-->
-	<video width="100%" controls>
-		<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_to_Life_Science.mp4">
-	</video>
+	<div id="podcast-podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Math to Life Science</strong>
+			<span style="opacity: 0.8;">(02:09)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_to_Life_Science.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
 	</div>
 </div>
 
