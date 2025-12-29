@@ -1,7 +1,7 @@
 ---
-title: "Nor is Full Information Sufficient!"
+title: "(WIP) Nor is Full Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Mon Dec 29 10:24:46 PST 2025
+last_modified_at: Mon Dec 29 10:35:22 PST 2025
 permalink: /prajna/extreme-difficulty-of-full-knowledge
 categories:
  - blog
