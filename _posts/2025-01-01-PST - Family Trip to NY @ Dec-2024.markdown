@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Thu Dec 25 11:54:16 PST 2025
+last_modified_at: Mon Dec 29 02:41:38 PST 2025
 categories:
  - blog
 tags:
@@ -32,16 +32,18 @@ This trip was more than just a vacation; it was a symphony of memories that will
 	Your browser does not support this shorter audio element.
 </audio-->
 
-<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-		<strong>Cherishable New York Family Memories</strong>
-		<span style="opacity: 0.8;">(07:36)</span>
-	</div>
-	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-audio-01" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
-			Your browser does not support this audio element.
-		</audio>
+<div class="img-container">
+	<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Cherishable New York Family Memories</strong>
+			<span style="opacity: 0.8;">(07:36)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-01-PST - Family Trip to NY @ Dec-2024/NotebookLM/Cherishable New York Family Memories-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
 	</div>
 </div>
 
@@ -150,11 +152,19 @@ Friedrich Seitz's Violin Concerto No. 5 in D major, Op. 22, Third Movement (Rond
 The harmony of our instruments echoed the harmony of our families, creating a beautiful melody that will forever resonate in our hearts.
 </p>
 
-<div id="video" style="text-align: center; margin-bottom: 1em;">
-<!--video width="320" height="240" controls-->
-<video width="90%" controls>
-    <source src="https://sungheeyun-podcasts.github.io/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4" type="video/mp4">
-</video>
+<div class="img-container">
+	<div id="podcast-seminars-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Symphony of Memories that will be Cherished for a Lifetime!</strong>
+			<span style="opacity: 0.8;">(04:10)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts.github.io/resource/trips/2024-NY/Lucy & Sunghee - Violin & Piano.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
+	</div>
 </div>
 
 This trip was more than just a vacation; it was a symphony of memories that will be cherished for a lifetime.
