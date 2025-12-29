@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[San Jose State University Special AI Lecture Series VIII - RL/Recent Progress/App Development] From Reinforcement Learning to Production - RL, Recent Breakthroughs & App Development"
+permalink: /seminars/2026_0116 PST - San Jose State University Special AI Lecture Series VIII - RL-Recent Progress-App Development/abstract
+last_modified_at: Mon Dec 29 09:26:33 PST 2025
+author_profile: true
+---
+
+# Abstract
+
+Reinforcement learning represents a fundamentally different paradigm from supervised and unsupervised learning—one where agents learn optimal behavior through trial, error, and reward signals. This lecture begins with the mathematical foundations that make RL rigorous: Markov Decision Processes (MDPs), Bellman equations, and Bellman optimality equations. We'll build intuition for how these frameworks formalize sequential decision-making problems, then progress through the classical solution methods—dynamic programming for exact solutions in known environments, Monte Carlo methods for learning from complete episodes, and temporal-difference learning that combines the best of both approaches. You'll understand not just the algorithms, but the fundamental tradeoffs between model-based and model-free methods, on-policy versus off-policy learning, and the bootstrapping principles that make TD learning so powerful.
+
+The real excitement comes when we explore modern reinforcement learning and its spectacular recent achievements. We'll examine how deep RL combines neural networks with classical RL algorithms, enabling breakthroughs like AlphaGo's defeat of world champions and modern applications in robotics, autonomous systems, and game playing. Most importantly, we'll explore the intersection of large language models and RL—how techniques like Reinforcement Learning from Human Feedback (RLHF) have revolutionized LLM capabilities, making models like ChatGPT and Claude possible. You'll see the evolution of RL from theoretical framework to practical powerhouse, understanding how reward shaping, policy gradients, and actor-critic methods enable AI systems to master complex tasks that seemed impossible just years ago.
+
+In the final section, we shift to practical empowerment: "Building Your Superpower." The most valuable skill in the AI era isn't necessarily becoming an AI expert—it's becoming an AI power user in your domain. We'll explore the distinction between AI experts and AI-empowered domain experts, and why the latter are driving revolutionary changes across industries. Through a live app development demonstration, you'll see how domain expertise combined with AI tools enables you to build sophisticated applications without deep ML engineering knowledge. You'll learn frameworks for AI-assisted development, strategies for rapid prototyping, and practical approaches to deploying AI-powered solutions. Whether you're in healthcare, finance, education, or any other field, this lecture equips you to leverage AI as a force multiplier for your expertise—transforming from AI consumer to AI-empowered creator.

@@ -1,0 +1,15 @@
+---
+layout: single
+title: "[San Jose State University Special AI Lecture Series VII - ML Fundamentals/Vibe Coding] ML Theory Meets Practice - Frameworks, Backpropagation & Live Coding"
+permalink: /seminars/2026_0115 PST - San Jose State University Special AI Lecture Series VII - ML Fundamentals-Vibe Coding/abstract
+last_modified_at: Mon Dec 29 09:01:50 PST 2025
+author_profile: true
+---
+
+# Abstract
+
+Machine learning isn't magic—it's a principled approach to solving statistically meaningful problems through mathematical optimization. This lecture begins with the foundational statistical framework underlying all ML: estimation theory, regression, and inference. We'll explore the optimal estimator (conditional expectation), understand the bias-variance tradeoff that governs model selection, and examine the mathematical bridge between Maximum Likelihood Estimation (MLE), Maximum A Posteriori (MAP) estimation, and Bayesian inference. You'll see how these theoretical frameworks connect to practical loss minimization and why mean-square-error minimization is equivalent to solving MLE under Gaussian assumptions. Through rigorous yet accessible mathematical treatment, you'll understand not just how ML algorithms work, but why they're designed the way they are.
+
+The core of the lecture provides a comprehensive deep dive into machine learning paradigms and deep neural network training. We'll systematically cover supervised, unsupervised, and reinforcement learning—distinguishing their problem formulations, use cases, and algorithmic approaches. Then we'll demystify deep learning by walking through the complete mathematical machinery: neural network equations, loss functions, the relationship between KL divergence and MLE, and the critical role of stochastic gradient descent (SGD) as the dominant optimization method. The centerpiece is a detailed exposition of backpropagation—the chain rule application that makes deep learning computationally tractable. You'll see backpropagation formulas derived three ways: scalar equations, matrix-vector operations, and Python NumPy implementations, building intuition from mathematical principles to executable code.
+
+In the second half, we shift from theory to practice with live "vibe coding" demonstrations. You'll watch ML concepts transform into working code in real-time, seeing how mathematical formulations translate to actual implementations. We'll cover the complete ML workflow: defining business problems, data collection and feature engineering, train/validation/test splits, hyperparameter optimization, and deployment considerations. Through hands-on coding examples, you'll learn the iterative development process that professional ML practitioners use—starting simple, failing fast, and validating business impact. Whether you're a student building theoretical foundations or a practitioner seeking to understand the mathematics behind the frameworks you use daily, this lecture bridges the gap between rigorous ML theory and practical implementation.
