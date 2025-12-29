@@ -1,11 +1,12 @@
 ---
 title: AI (with current ML/DL architecture) does not believe nor reason nor know nor think!
 date: Mon Jun  9 14:27:31 PDT 2025
-last_modified_at: Tue Aug 26 12:17:27 PDT 2025
+last_modified_at: Mon Dec 29 10:27:51 PST 2025
 permalink: /ai/reason
 categories:
  - blog
  - AI
+ - Cognitive Science
 tags:
  - AI
  - reason
