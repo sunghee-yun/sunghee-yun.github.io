@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Tue Dec 30 08:11:27 PST 2025
+last_modified_at: Tue Dec 30 08:31:54 PST 2025
 categories:
  - blog
 tags:
@@ -111,7 +111,7 @@ while still being structured enough to support powerful analytical techniques.</
 			<span style="opacity: 0.8;">(18:06)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-1" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
 				Your browser does not support this audio element.
 			</audio>
@@ -123,7 +123,7 @@ while still being structured enough to support powerful analytical techniques.</
 			<span style="opacity: 0.8;">(18:17)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-2" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
 				Your browser does not support this audio element.
 			</audio>
@@ -138,7 +138,7 @@ while still being structured enough to support powerful analytical techniques.</
 			<span style="opacity: 0.8;">(21:02)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-3" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
 				Your browser does not support this audio element.
 			</audio>
@@ -150,7 +150,7 @@ while still being structured enough to support powerful analytical techniques.</
 			<span style="opacity: 0.8;">(23:20)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-slides-1" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/Topological and Metric Spaces_ A Fundamental Guide-01.wav">
 				Your browser does not support this audio element.
 			</audio>

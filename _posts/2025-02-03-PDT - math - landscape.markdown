@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Mon Dec 29 18:36:20 PST 2025
+last_modified_at: Tue Dec 30 08:31:08 PST 2025
 categories:
  - blog
 tags:
@@ -31,44 +31,85 @@ I aim to create a companion resource that illuminates connections between concep
 and enriches their mathematical exploration journey.
 </blockquote>
 
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Mathematical Beauty - A Thousand-Page Odyssey - 01</strong>
+			<span style="opacity: 0.8;">(09:50)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee's Professional Journey and Intellectual Pursuits</strong>
+			<span style="opacity: 0.8;">(12:32)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Fundamentals of Modern Mathematics</strong>
+			<span style="opacity: 0.8;">(15:57)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-slides-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Mathematical Beauty - A Thousand-Page Odyssey - 02</strong>
+			<span style="opacity: 0.8;">(18:11)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-slides-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - 01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - 01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
-
-<!--audio id="podcast-3" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Sunghee's Professional Journey and Intellectual Pursuits - longer - 01.wav">
-	Your browser does not support this shorter audio element.
 </audio-->
 
-<h2>based on Math Codex</h2>
+<!--h2>based on Math Codex</h2-->
 
-<audio id="podcast-slides-1" controls>
+<!--audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
-
-<audio id="podcast-slides-2" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
-	Your browser does not support this shorter audio element.
-</audio>
-
-<!--audio id="podcast-slides-3" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 01.wav">
-	Your browser does not support this shorter audio element.
 </audio-->
 
-<!--audio id="podcast-slides-4" controls>
-	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Fundamentals of Modern Mathematics-02.wav">
+<!--audio id="podcast-slides-2" controls>
+	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - landscape/NotebookLM/Mathematical Beauty_ A Thousand-Page Odyssey - longer - 02.wav">
 	Your browser does not support this shorter audio element.
 </audio-->
 
@@ -99,8 +140,8 @@ Stay connected for these mathematical adventures!
 
 # Math Codex {#math-codex}
 
-- [Searching for Universal Truths - slides](/resource/fun math/fun_math.pdf)
-- [Searching for Universal Truths - article version (converted from slides)](/resource/fun math/fun_math_article.pdf)
+- [Searching for Universal Truths (PDF slides)](/resource/fun math/fun_math.pdf)
+- [Searching for Universal Truths - article version (PDF)](/resource/fun math/fun_math_article.pdf)
 
 # A Journey Through Mathematical Beauty
 
