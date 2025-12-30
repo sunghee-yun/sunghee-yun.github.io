@@ -2,7 +2,7 @@
 layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Thu Dec 25 09:51:06 PST 2025
+last_modified_at: Tue Dec 30 05:12:28 PST 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -85,7 +85,7 @@ The Artificial Intelligence (AI) landscape has reached a critical inflection poi
 As I emphasize in [almost every recent AI lecture of mine](/#sem), these developments represent more than incremental progress—they signal a fundamental transformation in how we conceptualize and deploy AI in commercial applications. The barrier to entry for developing state-of-the-art foundation models has become prohibitively high, with only companies like OpenAI, Google, Anthropic, Mistral AI, DeepSeek, Alibaba, X, and Perplexity possessing the necessary resources. This reality has profound implications for entrepreneurs and investors seeking to build sustainable businesses in the AI space.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-06-09-PDT - AI-landscape/llms-07.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-06-09-PDT - AI-landscape/llms-07.jpeg">
 </div>
 
 # From Big Data to AI Agents - A Decade of Evolution
@@ -105,7 +105,7 @@ Now let's examine the commercial opportunities and practical applications that e
 The transition from traditional AI tools to AI agents represents a paradigm shift comparable to moving from calculators to computers, or from static websites to interactive applications; actually, it's more than these! Where previous AI implementations required constant human oversight and explicit instructions for each task, AI agents can now operate with remarkable autonomy, making decisions, executing complex workflows, and even learning from their interactions.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-06-09-PDT - AI-landscape/ai-agent-and-autonomous-systems.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-06-09-PDT - AI-landscape/ai-agent-and-autonomous-systems.png">
 </div>
 
 This autonomy is what makes AI agents revolutionary for entrepreneurs. Instead of building AI features that enhance existing products, entrepreneurs can now create AI-powered entities that can independently handle entire business processes. Think of the difference between a spell-checker (AI tools) and a personal assistant who can research, write, edit, and publish content based on high-level objectives (AI agents).

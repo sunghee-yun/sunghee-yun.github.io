@@ -1,7 +1,7 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Thu Dec 25 09:15:52 PST 2025
+last_modified_at: Tue Dec 30 05:13:43 PST 2025
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
@@ -120,7 +120,7 @@ and
 he made what seemed like an impossible leap: from engineering to the [Curtis Institute of Music](https://www.curtis.edu/), where he was accepted to both Curtis and [Juilliard](https://www.juilliard.edu/).
 
 <div class="img-container">
-<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111017_0_24540-60-reduced.jpg">
+<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111017_0_24540-60-reduced.jpg">
 </div>
 
 Twenty seven years later, here we were again, but the conversation had transformed entirely.
@@ -134,7 +134,7 @@ someone who could speak both the language of mathematics and the language of the
 I felt genuinely apologetic that we couldn't accommodate everyone. But perhaps that constraint itself created something special—an intimate gathering where deep ideas could breathe, where complex mathematics could dance with profound emotion, where Songpyeon and Korean refreshments could nourish both body and spirit during the reception.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111017_2_24540-60-reduced.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111017_2_24540-60-reduced.jpg">
 </div>
 
 # The Mathematics of Beauty
@@ -162,7 +162,7 @@ he showed us that while the ratios are universal, <span class="emph">what we *do
 His explanation of overtones particularly resonated with me. "A good sound is a sound rich in overtones," he said, demonstrating on the piano how a single note contains multitudes—the fundamental frequency plus all its harmonic companions vibrating in perfect mathematical ratios.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111018_6_24540-60-reduced.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111018_6_24540-60-reduced.jpg">
 </div>
 
 Isn't this precisely what I was exploring in my essay on [the dimensional paradox of music](/prajna/wonders/richness-of-musical-notes)? How does one-dimensional acoustic phenomena—simple air pressure variations over time—create such infinite experiential richness? Yoonhak's answer, delivered through both explanation and demonstration: <span class="emph">because even the simplest musical tone is never truly simple. It's a superposition of mathematical relationships, a chord unto itself, a universe of ratios resonating together.</span>
@@ -174,7 +174,7 @@ Something struck me during the Q&A session that followed. The questions weren't 
 This audience got it. Really got it.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111019_9_24540-60-reduced.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111019_9_24540-60-reduced.jpg">
 </div>
 
 <span class="emph">Where else but Silicon Valley could you gather 120 people who would not only follow but genuinely engage with a lecture that seamlessly wove together Fourier analysis, Pythagorean tuning, and the emotional architecture of Mozart?</span> Where else would families bring their children to an event that demanded both intellectual rigor and emotional openness?
@@ -208,7 +208,7 @@ During the Q&A, I held back a question that had been forming throughout the lect
 But I didn't ask, because I realized I already knew the answer. Or rather, I knew there was no simple answer—only the complex, multidimensional truth that some questions are better lived than answered.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/IMG_9033-40-reduced.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/IMG_9033-40-reduced.jpeg">
 </div>
 
 What I appreciate about Yoonhak's journey is that <span class="emph">he didn't reject engineering to embrace music. He *transformed* his engineering mind into a musical instrument.</span> The precision, the systematic thinking, the ability to see patterns and structures—these became tools for understanding and expressing beauty rather than obstacles to it.
@@ -238,7 +238,7 @@ During the reception, watching Silicon Valley's unique demographic—software en
 This community we've built here, centered around institutions like Stanford, represents something historically unprecedented. <span class="emph">Where else could you find such density of technical expertise combined with genuine openness to beauty, meaning, and cultural heritage?</span>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/KakaoTalk_Photo_2025-10-05-08-49-07 015-60-reduced.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/KakaoTalk_Photo_2025-10-05-08-49-07 015-60-reduced.jpeg">
 </div>
 
 The sponsors who made this event possible—Erudio Bio (where I'm leading AI technology development), the Korean American Community Foundation, Bank of Hope, Ingee Foundation—represent this same integration. They understand that advancing biotechnology or financial services doesn't preclude (indeed, it may require) engagement with arts, culture, and the deeper questions of human flourishing.
@@ -261,7 +261,7 @@ The overwhelming response to this event—400 people wanting to attend, the enga
 Yoonhak's nickname—the "Dancing Conductor"—captures something essential about his approach. Conducting isn't just about keeping time or cuing entrances. It's about embodying the music, about being a living conduit between the mathematical structure on the page and the emotional experience in the concert hall.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111019_11_24540-60-reduced.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111019_11_24540-60-reduced.jpg">
 </div>
 
 When he demonstrated conducting gestures during the lecture, I saw how this physical dimension integrates everything we discussed. The body becomes an instrument for translating mathematical ratios into lived experience, for transforming abstract frequency relationships into felt emotion.
@@ -279,7 +279,7 @@ In this context, events like "Harmony Across Generations" aren't mere cultural p
 The children and students who attended Friday's lecture will be the ones designing the AI systems, building the biotechnologies, and creating the institutions of tomorrow. What they learned from Yoonhak wasn't just music theory—it was a model for integrated thinking, for honoring both precision and beauty, for maintaining connection to cultural roots while embracing universal truths.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun-github-io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111018_3_24540-60-reduced.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-10-07-PDT - when mathematics dances with music/20251005111018_3_24540-60-reduced.jpg">
 </div>
 
 As someone now leading AI development in biotech, I find myself constantly returning to these fundamental questions: What makes us human? What do we want to preserve as technology advances? How do we build systems that enhance rather than diminish our humanity?
