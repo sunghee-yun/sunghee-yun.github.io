@@ -7,8 +7,7 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Sun Dec 28 05:43:30 PST 2025
-date: Sun Dec 28 06:48:50 PST 2025
-last_modified_at: Sun Dec 28 06:48:50 PST 2025
+last_modified_at: Tue Dec 30 06:27:11 PST 2025
 ---
 
 # Podcasts about Podcast
@@ -25,7 +24,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/AI_s_Biological_Revolution.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/AI_s_Biological_Revolution.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
@@ -37,7 +36,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/AI,_Data_&_Future_Health.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/AI,_Data_&_Future_Health.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
@@ -52,7 +51,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-podcast-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/AI_Meets_the_Body__How_Erudio_Bio_s_Chip_Battles_Cancer_and_Unl.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/AI_Meets_the_Body__How_Erudio_Bio_s_Chip_Battles_Cancer_and_Unl.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -64,7 +63,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-podcasts-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/Erudio_Bio__How_AI-Powered_Biodata_Generation_and_Multiplexing_.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/Erudio_Bio__How_AI-Powered_Biodata_Generation_and_Multiplexing_.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -78,7 +77,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-podcast-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/AI_Meets_the_Human_Warranty__Erudio_Bio_s_Data_Engine_for_Cance.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/AI_Meets_the_Human_Warranty__Erudio_Bio_s_Data_Engine_for_Cance.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -90,7 +89,7 @@ Podcasts (created by AI) about [my (video) Riverside the Ground Up podcast](/#po
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-podcasts-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/podcasts/NotebookLM/Erudio_Bio__The_$130_Cancer_Test,_the_Data_Pipeline,_and_the_AI.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/Erudio_Bio__The_$130_Cancer_Test,_the_Data_Pipeline,_and_the_AI.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>

@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Thu Dec 25 21:07:15 PST 2025
+last_modified_at: Tue Dec 30 06:33:58 PST 2025
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -44,7 +44,7 @@ updated: {{page.last_modified_at | date: "%d-%b-%Y"}}
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
 		<audio id="podcast-audio-01" controls style="width: 100%;">
-			<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-08-01-PDT - convex optimization/Unlocking_Optimal_Decisions__A_Deep_Dive_into_Convex_Optimization.m4a">
+			<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-08-01-PDT - convex optimization/Unlocking_Optimal_Decisions__A_Deep_Dive_into_Convex_Optimization.m4a">
 			Your browser does not support this audio element.
 		</audio>
 	</div>

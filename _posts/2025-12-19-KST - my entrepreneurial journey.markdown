@@ -1,7 +1,7 @@
 ---
 title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Mon Dec 29 10:45:41 PST 2025
+last_modified_at: Tue Dec 30 06:41:28 PST 2025
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -35,7 +35,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Connecting_Dots__Sunghee_Yun.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Connecting_Dots__Sunghee_Yun.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
@@ -47,7 +47,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_to_Life_Science.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_to_Life_Science.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
@@ -62,7 +62,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Technical_Anchor_Versus_Connector_Success.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Technical_Anchor_Versus_Connector_Success.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -74,7 +74,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_Optimization_Solves_Health_Crises.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_Solves_Health_Crises.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -86,7 +86,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-03" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-12-19-KST - my entrepreneurial journey/NotebookLM/Math_Optimization_From_Chips_to_Cures.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_From_Chips_to_Cures.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>

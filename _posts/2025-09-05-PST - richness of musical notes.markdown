@@ -2,7 +2,7 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Sat Dec 13 12:08:09 KST 2025
+last_modified_at: Tue Dec 30 06:39:19 PST 2025
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
@@ -63,7 +63,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-5" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__From_Sound_Waves_to_Soulful_E.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox_of_Music__From_Sound_Waves_to_Soulful_E.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -75,7 +75,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-6" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__Unpacking_Sound,_Consciousnes.m4a">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox_of_Music__Unpacking_Sound,_Consciousnes.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -90,7 +90,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-5" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__How_Consciousness_Orchestrate.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox_of_Music__How_Consciousness_Orchestrate.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -102,7 +102,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-6" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox_of_Music__Unpacking_Emotion,_Consciousn.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox_of_Music__Unpacking_Emotion,_Consciousn.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -117,7 +117,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-5" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The__Mathematical_Impossibility__of_Music__How_Consciousness_Cr.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The__Mathematical_Impossibility__of_Music__How_Consciousness_Cr.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -129,7 +129,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-6" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox__How_One_Sound_Wave_Becomes_Profound_Mu.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox__How_One_Sound_Wave_Becomes_Profound_Mu.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -144,7 +144,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-5" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/The_Dimensional_Paradox__How_One_Sound_Wave_Creates_the_Univers.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/The_Dimensional_Paradox__How_One_Sound_Wave_Creates_the_Univers.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -156,7 +156,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-eng-6" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-09-05-PST - richness of musical notes/NotebookLM/Is_Musical_Depth_Math_or_Consciousness.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-09-05-PST - richness of musical notes/Is_Musical_Depth_Math_or_Consciousness.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>

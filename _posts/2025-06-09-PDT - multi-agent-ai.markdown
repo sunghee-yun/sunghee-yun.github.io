@@ -2,7 +2,7 @@
 layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Tue Dec 30 05:12:28 PST 2025
+last_modified_at: Tue Dec 30 06:31:48 PST 2025
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
@@ -47,7 +47,7 @@ cats: {% for category in page.categories %} <a href="/categories/#{{ category }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Collective_Intelligence_and_New_Business_Models_with_Privac.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Collective_Intelligence_and_New_Business_Models_with_Privac.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -59,7 +59,7 @@ cats: {% for category in page.categories %} <a href="/categories/#{{ category }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Business_Value_and_Competitive_Advantage_Through_Collaborat.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Business_Value_and_Competitive_Advantage_Through_Collaborat.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -71,7 +71,7 @@ cats: {% for category in page.categories %} <a href="/categories/#{{ category }}
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-03" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Secure_Collaborative_Intelligence_and_Competitive_Advantage.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-06-09-PDT - multi-agent-ai/The_Multi-Agent_AI_Revolution__Unlocking_Secure_Collaborative_Intelligence_and_Competitive_Advantage.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
