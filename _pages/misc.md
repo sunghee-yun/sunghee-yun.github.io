@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Dec 27 02:30:26 PST 2025
+last_modified_at: Tue Dec 30 07:57:00 PST 2025
 ---
 
 <!--
@@ -25,9 +25,11 @@ last_modified_at: Sat Dec 27 02:30:26 PST 2025
 - [be that as it may](https://dictionary.cambridge.org/us/dictionary/english/be-that-as-it-may)
 - [for what it's worth](https://dictionary.cambridge.org/us/dictionary/english/for-what-it-s-worth)
 
-# Potential AI talks
+# AI talks to be arranged
 
-- ~~{CC} contact 김경도 @ sk hynix CIS for Korea biz trip in Jul-2025~~
+- contact 김경도 @ SK hynix CIS
+- contact [백형렬 교수 (sshs 13)](https://mathsci.kaist.ac.kr/~hrbaik/){:target="_blank"} @ KAIST 수리과학부
+- contact [강송희 교수 (sshs 10)](https://www.linkedin.com/in/songhee-kang-417a3a282/){:target="_blank"} @ 한국공학대학교
 
 # Coffee chats to be arranged
 
