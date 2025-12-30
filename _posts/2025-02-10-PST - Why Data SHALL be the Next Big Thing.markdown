@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Sun Oct  5 17:39:41 PDT 2025
+last_modified_at: Mon Dec 29 18:48:48 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -40,12 +40,29 @@ redefining the boundaries of AI.</font>
 but to those who can most effectively organize and leverage their domain-specific data.</font>
 </blockquote>
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 100%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Beyond Models - Data and Domain Define AI's Future</strong>
+			<span style="opacity: 0.8;">(11:05)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # From Mathematical Foundations to AI Revolution
 
@@ -65,7 +82,8 @@ Though my passion was mathematics, I still needed to ground my work in electrica
 which led me to focus my thesis on "power and delay optimization of digital logic circuits using convex optimization."
 
 <div class="img-container">
-<img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_From_Mathematical_Foundations_to_AI_RevolutionPer_ea6dd357-674a-4505-9db5-996265e8b093_2.png">
+<!--img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_From_Mathematical_Foundations_to_AI_RevolutionPer_ea6dd357-674a-4505-9db5-996265e8b093_2.png"-->
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_From_Mathematical_Foundations_to_AI_RevolutionPer_ea6dd357-674a-4505-9db5-996265e8b093_2.png">
 </div>
 
 This intersection of theoretical mathematics and practical engineering would shape my entire career trajectory, beginning with my role at Samsung Electronics in December 2004. This position also served as my mandatory military service, as the research center was government-designated. At Samsung, I developed numerous optimization tools that dramatically improved productivity across semiconductor chip design, manufacturing processes, and testing operations.
@@ -82,7 +100,8 @@ The second project revolutionized the next-generation DRAM cell scheme design by
 
 <div class="img-container">
 <!--img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_The_Industrial_Impact__Optimization_at_ScalePerma_24d8c32b-7495-482b-b72a-fd79a13cf5ab_1.png"-->
-<img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_The_first_was_a_comprehensive_circuit_optimizatio_ead44627-e1f0-4125-b295-89fd6629b429_0.png">
+<!--img style="max-width: 80%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_The_first_was_a_comprehensive_circuit_optimizatio_ead44627-e1f0-4125-b295-89fd6629b429_0.png"-->
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/u1564158738_The_first_was_a_comprehensive_circuit_optimizatio_ead44627-e1f0-4125-b295-89fd6629b429_0.png">
 </div>
 
 The third project was perhaps the most forward-looking: a general-purpose machine learning (ML)
@@ -163,7 +182,8 @@ And just months ago, I started seeing "AI agents" as new buzzwords everywhere,
 marking yet another paradigm shift in how we think about artificial intelligence.
 
 <div class="img-container">
-<img src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/ai-history.png">
+<!--img src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/ai-history.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/ai-history.png">
 </div>
 
 This evolutionary chain
@@ -199,10 +219,12 @@ mastery of these AI technologies is no longer a differentiator but a baseline re
 <!--what was once cutting-edge AI technology is now becoming as fundamental as electricity - necessary but no longer sufficient for success.-->
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 45%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_wpgma2wpgma2wpgm.jpeg">
-<img style="max-width: 45%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_hv95vehv95vehv95.jpeg">
-&nbsp;
+<!--&nbsp;-->
+<!--img style="max-width: 45%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_wpgma2wpgma2wpgm.jpeg"-->
+<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_wpgma2wpgma2wpgm-25-reduced.jpeg">
+<!--img style="max-width: 45%;" src="/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_hv95vehv95vehv95.jpeg"-->
+<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/Gemini_Generated_Image_hv95vehv95vehv95-50-reduced.jpeg">
+<!--&nbsp;-->
 </div>
 
 Consider the current state of LLMs.

@@ -1,7 +1,7 @@
 ---
 title: (WIP) 철학적 선학<sub>禪學</sub>
 date: Sun Feb  9 04:01:01 PST 2025
-last_modified_at: Sun Oct  5 17:37:53 PDT 2025
+last_modified_at: Mon Dec 29 18:32:41 PST 2025
 permalink: /zen/philosophical-approaches
 categories:
  - blog
@@ -15,21 +15,22 @@ toc_sticky: true
 usemathjax: true  # Add this line
 ---
 
-<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
-<br>
-cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
-
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+<!--tags: {% for tag in page.tags %} <a href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}
+<br>
+cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}-->
 
 신오현 저 &#12300;철학적 선학<sub>禪學</sub>&#12301; 중
 내가 그 뜻을 이해하고 동의하는 내용 중
 중요하다가 생각되는 내용을 발췌하여 아래에 적는다.
 
 <div class="img-container">
-<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/Screenshot 2025-03-22 at 12.27.11 AM.png">
+<!--img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/Screenshot 2025-03-22 at 12.27.11 AM.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-09-PST - Philosophical Approaches to Zen/Screenshot 2025-03-22 at 12.27.11 AM.png">
 </div>
 
 ## p45
@@ -47,7 +48,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 깨닫게 하는 것이다.</font><sup><a href="">1</a></sup>
 
 <div class="img-container">
-<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png">
+<!--img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_256c0507-efe4-4cd6-889f-724197429862_2.png">
 </div>
 
 ## p52
@@ -77,7 +79,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 마지막으로 넷째 국면인 견성&sdot;오도가 이루어짐으로써 대단원의 막이 내리게 된다.
 
 <div class="img-container">
-<img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_7ec35da8-9ac8-4a99-a7dc-6e3974c64f88_3.png">
+<!--img src="/resource/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_7ec35da8-9ac8-4a99-a7dc-6e3974c64f88_3.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-09-PST - Philosophical Approaches to Zen/u1564158738____--ar_43_--v_6.1_7ec35da8-9ac8-4a99-a7dc-6e3974c64f88_3.png">
 </div>
 
 <!--div class="img-container">

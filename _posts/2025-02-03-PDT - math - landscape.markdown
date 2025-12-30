@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Sun Oct  5 17:34:51 PDT 2025
+last_modified_at: Mon Dec 29 18:36:20 PST 2025
 categories:
  - blog
 tags:
@@ -20,14 +20,6 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
-
-<script>
-const header = document.getElementById('math-codex');
-const headerText = header.textContent;
-document.querySelectorAll('.math-codex-header-title').forEach(element => {
-    element.textContent = headerText;
-});
-</script>
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
@@ -130,7 +122,7 @@ What began as a personal project &mdash; creating LaTeX slides to preserve these
 &mdash; evolved into something far more significant.
 As the collection grew, I recognized its potential to serve
 as a comprehensive resource for others who share this mathematical curiosity.
-The resulting work, particularly the article version available in the [<span class="math-codex-header-title"></span>](#math-codex) section,
+The resulting work, particularly the article version available in the [Math Codex](#math-codex) section,
 represents a synthesis of these extensive slides and research.
 
 My goal throughout has been to create something that would resonate with advanced learners and professionals in the field.

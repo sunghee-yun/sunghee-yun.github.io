@@ -1,7 +1,7 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Sat Oct  4 15:31:22 PDT 2025
+last_modified_at: Mon Dec 29 18:51:33 PST 2025
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
@@ -34,7 +34,7 @@ to share this musical celebration with your family and friends!
 
 # Invitation
 
-[Program Slides](/resource/posts/2025-08-16-KST - special music event announcement/Harmony Across Generations - A Musical Journey Through Korean Heritage.pdf)
+[Program Slides](https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-08-16-KST - special music event announcement/Harmony Across Generations - A Musical Journey Through Korean Heritage.pdf){:target="_blank"}
 
 > **⚠️ CRITICAL UPDATE - PLEASE READ CAREFULLY ⚠️**
 >

@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Sun Oct  5 17:37:01 PDT 2025
+last_modified_at: Mon Dec 29 18:27:51 PST 2025
 categories:
  - blog
 tags:
@@ -18,19 +18,6 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
-
-<script>
-const algebra_header = document.getElementById('algebra-codex');
-const algebra_headerText = algebra_header.textContent;
-document.querySelectorAll('.algebra-codex-header-title').forEach(element => {
-    element.textContent = algebra_headerText;
-});
-const cauchy_header = document.getElementById('cauchy-power-of-generalization');
-const cauchy_headerText = cauchy_header.textContent;
-document.querySelectorAll('.cauchy-power-of-generalization-header-title').forEach(element => {
-    element.textContent = cauchy_headerText;
-});
-</script>
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
@@ -360,7 +347,7 @@ obtaining the very same result once again (way) more elegantly and simply.
 
 Now consider general cases for which the *generalness* or the level of generalization
 seems way more severe than those shown
-in [<span class="cauchy-power-of-generalization-header-title"></span>](#cauchy-power-of-generalization)!
+in [Power of generalization (of the Cauchy-Schwarz inequality)](#cauchy-power-of-generalization)!
 
 $$
 \begin{array}{ll}
@@ -631,7 +618,7 @@ where $$w_i\geq0$$ and $$\sum_{i=1}^n w_i=1$$.
 The beauty of this inequality lies not just in its mathematical form, but in its geometric interpretation. Imagine drawing any chord on a convex function's graph – the function values will always lie below or on the chord. This simple geometric truth leads to surprisingly powerful mathematical results.
 
 <div class="img-container">
-<img width="80%" src="/resource/posts/2025-02-03-PDT - math - inequalities/jensen-3-768x342.png">
+<img width="80%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-03-PDT - math - inequalities/jensen-3-768x342.png">
 </div>
 <figcaption>
 $f$ is convex,
@@ -711,7 +698,8 @@ What makes inequalities particularly compelling is their ubiquity in real-world 
 In each case, inequalities don't just give us numerical bounds – they provide insight into the fundamental limitations and trade-offs inherent in these systems.
 
 <div class="img-container">
-<img src="/assets/images/math/algebra/cauchy-schwarz-ineq-01.png">
+<!--img src="/assets/images/math/algebra/cauchy-schwarz-ineq-01.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-03-PDT - math - inequalities/cauchy-schwarz-ineq-01.png">
 </div>
 
 # Unreasonable effectiveness of mathematics
@@ -735,7 +723,8 @@ in the context of AI
 Looking back at my mathematical journey, I realize that inequalities taught me something beyond mathematics. They taught me that sometimes the most powerful approach isn't to solve for an exact answer, but to understand the boundaries of what's possible. They showed me that constraints, rather than limiting us, often guide us toward deeper understanding.
 
 <div class="img-container">
-<img src="/assets/images/math/algebra/math-girl-01.png">
+<!--img src="/assets/images/math/algebra/math-girl-01.png"-->
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-02-03-PDT - math - inequalities/math-girl-01.png">
 </div>
 
 # Your Turn - An Invitation to Mathematical Discovery
@@ -805,7 +794,7 @@ including abstract algebra, measure theory, convex optimization, and topology.*
 <li id="footnote3">
 	You can see how we can derive this general AM-GM inequality
 	from a very simple case of $(a+b)/2 \geq \sqrt{ab}$
-	in the slides in <a href="#algebra-codex"><span class="algebra-codex-header-title"></span></a>.
+	in the slides in <a href="#algebra-codex">Algebra Codex</a>.
 	You can also see Jensen's inequality <i>elegantly</i>
 	implies this most general form of AM-GM inequality,
 	which is another layer of the beauty we can observe in the line of our arguments here.
