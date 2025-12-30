@@ -1,7 +1,7 @@
 ---
 title: Diamond Sūtra - 금강경金剛經
 date: 2024-09-20 23:30 PDT
-last_modified_at: Sun Oct  5 17:16:29 PDT 2025
+last_modified_at: Tue Dec 30 14:25:07 PST 2025
 categories:
  - blog
 tags:
@@ -18,12 +18,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Diamond Sutra/NotebookLM/Diamond Sutra_ Wisdom Beyond Form-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Diamond Sutra - Wisdom Beyond Form</strong>
+		<span style="opacity: 0.8;">(12:51)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Diamond Sutra/NotebookLM/Diamond Sutra_ Wisdom Beyond Form-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="intro">Intro</h1>
 
@@ -49,7 +64,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 현재 유행하는 금강경은 구마라습본이다.<sup><a href="#footnote01" id="ref01">1</a></sup>
 
 <div class="img-container">
-	<img src="/assets/images/buddhism/sakura.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/sakura.png">
 </div>
 
 금강경金剛經의 내용은
@@ -75,7 +90,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 지혜를 가진 부처로 만들어주는 불구佛具(불교도구)가 되었다.
 
 <div class="img-container">
-	<img width="60%" src="/assets/images/buddhism/vajra.jpg">
+	<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/vajra.jpg">
 </div>
 
 <h2 id="wisdom">반야般若</h2>
@@ -83,7 +98,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 반야般若는 지혜를 뜻한다.
 
 <div class="img-container">
-	<img width="60%" src="/assets/images/buddhism/boat.png">
+	<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/boat.png">
 </div>
 
 <h2 id="wisdom">바라밀波羅密</h2>
@@ -93,7 +108,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 '저쪽 언덕으로 건너가는 것' 즉 도피안到彼岸 또는 열반涅槃을 뜻하는 말이다.
 
 <div class="img-container">
-	<img width="60%" src="/assets/images/buddhism/boat-river-hill.png">
+	<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/boat-river-hill.png">
 </div>
 
 따라서 금강반야바라밀다경金剛般若波羅蜜多經은 금강석과 같이 견고한 지혜를 얻어 무명을 타파하고 열반에 이르라는 부처님의 말씀이다.
@@ -514,7 +529,7 @@ Main text
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/linen-fabric.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/linen-fabric.png">
 
 <h2 id="2">
 	第二 善現起請分
@@ -575,7 +590,7 @@ Main text
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/good-man-good-woman-praying.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/good-man-good-woman-praying.png">
 
 <div class="translation-container">
 <p>
@@ -713,7 +728,7 @@ Main text
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/boy-girl-umbrella.jpeg">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/boy-girl-umbrella-50-reduced.jpeg">
 
 <h2 id="4">
 	第四 妙行無住分
@@ -825,7 +840,7 @@ Main text
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/space-man-infinity.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/space-man-infinity.png">
 
 <div class="translation-container">
 <p>
@@ -1479,7 +1494,7 @@ Main text
 </p>
 </div>
 
-<img width="55%" src="/assets/images/buddhism/flowers.png">
+<img width="55%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/flowers.png">
 
 <div class="translation-container">
 <p>
@@ -3965,7 +3980,7 @@ Main text
 그 설법을 듣고 출가하였다고 한다.
 
 <div class="img-container">
-	<img width="300" src="/assets/images/buddhism/subhuti.png">
+	<img width="300" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/subhuti.png">
 </div>
 
 

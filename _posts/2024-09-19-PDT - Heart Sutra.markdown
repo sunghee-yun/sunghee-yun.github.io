@@ -1,7 +1,7 @@
 ---
 title: Heart Sūtra - 반야심경般若心經
 date: 2024-09-19 PDT
-last_modified_at: Sun Oct  5 17:13:58 PDT 2025
+last_modified_at: Tue Dec 30 14:10:00 PST 2025
 categories:
  - blog
 tags:
@@ -18,12 +18,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-19-PDT - Heart Sutra/NotebookLM/The Heart Sutra_ Wisdom's Essence-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Technical Anchor Versus Connector Success</strong>
+		<span style="opacity: 0.8;">(12:39)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-19-PDT - Heart Sutra/NotebookLM/The Heart Sutra_ Wisdom's Essence-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="intro">
 	Intro
@@ -409,7 +424,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 하지만 사르푸트라(사리불)가 더 유명하다.
 
 <div class="img-container">
-	<img width="400" src="/assets/images/buddhism/sariputra.png">
+	<img width="400" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/sariputra.png">
 </div>
 
 어린 시절

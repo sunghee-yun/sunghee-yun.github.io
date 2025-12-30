@@ -1,7 +1,7 @@
 ---
 title: Secrets for Mind Cultivation - 수심결修心訣
 date: 2024-09-20 PDT
-last_modified_at: Sun Oct  5 17:14:42 PDT 2025
+last_modified_at: Tue Dec 30 14:16:03 PST 2025
 categories:
 - blog
 tags:
@@ -18,12 +18,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Secrets for Mind Cultivation/NotebookLM/Secrets for Mind Cultivation_ The Path to Enlightenment-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Secrets for Mind Cultivation - The Path to Enlightenment</strong>
+		<span style="opacity: 0.8;">(10:22)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Secrets for Mind Cultivation/NotebookLM/Secrets for Mind Cultivation_ The Path to Enlightenment-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="intro">
 	Intro
@@ -60,7 +75,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 본론은 마음을 닦아 부처를 이루는 방법론을 9문9답을 통해 제시했다.
 
 <div class="img-container">
-	<img src="/assets/images/buddhism/secrets-of-mind-cultivation-01.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/secrets-of-mind-cultivation-01.png">
 </div>
 
 
@@ -502,7 +517,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<!--img width="60%" src="/assets/images/buddhism/buddha-englightened-watching-a-star.jpeg"-->
+<!--img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/buddha-englightened-watching-a-star.jpeg"-->
 
 <h2 id="originally">
 	마음은 본래 스스로 원만한 것
@@ -576,7 +591,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/searching-books.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/searching-books.png">
 
 <div class="translation-container">
 <p>
@@ -708,7 +723,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/buddhism/noble-eightfold-path.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/noble-eightfold-path.png">
 
 <div class="translation-container">
 <p>
@@ -958,7 +973,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="45%" src="/assets/images/buddhism/buddha-in-me.png">
+<img width="45%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/buddha-in-me.png">
 
 <div class="translation-container">
 <p>
@@ -1175,7 +1190,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="50%" src="/assets/images/buddhism/teaching-potion.png">
+<img width="50%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/teaching-potion.png">
 
 <div class="translation-container">
 <p>

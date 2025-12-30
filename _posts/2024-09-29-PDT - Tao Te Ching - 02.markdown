@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Mon Sep  1 16:19:30 PDT 2025
+last_modified_at: Tue Dec 30 14:35:57 PST 2025
 categories:
  - blog
 tags:
@@ -368,7 +368,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </div>
 
 <div style="clip-path: inset(0px 0px 20px 0px);">
-	<img width="60%" src="/assets/images/lao-tzu/mourn-with-flower.png">
+	<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/mourn-with-flower.png">
 </div>
 
 <div class="translation-container">
@@ -481,7 +481,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </font>
 </div>
 
-<img width="45%" src="/assets/images/lao-tzu/a-girl-kiss-a-dog.png">
+<img width="45%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/a-girl-kiss-a-dog.png">
 
 <div class="translation-container">
 <font id="world-runs-like-tao" class="emph">
@@ -561,7 +561,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/couple-watching-sunset.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/couple-watching-sunset.png">
 
 <div class="translation-container">
 <font id="not-lose-place-is-perpetuality" class="emph">
@@ -634,7 +634,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/bird-and-lake.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/bird-and-lake.png">
 
 <div class="translation-container">
 <p>
@@ -808,7 +808,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </font>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/fall.jpeg">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/fall-50-reduced.jpeg">
 
 <h2 id="36">
 	제36장
@@ -890,7 +890,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/a-man-with-a-sword.jpeg">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/a-man-with-a-sword.jpeg">
 
 <div class="translation-container">
 <p>
@@ -980,7 +980,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="70%" src="/assets/images/lao-tzu/sky-cloud-mountain-field.png">
+<img width="70%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/sky-cloud-mountain-field.png">
 
 <div class="translation-container">
 <p>
@@ -1142,7 +1142,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </font>
 </div>
 
-<img width="55%" src="/assets/images/lao-tzu/burning-girl.png">
+<img width="55%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/burning-girl.png">
 
 <div class="translation-container">
 <p>
@@ -1432,7 +1432,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="60%" src="/assets/images/lao-tzu/cute-girl.png">
+<img width="60%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/cute-girl.png">
 
 <div class="translation-container">
 <p>
@@ -1506,7 +1506,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="55%" src="/assets/images/lao-tzu/cherry-blossom.png">
+<img width="55%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/cherry-blossom.png">
 
 <h2 id="41">
 	제41장
@@ -1655,7 +1655,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="70%" src="/assets/images/lao-tzu/city-people.png">
+<img width="70%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/city-people.png">
 
 <div class="translation-container">
 <p>
@@ -1761,7 +1761,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="80%" src="/assets/images/lao-tzu/road.jpeg">
+<img width="80%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/road-50-reduced.jpeg">
 
 <div class="translation-container">
 <p>
@@ -1843,7 +1843,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="50%" src="/assets/images/lao-tzu/kitty.png">
+<img width="50%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/kitty.png">
 
 <div class="translation-container">
 <p>
@@ -1909,7 +1909,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="50%" src="/assets/images/lao-tzu/table-fruits-plant-window.png">
+<img width="50%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/table-fruits-plant-window.png">
 
 <div class="translation-container">
 <p>
@@ -2015,7 +2015,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="45%" src="/assets/images/lao-tzu/girl-and-pond.png">
+<img width="45%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/girl-and-pond.png">
 
 <div class="translation-container">
 <p>
@@ -2123,7 +2123,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
-<img width="50%" src="/assets/images/lao-tzu/girl-with-pretty-smile.png">
+<img width="50%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/girl-with-pretty-smile.png">
 
 <h2 id="47">
 	제47장
@@ -2207,7 +2207,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </font>
 </div>
 
-<img width="55%" src="/assets/images/lao-tzu/woman-feeling-nature.png">
+<img width="55%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/lao-tzu/woman-feeling-nature.png">
 
 <h2 id="48">
 	제48장
@@ -2585,7 +2585,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	덮어준다.
 </span>
 </p>
-</div>
 
 <p>
 	生而不有

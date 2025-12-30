@@ -1,7 +1,7 @@
 ---
 title: Nature of Dharma Song - 법성게法性偈
 date: 2024-09-20 18:07 PDT
-last_modified_at: Sun Oct  5 17:15:18 PDT 2025
+last_modified_at: Tue Dec 30 14:36:56 PST 2025
 categories:
 - blog
 tags:
@@ -18,12 +18,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Nature of Dharma Song/NotebookLM/The Nature of Dharma Song_ A Buddhist Classic-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>The Nature of Dharma Song - A Buddhist Classic</strong>
+		<span style="opacity: 0.8;">(13:51)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-audio-01" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-20-PDT - Nature of Dharma Song/NotebookLM/The Nature of Dharma Song_ A Buddhist Classic-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="intro">
 	Intro
@@ -64,7 +79,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <div class="fig-container">
 	<figure>
-		<img src="/assets/images/buddhism/nature-of-dharma-song-01.jpg">
+		<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/nature-of-dharma-song-01.jpg">
 		<figcaption>
 			7언30구 210자로 만들어진 일승법계도합시일인一乘法界圖合詩一印
 		</figcaption>
@@ -136,7 +151,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <div class="fig-container">
 	<figure>
-		<img src="/assets/images/buddhism/nature-of-dharma-song-02-larger.png">
+		<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/nature-of-dharma-song-02-larger.png">
 		<figcaption>
 			화엄일승법계도華嚴一乘法界圖 - 일명 해인도海印圖
 		</figcaption>
@@ -469,7 +484,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 
 <div class="img-container">
-	<img src="/assets/images/buddhism/thinking-02.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/thinking-02.png">
 </div>
 
 

@@ -1,7 +1,7 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Sun Oct  5 17:13:18 PDT 2025
+last_modified_at: Tue Dec 30 14:03:33 PST 2025
 categories:
  - blog
 tags:
@@ -18,12 +18,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-12-PDT - Mahayana Buddhism/NotebookLM/Mahayana Buddhism & Ways to Awakening-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Mahayana Buddhism & Ways to Awakening</strong>
+		<span style="opacity: 0.8;">(15:24)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-09-12-PDT - Mahayana Buddhism/NotebookLM/Mahayana Buddhism & Ways to Awakening-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 <h1 id="intro">
 	Intro
@@ -230,7 +245,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 열반적정涅槃寂靜은 열반의 경지는 고요하고 청정하며 안정安定한 곳이라는 뜻으로 이르는 말이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/no-self.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/no-self.png">
+<!--"/Users/sungheeyun/workspace/sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/no-self.png"-->
 </div>
 
 <h1 id="4">
@@ -300,7 +316,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 해탈解脫을 향한 여정의 첫 걸음부터 큰 장애에 부딪히게 된다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/dukkha.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/dukkha.png">
 </div>
 
 괴로움은 다음 팔고八苦의 8가지로 분류하여 세부적으로 설명한다.
@@ -345,7 +361,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 찰나생찰나멸刹那生刹那滅함을 알지 못한다. 괴로움이 어디서 오고 어떻게 유지되며 어디로 향하는지, 그 원리와 이유를 알지 못한다는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/samudaya.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/samudaya.png">
 </div>
 
 괴로움의 원인은 12가지 상호의존적인 단계인 <a href="#12">십이연기十二緣起</a>로 설명하는 경우가 많다.
@@ -365,7 +381,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이 멸성제의 원리를 가장 수려하게 설명한 경전이 바로 그 유명한 반야심경般若心經이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/nirodha.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/nirodha-50-reduced.jpeg">
 </div>
 
 <h2 id="marga">도성제道聖諦 - Marga</h2>
@@ -379,7 +395,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 길이 곧 깨달음(열반涅槃)이라는 말과 일맥상통한다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/marga.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/marga-50-reduced.jpeg">
 </div>
 
 <h1 id="8">
@@ -397,7 +413,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 8정도를 구하는 것을 범행구梵行求라고 한다.<sup><a href="#footnote1" id="ref1">1</a></sup>
 
 <div class="img-container">
-<img src="/assets/images/buddhism/noble-eightfold-path.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/noble-eightfold-path.png">
 </div>
 
 정도의 여덟 구성요소 또는 여덟 개의 길은 다음과 같다.
@@ -455,11 +471,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 '무아無我' '공空'과 동의어.
 
 <!--div class="img-container">
-<img src="/assets/images/buddhism/chain-of-cause-and-effect-01.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/chain-of-cause-and-effect-01.jpeg">
 </div-->
 
 <div class="img-container">
-<img src="/assets/images/buddhism/chain-of-causation.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/chain-of-causation.png">
 </div>
 
 <h2 id="12">십이연기설</h2>
@@ -510,7 +526,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 거기에 얽매여 집착하는 상태가 바로 무지無知요 무명無明이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/ignorance-01.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/ignorance-01.png">
 </div>
 
 그래서 불교에서는 무명의 타파를 가장 중요하게 여긴다.
@@ -561,7 +577,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 즉, 무명無明이 있으면 행行이 있는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/greed-and-attachment-01.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/greed-and-attachment-01.png">
 </div>
 
 그래서 불교에서는 행行을 소멸함으로써 모든 괴로움이 소멸됨을 설하고 있다.
@@ -605,7 +621,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 이것이 바로 무분별심無分別心이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/discernment-01.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/discernment-01.jpg">
 </div>
 
 그래서 중국 선의 3조 승찬대사는 &lt;신심명&gt;에서 아래와 같이 말했던 것이다.
@@ -673,7 +689,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 실체화시키지 않으면 저절로 집착執着이 줄어들 수밖에 없는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/seeing-name-and-form.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/seeing-name-and-form.png">
 </div>
 
 &lt;잡아함경&gt; 298경에 따르면
@@ -733,7 +749,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 눈으로 무엇을 보든 귀로 무엇을 듣든 코로 어떤 냄새를 맡든 혀로 어떤 것을 맛보든 그 대상에 휘둘리지 않고 사로잡히지 않는다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/lots-of-things-to-eat-and-drink.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/lots-of-things-to-eat-and-drink.png">
 </div>
 
 
@@ -784,7 +800,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <!--많은 사람들은 동일한 시간, 동일한 장소에서 동일한 사건을 모두 함께 목격하고서도 제각기 다른 것을 보았다고 말하곤 한다. 똑같이 같은 장소로 여행을 떠났지만 본 것은 전혀 다르다. 어떤 사람이 본 것을 다른 사람은 못 보았을 수도 있고, 다른 사람은 다 본 것을 나만 보지 못했을 수도 있다. 어떻게 보았다고 들었다고 맛 보았다고 해서 그것이 실재적으로 존재한다고 확정적으로 말할 수 있는가? 그럴 수는 없다. 촉입처를 멸하게 되면, 이와 같이 다만 보고 듣고 맛보고 경험할 뿐, 그것 때문에 실재론적인 오류를 범하지 않게 된다.-->
 
 <div class="img-container">
-<img src="/assets/images/buddhism/what-you-see-may-not-be-real.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/what-you-see-may-not-be-real.jpeg">
 </div>
 
 <h3 id="sensation">
@@ -816,7 +832,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 대상이 실재로 '있다'고 여길 때 우리는 그 대상에 대해 좋거나 싫은 감정을 일으키는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/sensation-01.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/sensation-01.png">
 </div>
 
 이 같은 수에는 즐거운 감정인 낙수樂受, 괴로운 감정인 고수苦受,
@@ -861,7 +877,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 그렇기 때문에 고수와 낙수 등의 감수작용이 심해질수록 그것을 조건으로 해서 일어나는 애착심과 증오심 등의 갈애 또한 커지는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/love.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/love.png">
 </div>
 
 이처럼 좋거나 싫은 대상에 대한 갈애가 커지게 됨으로써 좋은 대상은 더욱 더 갈망하고
@@ -918,7 +934,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 죽기 직전에 이러한 애욕을 끊어내지 못함으로써 끊임없는 윤회의 수레바퀴를 돌고 돌 수밖에 없는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/despair.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/despair.png">
 </div>
 
 <h3 id="attachment">
@@ -963,7 +979,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 집착을 소멸시키는 것이야말로 12연기를 실천하여 고를 소멸하는 핵심 방법이기 때문이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/cliff-and-moon.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/cliff-and-moon.png">
 </div>
 
 
@@ -1007,7 +1023,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 짓는 업이 다름으로써 나름대로의 독자적인 욕, 색, 무색의 유有가 생기면 그에 따라 생生이 생겨난다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/existence.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/existence.png">
 </div>
 
 <!--부파불교의 삼세양중 업감연기에서는, 앞의 세 가지 애(愛), 취(取), 유(有)가 현재생의 세 가지 원인으로 작용하며, 이 결과로 미래의 두 가지 결과인 생(生), 노사(老死)를 초래한다고 말한다. 다시 말해, 현재 살아가면서 애착하고 취하려고 하기 때문에 이에 따른 업(有)을 낳고, 그 업력으로 인해 다음 생(生)을 받게 되며, 자연히 노병사(老病死)의 괴로움을 받는다는 것이다.-->
@@ -1054,7 +1070,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 노사老死 우비고뇌憂悲苦惱의 괴로움이 연기緣起하는 것이다.
 
 <div class="img-container">
-<img src="/assets/images/buddhism/birth.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/birth.png">
 </div>
 
 <h3 id="aging-and-death">
@@ -1087,7 +1103,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 
 <div class="img-container">
-<img src="/assets/images/buddhism/aging-and-death.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/buddhism/aging-and-death.png">
 </div>
 
 이상에서와 같이
