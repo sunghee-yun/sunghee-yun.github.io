@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Sun Oct  5 17:47:00 PDT 2025
+last_modified_at: Tue Dec 30 08:11:27 PST 2025
 categories:
  - blog
 tags:
@@ -104,38 +104,96 @@ These spaces are large enough to include all of classical analysis (Euclidean sp
 while still being structured enough to support powerful analytical techniques.</a>
 </blockquote>
 
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Grammar of Space - A Topological Journey - 01</strong>
+			<span style="opacity: 0.8;">(18:06)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Grammar of Space - A Topological Journey - 02</strong>
+			<span style="opacity: 0.8;">(18:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Grammar of Space - A Topological Journey - 03</strong>
+			<span style="opacity: 0.8;">(21:02)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Topological and Metric Spaces - A Fundamental Guide</strong>
+			<span style="opacity: 0.8;">(23:20)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/Topological and Metric Spaces_ A Fundamental Guide-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-3" controls>
+<!--audio id="podcast-3" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/The Grammar of Space_ A Topological Journey-03.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<h2>based on Topological Spaces Codex</h2>
+<!--h2>based on Topological Spaces Codex</h2-->
 
-<audio id="podcast-slides-1" controls>
+<!--audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-07-13-PDT - topological-spaces/NotebookLM/Topological and Metric Spaces_ A Fundamental Guide-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-# Parent blog post
+# Related blog posts
+
+## Parent blog post
 
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 - [{{ math_landscape.title }}]({{ math_landscape.url }})
 
-# Sibling blog posts
+## Sibling blog posts
 
 {% assign inequalities = site.posts | where: "permalink", "/math/inequalities" | first %}
 {% assign abstract_algebra = site.posts | where: "permalink", "/math/abstract-algebra" | first %}
@@ -153,7 +211,7 @@ while still being structured enough to support powerful analytical techniques.</
 
 # Topological Spaces Codex {#topology-codex}
 
-- [Searching for Universal Truths - Topological Spaces](/resource/fun math/fun_math_topspaces.pdf)
+- [Searching for Universal Truths - Topological Spaces (PDF slides)](/resource/fun math/fun_math_topspaces.pdf)
 
 # The Romance That Never Ends - My Love Affair with Topology
 
