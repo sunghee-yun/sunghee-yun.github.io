@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Wed Dec 31 14:18:14 PST 2025
+last_modified_at: Wed Dec 31 14:43:13 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -55,7 +55,7 @@ but to those who can most effectively organize and leverage their domain-specifi
 		<span style="opacity: 0.8;">(11:05)</span>
 	</div>
 	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-audio-01" controls style="width: 100%;">
+		<audio id="podcast-1" controls style="width: 100%;">
 			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
 			Your browser does not support this audio element.
 		</audio>
