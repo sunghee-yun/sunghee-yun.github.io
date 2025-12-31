@@ -2,7 +2,7 @@
 permalink: /math/topological-spaces
 title: The Grammar of Space &ndash; Understanding Reality through Topological Structure
 date: Sun Jul 13 09:15:46 PDT 2025
-last_modified_at: Tue Dec 30 08:31:54 PST 2025
+last_modified_at: Wed Dec 31 14:56:47 PST 2025
 categories:
  - blog
 tags:
@@ -211,7 +211,7 @@ while still being structured enough to support powerful analytical techniques.</
 
 # Topological Spaces Codex {#topology-codex}
 
-- [Searching for Universal Truths - Topological Spaces (PDF slides)](/resource/fun math/fun_math_topspaces.pdf)
+- [Searching for Universal Truths - Topological Spaces (PDF slides)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_topspaces.pdf){:target="_blank"}
 
 # The Romance That Never Ends - My Love Affair with Topology
 

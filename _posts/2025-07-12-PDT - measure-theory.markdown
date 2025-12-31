@@ -2,7 +2,7 @@
 permalink: /math/measure-theory
 title: The Revolution that Transformed Analysis Forever &ndash; Lebesgue's Gift to Modern Analysis
 date: Sat Jul 12 04:59:40 PDT 2025
-last_modified_at: Sun Oct  5 17:46:12 PDT 2025
+last_modified_at: Wed Dec 31 14:55:35 PST 2025
 categories:
  - blog
 tags:
@@ -109,7 +109,7 @@ Lebesgue's integral doesn't just extend Riemann's&mdash;it reveals the deeper st
 
 # Measure Theory Codex {#measure-theory-codex}
 
-- [Searching for Universal Truths - Measure Theory](/resource/fun math/fun_math_mtheory.pdf)
+- [Searching for Universal Truths - Measure Theory](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_mtheory.pdf){:target="_blank"}
 
 # Mathematical Race of 1902
 

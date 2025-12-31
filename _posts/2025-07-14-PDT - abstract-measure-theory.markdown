@@ -2,7 +2,7 @@
 permalink: /math/abstract-measure-theory
 title: Beyond Lebesgue &ndash; The Universal Language of Abstract Measure Theory
 date: Mon Jul 14 12:12:03 PDT 2025
-last_modified_at: Sun Oct  5 17:47:53 PDT 2025
+last_modified_at: Wed Dec 31 15:01:34 PST 2025
 categories:
  - blog
 tags:
@@ -127,7 +127,7 @@ What moves me most about abstract measure theory is how it transforms technical 
 
 # Abstract Measure Theory Codex {#measure-theory-codex}
 
-- [Searching for Universal Truths - Abstract Measure Theory](/resource/fun math/fun_math_absmeas.pdf)
+- [Searching for Universal Truths - Abstract Measure Theory](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_absmeas.pdf){:target="_blank"}
 
 # From Concrete Lebesgue to Abstract Universality
 

@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Tue Dec 30 08:31:08 PST 2025
+last_modified_at: Wed Dec 31 14:52:42 PST 2025
 categories:
  - blog
 tags:
@@ -140,8 +140,8 @@ Stay connected for these mathematical adventures!
 
 # Math Codex {#math-codex}
 
-- [Searching for Universal Truths (PDF slides)](/resource/fun math/fun_math.pdf)
-- [Searching for Universal Truths - article version (PDF)](/resource/fun math/fun_math_article.pdf)
+- [Searching for Universal Truths (PDF slides)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math.pdf){:target="_blank"}
+- [Searching for Universal Truths - article version (PDF)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_article.pdf){:target="_blank"}
 
 # A Journey Through Mathematical Beauty
 

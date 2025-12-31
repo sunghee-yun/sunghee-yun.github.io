@@ -2,7 +2,7 @@
 permalink: /math/cvxopt
 title: When Every Path Leads to Success &ndash; The Convex Optimization
 date: Mon Jul 14 21:02:12 PDT 2025
-last_modified_at: Thu Dec 25 19:15:11 PST 2025
+last_modified_at: Wed Dec 31 15:03:21 PST 2025
 categories:
  - blog
 tags:
@@ -173,7 +173,7 @@ that guarantees global optimality and enables the development of efficient algor
 
 # Convex Optimization Codex {#convex-optimization-codex}
 
-- [Searching for Universal Truths - Convex Optimization](/resource/fun math/fun_math_cvxopt.pdf)
+- [Searching for Universal Truths - Convex Optimization](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_cvxopt.pdf){:target="_blank"}
 
 # The Profound Realization - When Optimization Becomes Science
 
