@@ -2,7 +2,7 @@
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 permalink: /ai/llm/energy-challenge
 date: 06-Oct-2024
-last_modified_at: Sun Oct  5 17:18:29 PDT 2025
+last_modified_at: Wed Dec 31 09:13:48 PST 2025
 categories:
  - blog
  - AI
@@ -27,12 +27,25 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<h1>NotebookLM Podcasts</h1>
+<!--h1>NotebookLM Podcasts</h1-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Liquid Neural Networks - The Future of Efficient AI</strong>
+		<span style="opacity: 0.8;">(06:51)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-audio-01" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 # The Hidden Cost of AI Progress
 

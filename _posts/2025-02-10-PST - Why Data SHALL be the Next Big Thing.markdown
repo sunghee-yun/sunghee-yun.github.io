@@ -1,7 +1,7 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Mon Dec 29 18:48:48 PST 2025
+last_modified_at: Wed Dec 31 14:18:14 PST 2025
 permalink: /ai/data
 categories:
  - blog
@@ -49,18 +49,16 @@ but to those who can most effectively organize and leverage their domain-specifi
 	Your browser does not support this shorter audio element.
 </audio-->
 
-<div class="img-container-justified">
-	<div style="width: 100%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Beyond Models - Data and Domain Define AI's Future</strong>
-			<span style="opacity: 0.8;">(11:05)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
-				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
+<div style="width: 100%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Beyond Models - Data and Domain Define AI's Future</strong>
+		<span style="opacity: 0.8;">(11:05)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-audio-01" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-10-PST - Why Data SHALL be the Next Big Thing/NotebookLM/Beyond Models_ Data and Domain Define AI's Future-01.wav">
+			Your browser does not support this audio element.
+		</audio>
 	</div>
 </div>
 
