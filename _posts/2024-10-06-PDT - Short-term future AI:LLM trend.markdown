@@ -2,7 +2,7 @@
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 permalink: /ai/llm/energy-challenge
 date: 06-Oct-2024
-last_modified_at: Wed Dec 31 09:13:48 PST 2025
+last_modified_at: Wed Dec 31 14:39:32 PST 2025
 categories:
  - blog
  - AI
@@ -34,16 +34,57 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	Your browser does not support this shorter audio element.
 </audio-->
 
-<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-		<strong>Liquid Neural Networks - The Future of Efficient AI</strong>
-		<span style="opacity: 0.8;">(06:51)</span>
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Liquid Neural Networks - The Future of Efficient AI</strong>
+			<span style="opacity: 0.8;">(06:51)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
 	</div>
-	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-audio-01" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-10-06-PDT - Short-term future AI-LLM trend/NotebookLM/Liquid Neural Networks_ The Future of Efficient AI-01.wav">
-			Your browser does not support this audio element.
-		</audio>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - AI's Energy Crisis and MIT's Fix</strong>
+			<span style="opacity: 0.8;">(32:51)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/AI_s_Energy_Crisis_and_MIT_s_Fix.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Liquid Neural Networks versus Model Compaction</strong>
+			<span style="opacity: 0.8;">(17:08)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-3" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/Liquid_Neural_Networks_versus_Model_Compaction.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - LNNs fix Transformer energy problem</strong>
+			<span style="opacity: 0.8;">(12:26)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-4" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/LNNs_fix_Transformer_energy_problem.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
 	</div>
 </div>
 
