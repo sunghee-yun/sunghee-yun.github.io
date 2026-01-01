@@ -1,7 +1,7 @@
 ---
 title: "Beyond Coincidence &ndash; Mathematical Truths That Transcend All Possible Universes"
 date: Sun Feb  2 14:43:34 PST 2025
-last_modified_at: Tue Aug 26 12:54:57 PDT 2025
+last_modified_at: Thu Jan  1 13:02:13 PST 2026
 permalink: /prajna/inevitabilities
 categories:
  - blog
@@ -69,11 +69,55 @@ $$
 \newcommand{\innerp}[2]{\langle{#1},{#2}\rangle} % inner product
 $$
 
-<h1>NotebookLM Podcasts</h1>
+<!--h1>NotebookLM Podcasts</h1-->
 
+<!--
 - [Beyond Coincidence - Unpacking the Inevitable Mathematical Patterns of Our Universe (11:51)](https://notebooklm.google.com/notebook/16049e9c-6cee-4a8b-b8b5-d805bb6ecd0f?artifactId=f0284dac-f70a-42d2-b1d0-4c8885769797){:target="_blank"}
 - [Beyond Coincidence - Mathematical Truths That Shape All Possible Universes (12:04)](https://notebooklm.google.com/notebook/0074c597-e262-465c-88c3-197ee48b5652?artifactId=58e95dcd-7edf-4720-8530-9ffb17f66529){:target="_blank"}
 - [Unavoidable Patterns - How Math Shapes Any Universe (13:26)](https://notebooklm.google.com/notebook/58bc83a2-542e-4938-9d8e-d678bc541f11?artifactId=4b499c1f-a3c7-474b-b3bc-60e6249fb6a7){:target="_blank"}
+-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Beyond Coincidence - Unpacking the Inevitable Mathematical Patterns of Our Universe</strong>
+			<span style="opacity: 0.8;">(11:51)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-02-02-PST - inevitabilities/Beyond_Coincidence__Unpacking_the_Inevitable_Mathematical_Patterns_of_Our_Universe.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Beyond Coincidence - Mathematical Truths That Shape All Possible Universes</strong>
+			<span style="opacity: 0.8;">(12:04)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-02-02-PST - inevitabilities/Beyond_Coincidence__Mathematical_Truths_That_Shape_All_Possible_Universes.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Unavoidable Patterns - How Math Shapes Any Universe</strong>
+			<span style="opacity: 0.8;">(13:26)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-02-02-PST - inevitabilities/Unavoidable_Patterns__How_Math_Shapes_Any_Universe.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 {% assign post = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
 
