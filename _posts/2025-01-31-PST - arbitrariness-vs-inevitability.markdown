@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sun Oct  5 16:21:58 PDT 2025
+last_modified_at: Thu Jan  1 08:52:04 PST 2026
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -20,19 +20,50 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Inevitability of Mathematical Truths in Physical Laws</strong>
+			<span style="opacity: 0.8;">(08:45)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Truth in Numbers and the Cosmos</strong>
+			<span style="opacity: 0.8;">(10:54)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+# Inevitability vs Arbitrariness
 
 In the movie "Contact," (starring Jodie Foster, one of my favorite Hollywood stars), extraterrestrial beings communicate with Earth using pulses that represent prime numbers.
 This choice is profoundly significant: even in a universe where different physical laws might reign,
@@ -43,7 +74,8 @@ whatever we mean by intelligent beings.
 <!--regardless of how we define intelligence or consciousness.-->
 
 <div class="img-container">
-<img src="/resource/inevitability-vs-arbitrariness/the-movie-contact/jodi_contact.jpg">
+	<!--img src="/resource/inevitability-vs-arbitrariness/the-movie-contact/jodi_contact.jpg"-->
+	<img style="max-width: 100%;" width="100%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/the-movie-contact/jodi_contact.jpg">
 </div>
 
 This observation leads us to a deeper philosophical inquiry about the nature of truth itself: what is inevitable or universal,
@@ -80,7 +112,8 @@ Unlike prime numbers, this law isn't inherently inevitable.
 A certain universe *could* exist where the force was inversely proportional to $$r^3$$ or $$r$$, rather than $$r^2$$ (if such a force exists).
 
 <div class="img-container">
-<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Mathematical_truth_vs_physical_lawPermalink_Here__465e14c3-08cb-4bdd-9e2c-0840d788ad32_3.png">
+	<!--img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_Mathematical_truth_vs_physical_lawPermalink_Here__465e14c3-08cb-4bdd-9e2c-0840d788ad32_3.png"-->
+	<img style="max-width: 70%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/u1564158738_Mathematical_truth_vs_physical_lawPermalink_Here__465e14c3-08cb-4bdd-9e2c-0840d788ad32_3.png">
 </div>
 
 So in a sense,
@@ -190,7 +223,8 @@ that gravitational or electric forces follow exactly an inverse square law (we c
 the appearance of the square term might have a deeper necessity rooted in the geometry of space itself.
 
 <div class="img-container">
-<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/gravitational-forces.png">
+	<!--img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/gravitational-forces.png"-->
+	<img style="max-width: 70%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/gravitational-forces.png">
 </div>
 
 Note that physical laws, in general, can never be "proved" in the same way mathematical theorems can.
@@ -224,7 +258,8 @@ perhaps certain aspects of our physical laws are similarly universal,
 not because of physics itself, but because of their connection to deeper mathematical truths.
 
 <div class="img-container">
-<img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_DiscussionPermalink_So_when_we_ask_whether_we_mig_30def07a-5af1-4aaa-b288-b91fff663e68_3.png">
+	<!--img style="max-width: 70%;" src="/resource/inevitability-vs-arbitrariness/u1564158738_DiscussionPermalink_So_when_we_ask_whether_we_mig_30def07a-5af1-4aaa-b288-b91fff663e68_3.png"-->
+	<img style="max-width: 70%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/u1564158738_DiscussionPermalink_So_when_we_ask_whether_we_mig_30def07a-5af1-4aaa-b288-b91fff663e68_3.png">
 </div>
 
 Or is it?
@@ -268,7 +303,8 @@ $$
 $$
 
 <div class="img-container">
-<img style="max-width: 80%;" src="/resource/inevitability-vs-arbitrariness/pi/pi-e.png">
+	<!--img style="max-width: 80%;" src="/resource/inevitability-vs-arbitrariness/pi/pi-e.png"-->
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/pi/pi-e.png">
 </div>
 
 Again, while (of course) I do not have definite or (in any way) compelling explanations for this,
