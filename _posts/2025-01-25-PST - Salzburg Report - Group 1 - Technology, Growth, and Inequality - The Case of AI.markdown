@@ -2,7 +2,7 @@
 title: Technology, Growth, and Inequality &ndash; The Case of AI
 permalink: /ai/salzburg-report-case-of-ai
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Sun Oct  5 17:24:35 PDT 2025
+last_modified_at: Fri Jan  2 08:41:43 PST 2026
 categories:
  - blog
  - AI
@@ -21,12 +21,27 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-25-PST - Salzburg Report - Group 1 - Technology, Growth, and Inequality - The Case of AI/NotebookLM/AI's Dual Nature_ Fairness, Ethics, and Equitable Access-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>AI's Dual Nature - Fairness, Ethics, and Equitable Access</strong>
+		<span style="opacity: 0.8;">(14:48)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-25-PST - Salzburg Report - Group 1 - Technology, Growth, and Inequality - The Case of AI/NotebookLM/AI's Dual Nature_ Fairness, Ethics, and Equitable Access-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 This is the (semi-)final draft of the report
 written by &ldquo;KFAS-Salzburg Global Leadership Initiative Fellow Group 1 - Technology, Growth, and Inequality &ndash; The Case of AI&rdquo;
