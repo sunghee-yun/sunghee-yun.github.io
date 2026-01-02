@@ -1,7 +1,7 @@
 ---
 title: Photos of GTC 2025
 date: Fri Mar 21 23:59:59 PDT 2025
-last_modified_at: Sun Oct  5 17:43:25 PDT 2025
+last_modified_at: Thu Jan  1 22:39:40 PST 2026
 permalink: /gtc/2025
 categories:
  - blog
@@ -25,134 +25,149 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - cats: {% for category in page.categories %} <a href="/categories/#{{ category }}">{{ category }}</a> {% endfor %}
 -->
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<h2>based on this blog</h2>
+<!--h2>based on this blog</h2-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-03-21-PDT - gtc -2025/NotebookLM/Sunghee Yun_ GTC 2025 and AI Insights-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Sunghee Yun - GTC 2025 and AI Insights</strong>
+		<span style="opacity: 0.8;">(09:44)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<audio id="podcast-1" controls style="width: 100%;">
+			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-03-21-PDT - gtc -2025/NotebookLM/Sunghee Yun_ GTC 2025 and AI Insights-01.wav">
+			Your browser does not support this audio element.
+		</audio>
+	</div>
+</div>
 
 # Photos
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-10 019.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-10 019-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-03 016.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-03 016-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 002.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 002-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-07 018.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-07 018-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-30 030.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-30 030-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 003.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 003-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-56 013.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-56 013-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 004.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 004-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 008.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 008-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-16 022.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-16 022-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-13 021.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-13 021-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 005.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 005-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 006.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 006-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-25 027.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-25 027-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-18 023.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-18 023-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 007.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 007-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-23 026.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-23 026-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-27 028.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-27 028-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 001.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 001-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-06 017.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-06 017-25-reduced.jpeg">
 </div>
 
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-29 029.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-29 029-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-52 011.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-52 011-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-49 010.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-49 010-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-00 015.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-00 015-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 009.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-47 009-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-58 014.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-58 014-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-21 025.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-21 025-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-20 024.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-20 024-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-54 012.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-00-54 012-25-reduced.jpeg">
 </div>
 
 <div class="img-container">
-<img src="/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-11 020.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/conferences/gtc 2025 spring/KakaoTalk_Photo_2025-03-21-17-01-11 020-25-reduced.jpeg">
 </div>
