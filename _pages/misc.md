@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Dec 30 07:57:00 PST 2025
+last_modified_at: Thu Jan  1 22:10:06 PST 2026
 ---
 
 <!--
@@ -68,8 +68,8 @@ last_modified_at: Tue Dec 30 07:57:00 PST 2025
 - 04-Jan-2025
 	&ndash;
 	Beth's card
-	[front](/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-27_001.jpeg)
-	[contents](/resource/photos/cards/KakaoTalk_Image_2025-01-05-13-28-30_002.jpeg)
+	[front](https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/cards/KakaoTalk_Image_2025-01-05-13-28-27_001-50-reduced.jpeg){:target="_blank"}
+	[contents](https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/cards/KakaoTalk_Image_2025-01-05-13-28-30_002-50-reduced.jpeg){:target="_blank"}
 
 # Art, Culture &amp; Games
 
