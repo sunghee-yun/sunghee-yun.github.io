@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Jan  1 22:59:56 PST 2026
+last_modified_at: Thu Jan  1 23:10:49 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -25,13 +25,13 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
 이 글은 [부산광역시교육청영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}에서 발행하는 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
-[2025년 제17권 2호 (2026. 01. 02)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b){:target="_blank"}에
+[2025년 제17권 2호 (2026. 01. 02)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5){:target="_blank"}에
 실린 글입니다.
 {: .notice--warning}
 
 This article was published in the
 [Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
-[Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b){:target="_blank"}
+[Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5){:target="_blank"}
 issued by the [Busan Metropolitan City Office of Education Gifted Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
