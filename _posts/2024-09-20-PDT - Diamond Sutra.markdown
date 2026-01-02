@@ -1,9 +1,10 @@
 ---
 title: Diamond Sūtra - 금강경金剛經
 date: 2024-09-20 23:30 PDT
-last_modified_at: Tue Dec 30 14:25:07 PST 2025
+last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
  - blog
+ - Philosophy
 tags:
  - Buddhism
  - Diamond Sutra

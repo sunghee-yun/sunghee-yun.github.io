@@ -1,14 +1,14 @@
 ---
 title: "5 Surprising Truths About Convex Optimization (That Even Experts Get Wrong)"
 date: Sun Dec 28 05:45:13 PST 2025
-last_modified_at: Sun Dec 28 06:15:11 PST 2025
+last_modified_at: Fri Jan  2 11:48:17 PST 2026
 permalink: /cvx-opt/5-truths
 categories:
  - blog
- - convex optimization
- - mathematics
+ - Engineering
 tags:
  - convex optimization
+ - mathematics
  - rigorous mathematics
  - duality
  - proofs

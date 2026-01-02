@@ -1,9 +1,10 @@
 ---
 title: Heart Sūtra - 반야심경般若心經
 date: 2024-09-19 PDT
-last_modified_at: Tue Dec 30 14:10:00 PST 2025
+last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
  - blog
+ - Philosophy
 tags:
  - Buddhism
  - Heart Sutra

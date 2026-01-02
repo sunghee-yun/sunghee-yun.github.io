@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Fri Jan  2 10:34:45 PST 2026
+last_modified_at: Fri Jan  2 11:42:15 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -231,7 +231,19 @@ Silicon Valley 발 여러 책들과 기사들을 읽고 있었던 나로서는 A
 <img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
 </div>
 
-나는 이 소중한 기회를 놓칠세라 십분 활용하기 시작했다. 나는 다른 회사들의 자문을 하기도 하고, 직장생활에 밀려 못 했던 수학, 공학, 통계, 철학, 인지과학, 역사 등의 분유에서 나만의 공부들도 하고, 스탠포드 대학, 서울대학교, 고려대학교, 연세대학교, 이화여자대학교, KAIST, 포항공대, 서강대학교, DGIST, KIST, SEOULTECH, 한양대학교 등에서 초청을 받아 인공지능 특강 및 세미나도 활발하게 진행하게 되었다. 2025년 한 해 동안 내가 진행한 인공지능 특강과 세미나의 횟수는 50회가 넘는다!
+나는 이 소중한 기회를 놓칠세라 십분 활용하기 시작했다. 나는 다른 회사들의 자문을 하기도 하고, 직장생활에 밀려 못 했던 수학, 공학, 통계, 철학, 인지과학, 역사 등의 분야에서 나만의 공부들도 하고, 스탠포드 대학, 서울대학교, 고려대학교, 연세대학교, 이화여자대학교, KAIST, 포항공대, 서강대학교, DGIST, KIST, SEOULTECH, 한양대학교 등에서 초청을 받아 인공지능 특강 및 세미나도 활발하게 진행하게 되었다. 2025년 한 해 동안 내가 진행한 인공지능 특강과 세미나의 횟수는 50회가 넘는다!
+
+> 이러한 영역에서 내 학문적, 동시에 실용적 탐구의 결과의 흔적의 일부를 각 분야별로 아래에서 찾아 볼 수 있다.
+> 
+> - [AI 특강, 세미나, 자문 및 학회, Forum 참여 등](/#sem){:target="_blank"}
+> - [인공지능](/categories/#ai){:target="_blank"}
+> - [수학](/math){:target="_blank"}
+> - [공학](/categories/#engineering){:target="_blank"}
+> - [Humanity](/categories/#humanity){:target="_blank"}
+> - [예술](/categories/#art){:target="_blank"}
+> - [인지과학](/categories/#cognitive-science){:target="_blank"}
+> - [보편적 진리](/categories/#universal-truth){:target="_blank"}
+{: .notice--warning}
 
 # K-PAI – 사람을 연결하는 힘 {#k-pai-connecting-people}
 

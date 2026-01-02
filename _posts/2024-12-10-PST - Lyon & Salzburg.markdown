@@ -2,10 +2,11 @@
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 permalink: /ai/bridging-technology-and-humanity
 date: 10-Dec-2024
-last_modified_at: Thu Dec 25 11:58:31 PST 2025
+last_modified_at: Fri Jan  2 11:29:03 PST 2026
 categories:
  - blog
  - AI
+ - Humanity
 tags:
  - AI
  - humanity

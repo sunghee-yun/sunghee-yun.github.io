@@ -1,12 +1,12 @@
 ---
 title: "When Mathematics Dances with Music - Reflections from Stanford"
 date: Tue Oct  7 17:06:11 PDT 2025
-last_modified_at: Tue Dec 30 05:13:43 PST 2025
+last_modified_at: Fri Jan  2 11:47:39 PST 2026
 permalink: /reflections/harmony-across-generations
 categories:
  - blog
- - music
- - event
+ - Event
+ - Art
 tags:
  - music
  - mathematics

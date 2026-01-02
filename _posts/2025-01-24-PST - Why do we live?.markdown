@@ -1,9 +1,10 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Fri Jan  2 10:17:34 PST 2026
+last_modified_at: Fri Jan  2 11:21:54 PST 2026
 categories:
  - blog
+ - Philosophy
 tags:
  - values
  - philosophy

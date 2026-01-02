@@ -2,11 +2,12 @@
 layout: single
 title: The Multi-Agent AI Revolution - Building Collective Intelligence for the Next Generation of Business
 date: Mon Jun  9 22:38:33 PDT 2025
-last_modified_at: Tue Dec 30 06:31:48 PST 2025
+last_modified_at: Fri Jan  2 11:30:18 PST 2026
 permalink: /multi-agent-ai-biz-landscape
 categories:
  - blog
  - AI
+ - Engineering
 tags:
  - ai
  - ai agent

@@ -1,11 +1,12 @@
 ---
 title: Beyond Models &ndash; Why Domain Insight and Quality Data Will Define AI's Future
 date: Mon Feb 10 01:16:52 PST 2025
-last_modified_at: Wed Dec 31 14:43:13 PST 2025
+last_modified_at: Fri Jan  2 11:30:44 PST 2026
 permalink: /ai/data
 categories:
  - blog
  - AI
+ - Engineering
 tags:
  - AI
  - technology

@@ -2,9 +2,10 @@
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 date: 2024-09-29
-last_modified_at: Tue Dec 30 14:35:57 PST 2025
+last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
  - blog
+ - Philosophy
 tags:
  - Taoism
  - Tao Te Ching

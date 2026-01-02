@@ -2,11 +2,13 @@
 #title: Richness of Music Notes - despite single dimensionality
 title: Dimensional Paradox of Music
 date: Fri Sep  5 23:26:19 PDT 2025
-last_modified_at: Tue Dec 30 06:39:19 PST 2025
+last_modified_at: Fri Jan  2 11:37:13 PST 2026
 permalink: /prajna/wonders/richness-of-musical-notes
 categories:
  - blog
+ - Art
  - Wonders
+ - Cognitive Science
 tags:
  - music
  - wonders

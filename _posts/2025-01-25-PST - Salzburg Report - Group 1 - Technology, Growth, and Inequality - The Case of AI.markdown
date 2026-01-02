@@ -2,10 +2,11 @@
 title: Technology, Growth, and Inequality &ndash; The Case of AI
 permalink: /ai/salzburg-report-case-of-ai
 date: Sat Jan 25 01:21:09 PST 2025
-last_modified_at: Fri Jan  2 08:41:43 PST 2026
+last_modified_at: Fri Jan  2 11:47:39 PST 2026
 categories:
  - blog
  - AI
+ - Humanity
 tags:
  - AI
  - Salzburg Global Seminar

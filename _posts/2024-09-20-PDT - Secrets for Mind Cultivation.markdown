@@ -1,12 +1,13 @@
 ---
 title: Secrets for Mind Cultivation - 수심결修心訣
 date: 2024-09-20 PDT
-last_modified_at: Tue Dec 30 14:16:03 PST 2025
+last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
-- blog
+ - blog
+ - Philosophy
 tags:
-- Buddhism
-- Mind Cultivation
+ - Buddhism
+ - Mind Cultivation
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"

@@ -1,9 +1,10 @@
 ---
 title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
-last_modified_at: Tue Dec 30 14:03:33 PST 2025
+last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
  - blog
+ - Philosophy
 tags:
  - Buddhism
  - Mahayana Buddhism

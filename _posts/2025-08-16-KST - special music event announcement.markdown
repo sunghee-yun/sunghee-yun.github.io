@@ -1,12 +1,12 @@
 ---
 title: "Harmony Across Generations - A Musical Journey Through Korean Heritage"
 date: Sat Aug 16 10:06:11 KST 2025
-last_modified_at: Mon Dec 29 18:51:33 PST 2025
+last_modified_at: Fri Jan  2 11:47:39 PST 2026
 permalink: /event-announcements/korean-family-harmony
 categories:
  - blog
- - music
- - event
+ - Art
+ - Event
 tags:
  - family-event
  - korean-culture
