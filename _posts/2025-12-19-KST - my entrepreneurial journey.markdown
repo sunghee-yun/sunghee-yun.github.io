@@ -1,7 +1,7 @@
 ---
 title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Jan  1 18:02:10 PST 2026
+last_modified_at: Thu Jan  1 20:35:10 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -24,7 +24,15 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
-이 글은 [부산광역시교육청영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}의 요청에 의해 쓰여진 글이고 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}에 실릴 예정입니다.
+이 글은 [부산광역시교육청영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}에서 발행하는 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
+[2025년 제17권 2호 (2026. 01. 02)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b){:target="_blank"}에
+실린 글입니다.
+{: .notice--warning}
+
+This article was published in the
+[Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
+[Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3dcdfdc73bddae8bcc73d4f17f2872d30b){:target="_blank"}
+issued by the [Busan Metropolitan City Office of Education Gifted Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
 <div class="img-container-justified">
@@ -125,6 +133,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/)의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 에루디오바이오코리아(Erudio Bio Korea)의 대표이사이다.
 그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/)의 창립멤버이자 리더이다. 그 외에도 74년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/)의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative), 대한한의사협회 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다. 그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다. 그리고 최근 Erudio Bio는 게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다.
 
+<div class="img-container">
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+</div>
+
 # 어린시절 - 근본적인 원인의 탐구
 
 나는 내가 기억할 수 있는 어린 시절부터 수학을 좋아했다. 숫자들이 만들어내는 패턴, 문제를 푸는 과정의 논리적 아름다움—그것들이 내게는 놀이였다. 작게는 등하교 길에 내가 지나게 되는 계단의 개수의 패턴을 분석하기를 좋아하였고 국민학교 5학년 방학 때 탐구생활을 통해 처음 알게 된 완전수의 개념에 커다란 매력을 느끼곤 하였다. 또 한편으로는 우연히 다니게 된 동네 컴퓨터 학원에서 배운 Apple II 컴퓨터 상에서의 BASIC 언어에 소질을 나타냈고 당시 서울시 대회에 출전하기도 하였다.
@@ -138,6 +150,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 드디어 나는 내가 있어야 할 곳을 마침내 찾은 듯 했다. 암기가 아니라 이해를, 정답이 아니라 과정을, 결과가 아니라 "왜"를 묻는 교육. 수학과 과학을 사랑하고, 호기심으로 가득 차고, 밤새 한 문제를 붙잡고 씨름하는 것을 즐기는 친구들. 그리고 이 모든 것을 뒷받침 해 주셨던 선생님들. 그곳에서 나의 잠재력이 비로소 깨어났다. 그동안 억눌려 있던 나의 진짜 능력이 드디어 출구를 찾았다. 문제를 푸는 것이 아니라 문제를 만들고, 정답을 찾는 것이 아니라 새로운 접근법을 창조하고, 배우는 것이 아니라 탐구했다.
 
 특히나 내가 원래 좋아했던 수학 영역에서 나는 커다란 인지적 도약(Cognitive Leap)을 경험하였다. 선행학습을 전혀 하지 않았던 나로서는 과학고등학교를 입학할 당시에는 꿈도 꾸지 못했던 수학올림피아드 클럽에 들어가서 재능 있고 뛰어난 친구들과 같이 공부하고 겨루고 배우며 내 수학 실력을 마음껏 갈고 닦을 수가 있었다. 내 안에 있었던 잠재력을 확인하고 놀라는 순간들이 한 두 번이 아니었던 기억이 아직도 생상하다. 그 무엇보다 수학은 내게 즐거움 그 자체였다. 아직도 나는 어느날 수학책을 넘기며 내 머리 속의 풀이법이 다음 페이지에 나올 풀이법보다 뛰어나길 바라면 가슴 설렜던 기억이 있다. 수학 책을 넘기며 가슴 설레는 경험을 하는 사람이 이 세상에 몇이나 될까?
+
+<div class="img-container">
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
+</div>
 
 대학 진학 시 내가 가장 하고 싶었던 공부는 수학이였고 두번째는 물리학 그리고 세번째가 전자공학이었다. 그러나 당시 담임선생님과 아버지의 진학지도를 따라 서울대학교 전기전자제어계측공학부에 입학하였다. 돌이켜보면 이 선택은 최고의 선택이었다. 대학 공부 중 알게 되었지만 나는 수학이라는 극단적으로 추상적인 학문을 좋아하는 동시에 이 세상에 실질적 변화를 만드는 일에서도 큰 기쁨과 보람을 느끼는 성향을 가진 사람이었다. 어린 시절 프로그래밍에 빠져들었던 것도 바로 이 두 가지를 모두 충족시켜주었기 때문이었을 것이다. 공업 수학, 회로이론, 전자기학, 반도체 공학 등 소위 20세기 인류가 발명한 가장 위대한 기술인 반도체 기술과 거기서 파생된 다양한 학문을 배울 수 있었다는 것은 또 하나의 큰 행운이었다.
 
@@ -194,6 +210,10 @@ Silicon Valley 발 여러 책들과 기사들을 읽고 있었던 나로서는 A
 가우스랩스를 떠나 에루디오바이오를 설립하고 나에게 예상치 못한 변화가 찾아왔다. 분명 내가 하는 일은 기존보다 2~3배 이상 많아졌다. 결과와 성과를 기준으로 봤을 때 그랬다. 그런데 역설적이게도, 내게 시간적 심적 여유가 생겼다. 어떻게 이런 일이 가능했을까? 두 가지 정도의 이유를 생각해 볼 수 있을 듯 하다. 첫째, 내가 드디어 진정한 내 시간의 주인이 되었다는 것이다. 더 이상 9시 출근 5시 퇴근의 틀에 갇혀 있지 않았다. 내가 원하는 시간에, 내가 집중하고 싶을 때, 내가 원하는 일할 수 있었다. 이것은 단순한 시간 관리의 자유가 아니었다.
 내 일과 삶의 흐름을 내가 설계할 수 있다는 것이었다.
 둘째, 드디어 온전히 내 상상력을 펼칠 수 있게 되었다. 누군가가 정해 놓은 방향이 아니라, 내가 기획하고 설계한 대로 사업을 이끌어갈 수 있었다. 내 비전을, 내 방식으로, 실현할 수 있었다. 이것이야말로 창업가만이 누릴 수 있는 진정한 자유였다.
+
+<div class="img-container">
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
+</div>
 
 나는 이 소중한 기회를 놓칠세라 십분 활용하기 시작했다. 나는 다른 회사들의 자문을 하기도 하고, 직장생활에 밀려 못 했던 수학, 공학, 통계, 철학, 인지과학, 역사 등의 분유에서 나만의 공부들도 하고, 스탠포드 대학, 서울대학교, 고려대학교, 연세대학교, 이화여자대학교, KAIST, 포항공대, 서강대학교, DGIST, KIST, SEOULTECH, 한양대학교 등에서 초청을 받아 인공지능 특강 및 세미나도 활발하게 진행하게 되었다. 2025년 한 해 동안 내가 진행한 인공지능 특강과 세미나의 횟수는 50회가 넘는다!
 
@@ -267,3 +287,7 @@ K-PAI를 통해 나는 내가 정말로 잘하는 것이 무엇인지 깨달았�
 따라서 나는 지금 이 순간도 성공하는 삶을 살고 있다.
 
 그리고 이것은 당신에게도, 우리 모두에게도 진실이다.
+
+<div class="img-container">
+<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
+</div>
