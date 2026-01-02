@@ -1,7 +1,7 @@
 ---
-title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
+title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Jan  1 20:35:10 PST 2026
+last_modified_at: Thu Jan  1 22:59:56 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
