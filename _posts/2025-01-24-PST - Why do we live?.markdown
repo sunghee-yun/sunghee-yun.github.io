@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon Dec 29 18:04:48 PST 2025
+last_modified_at: Fri Jan  2 10:03:01 PST 2026
 categories:
  - blog
 tags:
@@ -53,11 +53,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Meaning Made - How One Seeker Flipped the &ldquo;Why Do We Live?&rdquo; Question</strong>
+			<strong>Deep Dive - Meaning Made - How One Seeker Flipped the &ldquo;Why Do We Live?&rdquo; Question</strong>
 			<span style="opacity: 0.8;">(17:50)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Made__How_One_Seeker_Flipped_the__Why_Do_We_Live__Question.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -65,30 +65,74 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Creating Your Meaning - Why &ldquo;Why Do We Live?&rdquo; Is the Wrong Question</strong>
+			<strong>Deep Dive - Creating Your Meaning - Why &ldquo;Why Do We Live?&rdquo; Is the Wrong Question</strong>
 			<span style="opacity: 0.8;">(15:14)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating_Your_Meaning__Why__Why_Do_We_Live__Is_the_Wrong_Question.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 </div>
+
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Meaning Is Not Found, It's Created - Sunghee Yun's Journey to Redefine Life's Big Question</strong>
+			<strong>Deep Dive - Meaning Is Not Found, It's Created - Sunghee Yun's Journey to Redefine Life's Big Question</strong>
 			<span style="opacity: 0.8;">(15:52)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Is_Not_Found,_It_s_Created__Sunghee_Yun_s_Journey_to_Redefine_Life_s_Big_Question.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Meaning of Life Is a Choice Not a Discovery</strong>
+			<span style="opacity: 0.8;">(34:06)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Meaning_of_Life_Is_a_Choice_Not_a_Discovery.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - New Meaning Question Choice Versus Constraints</strong>
+			<span style="opacity: 0.8;">(14:09)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/New_Meaning_Question_Choice_Versus_Constraints.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Reframing the Search for Life's Meaning</strong>
+			<span style="opacity: 0.8;">(09:34)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Reframing_the_Search_for_Life_s_Meaning.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/infographics/infographic.png">
 </div>
 
 # The Universal Quest and Personal Journey
@@ -98,8 +142,8 @@ Like most people, I believe &hellip; or guess, I have often pondered why we live
 The search for life's meaning is perhaps the most persistent and universal human endeavor. From the ancient cave paintings of Lascaux to modern existential philosophy, humans have consistently grappled with questions of purpose and significance. This universality suggests something profound about our nature—we are not merely biological entities seeking survival, but conscious beings compelled to justify our existence to ourselves (at least ever since [Axial Age](https://en.wikipedia.org/wiki/Axial_Age)).
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/lascaux3b.jpg"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/lascaux3b-50-reduced.jpg">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/lascaux3b.jpg"-->
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/lascaux3b-50-reduced.jpg">
 </div>
 
 Before developing sufficient capacity for philosophical thinking and logical reasoning, my thoughts wandered aimlessly. Childhood offers a natural reprieve from existential anxiety—the immediate concerns of play, learning, and growth provide sufficient meaning without deeper questioning. Yet even children occasionally ask profound questions: "Why am I here?" "What happens when we die?" These early stirrings of existential curiosity often catch adults off-guard, revealing how fundamental these questions are to human experience.
@@ -111,8 +155,8 @@ I threw quite a lot of philosophical questions myself
 even when I was very little.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/What is Life.png"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/What is Life.png">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/What is Life.png"-->
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/What is Life.png">
 </div>
 
 As the child of non-religious parents, I didn't rely on divine beings to find meaning. This absence of religious framework, while liberating in some ways, created a particular challenge. Religious traditions, whatever their ultimate truth claims, provide ready-made answers to life's big questions. The religiously raised child receives a complete cosmology: you exist because God created you, your purpose is to serve God and follow divine commandments, and your ultimate destiny lies in an afterlife determined by your earthly conduct. Without this framework, the burden of creating meaning falls entirely upon the individual—a daunting task for a developing mind.
@@ -132,8 +176,8 @@ Wittgenstein's approach to meaning through obligation and service represents one
 This line of thoughts struck me deeply that time, now I think, compelling me to search for my own purpose, even though I didn't consider myself his intellectual equal *at that time*. The Wittgenstein model of meaning-through-obligation appealed to me because it provided a secular framework for purpose that didn't require religious faith. If I possessed any special talents or abilities, perhaps my meaning lay in using them to benefit others. This perspective offered a way to escape the apparent meaninglessness of a purely materialistic worldview while avoiding the intellectual compromises required by religious faith.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/einstein.png"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/einstein.png">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/einstein.png"-->
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/einstein.png">
 </div>
 
 However, the "Duty of Genius" approach contains several philosophical problems that I didn't fully appreciate at the time. First, it presupposes that extraordinary abilities create extraordinary obligations—but why should this be true? The fact that someone can do something exceptional doesn't necessarily mean they ought to do it. A naturally gifted athlete might choose to pursue philosophy instead of sports; a brilliant mathematician might prefer teaching children to advancing the frontiers of knowledge. The is-ought distinction that [David Hume](https://en.wikipedia.org/wiki/David_Hume) identified applies here: descriptive facts about abilities don't automatically generate prescriptive duties about how those abilities should be used.
@@ -196,8 +240,8 @@ The current phase of my understanding builds upon but transcends both the religi
 [Jean-Paul Sartre](https://en.wikipedia.org/wiki/Jean-Paul_Sartre)'s famous declaration that "existence precedes essence" provides a starting point for this understanding. For Sartre, human beings are fundamentally different from other objects in the world because we exist first and then create our essence through our choices and actions. A hammer has its essence (hammerness) determined by its creator's intentions, but humans are "thrown" into existence without predetermined purpose and must create their own essence through radical freedom and responsibility.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/Sartre.jpg"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Sartre.jpg">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/Sartre.jpg"-->
+	<img style="max-width: 100%;" width="100%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Sartre.jpg">
 </div>
 
 However, Sartre's existentialism, while insightful, tends toward an overly voluntaristic view of meaning creation. In his framework, individuals create meaning through pure will and choice, as if consciousness operates in a social and historical vacuum. This approach underestimates the extent to which meaning emerges through relationships, culture, and intersubjective experience. We don't create meaning in isolation but through engagement with others, with traditions, and with the world around us.
@@ -205,8 +249,8 @@ However, Sartre's existentialism, while insightful, tends toward an overly volun
 The phenomenological tradition, particularly the work of [Maurice Merleau-Ponty](https://en.wikipedia.org/wiki/Maurice_Merleau-Ponty), offers valuable corrections to pure existentialism. Merleau-Ponty emphasized that consciousness is always embodied consciousness—we encounter the world through our bodies, not just our minds. This embodied engagement creates meaning that isn't purely intellectual or volitional but emerges from our full being-in-the-world. Meaning, from this perspective, isn't something we think into existence but something we live into existence through our embodied practices and relationships.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/Heidegger.jpeg"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Heidegger-50-reduced.jpeg">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/Heidegger.jpeg"-->
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Heidegger-50-reduced.jpeg">
 </div>
 
 [Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger)'s concept of [&ldquo;thrownness&rdquo; (Geworfenheit)](https://en.wikipedia.org/wiki/Thrownness) also contributes to this understanding. We don't choose the circumstances of our birth, our cultural context, or many of the fundamental conditions that shape our lives. We are &ldquo;thrown&rdquo; into a particular time, place, and situation. However, within these given conditions, we have the capacity to project ourselves toward future possibilities. Meaning emerges in this dynamic between thrownness and projection—between the given and the chosen.
@@ -226,8 +270,8 @@ Nagel's objection deserves careful consideration because it points to a real phi
 [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus) would likely raise different objections to my position. In "[The Myth of Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus)," Camus argues that we must fully acknowledge the absurdity of existence—the mismatch between human need for meaning and the universe's silence about meaning. For Camus, the authentic response to absurdity is neither suicide nor philosophical escape (including religious faith) but revolt—the decision to live fully despite meaninglessness. Creating meaning, from Camus's perspective, might represent a form of philosophical escape that fails to honestly confront the human condition.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/albert-camus-300x206.jpg"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/albert-camus-300x206.jpg">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/albert-camus-300x206.jpg"-->
+	<img style="max-width: 100%;" width="70%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/albert-camus-300x206.jpg">
 </div>
 
 Camus's objection illuminates an important distinction between acknowledging meaninglessness and embracing meaninglessness. My position doesn't deny the absence of inherent cosmic meaning—it accepts this absence fully. However, it suggests that recognizing the absence of inherent meaning opens up space for created meaning rather than requiring us to live in permanent revolt against meaninglessness. The choice to create meaning isn't a denial of absurdity but a creative response to it.
@@ -237,6 +281,10 @@ Camus's objection illuminates an important distinction between acknowledging mea
 Schopenhauer's pessimistic philosophy deserves respect because it honestly confronts the reality of suffering in human existence. However, his conclusion that all willing leads to suffering may be too sweeping. Some forms of willing—particularly those involved in creative activity, loving relationships, and meaningful work—seem to generate satisfaction rather than suffering. The Buddhist concept of right effort suggests that not all forms of striving are problematic—<span class="emph">the key is distinguishing between wholesome and unwholesome forms of intention and action.</span>
 
 # The Agency Living the Question
+
+<div class="img-container">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/infographics/infographic - detailed.png">
+</div>
 
 > &hellip; We create meaning not in isolation but in relationship—with other people, with cultural traditions, with the natural world, and with possibilities that call us forward. The meaning we create is genuinely our own, yet it emerges from and contributes to larger patterns of human flourishing.
 
@@ -249,8 +297,8 @@ This understanding draws on but goes beyond existentialist philosophy by recogni
 The practical implications of this understanding are profound. If meaning is something we create rather than discover, then we bear responsibility for the quality and direction of our meaning-making activities. This responsibility is both liberating and demanding. We are free to choose what matters to us, but we must live with the consequences of our choices. We cannot blame God, nature, society, or fate for the meaninglessness of our lives—but we also cannot credit these external forces with providing our meaning.
 
 <div class="img-container">
-<!--img src="/resource/posts/2025-01-24-PST - Why do we live/little-prince.gif"-->
-<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/little-prince.gif">
+	<!--img src="/resource/posts/2025-01-24-PST - Why do we live/little-prince.gif"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/little-prince.gif">
 </div>
 
 The creative view of meaning also suggests that <span class="emph">meaning-making is an ongoing process rather than a one-time achievement</span>. Just as artists continue creating throughout their lives, we continue creating meaning throughout our lives. <span class="emph">The meanings we create in youth may no longer serve us in middle age; the purposes that drive us in health may need revision in illness; the values we embrace in prosperity may require reconsideration in adversity. This dynamic quality of meaning prevents it from becoming dogmatic or rigid while requiring ongoing attention and care.</span>
