@@ -1,7 +1,7 @@
 ---
 title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Tue Dec 30 06:41:28 PST 2025
+last_modified_at: Thu Jan  1 17:37:35 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -24,7 +24,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
-이 글은 [부산영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}의 요청에 의해 쓰여진 글이고 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}에 실릴 예정입니다.
+이 글은 [부산광역시교육청영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}의 요청에 의해 쓰여진 글이고 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}에 실릴 예정입니다.
 {: .notice--warning}
 
 <div class="img-container-justified">
