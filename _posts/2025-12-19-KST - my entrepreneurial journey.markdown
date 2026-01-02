@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Fri Jan  2 09:05:27 PST 2026
+last_modified_at: Fri Jan  2 09:41:37 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -138,7 +138,8 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 </div>
 
 <figcaption>
-74년 전통의 비영리단체인
+2024년 12월,
+78년 전통의 비영리단체인
 <a target="_blank" href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>가
 역사적인
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">Schloss Leopoldskron</a>에서
