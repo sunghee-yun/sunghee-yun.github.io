@@ -1,7 +1,7 @@
 ---
 title: "[기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Jan  1 17:37:35 PST 2026
+last_modified_at: Thu Jan  1 18:02:10 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -55,42 +55,69 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </div>
 
 <div class="img-container-justified">
-	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Technical Anchor Versus Connector Success</strong>
-			<span style="opacity: 0.8;">(13:18)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Technical_Anchor_Versus_Connector_Success.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Math Optimization Solves Health Crises</strong>
+			<strong>Deep Dive - Math Optimization Solves Health Crises</strong>
 			<span style="opacity: 0.8;">(15:17)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-02" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_Solves_Health_Crises.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
-	<div style="width: 32%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Math Optimization From Chips to Cures</strong>
+			<strong>Deep Dive - Math Optimization From Chips to Cures</strong>
 			<span style="opacity: 0.8;">(38:14)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-03" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_From_Chips_to_Cures.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Technical Anchor Versus Connector Success</strong>
+			<span style="opacity: 0.8;">(13:18)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Technical_Anchor_Versus_Connector_Success.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Optimization The Constant Unifying Career Pivots</strong>
+			<span style="opacity: 0.8;">(11:05)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-critique" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Optimization_The_Constant_Unifying_Career_Pivots.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<!--div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Writing the Uncertainty of Career Pivots</strong>
+			<span style="opacity: 0.8;">(11:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-critique" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Writing_the_Uncertainty_of_Career_Pivots.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div-->
 </div>
 
 # 지금, 여기
