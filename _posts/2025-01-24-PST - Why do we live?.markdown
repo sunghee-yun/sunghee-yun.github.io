@@ -1,7 +1,7 @@
 ---
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Fri Jan  2 10:03:01 PST 2026
+last_modified_at: Fri Jan  2 10:17:34 PST 2026
 categories:
  - blog
 tags:
@@ -27,7 +27,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 > &hellip; Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.
 
-<h1>NotebookLM Podcasts</h1>
+<!--h1>NotebookLM Podcasts</h1-->
 
 <!--
 - [Meaning Made - How One Seeker Flipped the &ldquo;Why Do We Live?&rdquo; Question (17:50)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=0ca81854-c4b9-4a53-b487-60f70760c6c8){:target="_blank"}
@@ -128,6 +128,19 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 				Your browser does not support this audio element.
 			</audio>
 		</div>
+	</div>
+</div>
+
+<div id="podcast-seminars-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>Why Do We Live?</strong>
+		<span style="opacity: 0.8;">(06:11)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Why_Do_We_Live_.mp4">
+			Your browser does not support this video element.
+		</video>
 	</div>
 </div>
 
