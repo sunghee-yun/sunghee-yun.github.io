@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sat Jan  3 14:48:21 PST 2026
+last_modified_at: Sat Jan  3 15:13:25 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -190,7 +190,7 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 	recorded @ 08-Oct-2025 PDT
 
 <!--div class="img-container">
-<img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
+	<img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
 </div-->
 
 <div style="width: 90%; margin: 0 auto;">
@@ -337,9 +337,9 @@ This convergence allows us to discover biomarkers—biological signatures of dis
 - **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
 
 <div class="img-container-justified">
-<img width="32%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
-<img width="32%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
-<img width="32%" src="/resource/org-logos/analog-devices-logo.png">
+	<img width="29.44%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
+	<img width="31.28%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
+	<img width="35.28%" src="/resource/org-logos/analog-devices-logo.png">
 </div>
 
 ### Strategic &amp; Technical Partnerships
@@ -357,9 +357,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 -->
 
 <div class="img-container-justified">
-<img width="32%" src="/resource/org-logos/snubh-logo.png">
-<img width="32%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
-<img width="32%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
+	<img width="25.98%" src="/resource/org-logos/snubh-logo.png">
+	<img width="41.70%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
+	<img width="28.32%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
 </div>
 
 **Technology & Industry Partners**
@@ -368,9 +368,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 - **[National Nanofab Center](https://www.nnfc.re.kr/){:target="_blank"}**: Nanofabrication and micro/nano device development
 
 <div class="img-container-justified">
-<img width="32%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
-<img width="32%" src="/resource/org-logos/kribb-logo-eng.jpeg">
-<img width="32%" src="/resource/org-logos/nanofab-logo.svg">
+	<img width="38.19%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
+	<img width="28.14%" src="/resource/org-logos/kribb-logo-eng.jpeg">
+	<img width="29.67%" src="/resource/org-logos/nanofab-logo.svg">
 </div>
 
 This partnership network spans the US and Korea, connecting Silicon Valley innovation with Korean clinical excellence and manufacturing capabilities.
@@ -413,14 +413,8 @@ Learn more at [erudio.bio](https://www.erudio.bio/){:target="_blank"}
 -->
 
 <div style="margin-top: 1em;" class="img-container-justified">
-<!--
-&nbsp;
--->
-<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
-<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
-<!--
-&nbsp;
--->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
 </div>
 
 As a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"},
