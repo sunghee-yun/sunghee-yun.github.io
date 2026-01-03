@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Fri Jan  2 18:47:23 PST 2026
+last_modified_at: Fri Jan  2 19:48:35 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -131,7 +131,10 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 # 지금, 여기 {#here-and-now}
 
 나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/)의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 에루디오바이오코리아(Erudio Bio Korea)의 대표이사이다.
-그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/)의 창립멤버이자 리더이다. 그 외에도 74년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/)의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative), 대한한의사협회 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다. 그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다. 그리고 최근 Erudio Bio는 게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다.
+그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/)의 창립멤버이자 리더이다.
+그 외에도 74년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/)의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative), 대한한의사협회 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다.
+그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다.
+그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
 
 <div class="img-container">
 <img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
@@ -295,11 +298,50 @@ CTO로서, 기술 리더로서, 나는 기술 비전을 제시하고 팀을 이�
 
 # 에루디오바이오 – 인류를 위한 AI 기술 혁명 {#ai-revolution-for-humanity}
 
-2023년, 나는 새로운 도전에 나섰다. 바로 인공지능-바이오테크 기업 에루디오바이오(Erudio Bio)의 공동 창업이다. 많은 사람들이 물었다. "왜 반도체와 제조업에서 갑자기 바이오로?" 하지만 내게는 명확한 이유가 있었다. 제약 산업은 심각한 문제를 안고 있다. 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해서, 초기 단계에서 충분히 검증하지 못하기 때문이다. 수십억 달러와 10년 이상의 시간을 투자해도 실패한다. 이것은 단순히 돈의 문제가 아니다. 그 시간 동안 치료받지 못하고 고통받는 환자들의 문제다. 이 문제를 AI로 해결할 수 있다면? 그것은 반도체 불량률을 1% 줄이는 것보다 훨씬 더 의미 있는 일이다. 수백만 명의 생명을 구할 수 있다.
+2023년, 나는 새로운 도전에 나섰다.
+바로 인공지능-바이오테크 기업 [에루디오바이오(Erudio Bio)](https://www.erudio.bio/){:target="_blank"}의 공동 창업이다.
+많은 사람들이 물었다.
+"왜 반도체와 제조업에서 갑자기 바이오로?" 하지만 내게는 명확한 이유가 있었다.
+제약 산업은 심각한 문제를 안고 있다.
+신약 개발의 90% 이상이 임상시험에서 실패한다.
+약물과 인체의 상호작용이 너무 복잡해서, 초기 단계에서 충분히 검증하지 못하기 때문이다.
+수십억 달러와 10년 이상의 시간을 투자해도 실패한다.
+이것은 단순히 돈의 문제가 아니다.
+그 시간 동안 치료받지 못하고 고통받는 환자들의 문제다.
+이 문제를 AI로 해결할 수 있다면? 그것은 반도체 불량률을 1% 줄이는 것보다 훨씬 더 의미 있는 일이다.
+수백만 명의 생명을 구할 수 있다.
 
-에루디오바이오의 핵심 기술은 bioTCAD(biological Technology Computer-Aided Design)이다. 반도체 업계에서 사용하는 TCAD의 개념을 생명과학에 적용한 것이다. 우리는 동적 힘 분광법(Dynamic Force Spectroscopy)으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써, 새로운 저비용 치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMIC)가 혜택을 받을 수 있다. 우리의 또 다른 혁신은 VSA(Versatile Smart Assay) 기술이다. 이것은 여러 바이오마커를 동시에 정확하게 검출할 수 있는 플랫폼이다. 기존 다중화 진단의 핵심 한계인 교차반응성과 위양성 문제를 해결해 암 조기 진단의 정확도를 크게 높일 수 있다.
+그러나 또 한편으로는 어떤 의미에서 이것은 분야를 바꾼 것이 아니었다.
+스탠포드 전자공학과 동문인 내 공동창업자가 전자공학과 생화학을 복수 전공하여 생명과학 부분을 맡게 되었다면,
+나는 반도체, 제조업, 그리고 전자상거래 분야에서 공통적으로 발휘했던 나의 강점—인공지능과 최적화 기술—을 그대로 활용하게 되었다.
+삼성반도체에서 웨이퍼 수율을 높이던 최적화 알고리즘이나, 아마존에서 매출을 올리던 추천 시스템이나, 결국 본질은 같았다.
+복잡한 시스템 속에서 패턴을 찾아내고, 수많은 변수들 사이의 최적점을 찾는 것.
+다만 그 시스템이 트랜지스터에서 단백질로,
+공정 파라미터에서 생체 분자로 바뀌었을 뿐이다.
+결국 도구는 같았다.
+다만 그것을 적용하는 대상이 실리콘 칩에서 생명으로 바뀌었을 뿐이다.
 
-2025년, 우리는 게이츠 재단(Gates Foundation)으로부터 백만불 규모의 연구비를 지원받았다. 이는 우리 기술의 글로벌 보건 문제 해결 가능성을 인정받은 것이다. 특히 저소득 국가의 환자들을 비릇한 보편적 인류에게 저렴하고 정확한 진단 및 치료 도구를 제공하는 것—이것이 우리의 궁극적 목표다. 우리는 또한 스탠포드 의대, 하버드 의대, 아날로그디바이스 등 세계 최고의 기관들과 파트너십을 맺었다. 이 파트너십은 우연이 아니다. 나와 내 공동창업자가 반도체에서 쌓은 경험, 아마존에서 배운 AI 기술, 그리고 가우스랩스에서 익힌 산업 AI 노하우가 모두 합쳐진 결과다.
+그리고 그 변화가 내게는 자연스러운 진화처럼 느껴졌다.
+어쩌면 필연적인 확장이었다.
+그리고 그 변화는 내게 낯설지 않았다.
+마치 오래전부터 준비해온 것처럼.
+
+에루디오바이오의 핵심 기술은 bioTCAD(biological Technology Computer-Aided Design)이다.
+반도체 업계에서 사용하는 TCAD의 개념을 생명과학에 적용한 것이다.
+우리는 동적 힘 분광법(Dynamic Force Spectroscopy)으로 측정한 고품질 분자 상호작용 데이터를 활용해,
+동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다.
+의약품 개발 비용을 낮추고 개발 기간을 단축함으로써,
+새로운 저비용 치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMIC: Low- and Middle-Income Countries)가 혜택을 받을 수 있다.
+우리의 또 다른 혁신은 [VSA(Versatile Smart Assay) 기술](https://sungheeyun-erudio.github.io/technology/){:target="_blank"}이다.
+이것은 여러 바이오마커를 동시에 정확하게 검출할 수 있는 플랫폼이다.
+기존 다중화 진단의 핵심 한계인 교차반응성과 위양성 문제를 해결해 암 조기 진단의 정확도를 크게 높일 수 있다.
+
+2025년, 우리는 [게이츠 재단(Gates Foundation)으로부터 백만불 규모의 연구비를 지원받았다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}.
+이는 우리 기술의 글로벌 보건 문제 해결 가능성을 인정받은 것이다.
+특히 저소득 국가의 환자들을 비릇한 보편적 인류에게 저렴하고 정확한 진단 및 치료 도구를 제공하는 것—이것이 우리의 궁극적 목표다.
+우리는 또한 스탠포드 의대, 하버드 의대, 아날로그디바이스 등 세계 최고의 기관들과 파트너십을 맺었다.
+이 파트너십은 우연이 아니다.
+나와 내 공동창업자가 반도체에서 쌓은 경험, 아마존에서 배운 AI 기술, 그리고 가우스랩스에서 익힌 산업 AI 노하우가 모두 합쳐진 결과다.
 
 2025년 7월, 나는 한국 법인 에루디오바이오코리아를 설립하고 대표이사를 맡았다. 서울대학교 분당병원과 협력하여 한국인 특화 암 진단 솔루션을 개발하고 있다. 한국인의 유전적, 환경적 특성을 반영한 맞춤형 진단 도구를 만드는 것이 목표다. 기관생명윤리위원회(IRB) 승인 절차가 진행 중이며, 내년 안에 승인 완료를 목표로 하고 있다.
 <!--
@@ -335,7 +377,7 @@ CTO로서, 기술 리더로서, 나는 기술 비전을 제시하고 팀을 이�
 
 이와 더불어 내게 일어난 가장 큰 변화는 바로 실리콘밸리 프라이버시 보존 인공지능 포럼(K-PAI: Silicon Valley Privacy-Preserving AI Forum)을 공동창립하고 리더가 되었다는 것이다. 처음에는 단순한 AI 기술 포럼이었다. 그런데 1년도 안 되어 K-PAI는 실리콘밸리 AI 커뮤니티의 중심이 되었다. 이것은 내가 의도한 바도, 바랐던 바도 아니었다. 다만 나는 진심으로 이 모임을 의미 있게 만들고자 했다. 인공지능에 관한 전반적이고 포괄적인 주제를 다루려고 의도 했고, 그에 따라 훌륭한 연사들을 모셨으며, 사람들에게 특별하고 차별화된 네트워킹 기회를 제공하고자 비영리단체로서의 역할을 충실히 하려 노력했을 뿐이다.
 
-그런데 우리가 미처 생각하지도 못했던 일들이 1년 안에 벌어졌다. 실리콘밸리 한국무역관(KOTRA Silicon Valley)에서 먼저 영속적인 파트너쉽 제안을 해왔고, 포럼 시작 수개월 만에 자발적 후원사가 나타났고 2026년은 상반기 6회 행사의 후원사가 모두 정해졌으며, KOTRA Silicon Valley, K-BioX, 한국 인공지능·집적회로 혁신센터 (K•ASIC: Korea AI & IC Innovation Center), 북가주 한인 변호사협회(KABANC: Korean American Bar Association of Northern California), 주샌프란시스코대한민국총영사관과 행사를 공동주최하기로 약속되어 있다. 출범한 지 1년 남짓한 신생 포럼 치고는 그야말로 놀라운 성과다. K-PAI는 명실공히 기술자, 창업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 리더들이 참여하는 매우 특별하고도 중요한 모임이 되었다. 지금 실리콘밸리의 한인 기술 커뮤니티에서 "AI"하면 "K-PAI"를 떠올린다. 내가 "K-PAI Person"으로 알려질 정도다.
+그런데 우리가 미처 생각하지도 못했던 일들이 1년 안에 벌어졌다. 실리콘밸리 한국무역관(KOTRA Silicon Valley)에서 먼저 영속적인 파트너쉽 제안을 해왔고, 포럼 시작 수개월 만에 자발적 후원사가 나타났고 2026년은 상반기 6회 행사의 후원사가 모두 정해졌으며, KOTRA Silicon Valley, K-BioX, 한국 인공지능·집적회로 혁신센터 (K•ASIC: Korea AI &amp; IC Innovation Center), 북가주 한인 변호사협회(KABANC: Korean American Bar Association of Northern California), 주샌프란시스코대한민국총영사관과 행사를 공동주최하기로 약속되어 있다. 출범한 지 1년 남짓한 신생 포럼 치고는 그야말로 놀라운 성과다. K-PAI는 명실공히 기술자, 창업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 리더들이 참여하는 매우 특별하고도 중요한 모임이 되었다. 지금 실리콘밸리의 한인 기술 커뮤니티에서 "AI"하면 "K-PAI"를 떠올린다. 내가 "K-PAI Person"으로 알려질 정도다.
 
 K-PAI의 성공은 우연이 아니다. 그것은 진정한 커뮤니티의 힘을 보여준다. 나는 단순히 기술 세미나를 여는 것이 아니라 사람들을 연결하는 생태계를 만들었다. AI 연구자는 투자자를 만나고, 창업가는 엔지니어를 찾고, 학생은 멘토를 만난다. 그리고 모두가 함께 배우고 성장한다. 또한 K-PAI는 실용적 가치에 집중한다. 단순히 한 달에 한 번씩 만나 최신 AI 기술 트렌드를 공유하는 것만이 아니다. 기술은 물론, 실제 비즈니스 기회, 채용 정보, 파트너십 가능성까지 논의한다.
 
