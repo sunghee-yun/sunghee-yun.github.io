@@ -3,24 +3,53 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Sun Nov  2 19:37:02 PST 2025
+last_modified_at: Sat Jan  3 12:44:51 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee Yun's Integrated Vision - AI, Data, and Biotech - 1</strong>
+			<span style="opacity: 0.8;">(07:37)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee Yun's Integrated Vision - AI, Data, and Biotech - 2</strong>
+			<span style="opacity: 0.8;">(08:23)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/more-about/NotebookLM/Sunghee Yun's Integrated Vision_ AI, Data, and Biotech-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Goals
 
@@ -52,7 +81,7 @@ and
 Advisor
 @ <a href="https://www.cryptolab.co.kr/en/">CryptoLab, Inc.</a>&mdash;across too many domains, they're all interconnected threads of the same intellectual fabric.
 
-## The Convergence - AI, Data, and Biotech
+# The Convergence - AI, Data, and Biotech
 
 <blockquote>
 &hellip;
@@ -74,12 +103,12 @@ Similarly, AlphaFold built upon decades of biochemists' painstaking work.
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_aff8b26f-43e1-45ab-8c26-28bef02bdfc5_1.png">
-<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_5a4c5809-4889-4b09-bf9c-f81c5e1c16d4_1.png">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_aff8b26f-43e1-45ab-8c26-28bef02bdfc5_1.png">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_5a4c5809-4889-4b09-bf9c-f81c5e1c16d4_1.png">
 &nbsp;
 </div>
 
-## The AI Vision of Erudio Bio
+# The AI Vision of Erudio Bio
 
 This understanding drives Erudio Bio's AI vision. We're not merely developing multiplexing biomarker detection and screening technology. We're building an <font class="emph">AI-powered multiplexing biomarker data platform for Agentic AI</font> that delivers differentiated value through quality biological data at scale.
 
@@ -89,12 +118,12 @@ With this foundation, Erudio Bio can:
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_a4105daf-5f0b-4926-a3f2-ac2e928a424a_1.png">
-<img style="max-width: 45%;" src="/resource/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_7b382cb4-ba04-4c96-a710-005cfe342d9e_2.png">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_a4105daf-5f0b-4926-a3f2-ac2e928a424a_1.png">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_7b382cb4-ba04-4c96-a710-005cfe342d9e_2.png">
 &nbsp;
 </div>
 
-## The Connection to Private AI
+# The Connection to Private AI
 
 The moment we engage with biological or medical data, we encounter privacy challenges
 as well as similar to those in high-tech industries like semiconductor fabrication;
@@ -116,7 +145,7 @@ Thus, the companies and forums I own or support through business development are
 &nbsp;
 </div>
 
-## The Age of Agentic AI
+# The Age of Agentic AI
 
 {% assign ai_data = site.posts | where: "permalink", "/ai/data" | first %}
 
@@ -134,7 +163,7 @@ to leverage AI agents has become crucial—which explains my work with [WeStory.
 &nbsp;
 </div>
 
-## Beyond Technology - AI's Unprecedented Impact
+# Beyond Technology - AI's Unprecedented Impact
 
 I believe AI transcends the category of "just another technology" like the Industrial Revolution, Internet, or Mobile.
 While it shares traits with these transformations—such as its vast impact radius—the dynamics and nature of AI's effects are unprecedented.
@@ -152,12 +181,12 @@ as a
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
-<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
 &nbsp;
 </div>
 
-## Related Resources
+# Related Resources
 
 {% assign first_blog = site.posts | where: "permalink", "/blog/PDT-AI-seminar-series-in-Seoul/" | first %}
 {% assign salzburg_blog = site.posts | where: "permalink", "/blog/PST-AI-seminar-series-in-Seoul/" | first %}
