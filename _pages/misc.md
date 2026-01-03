@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Thu Jan  1 22:10:06 PST 2026
+last_modified_at: Sat Jan  3 12:29:06 PST 2026
 ---
 
 <!--
@@ -937,10 +937,10 @@ last_modified_at: Thu Jan  1 22:10:06 PST 2026
 		<div class="foldable-toggle">photos</div>
 		<div class="foldable-content">
 			<div class="img-container">
-			<img width="50%" src="/assets/images/trips/2024_0926 - junghwan's family.jpeg">
+			<img width="50%" src="https://sungheeyun-photos-01.github.io/resource/2024/09/26 - LA/2024_0926 - junghwan's family-50-reduced.jpeg">
 			&nbsp;
 			&nbsp;
-			<img width="37.46530989824237%" src="/assets/images/trips/2024_0926 - me & audrey.jpeg">
+			<img width="37.46530989824237%" src="https://sungheeyun-photos-01.github.io/resource/2024/09/26 - LA/2024_0926 - me & audrey-25-reduced.jpeg">
 			</div>
 		</div>
 	</li>
