@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sat Jan  3 15:13:25 PST 2026
+last_modified_at: Sat Jan  3 15:32:00 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -337,9 +337,9 @@ This convergence allows us to discover biomarkers—biological signatures of dis
 - **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
 
 <div class="img-container-justified">
-	<img width="29.44%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
-	<img width="31.28%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
-	<img width="35.28%" src="/resource/org-logos/analog-devices-logo.png">
+	<img width="29.44%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/stanford-medicine-logo-01.jpg">
+	<img width="31.28%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/harvard-medical-school-logo.jpg">
+	<img width="35.28%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/analog-devices-logo.png">
 </div>
 
 ### Strategic &amp; Technical Partnerships
@@ -357,9 +357,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 -->
 
 <div class="img-container-justified">
-	<img width="25.98%" src="/resource/org-logos/snubh-logo.png">
-	<img width="41.70%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
-	<img width="28.32%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
+	<img width="25.98%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/snubh-logo.png">
+	<img width="41.70%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
+	<img width="28.32%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/na-eun-hospital-logo-eng.jpg">
 </div>
 
 **Technology & Industry Partners**
@@ -368,9 +368,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 - **[National Nanofab Center](https://www.nnfc.re.kr/){:target="_blank"}**: Nanofabrication and micro/nano device development
 
 <div class="img-container-justified">
-	<img width="38.19%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
-	<img width="28.14%" src="/resource/org-logos/kribb-logo-eng.jpeg">
-	<img width="29.67%" src="/resource/org-logos/nanofab-logo.svg">
+	<img width="38.19%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/lulumedic-logo-eng-narrow.png">
+	<img width="28.14%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/kribb-logo-eng.jpeg">
+	<img width="29.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/nanofab-logo.svg">
 </div>
 
 This partnership network spans the US and Korea, connecting Silicon Valley innovation with Korean clinical excellence and manufacturing capabilities.
