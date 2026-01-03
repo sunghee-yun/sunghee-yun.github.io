@@ -3,14 +3,16 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Wed Dec 17 21:47:01 KST 2025
+last_modified_at: Sat Jan  3 14:48:21 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
+<!--
 # AI creates Podcasts!
+-->
 
 <div class="img-container-justified">
 	<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
@@ -176,7 +178,8 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 -->
 
 <div class="img-container">
-<img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
+	<!--img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
 </div>
 
 > 현재 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해 초기 단계에서 충분히 검증하지 못하기 때문이다. 에루디오바이오의 bioTCAD는 동적 힘 분광법으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써 새로운 저비용치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMICs)가 혜택을 받을 수 있다.
@@ -190,7 +193,7 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 <img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
 </div-->
 
-<div style="width: 98%; margin: 0 auto;">
+<div style="width: 90%; margin: 0 auto;">
 {% include video id="i-A5LS-Wb4Q" provider="youtube" %}
 </div>
 
@@ -199,7 +202,8 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 	@ 20-Oct-2025 KST
 
 <div class="img-container">
-<img src="/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png">
+	<!--img src="/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png">
 </div>
 
 - [고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최](https://biz.korea.ac.kr/news/news_view.html?no=4297){:target="_blank"}
@@ -208,8 +212,10 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 
 <div class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
-<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png"-->
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png"-->
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
 &nbsp;
 </div>
 
@@ -233,7 +239,8 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 	@ 29-Jun-2021 KST
 
 <div class="img-container">
-<img src="/resource/press/Sunghee Yun - Global RnD Head.jpg">
+	<!--img src="/resource/press/Sunghee Yun - Global RnD Head.jpg"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Sunghee Yun - Global RnD Head-50-reduced.jpg">
 </div>
 
 - [AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 '정조준'](https://www.fetv.co.kr/news/article.html?no=64174)
@@ -241,7 +248,8 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 	@ 22-Sep-2020 KST
 
 <div class="img-container">
-<img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg">
+	<!--img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg"-->
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/press/art_16007323555194_d19682-50-reduced.jpg">
 </div>
 
 (For more of my press exposures, please refer to [Press Exposures](/about/#press-exposures) section.)
@@ -254,10 +262,16 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 
 <!--div style="margin-top: 1em;" class="img-container-justified"-->
 <div class="img-container-justified">
+<!--
 &nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006.jpeg">
-<img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011.jpeg">
+-->
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006.jpeg"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-01-00 006-50-reduced.jpeg">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011.jpeg"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0122 PST - K-PAI - The AI Knight Rises/photos/KakaoTalk_Photo_2025-01-26-02-07-33 011-50-reduced.jpeg">
+<!--
 &nbsp;
+-->
 </div>
 
 <!--
@@ -323,11 +337,9 @@ This convergence allows us to discover biomarkers—biological signatures of dis
 - **[Analog Devices](https://www.analog.com/){:target="_blank"}** - Semiconductor and signal processing technology
 
 <div class="img-container-justified">
-&nbsp;
-<img width="30%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
-<img width="30%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
-<img width="30%" src="/resource/org-logos/analog-devices-logo.png">
-&nbsp;
+<img width="32%" src="/resource/org-logos/stanford-medicine-logo-01.jpg">
+<img width="32%" src="/resource/org-logos/harvard-medical-school-logo.jpg">
+<img width="32%" src="/resource/org-logos/analog-devices-logo.png">
 </div>
 
 ### Strategic &amp; Technical Partnerships
@@ -345,11 +357,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 -->
 
 <div class="img-container-justified">
-&nbsp;
-<img width="30%" src="/resource/org-logos/snubh-logo.png">
-<img width="30%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
-<img width="30%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
-&nbsp;
+<img width="32%" src="/resource/org-logos/snubh-logo.png">
+<img width="32%" src="/resource/org-logos/Institut-Pasteur-Korea-logo.jpg">
+<img width="32%" src="/resource/org-logos/na-eun-hospital-logo-eng.jpg">
 </div>
 
 **Technology & Industry Partners**
@@ -358,11 +368,9 @@ We're building an ecosystem of world-class partners across academia, healthcare,
 - **[National Nanofab Center](https://www.nnfc.re.kr/){:target="_blank"}**: Nanofabrication and micro/nano device development
 
 <div class="img-container-justified">
-&nbsp;
-<img width="30%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
-<img width="30%" src="/resource/org-logos/kribb-logo-eng.jpeg">
-<img width="30%" src="/resource/org-logos/nanofab-logo.svg">
-&nbsp;
+<img width="32%" src="/resource/org-logos/lulumedic-logo-eng-narrow.png">
+<img width="32%" src="/resource/org-logos/kribb-logo-eng.jpeg">
+<img width="32%" src="/resource/org-logos/nanofab-logo.svg">
 </div>
 
 This partnership network spans the US and Korea, connecting Silicon Valley innovation with Korean clinical excellence and manufacturing capabilities.
@@ -405,10 +413,14 @@ Learn more at [erudio.bio](https://www.erudio.bio/){:target="_blank"}
 -->
 
 <div style="margin-top: 1em;" class="img-container-justified">
+<!--
 &nbsp;
-<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
-<img style="max-width: 45%;" src="/resource/trips/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+-->
+<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+<!--
 &nbsp;
+-->
 </div>
 
 As a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"},
@@ -475,7 +487,8 @@ can be found [here](/#sem)!)
 **Seoul, South Korea | December 11-13, 2025 KST**
 
 <div class="img-container">
-<img style="width: 90%; max-height: none;" src="/resource/seminars/2025_1211 KST - AI-BioX ConfEX Grand Summit 2025/posters/KakaoTalk_Photo_2025-10-27-12-03-17.png">
+	<!--img style="width: 90%; max-height: none;" src="/resource/seminars/2025_1211 KST - AI-BioX ConfEX Grand Summit 2025/posters/KakaoTalk_Photo_2025-10-27-12-03-17.png"-->
+	<img style="width: 90%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1211 KST - AI-BioX ConfEX Grand Summit 2025/posters/KakaoTalk_Photo_2025-10-27-12-03-17.png">
 </div>
 
 A global symposium on AI and bio innovation, bringing together leaders from biotechnology, AI research, and pharmaceutical industries to explore the convergence of artificial intelligence and life sciences.
@@ -488,7 +501,8 @@ A global symposium on AI and bio innovation, bringing together leaders from biot
 **San Jose, CA | November 15, 2025 PST**
 
 <div class="img-container">
-<img style="width: 60%; max-height: none;" src="/resource/seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/posters/KakaoTalk_Photo_2025-10-28-15-38-23.jpeg">
+	<!--img style="width: 60%; max-height: none;" src="/resource/seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/posters/KakaoTalk_Photo_2025-10-28-15-38-23.jpeg"-->
+	<img style="width: 60%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1115 PST - Special AI Lecture for Hwarang Friends - Becoming the Leader of AI Era - From ChatGPT to Your Future Superpower/posters/KakaoTalk_Photo_2025-10-28-15-38-23-50-reduced.jpeg">
 </div>
 
 A community talk for the Korean-American community exploring "From ChatGPT to Your Future Superpower" — how today's generation can harness AI as a tool for building, discovering, and creating, with insights drawn from my experience in global tech, biotech, and academia.
@@ -500,7 +514,8 @@ A community talk for the Korean-American community exploring "From ChatGPT to Yo
 **Song-do, South Korea | November 7, 2025 KST**
 
 <div class="img-container">
-<img style="width: 85%; max-height: none;" src="/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/posters/KakaoTalk_Photo_2025-10-11-23-22-15.png">
+	<!--img style="width: 85%; max-height: none;" src="/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/posters/KakaoTalk_Photo_2025-10-11-23-22-15.png"-->
+	<img style="width: 85%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/posters/KakaoTalk_Photo_2025-10-11-23-22-15-50-reduced.png">
 </div>
 
 AI Biohealthcare Drug Discovery Summit, bringing together leaders in pharmaceutical innovation, biotech entrepreneurship, and AI-driven drug development to discuss the future of precision medicine.
@@ -518,10 +533,10 @@ Invited lecture on "The Economics of Intelligence - How AI is Reshaping Business
 exploring the future of agentic AI systems and their applications across industries.
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 45.11%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.37 AM.png">
-<img style="max-width: 44.89%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
-&nbsp;
+	<!--img style="max-width: 45.11%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.37 AM.png"-->
+	<img style="max-width: 49.12%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.37 AM.png">
+	<!--img style="max-width: 44.89%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png"-->
+	<img style="max-width: 48.88%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
 </div>
 
 <!--
@@ -540,10 +555,10 @@ Keynote on "Convergent AI Innovation - From Protein Folding Breakthroughs to Age
 **Korea Innovation Center (KIC) Silicon Valley | October 6, 2025 PDT**
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-25-37 001.jpeg">
-<img style="max-width: 45%;" src="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-26-09 005.jpeg">
-&nbsp;
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-25-37 001.jpeg"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-25-37 001-50-reduced.jpeg">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-26-09 005.jpeg"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1006 PDT - KICSV Special AI Lecture - Core AI Concepts and Modern Architectures/photos/KakaoTalk_Photo_2025-10-06-12-26-09 005-50-reduced.jpeg">
 </div>
 
 Two-part lecture series:
@@ -563,16 +578,17 @@ Two-part lecture series:
 -->
 
 <div class="img-container">
-<img style="width: 85%; max-height: none;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/posters/KakaoTalk_Photo_2025-09-10-23-04-58.png">
+	<!--img style="width: 85%; max-height: none;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/posters/KakaoTalk_Photo_2025-09-10-23-04-58.png"-->
+	<img style="width: 85%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/posters/KakaoTalk_Photo_2025-09-10-23-04-58.png">
 </div>
 
 A summit convening Korean-American scientists and engineers with Korean biotech leaders to foster collaboration between Silicon Valley innovation and Korean pharmaceutical and biotech industries.
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 40.81%;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/KakaoTalk_Photo_2025-09-24-15-22-16 002.jpeg">
-<img style="max-width: 49.19%;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/IMG_6926.png">
-&nbsp;
+	<!--img style="max-width: 40.81%;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/KakaoTalk_Photo_2025-09-24-15-22-16 002.jpeg"-->
+	<img style="max-width: 44.44%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/KakaoTalk_Photo_2025-09-24-15-22-16 002-50-reduced.jpeg">
+	<!--img style="max-width: 49.19%;" src="/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/IMG_6926.png"-->
+	<img style="max-width: 53.56%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0923 KST - G-Bio Week X AI Connect - From Silicon Valley to Biotech Valley - AI Agents Reshaping the Future of Drug Discovery and Precision Medicine/photos/IMG_6926-90-reduced.png">
 </div>
 
 **My Role** Global VIP / Mentor / Speaker presenting on AI-powered biotech platforms and Erudio Bio's mission
@@ -619,10 +635,10 @@ Monthly K-PAI forum on "AI-Driven Solutions for Energy's Future" featuring speak
 featuring Natalie Huh on AI regulatory insights and [James Rhee](https://www.redhelicopter.com/about-james){:target="_blank"} on "Agency in a New World Order: AI and Humanism in Musical Counterpoint." This forum brought together legal, philosophical, and technical perspectives on building AI that serves humanity.
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 49.58%;" src="/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632407637.jpeg">
-<img style="max-width: 40.42%;" src="/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632408073.jpeg">
-&nbsp;
+	<!--img style="max-width: 49.58%;" src="/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632407637.jpeg"-->
+	<img style="max-width: 53.99%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632407637.jpeg">
+	<!--img style="max-width: 40.42%;" src="/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632408073.jpeg"-->
+	<img style="max-width: 44.01%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0820 PDT - K-PAI - Human-Centric AI Revolution/photos/1761632408073.jpeg">
 </div>
 
 <!--
@@ -640,19 +656,20 @@ K-PAI forum on "The New Frontier of AI Security" featuring Prof. Gail-Joon Ahn (
 **Seoul, South Korea | June 27, 2025 KST**
 
 <div class="img-container">
-<img style="width: 80%; max-height: none;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">
+	<!--img style="width: 80%; max-height: none;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg"-->
+	<img style="width: 80%; max-height: none;" src="https://sungheeyun-seminars-01.github.io/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025 - poster.jpg">
 </div>
 
 [Watch the Presentation](https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=57){:target="_blank"} &amp; [Watch the Interview](https://youtu.be/euqzG90coXc?si=x9OnNukaJB_K1m7E&t=187){:target="_blank"}
 
 Knowledge Festival All Seasons (KFAS) 2025 keynote presentation on "The AI Metamorphosis: Navigating New Frontiers in Technology, Society, and Human Experience" — exploring the philosophical, societal, and ethical dimensions of AI transformation.
-([program book](/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025_프로그램북.pdf){:target="_blank"})
+([program book](https://sungheeyun-seminars-01.github.io/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/program books/KFAS 2025_프로그램북.pdf){:target="_blank"})
 
 <div class="img-container-justified">
-&nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/0_group photos/IB6A8712.JPG">
-<img style="max-width: 45%;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/04_session1_presentations/IB6A8412.JPG">
-&nbsp;
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/0_group photos/IB6A8712.JPG"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/0_group photos/IB6A8712-50-reduced.JPG">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/04_session1_presentations/IB6A8412.JPG"-->
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0627 KST - KFAS 2025 AI Seminar - The AI Metamorphosis - Navigating New Frontiers in Technology, Society, and Human Experience/photos/04_session1_presentations/IB6A8412-50-reduced.JPG">
 </div>
 
 ### 2025 KAIST BBE Bay Area Research Exchange
@@ -663,7 +680,7 @@ Knowledge Festival All Seasons (KFAS) 2025 keynote presentation on "The AI Metam
 -->
 
 <div class="img-container">
-<img style="width: 85%; max-height: none;" src="/resource/seminars/2025_0622 - 2025 KAIST BBE KIC KOLIS-S K-BioX Symposium K-Bio Bridge Conference - Panel Discussion on Global Biotech Innovation Ecosystem/posters/poster - 2025 KAIST BBE Bay Area Research Exchange.jpeg">
+	<img style="width: 85%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0622 - 2025 KAIST BBE KIC KOLIS-S K-BioX Symposium K-Bio Bridge Conference - Panel Discussion on Global Biotech Innovation Ecosystem/posters/poster - 2025 KAIST BBE Bay Area Research Exchange-50-reduced.jpeg">
 </div>
 
 A symposium co-organized by KAIST Bio & Brain Engineering (BBE), Korea Innovation Center, KOLIS, and Stanford K-BioX to foster collaboration between Korean and Bay Area biotech researchers.

@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Tue Dec 16 21:19:23 KST 2025
+last_modified_at: Sat Jan  3 14:01:00 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -126,35 +126,38 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 # AI creates Podcasts for Me!
 
+<!--
 ## Video Podcasts
+-->
 
-<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
-	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-		<strong>Sunghee Yun - Pioneer's Journey</strong>
-		<span style="opacity: 0.8;">(07:07)</span>
+<div class="img-container-justified">
+	<div id="podcast-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee Yun - Pioneer's Journey</strong>
+			<span style="opacity: 0.8;">(07:07)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/Sunghee_Yun__Pioneer_s_Journey.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
 	</div>
-	<div style="padding: 10px; background-color: #ecf0f1;">
-		<video width="100%" controls>
-			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/Sunghee_Yun__Pioneer_s_Journey.mp4">
-			Your browser does not support this video element.
-		</video>
+	<div id="podcast-video-02" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>AI Pioneer - Sunghee Yun</strong>
+			<span style="opacity: 0.8;">(05:10)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<video width="100%" controls>
+				<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/AI_Pioneer__Sunghee_Yun - 01.mp4">
+				Your browser does not support this video element.
+			</video>
+		</div>
 	</div>
 </div>
 
-<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
-	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-		<strong>AI Pioneer - Sunghee Yun</strong>
-		<span style="opacity: 0.8;">(05:10)</span>
-	</div>
-	<div style="padding: 10px; background-color: #ecf0f1;">
-		<video width="100%" controls>
-			<source type="video/mp4" src="https://sungheeyun-podcasts-01.github.io/resource/pages/about/NotebookLM/AI_Pioneer__Sunghee_Yun - 01.mp4">
-			Your browser does not support this video element.
-		</video>
-	</div>
-</div>
-
-<div id="podcast-video-03" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
+<!--div id="podcast-video-03" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 100%; display: inline-block; vertical-align: top;">
 	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 		<strong>AI Pioneer - Sunghee Yun</strong>
 		<span style="opacity: 0.8;">(05:57)</span>
@@ -165,9 +168,11 @@ My life goal is to help build a future where humanity thrives through the advanc
 			Your browser does not support this video element.
 		</video>
 	</div>
-</div>
+</div-->
 
+<!--
 ## Audio Podcasts
+-->
 
 <div class="img-container-justified">
 	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
@@ -184,7 +189,8 @@ My life goal is to help build a future where humanity thrives through the advanc
 	</div>
 	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Universal Language of Impact - How an AI Polymath Used Convex Optimization to Transform Chips, E-Commerce ($200M Win), Biotech, and Global AI Policy</strong>
+			<strong>How an AI Polymath Used Optimization to Transform Chips, E-Commerce ($200M Win), Biotech, and Global AI Policy</strong>
+			<!--strong>The Universal Language of Impact - How an AI Polymath Used Convex Optimization to Transform Chips, E-Commerce ($200M Win), Biotech, and Global AI Policy</strong-->
 			<span style="opacity: 0.8;">(14:48)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -238,7 +244,7 @@ My life goal is to help build a future where humanity thrives through the advanc
 	</div>
 	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The AI Polymath - How Convex Optimization Connects Samsung Chips, Amazon's $200 Million Revenue, and the Future of Global Biotech Policy</strong>
+			<strong>The AI Polymath - How Convex Optimization Connects Samsung Chips, Amazon's $200M Revenue, and the Future of Global Biotech Policy</strong>
 			<span style="opacity: 0.8;">(15:57)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -308,7 +314,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 	@ Aug-2025 PDT
 
 <div class="img-container">
-<img src="/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Screenshot 2025-11-02 at 8.13.41 AM.png">
 </div>
 
 > 현재 신약 개발의 90% 이상이 임상시험에서 실패한다. 약물과 인체의 상호작용이 너무 복잡해 초기 단계에서 충분히 검증하지 못하기 때문이다. 에루디오바이오의 bioTCAD는 동적 힘 분광법으로 측정한 고품질 분자 상호작용 데이터를 활용해, 동물실험 단계인 전임상에서 신약 설계를 더욱 신뢰할 수 있고 빠르게 만든다. 의약품 개발 비용을 낮추고 개발 기간을 단축함으로써 새로운 저비용치료법을 절실히 필요로 하는 저소득 및 중소득 국가(LMICs)가 혜택을 받을 수 있다.
@@ -322,7 +328,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 <img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
 </div-->
 
-<div style="width: 98%; margin: 0 auto;">
+<div style="width: 90%; margin: 0 auto;">
 {% include video id="850LLqQlltY" provider="youtube" %}
 </div>
 
@@ -332,8 +338,10 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 
 <div class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
-<img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png"-->
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
+	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png"-->
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
 &nbsp;
 </div>
 
@@ -342,7 +350,8 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 	@ 20-Oct-2025 KST
 
 <div class="img-container">
-<img src="/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png">
+	<!--img src="/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Screenshot 2025-10-30 at 7.04.19 AM.png">
 </div>
 
 - [(서울대학교 데이터사이언스 대학원 초청 세미나) Gauss Labs 윤성희 박사, ML Algorithms for Time-series Applications in Manufacturing](https://gsds.snu.ac.kr/gauss-labs-%ec%9c%a4%ec%84%b1%ed%9d%ac-%eb%b0%95%ec%82%ac-ml-algorithms-for-time-series-applications-in-manufacturing-11%ec%9b%94-01%ec%9d%bc%ec%88%98/){:target="_blank"}
@@ -350,7 +359,8 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 	@ 27-Oct-2023 KST
 
 <div class="img-container">
-<img src="/resource/press/1-3-724x1024.jpg">
+	<!--img src="/resource/press/1-3-724x1024.jpg"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/1-3-724x1024-25-reduced.jpg">
 </div>
 
 ## Co-Founder &amp; CTO &amp; Global R&amp;D Head @ Gauss Labs
@@ -360,7 +370,8 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 	@ 23-Sep-2020 KST
 
 <div class="img-container">
-<img src="/resource/press/53238fb10b0ed399203eb07a857227a9_1665476778_66.png">
+	<!--img src="/resource/press/53238fb10b0ed399203eb07a857227a9_1665476778_66.png"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/53238fb10b0ed399203eb07a857227a9_1665476778_66.png">
 </div>
 
 - [최태원의 승부수… SK그룹, 美 실리콘밸리서 AI 자회사 출범](https://biz.chosun.com/site/data/html_dir/2020/09/22/2020092200829.html)
@@ -378,7 +389,8 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 > [윤성희 담당](/)
 
 <div class="img-container">
-<img src="/resource/press/Sunghee Yun - Global RnD Head.jpg">
+	<!--img src="/resource/press/Sunghee Yun - Global RnD Head.jpg"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/press/Sunghee Yun - Global RnD Head-50-reduced.jpg">
 </div>
 
 - [AI 강조한 SK 최태원, 600억원 투자 반도체 제조혁신 '정조준'](https://www.fetv.co.kr/news/article.html?no=64174)
@@ -391,7 +403,8 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 > 전자상거래 등 다양한 산업 현장에서 실력을 쌓은 AI 및 최적화 전문가이다.
 
 <div class="img-container">
-<img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg">
+	<!--img style="max-width: 80%;" src="/resource/press/art_16007323555194_d19682.jpg"-->
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/press/art_16007323555194_d19682-50-reduced.jpg">
 </div>
 
 - [SK Hynix sets up AI company Gauss Labs in Silicon Valley with $55 million in capital](https://www.koreaittimes.com/news/articleView.html?idxno=100615)
