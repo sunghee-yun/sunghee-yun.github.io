@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 date: 2024-09-30
-last_modified_at: Fri Jan  2 11:20:22 PST 2026
+last_modified_at: Sat Jan  3 07:29:56 PST 2026
 categories:
  - blog
  - Philosophy
@@ -122,32 +122,109 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="62">제62장 - 도오道奧</h2>
+
+> 도는 불선자도 버리지 않는다.
+
+<div class="translation-container">
+<p>
+	道者萬物之奧
+	善人之寶
+	不善人之所保
+<span class="chinese-korean-transliteration">
+	도자만물지오
+	선인지보
+	불선인지소보
+</span>
+<span class="chinese-korean-translation">
+	도는 모두의 아늑한 곳
+	<br>
+	선한 사람에게 보배요,
+	<br>
+	선하지 않은 사람에게도 은신처이다.
+</span>
+</p>
+
+<p>
+	美言可以市
+	尊行可以加人
+<span class="chinese-korean-transliteration">
+	미언가이시
+	존행가이가인
+</span>
+<span class="chinese-korean-translation">
+	아름다운 말은 널리 팔리고
+	<br>
+	존경스런 행위는 남에게 뭔가를 더해 줄 수도 있다.
+</span>
+</p>
+
+<p>
+	人之不善
+	何棄之有
+<span class="chinese-korean-transliteration">
+	인지불선
+	하기지유
+</span>
+<span class="chinese-korean-translation">
+	사람 사이의 선하지 않다고 하는 것도
+	<br>
+	어찌 버릴 것이 있겠는가 ?
+</span>
+</p>
+
+<p>
+	故立天下
+	置三公
+	雖有拱壁以先駟馬
+	不如坐進此道
+<span class="chinese-korean-transliteration">
+	고립천하
+	치삼공
+	수유공벽이선사마
+	불여좌진차도
+</span>
+<span class="chinese-korean-translation">
+	그러므로 천자를 옹립하고
+	<br>
+	삼공을 임명할 때
+	<br>
+	네 필 말이 끄는 수레를 앞세우고 아름드리 옥을 바치나
+	<br>
+	오히려 무릎을 꿇고 이 도를 바치는 것이 더 좋다네.
+</span>
+</p>
+
+<p>
+	古之所以貴此道者何
+<span class="chinese-korean-transliteration">
+	고지소이귀차도자하
+</span>
+<span class="chinese-korean-translation">
+	옛사람이 이 도를 귀하게 여긴 까닭이 무엇인가?
+</span>
+</p>
+
+<p>
+	不曰以求得
+	有罪以免邪
+	故爲天下貴
+<span class="chinese-korean-transliteration">
+	불왈이구득
+	유죄이면사
+	고위천하귀
+</span>
+<span class="chinese-korean-translation">
+	도로써 구하면 얻고
+	<br>
+	죄가 있어도 면할 수 있다고 하지 않는가?
+	<br>
+	그러므로 세상이 이를 귀하게 여기는 것이다.
+</span>
+</p>
+</div>
+
 <!--
-62. 道奧(도오)
-
-
-
-도는 불선자도 버리지 않는다.
-
-
-道者萬物之奧(도자만물지오) : 도는 모두의 아늑한 곳
-善人之寶(선인지보) : 선한 사람에게 보배요,
-不善人之所保(불선인지소보) : 선하지 않은 사람에게도 은신처이다.
-美言可以市(미언가이시) : 아름다운 말은 널리 팔리고
-尊行可以加人(존행가이가인) : 존경스런 행위는 남에게 뭔가를 더해 줄 수도 있다.
-人之不善(인지불선) : 사람 사이의 선하지 않다고 하는 것도
-何棄之有(하기지유) : 어찌 버릴 것이 있겠는가 ?
-故立天下(고립천하) : 그러므로 천자를 옹립하고
-置三公(치삼공) : 삼공을 임명할 때
-雖有拱壁以先駟馬(수유공벽이선사마) : 네 필 말이 끄는 수레를 앞세우고 아름드리 옥을 바치나
-不如坐進此道(불여좌진차도) : 오히려 무릎을 꿇고 이 도를 바치는 것이 더 좋다네.
-古之所以貴此道者何(고지소이귀차도자하) : 옛사람이 이 도를 귀하게 여긴 까닭이 무엇인가?
-不曰以求得(불왈이구득) : 도로써 구하면 얻고
-有罪以免邪(유죄이면사) : 죄가 있어도 면할 수 있다고 하지 않는가?
-故爲天下貴(고위천하귀) : 그러므로 세상이 이를 귀하게 여기는 것이다.
-
-
-
 63. 無難(무난)
 
 
