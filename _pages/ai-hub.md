@@ -835,7 +835,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<p>In this case, Liquid says it used a blend of “computational units deeply rooted in the theory of dynamical systems, signal processing, and numerical linear algebra,” and that the result is “general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals” to train its new LFMs.</p>
 	<p>Liquid AI’s new models retain the core benefits of this adaptability, allowing for real-time adjustments during inference without the computational overhead associated with traditional models, handling up to 1 million tokens efficiently, while keeping memory usage to a minimum.</p>
 	<p>A chart from the Liquid blog shows that the LFM-3B model, for instance, outperforms popular models like Google’s Gemma-2, Microsoft’s Phi-3, and Meta’s Llama-3.2 in terms of inference memory footprint, especially as token length scales.</p>
-	<img width="95%" src="/assets/images/ai/llm/lfm-performance-comparison.webp">
+	<img width="95%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/lfm-performance-comparison.webp">
 	</div>
 </li>
 <li>
@@ -986,13 +986,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/ai-project-expectation-vs-reality.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/ai-project-expectation-vs-reality.webp">
 	<figcaption>
 	General AI project - expectation vs reality
 	</figcaption>
 	</figure>
 	<figure>
-	<img src="/assets/images/ai/ai-projec-general-vs-genai.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/ai-projec-general-vs-genai.webp">
 	<figcaption>
 	General AI project - general vs genAI
 	</figcaption>
@@ -1333,7 +1333,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	&nbsp;
 	<div class="foldable-toggle">cognitive bias codex, 2016</div>
 	<div class="foldable-content">
-	<img src="/assets/images/1_71TzKnr7bzXU_l_pU6DCNA.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/1_71TzKnr7bzXU_l_pU6DCNA.webp">
 	</div>
 </li>
 </ul>
@@ -1697,13 +1697,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/ai-project-expectation-vs-reality.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/ai-project-expectation-vs-reality.webp">
 	<figcaption>
 	General AI project - expectation vs reality
 	</figcaption>
 	</figure>
 	<figure>
-	<img src="/assets/images/ai/ai-projec-general-vs-genai.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/ai-projec-general-vs-genai.webp">
 	<figcaption>
 	General AI project - general vs genAI
 	</figcaption>
@@ -1932,7 +1932,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<p>In this case, Liquid says it used a blend of “computational units deeply rooted in the theory of dynamical systems, signal processing, and numerical linear algebra,” and that the result is “general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals” to train its new LFMs.</p>
 	<p>Liquid AI’s new models retain the core benefits of this adaptability, allowing for real-time adjustments during inference without the computational overhead associated with traditional models, handling up to 1 million tokens efficiently, while keeping memory usage to a minimum.</p>
 	<p>A chart from the Liquid blog shows that the LFM-3B model, for instance, outperforms popular models like Google’s Gemma-2, Microsoft’s Phi-3, and Meta’s Llama-3.2 in terms of inference memory footprint, especially as token length scales.</p>
-	<img width="95%" src="/assets/images/ai/llm/lfm-performance-comparison.webp">
+	<img width="95%" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/lfm-performance-comparison.webp">
 	</div>
 </li>
 <li>
@@ -2473,7 +2473,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	&nbsp;
 	<div class="foldable-toggle">cognitive bias codex, 2016</div>
 	<div class="foldable-content">
-	<img src="/assets/images/1_71TzKnr7bzXU_l_pU6DCNA.webp">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-hub/1_71TzKnr7bzXU_l_pU6DCNA.webp">
 	</div>
 </li>
 <li>

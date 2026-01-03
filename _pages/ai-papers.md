@@ -367,7 +367,7 @@ Korean versions
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-papers/rag-pipeline-for-chatbot-nvidia-50-reduced.png">
 	<figcaption>
 	Control Points in a typical RAG pipeline when building Chatbots
 	</figcaption>
@@ -386,7 +386,7 @@ Korean versions
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-papers/rag-pipeline-for-chatbot-nvidia-50-reduced.png">
 	<figcaption>
 	Control Points in a typical RAG pipeline when building Chatbots
 	</figcaption>
@@ -739,7 +739,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-papers/rag-pipeline-for-chatbot-nvidia-50-reduced.png">
 	<figcaption>
 	Control Points in a typical RAG pipeline when building Chatbots
 	</figcaption>
@@ -772,7 +772,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	<div class="foldable-content">
 	<div class="fig-container">
 	<figure>
-	<img src="/assets/images/ai/llm/rag-pipeline-for-chatbot-nvidia.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/ai-papers/rag-pipeline-for-chatbot-nvidia-50-reduced.png">
 	<figcaption>
 	Control Points in a typical RAG pipeline when building Chatbots
 	</figcaption>

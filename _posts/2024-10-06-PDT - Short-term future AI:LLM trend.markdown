@@ -2,7 +2,7 @@
 title: MIT-Invented Liquid Neural Networks - A Game-Changer for the Future of LLMs
 permalink: /ai/llm/energy-challenge
 date: 06-Oct-2024
-last_modified_at: Wed Dec 31 14:39:32 PST 2025
+last_modified_at: Sat Jan  3 11:39:26 PST 2026
 categories:
  - blog
  - AI
@@ -143,7 +143,7 @@ you can practically read the output as it generates
 if I exaggerate (quite) a bit.
 
 <div class="img-container">
-	<img src="/assets/images/ai/llm/lfm-performance-comparison.webp">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-10-06-PDT - Short-term future AI:LLM trend/lfm-performance-comparison.webp">
 </div>
 
 This could very well be the solution I’ve been searching for—a (way) more energy-efficient, (way) faster approach to AI that doesn’t sacrifice performance. Liquid Neural Networks may hold the key to a sustainable future for LLMs, and I’m excited to see where this technology leads.
