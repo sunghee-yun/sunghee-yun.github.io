@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Fri Jan  2 20:42:31 PST 2026
+last_modified_at: Sat Jan  3 07:11:25 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -403,6 +403,7 @@ SEOULTECH
 > - [예술](/categories/#art){:target="_blank"}
 > - [인지과학](/categories/#cognitive-science){:target="_blank"}
 > - [보편적 진리](/categories/#universal-truth){:target="_blank"}
+> - [철학](/categories/#philosophy){:target="_blank"}
 {: .notice--warning}
 
 # K-PAI – 사람을 연결하는 힘 {#k-pai-connecting-people}
