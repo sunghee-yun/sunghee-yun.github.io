@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jan  3 18:51:13 PST 2026
+last_modified_at: Sat Jan  3 18:54:39 PST 2026
 ---
 
 <!--
@@ -72,6 +72,12 @@ last_modified_at: Sat Jan  3 18:51:13 PST 2026
 	[contents](https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/cards/KakaoTalk_Image_2025-01-05-13-28-30_002-50-reduced.jpeg){:target="_blank"}
 
 # Art, Culture &amp; Games
+
+## 2026 {#arts-and-culture-2026}
+
+- Family
+	&ndash; De Young Museum
+	&ndash; 1pm-5pm on 02-Jan-2026 PST
 
 ## 2025 {#arts-and-culture-2025}
 
