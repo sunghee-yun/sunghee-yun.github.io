@@ -564,7 +564,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
 	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
 	@ 23-Oct-2011
-	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="https://sungheeyun-seminars-01.github.io/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
 </li>
 </ul>
 
@@ -929,7 +929,7 @@ Institute of Physics of the Hebrew University of Jerusalem.)
 	"Applications of the conjugate gradient method for implicit feedback collaborative filtering"
 	- Gábor Takács, István Pilászy &amp; Domonkos Tikk
 	@ 23-Oct-2011
-	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
+	(<a href="https://dl.acm.org/doi/10.1145/2043932.2043987">ACM</a>, <a href="https://sungheeyun-seminars-01.github.io/resource/papers/Applications of the Conjugate Gradient Method for Implicit Feedback Collaborative Filtering.pdf">PDF</a>)
 </li>
 <li>
 	"Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers"

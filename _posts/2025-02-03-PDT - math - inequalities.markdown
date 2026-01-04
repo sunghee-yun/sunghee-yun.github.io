@@ -2,7 +2,7 @@
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
 date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Wed Dec 31 14:50:22 PST 2025
+last_modified_at: Sat Jan  3 18:38:28 PST 2026
 categories:
  - blog
 tags:
@@ -709,8 +709,8 @@ the shortest path between seemingly unrelated mathematical concepts.
 They're like mathematical shortcuts that, when properly understood, reveal the hidden connections in mathematics.
 This reminds me of what [Eugene Wigner](https://en.wikipedia.org/wiki/Eugene_Wigner)
 called
-["the unreasonable effectiveness of mathematics"](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences)
-([PDF](/resource/papers/The Unreasonable Effectiveness of Mathematics (EP Wigner).pdf))
+["the unreasonable effectiveness of mathematics"](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences){:target="_blank"}
+([PDF](https://sungheeyun-seminars-01.github.io/resource/papers/The Unreasonable Effectiveness of Mathematics (EP Wigner).pdf){:target="_blank"})
 &ndash; these elegant relationships seem to hint at some deeper truth about the structure of mathematical reasoning itself.
 
 It is quite coincidental that
