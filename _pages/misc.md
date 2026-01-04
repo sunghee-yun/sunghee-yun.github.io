@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jan  3 18:20:44 PST 2026
+last_modified_at: Sat Jan  3 18:51:13 PST 2026
 ---
 
 <!--
@@ -77,7 +77,7 @@ last_modified_at: Sat Jan  3 18:20:44 PST 2026
 
 - ME
 	&ndash; Movie
-	&ndash; [Independence Army - A War that has not ended](/resource/tickets/2025-08/KakaoTalk_Photo_2025-08-18-19-58-23.jpeg)
+	&ndash; [Independence Army - A War that has not ended](https://sungheeyun-photos-01.github.io/resource/tickets/2025-08/KakaoTalk_Photo_2025-08-18-19-58-23.jpeg)
 	@ [CGV Riverside, Seoul, South Korea](https://naver.me/xFLuJl2r)
 - Ghayoung and ME
 	&ndash; Classical Music Concert
@@ -95,7 +95,7 @@ last_modified_at: Sat Jan  3 18:20:44 PST 2026
 	&ndash; 6:45pm on 24-Jun-2025 PDT
 - ME
 	&ndash; Musical
-	&ndash; [Maybe Happy Ending](/resource/tickets/2025-06/maybe-happy-ending-on-broadway.png)
+	&ndash; [Maybe Happy Ending](https://sungheeyun-photos-01.github.io/resource/tickets/2025-06/maybe-happy-ending-on-broadway.png)
 	@ [Belasco Theater](https://maps.app.goo.gl/rZoxgpZoauYYMxMF9)
 	&ndash; 2pm on 18-Jun-2025 EDT
 - Jinyoung and ME
