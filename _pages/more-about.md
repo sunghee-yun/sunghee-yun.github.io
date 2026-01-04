@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Sat Jan  3 12:44:51 PST 2026
+last_modified_at: Sat Jan  3 16:04:57 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -103,8 +103,8 @@ Similarly, AlphaFold built upon decades of biochemists' painstaking work.
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_aff8b26f-43e1-45ab-8c26-28bef02bdfc5_1.png">
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_5a4c5809-4889-4b09-bf9c-f81c5e1c16d4_1.png">
+	<img style="max-width: 47%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_aff8b26f-43e1-45ab-8c26-28bef02bdfc5_1.png">
+	<img style="max-width: 47%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_vast_amount_of_quality_data_--ar_43_--v_6.1_5a4c5809-4889-4b09-bf9c-f81c5e1c16d4_1.png">
 &nbsp;
 </div>
 
@@ -118,8 +118,8 @@ With this foundation, Erudio Bio can:
 
 <div style="margin-top: 1em;" class="img-container-justified">
 &nbsp;
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_a4105daf-5f0b-4926-a3f2-ac2e928a424a_1.png">
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_7b382cb4-ba04-4c96-a710-005cfe342d9e_2.png">
+	<img style="max-width: 47%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_a4105daf-5f0b-4926-a3f2-ac2e928a424a_1.png">
+	<img style="max-width: 47%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/pages/more-about/u1564158738_The_AI_Vision_of_Erudio_BioPermalink_This_underst_7b382cb4-ba04-4c96-a710-005cfe342d9e_2.png">
 &nbsp;
 </div>
 
@@ -139,9 +139,9 @@ Thus, the companies and forums I own or support through business development are
 
 <div class="img-container-justified">
 &nbsp;
-<img width="15%" src="/assets/images/company-logos/logo-erudio-inv.svg">
-<img width="15%" src="/assets/images/company-logos/logo-k-on-pie.png">
-<img width="40%" src="/assets/images/company-logos/logo-crypto-lab.png">
+	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-erudio-inv.svg">
+	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-k-on-pie.png">
+	<img width="47.00%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-crypto-lab.png">
 &nbsp;
 </div>
 
@@ -155,12 +155,10 @@ In this era, domain expertise combined with the ability
 to leverage AI agents has become crucial—which explains my work with [WeStory.ai](https://westory.ai/).
 
 <div class="img-container-justified">
-&nbsp;
-<img width="15%" src="/assets/images/company-logos/logo-erudio-inv.svg">
-<img width="15%" src="/assets/images/company-logos/logo-k-on-pie.png">
-<img width="40%" src="/assets/images/company-logos/logo-crypto-lab.png">
-<img width="15%" src="/assets/images/company-logos/logo-we-story.webp">
-&nbsp;
+	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-erudio-inv.svg">
+	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-k-on-pie.png">
+	<img width="47.00%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-crypto-lab.png">
+	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-we-story.webp">
 </div>
 
 # Beyond Technology - AI's Unprecedented Impact
@@ -180,10 +178,8 @@ as a
 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative).
 
 <div style="margin-top: 1em;" class="img-container-justified">
-&nbsp;
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
-<img style="max-width: 45%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
-&nbsp;
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
 </div>
 
 # Related Resources
