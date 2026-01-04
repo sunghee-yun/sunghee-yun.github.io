@@ -1,7 +1,7 @@
 ---
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Sat Jan  3 19:17:12 PST 2026
+last_modified_at: Sat Jan  3 21:25:22 PST 2026
 categories:
  - blog
 tags:
@@ -60,38 +60,38 @@ The music resonated deeply within us, setting a harmonious tone for the rest of 
 for quality food. I once again realized that our ancestors were correct in that &ldquo;Hunger makes the best seasoning (시장이 반찬이다).&rdquo; &#x2605;^^&#x2605;)
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-16 024.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-16 024-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-04 017.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-04 017-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-01 015-50-reduced.jpeg">
 </div>
 
 
 On the next day following the concert, we ventured to <a href="https://maps.app.goo.gl/Z8YNJ2U1UTxH49jQ9">Rockefeller Center</a>, where the magnificent Christmas tree stood as a testament to the season's joy and warmth. <a href="https://maps.app.goo.gl/yNpQXnYNK6WZbxGP6">The nearby cathedral</a> added a sense of tranquility and awe to our experience. To top off the day, we savored the delights of <a href="https://maps.app.goo.gl/pYvHYFG3o4avf4gk6">Pasta Corner 53rd</a>, an authentic Italian cuisine, a feast that brought our families even closer.
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-23 010.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-23 010-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-12 004.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-12 004-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-16 006.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-16 006-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-23 027.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-23 027-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-46 006-50-reduced.jpeg">
 </div>
 
 One of the highlights of our trip was a visit to <a href="https://maps.app.goo.gl/44roAatnijBMcGEy8">Mimi's by Martine's</a>,
@@ -99,10 +99,10 @@ an ice cream store near <a href="https://maps.app.goo.gl/gxj5mQtLTpE7J6TTA">the 
 The sweet treats were a hit with everyone, especially the kids, whose faces lit up with each delightful bite. This simple yet joyful moment reminded us of the pure happiness that comes from sharing life's little pleasures with loved ones.
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/Screenshot 2025-01-01 at 6.06.12 PM.png">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/Screenshot 2025-01-01 at 6.06.12 PM-25-reduced.png">
 </div>
 <div class="img-container">
-	<img style="height: 30vh;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/Screenshot 2025-01-01 at 6.06.04 PM.png">
+	<img style="height: 30vh;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/Screenshot 2025-01-01 at 6.06.04 PM-25-reduced.png">
 </div>
 
 Amidst the festivities, I also had the opportunity to share my passion for technology and education.
@@ -176,37 +176,37 @@ This trip was more than just a vacation; it was a symphony of memories that will
 <h3 id="moma">MoMA</h3>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-18 025.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-18 025-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-19 026.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-19 026-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-11 021.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-11 021-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-13 022.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-13 022-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-15 023.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-15 023-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-09 020.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-09 020-50-reduced.jpeg">
 </div>
 
 <h3 id="carnegie hall">Carnegie Hall</h3>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-01 015.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-01 015-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-06 018.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-06 018-50-reduced.jpeg">
 </div>
 
 
@@ -215,89 +215,89 @@ This trip was more than just a vacation; it was a symphony of memories that will
 <h3 id="rockefeller">Rockefeller Center</h3>
 
 <div class="img-container">
-	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-54 011.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-54 011-50-reduced.jpeg">
 </div>
 
 <div class="img-container-justified">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-29 013.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-29 013-50-reduced.jpeg">
 	&nbsp;
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-53 010.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-53 010-50-reduced.jpeg">
 </div>
 
 
 <div class="img-container">
-	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-11 003.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-11 003-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-56 012.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-56 012-50-reduced.jpeg">
 </div>
 
 <div class="img-container-justified">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-17 007.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-17 007-50-reduced.jpeg">
 	&nbsp;
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-19 008.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-19 008-50-reduced.jpeg">
 </div>
 
 
 <div class="img-container-justified">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-30 014.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-30 014-50-reduced.jpeg">
 	&nbsp;
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-20 009.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-20 009-50-reduced.jpeg">
 </div>
 
 <div class="img-container-justified">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-14 005.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-14 005-50-reduced.jpeg">
 	&nbsp;
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-24 011.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-24 011-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-58 013.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-58 013-50-reduced.jpeg">
 </div>
 
 <div class="img-container-justified">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-34 016.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-34 016-50-reduced.jpeg">
 	&nbsp;
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-25 029.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-06-25 029-50-reduced.jpeg">
 </div>
 
 <h3 id="pasta-corner">Pasta corner</h3>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-07 001.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-07-07 001-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-47 007.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-47 007-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-49 008.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-49 008-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-46 006.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-46 006-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-44 005.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-44 005-50-reduced.jpeg">
 </div>
 
 <h2 id="flight-back-home">Flight back home on 31-Dec-2024</h2>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-42 004.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-42 004-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-41 003.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-41 003-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-39 002.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-39 002-50-reduced.jpeg">
 </div>
 
 <div class="img-container">
-	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-37 001.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/NY/KakaoTalk_Photo_2025-01-01-17-05-37 001-50-reduced.jpeg">
 </div>
