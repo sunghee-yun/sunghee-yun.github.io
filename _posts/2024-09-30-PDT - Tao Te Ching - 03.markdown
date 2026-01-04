@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 date: 2024-09-30
-last_modified_at: Sat Jan  3 07:29:56 PST 2026
+last_modified_at: Sun Jan  4 09:07:01 PST 2026
 categories:
  - blog
  - Philosophy
@@ -122,6 +122,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__61_-_e502cbbf-5777-4b5a-a0cc-3d7de6256852_1.png">
+
 <h2 id="62">제62장 - 도오道奧</h2>
 
 > 도는 불선자도 버리지 않는다.
@@ -224,35 +228,133 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__62_-_3938b56c-69d6-4e30-b3e7-80a87e886eaf_1.png">
+
+<h2 id="63">제63장 - 무난無難</h2>
+
+> 어려운 일은 쉬울 때 하고
+> <br>
+> 큰 일은 작을 때 해야 한다.
+
+<div class="translation-container">
+<p>
+	爲無爲
+	事無事
+	味無味
+<span class="chinese-korean-transliteration">
+	위무위
+	사무사
+	미무미
+</span>
+<span class="chinese-korean-translation">
+	억지로 함이 없는 함을 실천하고
+	<br>
+	일함이 없는 일을 실행하고
+	<br>
+	맛없는 맛을 맛보시라.
+</span>
+</p>
+
+<p>
+	大小多少
+	報怨以德
+<span class="chinese-korean-transliteration">
+	대소다소
+	보원이덕
+</span>
+<span class="chinese-korean-translation">
+	큰 것을 작은 것으로 여기고 많은 것을 적은 것으로 생각하라.
+	<br>
+	원한을 덕으로 갚으라.
+</span>
+</p>
+
+<p>
+	圖難於其易
+	爲大於其細
+<span class="chinese-korean-transliteration">
+	도난어기이
+	위대어기세
+</span>
+<span class="chinese-korean-translation">
+	어려운 일을 하려면 그것이 쉬울 때 해야하고,
+	<br>
+	큰 일을 하려면 그것이 작을 때 해야 한다.
+</span>
+</p>
+
+<p>
+	天下難事
+	必作於易
+	天下大事
+	必作於細
+<span class="chinese-korean-transliteration">
+	천하난사
+	필작어이
+	천하대사
+	필작어세
+</span>
+<span class="chinese-korean-translation">
+	세상세서 제일 어려운 일도
+	<br>
+	반드시 쉬운 일에서 시작되고,
+	<br>
+	세상에서 제일 큰 일도
+	<br>
+	반드시 작은 일에서 시작되기 때문이다.
+</span>
+</p>
+
+<p>
+	是以聖人終不爲大
+	故能成其大
+<span class="chinese-korean-transliteration">
+	시이성인종불위대
+	고능성기대
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 끝에 가서 큰 일을 하지 않나니,
+	<br>
+	그래서 큰 일을 이루는 것이다.
+</span>
+</p>
+
+<p>
+	夫輕諾必寡信
+	多易必多難
+<span class="chinese-korean-transliteration">
+	부경낙필과신
+	다이필다난
+</span>
+<span class="chinese-korean-translation">
+	무릇 가볍게 수락하는 사람은 반드시 믿음성이 없는 법이고,
+	<br>
+	너무 쉽다고 생각하는 사람은 반드시 어려운 일을 맞게 마련이다.
+</span>
+</p>
+
+<p>
+	是以聖人猶難之
+	故終無難矣
+<span class="chinese-korean-transliteration">
+	시이성인유난지
+	고종무난의
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인이라도 일을 어려운 것으로 여기는 것이라,
+	<br>
+	그러기 때문에 끝에 가서 어려운 일이 없게 되는 것이다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__63_-_05f9a4f1-3f2c-4687-8677-940967b60470_1.png">
+
 <!--
-63. 無難(무난)
-
-
-
-어려운 일은 쉬울 때 하고
-
-큰 일은 작을 때 해야 한다.
-
-
-爲無爲(위무위) : 억지로 함이 없는 함을 실천하고
-事無事(사무사) : 일함이 없는 일을 실행하고
-味無味(미무미) : 맛없는 맛을 맛보시라.
-大小多少(대소다소) : 큰 것을 작은 것으로 여기고 많은 것을 적은 것으로 생각하라.
-報怨以德(보원이덕) : 원한을 덕으로 갚으라.
-圖難於其易(도난어기이) : 어려운 일을 하려면 그것이 쉬울 때 해야하고,
-爲大於其細(위대어기세) : 큰 일을 하려면 그것이 작을 때 해야 한다.
-天下難事(천하난사) : 세상세서 제일 어려운 일도
-必作於易(필작어이) : 반드시 쉬운 일에서 시작되고,
-天下大事(천하대사) : 세상에서 제일 큰 일도
-必作於細(필작어세) : 반드시 작은 일에서 시작되기 때문이다.
-是以聖人終不爲大(시이성인종불위대) : 그러므로 성인은 끝에 가서 큰 일을 하지 않나니,
-故能成其大(고능성기대) : 그래서 큰 일을 이루는 것이다.
-夫輕諾必寡信(부경낙필과신) : 무릇 가볍게 수락하는 사람은 반드시 믿음성이 없는 법이고,
-多易必多難(다이필다난) : 너무 쉽다고 생각하는 사람은 반드시 어려운 일을 맞게 마련이다.
-是以聖人猶難之(시이성인유난지) : 그러므로 성인이라도 일을 어려운 것으로 여기는 것이라,
-故終無難矣(고종무난의) : 그러기 때문에 끝에 가서 어려운 일이 없게 되는 것이다.
-
-
 
 64. 輔物(보물)
 
