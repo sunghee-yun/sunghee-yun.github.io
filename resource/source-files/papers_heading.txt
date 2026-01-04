@@ -26,27 +26,58 @@ toc_sticky: true
 	});
 </script>
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
+<!--
 Korean versions
+-->
 
-<audio id="podcast-kor-1" controls>
+<!--audio id="podcast-kor-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-01.wav">
-</audio>
+</audio-->
 
-<audio id="podcast-kor-2" controls>
+<!--audio id="podcast-kor-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-kor-02.wav">
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee's AI Papers Hub - Optimization, AI, and Related Fields - 01</strong>
+			<span style="opacity: 0.8;">(14:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+                <source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 48%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Sunghee's AI Papers Hub - Optimization, AI, and Related Fields - 02</strong>
+			<span style="opacity: 0.8;">(15:40)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+                <source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/ai-papers/NotebookLM/Sunghee's AI Papers Hub_ Optimization, AI, and Related Fields-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Charter
 
