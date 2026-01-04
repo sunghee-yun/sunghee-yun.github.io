@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sat Jan  3 19:53:42 PST 2026
+last_modified_at: Sun Jan  4 00:11:42 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -137,7 +137,7 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
 </div>
 
 <figcaption>

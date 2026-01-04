@@ -193,7 +193,7 @@ His path from Electrical Engineering to conducting represents something profound
 During the reception, I watched families sharing Songpyeon while children asked Yoonhak questions about the piano, about conducting, about how music "works." The volunteer students from Hwarang Youth Foundation moved through the crowd with practiced grace, facilitating connections across generations.
 
 <div class="img-container">
-<img src="/resource/trips/2024-12 Lyon & Salzburg/IMG_5141.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5141-25-reduced.jpg">
 </div>
 
 This intergenerational aspect—captured in the event's title "Harmony Across Generations"—wasn't just marketing language. It was the point. <span class="emph">In an age where AI can compose music algorithmically, where streaming algorithms predict our preferences, where technology increasingly mediates our relationship with beauty itself, we needed this reminder: music is fundamentally about human connection.</span>
