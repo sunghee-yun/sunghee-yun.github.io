@@ -1,7 +1,7 @@
 ---
 title: AI seminar series in Seoul - Jun &#12316; Jul in 2024
 date: Tue Jul 23 14:37:06 PDT 2024
-last_modified_at: Sun Jan  4 11:09:48 PST 2026
+last_modified_at: Sun Jan  4 12:24:13 PST 2026
 categories:
  - blog
 tags:
@@ -43,7 +43,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 01</strong>
+			<strong>Deep Dive - Seoul AI Seminar Series - LLM and Generative AI Insights - 01</strong>
 			<span style="opacity: 0.8;">(08:48)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -55,7 +55,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 02</strong>
+			<strong>Deep Dive - Seoul AI Seminar Series - LLM and Generative AI Insights - 02</strong>
 			<span style="opacity: 0.8;">(08:50)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -70,7 +70,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 03</strong>
+			<strong>Deep Dive - Seoul AI Seminar Series - LLM and Generative AI Insights - 03</strong>
 			<span style="opacity: 0.8;">(08:58)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -80,6 +80,52 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			</audio>
 		</div>
 	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Seoul AI Seminar: Market, Ethics, and AGI</strong>
+			<span style="opacity: 0.8;">(35:22)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-4" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/Deep Dive - Seoul_AI_Seminar__Market,_Ethics,_and_AGI.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Human benchmarks versus AI efficiency</strong>
+			<span style="opacity: 0.8;">(13:30)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-5" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/Debate - Human_benchmarks_versus_AI_efficiency.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Anchor AI Insights in Seoul Specifics</strong>
+			<span style="opacity: 0.8;">(09:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-6" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/Criquie - Anchor_AI_Insights_in_Seoul_Specifics.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container">
+	<img
+		style="max-width: 100%;"
+		src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/infographic - concise.png"
+	>
 </div>
 
 # Reflections
@@ -95,9 +141,9 @@ where I could share my insight and learn a lot from Q&As with talented AI resear
 <!--figure style="width: 40ch; display:table; margin:0 auto;"-->
 <!--figure style="display:table; margin:0 auto;"-->
 <div class="fig-container">
-<figure>
+<figure style="max-width: 100%;">
 	<img src="https://sungheeyun-photos-01.github.io/resource/seminars/2024_0627 - Samsung Flash Memroy Team AI Seminar/photos/KakaoTalk_Photo_2024-06-27-21-46-51 003-50-reduced.jpeg">
-	<figcaption>
+	<figcaption style="max-width: 100%;">
 		Myself giving a talk in Future Hall at Samsung Semiconductor
 	</figcaption>
 </figure>
@@ -116,14 +162,21 @@ Beyond the technical details, I explored the broader implications of AI advancem
 * Philosophical questions about AI consciousness, knowledge, and reasoning capabilities.
 * The future of AI, including predictions about the development of artificial general intelligence (AGI) and its potential impacts on society and the economy.
 
+<div class="img-container">
+	<img
+		style="max-width: 100%;"
+		src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/infographic - detailed.png"
+	>
+</div>
+
 One of the most engaging parts of the seminar was my exploration of "important questions" surrounding AI. I grappled with issues like why we often use human-level performance as a benchmark for AI, what factors contribute to the success of deep learning, and how we should approach the development of AI to ensure it benefits humanity.
 
 The Q&A sessions were particularly enlightening, with attendees raising thought-provoking questions about the practical applications of AI in various industries, the challenges of implementing AI systems in real-world settings, and the potential societal impacts of widespread AI adoption.
 
 <div class="fig-container">
-<figure style="width:50ch;">
+<figure style="max-width: 100%;">
 	<img src="https://sungheeyun-photos-01.github.io/resource/seminars/2024_0619 - Postech Seminar/photos/postech seminar-50-reduced.jpeg">
-	<figcaption>
+	<figcaption style="max-width: 100%;">
 		Myself giving a talk at Pohang University of Science and Technology (POSTECH)
 	</figcaption>
 </figure>
@@ -134,3 +187,10 @@ Reflecting on the seminars, I'm struck by the incredible pace of innovation in A
 As we move forward, it's clear that collaboration between academia, industry, and policymakers will be crucial in shaping the future of AI. The ethical considerations and potential societal impacts I discussed must remain at the forefront of our minds as we continue to push the boundaries of what's possible with AI technology.
 
 I'm grateful for the opportunity to have shared my insights and learned from the brilliant minds I encountered during this seminar series. As the field of AI continues to evolve at a breakneck pace, these kinds of exchanges become ever more valuable, helping us to navigate the complex landscape of technology, ethics, and societal impact that AI presents.
+
+<div class="img-container">
+	<img
+		style="max-width: 100%;"
+		src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-07-23-PDT - AI seminar series in Seoul/infographic.png"
+	>
+</div>
