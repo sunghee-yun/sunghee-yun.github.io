@@ -2,6 +2,7 @@
 layout: single
 title: Music
 permalink: /music
+last_modified_at: Sat Jan  3 18:21:17 PST 2026
 toc: true
 toc_label: "ToC"
 toc_icon: "cog"
@@ -19,12 +20,12 @@ toc_sticky: true
 <li>
 	F. Seitz Violin Concerto No.5 3rd mvt. - Suzuki violin Vol. 4
 	&nbsp;
-	<a href="https://youtu.be/GVchomBEqVM?si=wcufXqSxP1gZ3-eB"><img style="width: 1.5em;" src="/assets/images/icons/icons8-youtube-color/icons8-youtube-48.svg"></a>
+	<a target="_blank" href="https://youtu.be/GVchomBEqVM?si=wcufXqSxP1gZ3-eB"><img style="width: 1.5em;" src="/assets/images/icons/icons8-youtube-color/icons8-youtube-48.svg"></a>
 </li>
 <li>
 	Suzuki - Violin School Vol. 4 - Piano Accompaniment
 	&nbsp;
-	<a href="/resource/music/scores/violin/Suzuki-Violin-School-Vol.-4-Piano-Accompaniment.pdf"><img style="width: 1.5em;" src="/assets/images/icons/icons8-music-book-ios-17-filled/icons8-music-book-100.png"></a>
+	<a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/music/scores/violin/Suzuki-Violin-School-Vol.-4-Piano-Accompaniment.pdf"><img style="width: 1.5em;" src="/assets/images/icons/icons8-music-book-ios-17-filled/icons8-music-book-100.png"></a>
 </li>
 </ul>
 

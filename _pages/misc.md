@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jan  3 12:29:06 PST 2026
+last_modified_at: Sat Jan  3 18:20:44 PST 2026
 ---
 
 <!--
@@ -157,10 +157,10 @@ last_modified_at: Sat Jan  3 12:29:06 PST 2026
 	<!--a href="https://maps.app.goo.gl/QwTTAmfiJHvhZcF26"><img border="0" src="/resource/favicons/icons8-google-maps-96.png" width=20 height=20></a-->
 	<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MHZocmliZzJ0czhnczlhc2puaGhiaXZxcDggc3VuZ2hlZS55dW5AbQ&amp;tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 	-
-	<a href="/resource/music/concert-tickets/2024_0929 - Chamber Music @ DSH sfsymphony.org_Cart_Confirmation.pdf">receipt</a>
-	<a href="/resource/music/concert-tickets/2024_0929 - SFS Chamber Music @ DSH - ticket.jpeg">ticket</a>
-	<a href="/resource/music/concert-tickets/2024_0929 - SFS Chamber Music @ DSH - parking.jpeg">parking</a>
-	<a href="/resource/music/concerts/Chamber Music.html">program</a>
+	<a href="https://sungheeyun-photos-01.github.io/resource/music/concert-tickets/2024_0929 - Chamber Music @ DSH sfsymphony.org_Cart_Confirmation.pdf">receipt</a>
+	<a href="https://sungheeyun-photos-01.github.io/resource/music/concert-tickets/2024_0929 - SFS Chamber Music @ DSH - ticket.jpeg">ticket</a>
+	<a href="https://sungheeyun-photos-01.github.io/resource/music/concert-tickets/2024_0929 - SFS Chamber Music @ DSH - parking.jpeg">parking</a>
+	<a href="https://sungheeyun-photos-01.github.io/resource/music/concerts/Chamber Music.html">program</a>
 </li>
 </ul>
 
