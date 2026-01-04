@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sat Jan  3 07:11:25 PST 2026
+last_modified_at: Sat Jan  3 17:03:33 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -137,7 +137,7 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
 
 <div class="img-container">
-<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
 </div>
 
 <figcaption>
@@ -192,7 +192,7 @@ Fellow들과
 수학 책을 넘기며 설레는 경험을 하는 사람이 세상에 몇이나 될까?
 
 <div class="img-container">
-<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
 </div>
 
 대학 진학 시 내가 가장 하고 싶었던 공부는 수학이였고 두번째는 물리학 그리고 세번째가 전자공학이었다.
@@ -369,7 +369,7 @@ CTO로서, 기술 리더로서, 나는 기술 비전을 제시하고 팀을 이�
 이렇게 비로소 난 내 인생 처음으로 내 삶의 진정한 그리고 온전한 주인이 되었다.
 
 <div class="img-container">
-<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
 </div>
 
 나는 이 소중한 기회를 놓칠세라 십분 활용하기 시작했다.
@@ -494,5 +494,5 @@ K-PAI라는 새로운 생태계를 창조하게 되었다.
 그리고 이것은 당신에게도, 우리 모두에게도 진실이다.
 
 <div class="img-container">
-<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
+	<img style="max-width: 80%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
 </div>
