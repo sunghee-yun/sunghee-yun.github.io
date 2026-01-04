@@ -1,7 +1,7 @@
 ---
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Thu Jan  1 08:52:04 PST 2026
+last_modified_at: Sat Jan  3 16:19:16 PST 2026
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -516,7 +516,8 @@ as to how to derive the recursion formula.
 For note that $$V_1(r) = 2r$$.
 
 <div class="img-container">
-<img src="/resource/math/hyper-volumes/circle/my-final-version.svg">
+	<!--img src="/resource/math/hyper-volumes/circle/my-final-version.svg"-->
+	<img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/hyper-volumes/circle/my-final-version.svg">
 </div>
 
 Then
