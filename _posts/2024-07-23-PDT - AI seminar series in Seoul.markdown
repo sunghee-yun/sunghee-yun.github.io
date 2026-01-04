@@ -1,7 +1,7 @@
 ---
 title: AI seminar series in Seoul - Jun &#12316; Jul in 2024
 date: Tue Jul 23 14:37:06 PDT 2024
-last_modified_at: Sun Oct  5 17:11:45 PDT 2025
+last_modified_at: Sun Jan  4 11:09:48 PST 2026
 categories:
  - blog
 tags:
@@ -10,7 +10,7 @@ tags:
  - seoul
  - AI
  - seminar
-toc: true
+toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
@@ -21,22 +21,66 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<!--
 # NotebookLM Podcasts
+-->
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-03.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-2" controls>
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-3" controls>
+<!--audio id="podcast-3" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 01</strong>
+			<span style="opacity: 0.8;">(08:48)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-03.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 02</strong>
+			<span style="opacity: 0.8;">(08:50)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Seoul AI Seminar Series - LLM and Generative AI Insights - 03</strong>
+			<span style="opacity: 0.8;">(08:58)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-3" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2024-07-23-PDT - AI seminar series in Seoul/NotebookLM/Seoul AI Seminar Series_ LLM and Generative AI Insights-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Reflections
 
@@ -52,7 +96,7 @@ where I could share my insight and learn a lot from Q&As with talented AI resear
 <!--figure style="display:table; margin:0 auto;"-->
 <div class="fig-container">
 <figure>
-	<img src="/resource/seminars/2024_0627 - Samsung Flash Memroy Team AI Seminar/photos/KakaoTalk_Photo_2024-06-27-21-46-51 003.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/seminars/2024_0627 - Samsung Flash Memroy Team AI Seminar/photos/KakaoTalk_Photo_2024-06-27-21-46-51 003-50-reduced.jpeg">
 	<figcaption>
 		Myself giving a talk in Future Hall at Samsung Semiconductor
 	</figcaption>
@@ -78,7 +122,7 @@ The Q&A sessions were particularly enlightening, with attendees raising thought-
 
 <div class="fig-container">
 <figure style="width:50ch;">
-	<img src="/resource/seminars/2024_0619 - Postech Seminar/photos/postech seminar.jpeg">
+	<img src="https://sungheeyun-photos-01.github.io/resource/seminars/2024_0619 - Postech Seminar/photos/postech seminar-50-reduced.jpeg">
 	<figcaption>
 		Myself giving a talk at Pohang University of Science and Technology (POSTECH)
 	</figcaption>
