@@ -2,7 +2,7 @@
 title: Bridging Technology and Humanity - Reflections from Lyon, Salzburg, and München
 permalink: /ai/bridging-technology-and-humanity
 date: 10-Dec-2024
-last_modified_at: Fri Jan  2 11:29:03 PST 2026
+last_modified_at: Sat Jan  3 19:55:02 PST 2026
 categories:
  - blog
  - AI
@@ -91,8 +91,8 @@ This intensive four-day engagement centered on the intersection of artificial in
 
 <div class="img-container-justified">
 &nbsp;
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4923.jpg">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4925.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4923.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4925.jpg">
 &nbsp;
 </div>
 <figcaption>
@@ -104,7 +104,7 @@ the iconic Basilica of Notre-Dame de Fourvière stands as a stunning backdrop ag
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4927.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4927.jpg">
 </div>
 <figcaption>
 From the bridge spanning the Saône River,
@@ -113,7 +113,7 @@ its golden spires rising above Lyon's skyline.
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4928.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4928.jpg">
 </div>
 <figcaption>
 Along the historic streets of Lyon, an épicerie fine (gourmet food shop) &lsquo;Quai des Oliviers&sdquo;
@@ -122,7 +122,7 @@ sits beneath classic Lyonnais architecture with its ornate wrought-iron balconie
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4944.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4944.jpg">
 </div>
 <figcaption>
 Standing on the Pont Lafayette in Lyon,
@@ -142,7 +142,7 @@ Historic moment of my time!
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4941.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4941.jpg">
 </div>
 <figcaption>
 The <a target="_blank" href="https://maps.app.goo.gl/2wmPMVBPGgSuSFyNA">Palais de la Bourse de Lyon</a>
@@ -155,7 +155,7 @@ Today, the building continues to be a landmark in Lyon's UNESCO World Heritage s
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4959.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4959.jpg">
 </div>
 <figcaption>
 The <a target="_blank" href="https://maps.app.goo.gl/qi9KTxV6cbJxrUCS7">Basilique Saint-Bonaventure de Lyon</a>,
@@ -183,14 +183,14 @@ I invite you to review
 
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4953.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4953.jpg">
 </div>
 <figcaption>
 Pioneering researchers and developers advancing homomorphic cryptography technology at CryptoLab Lyon Research Center
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_4936.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_4936.jpg">
 </div>
 <figcaption>
 A <a href="https://en.wikipedia.org/wiki/Bouchon">bouchon</a> is a type of restaurant found in Lyon, France,
@@ -263,7 +263,7 @@ The fellowship has established ongoing commitments, both online and in-person, t
 <a target="_blank" href="https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/"><img width="24" height="24" src="/assets/images/icons/icons8-flickr-color/icons8-flickr-48.svg"></a>)
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208197268_o.jpg">
 </div>
 <figcaption>
 KFAS-Salzburg Global Leadership Initiative Fellows
@@ -272,14 +272,14 @@ in front of
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208195658_o.jpg">
 </div>
 <figcaption>
 Lively discussion ensued as participants engaged in debates, sharing perspectives and insights across working groups on critical issues at hand.
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54207064392_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54207064392_o.jpg">
 </div>
 <figcaption>
 Animated discussions flowed beyond our scheduled time as participants eagerly shared insights and explored each other's perspectives,
@@ -287,7 +287,7 @@ sparking meaningful follow-up conversations.
 </figcaption>
 
 <!--div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208371395_o.jpg">
 </div-->
 
 
@@ -347,7 +347,7 @@ Each technological revolution brings legitimate challenges, yet humanity has con
 While these solutions may not be perfect, they represent our collective ability to harness innovation's benefits while mitigating its potential dangers.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198208_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198208_o.jpg">
 </div>
 <figcaption>
 Having internal discussions was one thing;
@@ -404,15 +404,15 @@ to catalyze systemic change in AI development and deployment practices.
 This ongoing engagement will enable continuous knowledge sharing and adaptive strategy refinement as AI technology evolves.
 
 <!--div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198288_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208198288_o.jpg">
 </div-->
 
 <!--div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208203839_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208203839_o.jpg">
 </div-->
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
 </div>
 <figcaption>
 Listening to Carolina lay out her proposals was truly intoxicating
@@ -421,7 +421,7 @@ hearing perspectives shaped by a lifetime of completely different experiences th
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
 </div>
 <figcaption>
 During our panel discussion, colleagues from different cultures and backgrounds engage in meaningful dialogue, exemplifying how diversity enriches our collaborative workspace at Salzburg Global Seminar.
@@ -476,7 +476,7 @@ it could neither matter nor diminish the magnificence of the moment.
 The sound filled the space with a grandeur I'd never experienced before, as if the very walls of Salzburg amplified its resonance.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/KakaoTalk_Photo_2025-01-07-19-18-38.jpeg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/KakaoTalk_Photo_2025-01-07-19-18-38.jpeg">
 </div>
 <figcaption>
 At <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">the majestic Schloss Leopoldskron</a>,
@@ -492,7 +492,7 @@ Standing where such remarkable creativity once flourished served as a powerful r
 particularly poignant in our current era as we navigate the relationship between artificial intelligence and human capability.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5350.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5350.jpg">
 </div>
 <figcaption>
 Mozarts Geburtshaus - the Historic Birthplace-turned-Museum of Wolfgang Amadeus Mozart
@@ -500,8 +500,8 @@ Mozarts Geburtshaus - the Historic Birthplace-turned-Museum of Wolfgang Amadeus 
 
 <div class="img-container-justified">
 &nbsp;
-<img width="40%" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5345.jpg">
-<img width="40%" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5382.jpg">
+<img width="40%" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5345.jpg">
+<img width="40%" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5382.jpg">
 &nbsp;
 </div>
 <figcaption>
@@ -511,7 +511,7 @@ where the great composer, virtuoso pianist, and writer was born on January 27, 1
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5354.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5354.jpg">
 </div>
 <figcaption>
 An artful wall illustration at Mozart's birthplace museum showcasing the Mozart family tree,
@@ -520,7 +520,7 @@ adorned with musical notes, a piano, antique clock, and vintage portraits
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5420.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5420.jpg">
 </div>
 <figcaption>
 A historic pianoforte on display at Mozart's birthplace museum,
@@ -553,10 +553,10 @@ Despite its terrifying appearance with sharp teeth and dark fur, the encounter t
 resulting in an unexpectedly joyful selfie that captured both the whimsy and the preservation of ancient traditions.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5141.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5141.jpg">
 </div>
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5233.JPG">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5233.JPG">
 </div>
 <figcaption>
 Meeting Krampus - an unexpected yet delightful encounter at München's St. Nicholas festivities - where ancient Alpine folklore comes with a smile!
@@ -565,7 +565,7 @@ Meeting Krampus - an unexpected yet delightful encounter at München's St. Nicho
 The Gothic splendor of München's Rathaus dominated the cityscape, its spires reaching into the winter sky like a medieval dream come true. Among the crowds at Marienplatz, I found myself immersed in the Christmas market's festive atmosphere, the ornate façade of the town hall serving as a magnificent backdrop. The Ukrainian flag draped alongside traditional decorations added a poignant touch of contemporary solidarity to this historic setting, while the famous Glockenspiel told its centuries-old stories above the bustling square.
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5480.jpg">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5480.jpg">
 </div>
 <figcaption>
 Amidst the holiday crowds at Marienplatz, München's stunning Rathaus towers above the Christmas market, its Gothic spires reaching into the winter sky.
@@ -578,8 +578,8 @@ These hearty Bavarian classics, enjoyed in the warm glow of historic establishme
 
 <div class="img-container-justified">
 &nbsp;
-<img style="max-width: 37.5%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5492.jpg">
-<img style="max-width: 50.0%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5501.JPG">
+<img style="max-width: 37.5%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5492.jpg">
+<img style="max-width: 50.0%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5501.JPG">
 &nbsp;
 </div>
 <figcaption>
@@ -587,7 +587,7 @@ A moment of pure Bavarian gemütlichkeit - two frothy HB Münchner steins agains
 </figcaption>
 
 <div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/IMG_5503.JPG">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/IMG_5503.JPG">
 </div>
 <figcaption>
 The quintessential Bavarian feast - a perfectly crispy <a href="https://en.wikipedia.org/wiki/Schweinshaxe">Schweinshaxe</a>
@@ -605,7 +605,7 @@ that successful AI technology requires
 a holistic approach that considers technical innovation, societal impacts, and human values in equal measure.
 
 <!--div class="img-container">
-<img src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/u1564158738_Human_human_and_humanPermalink_This_journey_under_58e63589-fa2b-481f-9edf-c139424f73f3_2.png">
+<img src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/u1564158738_Human_human_and_humanPermalink_This_journey_under_58e63589-fa2b-481f-9edf-c139424f73f3_2.png">
 </div-->
 
 <!--h1 id="footnote">Footnotes</h1-->

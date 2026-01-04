@@ -3,7 +3,7 @@ layout: single
 title: Recent Activities
 permalink: /recent-activities/
 date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sat Jan  3 15:32:00 PST 2026
+last_modified_at: Sat Jan  3 19:55:34 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -413,8 +413,8 @@ Learn more at [erudio.bio](https://www.erudio.bio/){:target="_blank"}
 -->
 
 <div style="margin-top: 1em;" class="img-container-justified">
-	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
-	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/photos/2024-12 Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o.jpg">
+	<img style="max-width: 49%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208370770_o.jpg">
 </div>
 
 As a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"},
