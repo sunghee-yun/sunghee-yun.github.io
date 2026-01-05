@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 date: 2024-09-30
-last_modified_at: Sun Jan  4 09:07:01 PST 2026
+last_modified_at: Mon Jan  5 02:09:38 PST 2026
 categories:
  - blog
  - Philosophy
@@ -354,51 +354,174 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	style="max-width: 90%;"
 	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__63_-_05f9a4f1-3f2c-4687-8677-940967b60470_1.png">
 
+<h2 id="64">제64장 - 보물輔物</h2>
+
+> 일이 생기기 전에 하고,<br>
+> 혼란이 오기 전에 다스려야 한다.<br>
+> 억지로 하려는 사람은 실패할 것이요,<br>
+> 집착하는 사람은 잃을 것이다.
+
+<div class="translation-container">
+<p>
+	其安易持
+	其未兆易謀
+	其脆易泮
+	其微易散
+<span class="chinese-korean-transliteration">
+	기안이지
+	기미조이모
+	기취이반
+	기미이산
+</span>
+<span class="chinese-korean-translation">
+	안정된 상태에 있을 때 유지하기 쉽고
+	<br>
+	아직 기미가 나타나기 전에 도모하기 쉽고
+	<br>
+	취약할 때 부서지기 쉽고
+	<br>
+	미세할 때 흩어지기 쉽다.
+</span>
+</p>
+
+<p>
+	爲之於未有
+	治之於未亂
+<span class="chinese-korean-transliteration">
+	위지어미유
+	치지어미란
+</span>
+<span class="chinese-korean-translation">
+	아직 일이 생기기 전에 처리하고
+	<br>
+	혼란해지기 전에 다스려야 한다.
+</span>
+</p>
+
+<p>
+	合抱之木
+	生於毫末
+	九層之臺
+	起於累土
+	千里之行
+	始於足下
+<span class="chinese-korean-transliteration">
+	합포지목
+	생어호말
+	구층지대
+	기어루토
+	천리지행
+	시어족하
+</span>
+<span class="chinese-korean-translation">
+	아름드리 나무도
+	<br>
+	털끝 같은 싹에서 나오고
+	<br>
+	구층 누대도
+	<br>
+	한 줌 흙이 쌓여 올라가고
+	<br>
+	천릿길도
+	<br>
+	발 밑에서 시작된다.
+</span>
+</p>
+
+<p>
+	爲者敗之
+	執者失之
+<span class="chinese-korean-transliteration">
+	위자패지
+	집자실지
+</span>
+<span class="chinese-korean-translation">
+	억지로 하는 자 실패하게 마련이고
+	<br>
+	집착하는 자 잃을 수 밖에 없다.
+</span>
+</p>
+
+<p>
+	是以聖人無爲故無敗
+	無執故無失
+<span class="chinese-korean-transliteration">
+	시이성인무위고무패
+	무집고무실
+</span>
+<span class="chinese-korean-translation">
+	따라서 성인은 하지 않음으로 실패하는 일이 없고,
+	<br>
+	집착하지 않음으로 잃는 일이 없다.
+</span>
+</p>
+
+<p>
+	民之從事
+	常於幾成而敗之
+<span class="chinese-korean-transliteration">
+	민지종사
+	상어기성이패지
+</span>
+<span class="chinese-korean-translation">
+	사람이 일을 하면
+	<br>
+	언제나 거의 성공할 즈음에 실패하고 만다.
+</span>
+</p>
+
+<p>
+	愼終如始
+	則無敗事
+<span class="chinese-korean-transliteration">
+	신종여시
+	즉무패사
+</span>
+<span class="chinese-korean-translation">
+	시작할 때처럼 마지막에도 신중하면
+	<br>
+	실패하는 일이 없을 것이다.
+</span>
+</p>
+
+<p>
+	是以聖人欲不欲
+	不貴難得之貨
+	學不學
+	復衆人之所過
+<span class="chinese-korean-transliteration">
+	시이성인욕불욕
+	불귀난득지화
+	학불학
+	복중인지소과
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 욕심을 없애려는 욕심만이 있고
+	<br>
+	귀하다고 하는 것을 귀히 여기지 않고
+	<br>
+	배우지 않음을 배우고
+	<br>
+	많은 사람이 지나쳐 버리는 것으로 돌아가는도다.
+</span>
+</p>
+
+<p>
+	以輔萬物之自然
+	而不敢爲
+<span class="chinese-korean-transliteration">
+	이보만물지자연
+	이불감위
+</span>
+<span class="chinese-korean-translation">
+	온갖 것의 본래적인 자연스러움을 도와 줄 뿐
+	<br>
+	억지로 하는 일을 하지 않는다.
+</span>
+</p>
+</div>
+
 <!--
-
-64. 輔物(보물)
-
-
-
-일이 생기기 전에 하고,
-
-혼란이 오기 전에 다스려야 한다.
-
-억지로 하려는 사람은 실패할 것이요,
-
-집착하는 사람은 잃을 것이다.
-
-
-
-其安易持(기안이지) : 안정된 상태에 있을 때 유지하기 쉽고
-其未兆易謀(기미조이모) : 아직 기미가 나타나기 전에 도모하기 쉽고
-其脆易泮(기취이반) : 취약할 때 부서지기 쉽고
-其微易散(기미이산) : 미세할 때 흩어지기 쉽다.
-爲之於未有(위지어미유) : 아직 일이 생기기 전에 처리하고
-治之於未亂(치지어미란) : 혼란해지기 전에 다스려야 한다.
-合抱之木(합포지목) : 아름드리 나무도
-生於毫末(생어호말) : 털끝 같은 싹에서 나오고
-九層之臺(구층지대) : 구층 누대도
-起於累土(기어루토) : 한 줌 흙이 쌓여 올라가고
-千里之行(천리지행) : 천릿길도
-始於足下(시어족하) : 발 밑에서 시작된다.
-爲者敗之(위자패지) : 억지로 하는 자 실패하게 마련이고
-執者失之(집자실지) : 집착하는 자 잃을 수 밖에 없다.
-是以聖人無爲故無敗(시이성인무위고무패) : 따라서 성인은 하지 않음으로 실패하는 일이 없고,
-無執故無失(무집고무실) : 집착하지 않음으로 잃는 일이 없다.
-民之從事(민지종사) : 사람이 일을 하면
-常於幾成而敗之(상어기성이패지) : 언제나 거의 성공할 즈음에 실패하고 만다.
-愼終如始(신종여시) : 시작할 때처럼 마지막에도 신중하면
-則無敗事(즉무패사) : 실패하는 일이 없을 것이다.
-是以聖人欲不欲(시이성인욕불욕) : 그러므로 성인은 욕심을 없애려는 욕심만이 있고
-不貴難得之貨(불귀난득지화) : 귀하다고 하는 것을 귀히 여기지 않고
-學不學(학불학) : 배우지 않음을 배우고
-復衆人之所過(복중인지소과) : 많은 사람이 지나쳐 버리는 것으로 돌아가는도다.
-以輔萬物之自然(이보만물지자연) : 온갖 것의 본래적인 자연스러움을 도와 줄 뿐
-而不敢爲(이불감위) : 억지로 하는 일을 하지 않는다.
-
-
-
 65. 玄德(현덕)
 
 
