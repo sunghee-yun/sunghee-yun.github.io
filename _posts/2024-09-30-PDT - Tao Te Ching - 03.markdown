@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 date: 2024-09-30
-last_modified_at: Mon Jan  5 02:09:38 PST 2026
+last_modified_at: Tue Jan  6 00:42:20 PST 2026
 categories:
  - blog
  - Philosophy
@@ -521,35 +521,114 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="65">제65장 - 현덕玄德</h2>
+
+> 안다는 사람은 인도받기 어렵나니,<br>
+> 모른다는 사람이라야 자기의 길을 찾게 할 수 있다.
+
+<div class="translation-container">
+<p>
+	古之善爲道者
+	非以明民
+	將以愚之
+<span class="chinese-korean-transliteration">
+	고지선위도자
+	비이명민
+	장이우지
+</span>
+<span class="chinese-korean-translation">
+	옛날 도를 잘 실천하던 사람은
+	<br>
+	사람을 총명하게 하려 하지 않고
+	<br>
+	오히려 어리석게 만들었다.
+</span>
+</p>
+
+<p>
+	民之難治
+	以其智多
+<span class="chinese-korean-transliteration">
+	민지난치
+	이기지다
+</span>
+<span class="chinese-korean-translation">
+	사람을 다스리기가 어려운 것은
+	<br>
+	아는 것이 많기 때문이다.
+</span>
+</p>
+
+<p>
+	故以智治國
+	國之賊
+	不以智治國
+	國之福
+<span class="chinese-korean-transliteration">
+	고이지치국
+	국지적
+	불이지치국
+	국지복
+</span>
+<span class="chinese-korean-translation">
+	그러므로 아는 것으로 나라를 다스리는 것은
+	<br>
+	나라에 해가 되고
+	<br>
+	앎이 없이 다스리는 것이
+	<br>
+	나라에 복이 된다.
+</span>
+</p>
+
+<p>
+	知此兩者亦稽式
+<span class="chinese-korean-transliteration">
+	지차량자역계식
+</span>
+<span class="chinese-korean-translation">
+	이 두 가지를 깨닫은 것이 하늘의 법도를 깨닫는 것이다.
+</span>
+</p>
+
+<p>
+	常知稽式
+	是謂玄德
+<span class="chinese-korean-transliteration">
+	상지계식
+	시위현덕
+</span>
+<span class="chinese-korean-translation">
+	언제나 하늘의 법도를 깨닫고 있음을
+	<br>
+	그윽한 덕이라 한다.
+</span>
+</p>
+
+<p>
+	玄德深矣
+	遠矣
+	與物反矣
+	然後乃至大順
+<span class="chinese-korean-transliteration">
+	현덕심의
+	원의
+	여물반의
+	연후내지대순
+</span>
+<span class="chinese-korean-translation">
+	그윽한 덕은 너무나도 깊고
+	<br>
+	멀어서
+	<br>
+	사물의 이치에 반하는 것 같지만,
+	<br>
+	결국 도를 크게 따름이다.
+</span>
+</p>
+</div>
+
 <!--
-65. 玄德(현덕)
-
-
-
-안다는 사람은 인도받기 어렵나니,
-
-모른다는 사람이라야 자기의 길을 찾게 할 수 있다.
-
-
-古之善爲道者(고지선위도자) : 옛날 도를 잘 실천하던 사람은
-非以明民(비이명민) : 사람을 총명하게 하려 하지 않고
-將以愚之(장이우지) : 오히려 어리석게 만들었다.
-民之難治(민지난치) : 사람을 다스리기가 어려운 것은
-以其智多(이기지다) : 아는 것이 많기 때문이다.
-故以智治國(고이지치국) : 그러므로 아는 것으로 나라를 다스리는 것은
-國之賊(국지적) : 나라에 해가 되고
-不以智治國(불이지치국) : 앎이 없이 다스리는 것이
-國之福(국지복) : 나라에 복이 된다.
-知此兩者亦稽式(지차량자역계식) : 이 두 가지를 깨닫은 것이 하늘의 법도를 깨닫는 것이다.
-常知稽式(상지계식) : 언제나 하늘의 법도를 깨닫고 있음을
-是謂玄德(시위현덕) : 그윽한 덕이라 한다.
-玄德深矣(현덕심의) : 그윽한 덕은 너무나도 깊고
-遠矣(원의) : 멀어서
-與物反矣(여물반의) : 사물의 이치에 반하는 것 같지만,
-然後乃至大順(연후내지대순) : 결국 도를 크게 따름이다.
-
-
-
 66. 江海(강해)
 
 
