@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Mon Jan  5 23:55:15 PST 2026
+last_modified_at: Tue Jan  6 09:31:46 PST 2026
 ---
 
 <!--
@@ -666,11 +666,13 @@ last_modified_at: Mon Jan  5 23:55:15 PST 2026
 
 <h4>Dec</h4>
 
+{% assign family_trip_blog = site.posts | where: "permalink", "/blog/PST-Family-Trip-to-NY-@-Dec-2024" | first %}
+
 <ul>
 <li>
 	Family Trip to New York - 6 nights
 	-
-	<a href="{{ site.baseurl }}{% post_url 2025-01-01-PST - Family Trip to NY @ Dec-2024 %}">My blog</a>
+	<a href="{{ family_trip_blog.url }}">My Blog - {{ family_trip_blog.title }}</a>
 	<ul>
 	<li>
 		25-Dec-2024 ~ 31-Dec-2024 PST

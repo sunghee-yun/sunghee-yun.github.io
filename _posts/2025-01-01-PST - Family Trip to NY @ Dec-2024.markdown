@@ -2,6 +2,7 @@
 title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
 last_modified_at: Sat Jan  3 21:25:22 PST 2026
+permalink: /blog/PST-Family-Trip-to-NY-@-Dec-2024
 categories:
  - blog
 tags:
