@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Tue Jan  6 11:13:29 PST 2026
+last_modified_at: Tue Jan  6 15:10:52 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -147,7 +147,8 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 역사적인
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">Schloss Leopoldskron</a>에서
 주최한 4박 5일간의 Forum,
-<a target="_blank" href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>에
+<!--a target="_blank" href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>에-->
+<a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>에
 <a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>로
 참석하여
 세계 곳곳에서 모인 EU, UN, Global big tech corporations, Academia 등 다양한 배경의

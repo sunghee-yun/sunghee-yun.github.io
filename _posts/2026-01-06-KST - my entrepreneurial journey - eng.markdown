@@ -1,7 +1,7 @@
 ---
 title: "[Gifted Education Magazine Contribution] My Entrepreneurial Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 11:13:37 PST 2026
+last_modified_at: Tue Jan  6 15:10:03 PST 2026
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
@@ -136,7 +136,8 @@ I am also the founding member and Leader of the [Silicon Valley Privacy-Preservi
 In December 2024,
 I attended a 5-day Forum at the historic
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">Schloss Leopoldskron</a>,
-<a target="_blank" href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,
+<!--a target="_blank" href="https://www.salzburgglobal.org/multi-year-series/kfas/pageId/11076">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,-->
+<a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">Uncertain Futures and Connections Reimagined: Connecting Technologies</a>,
 hosted by the 78-year-old nonprofit
 <a target="_blank" href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>
 as a
@@ -158,7 +159,12 @@ Looking back now, my brain seemed to refuse to simply memorize things it didn't 
 
 Finally, I seemed to have found where I belonged. An education that emphasized understanding over memorization, process over answers, "why" over results. My Friends (or rather Buddies) who loved mathematics and science, were full of curiosity, and enjoyed wrestling with a single problem all night. And (amazingly enthusiastic and empathetic) teachers who supported and guided all of this. There, my potential finally awakened. My true abilities, which had been suppressed until then, finally found an outlet. Not solving problems but creating them, not finding answers but creating new approaches, not learning but exploring.
 
-Particularly in mathematics, which I originally loved, I experienced a tremendous <span class="emph">cognitive leap</span>. Having done no advance learning, joining the Math Olympiad club was something I couldn't even dream of when I entered Seoul Science High School. But I was able to study, compete, and learn alongside talented and exceptional friends, freely honing my mathematical skills. I still vividly remember the many moments of discovering and being amazed by the potential within me. Above all else, mathematics was pure joy to me. I still remember the thrilling feeling of hoping that my solution in my head would be better than the solution on the next page as I turned the pages of a math book. How many people in the world experience this type of thrilling and excitement while turning the pages of a math book?
+Particularly in mathematics, which I originally loved, I experienced a tremendous <span class="emph">cognitive leap</span>. Having done no advance learning, joining the Math Olympiad club was something I couldn't even dream of when I entered Seoul Science High School.
+But the teacher leading the club asked me to join it at the end of the first semester,
+which felt like a dream come true.
+I was able to study, compete, and learn alongside talented and exceptional friends, freely honing my mathematical skills. I still vividly remember the many moments of discovering and being amazed by the potential within me. Above all else, mathematics was pure joy to me. I still remember the thrilling feeling of hoping that my solution in my head would be better than the solution on the next page as I turned the pages of a math book.
+How many people in the world experience this type of thrilling and excitement, such a feeling that we normally have when we fall in love with someone,
+while turning the pages of a math book?
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
@@ -168,31 +174,93 @@ When entering university, what I most wanted to study was mathematics, followed 
 
 # Studying Abroad – Decisions Under Uncertainty {#decision-under-uncertainty}
 
-During my senior year preparing to study abroad, I had a problem. I loved mathematics and was very interested in programming, and while I took courses in the mathematics and computer science departments that interested me while also receiving generally good grades in major required courses, I couldn't find a field I particularly wanted to pursue. Not all, but many of my peers had already identified their aptitudes and chosen their specific majors. But I couldn't figure out what I wanted to do. However, the most "hot" field globally at that time was digital communications. So when I wrote my Statement of Purpose while applying to six universities, I expressed my ambition to conduct research in digital communications. Looking back now, this was a choice lacking authenticity. But at that moment, I seemed to dimly know that I had to move forward even without clear passion, that sometimes I had to take a step even amid uncertainty. And paradoxically, this unclear start ultimately led me to the field I truly love.
+During my senior year preparing to study abroad, there was a problem.
+I loved mathematics and was very interested in programming,
+and while I took courses in the mathematics and computer science departments that interested me
+while also receiving generally good grades in the EE courses,
+I couldn't find a field I particularly wanted to pursue.
+Many of my peers (if not all) had already identified their fields of interest and chosen their specific majors. But I couldn't figure out what I wanted to do.
+
+The most popular field globally at that time was Digital Communications.
+So when I wrote my Statement of Purpose while applying to six universities,
+I expressed my ambition to conduct research in digital communications.
+Looking back now, this was a choice lacking authenticity.
+But looking back at that moment,
+I vaguely knew that I had to move forward even without clear passion
+and that sometimes I had to take a step even amid uncertainty.
+And ironically, this somewhat random start ultimately led me to the field I truly love.
 
 # Stanford – Destiny brought me to Stephen Boyd {#stephen-boyd}
 
-Digital communications is one of the fields in electrical engineering that uses the most mathematics. This is evident from the fact that Information Theory and Coding Theory form its core foundation. However, while taking digital communications classes at Stanford, I realized that even digital communications wasn't mathematical enough for me. What I wanted was deeper mathematical beauty, more fundamental principles. Then I met a professor who does mathematics in Stanford's Electrical Engineering department. [Prof. Stephen Boyd](https://web.stanford.edu/~boyd){:target="_blank"}! At that moment, everything became clear. One winter night in 1999, while doing homework for his [EE364: Convex Optimization](https://web.stanford.edu/class/ee364a/){:target="_blank"} class in my dormitory, as I worked through the problems, I realized: This is what I've been searching for my entire life! The point where mathematical rigor and engineering practicality perfectly meet! My heart raced, and I sent an email to the professor right then and there. The next day, I joined Boyd's lab. It was possible because I had just recently passed the Ph.D. Qualifying Examination. I became Boyd's first Korean student. And my doctoral dissertation title became "Convex Optimization for Digital Integrated Circuit Applications." The moment when my beloved mathematics and the semiconductor engineering I had learned came together as one!
+Digital communications is one of the fields in electrical engineering that uses mathematics the most.
+This can be easily seen from the fact that Information Theory and Coding Theory form its core foundations.
+However, while taking digital communications classes at Stanford, I realized that even digital communications wasn't mathematical enough for me.
+What I wanted was deeper mathematical beauty.
+Then I met [Prof. Stephen Boyd](https://web.stanford.edu/~boyd){:target="_blank"}! At that moment, everything became clear.
+
+One winter night in 1999, while solving homework problems for his class,
+[EE364: Convex Optimization](https://web.stanford.edu/class/ee364a/){:target="_blank"}, in my dormitory,
+I realized &ldquo;<span class="emph">This is what I've been searching for my entire life!</span>&rdquo;
+The point where mathematical rigor and engineering practicality perfectly meet!
+My heart raced, and I sent an email to Prof. Boyd right away.
+The next day, I joined Boyd's research group;
+it happened that I had just passed the Ph.D. Qualifying Examination.
+I was the very first Korean student that Prof. Boyd even accepted to his group.
+After 5 years, I received my Ph.D. with doctoral dissertation titled "Convex Optimization for Digital Integrated Circuit Applications."&mdash;It
+was the perfect marriage of mathematics and semiconductor engineering.
 
 # Samsung – Convert Theory to Practice {#samsung}
 
-In 2004, immediately after receiving my doctoral degree, I made a decision that surprised many people around me. I could have remained in academia with the halo of being a Stanford Ph.D. and a student of Professor Stephen Boyd. But I chose Samsung Electronics Semiconductor. I was asked countless times, "Why go to a company?" Many colleagues who studied alongside me knew all too well that I was skilled in theory and loved research and academics. But I had a clear reason. I wanted to apply the optimization theory I learned to actual semiconductor design and manufacturing processes. I wanted to see what happens when theory meets real-world problems.
+In 2004, immediately after receiving my doctoral degree, I made a decision that surprised everyone.
+I could have remained in academia the Stanford Ph.D. and the halo and reputation of being the first Korean student of Professor Stephen Boyd.
+But I chose Samsung Electronics Semiconductor.
+I was asked countless times, "Why industry, not academia?" Many colleagues who studied alongside me knew all too well that I was skilled in theory and loved research and academics.
+But I had a clear reason.
+I wanted to apply the optimization theory to practical applications of real-world semiconductor design and manufacturing processes.
+I wanted to see what happens when theory meets real-world problems.
 
-And so began my 12 years at Samsung Semiconductor, which I joined through the military service exemption program. There, I developed circuit design optimization tools, manufacturing process prediction systems, next-generation DRAM Cell Scheme optimization systems, and the general-purpose AI optimization platform 'iOpt'. Notably, iOpt is still used daily by numerous Samsung engineers for design optimization, process optimization, and other tasks. The most important lesson I learned during this period was that good technology is technology that is actually used. No matter how sophisticated an algorithm is, if field engineers can't use it, it's useless. Bridging the gap between theory and practice—that was the engineer's role and later what I would need to do as an entrepreneur.
+And so began my 12 years at Samsung Semiconductor, which I joined through the military service exemption program.
+There, I developed circuit design optimization tools, manufacturing process prediction systems, next-generation DRAM Cell Scheme optimization systems, and the general-purpose AI optimization platform &ldquo;iOpt&rdquo;.
+Notably, iOpt is still used daily by numerous Samsung engineers for design optimization, process optimization, and numerous other tasks.
+The most important lesson I learned during this period was that a good technology is the one that is actually used
+by people who make real difference in the world.
+They are field engineers in the factory, scientists in the lab, and sales and marketing representatives in the field!
+No matter how sophisticated an algorithm is, if field engineers can't use it, it's useless.
+Bridging the gap between theory and practice—that was the engineer's role and what I was destined to do as an entrepreneur later.
 
 # Amazon – Global Scale {#amazon}
 
-In 2017, after 12 years at Samsung, I headed to Amazon. Around that time, Silicon Valley was writing the future in a new language called AI. Reading books and articles, I was convinced—this wasn't just a technology trend but a paradigm transformation. To participate in this change, there was only one choice: go to the epicenter of the AI revolution, Silicon Valley! And so I crossed the Pacific again with my family. As a Senior Applied Scientist at Amazon, my mission was clear: use AI to improve customer experience and create substantial business value. Through one of my leading projects—Main Menu Personalization for the Amazon Mobile Shopping App—I combined deep learning and optimization techniques to generate over $200 million in annual revenue increase for Amazon.
+In 2017, I headed to Amazon.
+Around that time, Silicon Valley was writing the future using a new language called AI.
+Reading books and newspaper articles published in Silicon Valley,
+I was convinced—this wasn't just a technology trend but a <span class="emph">paradigm transformation</span>.
+To participate in this change, there was only one choice: go to the epicenter of the AI revolution, Silicon Valley!
+And so I crossed the Pacific Ocean once again, but this time, with my family.
+As a Senior Applied Scientist at Amazon, my mandate was clear &ndash; use AI to improve customer experience and create substantial business value.
+Through one of my leading projects—the Amazon Mobile Shopping App Main Menu Personalization—I combined deep learning and optimization to generate over $200 million in annual revenue increase for Amazon.
 
-The biggest lessons I learned at Amazon were speed and scale. In Silicon Valley, fast execution is more important than perfect solutions. And good ideas must be able to deliver immediate value to millions, tens of millions of users. But there was an even more important learning: what made speed and scale possible was corporate culture. This realization became a tremendous foundation for my later entrepreneurship and company management.
+The biggest lessons I learned at Amazon were speed and scale. In Silicon Valley, fast execution is more important than perfect solutions. And good ideas must be able to deliver immediate value to millions, billions of users.
+But there was an even more important learning &ndash; what made speed and scale possible was <span class="emph">corporate culture</span>.
+This realization became a tremendous foundation for my entrepreneurship and company management in later years.
 
 # Gauss Labs – My First Startup {#first-startup}
 
-In 2020, I finally entered the path of entrepreneurship. I co-founded Gauss Labs, an industrial AI startup spun off by SK Group, and took on the role of CTO and Global R&D Head. The decision to name the company Gauss Labs was no coincidence—it was the name of [that great mathematician my academic lineage reaches through Boyd](/#math-genealogy){:target="_blank"}. Gauss Labs was an industrial AI specialist company. Our mission was to solve complex manufacturing problems—defect prediction, process optimization, equipment maintenance—with AI.
+In 2020, I finally put my feet into the world of entrepreneurship.
+I co-founded Gauss Labs, an industrial AI startup spun off by SK Group, and took on the role of CTO and Global R&D Head.
+The decision to name the company Gauss Labs was no coincidence—it was the name of [that great mathematician my academic lineage reaches through Boyd](/#math-genealogy){:target="_blank"}.
+Gauss Labs was an industrial AI specialist company.
+Our mission was to solve complex manufacturing problems—defect prediction, process optimization, equipment maintenance—with AI.
 
-In the early startup days, the most difficult aspect was team building. Finding excellent engineers was important, but more crucial was gathering people who shared the same vision. I presented a clear vision: "Let's become a global top tier in the field of industrial AI." Another lesson learned was the importance of understanding customers' real problems. No matter how excellent our technology was, it was meaningless if it didn't solve problems customers actually faced. Going to the field, talking with manufacturing engineers, understanding their difficulties—that was the beginning of successful product development. As CTO, as a technology leader, I had to present technical vision and lead the team while also being involved in all aspects of the company, including business strategy, customer relations, and investment attraction. That was the entrepreneur's life.
+In the early startup days, the most difficult aspect was team building. Finding excellent engineers was important, but more crucial was gathering people who shared the same vision. I presented a clear vision: "Let's become a global top tier in the field of industrial AI." Another lesson learned was the importance of understanding customers' real problems. No matter how excellent our technology was, it was meaningless if it didn't solve problems customers actually faced. Going to the field, talking with manufacturing engineers, understanding their difficulties—that was the beginning of successful product development.
+As Global R&D Head, as a technology leader, I had to present technical vision and lead the team while also being involved in all aspects of the company, including business strategy, customer relations, and investment attraction. That was the entrepreneur's life.
 
-I had another challenge: operating the Silicon Valley U.S. office while finding and hiring exceptional talent that couldn't be found in Korea. At the same time, I had to be responsible for R&D at both the main Korean office and the U.S. office—multi-site operations. The difficulty brought great learning. As I realized later, during that time, my unique differentiated theoretical depth was merging with insights and business acumen built through the actual battlefield of industry, sublimating into integrated capabilities that penetrate both theory and practice.
+I had another challenge &ndash; operating the Silicon Valley U.S. office while finding and hiring exceptional talent that we couldn't find in Korea.
+At the same time, I had to be responsible for R&D at both the main Korean office and the U.S. office in Palo Alto—multi-site operations.
+The difficulty brought great learning.
+
+Looking back now,
+during that time, my unique differentiated theoretical depth was merging with insights and business acumen built
+through the actual battlefield of industry, sublimating into integrated capabilities that penetrate both theory and practice.
 
 # Erudio Bio – AI Revolution for Humanity {#ai-revolution-for-humanity}
 
