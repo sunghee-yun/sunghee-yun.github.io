@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Mon Jan  5 18:42:19 PST 2026
+last_modified_at: Mon Jan  5 19:00:47 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -491,7 +491,7 @@ K-PAI라는 새로운 생태계를 창조하게 되었다.
 성공이란 어떤 도착점에 이르는 것이 아니라, 긍정적 사고로 이웃을 생각하고 보편적 인류애를 품으며 끊임없이 노력하는 바로 지금 이 순간이라는 것을.
 따라서 나는 지금 이 순간도 성공하는 삶을 살고 있다.
 
-그리고 이것은 당신에게도, 우리 모두에게도 진실이다.
+그리고 이것은 당신에게도, 그리고 우리 모두에게 진실이다.
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
