@@ -1,7 +1,7 @@
 ---
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Mon Jan  5 19:00:47 PST 2026
+last_modified_at: Tue Jan  6 11:13:29 PST 2026
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -25,13 +25,13 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
 이 글은 [부산광역시교육청영재교육진흥원](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}에서 발행하는 [영재교육 매거진(BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
-[2025년 제17권 2호 (2026. 01. 02)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5){:target="_blank"}에
+[2025년 제17권 2호 (2026. 01. 02)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0){:target="_blank"}에
 실린 글입니다.
 {: .notice--warning}
 
 This article was published in the
 [Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
-[Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d9c6e15c3ff8311d36721a65645b9dfe5){:target="_blank"}
+[Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0){:target="_blank"}
 issued by the [Busan Metropolitan City Office of Education Gifted Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
@@ -130,10 +130,10 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 
 # 지금, 여기 {#here-and-now}
 
-나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/){:target="_blank"}의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 에루디오바이오코리아(Erudio Bio Korea)의 대표이사이다.
+나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/){:target="_blank"}의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 [에루디오바이오코리아(Erudio Bio Korea)](https://sungheeyun-erudio.github.io){:target="_blank"}의 대표이사이다.
 그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/){:target="_blank"}의 창립멤버이자 리더이다.
-그 외에도 74년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"}, 대한한의사협회 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다.
-그리고 올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다.
+그 외에도 78년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"}, [대한한의사협회](https://www.akom.org/English/Index){:target="_blank"} 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다.
+그리고 [올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다](/#sem){:target="_blank"}.
 그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
 
 <div class="img-container">
@@ -161,7 +161,7 @@ Fellow들과
 나는 내가 기억할 수 있는 어린 시절부터 수학을 좋아했다. 숫자들이 만들어내는 패턴, 문제를 푸는 과정의 논리적 아름다움—그것들이 내게는 놀이였다. 작게는 등하교 길에 내가 지나게 되는 계단의 개수의 패턴을 분석하기를 좋아하였고 국민학교 5학년 방학 때 탐구생활을 통해 처음 알게 된 완전수의 개념에 커다란 매력을 느끼곤 하였다. 또 한편으로는 우연히 다니게 된 동네 컴퓨터 학원에서 배운 Apple II 컴퓨터 상에서의 BASIC 언어에 소질을 보였고 5학년 때에는 구청대회에서 입상을 하여 서울시 대회 출전권을 따기도 하였다.
 
 나의 중학교 시절은 나름 평범하였다.
-그리고 사회, 지리, 역사 같은 암기 과목에는 소질이 없어 좋은 성적을 받기 위해서 꽤나 힘들게 노력했던 기억이 난다. 나는 단순히 사실을 기억하는 것보다, 패턴을 발견하고 연결하는 것에 더 관심이 있었던 것 같다. 한참 지난 나중에 역사 과목도 전체적인 흐름을 이해하고 패턴을 파악했다면 내게 좀 더 친숙하게 다가왔을지도 모르겠다는 걸 일본 여류 작가 시오노 나나미가 쓴 역작力作 로마인 이야기를 읽으면서 깨달았다. 그러나 어린 나이의 내가 그러한 과목들이 철저히 암기과목화 된 우리나라 교육 시스템 안에서 스스로 그런 사실을 깨닫는 것은 어려운 일이었을 것이다.
+그리고 사회, 지리, 역사 같은 암기 과목에는 소질이 없어 좋은 성적을 받기 위해서 꽤나 힘들게 노력했던 기억이 난다. 나는 단순히 사실을 기억하는 것보다, 패턴을 발견하고 연결하는 것에 더 관심이 있었던 것 같다. 한참 지난 나중에 역사 과목도 전체적인 흐름을 이해하고 패턴을 파악했다면 내게 좀 더 친숙하게 다가왔을지도 모르겠다는 걸 일본 여류 작가 [시오노 나나미](https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%98%A4%EB%85%B8_%EB%82%98%EB%82%98%EB%AF%B8){:target="_blank"}가 쓴 역작力作 로마인 이야기를 읽으면서 깨달았다. 그러나 어린 나이의 내가 그러한 과목들이 철저히 암기과목화 된 우리나라 교육 시스템 안에서 스스로 그런 사실을 깨닫는 것은 어려운 일이었을 것이다.
 
 지금 돌이켜보면, 나의 뇌는 이해가 되지 않는 것을 단순히 외우는 것을 거부했던 것 같다.
 이것은 빠른 시간 안에 성적을 올리는 데는 분명 불리했지만 일단 어떤 주제를 이해하고 나면
@@ -184,7 +184,7 @@ Fellow들과
 그동안 억눌려 있던 나의 진짜 능력이 드디어 출구를 찾았다.
 문제를 푸는 것이 아니라 문제를 만들고, 정답을 찾는 것이 아니라 새로운 접근법을 창조하고, 배우는 것이 아니라 탐구했다.
 
-특히나 내가 원래 좋아했던 수학 영역에서 나는 커다란 인지적 도약(Cognitive Leap)을 경험하였다.
+특히나 내가 원래 좋아했던 수학 영역에서 나는 커다란 <span class="emph">인지적 도약(Cognitive Leap)</span>을 경험하였다.
 선행학습을 전혀 하지 않았던 나로서는 서울과학고등학교를 입학할 당시에는 꿈도 꾸지 못했던 수학올림피아드 클럽에 들어가서 재능 있고 뛰어난 친구들과 같이 공부하고 겨루고 배우며 내 수학 실력을 마음껏 갈고 닦을 수가 있었다.
 내 안에 있었던 잠재력을 확인하고 놀라는 순간들이 한 두 번이 아니었던 기억이 아직도 생생하다.
 그 무엇보다 수학은 내게 즐거움 그 자체였다.
@@ -220,7 +220,7 @@ Fellow들과
 하지만 그 순간 나는 명확한 열정이 없어도 앞으로 나아가야 한다는 것을, 때로는 불확실성 속에서도 한 걸음을 내딛어야 한다는 것을 어렴풋이 알고 있었던 듯 하다.
 그리고 역설적이게도, 이렇게 명확하지 않은 출발이 결국 내가 진짜 사랑하는 분야로 나를 이끌었다.
 
-# 스탠포드 – 운명적 만남 {#stanford}
+# 스탠포드 – 운명적 만남 {#stephen-boyd}
 
 디지털통신은 전자공학 계열의 분야 중 가장 수학을 많이 쓰는 분야 중 하나이다.
 정보이론(Information Theory)과 코딩이론(Coding Theory) 등이 그 핵심 기반을 이루고 있는 것만 봐도 알 수 있다.
@@ -491,7 +491,7 @@ K-PAI라는 새로운 생태계를 창조하게 되었다.
 성공이란 어떤 도착점에 이르는 것이 아니라, 긍정적 사고로 이웃을 생각하고 보편적 인류애를 품으며 끊임없이 노력하는 바로 지금 이 순간이라는 것을.
 따라서 나는 지금 이 순간도 성공하는 삶을 살고 있다.
 
-그리고 이것은 당신에게도, 그리고 우리 모두에게 진실이다.
+그리고 이것은 당신에게도, 그리고 우리 모두에게 진실이다!
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
