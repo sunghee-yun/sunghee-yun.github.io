@@ -1,7 +1,7 @@
 ---
-title: "[Gifted Education Magazine Contribution] My Entrepreneurial Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
+title: "Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 15:10:03 PST 2026
+last_modified_at: Tue Jan  6 15:24:14 PST 2026
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
@@ -23,6 +23,15 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
+
+{% assign my_entrepreneurial_journey = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey" | first %}
+
+This article is an English translation of
+[my contribution](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0){:target="_blank"}
+to
+[Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"},
+the original draft of which can be found in [{{ my_entrepreneurial_journey.title }}]({{ my_entrepreneurial_journey.url }}){:target="_blank"}.
+{: .notice--success}
 
 This article was published in the
 [Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
