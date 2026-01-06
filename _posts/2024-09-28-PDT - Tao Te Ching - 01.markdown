@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (1~30)
 permalink: /tao-te-ching/01
 date: 2024-09-28
-last_modified_at: Fri Jan  2 11:20:22 PST 2026
+last_modified_at: Tue Jan  6 10:20:33 PST 2026
 categories:
  - blog
  - Philosophy
@@ -20,11 +20,55 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<h2>NotebookLM Podcasts</h2>
+<!--h2>NotebookLM Podcasts</h2-->
 
+<!--
 - [Beyond Doing - Unlocking Ancient Tao Te Ching Wisdom for Modern Life (16:30)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=37192493-a224-48f2-bf9d-e9d78c0ffcbf){:target="_blank"}
 - [Unlocking Ancient Wisdom - Tao Te Ching's Radical Path to Non-Action and Inner Peace (13:38)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=cacaf28b-6fc8-417e-a408-3300e09ac78c){:target="_blank"}
 - [The Tao of Now - Ancient Wisdom for Living in a Busy World (18:28)](https://notebooklm.google.com/notebook/739b9e92-67da-4236-8117-d55e68d4f324?artifactId=54e7fac7-8e7a-45e5-b88f-e5b14979445c){:target="_blank"}
+-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Beyond "Doing" - Unlocking Ancient Tao Te Ching Wisdom for Modern Life</strong>
+			<span style="opacity: 0.8;">(16:30)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-09-28-PDT - Tao Te Ching - 01/Beyond__Doing__Unlocking_Ancient_Tao_Te_Ching_Wisdom_for_Modern_Life.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Tao of Now: Ancient Wisdom for Living in a Busy World</strong>
+			<span style="opacity: 0.8;">(18:28)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-09-28-PDT - Tao Te Ching - 01/The_Tao_of_Now__Ancient_Wisdom_for_Living_in_a_Busy_World.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Unlocking Ancient Wisdom - Tao Te Ching's Radical Path to Non-Action and Inner Peace</strong>
+			<span style="opacity: 0.8;">(13:38)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2024-09-28-PDT - Tao Te Ching - 01/Unlocking_Ancient_Wisdom__Tao_Te_Ching_s_Radical_Path_to_Non-Action_and_Inner_Peace.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <h1 id="intro">
 	Intro
