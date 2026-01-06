@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 date: 2024-09-30
-last_modified_at: Tue Jan  6 00:42:20 PST 2026
+last_modified_at: Tue Jan  6 09:37:58 PST 2026
 categories:
  - blog
  - Philosophy
@@ -628,31 +628,86 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="66">제66장 - 강해江海</h2>
+
+> 모든 강물은 바다로 흐른다.<br>
+> 바다가 강보다 낮기 때문이다.
+
+<div class="translation-container">
+<p>
+	江海所以能爲百谷王者
+	以其善下之
+	故能爲百谷王
+<span class="chinese-korean-transliteration">
+	강해소이능위백곡왕자
+	이기선하지
+	고능위백곡왕
+</span>
+<span class="chinese-korean-translation">
+	강과 바다가 모든 골짜기의 왕이 될 수 있는 까닭은
+	<br>
+	스스로 낮추기를 잘했기 때문이요,
+	<br>
+	그래서 모든 골짜기의 왕이 되는 것이다.
+</span>
+</p>
+
+<p>
+	是以欲上民
+	必以言下之
+	欲先民
+	必以身後之
+<span class="chinese-korean-transliteration">
+	시이욕상민
+	필이언하지
+	욕선민
+	필이신후지
+</span>
+<span class="chinese-korean-translation">
+	백성 위에 있고자 하면
+	<br>
+	말을 스스로를 낮추어야 하고
+	<br>
+	백성 앞에 서고자 하면
+	<br>
+	스스로 몸을 뒤에 두어야 한다.
+</span>
+</p>
+
+<p>
+	是以聖人處上而民不重
+	處前而民不害
+	是以天下樂推而不厭
+<span class="chinese-korean-transliteration">
+	시이성인처상이민불중
+	처전이민불해
+	시이천하락추이불염
+</span>
+<span class="chinese-korean-translation">
+	그러므로 성인은 위에 있어도 백성이 그 무거움을 느끼지 못하고,
+	<br>
+	앞에 있어도 백성이 그를 해롭게 여기지 않는다.
+	<br>
+	그래서 세상 모든 사람이 그를 즐거이 받들고 싫어하지 않는다.
+</span>
+</p>
+
+<p>
+	以其不爭
+	故天下莫能與之爭
+<span class="chinese-korean-transliteration">
+	이기불쟁
+	고천하막능여지쟁
+</span>
+<span class="chinese-korean-translation">
+	누구와도 다투지 않기에
+	<br>
+	세상이 그와 더불어 겨루지 못한다.
+</span>
+</p>
+</div>
+
 <!--
-66. 江海(강해)
-
-
-
-모든 강물은 바다로 흐른다.
-
-바다가 강보다 낮기 때문이다.
-
-
-江海所以能爲百谷王者(강해소이능위백곡왕자) : 강과 바다가 모든 골짜기의 왕이 될 수 있는 까닭은
-以其善下之(이기선하지) : 스스로 낮추기를 잘했기 때문이요,
-故能爲百谷王(고능위백곡왕) : 그래서 모든 골짜기의 왕이 되는 것이다.
-是以欲上民(시이욕상민) : 백성 위에 있고자 하면
-必以言下之(필이언하지) : 말을 스스로를 낮추어야 하고
-欲先民(욕선민) : 백성 앞에 서고자 하면
-必以身後之(필이신후지) : 스스로 몸을 뒤에 두어야 한다.
-是以聖人處上而民不重(시이성인처상이민불중) : 그러므로 성인은 위에 있어도 백성이 그 무거움을 느끼지 못하고,
-處前而民不害(처전이민불해) : 앞에 있어도 백성이 그를 해롭게 여기지 않는다.
-是以天下樂推而不厭(시이천하락추이불염) : 그래서 세상 모든 사람이 그를 즐거이 받들고 싫어하지 않는다.
-以其不爭(이기불쟁) : 누구와도 다투지 않기에
-故天下莫能與之爭(고천하막능여지쟁) : 세상이 그와 더불어 겨루지 못한다.
-
-
-
 67. 三寶(삼보)
 
 
