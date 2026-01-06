@@ -465,6 +465,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 
 <ul>
 <li>
+	<a href="https://zdnet.co.kr/view/?no=20251216091956">AI, 추론 모델→행동도구로…'월드모델' 경쟁 불붙는다</a>
+	- ZDNET Korea
+	@ 22-Dec-2025 KST
+</li>
+<li>
 	<a href="https://www.mt.co.kr/tech/2025/10/30/2025103010110556846">생성형 AI 도입으로 잘나가더니 3만명 해고한 북미…국내는?</a>
 	- 머니투데이
 	@ 30-Oct-2025
@@ -1414,6 +1419,11 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 </ul>
 <h1 id="all-articles-in-reverse-chronological-order">All articles in reverse chronological order</h1>
 <ul>
+<li>
+	<a href="https://zdnet.co.kr/view/?no=20251216091956">AI, 추론 모델→행동도구로…'월드모델' 경쟁 불붙는다</a>
+	- ZDNET Korea
+	@ 22-Dec-2025 KST
+</li>
 <li>
 	<a href="https://www.newskorea.ne.kr/news/articleView.html?idxno=18397">[경기] 수원특례시, ‘AI-BioX 컨펙스 2025’에서 미래 바이오산업 비전 제시, 투자유치 성과</a>
 	- News Korea
