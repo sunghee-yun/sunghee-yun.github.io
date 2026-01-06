@@ -6,7 +6,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jan  3 18:54:39 PST 2026
+last_modified_at: Mon Jan  5 23:55:15 PST 2026
 ---
 
 <!--
@@ -27,23 +27,24 @@ last_modified_at: Sat Jan  3 18:54:39 PST 2026
 
 # AI talks to be arranged
 
-- contact 김경도 @ SK hynix CIS
-- contact [백형렬 교수 (sshs 13)](https://mathsci.kaist.ac.kr/~hrbaik/){:target="_blank"} @ KAIST 수리과학부
-- contact [강송희 교수 (sshs 10)](https://www.linkedin.com/in/songhee-kang-417a3a282/){:target="_blank"} @ 한국공학대학교
+- 김경도 @ SK hynix CIS
+- [백형렬 교수 (sshs 13)](https://mathsci.kaist.ac.kr/~hrbaik/){:target="_blank"} @ KAIST 수리과학부
+- [강송희 교수 (sshs 10)](https://www.linkedin.com/in/songhee-kang-417a3a282/){:target="_blank"} @ 한국공학대학교
 
 # Coffee chats to be arranged
 
-- ~~{CC} contact 이태주 for Boston biz trip in Jun-2025~~
-- ~~{CC} contact 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025~~
-- ~~{CC} contact 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025~~
-- ~~{CC} contact 김재영 for Korea biz trip in <s>Apr-2025</s> May-2025~~
-- ~~{CC} contact Sujin Kim for Korea biz trip in <s>Apr-2025</s> May-2025~~
-- <s>contact 유승오 for Korea biz trip in Apr-2025</s>
-- <s><font color="gray">contact 소희정 for Korea biz trip in Apr-2025</font></s>
-- <s><font color="gray">contact 윤명훈 for Korea biz trip in Apr-2025</font></s>
-- <s>contact 심병효 for Korea biz trip in Apr-2025</s>
-- <s>contact 정주연 for Korea biz trip in Apr-2025</s>
-- <s><font color="gray"> contact 이국녕 for Korea biz trip in Apr-2025</font></s>
+- [김태은](https://www.linkedin.com/in/taeeun-%E2%80%8Dkim-10480b283){:target="_blank"} for Korea biz trip in 2026
+- ~~{CC} 이태주 for Boston biz trip in Jun-2025~~
+- ~~{CC} 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} 김재영 for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- ~~{CC} Sujin Kim for Korea biz trip in <s>Apr-2025</s> May-2025~~
+- <s>유승오 for Korea biz trip in Apr-2025</s>
+- <s><font color="gray">소희정 for Korea biz trip in Apr-2025</font></s>
+- <s><font color="gray">윤명훈 for Korea biz trip in Apr-2025</font></s>
+- <s>심병효 for Korea biz trip in Apr-2025</s>
+- <s>정주연 for Korea biz trip in Apr-2025</s>
+- <s><font color="gray"> 이국녕 for Korea biz trip in Apr-2025</font></s>
 
 <!--
 # Candidate research discussions
