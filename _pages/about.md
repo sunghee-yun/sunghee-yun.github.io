@@ -2,7 +2,7 @@
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Sat Jan  3 14:01:00 PST 2026
+last_modified_at: Tue Jan  6 09:55:04 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -10,31 +10,33 @@ toc_sticky: true
 ---
 
 <a href="/">I</a> am
-Co-Founder &amp; CTO
-@ <a href="https://sungheeyun-erudio.github.io/">Erudio Bio, Inc., CA, USA</a>,
-Co-Founder &amp; CEO
-@ Erudio Bio Korea, Inc.,
-the Leader
-of <a href="https://k-privateai.github.io/">Silicon Valley Privacy Preserving AI Forum (K-PAI)</a>,
-Task Force Member of AI-Korean Medicine Integration Initiative Task Force (1st Term)
-@ <a href="https://www.akom.org/">The Association of Korean Medicine</a>,
-<a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
-@ <a href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
-<a href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
-@ <a href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
-<a href="https://ee.sogang.ac.kr/eng/employee/professor03.php">a Visiting Professor</a>
-of <a href="https://ee.sogang.ac.kr/eng/main/">Department of Electronic Engineering</a>
-@ <a href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
-<a href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
-of <a href="https://www.dgist.ac.kr/en_eecs/">Department of Electrical Engineering &amp; Computer Science (EECS)</a>
-@ <a href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+Co-founder &amp; CTO
+@ <a target="_blank" href="https://www.erudio.bio">Erudio Bio, Inc., CA, USA</a>,
+Co-founder &amp; CEO
+@ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>
+Leader
+of <a target="_blank" href="https://k-privateai.github.io">Silicon Valley Privacy-Preserving AI Forum (K-PAI)</a>,
+CGO / Global Managing Partner
+@ <a target="_blank" href="https://www.lulumedic.com/en/">LULUMEDIC</a>,
+<a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
+@ <a target="_blank" href="https://www.salzburgglobal.org/">Salzburg Global Seminar, Salzburg, Austria</a>,
+AI-Korean Medicine Integration Initiative Task Force Member
+@ <a target="_blank" href="https://www.akom.org/">The Association of Korean Medicine</a>,
+<a target="_blank" href="https://ee.sogang.ac.kr/eng/employee/professor03.php">an Visiting Professor</a>
+of <a target="_blank" href="https://ee.sogang.ac.kr/eng/main/">the Department of Electronic Engineering</a>
+@ <a target="_blank" href="https://www.sogang.ac.kr/en/home">Sogang University, Seoul, South Korea</a>,
+<a target="_blank" href="https://www.dgist.ac.kr/prog/peopleProfsr/en_eecs/sub02_01/list.do">an Advisory Professor</a>
+of <a target="_blank" href="https://www.dgist.ac.kr/en_eecs/">the Department of Electrical Engineering &amp; Computer Science (EECS)</a>
+@ <a target="_blank" href="https://www.dgist.ac.kr/">Daegu Gyeongbuk Institute of Science &amp; Technology (DGIST), South Korea</a>,
+<a target="_blank" href="https://bk4semicon.sogang.ac.kr/kor/about/org.php">Global Advisory Board Member</a>
+@ <a target="_blank" href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 Network Expert Consultant
-@ <a href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
+@ <a target="_blank" href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
 Chief Business Development Officer (CBDO)
-@ <a href="https://westory.ai/">WeStory.ai, CA, USA</a>,
+@ <a target="_blank" href="https://westory.ai/">WeStory.ai, CA, USA</a>,
 and
 Advisor
-@ <a href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>.
+@ <a target="_blank" href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>.
 
 Before founding the new AI biotech company,
 I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,
