@@ -1,7 +1,7 @@
 ---
 title: "Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 16:10:39 PST 2026
+last_modified_at: Tue Jan  6 17:46:59 PST 2026
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
@@ -388,63 +388,220 @@ In 2025 alone, [I delivered over 50 AI lectures and seminars](/#sem-2025){:targe
 > - [Humanity](/categories/#humanity){:target="_blank"}
 > - [Arts](/categories/#art){:target="_blank"}
 > - [Cognitive Science](/categories/#cognitive-science){:target="_blank"}
-> - [Universal Truth](/categories/#universal-truth){:target="_blank"}
 > - [Philosophy](/categories/#philosophy){:target="_blank"}
+> - [Universal Truth](/categories/#universal-truth){:target="_blank"}
 {: .notice--warning}
 
 # K-PAI – The Power of Connecting People {#k-pai-connecting-people}
 
-The biggest change in my life has been co-founding and becoming the Leader of the Silicon Valley Privacy Preserving AI Forum (K-PAI). It started as a simple AI technology forum. But in less than a year, K-PAI became the center of Silicon Valley's AI community. This was neither intended nor expected. I simply wanted to make this gathering meaningful—I aimed to cover comprehensive and holistic topics in artificial intelligence, invited excellent speakers, and earnestly fulfilled our role as a non-profit organization by providing special and differentiated networking opportunities.
+The biggest change in my life has been co-founding and becoming the Leader of the [Silicon Valley Privacy Preserving AI Forum (K-PAI)](https://k-privateai.github.io/){:target="_blank"}.
+It started as a small gathering.
+But in less than a year, K-PAI had positioned itself at the center of Silicon Valley's AI community,
+which was neither intended nor expected.
+I just tried my best to make it meaningful and helpful for people who came to our Forums—I
+tried to present and showcase comprehensive subjects and holistic aspects of artificial intelligence (AI),
+invited excellent speakers, and earnestly fulfilled our role as a non-profit organization by providing special and differentiated networking opportunities.
 
-Then, things we never even imagined happened within a year. [KOTRA Silicon Valley](https://www.connectkotrasv.org/){:target="_blank"} approached us first with a proposal for a perpetual partnership. Within months of the forum's inception, voluntary sponsors emerged, and all sponsors for the first half of 2026's six events have been secured. We've committed to co-hosting events with KOTRA Silicon Valley, [K-BioX](https://kbiox.net/){:target="_blank"}, [Korea AI & IC Innovation Center (K•ASIC)](https://www.kasicusa.com/){:target="_blank"}, [Korean American Bar Association of Northern California (KABANC)](https://kabanc.org/){:target="_blank"}, and the [Consulate General of the Republic of Korea in San Francisco](https://overseas.mofa.go.kr/us-sanfrancisco-en/index.do){:target="_blank"}. For a newly launched forum just over a year old, these are truly remarkable achievements. K-PAI has become a genuinely special and important gathering where leaders from diverse fields—technologists, entrepreneurs, investors, engineers, scientists, and journalists—participate. In Silicon Valley's Korean tech community today, when people think "AI," they think "K-PAI." I've become known as "the K-PAI Person."
+To my very surprise,
+things we had never even imagined would happen happened within a year!
+[KOTRA Silicon Valley](https://www.connectkotrasv.org/){:target="_blank"}
+proposed a perpetual partnership.
+Within months, we saw lots of voluntary sponsors;
+the sponsorships for all 6 Forums in the first half of 2026 have been secured already.
+We've committed to co-hosting events with KOTRA Silicon Valley, [K-BioX](https://kbiox.net/){:target="_blank"},
+[Korea AI & IC Innovation Center (K•ASIC)](https://www.kasicusa.com/){:target="_blank"},
+[Korean American Bar Association of Northern California (KABANC)](https://kabanc.com/){:target="_blank"},
+and
+the [Consulate General of the Republic of Korea in San Francisco](https://www.mofa.go.kr/us-sanfrancisco-en/index.do){:target="_blank"}.
+These are truly remarkable achievements for a newly launched forum just over a year old.
+K-PAI has become a truly special and important gathering where leaders gather from diverse fields—technologists, entrepreneurs, investors, engineers, scientists, and journalists.
 
-K-PAI's success is no accident. It demonstrates the power of genuine community. I didn't simply organize technical seminars—I created an ecosystem that connects people. AI researchers meet investors, entrepreneurs find engineers, and students connect with mentors. And everyone learns and grows together. K-PAI also focuses on practical value. It's not just about sharing the latest AI technology trends once a month. We discuss not only technology but also real business opportunities, hiring information, and partnership possibilities.
+In Silicon Valley's Korean community today, when people think of "AI," they think of "K-PAI."
+I've even become known as "the K-PAI Person."
 
-Through K-PAI, I discovered what I truly excel at. While technology is important, my real strength lies in connecting people and creating meaningful conversations. And though unintended, the network created through K-PAI has been tremendously helpful to my business, both directly and indirectly. Ironically, precisely because it wasn't intentional, the effect seems even more dramatic. Isn't this the essence of entrepreneurship? Not just creating products, but building ecosystems where people gather and create value.
+K-PAI's success is no accident.
+It demonstrates the power of a community built with honest passion and selflessness.
+I didn't simply organize technical seminars—I created an ecosystem that connects people.
+AI researchers meet investors, entrepreneurs find engineers, and students connect with mentors.
+And everyone learns and grows together.
+K-PAI also focuses on practical value.
+It's not just about sharing the latest AI technology trends once a month.
+We discuss not only technology but also real business opportunities, hiring information,
+and technical and strategic partnership possibilities.
 
-# To Gifted Students - What My Life Journey has Taught Me {#my-advice-for-gifted-students}
+Through K-PAI, I discovered yet another area where I truly excel.
+While technology is important,
+I also have a unique muscle and strength for connecting people and creating meaningful conversations.
+While totally unintended, the network created through K-PAI has been tremendously helpful to my business, both directly and indirectly.
+Ironically, the effect seems even more dramatic precisely because I never consciously intended it.
+
+Isn't this the essence of entrepreneurship, though?
+Not just creating products and services,
+but building ecosystems where people gather and create values together.
+
+# To Students and Young People - What My Life Journey has Taught Me {#my-advice-for-gifted-students}
 
 ## Connector Rather Than Expert {#connector-rather-than-expert}
 
-I am neither a mathematician, a scientist, a full-time engineer, nor a biologist. But I connect all these fields. I apply optimization theory to semiconductor design, AI to e-commerce, industrial AI to manufacturing, and now AI to life sciences. My strength lies not in the depth of a single field, but in using deep expertise in several fields as an anchor while freely crossing boundaries between multiple domains to integrate and synthesize them. In this process, I create economic value while contributing to a better future for humanity. Innovation in the coming world will occur at the boundaries between fields. The convergence of AI and life sciences, the combination of semiconductors and medical devices, the intersection of cryptography and privacy protection!
+I am neither a full-time mathematician nor a full-time scientist.
+I am neither a full-time engineer nor a full-time biologist.
+But I am all of it, and I <span class="emph">connect</span> all these fields.
+I apply optimization theory to semiconductor design,
+AI disciplines to e-commerce,
+industrial AI algorithms to manufacturing,
+and now the collective knowledge, experience, and know-how that I've cumulated over the past years on AI
+finally to the life sciences.
+
+My strength lies not only in the depth of fields of Convex Optimization and Artificial Intelligence (AI),
+but also in using these deep expertise in several fields as an anchor while freely crossing boundaries between multiple domains to integrate and synthesize them.
+In this process, I create economic value while contributing to a better future for Humanity.
+Innovations in the future will occur at the boundaries.
+Typical examples would be
+the convergence of AI and life sciences, the combination of semiconductors and medical devices,
+and the intersection of cryptography and privacy protection!
 
 ## Entrepreneurship is an Act of Creation {#entrepreneurship-as-creation}
 
-Many people think of entrepreneurship simply as a way to make money. But for me, entrepreneurship is an act of creation. When I founded Gauss Labs, I didn't just create a company—I defined a new field called industrial AI. Through Erudio Bio, I'm exploring new possibilities where AI meets life sciences. And I'm drawing a picture that **no one in the world has thought of and that no one will ever think of in any future**—using deep mathematical and theoretical foundations, practical experience accumulated in the field, and humanistic and social scientific knowledge and experience that are rare among engineers. While there are guidelines that every entrepreneur should read in books like Lean Startup and Zero to One, and there are industry conventions that are very helpful, I'm drawing my own unique picture by maximizing my imagination and capabilities based on them. And when I created K-PAI, I built a new form of Silicon Valley AI ecosystem. Academic research is also an act of creation, but entrepreneurship changes the world more directly. Your ideas become products or services, people use those products or services, and through them, people's lives change. Therefore, the entire process is creation that carries great responsibility.
+Many people think of entrepreneurship simply as a way to make money.
+But for me, entrepreneurship is an act of creation.
+When I founded Gauss Labs, I didn't just create a company—I defined a <span class="emph">new field called industrial AI</span>.
+Through Erudio Bio, I'm exploring new possibilities where AI meets life sciences.
+And most of all, I'm imagining and creating business models and market strategies
+that **<span style="color: red;">no one in the world has ever thought of or will ever do in any possible future</span>**—using deep mathematical and theoretical foundations,
+practical experience accumulated in the field,
+and my differentiated knowledge and experience in humanity subjects and social sciences.
 
-## Never Fear Failure (because there is not such a thing)! {#never-fear-failure}
+While there are guidelines that every entrepreneur should read in books like Lean Startup and Zero to One,
+and there are industry conventions that everyone follows,
+I'm creating my own unique business strategies
+by maximizing my own imagination and creativities.
+And through K-PAI, I built a new form of Silicon Valley AI ecosystem.
+Academic research is also an act of creation, but entrepreneurship changes the world in way larger scale.
+Your ideas become products or services, which change people's lives,
+the entire process of which carries great responsibility.
 
-One of the biggest misconceptions people have about me is that my life's journey must have been smooth. Of course, from the outside, it might appear that way. In high school, I frequently won awards at national competitions, including Math Olympiad medals. I ranked 15th nationwide on the college entrance exam, entered Seoul National University as second-place, graduated with honors, and went on to Stanford. I passed Stanford's notoriously difficult Ph.D. qualifying exam just a few months after starting my master's program and immediately joined Professor Stephen Boyd's lab as his first Korean student—a professor renowned as a genius even among Stanford faculty.
+## Never Fear Failure (because there is no such a thing)! {#never-fear-failure}
 
-But in reality, my life has been a continuous series of uncertainty and anguish. Throughout my studies and research in electrical engineering, I constantly wondered whether my major choice was appropriate as I found myself loving theory on one hand and being deeply immersed in programming on the other. I contemplated changing majors countless times. When I tried to get a job at Samsung Semiconductor after completing my Stanford Ph.D. (as part of the military service exemption program), many seniors advised against it, telling me to stay in the U.S. When I left Samsung, many people asked, "Why leave Korea's most stable top company?" Wasn't I afraid of abandoning 12 years of experience to pursue a new challenge? To be honest, I was scared. The same was true when I left Amazon to found Gauss Labs—giving up the stability of a global big tech giant to leap into the uncertainty of a startup. It could have failed. And again when I started Erudio Bio—completely changing fields from semiconductors and manufacturing to biotech. Many people were puzzled.
+One of the most common wrong ideas people have about me is
+that I would have never had agonizing moments throughout my life journey.
+It might very well have appeared that way.
+In high school, I won numerous awards at national competitions including Math Olympiad medals.
+I ranked the 15th nationwide on the Colleagues Scholastic Ability Test (CSAT),
+entered Seoul National University (SNU) with the second highest score on college entrance exam,
+graduated SNU with Honors,
+and went on to Stanford University for advanced degrees.
+I passed Stanford EE's notoriously difficult Ph.D. qualifying examination
+just a few months after starting my master's program
+with the highest ever score in Stanford Korean students' history,
+and immediately joined Professor Stephen Boyd's research group as his first Korean student—a professor renowned as a genius even among Stanford faculty.
 
-At each stage, there was uncertainty. I could have failed. But what mattered more to me than stability was doing meaningful work—moving in the direction my reason and heart pointed to after long contemplation. Because that's what made my heart race and gave me the energy to move forward.
+But in reality, my life has been a continuous series of uncertainty and anguish.
+I constantly wondered whether I should continue studying EE as my major
+because I found myself loving theory on one hand and being deeply immersed in programming on the other.
+I seriously thought of possibilities of changing my major countless times;
+most of the time, to mathematics.
+When I tried to get a job at Samsung Semiconductor after completing my Ph.D. (as part of the military service exemption program),
+many seniors advised against it,
+telling me to stay in the U.S.
+When I left Samsung, many people asked, "Why leave the best company in Korea with great job security?"
+Was I not afraid of leaving Samsung while getting such advice from so many of my colleagues?
+Honestly, I was scared.
+The same was true when I left Amazon to found Gauss Labs—giving
+up the stability of a global tech giant to leap into the uncertainty of a startup.
+And again when I started Erudio Bio—completely changing fields from semiconductors and manufacturing to biotech,
+many people around me were curious.
 
-These challenges taught me a truly precious lesson. Challenges aren't about getting what I want and desire at that moment. The real reason to take on challenges is that amazing gifts beyond my imagination at that time are waiting for me.
+Each time, I faced real uncertainty—things could have gone wrong.
+But what mattered most was pursuing meaningful work, moving in the direction that felt right after careful thought.
+That's what fueled my passion and kept me going.
 
-When I headed to Amazon to properly learn AI, the unexpected gifts waiting for me were fully absorbing Silicon Valley big tech's advanced culture into my bones, deeply learning the importance of scale in AI projects, and having the opportunity to learn numerous software development technologies beyond just AI. The same was true when I joined Gauss Labs. The business insights deeply dormant within me awakened, and by merging with my mathematical depth, theoretical understanding, and humanistic-social scientific knowledge, I reached a new level. The gifts waiting for me when I started Erudio Bio were even more surprising. I became the complete and genuine owner of my time—no, my life. I created a new ecosystem called K-PAI. The infinite world of possibilities where bio-medical fields and AI converge unfolded, and I actively network with numerous doctors, hospital officials, biotech academics, and investors, experiencing moments that stimulate my brain and bring me joy every day.
+These challenges taught me a really good lesson.
+Challenges aren't about getting what I want and desire at that moment.
+The real reason to take on challenges is
+that surprising gifts beyond my expectation always wait for me hidden.
+
+When I headed to Amazon for AI,
+the unexpected gifts waiting for me were
+me being able to fully absorb Silicon Valley big tech's advanced culture into my cores,
+learn the utmost importance of scale in AI projects,
+and have the opportunity to learn numerous software development skills.
+The same was true when I joined Gauss Labs.
+My potential business insights dormant within me awakened,
+and by combining my mathematical depth and theoretical understanding,
+I reached a new level in the field of entrepreneurship.
+The gifts waiting for me when I started Erudio Bio were even more striking.
+I became the genuine and true owner of my time, or rather, myself.
+I created a new ecosystem called K-PAI.
+The infinite possibilities where bio-medical fields and AI converge unfolded,
+and I actively network with numerous medical doctors,
+hospital officials,
+biotech professors,
+and investors while stimulating my brain with intellectual joy and new challenges.
 
 ## Value your Colleagues {#people-people-and-people}
 
-No matter how excellent the technology, you can't accomplish anything alone. Work at large corporations, entrepreneurship, and research are all team sports.
+Work at large corporations, entrepreneurship, and research are all team sports.
 
-At Gauss Labs, I created a vision with colleagues. At Erudio Bio, I collaborate with partners from Stanford, Harvard, and Analog Devices. At Erudio Bio Korea, I work with diverse business partners including Seoul National University Bundang Hospital, Daegu Keimyung University Dongsan Hospital, KAIST's Nanofab, Korea Research Institute of Bioscience and Biotechnology, and Lulumedic. At K-PAI, I build an ecosystem with hundreds of community members. Trusting colleagues, respecting partners, understanding customers—this is the key to success. And this isn't just a business strategy. It's a way of life. Relationships with people, community, trust—these are at the center of all my activities.
+At Gauss Labs, I created a vision with colleagues.
+At Erudio Bio, I collaborate with partners from Stanford Medicine, Harvard Medical School, and Analog Devices.
+At Erudio Bio Korea, I work with diverse business partners including
+Seoul National University Bundang Hospital (SNUBH),
+Daegu Keimyung University Dongsan Hospital,
+KAIST's Nanofab,
+Korea Research Institute of Bioscience and Biotechnology (KRIBB),
+and LULUMEDIC.
+At K-PAI,
+I build an ecosystem with hundreds of community members.
+Trusting colleagues, respecting partners, and understanding customers—this is the key to success.
+And this isn't just a business strategy.
+It's a way of life.
+Relationships with people, community, and trust—these are at the heart of all my activities.
 
-## Pursuing Greater Purpose (if you can)! {#bigger-purpose}
+## Pursuing Greater Purpose {#bigger-purpose}
 
-My ultimate goal isn't simply to create a successful company. My life's goal is to create a future where humanity thrives through health, safety, freedom, and equality. This is exactly why I started Erudio Bio. I want to use AI technology to diagnose cancer early and save more lives. Especially, I want to give hope to patients in low-income countries where medical services are difficult to access. That's why I'm realizing this goal with support from the Gates Foundation. The reason for creating K-PAI is in the same context. AI technology shouldn't benefit only a few experts or large corporations—it should be technology that everyone can access, understand, and utilize. That's why I share knowledge, connect people, and build community.
+My ultimate goal isn't to simply create a successful company.
+My life's goal is to create a future where humanity thrives through health, safety, freedom, and equality.
+This is why I started Erudio Bio.
+I want to use AI technology to diagnose cancer early and save more lives.
+I want to give hope to patients in low-income countries where medical services are hard to access.
+I'm realizing this goal with support from the Gates Foundation.
+I am seeing the same future with K-PAI.
+AI technology shouldn't benefit only a few experts or large corporations—it should be technology that everyone can access, understand, and utilize.
+That's why I share knowledge, connect people, and build community.
 
-Where will you use your talents? You must be able to answer the question: How will your work make the world a better place?
+Where will you use your talents? How will your work make the world a better place?
 
 # A Touch and Challenging, yet Exciting and Meaningful Life Journey of Mine! {#tough-but-meaningful-journey}
 
-My journey has been anything but smooth. Each choice was filled with uncertainty. From semiconductors to e-commerce, to industrial AI, and then to biotech. But looking back, all these processes were connected as one. Each experience was preparation for the next challenge. The manufacturing knowledge learned at Samsung led to Gauss Labs, the AI technology acquired at Amazon led to Erudio Bio, and the entrepreneurial experience gained at Gauss Labs led to K-PAI. And most importantly, I'm now spending the happiest days of my life.
+My life journey has been anything but smooth.
+Each choice was full of uncertainty and risks&mdash;at least from most people's perspective.
+From semiconductors to e-commerce, to industrial AI, and then to biotech.
+But looking back, all these journeys were connected as one.
+Each step was preparation for the next challenge.
+The manufacturing knowledge learned at Samsung led to Gauss Labs, the AI technology acquired at Amazon led to Erudio Bio, and the entrepreneurial experience gained at Gauss Labs led to K-PAI.
 
-With support from the Gates Foundation, I'm developing technology that can provide better quality of life to humanity. Through K-PAI, I share knowledge and opportunities with hundreds of people, and through [over 50 lectures and consultations in a year](/#sem){:target="_blank"}, I share my experiences with my contemporaries and the next generation.
+Most importantly, now I'm living the happiest moments of my life.
 
-This is the life I wanted. The very life I had not even known that would be possible or that I had wanted, but ultimately the very one I had always desired (consciously and unconsciously).
+With support from the Gates Foundation,
+we are developing technology that can provide better quality of life to Humanity.
+Through K-PAI, I share knowledge and opportunities with hundreds of people,
+and through [over 50 lectures and consultations in a year](/#sem){:target="_blank"},
+I share my experiences and insights with my contemporaries and the next generations.
 
-And finally, I realize this: as long as I continuously challenge myself, get back up even after failure, and most importantly, enjoy this process itself, there is no failure for me. Success isn't about reaching some destination, but this very moment of constantly striving with positive thinking, caring for neighbors, and embracing universal love for humanity. Therefore, I'm living a successful life at this very moment.
+<span class="emph">This is the very life I've always wanted.
+The life I had not even thought would be possible,
+and the life that I had not known that I wanted,
+but the very one I had always desired (consciously or subconsciously).</span>
+
+And finally, I realize this
+&ndash;
+as long as I continuously challenge myself,
+and most importantly, enjoy this process itself,
+nothing is failure.
+Success is not about reaching some point,
+but it is this very moment of constantly striving with positive attitude
+while caring for neighbors and embracing love for Humanity.
+Therefore, I'm living a successful life at this very moment.
 
 And this is True for you, and (hence) for all of us!
 
