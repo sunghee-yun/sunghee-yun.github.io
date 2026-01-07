@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Tue Jan  6 21:22:41 PST 2026
+last_modified_at: Wed Jan  7 11:33:44 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -521,6 +521,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 75%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_64_-_Permalink_________._________._________________0046f348-d6c9-4a06-94d9-de5ed697b7f6_2.png">
+
 <h2 id="65">제65장 - 현덕玄德</h2>
 
 > 안다는 사람은 인도받기 어렵나니,<br>
@@ -628,6 +632,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 75%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_65_-_Permalink____________.___________________.____ba6f2070-8536-492f-9ad0-9f8ce9c43714_3.png">
+
 <h2 id="66">제66장 - 강해江海</h2>
 
 > 모든 강물은 바다로 흐른다.<br>
@@ -673,7 +681,13 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	스스로 몸을 뒤에 두어야 한다.
 </span>
 </p>
+</div>
 
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_66_-_Permalink____.____._________________________._3ce1e204-b2eb-44a2-80ac-0cf795d597ed_1.png">
+
+<div class="translation-container">
 <p>
 	是以聖人處上而民不重
 	處前而民不害
@@ -707,42 +721,169 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_66_-_Permalink____.____._________________________._ececa9ee-0894-4a95-b8e7-43ba92fcfc16_2.png">
+
+<h2 id="67">제67장 - 삼보三寶</h2>
+
+> 자기 자신에게 자비로워야 세상의 모든 존재와 화해할 수 있고
+> <br>
+> 자신을 진정으로 사랑해야 세상의 모든 것을 사랑할 수 있다.
+
+<div class="translation-container">
+<p>
+	天下皆謂我道大
+	似不肖
+<span class="chinese-korean-transliteration">
+	천하개위아도대
+	사불초
+</span>
+<span class="chinese-korean-translation">
+	세상 모든 사람 이르기를 나의 도는 크지만
+	<br>
+	똑똑하지 못한 듯하다고 한다.
+</span>
+</p>
+
+<p>
+	夫唯大
+	故似不肖
+<span class="chinese-korean-transliteration">
+	부유대
+	고사불초
+</span>
+<span class="chinese-korean-translation">
+	크기 때문에
+	<br>
+	똑똑하지 못한 듯한 것이다.
+</span>
+</p>
+
+<p>
+	若肖久矣
+	其細也夫
+<span class="chinese-korean-transliteration">
+	약초구의
+	기세야부
+</span>
+<span class="chinese-korean-translation">
+	만약 똑똑했다면 오래전에
+	<br>
+	하찮은 것이 되고 말았을 것이다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_67_-_Permalink__________________.__________________cddad89d-84e1-446f-a8b0-85c7bd7bde3b_2.png">
+
+<div class="translation-container">
+<p>
+	我有三寶
+	持而保之
+	一曰慈
+	二曰儉
+	三曰不敢爲天下先
+<span class="chinese-korean-transliteration">
+	아유삼보
+	지이보지
+	일왈자
+	이왈검
+	삼왈불감위천하선
+</span>
+<span class="chinese-korean-translation">
+	내게 세 가지 보물이 있어
+	<br>
+	이를 지니고 보존한다.
+	<br>
+	첫째는 &lt;자애&gt;
+	<br>
+	둘째는 &lt;검약&gt;
+	<br>
+	셋째는 &lt;세상에 앞서려 하지 않음&gt;이다.
+</span>
+</p>
+
+<p>
+	慈故能勇
+	儉故能廣
+	不敢爲天下先
+	故能成器長
+<span class="chinese-korean-transliteration">
+	자고능용
+	검고능광
+	불감위천하선
+	고능성기장
+</span>
+<span class="chinese-korean-translation">
+	자애 때문에 용감해지고,
+	<br>
+	검약 때문에 널리 베풀 수 있으며,
+	<br>
+	세상에 앞서려 하지 않음 때문에
+	<br>
+	큰 그릇들의 으뜸이 될 수 있다.
+</span>
+</p>
+
+<p>
+	今舍慈且勇
+	舍儉且廣
+	舍後且先
+	死矣
+<span class="chinese-korean-transliteration">
+	금사자차용
+	사검차광
+	사후차선
+	사의
+</span>
+<span class="chinese-korean-translation">
+	이제 자애를 버린 채 용감하기만 하고
+	<br>
+	검약을 버린 채 베풀기만 하고
+	<br>
+	뒤에 서는 태도를 버린 채 앞서기만 한다면
+	<br>
+	이는 죽음의 길이다.
+</span>
+</p>
+
+<p>
+	夫慈以戰則勝
+	以守則固
+<span class="chinese-korean-transliteration">
+	부자이전즉승
+	이수즉고
+</span>
+<span class="chinese-korean-translation">
+	자애로 싸우면 이기고
+	<br>
+	자애로 방어하면 튼튼하다.
+</span>
+</p>
+
+<p>
+	天將救之
+	以慈衛之
+<span class="chinese-korean-transliteration">
+	천장구지
+	이자위지
+</span>
+<span class="chinese-korean-translation">
+	하늘도 사람들을 구하고자 하면
+	<br>
+	자애로 그들을 호위한다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_67_-_Permalink__________________.__________________d283cb15-a95f-4142-b1e3-9b1a38e57159_2.png">
+
 <!--
-67. 三寶(삼보)
-
-
-
-자기 자신에게 자비로워야 세상의 모든 존재와 화해할 수 있고
-
-자신을 진정으로 사랑해야 세상의 모든 것을 사랑할 수 있다.
-
-
-天下皆謂我道大(천하개위아도대) : 세상 모든 사람 이르기를 나의 도는 크지만
-似不肖(사불초) : 똑똑하지 못한 듯하다고 한다.
-夫唯大(부유대) : 크기 때문에
-故似不肖(고사불초) : 똑똑하지 못한 듯한 것이다.
-若肖久矣(약초구의) : 만약 똑똑했다면 오래전에
-其細也夫(기세야부) : 하찮은 것이 되고 말았을 것이다.
-我有三寶(아유삼보) : 내게 세 가지 보물이 있어
-持而保之(지이보지) : 이를 지니고 보존한다.
-一曰慈(일왈자) : 첫째는 <자애>
-二曰儉(이왈검) : 둘째는 <검약>
-三曰不敢爲天下先(삼왈불감위천하선) : 셋째는 <세상에 앞서려 하지 않음>이다.
-慈故能勇(자고능용) : 자애 때문에 용감해지고,
-儉故能廣(검고능광) : 검약 때문에 널리 베풀 수 있으며,
-不敢爲天下先(불감위천하선) : 세상에 앞서려 하지 않음 때문에
-故能成器長(고능성기장) : 큰 그릇들의 으뜸이 될 수 있다,
-今舍慈且勇(금사자차용) : 이제 자애를 버린 채 용감하기만 하고
-舍儉且廣(사검차광) : 검약을 버린 채 베풀기만 하고
-舍後且先(사후차선) : 뒤에 서는 태도를 버린 채 앞서기만 한다면
-死矣(사의) : 이는 죽음의 길이다.
-夫慈以戰則勝(부자이전즉승) : 자애로 싸우면 이기고
-以守則固(이수즉고) : 자애로 방어하면 튼튼하다.
-天將救之(천장구지) : 하늘도 사람들을 구하고자 하면
-以慈衛之(이자위지) : 자애로 그들을 호위한다.
-
-
-
 68. 不爭(부쟁)
 
 
