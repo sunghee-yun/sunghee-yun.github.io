@@ -1,8 +1,8 @@
 ---
+date: 2024-09-29
+last_modified_at: Tue Jan  6 21:23:33 PST 2026
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
-date: 2024-09-29
-last_modified_at: Fri Jan  2 11:20:22 PST 2026
 categories:
  - blog
  - Philosophy
@@ -21,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 <h1 id="highlight">
-	Key phrases highlighted by me
+	Key Phrases highlighted by Me
 </h1>
 
 <div class="text-highlight">
@@ -209,7 +209,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </div-->
 
 <h1 id="main-text">
-	Main text
+	Main Texts
 </h1>
 
 <h2 id="31">

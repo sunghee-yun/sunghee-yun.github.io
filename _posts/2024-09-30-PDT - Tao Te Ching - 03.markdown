@@ -1,8 +1,8 @@
 ---
+date: 2024-09-30
+last_modified_at: Tue Jan  6 21:22:41 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
-date: 2024-09-30
-last_modified_at: Tue Jan  6 09:37:58 PST 2026
 categories:
  - blog
  - Philosophy
@@ -21,7 +21,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 <h1 id="main-text">
-	Main text
+	Main Texts
 </h1>
 
 <h2 id="61">제61장 - 위하爲下</h2>
