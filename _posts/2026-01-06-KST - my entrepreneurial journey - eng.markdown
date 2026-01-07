@@ -1,7 +1,7 @@
 ---
-title: "My Entrepreneurial Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 18:08:09 PST 2026
+last_modified_at: Tue Jan  6 18:11:26 PST 2026
+title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
