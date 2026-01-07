@@ -1,7 +1,7 @@
 ---
-title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Tue Jan  6 17:07:11 PST 2026
+last_modified_at: Tue Jan  6 18:41:25 PST 2026
+title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
  - blog
@@ -36,7 +36,7 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 {: .notice--warning}
 
 <div class="img-container-justified">
-	<div id="podcast-seminars-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+	<div id="podcast-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Connecting Dots - Sunghee_Yun</strong>
 			<span style="opacity: 0.8;">(08:01)</span>
@@ -48,7 +48,7 @@ issued by the [Busan Metropolitan City Office of Education Gifted Education Prom
 			</video>
 		</div>
 	</div>
-	<div id="podcast-podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
+	<div id="podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Math to Life Science</strong>
 			<span style="opacity: 0.8;">(02:09)</span>
