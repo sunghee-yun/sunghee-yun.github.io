@@ -1,6 +1,6 @@
 ---
 date: 2024-09-29
-last_modified_at: Tue Jan  6 21:23:33 PST 2026
+last_modified_at: Wed Jan  7 12:43:50 PST 2026
 title: Tao Te Ching - 도덕경道德經 (31~60)
 permalink: /tao-te-ching/02
 categories:
@@ -2294,6 +2294,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_48_-__Permalink____._______________.____________.__3c6c6e59-b77a-4ac6-9ff9-3e7a7bd44fee_1.png">
+
 <h2 id="49">
 	제49장
 	-
@@ -2382,6 +2386,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_49_-__Permalink___________._____________.__________ec9e25aa-5226-4ae1-b77c-de849f923f32_2.png">
 
 <h2 id="50">제50장 - 생사生死</h2>
 
@@ -2492,6 +2500,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_50_-_Permalink____.______._______._________________385fbdd3-9402-4db0-bbab-bcadf7181d94_2.png">
 
 <h2 id="51">제51장 - 종귀尊貴</h2>
 
@@ -2616,6 +2628,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_51_-_Permalink________.________________________.___1b813b17-06ba-47ba-83ca-11f9ccaa0c73_1.png">
 
 <h2 id="52">제52장 - 수모守母</h2>
 
@@ -2739,6 +2754,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_52_-_Permalink________.____________._______________c897fc95-6d21-4450-9b4a-e845a195c4a8_3.png">
 
 <h2 id="53">제53장 - 대도大道</h2>
 
@@ -2832,6 +2850,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_53_-_Permalink___________._________________._______22797b94-61c0-49bd-960b-c7c010ff2289_0.png">
 
 <h2 id="54">제54장 - 선건善建</h2>
 
@@ -2948,6 +2970,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_54_-_Permalink_______.__________________________.__608356af-0c1f-4f25-90b0-56645bfcdc34_3.png">
 
 <h2 id="55">제55장 - 함덕含德</h2>
 
@@ -3071,6 +3097,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_55_-_Permalink______.__________.___________________d4e09100-31c6-42f7-8320-115f76f11671_1.png">
+
 <h2 id="56">제56장 - 도귀道貴</h2>
 
 > 아는 사람은 말이 없고<br>
@@ -3191,6 +3221,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_56_-_Permalink________._________.____________._____727e52dd-892f-45d4-8657-f4072a3347b1_2.png">
 
 <h2 id="57">제57장 - 치국治國</h2>
 
@@ -3313,6 +3347,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_57_-_Permalink_________._________________._________4f2eaacd-ba7f-4014-bd49-aaf9fee94fa5_3.png">
+
 <h2 id="58">제58장 - 찰정察政</h2>
 
 > 복만 추구하지 말라.<br>
@@ -3427,6 +3465,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_58_-_Permalink___.________._________________.______65d22a0a-db45-433b-b4ba-13b45134a7ce_2.png">
+
 <h2 id="59">제59장 - 장생長生</h2>
 
 > 그대가 처한 현실의 어머니를 모시면 영원할 것이다.
@@ -3534,6 +3576,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </span>
 </p>
 </div>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_59_-_Permalink_______.____________.__________._____dd07e36d-7877-4e33-9a2d-95e15dfbdaf5_2.png">
 
 <h2 id="60">제60장 - 치대국治大國</h2>
 
@@ -3652,3 +3698,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	</a>
 </li-->
 </ul>
+
+<img
+	style="max-width: 90%"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_60_-_Permalink________________.___________.________273f29a6-bd5e-45da-9e39-96daa46add00_3.png">
