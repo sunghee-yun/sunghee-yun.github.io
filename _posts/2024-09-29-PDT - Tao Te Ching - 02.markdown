@@ -3063,8 +3063,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 <p>
 	不道早已
 <span class="chinese-korean-transliteration">
-</span>
 	불도조이
+</span>
 <span class="chinese-korean-translation">
 	도가 아닌 것은 얼마 가지 않아 끝장이 난다.
 </span>
@@ -3309,14 +3309,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	내가 일을 꾸미지 않으므로 백성이 저절로 부유하게 되고
 	<br>
 	내가 욕심을 내지 않으므로 백성이 저절로 소박한 통나무가 된다.&gt;
-</span>
-</p>
-
-<p>
-<span class="chinese-korean-transliteration">
-</span>
-<span class="chinese-korean-translation">
-	<br>
 </span>
 </p>
 </div>
