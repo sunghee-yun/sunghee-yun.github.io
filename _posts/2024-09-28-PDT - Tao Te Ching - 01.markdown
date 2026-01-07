@@ -2,7 +2,7 @@
 title: Tao Te Ching - 도덕경道德經 (1~30)
 permalink: /tao-te-ching/01
 date: 2024-09-28
-last_modified_at: Tue Jan  6 10:20:33 PST 2026
+last_modified_at: Tue Jan  6 21:06:27 PST 2026
 categories:
  - blog
  - Philosophy
@@ -70,9 +70,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	</div>
 </div>
 
-<h1 id="intro">
+<!--h1 id="intro">
 	Intro
-</h1>
+</h1-->
+
+# Understanding the Tao Te Ching - Path, Practice, and Paradox
 
 도덕경道德經(중국어 간체자: 道德经, 중국어 병음: dàodéjīng, 영어: Tao Te Ching)은
 노자老子가 지은 것으로 알려진 도가의 대표적인 경전으로
