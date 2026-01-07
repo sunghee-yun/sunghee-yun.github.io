@@ -1,7 +1,7 @@
 ---
 title: "Journey - From Mathematics to Life Sciences, A Journey of Transforming Giftedness into Entrepreneurship"
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 15:24:14 PST 2026
+last_modified_at: Tue Jan  6 16:10:39 PST 2026
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
@@ -273,32 +273,116 @@ through the actual battlefield of industry, sublimating into integrated capabili
 
 # Erudio Bio – AI Revolution for Humanity {#ai-revolution-for-humanity}
 
-In 2023, I embarked on a new challenge: co-founding [Erudio Bio](https://www.erudio.bio/){:target="_blank"}, an artificial intelligence-biotech company. Many people asked, "Why suddenly biotech from semiconductors and manufacturing?" But I had clear reasons. The pharmaceutical industry faces a serious problem: over 90% of new drug development fails in clinical trials. Because drug-human body interactions are too complex to be sufficiently validated in early stages. Billions of dollars and over 10 years are invested, yet failure occurs. This isn't simply a money problem. It's a problem of patients suffering without treatment during that time. If this problem could be solved with AI? It would be far more meaningful than reducing semiconductor defect rates by 1%. It could save millions of lives.
+In 2023, I embarked on a new challenge: co-founding [Erudio Bio](https://www.erudio.bio/){:target="_blank"}, an AI-biotech company.
+Many people asked, "Why suddenly switch to biotech from semiconductors and manufacturing?"
+I had clear reasons.
+The pharmaceutical industry faces a serious problem &ndash; over 90% of new drug development fails in clinical trials.
+Because human body-drug interactions are too complex to be sufficiently validated in early stages,
+billions of dollars and over 10 years are invested, yet failure occurs.
+This isn't simply a money problem.
+It's a problem of patients suffering without treatment during that time.
+If this problem could be solved with AI? It would be far more meaningful than reducing semiconductor defect rates by 1%,
+*i.e.*, it could save millions of lives.
 
-Yet in a sense, this wasn't a change of fields. While my Stanford EE department co-founder, who double-majored in EE and biochemistry, took on the life sciences portion, I continued to utilize my strengths—AI and optimization technology—that I had commonly demonstrated in semiconductors, manufacturing, and e-commerce. Whether it was the optimization algorithm that improved wafer yields at Samsung Semiconductor or the recommendation system that increased sales at Amazon, the essence was the same: finding patterns in complex systems and finding optimal points among countless variables. It's just that the system changed from transistors to proteins, from process parameters to biomolecules. Ultimately, the tools were the same. Only the target of their application changed from silicon chips to life. And that change felt like natural evolution to me. Perhaps it was inevitable expansion. And that change wasn't unfamiliar to me. As if I had been preparing for it long ago.
+In a sense, this wasn't a change of fields.
+While my Stanford alum co-founder, who double-majored in EE and biochemistry, took on the life sciences,
+I continued to utilize my strengths—AI and optimization—that I had commonly demonstrated
+in semiconductors, manufacturing, and e-commerce.
+Whether it was the optimization algorithm that improved wafer yields at Samsung Semiconductor or the recommendation system that increased sales at Amazon,
+the essence was the same &ndash; finding patterns in complex systems and finding optimal points among countless variables.
+It's just that the system changed from transistors to proteins, from process parameters to biomolecules;
+the tools were the same,
+but the target of their application changed from silicon chips to life.
+And that change felt like natural evolution to me.
+Perhaps it was inevitable expansion;
+it was as if I had been preparing for it long ago.
 
-Erudio Bio's core technology is bioTCAD (biological Technology Computer-Aided Design), applying the TCAD concept used in the semiconductor industry to life sciences. We use high-quality molecular interaction data measured by Dynamic Force Spectroscopy to make preclinical drug design more reliable and faster. By reducing drug development costs and shortening development periods, Low- and Middle-Income Countries (LMICs) that desperately need new low-cost treatments can benefit. Our other innovation is [VSA (Versatile Smart Assay) technology](https://sungheeyun-erudio.github.io/technology/){:target="_blank"}, a platform that can accurately detect multiple biomarkers simultaneously. It can significantly improve early cancer diagnosis accuracy by solving the key limitations of existing multiplexed diagnostics: cross-reactivity and false-positive problems.
+[Erudio Bio](https://www.erudio.bio/){:target="_blank"}'s core technology is bioTCAD (biological Technology Computer-Aided Design),
+applying the TCAD concept used in the semiconductor industry to life sciences.
+We use high-quality molecular interaction data measured by Dynamic Force Spectroscopy to make preclinical drug design more reliable and faster.
+By reducing drug development costs and shortening development periods, Low- and Middle-Income Countries (LMICs) that desperately need new low-cost treatments can benefit.
+Our other innovation is [VSA (Versatile Smart Assay) technology](https://sungheeyun-erudio.github.io/technology/){:target="_blank"}, a platform that can accurately detect multiple biomarkers simultaneously.
+It can significantly improve early cancer diagnosis accuracy by solving the key limitations of existing multiplexed diagnostics
+&ndash; cross-reactivity and false-positive problems.
 
-In 2025, we [received a million-dollar research grant from the Gates Foundation](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}. This recognition of our technology's potential to solve global health problems. Particularly, providing affordable and accurate diagnostic and treatment tools to patients in low-income countries and universal humanity—this is our ultimate goal. We also established partnerships with world-class institutions including Stanford Medicine, Harvard Medical School, and Analog Devices. These partnerships are no accident. They're the result of combining the experience my co-founder and I built in semiconductors, the AI technology learned at Amazon, and the industrial AI know-how acquired at Gauss Labs.
+In 2025, we [received a million-dollar research grant from the Gates Foundation](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}.
+This recognition of our technology's potential to solve global health problems.
+Particularly, providing affordable and accurate diagnostic and treatment tools to patients in low-income countries and humanity—this is our ultimate goal.
+We also established partnerships with world-class institutions including
+[Stanford Medicine](https://med.stanford.edu/){:target="_blank"},
+[Harvard Medical School](https://hms.harvard.edu/){:target="_blank"},
+and
+[Analog Devices](https://www.analog.com/){:target="_blank"}.
+These partnerships are no accident.
+They're the result of combining the experience my co-founder and I built in semiconductors, the AI technology learned at Amazon, and the industrial AI know-how acquired at Gauss Labs.
 
-In July 2025, I established the Korean subsidiary Erudio Bio Korea and took on the role of CEO. We're developing Korea-specific cancer diagnosis solutions in collaboration with Seoul National University Bundang Hospital. The goal is to create customized diagnostic tools reflecting Korean genetic and environmental characteristics. Institutional Review Board (IRB) approval procedures are underway, with the goal of completing approval within the year. We're also conducting similar collaborations with the Department of Laboratory Medicine at Keimyung University Dongsan Hospital in Daegu. From semiconductors to e-commerce, industrial AI, and now life sciences—superficially, they're completely different fields. But for me, there's one consistent flow: using the tools of AI and optimization to solve people's real problems.
+In July 2025,
+I established the Korean subsidiary of [Erudio Bio](https://www.erudio.bio/){:target="_blank"},
+[Erudio Bio Korea](https://sungheeyun-erudio.github.io/){:target="_blank"},
+and took on the role of CEO.
+We're developing Korea-specific cancer diagnosis solutions in collaboration with [Seoul National University Bundang Hospital](https://www.snubh.org/dh/en/){:target="_blank"}.
+The goal is to create customized diagnostic tools reflecting Korean genetic and environmental characteristics.
+Institutional Review Board (IRB) approval procedures are underway, with the goal of completing approval within the year.
+We're also conducting similar collaborations with the Department of Clinical Laboratory Medicine at [Keimyung University Dongsan Hospital](https://eng.dsmc.or.kr/){:target="_blank"} in Daegu.
+
+From semiconductors to e-commerce, industrial AI, and now life sciences—superficially, they're completely different fields.
+But for me, there's one consistent flow &ndash; using the tools of AI and optimization to solve people's (most critical) real problems.
 
 # Entrepreneur's Freedom – Paradoxical Liberation {#paradoxical-freedom-of-entrepreneur}
 
-After leaving Gauss Labs and founding Erudio Bio, an unexpected change came to me. Clearly, the work I was doing increased by 2-3 times compared to before—measured by results and achievements. Yet paradoxically, I found temporal and mental leisure. How was this possible? I can think of about two reasons. First, I finally became the true owner of my time. I was no longer trapped in the framework of 9-to-5. I could do what I wanted, when I wanted, when I wanted to focus. This wasn't simply freedom of time management. It meant I could design the flow of my work and life. Second, I could finally fully unleash my imagination. I could lead the business according to my own planning and design, not someone else's predetermined direction.
+After leaving Gauss Labs and founding Erudio Bio, an unexpected change came to me.
+Clearly, the amount of the work I was doing increased by 2-3 times—measured by results and impacts.
+Yet paradoxically, I found more leisure time and mental space in my head.
 
-I could realize my vision, in my own way. This was the true freedom only an entrepreneur can enjoy. Finally, for the first time in my life, I became the genuine and complete owner of my own life.
+How was this possible? I can think of two main reasons.
+First, I finally became the true owner of my time (hence, myself).
+I was no longer trapped in the framework of 9-to-5 working hours.
+I did things when I could do those at my maximum efficiency (only when I wanted to do);
+I could choose when and what at my disposal.
+This wasn't simply freedom of time management.
+It meant I could design my whole life.
+Second, I could finally fully unleash my imagination with my unique creativity,
+hence could plan and execute the development and business activities according to my own planning and design,
+not by someone else's predetermined (way less optimal) directions.
+
+Finally, I could realize my vision in my <span class="emph">own</span> way.
+This was the true liberation only an entrepreneur can enjoy.
+At last, for the very first time throughout my whole life, I became the genuine, truly authentic, and perfectly complete <span class="emph">owner</span> of my life.
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
 </div>
 
-I began making full use of this precious opportunity, determined not to let it slip away. I provided technical and business consulting to companies that requested my expertise, pursued personal studies in mathematics, engineering, statistics, philosophy, cognitive science, and history—subjects I couldn't fully explore during my corporate career—and actively engaged in AI lectures, seminars, and consultations at prestigious universities including Stanford University, Seoul National University, Yonsei University, Korea University, KAIST, POSTECH, Ewha Womans University, Sogang University, DGIST, KIST, Hanyang University, Sungkyunkwan University, and SEOULTECH, as well as at various AI and biotech conferences, events, organizations, and corporations. In 2025 alone, I delivered over 50 AI lectures and seminars!
+I immediately began maximally utilizing these amazing opportunities.
+I provided technical and business consulting to companies that requested my expertise,
+pursued personal studies in mathematics, engineering, statistics, philosophy, cognitive science,
+and history—subjects I couldn't fully explore during my corporate career—and actively engaged in AI lectures, seminars,
+and consultations at prestigious universities including, but not limited to,
+Stanford University,
+Seoul National University,
+Yonsei University,
+Korea University,
+KAIST,
+POSTECH,
+Ewha Womans University,
+Sogang University,
+DGIST,
+KIST,
+Hanyang University,
+Sungkyunkwan University,
+and SEOULTECH,
+as well as at various AI and biotech conferences,
+events,
+forums,
+and
+lots of industry organizations and large corporations
+such as Samsung, SK hynix, LG Electronics, and Solidigm.
+In 2025 alone, [I delivered over 50 AI lectures and seminars](/#sem-2025){:target="_blank"}!
 
 > You can find traces of my academic and practical explorations in these areas at the following links:
 >
 > - [AI Lectures, Seminars, Consultations, and Forum Participation](/#sem){:target="_blank"}
-> - [Artificial Intelligence](/categories/#ai){:target="_blank"}
+> - [Artificial Intelligence (AI)](/categories/#ai){:target="_blank"}
 > - [Mathematics](/math){:target="_blank"}
 > - [Engineering](/categories/#engineering){:target="_blank"}
 > - [Humanity](/categories/#humanity){:target="_blank"}
