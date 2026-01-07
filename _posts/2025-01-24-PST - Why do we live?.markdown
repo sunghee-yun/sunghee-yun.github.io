@@ -1,8 +1,8 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Wed Jan  7 01:47:27 PST 2026
+last_modified_at: Wed Jan  7 01:53:00 PST 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
-permalink: /blog/PST-Why-do-we-live
+permalink: /blog/PST-Why-do-we-live/
 categories:
  - blog
  - Philosophy
