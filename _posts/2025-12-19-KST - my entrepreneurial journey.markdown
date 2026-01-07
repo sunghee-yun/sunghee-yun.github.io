@@ -1,6 +1,6 @@
 ---
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Tue Jan  6 18:41:25 PST 2026
+last_modified_at: Tue Jan  6 22:12:11 PST 2026
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
@@ -30,9 +30,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--warning}
 
 This article was published in the
-[Gifted Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
+[Gifted Student Education Magazine (BIGEP)](https://home.pen.go.kr/giftedu/na/ntt/selectNttList.do?mi=9761&bbsId=4140){:target="_blank"}
 [Volume 17, Issue 2 (January 2, 2026)](http://homedoc.pen.go.kr/SynapDocViewServer/job?fileType=URL&convertType=0&filePath=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0&fid=https%3a%2f%2fhome.pen.go.kr%2fcommon%2fnttFileDownload.do%3ffileKey%3d1370195d65607c4cde40ab56d382e3c0){:target="_blank"}
-issued by the [Busan Metropolitan City Office of Education Gifted Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
+issued by the [Busan Metropolitan City Office of Gifted Student Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
 <div class="img-container-justified">
