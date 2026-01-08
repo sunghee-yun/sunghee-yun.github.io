@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan  6 22:12:26 PST 2026
+last_modified_at: Wed Jan  7 16:42:03 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -471,7 +471,7 @@ that **<span style="color: red;">no one in the world has ever thought of or will
 practical experience accumulated in the field,
 and my differentiated knowledge and experience in humanity subjects and social sciences.
 
-While there are guidelines that every entrepreneur should read in books like Lean Startup and Zero to One,
+While there are guidelines that every entrepreneur should read in books like [Lean Startup](https://en.wikipedia.org/wiki/The_Lean_Startup){:target="_blank"} and [Zero to One](https://en.wikipedia.org/wiki/Zero_to_One){:target="_blank"},
 and there are industry conventions that everyone follows,
 I'm creating my own unique business strategies
 by maximizing my own imagination and creativities.
@@ -608,3 +608,17 @@ And this is True for you, and (hence) for all of us!
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
 </div>
+
+[Sunghee
+<br>
+<br>
+Co-Founder & CTO @ Erudio Bio, Inc
+<br>
+Co-Founder & CEO @ Erudio Bio Korea, Inc.
+<br>
+Leader of Silicon Valley Privacy-Preserving AI Forum (K-PAI)
+<br>
+Philosopher, Mathematician, Thinker, and Universal Truth Seeker
+<br>
+Entrepreneur, Engineer, Scientist, Creator, and Connector of Ideas, and, most of all, PEOPLE!](/)
+
