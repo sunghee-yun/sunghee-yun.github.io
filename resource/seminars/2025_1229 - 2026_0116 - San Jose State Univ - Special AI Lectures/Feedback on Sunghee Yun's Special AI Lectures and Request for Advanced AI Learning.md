@@ -3,7 +3,7 @@ layout: single
 title: "Feedback on Dr. Sunghee Yun's San Jose State University AI Lecture Series and Advanced Learning Requests"
 permalink: /seminars/2025_1229 - 2026_0116 - San Jose State Univ - Special AI Lectures/feedback
 date: Sun Jan  4 10:25 PST 2026
-last_modified_at: Mon Jan  5 12:21:59 PST 2026
+last_modified_at: Thu Jan  8 12:19:14 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -116,18 +116,18 @@ We look forward to the remaining lectures with great anticipation.
 
 | Student | Key Takeaways | Topics for Future Lectures / Questions |
 |---------|--------------|---------------------------------------|
-| **Jin Donghyun** | Understood the big picture from AI history to industrial application | Real Silicon Valley LLM use cases, product workflows and tech stacks for RAG·AI Agent |
-| **Lee Gyeonhui** | Impressive flow of AI development (Transformer~LLM), Silicon Valley innovation ecosystem, and ethical/philosophical discussions | Case studies on how AI creates business impact and revenue structures |
-| **Lee Jeongmin** | Deep explanation of LLM essence and structural characteristics of hallucination | How Silicon Valley's tech culture and trust-based environment is formed |
-| **Park Sumin** | Appreciated ethical/social issues and LLM principles understanding, discussion-based class format | History and current trends in RL and robotics |
-| **Yang Sion** | Understanding KNN limitations and data importance, concept clarification of hallucination through discussion | Motivation for entrepreneurship, startup process story, career choice process |
-| **Lee Wonjun** | Great inspiration from free Q&A and real case-based insights | Startup triggers·challenges·overcoming, qualities suited for entrepreneurship, promising human roles in AI era |
-| **Nam Gyuri** | Particularly beneficial explanation connecting introductory knowledge and bio AI cases | Reality of bio AI career path (demand·salary), outlook for Korean bio industry |
-| **Park Sugyeom** | Technology + humanistic insights, discussions on LLM essence and limitations | AI regulation·copyright debates, engineer qualities, competencies required in Silicon Valley job market |
-| **Hong Junki** | Essence of language model learning, value of hallucination, impressive Silicon Valley clustering culture | Domains to delegate to AI vs. verify in practice, learning direction in AI era |
-| **Park Sehyun** | Systematic understanding from AI history to multimodal·robotics, impressive robot demo | Real product applications of multimodal·agentic AI, tech stack·operational know-how |
-| **Park Sinyoung** | Insight into viewing hallucination as engine of intelligence and importance of suppression·control | Realistic routes for Korean undergrads to Silicon Valley internships·employment |
-| **Lee Juyoung** | Connectionism-centered AI development, social meaning of bio AI, emphasis on human verification capabilities | AI research flow from theory→application, enduring core competencies, Dr. Yun's driving force |
+| **Jin -** | Understood the big picture from AI history to industrial application | Real Silicon Valley LLM use cases, product workflows and tech stacks for RAG·AI Agent |
+| **Lee -** | Impressive flow of AI development (Transformer~LLM), Silicon Valley innovation ecosystem, and ethical/philosophical discussions | Case studies on how AI creates business impact and revenue structures |
+| **Lee -** | Deep explanation of LLM essence and structural characteristics of hallucination | How Silicon Valley's tech culture and trust-based environment is formed |
+| **Park -** | Appreciated ethical/social issues and LLM principles understanding, discussion-based class format | History and current trends in RL and robotics |
+| **Yang -** | Understanding KNN limitations and data importance, concept clarification of hallucination through discussion | Motivation for entrepreneurship, startup process story, career choice process |
+| **Lee -** | Great inspiration from free Q&A and real case-based insights | Startup triggers·challenges·overcoming, qualities suited for entrepreneurship, promising human roles in AI era |
+| **Nam -** | Particularly beneficial explanation connecting introductory knowledge and bio AI cases | Reality of bio AI career path (demand·salary), outlook for Korean bio industry |
+| **Park -** | Technology + humanistic insights, discussions on LLM essence and limitations | AI regulation·copyright debates, engineer qualities, competencies required in Silicon Valley job market |
+| **Hong -** | Essence of language model learning, value of hallucination, impressive Silicon Valley clustering culture | Domains to delegate to AI vs. verify in practice, learning direction in AI era |
+| **Park -** | Systematic understanding from AI history to multimodal·robotics, impressive robot demo | Real product applications of multimodal·agentic AI, tech stack·operational know-how |
+| **Park -** | Insight into viewing hallucination as engine of intelligence and importance of suppression·control | Realistic routes for Korean undergrads to Silicon Valley internships·employment |
+| **Lee -** | Connectionism-centered AI development, social meaning of bio AI, emphasis on human verification capabilities | AI research flow from theory→application, enduring core competencies, Dr. Yun's driving force |
 
 ---
 
