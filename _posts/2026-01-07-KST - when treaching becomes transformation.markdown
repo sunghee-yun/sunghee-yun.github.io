@@ -1,6 +1,6 @@
 ---
 date: Wed Jan  7 18:44:15 PST 2026
-last_modified_at: Thu Jan  8 12:18:47 PST 2026
+last_modified_at: Thu Jan  8 15:07:39 PST 2026
 title: "When Teaching becomes Transformation - Reflections on Five Lectures that Changed How Students See AI"
 permalink: /ai-lecture/reflections/sjsu
 categories:
@@ -64,6 +64,73 @@ The English translation of the original feedback can be found at <a target="_bla
 > &hellip; <span class="emph">not by mastering separate domains but by developing a way of thinking that transcends domain boundaries. &hellip; And apparently, this way of thinking is itself valuable. Worth crossing an ocean for.</span>
 
 > &hellip; <span class="emph">Because I've come to believe that the bottleneck in AI progress isn't algorithms or compute—it's people who can think across boundaries.</span>
+
+<div id="podcast-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px auto; display: block; max-width: fit-content;">
+	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+		<strong>AI - Transformative Learning</strong>
+		<span style="opacity: 0.8;">(05:07)</span>
+	</div>
+	<div style="padding: 10px; background-color: #ecf0f1;">
+		<video width="100%" controls>
+			<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2026-01-07-KST - when treaching becomes transformation/AI__Transformative_Learning.mp4">
+			Your browser does not support this video element.
+		</video>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - AI as a Sociotechnical System Shift</strong>
+			<span style="opacity: 0.8;">(33:34)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2026-01-07-KST - when treaching becomes transformation/Deep Dive - AI_as_a_Sociotechnical_System_Shift.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - AI as a Sociotechnical System Shift</strong>
+			<span style="opacity: 0.8;">(11:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2026-01-07-KST - when treaching becomes transformation/Deep Dive - Hallucination_is_the_Engine_of_AI_Creativity.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - AI progress: conceptual limits or technical depth</strong>
+			<span style="opacity: 0.8;">(16:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2026-01-07-KST - when treaching becomes transformation/Debate - AI_progress__conceptual_limits_or_technical_depth.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Reframing AI Teaching into Leadership Manifesto</strong>
+			<span style="opacity: 0.8;">(11:15)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-critique" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2026-01-07-KST - when treaching becomes transformation/Critique - Reframing_AI_Teaching_into_Leadership_Manifesto.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Pleasant Surprise - The Unexpected Gift of Teaching
 
