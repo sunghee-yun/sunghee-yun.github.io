@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Wed Jan  7 11:33:44 PST 2026
+last_modified_at: Thu Jan  8 14:05:54 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -883,24 +883,65 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	style="max-width: 90%;"
 	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_67_-_Permalink__________________.__________________d283cb15-a95f-4142-b1e3-9b1a38e57159_2.png">
 
+<h2 id="68">제68장 - 부쟁不爭</h2>
+
+> 세상에 자기와 싸우지 않는 사람이 극히 적더라!
+
+<div class="translation-container">
+<p>
+	善爲士者不武
+	善戰者不怒
+	善勝敵者不與
+<span class="chinese-korean-transliteration">
+	선위사자불무
+	선전자불노
+	선승적자불여
+</span>
+<span class="chinese-korean-translation">
+	훌륭한 무사는 무용을 보이지 않고,
+	<br>
+	잘 싸우는 자는 성내지 않으며,
+	<br>
+	훌륭한 승리자는 적과 맞서 싸우지 않는다.
+</span>
+</p>
+
+<p>
+	善用人者爲之下
+<span class="chinese-korean-transliteration">
+	선용인자위지하
+</span>
+<span class="chinese-korean-translation">
+	사람을 잘 쓰는 사람은 스스로를 낮추나니,
+</span>
+</p>
+
+<p>
+	是謂不爭之德
+	是謂用人之力
+	是謂配天古之極
+<span class="chinese-korean-transliteration">
+	시위불쟁지덕
+	시위용인지력
+	시위배천고지극
+</span>
+<span class="chinese-korean-translation">
+	이를 일러 &lt;겨루지 않음의 덕&gt;이라 하고,
+	<br>
+	이를 일러 &lt;사람 씀의 힘&gt;이라 하며,
+	<br>
+	이를 일러 &lt;하늘과 짝함&gt;이라 하는
+	<br>
+	데 예부터 내려오는 지극한 원리이다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_68_-_Permalink_____________________________._______942b2215-d3b2-494c-84fc-ec2672ec5fa8_2.png">
+
 <!--
-68. 不爭(부쟁)
-
-
-
-세상에 자기와 싸우지 않는 사람이 극히 적더라!
-
-
-善爲士者不武(선위사자불무) : 훌륭한 무사는 무용을 보이지 않고,
-善戰者不怒(선전자불노) : 잘 싸우는 자는 성내지 않으며,
-善勝敵者不與(선승적자불여) : 훌륭한 승리자는 적과 맞서 싸우지 않는다.
-善用人者爲之下(선용인자위지하) : 사람을 잘 쓰는 사람은 스스로를 낮추나니,
-是謂不爭之德(시위불쟁지덕) : 이를 일러 <겨루지 않음의 덕>이라 하고,
-是謂用人之力(시위용인지력) : 이를 일러 <사람 씀의 힘>이라 하며,
-是謂配天古之極(시위배천고지극) : 이를 일러 <하늘과 짝함>이라 하는데 예부터 내려오는 지극한 원리이다.
-
-
-
 69. 用兵(용병)
 
 
