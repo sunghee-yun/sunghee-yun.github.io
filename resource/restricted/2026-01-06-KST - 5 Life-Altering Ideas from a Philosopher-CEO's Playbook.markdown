@@ -1,6 +1,7 @@
 ---
 date: Tue Jan  6 18:25:22 PST 2026
 last_modified_at: Tue Jan  6 18:52:43 PST 2026
+layout: single
 title: "5 Life-Altering Ideas from a Philosopher-CEO's Playbook"
 permalink: /philosophy/philosopher-ceo
 categories:
@@ -12,6 +13,7 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-music"
 toc_sticky: true
+author_profile: true
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
