@@ -1,8 +1,8 @@
 ---
+last_modified_at: Fri Jan  9 02:37:40 PST 2026
 layout: single
 title: About
 permalink: /about/
-last_modified_at: Tue Jan  6 09:55:04 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -266,6 +266,8 @@ My life goal is to help build a future where humanity thrives through the advanc
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
+CGO &amp; Global Managing Partner of LULUMEDIC,
+AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
 and
 KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
@@ -276,10 +278,12 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
+Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
-Chief Business Development Officer at WeStory.ai,
+CGO &amp; Global Managing Partner of LULUMEDIC,
+AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
 and
-Advisor at CryptoLab, Inc.
+KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor,
 where he developed AI and optimization tools for chip design, manufacturing, and testing—solutions
 that continue to be utilized daily by many Samsung engineers.
@@ -298,8 +302,11 @@ multimodal generative AI (genAI), and AI Agents.
 He currently serves in several active roles,
 including as a Visiting Professor at Sogang University, Advisory Professor at DGIST,
 and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
+
+<!--
 He is also a KFAS-Salzburg Global Leadership Initiative Fellow,
 where he focuses on addressing the challenges and opportunities presented by AI technology in shaping our future.
+-->
 
 # Press Exposures
 
