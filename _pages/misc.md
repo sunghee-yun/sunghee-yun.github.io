@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Jan  9 03:47:43 PST 2026
+last_modified_at: Fri Jan  9 14:49:27 PST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -38,6 +38,7 @@ toc_sticky: true
 # Coffee chats to be arranged
 
 - [김태은](https://www.linkedin.com/in/taeeun-%E2%80%8Dkim-10480b283){:target="_blank"} for Korea biz trip in 2026
+- 이복직 (sshs 02) 교수 for Korea biz trip in 2026
 - ~~{CC} 이태주 for Boston biz trip in Jun-2025~~
 - ~~{CC} 윤성호 for Korea biz trip in <s>Apr-2025</s> May-2025~~
 - ~~{CC} 전유진 for Korea biz trip in <s>Apr-2025</s> May-2025~~
