@@ -1,9 +1,9 @@
 ---
+date: Wed Oct 29 06:59:55 PDT 2025
+last_modified_at: Fri Jan  9 15:05:32 PST 2026
 layout: single
 title: Recent Activities
 permalink: /recent-activities/
-date: Wed Oct 29 06:59:55 PDT 2025
-last_modified_at: Sat Jan  3 22:16:25 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -213,9 +213,9 @@ What drives me is connecting the dots between seemingly disparate fields. My bac
 <div class="img-container-justified">
 &nbsp;
 	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png"-->
-	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM-50-reduced.png">
 	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png"-->
-	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM-50-reduced.png">
 &nbsp;
 </div>
 
