@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Wed Jan  7 16:42:03 PST 2026
+last_modified_at: Thu Jan  8 23:03:35 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -596,10 +596,10 @@ but the very one I had always desired (consciously or subconsciously).</span>
 And finally, I realize this
 &ndash;
 as long as I continuously challenge myself,
-and most importantly, enjoy this process itself,
-nothing is failure.
-Success is not about reaching some point,
-but it is this very moment of constantly striving with positive attitude
+and most importantly, enjoy the process itself,
+nothing is failure; no, it can't be!
+Success is not about reaching at some point,
+but is this very moment of constantly striving with positive attitude
 while caring for neighbors and embracing love for Humanity.
 Therefore, I'm living a successful life at this very moment.
 
