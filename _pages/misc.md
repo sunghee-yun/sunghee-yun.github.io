@@ -1,4 +1,5 @@
 ---
+last_modified_at: Fri Jan  9 03:47:43 PST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -6,7 +7,6 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Tue Jan  6 09:31:46 PST 2026
 ---
 
 <!--
@@ -24,6 +24,10 @@ last_modified_at: Tue Jan  6 09:31:46 PST 2026
 
 - [be that as it may](https://dictionary.cambridge.org/us/dictionary/english/be-that-as-it-may)
 - [for what it's worth](https://dictionary.cambridge.org/us/dictionary/english/for-what-it-s-worth)
+
+# Partnership chat to be arranged
+
+- [서준교 교수](https://www.linkedin.com/in/jungyo-suh-45b170140/){:target="_blank"} @ 서울아산병원 / 울산의대
 
 # AI talks to be arranged
 
