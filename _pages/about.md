@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Jan  9 02:37:40 PST 2026
+last_modified_at: Sat Jan 10 14:57:02 PST 2026
 layout: single
 title: About
 permalink: /about/
@@ -16,6 +16,8 @@ Co-founder &amp; CEO
 @ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>
 Leader
 of <a target="_blank" href="https://k-privateai.github.io">Silicon Valley Privacy-Preserving AI Forum (K-PAI)</a>,
+Advisor
+@ <a target="_blank" href="https://www.koamspa.com/">Korean American Semiconductor Professional Alliance (KASPA)</a>,
 CGO / Global Managing Partner
 @ <a target="_blank" href="https://www.lulumedic.com/en/">LULUMEDIC</a>,
 <a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
@@ -266,6 +268,7 @@ My life goal is to help build a future where humanity thrives through the advanc
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
+Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
 AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
 and
@@ -280,6 +283,7 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
+Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
 AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
 and
