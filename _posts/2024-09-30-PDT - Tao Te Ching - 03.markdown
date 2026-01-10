@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Thu Jan  8 14:05:54 PST 2026
+last_modified_at: Sat Jan 10 02:08:45 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -941,30 +941,87 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	style="max-width: 90%;"
 	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_68_-_Permalink_____________________________._______942b2215-d3b2-494c-84fc-ec2672ec5fa8_2.png">
 
+<h2 id="69">제69장 - 용병用兵</h2>
+
+> 마음에서 일어나는 고통에게 주인노릇을 하도록 양보하라.
+> <br>
+> 그러면 그 고통은 때가 되면 자연히 사라질 것이다.
+
+<div class="translation-container">
+<p>
+	用兵有言
+	吾不敢爲主而爲客
+	不敢進寸而退尺
+<span class="chinese-korean-transliteration">
+	용병유언
+	오불감위주이위객
+	불감진촌이퇴척
+</span>
+<span class="chinese-korean-translation">
+	전쟁에 대해서 다음과 같은 말이 있다.
+	<br>
+	내 편에서 주인 노릇하는 것이 아니라 손님 노릇하고,
+	<br>
+	한 치 전진하려 하지 말고 오히려 한 자 정도 물러서라는 것이다.
+</span>
+</p>
+
+<p>
+	是謂行無行
+	攘無臂
+	扔無敵
+	執無兵
+<span class="chinese-korean-transliteration">
+	시위행무행
+	양무비
+	잉무적
+	집무병
+</span>
+<span class="chinese-korean-translation">
+	이를 일러 나아감이 없이 나아감,
+	<br>
+	팔이 없이 휘두름,
+	<br>
+	적이 없이 쳐부숨,
+	<br>
+	무기 없이 무기잡음이라 한다.
+</span>
+</p>
+
+<p>
+	禍莫大於輕敵
+	輕敵幾喪吾寶
+<span class="chinese-korean-transliteration">
+	경적기상오보
+	화막대어경적
+</span>
+<span class="chinese-korean-translation">
+	적을 가볍게 여기다가는 내 편의 보물을 다 잃고 만다.
+	<br>
+	모든 화 중에 적을 가볍게 여기는 것보다 더 큰 것은 없다.
+</span>
+</p>
+
+<p>
+	故抗兵相加
+	哀者勝矣
+<span class="chinese-korean-transliteration">
+	고항병상가
+	애자승의
+</span>
+<span class="chinese-korean-translation">
+	그러므로 군사를 일으켜 서로 맞서 싸울 때에는
+	<br>
+	슬퍼하는 쪽에서 이기는 법이다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_69_-_Permalink______.________.____________.________0b93de9c-57c5-4b9e-b379-97a4c1e052bc_2.png">
+
 <!--
-69. 用兵(용병)
-
-
-
-마음에서 일어나는 고통에게 주인노릇을 하도록 양보하라.
-
-그러면 그 고통은 때가 되면 자연히 사라질 것이다.
-
-
-用兵有言(용병유언) : 전쟁에 대해서 다음과 같은 말이 있다.
-吾不敢爲主而爲客(오불감위주이위객) : 내 편에서 주인 노릇하는 것이 아니라 손님 노릇하고,
-不敢進寸而退尺(불감진촌이퇴척) : 한 치 전진하려 하지 말고 오히려 한 자 정도 물러서라는 것이다.
-是謂行無行(시위행무행) : 이를 일러 나아감이 없이 나아감,
-攘無臂(양무비) : 팔이 없이 휘두름,
-扔無敵(잉무적) : 적이 없이 쳐부숨,
-執無兵(집무병) : 무기 없이 무기잡음이라 한다.
-禍莫大於輕敵(화막대어경적) : 모든 화 중에 적을 가볍게 여기는 것보다 더 큰 것은 없다.
-輕敵幾喪吾寶(경적기상오보) : 적을 가볍게 여기다가는 내 편의 보물을 다 잃고 만다.
-故抗兵相加(고항병상가) : 그러므로 군사를 일으켜 서로 맞서 싸울 때에는
-哀者勝矣(애자승의) : 슬퍼하는 쪽에서 이기는 법이다.
-
-
-
 70. 懷玉(회옥)
 
 
