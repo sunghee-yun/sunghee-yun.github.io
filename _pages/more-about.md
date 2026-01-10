@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Tue Jan  6 09:56:44 PST 2026
+last_modified_at: Sat Jan 10 14:56:26 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -63,6 +63,8 @@ Co-founder &amp; CEO
 @ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>
 Leader
 of <a target="_blank" href="https://k-privateai.github.io">Silicon Valley Privacy-Preserving AI Forum (K-PAI)</a>,
+Advisor
+@ <a target="_blank" href="https://www.koamspa.com/">Korean American Semiconductor Professional Alliance (KASPA)</a>,
 CGO / Global Managing Partner
 @ <a target="_blank" href="https://www.lulumedic.com/en/">LULUMEDIC</a>,
 <a target="_blank" href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>
