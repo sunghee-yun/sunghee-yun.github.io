@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Sat Jan 10 02:08:45 PST 2026
+last_modified_at: Mon Jan 12 00:51:54 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1021,30 +1021,87 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	style="max-width: 90%;"
 	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_69_-_Permalink______.________.____________.________0b93de9c-57c5-4b9e-b379-97a4c1e052bc_2.png">
 
+<h2 id="70">제70장 - 회옥懷玉</h2>
+
+> 말보다는 말하는 근본을 보고
+> <br>
+> 일보다는 그 일을 만든 왕을 보아야 한다.
+
+<div class="translation-container">
+<p>
+	吾言甚易知
+	甚易行
+	天下莫能知
+	莫能行
+<span class="chinese-korean-transliteration">
+	오언심이지
+	심이행
+	천하막능지
+	막능행
+</span>
+<span class="chinese-korean-translation">
+	내 말은 알기도 그지없이 쉽고
+	<br>
+	실행하기도 그지없이 쉬운데
+	<br>
+	세상 사람들 도무지 알지도 못하고
+	<br>
+	실행하지도 못한다.
+</span>
+</p>
+
+<p>
+	言有宗
+	事有君
+	夫唯無知
+	是以不我知
+<span class="chinese-korean-transliteration">
+	언유종
+	사유군
+	부유무지
+	시이불아지
+</span>
+<span class="chinese-korean-translation">
+	말에는 종지가 있고
+	<br>
+	사물에는 중심이 있다.
+	<br>
+	사람들 이를 알지 못하기에
+	<br>
+	나를 알지 못한다.
+</span>
+</p>
+
+<p>
+	知我者希
+	則我者貴
+<span class="chinese-korean-transliteration">
+	지아자희
+	즉아자귀
+</span>
+<span class="chinese-korean-translation">
+	나를 아는 사람 드물고
+	<br>
+	나를 따르는 사람 귀하다.
+</span>
+</p>
+
+<p>
+	是以聖人被褐懷玉
+<span class="chinese-korean-transliteration">
+	시이성인피갈회옥
+</span>
+<span class="chinese-korean-translation">
+	이래서 성인은 낡은 칡베옷을 입지만 가슴에는 구슬을 품고 있다.
+</span>
+</p>
+</div>
+
+<img
+	style="max-width: 90%;"
+	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_70_-_Permalink___________._______________________._c8eb5f48-cb3a-49a1-a7bf-5910d3a5f067_2.png">
+
 <!--
-70. 懷玉(회옥)
-
-
-
-말보다는 말하는 근본을 보고
-
-일보다는 그 일을 만든 왕을 보아야 한다.
-
-
-吾言甚易知(오언심이지) : 내 말은 알기도 그지없이 쉽고
-甚易行(심이행) : 실행하기도 그지없이 쉬운데
-天下莫能知(천하막능지) : 세상 사람들 도무지 알지도 못하고
-莫能行(막능행) : 실행하지도 못한다.
-言有宗(언유종) : 말에는 종지가 있고
-事有君(사유군) : 사물에는 중심이 있다.
-夫唯無知(부유무지) : 사람들 이를 알지 못하기에
-是以不我知(시이불아지) : 나를 알지 못한다.
-知我者希(지아자희) : 나를 아는 사람 드물고
-則我者貴(즉아자귀) : 나를 따르는 사람 귀하다.
-是以聖人被褐懷玉(시이성인피갈회옥) : 이래서 성인은 낡은 칡베옷을 입지만 가슴에는 구슬을 품고 있다.
-
-
-
 71. 不病(불병)
 
 
