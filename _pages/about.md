@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sat Jan 10 14:57:02 PST 2026
+last_modified_at: Tue Jan 13 15:24:50 PST 2026
 layout: single
 title: About
 permalink: /about/
@@ -12,8 +12,10 @@ toc_sticky: true
 <a href="/">I</a> am
 Co-founder &amp; CTO
 @ <a target="_blank" href="https://www.erudio.bio">Erudio Bio, Inc., CA, USA</a>,
+<!--
 Co-founder &amp; CEO
-@ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>
+@ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>,
+-->
 Leader
 of <a target="_blank" href="https://k-privateai.github.io">Silicon Valley Privacy-Preserving AI Forum (K-PAI)</a>,
 Advisor
@@ -266,7 +268,9 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
+<!--
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
+-->
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
@@ -281,7 +285,9 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
+<!--
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
+-->
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
@@ -314,6 +320,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 
 # Press Exposures
 
+<!--
 ## Co-Founder &amp; CTO @ [Erudio Bio](https://www.erudio.bio/) / CEO @ Erudio Bio Korea / [Silicon Valley Privacy-preserving AI Form (K-PAI)](https://k-privateai.github.io/) Leader
 
 - [빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}
@@ -336,6 +343,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 
 - [Riverside the Ground Up Podcast - Holistic Landscape of Biotechnology + AI](https://drive.google.com/file/d/1IJAv_r0nFuv98PdYgqGQookFyFQSF0fK/){:target="_blank"}
 	recorded @ 08-Oct-2025 PDT
+-->
 
 <!--div class="img-container">
 <img src="/resource/press/Screenshot 2025-10-30 at 6.58.30 AM.png">
@@ -352,9 +360,9 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 <div class="img-container-justified">
 &nbsp;
 	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png"-->
-	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM.png">
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.31.09 AM-50-reduced.png">
 	<!--img style="max-width: 45%;" src="/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png"-->
-	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM.png">
+	<img style="max-width: 42%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1024 KST - KUBS:CDTB - The Economics of Intelligence - How AI is Reshaping Business Models, Markets, and Competitive Advantage/photos/Screenshot 2025-10-27 at 2.32.02 AM-50-reduced.png">
 &nbsp;
 </div>
 

@@ -3,7 +3,7 @@ layout: single
 title: More About Me
 permalink: /about/more/
 date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Sat Jan 10 14:56:26 PST 2026
+last_modified_at: Tue Jan 13 15:32:41 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -59,8 +59,10 @@ This page illuminates how my business and social activities interconnect with th
 
 While my multiple concurrent roles&mdash;Co-founder &amp; CTO
 @ <a target="_blank" href="https://www.erudio.bio">Erudio Bio, Inc., CA, USA</a>,
+<!--
 Co-founder &amp; CEO
-@ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>
+@ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>,
+-->
 Leader
 of <a target="_blank" href="https://k-privateai.github.io">Silicon Valley Privacy-Preserving AI Forum (K-PAI)</a>,
 Advisor

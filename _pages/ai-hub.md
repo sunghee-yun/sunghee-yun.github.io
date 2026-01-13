@@ -127,7 +127,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- News Korea
 	@ 18-Dec-2025 KST
 </li>
-<li>
+<!--li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
 	@ 15-Dec-2025 KST
@@ -146,7 +146,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://news.nate.com/view/20251030n06544">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- nate 뉴스
 	@ 30-Oct-2025 KST
-</li>
+</li-->
 <li>
 	<a href="https://biz.korea.ac.kr/news/news_view.html?no=4297">고려대학교 CDTB, ‘인공지능 시대의 진화와 통찰’ 주제로 DTB 세미나 개최</a>
 	- 고려대학교 경영대학원 CDTB
@@ -267,7 +267,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- News Korea
 	@ 18-Dec-2025 KST
 </li>
-<li>
+<!--li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
 	@ 15-Dec-2025 KST
@@ -276,7 +276,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
-</li>
+</li-->
 <li>
 	<a href="https://www.hankyung.com/article/2025101761971">'AI 헬스케어' 보폭 넓히는 삼성전자, 美 그레일에 1560억 투자</a>
 	- 한경
@@ -1434,7 +1434,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	- News Korea
 	@ 18-Dec-2025 KST
 </li>
-<li>
+<!--li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
 	@ 15-Dec-2025 KST
@@ -1443,13 +1443,13 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://news.nate.com/view/20251215n26404">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- nate 뉴스
 	@ 15-Dec-2025 KST
-</li>
+</li-->
 <li>
 	<a href="https://www.mt.co.kr/tech/2025/12/15/2025121200524048774">빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다</a>
 	- 머니투데이
 	@ 15-Dec-2025 KST
 </li>
-<li>
+<!--li>
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
@@ -1463,7 +1463,7 @@ Welcome to your AI knowledge oasis – where curiosity meets enlightenment, and 
 	<a href="https://www.asiae.co.kr/article/2025103008554006190">에루디오바이오, 게이츠재단 지원금 기반 신약개발혁신 플랫폼 만든다</a>
 	- 아시아경제
 	@ 30-Oct-2025
-</li>
+</li-->
 <li>
 	<a href="https://www.mt.co.kr/tech/2025/10/30/2025103010110556846">생성형 AI 도입으로 잘나가더니 3만명 해고한 북미…국내는?</a>
 	- 머니투데이
