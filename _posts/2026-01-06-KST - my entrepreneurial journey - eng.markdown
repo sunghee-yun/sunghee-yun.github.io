@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Thu Jan  8 23:03:35 PST 2026
+last_modified_at: Thu Jan 15 00:41:42 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -135,7 +135,10 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 # Here and Now {#here-and-now}
 
 I am currently the Co-Founder and Chief Technology Officer (CTO) of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}, an AI-Biotech company established in Silicon Valley, and the CEO of its Korean subsidiary, [Erudio Bio Korea](https://sungheeyun-erudio.github.io){:target="_blank"}.
-I am also the founding member and Leader of the [Silicon Valley Privacy-Preserving AI Forum (also known as K-PAI)](https://k-privateai.github.io/){:target="_blank"}, which brings together entrepreneurs, investors, engineers, scientists, and journalists from diverse fields in Silicon Valley. In addition, I serve as a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} of the 78-year-old nonprofit organization [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}, an advisor on the AI Task Force for [the Association of Korean Medicine](https://www.akom.org/English/Index){:target="_blank"}, a Visiting Professor in the Department of Electronic Engineering at Sogang University, an Advisory Professor in the Department of Electrical Engineering and Computer Science at Daegu Gyeongbuk Institute of Science & Technology (DGIST), and I also advise numerous companies. This year alone, [I delivered over 50 AI and biotech-related lectures, seminars, and corporate technology consultations](/#sem){:target="_blank"}. Recently, [Erudio Bio received a million-dollar grant from the Gates Foundation](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
+I am also the founding member and Leader of the [Silicon Valley Privacy-Preserving AI Forum (also known as K-PAI)](https://k-privateai.github.io/){:target="_blank"}, which brings together entrepreneurs, investors, engineers, scientists, and journalists from diverse fields in Silicon Valley. In addition, I serve as a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} of the 78-year-old nonprofit organization [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}, an advisor on the AI Task Force for [the Association of Korean Medicine](https://www.akom.org/English/Index){:target="_blank"}, a Visiting Professor in the Department of Electronic Engineering at Sogang University, an Advisory Professor in the Department of Electrical Engineering and Computer Science at Daegu Gyeongbuk Institute of Science & Technology (DGIST), and I also advise numerous companies. This year alone, [I delivered over 50 AI and biotech-related lectures, seminars, and corporate technology consultations](/#sem){:target="_blank"}.
+<!--
+Recently, [Erudio Bio received a million-dollar grant from the Gates Foundation](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
+-->
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
@@ -305,8 +308,10 @@ Our other innovation is [VSA (Versatile Smart Assay) technology](https://sunghee
 It can significantly improve early cancer diagnosis accuracy by solving the key limitations of existing multiplexed diagnostics
 &ndash; cross-reactivity and false-positive problems.
 
+<!--
 In 2025, we [received a million-dollar research grant from the Gates Foundation](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}.
 This recognition of our technology's potential to solve global health problems.
+-->
 Particularly, providing affordable and accurate diagnostic and treatment tools to patients in low-income countries and humanity—this is our ultimate goal.
 We also established partnerships with world-class institutions including
 [Stanford Medicine](https://med.stanford.edu/){:target="_blank"},
@@ -564,7 +569,9 @@ My life's goal is to create a future where humanity thrives through health, safe
 This is why I started Erudio Bio.
 I want to use AI technology to diagnose cancer early and save more lives.
 I want to give hope to patients in low-income countries where medical services are hard to access.
+<!--
 I'm realizing this goal with support from the Gates Foundation.
+-->
 I am seeing the same future with K-PAI.
 AI technology shouldn't benefit only a few experts or large corporations—it should be technology that everyone can access, understand, and utilize.
 That's why I share knowledge, connect people, and build community.
@@ -582,8 +589,10 @@ The manufacturing knowledge learned at Samsung led to Gauss Labs, the AI technol
 
 Most importantly, now I'm living the happiest moments of my life.
 
+<!--
 With support from the Gates Foundation,
-we are developing technology that can provide better quality of life to Humanity.
+-->
+We are developing technology that can provide better quality of life to Humanity.
 Through K-PAI, I share knowledge and opportunities with hundreds of people,
 and through [over 50 lectures and consultations in a year](/#sem){:target="_blank"},
 I share my experiences and insights with my contemporaries and the next generations.
