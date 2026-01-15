@@ -1,6 +1,6 @@
 ---
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sat Jan 10 01:59:44 PST 2026
+last_modified_at: Thu Jan 15 00:34:42 PST 2026
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
@@ -139,7 +139,7 @@ The English translation of this article can be found at [{{ eng_version.title }}
 그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/){:target="_blank"}의 창립멤버이자 리더이다.
 그 외에도 78년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"}, [대한한의사협회](https://www.akom.org/English/Index){:target="_blank"} 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다.
 그리고 [올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다](/#sem){:target="_blank"}.
-그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단(Gates Foundation)으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
+그리고 최근 [에루디오바이오](https://sungheeyun-erudio.github.io/){:target="_blank"}는 [게이츠 재단으로부터 백만불 Grant를 받았다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
 
 <div class="img-container">
 	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
@@ -342,7 +342,7 @@ CTO로서, 기술 리더로서, 나는 기술 비전을 제시하고 팀을 이�
 이것은 여러 바이오마커를 동시에 정확하게 검출할 수 있는 플랫폼이다.
 기존 다중화 진단의 핵심 한계인 교차반응성과 위양성 문제를 해결해 암 조기 진단의 정확도를 크게 높일 수 있다.
 
-2025년, 우리는 [게이츠 재단(Gates Foundation)으로부터 백만불 규모의 연구비를 지원받았다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}.
+2025년, 우리는 [게이츠 재단으로부터 백만불 규모의 연구비를 지원받았다](https://www.asiae.co.kr/article/2025103008554006190){:target="_blank"}.
 이는 우리 기술의 글로벌 보건 문제 해결 가능성을 인정받은 것이다.
 특히 저소득 국가의 환자들을 비릇한 보편적 인류에게 저렴하고 정확한 진단 및 치료 도구를 제공하는 것—이것이 우리의 궁극적 목표다.
 우리는 또한
