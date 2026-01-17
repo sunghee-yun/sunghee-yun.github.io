@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Mon Jan 12 00:51:54 PST 2026
+last_modified_at: Sat Jan 17 01:17:42 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1101,26 +1101,72 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	style="max-width: 90%;"
 	src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2024-09-30-PDT - Tao Te Ching - 03/Sunghee__-_70_-_Permalink___________._______________________._c8eb5f48-cb3a-49a1-a7bf-5910d3a5f067_2.png">
 
+<h2 id="71">제71장 - 불병不病</h2>
+
+> 그대는 진실로 모를 수 있겠는가?<br>
+> 모름이 진정한 앎이다.
+
+<div class="translation-container">
+<p>
+	知不知上
+<span class="chinese-korean-transliteration">
+	지불지상
+</span>
+<span class="chinese-korean-translation">
+	자신이 알지 못하다 것을 아는 것이 가장 훌륭하다.
+</span>
+</p>
+
+<p>
+	不知知病
+<span class="chinese-korean-transliteration">
+	불지지병
+</span>
+<span class="chinese-korean-translation">
+	알지 못하면서도 안다고하는 것은 병이다.
+</span>
+</p>
+
+<p>
+	夫唯病病
+	是以不病
+<span class="chinese-korean-transliteration">
+	부유병병
+	시이불병
+</span>
+<span class="chinese-korean-translation">
+	병을 병으로 알 때만
+	<br>
+	병이 되지 않는다.
+</span>
+</p>
+
+<p>
+	聖人不病
+<span class="chinese-korean-transliteration">
+	성인불병
+</span>
+<span class="chinese-korean-translation">
+	성인은 병이 없다.
+</span>
+</p>
+
+<p>
+	以其病病
+	是以不病
+<span class="chinese-korean-transliteration">
+	이기병병
+	시이불병
+</span>
+<span class="chinese-korean-translation">
+	병을 병으로 알기 때문에
+	<br>
+	그래서 병이 없다.
+</span>
+</p>
+</div>
+
 <!--
-71. 不病(불병)
-
-
-
-그대는 진실로 모를 수 있겠는가?
-
-모름이 진정한 앎이다.
-
-
-知不知上(지불지상) : 자신이 알지 못하다 것을 아는 것이 가장 훌륭하다.
-不知知病(불지지병) : 알지 못하면서도 안다고하는 것은 병이다.
-夫唯病病(부유병병) : 병을 병으로 알 때만
-是以不病(시이불병) : 병이 되지 않는다.
-聖人不病(성인불병) : 성인은 병이 없다.
-以其病病(이기병병) : 병을 병으로 알기 때문에
-是以不病(시이불병) : 그래서 병이 없다.
-
-
-
 72.畏危(외위)
 
 
