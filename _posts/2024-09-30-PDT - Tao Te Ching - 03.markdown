@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Sat Jan 17 01:17:42 PST 2026
+last_modified_at: Sun Jan 18 02:40:39 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1166,35 +1166,75 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="72">제72장 - 외위畏危</h2>
+
+> 자기의 삶을 싫어하지 말라.<br>
+> 다만 스스로를 사랑할 뿐<br>
+> 대우받기를 기대하지 말라.
+
+<div class="translation-container">
+<p>
+	民不畏威
+	則大危至
+<span class="chinese-korean-transliteration">
+	민불외위
+	즉대위지
+</span>
+<span class="chinese-korean-translation">
+	백성들이 위험을 두려워하지 않으면,
+	<br>
+	큰 위기가 닥쳐올 것이다.
+</span>
+</p>
+
+<p>
+	無狹其所居
+	無厭其所生
+<span class="chinese-korean-transliteration">
+	무협기소거
+	무염기소생
+</span>
+<span class="chinese-korean-translation">
+	자기 환경을 좁다고 생각하지 말것이며,
+	<br>
+	기의 삶을 싫어하지 말라.
+</span>
+</p>
+
+<p>
+	夫唯不厭
+	是以不厭
+<span class="chinese-korean-transliteration">
+	부유불염
+	시이불염
+</span>
+<span class="chinese-korean-translation">
+	삶을 싫어하지 않음이야 말로
+	<br>
+	진정으로 싫어하지 않음이다.
+</span>
+</p>
+
+<p>
+	是以聖人自知不自見
+	自愛不自貴
+	故去彼取此
+<span class="chinese-korean-transliteration">
+	시이성인자지불자견
+	자애불자귀
+	고거피취차
+</span>
+<span class="chinese-korean-translation">
+	그런 까닭에 성인은 아는 것으로 자족할 뿐 그것을 나타내어 보이려 하지 않으며,
+	<br>
+	스스로 자기를 사랑하기는 하지만 스스로 존귀하게 되기를 바라지 않는다.
+	<br>
+	스스로 귀하게 대우받음을 버리고, 스스로 자중자애한다.
+</span>
+</p>
+</div>
+
 <!--
-72.畏危(외위)
-
-
-
-자기의 삶을 싫어하지 말라.
-
-다만 스스로를 사랑할 뿐
-
-대우받기를 기대하지 말라.
-
-
-民不畏威(민불외위) : 백성들이 위험을 두려워하지 않으면,
-
-則大危至(즉대위지) ;곧 큰 위기가 닥쳐올 것이다.
-無狹其所居(무협기소거) : 자기 환경을 좁다고 생각하지 말것이며,
-
-無厭其所生(무염기소생) :자기의 삶을 싫어하지 말라.
-
-夫唯不厭(부유불염) : 삶을 싫어하지 않음이야 말로
-
-是以不厭(시이불염) : 진정으로 싫어하지 않음이다.
-是以聖人自知不自見(시이성인자지불자견) :그런 까닭에 성인은 아는 것으로 자족할 뿐 그것을 나타내어 보이려 하지 않으며,
-
-自愛不自貴(자애불자귀) : 스스로 자기를 사랑하기는 하지만 스스로 존귀하게 되기를 바라지 않는다.
-故去彼取此(고거피취차) : 스스로 귀하게 대우받음을 버리고, 스스로 자중자애한다.
-
-
-
 73. 天網(천망)
 
 
