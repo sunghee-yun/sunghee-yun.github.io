@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Jan  9 14:49:27 PST 2026
+last_modified_at: Mon Jan 19 01:44:53 PST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -81,6 +81,11 @@ toc_sticky: true
 
 ## 2026 {#arts-and-culture-2026}
 
+- Ghayoung and ME
+	&ndash; Movie
+	&ndash; No Other Choice
+	@ [AMC Mercado 20](https://maps.app.goo.gl/w5KLLZVNYsJcBzsA6){:target="_blank"}
+	&ndash; 10:45am ~ 1:34pm @ 18-Jan-2026 PST
 - Family
 	&ndash; De Young Museum
 	&ndash; 1pm-5pm on 02-Jan-2026 PST
