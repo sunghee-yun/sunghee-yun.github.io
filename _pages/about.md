@@ -1,5 +1,5 @@
 ---
-last_modified_at: Tue Jan 13 15:24:50 PST 2026
+last_modified_at: Mon Jan 19 15:35:48 PST 2026
 layout: single
 title: About
 permalink: /about/
@@ -112,7 +112,7 @@ and
 
 My life goal is to help build a future where humanity thrives through the advancement of health, safety, liberty, and equality—foundational elements that pave the way to genuine happiness.
 
-<table class="borderless-table">
+<table class="borderless-table" id="info">
 <tr>
 	<td>wet lab</td><td>- <a href="https://maps.app.goo.gl/Am64VJtCjxss6Vgz8">400 Professional Center Dr, Novato, CA 94947, USA</a></td>
 </tr>
