@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Sun Jan 18 02:40:39 PST 2026
+last_modified_at: Mon Jan 19 01:28:12 PST 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1234,33 +1234,103 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="73">제73장 - 천망天網</h2>
+
+> 천망이 회회하나
+> <br>
+> 소이불실이라!
+
+<div class="translation-container">
+<p>
+	勇於敢則殺
+	勇於不敢則活
+<span class="chinese-korean-transliteration">
+	용어감즉살
+	용어불감즉활
+</span>
+<span class="chinese-korean-translation">
+	감행하는 데 용감한 사람은 죽임을 당하고
+	<br>
+	감행하지 않는 데 용감한 사람은 살아남는다.
+</span>
+</p>
+
+<p>
+	此兩者或利或害
+<span class="chinese-korean-transliteration">
+	차량자혹리혹해
+</span>
+<span class="chinese-korean-translation">
+	이 둘 가운데 하나는 이롭고 하나는 해로운 것이다.
+</span>
+</p>
+
+<p>
+	天之所惡
+	孰知其故
+<span class="chinese-korean-transliteration">
+	천지소오
+	숙지기고
+</span>
+<span class="chinese-korean-translation">
+	하늘이 싫어하는 것
+	<br>
+	누가 그 까닭을 알리까?
+</span>
+</p>
+
+<p>
+	是以聖人猶難之
+<span class="chinese-korean-transliteration">
+	시이성인유난지
+</span>
+<span class="chinese-korean-translation">
+	성인마저도 그것을 어려운 것으로 여긴다.
+</span>
+</p>
+
+<p>
+	天之道
+	不爭而善勝
+	不言而善應
+	不召而自來
+	繟然而善謀
+<span class="chinese-korean-transliteration">
+	천지도
+	불쟁이선승
+	불언이선응
+	불소이자래
+	천연이선모
+</span>
+<span class="chinese-korean-translation">
+	하늘의 도는
+	<br>
+	겨루지 않고도 훌륭히 이기는 것이고
+	<br>
+	말하지 않아도 저절로 응하여 오고
+	<br>
+	부르지 않아도 저절로 찾아오고
+	<br>
+	느슨하면서도 훌륭히 꾸미는 것이다.
+</span>
+</p>
+
+<p id="kim-jong-hyuk">
+	天網恢恢
+	疏而不失
+<span class="chinese-korean-transliteration">
+	천망회회
+	소이불실
+</span>
+<span class="chinese-korean-translation">
+	하늘의 그물은 넓고 넓어서
+	<br>
+	엉성한 것 같지만 놓치는 일이 없다.
+</span>
+</p>
+</div>
+
 <!--
-73. 天網(천망)
-
-
-
-천망이 회회하나
-
-소이불실이라!
-
-
-
-勇於敢則殺(용어감즉살) : 감행하는 데 용감한 사람은 죽임을 당하고
-勇於不敢則活(용어불감즉활) : 감행하지 않는 데 용감한 사람은 살아남는다.
-此兩者或利或害(차량자혹리혹해) : 이 둘 가운데 하나는 이롭고 하나는 해로운 것이다.
-天之所惡(천지소오) : 하늘이 싫어하는 것
-孰知其故(숙지기고) : 누가 그 까닭을 알리까?
-是以聖人猶難之(시이성인유난지) : 성인마저도 그것을 어려운 것으로 여긴다.
-天之道(천지도) : 하늘의 도는
-不爭而善勝(불쟁이선승) : 겨루지 않고도 훌륭히 이기는 것이고
-不言而善應(불언이선응) : 말하지 않아도 저절로 응하여 오고
-不召而自來(불소이자래) : 부르지 않아도 저절로 찾아오고
-繟然而善謀(천연이선모) : 느슨하면서도 훌륭히 꾸미는 것이다.
-天網恢恢(천망회회) : 하늘의 그물은 넓고 넓어서
-疏而不失(소이불실) : 엉성한 것 같지만 놓치는 일이 없다.
-
-
-
 74. 死殺(사살)
 
 
