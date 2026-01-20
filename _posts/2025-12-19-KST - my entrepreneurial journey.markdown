@@ -1,6 +1,6 @@
 ---
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Thu Jan 15 00:34:42 PST 2026
+last_modified_at: Tue Jan 20 03:05:02 PST 2026
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
@@ -135,7 +135,10 @@ The English translation of this article can be found at [{{ eng_version.title }}
 
 # 지금, 여기 {#here-and-now}
 
-나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/){:target="_blank"}의 공동창업자이자 최고기술책임자(CTO)이고 한국지사 [에루디오바이오코리아(Erudio Bio Korea)](https://sungheeyun-erudio.github.io){:target="_blank"}의 대표이사이다.
+나는 현재 실리콘밸리(Silicon Valley)에 설립한 AI-Biotech 회사 [에루디오바이오(Erudio Bio, Inc.)](https://www.erudio.bio/){:target="_blank"}의 공동창업자이자 최고기술책임자(CTO)이다.
+<!--
+한국지사 [에루디오바이오코리아(Erudio Bio Korea)](https://sungheeyun-erudio.github.io){:target="_blank"}의 대표이사이다.
+-->
 그리고 현재 Silicon Valley에서 사업가, 투자자, 엔지니어, 과학자, 언론인 등 다양한 분야의 사람들을 멤버로 갖고 있는 [Silicon Valley Privacy-Preserving AI Forum(일명 K-PAI)](https://k-privateai.github.io/){:target="_blank"}의 창립멤버이자 리더이다.
 그 외에도 78년 역사의 비영리단체 [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}의 [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"}, [대한한의사협회](https://www.akom.org/English/Index){:target="_blank"} 인공지능 TF 자문위원과 서강대학교 전자공학과 방문교수, 대구경북과학기술대학(DGIST) 전기전자컴퓨터공학과 자문교수, 그 외 다수 기업의 자문도 맡고 있다.
 그리고 [올 한해만 인공지능 및 Biotech 관련 특강, 세미나, 기업 기술자문 등을 50여 회 하였다](/#sem){:target="_blank"}.
