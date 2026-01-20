@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Thu Jan 15 00:41:42 PST 2026
+last_modified_at: Tue Jan 20 01:37:29 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -134,7 +134,10 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 
 # Here and Now {#here-and-now}
 
-I am currently the Co-Founder and Chief Technology Officer (CTO) of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}, an AI-Biotech company established in Silicon Valley, and the CEO of its Korean subsidiary, [Erudio Bio Korea](https://sungheeyun-erudio.github.io){:target="_blank"}.
+I am currently the Co-Founder and Chief Technology Officer (CTO) of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}, an AI-Biotech company established in Silicon Valley.
+<!--
+and the CEO of its Korean subsidiary, [Erudio Bio Korea](https://sungheeyun-erudio.github.io){:target="_blank"}.
+-->
 I am also the founding member and Leader of the [Silicon Valley Privacy-Preserving AI Forum (also known as K-PAI)](https://k-privateai.github.io/){:target="_blank"}, which brings together entrepreneurs, investors, engineers, scientists, and journalists from diverse fields in Silicon Valley. In addition, I serve as a [KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/newsroom/latest-news/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} of the 78-year-old nonprofit organization [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}, an advisor on the AI Task Force for [the Association of Korean Medicine](https://www.akom.org/English/Index){:target="_blank"}, a Visiting Professor in the Department of Electronic Engineering at Sogang University, an Advisory Professor in the Department of Electrical Engineering and Computer Science at Daegu Gyeongbuk Institute of Science & Technology (DGIST), and I also advise numerous companies. This year alone, [I delivered over 50 AI and biotech-related lectures, seminars, and corporate technology consultations](/#sem){:target="_blank"}.
 <!--
 Recently, [Erudio Bio received a million-dollar grant from the Gates Foundation](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}.
