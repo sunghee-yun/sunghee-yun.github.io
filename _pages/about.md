@@ -1,5 +1,5 @@
 ---
-last_modified_at: Mon Jan 19 15:35:48 PST 2026
+last_modified_at: Thu Jan 22 07:56:32 PST 2026
 layout: single
 title: About
 permalink: /about/
@@ -36,11 +36,9 @@ of <a target="_blank" href="https://www.dgist.ac.kr/en_eecs/">the Department of 
 @ <a target="_blank" href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 Network Expert Consultant
 @ <a target="_blank" href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
-Chief Business Development Officer (CBDO)
-@ <a target="_blank" href="https://westory.ai/">WeStory.ai, CA, USA</a>,
 and
-Advisor
-@ <a target="_blank" href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>.
+Chief Business Development Officer (CBDO)
+@ <a target="_blank" href="https://westory.ai/">WeStory.ai, CA, USA</a>.
 
 Before founding the new AI biotech company,
 I co-founded <a href="https://www.gausslabs.ai/">Gauss Labs, Inc.</a>, an industrial AI company,

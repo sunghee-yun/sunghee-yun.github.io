@@ -1,8 +1,8 @@
 ---
+date: Thu Sep  4 17:36:00 PDT 2025
+last_modified_at: Thu Jan 22 08:07:48 PST 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
-date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Mon Sep  8 01:39:02 PDT 2025
 categories:
  - blog
  - Cognitive Science
@@ -42,7 +42,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 # The Seductive Completeness of Incomplete Information
 
-Standing in the research lab of [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/) in Lyon, France, engaged in deep discussions about homomorphic encryption and AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious: the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
+Engaged in deep discussions about AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious: the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
 
 This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung](https://www.samsung.com/) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/): <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
 
@@ -162,7 +162,7 @@ As we enter [the Age of Agentic AI](/ai/data), this principle becomes increasing
 
 The danger isn't that AI provides wrong answers&mdash;that would be manageable. The danger is that AI provides partial information that feels complete, triggering our pattern-completion mechanisms to construct elaborate, confident, but incorrect mental models about reality.
 
-My work on private AI at [CryptoLab](https://www.cryptolab.co.kr/en/) as an advisor addresses one aspect of this challenge
+My work on private AI addresses one aspect of this challenge
 &ndash;
 ensuring that AI systems can operate on sensitive data without revealing information that could trigger harmful inferences. But the broader challenge requires rethinking how we design human-AI interfaces to preserve appropriate uncertainty rather than create false confidence.
 

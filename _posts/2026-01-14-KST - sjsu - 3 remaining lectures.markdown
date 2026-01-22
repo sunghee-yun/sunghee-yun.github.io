@@ -1,6 +1,6 @@
 ---
 date: Wed Jan 14 08:46:00 PST 2026
-last_modified_at: Wed Jan 14 08:53:37 PST 2026
+last_modified_at: Thu Jan 22 08:16:43 PST 2026
 title: "THREE remaining lectures for Kyungpook National University Students"
 permalink: /ai-lecture/sjsu/3
 categories:
@@ -75,7 +75,7 @@ The original summary of feedback can be found at <a target="_blank" href="https:
 4. **Retrieval Strategy - Where Theory Meets Reality**
    - **K parameter tuning:** "K=5 vs K=20, how do you decide?"
    - **Re-ranking layer:** "Cross-encoder models like Cohere Rerank - why add 50ms latency?"
-   - **Query transformation:** 
+   - **Query transformation:**
      - HyDE (Hypothetical Document Embeddings)
      - Query decomposition for complex questions
      - Example: "What's our Q3 sales in Seoul vs Busan?" → 3 sub-queries
@@ -242,7 +242,7 @@ The original summary of feedback can be found at <a target="_blank" href="https:
    - **Copilot Individual: $10/month** (completely new revenue stream)
    - **Copilot Business: $19/user/month** (2x the base subscription)
    - **Key insight:** "They didn't replace existing product, they augmented it"
-   - **Unit economics:** 
+   - **Unit economics:**
      - COGS per user: ~$3-5/month (API costs to OpenAI/Anthropic)
      - Gross margin: ~50-70% (vs 90%+ for traditional SaaS)
      - **Why acceptable:** "Volume + strategic value > margin"
@@ -310,7 +310,7 @@ The original summary of feedback can be found at <a target="_blank" href="https:
    - **Old world:** "It takes years to build feature X"
    - **AI world:** "It takes weeks to add AI-powered feature X"
    - **Result:** "Differentiation collapses - everyone has AI autocomplete, AI summarization, AI search"
-   - **Example:** 
+   - **Example:**
      - Notion added Notion AI
      - Confluence added AI
      - Coda added AI
@@ -610,12 +610,11 @@ The original summary of feedback can be found at <a target="_blank" href="https:
   - "Every time I want to quit, I remember: this could detect cancer 2 years earlier for someone"
   - "And - I'm unemployable now. Can't go back to corporate after this" (laugh)
 
-**6. Parallel Roles - K-PAI, WeStory.ai, CryptoLab**
+**6. Parallel Roles - K-PAI, WeStory.ai**
 - **Why I do multiple things:**
   - "One company is risky - diversifying effort and learning"
   - "K-PAI: Policy influence + network in Korea's AI ecosystem"
   - "WeStory.ai: Creative AI applications, different from biotech"
-  - "CryptoLab: Privacy-preserving AI - the future of healthcare AI"
 - **Time management (be real):**
   - "I don't sleep 8 hours. More like 5-6."
   - "I say no to 90% of opportunities"
@@ -693,7 +692,7 @@ The original summary of feedback can be found at <a target="_blank" href="https:
    - CS degree from top university (SKY in Korea helps, but not required)
 
 2. **Internship is critical**
-   - **How to get:** 
+   - **How to get:**
      - Apply directly (low success rate, ~1-2%)
      - Referrals (someone inside refers you - 10x better odds)
      - Company-sponsored programs (Google STEP, Meta University)
@@ -797,7 +796,7 @@ The original summary of feedback can be found at <a target="_blank" href="https:
 - You're okay with 90% chance of failure
 
 **Silicon Valley vs. Korea:**
-- **Silicon Valley pros:** 
+- **Silicon Valley pros:**
   - Access to capital ($2M seed rounds common)
   - Ecosystem support (accelerators, mentors, talent)
   - Failure is acceptable (expected, even)

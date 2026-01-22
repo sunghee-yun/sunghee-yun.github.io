@@ -1,9 +1,9 @@
 ---
+date: Sat Mar 15 16:22:53 PDT 2025
+last_modified_at: Thu Jan 22 08:01:46 PST 2026
 layout: single
 title: More About Me
 permalink: /about/more/
-date: Sat Mar 15 16:22:53 PDT 2025
-last_modified_at: Tue Jan 13 15:32:41 PST 2026
 toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
@@ -83,11 +83,10 @@ of <a target="_blank" href="https://www.dgist.ac.kr/en_eecs/">the Department of 
 @ <a target="_blank" href="https://bk4semicon.sogang.ac.kr/kor/main/">Innovative Future Brain-Inspired Intelligence System Semiconductor of Sogang University</a>,
 Network Expert Consultant
 @ <a target="_blank" href="https://glginsights.com/">Gerson Lehrman Group, Inc.</a>,
-Chief Business Development Officer (CBDO)
-@ <a target="_blank" href="https://westory.ai/">WeStory.ai, CA, USA</a>,
 and
-Advisor
-@ <a target="_blank" href="https://www.cryptolab.co.kr/en/home/">CryptoLab, Inc.</a>&mdash;across too many domains, they're all interconnected threads of the same intellectual fabric.
+Chief Business Development Officer (CBDO)
+@ <a target="_blank" href="https://westory.ai/">WeStory.ai, CA, USA</a>&mdash;across too many domains,
+they're all interconnected threads of the same intellectual fabric.
 
 # The Convergence - AI, Data, Cryptography, and Biotech
 
@@ -131,28 +130,6 @@ With this foundation, Erudio Bio can:
 &nbsp;
 </div>
 
-# The Connection to Private AI
-
-The moment we engage with biological or medical data, we encounter privacy challenges
-as well as similar to those in high-tech industries like semiconductor fabrication;
-I have first-hand experience with this while working for [Gauss Labs, Inc.](https://www.gausslabs.ai/) as CTO for 3 years.
-This explains my role as Advisor at [CryptoLab](https://www.cryptolab.co.kr/en/)&mdash;not a coincidence but an inevitability.
-
-[CryptoLab](https://www.cryptolab.co.kr/en/) provides essential toolkits for private AI&mdash;enabling model training on privacy-sensitive data
-without compromising security, confidentiality, or privacy.
-This connection prompted me to found [the Silicon Valley Private AI Forum (K-PAI)](https://k-privateai.github.io/)
-with the CEO of [CryptoLab](https://www.cryptolab.co.kr/en/).
-
-Thus, the companies and forums I own or support through business development are all interconnected parts of a coherent vision.
-
-<div class="img-container-justified">
-&nbsp;
-	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-erudio-inv.svg">
-	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-k-on-pie.png">
-	<img width="47.00%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-crypto-lab.png">
-&nbsp;
-</div>
-
 # The Age of Agentic AI
 
 {% assign ai_data = site.posts | where: "permalink", "/ai/data" | first %}
@@ -163,10 +140,11 @@ In this era, domain expertise combined with the ability
 to leverage AI agents has become crucial—which explains my work with [WeStory.ai](https://westory.ai/).
 
 <div class="img-container-justified">
+&nbsp;
 	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-erudio-inv.svg">
 	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-k-on-pie.png">
-	<img width="47.00%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-crypto-lab.png">
 	<img width="15.67%" src="https://sungheeyun-photos-01.github.io/resource/org-logos/logo-we-story.webp">
+&nbsp;
 </div>
 
 # Beyond Technology - AI's Unprecedented Impact
@@ -244,7 +222,6 @@ Here are resources that provide deeper insight into my work and perspectives:
   - [Photos - Uncertain Futures and Connections Reimagined: Connecting Technologies](https://www.flickr.com/photos/salzburgglobal/albums/72177720322598730/)
   - [The Association of Korean Medicine](https://www.akom.org/)
   - [WeStory.ai](https://westory.ai/)
-  - [CryptoLab, Inc.](https://www.cryptolab.co.kr/en/)
 
 I hope this page helps you better understand my integrated vision and the interconnected nature of my work. :)
 
