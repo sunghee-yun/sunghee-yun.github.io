@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Special AI Lecture for Attorneys] The AI Paradigm Shift for Legal Minds - Silicon Valley Insights, Cognitive Science Foundations, and the Intersection of Logic and Pattern Recognition"
-permalink: /seminars/2026_0209 PST - The AI Paradigm Shift for Legal Minds/abstract
-last_modified_at: Tue Jan 20 17:06:02 PST 2026
+title: "[Special AI Lecture for Legal Professionals] The AI Paradigm Shift for Legal Minds - Silicon Valley Insights, Cognitive Science Foundations, and the Intersection of Logic and Pattern Recognition"
+permalink: /seminars/2026_0221 PST - The AI Paradigm Shift for Legal Minds/abstract
+last_modified_at: Thu Jan 22 07:39:58 PST 2026
 author_profile: true
 ---
 
