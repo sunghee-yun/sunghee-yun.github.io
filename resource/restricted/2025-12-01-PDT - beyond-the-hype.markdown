@@ -1,8 +1,8 @@
 ---
+date: Mon Dec  1 04:16:13 PST 2025
+last_modified_at: Sat Jan 24 11:57:33 PST 2026
 layout: single
 title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
-date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Sat Dec  6 00:28:35 PST 2025
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -58,27 +58,19 @@ But I knew it was *wrong* somehow.
 
 -->
 
-The Chime window opened, and Kabir's face filled my monitor—the brightest expression I'd ever seen from him.
+It was August 2019, one of the best months in Vancouver because of the almost perfect weather when, with the help of summer daylight saving time, we could enjoy sunshine even after 9pm. The sun shone brightly on my way to work, but I was extremely nervous about the A/B test results I was about to see. Each step toward YVR19 felt heavy—the previous A/B test had shown a slight revenue decrease from my newly deployed algorithm for the Amazon Mobile Shopping App Main Menu Personalization Project.
 
-It was December 2019, a grey Vancouver morning. My wife and daughter were still asleep. I was alone in my home office, staring at the screen, waiting for the words I'd been both hoping for and dreading for the past week.
+I arrived at the office. The same office I'd been coming to ever since I joined Amazon in July, 2017. I looked for an empty meeting room and put on my Bose headset—I loved it especially for its almost perfect noise cancelling. The Chime window opened on my screen, and Kabir's face appeared from Seattle. Amazon's internal chat and video tool had connected us for countless meetings, but I'd never seen him look this bright.
 
 "The A/B test results are in," Kabir said from his Seattle office.
 
-Seven days. That's how long we'd waited. Seven days to account for weekly patterns in customer behavior—Monday through Friday variations, weekend shopping habits. Seven days after three weeks of nightmare when our first algorithm version had *lost* revenue, when I'd hurt Amazon's business, when the three teams in Vancouver, Seattle, and San Francisco had worked around the clock analyzing what went wrong.
-
-Seven days to know if version two would work.
+Seven days. That's how long we'd waited. Seven days to account for weekly patterns in customer behavior—Monday through Friday variations, weekend shopping habits. Seven days after three weeks of nightmare when our first algorithm version had *lost* revenue, when the three teams in Vancouver, Seattle, and San Francisco had worked around the clock analyzing what went wrong.
 
 "Annual revenue increase through Amazon Mobile Shopping App," Kabir read from his screen, voice carefully controlled but unable to hide the excitement: "$207,133,371.12."
 
-I stared at the number.
+$207 million!
 
-$207 million.
-
-Two hundred and seven million dollars. Not profit—revenue. But revenue that wouldn't exist without my algorithm choosing the optimal main menus for each Amazon customer every day. Revenue from increased engagement, more pleasant shopping journeys, and better matches between what customers wanted and what they saw first.
-
-God, it worked brilliantly.
-
-I should have felt triumphant. Three years earlier, I'd left a comfortable position at Samsung to join Amazon specifically for moments like this—applying AI at scale that mattered, touching hundreds of millions of lives, and generating measurable impact.
+I should have felt triumphant. Three years earlier, I'd left Samsung to join Amazon specifically for moments like this—applying AI at scale that mattered, touching hundreds of millions of lives, and generating measurable impact.
 
 The mathematics had worked perfectly. Collaborative filtering combined with content-based filtering, customized statistical methods solving the cold-start problem, and algorithms tested and refined until they provably improved customer experience.
 
