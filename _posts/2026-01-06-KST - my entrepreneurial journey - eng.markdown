@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Sun Jan 25 01:19:50 PST 2026
+last_modified_at: Sun Jan 25 03:11:36 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -39,27 +39,27 @@ This article was published in the
 issued by the [Busan Metropolitan City Office of Gifted Student Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
-<!--div class="img-container-justified">
+<div class="img-container-justified">
 	<div id="podcast-seminars-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Connecting Dots - Sunghee_Yun</strong>
-			<span style="opacity: 0.8;">(08:01)</span>
+			<strong>From Math to Life Sciences</strong>
+			<span style="opacity: 0.8;">(07:52)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Connecting_Dots__Sunghee_Yun.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/From_Math_to_Life_Sciences.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
 	</div>
 	<div id="podcast-podcast-video-02" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; width: 49%; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Math to Life Science</strong>
-			<span style="opacity: 0.8;">(02:09)</span>
+			<strong>The Journey of a Connector</strong>
+			<span style="opacity: 0.8;">(02:18)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<video width="100%" controls>
-				<source type="video/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_to_Life_Science.mp4">
+				<source type="video/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/The_Journey_of_a_Connector.mp4">
 				Your browser does not support this video element.
 			</video>
 		</div>
@@ -69,24 +69,24 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Math Optimization Solves Health Crises</strong>
-			<span style="opacity: 0.8;">(15:17)</span>
+			<strong>Deep Dive - Optimizing Chips, Amazon Carts, and Cancer Cells</strong>
+			<span style="opacity: 0.8;">(15:53)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_Solves_Health_Crises.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/Deep Dive - Optimizing_Chips,_Amazon_Carts,_and_Cancer_Cells.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Math Optimization From Chips to Cures</strong>
-			<span style="opacity: 0.8;">(38:14)</span>
+			<strong>Deep Dive - Treating Cancer Cells Like Silicon Chips</strong>
+			<span style="opacity: 0.8;">(35:44)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Math_Optimization_From_Chips_to_Cures.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/Deep Dive - Treating_Cancer_Cells_Like_Silicon_Chips.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -96,29 +96,29 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - Technical Anchor Versus Connector Success</strong>
-			<span style="opacity: 0.8;">(13:18)</span>
+			<strong>Debate - Can Convex Optimization Solve Biological Chaos?</strong>
+			<span style="opacity: 0.8;">(16:23)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-debate" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Technical_Anchor_Versus_Connector_Success.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/Debate - Can_Convex_Optimization_Solve_Biological_Chaos.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Critique - Optimization The Constant Unifying Career Pivots</strong>
-			<span style="opacity: 0.8;">(11:05)</span>
+			<strong>Debate - Optimizing Drug Discovery With Chip Logic</strong>
+			<span style="opacity: 0.8;">(06:38)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-critique" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Optimization_The_Constant_Unifying_Career_Pivots.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-01-06-KST - my entrepreneurial journey - eng/Debate - Optimizing_Drug_Discovery_With_Chip_Logic.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
-</div-->
+</div>
 
 # Here and Now {#here-and-now}
 
