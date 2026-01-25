@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Sun Jan 25 03:11:36 PST 2026
+last_modified_at: Sun Jan 25 03:22:54 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -132,10 +132,10 @@ Recently, [Erudio Bio received a million-dollar grant from the Gates Foundation]
 -->
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
 </div>
 
-<figcaption>
+<figcaption style="width: 100%;">
 In December 2024,
 I attended a 5-day Forum at the historic
 <a target="_blank" href="https://maps.app.goo.gl/rEZ5F2kXRrPEJiwZ6">Schloss Leopoldskron</a>,
@@ -170,7 +170,7 @@ How many people in the world experience this type of thrilling and excitement, s
 while turning the pages of a math book?
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
 </div>
 
 When entering university, what I most wanted to study was mathematics, followed by physics, and then electrical engineering (EE). However, following the guidance of my homeroom teacher and my father, I entered the Department of Electrical Engineering at Seoul National University. Looking back, this was the best (ever) choice in my life time. I discovered during my university studies that I was someone who loved the extremely abstract discipline of mathematics while also finding great joy and fulfillment in creating practical changes in the world. My childhood immersion in programming was probably because it satisfied both of these aspects. Being able to learn so-called semiconductor technology—the greatest technology ever invented by humanity in the 20th century—and various disciplines derived from it, including engineering mathematics, circuit theory, electronic circuits, electromagnetism, radio engineering, and semiconductor engineering, was another great fortune.
@@ -346,7 +346,7 @@ This was the true liberation only an entrepreneur can enjoy.
 At last, for the very first time throughout my whole life, I became the genuine, truly authentic, and perfectly complete <span class="emph">owner</span> of my life.
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
 </div>
 
 I immediately began maximally utilizing these amazing opportunities.
@@ -606,15 +606,15 @@ Therefore, I'm living a successful life at this very moment.
 And this is True for you, and (hence) for all of us!
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
 </div>
 
 [Sunghee
 <br>
 <br>
 Co-Founder & CTO @ Erudio Bio, Inc
-<br>
-Co-Founder & CEO @ Erudio Bio Korea, Inc.
+<!--br>
+Co-Founder & CEO @ Erudio Bio Korea, Inc.-->
 <br>
 Leader of Silicon Valley Privacy-Preserving AI Forum (K-PAI)
 <br>

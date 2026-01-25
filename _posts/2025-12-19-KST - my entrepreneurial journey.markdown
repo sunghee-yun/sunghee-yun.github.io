@@ -1,6 +1,6 @@
 ---
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sun Jan 25 00:47:09 PST 2026
+last_modified_at: Sun Jan 25 03:20:15 PST 2026
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
@@ -148,10 +148,10 @@ The English translation of this article can be found at [{{ eng_version.title }}
 -->
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/2024/12/Lyon & Salzburg/flickr - S849 - 01 | Uncertain Futures and Connections Reimagined - Connecting Technologies/s849---01--uncertain-futures-and-connections-reimagined-connecting-technologies_54208369825_o-50-reduced.jpg">
 </div>
 
-<figcaption>
+<figcaption style="width: 100%;">
 2024년 12월,
 78년 전통의 비영리단체인
 <a target="_blank" href="https://www.salzburgglobal.org/">Salzburg Global Seminar</a>가
@@ -204,7 +204,7 @@ Fellow들과
 수학 책을 넘기며 설레는 경험을 하는 사람이 세상에 몇이나 될까?
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_0507 KST - Sungkyunkwan University AI Seminar - AI Renaissance - New Paradigms of Knowledge, Business Innovation, and Social Architecture/photos/KakaoTalk_Photo_2025-05-07-19-23-15-40-reduced.jpeg">
 </div>
 
 대학 진학 시 내가 가장 하고 싶었던 공부는 수학이였고 두번째는 물리학 그리고 세번째가 전자공학이었다.
@@ -388,7 +388,7 @@ CTO로서, 기술 리더로서, 나는 기술 비전을 제시하고 팀을 이�
 이렇게 비로소 난 내 인생 처음으로 내 삶의 진정한 그리고 온전한 주인이 되었다.
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/seminars/2025_1107 KST - IFEZ X K-BioX - ABDD Summit in Song-do/photos/DRD_2473.JPG">
 </div>
 
 나는 이 소중한 기회를 놓칠세라 십분 활용하기 시작했다.
@@ -551,15 +551,15 @@ K-PAI라는 새로운 생태계를 창조하게 되었다.
 그리고 이것은 당신에게도, 그리고 우리 모두에게 진실이다!
 
 <div class="img-container">
-	<img style="max-width: 90%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
+	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Screenshot 2026-01-01 at 8.31.11 PM-50-reduced.png">
 </div>
 
 [윤성희
 <br>
 <br>
 에루디오바이오 공동창업자 겸 최고기술책임자(CTO)
-<br>
-에루디오바이오코리아 대표이사(CEO)
+<!--br>
+에루디오바이오코리아 대표이사(CEO)-->
 <br>
 K-PAI 리더
 <br>
