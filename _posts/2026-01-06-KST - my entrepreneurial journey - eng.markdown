@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Sun Jan 25 03:22:54 PST 2026
+last_modified_at: Sun Jan 25 08:31:49 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -93,7 +93,7 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 	</div>
 </div>
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Debate - Can Convex Optimization Solve Biological Chaos?</strong>
@@ -118,7 +118,7 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 			</audio>
 		</div>
 	</div>
-</div>
+</div-->
 
 # Here and Now {#here-and-now}
 
