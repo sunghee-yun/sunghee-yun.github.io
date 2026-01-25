@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Tue Jan 20 01:37:29 PST 2026
+last_modified_at: Sun Jan 25 01:19:50 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -39,7 +39,7 @@ This article was published in the
 issued by the [Busan Metropolitan City Office of Gifted Student Education Promotion Institute](https://home.pen.go.kr/giftedu/main.do){:target="_blank"}.
 {: .notice--warning}
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div id="podcast-seminars-video-01" style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Connecting Dots - Sunghee_Yun</strong>
@@ -118,19 +118,7 @@ issued by the [Busan Metropolitan City Office of Gifted Student Education Promot
 			</audio>
 		</div>
 	</div>
-	<!--div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Critique - Writing the Uncertainty of Career Pivots</strong>
-			<span style="opacity: 0.8;">(11:12)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-critique" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/posts/2025-12-19-KST - my entrepreneurial journey/Writing_the_Uncertainty_of_Career_Pivots.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div-->
-</div>
+</div-->
 
 # Here and Now {#here-and-now}
 
