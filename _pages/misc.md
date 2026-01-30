@@ -1,5 +1,5 @@
 ---
-last_modified_at: Mon Jan 19 01:44:53 PST 2026
+last_modified_at: Fri Jan 30 23:17:11 KST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -296,6 +296,26 @@ toc_sticky: true
 		&ndash; from AUS-Austin-Bergstrom Intl. @ 5:58pm 14-Feb-2026 SFO to SJC @ 8:08pm on 14-Feb-2026 PST
 		(4h 10m)
 	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}!
+
+<h4>Jan</h4>
+
+- biz trip to Seoul &ndash; 11 nights
+	- 27-Jan-2026 PST ~ 07-Feb-2026 PST &ndash; [flight invoice](/resource/trips/2026-01 - biz trip to Seoul/www.expedia.com-egti-IYP-IWP-1J8U.pdf){:target="_blank"}
+	- flight
+		&ndash; United 805
+		&ndash; from SFO @ 11:45pm on 27-Jan-2026 PST to ICN @ 5:40am on 29-Jan-2026 KST
+		(12h 55m)
+	- return flight
+		&ndash; United 892
+		&ndash; from ICN @ 6pm KST to SFO @ 11:35am PST on 07-Feb-2026
+		(10h 35m)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- 1 day trip to Daejeon and Jeonju to visit BSR Korea &amp; Jeonbuk office
+		- 05-Feb-2026
+		- KTX 209 &ndash; from Gwangmyeong @ 10:26am to Daejeon @ 11:12am [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 42,400 - KTX - Gwangmyeong to Daejeon - Sunghee & Jinyoung.pdf){:target="_blank"}
+		- SRT 332 &ndash; from Daejeon @ 2:16pm to Osong @ 2:32pm &amp; SRT 611 &ndash; from Osong @ 2:51pm to Iksan @ 3:19pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 58,600 - SRT - Daejeon to Iksan - Sunghee & Jinyoung.pdf){:target="_blank"}
+		- KTX-산천 518 &ndash; from Iksan @ 6:16pm to Gwangmyeong @ 7:18pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 60,200 - KTX - Iksan to Gwangmyeong - Sunghee & Jinyoung.pdf){:target="_blank"}
+
 
 ## 2021 &#126; 2025 {#trips-2021-2025}
 
