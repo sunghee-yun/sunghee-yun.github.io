@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Jan 30 23:17:11 KST 2026
+last_modified_at: Sat Jan 31 13:29:17 KST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -585,19 +585,19 @@ toc_sticky: true
 	- <div class="foldable-toggle">photos</div>
 		<div class="foldable-content">
 			<div class="img-container">
-			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-55 001.jpeg">
+			<img src="https://sungheeyun-photos-01.github.io/resource/2025/04/06 - LA/KakaoTalk_Photo_2025-04-07-02-12-55 001-25-reduced.jpeg">
 			</div>
 			<div class="img-container">
-			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 002.jpeg">
+			<img src="https://sungheeyun-photos-01.github.io/resource/2025/04/06 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 002-25-reduced.jpeg">
 			</div>
 			<div class="img-container">
-			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 003.jpeg">
+			<img src="https://sungheeyun-photos-01.github.io/resource/2025/04/06 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 003-25-reduced.jpeg">
 			</div>
 			<div class="img-container">
-			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 004.jpeg">
+			<img src="https://sungheeyun-photos-01.github.io/resource/2025/04/06 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 004-25-reduced.jpeg">
 			</div>
 			<div class="img-container">
-			<img src="/resource/trips/2025-04 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 005.jpeg">
+			<img src="https://sungheeyun-photos-01.github.io/resource/2025/04/06 - LA/KakaoTalk_Photo_2025-04-07-02-12-56 005-25-reduced.jpeg">
 			</div>
 		</div>
 
