@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sat Jan 31 13:29:17 KST 2026
+last_modified_at: Thu Feb  5 19:06:54 KST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -313,7 +313,7 @@ toc_sticky: true
 	- 1 day trip to Daejeon and Jeonju to visit BSR Korea &amp; Jeonbuk office
 		- 05-Feb-2026
 		- KTX 209 &ndash; from Gwangmyeong @ 10:26am to Daejeon @ 11:12am [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 42,400 - KTX - Gwangmyeong to Daejeon - Sunghee & Jinyoung.pdf){:target="_blank"}
-		- SRT 332 &ndash; from Daejeon @ 2:16pm to Osong @ 2:32pm &amp; SRT 611 &ndash; from Osong @ 2:51pm to Iksan @ 3:19pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 58,600 - SRT - Daejeon to Iksan - Sunghee & Jinyoung.pdf){:target="_blank"}
+		- ~~SRT 332 &ndash; from Daejeon @ 2:16pm to Osong @ 2:32pm &amp;~~ SRT 611 &ndash; from Osong @ 2:51pm to Iksan @ 3:19pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 58,600 - SRT - Daejeon to Iksan - Sunghee & Jinyoung.pdf){:target="_blank"}
 		- KTX-산천 518 &ndash; from Iksan @ 6:16pm to Gwangmyeong @ 7:18pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 60,200 - KTX - Iksan to Gwangmyeong - Sunghee & Jinyoung.pdf){:target="_blank"}
 
 
