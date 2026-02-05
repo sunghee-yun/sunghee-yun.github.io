@@ -1,7 +1,7 @@
 ---
 title: "Nor is Full Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Thu Feb  5 19:04:49 KST 2026
+last_modified_at: Thu Feb  5 23:14:01 KST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -33,6 +33,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign strategic_ignorance = site.posts | where: "permalink", "/prajna/wisdom-of-strategic-ignorance" | first %}
 {% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
 {% assign musical_notes = site.posts | where: "permalink", "/prajna/wonders/richness-of-musical-notes" | first %}
+{% assign salzburg = site.posts | where: "permalink", "/ai/bridging-technology-and-humanity" | first %}
 
 {: .notice--success}
 This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}).
@@ -121,15 +122,15 @@ The context required for true understanding extends backward through time and ou
 
 ## Medical Diagnosis and the Context Problem
 
-My work at [Erudio Bio, Inc.](https://www.erudio.bio/) developing AI-powered diagnostic platforms makes this viscerally real. Imagine having complete biomarker information about a patient—every measurable physiological parameter, perfectly accurate, comprehensively documented. Every cell count, every protein level, every metabolite concentration, every gene expression pattern.
+My work at [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"} developing AI-powered diagnostic platforms makes this viscerally real. Imagine having complete biomarker information about a patient—every measurable physiological parameter, perfectly accurate, comprehensively documented. Every cell count, every protein level, every metabolite concentration, every gene expression pattern.
 
 Sounds like it should be sufficient for diagnosis and treatment, right?
 
-But consider two patients with identical biomarker profiles. Same cancer markers, same inflammatory indicators, same metabolic signatures. Complete informational identity.
+But consider two patients with identical biomarker profiles. The same cancer markers, the same inflammatory indicators, and the same metabolic signatures. The complete informational identity.
 
 Yet one patient developed this condition following decades of exposure to a particular environmental toxin in their workplace—a slow accumulation that primed their cellular systems in specific ways. The other developed it through a genetic predisposition activated by acute stress—a different pathway to the same present state.
 
-The treatment that works optimally for one may be suboptimal or even harmful for the other, not because their current states differ (they don't—we stipulated complete informational identity), but because the historical pathways that brought them to those states were different. The same medication interacts differently with cellular systems that arrived at their current state through different trajectories.
+The treatment that works optimally for one may be suboptimal or even harmful for the other, not because their current states differ (they don't—we stipulated the complete informational identity), but because the historical pathways that brought them to those states were different. The same medication interacts differently with cellular systems that arrived at their current state through different trajectories.
 
 <span class="emph">Complete present information without historical context remains insufficient for optimal treatment decisions</span>. The biomarker data, however comprehensive, doesn't capture the invisible history written into the cellular memory of the organism.
 
@@ -139,15 +140,15 @@ This has profound implications for how we develop and deploy AI systems in healt
 
 An AI diagnostic system trained on complete biomarker data might achieve high accuracy in predicting diagnoses and recommending treatments. But it does so through statistical correlation, not causal understanding. It cannot truly understand the patient because it lacks access to the infinite contextual backdrop required for such understanding.
 
-This doesn't mean AI diagnostic systems aren't valuable—they absolutely are, as our work at Erudio Bio demonstrates. But it means we must understand their limitations. They optimize within the data space they're given, but <span class="emph">they cannot compensate for the fundamental insufficiency of that data space, however complete it may appear</span>.
+This doesn't mean AI diagnostic systems aren't valuable—they absolutely are, as our work at [Erudio Bio](https://www.erudio.bio){:target="_blank"} demonstrates. But it means we must understand their limitations. They optimize within the data space they're given, but <span class="emph">they cannot compensate for the fundamental insufficiency of that data space, however complete it may appear</span>.
 
-Human physicians, through intuition shaped by experience and perhaps something deeper—call it wisdom—sometimes grasp contextual factors that transcend the available data. This isn't mysticism; it's recognition that understanding operates at a level that complete information alone cannot reach.
+Human physicians, through intuition shaped by experience and perhaps something deeper—call it wisdom, insight, experience, or know-how—sometimes grasp contextual factors that transcend the available data. This isn't mysticism; it's recognition that understanding operates at a level that complete information alone cannot reach.
 
 # The Capacity and Integration Problem
 
 ## Two Quantum Mechanics Experts
 
-Let me now explore a different dimension of why complete information remains insufficient: the problem of cognitive capacity and integration.
+Let me now explore a different dimension of why complete information remains insufficient &ndash; the problem of cognitive capacity and integration.
 
 Consider two individuals who have read and thoroughly studied the same ten textbooks on quantum mechanics. Both have memorized every equation, understand every derivation, can solve every problem, have achieved perfect scores on comprehensive examinations. By any standard measure of information acquisition, they possess identical knowledge.
 
@@ -159,15 +160,15 @@ Why?
 
 ## The Background Knowledge Dimension
 
-The first explanation: <span class="emph">background knowledge matters</span>.
+The first explanation &ndash; <span class="emph">background knowledge matters</span>.
 
 Perhaps the superior researcher also deeply understood classical mechanics, theories of relativity, string theory, mathematical topology, computational physics, chemistry, materials science—a vast web of interconnected knowledge that, while not explicitly "quantum mechanics," provides cognitive scaffolding for quantum insights.
 
 Quantum mechanics doesn't exist in isolation. It connects to and draws upon numerous other domains. The researcher who can fluidly move between quantum principles and related fields, who can see analogies and connections that span disciplines, who can import insights from one domain into another—this researcher has an advantage that complete knowledge of quantum mechanics alone cannot provide.
 
-Think of it like this: if understanding quantum mechanics is building a skyscraper, then related knowledge is the foundation and supporting infrastructure. You can have perfect plans for the skyscraper itself (complete information about quantum mechanics), but without the broader foundation (contextual knowledge from related fields), the structure won't stand tall or stable.
+Think of it like this &ndash; if understanding quantum mechanics is building a skyscraper, then related knowledge is the foundation and supporting infrastructure. You can have perfect plans for the skyscraper itself (complete information about quantum mechanics), but without the broader foundation (contextual knowledge from related fields), the structure won't stand tall or stable.
 
-This connects to my own journey from [Convex Optimization at Stanford](/math/cvxopt/) through [Semiconductor Design at Samsung](/about) to [AI Development at Amazon](https://www.aboutamazon.com/) to [Biotech Innovation at Erudio Bio](https://www.erudio.bio/). At each stage, the knowledge from previous domains didn't just add to my capabilities—it fundamentally transformed how I could approach problems in the new domain. The optimization principles I learned under [Professor Stephen Boyd](https://web.stanford.edu/~boyd/) at Stanford weren't just "useful" in biotech—they provided a way of seeing biological systems that I couldn't have accessed through biology training alone.
+This connects to my own journey from [Convex Optimization at Stanford](/contributions/my-entrepreneurial-journey/en#stephen-boyd){:target="_blank"} through [Semiconductor Design at Samsung](/contributions/my-entrepreneurial-journey/en#samsung){:target="_blank"} to [AI Development at Amazon](/contributions/my-entrepreneurial-journey/en#amazon){:target="_blank"} to [Biotech Innovation at Erudio Bio](/contributions/my-entrepreneurial-journey/en#ai-revolution-for-humanity){:target="_blank"}. At each stage, the knowledge from previous domains didn't just add to my capabilities—it fundamentally transformed how I could approach problems in the new domain. The optimization principles I learned under [Professor Stephen Boyd](https://web.stanford.edu/~boyd/){:target="_blank"} at Stanford weren't just "useful" in biotech—they provided a way of seeing biological systems that I couldn't have accessed through biology training alone.
 
 ## The Innate Capacity Problem
 
@@ -177,30 +178,30 @@ Yet the first researcher *still* produces superior work, though perhaps the gap 
 
 Why?
 
-Here we encounter something more fundamental: <span class="emph">innate cognitive capacity</span> or what we might call the ability to synthesize, integrate, and generate novel insights from given information.
+Here we encounter something more fundamental &ndash; <span class="emph">innate cognitive capacity</span> or <span class="emph">what we might call the ability to synthesize, integrate, and generate novel insights from given information</span>.
 
-Whether this capacity stems from:
-- Genetic factors affecting neural architecture
-- Early developmental experiences shaping cognitive structures  
-- Lifetime accumulation of cognitive strategies and heuristics
-- Something we might call "talent" or "genius"
-- Or some combination of all these factors
+Whether this capacity stems from
+- genetic factors affecting neural architecture
+- early developmental experiences shaping cognitive structures  
+- lifetime accumulation of cognitive strategies and heuristics
+- something we might call &ldquo;talent&rdquo; or &ldquo;genius&rdquo;
+- or some combination of all these factors
 
-...doesn't change the fundamental point: <span class="emph">two individuals with identical complete information can derive different understandings from that information</span>.
+doesn't change the fundamental point &ndash; <span class="emph">two individuals with identical complete information can derive different understandings from that information</span>.
 
 ## The Synthesis Capacity Gap
 
-This isn't just about processing speed or memory capacity—computers can exceed humans in both. It's about something more subtle: the ability to see connections that aren't explicit in the information itself, to generate insights that transcend logical deduction from premises, to synthesize disparate elements into coherent new wholes.
+This isn't just about processing speed or memory capacity—computers can exceed humans in both. It's about something more subtle &ndash; the ability to see connections that aren't explicit in the information itself, to generate insights that transcend logical deduction from premises, to synthesize disparate elements into coherent new wholes.
 
-Consider [my experience with music](/prajna/wonders/richness-of-musical-notes). Two people might have identical information about music theory, identical hearing capabilities, identical exposure to musical performances. Yet one becomes a profound interpreter of Mozart while the other remains technically competent but emotionally flat. The difference isn't in the information possessed but in the capacity to integrate that information with lived experience, emotional sensitivity, and something ineffable we call musical understanding.
+Consider [my experience with music]({{ musical_notes.url }}){:target="_blank"}. Two people might have identical information about music theory, identical hearing capabilities, identical exposure to musical performances. Yet one becomes a profound interpreter of Mozart while the other remains technically competent but emotionally flat. The difference isn't in the information possessed but in the capacity to integrate that information with lived experience, emotional sensitivity, and something ineffable we call musical understanding.
 
-When I [played Mozart's sonatas at Schloss Leopoldskron in Salzburg](/ai/bridging-technology-and-humanity), I wasn't drawing on information about Mozart that others didn't have access to. The insight I gained—about the relationship between mathematical structure and emotional expression, between technical precision and human meaning—came from a synthesis that transcended the sum of available information.
+When I [played Mozart's sonatas at Schloss Leopoldskron in Salzburg]({{ salzburg.url }}){:target="_blank"}, I wasn't drawing on information about Mozart that others didn't have access to. The insight I gained—about the relationship between mathematical structure and emotional expression, between technical precision and human meaning—came from a synthesis that transcended the sum of available information.
 
 ## The AI Synthesis Problem
 
 This illuminates a deeper problem with the vision of AI achieving human-level understanding through sufficient data. Even if we could provide an AI system with truly complete information—about quantum mechanics, about New York City, about human emotion, about anything—<span class="emph">the AI's capacity to integrate that information into understanding may be fundamentally constrained by its architecture</span>.
 
-As I detailed in my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}), current LLMs are sophisticated conditional probability estimators, not genuine understanding systems. They can generate text that appears to demonstrate understanding because they've been trained on vast amounts of human-generated understanding-demonstrations. But the synthesis, the genuine integration of information into novel insight—that remains beyond their current capabilities.
+As I detailed in my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}, current LLMs are sophisticated conditional probability estimators, not genuine understanding systems. They can generate text that appears to demonstrate understanding because they've been trained on vast amounts of human-generated understanding-demonstrations. But the synthesis, the genuine integration of information into novel insight—that remains beyond their current capabilities.
 
 This isn't a limitation of data quantity or computational power. It's a limitation of <span class="emph">the type of cognitive operation being performed</span>. Pattern matching, however sophisticated, differs qualitatively from the synthetic insight that generates genuinely new understanding.
 
@@ -208,27 +209,29 @@ This isn't a limitation of data quantity or computational power. It's a limitati
 
 ## The Mystery of Emotional Resonance
 
-In my exploration of [{{ musical_notes.title }}]({{ musical_notes.url }}), I grappled with a fascinating puzzle: how does music—fundamentally just variations in air pressure, representable as a one-dimensional time-series function—create such profound emotional and intellectual experiences?
+In my exploration of [{{ musical_notes.title }}]({{ musical_notes.url }}){:target="_blank"}, I grappled with a fascinating puzzle &ndash; how does music—fundamentally just variations in air pressure, representable as a one-dimensional time-series function—create such profound emotional and intellectual experiences?
 
-You could have complete information about a Mozart sonata: every frequency, every amplitude, every temporal relationship, every harmonic structure, every compositional technique Mozart employed. You could know everything about acoustics, psychoacoustics, neuroscience of auditory processing, music theory, Mozart's biography, the cultural context of classical composition.
+You could have complete information about a Mozart sonata &ndash; every frequency, every amplitude, every temporal relationship, every harmonic structure, every compositional technique Mozart employed. You could know everything about acoustics, psychoacoustics, neuroscience of auditory processing, music theory, Mozart's biography, and the cultural context of classical composition.
 
-But <span class="emph">none of this complete information would be sufficient to understand what I felt playing that music in Salzburg, or what someone else might feel hearing it performed</span>.
+But <span class="emph">none of this complete information would be sufficient to understand what I felt playing that music in [Salzburg]({{ salzburg.url }}){:target="_blank"}, or what someone else might feel hearing it performed</span>.
 
 ## The Experience Gap
 
 The gap between information and understanding reveals itself most clearly in aesthetic and emotional experience. Complete neurological information about what happens in a brain during musical listening—every neuron firing, every neurotransmitter released, every neural pathway activated—still wouldn't capture the subjective experience of being moved by music.
 
-This isn't mysticism or dualism. It's recognition that understanding has dimensions that transcend information, however complete. The experiential dimension—the "what it's like" quality that philosophers call [qualia](https://en.wikipedia.org/wiki/Qualia)—resists reduction to informational content.
+This isn't mysticism or dualism. It's recognition that understanding has dimensions that transcend information, however complete. The experiential dimension—the "what it's like" quality that philosophers call [qualia](https://en.wikipedia.org/wiki/Qualia){:target="_blank"}—resists reduction to informational content.
 
 Two people with identical information about music, identical neurological responses, might still have profoundly different musical understanding because understanding involves not just having information but *living through* that information in ways that create meaning.
 
 ## Implications for AI and Consciousness
 
-This connects directly to why I argue that [current AI systems, regardless of their sophistication, don't truly "understand"]({{ ai_reason.url }}) in the way humans do. They lack the experiential dimension that transforms information into understanding.
+This connects directly to why I argue that [current AI systems, regardless of their sophistication, don't truly "understand"]({{ ai_reason.url }}){:target="_blank"} in the way humans do. They lack the experiential dimension that transforms information into understanding.
 
 An AI could have complete information about music—every piece ever written, every theoretical treatise, every acoustic principle. It could analyze and generate music with stunning sophistication. But it would lack the experiential substrate through which that information becomes understanding.
 
+<!--
 This isn't to say AI will never achieve such understanding—that remains an open question. But it suggests that <span class="emph">the path to machine understanding, if it exists, requires more than just accumulating complete information</span>. It requires developing whatever substrate enables information to become lived experience.
+-->
 
 # The Judicial and Social Implications
 
@@ -240,18 +243,18 @@ Modern legal systems have become increasingly sophisticated in evidence gatherin
 
 Yet judges and juries still disagree about appropriate verdicts and sentences even when presented with essentially identical evidence. <span class="emph">Why? Because judgment requires more than information</span>.
 
-Two judges with access to identical complete information about a case might render different verdicts not because one lacks information the other possesses, but because:
-- They bring different life experiences that shape their interpretation
-- They possess different capacities for empathy or skepticism
-- They hold different philosophical frameworks about justice, responsibility, and human nature
-- They have different abilities to synthesize complex evidence into coherent narratives
-- They are influenced by different cultural contexts that shape their understanding
+Two judges with access to identical complete information about a case might render different verdicts not because one lacks information the other possesses, but because
+- they bring different life experiences that shape their interpretation
+- they possess different capacities for empathy or skepticism
+- they hold different philosophical frameworks about justice, responsibility, and human nature
+- they have different abilities to synthesize complex evidence into coherent narratives
+- they are influenced by different cultural contexts that shape their understanding
 
 Complete information about the defendant's actions cannot, by itself, determine the appropriate societal response. That determination requires contextual understanding (the infinite regress problem I discussed earlier) and synthetic judgment (the capacity problem I outlined) that transcends information.
 
 ## The Wisdom Problem
 
-This brings us to what might be called the wisdom problem: <span class="emph">wisdom is not merely comprehensive knowledge</span>.
+This brings us to what might be called the wisdom problem &ndash; <span class="emph">wisdom is not merely comprehensive knowledge</span>.
 
 The wise person isn't necessarily the one who knows the most facts or possesses the most information. Wisdom involves knowing how to apply information appropriately, when to act on it and when to withhold action, which information matters and which is noise, how different pieces of information relate and interact.
 
@@ -261,13 +264,14 @@ This has profound implications for how we design social systems, particularly as
 
 I'm not arguing against using data to inform judicial decisions. <span class="emph">I'm arguing that we must recognize data's fundamental limitations and preserve human judgment as the ultimate arbiter</span>—precisely because human judgment (at its best) operates at the level of understanding and wisdom, not merely information processing.
 
+<!--
 # The Hierarchical Structure of Cognition
 
 ## From Data to Wisdom
 
 The classical epistemological hierarchy posits a progression:
 
-Data → Information → Knowledge → Understanding → Wisdom
+Data &rarr; Information &rarr; Knowledge &rarr; Understanding &rarr; Wisdom
 
 My argument can be understood as claiming that <span class="emph">these levels are not merely quantitative accumulations but qualitative transformations</span>. Each level requires something more than just having more of the previous level.
 
@@ -294,12 +298,13 @@ I think of it as an integration operation—not mathematical integration (though
 This integration operation might be what distinguishes human cognition at its best from even very sophisticated AI systems. When I've had genuine insights in my research—whether in [semiconductor optimization](/math/cvxopt/), [AI algorithm development](/ai/data), or [biotech innovation](https://www.erudio.bio/)—they haven't come from processing more information. They've come from moments of synthesis where previously separate elements suddenly cohered into new understanding.
 
 These moments feel qualitatively different from information processing. They have the character of revelation rather than deduction, of seeing rather than computing. And crucially, <span class="emph">they can't be forced or systematized</span>. You can create conditions conducive to insight—exposure to diverse domains, time for reflection, engagement with difficult problems—but you can't algorithmically generate insight from information inputs.
+-->
 
 # The Perspective and Framework Problem
 
 ## The Question You Don't Know to Ask
 
-Here's another dimension of insufficiency: <span class="emph">complete information only provides answers to questions you know to ask</span>.
+Here's another dimension of insufficiency &ndash; <span class="emph">complete information only provides answers to questions you know to ask</span>.
 
 If you don't know the right questions, complete information remains opaque. It's like having a vast library but not knowing which books are relevant to your inquiry, or indeed, not even knowing what you're trying to understand.
 
@@ -311,16 +316,16 @@ Similarly, centuries of data about inheritance patterns were available before Me
 
 ## The Framework Bootstrapping Problem
 
-But here's the deeper puzzle: how do you acquire the right framework if you need that framework to make sense of the information required to develop the framework?
+But here's the deeper puzzle &ndash; how do you acquire the right framework if you need that framework to make sense of the information required to develop the framework?
 
 This is a kind of cognitive bootstrapping problem. You need framework F to understand information I, but you need information I to develop framework F. How do you break into this circle?
 
-The history of scientific revolutions suggests that framework development often comes through:
-- Analogical reasoning from one domain to another
-- Creative intuitive leaps that aren't strictly logical
-- Recognition of patterns or anomalies that don't fit existing frameworks
-- Synthesis of perspectives from multiple domains
-- Sometimes, sheer serendipity
+The history of scientific revolutions suggests that framework development often comes through
+- analogical reasoning from one domain to another
+- creative intuitive leaps that aren't strictly logical
+- recognition of patterns or anomalies that don't fit existing frameworks
+- synthesis of perspectives from multiple domains
+- sometimes, sheer serendipity
 
 But none of these are reducible to information processing alone. They require the kind of creative synthetic capacity I discussed earlier—the ability to generate genuinely novel understanding rather than just processing existing information in predefined ways.
 
@@ -328,24 +333,24 @@ But none of these are reducible to information processing alone. They require th
 
 Moreover, for many domains, multiple frameworks might be valid for organizing the same information, leading to different but equally legitimate understandings.
 
-Consider understanding human behavior. You might use:
-- An economic framework (rational actors optimizing utility)
-- A psychological framework (cognitive biases and heuristics)
-- A sociological framework (social structures and norms)
-- A biological framework (evolutionary adaptations)
-- An existential framework (meaning-making and authenticity)
+Consider understanding human behavior. You might use
+- an economic framework (rational actors optimizing utility)
+- a psychological framework (cognitive biases and heuristics)
+- a sociological framework (social structures and norms)
+- a biological framework (evolutionary adaptations)
+- an existential framework (meaning-making and authenticity)
 
-Same complete information about human actions. Multiple valid frameworks for understanding those actions. Different insights, different predictions, different practical implications.
+The same complete information about human actions. Multiple valid frameworks for understanding those actions. Different insights, different predictions, different practical implications.
 
-<span class="emph">Which framework is "right"? Perhaps all of them, in different ways, for different purposes</span>. But this means that complete information about human behavior doesn't by itself determine the correct understanding—you also need to select (or create) the appropriate framework, and that selection itself requires meta-level understanding that transcends the information.
+<span>Which framework is "right"? Perhaps all of them, in different ways, for different purposes</span>. But this means that complete information about human behavior doesn't by itself determine the correct understanding—<span class="emph">you also need to select (or create) the appropriate framework, and that selection itself requires meta-level understanding that transcends the information.</span>
 
 # The Computational Intractability of Complete Understanding
 
 ## The Combinatorial Explosion
 
-Even setting aside all the philosophical problems I've raised, there's a more mundane but equally fundamental issue: <span class="emph">complete information may be computationally intractable to integrate into understanding</span>.
+Even setting aside all the philosophical problems I've raised, there's a more mundane but equally fundamental issue &ndash; <span class="emph">complete information may be computationally intractable to integrate into understanding</span>.
 
-Consider trying to truly understand New York City (returning to Professor Kane's example). Suppose you could somehow gather complete information: the thoughts of all 8 million residents at every moment, every transaction, every social interaction, every physical process, every historical event, every cultural artifact.
+Consider trying to truly understand New York City (returning to Professor Kane's example). Suppose you could somehow gather complete information &ndash; the thoughts of all 8 million residents at every moment, every transaction, every social interaction, every physical process, every historical event, every cultural artifact.
 
 The number of relationships between these information elements would be astronomical. Each element potentially relates to every other element. The causal chains would branch infinitely. The feedback loops would be impossibly complex.
 
@@ -355,13 +360,13 @@ This suggests that <span class="emph">even in principle, complete information mi
 
 ## The Heisenberg Uncertainty of Social Systems
 
-There's also a kind of social-epistemic uncertainty principle: the act of gathering complete information about a system often changes the system in ways that invalidate that information.
+There's also a kind of social-epistemic uncertainty principle &ndash; the act of gathering complete information about a system often changes the system in ways that invalidate that information.
 
 If I try to understand your motivations by asking you detailed questions, my questions influence your self-reflection in ways that alter your motivations. If I try to understand a market by measuring it, my measurements influence the market. If I try to understand a society by observing it, my observation changes the society.
 
-Complete information about social systems might be impossible not just practically but *in principle*—the measurement necessarily disturbs what's being measured in ways that make the information incomplete or inaccurate.
+The complete information about social systems might be impossible not just practically but *in principle*—the measurement necessarily disturbs what's being measured in ways that make the information incomplete or inaccurate.
 
-This is related to but distinct from [Heisenberg's uncertainty principle](https://en.wikipedia.org/wiki/Uncertainty_principle) in quantum mechanics. There, the uncertainty is fundamental to physical reality. Here, it's fundamental to the reflexive nature of conscious systems observing themselves.
+This is related to but distinct from [Heisenberg's uncertainty principle](https://en.wikipedia.org/wiki/Uncertainty_principle){:target="_blank"} in quantum mechanics. There, the uncertainty is fundamental to physical reality. Here, it's fundamental to the reflexive nature of conscious systems observing themselves.
 
 # The Integration with Previous Work
 
@@ -369,11 +374,11 @@ This is related to but distinct from [Heisenberg's uncertainty principle](https:
 
 This essay completes a trilogy of related investigations into the relationship between information and understanding:
 
-1. [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}): <span class="emph">Partial information can be worse than ignorance</span> because it triggers false confidence through pattern-completion mechanisms.
+1. [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}){:target="_blank"} &ndash; <span class="emph">Partial information can be worse than ignorance</span> because it triggers false confidence through pattern-completion mechanisms.
 
-2. This essay: <span class="emph">Complete information is insufficient for understanding</span> because understanding requires context, capacity, frameworks, and synthesis that transcend information.
+1. [This essay]({{ page.url }}): <span class="emph">Complete information is insufficient for understanding</span> because understanding requires context, capacity, frameworks, and synthesis that transcend information.
 
-3. The implicit conclusion: <span class="emph">The relationship between information and understanding is neither linear nor monotonic</span>. More information isn't always better (as essay #1 showed), and even complete information isn't sufficient (as this essay shows).
+1. The implicit conclusion: <span class="emph">The relationship between information and understanding is neither linear nor monotonic</span>. More information isn't always better (as essay #1 showed), and even complete information isn't sufficient (as this essay shows).
 
 Together, these arguments suggest we need a radically different epistemology for thinking about knowledge, understanding, and wisdom in an age of information abundance.
 
