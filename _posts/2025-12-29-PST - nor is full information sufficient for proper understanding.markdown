@@ -1,7 +1,7 @@
 ---
 title: "Nor is Full Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Thu Feb  5 23:14:01 KST 2026
+last_modified_at: Thu Feb  5 23:55:05 KST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -40,13 +40,13 @@ This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strat
 
 <!--
 
-> In my previous essay on [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}), I argued that partial information can be more dangerous than ignorance because it triggers pattern-completion mechanisms without providing sufficient data to verify those patterns. The natural response is: "Fine, then let's gather FULL information!" But this misses an even deeper problem: **even complete information, by itself, is fundamentally insufficient for proper understanding.**
+> In my previous article on [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}), I argued that partial information can be more dangerous than ignorance because it triggers pattern-completion mechanisms without providing sufficient data to verify those patterns. The natural response is: "Fine, then let's gather FULL information!" But this misses an even deeper problem: **even complete information, by itself, is fundamentally insufficient for proper understanding.**
 
 > The most unsettling realization came not through logical deduction but through sudden insight—a lightning strike of understanding that language struggles to capture. Like recognizing a friend's face instantly without being able to explain the recognition process, I *knew* this truth before I could articulate it. What follows is my attempt to translate that ineffable knowing into words, fully aware that the map is not the territory.
 
 > Understanding is not merely the accumulation of data points, however complete. It requires context that extends infinitely backward through time, frameworks that organize information into meaning, and cognitive capacity to synthesize disparate elements into coherent wholes. The gap between complete information and proper understanding may be unbridgeable—not because we lack data, but because understanding transcends information in ways that challenge the very foundations of epistemology.
 
-> This essay explores why even omniscience—if such a thing were possible—would remain insufficient for true comprehension of reality. The implications extend far beyond philosophy into how we approach AI development, medical diagnosis, judicial systems, and the fundamental question of what it means to know something.
+> This article explores why even omniscience—if such a thing were possible—would remain insufficient for true comprehension of reality. The implications extend far beyond philosophy into how we approach AI development, medical diagnosis, judicial systems, and the fundamental question of what it means to know something.
 
 -->
 
@@ -78,7 +78,7 @@ Of course, such instantaneous insights are sometimes wrong—intuition can decei
 
 I want to acknowledge upfront a fundamental limitation: I can only express so much using our linguistic tools. The words I'll employ won't fully capture what I *knew* in that moment of insight. [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"} grappled with this same problem throughout his philosophical career—first declaring in the *[Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus){:target="_blank"}* that "whereof one cannot speak, thereof one must be silent," then spending his later work exploring how language both enables and constrains what can be said versus what can only be shown. But if we abandoned communication whenever language proved insufficient, why write anything at all? <span class="emph">The inadequacy of expression doesn't negate the value of attempting to express.</span>
 
-This is particularly relevant given my broader philosophical explorations—from my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/) to my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}), where I grappled with the limits of what can be computationally captured versus what can be humanly understood. The gap between data and understanding, between information and wisdom, between *knowing that* and *knowing why*, has become a central theme of my intellectual journey. 
+This is particularly relevant given my broader philosophical explorations—from my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/) to my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}), where I grappled with the limits of what can be computationally captured versus what can be humanly understood. The gap between data and understanding, between information and wisdom, between *knowing that* and *knowing why*, has become a central theme of my intellectual journey.
 
 I explore this epistemological chasm from a different angle—the distinction between superficial knowledge and genuine understanding—on the homepage of the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}. There I argue that <span class="emph">you can teach a subject for years, publish papers using it, implement successful systems, and still not truly *understand* it in the deepest sense</span>—the sense where understanding would let you prove the [Riemann Hypothesis](https://en.wikipedia.org/wiki/Riemann_hypothesis){:target="_blank"} rather than just knowing its statement, or grasp *why* [Fermat's Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem){:target="_blank"} is true rather than just following Wiles's proof. That forum exists for those who have reached the self-awareness to recognize what they don't understand about what they thought they knew—a recognition that is, as I note there, "rare and precious."
 
@@ -182,7 +182,7 @@ Here we encounter something more fundamental &ndash; <span class="emph">innate c
 
 Whether this capacity stems from
 - genetic factors affecting neural architecture
-- early developmental experiences shaping cognitive structures  
+- early developmental experiences shaping cognitive structures
 - lifetime accumulation of cognitive strategies and heuristics
 - something we might call &ldquo;talent&rdquo; or &ldquo;genius&rdquo;
 - or some combination of all these factors
@@ -372,24 +372,24 @@ This is related to but distinct from [Heisenberg's uncertainty principle](https:
 
 ## Connecting Three Epistemic Problems
 
-This essay completes a trilogy of related investigations into the relationship between information and understanding:
+This article completes a trilogy of related investigations into the relationship between information and understanding:
 
 1. [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}){:target="_blank"} &ndash; <span class="emph">Partial information can be worse than ignorance</span> because it triggers false confidence through pattern-completion mechanisms.
 
-1. [This essay]({{ page.url }}): <span class="emph">Complete information is insufficient for understanding</span> because understanding requires context, capacity, frameworks, and synthesis that transcend information.
+1. [This article]({{ page.url }}) &ndash; <span class="emph">Complete information is insufficient for understanding</span> because understanding requires context, capacity, frameworks, and synthesis that transcend information.
 
-1. The implicit conclusion: <span class="emph">The relationship between information and understanding is neither linear nor monotonic</span>. More information isn't always better (as essay #1 showed), and even complete information isn't sufficient (as this essay shows).
+1. The implicit conclusion &ndash; <span class="emph">The relationship between information and understanding is neither linear nor monotonic</span>. More information isn't always better (as article #1 showed), and even complete information isn't sufficient (as this article shows).
 
 Together, these arguments suggest we need a radically different epistemology for thinking about knowledge, understanding, and wisdom in an age of information abundance.
 
 ## The AI Understanding Problem Revisited
 
-These three essays collectively illuminate why [{{ ai_reason.title }}]({{ ai_reason.url }}) fundamentally—not just practically but *in principle* with current architectures.
+These three articles<sup><a href="#footnote2" id="ref2">2</a></sup> collectively illuminate why [{{ ai_reason.title }}]({{ ai_reason.url }}) fundamentally—not just practically but *in principle* with current architectures.
 
-AI systems:
-- Are vulnerable to partial information problems (can generate false confidence from incomplete data)
-- Cannot bridge the gap from complete information to understanding (lack the integration capacity)
-- Operate without the contextual and experiential substrate required for genuine comprehension
+AI systems
+- are vulnerable to partial information problems (can generate false confidence from incomplete data)
+- cannot bridge the gap from complete information to understanding (lack the integration capacity)
+- operate without the contextual and experiential substrate required for genuine comprehension
 
 This doesn't mean AI isn't useful—it's extraordinarily useful for information processing, pattern recognition, and optimization within defined domains. But it means <span class="emph">we must stop conflating AI's sophisticated information processing with genuine understanding</span>.
 
@@ -397,156 +397,157 @@ The future of beneficial AI requires recognizing this distinction and designing 
 
 ## The Musical Understanding Connection
 
-My exploration of [{{ musical_notes.title }}]({{ musical_notes.url }}) illustrates these principles through a concrete domain: how one-dimensional acoustic information generates multi-dimensional aesthetic experience.
+My exploration of [{{ musical_notes.title }}]({{ musical_notes.url }}){:target="_blank"} illustrates these principles through a concrete domain &ndash; how one-dimensional acoustic information generates multi-dimensional aesthetic experience.
 
-Music demonstrates that:
-- The information content (sound waves) radically underdetermines the experiential understanding (emotional, intellectual, aesthetic response)
-- Understanding emerges from the interaction between information and consciousness
-- Complete physical information about sound remains insufficient for musical understanding
+Music demonstrates
+- the information content (sound waves) radically underdetermines the experiential understanding (emotional, intellectual, aesthetic response)
+- understanding emerges from the interaction between information and consciousness
+- complete physical information about sound remains insufficient for musical understanding
 
-Music thus serves as a microcosm for the broader principle: <span class="emph">understanding transcends information in ways that may be fundamental to consciousness itself</span>.
+Music thus serves as a microcosm for the broader principle &ndash; <span class="emph">understanding transcends information in ways that may be fundamental to consciousness itself</span>.
 
 # Practical Implications and the Path Forward
 
 ## For Medicine and Healthcare
 
-At [Erudio Bio](https://www.erudio.bio/), these insights directly inform how we develop diagnostic AI:
+At [Erudio Bio](https://www.erudio.bio/){:target="_blank"}, these insights directly inform how we develop diagnostic AI.
 
-1. **Acknowledge Insufficiency**: Even comprehensive biomarker data remains insufficient for optimal clinical decisions without patient history and context
+- **Acknowledge insufficiency** &ndash; Even comprehensive biomarker data remains insufficient for optimal clinical decisions without patient history and context
 
-2. **Preserve Human Judgment**: AI should augment rather than replace physician understanding, particularly for complex cases requiring contextual insight
+- **Preserve human judgment** &ndash; AI should augment rather than replace physician understanding, particularly for complex cases requiring contextual insight
 
-3. **Build Transparent Systems**: When AI makes recommendations, expose the limitations of the informational basis, not just the confidence scores
+- **Build transparent systems** &ndash; When AI makes recommendations, expose the limitations of the informational basis, not just the confidence scores
 
-4. **Enable Contextual Integration**: Design systems that help physicians integrate AI-provided information with their broader understanding rather than treating AI outputs as sufficient unto themselves
+- **Enable contextual integration** &ndash; Design systems that help physicians integrate AI-provided information with their broader understanding rather than treating AI outputs as sufficient unto themselves
 
 ## For AI Development
 
-The implications for AI research and development are profound:
+The implications for AI research and development are profound.
 
-1. **Stop Conflating Processing and Understanding**: Recognize that sophisticated information processing ≠ genuine understanding
+- **Stop conflating processing and understanding** &ndash; Recognize that sophisticated information processing ≠ genuine understanding
 
-2. **Design for Augmentation**: Build AI systems that enhance human understanding rather than attempting to achieve autonomous understanding
+- **Design for augmentation** &ndash; Build AI systems that enhance human understanding rather than attempting to achieve autonomous understanding
 
-3. **Preserve Uncertainty**: When information is incomplete or when understanding requires context the AI cannot access, communicate this explicitly rather than generating false confidence
+- **Preserve uncertainty** &ndash; When information is incomplete or when understanding requires context the AI cannot access, communicate this explicitly rather than generating false confidence
 
-4. **Enable Human Synthesis**: Create interfaces that support human cognitive synthesis rather than trying to automate it
+- **Enable human synthesis** &ndash; Create interfaces that support human cognitive synthesis rather than trying to automate it
 
 ## For Education and Human Development
 
-These insights also inform how we should think about education:
+These insights also inform how we should think about education.
 
-1. **Teach Integration, Not Just Information**: The goal isn't information transfer but developing capacity for synthesis and understanding
+- **Teach integration, not just information** &ndash; The goal isn't information transfer but developing capacity for synthesis and understanding
 
-2. **Develop Multiple Frameworks**: Expose students to diverse conceptual frameworks for organizing information
+- **Develop multiple frameworks** &ndash; Expose students to diverse conceptual frameworks for organizing information
 
-3. **Cultivate Wisdom**: Recognize that wisdom requires more than knowledge accumulation—it requires judgment, experience, and values
+- **Cultivate wisdom** &ndash; Recognize that wisdom requires more than knowledge accumulation—it requires judgment, experience, and values
 
-4. **Foster Interdisciplinarity**: Understanding often emerges at the boundaries between domains
+- **Foster interdisciplinarity** &ndash; Understanding often emerges at the boundaries between domains
 
 ## For Policy and Governance
 
-For social systems and governance:
+For social systems and governance,
 
-1. **Recognize Data's Limitations**: Complete data about social problems doesn't automatically yield solutions
+- **Recognize data's limitations** &ndash; Complete data about social problems doesn't automatically yield solutions
 
-2. **Preserve Human Judgment in Critical Domains**: Particularly in judicial systems, maintain human decision-making authority even when algorithmic recommendations are available
+- **Preserve human judgment in critical domains** &ndash; Particularly in judicial systems, maintain human decision-making authority even when algorithmic recommendations are available
 
-3. **Value Contextual Knowledge**: Create space for the kind of contextual understanding that transcends data
+- **Value contextual knowledge** &ndash; Create space for the kind of contextual understanding that transcends data
 
-4. **Resist Technocratic Simplification**: Avoid the temptation to believe that sufficient measurement and data will solve complex social challenges
+- **Resist technocratic simplification** &ndash; Avoid the temptation to believe that sufficient measurement and data will solve complex social challenges
 
 # The Meta-Problem Revisited
 
-## The Irony of This Essay
+## The Irony of This Article
 
-There's a deep irony in attempting to fully articulate why complete information is insufficient for understanding: <span class="emph">the attempt itself demonstrates the limitation</span>.
+There's a deep irony in attempting to fully articulate why complete information is insufficient for understanding &ndash; <span class="emph">the attempt itself demonstrates the limitation</span>.
 
-This essay provides information—arguments, examples, frameworks—about the insufficiency of information. But does it create understanding? That depends on factors beyond the information I've presented:
+This article provides information—arguments, examples, frameworks—about the insufficiency of information. But does it create understanding? That depends on factors beyond the information I've presented such as
 
-- Your background knowledge and frameworks
-- Your capacity for integration and synthesis
-- Your lived experiences that resonate (or don't) with my arguments
-- The contextual backdrop against which you're reading this
-- Something ineffable about whether these ideas "click" for you
+- your background knowledge and frameworks
+- your capacity for integration and synthesis
+- your lived experiences that resonate (or don't) with my arguments
+- the contextual backdrop against which you're reading this
+- something ineffable about whether these ideas &ldquo;click&rdquo; for you
 
-The same complete information (this essay) will generate different degrees and kinds of understanding in different readers. This isn't a failure of the essay—it's an illustration of the principle the essay argues for.
+The same complete information ([this article]({{ page.url }})) will generate different degrees and kinds of understanding in different readers. This isn't a failure of the article—it's an illustration of the principle the article argues for.
 
 ## The Ultimate Epistemic Humility
 
 What I've articulated here is a form of epistemic humility that goes beyond standard academic modesty. It's not just acknowledging that we don't have complete information (though that's true). It's recognizing that <span class="emph">even if we somehow achieved complete information, we would still lack complete understanding</span>.
 
-This has profound implications for how we approach knowledge, science, policy, and existence itself. It suggests that:
+This has profound implications for how we approach knowledge, science, policy, and existence itself. It suggests
 
-- The scientific project of complete description of reality, even if achieved, wouldn't yield complete understanding
-- The technological project of perfect information gathering wouldn't solve the human problem of wisdom
-- The philosophical project of comprehensive explanation would remain incomplete
-- The existential question of meaning wouldn't be answered by accumulating all available facts
+- The scientific project of complete description of reality, even if achieved, wouldn't yield complete understanding.
+- The technological project of perfect information gathering wouldn't solve the human problem of wisdom.
+- The philosophical project of comprehensive explanation would remain incomplete.
+- The existential question of meaning wouldn't be answered by accumulating all available facts.
 
 ## The Lightning Strike Remembered
 
-I return now to where I began: that moment of sudden insight while listening to Professor Kane's lecture. The knowing that came before articulation. The certainty that preceded explanation.
+I return now to where I began &ndash; that moment of sudden insight while listening to Professor Kane's lecture. The knowing that came before articulation. The certainty that preceded explanation.
 
-Perhaps that moment exemplifies what this essay argues: <span class="emph">understanding sometimes arrives not through information accumulation but through synthetic insight that transcends information</span>. The flash of recognition. The sudden coherence. The "aha!" that can't be reduced to logical steps from premises.
+Perhaps that moment exemplifies what this article argues &ndash; <span class="emph">understanding sometimes arrives not through information accumulation but through synthetic insight that transcends information</span>. The flash of recognition. The sudden coherence. The "aha!" that can't be reduced to logical steps from premises.
 
-These moments—which I've experienced throughout my journey from [mathematics](https://web.stanford.edu/~boyd/) through [semiconductors](/about) to [AI](/ai/data) to [biotech](https://www.erudio.bio/) to [philosophy](/blog/PST-Why-do-we-live/)—suggest that human cognition operates at a level that information theory alone cannot capture.
+These moments—which I've experienced throughout my journey from [mathematics](/math){:target="_blank"} through [semiconductors](/about){:target="_blank"} to [AI](/ai/data){:target="_blank"} to [biotech](https://www.erudio.bio/){:target="_blank"} to [philosophy](/blog/PST-Why-do-we-live/){:target="_blank"}—suggest that human cognition operates at a level that information theory alone cannot capture.
 
 The lightning strike of understanding illuminates not through the accumulation of data but through the sudden recognition of patterns, meanings, and connections that were implicit but invisible until the moment of insight.
 
-# Conclusion: The Unbridgeable Gap and Why It Matters
+# Conclusion &ndash; The Unbridgeable Gap and Why It Matters
 
 ## The Gap Persists
 
-I've argued from multiple angles that complete information is insufficient for proper understanding:
+I've argued from multiple angles that complete information is insufficient for proper understanding.
 
-1. **The Contextual Gap**: Understanding requires infinite historical and contextual regress that complete present information cannot provide
+1. **The Contextual Gap** &ndash; Understanding requires infinite historical and contextual regress that complete present information cannot provide.
 
-2. **The Capacity Gap**: Different cognitive capacities lead to different understandings from identical information
+1. **The Capacity Gap** &ndash; Different cognitive capacities lead to different understandings from identical information.
 
-3. **The Experiential Gap**: The subjective, lived dimension of understanding transcends informational content
+1. **The Experiential Gap** &ndash; The subjective, lived dimension of understanding transcends informational content.
 
-4. **The Framework Gap**: Information requires interpretive frameworks that cannot be derived from the information alone
+1. **The Framework Gap** &ndash; Information requires interpretive frameworks that cannot be derived from the information alone.
 
-5. **The Synthesis Gap**: Understanding requires integration operations that transcend information processing
+1. **The Synthesis Gap** &ndash; Understanding requires integration operations that transcend information processing.
 
-6. **The Computational Gap**: Complete integration may be intractable even in principle
+1. **The Computational Gap** &ndash; Complete integration may be intractable even in principle.
 
 Together, these arguments suggest that <span class="emph">the gap between complete information and proper understanding may be unbridgeable—not due to practical limitations but due to the fundamental nature of understanding itself</span>.
 
 ## Why This Matters
 
-This isn't just philosophical abstraction. It matters because:
+This isn't just philosophical abstraction. It matters because
 
-- We're building AI systems on the implicit assumption that sufficient data yields understanding
-- We're making critical decisions (medical, judicial, policy) based on the belief that complete information is sufficient
-- We're educating people as if learning is primarily about information acquisition
-- We're organizing society around information processing rather than wisdom cultivation
+- we're building AI systems on the implicit assumption that sufficient data yields understanding
+- we're making critical decisions (medical, judicial, policy) based on the belief that complete information is sufficient
+- we're educating people as if learning is primarily about information acquisition
+- we're organizing society around information processing rather than wisdom cultivation
 
 All of these approaches, while not entirely wrong, are fundamentally limited if my arguments here are correct.
 
-## The Path Forward: Toward Wisdom
+## The Path Forward &ndash; Toward Complete Understanding (or rather Wisdom)
 
 If complete information is insufficient, what do we need?
 
-We need to cultivate:
-- **Contextual sensitivity**: The ability to recognize what historical and social backdrop matters
-- **Synthetic capacity**: The ability to integrate disparate elements into coherent wholes  
-- **Framework flexibility**: The ability to shift between different organizing principles
-- **Experiential depth**: The lived engagement that transforms information into understanding
-- **Judgment**: The wisdom to know how to apply understanding appropriately
-- **Humility**: The recognition that our understanding will always remain incomplete
+We need to cultivate
+
+- **contextual sensitivity** &ndash; The ability to recognize what historical and social backdrop matters.
+- **synthetic capacity** &ndash; The ability to integrate disparate elements into coherent wholes  .
+- **framework flexibility** &ndash; The ability to shift between different organizing principles.
+- **experiential depth** &ndash; The lived engagement that transforms information into understanding.
+- **judgment** &ndash; The wisdom to know how to apply understanding appropriately.
+- **humility** &ndash; The recognition that our understanding will always remain incomplete.
 
 These capacities aren't reducible to information processing. They require cultivation through experience, practice, reflection, and perhaps something we can only call wisdom.
 
 ## The Ultimate Recognition
 
-In the end, perhaps the most important insight is this: <span class="emph">the project of understanding is fundamentally different from the project of information gathering</span>. They're related but not reducible to each other.
+In the end, perhaps the most important insight is this &ndash; <span class="emph">the project of understanding is fundamentally different from the project of information gathering</span>. They're related but not reducible to each other.
 
 Understanding is not merely comprehensive knowledge. It's a way of being in relationship with knowledge. It's knowing not just what is true but why it matters and what to do about it. It's seeing connections that aren't explicit. It's holding multiple perspectives simultaneously. It's integrating facts with values, information with meaning, knowledge with wisdom.
 
 The lightning strike of realization I experienced while listening to Professor Kane—that sudden knowing that complete information about New York City wouldn't suffice for understanding it—was itself an example of understanding that transcended the information that triggered it.
 
-And perhaps that's the point: <span class="emph">understanding arrives not through accumulation but through transformation</span>. Not through addition but through integration. Not through data but through insight.
+And perhaps that's the point &ndash; <span class="emph">understanding arrives not through accumulation but through transformation</span>. Not through addition but through integration. Not through data but through insight.
 
 The gap between information and understanding isn't a problem to be solved. It's a feature of consciousness, a characteristic of wisdom, a condition of being human.
 
@@ -556,19 +557,34 @@ And in an age of artificial intelligence and big data, <span class="emph">recogn
 <br>
 <br>
 Co-Founder & CTO @ Erudio Bio, Inc
-<br>
+<!--br>
 Co-Founder & CEO @ Erudio Bio Korea, Inc.
+-->
 <br>
 Leader of Silicon Valley Privacy-Preserving AI Forum (K-PAI)
 <br>
 Philosopher, Mathematician, Thinker, and Universal Truth Seeker
 <br>
-Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, PEOPLE!](/)
+Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, PEOPLE!](/)
 
 ---
 
 <ol>
 <li id="footnote1">
-The unconscious mind's capacity for problem-solving—continuing to work on questions during sleep and periods of conscious distraction—is well documented in cognitive science. My suspicion is that much of my subsequent clarity about this insight came from this unconscious processing, occurring in parallel with my conscious thoughts across those weeks. This, itself, might be an example of understanding emerging through processes that transcend conscious information processing.
-&nbsp;<a href="#ref1">↩</a></li>
+	The unconscious mind's capacity for problem-solving—continuing to work on questions during sleep and periods of conscious distraction—is well documented in cognitive science. My suspicion is that much of my subsequent clarity about this insight came from this unconscious processing, occurring in parallel with my conscious thoughts across those weeks. This, itself, might be an example of understanding emerging through processes that transcend conscious information processing.
+	&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
+	The three articles refer to
+	<ul>
+	<li>
+		<a target="_blank" href="{{ strategic_ignorance.url }}">{{ strategic_ignorance.title }}</a>
+	</li>
+	<li>
+		<a target="_blank" href="{{ page.url }}">{{ page.title }}</a>
+	</li>
+	<li>
+		<a target="_blank" href="{{ ai_reason.url }}">{{ ai_reason.title }}</a>
+	</li>
+	</ul>
+	&nbsp;<a href="#ref2">↩</a></li>
 </ol>
