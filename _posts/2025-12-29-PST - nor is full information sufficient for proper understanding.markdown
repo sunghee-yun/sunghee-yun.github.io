@@ -1,7 +1,7 @@
 ---
 title: "Nor is Full Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Thu Feb  5 23:55:05 KST 2026
+last_modified_at: Fri Feb  6 11:36:20 KST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -49,6 +49,60 @@ This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strat
 > This article explores why even omniscience—if such a thing were possible—would remain insufficient for true comprehension of reality. The implications extend far beyond philosophy into how we approach AI development, medical diagnosis, judicial systems, and the fundamental question of what it means to know something.
 
 -->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Knowing Everything Isn't Enough?</strong>
+			<span style="opacity: 0.8;">(16:48)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Knowing_Everything_Isn_t_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Data Does Not Equal Reality?</strong>
+			<span style="opacity: 0.8;">(39:23)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Data_Does_Not_Equal_Reality.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Why Having All the Facts Isn't Enough?</strong>
+			<span style="opacity: 0.8;">(22:09)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Debate - Why_Having_All_the_Facts_Isn_t_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Critique - Why More Data Creates Blind Spots?</strong>>>>
+			<span style="opacity: 0.8;">(12:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-critique" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Critique - Why_More_Data_Creates_Blind_Spots.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The Lightning Strike of Realization
 
