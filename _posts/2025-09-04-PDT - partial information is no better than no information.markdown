@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Thu Jan 22 08:07:48 PST 2026
+last_modified_at: Fri Feb  6 14:59:21 KST 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -33,12 +33,67 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 > In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain usefully ignorant rather than confidently wrong.
 
-<h1>NotebookLM Podcasts</h1>
+<!--h1>NotebookLM Podcasts</h1>
 
 - [The Danger of Knowing (Just) Enough - Why Partial Information Can Be Worse Than Ignorance (19:07)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=3a308f01-0696-4f34-a60d-1d3b7da901a7){:target=" blank"}
 - [The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing (17:13)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=58234e99-fd2f-497b-990e-79e0dade626c){:target=" blank"}
 - [The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance (20:16)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=7ba3b4ae-0f09-40f1-8ac1-a9a87e21e674){:target=" blank"}
 - [The Danger of Partial Information - Why Knowing Less Can Be Better Than Knowing Just Enough (18:27)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=22f243d3-892b-4484-9341-76c199c7807b){:target=" blank"}
+-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Danger of Knowing (Just) Enough: Why Partial Information Can Be Worse Than Ignorance</strong>
+			<span style="opacity: 0.8;">(19:07)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_(Just)_Enough__Why_Partial_Information_Can_Be_Worse_Than_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing</strong>
+			<span style="opacity: 0.8;">(17:13)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Half-Baked_Truths__Why_Partial_Information_Is_Worse_Than_Knowing_Nothing.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance</strong>
+			<span style="opacity: 0.8;">(20:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_Just_Enough__Why_Partial_Information_Trumps_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>The Danger of Partial Information: Why Knowing Less Can Be Better Than Knowing Just Enough</strong>
+			<span style="opacity: 0.8;">(18:27)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Partial_Information__Why_Knowing_Less_Can_Be_Better_Than_Knowing_Just_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The Seductive Completeness of Incomplete Information
 
