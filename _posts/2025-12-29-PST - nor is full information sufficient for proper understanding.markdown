@@ -1,7 +1,7 @@
 ---
 title: "Nor is Full Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Sat Feb  7 03:32:34 KST 2026
+last_modified_at: Sat Feb  7 03:37:35 KST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -92,7 +92,7 @@ This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strat
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Critique - Why More Data Creates Blind Spots?</strong>>>>
+			<strong>Critique - Why More Data Creates Blind Spots?</strong>
 			<span style="opacity: 0.8;">(12:12)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
