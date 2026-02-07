@@ -1,7 +1,7 @@
 ---
-title: "Nor is Full Information Sufficient!"
+title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Sat Feb  7 03:37:35 KST 2026
+last_modified_at: Sun Feb  8 02:05:17 KST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
