@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Fri Feb  6 14:59:21 KST 2026
+last_modified_at: Sun Feb  8 01:11:31 KST 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -31,7 +31,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 > Understanding when partial information becomes worse than ignorance requires us to confront uncomfortable truths about the nature of knowledge, the limits of reason, and the hidden biases that shape our perception of reality itself.
 
-> In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain usefully ignorant rather than confidently wrong.
+> In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
 
 <!--h1>NotebookLM Podcasts</h1>
 
@@ -249,7 +249,7 @@ This means designing information systems that preserve uncertainty rather than e
 
 The alternative—continued construction of elaborate, confident, but incompatible political realities from partial information—threatens not just individual decision-making but the foundational assumption of democratic governance: that informed citizens can engage in productive collective deliberation about shared challenges.
 
-In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain usefully ignorant rather than confidently wrong.
+In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
 
 [Sunghee
 <br>
