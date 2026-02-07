@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Sun Feb  8 01:11:31 KST 2026
+last_modified_at: Sun Feb  8 03:27:49 KST 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -30,6 +30,8 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 > The human mind's tendency to construct complete narratives from incomplete data isn't a bug—it's a feature that once ensured our survival. But in our information-saturated age, this same cognitive mechanism can lead us astray in ways our ancestors never could have imagined.
 
 > Understanding when partial information becomes worse than ignorance requires us to confront uncomfortable truths about the nature of knowledge, the limits of reason, and the hidden biases that shape our perception of reality itself.
+
+> Most critically of all, this shapes how we must fundamentally reconstruct political discourse in democratic societies.
 
 > In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
 
@@ -97,9 +99,9 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 # The Seductive Completeness of Incomplete Information
 
-Engaged in deep discussions about AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious: the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
+Engaged in deep discussions about AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious &ndash; the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
 
-This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung](https://www.samsung.com/) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/): <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
+This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung](https://www.samsung.com/) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/) &ndash; <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
 
 The implications extend far beyond technical domains. Consider how political discourse in our hyper-connected age operates on exactly this principle. Voters receive carefully curated partial information—selective polling data, edited video clips, cherry-picked economic statistics—that triggers their pattern-completion mechanisms to construct complete political narratives. A 30-second campaign ad or a viral social media post provides just enough information to feel informed while systematically omitting context that might complicate the narrative. The result? Millions of people making consequential voting decisions based on elaborate mental models constructed from deliberately incomplete information.
 
@@ -125,7 +127,7 @@ The mathematical principle here is that partial information creates a false conf
 
 > &hellip; The partial information triggers pattern-matching mechanisms that fill in gaps with assumptions derived from science fiction narratives and anthropomorphic projections.
 
-During my exploration of Buddhist philosophy and my eventual reaching of *nirvāna*, I encountered this principle in a different context: the way the mind constructs stories about the self and reality. The Buddhist concept of [dependent origination](https://en.wikipedia.org/wiki/Pratītyasamutpāda) reveals how we create elaborate mental constructions from partial sensory and conceptual data, mistaking these constructions for ultimate reality.
+During [my exploration of Buddhist philosophy](/blog/philosophy/PDT-Mahayana-Buddhism/){:target="_blank"} and [my eventual reaching of *nirvāna*](/blog/philosophy/PDT-Mahayana-Buddhism/#intention){:target="_blank"}, I encountered this principle in a different context &ndash; the way the mind constructs stories about the self and reality. The Buddhist concept of [dependent origination](https://en.wikipedia.org/wiki/Pratītyasamutpāda) reveals how we create elaborate mental constructions from partial sensory and conceptual data mistaking these constructions for ultimate reality.
 
 This same mechanism operates in our information processing. When presented with partial data, the mind immediately begins constructing explanatory narratives. These narratives feel complete and coherent, but they're actually projections of our existing beliefs and assumptions onto incomplete information.
 
@@ -137,25 +139,25 @@ This isn't mere speculation. Research in [cognitive psychology](https://en.wikip
 
 # From Amazon's Algorithms to Universal Principles
 
-> &hellip; partial information often produces overconfident incorrect conclusions, while ignorance produces appropriately uncertain but explorable possibilities.
+> &hellip; partial information often produces overconfident incorrect conclusions while ignorance produces appropriately uncertain but explorable possibilities.
 
 My experience developing recommendation systems at Amazon provided another lens through which to understand this phenomenon. We discovered that showing users partial information about products—incomplete reviews, selective statistics, or filtered comparisons—often led to worse purchasing decisions than providing no product information at all.
 
-The mechanism was subtle but powerful: partial information triggered users' pattern-completion systems, leading them to construct complete mental models of products based on insufficient data. These models felt more confident than random guessing because they were based on "real" information, but they were often more inaccurate than random selection would have been.
+The mechanism was subtle but powerful &ndash; partial information triggered users' pattern-completion systems leading them to construct complete mental models of products based on insufficient data. These models felt more confident than random guessing because they were based on "real" information, but they were often more inaccurate than random selection would have been.
 
-This observation led to a broader principle that I've now seen operate across domains &ndash; <span class="emph">partial information often produces overconfident incorrect conclusions, while ignorance produces appropriately uncertain but explorable possibilities.</span>
+This observation led to a broader principle that I've now seen operate across domains &ndash; <span class="emph">partial information often produces overconfident incorrect conclusions while ignorance produces appropriately uncertain but explorable possibilities.</span>
 
 The mathematical insight here connects to [decision theory](https://en.wikipedia.org/wiki/Decision_theory). If we model decision-making as optimization under uncertainty, complete ignorance preserves our uncertainty estimates—we know we don't know. But partial information can systematically bias our uncertainty estimates, leading to overconfident decisions with hidden risks.
 
 # The Democracy Trap &ndash; When Partial Information Undermines Collective Decision-Making
 
-> &hellip; citizens end up disagreeing about basic facts because they've constructed different realities from their respective partial information sets. Productive political discourse becomes impossible when participants are literally living in different constructed worlds.
+> &hellip; citizens end up disagreeing about basic facts because they've constructed different realities from their respective partial information sets. Productive political discourse becomes impossible when participants are literally living in differently constructed worlds.
 
 The stakes of this cognitive phenomenon become existential when applied to democratic governance. Democracy theoretically works because informed citizens make collective decisions that aggregate distributed knowledge and preferences. But what happens when citizens are systematically provided with partial information designed to trigger their pattern-completion mechanisms?
 
 My analysis of information systems reveals that modern political discourse operates as a massive partial-information engine. Cable news provides 24-hour coverage that feels comprehensive but systematically excludes information that doesn't fit predetermined narratives. Social media algorithms curate feeds that present politically relevant information, but only information that confirms existing beliefs and drives engagement. Political campaigns conduct opposition research that reveals selective facts about opponents while hiding contradictory evidence.
 
-Each of these information sources provides enough real data to feel credible while being systematically incomplete in ways that serve particular interests. The result is millions of voters constructing elaborate, confident political worldviews from fundamentally insufficient information.
+Each of these information sources provides enough real data to feel credible while being systematically incomplete in ways that serve particular interests. The result is millions of voters constructing elaborate and confident political worldviews from fundamentally insufficient information.
 
 The mathematical principle I identified earlier—that partial information creates false confidence intervals—applies directly here. Political polling that samples likely voters creates the appearance of democratic measurement while potentially excluding the voices that matter most for actual electoral outcomes. Economic data that focuses on aggregate statistics while ignoring distributional effects provides the illusion of policy evaluation while missing the information needed for sound governance.
 
@@ -165,39 +167,38 @@ Consider how this played out in recent electoral cycles. Voters on all sides con
 
 Perhaps most dangerously, partial political information doesn't just mislead—it polarizes. When different groups receive different sets of partial information, they construct not just different complete narratives, but incompatible complete narratives about the same underlying reality.
 
-This creates what I call the "polarization amplifier effect." Instead of disagreeing about values or priorities&mdash;which is the healthy basis of democratic debate&mdash;<span class="emph">citizens end up disagreeing about basic facts because they've constructed different realities from their respective partial information sets. Productive political discourse becomes impossible when participants are literally living in different constructed worlds.</span>
+This creates what I call the "polarization amplifier effect." Instead of disagreeing about values or priorities&mdash;which is the healthy basis of democratic debate&mdash;<span class="emph">citizens end up disagreeing about basic facts because they've constructed different realities from their respective partial information sets. Productive political discourse becomes impossible when participants are literally living in differently constructed worlds.</span>
 
 # The Silicon Valley Delusion &ndash; When Partial Innovation Becomes Dangerous
 
-Living at the epicenter of the AI revolution in Silicon Valley, I've witnessed this principle operate at scale in ways that could reshape human civilization. The technology industry consistently presents partial information about AI capabilities, creating elaborate public narratives about artificial general intelligence, consciousness, and technological singularity based on impressive but narrow demonstrations.
+Living at the epicenter of the AI revolution in Silicon Valley, I've witnessed this principle operate at scale in ways that could reshape human civilization. The technology industry consistently presents partial information about AI capabilities, creating elaborate public narratives about artificial general intelligence (AGI), consciousness, and technological singularity based on impressive but narrow demonstrations.
 
-As I argued in my analysis of [Why AI doesn't actually Believe, Reason, Know, or Think](/ai/reason), current LLMs are sophisticated conditional probability estimators. But partial demonstrations of their capabilities—cherry-picked examples of apparently creative or reasoning-like outputs—trigger pattern-completion mechanisms that lead people to construct complete mental models of AI consciousness and general intelligence.
+{% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
 
-This isn't harmless speculation. Policy decisions worth trillions of dollars, regulation of technologies that could determine humanity's future, and investment of vast resources are being made based on these partial-information-induced mental models. The consequences of getting this wrong could be civilizational.
+As I argued in my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}, current LLMs are sophisticated conditional probability estimators. But partial demonstrations of their capabilities—cherry-picked examples of apparently creative or reasoning-like outputs—trigger pattern-completion mechanisms that lead people to construct complete mental models of AI consciousness and general intelligence.
 
-The parallel to my earlier discussion of [Mathematical Inevitabilities](/prajna/inevitabilities) is instructive &ndash; just as certain mathematical truths transcend all possible universes, certain cognitive biases appear to be universal features of information-processing systems. The tendency to construct complete patterns from partial data may be an inevitable feature of any intelligence complex enough to engage in prediction and planning.<sup><a href="#footnote1" id="ref1">1</a></sup>
+This isn't harmless speculation. However, policy decisions worth trillions of dollars, regulation of technologies that could determine humanity's future, and investment of vast resources are being made based on these partial-information-induced mental models, and the consequences of getting this wrong could be civilizational.
+
+The parallel to my earlier discussion of [Mathematical Inevitabilities](/prajna/inevitabilities){:target="_blank"} is instructive &ndash; just as certain mathematical truths transcend all possible universes, certain cognitive biases appear to be universal features of information-processing systems. The tendency to construct complete patterns from partial data may be an inevitable feature of any intelligence complex enough to engage in prediction and planning.<sup><a href="#footnote1" id="ref1">1</a></sup>
 
 # The Zen of Strategic Ignorance
 
-My journey through Buddhist philosophy, particularly the concept of the [Beginner's Mind](https://en.wikipedia.org/wiki/Shoshin), offers a counterintuitive solution &ndash; sometimes the wisest approach is to deliberately maintain ignorance rather than accumulating partial information that triggers false confidence.
+My journey through Buddhist philosophy, particularly the concept of the [Beginner's Mind](https://en.wikipedia.org/wiki/Shoshin){:target="_blank"}, offers a counterintuitive solution &ndash; sometimes the wisest approach is to deliberately maintain ignorance rather than accumulating partial information that triggers false confidence.
 
-This insight connects to my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/) from "What is the meaning of life?" to "Do I want meaning in my life?" Sometimes the most profound wisdom lies not in seeking more information, but in recognizing when our current information is insufficient for reliable conclusions and maintaining appropriate uncertainty. In other words, understanding my ignorance level (like my former advisor, [Stephen](https://web.stanford.edu/~boyd/), often mentioned wittily)!
+This insight connects to my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/){:target="_blank"} from "What is the meaning of life?" to "Do I want meaning in my life?" Sometimes the most profound wisdom lies not in seeking more information, but in recognizing when our current information is insufficient for reliable conclusions and maintaining appropriate uncertainty. In other words, the true wisdom starts from understanding my ignorance level (like my former advisor, [Stephen](https://web.stanford.edu/~boyd/){:target="_blank"}, often mentioned wittily)!
 
 In practical terms, this suggests several strategies.
-
-**Epistemic Humility** &ndash; actively tracking the completeness and representativeness of our information, not just its quantity or apparent quality.
-
-**Pattern Interruption** &ndash; deliberately questioning the mental models we construct from partial data, especially when those models feel particularly compelling or complete.
-
-**Strategic Uncertainty** &ndash; preserving uncertainty as valuable information about information&mdash;knowing what we don't know often matters more than knowing what we think we know.
+- **epistemic humility** &ndash; actively tracking the completeness and representativeness of our information, not just its quantity or apparent quality.
+- **pattern interruption** &ndash; deliberately questioning the mental models we construct from partial data, especially when those models feel particularly compelling or complete.
+- **strategic uncertainty** &ndash; preserving uncertainty as valuable information about information&mdash;knowing what we don't know often matters more than knowing what we think we know.
 
 # The Information-Action Gap
 
 Here's where the philosophical rubber meets the practical road &ndash; we must act in the world based on incomplete information. The question isn't whether to use partial information—that's unavoidable. The question is how to use it wisely.
 
-The key insight from my mathematical (and or rather statistical or probabilistic) background is that this isn't a binary choice between information and ignorance, but an optimization problem involving uncertainty quantification. The theories and tools I developed for [Convex Optimization](/math/cvxopt/) provide a framework: we can optimize decisions while explicitly modeling our uncertainty about missing information.
+The key insight from my mathematical (or rather statistical or probabilistic) background is that this isn't a binary choice between information and ignorance, but an optimization problem involving uncertainty quantification. The theories and tools I developed for [Convex Optimization](/math/cvxopt/){:target="_blank"} provide a framework: we can optimize decisions while explicitly modeling our uncertainty about missing information.
 
-In my current work at [Erudio Bio, Inc.](https://www.erudio.bio/), developing AI-powered biomarker platforms, this principle becomes literally a matter of life and death. Medical decisions based on partial biomarker information can be worse than decisions made with honest acknowledgment of ignorance. The key is building systems that provide explicit uncertainty estimates rather than false confidence.
+In my current work at [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"}, developing AI-powered biomarker platforms, this principle becomes literally a matter of life and death. Medical decisions based on partial biomarker information can be worse than decisions made with honest acknowledgment of ignorance. The key is building systems that provide explicit uncertainty estimates rather than false confidence.
 
 # The Meta-Information Problem
 
@@ -213,9 +214,9 @@ I believe the answer lies in transparency about limitations, explicit uncertaint
 
 # Implications for AI and Human-Technology Interaction
 
-As we enter [the Age of Agentic AI](/ai/data), this principle becomes increasingly critical. AI systems are, by their very nature, generators of partial information. They provide outputs based on training data that is necessarily incomplete, biased, and historically contingent.
+As we enter [the Age of Agentic AI](/ai/data){:target="_blank"}, this principle becomes increasingly critical. AI systems are, by their very nature, generators of partial information. They provide outputs based on training data that is necessarily incomplete, biased, and historically contingent.
 
-The danger isn't that AI provides wrong answers&mdash;that would be manageable. The danger is that AI provides partial information that feels complete, triggering our pattern-completion mechanisms to construct elaborate, confident, but incorrect mental models about reality.
+The danger isn't really that AI provides wrong answers&mdash;that would be manageable. The danger is that AI provides partial information that feels complete, triggering our pattern-completion mechanisms to construct elaborate, confident, but incorrect mental models about reality.
 
 My work on private AI addresses one aspect of this challenge
 &ndash;
@@ -223,7 +224,7 @@ ensuring that AI systems can operate on sensitive data without revealing informa
 
 # The Bridge Between Eastern and Western Wisdom
 
-This analysis bridges insights from my exploration of Buddhist philosophy with principles from Western cognitive science and mathematics. The Buddhist recognition that attachment to incomplete mental constructions causes suffering aligns precisely with the cognitive science insight that partial information often leads to overconfident errors.
+This analysis bridges insights from my exploration of [Buddhist philosophy](/blog/philosophy/PDT-Mahayana-Buddhism/){:target="_blank"} with principles from Western cognitive science and mathematics. The Buddhist recognition that attachment to incomplete mental constructions causes suffering aligns precisely with the cognitive science insight that partial information often leads to overconfident errors.
 
 Both traditions point toward the same practical wisdom &ndash; sometimes the wisest response to partial information is not to seek more information, but to recognize the incompleteness of what we have and maintain appropriate uncertainty.
 
@@ -235,7 +236,7 @@ This doesn't mean embracing nihilistic skepticism or paralyzing doubt. Rather, i
 
 As I reflect on my journey from pure mathematics through Silicon Valley innovation to philosophical exploration, this principle emerges as one of the most practically important insights &ndash; <span class="emph">the courage to remain uncertain in the face of compelling but incomplete information may be one of the most valuable cognitive skills for navigating an increasingly complex world.</span>
 
-This insight doesn't just apply to intellectual puzzles or philosophical questions. It shapes how we should approach AI development, biomedical research, financial decisions, and even personal relationships. Most critically of all, this shapes how we must fundamentally reconstruct political discourse in democratic societies. The current information environment systematically undermines the epistemic foundations that democracy requires to function.
+This insight doesn't just apply to intellectual puzzles or philosophical questions. It shapes how we should approach AI development, biomedical research, financial decisions, and even personal relationships. <span class="emph">Most critically of all, this shapes how we must fundamentally reconstruct political discourse in democratic societies.</span> The current information environment systematically undermines the epistemic foundations that democracy requires to function.
 
 The path forward requires developing new cognitive skills and social institutions that preserve appropriate uncertainty, resist premature pattern completion, and maintain what Buddhist philosophy calls "don't-know mind"—not as ignorance, but as openness to reality as it actually is rather than as our pattern-completion mechanisms want it to be.
 
@@ -247,7 +248,7 @@ Perhaps nowhere is this analysis more urgent than in rebuilding functional democ
 
 This means designing information systems that preserve uncertainty rather than eliminate it, political institutions that reward nuanced thinking rather than confident simplicity, and educational approaches that teach citizens to recognize when they're constructing complete political worldviews from insufficient information.
 
-The alternative—continued construction of elaborate, confident, but incompatible political realities from partial information—threatens not just individual decision-making but the foundational assumption of democratic governance: that informed citizens can engage in productive collective deliberation about shared challenges.
+The alternative—continued construction of elaborate, confident, but incompatible political realities from partial information—threatens not just individual decision-making but the foundational assumption of democratic governance &ndash; that informed citizens can engage in productive collective deliberation about shared challenges.
 
 In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
 
@@ -261,6 +262,6 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 <hr>
 <ol>
 <li id="footnote1">
-	Initially, I suspected these cognitive biases might be specific to Homo Sapiens—perhaps quirks of our particular evolutionary history rather than universal features of intelligence. However, while writing this article, I've become convinced that such biases are actually inevitable characteristics of any sufficiently complex information-processing system. The tendency to construct complete patterns from partial data may be as universal among intelligent beings as the mathematical truths I explored in my discussion of <a href="/prajna/inevitabilities">Inevitabilities</a>&mdash;not accidents of our biology, but necessary features of how intelligence itself must operate.
+	Initially, I suspected these cognitive biases might be specific to Homo Sapiens—perhaps quirks of our particular evolutionary history rather than universal features of intelligence. However, while writing this article, I've become convinced that such biases are actually inevitable characteristics of any sufficiently complex information-processing system. The tendency to construct complete patterns from partial data may be as universal among intelligent beings as the mathematical truths I explored in my discussion of <a target="_blank" href="/prajna/inevitabilities">Inevitabilities</a>&mdash;not accidents of our biology, but necessary features of how intelligence itself must operate.
 &nbsp;<a href="#ref1">↩</a></li>
 </ol>
