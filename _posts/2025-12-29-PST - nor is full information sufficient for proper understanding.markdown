@@ -1,7 +1,7 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Sun Feb  8 08:44:40 PST 2026
+last_modified_at: Mon Feb  9 06:26:35 PST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -34,6 +34,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
 {% assign musical_notes = site.posts | where: "permalink", "/prajna/wonders/richness-of-musical-notes" | first %}
 {% assign salzburg = site.posts | where: "permalink", "/ai/bridging-technology-and-humanity" | first %}
+{% assign why_do_we_live = site.posts | where: "url", "/blog/PST-Why-do-we-live/" | first %}
 
 {: .notice--success}
 This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}).
@@ -191,7 +192,7 @@ Of course, such instantaneous insights are sometimes wrong—intuition can decei
 
 I want to acknowledge upfront a fundamental limitation &ndash; I can only express so much using our linguistic tools. The words I'll employ won't fully capture what I *knew* in that moment of insight. [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"} grappled with this same problem throughout his philosophical career—first declaring in the *[Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus){:target="_blank"}* that "whereof one cannot speak, thereof one must be silent," then spending his later work exploring how language both enables and constrains what can be said versus what can only be shown. But if we abandoned communication whenever language proved insufficient, why write anything at all? <span class="emph">The inadequacy of expression doesn't negate the value of attempting to express.</span>
 
-This is particularly relevant given my broader philosophical explorations—from my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/) to my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}), where I grappled with the limits of what can be computationally captured versus what can be humanly understood. The gap between data and understanding, between information and wisdom, between *knowing that* and *knowing why*, has become a central theme of my intellectual journey.
+This is particularly relevant given my broader philosophical explorations—from my reframing of [The Meaning Question]({{ why_do_we_live.url }}){:target="_blank"} to my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}, where I grappled with the limits of what can be computationally captured versus what can be humanly understood. The gap between data and understanding, between information and wisdom, between *knowing that* and *knowing why*, has become a central theme of my intellectual journey.
 
 I explore this epistemological chasm from a different angle—the distinction between superficial knowledge and genuine understanding—on the homepage of the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}. There I argue that <span class="emph">you can teach a subject for years, publish papers using it, implement successful systems, and still not truly *understand* it in the deepest sense</span>—the sense where understanding would let you prove the [Riemann Hypothesis](https://en.wikipedia.org/wiki/Riemann_hypothesis){:target="_blank"} rather than just knowing its statement, or grasp *why* [Fermat's Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem){:target="_blank"} is true rather than just following Wiles's proof. That forum exists for those who have reached the self-awareness to recognize what they don't understand about what they thought they knew—a recognition that is, as I note there, "rare and precious."
 
@@ -602,7 +603,7 @@ I return now to where I began &ndash; that moment of sudden insight while listen
 
 Perhaps that moment exemplifies what this article argues &ndash; <span class="emph">understanding sometimes arrives not through information accumulation but through synthetic insight that transcends information</span>. The flash of recognition. The sudden coherence. The "aha!" that can't be reduced to logical steps from premises.
 
-These moments—which I've experienced throughout my journey from [mathematics](/math){:target="_blank"} through [semiconductors](/about){:target="_blank"} to [AI](/ai/data){:target="_blank"} to [biotech](https://www.erudio.bio/){:target="_blank"} to [philosophy](/blog/PST-Why-do-we-live/){:target="_blank"}—suggest that human cognition operates at a level that information theory alone cannot capture.
+These moments—which I've experienced throughout my journey from [mathematics](/math){:target="_blank"} through [semiconductors](/about){:target="_blank"} to [AI](/ai/data){:target="_blank"} to [biotech](https://www.erudio.bio/){:target="_blank"} to [philosophy]({{ why_do_we_live.url }}){:target="_blank"}—suggest that human cognition operates at a level that information theory alone cannot capture.
 
 The lightning strike of understanding illuminates not through the accumulation of data but through the sudden recognition of patterns, meanings, and connections that were implicit but invisible until the moment of insight.
 
