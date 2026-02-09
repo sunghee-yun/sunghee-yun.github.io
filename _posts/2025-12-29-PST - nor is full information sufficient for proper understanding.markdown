@@ -1,7 +1,7 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Mon Feb  9 07:22:30 PST 2026
+last_modified_at: Mon Feb  9 09:53:23 PST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -201,7 +201,7 @@ It was a reasonable, even obvious argument. The kind of epistemology that underl
 
 But then, like a lightning strike, something crystallized in my mind with absolute clarity.
 
-<span class="emph">Kane was wrong.</span>
+<span class="emph">Kane was wrong!</span>
 
 ## The Ineffable Nature of Sudden Insight
 
