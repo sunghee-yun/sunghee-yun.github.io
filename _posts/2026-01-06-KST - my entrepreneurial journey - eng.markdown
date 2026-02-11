@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Sun Jan 25 08:31:49 PST 2026
+last_modified_at: Wed Feb 11 09:29:40 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -152,7 +152,7 @@ with Fellows from diverse backgrounds including the EU, UN, global big tech corp
 
 # Childhood - The Pursuit of Fundamental Problems {#young}
 
-For as long as I can remember, I loved mathematics. The patterns created by numbers, the logical beauty of problem-solving—these were my playground. I enjoyed analyzing patterns in the number of stairs I encountered on my way to and from school, and I was captivated by the concept of perfect numbers I first learned about in my fifth-grade vacation exploration activities. Meanwhile, I showed aptitude for BASIC programming on an Apple II computer at a local computer academy I happened to attend, and in fifth grade, I won an award at a district competition, earning the right to compete at the Seoul City level.
+For as long as I can remember, I loved mathematics. The patterns created by numbers, the logical beauty of problem-solving—these were my playground. I enjoyed analyzing patterns in the number of stairs I encountered on my way to and from school, and I was captivated by the concept of [perfect numbers](https://en.wikipedia.org/wiki/Perfect_number){:target="_blank"} I first learned about in my fifth-grade vacation exploration activities. Meanwhile, I showed aptitude for BASIC programming on an Apple II computer at a local computer academy I happened to attend, and in fifth grade, I won an award at a district competition, earning the right to compete at the Seoul City level.
 
 My middle school years were relatively ordinary. I remember struggling quite hard to get good grades in memorization-based subjects like social studies, geography, and history, as I had no talent for them. I was more interested in discovering patterns and making connections than simply remembering facts. Much later, while reading the masterpiece "[The Story of the Romans](https://www.amazon.com/The-Story-of-the-Roman-People-15-book-series/dp/B07THDGJ1S){:target="_blank"}" by Japanese female author [Shiono Nanami](https://en.wikipedia.org/wiki/Nanami_Shiono), I realized that if I had understood the overall flow and identified patterns in history courses, they might have been more accessible to me. However, it would have been difficult for my younger self to realize this within Korea's educational system where such subjects were thoroughly reduced to memorization exercises.
 
