@@ -1,6 +1,6 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Wed Feb 11 09:29:40 PST 2026
+last_modified_at: Wed Feb 11 11:34:43 PST 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
@@ -196,7 +196,8 @@ And ironically, this somewhat random start ultimately led me to the field I trul
 # Stanford – Destiny brought me to Stephen Boyd {#stephen-boyd}
 
 Digital communications is one of the fields in electrical engineering that uses mathematics the most.
-This can be easily seen from the fact that Information Theory and Coding Theory form its core foundations.
+This can be easily seen from the fact that [Information Theory](https://en.wikipedia.org/wiki/Information_theory){:target="_blank"}
+and [Coding Theory](https://en.wikipedia.org/wiki/Coding_theory){:target="_blank"} form its core foundations.
 However, while taking digital communications classes at Stanford, I realized that even digital communications wasn't mathematical enough for me.
 What I wanted was deeper mathematical beauty.
 Then I met [Prof. Stephen Boyd](https://web.stanford.edu/~boyd){:target="_blank"}! At that moment, everything became clear.
