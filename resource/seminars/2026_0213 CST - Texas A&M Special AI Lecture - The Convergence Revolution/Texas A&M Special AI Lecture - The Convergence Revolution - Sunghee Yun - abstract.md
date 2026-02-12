@@ -1,0 +1,20 @@
+---
+layout: single
+title: "[Texas A&amp;M Special AI Lecture] AI Technology, Trends, and Market - Industrial AI"
+permalink: /seminars/2026_0213 CST - Texas A&M Special AI Lecture - The Convergence Revolution/abstract
+date: Thu Feb 12 05:00:45 CST 2026
+last_modified_at: Thu Feb 12 05:34:23 CST 2026
+author_profile: true
+toc: false
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
+toc_sticky: true
+---
+
+# Abstract
+
+Artificial Intelligence (AI) is transforming industrial operations across every sector—from semiconductor manufacturing and supply chain optimization to predictive maintenance and quality control—yet most discussions remain either too abstract (philosophical debates about AGI) or too narrow (specific model architectures). What's missing is the complete picture - how AI technologies actually work in production environments, which trends represent genuine paradigm shifts versus temporary hype cycles, and how markets are being reshaped as AI moves from research labs into factories, warehouses, and industrial facilities worldwide. This lecture provides that comprehensive view, drawing from fifteen years of building and deploying AI systems across three distinct industries - semiconductor manufacturing at Samsung, large-scale e-commerce systems at Amazon, and now AI-powered medical diagnostics at Erudio Bio. Each domain reveals complementary insights about what makes industrial AI succeed or fail in practice—insights that transcend any single application and illuminate patterns that will shape the next decade of industrial transformation.
+
+We will decode the complete industrial AI landscape across three dimensions. Technologically, we'll trace the evolution from early expert systems and statistical process control through modern deep learning, computer vision, and reinforcement learning—examining why certain approaches (convolutional neural networks for defect detection, LSTM networks for time-series forecasting, transformer models for anomaly detection) proved transformative while others failed to deliver promised value. Practically, we'll explore real production systems - how some world best semiconductor fabs use AI for virtual metrology and yield optimization, saving millions in manufacturing costs; how Amazon's recommendation and demand forecasting engines generate $200M+ in revenue through ML systems serving hundreds of millions of users; how Erudio Bio applies computer vision and agentic AI to cancer diagnostics, achieving accuracy levels impossible with traditional methods. Most critically, we'll examine the gap between laboratory proof-of-concept and production deployment—the data quality challenges, integration complexities, computational constraints, and organizational barriers that determine whether AI pilots scale into transformative business impact or languish as expensive experiments.
+
+From a market perspective, we'll analyze how AI is reshaping competitive dynamics and creating new opportunities across industries. Which applications generate immediate ROI versus which remain speculative? How are hardware constraints (GPU availability, edge computing capabilities, energy costs) limiting or enabling deployment strategies? What does the geopolitical semiconductor supply chain mean for AI infrastructure? Where are the biggest unsolved problems that represent massive market opportunities? For Texas A&M students and researchers—at an institution with deep industrial partnerships and strong engineering culture—this lecture offers strategic perspective on participating in the industrial AI revolution. You will gain technical clarity on what works in production versus what remains research-grade, market intelligence on where value is being created, and practical wisdom about the skills and mindsets that matter most. The goal is not to predict the future but to develop frameworks for navigating it—because while specific technologies and companies will rise and fall, the patterns of how AI creates industrial value will remain surprisingly consistent.
