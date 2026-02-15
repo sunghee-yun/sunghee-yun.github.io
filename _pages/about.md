@@ -1,5 +1,5 @@
 ---
-last_modified_at: Thu Jan 22 07:56:32 PST 2026
+last_modified_at: Sat Feb 14 21:00:49 CST 2026
 layout: single
 title: About
 permalink: /about/
@@ -266,9 +266,7 @@ My life goal is to help build a future where humanity thrives through the advanc
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
-<!--
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
--->
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
@@ -276,16 +274,17 @@ AI-Korean Medicine Integration Initiative Task Force Member of The Association o
 and
 KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
-He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
+His current company, Erudio Bio, recently received $1M Grant from Gates Foundation
+supporting bioTCAD, an AI drug discovery platform.
+
+He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on Convex Optimization.
 [Sunghee](/)'s expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as a Visiting Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 
 ## long
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
-<!--
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
--->
 the Leader of Silicon Valley Privacy Preserving AI Forum (K-PAI),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
@@ -297,9 +296,12 @@ where he developed AI and optimization tools for chip design, manufacturing, and
 that continue to be utilized daily by many Samsung engineers.
 Following his impactful work at Samsung, he drove AI technology development at Amazon.com,
 where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
+His current company, Erudio Bio, recently received $1M Grant from Gates Foundation
+supporting bioTCAD, an AI drug discovery platform.
+
 He holds BS degree in Electrical Engineering from Seoul National University
 and MS & Ph.D. degrees in Electrical Engineering from Stanford University,
-where he studied under Prof. Stephen P. Boyd, the world's singular authority on convex optimization.
+where he studied under Prof. Stephen P. Boyd, the world's singular authority on Convex Optimization.
 He uniquely masters every aspect of the field—from theoretical foundations
 to practical implementations, applications, and statistical methods.
 
@@ -307,7 +309,7 @@ to practical implementations, applications, and statistical methods.
 from semiconductor design &amp; manufacturing and e-Commerce to industrial AI and biotech.
 His expertise spans the development of agentic AIs leveraging large language models (LLMs),
 multimodal generative AI (genAI), and AI Agents.
-He currently serves in several active roles,
+He also currently serves in several active roles for academia,
 including as a Visiting Professor at Sogang University, Advisory Professor at DGIST,
 and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 
