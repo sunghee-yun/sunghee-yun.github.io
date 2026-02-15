@@ -1,5 +1,5 @@
 ---
-last_modified_at: Thu Feb  5 19:06:54 KST 2026
+last_modified_at: Sat Feb 14 19:07:14 CST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -289,12 +289,12 @@ toc_sticky: true
 	- 11-Feb-2026 PST ~ 14-Feb-2025 PST &ndash; [flight invoice](/resource/trips/2026-02 - Austin, Texas/www.expedia.com-egti-2JI-17D-4PL9.pdf){:target="_blank"}
 	- flight
 		&ndash; United 717
-		&ndash; from SFO @ 11:20am 11-Feb-2026 PST to AUS-Austin-Bergstrom Intl. @ 4:53pm on 11-Feb-2026 CST
-		(3h 33m)
+		&ndash; from SFO @ ~~11:20am~~ 12:20pm 11-Feb-2026 PST to AUS-Austin-Bergstrom Intl. @ ~~4:53pm~~ 5:51pm on 11-Feb-2026 CST
+		(3h ~~33m~~ 31m)
 	- return flight
 		&ndash; United 292
-		&ndash; from AUS-Austin-Bergstrom Intl. @ 5:58pm 14-Feb-2026 SFO to SJC @ 8:08pm on 14-Feb-2026 PST
-		(4h 10m)
+		&ndash; from AUS-Austin-Bergstrom Intl. @ ~~5:58pm~~ 5:50pm 14-Feb-2026 SFO to SJC @ ~~8:08pm~~ 7:53pm on 14-Feb-2026 PST
+		(4h ~~10m~~ 3m)
 	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}!
 
 <h4>Jan</h4>
