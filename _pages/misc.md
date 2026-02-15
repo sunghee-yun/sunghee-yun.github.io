@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sat Feb 14 19:07:14 CST 2026
+last_modified_at: Sat Feb 14 20:19:36 CST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -293,8 +293,8 @@ toc_sticky: true
 		(3h ~~33m~~ 31m)
 	- return flight
 		&ndash; United 292
-		&ndash; from AUS-Austin-Bergstrom Intl. @ ~~5:58pm~~ 5:50pm 14-Feb-2026 SFO to SJC @ ~~8:08pm~~ 7:53pm on 14-Feb-2026 PST
-		(4h ~~10m~~ 3m)
+		&ndash; from AUS-Austin-Bergstrom Intl. @ ~~5:58pm~~ 5:50pm 14-Feb-2026 SFO to SJC @ ~~8:08pm~~ 7:45pm on 14-Feb-2026 PST
+		(~~4h 10m~~ 3h 55m)
 	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}!
 
 <h4>Jan</h4>
