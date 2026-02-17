@@ -1,10 +1,24 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Tue Feb 17 01:04:19 PST 2026
+last_modified_at: Tue Feb 17 01:17:34 PST 2026
+permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
-categories: reflections
-tags: [AI, teaching, lectures, Texas A&M, KSEA, entrepreneurship, industrial AI, Silicon Valley, student engagement]
+categories:
+ - blog
+ - AI
+ - Lecture
+ - Education
+ - Reflections
+tags:
+ - AI education
+ - teaching
+ - lectures
+ - Texas A&M
+ - KSEA
+ - Silicon Valley
+ - paradigm shift
+ - interactive learning
 author_profile: true
 toc: true
 toc_label: "Table of Contents"
