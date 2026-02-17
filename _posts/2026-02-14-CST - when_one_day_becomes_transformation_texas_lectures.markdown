@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Tue Feb 17 01:17:34 PST 2026
+last_modified_at: Tue Feb 17 01:52:27 PST 2026
 permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
@@ -38,6 +38,60 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
 {% assign full_info_not_enough = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The 1.7x Speed Industrial AI Marathon</strong>
+			<span style="opacity: 0.8;">(41:15)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Deep Dive - The 1.7x Speed Industrial AI Marathon.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Connector Mindset for Industrial AI</strong>
+			<span style="opacity: 0.8;">(16:04)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Deep Dive - Industrial_AI_Demands_a_Connector's_Mindset.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Connector Mindset for Industrial AI</strong>
+			<span style="opacity: 0.8;">(14:35)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Deep Dive - The_Connector_Mindset_for_Industrial_AI.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Industrial AI Requires a Connector’s Mindset</strong>
+			<span style="opacity: 0.8;">(13:28)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Debate - Industrial_AI_Requires_a_Connector's_Mindset.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 The LinkedIn messages keep coming. The students and the audience from both lectures. Professionals
 seeking to stay connected. PhD students wanting to discuss how Artificial Intelligence (AI) and related machine learning (ML) techniques could and should be applied to their research domains. Each one a reminder that when teaching works,
