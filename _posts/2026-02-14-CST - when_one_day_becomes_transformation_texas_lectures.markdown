@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Tue Feb 17 01:52:27 PST 2026
+last_modified_at: Wed Feb 18 15:26:06 PST 2026
 permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
@@ -85,8 +85,35 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(13:28)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Debate - Industrial_AI_Requires_a_Connector's_Mindset.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Connector's Mindset Versus Industrial Reality</strong>
+			<span style="opacity: 0.8;">(18:28)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Debate - The_Connector_s_Mindset_Versus_Industrial_Reality.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Connector’s Mindset vs AI Engineering Reality</strong>
+			<span style="opacity: 0.8;">(17:06)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-14-CST - when_one_day_becomes_transformation_texas_lectures/Debate - The_Connector's_Mindset_vs_AI_Engineering_Reality.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
