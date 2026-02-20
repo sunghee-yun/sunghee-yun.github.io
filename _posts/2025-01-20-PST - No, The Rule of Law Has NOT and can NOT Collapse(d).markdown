@@ -1,7 +1,7 @@
 ---
 title: No, The Rule of Law Has NOT, will NOT, and can NOT Collapse(d)! - 법치法治는 무너지지 않았다.
 date: Mon Jan 20 12:03:43 PST 2025
-last_modified_at: Sat Jan  3 13:06:25 PST 2026
+last_modified_at: Fri Feb 20 01:18:59 PST 2026
 categories:
  - column
  - Humanity
@@ -76,16 +76,57 @@ processing these violations through established judicial procedures.-->
 > the rule of law that many generations of South Koreans have built will only grow stronger,
 > more resilient, and more deeply rooted in our society than ever before!</span>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-		<strong>The Indestructible Rule of Law in South Korea</strong>
-		<span style="opacity: 0.8;">(07:41)</span>
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Political Chaos Is Proof the Law Works!</strong>
+			<span style="opacity: 0.8;">(39:32)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-01-20-PST - No, The Rule of Law Has NOT and can NOT Collapse(d)/Deep Dive - Political_Chaos_Is_Proof_the_Law_Works.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
 	</div>
-	<div style="padding: 10px; background-color: #ecf0f1;">
-		<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-			<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/NotebookLM/The Indestructible Rule of Law in South Korea - 02.wav">
-			Your browser does not support this audio element.
-		</audio>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Indestructible Rule of Law in South Korea</strong>
+			<span style="opacity: 0.8;">(07:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/NotebookLM/The Indestructible Rule of Law in South Korea - 02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Has South Korea’s Rule of Law Collapsed?</strong>
+			<span style="opacity: 0.8;">(19:06)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-01-20-PST - No, The Rule of Law Has NOT and can NOT Collapse(d)/Debate - Has_South_Korea's_Rule_of_Law_Collapsed.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - South Korea's Chaos Proves the System Works!</strong>
+			<span style="opacity: 0.8;">(20:42)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-01-20-PST - No, The Rule of Law Has NOT and can NOT Collapse(d)/Debate - South_Korea_s_Chaos_Proves_the_System_Works.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
 	</div>
 </div>
 
