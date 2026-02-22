@@ -1,7 +1,7 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Thu Feb 19 18:26:06 PST 2026
+last_modified_at: Fri Feb 20 01:34:48 PST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -14,7 +14,7 @@ tags:
  - wisdom
 toc: true
 toc_label: "&nbsp;Table of Contents"
-toc_icon: "fa-solid fa-book"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
 ---

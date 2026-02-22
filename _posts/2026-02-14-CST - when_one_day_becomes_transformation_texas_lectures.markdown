@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Wed Feb 18 15:26:06 PST 2026
+last_modified_at: Fri Feb 20 17:18:07 PST 2026
 permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
@@ -19,10 +19,9 @@ tags:
  - Silicon Valley
  - paradigm shift
  - interactive learning
-author_profile: true
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "book"
+toc_label: "&nbsp;Table of Contents"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

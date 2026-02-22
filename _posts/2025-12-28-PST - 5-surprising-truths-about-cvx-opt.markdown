@@ -1,7 +1,7 @@
 ---
 title: "5 Surprising Truths About Convex Optimization (That Even Experts Get Wrong)"
 date: Sun Dec 28 05:45:13 PST 2025
-last_modified_at: Fri Jan  2 11:48:17 PST 2026
+last_modified_at: Fri Feb 20 01:34:34 PST 2026
 permalink: /cvx-opt/5-truths
 categories:
  - blog
@@ -15,7 +15,7 @@ tags:
  - theory
 toc: true
 toc_label: "&nbsp;Table of Contents"
-toc_icon: "fa-solid fa-book"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
 ---

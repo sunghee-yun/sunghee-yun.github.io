@@ -1,6 +1,6 @@
 ---
 date: Wed Jan  7 18:44:15 PST 2026
-last_modified_at: Thu Jan  8 15:07:39 PST 2026
+last_modified_at: Fri Feb 20 01:35:16 PST 2026
 title: "When Teaching becomes Transformation - Reflections on Five Lectures that Changed How Students See AI"
 permalink: /ai-lecture/reflections/sjsu
 categories:
@@ -17,7 +17,7 @@ tags:
  - interactive learning
 toc: true
 toc_label: "&nbsp;Table of Contents"
-toc_icon: "fa-solid fa-music"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

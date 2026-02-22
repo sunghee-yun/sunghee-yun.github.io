@@ -1,6 +1,6 @@
 ---
 date: Fri Dec 19 10:21:28 KST 2025
-last_modified_at: Sat Feb 14 20:27:09 CST 2026
+last_modified_at: Fri Feb 20 01:34:07 PST 2026
 title: "[영재교육 매거진 기고문] 나의 창업 스토리 - 수학에서 생명과학까지, 영재성英才性을 창업으로 꽃피운 여정旅程"
 permalink: /contributions/my-entrepreneurial-journey
 categories:
@@ -9,7 +9,7 @@ tags:
  - entrepreneurship
 toc: true
 toc_label: "&nbsp;Table of Contents"
-toc_icon: "fa-solid fa-music"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 

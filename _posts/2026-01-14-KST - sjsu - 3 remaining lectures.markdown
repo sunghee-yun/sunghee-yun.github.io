@@ -1,6 +1,6 @@
 ---
 date: Wed Jan 14 08:46:00 PST 2026
-last_modified_at: Thu Jan 22 08:16:43 PST 2026
+last_modified_at: Fri Feb 20 01:35:29 PST 2026
 title: "THREE remaining lectures for Kyungpook National University Students"
 permalink: /ai-lecture/sjsu/3
 categories:
@@ -17,7 +17,7 @@ tags:
  - interactive learning
 toc: true
 toc_label: "&nbsp;Table of Contents"
-toc_icon: "fa-solid fa-music"
+toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
