@@ -1,9 +1,9 @@
 ---
-date: Fri Feb 20 01:27:43 PST 2026
-last_modified_at: Fri Feb 20 02:16:39 PST 2026
+date: Thu Feb 19 01:27:43 PST 2026
+last_modified_at: Sun Feb 22 17:16:49 PST 2026
 permalink: /prajna/epistemic-gap/podcasts
 layout: single
-title: "Podcasts on Epistemic Gap Articles"
+title: "Podcasts on Epistemic Gap Articles and Convex Optimization Forum!"
 categories:
  - blog
  - Cognitive Science
@@ -43,11 +43,92 @@ Using [NotebookLM](https://notebooklm.google.com/){:target="_blank"}, Google's A
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Complete Information Is Not Understanding?</strong>
+			<span style="opacity: 0.8;">(42:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_Complete_Information_Is_Not_Understanding.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Why Data Without Context Is Dangerous?</strong>
+			<span style="opacity: 0.8;">(21:24)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Dabate - Why_Data_Without_Context_Is_Dangerous.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Partial Data Is Worse Than Ignorance?</strong>
+			<span style="opacity: 0.8;">(38:33)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_Partial_Data_Is_Worse_Than_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why More Data Leads to Worse Decisions?</strong>
+			<span style="opacity: 0.8;">(41:08)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_More_Data_Leads_to_Worse_Decisions.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why More Data Makes You Stupider?</strong>
+			<span style="opacity: 0.8;">(19:49)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_More_Data_Makes_You_Stupider.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Complete Information Is Not Sufficient?</strong>
+			<span style="opacity: 0.8;">(17:06)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_Complete_Information_Is_Not_Sufficient.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Deep Dive - Why More Data Makes Us Stupider?</strong>
 			<span style="opacity: 0.8;">(47:21)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_More_Data_Makes_Us_Stupider.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -59,7 +140,7 @@ Using [NotebookLM](https://notebooklm.google.com/){:target="_blank"}, Google's A
 			<span style="opacity: 0.8;">(37:39)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_Partial_Information_Is_Worse_Than_Ignorance.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -74,7 +155,7 @@ Using [NotebookLM](https://notebooklm.google.com/){:target="_blank"}, Google's A
 			<span style="opacity: 0.8;">(22:34)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_Knowing_Everything_Explains_Nothing.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -86,7 +167,7 @@ Using [NotebookLM](https://notebooklm.google.com/){:target="_blank"}, Google's A
 			<span style="opacity: 0.8;">(18:20)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Deep Dive - Why_More_Data_Means_Less_Understanding.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -101,7 +182,7 @@ Using [NotebookLM](https://notebooklm.google.com/){:target="_blank"}, Google's A
 			<span style="opacity: 0.8;">(19:54)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - podcast summary for epistemic gap articles/Debate - The_False_Confidence_of_Partial_Information.m4a">
 				Your browser does not support this audio element.
 			</audio>
