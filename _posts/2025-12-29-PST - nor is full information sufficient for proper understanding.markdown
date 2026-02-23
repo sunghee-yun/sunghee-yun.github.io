@@ -1,7 +1,7 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Fri Feb 20 01:34:48 PST 2026
+last_modified_at: Sun Feb 22 18:09:36 PST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -407,7 +407,9 @@ This isn't to say AI will never achieve such understanding—that remains an ope
 
 The courtroom provides a particularly stark illustration of complete information's insufficiency.
 
-Modern legal systems have become increasingly sophisticated in evidence gathering. DNA analysis, video surveillance, digital forensics, financial records, communication logs—we can now assemble vastly more complete information about alleged crimes than ever before in human history.
+Modern legal systems have become increasingly sophisticated in evidence gathering;
+DNA analysis, video surveillance, digital forensics, financial records, communication logs&mdash;we
+can now assemble vastly more complete information about alleged crimes than ever before in human history.
 
 Yet judges and juries still disagree about appropriate verdicts and sentences even when presented with essentially identical evidence. <span class="emph">Why? Because judgment requires more than information</span>.
 
