@@ -1,7 +1,7 @@
 ---
 title: "Equivalence of Vitamin Cost Minimization and Nutrition Price Maximization -  A Journey Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Feb 23 03:14:58 PST 2026
+last_modified_at: Mon Feb 23 03:52:08 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -32,17 +32,66 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign trilogy = site.posts | where: "permalink", "/prajna/epistemic-gap/podcasts" | first %}
 {% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 {% assign comp_info = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
-{% assign strategic_ignorance = site.posts | where: "permalink", "/prajna/wisdom-of-strategic-ignorance" | first %}
-{% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
-{% assign musical_notes = site.posts | where: "permalink", "/prajna/wonders/richness-of-musical-notes" | first %}
-{% assign salzburg = site.posts | where: "permalink", "/ai/bridging-technology-and-humanity" | first %}
-{% assign why_do_we_live = site.posts | where: "url", "/blog/PST-Why-do-we-live/" | first %}
 
 <!--
 > *"In my earlier exploration of why [partial information can be worse than ignorance](/prajna/wisdom-of-strategic-ignorance) and why [complete information remains insufficient](/prajna/impossibility-of-full-knowledge), I argued that genuine understanding transcends mere information accumulation. Now I embark on the journey I described in the [Convex Optimization Forum](https://convex-optimization-99.github.io/) - moving from mechanical knowledge to deep comprehension. The vitamin problem, deceptively simple, contains within it all the profound mysteries of duality, optimality, and the mathematical structure that underlies economic equilibrium itself."*
 
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(35:27)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Optimization Theory in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(26:34)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Optimization_Theory_in_the_Vitamin_Aisle.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Pharmacy Aisle</strong>
+			<span style="opacity: 0.8;">(16:38)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_in_the_Pharmacy_Aisle.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Geometry of Vitamin Shadow Prices</strong>
+			<span style="opacity: 0.8;">(20:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - The_Geometry_of_Vitamin_Shadow_Prices.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The Epistemological Stakes
 
