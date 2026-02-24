@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Tue Dec 30 06:33:58 PST 2025
+last_modified_at: Mon Feb 23 18:09:39 PST 2026
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -4040,7 +4040,7 @@ called <span class="define">Lagrangian</span> associated with the optimization p
 where
 
 	<ul>
-	<li>
+	<li id="definition-Lagrange-multiplier">
 		$\lambda$, called <span class="define">Lagrange multiplier associated inequality constraints</span> $\fie(x)\preceq0$
 
 	</li>
@@ -4517,7 +4517,7 @@ associated with problem in <a href="#definition:optimization---problems"></a>
 	<ul>
 	<li>
 		original problem in <a href="#definition:optimization---problems"></a>,
-(somestime) called <span class="define">primal problem</span>
+(somestime) called <span class="define" id="definition-primal-problem">primal problem</span>
 
 	</li>
 	<li>

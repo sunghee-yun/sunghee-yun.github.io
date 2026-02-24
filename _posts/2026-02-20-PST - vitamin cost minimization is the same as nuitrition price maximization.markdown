@@ -1,7 +1,7 @@
 ---
-title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  A Journey Toward Genuine Understanding"
+title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Feb 23 17:16:25 PST 2026
+last_modified_at: Mon Feb 23 18:21:23 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -208,7 +208,7 @@ $$
 where $x\in\reals^n$ is the optimization varible
 representing our vitamin quantities.
 
-This is our <span class="define">primal problem</span> &ndash; the natural, direct formulation of what we want to accomplish.
+This is our [<span class="define">primal problem</span>](/math/rig/convex-optimization#definition-primal-problem){:target="_blanK"} &ndash; the natural, direct formulation of what we want to accomplish.
 
 # The Mathematical Machinery - From Primal to Dual
 
@@ -216,7 +216,7 @@ This is our <span class="define">primal problem</span> &ndash; the natural, dire
 
 Here's where the magic begins - though it won't feel magical until we understand what's really happening.
 
-The <span class="define">Lagrangian</span> $L: \reals^n \times \reals^m \times \reals^n \to \reals$ is defined by
+The [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blanK"} $L: \reals^n \times \reals^m \times \reals^n \to \reals$ is defined by
 
 \begin{equation}
 \label{eq:lagrangian}
@@ -227,11 +227,15 @@ L(x,\tilde{\lambda}, {\bar{\lambda}})
 
 
 The variables $\tilde{\lambda}\in\reals^m$ and $\bar{\lambda}\in\reals^n$ are
-called <span class="define">Lagrange dual variables</span> or <span class="define">Lagrange multipliers</span>.
+called
+[<span class="define">Lagrange dual variables</span>](/math/rig/convex-optimization#definition-Lagrange-multiplier){:target="_blanK"}
+or
+[<span class="define">Lagrange multipliers</span>](/math/rig/convex-optimization#definition-Lagrange-multiplier){:target="_blanK"}.
 
 ## The Dual Function Emerges
 
-The <span class="define">Lagrange dual function</span> $g: \reals^m \times \reals^n \to \reals$ is defined to be
+The [<span class="define">Lagrange dual function</span>](/math/rig/convex-optimization#definition:Lagrange---dual---functions){:target="_blanK"}
+$g: \reals^m \times \reals^n \to \reals$ is defined to be
 the infimum of the Lagrangian over $x$,
 *i.e.*,
 
@@ -297,7 +301,9 @@ $$
 
 where the optimization variables are ${\lambda}\in\reals^m$.
 
-The problem \eqref{eq:dual-prob-01} (hence, \eqref{eq:dual-prob}, too) is called <span class="define">the dual problem</span> of the (primal) problem \eqref{eq:primal-prob}.
+The problem \eqref{eq:dual-prob-01} (hence, \eqref{eq:dual-prob}, too) is called
+the [<span class="define">dual problem</span>](/math/rig/convex-optimization#definition:Lagrange---dual---problems){:target="_blanK"}
+of the (primal) problem \eqref{eq:primal-prob}.
 
 # The Dimensional Analysis - Mathematics Reveals Economics
 
@@ -327,7 +333,7 @@ The dual problem becomes:
 
 The dual variables $\lambda_i$ are <span class="emph">nutrient prices</span> in a competitive market!
 
-The dual problem is solved by <span class="emph">nutrition suppliers who want to maximize their revenue while ensuring that vitamin manufacturers can still produce vitamins profitably</span>.
+The dual problem is solved by <span class="emph">the nutrient supplier who want to maximize their revenue while ensuring that vitamin manufacturers can still produce vitamins profitably</span>.
 
 ## The Beautiful Duality
 
@@ -803,6 +809,18 @@ The journey toward genuine understanding continues - through problems like this 
 **The vitamin problem has taught us its secrets. But the real lesson is about the nature of understanding itself - how it transcends information, why it requires multiple perspectives, and why it can never be fully captured in any single formulation, no matter how complete.**
 
 *The mathematics points beyond itself toward truths about truth, knowledge about knowledge, and understanding about understanding. And perhaps that's the most profound insight of all.*
+
+# Further Examinations toward Accessing The Universal Truths
+
+## Dual of the dual
+
+## Independence of Optimal Solutions
+
+## Independence of Contexts or even Mathematics itself!
+
+## Exploration of Other Examples
+
+## The Universality of Vitamin Cost Minimization Problem
 
 ---
 
