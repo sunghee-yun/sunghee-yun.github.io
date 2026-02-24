@@ -1,7 +1,7 @@
 ---
-title: "Equivalence of Vitamin Cost Minimization and Nutrition Price Maximization -  A Journey Toward Genuine Understanding"
+title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  A Journey Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Feb 23 03:52:08 PST 2026
+last_modified_at: Mon Feb 23 17:16:25 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
