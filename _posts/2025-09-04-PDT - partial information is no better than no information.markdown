@@ -1,10 +1,11 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Sun Feb  8 03:27:49 KST 2026
+last_modified_at: Mon Feb 23 18:34:55 PST 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
  - blog
+ - Universal Truth
  - Cognitive Science
 tags:
  - cognitive science

@@ -1,10 +1,11 @@
 ---
 title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Feb 23 18:21:23 PST 2026
+last_modified_at: Mon Feb 23 18:37:20 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
+ - Universal Truth
 tags:
  - convex optimization
  - math

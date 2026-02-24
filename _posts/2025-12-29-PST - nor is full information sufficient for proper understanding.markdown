@@ -1,10 +1,11 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Sun Feb 22 18:09:36 PST 2026
+last_modified_at: Mon Feb 23 18:35:06 PST 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
+ - Universal Truth
  - Cognitive Science
  - Philosophy
 tags:
