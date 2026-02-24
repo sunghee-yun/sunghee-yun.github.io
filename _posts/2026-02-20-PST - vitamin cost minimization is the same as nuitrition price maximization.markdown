@@ -1,7 +1,7 @@
 ---
 title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 01:20:45 PST 2026
+last_modified_at: Tue Feb 24 01:27:09 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -861,7 +861,7 @@ The journey toward genuine understanding continues - through problems like this 
 
 <span class="emph">The mathematics points beyond itself toward truths about truth, knowledge about knowledge, and understanding about understanding. And perhaps that's the most profound insight of all.</span>
 
-# Further Examinations toward Accessing The Universal Truths
+# Passages to Infinite Understanding
 
 When I first conceived writing [this exploration](#top)&mdash;even as I began drafting [it](#top)&mdash;I expected the vitamin cost minimization problem to serve merely as an introductory stepping stone, a preliminary glimpse into the vast landscape of genuine understanding I sought to navigate. I assumed this single problem would illuminate only a small fragment of the larger truth, like examining one facet of an infinite crystal.
 
