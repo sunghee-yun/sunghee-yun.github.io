@@ -1,7 +1,7 @@
 ---
 title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 01:27:09 PST 2026
+last_modified_at: Tue Feb 24 02:40:23 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -283,6 +283,21 @@ over the positive orthants of Lagrange dual variables,
 
 $$
 \begin{eqnarray}
+\begin{array}{ll}
+	\mbox{maximize} & g({\tilde{\lambda}}, {\bar{\lambda}})
+	\\
+	\mbox{subject to}
+	& {\tilde{\lambda}} \geq 0
+	\\
+	& {\bar{\lambda}} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+which is equivalent to
+
+$$
+\begin{eqnarray}
 \label{eq:dual-prob-01}
 \begin{array}{ll}
 	\mbox{maximize} & b^T {\tilde{\lambda}}
@@ -378,7 +393,7 @@ implies that
 
 \begin{equation}
 \label{eq:weak-duality}
-	b^T \lambda^\ast \leq c^T x^\ast.
+	b^T \lambda^\ast \leq c^T x^\ast
 \end{equation}
 
 The [Slater's theorem](/math/rig/convex-optimization#theorem:Slater's---theorem){:target="_blank"}
@@ -391,7 +406,7 @@ the optimal values of \eqref{eq:primal-prob} and \eqref{eq:dual-prob} are the sa
 
 \begin{equation}
 \label{eq:strong-duality}
-	b^T \lambda^\ast = c^T x^\ast.
+	b^T \lambda^\ast = c^T x^\ast
 \end{equation}
 
 This means the vitamin cost minimization problem and the nutrient price maximization problem
@@ -403,6 +418,28 @@ the minimum cost of meeting nutritional requirements exactly equals the maximum 
 
 <span class="emph">This isn't just mathematically elegant - it's economically profound</span>.
 It says that in a perfectly competitive market, consumer costs and supplier revenues reach the same equilibrium value.
+
+## Computational Duality - When Algorithms Reveal Hidden Connections
+
+The strong duality we've discovered reveals something profound about the relationship between mathematical theory and computational practice. When we solve optimization problems, our choice of algorithm doesn't just affect *how* we find the solution—it determines *what* we understand about the problem's deeper structure.
+
+Consider the beautiful way different methods embody duality.
+
+When we solve our vitamin problem using the classical [simplex method](https://en.wikipedia.org/wiki/Simplex_algorithm){:target="_blank"}, something remarkable happens in the final tableau. Not only do we get the optimal vitamin quantities $x^\ast$, but the shadow prices (our dual variables $\lambda^\ast$) appear automatically in the bottom row under the slack variable columns! The simplex method doesn't just solve the primal problem—<span class="emph">it simultaneously reveals the economic equilibrium encoded in the dual</span>. Every simplex tableau contains both the consumer's optimal purchasing strategy AND the market's optimal nutrient pricing.
+
+But **primal-dual interior-point methods** and **central path algorithms** (using log-barrier functions) reveal duality in an even more profound way - <span class="emph">they navigate through the interior of both primal and dual feasible regions simultaneously</span>, maintaining perfect harmony between vitamin costs and nutrient values at every iteration. Rather than jumping between vertices like simplex, these methods trace smooth paths that preserve the primal-dual correspondence throughout the entire solution process.
+
+The central path, in particular, follows a curve that connects primal and dual problems through their geometric centers, never allowing either perspective to dominate.
+<span class="emph">It's as if the algorithm understands that consumer optimization and market equilibrium are inseparable aspects of the same reality, and it refuses to lose sight of either.</span>
+
+This reveals something profound about algorithmic wisdom.
+
+- **Simplex method embodies the discrete understanding** that every feasible corner solution has a corresponding dual solution—duality as endpoint relationship
+- **Interior-point methods embody the continuous understanding** that primal and dual evolve together along connected paths—duality as ongoing relationship
+
+Both approaches automatically provide dual variables because <span class="emph">duality is so fundamental to optimization that any correct algorithm must embody it</span>. The mathematics won't let you solve one side without touching the other—the very structure of linear programming forces algorithms to confront both consumer behavior and market equilibrium simultaneously.
+
+This isn't merely computational convenience—it's evidence that <span class="emph">the universe of optimization problems is inherently dual</span>. Every algorithm that works must somehow respect this fundamental symmetry, whether through discrete jumps between dual pairs (simplex) or continuous paths that maintain dual relationships (interior-point). <span class="emph">The methods don't just compute answers; they reveal the unavoidable duality woven into the fabric of rational decision-making itself.</span>
 
 # KKT Conditions - The Anatomy of Optimality
 
@@ -889,7 +926,98 @@ Through these explorations, we'll discover that the vitamin problem doesn't just
 
 ## Dual of the dual
 
-(WIP)
+Let us take on a relatively straightforward journey here.
+We start with a nutrient supplier
+and assume that we want to maximize the total revenue,
+*i.e.*,
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+\text{maximize} & b^T y \\
+\text{subject to} & A^T y \leq c \\
+& y \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+where the optimization varible is $y\in\reals^m$.
+
+Now the Lagrangian (of this maximization problem) $\tilde{L}: \reals^m \times \reals^n \times \reals^m \to \reals$ can be defined as
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+\tilde{L}(y,\tilde{\nu}, {\bar{\nu}})
+	&=& b^T y + {\tilde{\nu}}^T(c-A^Ty) + {\bar{\nu}}^T y
+\\
+	&=& (b - A \tilde{\nu} + \bar{\nu})^T y + \tilde{\nu}^T c.
+\end{array}
+\end{eqnarray}
+$$
+
+Then the Lagrange dual function (of the maximization problem) $\tilde{g}: \reals^n \times \reals^m \to \reals$ can be defined as
+
+$$
+\begin{eqnarray}
+\tilde{g}({\tilde{\nu}}, {\bar{\nu}})
+	=
+	\sup_{y\in\reals^m} L(x,\tilde{\nu}, {\bar{\nu}})
+	=
+	\left\{\begin{array}{ll}
+		c^T \tilde{\nu} & \mbox{if } b-A\tilde{\nu} + \bar{\nu} = 0
+		\\
+		\infty & \mbox{otherwise}
+	\end{array}\right.
+\end{eqnarray}
+$$
+
+Then the dual problem is defined by
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+	\mbox{minimize} & \tilde{g}({\tilde{\nu}}, {\bar{\nu}})
+	\\
+	\mbox{subject to}
+	& {\tilde{\nu}} \geq 0
+	\\
+	& {\bar{\nu}} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+which is equivalent to
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+	\mbox{maximize} & c^T {\tilde{\nu}}
+	\\
+	\mbox{subject to} & b -A \tilde{\nu} + \bar{\nu} = 0
+	\\
+	& {\tilde{\nu}} \geq 0
+	\\
+	& {\bar{\nu}} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+We can eliminate $\bar{\nu}$ by noting that $\bar{\nu} = A\tilde{\nu} - b \geq 0$.
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+	\mbox{minimize} & c^T \nu
+	\\
+	\mbox{subject to} & A \nu \geq b
+	\\
+	& \nu \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+Note that the dual of the dual is the original primal problem \eqref{eq:primal-prob}.
 
 ## Warping by Adding Penalties
 
