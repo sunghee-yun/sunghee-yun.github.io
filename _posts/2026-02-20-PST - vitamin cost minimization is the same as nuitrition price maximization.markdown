@@ -1,7 +1,7 @@
 ---
 title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Feb 23 23:20:06 PST 2026
+last_modified_at: Mon Feb 23 23:24:24 PST 2026
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -798,13 +798,6 @@ This connects to real economic phenomena: markets with perfectly correlated asse
 
 This exploration perfectly illustrates the themes from my earlier work,
 *i.e.*,
-- [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}
-- [{{ partial_info.title }}]({{ partial_info.url }}){:target="_blank"}
-- [{{ full_info.title }}]({{ full_info.url }}){:target="_blank"}
-
-This exploration perfectly illustrates the themes from my earlier work,
-*i.e.*,
-
 - [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}
 - [{{ partial_info.title }}]({{ partial_info.url }}){:target="_blank"}
 - [{{ full_info.title }}]({{ full_info.url }}){:target="_blank"}
