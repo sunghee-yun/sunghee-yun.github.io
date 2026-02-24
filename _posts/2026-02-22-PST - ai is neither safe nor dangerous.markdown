@@ -1,9 +1,9 @@
 ---
 date: Sun Feb 22 18:05:55 PST 2026
-last_modified_at: Sun Feb 22 21:51:56 PST 2026
+last_modified_at: Mon Feb 23 18:22:20 PST 2026
 permalink: /ai/future/
 layout: single
-title: "(WIP) AI is neither safe nor dangerous!"
+title: "(WIP) AI is Neither Safe nor Dangerous!"
 categories:
  - blog
  - AI
