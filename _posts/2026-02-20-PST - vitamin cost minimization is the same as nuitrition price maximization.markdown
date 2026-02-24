@@ -1,7 +1,7 @@
 ---
-title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 02:40:23 PST 2026
+last_modified_at: Tue Feb 24 03:14:22 PST 2026
+title: "(WIP) Vitamin Cost Minimization is equivalent to Nutrients Price Maximization -  An Inspection Toward Genuine Understanding"
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -40,6 +40,87 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(35:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle - long - 01.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(25:20)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle - long - 02.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(15:11)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
+			<span style="opacity: 0.8;">(16:57)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle - 01.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Hidden Duality of Vitamin Costs</strong>
+			<span style="opacity: 0.8;">(18:32)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Debate - The_Hidden_Duality_of_Vitamin_Costs.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Invisible Hand in Vitamin Math</strong>
+			<span style="opacity: 0.8;">(20:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization - 01/Debate - The_Invisible_Hand_in_Vitamin_Math.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
