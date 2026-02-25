@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 19:17:53 PST 2026
+last_modified_at: Tue Feb 24 23:26:14 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -301,22 +301,14 @@ Here's where the magic begins - though it won't feel magical until we understand
 
 The [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"} $L: \reals^n \times \reals^m \times \reals^n \to \reals$ is defined by
 
-<!--
-\begin{equation}
-L(x,\tilde{\lambda}, {\bar{\lambda}})
-	= c^T x + {\tilde{\lambda}}^T(b-Ax) - {\bar{\lambda}}^T x
-	= (c - A^T {\tilde{\lambda}} - {\bar{\lambda}})^T x + {\tilde{\lambda}}^T b.
-\end{equation}
--->
-
 $$
 \begin{eqnarray}
 \label{eq:lagrangian}
 \begin{array}{rcl}
-L(x,\tilde{\lambda}, {\bar{\lambda}})
-	&=& c^T x + {\tilde{\lambda}}^T(b-Ax) - {\bar{\lambda}}^T x
+L(x,\tilde{\lambda}, \bar{\lambda})
+	&=& c^T x + \tilde{\lambda}^T(b-Ax) - \bar{\lambda}^T x
 \\
-	&=& (c - A^T {\tilde{\lambda}} - {\bar{\lambda}})^T x + {\tilde{\lambda}}^T b.
+	&=& (c - A^T \tilde{\lambda} - \bar{\lambda})^T x + \tilde{\lambda}^T b
 \end{array}
 \end{eqnarray}
 $$
@@ -335,9 +327,9 @@ the infimum of the Lagrangian over $x$,
 *i.e.*,
 
 \begin{equation}
-g({\tilde{\lambda}}, {\bar{\lambda}})
+g(\tilde{\lambda}, \bar{\lambda})
 	=
-	\inf_{x\in\reals^n} L(x,\tilde{\lambda}, {\bar{\lambda}})
+	\inf_{x\in\reals^n} L(x,\tilde{\lambda}, \bar{\lambda})
 \end{equation}
 
 Since $L$ is linear in $x$, this infimum is either finite (when the coefficient of $x$ is zero) or $-\infty$,
@@ -345,17 +337,17 @@ Since $L$ is linear in $x$, this infimum is either finite (when the coefficient 
 
 $$
 \begin{eqnarray}
-g({\tilde{\lambda}}, {\bar{\lambda}})
+g(\tilde{\lambda}, \bar{\lambda})
 	=
 	\left\{\begin{array}{ll}
-		b^T {\tilde{\lambda}} & \mbox{if } A^T{\tilde{\lambda}} + {\bar{\lambda}} = c,
+		b^T \tilde{\lambda} & \mbox{if } A^T\tilde{\lambda} + \bar{\lambda} = c
 		\\
-		- \infty & \mbox{otherwise.}
+		- \infty & \mbox{otherwise}
 	\end{array}\right.
 \end{eqnarray}
 $$
 
-## The Dual Problem Revealed
+## The Dual Problem Revealed {#dual-problem-revealed}
 
 The dual problem is defined by
 the maximization problem of the Lagrange dual function
@@ -365,12 +357,12 @@ over the positive orthants of Lagrange dual variables,
 $$
 \begin{eqnarray}
 \begin{array}{ll}
-	\mbox{maximize} & g({\tilde{\lambda}}, {\bar{\lambda}})
+	\mbox{maximize} & g(\tilde{\lambda}, \bar{\lambda})
 	\\
 	\mbox{subject to}
-	& {\tilde{\lambda}} \geq 0
+	& \tilde{\lambda} \geq 0
 	\\
-	& {\bar{\lambda}} \geq 0
+	& \bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -381,13 +373,13 @@ $$
 \begin{eqnarray}
 \label{eq:dual-prob-01}
 \begin{array}{ll}
-	\mbox{maximize} & b^T {\tilde{\lambda}}
+	\mbox{maximize} & b^T \tilde{\lambda}
 	\\
-	\mbox{subject to} & A^T {\tilde{\lambda}} + {\bar{\lambda}} = c
+	\mbox{subject to} & A^T \tilde{\lambda} + \bar{\lambda} = c
 	\\
-	& {\tilde{\lambda}} \geq 0
+	& \tilde{\lambda} \geq 0
 	\\
-	& {\bar{\lambda}} \geq 0
+	& \bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -527,8 +519,8 @@ This isn't merely computational convenience—it's evidence that <span class="em
 ## The Mathematical Conditions
 
 The Karush-Kuhn-Tucker (KKT) conditions imply that
-$x^\ast$, ${\tilde{\lambda}}^\ast$, and ${\bar{\lambda}}^\ast$
-are the primal and dual optimal solutions with zero duality gap
+$x^\ast$, $\tilde{\lambda}^\ast$, and $\bar{\lambda}^\ast$
+are the primal and dual optimal solutions of \eqref{eq:primal-prob} and \eqref{eq:dual-prob-01} respectively with zero duality gap
 if and only if
 
 - **primal feasibility**
@@ -544,9 +536,9 @@ x^\ast \geq 0
 
 \begin{equation}
 \label{eq:dual-feas-01}
-{\tilde{\lambda}}^\ast \geq 0
+\tilde{\lambda}^\ast \geq 0
 \quad
-{\bar{\lambda}}^\ast \geq 0
+\bar{\lambda}^\ast \geq 0
 \end{equation}
 
 - **complementary slackness**
@@ -574,7 +566,8 @@ A^T \tilde{\lambda}^\ast + \bar{\lambda}^\ast = c
 
 Or equivalently,
 $x^\ast$ and $\lambda^\ast$
-are the primal and dual optimal solutions with zero duality gap
+are the primal and dual optimal solutions of \eqref{eq:primal-prob} and \eqref{eq:dual-prob} respectively
+with zero duality gap
 if and only if
 
 - **primal feasibility**
@@ -590,7 +583,9 @@ x^\ast \geq 0
 
 \begin{equation}
 \label{eq:dual-feas}
-{\lambda}^\ast \geq 0
+\lambda^\ast \geq 0
+\quad
+A^T\lambda^\ast \leq c
 \end{equation}
 
 - **complementary slackness**
@@ -798,13 +793,13 @@ it always holds that
 
 \begin{equation}
 \label{eq:min-max-ineq}
-	\sup_y \inf_x f(x,y) \leq \inf_x \sup_y f(x,y).
+	\sup_y \inf_x f(x,y) \leq \inf_x \sup_y f(x,y)
 \end{equation}
 
 Now note that
 
 $$
-\sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, {\bar{\lambda}})
+\sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, \bar{\lambda})
 =
 \left\{\begin{array}{ll}
 c^T x & \mbox{if } Ax \geq b,\; x\geq 0
@@ -817,15 +812,15 @@ thus
 
 $$
 c^T x^\ast
-	= \inf_{x\in\reals^n} \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, {\bar{\lambda}}).
+	= \inf_{x\in\reals^n} \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, \bar{\lambda})
 $$
 
 Note also that
 
 $$
 b^T \lambda^\ast
-	= \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} g(\tilde{\lambda}, {\bar{\lambda}})
-	= \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} \inf_{x\in\reals^n} L(x,\tilde{\lambda}, {\bar{\lambda}}),
+	= \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} g(\tilde{\lambda}, \bar{\lambda})
+	= \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} \inf_{x\in\reals^n} L(x,\tilde{\lambda}, \bar{\lambda})
 $$
 
 thus \eqref{eq:min-max-ineq} implies the weak duality \eqref{eq:weak-duality},
@@ -833,9 +828,9 @@ thus \eqref{eq:min-max-ineq} implies the weak duality \eqref{eq:weak-duality},
 
 \begin{equation}
 \label{eq:01}
-	b^T \lambda^\ast = \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} \inf_{x\in\reals^n} L(x,\tilde{\lambda}, {\bar{\lambda}})
+	b^T \lambda^\ast = \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} \inf_{x\in\reals^n} L(x,\tilde{\lambda}, \bar{\lambda})
 	\leq
-	\inf_{x\in\reals^n} \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, {\bar{\lambda}}) = c^T x^\ast
+	\inf_{x\in\reals^n} \sup_{\tilde{\lambda}\geq 0,\;\bar{\lambda}\geq 0} L(x,\tilde{\lambda}, \bar{\lambda}) = c^T x^\ast
 \end{equation}
 
 and the strong duality \eqref{eq:strong-duality} implies the equality in \eqref{eq:01} holds.
@@ -855,7 +850,7 @@ the strong duality is a manifestation of this fundamental game-theoretic princip
 The Lagrangian $L(x, \tilde{\lambda}, \bar{\lambda})$ in \eqref{eq:lagrangian} admits a compelling interpretation that makes the entire machinery feel *inevitable* rather than arbitrary. To see it, let us simply re-read the formula:
 
 $$
-L(x,\tilde{\lambda}, {\bar{\lambda}})
+L(x,\tilde{\lambda}, \bar{\lambda})
 	=
 	\underbrace{c^T x}_{\text{original cost}}
 	+ \underbrace{\tilde{\lambda}^T(b-Ax)}_{\text{nutrient penalty}}
@@ -864,7 +859,7 @@ $$
 
 **The Penalty Interpretation of $\tilde{\lambda}$**
 
-The term ${\tilde{\lambda}}^T(b - Ax) = \sum_{i=1}^m \tilde{\lambda}_i (b_i - (Ax)_i)$ adds a *penalty* for violating the nutritional constraints.
+The term $\tilde{\lambda}^T(b - Ax) = \sum_{i=1}^m \tilde{\lambda}_i (b_i - (Ax)_i)$ adds a *penalty* for violating the nutritional constraints.
 
 - If $(Ax)_i < b_i$ (we consume *less* than required of nutrient $i$: constraint violated), then $(b_i - (Ax)_i) > 0$, and we pay a positive penalty of $\tilde{\lambda}_i(b_i - (Ax)_i)$ dollars.
 - If $(Ax)_i > b_i$ (we consume *more* than required of nutrient $i$: constraint slack), then $(b_i - (Ax)_i) < 0$, and this acts as a "reward." But since we are minimizing, such a reward would be exploited indefinitely by pushing $\tilde{\lambda}_i \to \infty$ — unless $\tilde{\lambda}_i = 0$ at optimality.
@@ -873,7 +868,7 @@ The term ${\tilde{\lambda}}^T(b - Ax) = \sum_{i=1}^m \tilde{\lambda}_i (b_i - (A
 
 **The Penalty Interpretation of $\bar{\lambda}$**
 
-The term $-{\bar{\lambda}}^T x = -\sum_{j=1}^n \bar{\lambda}_j x_j$ penalizes violations of the non-negativity constraint $x \geq 0$.
+The term $-\bar{\lambda}^T x = -\sum_{j=1}^n \bar{\lambda}_j x_j$ penalizes violations of the non-negativity constraint $x \geq 0$.
 
 - If $x_j < 0$ (absurdly, "selling" vitamin $j$), then $-\bar{\lambda}_j x_j > 0$: we pay a penalty.
 - If $x_j > 0$ (buying vitamin $j$), then $-\bar{\lambda}_j x_j < 0$: we receive a reward — which can only be finitely bounded at optimality if $\bar{\lambda}^\ast_j = 0$.
@@ -1149,8 +1144,8 @@ Now the Lagrangian (of this maximization problem) $\tilde{L}: \reals^m \times \r
 $$
 \begin{eqnarray}
 \begin{array}{rcl}
-\tilde{L}(y,\tilde{\nu}, {\bar{\nu}})
-	&=& b^T y + {\tilde{\nu}}^T(c-A^Ty) + {\bar{\nu}}^T y
+\tilde{L}(y,\tilde{\nu}, \bar{\nu})
+	&=& b^T y + \tilde{\nu}^T(c-A^Ty) + \bar{\nu}^T y
 \\
 	&=& (b - A \tilde{\nu} + \bar{\nu})^T y + \tilde{\nu}^T c.
 \end{array}
@@ -1161,9 +1156,9 @@ Then the Lagrange dual function (of the maximization problem) $\tilde{g}: \reals
 
 $$
 \begin{eqnarray}
-\tilde{g}({\tilde{\nu}}, {\bar{\nu}})
+\tilde{g}(\tilde{\nu}, \bar{\nu})
 	=
-	\sup_{y\in\reals^m} L(x,\tilde{\nu}, {\bar{\nu}})
+	\sup_{y\in\reals^m} L(x,\tilde{\nu}, \bar{\nu})
 	=
 	\left\{\begin{array}{ll}
 		c^T \tilde{\nu} & \mbox{if } b-A\tilde{\nu} + \bar{\nu} = 0
@@ -1178,12 +1173,12 @@ Then the dual problem is defined by
 $$
 \begin{eqnarray}
 \begin{array}{ll}
-	\mbox{minimize} & \tilde{g}({\tilde{\nu}}, {\bar{\nu}})
+	\mbox{minimize} & \tilde{g}(\tilde{\nu}, \bar{\nu})
 	\\
 	\mbox{subject to}
-	& {\tilde{\nu}} \geq 0
+	& \tilde{\nu} \geq 0
 	\\
-	& {\bar{\nu}} \geq 0
+	& \bar{\nu} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -1193,13 +1188,13 @@ which is equivalent to
 $$
 \begin{eqnarray}
 \begin{array}{ll}
-	\mbox{minimize} & c^T {\tilde{\nu}}
+	\mbox{minimize} & c^T \tilde{\nu}
 	\\
 	\mbox{subject to} & b -A \tilde{\nu} + \bar{\nu} = 0
 	\\
-	& {\tilde{\nu}} \geq 0
+	& \tilde{\nu} \geq 0
 	\\
-	& {\bar{\nu}} \geq 0
+	& \bar{\nu} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -1533,18 +1528,20 @@ When you can see the vitamin problem in every optimization problem, and every op
 
 That is the aspiration. The vitamin problem is the door.
 
-<!--
-
 # Appendix - Some Variants of Vitamin Cost Minimization Problem
 
 ## Upper limits on nutrients
 
 Suppose there is an upper limit $d\in\preals^m$ on each nutrient,
 *e.g.*, your doctor recommends strongly against taking each nutrient more than certain amount.
+We assume that $b_i < d_i$ for all $1\leq i\leq m$,
+*i.e.*, each nutrient upper bound is strictly greater than the corresponding lower bound.
+
 Then the primal problem becomes
 
 $$
 \begin{eqnarray}
+\label{eq:ul-primal-prob}
 \begin{array}{ll}
 \text{minimize} & c^Tx \\
 \text{subject to} & b \leq A x \leq d \\
@@ -1553,19 +1550,297 @@ $$
 \end{eqnarray}
 $$
 
-Then the [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"} $L: \reals^n \times \reals^m \times \reals^m \times \reals^n \to \reals$ is defined by
+Then the [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"}
+$L: \reals^n \times \reals^m \times \reals^m \times \reals^n \to \reals$ is defined by
 
 $$
 \begin{eqnarray}
 \begin{array}{rcl}
-L(x, \tilde{\lambda}_1, \tilde{\lambda}_2, \bar{\lambda})
-	&=& c^T x + {\tilde{\lambda}}^T(b-Ax) - {\bar{\lambda}}^T x
+L(x, \tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
+	&=& c^T x + \tilde{\lambda}^T(b-Ax) + \hat{\lambda}^T(Ax-d) - \bar{\lambda}^T x
 \\
-	&=& (c - A^T {\tilde{\lambda}} - {\bar{\lambda}})^T x + {\tilde{\lambda}}^T b.
+	&=& (c - A^T \tilde{\lambda} + A^T \hat{\lambda} - \bar{\lambda})^T x + \tilde{\lambda}^T b - \hat{\lambda}^T d.
 \end{array}
 \end{eqnarray}
 $$
--->
+
+
+Then the [<span class="define">Lagrange dual function</span>](/math/rig/convex-optimization#definition:Lagrange---dual---functions){:target="_blank"}
+$g: \reals^m \times \reals^m \times \reals^n \to \reals$ is defined by
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+g(\tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
+	&=&
+	\inf_{x\in\reals^n} L(x, \tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
+	\\
+	&=&
+	\left\{\begin{array}{ll}
+		\tilde{\lambda}^T b - \hat{\lambda}^T d
+			&\mbox{if } A^T \tilde{\lambda} - A^T \hat{\lambda} + \bar{\lambda} =c
+		\\
+		-\infty
+			&\mbox{otherwise}
+	\end{array}\right.
+\end{array}
+\end{eqnarray}
+$$
+
+Then as [before](#dual-problem-revealed),
+we can derive the following three equivalent dual problems!
+
+$$
+\begin{eqnarray}
+\label{eq:ul-dual-prob-1}
+\begin{array}{ll}
+	\mbox{maximize} & g(\tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
+	\\
+	\mbox{subject to}
+	& \tilde{\lambda} \geq 0
+	\\
+	& \hat{\lambda} \geq 0
+	\\
+	& \bar{\lambda} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+$$
+\begin{eqnarray}
+\label{eq:ul-dual-prob-2}
+\begin{array}{ll}
+	\mbox{maximize} & b^T \tilde{\lambda} - d^T \hat{\lambda}
+	\\
+	\mbox{subject to} & A^T \tilde{\lambda} - A^T \hat{\lambda} + \bar{\lambda} = c
+	\\
+	& \tilde{\lambda} \geq 0
+	\\
+	& \hat{\lambda} \geq 0
+	\\
+	& \bar{\lambda} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+$$
+\begin{eqnarray}
+\label{eq:ul-dual-prob-3}
+\begin{array}{ll}
+	\mbox{maximize} & b^T \tilde{\lambda} - d^T \hat{\lambda}
+	\\
+	\mbox{subject to} & A^T \tilde{\lambda} - A^T \hat{\lambda} \leq c
+	\\
+	& \tilde{\lambda} \geq 0
+	\\
+	& \hat{\lambda} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+Similarly, the KKT conditions imply that
+$x^\ast$, $\tilde{\lambda}^\ast$, $\hat{\lambda}^\ast$, and $\bar{\lambda}^\ast$
+are the primal and dual optimal solutions of \eqref{eq:ul-primal-prob} and \eqref{eq:ul-dual-prob-1} (or \eqref{eq:ul-dual-prob-2}) respectively
+with zero duality gap
+if and only if
+
+- **primal feasibility**
+
+\begin{equation}
+b \leq Ax^\ast \leq d
+\quad
+x^\ast \geq 0
+\end{equation}
+
+- **dual feasibility**
+
+\begin{equation}
+\tilde{\lambda}^\ast \geq 0
+\quad
+\hat{\lambda}^\ast \geq 0
+\quad
+\bar{\lambda}^\ast \geq 0
+\end{equation}
+
+- **complementary slackness**
+
+$$
+\begin{eqnarray}
+&
+	\tilde{\lambda}^\ast_i (Ax^\ast - b)_i = 0
+		&\mbox{for } 1 \leq i \leq m
+\\
+&
+	\hat{\lambda}^\ast_i (d-Ax^\ast)_i = 0
+		&\mbox{for } 1 \leq i \leq m
+\\
+&
+	\bar{\lambda}^\ast_j x_j^\ast = 0
+		&\mbox{for } 1 \leq j \leq n
+\end{eqnarray}
+$$
+
+- **stationarity**
+
+\begin{equation}
+A^T \tilde{\lambda}^\ast - A^T \hat{\lambda}^\ast + \bar{\lambda}^\ast = c
+\end{equation}
+
+Or equivalently,
+$x^\ast$, $\tilde{\lambda}^\ast$, and $\hat{\lambda}^\ast$
+are the primal and dual optimal solutions of \eqref{eq:ul-primal-prob} and \eqref{eq:ul-dual-prob-3} respectively
+with zero duality gap
+if and only if
+
+- **primal feasibility**
+
+\begin{equation}
+b \leq Ax^\ast \leq d
+\quad
+x^\ast \geq 0
+\end{equation}
+
+- **dual feasibility**
+
+\begin{equation}
+\tilde{\lambda}^\ast \geq 0
+\quad
+\hat{\lambda}^\ast \geq 0
+\quad
+A^T \tilde{\lambda}^\ast - A^T \hat{\lambda}^\ast \leq c
+\end{equation}
+
+- **complementary slackness**
+
+$$
+\begin{eqnarray}
+&
+	\tilde{\lambda}^\ast_i (Ax^\ast - b)_i = 0
+		&\mbox{for } 1 \leq i \leq m
+\\
+&
+	\hat{\lambda}^\ast_i (d-Ax^\ast)_i = 0
+		&\mbox{for } 1 \leq i \leq m
+\\
+&
+	(c - A^T\tilde{\lambda}^\ast+A^T\bar{\lambda}^\ast)_j x_j^\ast = 0
+		&\quad\mbox{for } 1 \leq j \leq n
+\end{eqnarray}
+$$
+
+## Economic Interpretation of the Upper-Bounded Problem
+
+The upper-bounded vitamin problem is more than a mathematical generalization — it is a richer and more realistic model of the world, one in which *both scarcity and toxicity* shape the equilibrium. The economic interpretation becomes correspondingly deeper.
+
+### Two Kinds of Nutrient Suppliers — and Two Kinds of Shadow Prices
+
+The dual introduces two distinct Lagrange multipliers for each nutrient $i$.
+
+- $\tilde{\lambda}^\ast_i \geq 0$ - the shadow price of the **lower bound** $b_i$ — the marginal value of relaxing the minimum daily requirement
+- $\hat{\lambda}^\ast_i \geq 0$ - the shadow price of the **upper bound** $d_i$ — the marginal value of relaxing the maximum tolerable intake
+
+These two prices represent two entirely different economic actors.
+
+**$\tilde{\lambda}^\ast_i$ is the nutritionist's price.**
+It represents what you'd be *willing to pay* for one more unit of nutrient $i$'s minimum requirement being satisfied.
+Equivalently, it is how much you'd *save* if your doctor relaxed the minimum daily requirement by one unit.
+This is the same shadow price we encountered before — the price of nutritional scarcity.
+
+**$\hat{\lambda}^\ast_i$ is the toxicologist's price.**
+It represents the marginal *cost* of the upper bound being one unit tighter.
+If your doctor tightened the safe limit on, say, vitamin A from $d_i$ to $d_i - 1$ units, your minimum achievable vitamin cost would increase by $\hat{\lambda}^\ast_i$ dollars — because you would have to restructure your purchases to stay within the new ceiling, potentially switching to more expensive vitamins or sacrificing other cost efficiencies.
+
+<span class="emph">The lower bound creates scarcity value; the upper bound creates a regulatory friction. The two shadow prices measure, respectively, how much you benefit from abundance and how much you are hurt by restriction.</span>
+
+### The Dual Objective — Revenue Net of Liability
+
+The dual objective in \eqref{eq:ul-dual-prob-3} is
+
+$$
+b^T \tilde{\lambda} - d^T \hat{\lambda}
+= \sum_{i=1}^m b_i \tilde{\lambda}_i - \sum_{i=1}^m d_i \hat{\lambda}_i
+$$
+
+This is a *net* quantity - the total revenue a nutrient supplier earns from satisfying minimum requirements, **minus** the implicit liability they incur from the existence of upper bounds.
+
+To see why, think of the supplier's problem this way. The supplier sets nutrient prices $\tilde{\lambda}_i$ and $\hat{\lambda}_i$ to maximize their net income. They collect $b_i \tilde{\lambda}_i$ for each unit of minimum requirement they help the consumer satisfy. But they also face a *negative charge* of $d_i \hat{\lambda}_i$ — a penalty that arises because their pricing must respect the consumer's upper bound constraints. The upper bound acts like a *regulatory ceiling on the supplier's pricing power*; the more binding it is (the smaller $d_i - b_i$), the more the supplier's ability to extract value is constrained.
+
+<span class="emph">In this extended model, the nutrient supplier is not just a revenue-maximizer — they are a net-value-maximizer operating between the floor of nutritional necessity and the ceiling of physiological safety. The shadow prices $\tilde{\lambda}^\ast$ and $\hat{\lambda}^\ast$ are the market prices that clear both boundaries simultaneously.</span>
+
+### The Three Complementary Slackness Conditions — A Three-Way Efficiency Principle
+
+The upper-bounded model produces a richer set of complementary slackness conditions, each with its own economic story.
+
+**Condition 1 — "Waste Not" (from the lower bound)**
+$$\tilde{\lambda}^\ast_i (Ax^\ast - b)_i = 0$$
+
+This is unchanged from the original model - if nutrient $i$ has positive scarcity value ($\tilde{\lambda}^\ast_i > 0$), then we consume exactly the minimum required amount. No scarce nutrient is wasted.
+
+**Condition 2 — "Ceiling is Binding or Free" (from the upper bound)**
+$$\hat{\lambda}^\ast_i (d - Ax^\ast)_i = 0$$
+
+This is entirely new. It says **if the upper bound on nutrient $i$ has positive shadow price ($\hat{\lambda}^\ast_i > 0$), then we are consuming exactly $d_i$ units of it — butting against the ceiling.**
+
+Think about when this happens. If a particular combination of cheap vitamins happens to deliver a nutrient in large quantities, the cost-minimizing consumer will tend to consume as much of those vitamins as possible — until hitting the toxicity ceiling. At that point, $\hat{\lambda}^\ast_i > 0$, the ceiling is genuinely constraining, and relaxing it (raising $d_i$) would allow further cost savings.
+
+Conversely, if the optimal solution has $(d - Ax^\ast)_i > 0$ — the consumer is comfortably below the ceiling — then $\hat{\lambda}^\ast_i = 0$, *i.e.*, the upper bound is not binding, and it has zero shadow price. Whether the doctor set the limit at $d_i$ or $d_i + 100$, it makes no difference to the optimal solution.
+
+<span class="emph">Together, conditions 1 and 2 paint a complete picture - the consumer is simultaneously avoiding shortfalls (lower bounds) and avoiding toxicity (upper bounds). Nutrients that are both scarce and dangerous are the most constrained — they must be consumed in a narrow window $[b_i, d_i]$, and both shadow prices may be positive.</span>
+
+**Condition 3 — "No Arbitrage" (from non-negativity)**
+$$\bar{\lambda}^\ast_j x^\ast_j = 0$$
+
+Unchanged - any vitamin we purchase must earn its keep in net nutrient value (see the stationarity condition below). Overpriced vitamins — those whose cost exceeds the net value of their nutrient content — are not purchased.
+
+### The Stationarity Condition — Net Value Pricing
+
+The stationarity condition is perhaps the most revealing.
+
+$$A^T \tilde{\lambda}^\ast - A^T \hat{\lambda}^\ast + \bar{\lambda}^\ast = c$$
+
+For any vitamin $j$, we actually purchase ($x^\ast_j > 0$, so $\bar{\lambda}^\ast_j = 0$).
+
+$$c_j = \sum_{i=1}^m A_{i,j} \tilde{\lambda}^\ast_i - \sum_{i=1}^m A_{i,j} \hat{\lambda}^\ast_i = (A^T(\tilde{\lambda}^\ast - \hat{\lambda}^\ast))_j$$
+
+The price of a purchased vitamin $j$ equals the **net nutrient value** it provides; the positive value from contributing to minimum requirements ($\tilde{\lambda}^\ast$) *minus* the negative value (or *hazard cost*) of pushing nutrients toward their upper bounds ($\hat{\lambda}^\ast$).
+
+This is a beautiful economic result. A vitamin that is rich in a highly toxic nutrient (large $A_{i,j}$ for a nutrient $i$ near its upper bound, so $\hat{\lambda}^\ast_i > 0$) commands a *lower* fair price than its raw nutrient content would suggest — precisely because consuming it carries the implicit cost of burning through your safety margin. Conversely, a vitamin rich in scarce nutrients commands a premium.
+
+<span class="emph">The stationarity condition is no longer just "price equals value" — it is "price equals value minus hazard." The market must simultaneously reward nutritional provision and penalize toxicological risk. This is the mathematical formalization of how pharmaceutical and nutraceutical markets actually price products when safety constraints are binding.</span>
+
+### A Narrow Window — The Most Constrained Nutrients
+
+The most economically interesting situation arises when both $\tilde{\lambda}^\ast_i > 0$ and $\hat{\lambda}^\ast_i > 0$ for the same nutrient $i$. By complementary slackness, this forces
+
+$$
+(Ax^\ast - b)_i = 0 \quad \text{and} \quad (d - Ax^\ast)_i = 0
+\quad \Longrightarrow \quad
+(Ax^\ast)_i = b_i = d_i
+$$
+
+But wait — we assumed $b_i < d_i$, so this cannot happen at a non-degenerate optimum. What *can* happen is that both shadow prices are positive in a degenerate case, or that the optimal solution is interior to the window $[b_i, d_i]$ with both shadow prices zero (the window is wide and non-binding).
+
+The more interesting case is when $d_i - b_i$ is small — a narrow window. Then even a slight perturbation in the vitamin portfolio can push $(Ax)_i$ against one boundary or the other, making the problem highly sensitive. The sum $\tilde{\lambda}^\ast_i + \hat{\lambda}^\ast_i$ measures
+<span style="color:red; font-weight: bold;">the total shadow cost of the nutrient's window</span> - how much the optimal value would decrease if both bounds were relaxed symmetrically.
+
+<span class="emph">Nutrients with narrow windows $[b_i, d_i]$ are the most constrained and most expensive to manage — they are both necessary and potentially harmful, requiring precise calibration. The dual shadow prices quantify exactly how much each boundary costs, independently and together.</span>
+
+### Sensitivity Analysis — Four Kinds of Marginal Questions
+
+With upper bounds, the sensitivity analysis of the optimal cost $V(b, d)$ becomes two-dimensional:
+
+$$
+\frac{\partial V}{\partial b_i} = \tilde{\lambda}^\ast_i, \qquad \frac{\partial V}{\partial d_i} = -\hat{\lambda}^\ast_i
+$$
+
+The two signs are telling. Tightening the minimum ($b_i$ increases) raises cost — you need more of a scarce nutrient. Tightening the maximum ($d_i$ decreases) also raises cost — you have less room to maneuver. Both perturbations make your life harder, and both are measured by their respective shadow prices.
+
+This gives a doctor or regulator a precise toolkit:
+- *"How much would loosening the protein minimum by 1g save the consumer?"* — $\tilde{\lambda}^\ast_\text{protein}$ dollars.
+- *"How much would raising the vitamin A ceiling by 1 IU save the consumer?"* — $\hat{\lambda}^\ast_\text{vit-A}$ dollars.
+- *"Which constraint is most worth relaxing?"* — whichever of $\{\tilde{\lambda}^\ast_i, \hat{\lambda}^\ast_i\}$ is largest.
+
+<span class="emph">The shadow prices are not just certificates of optimality — they are a complete local map of the problem's sensitivity to every regulatory parameter. The upper-bounded model turns the dual solution into a policy instrument: a quantitative guide for which medical or regulatory recommendations most deserve revision.</span>
 
 ---
 
@@ -1578,7 +1853,25 @@ $$
 	and
 	the unit of the nutrient $1$ can be &ldquo;milliliter&rdquo;
 	whereas the unit of the nutrient $2$ is &ldquo;microgram&rdquo;.
-
+	Therefore in general, we can have
+	<ul>
+	<li>
+		the unit of $x_j$ is &ldquo;$j$-th-vitamin-unit&rdquo;
+	</li>
+	<li>
+		the unit of $c_j$ is &ldquo;USD/$j$-th-vitamin-unit&rdquo;
+	</li>
+	<li>
+		the unit of $b_i$ is &ldquo;$i$-th-nutrient-unit&rdquo;
+	</li>
+	<li>
+		the unit of $A_{i,j}$ is &ldquo;$j$-th-vitamin-unit/$i$-th-nutrient-unit&rdquo;
+	</li>
+	<li>
+		the unit of $\lambda_{i}$ is &ldquo;USD/$i$-th-nutrient-unit&rdquo;
+	</li>
+	</ul>
+	and every argument discussed throughout this document holds!
 	&nbsp;<a href="#ref1">↩</a></li>
 <li id="footnote2">
 	This should be true by design, that is, by the definition of Lagrangian,
