@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 23:42:00 PST 2026
+last_modified_at: Tue Feb 24 23:48:57 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -41,7 +41,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
@@ -120,7 +120,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			</audio>
 		</div>
 	</div>
-</div>
+</div-->
 
 <!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
