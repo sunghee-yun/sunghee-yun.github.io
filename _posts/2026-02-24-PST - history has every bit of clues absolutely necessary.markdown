@@ -1,9 +1,9 @@
 ---
 date: Tue Feb 24 23:44:32 PST 2026
-last_modified_at: Tue Feb 24 23:44:32 PST 2026
+last_modified_at: Wed Feb 25 01:33:30 PST 2026
 permalink: /history/clues
 layout: single
-title: "(WIP) History has Every Bit of Clues Absolutely Necessary!"
+title: "(WIP) History has Every Bit of Clues Absolutely Necessary for Understanding Human Natures!"
 categories:
  - blog
  - Philosophy
