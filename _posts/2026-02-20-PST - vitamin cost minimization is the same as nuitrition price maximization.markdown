@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 16:03:43 PST 2026
+last_modified_at: Tue Feb 24 19:17:53 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -419,7 +419,7 @@ of the (primal) problem \eqref{eq:primal-prob}.
 
 ## Units Tell the Story
 
-Here's where mathematical formalism starts revealing deeper truth. Let's track the units.
+Here's where mathematical formalism starts revealing deeper truth. Let's track the units.<sup><a href="#footnote1" id="ref1">1</a></sup>
 
 - $x_j$: "vitamin-units"
 - $c_j$: "USD/vitamin-unit"
@@ -429,7 +429,7 @@ Here's where mathematical formalism starts revealing deeper truth. Let's track t
 From the Lagrangian's dimensional consistency in \eqref{eq:lagrangian}, we deduce
 - $\lambda_i$ has units "USD/nutrient-unit"
 
-This isn't arbitrary - the mathematics is forcing an economic interpretation upon us.<sup><a href="#footnote1" id="ref1">1</a></sup>
+This isn't arbitrary - the mathematics is forcing an economic interpretation upon us.<sup><a href="#footnote2" id="ref2">2</a></sup>
 
 ## The Economic Interpretation Emerges
 
@@ -1193,7 +1193,7 @@ which is equivalent to
 $$
 \begin{eqnarray}
 \begin{array}{ll}
-	\mbox{maximize} & c^T {\tilde{\nu}}
+	\mbox{minimize} & c^T {\tilde{\nu}}
 	\\
 	\mbox{subject to} & b -A \tilde{\nu} + \bar{\nu} = 0
 	\\
@@ -1533,12 +1533,56 @@ When you can see the vitamin problem in every optimization problem, and every op
 
 That is the aspiration. The vitamin problem is the door.
 
+<!--
+
+# Appendix - Some Variants of Vitamin Cost Minimization Problem
+
+## Upper limits on nutrients
+
+Suppose there is an upper limit $d\in\preals^m$ on each nutrient,
+*e.g.*, your doctor recommends strongly against taking each nutrient more than certain amount.
+Then the primal problem becomes
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+\text{minimize} & c^Tx \\
+\text{subject to} & b \leq A x \leq d \\
+& x \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+Then the [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"} $L: \reals^n \times \reals^m \times \reals^m \times \reals^n \to \reals$ is defined by
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+L(x, \tilde{\lambda}_1, \tilde{\lambda}_2, \bar{\lambda})
+	&=& c^T x + {\tilde{\lambda}}^T(b-Ax) - {\bar{\lambda}}^T x
+\\
+	&=& (c - A^T {\tilde{\lambda}} - {\bar{\lambda}})^T x + {\tilde{\lambda}}^T b.
+\end{array}
+\end{eqnarray}
+$$
+-->
+
 ---
 
 <ol>
 <li id="footnote1">
+	Note that we do not even need to have the same units for all vitamins or nutrients,
+	<i>e.g.</i>,
+	the unit of the vitamin $1$ can be &ldquo;capsule&rdquo;
+	whereas the unit of the vitamin $2$ is &ldquo;milligram&rdquo;,
+	and
+	the unit of the nutrient $1$ can be &ldquo;milliliter&rdquo;
+	whereas the unit of the nutrient $2$ is &ldquo;microgram&rdquo;.
+
+	&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
 	This should be true by design, that is, by the definition of Lagrangian,
 	the unit of the objective function of the dual problem
 	and that of the primal problem should be the same.
-	&nbsp;<a href="#ref1">↩</a></li>
+	&nbsp;<a href="#ref2">↩</a></li>
 </ol>
