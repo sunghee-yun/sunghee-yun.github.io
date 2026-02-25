@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Feb 24 23:48:57 PST 2026
+last_modified_at: Wed Feb 25 03:39:54 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -847,131 +847,140 @@ the strong duality is a manifestation of this fundamental game-theoretic princip
 
 ## Lagrange Multipliers as Constraint Violation Penalties {#constraint-violation-penalties}
 
-The Lagrangian $L(x, \tilde{\lambda}, \bar{\lambda})$ in \eqref{eq:lagrangian} admits a compelling interpretation that makes the entire machinery feel *inevitable* rather than arbitrary. To see it, let us simply re-read the formula:
+The Lagrangian $L(x, \tilde{\lambda}, \bar{\lambda})$ in \eqref{eq:lagrangian} admits a compelling interpretation
+that makes the entire machinery feel <span style="color:red; font-style: italic;">inevitable</span> rather than arbitrary.
+To see it, let us simply re-read the formula.
 
 $$
 L(x,\tilde{\lambda}, \bar{\lambda})
 	=
 	\underbrace{c^T x}_{\text{original cost}}
 	+ \underbrace{\tilde{\lambda}^T(b-Ax)}_{\text{nutrient penalty}}
-	- \underbrace{\bar{\lambda}^T x}_{\text{non-negativity penalty}}.
+	- \underbrace{\bar{\lambda}^T x}_{\text{non-negativity penalty}}
 $$
 
-**The Penalty Interpretation of $\tilde{\lambda}$**
+<h3>The Penalty Interpretation of $\tilde{\lambda}$</h3>
 
 The term $\tilde{\lambda}^T(b - Ax) = \sum_{i=1}^m \tilde{\lambda}_i (b_i - (Ax)_i)$ adds a *penalty* for violating the nutritional constraints.
 
-- If $(Ax)_i < b_i$ (we consume *less* than required of nutrient $i$: constraint violated), then $(b_i - (Ax)_i) > 0$, and we pay a positive penalty of $\tilde{\lambda}_i(b_i - (Ax)_i)$ dollars.
-- If $(Ax)_i > b_i$ (we consume *more* than required of nutrient $i$: constraint slack), then $(b_i - (Ax)_i) < 0$, and this acts as a "reward." But since we are minimizing, such a reward would be exploited indefinitely by pushing $\tilde{\lambda}_i \to \infty$ — unless $\tilde{\lambda}_i = 0$ at optimality.
+- If $(Ax)_i < b_i$ (we consume *less* than required of nutrient $i$ - constraint violated), then $(b_i - (Ax)_i) > 0$, and we pay a positive penalty of $\tilde{\lambda}_i(b_i - (Ax)_i)$ dollars.
+- If $(Ax)_i > b_i$ (we consume *more* than required of nutrient $i$ - constraint slack), then $(b_i - (Ax)_i) < 0$, and this acts as a "reward." But since we are minimizing, such a reward would be exploited indefinitely by pushing $\tilde{\lambda}_i \to \infty$ — unless $\tilde{\lambda}_i = 0$ at optimality.
 
-<span class="emph">This is precisely why the 1st complementary slackness condition must hold: if constraint $i$ has slack at $x^\ast$, the dual feasibility of the maximizing player forces $\tilde{\lambda}^\ast_i = 0$. Slackness and zero price are two faces of the same coin.</span>
+<span class="emph">This is precisely why the 1st complementary slackness condition must hold - if constraint $i$ has slack at $x^\ast$, the dual feasibility of the maximizing player forces $\tilde{\lambda}^\ast_i = 0$. Slackness and zero price are two faces of the same coin.</span>
 
-**The Penalty Interpretation of $\bar{\lambda}$**
+<h3>The Penalty Interpretation of $\bar{\lambda}$</h3>
 
 The term $-\bar{\lambda}^T x = -\sum_{j=1}^n \bar{\lambda}_j x_j$ penalizes violations of the non-negativity constraint $x \geq 0$.
 
-- If $x_j < 0$ (absurdly, "selling" vitamin $j$), then $-\bar{\lambda}_j x_j > 0$: we pay a penalty.
-- If $x_j > 0$ (buying vitamin $j$), then $-\bar{\lambda}_j x_j < 0$: we receive a reward — which can only be finitely bounded at optimality if $\bar{\lambda}^\ast_j = 0$.
+- If $x_j < 0$ (absurdly, "selling" vitamin $j$), then $-\bar{\lambda}_j x_j > 0$ - we pay a penalty.
+- If $x_j > 0$ (buying vitamin $j$), then $-\bar{\lambda}_j x_j < 0$ - we receive a reward — which can only be finitely bounded at optimality if $\bar{\lambda}^\ast_j = 0$.
 
 Hence $\bar{\lambda}^\ast_j = 0$ whenever $x^\ast_j > 0$, which is exactly the 2nd complementary slackness condition \eqref{eq:comp-slackness-01-2}.
 
-**The Deep Insight: Penalty Calibration**
+<h3>The Deep Insight - Penalty Calibration</h3>
 
-The Lagrange multipliers $\tilde{\lambda}$ and $\bar{\lambda}$ are not arbitrary numbers — they are *exactly the right penalty rates* to enforce each constraint at equilibrium. They represent the marginal cost of constraint violation: how much an infinitesimal trespass into infeasibility would cost in the optimal regime.
+The Lagrange multipliers $\tilde{\lambda}$ and $\bar{\lambda}$ are not arbitrary numbers — they are *exactly the right penalty rates* to enforce each constraint at equilibrium. They represent the marginal cost of constraint violation - how much an infinitesimal trespass into infeasibility would cost in the optimal regime.
 
 <span class="emph">At optimality, the penalties are calibrated so perfectly that the optimizer is indifferent between satisfying the constraint and paying the penalty at the margin. This knife-edge indifference — neither too harsh nor too lenient — is the very essence of the KKT conditions.</span>
 
-**A Philosophical Observation: From Walls to Prices**
+<h3>A Philosophical Observation - From Walls to Prices</h3>
 
 A constraint $Ax \geq b$ is a *hard boundary* — binary, uncompromising. Either you satisfy it or you don't. But the Lagrangian replaces this rigid wall with a *continuous penalty landscape*. The feasible region is no longer a wall you cannot cross; it is a territory where trespassing costs exactly $\tilde{\lambda}^\ast_i$ dollars per unit of violation.
 
-This transformation from hard constraints to priced penalties isn't merely a mathematical trick — it is a *modeling philosophy* that mirrors how real markets actually operate. Markets do not forbid transactions; they price them. And the Lagrange multipliers are precisely those equilibrium prices: the shadow prices that a perfectly efficient market would assign to each nutritional requirement. The mathematics, once again, is not imitating economics — it *is* economics, expressed in its purest form.
+This transformation from hard constraints to priced penalties isn't merely a mathematical trick — it is a *modeling philosophy* that mirrors how real markets actually operate. Markets do not forbid transactions; they price them. And the Lagrange multipliers are precisely those equilibrium prices - the shadow prices that a perfectly efficient market would assign to each nutritional requirement. The mathematics, once again, is not imitating economics — it *is* economics, expressed in its purest form.
 
 ## Optimal Dual Variables as Sensitivities of Constraint Relaxation (or Tightening) {#sensitivities-of-constraint-relaxations}
 
 There is a third interpretation of the dual variables — arguably the most actionable of all — that transforms them from abstract multipliers into *quantitative instruments of decision-making*.
 
-**The Optimal Value Function**
+<h3>The Optimal Value Function</h3>
 
-Let $V: \reals^m \to \reals$ denote the *optimal value function* — the minimum cost as a function of the requirement vector $b$:
+Let $V: \reals^m \to \reals$ denote the *optimal value function* — the minimum cost as a function of the requirement vector $b$.
 
 $$
-V(b) = \min \left\{ c^T x \;\middle|\; Ax \geq b,\; x \geq 0 \right\}.
+V(b) = \inf \left\{ c^T x \;\middle|\; Ax \geq b,\; x \geq 0 \right\}.
 $$
 
-As $b$ changes, so does the feasible region, and with it, the optimal cost. The question is: *how sensitively does $V(b)$ respond to small perturbations in $b$?*
+<!--
+$$
+V(b) = \inf_{Ax \geq b,\; x \geq 0} c^Tx
+$$
+-->
 
-The answer is beautifully simple.
+As $b$ changes, so does the feasible region, and with it, the optimal cost.
+The question we want to inspect here is <span class="emph">how sensitively does $V(b)$ respond to small perturbations in $b$?</span>
 
-**The Sensitivity Theorem**
+The answer is beautifully simple (and has everything to do with <span style="">duality</span>)!
+
+<h3>The Sensitivity Theorem</h3>
 
 At any point where $V$ is differentiable (which holds generically, away from primal degeneracy),
+[the local sensitivity analysis](/math/rig/convex-optimization#local-sensitivity-analysis){:target="_blank"} reveals
+that
 
 \begin{equation}
 \label{eq:sensitivity}
-	\nabla_b\, V(b) = \lambda^\ast,
+	\nabla_b\, V(b) = \lambda^\ast
 \end{equation}
 
 or component-wise,
 
-$$
-\frac{\partial V}{\partial b_i} = \lambda^\ast_i \quad \text{for each } 1 \leq i \leq m.
-$$
+\begin{equation}
+\frac{\partial}{\partial b_i} V(b)= \lambda^\ast_i \quad \text{for } 1 \leq i \leq m
+\end{equation}
 
-<span class="emph">The $i$-th dual variable $\lambda^\ast_i$ is precisely the rate at which the minimum vitamin cost increases when the minimum daily requirement for nutrient $i$ increases by one unit.</span>
+<span class="emph">The $i$-th dual variable $\lambda^\ast_i$ is precisely the rate at which the minimum vitamin cost increases
+when the minimum daily requirement for nutrient $i$ increases.
+Or equivalently,
+it is the rate at which the minimum vitamin cost decreases
+when the minimum daily requirement for nutrient $i$ decreases.
+</span>
 
-**The Formal Argument (Envelope Theorem)**
+<h3>Economic Meaning - Shadow Prices</h3>
 
-The result follows from the [envelope theorem](https://en.wikipedia.org/wiki/Envelope_theorem){:target="_blank"} in mathematical optimization. Evaluate the Lagrangian at the optimal solution:
-
-$$
-V(b) = c^T x^\ast = L(x^\ast, \tilde{\lambda}^\ast, \bar{\lambda}^\ast) - (\tilde{\lambda}^\ast)^T(b - Ax^\ast) + (\bar{\lambda}^\ast)^T x^\ast.
-$$
-
-By the stationarity and complementary slackness conditions, differentiating $V(b) = b^T \lambda^\ast(b)$ with respect to $b_i$ and applying the envelope theorem:
-
-$$
-\frac{\partial V}{\partial b_i} = \lambda^\ast_i,
-$$
-
-where we use the fact that $x^\ast$ adjusts optimally with $b$, and the envelope theorem tells us only the *direct* dependence through $b$ matters — the indirect effect through $x^\ast$ vanishes at the optimum.
-
-**Economic Meaning: Shadow Prices**
-
-This is exactly why dual variables are called **shadow prices** in economics. They are the *marginal values* of the constraints:
+This is exactly why dual variables are called **shadow prices** in economics. They are the *marginal values* of the constraints.
 
 - $\lambda^\ast_i$ is the dollar value of having one additional unit of nutrient $i$ available per day
-- If your nutritionist increases your minimum daily protein requirement by 1 gram, your optimal vitamin spend increases by exactly $\lambda^\ast_\text{protein}$ dollars
-- If $\lambda^\ast_i = 0$, constraint $i$ is not binding — you already have surplus of nutrient $i$, so small changes to its requirement are costless
+(because if you have one additional unit of nutrient, you will decrease $b_i$ by $1$, and the optimal cost will be reduced by $\lambda^\ast_i$).
+- If your nutritionist increases your minimum daily protein requirement by 1 milligram, your optimal vitamin spend increases by exactly $\lambda^\ast_\text{protein}$ dollars (if the unit of $\lambda_\text{protein}$ is dollar/milligram)
+(because if you increase $b_i$ by $1$, and the optimal cost will increase by $\lambda^\ast_i$).
+- If $\lambda^\ast_i = 0$, constraint $i$ is not binding — you already have surplus of nutrient $i$, so small changes to its requirement are costless.
 
-**Tightening vs. Relaxing: The Two-Sided Sensitivity**
+<h3>Tightening vs Relaxing - The Two-Sided Sensitivity</h3>
 
-The sensitivity is symmetric. For a small perturbation $\epsilon$:
+The sensitivity is symmetric. For a small perturbation $\epsilon$
 
 $$
 V(b + \epsilon\, e_i) \approx V(b) + \epsilon\, \lambda^\ast_i
 $$
 
-- **Tightening** ($\epsilon > 0$): raising requirement $b_i$ by $\epsilon$ units increases optimal cost by $\epsilon\, \lambda^\ast_i$
-- **Relaxing** ($\epsilon < 0$): lowering requirement $b_i$ by $\vert\epsilon\vert$ units *decreases* optimal cost by $\vert\epsilon\vert\, \lambda^\ast_i$
+- **tightening** ($\epsilon > 0$) - raising requirement $b_i$ by $\epsilon$ units increases optimal cost by $\epsilon\, \lambda^\ast_i$
+- **relaxing** ($\epsilon < 0$) - lowering requirement $b_i$ by $\vert\epsilon\vert$ units *decreases* optimal cost by $\vert\epsilon\vert\, \lambda^\ast_i$
 
 This linear approximation is valid *locally* — as long as the optimal basis (the set of active constraints) does not change. Once the perturbation is large enough to trigger a basis change, we enter a new regime with new shadow prices. This is exactly the threshold phenomenon of parametric linear programming.
 
-**The Remarkable Coherence with the Penalty Interpretation**
+<h3>The Remarkable Coherence with the Penalty Interpretation</h3>
 
-Recall from the [previous section](#constraint-violation-penalties) that $\lambda^\ast_i$ is the *penalty rate* for violating constraint $i$. Now we see it is also the *marginal cost* of tightening constraint $i$. These two interpretations must be the same at optimality — and indeed they are:
+Recall from [Lagrange Multipliers as Constraint Violation Penalties](#constraint-violation-penalties)
+that $\lambda^\ast_i$ is the *penalty rate* for violating constraint $i$. Now we see it is also the *marginal cost* of tightening constraint $i$. These two interpretations must be the same at optimality — and indeed they are!
 
 <span class="emph">The price you would pay for violating a constraint by $\epsilon$ units is exactly the savings you would gain by relaxing that constraint by $\epsilon$ units. Penalty and sensitivity are the same quantity, seen from opposite sides of the feasibility boundary.</span>
 
-**Practical Implications for Decision-Making**
+<h3>Practical Implications for Decision-Making</h3>
 
-The sensitivity interpretation makes dual variables immediately actionable. A consumer who knows $\lambda^\ast$ can answer a whole range of real-world questions without re-solving the optimization problem:
+The sensitivity interpretation makes dual variables immediately actionable. A consumer who knows $\lambda^\ast$ can answer a whole range of real-world questions without re-solving the optimization problem.
 
-- *"Is it worth buying a new vitamin brand at a slightly higher price but with 10% more vitamin C?"* Compare: does the price premium exceed $\lambda^\ast_\text{vitC} \times \Delta A_{C,j}$?
-- *"What is the most binding nutritional constraint — the one most worth relaxing?"* The nutrient $i$ with the largest $\lambda^\ast_i$.
-- *"How much would a stricter dietary regulation cost consumers?"* Approximately $(\lambda^\ast)^T \Delta b$.
+- *"Is it worth buying a new vitamin brand at a slightly higher price but with 10% more vitamin C?"*
+- *"What is the most binding nutritional constraint — the one most worth relaxing?"*
+- *"How much would a stricter dietary regulation cost consumers?"*
 
-The dual solution is not merely a certificate of optimality — it is a *complete local theory* of the problem's behavior under perturbation. <span class="emph">Understanding $\lambda^\ast$ means understanding not just the answer to the optimization problem, but the entire neighborhood of that answer.</span>
+The answers to each of the above questions can readily be provided as below.
+
+- Does the price premium exceed $\lambda^\ast_\text{C} \times \Delta A_{\text{C},j}$?
+- The nutrient $i$ with the largest $\lambda^\ast_i$.
+- It's approximately $(\lambda^\ast)^T \Delta b$.
+
+The dual solution is not merely a certificate of optimality. Rather, <span class="emph">it is a *complete local theory* of the problem's behavior under perturbation. Understanding $\lambda^\ast$ means understanding not just the answer to the optimization problem, but the entire neighborhood of that answer.</span>
 
 # Connecting to the Epistemological Trilogy
 
@@ -1217,13 +1226,13 @@ Note that the dual of the dual is the original primal problem \eqref{eq:primal-p
 
 This single sentence — *the dual of the dual is the primal* — deserves to be savored. Let me try to convey why it is so much more than a calculation result.
 
-### The Mathematics is Telling Us Something Profound
+<h3>The Mathematics is Telling Us Something Profound</h3>
 
 Notice what we actually did. We started with the *consumer's* problem (minimize vitamin cost), derived the *supplier's* problem (maximize nutrient revenue), and then — treating the supplier as a new protagonist facing their own optimization problem — derived *their* dual. And we arrived back at the consumer.
 
 The two protagonists are each other's dual. Neither is more fundamental. Neither is the "real" problem and the other the "derived" one. <span class="emph">Consumer and supplier are symmetric reflections of each other across the mirror of duality, and the mathematics insists on this symmetry with the force of a theorem.</span>
 
-### This Is Not Obvious — And Not Always True
+<h3>This Is Not Obvious — And Not Always True</h3>
 
 It would be easy to assume this is some trivial algebraic tautology. It is <span style="color:red; font-weight: bold;">not</span>. For general optimization problems — including non-convex ones — the bidual need not equal the primal. Taking the dual twice can yield a *relaxation* of the original, a problem with a strictly smaller optimal value and a larger feasible region.
 
@@ -1231,13 +1240,13 @@ The reason it works perfectly here is precisely because our problem is *convex* 
 
 <span class="emph">The dual-of-dual result is thus a reward for convexity. Non-convex problems live in a world where consumer and supplier may not see eye to eye even in the limit; convex problems live in a world where perfect symmetry is guaranteed.</span>
 
-### The Involution Structure - An Echo Across Mathematics
+<h3>The Involution Structure - An Echo Across Mathematics</h3>
 
 The operation "take the dual" is an *involution* — applying it twice returns the identity. Mathematics is full of involutions: the double transpose of a matrix $(A^T)^T = A$, the double negation of a proposition $\neg\neg P = P$ (in classical logic), the double dual of a finite-dimensional vector space $V^{\ast\ast} \cong V$, the double Fourier transform returning the original function (up to a reflection), complex conjugation applied twice.
 
 Each of these involutions signals a deep *symmetry* — a pairing between two perspectives where neither is primary. The primal and dual problems are paired in exactly this sense. They are not master and servant but co-equals, related by a perfect mathematical symmetry that is preserved under the duality operation.
 
-### The Journey Metaphor - Transformed by the Return
+<h3>The Journey Metaphor - Transformed by the Return</h3>
 
 There is something almost mythological about this result. You set out from the consumer's perspective, travel to the supplier's world, and then — treating that world as your new home, applying the same machinery of Lagrangians and dual functions — you find yourself journeying back. And you arrive at exactly where you started.
 
@@ -1245,7 +1254,7 @@ But are you the same traveler? The primal problem you return to is written with 
 
 <span class="emph">Before the journey, the primal problem was just given — a direct formulation of what we wanted to accomplish. After the journey, it is something we *derived* — a consequence of the supplier's equilibrium. It is the same problem, but now we know it is *necessary*, not merely convenient.</span>
 
-### The Economic Symmetry - No Privileged Perspective
+<h3>The Economic Symmetry - No Privileged Perspective</h3>
 
 Perhaps the deepest implication is economic. The consumer and supplier might seem to occupy very different roles - one minimizes cost, one maximizes revenue, one is subject to nutritional requirements, the other to competitive pricing constraints. It might seem natural to think of the consumer as the "real" actor and the supplier as a derived, secondary construct.
 
@@ -1253,7 +1262,7 @@ The dual-of-dual theorem refutes this hierarchy completely. The supplier's persp
 
 <span class="emph">There is no privileged frame. Consumer and supplier are two descriptions of the same underlying economic reality, related by the same mathematical transformation, equally fundamental. The "invisible hand" of the market is not Adam Smith's metaphor for how consumer preferences get expressed through prices — it is a mathematical theorem about the symmetric structure of equilibrium itself.</span>
 
-### A Moment of Genuine Understanding
+<h3>A Moment of Genuine Understanding</h3>
 
 This is one of those places in mathematics where I feel the difference between *knowing* and *understanding* most acutely. Knowing means - I can derive that the dual of the dual is the primal, following the algebraic steps correctly. Understanding means - I *feel* why it must be so — that any sufficiently symmetric formulation of a well-posed optimization problem must be its own bidual, that the consumer and supplier cannot be anything other than reflections of each other, that strong duality is not a lucky coincidence but a structural inevitability in the convex world.
 
@@ -1776,7 +1785,7 @@ $$
 
 The upper-bounded vitamin problem is more than a mathematical generalization — it is a richer and more realistic model of the world, one in which *both scarcity and toxicity* shape the equilibrium. The economic interpretation becomes correspondingly deeper.
 
-### Two Kinds of Nutrient Suppliers — and Two Kinds of Shadow Prices
+<h3>Two Kinds of Nutrient Suppliers — and Two Kinds of Shadow Prices</h3>
 
 The dual introduces two distinct Lagrange multipliers for each nutrient $i$.
 
@@ -1796,7 +1805,7 @@ If your doctor tightened the safe limit on, say, vitamin A from $d_i$ to $d_i - 
 
 <span class="emph">The lower bound creates scarcity value; the upper bound creates a regulatory friction. The two shadow prices measure, respectively, how much you benefit from abundance and how much you are hurt by restriction.</span>
 
-### The Dual Objective — Revenue Net of Liability
+<h3>The Dual Objective — Revenue Net of Liability</h3>
 
 The dual objective in \eqref{eq:ul-dual-prob-3} is
 
@@ -1811,7 +1820,7 @@ To see why, think of the supplier's problem this way. The supplier sets nutrient
 
 <span class="emph">In this extended model, the nutrient supplier is not just a revenue-maximizer — they are a net-value-maximizer operating between the floor of nutritional necessity and the ceiling of physiological safety. The shadow prices $\tilde{\lambda}^\ast$ and $\hat{\lambda}^\ast$ are the market prices that clear both boundaries simultaneously.</span>
 
-### The Three Complementary Slackness Conditions — A Three-Way Efficiency Principle
+<h3>The Three Complementary Slackness Conditions — A Three-Way Efficiency Principle</h3>
 
 The upper-bounded model produces a richer set of complementary slackness conditions, each with its own economic story.
 
@@ -1836,7 +1845,7 @@ $$\bar{\lambda}^\ast_j x^\ast_j = 0$$
 
 Unchanged - any vitamin we purchase must earn its keep in net nutrient value (see the stationarity condition below). Overpriced vitamins — those whose cost exceeds the net value of their nutrient content — are not purchased.
 
-### The Stationarity Condition — Net Value Pricing
+<h3>The Stationarity Condition — Net Value Pricing</h3>
 
 The stationarity condition is perhaps the most revealing.
 
@@ -1852,7 +1861,7 @@ This is a beautiful economic result. A vitamin that is rich in a highly toxic nu
 
 <span class="emph">The stationarity condition is no longer just "price equals value" — it is "price equals value minus hazard." The market must simultaneously reward nutritional provision and penalize toxicological risk. This is the mathematical formalization of how pharmaceutical and nutraceutical markets actually price products when safety constraints are binding.</span>
 
-### A Narrow Window — The Most Constrained Nutrients
+<h3>A Narrow Window — The Most Constrained Nutrients</h3>
 
 The most economically interesting situation arises when both $\tilde{\lambda}^\ast_i > 0$ and $\hat{\lambda}^\ast_i > 0$ for the same nutrient $i$. By complementary slackness, this forces
 
@@ -1869,7 +1878,7 @@ The more interesting case is when $d_i - b_i$ is small — a narrow window. Then
 
 <span class="emph">Nutrients with narrow windows $[b_i, d_i]$ are the most constrained and most expensive to manage — they are both necessary and potentially harmful, requiring precise calibration. The dual shadow prices quantify exactly how much each boundary costs, independently and together.</span>
 
-### Sensitivity Analysis — Four Kinds of Marginal Questions
+<h3>Sensitivity Analysis — Four Kinds of Marginal Questions</h3>
 
 With upper bounds, the sensitivity analysis of the optimal cost $V(b, d)$ becomes two-dimensional:
 

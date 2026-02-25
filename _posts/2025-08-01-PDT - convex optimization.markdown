@@ -1,7 +1,7 @@
 ---
 title: Convex Optimization
 date: Fri Aug  1 07:00:00 PDT 2025
-last_modified_at: Mon Feb 23 18:09:39 PST 2026
+last_modified_at: Wed Feb 25 02:01:28 PST 2026
 permalink: /math/rig/convex-optimization
 categories:
 - blog
@@ -6877,6 +6877,7 @@ $$
 	<li>
 		obtain same result for $v_i$, hence
 
+<span id="local-sensitivity-analysis"></span>
 $$
 
 \nabla_u\; p^\ast (0,0) = -\lambda
