@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Wed Feb 25 03:39:54 PST 2026
+last_modified_at: Wed Feb 25 04:08:31 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -190,9 +190,16 @@ If we can achieve genuine understanding here &ndash; the kind where insights fee
 
 ## Problem Setup
 
-Assume $\newcommand{\reals}{\mathbb{R}}\newcommand{\preals}{\reals_+}m$ different nutrients and $n$ different vitamins, where each vitamin contains various amounts of each nutrient. Let $A_{i,j}\in\preals$ represent the amount of the $i$-th nutrient contained in one unit of the $j$-th vitamin, and let $c_j \in \preals$ be the cost of one unit of the $j$-th vitamin.
+{: .notice--info}
+> **A note on terminology** Throughout this post, *supplement* (or *dietary supplement*) refers to a purchasable product you can buy — a capsule, tablet, or powder (e.g., a zinc tablet, a multivitamin capsule, a fish-oil softgel). *Nutrient* refers to the biochemical substance your body needs — calcium, iron, Omega-3, and yes, Vitamin C, Vitamin D, and so on.
+>
+> Note carefully - what everyday language calls "Vitamin C" is a **nutrient** in our model, not a supplement. A supplement is the *vehicle* that delivers nutrients; a nutrient is the *substance* you actually need. This distinction maps directly onto the mathematics; supplements are the decision variables $x_j$ you choose to purchase, while nutrients are the requirements $b_i$ you must satisfy.
+>
+> This problem is a variant of the classical [**Stigler diet problem (1945)**](https://en.wikipedia.org/wiki/Stigler_diet){:target="_blank"}, one of the oldest linear programs ever formulated, adapted here to the context of dietary supplements.
 
-Our goal - minimize the total cost of vitamins while ensuring we consume at least $b_i \in \preals$ units of the $i$-th nutrient (*e.g.*, minimum daily requirements).
+Assume $\newcommand{\reals}{\mathbb{R}}\newcommand{\preals}{\reals_+}m$ different nutrients and $n$ different supplements, where each supplement contains various amounts of each nutrient. Let $A_{i,j}\in\preals$ represent the amount of the $i$-th nutrient contained in one unit of the $j$-th supplement, and let $c_j \in \preals$ be the cost of one unit of the $j$-th supplement.
+
+Our goal - minimize the total cost of supplements while ensuring we consume at least $b_i \in \preals$ units of the $i$-th nutrient (*e.g.*, minimum daily requirements).
 
 The mathematical formulation emerges naturally.
 
@@ -224,7 +231,7 @@ c = \begin{bmatrix} c_1 \\ c_2 \\ \vdots \\ c_n \end{bmatrix} \in \preals^{n}
 \end{eqnarray}
 $$
 
-If we take $x_j$ units of vitamin $j$, the total cost is
+If we take $x_j$ units of supplement $j$, the total cost is
 
 \begin{equation}
 \label{eq:cost}
@@ -289,7 +296,7 @@ $$
 $$
 
 where $x\in\reals^n$ is the optimization varible
-representing our vitamin quantities.
+representing our supplement quantities.
 
 This is our [<span class="define">primal problem</span>](/math/rig/convex-optimization#definition-primal-problem){:target="_blank"} &ndash; the natural, direct formulation of what we want to accomplish.
 
@@ -413,10 +420,10 @@ of the (primal) problem \eqref{eq:primal-prob}.
 
 Here's where mathematical formalism starts revealing deeper truth. Let's track the units.<sup><a href="#footnote1" id="ref1">1</a></sup>
 
-- $x_j$: "vitamin-units"
-- $c_j$: "USD/vitamin-unit"
+- $x_j$: "supplement-units"
+- $c_j$: "USD/supplement-unit"
 - $b_i$: "nutrient-units"
-- $A_{i,j}$: "nutrient-units/vitamin-unit"
+- $A_{i,j}$: "nutrient-units/supplement-unit"
 
 From the Lagrangian's dimensional consistency in \eqref{eq:lagrangian}, we deduce
 - $\lambda_i$ has units "USD/nutrient-unit"
@@ -429,20 +436,20 @@ The dual problem becomes
 
 > **maximize** $b^T\lambda_i = \sum_{i=1}^m b_i \lambda_i$ (total value of required nutrients)
 >
-> **subject to** $\sum_{i=1}^m A_{i,j} \lambda_i \leq c_j$ (cost to create vitamin $j$ cannot exceed its price)
+> **subject to** $\sum_{i=1}^m A_{i,j} \lambda_i \leq c_j$ (cost to create supplement $j$ cannot exceed its price)
 >
 > **and** $\lambda_i \geq 0$ (nutrient prices are non-negative)
 
 The dual variables $\lambda_i$ are <span class="emph">nutrient prices</span> in a competitive market!
 
-The dual problem is solved by <span class="emph">the nutrient supplier who want to maximize their revenue while ensuring that vitamin manufacturers can still produce vitamins profitably</span>.
+The dual problem is solved by <span class="emph">the nutrient supplier who want to maximize their revenue while ensuring that supplement manufacturers can still produce supplements profitably</span>.
 
 ## The Beautiful Duality
 
 We now have two completely different economic perspectives on the same underlying reality.
 
-- **primal (consumer)** - minimize cost of buying vitamins while meeting nutritional needs
-- **dual (supplier)** - maximize revenue from selling nutrients while keeping vitamin production viable
+- **primal (consumer)** - minimize cost of buying supplements while meeting nutritional needs
+- **dual (supplier)** - maximize revenue from selling nutrients while keeping supplement production viable
 
 The profound insight - <span class="emph">These are the same problem viewed from opposite sides of the market!</span>
 
@@ -498,9 +505,9 @@ The strong duality we've discovered reveals something profound about the relatio
 
 Consider the beautiful way different methods embody duality.
 
-When we solve our vitamin problem using the classical [simplex method](https://en.wikipedia.org/wiki/Simplex_algorithm){:target="_blank"}, something remarkable happens in the final tableau. Not only do we get the optimal vitamin quantities $x^\ast$, but the shadow prices (our dual variables $\lambda^\ast$) appear automatically in the bottom row under the slack variable columns! The simplex method doesn't just solve the primal problem—<span class="emph">it simultaneously reveals the economic equilibrium encoded in the dual</span>. Every simplex tableau contains both the consumer's optimal purchasing strategy AND the market's optimal nutrient pricing.
+When we solve our vitamin problem using the classical [simplex method](https://en.wikipedia.org/wiki/Simplex_algorithm){:target="_blank"}, something remarkable happens in the final tableau. Not only do we get the optimal supplement quantities $x^\ast$, but the shadow prices (our dual variables $\lambda^\ast$) appear automatically in the bottom row under the slack variable columns! The simplex method doesn't just solve the primal problem—<span class="emph">it simultaneously reveals the economic equilibrium encoded in the dual</span>. Every simplex tableau contains both the consumer's optimal purchasing strategy AND the market's optimal nutrient pricing.
 
-But **primal-dual interior-point methods** and **central path algorithms** (using log-barrier functions) reveal duality in an even more profound way - <span class="emph">they navigate through the interior of both primal and dual feasible regions simultaneously</span>, maintaining perfect harmony between vitamin costs and nutrient values at every iteration. Rather than jumping between vertices like simplex, these methods trace smooth paths that preserve the primal-dual correspondence throughout the entire solution process.
+But **primal-dual interior-point methods** and **central path algorithms** (using log-barrier functions) reveal duality in an even more profound way - <span class="emph">they navigate through the interior of both primal and dual feasible regions simultaneously</span>, maintaining perfect harmony between supplement costs and nutrient values at every iteration. Rather than jumping between vertices like simplex, these methods trace smooth paths that preserve the primal-dual correspondence throughout the entire solution process.
 
 The central path, in particular, follows a curve that connects primal and dual problems through their geometric centers, never allowing either perspective to dominate.
 <span class="emph">It's as if the algorithm understands that consumer optimization and market equilibrium are inseparable aspects of the same reality, and it refuses to lose sight of either.</span>
@@ -679,8 +686,8 @@ $$
 
 implies
 
-- If $x^\ast_j > 0$ (we buy positive amounts of vitamin $j$), then $c_j = (A^T\lambda^\ast)_j$ (the vitamin's price equals its nutrient content value)
-- If $c_j > (A^T\lambda^\ast)_j$ (vitamin $j$ costs more than its nutrients are worth), then $x^\ast_j = 0$ (we don't buy it)
+- If $x^\ast_j > 0$ (we buy positive amounts of supplement $j$), then $c_j = (A^T\lambda^\ast)_j$ (the supplement's price equals its nutrient content value)
+- If $c_j > (A^T\lambda^\ast)_j$ (supplement $j$ costs more than its nutrients are worth), then $x^\ast_j = 0$ (we don't buy it)
 
 **The Economic Meaning**
 
@@ -688,33 +695,33 @@ Think about what each scenario means.
 
 **Scenario 1** $c_j = (A^T \lambda^\ast)_j$ and $x_j^\ast > 0$
 
-- Vitamin $j$ costs exactly what its nutrients are worth
-- We do buy this vitamin (positive quantity)
+- Supplement $j$ costs exactly what its nutrients are worth
+- We do buy this supplement (positive quantity)
 
-**Why this makes sense** We're getting exactly what we pay for! The vitamin is "fairly priced" - its cost equals the value of nutrients it provides. Since it's a fair deal, we're willing to buy it.
+**Why this makes sense** We're getting exactly what we pay for! The supplement is "fairly priced" - its cost equals the value of nutrients it provides. Since it's a fair deal, we're willing to buy it.
 
 **Scenario 2** $c_j > (A^T \lambda^\ast)_j$ and $x_j^\ast = 0$
 
-- Vitamin $j$ costs more than its nutrients are worth (overpriced)
-- We don't buy this vitamin (zero quantity)
+- Supplement $j$ costs more than its nutrients are worth (overpriced)
+- We don't buy this supplement (zero quantity)
 
-**Why this makes sense** This vitamin is a bad deal! We'd be paying more for the vitamin than the nutrients inside it are worth. It's economically irrational to buy overpriced goods when better alternatives exist.
+**Why this makes sense** This supplement is a bad deal! We'd be paying more for the supplement than the nutrients inside it are worth. It's economically irrational to buy overpriced goods when better alternatives exist.
 
 **The No-Arbitrage Principle**
 
 In financial terms, arbitrage means making risk-free profit by exploiting price differences. The complementary slackness condition ensures no arbitrage opportunities exist.
 
-- **No underpriced vitamins exist** If $c_j < (A^T\lambda^\ast)_j$ (vitamin cheaper than its nutrient value), we'd buy infinite amounts to get nutrients cheaply. This can't happen in equilibrium.
-- **No overpriced purchases occur** If $c_j > (A^T\lambda^\ast)_j$ (vitamin more expensive than its nutrient value), we'd never buy it since we could get the same nutrients cheaper elsewhere.
-- **Fair pricing for purchased items** Any vitamin we actually buy must satisfy $c_j = (A^T\lambda^\ast)_j$ - perfect price-to-value alignment.
+- **No underpriced supplements exist** If $c_j < (A^T\lambda^\ast)_j$ (supplement cheaper than its nutrient value), we'd buy infinite amounts to get nutrients cheaply. This can't happen in equilibrium.
+- **No overpriced purchases occur** If $c_j > (A^T\lambda^\ast)_j$ (supplement more expensive than its nutrient value), we'd never buy it since we could get the same nutrients cheaper elsewhere.
+- **Fair pricing for purchased items** Any supplement we actually buy must satisfy $c_j = (A^T\lambda^\ast)_j$ - perfect price-to-value alignment.
 
 **Connection to Market Efficiency**
 
 This principle connects to fundamental economic concepts.
 
-- **Law of One Price** In efficient markets, identical goods (same nutritional value) should have the same price. Complementary slackness ensures this - any vitamin we buy provides exactly 1 dollar worth of nutrients per 1 dollar spent.
-- **Competitive Market Equilibrium** In perfect competition, economic profits are zero. Here, "profit" from buying vitamins is zero - you get exactly what you pay for in nutrient value.
-- **Efficient Market Hypothesis** No systematic opportunities exist to "beat the market." You can't find systematically underpriced vitamins that provide better nutrient-per-dollar ratios.
+- **Law of One Price** In efficient markets, identical goods (same nutritional value) should have the same price. Complementary slackness ensures this - any supplement we buy provides exactly 1 dollar worth of nutrients per 1 dollar spent.
+- **Competitive Market Equilibrium** In perfect competition, economic profits are zero. Here, "profit" from buying supplements is zero - you get exactly what you pay for in nutrient value.
+- **Efficient Market Hypothesis** No systematic opportunities exist to "beat the market." You can't find systematically underpriced supplements that provide better nutrient-per-dollar ratios.
 - **The Mathematical Beauty** The elegant part is how this economic principle emerges automatically from mathematical optimization.
 
 **The Deep Economic Insight**
@@ -872,8 +879,8 @@ The term $\tilde{\lambda}^T(b - Ax) = \sum_{i=1}^m \tilde{\lambda}_i (b_i - (Ax)
 
 The term $-\bar{\lambda}^T x = -\sum_{j=1}^n \bar{\lambda}_j x_j$ penalizes violations of the non-negativity constraint $x \geq 0$.
 
-- If $x_j < 0$ (absurdly, "selling" vitamin $j$), then $-\bar{\lambda}_j x_j > 0$ - we pay a penalty.
-- If $x_j > 0$ (buying vitamin $j$), then $-\bar{\lambda}_j x_j < 0$ - we receive a reward — which can only be finitely bounded at optimality if $\bar{\lambda}^\ast_j = 0$.
+- If $x_j < 0$ (absurdly, "selling" supplement $j$), then $-\bar{\lambda}_j x_j > 0$ - we pay a penalty.
+- If $x_j > 0$ (buying supplement $j$), then $-\bar{\lambda}_j x_j < 0$ - we receive a reward — which can only be finitely bounded at optimality if $\bar{\lambda}^\ast_j = 0$.
 
 Hence $\bar{\lambda}^\ast_j = 0$ whenever $x^\ast_j > 0$, which is exactly the 2nd complementary slackness condition \eqref{eq:comp-slackness-01-2}.
 
@@ -929,10 +936,10 @@ or component-wise,
 \frac{\partial}{\partial b_i} V(b)= \lambda^\ast_i \quad \text{for } 1 \leq i \leq m
 \end{equation}
 
-<span class="emph">The $i$-th dual variable $\lambda^\ast_i$ is precisely the rate at which the minimum vitamin cost increases
+<span class="emph">The $i$-th dual variable $\lambda^\ast_i$ is precisely the rate at which the minimum supplement cost increases
 when the minimum daily requirement for nutrient $i$ increases.
 Or equivalently,
-it is the rate at which the minimum vitamin cost decreases
+it is the rate at which the minimum supplement cost decreases
 when the minimum daily requirement for nutrient $i$ decreases.
 </span>
 
@@ -942,7 +949,7 @@ This is exactly why dual variables are called **shadow prices** in economics. Th
 
 - $\lambda^\ast_i$ is the dollar value of having one additional unit of nutrient $i$ available per day
 (because if you have one additional unit of nutrient, you will decrease $b_i$ by $1$, and the optimal cost will be reduced by $\lambda^\ast_i$).
-- If your nutritionist increases your minimum daily protein requirement by 1 milligram, your optimal vitamin spend increases by exactly $\lambda^\ast_\text{protein}$ dollars (if the unit of $\lambda_\text{protein}$ is dollar/milligram)
+- If your nutritionist increases your minimum daily protein requirement by 1 milligram, your optimal supplement spend increases by exactly $\lambda^\ast_\text{protein}$ dollars (if the unit of $\lambda_\text{protein}$ is dollar/milligram)
 (because if you increase $b_i$ by $1$, and the optimal cost will increase by $\lambda^\ast_i$).
 - If $\lambda^\ast_i = 0$, constraint $i$ is not binding — you already have surplus of nutrient $i$, so small changes to its requirement are costless.
 
@@ -970,7 +977,7 @@ that $\lambda^\ast_i$ is the *penalty rate* for violating constraint $i$. Now we
 
 The sensitivity interpretation makes dual variables immediately actionable. A consumer who knows $\lambda^\ast$ can answer a whole range of real-world questions without re-solving the optimization problem.
 
-- *"Is it worth buying a new vitamin brand at a slightly higher price but with 10% more vitamin C?"*
+- *"Is it worth buying a new supplement brand at a slightly higher price but with 10% more vitamin C?"*
 - *"What is the most binding nutritional constraint — the one most worth relaxing?"*
 - *"How much would a stricter dietary regulation cost consumers?"*
 
@@ -992,10 +999,10 @@ This exploration perfectly illustrates the themes from my earlier work,
 - [{{ full_info.title }}]({{ full_info.url }}){:target="_blank"}
 - [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}
 
-**From &ldquo;[Strategic Ignorance]({{ partial_info.url }}){:target="_blank"}&rdquo;** We could approach the vitamin problem with partial information - perhaps knowing only some vitamin prices or some nutritional requirements. As I argued, such partial information might lead to worse decisions than honest acknowledgment of ignorance, because it would trigger our pattern-completion mechanisms to construct false confidence about optimal strategies.
+**From &ldquo;[Strategic Ignorance]({{ partial_info.url }}){:target="_blank"}&rdquo;** We could approach the vitamin problem with partial information - perhaps knowing only some supplement prices or some nutritional requirements. As I argued, such partial information might lead to worse decisions than honest acknowledgment of ignorance, because it would trigger our pattern-completion mechanisms to construct false confidence about optimal strategies.
 
 **From &ldquo;[Complete Information Insufficiency]({{ full_info.url }}){:target="_blank"}&rdquo;**
-Even if we had complete information about all vitamin prices,
+Even if we had complete information about all supplement prices,
 nutritional contents, and requirements,
 that information alone wouldn't be sufficient for understanding.
 The understanding emerges from seeing the connections
@@ -1228,7 +1235,7 @@ This single sentence — *the dual of the dual is the primal* — deserves to be
 
 <h3>The Mathematics is Telling Us Something Profound</h3>
 
-Notice what we actually did. We started with the *consumer's* problem (minimize vitamin cost), derived the *supplier's* problem (maximize nutrient revenue), and then — treating the supplier as a new protagonist facing their own optimization problem — derived *their* dual. And we arrived back at the consumer.
+Notice what we actually did. We started with the *consumer's* problem (minimize supplement cost), derived the *supplier's* problem (maximize nutrient revenue), and then — treating the supplier as a new protagonist facing their own optimization problem — derived *their* dual. And we arrived back at the consumer.
 
 The two protagonists are each other's dual. Neither is more fundamental. Neither is the "real" problem and the other the "derived" one. <span class="emph">Consumer and supplier are symmetric reflections of each other across the mirror of duality, and the mathematics insists on this symmetry with the force of a theorem.</span>
 
@@ -1291,7 +1298,7 @@ As $\mu \to \infty$, any violation of $Ax \geq b$ becomes infinitely costly, and
 
 **Geometric Warping**
 
-In the space of vitamin quantities $x \in \reals^n$, the original feasible region $\{x \mid Ax \geq b,\; x \geq 0\}$ is a convex polytope — a hard-edged diamond with flat faces and sharp corners. Adding the penalty term replaces this rigid boundary with a smooth, curved landscape.
+In the space of supplement quantities $x \in \reals^n$, the original feasible region $\{x \mid Ax \geq b,\; x \geq 0\}$ is a convex polytope — a hard-edged diamond with flat faces and sharp corners. Adding the penalty term replaces this rigid boundary with a smooth, curved landscape.
 
 The level sets of the penalized objective,
 
@@ -1413,7 +1420,7 @@ These five roads — algebra, game theory, economics, geometry, information theo
 
 Wittgenstein wrote that the limits of one's language are the limits of one's world. The five roads suggest something different: that some truths lie *beyond* any particular language. LP duality is expressible in the language of algebra, of games, of markets, of geometry — but it is not a creature of any of them. It is, in a precise sense, a *pre-linguistic* truth that each language merely re-discovers.
 
-This resonates with a theme I have explored elsewhere: genuine understanding transcends the particular framework in which it is expressed. The vitamin problem, as a manifestation of LP duality, is not merely a problem about vitamins, or about linear programs, or about market equilibrium — it is a window onto a structure that exists independently of any of these interpretations.
+This resonates with a theme I have explored elsewhere: genuine understanding transcends the particular framework in which it is expressed. The vitamin problem, as a manifestation of LP duality, is not merely a problem about dietary supplements, or about linear programs, or about market equilibrium — it is a window onto a structure that exists independently of any of these interpretations.
 
 **The Mathematical Genealogy**
 
@@ -1500,7 +1507,7 @@ Every time you solve an optimization problem and ask "why does this work?" — t
 
 ## The Universality of Vitamin Cost Minimization Problem
 
-We have traveled far — through penalties and sensitivities, through the central path and the minimal cut, through von Neumann and Walras, through entropy and risk pricing. It is time to step back and ask: *why* does this single, humble problem about buying vitamins contain all of this?
+We have traveled far — through penalties and sensitivities, through the central path and the minimal cut, through von Neumann and Walras, through entropy and risk pricing. It is time to step back and ask: *why* does this single, humble problem about buying dietary supplements contain all of this?
 
 **The Structure Is the Message**
 
@@ -1517,7 +1524,7 @@ This is the canonical form of a *linear program*. But what is a linear program? 
 - the allocation must satisfy **requirements** $b$ via **transformation rates** $A$
 - quantities are **non-negative** (you can buy more, but you cannot un-buy)
 
-This structure is not specific to vitamins. It is the structure of *any* resource allocation problem under linear constraints. And resource allocation under linear constraints is not a narrow class of problems — it is the mathematical skeleton of:
+This structure is not specific to dietary supplements. It is the structure of *any* resource allocation problem under linear constraints. And resource allocation under linear constraints is not a narrow class of problems — it is the mathematical skeleton of:
 
 - **Economics**: firms allocating labor, capital, and raw materials to produce output
 - **Engineering**: signal processing subject to power and bandwidth constraints
@@ -1538,7 +1545,7 @@ And for every one of these primal problems, there is a dual — a supplier who s
 - In biology: the shadow prices of metabolic flux constraints correspond to chemical potentials in thermodynamic equilibrium
 - In physics: the shadow prices of conservation laws are the fundamental forces (Noether's theorem expresses a version of this)
 
-The vitamin problem is universal not because vitamins are important, but because *its structure* — minimize cost, maximize value, equilibrate via prices — is the structure of efficient resource allocation everywhere.
+The vitamin problem is universal not because dietary supplements are important, but because *its structure* — minimize cost, maximize value, equilibrate via prices — is the structure of efficient resource allocation everywhere.
 
 **The Epistemological Significance**
 
@@ -1561,7 +1568,7 @@ And more than seeing them separately — seeing how they are *all facets of the 
 
 In Tibetan Buddhism, a mandala is a geometric diagram that represents the entire universe in microcosm — a finite image containing infinite meaning. The vitamin cost minimization problem is, I claim, a mathematical mandala of the same kind.
 
-It is finite: $m$ nutrients, $n$ vitamins, a cost vector, a requirement vector, a transformation matrix. You can write it on half a page. A student can solve a specific instance in minutes.
+It is finite: $m$ nutrients, $n$ supplements, a cost vector, a requirement vector, a transformation matrix. You can write it on half a page. A student can solve a specific instance in minutes.
 
 And yet it contains:
 - The fundamental theorem of linear programming
@@ -1801,7 +1808,7 @@ This is the same shadow price we encountered before — the price of nutritional
 
 **$\hat{\lambda}^\ast_i$ is the toxicologist's price.**
 It represents the marginal *cost* of the upper bound being one unit tighter.
-If your doctor tightened the safe limit on, say, vitamin A from $d_i$ to $d_i - 1$ units, your minimum achievable vitamin cost would increase by $\hat{\lambda}^\ast_i$ dollars — because you would have to restructure your purchases to stay within the new ceiling, potentially switching to more expensive vitamins or sacrificing other cost efficiencies.
+If your doctor tightened the safe limit on, say, vitamin A from $d_i$ to $d_i - 1$ units, your minimum achievable supplement cost would increase by $\hat{\lambda}^\ast_i$ dollars — because you would have to restructure your purchases to stay within the new ceiling, potentially switching to more expensive supplements or sacrificing other cost efficiencies.
 
 <span class="emph">The lower bound creates scarcity value; the upper bound creates a regulatory friction. The two shadow prices measure, respectively, how much you benefit from abundance and how much you are hurt by restriction.</span>
 
@@ -1834,7 +1841,7 @@ $$\hat{\lambda}^\ast_i (d - Ax^\ast)_i = 0$$
 
 This is entirely new. It says **if the upper bound on nutrient $i$ has positive shadow price ($\hat{\lambda}^\ast_i > 0$), then we are consuming exactly $d_i$ units of it — butting against the ceiling.**
 
-Think about when this happens. If a particular combination of cheap vitamins happens to deliver a nutrient in large quantities, the cost-minimizing consumer will tend to consume as much of those vitamins as possible — until hitting the toxicity ceiling. At that point, $\hat{\lambda}^\ast_i > 0$, the ceiling is genuinely constraining, and relaxing it (raising $d_i$) would allow further cost savings.
+Think about when this happens. If a particular combination of cheap supplements happens to deliver a nutrient in large quantities, the cost-minimizing consumer will tend to consume as much of those supplements as possible — until hitting the toxicity ceiling. At that point, $\hat{\lambda}^\ast_i > 0$, the ceiling is genuinely constraining, and relaxing it (raising $d_i$) would allow further cost savings.
 
 Conversely, if the optimal solution has $(d - Ax^\ast)_i > 0$ — the consumer is comfortably below the ceiling — then $\hat{\lambda}^\ast_i = 0$, *i.e.*, the upper bound is not binding, and it has zero shadow price. Whether the doctor set the limit at $d_i$ or $d_i + 100$, it makes no difference to the optimal solution.
 
@@ -1843,7 +1850,7 @@ Conversely, if the optimal solution has $(d - Ax^\ast)_i > 0$ — the consumer i
 **Condition 3 — "No Arbitrage" (from non-negativity)**
 $$\bar{\lambda}^\ast_j x^\ast_j = 0$$
 
-Unchanged - any vitamin we purchase must earn its keep in net nutrient value (see the stationarity condition below). Overpriced vitamins — those whose cost exceeds the net value of their nutrient content — are not purchased.
+Unchanged - any supplement we purchase must earn its keep in net nutrient value (see the stationarity condition below). Overpriced supplements&mdash;those whose cost exceeds the net value of their nutrient content&mdash;are not purchased.
 
 <h3>The Stationarity Condition — Net Value Pricing</h3>
 
@@ -1851,13 +1858,13 @@ The stationarity condition is perhaps the most revealing.
 
 $$A^T \tilde{\lambda}^\ast - A^T \hat{\lambda}^\ast + \bar{\lambda}^\ast = c$$
 
-For any vitamin $j$, we actually purchase ($x^\ast_j > 0$, so $\bar{\lambda}^\ast_j = 0$).
+For any supplement $j$ we actually purchase ($x^\ast_j > 0$, so $\bar{\lambda}^\ast_j = 0$).
 
 $$c_j = \sum_{i=1}^m A_{i,j} \tilde{\lambda}^\ast_i - \sum_{i=1}^m A_{i,j} \hat{\lambda}^\ast_i = (A^T(\tilde{\lambda}^\ast - \hat{\lambda}^\ast))_j$$
 
-The price of a purchased vitamin $j$ equals the **net nutrient value** it provides; the positive value from contributing to minimum requirements ($\tilde{\lambda}^\ast$) *minus* the negative value (or *hazard cost*) of pushing nutrients toward their upper bounds ($\hat{\lambda}^\ast$).
+The price of a purchased supplement $j$ equals the **net nutrient value** it provides; the positive value from contributing to minimum requirements ($\tilde{\lambda}^\ast$) *minus* the negative value (or *hazard cost*) of pushing nutrients toward their upper bounds ($\hat{\lambda}^\ast$).
 
-This is a beautiful economic result. A vitamin that is rich in a highly toxic nutrient (large $A_{i,j}$ for a nutrient $i$ near its upper bound, so $\hat{\lambda}^\ast_i > 0$) commands a *lower* fair price than its raw nutrient content would suggest — precisely because consuming it carries the implicit cost of burning through your safety margin. Conversely, a vitamin rich in scarce nutrients commands a premium.
+This is a beautiful economic result. A supplement that is rich in a highly toxic nutrient (large $A_{i,j}$ for a nutrient $i$ near its upper bound, so $\hat{\lambda}^\ast_i > 0$) commands a *lower* fair price than its raw nutrient content would suggest — precisely because consuming it carries the implicit cost of burning through your safety margin. Conversely, a supplement rich in scarce nutrients commands a premium.
 
 <span class="emph">The stationarity condition is no longer just "price equals value" — it is "price equals value minus hazard." The market must simultaneously reward nutritional provision and penalize toxicological risk. This is the mathematical formalization of how pharmaceutical and nutraceutical markets actually price products when safety constraints are binding.</span>
 
@@ -1873,7 +1880,7 @@ $$
 
 But wait — we assumed $b_i < d_i$, so this cannot happen at a non-degenerate optimum. What *can* happen is that both shadow prices are positive in a degenerate case, or that the optimal solution is interior to the window $[b_i, d_i]$ with both shadow prices zero (the window is wide and non-binding).
 
-The more interesting case is when $d_i - b_i$ is small — a narrow window. Then even a slight perturbation in the vitamin portfolio can push $(Ax)_i$ against one boundary or the other, making the problem highly sensitive. The sum $\tilde{\lambda}^\ast_i + \hat{\lambda}^\ast_i$ measures
+The more interesting case is when $d_i - b_i$ is small — a narrow window. Then even a slight perturbation in the supplement portfolio can push $(Ax)_i$ against one boundary or the other, making the problem highly sensitive. The sum $\tilde{\lambda}^\ast_i + \hat{\lambda}^\ast_i$ measures
 <span style="color:red; font-weight: bold;">the total shadow cost of the nutrient's window</span> - how much the optimal value would decrease if both bounds were relaxed symmetrically.
 
 <span class="emph">Nutrients with narrow windows $[b_i, d_i]$ are the most constrained and most expensive to manage — they are both necessary and potentially harmful, requiring precise calibration. The dual shadow prices quantify exactly how much each boundary costs, independently and together.</span>
@@ -1899,26 +1906,26 @@ This gives a doctor or regulator a precise toolkit:
 
 <ol>
 <li id="footnote1">
-	Note that we do not even need to have the same units for all vitamins or nutrients,
+	Note that we do not even need to have the same units for all supplements or nutrients,
 	<i>e.g.</i>,
-	the unit of the vitamin $1$ can be &ldquo;capsule&rdquo;
-	whereas the unit of the vitamin $2$ is &ldquo;milligram&rdquo;,
+	the unit of supplement $1$ can be &ldquo;capsule&rdquo;
+	whereas the unit of supplement $2$ is &ldquo;milligram&rdquo;,
 	and
 	the unit of the nutrient $1$ can be &ldquo;milliliter&rdquo;
 	whereas the unit of the nutrient $2$ is &ldquo;microgram&rdquo;.
 	Therefore in general, we can have
 	<ul>
 	<li>
-		the unit of $x_j$ is &ldquo;$j$-th-vitamin-unit&rdquo;
+		the unit of $x_j$ is &ldquo;$j$-th-supplement-unit&rdquo;
 	</li>
 	<li>
-		the unit of $c_j$ is &ldquo;USD/$j$-th-vitamin-unit&rdquo;
+		the unit of $c_j$ is &ldquo;USD/$j$-th-supplement-unit&rdquo;
 	</li>
 	<li>
 		the unit of $b_i$ is &ldquo;$i$-th-nutrient-unit&rdquo;
 	</li>
 	<li>
-		the unit of $A_{i,j}$ is &ldquo;$j$-th-vitamin-unit/$i$-th-nutrient-unit&rdquo;
+		the unit of $A_{i,j}$ is &ldquo;$j$-th-supplement-unit/$i$-th-nutrient-unit&rdquo;
 	</li>
 	<li>
 		the unit of $\lambda_{i}$ is &ldquo;USD/$i$-th-nutrient-unit&rdquo;
