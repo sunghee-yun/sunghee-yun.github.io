@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Thu Feb 26 13:36:49 PST 2026
+last_modified_at: Thu Feb 26 13:46:38 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -1602,7 +1602,7 @@ The supplement cost minimization problem is, at its core, a single mathematical 
 
 <span class="emph">This is the deepest sense in which the dual structure is inevitable: it does not require your knowledge, your algorithms, your mathematical framework, or even your universe. It is there. It has always been there. It will always be there. The only question is whether you choose to see it.</span>
 
-## Independence of Contexts or even Mathematics itself!
+## A Truth Beyond Any Language That Expresses It
 
 What is perhaps most astonishing about the duality we have discovered is that it was discovered *independently*, from completely different starting points, in completely different intellectual traditions — and it always turned out to be the *same theorem*.
 
@@ -1648,7 +1648,7 @@ There is something humbling about this independence. No single human mind, no si
 
 This is, to me, the strongest argument that mathematics is not merely a human invention. It is a map of a territory that exists independently of the mapmaker.
 
-## Exploration of Other Examples
+## Networks, Machines, Markets, Entropy, and Artificial Intelligence (AI) — All the Same Problem!
 
 The structure we uncovered in the vitamin problem — a primal optimization, a dual that emerges from the Lagrangian, strong duality connecting them, and KKT conditions encoding equilibrium — is not unique to nutrition. It appears, in precisely the same mathematical form, across an astonishing range of domains.
 
