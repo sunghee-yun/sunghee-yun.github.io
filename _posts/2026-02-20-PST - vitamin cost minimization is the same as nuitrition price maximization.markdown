@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Thu Feb 26 01:46:58 PST 2026
+last_modified_at: Thu Feb 26 03:23:59 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -24,6 +24,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+<style>
+table, tr, td, th {
+    font-size: inherit !important;
+    font-family: inherit !important;
+}
+</style>
+
 **Share this on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Instagram](https://www.instagram.com/)
@@ -41,7 +48,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Deep Dive - Shadow Prices and the Vitamin Problem</strong>
@@ -116,60 +123,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - Shadow_Prices_and_the_Vitamin_Mandala.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div>
-
-<!--div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Shadow Prices in the Vitamin Aisle</strong>
-			<span style="opacity: 0.8;">(35:27)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_in_the_Vitamin_Aisle.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Optimization Theory in the Vitamin Aisle</strong>
-			<span style="opacity: 0.8;">(26:34)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Optimization_Theory_in_the_Vitamin_Aisle.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div-->
-
-<!--div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Shadow Prices in the Pharmacy Aisle</strong>
-			<span style="opacity: 0.8;">(16:38)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_in_the_Pharmacy_Aisle.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - The Geometry of Vitamin Shadow Prices</strong>
-			<span style="opacity: 0.8;">(20:16)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - The_Geometry_of_Vitamin_Shadow_Prices.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -1457,10 +1410,10 @@ The full picture, from the simplest to the most general, is beautifully parallel
 
 | Setting | Optimality condition |
 |---|---|
-| Unconstrained, $n=1$ | $f_0'(x^\ast) = 0$ |
-| Unconstrained, $n\geq 1$ | $\nabla f_0(x^\ast) = 0$ |
-| Constrained, general | $\nabla_x L(x^\ast, \lambda^\ast, \nu^\ast) = 0$ plus primal/dual feasibility and complementary slackness |
-| Constrained, convex | Above conditions are necessary *and* sufficient |
+| unconstrained &amp; $n=1$ | $f_0'(x^\ast) = 0$ |
+| unconstrained &amp; $n\geq 1$ | $\nabla f_0(x^\ast) = 0$ |
+| constrained | $\nabla_x L(x^\ast, \lambda^\ast, \nu^\ast) = 0$ plus primal/dual feasibility and complementary slackness |
+| constrained &amp; convex | above conditions are necessary *and* sufficient |
 
 <span class="emph">Every row in this table is the same idea, expressed at the next level of generality. The KKT conditions are not a new theory &mdash; they are the original high-school insight, grown up.</span>
 
@@ -1468,7 +1421,7 @@ The full picture, from the simplest to the most general, is beautifully parallel
 
 What happens if, instead of solving the vitamin problem exactly, we *soften* the constraints by adding a penalty term? This is not mere computational convenience — it reveals a deeper geometric and analytical structure that illuminates why duality works.
 
-**The Penalized Primal**
+<h3>The Penalized Primal</h3>
 
 Introduce a penalty parameter $\mu > 0$ and consider the *penalized problem*:
 
@@ -1485,7 +1438,7 @@ where $[t]_+ = \max(t, 0)$ denotes the positive part. Here, instead of requiring
 
 As $\mu \to \infty$, any violation of $Ax \geq b$ becomes infinitely costly, and the penalized solution converges to the original constrained optimum. As $\mu \to 0$, the penalty vanishes and the constraint disappears entirely.
 
-**Geometric Warping**
+<h3>Geometric Warping</h3>
 
 In the space of supplement quantities $x \in \reals^n$, the original feasible region $\{x \mid Ax \geq b,\; x \geq 0\}$ is a convex polytope — a hard-edged diamond with flat faces and sharp corners. Adding the penalty term replaces this rigid boundary with a smooth, curved landscape.
 
@@ -1499,89 +1452,65 @@ are polyhedral in structure but with a characteristic *crease* along the boundar
 
 <span class="emph">The penalty warp the landscape, but the direction of motion — from infeasible toward feasible, guided by the cost gradient $c$ — is preserved. The geometry bends; the essential structure does not.</span>
 
-**The Log-Barrier and the Central Path**
+<h3>The Log-Barrier and the Central Path</h3>
 
-A particularly beautiful penalty is the *logarithmic barrier*:
-
-$$
-\phi_\mu^\text{log}(x) = c^T x - \mu \sum_{i=1}^m \log\left((Ax)_i - b_i\right) - \mu \sum_{j=1}^n \log x_j,
-$$
-
-defined only in the *strict interior* of the feasible region. As $\mu \to 0$, minimizing $\phi_\mu^\text{log}$ traces a smooth curve through the interior of the feasible region, converging to the optimal vertex $x^\ast$.
-
-This curve is the celebrated **central path** of interior-point methods. Each point on the central path simultaneously satisfies a perturbed version of the KKT conditions:
+A particularly beautiful penalty is the *logarithmic barrier*,
+*i.e.*,
 
 $$
-\tilde{\lambda}_i^{(\mu)} (Ax^{(\mu)} - b)_i = \mu \quad \text{for each } i
+\phi_{t}^\mathrm{log}(x) = c^T x - (1/t) \sum_{i=1}^m \log\left((Ax)_i - b_i\right) - (1/t) \sum_{j=1}^n \log x_j,
 $$
 
-instead of the exact complementary slackness $\tilde{\lambda}_i (Ax^\ast - b)_i = 0$. As $\mu \to 0$, the complementary slackness is restored and we recover the original optimal solution.
+defined only in the *strict interior* of the feasible region. As $t \to \infty$, minimizing $\phi_t^\text{log}$ traces a smooth curve through the interior of the feasible region, converging to the optimal vertex, $x^\ast$.
+
+This curve is the celebrated **central path** of interior-point methods. Each point on the central path simultaneously satisfies a perturbed version of the KKT conditions,
+*i.e.*,
+
+$$
+\begin{eqnarray*}
+&
+	\tilde{\lambda}_i^{(t)} (Ax^{(t)} - b)_i = 1/t
+&
+	\quad
+	\mbox{for } 1\leq i\leq m
+\\
+&
+	\bar{\lambda}_j^{(t)} x^{(t)}_j = 1/t
+&
+	\quad
+	\mbox{for } 1\leq j\leq n
+\end{eqnarray*}
+$$
+
+instead of the exact complementary slackness
+$\tilde{\lambda}_i (Ax^\ast - b)_i = 0$ in \eqref{eq:comp-slackness-01-1}
+and
+$\bar{\lambda}_j x^\ast_j = 0$ in \eqref{eq:comp-slackness-01-2}.
+As $t \to \infty$, the complementary slackness is restored and we recover the original optimal solution.
 
 <span class="emph">The log-barrier doesn't just compute the answer — it traces a path that simultaneously maintains primal and dual feasibility throughout, never losing sight of either side of the duality.</span>
 
-**Duality is Preserved Under Penalization**
+<h3>Duality is Preserved Under Penalization</h3>
 
-Here is the crucial structural insight: the *dual* of the penalized problem has a correspondingly modified structure. For the exact penalty with parameter $\mu$, one can show that the optimal dual variables $\lambda^{(\mu)}$ converge to $\lambda^\ast$ as $\mu \to \infty$. For the log-barrier, the dual variables along the central path satisfy $\lambda_i^{(\mu)} = \mu / (Ax^{(\mu)} - b)_i > 0$ — all strictly positive, and converging to the complementary slackness solution.
+Here is the crucial structural insight - the *dual* of the penalized problem has a correspondingly modified structure.
+For the log-barrier, the dual variables along the central path satisfy
+- $\tilde{\lambda}_i^{(t)} = 1 / t (Ax^{(\mu)} - b)_i > 0$ for $1\leq i\leq m$
+- $\bar{\lambda}_j^{(t)} = 1 / t x^{(\mu)}_j > 0$ for $1\leq j\leq n$
+
+all strictly positive, and converging to the complementary slackness solution.
 
 The penalty warps the primal landscape, but duality — the fundamental symmetry between the consumer's cost minimization and the supplier's revenue maximization — is preserved throughout. You cannot escape duality by penalizing constraints; you can only shift where it manifests.
 
-**The Deeper Lesson**
+<!--h3>The Deeper Lesson</h3>
 
 The existence of a continuum of penalized problems converging to the original suggests that the exact optimum is not an isolated point but a *limit* — the endpoint of a continuous deformation. This is philosophically significant: the sharp, discrete structure of the LP optimum (a vertex of a polytope) arises as the limit of smooth, differentiable problems.
 
 <span class="emph">The jagged corners of the feasible region — so algebraically sharp, so computationally convenient — are actually the crystallization of a smoother, more continuous underlying reality. Duality, too, is not a sudden magical equality but the limiting form of an approximate balance that holds continuously along the penalty path.</span>
+-->
 
 ## Independence of Optimal Solutions
 
-The optimal solution pair $(x^\ast, \lambda^\ast)$ possesses a remarkable independence property: the *optimal value* $c^T x^\ast = b^T \lambda^\ast$ is invariant, even when the optimal *solutions* themselves may not be unique.
-
-**The Optimal Value is Unique; the Optimal Solutions May Not Be**
-
-In linear programming, the set of optimal solutions — the *optimal set* — is always a convex polytope (possibly a single point, possibly a face of the feasible polytope). There may be infinitely many $x$ that all achieve the same minimum cost $c^T x^\ast$, and similarly, infinitely many $\lambda$ that all achieve the maximum dual value $b^T \lambda^\ast$.
-
-Yet the optimal *value* is always unique. This isn't a coincidence — it reflects something profound about the nature of equilibrium: the *price* at which consumer and supplier agree is pinned down even when the *quantities* are not.
-
-<span class="emph">In a competitive market, prices are determined by the structure of supply and demand, even when allocation is indeterminate. Strong duality is the mathematical formalization of this principle.</span>
-
-**Independence from Irrelevant Constraints**
-
-At the optimal solution $x^\ast$, the active constraints — those $i$ for which $(Ax^\ast)_i = b_i$ — are the *only* constraints that matter. The inactive constraints (with slack) play no role in determining $x^\ast$.
-
-Formally, the KKT conditions at $x^\ast$ involve only the active constraint rows of $A$. If we removed all inactive constraints from the problem entirely, the optimal solution would be unchanged. The inactive constraints are, in a precise sense, *irrelevant* to the optimum.
-
-This has a beautiful economic interpretation: the nutritional requirements that are already met in excess — those you exceed without even trying — don't affect your purchasing strategy. Only the binding requirements, the ones where you're constrained to consume exactly $b_i$ units, determine the optimal portfolio.
-
-**Independence from the Algorithmic Path**
-
-Whether we find $x^\ast$ via the simplex method, an interior-point algorithm, or any other valid procedure, the resulting optimal value $c^T x^\ast$ is the same. The KKT conditions characterize the optimal solution *completely and intrinsically* — without reference to any algorithm, any parametrization, or any path through the feasible region.
-
-Consider the KKT system (using the reduced form with $\lambda^\ast$):
-
-$$
-\begin{cases}
-Ax^\ast \geq b, \quad x^\ast \geq 0 \\
-\lambda^\ast \geq 0 \\
-\lambda^\ast_i (Ax^\ast - b)_i = 0, \quad i = 1, \ldots, m \\
-(c - A^T \lambda^\ast)_j x^\ast_j = 0, \quad j = 1, \ldots, n \\
-A^T \lambda^\ast \leq c
-\end{cases}
-$$
-
-Any pair $(x^\ast, \lambda^\ast)$ satisfying this system is optimal — *regardless of how it was found*. The conditions are *self-certifying*: no external reference is needed to verify optimality. The solution carries its own proof.
-
-<span class="emph">This is the mathematical analogue of a scientific truth: a genuine insight is independent of the path by which it was discovered. Whether you derive it from economics, geometry, or game theory, the KKT conditions point to the same fundamental equilibrium.</span>
-
-**Independence from Rescaling and Reformulation**
-
-The optimal value is also independent of certain reformulations of the problem. Scaling the constraint matrix $A \to DA$ for a positive diagonal matrix $D$, or rescaling the requirement vector $b \to Db$, changes the representation but not the underlying structure. Similarly, adding redundant constraints or removing inactive ones leaves the optimal value invariant.
-
-This robustness is not accidental — it reflects the *geometric* nature of the optimum. The optimal solution is the intersection of the cost gradient direction with the boundary of the feasible polytope: a geometric fact that transcends any particular algebraic representation.
-
-**The Deeper Philosophical Point**
-
-The independence of optimal solutions is a manifestation of a general epistemological principle: *genuine understanding transcends its means of expression*. Just as a mathematical theorem is true regardless of which proof you use, an optimal economic allocation is efficient regardless of how you compute it.
-
-<span class="emph">The vitamin problem teaches us that optimality is not a property of any particular solution method or formulation — it is a property of the equilibrium itself, inscribed in the geometry of the feasible region and the cost structure, waiting to be discovered by whatever lens we choose to use.</span>
+XXX
 
 ## Independence of Contexts or even Mathematics itself!
 
