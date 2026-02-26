@@ -1,7 +1,7 @@
 ---
-title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Sat Jan  3 16:19:16 PST 2026
+last_modified_at: Thu Feb 26 01:54:44 PST 2026
+title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 permalink: /prajna/coincidence-vs-inevitability
 categories:
  - blog
@@ -116,6 +116,7 @@ A certain universe *could* exist where the force was inversely proportional to $
 	<img style="max-width: 70%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/u1564158738_Mathematical_truth_vs_physical_lawPermalink_Here__465e14c3-08cb-4bdd-9e2c-0840d788ad32_3.png">
 </div>
 
+<span id="possible-inevitability-of-the-universe"></span>
 So in a sense,
 this number 2 is not inevitability.
 Of course,
