@@ -1,7 +1,7 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Thu Feb 26 04:48:11 PST 2026
-title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
+last_modified_at: Thu Feb 26 13:36:49 PST 2026
+title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
  - blog
@@ -50,11 +50,11 @@ table, tr, td, th {
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
 
-<!--div class="img-container-justified">
+<div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Deep Dive - Shadow Prices and the Vitamin Problem</strong>
-			<span style="opacity: 0.8;">(38:43)</span>
+			<span style="opacity: 0.8;">(44:55)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
@@ -65,12 +65,12 @@ table, tr, td, th {
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Shadow Prices Are Reality’s Hidden Operating System</strong>
-			<span style="opacity: 0.8;">(32:54)</span>
+			<strong>Deep Dive - The Shadow Price of a Vitamin</strong>
+			<span style="opacity: 0.8;">(28:44)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_Are_Reality's_Hidden_Operating_System.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - The_Shadow_Price_of_a_Vitamin.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -80,24 +80,24 @@ table, tr, td, th {
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Shadow Prices and the Soul of Optimization</strong>
-			<span style="opacity: 0.8;">(23:22)</span>
+			<strong>Deep Dive - The Cosmic Logic of Buying Vitamins</strong>
+			<span style="opacity: 0.8;">(21:07)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - Shadow_Prices_and_the_Soul_of_Optimization.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - The_Cosmic_Logic_of_Buying_Vitamins.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Hidden Math of Buying Vitamins</strong>
-			<span style="opacity: 0.8;">(21:20)</span>
+			<strong>Deep Dive - The Hidden Shadow Price of Vitamins</strong>
+			<span style="opacity: 0.8;">(17:25)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - The_Hidden_Math_of_Buying_Vitamins.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Deep Dive - The_Hidden_Shadow_Price_of_Vitamins.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -107,29 +107,29 @@ table, tr, td, th {
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - The Hidden Economics of the Vitamin Problem</strong>
-			<span style="opacity: 0.8;">(18:29)</span>
+			<strong>Debate - The Duality of Vitamin Optimization</strong>
+			<span style="opacity: 0.8;">(22:42)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - The_Hidden_Economics_of_the_Vitamin_Problem.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - The_Duality_of_Vitamin_Optimization.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - Shadow Prices and the Vitamin Mandala</strong>
-			<span style="opacity: 0.8;">(18:25)</span>
+			<strong>Debate - The Vitamin Problem's Hidden Shadow Prices</strong>
+			<span style="opacity: 0.8;">(17:39)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - Shadow_Prices_and_the_Vitamin_Mandala.m4a">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-02-20-PST - vitamin cost minimization is the same as nuitrition price maximization/Debate - The_Vitamin_Problem_s_Hidden_Shadow_Prices.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
-</div-->
+</div>
 
 # The Epistemological Stakes
 
