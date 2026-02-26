@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Wed Feb 25 13:12:12 PST 2026
+last_modified_at: Thu Feb 26 01:46:58 PST 2026
 title: "(WIP) Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /math/cvxopt/duality/vitamin
 categories:
@@ -1277,16 +1277,16 @@ If you have followed every step of this derivation carefully and yet the result 
 
 ## Optimality as Equilibrium - From Vanishing Gradients to KKT
 
-In high school, we learn that if $f:\reals\to\reals$ achieves its (local) minimum at $x=a$,
+In high school, we learn that if $f:\reals\to\reals$ achieves its (local) minimum at $x$,
 it should be satisfied that
 
 \begin{equation}
 \label{eq:gradient-vanish}
-f'(a) = 0.
+f'(x) = 0.
 \end{equation}
 
 The converse is not true, *e.g.*, the gradient vanishes even when $f$ achieves its maximum.
-Hence, in high school, we had to check its function values $f(a)$ to find the minimum value.
+Hence, in high school, we had to check its function values $f(x)$ to find the minimum value.
 However, if the function is convex, that is, if for all $x$
 
 \begin{equation}
@@ -1392,17 +1392,17 @@ That is, KKT conditions are the necessary and sufficient conditions for the opti
 
 Note that these are just generalizations of the high school version of minimality conditions described earlier.
 
-(WIP)
-
-**The Connection to the Vanishing Gradient**
+<h3>The Connection to the Vanishing Gradient</h3>
 
 The stationarity condition \eqref{eq:gen-stationarity} is the direct generalization of the high-school condition $f'(a) = 0$.
 To see this, consider the simplest case: $m = 0$ and $p = 0$, *i.e.*, no constraints at all.
 Then the Lagrangian reduces to $L(x) = f_0(x)$,
-the dual variables $\lambda^\ast$ and $\nu^\ast$ vanish,
+the dual variables $\lambda$ and $\nu$ vanish,
 and the stationarity condition collapses exactly to
 
-$$\nabla f_0(x^\ast) = 0,$$
+$$
+	\nabla f_0(x) = 0
+$$
 
 which for $n=1$ is precisely $f_0'(x^\ast) = 0$ &mdash; the condition we learned in high school.
 
@@ -1417,26 +1417,39 @@ The dual variables $\lambda^\ast_i$ and $\nu^\ast_i$ are precisely the weights i
 
 <span class="emph">The KKT stationarity condition is thus the constrained analogue of $f'(a) = 0$: not "the gradient vanishes," but "the gradient is balanced by the active constraints." Optimality always means the same thing &mdash; you cannot move to improve &mdash; but in the constrained world, the constraints themselves participate in enforcing this balance.</span>
 
-**Connection to the Supplement Cost Minimization Problem**
+<h3>Connection to the Supplement Cost Minimization Problem</h3>
 
 Our supplement problem is a special case of this general framework.
-With $f_0(x) = c^T x$,
-$f_i(x) = b_i - (Ax)_i$ for $1\leq i\leq m$ (lower-bound constraints),
-$f_{m+j}(x) = -x_j$ for $1\leq j\leq n$ (non-negativity constraints),
-and no equality constraints ($p=0$),
-the general KKT stationarity condition \eqref{eq:general-stationarity} becomes
+With
+- $f_0(x) = c^T x$
+- $f_i(x) = b_i - (Ax)_i$ for $1\leq i\leq m$ (lower-bound constraints)
+- $f_{m+j}(x) = -x_j$ for $1\leq j\leq n$ (non-negativity constraints)
+- no equality constraints ($p=0$)
 
-$$\nabla f_0(x^\ast) + \sum_{i=1}^m \tilde{\lambda}^\ast_i \nabla f_i(x^\ast) + \sum_{j=1}^n \bar{\lambda}^\ast_j \nabla f_{m+j}(x^\ast)
-= c - A^T\tilde{\lambda}^\ast - \bar{\lambda}^\ast = 0,$$
+the general KKT stationarity condition \eqref{eq:gen-stationarity} becomes
+
+$$
+\begin{eqnarray*}
+0
+&=&
+	\nabla f_0(x^\ast) + \sum_{i=1}^m \lambda^\ast_i \nabla f_i(x^\ast) + \sum_{j=1}^n \lambda^\ast_{m+j} \nabla f_{m+j}(x^\ast)
+\\
+&=&
+	\nabla f_0(x^\ast) + \sum_{i=1}^m \tilde{\lambda}^\ast_i \nabla f_i(x^\ast) + \sum_{j=1}^n \bar{\lambda}^\ast_j \nabla f_{m+j}(x^\ast)
+\\
+&=&
+	c - A^T\tilde{\lambda}^\ast - \bar{\lambda}^\ast
+\end{eqnarray*}
+$$
 
 which is exactly the stationarity condition \eqref{eq:stationarity--01} we derived earlier.
 
-**Convexity: When Necessary Becomes Sufficient**
+<h3>Convexity - When Necessary Becomes Sufficient</h3>
 
 Exactly as in the high-school case, convexity upgrades the KKT conditions from necessary to sufficient.
 
-- **In general**: KKT conditions are *necessary* for optimality (under mild regularity conditions such as Slater's constraint qualification).
-- **If $f_0, f_1, \ldots, f_m$ are convex and $h_1, \ldots, h_p$ are affine**: KKT conditions are *necessary and sufficient* for global optimality.
+- In general, KKT conditions are *necessary* for optimality (under mild regularity conditions such as Slater's constraint qualification).
+- If $f_0, f_1, \ldots, f_m$ are convex and $h_1, \ldots, h_p$ are affine, KKT conditions are *necessary and sufficient* for global optimality.
 
 The supplement cost minimization problem satisfies both: $f_0(x) = c^T x$ is linear (hence convex), all $f_i$ are linear (hence convex), and Slater's condition holds. This is precisely why strong duality and the KKT optimality characterization work so cleanly throughout our analysis.
 
@@ -1451,7 +1464,7 @@ The full picture, from the simplest to the most general, is beautifully parallel
 
 <span class="emph">Every row in this table is the same idea, expressed at the next level of generality. The KKT conditions are not a new theory &mdash; they are the original high-school insight, grown up.</span>
 
-## Warping by Adding Penalties
+## Warping the Function
 
 What happens if, instead of solving the vitamin problem exactly, we *soften* the constraints by adding a penalty term? This is not mere computational convenience — it reveals a deeper geometric and analytical structure that illuminates why duality works.
 
