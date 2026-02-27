@@ -1,8 +1,8 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Thu Feb 26 13:46:38 PST 2026
+last_modified_at: Thu Feb 26 17:09:42 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
-permalink: /math/cvxopt/duality/vitamin
+permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
  - blog
  - Universal Truth
@@ -1713,7 +1713,7 @@ Each of these examples has the same structure: a direct question (minimize cost 
 
 Every time you solve an optimization problem and ask "why does this work?" — the answer involves duality. Every time you look at an efficient market, a well-designed network, or a maximum entropy distribution and ask "why is it this shape?" — the answer involves the KKT conditions. The vitamin problem is simply the most transparent window through which to see this universal truth.
 
-## The Universality of Supplement Cost Minimization Problem
+## The Door That Opens onto Every Other Room
 
 We have traveled far — through penalties and sensitivities, through the central path and the minimal cut, through von Neumann and Walras, through entropy and risk pricing. It is time to step back and ask: *why* does this single, humble problem about buying dietary supplements contain all of this?
 
@@ -1796,9 +1796,9 @@ When you can see the vitamin problem in every optimization problem, and every op
 
 That is the aspiration. The vitamin problem is the door.
 
-# Appendix - Some Variants of Supplement Cost Minimization Problem
+# Further Explorations
 
-## Upper limits on nutrients
+## When the World Gets More Complicated, the Duality Doesn't Flinch
 
 Suppose there is an upper limit $d\in\preals^m$ on each nutrient,
 *e.g.*, your doctor recommends strongly against taking each nutrient more than certain amount.
@@ -1996,7 +1996,7 @@ $$
 \end{eqnarray}
 $$
 
-## Economic Interpretation of the Upper-Bounded Problem
+### Economic Interpretation of the Upper-Bounded Problem
 
 The upper-bounded vitamin problem is more than a mathematical generalization — it is a richer and more realistic model of the world, one in which *both scarcity and toxicity* shape the equilibrium. The economic interpretation becomes correspondingly deeper.
 
