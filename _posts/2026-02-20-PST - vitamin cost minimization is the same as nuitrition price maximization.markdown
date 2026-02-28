@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Sat Feb 28 03:20:06 PST 2026
+last_modified_at: Sat Feb 28 04:55:28 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -710,7 +710,7 @@ The KKT conditions aren't just mathematical technicalities - they're encoding th
 
 The KKT conditions are <span class="emph">the mathematical formalization of Adam Smith's "invisible hand"!</span>
 
-# History
+# Three Centuries of Unfolding
 
 The theory we have been exploring in this article did not spring into being fully formed.
 It was assembled over nearly three centuries, by a remarkable succession of mathematicians
