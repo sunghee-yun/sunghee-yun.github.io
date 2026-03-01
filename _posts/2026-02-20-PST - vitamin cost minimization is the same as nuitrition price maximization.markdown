@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Sun Mar  1 04:00:53 PST 2026
+last_modified_at: Sun Mar  1 04:15:53 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -58,7 +58,7 @@ table, tr, td, th {
 > *"What you'll discover in this exploration isn't just how to solve an optimization problem - it's why the universe seems structured such that every optimization problem contains within it the seeds of its own dual, and what this reveals about the nature of understanding itself."*
 -->
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Deep Dive - Shadow Prices and the Vitamin Problem</strong>
@@ -137,7 +137,7 @@ table, tr, td, th {
 			</audio>
 		</div>
 	</div>
-</div>
+</div-->
 
 # The Epistemological Stakes
 
