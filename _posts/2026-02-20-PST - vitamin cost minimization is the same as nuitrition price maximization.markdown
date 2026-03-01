@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Sat Feb 28 04:55:28 PST 2026
+last_modified_at: Sun Mar  1 04:00:53 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -17,6 +17,14 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
+sections:
+  history: "Three Centuries of Unfolding"
+  all-the-same-problem: "Networks, Machines, Markets, Entropy, and Artificial Intelligence (AI) — All the Same Problem!"
+  game-theory-perspective: "The Game Theory Perspective"
+  dual-problem-revealed: "The Dual Problem Revealed"
+  constraint-violation-penalties: "Lagrange Multipliers as Constraint Violation Penalties"
+  continuing-mystery: "The Continuing Mystery"
+  passages-to-infinite-understanding: "Passages to Infinite Understanding"
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -710,7 +718,7 @@ The KKT conditions aren't just mathematical technicalities - they're encoding th
 
 The KKT conditions are <span class="emph">the mathematical formalization of Adam Smith's "invisible hand"!</span>
 
-# Three Centuries of Unfolding
+# Three Centuries of Unfolding {#history}
 
 The theory we have been exploring in this article did not spring into being fully formed.
 It was assembled over nearly three centuries, by a remarkable succession of mathematicians
@@ -1117,12 +1125,12 @@ a graduate student can now solve in minutes problems that would have required we
 
 ## The Full Timeline
 
-| Year | Who | What |
+| year | who | what |
 |---|---|---|
 | 1715 | Johann Bernoulli | Principle of virtual velocities — the conceptual seed |
 | 1744 | Leonhard Euler | Calculus of variations, Euler-Lagrange equations |
 | 1760 | Joseph-Louis Lagrange | Multiplier method — first appearance |
-| 1788 | Lagrange | *Mécanique Analytique* — equality constraints systematized |
+| 1788 | Joseph-Louis Lagrange | *Mécanique Analytique* — equality constraints systematized |
 | 1902 | Gyula Farkas | Farkas' lemma — algebraic engine of LP duality |
 | 1928 | John von Neumann | Minimax theorem — strong duality in zero-sum games |
 | 1939 | William Karush | KKT conditions — unpublished master's thesis |
@@ -1411,7 +1419,7 @@ This linear approximation is valid *locally* — as long as the optimal basis (t
 
 <h3>The Remarkable Coherence with the Penalty Interpretation</h3>
 
-Recall from [Lagrange Multipliers as Constraint Violation Penalties](#constraint-violation-penalties)
+Recall from [{{ page.sections.constraint-violation-penalties }}](#constraint-violation-penalties)
 that $\lambda^\ast_i$ is the *penalty rate* for violating constraint $i$. Now we see it is also the *marginal cost* of tightening constraint $i$. These two interpretations must be the same at optimality — and indeed they are!
 
 <span class="emph">The price you would pay for violating a constraint by $\epsilon$ units is exactly the savings you would gain by relaxing that constraint by $\epsilon$ units. Penalty and sensitivity are the same quantity, seen from opposite sides of the feasibility boundary.</span>
@@ -2098,7 +2106,7 @@ What is perhaps most astonishing about the duality we have discovered is that it
 
 **Road 1 - Linear Algebra (Farkas' Lemma)** Georg Farkas in 1902 proved that exactly one of two systems of linear inequalities is feasible. This is pure linear algebra — matrices, vectors, and the geometry of cones. Yet Farkas' lemma is logically equivalent to LP duality. The same truth, arrived at by algebraic reasoning about systems of equations and inequalities.
 
-**Road 2 - Game Theory (Von Neumann's Minimax Theorem)** In 1928, John von Neumann proved that for any finite zero-sum game, the minimax and maximin values are equal. This emerged from reasoning about optimal strategies in competitive games — no matrices, no nutrients, just adversarial players choosing mixed strategies. Yet von Neumann's theorem, as we saw in the [game theory perspective](#game-theory-perspective), implies LP duality directly.
+**Road 2 - Game Theory (Von Neumann's Minimax Theorem)** In 1928, John von Neumann proved that for any finite zero-sum game, the minimax and maximin values are equal. This emerged from reasoning about optimal strategies in competitive games — no matrices, no nutrients, just adversarial players choosing mixed strategies. Yet von Neumann's theorem, as we saw in [{{ page.sections.game-theory-perspective }}](#game-theory-perspective), implies LP duality directly.
 
 **Road 3 - Economics (Walrasian Equilibrium)** Leon Walras in the 1870s — decades before linear programming was invented — proved that in a perfectly competitive economy, a set of prices exists that simultaneously clears all markets. The mathematical structure of Walrasian equilibrium is precisely the primal-dual pair - consumers optimizing on one side, producers on the other, prices (dual variables) mediating between them. The first and second welfare theorems of economics are, in essence, restatements of LP duality.
 
@@ -2139,7 +2147,7 @@ There is something humbling about this independence. No single human mind, no si
 
 This is, to me, the strongest argument that mathematics is not merely a human invention. It is a map of a territory that exists independently of the mapmaker.
 
-## Networks, Machines, Markets, Entropy, and Artificial Intelligence (AI) — All the Same Problem!
+## Networks, Machines, Markets, Entropy, and Artificial Intelligence (AI) — All the Same Problem! {#all-the-same-problem}
 
 The structure we uncovered in the vitamin problem — a primal optimization, a dual that emerges from the Lagrangian, strong duality connecting them, and KKT conditions encoding equilibrium — is not unique to nutrition. It appears, in precisely the same mathematical form, across an astonishing range of domains.
 
@@ -2158,7 +2166,7 @@ The celebrated **Max-Flow Min-Cut Theorem** (Ford-Fulkerson, 1956) states that t
 
 In binary classification, a support vector machine (SVM) seeks the maximum-margin hyperplane separating two classes of data points $\{(x_i, y_i)\}$.
 
-- **Primal** minimize $\frac{1}{2}\|w\|^2$ subject to $y_i(w^T x_i + b) \geq 1$ for all $i$
+- **Primal** minimize $$\frac{1}{2} \|w\|^2$$ subject to $y_i(w^T x_i + b) \geq 1$ for all $i$
 - **Dual** maximize $\sum_i \alpha_i - \frac{1}{2}\sum_{i,j} \alpha_i \alpha_j y_i y_j x_i^T x_j$ subject to $\sum_i \alpha_i y_i = 0$, $\alpha_i \geq 0$
 
 The dual variables $\alpha_i$ are nonzero *only* for the support vectors — the data points that lie exactly on the margin boundary (complementary slackness again!). Solving the dual reveals which data points "matter" for the decision boundary, and it enables the kernel trick that makes SVMs work in infinite-dimensional feature spaces.
@@ -2292,7 +2300,7 @@ That is the aspiration. The vitamin problem is the door.
 
 <!--
 When I said I'd realized that the vitamin problem is a holographic representation of universal mathematical truth
-and I'd found the microcosm of cosmic principles in [Passages to Infinite Understanding](#passages-to-infinite-understanding)
+and I'd found the microcosm of cosmic principles in [{{ page.sections.passages-to-infinite-understanding }}](#passages-to-infinite-understanding)
 while at the same time acknowledging the deepest questions remaining mysterious in [The Continuing Mystery](#continuing-mystery),
 I was convinced that I was beginning my journey to figuring out all these remaining mysteries
 and understanding the true aspects of these cosmic truths, or the Universal Truth existing independent of specific physical universe
@@ -2319,12 +2327,12 @@ to be self-contained, self-exploratory... etc.
 ---
 -->
 
-In [Passages to Infinite Understanding](#passages-to-infinite-understanding),
+In [{{ page.sections.passages-to-infinite-understanding }}](#passages-to-infinite-understanding),
 I claimed that the supplement cost minimization problem is a *holographic representation of universal mathematical truth* —
 a microcosm of cosmic principles,
 finite in its formulation yet containing within itself the full depth of duality, equilibrium, and rational structure.
 I meant this sincerely.
-And in [The Continuing Mystery](#continuing-mystery), I acknowledged that the deepest questions remain open —
+And in [{{ page.sections.continuing-mystery }}](#continuing-mystery), I acknowledged that the deepest questions remain open —
 not as failures of understanding, but as the permanent horizon of any genuine inquiry.
 I was convinced I was at the beginning of a long journey toward those truths;
 truths that exist independently of any particular physical universe,
@@ -2336,7 +2344,7 @@ Not a correction of what I had said before, but a deepening of it.
 
 The shift is subtle but profound.
 
-In [Passages to Infinite Understanding](#passages-to-infinite-understanding), I was describing the supplement problem as a *hologram*
+In [{{ page.sections.passages-to-infinite-understanding }}](#passages-to-infinite-understanding), I was describing the supplement problem as a *hologram*
 &ndash;
 a complete image, already whole, already containing everything, waiting to be read by whoever looks closely enough.
 The truth was *there* — encoded, static, and perfect.
@@ -2447,7 +2455,7 @@ g(\tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
 \end{eqnarray}
 $$
 
-Then as [before](#dual-problem-revealed),
+Then as shown in [{{ page.sections.dual-problem-revealed }}](#dual-problem-revealed),
 we can derive the following three equivalent dual problems!
 
 $$
@@ -3309,6 +3317,460 @@ The three portfolio problems form a natural progression, each adding one constra
 At each step, the new constraint introduces a new dual variable, and that variable carries a new economic meaning. It is the equality constraint in the fixed-budget problem — the hard lock at $d$ — that forces the market-clearing condition from which CAPM emerges.
 
 <span class="emph">The supplement aisle, the bond market, and the equity market are all governed by the same duality structure — because all three are resource allocation problems under constraints, and all three must satisfy the same mathematical inevitability. The CAPM is not a theory about stocks. It is a theorem about optimization.</span>
+
+## Support Vector Machine
+
+The Support Vector Machine (SVM) has been mentioned quite a few times in this article —
+in [{{ page.sections.history }}](#history) as the moment KKT conditions entered mainstream machine learning,
+and in [{{ page.sections.all-the-same-problem }}](#all-the-same-problem) as one more instance of the universal duality structure.
+It deserves a closer look.
+
+The SVM ruled supervised learning for roughly two decades — from the mid-1990s until deep learning took over around 2012. But unlike many algorithms that are best understood as clever heuristics, the SVM is a theorem. Every aspect of how it works — why it generalizes well, why it needs only a fraction of the training data to define its decision boundary, why kernels work — falls out directly from the Lagrangian duality theory we have been building throughout this article. Slater's condition guarantees strong duality. Complementary slackness explains sparsity. The dual's dependence on inner products alone is what makes the kernel trick not a trick at all, but a structural inevitability.
+
+In other words, <span class="emph">the SVM is not merely an application of the theory. It is the theory, wearing a different hat.</span>
+
+In binary classification, we are given $m$ training examples $$\{(x_i, y_i)\}_{i=1}^m$$
+where each $x_i \in \reals^n$ is a feature vector and each $$y_i \in \{-1, +1\}$$ is a binary class label.
+
+A [**hyperplane**](https://en.wikipedia.org/wiki/Hyperplane){:target="_blank"} in $\reals^n$ is a set of the form $\{x : w^T x + b = 0\}$,
+parameterized by a normal vector $w \in \reals^n$ and a bias (or offset) $b \in \reals$.
+The hyperplane classifies a new point $x$ as positive if $w^T x + b > 0$ and negative otherwise.
+
+The **geometric margin** of the hyperplane with respect to training example $(x_i, y_i)$
+is the signed distance $$y_i(x_i^T w + b)/\|w\|$$ from $x_i$ to the hyperplane,
+positive if the point is correctly classified.
+The **margin** of the hyperplane is the *minimum* geometric margin over all training examples —
+the width of the "street" separating the two classes.
+
+The SVM seeks the hyperplane with **maximum margin**.
+By normalizing $w$ so that the nearest points satisfy $y_i(x_i^T w + b) = 1$,
+maximizing the margin $$2/\|w\|$$ is equivalent to minimizing $$\frac{1}{2}\|w\|^2$$,
+giving the primal formulation below.
+The formulation here is the **hard-margin SVM**,
+which assumes the data is linearly separable — that such a hyperplane exists at all.
+(We relax this in the next section.)
+
+**A note on kernels.**
+As we will see when we derive the dual,
+the training data $x_i$ appears in the dual objective *only through inner products* $x_i^T x_j$,
+hidden inside $\bigl\|\sum_i \lambda_i y_i x_i\bigr\|^2 = \sum_{i,j} \lambda_i \lambda_j y_i y_j \, x_i^T x_j$.
+This means we can replace the Euclidean inner product with any
+**kernel function** $K(x_i, x_j) = \phi(x_i)^T \phi(x_j)$ —
+the inner product in some (potentially infinite-dimensional) feature space
+induced by a mapping $\phi$.
+The dual optimization problem is structurally unchanged;
+we simply substitute $K(x_i, x_j)$ for $x_i^T x_j$ everywhere.
+This is the celebrated **kernel trick**
+&ndash;
+SVMs learn nonlinear decision boundaries in the original space,
+while the dual optimization remains a finite-dimensional convex quadratic program.
+Popular kernels include the polynomial kernel $K(x,z) = (x^T z + c)^d$
+and the Gaussian RBF kernel $K(x,z) = \exp(-\|x-z\|^2 / 2\sigma^2)$.
+
+$$
+\begin{eqnarray}
+\label{eq:svm-basic}
+\begin{array}{ll}
+\mbox{minimize} & \frac{1}{2} \|w\|^2
+\\
+\mbox{subject to} & y_i (x_i^T w + b ) \geq 1 \; \mbox{for } 1\leq i\leq m
+\end{array}
+\end{eqnarray}
+$$
+
+where the optimization variables
+are
+$w \in \reals^n$ and $b \in \reals$.
+
+The constraint $y_i(x_i^T w + b) \geq 1$ requires every training example
+to be correctly classified and at a normalized distance of at least 1 from the hyperplane.
+The objective $$\frac{1}{2}\|w\|^2$$ minimizes the squared norm of $w$,
+which is equivalent to maximizing the geometric margin $$2/\|w\|$$.
+(The factor $\frac{1}{2}$ is conventional — it makes the gradient of the objective simply $w$.)
+
+The training examples that lie exactly on the margin boundary,
+$y_i(x_i^T w + b) = 1$, are the **support vectors** — the points that give the algorithm its name.
+As the KKT conditions below will make precise,
+only these boundary points determine the optimal hyperplane;
+all other training examples are irrelevant to the solution.
+
+Then the [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"}
+$L: \reals^{n+1} \times \reals^m \to \reals$ is defined by
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+L(w, b, \lambda)
+	&=& \dfrac{1}{2} \|w\|^2 + \sum_{i=1}^m \lambda_i (1-y_i(x_i^T w + b))
+\end{array}
+\end{eqnarray}
+$$
+
+Because
+
+$$
+	\nabla_w L(w, b, \lambda) = w - \sum_{i=1}^m \lambda_i y_i x_i
+	\quad
+	\frac{\partial}{\partial b} L(w, b, \lambda) = - \sum_{i=1}^m \lambda_i y_i
+$$
+
+
+the [<span class="define">Lagrange dual function</span>](/math/rig/convex-optimization#definition:Lagrange---dual---functions){:target="_blank"}
+$g: \reals^m \to \reals$ is
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+g(\lambda)
+	&=&
+		\inf_{w\in\reals^n,\;b\in\reals} L(w, b, \lambda)
+	\\
+	&=& \left\{\begin{array}{ll}
+			\ones^T\lambda - \dfrac{1}{2} \left\| \sum_{i=1}^m \lambda_i y_i x_i \right\|^2
+			&\mbox{if } \sum_{i=1}^m y_i \lambda_i = 0
+		\\
+			-\infty
+			&\mbox{otherwise}
+	\end{array}
+	\right.
+\end{array}
+\end{eqnarray}
+$$
+
+Hence
+the [<span class="define">dual problem</span>](/math/rig/convex-optimization#definition:Lagrange---dual---problems){:target="_blank"}
+of \eqref{eq:svm-basic} is
+
+$$
+\begin{eqnarray}
+\label{eq:svm-basic-dual}
+\begin{array}{ll}
+	\mbox{maximize}
+		& \ones^T \lambda - \dfrac{1}{2} \left\| \sum_{i=1}^m \lambda_i y_i x_i \right\|^2
+\\
+	\mbox{subject to}
+		& y^T \lambda = 0
+\\
+		& \lambda \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+The dual \eqref{eq:svm-basic-dual} is a convex quadratic program in $\lambda \in \reals^m$ —
+one dual variable per training example.
+The constraint $y^T \lambda = 0$ enforces a balance between
+positive- and negative-class contributions to the dual objective.
+
+Strong duality holds by Slater's condition
+&ndash;
+the hard-margin assumption guarantees linear separability,
+so a strictly feasible primal point exists.
+
+Notice something remarkable
+&ndash;
+the dual objective involves the training data
+*only through inner products* $x_i^T x_j$,
+hidden inside $$\bigl\|\sum_i \lambda_i y_i x_i\bigr\|^2 = \sum_{i,j} \lambda_i \lambda_j y_i y_j \, x_i^T x_j$$.
+This is precisely where the **kernel trick** lives
+&ndash;
+replacing $x_i^T x_j$ with a kernel $K(x_i, x_j)$ everywhere
+is all that is required to extend the SVM to nonlinear classifiers —
+no change to the dual structure whatsoever.
+
+Now the KKT conditions of \eqref{eq:svm-basic} and \eqref{eq:svm-basic-dual} are
+
+- **primal feasibility**
+
+\begin{equation}
+y_i (x_i^T w^\ast + b ) \geq 1 \; \mbox{for } 1\leq i\leq m
+\end{equation}
+
+- **dual feasibility**
+
+\begin{equation}
+\lambda^\ast \geq 0
+\end{equation}
+
+- **complementary slackness**
+
+\begin{equation}
+	\lambda^\ast_i (1-y_i(x_i^T w^\ast + b)) = 0
+	\;
+	\mbox{for } 1\leq i\leq m
+\end{equation}
+
+- **stationarity**
+
+\begin{equation}
+	w^\ast = \sum_{i=1}^m \lambda_i^\ast y_i x_i
+	\quad
+	y^T \lambda^\ast = 0
+\end{equation}
+
+The KKT conditions reveal the sparse, geometric structure of the SVM solution with striking clarity.
+
+**Complementary slackness** $\lambda_i^\ast(1 - y_i(x_i^T w^\ast + b)) = 0$ says
+&ndash;
+either $\lambda_i^* = 0$ — the point lies strictly on the correct side of the margin and is entirely irrelevant —
+or $y_i(x_i^T w^* + b) = 1$ — the point lies exactly on the margin boundary.
+The latter are the <span class="emph">support vectors</span>, and only they have $\lambda_i^* > 0$.
+
+**Stationarity** $w^\ast = \sum_i \lambda_i^\ast y_i x_i$ says
+&ndash;
+the optimal hyperplane normal is a linear combination of support vectors alone.
+Since most $\lambda_i^* = 0$ by complementary slackness,
+<span class="emph">the decision boundary is determined by a small fraction of the training set</span> —
+often just a handful of examples, regardless of how many millions were used to train the model.
+
+This is the deep economy of the SVM.
+In a dataset of a million points, the decision boundary might depend on fifty support vectors.
+All other points are irrelevant —
+exactly as a perfectly efficient shadow price assigns zero value to a slack constraint,
+the SVM assigns zero weight to every non-support-vector training example.
+<span class="emph">Complementary slackness is not a technicality here; it is the reason SVMs are sparse.</span>
+
+The hard-margin SVM assumes the data is linearly separable —
+that a hyperplane exists that perfectly separates the two classes.
+In practice, data is often noisy, overlapping, or genuinely non-separable.
+Enforcing $y_i(x_i^T w + b) \geq 1$ strictly for every point would yield an infeasible problem.
+
+## Support Vector Machines with Slack Variables
+
+The [**soft-margin SVM**](https://en.wikipedia.org/wiki/Support_vector_machine#Soft-margin){:target="_blank"} relaxes the margin constraints by introducing
+*slack variables* $\xi_i \geq 0$, one per training example,
+measuring how far each example is allowed to violate the margin.
+The modified constraint $y_i(x_i^T w + b) \geq 1 - \xi_i$ permits violations,
+but penalizes them in the objective with a cost $\gamma > 0$ per unit of slack.
+
+Geometrically
+&ndash;
+a point with $\xi_i = 0$ satisfies the margin constraint fully;
+$0 < \xi_i \leq 1$ puts the point inside the margin but still correctly classified;
+$\xi_i > 1$ means the point is misclassified.
+The parameter $\gamma$ governs the trade-off
+&ndash;
+large $\gamma$ penalizes violations heavily, pushing toward a narrow, strictly-enforced margin;
+small $\gamma$ tolerates violations, allowing a wider but less precise margin.
+<span class="emph">This is the bias-variance trade-off, expressed in the language of constrained optimization.</span>
+
+$$
+\begin{eqnarray}
+\label{eq:svm}
+\begin{array}{ll}
+	\mbox{minimize}
+		& \frac{1}{2} \|w\|^2 + \gamma \sum_{i=1}^m \xi_i
+\\
+	\mbox{subject to}
+		& y_i (x_i^T w + b ) \geq 1 - \xi_i \; \mbox{for } 1\leq i\leq m
+\\
+		& \xi \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+where $\xi_i \geq 0$ is the slack variable for the $i$-th training example —
+the amount by which the $i$-th margin constraint is permitted to be violated —
+$\xi = (\xi_1, \ldots, \xi_m) \in \reals^m$ collects all slack variables,
+and $\gamma > 0$ is the regularization parameter
+controlling the cost of margin violations.
+
+Then the [<span class="define">Lagrangian</span>](/math/rig/convex-optimization#definition:Lagrangian){:target="_blank"}
+$L: \reals^{n+m+1} \times \reals^m \times \reals^m \to \reals$ is defined by
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+L(w, b, \xi, \tilde{\lambda}, \bar{\lambda})
+	&=&
+		\dfrac{1}{2} \|w\|^2
+		+ \sum_{i=1}^m \tilde{\lambda}_i (1-\xi_i-y_i(x_i^T w + b))
+\\
+	&&
+		+ \gamma \ones^T \xi
+		- \bar{\lambda}^T \xi
+\end{array}
+\end{eqnarray}
+$$
+
+Because
+
+$$
+\begin{eqnarray*}
+	\nabla_w L(w, b, \xi, \tilde{\lambda}, \bar{\lambda}) &=& w - \sum_{i=1}^m \tilde{\lambda}_i y_i x_i
+\\
+	\frac{\partial}{\partial b} L(w, b, \xi, \tilde{\lambda}, \bar{\lambda}) &=& - \tilde{\lambda}^T y
+\\
+	\nabla_\xi L(w, b, \xi, \tilde{\lambda}, \bar{\lambda}) &=& \gamma \ones - \tilde{\lambda} - \bar{\lambda}
+\end{eqnarray*}
+$$
+
+the [<span class="define">Lagrange dual function</span>](/math/rig/convex-optimization#definition:Lagrange---dual---functions){:target="_blank"}
+$g: \reals^m \times \reals^m \to \reals$ is
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+g(\tilde{\lambda}, \bar{\lambda})
+	&=&
+		\inf_{w\in\reals^n,\; b\in\reals,\; \xi\in\reals^m} L(w, b, \xi, \tilde{\lambda}, \bar{\lambda})
+	\\
+	&=& \left\{\begin{array}{ll}
+			\ones^T\tilde{\lambda} - \dfrac{1}{2} \left\| \sum_{i=1}^m \tilde{\lambda}_i y_i x_i \right\|^2
+			&\mbox{if } y^T \tilde{\lambda} = 0,\; \tilde{\lambda} + \bar{\lambda} = \gamma \ones
+		\\
+			-\infty
+			&\mbox{otherwise}
+	\end{array}
+	\right.
+\end{array}
+\end{eqnarray}
+$$
+
+Hence
+the [<span class="define">dual problem</span>](/math/rig/convex-optimization#definition:Lagrange---dual---problems){:target="_blank"}
+of \eqref{eq:svm} is
+
+$$
+\begin{eqnarray}
+\begin{array}{ll}
+	\mbox{maximize}
+		& \ones^T \tilde{\lambda} - \dfrac{1}{2} \left\| \sum_{i=1}^m \tilde{\lambda}_i y_i x_i \right\|^2
+\\
+	\mbox{subject to}
+		& y^T \tilde{\lambda} = 0
+\\
+		& \tilde{\lambda} + \bar{\lambda} = \gamma \ones
+\\
+		& \tilde{\lambda} \geq 0,\; \bar{\lambda} \geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+which is equivalent to
+
+$$
+\begin{eqnarray}
+\label{eq:svm-dual}
+\begin{array}{ll}
+	\mbox{maximize}
+		& \ones^T \tilde{\lambda} - \dfrac{1}{2} \left\| \sum_{i=1}^m \tilde{\lambda}_i y_i x_i \right\|^2
+\\
+	\mbox{subject to}
+		& y^T \tilde{\lambda} = 0
+\\
+		& 0 \leq \tilde{\lambda} \leq  \gamma \ones
+\end{array}
+\end{eqnarray}
+$$
+
+The soft-margin dual has exactly the same objective as the hard-margin dual \eqref{eq:svm-basic-dual},
+but with the constraint $\tilde{\lambda} \geq 0$ tightened to the **box constraint**
+$0 \leq \tilde{\lambda} \leq \gamma \mathbf{1}$.
+
+This upper bound is the shadow of the slack variables.
+In the hard-margin case, $\lambda_i$ could grow arbitrarily large for a support vector —
+reflecting unlimited influence of a boundary point over the decision boundary.
+In the soft-margin case, $\tilde{\lambda}_i + \bar{\lambda}_i = \gamma$ with $\bar{\lambda}_i \geq 0$
+caps $\tilde{\lambda}_i$ at $\gamma$.
+No single training example can exert more influence than $\gamma$ allows.
+<span class="emph">The regularization parameter is not merely a penalty in the primal —
+it is a hard bound on each example's leverage in the dual.</span>
+
+Notice also that the slack variables $\xi$ have been completely eliminated from the dual
+&ndash;
+they appear nowhere in \eqref{eq:svm-dual}.
+The dual depends only on $\tilde{\lambda}$ — one variable per training example —
+and again only through inner products $x_i^T x_j$.
+The kernel trick applies here too, unchanged.
+
+<span class="emph">Strong duality holds by Slater's condition</span>
+&ndash;
+for any $w, b$, setting $\xi_i = \max(0, 1 - y_i(x_i^T w + b))$ gives a strictly feasible point of \eqref{eq:svm},
+so no separability assumption is needed.
+
+Now the KKT conditions of \eqref{eq:svm-basic} and \eqref{eq:svm-basic-dual} are
+
+- **primal feasibility**
+
+$$
+\begin{eqnarray}
+\begin{array}{cl}
+y_i (x_i^T w^\ast + b ) \geq 1 - \xi^\ast_i \; &\mbox{for } 1\leq i\leq m
+\\
+\xi^\ast\geq 0
+\end{array}
+\end{eqnarray}
+$$
+
+- **dual feasibility**
+
+\begin{equation}
+0 \leq \tilde{\lambda}^\ast \leq \gamma \ones
+\end{equation}
+
+- **complementary slackness**
+
+$$
+\begin{eqnarray}
+\begin{array}{cl}
+	\lambda^\ast_i (1 - \xi^\ast_i - y_i(x_i^T w^\ast + b)) = 0
+	& \mbox{for } 1\leq i\leq m
+\\
+	\xi^\ast_i (\gamma - \tilde{\lambda}_i) = 0
+	& \mbox{for } 1\leq i\leq m
+\end{array}
+\end{eqnarray}
+$$
+
+- **stationarity**
+
+\begin{equation}
+	w^\ast = \sum_{i=1}^m \tilde{\lambda}_i^\ast y_i x_i
+	\quad
+	y^T \tilde{\lambda}^\ast = 0
+\end{equation}
+
+The soft-margin KKT conditions reveal a richer taxonomy than the hard-margin case —
+a three-way classification of every training example,
+determined entirely by the value of $\tilde{\lambda}_i^\ast$.
+
+- **$\tilde{\lambda}_i^\ast = 0$**
+&ndash;
+By complementary slackness, $y_i(x_i^T w^\ast + b) > 1$ (the constraint is strictly satisfied).
+The point is correctly classified and strictly outside the margin.
+It is a <span class="emph">non-support-vector</span> — it contributes nothing to $w^\ast$
+and has zero influence on the decision boundary.
+- **$0 < \tilde{\lambda}_i^\ast < \gamma$**
+&ndash;
+By complementary slackness applied to the second condition,
+$\xi_i^\ast(\gamma - \tilde{\lambda}_i^\ast) = 0$ and $\gamma - \tilde{\lambda}_i^\ast \neq 0$,
+so $\xi_i^\ast = 0$.
+Then the first complementary slackness condition forces $y_i(x_i^T w^\ast + b) = 1$
+&ndash;
+the point lies exactly on the margin boundary, correctly classified.
+These are the <span class="emph">margin support vectors</span> — the geometric heart of the classifier.
+- **$\tilde{\lambda}_i^\ast = \gamma$**
+&ndash;
+The upper box constraint is active.
+By complementary slackness, $\xi_i^\ast \geq 0$ is unconstrained —
+the point may lie inside the margin ($0 < \xi_i^\ast \leq 1$) or be misclassified ($\xi_i^\ast > 1$).
+These are the <span class="emph">bounded support vectors</span>
+&ndash;
+they push against the ceiling set by $\gamma$ and contribute to $w^\ast$ with maximum weight.
+
+This three-way partition is the soft-margin analogue of the binary active/inactive split
+from the supplement problem.
+The dual variable $\tilde{\lambda}_i^\ast$ is a continuous measure of how "borderline" each example is —
+from completely irrelevant ($\tilde{\lambda}_i^\ast = 0$) to maximally influential ($\tilde{\lambda}_i^\ast = \gamma$).
+The regularization parameter $\gamma$ controls not just the primal penalty
+but the entire spectrum of influence available to each training example in the dual.
+
+<span class="emph">This is the shadow price of misclassification tolerance —
+the dual face of the primal trade-off between margin width and constraint violation.
+The supplement problem priced nutrients; the SVM prices examples.
+In both cases, the dual variables are not auxiliary constructs —
+they are the equilibrium prices that a perfectly efficient optimization assigns
+to the resources that actually constrain the optimum.</span>
 
 ---
 
