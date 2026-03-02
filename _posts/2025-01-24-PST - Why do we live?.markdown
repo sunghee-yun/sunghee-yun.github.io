@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Wed Jan  7 01:53:00 PST 2026
+last_modified_at: Mon Mar  2 04:16:28 PST 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -320,7 +320,7 @@ The creative view of meaning also suggests that <span class="emph">meaning-makin
 
 Finally, recognizing meaning as creative rather than discovered opens up possibilities for dialogue and mutual enrichment across different meaning-making communities. If no one has privileged access to the ultimate truth about life's meaning, then different approaches to meaning creation can learn from each other without necessarily competing for exclusive validity. <span class="emph">Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.</span>
 
-The question "Do I want meaning in my life?" preserves genuine choice while opening creative possibilities. The answer might be yes, leading to active engagement with meaning-making practices. The answer might be no, leading to acceptance of meaninglessness without despair. Most likely, the answer will vary over time and circumstances, leading to a dynamic relationship with meaning that evolves throughout life. In all cases, the question locates <span class="emph">agency</span> where it belongs—<span class="emph">not in cosmic forces beyond our control, but in our own choices about how to live.</span>
+The question "Do I want meaning in my life?" preserves genuine choice while opening creative possibilities. The answer might be yes, leading to active engagement with meaning-making practices. The answer might be no, leading to acceptance of meaninglessness (hopefully) without despair. Most likely, the answer will vary over time and circumstances, leading to a dynamic relationship with meaning that evolves throughout life. In all cases, the question locates <span class="emph">agency</span> where it belongs—<span class="emph">not in cosmic forces beyond our control, but in our own choices about how to live.</span>
 
 [Sunghee
 <br>
@@ -334,7 +334,7 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 <li id="footnote1">
 	Duḥkha (/ˈduːkə/; Sanskrit: दुःख, Pali: dukkha)
 	is an important concept in Buddhism, Jainism and Hinduism
-	meaning something like "suffering", "pain", "unease", or "unsatisfactoriness".
+	meaning something like &ldquo;suffering&rdquo;, &ldquo;pain&rdquo;, &ldquo;unease&rdquo;, or &ldquo;unsatisfactoriness&rdquo;.
 	However, (for obvious reasons)
 	there is no English word exactly describing it.
 &nbsp;<a href="#ref1">↩</a></li>
