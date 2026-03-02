@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Sun Mar  1 14:26:58 PST 2026
+last_modified_at: Sun Mar  1 16:45:20 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -330,9 +330,8 @@ $$
 	\mbox{maximize} & g(\tilde{\lambda}, \bar{\lambda})
 	\\
 	\mbox{subject to}
-	& \tilde{\lambda} \geq 0
-	\\
-	& \bar{\lambda} \geq 0
+	& \tilde{\lambda} \geq 0, \;
+	\bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -347,9 +346,8 @@ $$
 	\\
 	\mbox{subject to} & A^T \tilde{\lambda} + \bar{\lambda} = c
 	\\
-	& \tilde{\lambda} \geq 0
-	\\
-	& \bar{\lambda} \geq 0
+	& \tilde{\lambda} \geq 0,\;
+	 \bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -1643,9 +1641,8 @@ $$
 	\mbox{minimize} & \tilde{g}(\tilde{\nu}, \bar{\nu})
 	\\
 	\mbox{subject to}
-	& \tilde{\nu} \geq 0
-	\\
-	& \bar{\nu} \geq 0
+	& \tilde{\nu} \geq 0, \;
+	 \bar{\nu} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -1659,9 +1656,8 @@ $$
 	\\
 	\mbox{subject to} & b -A \tilde{\nu} + \bar{\nu} = 0
 	\\
-	& \tilde{\nu} \geq 0
-	\\
-	& \bar{\nu} \geq 0
+	& \tilde{\nu} \geq 0, \;
+	 \bar{\nu} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -2185,8 +2181,8 @@ The structure we uncovered in the vitamin problem — a primal optimization, a d
 
 Consider a directed network (a graph with capacities on edges) and the problem of routing as much flow as possible from a source to a sink.
 
-- **Primal** maximize total flow from source to sink, subject to flow conservation at each node and capacity constraints on each edge
-- **Dual** find a *cut* — a set of edges whose removal disconnects source from sink — that minimizes the total capacity of the cut
+- **primal** maximize total flow from source to sink, subject to flow conservation at each node and capacity constraints on each edge
+- **dual** find a *cut* — a set of edges whose removal disconnects source from sink — that minimizes the total capacity of the cut
 
 The celebrated **Max-Flow Min-Cut Theorem** (Ford-Fulkerson, 1956) states that the maximum flow *equals* the minimum cut capacity. This is LP strong duality in disguise - the dual variables on the capacity constraints are exactly the indicators of the minimum cut.
 
@@ -2196,10 +2192,12 @@ The celebrated **Max-Flow Min-Cut Theorem** (Ford-Fulkerson, 1956) states that t
 
 In binary classification, a support vector machine (SVM) seeks the maximum-margin hyperplane separating two classes of data points $\{(x_i, y_i)\}$.
 
-- **Primal** minimize $$\frac{1}{2} \|w\|^2$$ subject to $y_i(w^T x_i + b) \geq 1$ for all $i$
-- **Dual** maximize $\sum_i \alpha_i - \frac{1}{2}\sum_{i,j} \alpha_i \alpha_j y_i y_j x_i^T x_j$ subject to $\sum_i \alpha_i y_i = 0$, $\alpha_i \geq 0$
+- **primal** minimize
+$$\frac{1}{2} \|w\|^2$$
+subject to $y_i(w^T x_i + b) \geq 1$ for all $i$
+- **dual** maximize $\sum_i \lambda_i - \frac{1}{2}\sum_{i,j} \lambda_i \lambda_j y_i y_j x_i^T x_j$ subject to $\sum_i \lambda_i y_i = 0$, $\lambda_i \geq 0$
 
-The dual variables $\alpha_i$ are nonzero *only* for the support vectors — the data points that lie exactly on the margin boundary (complementary slackness again!). Solving the dual reveals which data points "matter" for the decision boundary, and it enables the kernel trick that makes SVMs work in infinite-dimensional feature spaces.
+The dual variables $\lambda_i$ are nonzero *only* for the support vectors — the data points that lie exactly on the margin boundary (complementary slackness again!). Solving the dual reveals which data points "matter" for the decision boundary, and it enables the kernel trick that makes SVMs work in infinite-dimensional feature spaces.
 
 The primal asks - *find the fattest separator*. The dual asks - *find the data points that define it*. Strong duality ensures these are the same problem.
 
@@ -2207,8 +2205,8 @@ The primal asks - *find the fattest separator*. The dual asks - *find the data p
 
 In transportation or communication networks, the problem of routing commodities at minimum cost has a beautiful dual!
 
-- **Primal** find minimum-cost flow routings satisfying all demand
-- **Dual** find node prices (potentials) such that each arc's price differential doesn't exceed its cost, maximizing the total value of satisfied demand
+- **primal** find minimum-cost flow routings satisfying all demand
+- **dual** find node prices (potentials) such that each arc's price differential doesn't exceed its cost, maximizing the total value of satisfied demand
 
 The dual variables are *node prices* — exactly the equilibrium toll charges that a profit-maximizing road operator would set to clear the network. The primal-dual gap is zero when prices are set to reflect true congestion costs. This is the mathematical foundation of congestion pricing in transportation economics.
 
@@ -2216,8 +2214,8 @@ The dual variables are *node prices* — exactly the equilibrium toll charges th
 
 Harry Markowitz's mean-variance portfolio optimization (1952).
 
-- **Primal** minimize portfolio variance $x^T \Sigma x$ subject to achieving return $\mu^T x \geq r^\ast$ and $\ones^T x = 1$, $x \geq 0$
-- **Dual** maximize the risk-adjusted return, which takes the form of pricing each asset's *systematic risk* via the dual variable on the variance constraint
+- **primal** minimize portfolio variance $x^T \Sigma x$ subject to achieving return $\mu^T x \geq r^\ast$ and $\ones^T x = 1$, $x \geq 0$
+- **dual** maximize the risk-adjusted return, which takes the form of pricing each asset's *systematic risk* via the dual variable on the variance constraint
 
 The dual variable on the return constraint is the [*Sharpe ratio*](https://en.wikipedia.org/wiki/Sharpe_ratio){:target="_blank"} of the optimal portfolio — the marginal increase in expected return per unit of additional risk accepted. The dual variable on the budget constraint is the *risk-free rate* implied by the efficient frontier.
 
@@ -2227,8 +2225,8 @@ The Capital Asset Pricing Model (CAPM), one of the most influential theories in 
 
 Given measured moments $\mathbb{E}[f_i(X)] = b_i$ of a random variable $X$, find the distribution $p(x)$ that satisfies these moment constraints while being "maximally uninformative"!
 
-- **Primal** maximize entropy $H(p) = -\sum_x p(x) \log p(x)$ subject to moment constraints $\sum_x f_i(x) p(x) = b_i$ and normalization $\sum_x p(x) = 1$
-- **Dual** minimize the log-partition function $\log Z(\lambda) = \log \sum_x \exp\left(\sum_i \lambda_i f_i(x)\right)$, where $\lambda_i$ are the Lagrange multipliers
+- **primal** maximize entropy $H(p) = -\sum_x p(x) \log p(x)$ subject to moment constraints $\sum_x f_i(x) p(x) = b_i$ and normalization $\sum_x p(x) = 1$
+- **dual** minimize the log-partition function $\log Z(\lambda) = \log \sum_x \exp\left(\sum_i \lambda_i f_i(x)\right)$, where $\lambda_i$ are the Lagrange multipliers
 
 The dual solution gives the exponential family distribution $p_\lambda(x) \propto \exp(\lambda^T f(x))$ — the foundation of statistical mechanics, information geometry, and modern machine learning. The Lagrange multipliers $\lambda_i$ are precisely the *inverse temperature* parameters (or in ML, the model weights).
 
@@ -2495,11 +2493,9 @@ $$
 	\mbox{maximize} & g(\tilde{\lambda}, \hat{\lambda}, \bar{\lambda})
 	\\
 	\mbox{subject to}
-	& \tilde{\lambda} \geq 0
-	\\
-	& \hat{\lambda} \geq 0
-	\\
-	& \bar{\lambda} \geq 0
+	& \tilde{\lambda} \geq 0, \;
+	 \hat{\lambda} \geq 0, \;
+	 \bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -2512,11 +2508,9 @@ $$
 	\\
 	\mbox{subject to} & A^T \tilde{\lambda} - A^T \hat{\lambda} + \bar{\lambda} = c
 	\\
-	& \tilde{\lambda} \geq 0
-	\\
-	& \hat{\lambda} \geq 0
-	\\
-	& \bar{\lambda} \geq 0
+	& \tilde{\lambda} \geq 0, \;
+	 \hat{\lambda} \geq 0, \;
+	 \bar{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -2529,9 +2523,8 @@ $$
 	\\
 	\mbox{subject to} & A^T \tilde{\lambda} - A^T \hat{\lambda} \leq c
 	\\
-	& \tilde{\lambda} \geq 0
-	\\
-	& \hat{\lambda} \geq 0
+	& \tilde{\lambda} \geq 0, \;
+	 \hat{\lambda} \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -2545,18 +2538,15 @@ if and only if
 - **primal feasibility**
 
 \begin{equation}
-b \leq Ax^\ast \leq d
-\quad
+b \leq Ax^\ast \leq d, \;
 x^\ast \geq 0
 \end{equation}
 
 - **dual feasibility**
 
 \begin{equation}
-\tilde{\lambda}^\ast \geq 0
-\quad
-\hat{\lambda}^\ast \geq 0
-\quad
+\tilde{\lambda}^\ast \geq 0, \;
+\hat{\lambda}^\ast \geq 0, \;
 \bar{\lambda}^\ast \geq 0
 \end{equation}
 
@@ -2593,18 +2583,15 @@ if and only if
 - **primal feasibility**
 
 \begin{equation}
-b \leq Ax^\ast \leq d
-\quad
+b \leq Ax^\ast \leq d, \;
 x^\ast \geq 0
 \end{equation}
 
 - **dual feasibility**
 
 \begin{equation}
-\tilde{\lambda}^\ast \geq 0
-\quad
-\hat{\lambda}^\ast \geq 0
-\quad
+\tilde{\lambda}^\ast \geq 0, \;
+\hat{\lambda}^\ast \geq 0, \;
 A^T \tilde{\lambda}^\ast - A^T \hat{\lambda}^\ast \leq c
 \end{equation}
 
@@ -2670,11 +2657,13 @@ To see why, think of the supplier's problem this way. The supplier sets nutrient
 The upper-bounded model produces a richer set of complementary slackness conditions, each with its own economic story.
 
 **Condition 1 — "Waste Not" (from the lower bound)**
+
 $$\tilde{\lambda}^\ast_i (Ax^\ast - b)_i = 0$$
 
 This is unchanged from the original model - if nutrient $i$ has positive scarcity value ($\tilde{\lambda}^\ast_i > 0$), then we consume exactly the minimum required amount. No scarce nutrient is wasted.
 
 **Condition 2 — "Ceiling is Binding or Free" (from the upper bound)**
+
 $$\hat{\lambda}^\ast_i (d - Ax^\ast)_i = 0$$
 
 This is entirely new. It says **if the upper bound on nutrient $i$ has positive shadow price ($\hat{\lambda}^\ast_i > 0$), then we are consuming exactly $d_i$ units of it — butting against the ceiling.**
@@ -2686,6 +2675,7 @@ Conversely, if the optimal solution has $(d - Ax^\ast)_i > 0$ — the consumer i
 <span class="emph">Together, conditions 1 and 2 paint a complete picture - the consumer is simultaneously avoiding shortfalls (lower bounds) and avoiding toxicity (upper bounds). Nutrients that are both scarce and dangerous are the most constrained — they must be consumed in a narrow window $[b_i, d_i]$, and both shadow prices may be positive.</span>
 
 **Condition 3 — "No Arbitrage" (from non-negativity)**
+
 $$\bar{\lambda}^\ast_j x^\ast_j = 0$$
 
 Unchanged - any supplement we purchase must earn its keep in net nutrient value (see the stationarity condition below). Overpriced supplements&mdash;those whose cost exceeds the net value of their nutrient content&mdash;are not purchased.
@@ -3038,9 +3028,8 @@ $$
 	& b\lambda_1 - c\lambda_2 -\dfrac{1}{4}(\lambda_1 a-\lambda_2 \ones)^TP^{-1}(\lambda_1 a - \lambda_2 \ones)
 \\
 \mbox{subject to}
-	& \lambda_1 \geq 0
-\\
-	& \lambda_2 \geq 0
+	& \lambda_1 \geq 0, \;
+	 \lambda_2 \geq 0
 \end{array}
 \end{eqnarray}
 $$
@@ -3049,7 +3038,7 @@ where the optimization variables are $\lambda_1\in\reals$ and $\lambda_2\in\real
 
 The KKT conditions are
 
-- primal feasibility
+- **primal feasibility**
 
 $$
 \begin{eqnarray*}
@@ -3059,15 +3048,14 @@ $$
 \end{eqnarray*}
 $$
 
-- dual feasibility
+- **dual feasibility**
 
 $$
-\lambda_1^\ast \geq 0
-\quad
+\lambda_1^\ast \geq 0, \;
 \lambda_2^\ast \geq 0
 $$
 
-- complementary slackness
+- **complementary slackness**
 
 $$
 \begin{eqnarray*}
@@ -3078,7 +3066,7 @@ $$
 $$
 
 
-- stationarity
+- **stationarity**
 
 $$
 	2Px^\ast = \lambda_1^\ast a - \lambda_2^\ast \ones
