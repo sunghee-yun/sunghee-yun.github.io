@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Mar  2 00:02:03 PST 2026
+last_modified_at: Mon Mar  2 00:08:55 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -3955,16 +3955,6 @@ $$
 \end{array}
 \end{eqnarray}
 $$
-
-XXX - notice the resemblance of \eqref{eq:lp-slack-dual} and \eqref{eq:svm-dual}
-
-XXX - explain this also shows the primal problem \eqref{eq:lp-slack} is always feasible
-because the objective function of \eqref{eq:lp-slack-dual} is bounded above
-whereas that of \eqref{eq:dual-prob} can go to infinity (if $A\in\reals^{m\times n}$)
-
-XXX - add some more explnation, context, interpretation, etc.
-
-XXX - explain what it means and/or implies that the show prices are bounded.... in various contexts
 
 **The resemblance to the SVM dual is not a coincidence.**
 Compare \eqref{eq:lp-slack-dual} with the soft-margin SVM dual \eqref{eq:svm-dual}
