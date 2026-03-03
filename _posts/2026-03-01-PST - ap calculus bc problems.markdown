@@ -1,7 +1,7 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 03:04:16 PST 2026
-title: "AP Calculus BC for the person I love (most)!"
+last_modified_at: Tue Mar  3 10:54:45 PST 2026
+title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
  - blog
@@ -44,11 +44,11 @@ $$
 \begin{eqnarray}
 \label{eq:der-inverse-tri}
 \begin{array}{rcl}
-\dfrac{d}{dx} \arcsin(x) &=& \dfrac{1}{\sqrt{1-x^2}}
+\dfrac{d}{dx} \sin^{-1}(x) &=& \dfrac{1}{\sqrt{1-x^2}}
 \\
-\dfrac{d}{dx} \arccos(x) &=& - \dfrac{1}{\sqrt{1-x^2}}
+\dfrac{d}{dx} \cos^{-1}(x) &=& - \dfrac{1}{\sqrt{1-x^2}}
 \\
-\dfrac{d}{dx} \arctan(x) &=& \dfrac{1}{1+x^2}
+\dfrac{d}{dx} \tan^{-1}(x) &=& \dfrac{1}{1+x^2}
 \end{array}
 \end{eqnarray}
 $$
@@ -116,14 +116,14 @@ which (of course) coincides with \eqref{eq:prob-int-by-sub-01}!
 
 $$
 \begin{eqnarray}
-\label{eq:int-inverse-tri}
-\begin{array}{rcl}
-\int \arcsin(x) dx &=& x \arcsin(x) + \sqrt{1-x^2} + C
+\label{eq:int-arcsin}
+\int \sin^{-1}(x) dx &=& x \sin^{-1}(x) + \sqrt{1-x^2} + C
 \\
-\int \arccos(x) dx &=& x \arccos(x) - \sqrt{1-x^2} + C
+\label{eq:int-arccos}
+\int \cos^{-1}(x) dx &=& x \cos^{-1}(x) - \sqrt{1-x^2} + C
 \\
-\int \arctan(x) dx &=& x \arctan(x) - \frac{1}{2} \log(x^2+1) + C
-\end{array}
+\label{eq:int-arctan}
+\int \tan^{-1}(x) dx &=& x \tan^{-1}(x) - \frac{1}{2} \log(x^2+1) + C
 \end{eqnarray}
 $$
 
