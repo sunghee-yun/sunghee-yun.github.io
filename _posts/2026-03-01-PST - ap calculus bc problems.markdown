@@ -1,5 +1,5 @@
 ---
-date: Mon Mar  2 23:13:06 PST 2026
+date: Sun Mar  1 23:13:06 PST 2026
 last_modified_at: Tue Mar  3 03:04:16 PST 2026
 title: "AP Calculus BC for the person I love (most)!"
 permalink: /math/ap/calculus/bc

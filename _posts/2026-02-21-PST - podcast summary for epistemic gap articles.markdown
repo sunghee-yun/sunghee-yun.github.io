@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 21 01:27:43 PST 2026
-last_modified_at: Mon Mar  2 21:25:23 PST 2026
+last_modified_at: Tue Mar  3 04:19:28 PST 2026
 permalink: /prajna/epistemic-gap/podcasts
 layout: single
 title: "The Epistemological Trilogy - AI Conversations on the Limits of Information, Knowledge, and Understanding"
@@ -8,6 +8,7 @@ categories:
  - blog
  - Cognitive Science
  - Philosophy
+ - Universal Truth
 tags:
  - cognitive science
  - epistemology
@@ -34,6 +35,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign partial_info = site.posts | where: "permalink", "/prajna/wisdom-of-strategic-ignorance" | first %}
 {% assign full_info = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
 {% assign shadow_price = site.posts | where: "permalink", "/prajna/glimpse-of-universal-truths-via-shadow-prices" | first %}
+{% assign inevitabilities_trilogy = site.posts | where: "permalink", "/prajna/inevitabilities-trilogy/podcasts" | first %}
+
+{: .notice--success}
+If these questions about knowledge and understanding lead you to wonder about the deeper mathematical structures that transcend both information and minds, please refer to [{{ inevitabilities_trilogy.title }}]({{ inevitabilities_trilogy.url }}){:target="_blank"} for my companion trilogy examining the mathematical inevitabilities that would remain true even if consciousness, universes, and information itself never existed.
 
 In my ongoing exploration of the fundamental nature of knowledge and understanding, I've embarked on what I call an epistemological trilogy—a journey that began with discovering why [partial information can be more dangerous than complete ignorance]({{ partial_info.url }}){:target="_blank"}, progressed through recognizing that [even complete information remains insufficient for genuine understanding]({{ full_info.url }}){:target="_blank"}, and culminated in [uncovering universal truths through mathematical structures]({{ shadow_price.url }}){:target="_blank"} like shadow prices in optimization theory. This trilogy represents my attempt to bridge the gap between mechanical knowledge and the kind of deep comprehension that transcends mere information accumulation—<span class="emph">the difference between knowing facts and truly understanding reality.</span>
 
