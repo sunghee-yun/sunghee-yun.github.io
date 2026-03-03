@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Mon Mar  2 02:27:32 PST 2026
+last_modified_at: Tue Mar  3 15:40:21 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -2413,7 +2413,7 @@ Every time you turn the key, a new door opens —
 not because the doors were hiding,
 but because *the act of opening one creates the next*.
 
-<span class="emph">The supplement cost minimization problem is not a truth to be possessed. It is a method for discovering truths that do not yet exist for the discoverer — and perhaps, in the deepest sense, truths that do not fully exist until they are discovered.</span>
+<span id="methods-to-discover-truths" class="emph">The supplement cost minimization problem is not a truth to be possessed. It is a method for discovering truths that do not yet exist for the discoverer — and perhaps, in the deepest sense, truths that do not fully exist until they are discovered.</span>
 
 Consider what remains.
 The minimax game interpretation, the saddle-point structure of the Lagrangian, the geometry of separating hyperplanes and convex sets,
