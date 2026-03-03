@@ -1,7 +1,7 @@
 ---
-title: Family Trip to NY in the last month of 2024
 date: Wed Jan  1 17:11:40 PST 2025
-last_modified_at: Sat Jan  3 21:25:22 PST 2026
+last_modified_at: Tue Mar  3 11:24:40 PST 2026
+title: Family Trip to NY in the last month of 2024
 permalink: /blog/PST-Family-Trip-to-NY-@-Dec-2024
 categories:
  - blog
@@ -109,7 +109,7 @@ The sweet treats were a hit with everyone, especially the kids, whose faces lit 
 Amidst the festivities, I also had the opportunity to share my passion for technology and education.
 I conducted a remote AI seminar, ensuring that even my cousin, Christina's family,
 who couldn't join us due to an unfortunate accident-Adrian broke his legs a day before our (long-thought-and-planned) trip, could participate.
-Additionally, I demonstrated <a href="https://github.com/sungheeyun/science">a software package</a>
+Additionally, I demonstrated <a id="science" href="https://github.com/sungheeyun/science">a software package</a>
 I developed for high school physics education, which has evolved significantly over time.
 Cezar, Christina's husband, expressed his enthusiasm about the software, making the demo a resounding success.
 
