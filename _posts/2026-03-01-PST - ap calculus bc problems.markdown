@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  2 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 02:48:32 PST 2026
+last_modified_at: Tue Mar  3 03:04:16 PST 2026
 title: "AP Calculus BC for the person I love (most)!"
 permalink: /math/ap/calculus/bc
 categories:
@@ -93,7 +93,7 @@ $$
 		\int f'(u) du
 	=
 		f(u) + C
-	= 
+	=
 		f(g(x)) + C
 $$
 
@@ -221,25 +221,25 @@ where $A(0) = 15$, what is $\lim_{t\to\infty} A(t)$?
 $$
 \begin{eqnarray*}
 \frac{dA}{A(20-A/4)} = dt
-&\Longleftrightarrow&
+&\Leftrightarrow&
 \left( \frac{1}{A} + \frac{1}{80-A} \right) dA = 20dt
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 \log A - \log (80 - A) = 20 t + C
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 \log \left( \frac{A}{80 - A} \right) = 20 t + C
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 \log \left( \frac{1}{80/A - 1} \right) = 20 t + C
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 \log ( 80/A - 1 ) = -20 t - C
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 80/A = e^{-20 t - C} + 1
 \\
-&\Longleftrightarrow&
+&\Leftrightarrow&
 A = \frac{80}{e^{-20 t - C} + 1}
 \end{eqnarray*}
 $$
