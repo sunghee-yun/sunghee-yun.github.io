@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon Mar  2 04:24:02 PST 2026
+last_modified_at: Mon Mar  2 16:48:42 PST 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -30,29 +30,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > The meaning of life isn't an inherent truth waiting to be discovered. &hellip; it's something we actively create through our will and intention.
 
 > &hellip; Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.
-
-<!--h1>NotebookLM Podcasts</h1-->
-
-<!--
-- [Meaning Made - How One Seeker Flipped the &ldquo;Why Do We Live?&rdquo; Question (17:50)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=0ca81854-c4b9-4a53-b487-60f70760c6c8){:target="_blank"}
-- [Creating Your Meaning - Why &ldquo;Why Do We Live?&rdquo; Is the Wrong Question (15:14)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=9f2a5812-de8c-4153-8602-241eac23b79b){:target="_blank"}
-- [Meaning Is Not Found, It's Created - Sunghee Yun's Journey to Redefine Life's Big Question (15:52)](https://notebooklm.google.com/notebook/e7a3742d-939e-4c94-8e5e-3ec1f19d04ba?artifactId=49129ffc-dff2-4c57-b72f-6d94e6cf2d34){:target="_blank"}
--->
-
-<!--audio id="podcast-1" controls>
-	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Made__How_One_Seeker_Flipped_the__Why_Do_We_Live__Question.m4a">
-	Your browser does not support this shorter audio element.
-</audio>
-
-<audio id="podcast-2" controls>
-	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Creating_Your_Meaning__Why__Why_Do_We_Live__Is_the_Wrong_Question.m4a">
-	Your browser does not support this shorter audio element.
-</audio>
-
-<audio id="podcast-3" controls>
-	<source type="audio/mp4" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-24-PST - Why do we live/NotebookLM/Meaning_Is_Not_Found,_It_s_Created__Sunghee_Yun_s_Journey_to_Redefine_Life_s_Big_Question.m4a">
-	Your browser does not support this shorter audio element.
-</audio-->
 
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
@@ -320,9 +297,9 @@ The practical implications of this understanding are profound. If meaning is som
 
 The creative view of meaning also suggests that <span class="emph">meaning-making is an ongoing process rather than a one-time achievement</span>. Just as artists continue creating throughout their lives, we continue creating meaning throughout our lives. <span class="emph">The meanings we create in youth may no longer serve us in middle age; the purposes that drive us in health may need revision in illness; the values we embrace in prosperity may require reconsideration in adversity. This dynamic quality of meaning prevents it from becoming dogmatic or rigid while requiring ongoing attention and care.</span>
 
-Finally, recognizing meaning as creative rather than discovered opens up possibilities for dialogue and mutual enrichment across different meaning-making communities. If no one has privileged access to the ultimate truth about life's meaning, then different approaches to meaning creation can learn from each other without necessarily competing for exclusive validity. <span class="emph">Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.</span>
+<span class="emph">Finally, recognizing meaning as creative rather than discovered opens up possibilities for dialogue and mutual enrichment across different meaning-making communities. If no one has privileged access to the ultimate truth about life's meaning, then different approaches to meaning creation can learn from each other without necessarily competing for exclusive validity. Religious and secular, individual and collective, traditional and innovative approaches to meaning can all contribute to the rich human project of creating lives worth living.</span>
 
-The question "Do I want meaning in my life?" preserves genuine choice while opening creative possibilities. The answer might be yes, leading to active engagement with meaning-making practices. The answer might be no, leading to acceptance of meaninglessness (hopefully) without despair. Most likely, the answer will vary over time and circumstances, leading to a dynamic relationship with meaning that evolves throughout life. In all cases, the question locates <span class="emph">agency</span> where it belongs—<span class="emph">not in cosmic forces beyond our control, but in our own choices about how to live.</span>
+<span class="emph">The question "Do I want meaning in my life?" preserves genuine choice while opening creative possibilities.</span> The answer might be yes, leading to active engagement with meaning-making practices. The answer might be no, leading to acceptance of meaninglessness (hopefully) without despair. Most likely, the answer will vary over time and circumstances, leading to a dynamic relationship with meaning that evolves throughout life. In all cases, the question locates <span class="emph">agency</span> where it belongs—<span class="emph">not in cosmic forces beyond our control, but in our own choices about how to live.</span>
 
 [Sunghee
 <br>
