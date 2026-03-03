@@ -1,7 +1,7 @@
 ---
 date: Mon Mar  2 23:13:06 PST 2026
-last_modified_at: Mon Mar  2 23:13:06 PST 2026
-title: "AP Calculus BC Problems"
+last_modified_at: Tue Mar  3 00:46:11 PST 2026
+title: "AP Calculus BC"
 permalink: /math/ap/calculus/bc
 categories:
  - blog
