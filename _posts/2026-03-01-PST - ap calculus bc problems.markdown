@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 21:16:26 PST 2026
+last_modified_at: Tue Mar  3 21:52:26 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -32,9 +32,64 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
 - <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
 
-# Pattern Analysis
+# Important Topics, Patterns, and Rules
 
 ## Differentiation / Derivatives
+
+### L'H&ocirc;pital's rule
+
+[L'H&ocirc;pital's rule](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule){:target="_blank"}
+states that for functions $f$ and $g$ which are defined on
+an open interval $I$ and differentiable on $$I\backslash\{c\}$$
+for a (possibly infinite) accumulation point $c$ of $I$,
+if
+
+$$
+	\lim_{x\to c} f(x) = \lim_{x\to c} g(x) = 0 \mbox{ or } \pm \infty
+$$
+
+and $\lim_{x\to c} \dfrac{f'(x)}{g'(x)}$ exists, then
+
+\begin{equation}
+\label{eq:lhospital-rule}
+	\lim_{x\to c} \frac{f(x)}{g(x)}
+	=
+	\lim_{x\to c} \frac{f'(x)}{g'(x)}
+\end{equation}
+
+**Examples**
+
+$$
+\begin{eqnarray*}
+\lim_{x\to 0} \frac{\sin(x)}{x}
+	&=&
+		\lim_{x\to 0} \frac{\cos(x)}{1} = 1
+\\
+\lim_{x\to \infty} \frac{\log(x)}{x}
+	&=&
+		\lim_{x\to \infty} \frac{1/x}{1} = 0
+\\
+\lim_{x\to 0} x\log x
+	&=&
+		\lim_{x\to 0} \frac{\log(x)}{1/x} = \lim_{x\to 0} \frac{1/x}{-1/x^2} = 0
+\\
+\lim_{x\to \infty} \frac{\log(a+b\, e^{cx})}{x}
+	&=&
+		\lim_{x\to \infty} \frac{bc\, e^{cx}/(a+b\, e^{cx})}{1} = c
+		\quad
+		\mbox{for any } a,b,c>0
+\end{eqnarray*}
+$$
+
+**Caveat**
+
+$$
+\begin{eqnarray*}
+\lim_{x\to 0} \frac{x}{5}
+	&\neq&
+		\lim_{x\to 0} \frac{1}{0}
+\end{eqnarray*}
+$$
 
 ### Chain rule
 
