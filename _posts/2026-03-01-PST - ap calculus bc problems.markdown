@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 21:52:26 PST 2026
+last_modified_at: Tue Mar  3 22:33:46 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -65,19 +65,61 @@ $$
 	&=&
 		\lim_{x\to 0} \frac{\cos(x)}{1} = 1
 \\
+\lim_{x\to \infty} xe^{-x}
+	&=&
+		\lim_{x\to \infty} \frac{x}{e^x}
+		=
+		\lim_{x\to \infty} \frac{1}{e^x} = 0
+\\
+\lim_{x\to \infty} x^2 e^{-x}
+	&=&
+		\lim_{x\to \infty} \frac{x^2}{e^x}
+		=
+		\lim_{x\to \infty} \frac{2x}{e^x}
+		=
+		\lim_{x\to \infty} \frac{2}{e^x} = 0
+\\
 \lim_{x\to \infty} \frac{\log(x)}{x}
 	&=&
 		\lim_{x\to \infty} \frac{1/x}{1} = 0
 \\
-\lim_{x\to 0} x\log x
+\lim_{x\to 0^+} x\log x
 	&=&
-		\lim_{x\to 0} \frac{\log(x)}{1/x} = \lim_{x\to 0} \frac{1/x}{-1/x^2} = 0
+		\lim_{x\to 0^+} \frac{\log(x)}{1/x} = \lim_{x\to 0^+} \frac{1/x}{-1/x^2} = \lim_{x\to 0^+} (-x) = 0
 \\
 \lim_{x\to \infty} \frac{\log(a+b\, e^{cx})}{x}
 	&=&
 		\lim_{x\to \infty} \frac{bc\, e^{cx}/(a+b\, e^{cx})}{1} = c
-		\quad
-		\mbox{for any } a,b,c>0
+		\;
+		\mbox{for } a,b,c>0
+\\
+\lim_{x\to 0} \frac{e^x-1}{x}
+	&=&
+		\lim_{x\to 0} \frac{e^x}{1} = 1
+\\
+\lim_{x\to 0} \frac{e^x-1}{x^2+x}
+	&=&
+		\lim_{x\to 0} \frac{e^x}{2x+1} = 1
+\\
+\lim_{x\to 0} \frac{2\sin x - \sin(2x)}{x-\sin x}
+	&=&
+		\lim_{x\to 0} \frac{2\cos x - 2\cos(2x)}{1-\cos x}
+\\
+	&=&
+		\lim_{x\to 0} \frac{-2\sin x + 4\sin(2x)}{\sin x}
+\\
+	&=&
+		\lim_{x\to 0} \frac{-2\cos x + 8\cos(2x)}{\cos x} = 6
+\\
+\lim_{h\to 0} \frac{f(x+h)+f(x-h)-2f(x)}{h^2}
+	&=&
+		\lim_{h\to 0} \frac{f(x+h)+f(x-h)-2f(x)}{h^2}
+\\
+	&=&
+		\lim_{h\to 0} \frac{f'(x+h)-f'(x-h)}{2h}
+\\
+	&=&
+		\lim_{h\to 0} \frac{f^{\prime\prime}(x+h)+f^{\prime\prime}(x-h)}{2} = f^{\prime\prime}(x)
 \end{eqnarray*}
 $$
 
