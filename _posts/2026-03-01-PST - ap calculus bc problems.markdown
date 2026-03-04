@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 21:03:05 PST 2026
+last_modified_at: Tue Mar  3 21:16:26 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -27,6 +27,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
+# Exercise Problem Collection
+
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
+
 # Pattern Analysis
 
 ## Differentiation / Derivatives
@@ -38,6 +43,34 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 \label{eq:chain-rule}
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
+
+### Derivatives of trigonometric functions
+
+$$
+\begin{eqnarray}
+\label{eq:der-tri}
+\begin{array}{rcl}
+	\dfrac{d}{dx} \sin(x) &=& \cos(x)
+\\
+	\dfrac{d}{dx} \cos(x) &=& - \sin(x)
+\\
+	\dfrac{d}{dx} \tan(x) &=& \sec^2(x)
+		= \dfrac{1}{\cos^2(x)}
+\\
+\dfrac{d}{dx} \dfrac{1}{\tan(x)} =
+	\dfrac{d}{dx} \cot(x) &=& - \csc^2(x)
+		= - \dfrac{1}{\sin^2(x)}
+\\
+\dfrac{d}{dx} \dfrac{1}{\cos(x)} =
+	\dfrac{d}{dx} \sec(x) &=& \sec(x) \tan(x)
+		= \dfrac{\sin(x)}{\cos^2(x)}
+\\
+\dfrac{d}{dx} \dfrac{1}{\sin(x)} =
+	\dfrac{d}{dx} \csc(x) &=& - \csc(x) \cot(x)
+		= - \dfrac{\cos(x)}{\sin^2(x)}
+\end{array}
+\end{eqnarray}
+$$
 
 ### Derivatives of inverse trigonometric functions
 
@@ -261,9 +294,6 @@ and is *concave down* where $t>0.21972$!
 </div>
 
 # Exercise Problems
-
-- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
-- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
 
 ## Differential Equations
 
