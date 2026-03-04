@@ -1,9 +1,9 @@
 ---
 date: Tue Feb 24 23:44:32 PST 2026
-last_modified_at: Wed Feb 25 01:33:30 PST 2026
+last_modified_at: Wed Mar  4 03:37:11 PST 2026
 permalink: /history/clues
 layout: single
-title: "(WIP) History has Every Bit of Clues Absolutely Necessary for Understanding Human Natures!"
+title: "(WIP) History has Every Bit of Clues Absolutely Necessary for Understanding Human Natures, hence Predicting Human Bahaviors!"
 categories:
  - blog
  - Philosophy
