@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 22:33:46 PST 2026
+last_modified_at: Tue Mar  3 23:13:17 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -260,6 +260,91 @@ $$
 
 You can easily verify these formulas, *e.g.*, using formulas in \eqref{eq:der-inverse-tri}.
 More formula can be found [here](https://en.wikipedia.org/wiki/List_of_integrals_of_inverse_trigonometric_functions){:target="_blank"}!
+
+## Fundamental theorem of calculus
+
+The [fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus){:target="_blank"}
+is
+a theorem that links the concept of differentiating a function (calculating its slopes, or rate of change at every point on its domain)
+with the concept of integrating a function (calculating the area under its graph, or the cumulative effect of small contributions).
+Roughly speaking, the two operations can be thought of as inverses of each other.
+
+The first part of the theorem,
+[the first fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#First_part){:target="_blank"},
+states that for a continuous function $f$,
+an [antiderivative](https://en.wikipedia.org/wiki/Antiderivative){:target="_blank"}
+or indefinite integral $F$ can be obtained
+as the integral of $f$ over an interval with a variable upper bound.
+
+Let $f$ be a continuous real-valued function defined on a closed interval $[a, b]$.
+Let $F$ be the function defined, for all $x$ in $[a, b]$, by
+
+$$
+F(x) = \int_a^x f(t) \, dt
+$$
+
+Then $F$ is uniformly continuous on $[a, b]$ and differentiable on the open interval $(a, b)$, and
+
+$$
+F'(x) = f(x)
+$$
+
+for all $x$ in $(a,b)$ so $F$ is an [antiderivative](https://en.wikipedia.org/wiki/Antiderivative){:target="_blank"} of $f$.
+We can combine these two equations to write
+
+\begin{equation}
+\label{eq:fund-theorem-of-calculus-1}
+\frac{d}{dx} \int_a^x f(t) \, dt = f(x)
+\end{equation}
+
+<!--
+The fundamental theorem is often employed to compute the definite integral of a function  $f$
+for which an antiderivative $F$ is known.
+Specifically, if $f$ is a real-valued continuous function on $[a, b]$ and $F$ is an antiderivative of $f$
+in $[a, b]$, then
+
+$$
+\int_a^b f(t) \, dt = F(b) - F(a)
+$$
+-->
+
+Conversely, [the second part of the theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#Second_part){:target="_blank"}
+(sometimes referred to as **Newton–Leibniz theorem**),
+states that the integral of a function $f$ over a fixed interval is equal to the change of any [antiderivative](https://en.wikipedia.org/wiki/Antiderivative){:target="_blank"} $F$
+between the ends of the interval.
+<!--
+This greatly simplifies the calculation of a definite integral provided an antiderivative can be found by symbolic integration, thus avoiding numerical integration.
+-->
+
+Let $f$ be a real-valued function on a closed interval $[a,b]$ and $F$ a continuous function on $[a,b]$
+which is an antiderivative of $f$ in $(a,b)$,
+*i.e.*,
+
+$$
+F'(x) = f(x)
+$$
+
+Then if $f$ is [Riemann integrable](https://en.wikipedia.org/wiki/Riemann_integrable){:target="_blank"}
+on $[a,b]$ then
+
+\begin{equation}
+\label{eq:fund-theorem-of-calculus-2}
+\int_a^b f(x) \, dx = F(b) - F(a)
+\end{equation}
+
+**Examples** using \eqref{eq:fund-theorem-of-calculus-1}
+
+$$
+\begin{eqnarray*}
+\frac{d}{dx} \int_2^x \sqrt{1+t^2} \, dt
+	&=&
+		\sqrt{1+x^2}
+\\
+\lim_{h\to 0} \frac{\int_1^{1+h} \sqrt{x^5+8} \, dx}{h}
+	&=&
+		\sqrt{1^5+8} = 3
+\end{eqnarray*}
+$$
 
 ## Ordinary Differential Equations (ODE)
 
