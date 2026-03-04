@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 10:54:45 PST 2026
+last_modified_at: Tue Mar  3 19:54:37 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -34,6 +34,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 ### Chain rule
 
 \begin{equation}
+\newcommand{\reals}{\mathbb{R}}
 \label{eq:chain-rule}
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
@@ -132,6 +133,60 @@ More formula can be found [here](https://en.wikipedia.org/wiki/List_of_integrals
 
 ## Ordinary Differential Equations (ODE)
 
+### Linear ODE
+
+\begin{equation}
+\label{eq:ode-linear}
+\frac{d y}{dt} = a y + b
+\end{equation}
+
+where $a\neq 0$
+
+Let's solve this ODE as follows.
+
+$$
+\begin{eqnarray}
+\label{eq:001}
+\frac{d y}{y+b/a} = a\, dt
+	&\Leftrightarrow&
+		\log (y+b/a) = a t + C
+\\
+\nonumber
+	&\Leftrightarrow&
+		y+b/a = e^{a t + C}
+\end{eqnarray}
+$$
+
+hence we have
+
+\begin{equation}
+\label{eq:ode-linear-sol-gen}
+y = e^{at+C} - \frac{b}{a}
+\end{equation}
+
+Now assume the initial condition $y(0) \in \reals$. Because we can calculate $C$ from \eqref{eq:001},
+*i.e.*,
+
+\begin{equation}
+\label{eq:ode-linear-c}
+C = \log(y(0)+b/a)
+\end{equation}
+
+if we plug \eqref{eq:ode-linear-c} into \eqref{eq:ode-linear-sol-gen},
+we have
+
+\begin{equation}
+\label{eq:ode-linear-sol}
+y
+=
+	e^{at+\log(y(0)+b/a)} - \frac{b}{a}
+=
+	\left(
+		y(0) + \frac{b}{a}
+	\right) e^{at}
+	- \frac{b}{a}
+\end{equation}
+
 ### ODE for Logistic Function
 
 \begin{equation}
@@ -207,16 +262,20 @@ and is *concave down* where $t>0.21972$!
 
 # Exercise Problems
 
+- <a target="_black" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+- <a target="_black" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
 
-## Unit 6
+## Differential Equations
 
 <ul>
 <li>
+Problem 4 of <a target="_black" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+&ndash;
 Given the logistic differential equation $\dfrac{dA}{dt} = A\left(20-\dfrac{A}{4}\right)$
 where $A(0) = 15$, what is $\lim_{t\to\infty} A(t)$?
 
 <p>
-<strong>Solution 1</strong>
+<strong>Daddy's Solution 1</strong>
 
 $$
 \begin{eqnarray*}
@@ -246,7 +305,7 @@ $$
 </p>
 
 <p>
-<strong>Solution 2</strong>
+<strong>Daddy's Solution 2</strong>
 
 Let's try to solve using the formula we derived above, <i>i.e.</i>, \eqref{eq:ode-sol-logistic-fcn}!
 
@@ -265,6 +324,83 @@ A(t) = \frac{80}{1+ e^{-20t-C}}
 $$
 </p>
 
+</li>
+<li>
+Problem 13 of <a target="_black" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+
+$$
+\frac{dP}{dt} = \frac{k}{656} (650- P) P, \; P(0) = 1
+$$
+
+<p>
+<strong>Daddy's Solution</strong>
+Note that the above equation is of the form \eqref{eq:ode-logistic-fcn}
+with $a=k/650$ and $b=650$,
+thus
+the formula \eqref{eq:ode-sol-logistic-fcn} gives
+
+$$
+	P(t)
+	= \frac{650}{1+e^{-kt-C}}
+	= \frac{650}{1+C' e^{-kt}}
+$$
+
+thus of the same form as in the problem!
+
+</p>
+</li>
+<li>
+Problem 5 of <a target="_black" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+&ndash;
+Given the differential equation $\dfrac{dT}{dt} = -\dfrac{1}{4}(T-20)$, $T(0)=100$, then $T(20)$?
+
+<p>
+<strong>Daddy's Solution 1</strong>
+
+$$
+\begin{eqnarray*}
+\frac{dT}{T-20} = -\frac{1}{4} dt
+&\Leftrightarrow&
+	\log (T-20)  = -\frac{1}{4} t + C
+\\
+&\Leftrightarrow&
+	T(t)  = 20 + e^{-\frac{1}{4} t + C}
+\end{eqnarray*}
+$$
+
+If we use $T(0)=100$, we have
+
+$$
+\log(80) = C
+$$
+
+hence
+
+$$
+	T(t)  = 20 + e^{-\frac{1}{4} t + \log(80)} = 20 + 80 e^{-\frac{1}{4}t}
+$$
+
+</p>
+
+<p>
+<strong>Daddy's Solution 2</strong>
+
+Let's try to solve using the formula we derived above, <i>i.e.</i>, \eqref{eq:ode-linear-sol}.
+
+Because we can rewrite the differential equation as
+
+$$
+\frac{dT}{dt} = - \frac{1}{4} T + 5
+$$
+
+and this equation is of the form \eqref{eq:ode-linear}
+with $a=-1/4$ and $b=5$,
+the formula \eqref{eq:ode-linear-sol} gives
+
+$$
+T(t) = (100 - 20) e^{-\frac{1}{4}t} + 20
+$$
+</p>
 </li>
 </ul>
 
