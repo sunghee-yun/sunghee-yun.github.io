@@ -1,7 +1,7 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Wed Mar  4 03:16:31 PST 2026
-title: "AP Calculus BC for Beth"
+last_modified_at: Wed Mar  4 14:47:29 PST 2026
+title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
  - blog
