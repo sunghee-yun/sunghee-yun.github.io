@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Wed Mar  4 02:28:16 PST 2026
+last_modified_at: Wed Mar  4 03:16:31 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -80,13 +80,17 @@ $$
 \\
 \lim_{x\to 0^+} x\ln x
 	&=&
-		\lim_{x\to 0^+} \frac{\ln(x)}{1/x} = \lim_{x\to 0^+} \frac{1/x}{-1/x^2} = \lim_{x\to 0^+} (-x) = 0
+		\lim_{x\to 0^+} \frac{\ln(x)}{1/x} = \lim_{x\to 0^+} \frac{1/x}{-1/x^2}
+\\
+	&=&
+		\lim_{x\to 0^+} (-x) = 0
 \\
 \lim_{x\to \infty} \frac{\ln(a+b\, e^{cx})}{x}
 	&=&
-		\lim_{x\to \infty} \frac{bc\, e^{cx}/(a+b\, e^{cx})}{1} = c
-		\;
-		\mbox{for } a,b,c>0
+		\lim_{x\to \infty} \frac{bc\, e^{cx}/(a+b\, e^{cx})}{1}
+\\
+	&=&
+		c \quad \mbox{for } a,b,c>0
 \\
 \lim_{x\to 0} \frac{e^x-1}{x}
 	&=&
