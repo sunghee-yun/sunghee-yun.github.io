@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Wed Mar  4 00:34:58 PST 2026
+last_modified_at: Wed Mar  4 02:22:06 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -26,11 +26,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
-
-# Exercise Problem Collection
-
-- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
-- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
 
 # Important Topics, Patterns, and Rules
 
@@ -487,6 +482,55 @@ and is *concave down* where $t>0.21972$!
 <img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/logistic_fcn_01.png">
 </div>
 
+## Area and Volume
+
+The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
+*i.e.*,
+
+$$
+A = \int_a^b l(x) dx
+$$
+
+The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
+*i.e.*,
+
+$$
+V = \int_a^b A(x) dx
+$$
+
+<h4>The area between two curves</h4>
+
+$$
+A = \int_a^b \left|f(x) - g(x)\right| dx
+$$
+
+<h4>The area in polar coordinates</h4>
+
+$$
+A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
+$$
+
+**The area between two polar curves**
+
+$$
+A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
+$$
+
+<h4>Volume - disc method</h4>
+
+$$
+	V = \pi \int_a^b R(x)^2 dx
+$$
+
+where $R(x)$ is the distance between the axis of revolution and the outside of the object
+
+$$
+	V = \pi \int_a^b \left( R(x)^2 - r(x)^2 \right)dx
+$$
+
+where $R(x)$ is the radius of the outside of the object and
+$r(x)$ is the radius of the inside of the object
+
 # Exercise Problems
 
 ## Differential Equations
@@ -628,3 +672,30 @@ $$
 </li>
 </ul>
 
+# Exercise Problem Collection
+
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/chapter6_test.pdf">AP Calculus (BC) Chapter 6 Test</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/707238497-Unit-6-Practice-AP-Calculus-BC.pdf">SCRIBD AP Calculus BC Unit 6 Review</a>
+
+## Area and Volume
+
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.1_ca1.pdf">c_11.1_ca1.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.1_ca2.pdf">c_11.1_ca2.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.1_packet.pdf">c_11.1_packet.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.1_solutions.pdf">c_11.1_solutions.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.2_ca1.pdf">c_11.2_ca1.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.2_ca2.pdf">c_11.2_ca2.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.2_packet.pdf">c_11.2_packet.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.2_solutions.pdf">c_11.2_solutions.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.3_ca1.pdf">c_11.3_ca1XXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.3_ca2.pdf">c_11.3_ca2XXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.3_packet.pdf">c_11.3_packetXXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.3_solutions.pdf">c_11.3_solutionsXXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.4_ca1.pdf">c_11.4_ca1XXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.4_ca2.pdf">c_11.4_ca2XXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.4_packet.pdf">c_11.4_packetXXX.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11.4_solutions.pdf">c_11.4_solutions.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11_review_solutions.pdf">c_11_review_solutions.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11_review.pdf">c_11_review.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_on_area_and_volume.pdf">free_response_on_area_and_volume.pdf</a>
+- <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_answers_on_area_and_volume.pdf">free_response_answers_on_area_and_volume.pdf</a>
