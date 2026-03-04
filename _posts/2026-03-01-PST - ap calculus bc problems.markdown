@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 23:13:17 PST 2026
+last_modified_at: Tue Mar  3 23:24:38 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -343,6 +343,18 @@ $$
 \lim_{h\to 0} \frac{\int_1^{1+h} \sqrt{x^5+8} \, dx}{h}
 	&=&
 		\sqrt{1^5+8} = 3
+\\
+\frac{d}{dx} \int_a^{g(x)} f(t) \, dt
+	&=&
+		f(g(x)) g'(x)
+\\
+\frac{d}{dx} \int_{h(x)}^{g(x)} f(t) \, dt
+	&=&
+		f(g(x)) g'(x) - f(h(x)) h'(x)
+\\
+\frac{d}{dx} \int_2^{x^2} \sqrt{1+t^2} \, dt
+	&=&
+		2x \sqrt{1+x^4}
 \end{eqnarray*}
 $$
 
