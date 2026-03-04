@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sat Feb 14 20:19:36 CST 2026
+last_modified_at: Wed Mar  4 01:37:52 PST 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -280,6 +280,20 @@ toc_sticky: true
 ## 2026 &#126; 2030 {#trips-2021-2030}
 
 <h3>2026</h3>
+
+<h4>Mar</h4>
+
+- biz trip to Seoul &ndash; 13 nights
+	- 24-Mar-2026 PDT ~ 06-Apr-2026 PDT &ndash; [flight invoice](/resource/trips/2026-03 - biz trip to Seoul/www.expedia.com-egti-P7P-R3V-V87K.pdf){:target="_blank"}
+	- flight
+		&ndash; United 893
+		&ndash; from SFO @ 10:30am on 24-Mar-2026 PDT to ICN @ 3:15pm on 25-Mar-2026 KST
+		(12h 45m)
+	- return flight
+		&ndash; United 892
+		&ndash; from ICN @ 4:50pm KST to SFO @ 11:35am PDT on 06-Apr-2026
+		(10h 45m)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
 
 <h4>Feb</h4>
 
