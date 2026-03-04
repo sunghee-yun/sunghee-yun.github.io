@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar  3 23:24:38 PST 2026
+last_modified_at: Wed Mar  4 00:34:58 PST 2026
 title: "AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -79,15 +79,15 @@ $$
 		=
 		\lim_{x\to \infty} \frac{2}{e^x} = 0
 \\
-\lim_{x\to \infty} \frac{\log(x)}{x}
+\lim_{x\to \infty} \frac{\ln(x)}{x}
 	&=&
 		\lim_{x\to \infty} \frac{1/x}{1} = 0
 \\
-\lim_{x\to 0^+} x\log x
+\lim_{x\to 0^+} x\ln x
 	&=&
-		\lim_{x\to 0^+} \frac{\log(x)}{1/x} = \lim_{x\to 0^+} \frac{1/x}{-1/x^2} = \lim_{x\to 0^+} (-x) = 0
+		\lim_{x\to 0^+} \frac{\ln(x)}{1/x} = \lim_{x\to 0^+} \frac{1/x}{-1/x^2} = \lim_{x\to 0^+} (-x) = 0
 \\
-\lim_{x\to \infty} \frac{\log(a+b\, e^{cx})}{x}
+\lim_{x\to \infty} \frac{\ln(a+b\, e^{cx})}{x}
 	&=&
 		\lim_{x\to \infty} \frac{bc\, e^{cx}/(a+b\, e^{cx})}{1} = c
 		\;
@@ -254,7 +254,7 @@ $$
 \int \cos^{-1}(x) dx &=& x \cos^{-1}(x) - \sqrt{1-x^2} + C
 \\
 \label{eq:int-arctan}
-\int \tan^{-1}(x) dx &=& x \tan^{-1}(x) - \frac{1}{2} \log(x^2+1) + C
+\int \tan^{-1}(x) dx &=& x \tan^{-1}(x) - \frac{1}{2} \ln(x^2+1) + C
 \end{eqnarray}
 $$
 
@@ -376,7 +376,7 @@ $$
 \label{eq:001}
 \frac{d y}{y+b/a} = a\, dt
 	&\Leftrightarrow&
-		\log (y+b/a) = a t + C
+		\ln (y+b/a) = a t + C
 \\
 \nonumber
 	&\Leftrightarrow&
@@ -396,7 +396,7 @@ Now assume the initial condition $y(0) \in \reals$. Because we can calculate $C$
 
 \begin{equation}
 \label{eq:ode-linear-c}
-C = \log(y(0)+b/a)
+C = \ln(y(0)+b/a)
 \end{equation}
 
 if we plug \eqref{eq:ode-linear-c} into \eqref{eq:ode-linear-sol-gen},
@@ -406,7 +406,7 @@ we have
 \label{eq:ode-linear-sol}
 y
 =
-	e^{at+\log(y(0)+b/a)} - \frac{b}{a}
+	e^{at+\ln(y(0)+b/a)} - \frac{b}{a}
 =
 	\left(
 		y(0) + \frac{b}{a}
@@ -432,16 +432,16 @@ $$
 		\left(\frac{1}{y} + \frac{1}{b-y}\right) dy = ab\, dt
 \\
 	&\Leftrightarrow&
-		\log y - \log (b-y) = ab t + C
+		\ln y - \ln (b-y) = ab t + C
 \\
 	&\Leftrightarrow&
-		\log \left(\frac{y}{b-y}\right) = ab t + C
+		\ln \left(\frac{y}{b-y}\right) = ab t + C
 \\
 	&\Leftrightarrow&
-		\log \left(\frac{1}{b/y-1}\right) = ab t + C
+		\ln \left(\frac{1}{b/y-1}\right) = ab t + C
 \\
 	&\Leftrightarrow&
-		\log (b/y-1) = -ab t - C
+		\ln (b/y-1) = -ab t - C
 \\
 	&\Leftrightarrow&
 		\frac{b}{y}-1 = e^{-ab t - C}
@@ -508,16 +508,16 @@ $$
 \left( \frac{1}{A} + \frac{1}{80-A} \right) dA = 20dt
 \\
 &\Leftrightarrow&
-\log A - \log (80 - A) = 20 t + C
+\ln A - \ln (80 - A) = 20 t + C
 \\
 &\Leftrightarrow&
-\log \left( \frac{A}{80 - A} \right) = 20 t + C
+\ln \left( \frac{A}{80 - A} \right) = 20 t + C
 \\
 &\Leftrightarrow&
-\log \left( \frac{1}{80/A - 1} \right) = 20 t + C
+\ln \left( \frac{1}{80/A - 1} \right) = 20 t + C
 \\
 &\Leftrightarrow&
-\log ( 80/A - 1 ) = -20 t - C
+\ln ( 80/A - 1 ) = -20 t - C
 \\
 &\Leftrightarrow&
 80/A = e^{-20 t - C} + 1
@@ -585,7 +585,7 @@ $$
 \begin{eqnarray*}
 \frac{dT}{T-20} = -\frac{1}{4} dt
 &\Leftrightarrow&
-	\log (T-20)  = -\frac{1}{4} t + C
+	\ln (T-20)  = -\frac{1}{4} t + C
 \\
 &\Leftrightarrow&
 	T(t)  = 20 + e^{-\frac{1}{4} t + C}
@@ -595,13 +595,13 @@ $$
 If we use $T(0)=100$, we have
 
 $$
-\log(80) = C
+\ln(80) = C
 $$
 
 hence
 
 $$
-	T(t)  = 20 + e^{-\frac{1}{4} t + \log(80)} = 20 + 80 e^{-\frac{1}{4}t}
+	T(t)  = 20 + e^{-\frac{1}{4} t + \ln(80)} = 20 + 80 e^{-\frac{1}{4}t}
 $$
 
 </p>
