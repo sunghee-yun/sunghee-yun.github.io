@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 00:24:54 PST 2026
+last_modified_at: Thu Mar  5 02:31:19 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -582,19 +582,81 @@ $r(x)$ is the radius of the inside of the object
 <ul>
 <li>
 <strong>Varsity Tutors Problem</strong>
-Find $\dfrac{dy}{dx}$ if $x^3-x\ln y=ye^x$.
+Evaluate $f'(1)$ when $f(x) = \int_0^x (6t^2 - 3t + 10) dt$.
+
 <p>
+<strong>Answer</strong>
+$$
+13
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Evaluate:
+
+$$
+	\int_0^{\infty} \frac{\cos x}{e^x} dx
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+\frac{1}{2}
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Evaluate:
+
+$$
+	\int_0^{\infty} \frac{x}{e^{x^2}} dx
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+\frac{1}{2}
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Evaluate:
+
+$$
+	\int_0^{\infty} \frac{\cos x}{e^{x^2}} dx
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+\frac{1}{2}
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find $\frac{dy}{dx}$ if $x^3-x\ln y=ye^x$.
+<p>
+
 <strong>Answer</strong>
 $$
 	\frac{dy}{dx} = \frac{3x^2y-y\ln y - y^2 e^x}{e^x y+x}
 $$
 </p>
 </li>
+
 <li>
 <strong>Varsity Tutors Problem</strong>
 Find $dy/dx$:
 $$
-	y = \tan^{-1} (2x(x+1)^10))
+	y = \tan^{-1} (2x(x+1)^{10}))
 $$
 
 <p>
@@ -619,6 +681,7 @@ $$
 $$
 </p>
 </li>
+
 <li>
 <strong>Varsity Tutors Problem</strong>
 Let $f(x) = \cos(4x)$ on the interval $(0,\pi/2)$.
@@ -633,9 +696,45 @@ $$
 $$
 </p>
 </li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Approximate
+
+$$
+\int_1^2 x^2 \ln x \, dx
+$$
+
+using the midpoint rule with $n=5$. Round your answer to three decimal places.
+
+<p>
+<strong>Answer</strong>
+$$
+	1.064
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Approximate
+
+$$
+\int_0^{\pi/4} \tan^2 x \, dx
+$$
+
+using the trapezoidal rule with $n=4$. Round your answer to three decimal places.
+
+<p>
+<strong>Answer</strong>
+$$
+	0.227
+$$
+</p>
+</li>
 </ul>
 
-## Distance & Velocity & Acceleration
+## Length & Distance & Velocity & Acceleration & Energy
 
 <ul>
 <li>
@@ -650,7 +749,7 @@ find the acceleration function $a(x)$
 
 <p>
 <br>
-<strong>Daddy's Solution</strong>
+<span class="emph">Daddy's Solution</span>
 
 We use
 <!--
@@ -659,7 +758,7 @@ the [chain rule](#chain-rule),
 \eqref{eq:chain-rule}
 and
 -->
-the first part of [the fundamental theorem of calculus](#fundamental-theorem-of-calculus),
+the first part of <a href="#fundamental-theorem-of-calculus">the fundamental theorem of calculus</a>
 <i>i.e.</i>,
 \eqref{eq:fund-theorem-of-calculus-1}
 to get
@@ -677,10 +776,140 @@ by noting that $t^2+2t+1=(t+1)^2$.
 
 </p>
 </li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Given $\vec{r}(t) = (5t^3, e^{11t}, e^{5t})$.
+Calculate $\dfrac{d}{dt} \vec{r}(t)$.
+
+<p>
+<strong>Answer</strong>
+$$
+	\frac{d}{dt} \vec{r}(t) = (15t^2, 11e^{11t}, 5e^{5t})
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find the equation for the velocity of a particle if the acceleration of the particle is given by
+
+$$
+	a(t) = 16 t^2 + 48
+$$
+
+and the velocity at time $t=0$ of the particle is $30$.
+
+<p>
+<strong>Answer</strong>
+$$
+	v(t)
+	=
+	\frac{16}{3} t^3 + 48 t + 30
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+What is the length of the curve $g(x) = x^{3/2}$ over the interval $0\leq x\leq 4$?
+
+<p>
+<span class="emph">Daddy's Solution</span>
+$$
+\begin{eqnarray*}
+	\int_{0}^4 \sqrt{1+g'(x)^2}\, dx
+	&=&
+		\int_{0}^4 \sqrt{1+\frac{9}{4}x} \,dx
+\\
+	&=&
+		\frac{4}{9} \cdot \frac{2}{3} \left.\left(1+\frac{9}{4}x\right)^{3/2}\right|_{x=0}^4
+\\
+	&=&
+		\frac{8}{27} (10\sqrt{10}-1)
+\end{eqnarray*}
+$$
+</p>
+</li>
+
 <li>
 <strong>Varsity Tutors Problem</strong> Given $x=t+10$ and $y=2t-9$,
 what is the arc length between $0\leq t\leq 4$?
+
+<p>
+<strong>Answer</strong>
+$$
+	4\sqrt{5}
+$$
+</p>
 </li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find the length of the following parametric curve
+
+$$
+	x = e^t \cos(t),\;
+	y = e^t \sin9t),\;
+	0 \leq t \leq 2\pi.
+$$
+
+	<ol>
+	<li>
+		$\sin(t)+\cos(t)$
+	</li>
+	<li>
+		$e^t \cos(t)$
+	</li>
+	<li>
+		$1$
+	</li>
+	<li>
+		$e^{2\pi}$
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+1.
+</p>
+</li>
+
+<!--li>
+Find the work done by gravity exerting an acceleration of - 10 m/s<sup>2</sup>
+for a 10kg block down 5m from its original position with no initial velocity.
+Remember that
+	<ul>
+	<li>
+		$F_\mathrm{grav} = \mathrm{mass} \times \mathrm{acceleration}$
+	</li>
+	<li>
+		$W = \int_a^b F(x) \, dx$,
+		where $F(x)$ is a force measured in Newtons,
+		$W$ is work measured in Joules,
+		and $a$ and $b$ are initial and final positions respectively.
+	</li>
+	</ul>
+</li-->
+</ul>
+
+## Polar Coordinates
+
+<ul>
+<li>
+<strong>Varsity Tutors Problem</strong> What is the polar form of $y=-7x^2$?
+</li>
+
+<p>
+<strong>Answer</strong>
+$$
+	r(\theta)
+	=
+	- \frac{\sin\theta}{7\cos^2\theta}
+	=
+	- \frac{1}{7} \tan\theta \sec\theta
+$$
+</p>
 </ul>
 
 ## Differential Equations
@@ -694,7 +923,7 @@ where $A(0) = 15$, what is $\lim_{t\to\infty} A(t)$?
 
 <p>
 <br>
-<strong>Daddy's Solution 1</strong>
+<span class="emph">Daddy's Solution 1</span>
 
 $$
 \begin{eqnarray*}
@@ -724,7 +953,7 @@ $$
 </p>
 
 <p>
-<strong>Daddy's Solution 2</strong>
+<span class="emph">Daddy's Solution 2</span>
 
 Let's try to solve using the formula we derived above, <i>i.e.</i>, \eqref{eq:ode-sol-logistic-fcn}!
 
@@ -753,7 +982,7 @@ $$
 
 <p>
 <br>
-<strong>Daddy's Solution</strong>
+<span class="emph">Daddy's Solution</span>
 Note that the above equation is of the form \eqref{eq:ode-logistic-fcn}
 with $a=k/650$ and $b=650$,
 thus
@@ -776,7 +1005,7 @@ Given the differential equation $\dfrac{dT}{dt} = -\dfrac{1}{4}(T-20)$, $T(0)=10
 
 <p>
 <br>
-<strong>Daddy's Solution 1</strong>
+<span class="emph">Daddy's Solution 1</span>
 
 $$
 \begin{eqnarray*}
@@ -804,7 +1033,7 @@ $$
 </p>
 
 <p>
-<strong>Daddy's Solution 2</strong>
+<span class="emph">Daddy's Solution 2</span>
 
 Let's try to solve using the formula we derived above, <i>i.e.</i>, \eqref{eq:ode-linear-sol}.
 
@@ -821,6 +1050,288 @@ the formula \eqref{eq:ode-linear-sol} gives
 $$
 T(t) = (100 - 20) e^{-\frac{1}{4}t} + 20
 $$
+</p>
+</li>
+</ul>
+
+## Infinite Sequences and Series
+
+<ul>
+<li>
+<strong>Varsity Tutors Problem</strong>
+Calculate the sum of a geometric series with the following values:
+
+$$
+n=10,\;
+a_1 = 11,\;
+r = \frac{2}{20}
+$$
+
+rounded to the nearest integer.
+
+<p>
+<strong>Answer</strong>
+$$
+	12
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+For the series $\sum_{n=0}^\infty (-1)^n (\frac{n^n}{8^n})$,
+determine if the series converge or diverge.
+If it diverges, choose the best reason.
+
+<p>
+<strong>Answer</strong>
+The series diverges, since $\lim_{n\to\infty} x_n \neq0$.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Determine if the series converges or diverges. You do not need to find the sum.
+
+$$
+	\sum_{n=1}^\infty \frac{1}{n^3+2}
+$$
+
+<p>
+<strong>Answer</strong>
+The series converges.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find the interval of convergence of $x$ for the series
+
+$$
+	\sum_{n=1}^\infty \frac{3^n x^n}{n!}
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+(-\infty, \infty)
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Which of the following series does not converge?
+
+	<ol>
+	<li>
+		$\sum_{i=0}^\infty \frac{n!}{n^2\cos(n)}$
+	</li>
+	<li>
+		$\sum_{i=0}^\infty \frac{n-1}{n^3+1}$
+	</li>
+	<li>
+		$\sum_{i=0}^\infty 0.9999999999999999999^n$
+	</li>
+	<li>
+		$\sum_{i=0}^\infty \frac{(-1)^n}{n}$
+	</li>
+	<li>
+		$\sum_{i=0}^\infty \frac{n^2 \ln(n)}{n!}$
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+1.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Which of following intervals of convergence cannot exist?
+
+	<ol>
+	<li>
+		$[2,\infty)$
+	</li>
+	<li>
+		For any $q$, $p$ such that $q\leq p$, the interval $[q,p]$
+	</li>
+	<li>
+		$[2,10000)$
+	</li>
+	<li>
+		For any $\epsilon >0$, the interval $[a-\epsilon,a+\epsilon]$ for some $a\in\reals$
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+1.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Determine whether
+
+$$
+	\sum_{n=1}^\infty (-1)^n \sin (1/n)
+$$
+
+converges or diverges, and explain why.
+
+<p>
+<strong>Answer</strong>
+The series converges,
+which can be confirmed by the alternating series test.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Determine whether the following series converges or diverges:
+
+$$
+	\sum_{n=0}^\infty (-1)^n \left(\frac{5}{n}\right)
+$$
+
+<p>
+<strong>Answer</strong>
+The series converges,
+which can be confirmed by the alternating series test.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+One of the following infinite series converges. Which is it?
+
+	<ol>
+	<li>
+		$\sum_{k=1}^\infty \frac{1}{k}$
+	</li>
+	<li>
+		$\sum_{k=1}^\infty \frac{\sin(k)}{k^2}$
+	</li>
+	<li>
+		$\sum_{k=1}^\infty (-1)^k \sin(k)$
+	</li>
+	<li>
+		$\sum_{k=2}^\infty \frac{k}{\ln(k)}$
+	</li>
+	<li>
+		None of the others converge.
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+2.
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Determine the nature of convergence of the series having the general term:
+
+$$
+	\frac{8}{\sqrt{n(n+1)(n+2)}}
+$$
+
+	<ol>
+	<li>
+		$\frac{\pi}{7}$
+	</li>
+	<li>
+		$\frac{\pi}{5}$
+	</li>
+	<li>
+		The series is convergent.
+	</li>
+	<li>
+		$\frac{1}{2}$
+	</li>
+	<li>
+		The series is divergent.
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+3.
+</p>
+</li>
+</ul>
+
+## Taylor Series and Approximation
+
+<ul>
+<li>
+<strong>Varsity Tutors Problem</strong>
+Write out the first three terms of the Taylor series about $a=1$ for the following function.
+
+$$
+f(x) = x^2 + e^x
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+\begin{eqnarray*}
+	f(x) &\simeq& f(1) + f'(1) (x-1) + \frac{1}{2!} f^{\prime\prime}(x) (x-1)^2
+\\
+	&=&
+		1 + e + (2+e)(x-1) + \frac{1}{2} (2+e)(x-1)^2
+\end{eqnarray*}
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+Write the first three terms of the Taylor series for the following function about $x=1$:
+
+$$
+f(x) = x^2 + 3x + 2
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+\begin{eqnarray*}
+	f(x) &\simeq& f(1) + f'(1) (x-1) + \frac{1}{2!} f^{\prime\prime}(x) (x-1)^2
+\\
+	&=&
+		6 + 5(x-1) + (x-1)^2
+\end{eqnarray*}
+$$
+</p>
+</li>
+
+<li>
+<strong>Varsity Tutors Problem</strong>
+For which of the following functions can the Maclaurin series representation be expressed in four or fewer non-zero terms?
+
+	<ol>
+	<li>
+		$f(x) = x^5/3+2$
+	</li>
+	<li>
+		$f(x) = x^2 + \sqrt{x} + 1$
+	</li>
+	<li>
+		$f(x) = \ln |x + 3|$
+	</li>
+	<li>
+		$f(x) = x + 3 \sin(x)$
+	</li>
+	</ol>
+
+<p>
+<strong>Answer</strong>
+1.
 </p>
 </li>
 </ul>
