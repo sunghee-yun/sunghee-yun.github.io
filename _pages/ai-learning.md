@@ -1,4 +1,5 @@
 ---
+last_modified_at: Thu Mar  5 14:41:33 PST 2026
 layout: single
 title: Welcome to My AI Learning Hub
 permalink: /ai-learning
@@ -6,7 +7,6 @@ toc: true
 toc_label: "ToC"
 toc_icon: "cog"
 toc_sticky: true
-last_modified_at: Sun Oct  5 17:07:51 PDT 2025
 ---
 
 <script>
@@ -63,9 +63,9 @@ Korean versions
 - Convex Optimization 1st Edition
 	&nbsp;
 	Stephen Boyd, Lieven Vandenberghe
-	(<a href="https://www.amazon.com/Convex-Optimization-Corrections-2008-Stephen/dp/0521833787/">Amazon</a>,
-	<a href="https://stanford.edu/~boyd/cvxbook/">Boyd's homepage</a>,
-	<a href="/resource/books/opt/Convex Optimization - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
+	(<a target="_blank" href="https://www.amazon.com/Convex-Optimization-Corrections-2008-Stephen/dp/0521833787/">Amazon</a>,
+	<a target="_blank" href="https://stanford.edu/~boyd/cvxbook/">Boyd's homepage</a>,
+	<a target="_blank" href="https://sungheeyun-seminars-01.github.io/resource/books/opt/Convex Optimization - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
 
 # Machine learning {#ml}
 
@@ -75,13 +75,13 @@ Korean versions
 	&nbsp;
 	Stephen Boyd @ Stanford University,
 	Lieven Vandenberghe @ UCLA
-	(<a href="https://www.amazon.com/Introduction-Applied-Linear-Algebra-Matrices/dp/1316518965/">Amazon</a>,
-	<a href="https://stanford.edu/~boyd/vmls/">Boyd's homepage</a>,
-	<a href="/resource/books/AI/Introduction to Applied Linear Algebra - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>)
+	(<a target="_blank" href="https://sungheeyun-seminars-01.github.io/resource/books/AI/Introduction to Applied Linear Algebra - Stephen Boyd and Lieven Vandenberghe.pdf">PDF</a>,
+	<a target="_blank" href="https://stanford.edu/~boyd/vmls/">Boyd's homepage</a>,
+	<a target="_blank" href="https://www.amazon.com/Introduction-Applied-Linear-Algebra-Matrices/dp/1316518965/">Amazon</a>)
 - The Elements of Statistical Learning: Data Mining, Inference, and Prediction
 	&nbsp;
 	Trevor Hastie, Robert Tibshirani, Jerome Friedman
-	(<a href="https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/">Amazon</a>)
+	(<a target="_blank" href="https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/">Amazon</a>)
 	&nbsp;
 	<div class="foldable-toggle">my comment</div>
 	<div class="foldable-content">
@@ -104,34 +104,34 @@ Korean versions
 - Pattern Recognition and Machine Learning (Information Science and Statistics)
 	&nbsp;
 	Christopher M. Bishop
-	(<a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>,
-	<a href="/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>)
+	(<a target="_blank" href="https://sungheeyun-seminars-01.github.io/resource/books/AI/Pattern Recognition and Machine Learning - Bishop.pdf">PDF</a>,
+	<a target="_blank" href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738/">Amazon</a>)
 - Deep Learning
 	&nbsp;
 	Ian Goodfellow, Yoshua Bengio, Aaron Courville
-	(<a href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>,
-	<a href="/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>)
+	(<a target="_blank" href="https://sungheeyun-seminars-01.github.io/resource/books/AI/Deep Learning - Goodfellow, Bengio, Courville.pdf">PDF</a>,
+	<a target="_blank" href="https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1">Amazon</a>)
 - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series)
 	&nbsp;
 	Richard S. Sutton, Andrew G. Barto
-	(<a href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>,
-	<a href="/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>)
+	(<a target="_blank" href="https://sungheeyun-seminars-01.github.io/resource/books/AI/Reinforcement Learning - Richard S. Sutton and Andrew G. Barto.pdf">PDF</a>,
+	<a target="_blank" href="https://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262039249/">Amazon</a>)
 - Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning series)
 	&nbsp;
 	Kevin P. Murphy
-	(<a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
+	(<a target="_blank" href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020/">Amazon</a>)
 - Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning series)
 	&nbsp;
 	Daphne Koller, Nir Friedman
-	(<a href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
+	(<a target="_blank" href="https://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Amazon</a>)
 - Probabilistic Machine Learning: Advanced Topics (Adaptive Computation and Machine Learning series)
 	&nbsp;
 	Kevin P. Murphy
-	(<a href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
+	(<a target="_blank" href="https://www.amazon.com/Probabilistic-Machine-Learning-Advanced-Computation/dp/0262048434/">Amazon</a>)
 
 ## Lectures {#ml-lectures}
 
-- [/coursera/ Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
+- [/coursera/ Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction){:target="_blank"}
 	&nbsp;
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Geoff Ladwig @ DeepLearning.AI,
@@ -140,7 +140,7 @@ Korean versions
 	- Advanced Learning Algorithms
 	- Unsupervised Learning, Recommenders, Reinforcement Learning
 
-- [/coursera/ Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+- [/coursera/ Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning){:target="_blank"}
 	&nbsp;
 	Andrew Ng @ Stanford University &amp; DeepLearning.AI,
 	Younes Bensouda Mourri @ DeepLearning.AI,
