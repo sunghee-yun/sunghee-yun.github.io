@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Wed Mar  4 14:47:29 PST 2026
+last_modified_at: Wed Mar  4 16:26:32 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -30,6 +30,22 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # Important Topics, Patterns, and Rules
 
 ## Differentiation / Derivatives
+
+### Definition
+
+The [<span class="emph">derivative</span>](https://en.wikipedia.org/wiki/Derivative){:target="_blank"} is a fundamental tool that quantifies the sensitivity to change of a function's output with respect to its input.
+The derivative of a function of a single variable at a chosen input value, when it exists, is <span class="emph">the slope of the tangent line</span> to the graph of the function at that point.
+The tangent line is <span class="emph">the best linear approximation of the function</span> near that input value.
+The derivative is often described as <span class="emph">the instantaneous rate of change</span>, the ratio of the instantaneous change in the dependent variable to that of the independent variable.
+The process of finding a derivative is called <span class="emph">differentiation</span>.
+
+A function of a real variable $f(x)$ is differentiable at a point $a$ of its domain,
+if its domain contains an open interval containing $a$, and the limit in \eqref{eq:def-derivative} exists.
+
+\begin{equation}
+\label{eq:def-derivative}
+	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
+\end{equation}
 
 ### L'H&ocirc;pital's rule
 
@@ -363,7 +379,7 @@ $$
 
 \begin{equation}
 \label{eq:ode-linear}
-\frac{d y}{dt} = a y + b
+\frac{d}{dt} y(t) = a y + b
 \end{equation}
 
 where $a\neq 0$
@@ -387,7 +403,7 @@ hence we have
 
 \begin{equation}
 \label{eq:ode-linear-sol-gen}
-y = e^{at+C} - \frac{b}{a}
+y(t) = e^{at+C} - \frac{b}{a}
 \end{equation}
 
 Now assume the initial condition $y(0) \in \reals$. Because we can calculate $C$ from \eqref{eq:001},
@@ -403,7 +419,7 @@ we have
 
 \begin{equation}
 \label{eq:ode-linear-sol}
-y
+y(t)
 =
 	e^{at+\ln(y(0)+b/a)} - \frac{b}{a}
 =
@@ -417,7 +433,7 @@ y
 
 \begin{equation}
 \label{eq:ode-logistic-fcn}
-\frac{d y}{dt} = a y(b-y)
+\frac{d}{dt} y(t) = a y(b-y)
 \end{equation}
 
 with $a>0$ and $b>0$.
