@@ -1,4 +1,5 @@
 ---
+last_modified_at: Thu Mar  5 15:02:19 PST 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -6,7 +7,6 @@ toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
-last_modified_at: Sat Jan  3 23:07:13 PST 2026
 ---
 
 <!--h2>Some Podcasts</h2-->
@@ -116,41 +116,46 @@ last_modified_at: Sat Jan  3 23:07:13 PST 2026
 
 ## Books
 
-- [Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker](https://en.wikipedia.org/wiki/Fundamentals_of_Physics)
-&ndash; first read in 1993 when I worked through every single problem in the book; revisited in 1994
-- [Convex Optimization - by Stephen Boyd and Lieven Vandenberghe](https://stanford.edu/~boyd/cvxbook/) [PDF](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)
+- Problem-Solving Through Problems - by Loren C. Larson ([PDF](https://sungheeyun-seminars-01.github.io/resource/books/math/Loren C. Larson - Problem-Solving Through Problems - 339 pages.pdf){:target="_blank"})
+&ndash; first encountered in 1991 when I joined Mathematics Olympiad (MO) Club in the second semester of the first year of Seoul Science High School;
+one of multiple moments for me to cross the bridge toward the Cognitive Leap,
+which is mentioned in [here](/contributions/my-entrepreneurial-journey/#cognitive-leap){:target="_blank"} and [here](http://localhost:4000/contributions/my-entrepreneurial-journey/en#cognitive-leap){:target="_blank"}!
+- [Fundamentals of Physics - by David Halliday, Robert Resnick, and Jearl Walker](https://en.wikipedia.org/wiki/Fundamentals_of_Physics){:target="_blank"}
+&ndash; first read in 1992 when I worked through every single problem in the book; I mean every single problem including all the exercise problems and small quiz problems on each page
+&ndash; revisited in 1994
+- [Convex Optimization - by Stephen Boyd and Lieven Vandenberghe](https://stanford.edu/~boyd/cvxbook/){:target="_blank"} ([PDF](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf){:target="_blank"})
 &ndash; first encountered what were destined to be in the book in 1999
-- [Ludwig Wittgenstein: The Duty of Genius](https://www.google.com/search?sca_esv=035b65082be3e816&rlz=1C5MACD_enUS1124US1124&sxsrf=AE3TifPH95DsRX0tp3_nPkxhqSpItMm6cw:1755973452417&q=ludwig+wittgenstein+the+duty+of+genius+ray+monk&si=AMgyJEtULK0SKwwDiAHLrI671RJyxXmlVtN5N4wWiYQeP_AdFZTeHxxUOdb4AmiCnKsgoGDQGLyhHeQ_lQfua8bblU_XxusFVaNUqOKoSLFQGxtoTqv1qLgZEeFhXUKZcnMLqAJzScf33p8ZS0DoAPP-xJ1ktAYi-w%3D%3D&sa=X&ved=2ahUKEwii8PbuxqGPAxV748kDHVt4ODsQyNoBKAB6BAgvEAA&ictx=1&biw=1283&bih=928&dpr=1)
+- [Ludwig Wittgenstein: The Duty of Genius](https://www.google.com/search?sca_esv=035b65082be3e816&rlz=1C5MACD_enUS1124US1124&sxsrf=AE3TifPH95DsRX0tp3_nPkxhqSpItMm6cw:1755973452417&q=ludwig+wittgenstein+the+duty+of+genius+ray+monk&si=AMgyJEtULK0SKwwDiAHLrI671RJyxXmlVtN5N4wWiYQeP_AdFZTeHxxUOdb4AmiCnKsgoGDQGLyhHeQ_lQfua8bblU_XxusFVaNUqOKoSLFQGxtoTqv1qLgZEeFhXUKZcnMLqAJzScf33p8ZS0DoAPP-xJ1ktAYi-w%3D%3D&sa=X&ved=2ahUKEwii8PbuxqGPAxV748kDHVt4ODsQyNoBKAB6BAgvEAA&ictx=1&biw=1283&bih=928&dpr=1){:target="_blank"}
 &ndash; first read in ~ 2002
-- [The Elegant Universe - by Brian Greene](https://en.wikipedia.org/wiki/The_Elegant_Universe)
+- [The Elegant Universe - by Brian Greene](https://en.wikipedia.org/wiki/The_Elegant_Universe){:target="_blank"}
 &ndash; first read in 2004; I vividly remember I opened this book one evening and couldn't put it down until I'd finished it five hours later!
-- [A Brief History of Time - by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time)
+- [A Brief History of Time - by Stephen Hawking](https://en.wikipedia.org/wiki/A_Brief_History_of_Time){:target="_blank"}
 &ndash; first read in 2010
-- [The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins](https://en.wikipedia.org/wiki/The_Language_of_God)
+- [The Language of God: A Scientist Presents Evidence for Belief - by Francis Collins](https://en.wikipedia.org/wiki/The_Language_of_God){:target="_blank"}
 &ndash; first read in ~ 2010
-- [Justice: What's the Right Thing to Do? - by Michael J. Sandel](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F)
+- [Justice: What's the Right Thing to Do? - by Michael J. Sandel](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F){:target="_blank"}
 &ndash; first read in 2011
-- [The Power of Now: A Guide to Spiritual Enlightenment - Eckhart Tolle](https://en.wikipedia.org/wiki/The_Power_of_Now)
-&ndash; first read in ??
-- [Practicing Mindfulness: An Introduction to Meditation (The Great Courses: Better Living) — by Mark W. Muesse](https://www.thegreatcoursesplus.com/practicing-mindfulness-an-introduction-to-meditation)
+- [The Power of Now: A Guide to Spiritual Enlightenment - Eckhart Tolle](https://en.wikipedia.org/wiki/The_Power_of_Now){:target="_blank"}
+&ndash; first read between 2010 and 2015
+- [Practicing Mindfulness: An Introduction to Meditation (The Great Courses: Better Living) — by Mark W. Muesse](https://www.thegreatcoursesplus.com/practicing-mindfulness-an-introduction-to-meditation){:target="_blank"}
 &ndash; first read in ~ 2015
-- [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - by Eric Ries](https://en.wikipedia.org/wiki/The_Lean_Startup)
+- [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses - by Eric Ries](https://en.wikipedia.org/wiki/The_Lean_Startup){:target="_blank"}
 &ndash; first read in ~ 2015
-- [Zero to One: Notes on Startups, or How to Build the Future - by Peter Thiel](https://en.wikipedia.org/wiki/Zero_to_One)
+- [Zero to One: Notes on Startups, or How to Build the Future - by Peter Thiel](https://en.wikipedia.org/wiki/Zero_to_One){:target="_blank"}
 &ndash; first read in ~ 2015
-- [Sapiens: A Brief History of Humankind - by Yuval Noah Harari](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind)
+- [Sapiens: A Brief History of Humankind - by Yuval Noah Harari](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind){:target="_blank"}
 &ndash; first read in 2015
-- [The Signal and the Noise: Why So Many Predictions Fail - but Some Don't - by Nate Silver](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise)
+- [The Signal and the Noise: Why So Many Predictions Fail - but Some Don't - by Nate Silver](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise){:target="_blank"}
 &ndash; first read in ~ 2016
-- [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
+- [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow){:target="_blank"}
 &ndash; first read in 2016
-- [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War)
+- [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War){:target="_blank"}
 &ndash; first read in 2024
-- [Four Wise Men - The Lives and Teachings of Confucius, the Buddha, Jesus, and Muhammad - by Mark William Muesse](https://www.google.com/books/edition/Four_Wise_Men/70Q0vgAACAAJ?hl=en)
+- [Four Wise Men - The Lives and Teachings of Confucius, the Buddha, Jesus, and Muhammad - by Mark William Muesse](https://www.google.com/books/edition/Four_Wise_Men/70Q0vgAACAAJ?hl=en){:target="_blank"}
 &ndash; first read in 2024
-- [Civil Liberties and the Bill of Rights (The Great Courses: Modern History) - by John E. Finn](https://www.thegreatcoursesplus.com/civil-liberties-and-the-bill-of-rights)
+- [Civil Liberties and the Bill of Rights (The Great Courses: Modern History) - by John E. Finn](https://www.thegreatcoursesplus.com/civil-liberties-and-the-bill-of-rights){:target="_blank"}
 &ndash; first read in 2024
-- [Quest for Meaning: Values, Ethics, and the Modern Experience (The Great Courses: Modern Philosophy) - by Robert H. Kane](https://www.thegreatcoursesplus.com/quest-for-meaning-values-ethics-and-the-modern-experience)
+- [Quest for Meaning: Values, Ethics, and the Modern Experience (The Great Courses: Modern Philosophy) - by Robert H. Kane](https://www.thegreatcoursesplus.com/quest-for-meaning-values-ethics-and-the-modern-experience){:target="_blank"}
 &ndash; first read in 2025
 
 ## Artists
@@ -160,6 +165,10 @@ last_modified_at: Sat Jan  3 23:07:13 PST 2026
 - [<i class="fa-brands fa-square-youtube"></i> Anne Marie - 2002 Song #livevideo #viral #shorts](https://youtube.com/shorts/kecpfUbdBFM?si=mImWS92ebYAyZs_r){:target="_blank"}
 - [<i class="fa-brands fa-youtube"></i> Anne-Marie - 2002 (Glastonbury 2019)](https://youtu.be/PRXCbRzTeGA?si=4qFtqHGpmmXil6gv){:target="_blank"}
 - [<i class="fa-brands fa-youtube"></i> 앤-마리(Anne-Marie)의 킬링보이스를 라이브로! – 2002, FRIENDS, Birthday, PSYCHO, Beautiful, Perfect to Me - 딩고뮤직](https://youtu.be/SAzUYWru-w0?si=3-INmLd1VM8WcEqu){:target="_blank"}
+
+### 정홍일
+
+- [<i class="fa-brands fa-youtube"></i> 정홍일 - 그대는 어디에](https://youtu.be/Ecu4YvsaVWw?si=d73VigQwJ3WmZLKk){:target="_blank"}
 
 ### 송소희
 
