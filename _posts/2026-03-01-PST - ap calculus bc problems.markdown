@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 03:40:44 PST 2026
+last_modified_at: Thu Mar  5 05:27:26 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -509,49 +509,77 @@ $$
 The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
 *i.e.*,
 
-$$
+\begin{equation}
 A = \int_a^b l(x) dx
-$$
+\end{equation}
 
 The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
 *i.e.*,
 
-$$
+\begin{equation}
 V = \int_a^b A(x) dx
-$$
+\end{equation}
 
 <h4>The area between two curves</h4>
 
-$$
+\begin{equation}
 A = \int_a^b \left|f(x) - g(x)\right| dx
-$$
+\end{equation}
 
 <h4>The area in polar coordinates</h4>
 
-$$
+\begin{equation}
 A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
-$$
+\end{equation}
 
 **The area between two polar curves**
 
-$$
+\begin{equation}
 A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
-$$
+\end{equation}
 
-<h4>Volume - disc method</h4>
+<h4>Disc method for volume calculation</h4>
 
-$$
+\begin{equation}
 	V = \pi \int_a^b R(x)^2 dx
-$$
+\end{equation}
 
 where $R(x)$ is the distance between the axis of revolution and the outside of the object
 
-$$
+<h4>Washer method for volume calculation</h4>
+
+\begin{equation}
 	V = \pi \int_a^b \left( R(x)^2 - r(x)^2 \right)dx
-$$
+\end{equation}
 
 where $R(x)$ is the radius of the outside of the object and
 $r(x)$ is the radius of the inside of the object
+
+<h4>Shell method for volume calculation</h4>
+
+[<span class="define">Shell integration</span>](https://en.wikipedia.org/wiki/Shell_integration){:target="_blank"}
+(the <span class="define">shell method</span> in integral calculus)
+is a method for calculating the volume of a solid of revolution,
+when integrating along an axis perpendicular to the axis of revolution.
+This is in contrast to disc integration which integrates along the axis parallel to the axis of revolution.
+
+Consider a volume in three dimensions obtained by rotating a cross-section in the $xy$-plane around the $y$-axis.
+Suppose the cross-section is defined by the graph of the positive function $f(x)$ on the interval $[a, b]$.
+Then the formula for the volume will be
+
+\begin{equation}
+	V = 2 \pi \int_a^b x f(x) dx
+\end{equation}
+
+If the function is of the $y$ coordinate and the axis of rotation is the $x$-axis then the formula becomes
+
+\begin{equation}
+	V = 2 \pi \int_a^b y f(y) dy
+\end{equation}
+
+## Infinite Sequences and Series
+
+(WIP)
 
 ## Ordinary Differential Equations (ODE)
 
