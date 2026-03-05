@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Wed Mar  4 16:26:32 PST 2026
+last_modified_at: Thu Mar  5 00:24:54 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -39,12 +39,27 @@ The tangent line is <span class="emph">the best linear approximation of the func
 The derivative is often described as <span class="emph">the instantaneous rate of change</span>, the ratio of the instantaneous change in the dependent variable to that of the independent variable.
 The process of finding a derivative is called <span class="emph">differentiation</span>.
 
-A function of a real variable $f(x)$ is differentiable at a point $a$ of its domain,
+A function of a real variable $\newcommand{\reals}{\mathbb{R}}f(x)$ is differentiable at a point $a$ of its domain,
 if its domain contains an open interval containing $a$, and the limit in \eqref{eq:def-derivative} exists.
 
 \begin{equation}
 \label{eq:def-derivative}
 	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
+\end{equation}
+
+### Mean value theorem {#mean-value-theorem}
+
+The [mean value theorem](https://en.wikipedia.org/wiki/Mean_value_theorem){:target="_blank"} (or Lagrange's mean value theorem) states, roughly,
+that for a given planar arc between two endpoints,
+there is at least one point at which the tangent to the arc is parallel to the secant through its endpoints.
+It is one of the most important results in real analysis.
+
+Let $f:[a,b]\to\reals$ be a continuous function on the closed interval $[a,b]$,
+and differentiable on the open interval $(a,b)$,
+where $a< b$. Then there exists some $c$ in $(a,b)$ such that
+
+\begin{equation}
+	f'(c) = \frac{f(b)-f(a)}{b-a}
 \end{equation}
 
 ### L'H&ocirc;pital's rule
@@ -72,6 +87,16 @@ and $\lim_{x\to c} \dfrac{f'(x)}{g'(x)}$ exists, then
 
 $$
 \begin{eqnarray*}
+\lim_{x\to 0} \frac{2x^2-3x}{3x^2+3x}
+	&=&
+		\lim_{x\to 0} \frac{4x-3}{6x+3} = -1
+\\
+\lim_{x\to \infty} \frac{2x^2+3x}{2+x^2}
+	&=&
+		\lim_{x\to \infty} \frac{2x+3}{2x}
+		=
+		\lim_{x\to \infty} \frac{2}{2} = 1
+\\
 \lim_{x\to 0} \frac{\sin(x)}{x}
 	&=&
 		\lim_{x\to 0} \frac{\cos(x)}{1} = 1
@@ -148,10 +173,9 @@ $$
 \end{eqnarray*}
 $$
 
-### Chain rule
+### Chain rule {#chain-rule}
 
 \begin{equation}
-\newcommand{\reals}{\mathbb{R}}
 \label{eq:chain-rule}
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
@@ -276,7 +300,7 @@ $$
 You can easily verify these formulas, *e.g.*, using formulas in \eqref{eq:der-inverse-tri}.
 More formula can be found [here](https://en.wikipedia.org/wiki/List_of_integrals_of_inverse_trigonometric_functions){:target="_blank"}!
 
-## Fundamental theorem of calculus
+## Fundamental theorem of calculus {#fundamental-theorem-of-calculus}
 
 The [fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus){:target="_blank"}
 is
@@ -553,6 +577,112 @@ $r(x)$ is the radius of the inside of the object
 
 # Exercise Problems
 
+## Differentiation & Integration
+
+<ul>
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find $\dfrac{dy}{dx}$ if $x^3-x\ln y=ye^x$.
+<p>
+<strong>Answer</strong>
+$$
+	\frac{dy}{dx} = \frac{3x^2y-y\ln y - y^2 e^x}{e^x y+x}
+$$
+</p>
+</li>
+<li>
+<strong>Varsity Tutors Problem</strong>
+Find $dy/dx$:
+$$
+	y = \tan^{-1} (2x(x+1)^10))
+$$
+
+<p>
+<strong>Answer</strong>
+$$
+	\frac{dy}{dx} = \frac{2(x+1)^9 (11x+1)}{1+4x^2(x+1)^{20}}
+$$
+</p>
+</li>
+<li>
+<strong>Varsity Tutors Problem</strong>
+What is the derivative of $r=7\sin\theta -6$?
+
+<p>
+<strong>Answer</strong>
+$$
+	\frac{dy}{dx}
+	=
+		\frac{7\sin 2\theta - 6 \cos\theta}{7\cos 2\theta + 6\sin\theta}
+	=
+		\frac{14\cos\theta \sin\theta - 6 \cos\theta}{7 - 14\sin^2\theta + 6\sin\theta}
+$$
+</p>
+</li>
+<li>
+<strong>Varsity Tutors Problem</strong>
+Let $f(x) = \cos(4x)$ on the interval $(0,\pi/2)$.
+Find a value for the number(s) that
+satisfies the [mean value theorem](#mean-value-theorem)
+for this function and interval.
+
+<p>
+<strong>Answer</strong>
+$$
+	\frac{\pi}{4}
+$$
+</p>
+</li>
+</ul>
+
+## Distance & Velocity & Acceleration
+
+<ul>
+<li>
+<strong>Varsity Tutors Problem</strong> Given the velocity function
+
+$$
+	v(t) = \int_0^{t^2+2t+1} z^d \sin(z^5)\,dz
+$$
+
+where $d$ is real number such that $d\in(0,1)$,
+find the acceleration function $a(x)$
+
+<p>
+<br>
+<strong>Daddy's Solution</strong>
+
+We use
+<!--
+the [chain rule](#chain-rule),
+<i>i.e.</i>,
+\eqref{eq:chain-rule}
+and
+-->
+the first part of [the fundamental theorem of calculus](#fundamental-theorem-of-calculus),
+<i>i.e.</i>,
+\eqref{eq:fund-theorem-of-calculus-1}
+to get
+
+$$
+\begin{eqnarray*}
+	a(t)
+	&=& \frac{d}{dt} v(t) = (2t+2) (t^2+2t+1)^d \sin((t^2+2t+1)^5)
+\\
+	&=& 2(t+1)^{2d+1} \sin((t+1)^{10})
+\end{eqnarray*}
+$$
+
+by noting that $t^2+2t+1=(t+1)^2$.
+
+</p>
+</li>
+<li>
+<strong>Varsity Tutors Problem</strong> Given $x=t+10$ and $y=2t-9$,
+what is the arc length between $0\leq t\leq 4$?
+</li>
+</ul>
+
 ## Differential Equations
 
 <ul>
@@ -563,6 +693,7 @@ Given the logistic differential equation $\dfrac{dA}{dt} = A\left(20-\dfrac{A}{4
 where $A(0) = 15$, what is $\lim_{t\to\infty} A(t)$?
 
 <p>
+<br>
 <strong>Daddy's Solution 1</strong>
 
 $$
@@ -621,6 +752,7 @@ $$
 $$
 
 <p>
+<br>
 <strong>Daddy's Solution</strong>
 Note that the above equation is of the form \eqref{eq:ode-logistic-fcn}
 with $a=k/650$ and $b=650$,
@@ -643,6 +775,7 @@ Problem 5 of <a target="_blank" href="https://sungheeyun-photos-01.github.io/res
 Given the differential equation $\dfrac{dT}{dt} = -\dfrac{1}{4}(T-20)$, $T(0)=100$, then $T(20)$?
 
 <p>
+<br>
 <strong>Daddy's Solution 1</strong>
 
 $$
