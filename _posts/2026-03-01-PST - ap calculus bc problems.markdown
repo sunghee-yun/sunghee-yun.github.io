@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 02:31:19 PST 2026
+last_modified_at: Thu Mar  5 03:14:44 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -45,6 +45,13 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 \begin{equation}
 \label{eq:def-derivative}
 	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
+\end{equation}
+
+### Chain rule {#chain-rule}
+
+\begin{equation}
+\label{eq:chain-rule}
+\frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
 
 ### Mean value theorem {#mean-value-theorem}
@@ -173,12 +180,9 @@ $$
 \end{eqnarray*}
 $$
 
-### Chain rule {#chain-rule}
+### Taylor series {#taylor-series}
 
-\begin{equation}
-\label{eq:chain-rule}
-\frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
-\end{equation}
+(WIP)
 
 ### Derivatives of trigonometric functions
 
@@ -234,7 +238,7 @@ More formula can be found [here](https://en.wikipedia.org/wiki/Inverse_trigonome
 	\int g'(x) f'(g(x)) dx = f(g(x)) + C
 \end{equation}
 
-- Method 1 - using directly the chain rule, *e.g.*, we just note that
+- Method 1 - using directly the [chain rule](#chain-rule), *e.g.*, we just note that
 
 \begin{equation}
 \label{eq:prob-int-by-sub-01}
@@ -397,6 +401,59 @@ $$
 \end{eqnarray*}
 $$
 
+## Length / Distance / Velocity / Acceleration
+
+(WIP)
+
+## Area and Volume
+
+The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
+*i.e.*,
+
+$$
+A = \int_a^b l(x) dx
+$$
+
+The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
+*i.e.*,
+
+$$
+V = \int_a^b A(x) dx
+$$
+
+<h4>The area between two curves</h4>
+
+$$
+A = \int_a^b \left|f(x) - g(x)\right| dx
+$$
+
+<h4>The area in polar coordinates</h4>
+
+$$
+A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
+$$
+
+**The area between two polar curves**
+
+$$
+A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
+$$
+
+<h4>Volume - disc method</h4>
+
+$$
+	V = \pi \int_a^b R(x)^2 dx
+$$
+
+where $R(x)$ is the distance between the axis of revolution and the outside of the object
+
+$$
+	V = \pi \int_a^b \left( R(x)^2 - r(x)^2 \right)dx
+$$
+
+where $R(x)$ is the radius of the outside of the object and
+$r(x)$ is the radius of the inside of the object
+
 ## Ordinary Differential Equations (ODE)
 
 ### Linear ODE
@@ -525,55 +582,6 @@ and is *concave down* where $t>0.21972$!
 <div class="img-container">
 <img src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/logistic_fcn_01.png">
 </div>
-
-## Area and Volume
-
-The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
-*i.e.*,
-
-$$
-A = \int_a^b l(x) dx
-$$
-
-The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
-*i.e.*,
-
-$$
-V = \int_a^b A(x) dx
-$$
-
-<h4>The area between two curves</h4>
-
-$$
-A = \int_a^b \left|f(x) - g(x)\right| dx
-$$
-
-<h4>The area in polar coordinates</h4>
-
-$$
-A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
-$$
-
-**The area between two polar curves**
-
-$$
-A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
-$$
-
-<h4>Volume - disc method</h4>
-
-$$
-	V = \pi \int_a^b R(x)^2 dx
-$$
-
-where $R(x)$ is the distance between the axis of revolution and the outside of the object
-
-$$
-	V = \pi \int_a^b \left( R(x)^2 - r(x)^2 \right)dx
-$$
-
-where $R(x)$ is the radius of the outside of the object and
-$r(x)$ is the radius of the inside of the object
 
 # Exercise Problems
 
@@ -850,7 +858,7 @@ Find the length of the following parametric curve
 
 $$
 	x = e^t \cos(t),\;
-	y = e^t \sin9t),\;
+	y = e^t \sin(t),\;
 	0 \leq t \leq 2\pi.
 $$
 
@@ -867,11 +875,65 @@ $$
 	<li>
 		$e^{2\pi}$
 	</li>
+	<li>
+		$\sqrt{2} (e^{2\pi} -1)$
+	</li>
 	</ol>
 
 <p>
-<strong>Answer</strong>
-1.
+<br>
+<span class="emph">Daddy's Solution</span>
+
+Note first that the length of the curve can be calculated by
+
+$$
+	\int_0^{2\pi} |\vec{v}(t)| dt
+$$
+
+where $\vec{v}(t)$ is the velocity vector.
+
+Now the displacement (<i>i.e.,</i> location) vector is given by
+
+$$
+\vec{d}(t) = (x(t), y(t)) = (e^t \cos t, e^t \sin t)
+$$
+
+hence the velocity vector can be calculated as
+
+$$
+\vec{v}(t)
+=
+	\frac{d}{dt} \vec{d}(t)
+=
+	\left( \frac{d}{t} x(t), \frac{d}{dt} y(t) \right)
+=
+	(e^t(\cos t - \sin t), e^t (\sin t + \cos t))
+$$
+
+and the size of $\vec{v}(t)$ is
+
+$$
+\begin{eqnarray*}
+|\vec{v}(t)|
+	&=&
+		e^t \sqrt{(\cos t - \sin t)^2 + (\cos t + \sin t)^2}
+\\
+	&=&
+		e^t \sqrt{(\cos t - \sin t)^2 + (\cos t + \sin t)^2}
+\\
+	&=&
+		\sqrt{2}\, e^t
+\end{eqnarray*}
+$$
+
+Therefore the length can be calculated as
+
+$$
+	\int_0^{2\pi} |\vec{v}(t)| dt = \sqrt{2} \int_0^{2\pi} e^t dt
+	= \sqrt{2} \, \left.\left( e^t \right)\right|_{t=0}^{2\pi}
+	= \sqrt{2} (e^{2\pi} -1)
+$$
+
 </p>
 </li>
 
@@ -1184,7 +1246,7 @@ converges or diverges, and explain why.
 
 <p>
 <strong>Answer</strong>
-The series converges,
+The series (conditionally) converges,
 which can be confirmed by the alternating series test.
 </p>
 </li>
@@ -1199,7 +1261,7 @@ $$
 
 <p>
 <strong>Answer</strong>
-The series converges,
+The series (conditionally) converges,
 which can be confirmed by the alternating series test.
 </p>
 </li>
