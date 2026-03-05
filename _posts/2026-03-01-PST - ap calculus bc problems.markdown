@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 03:14:44 PST 2026
+last_modified_at: Thu Mar  5 03:40:44 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -182,7 +182,106 @@ $$
 
 ### Taylor series {#taylor-series}
 
-(WIP)
+The [<span class="define">Taylor series</span> or <span class="define">Taylor expansion</span>](https://en.wikipedia.org/wiki/Taylor_series){:target="_blank"}
+of a function is an infinite sum of terms that are expressed in terms of the function's derivatives at a single point.
+For most common functions, the function and the sum of its Taylor series are equal near this point.
+Taylor series are named after [Brook Taylor](https://en.wikipedia.org/wiki/Brook_Taylor){:target="_blank"},
+who introduced them in 1715.
+A Taylor series is also called a <span class="define">Maclaurin series</span>
+when 0 is the point where the derivatives are considered,
+after [Colin Maclaurin](https://en.wikipedia.org/wiki/Colin_Maclaurin){:target="_blank"},
+who made extensive use of this special case of Taylor series in the 18th century.
+
+The Taylor series of a real or complex-valued function $f(x)$,
+that is infinitely differentiable at a real or complex number $a$, is the power series
+
+\begin{equation}
+\label{eq:taylor-series}
+	\sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!} (x-a)^n
+=
+	f(a)
+	+ \frac{f'(a)}{1!}(x-a)
+	+ \frac{f^{\prime\prime}(a)}{2!}(x-a)^2
+	+ \cdots
+\end{equation}
+
+where $n!$ denotes the factorial of $n$,
+the function $f^{(n)}(a)$ denotes the $n$-th derivative of $f$ evaluated at the point $a$,
+the derivative of order zero of $f$ is defined to be $f$ itself,
+and
+$(x − a)^0$ and $0!$ are both defined to be $1$.
+
+With $a = 0$, the <span class="define">Maclaurin series</span> takes the form
+
+\begin{equation}
+\label{eq:maclaurin-series}
+	\sum_{n=0}^\infty \frac{f^{(n)}(0)}{n!} x^n
+=
+	f(0)
+	+ \frac{f'(0)}{1!}x
+	+ \frac{f^{\prime\prime}(0)}{2!}x^2
+	+ \cdots
+\end{equation}
+
+<h4>Examples</h4>
+
+- [**exponential function**](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function){:target="_blank"}
+
+\begin{equation}
+	e^x
+	=
+	\sum_{n=0}^\infty \frac{x^n}{n!} = 1 + x + \frac{x^2}{2} + \frac{x^3}{3!} + \cdots
+\end{equation}
+
+- [**natural logarithm**](https://en.wikipedia.org/wiki/Taylor_series#Natural_logarithm){:target="_blank"}
+
+\begin{equation}
+	\ln(1+x)
+	=
+	\sum_{n=0}^\infty (-1)^{n+1} \frac{x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots
+\end{equation}
+
+hence
+
+\begin{equation}
+	\ln(1-x)
+	=
+	- \sum_{n=0}^\infty (-1)^{n} \frac{x^n}{n} = - x - \frac{x^2}{2} - \frac{x^3}{3} - \cdots
+\end{equation}
+
+- [**geometric series**](https://en.wikipedia.org/wiki/Taylor_series#Geometric_series){:target="_blank"}
+
+\begin{equation}
+	\frac{1}{1-x}
+	=
+	\sum_{n=0}^\infty x^n = 1 + x + x^2 + \cdots
+\end{equation}
+
+\begin{equation}
+	\frac{1}{(1-x)^2}
+	=
+	\sum_{n=1}^\infty nx^{n-1} = 1 + 2x + 3x^2 + \cdots
+\end{equation}
+
+- [**trigonometric functions**](https://en.wikipedia.org/wiki/Taylor_series#Trigonometric_functions){:target="_blank"}
+
+$$
+\begin{eqnarray}
+	\sin(x)
+	&=&
+		\sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!} x^{2n+1}
+	=
+		x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots
+\\
+	\cos(x)
+	&=&
+		\sum_{n=0}^\infty \frac{(-1)^n}{(2n)!} x^{2n}
+	=
+		1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots
+\end{eqnarray}
+$$
+
+More examples can be shown in [Taylor series Wikipedia Page](https://en.wikipedia.org/wiki/Taylor_series#List_of_Maclaurin_series_of_some_common_functions){:target="_blank"}!
 
 ### Derivatives of trigonometric functions
 
