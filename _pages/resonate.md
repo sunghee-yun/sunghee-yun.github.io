@@ -1,5 +1,5 @@
 ---
-last_modified_at: Thu Mar  5 17:06:05 PST 2026
+last_modified_at: Fri Mar  6 02:10:00 PST 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -9,37 +9,95 @@ toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
 
-<!--h2>Some Podcasts</h2-->
-
-<!--
-- [Decoding Sunghee Yun - A Homepage Blueprint for Interconnected Thinking and Global Innovation (15:21)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=acf26dc3-e03b-43ea-9c43-2f63294b0a2b){:target="_blank"}
-- [From Biotech to Bach  Synthesizing Innovation, Philosophy, and Global Culture (12:13)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=f9462e07-d446-489f-b8af-86939eac70b8){:target="_blank"}
-- [Deconstructing a Digital Polymath - Unpacking Sunghee Yun's Interconnected Mind and Multifaceted Journey (16:16)](https://notebooklm.google.com/notebook/bba79cf8-1711-4fc7-a2aa-485a45bcc9d8?artifactId=90470f2a-dfe3-49c1-b028-64911a9a7870){:target="_blank"}
--->
-
-<!--audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-01.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
-
-<!--audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-02.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
-
-<!--audio id="podcast-3" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-03.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
-
-<!--div class="img-container-justified">
+<div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Decoding Sunghee Yun - A Homepage Blueprint for Interconnected Thinking and Global Innovation</strong>
+			<strong>Deep Dive - Sunghee Yun's Intellectual Source Code</strong>
+			<span style="opacity: 0.8;">(33:44)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Deep Dive - Sunghee_Yun_s_Intellectual_Source_Code.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Intellectual DNA of Sunghee Yun</strong>
+			<span style="opacity: 0.8;">(20:01)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Deep Dive - The_Intellectual_DNA_of_Sunghee_Yun.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Architecture of Sunghee Yun’s Mind</strong>
+			<span style="opacity: 0.8;">(18:47)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Deep Dive - The_architecture_of_Sunghee_Yun's_mind.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Books and Music of Sunghee Yun</strong>
+			<span style="opacity: 0.8;">(15:45)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Deep Dive - The_Books_and_Music_of_Sunghee_Yun.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Intellectual Architecture of Sunghee Yun</strong>
+			<span style="opacity: 0.8;">(20:58)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Debate - The_Intellectual_Architecture_of_Sunghee_Yun.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The Logic and Resonance of Sunghee Yun</strong>
+			<span style="opacity: 0.8;">(18:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/pages/resonate/Debate - The_logic_and_resonance_of_Sunghee_Yun.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Decoding Sunghee Yun - A Homepage Blueprint for Interconnected Thinking and Global Innovation</strong>
 			<span style="opacity: 0.8;">(15:21)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/pages/resonate/Decoding_Sunghee_Yun__A_Homepage_Blueprint_for_Interconnected_Thinking_and_Global_Innovation.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -47,11 +105,11 @@ toc_sticky: true
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>From Biotech to Bach - Synthesizing Innovation, Philosophy, and Global Culture</strong>
+			<strong>Deep Dive - From Biotech to Bach - Synthesizing Innovation, Philosophy, and Global Culture</strong>
 			<span style="opacity: 0.8;">(12:13)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-02" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-05" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/pages/resonate/From_Biotech_to_Bach__Synthesizing_Innovation,_Philosophy,_and_Global_Culture.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -62,11 +120,11 @@ toc_sticky: true
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>A Digital Polymath - Unpacking Sunghee's Interconnected Mind and Multifaceted Journey</strong>
+			<strong>Deep Dive - A Digital Polymath - Unpacking Sunghee's Interconnected Mind and Multifaceted Journey</strong>
 			<span style="opacity: 0.8;">(16:16)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-03" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-06" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-02.github.io/resource/sungheeyun.github.io/pages/resonate/Deconstructing_a_Digital_Polymath__Unpacking_Sunghee_Yun_s_Interconnected_Mind_and_Multifaceted_Jour.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -74,11 +132,11 @@ toc_sticky: true
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Sunghee's Digital Resonances - A Professional &amp; Cultural Footprint</strong>
+			<strong>Deep Dive - Sunghee's Digital Resonances - A Professional &amp; Cultural Footprint</strong>
 			<span style="opacity: 0.8;">(08:30)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-1" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-07" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-01.wav">
 				Your browser does not support this audio element.
 			</audio>
@@ -89,11 +147,11 @@ toc_sticky: true
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Sunghee's Digital Resonances - A Professional & Cultural Footprint - 02</strong>
+			<strong>Deep Dive - Sunghee's Digital Resonances - A Professional & Cultural Footprint - 02</strong>
 			<span style="opacity: 0.8;">(08:29)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-2" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-08" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-02.wav">
 				Your browser does not support this audio element.
 			</audio>
@@ -101,17 +159,17 @@ toc_sticky: true
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Sunghee's Digital Resonances - A Professional & Cultural Footprint - 03</strong>
+			<strong>Deep Dive - Sunghee's Digital Resonances - A Professional & Cultural Footprint - 03</strong>
 			<span style="opacity: 0.8;">(13:33)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-3" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-09" controls style="width: 100%;">
 				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/pages/resonate/NotebookLM/Sunghee's Digital Resonances_ A Professional & Cultural Footprint-03.wav">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
-</div-->
+</div>
 
 ## Books
 
