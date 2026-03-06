@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 21:08:50 PST 2026
+last_modified_at: Thu Mar  5 23:59:48 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -39,7 +39,7 @@ The tangent line is <span class="emph">the best linear approximation of the func
 The derivative is often described as <span class="emph">the instantaneous rate of change</span>, the ratio of the instantaneous change in the dependent variable to that of the independent variable.
 The process of finding a derivative is called <span class="emph">differentiation</span>.
 
-A function of a real variable $\newcommand{\reals}{\mathbb{R}}f(x)$ is differentiable at a point $a$ of its domain,
+A function of a real variable $\newcommand{\reals}{\mathbb{R}}\newcommand{\naturals}{\mathbb{N}}\newcommand{\series}{\sum_{n=1}^\infty a_n}\newcommand{\absseries}{\sum_{n=1}^\infty |a_n|}f(x)$ is differentiable at a point $a$ of its domain,
 if its domain contains an open interval containing $a$, and the limit in \eqref{eq:def-derivative} exists.
 
 \begin{equation}
@@ -440,7 +440,7 @@ We can combine these two equations to write
 \end{equation}
 
 <!--
-The fundamental theorem is often employed to compute the definite integral of a function  $f$
+The fundamental theorem is often employed to compute the definite integral of a function $f$
 for which an antiderivative $F$ is known.
 Specifically, if $f$ is a real-valued continuous function on $[a, b]$ and $F$ is an antiderivative of $f$
 in $[a, b]$, then
@@ -738,7 +738,323 @@ If the function is of the $y$ coordinate and the axis of rotation is the $x$-axi
 
 ## Infinite Sequences and Series
 
-(WIP)
+### Sequences
+
+A [sequence](https://en.wikipedia.org/wiki/Sequence#Finite_and_infinite){:target="_blank"}
+is a collection of objects possibly with repetition, that come in a specified order.
+Like a set, it contains members (also called elements, or terms).
+Unlike a set, the same elements can appear multiple times at different positions in a sequence, and unlike a set, the order does matter.<sup><a href="#footnote01" id="ref01">1</a></sup>
+
+For example, (M, A, R, Y) is a sequence of letters with the letter &ldquo;M&rdquo; first and &ldquo;Y&rdquo; last.
+This sequence differs from (A, R, M, Y).
+Also, the sequence (1, 1, 2, 3, 5, 8), which contains the number 1 at two different positions, is a valid sequence.
+Sequences can be finite, as in these examples, or infinite, such as the sequence of even positive integers (2, 4, 6, &hellip;).
+
+<h4>Examples</h4>
+
+<h5>Fibonacci sequence</h5>
+
+[Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence){:target="_blank"}
+is a sequence in which each element is the sum of the two elements that precede it.
+
+The Fibonacci numbers may be defined by the recurrence relation
+
+$$
+\begin{eqnarray}
+&
+	F_0 = 0, \; F_1 = 1
+&
+\\
+&
+	F_n = F_{n-1} + F_{n-2}
+&
+	\mbox{for } n \geq 2
+\end{eqnarray}
+$$
+
+The sequence is $(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, \ldots)$.
+
+<h4>Increasing and decreasing</h4>
+
+A sequence is said to be <span class="define">monotonically increasing</span> if each term is greater than or equal to the one before it.
+For example, the sequence $$\{a_n\}_{n=1}^\infty$$ is monotonically increasing if and only if
+$a_{n+1}\geq a_{n}$ for all $n \in \naturals$.
+If each consecutive term is strictly greater than ($>$) the previous term
+then the sequence is called <span class="define">strictly monotonically increasing</span>.
+A sequence is <span class="define">monotonically decreasing</span>
+if each consecutive term is less than or equal to the previous one,
+and is <span class="define">strictly monotonically decreasing</span> if each is strictly less than the previous.
+If a sequence is either increasing or decreasing it is called a <span class="define">monotone sequence</span>.
+(This is a special case of the more general notion of a monotonic function.)
+
+The terms <span class="define">nondecreasing</span> and <span class="define">nonincreasing</span>
+are often used in place of *increasing* and *decreasing*
+in order to avoid any possible confusion with strictly increasing and strictly decreasing, respectively.
+
+<h4>Bounded</h4>
+
+If the sequence of real numbers $$\{a_n\}_{n=1}^\infty$$ is such that all the terms are less than some real number $M$,
+then the sequence is said to be <span class="define">bounded from above</span>.
+In other words, this means that there exists $M$ such that for all $n$, $a_n \leq M$.
+Any such $M$ is called an <span class="define">upper bound</span>.
+Likewise, if, for some real $m$, $a_n \geq m$ for all $n$,
+then the sequence is said to be <span class="define">bounded from below</span> and any such $m$ is called a <span class="define">lower bound</span>.
+If a sequence is both bounded from above and bounded from below, then the sequence is said to be <span class="define">bounded</span>.
+
+### Limits and Convergence
+
+An important property of a sequence is <span class="define">convergence</span>.
+If a sequence converges, it converges to a particular value known as the <span class="define">limit</span>.
+If a sequence converges to some limit, then it is <span class="define">convergent</span>.
+A sequence that does not converge is <span class="define">divergent</span>.
+
+Informally, a sequence has a limit if the elements of the sequence become closer and closer to some value $L$
+(called the limit of the sequence),
+and they become and remain *arbitrarily* close to $L$,
+(meaning that given a real number $d$ greater than zero,
+all but a finite number of the elements of the sequence have a distance from $L$ less than $d$).
+In this case, we write
+
+\begin{equation}
+\label{eq:limit-seq}
+	\lim_{n\to\infty} a_n = L
+\end{equation}
+
+<h4>Examples</h4>
+
+$$
+\begin{eqnarray*}
+\begin{array}{lcl}
+	\lim_{n\to\infty} \left( \dfrac{n+1}{2n^2} \right)
+		&=&
+			0
+\\
+	\lim_{n\to\infty} \left( \dfrac{n^2+3n+100}{2n^2 + 10} \right)
+		&=&
+			\dfrac{1}{2}
+\\
+	\lim_{n\to\infty} n^3
+		&=&
+			\infty
+\\
+	\lim_{n\to\infty} (-1)^n
+		&\mbox{is}&
+			\mbox{divergent}
+\end{array}
+\end{eqnarray*}
+$$
+
+<h4>Important results</h4>
+
+If
+$$\{a_n\}_{n=1}^\infty$$
+and
+$$\{b_n\}_{n=1}^\infty$$
+are convergent sequences,
+the following limits exist,
+and can be computed as follows.
+
+$$
+\begin{eqnarray}
+\lim_{n\to\infty} (a_n + b_n)
+	&=&
+		\lim_{n\to\infty} a_n + \lim_{n\to\infty} b_n
+\\
+\lim_{n\to\infty} (a_n - b_n)
+	&=&
+		\lim_{n\to\infty} a_n - \lim_{n\to\infty} b_n
+\\
+\lim_{n\to\infty} (ca_n)
+	&=&
+		c \lim_{n\to\infty} \; \mbox{for } c \in \reals
+\\
+\lim_{n\to\infty} (a_n b_n)
+	&=&
+		\left(\lim_{n\to\infty} a_n \right) \left(\lim_{n\to\infty} b_n\right)
+\\
+\lim_{n\to\infty} \frac{a_n}{b_n}
+	&=&
+		\left(\lim_{n\to\infty} a_n \right) /\left(\lim_{n\to\infty} b_n\right)
+			\; \mbox{provided } \lim_{n\to\infty} b_n \neq 0
+\end{eqnarray}
+$$
+
+Moreover
+
+- If $a_n \leq b_n$ for all $n>N$ for some $N$,
+then $\lim_{n\to\infty} a_n \leq \lim_{n\to\infty} b_n$.
+- If $a_n \leq c_n \leq b_n$ for all $n>N$ for some $N$ and $\lim_{n\to\infty} a_n = \lim_{n\to\infty} b_n = L$,
+then $$\{a_n\}_{n=1}^\infty$$ is convergent and $\lim_{n\to\infty} c_n = L$.
+- If a sequence is bounded and monotonic,
+then it is convergent.
+- A sequence is convergent if and only if all of its subsequences are convergent.
+
+### Series
+
+A <span class="define">series</span> is, informally speaking, the sum of the terms of a sequence. That is, it is an expression of the form
+
+\begin{equation}
+\sum _{n=1}^{\infty} a_n
+\end{equation}
+
+or
+
+\begin{equation}
+a_1 + a_2 + a_3 + \cdots
+\end{equation}
+
+where $$\{a_n\}_{n=1}^\infty$$ is a sequence of real or complex numbers.
+
+### Series Convergence
+
+The <span class="define">partial sums</span> of a series are the expressions resulting from replacing the infinity symbol with a finite number,
+*i.e.*, the $N$-th partial sum of the series
+
+\begin{equation}
+	S_N = \sum_{n=1}^N a_n = a_1 + a_2 + \cdots + a_N
+\end{equation}
+
+The partial sums themselves form a sequence $$\{S_N\}_{N=1}^\infty$$,
+which is called the <span class="define">sequence of partial sums</span> of the series $\sum_{n=1}^{\infty}a_{n}$.
+If the sequence of partial sums converges, then we say that the series $\sum_{n=1}^{\infty}a_{n}$ is convergent,
+and the limit
+
+\begin{equation}
+	\lim_{N\to\infty} S_N
+\end{equation}
+
+is called the <span class="define">value of the series</span>.
+The same notation is used to denote a series and its value, *i.e.*, we write
+
+\begin{equation}
+	\sum_{n=1}^\infty = \lim_{N\to\infty} S_N
+\end{equation}
+
+<h4>Examples</h4>
+
+$$
+\begin{eqnarray*}
+\begin{array}{lcl}
+	\sum_{n=1}^\infty \dfrac{1}{n}
+		&=&
+			\infty
+\\
+	\sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{n}
+		&=&
+			\ln 2
+\\
+	\sum_{p: \text{prime number}}^\infty \dfrac{1}{p}
+		&=&
+			\dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{5} + \dfrac{1}{7} + \dfrac{1}{11} + \cdots = \infty
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n(n+1)}
+		&=&
+			1
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n!}
+		&=&
+			e
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n^2}
+		&=&
+			\dfrac{\pi^2}{6}
+\\
+	\sum_{n=0}^\infty r^n
+		&=&
+			\dfrac{1}{1-r}
+			\; \mbox{assuming } |r| < 1
+\end{array}
+\end{eqnarray*}
+$$
+
+### Conditional and Absolute Convergence
+
+If the series $\absseries$ converges, then the series $\series$ is said to be
+[<span class="define">absolutely convergent</span>](https://en.wikipedia.org/wiki/Absolutely_convergent){:target="_blank"}.
+<span class="emph">Every absolute convergent series (real or complex) is also convergent</span>,
+but <span style="color: red; font-weight: bold;">the converse is not true.</span>
+(For example, the Maclaurin series of the exponential function is absolutely convergent for every complex value of the variable.)
+
+If the series $\series$ converges but the series $\absseries$ diverges,
+then the series $\series$
+is [<span class="define">conditionally convergent</span>](https://en.wikipedia.org/wiki/Conditionally_convergent){:target="_blank"}.
+(For example, the Maclaurin series of the logarithm function $\ln(1+x)$ is conditionally convergent for $x = 1$.)
+
+<h4>Examples</h4>
+
+- Let $a_n=(-1)^n/n!$ for $n\geq 0$. Then $\series = 1 - 1/1! + 1/2! - \cdots$ converges (to $e^{-1}$),
+and $\absseries$ also converges (to $e^1$),
+hence $\series$ **absolutely** converges!
+
+- Let $a_n = (-1)^{n+1}/n$ for $n\geq 1$. Then $\series =  1 - 1/2 + 1/3 - \cdots$ converges (to $\ln 2$),
+but $\absseries$ diverges (to $\infty$),
+hence $\series$ **conditionally** converges!
+
+### Series Convergence Tests
+
+<h4>$p$-series test</h4>
+
+The series
+
+\begin{equation}
+	\sum_{n=1}^\infty \frac{1}{n^p}
+\end{equation}
+
+converges if and only if $p>1$.
+
+<h4>Comparison test</h4>
+
+If $|a_n| \leq b_n$ for all $n>N$ for some $N$ and $\sum_{n=1}^\infty b_n$ converges,
+$\sum_{n=1}^\infty a_n$ converges.
+
+<h5>Corollary</h5>
+
+If $0\leq a_n \leq b_n$ for all $n$ and $\sum_{n=1}^\infty b_n$ converges,
+$\sum_{n=1}^\infty a_n$ converges.
+
+<h4>Ratio test</h4>
+
+Assume $a_n\neq 0$ for all $n$. Suppose that
+
+$$
+	\lim_{n\to\infty} \left|\frac{a_{n+1}}{a_n}\right| = r.
+$$
+
+- If $r<1$, then the series is absolutely convergent.
+- If $r > 1$, then the series diverges.
+- If $r = 1$, the ratio test is **inconclusive**, and the series may converge or diverge.
+
+<h4>Integral test</h4>
+
+Assume $f:\reals\to\reals$.
+If $a_n = f(n)$ is a positive and monotonically decreasing function and
+
+$$
+	\int_{1}^\infty f(x) dx = \lim_{t\to\infty} \int_1^t f(x) dx < \infty
+$$
+
+then the series converges.
+But if the integral diverges, then the series diverges, too.
+
+<h4>Limit comparison test</h4>
+
+If $a_n >0$, $b_n>0$, and the limit $\lim_{n\to\infty} a_n / b_n$ exists and nonzero,
+then $\series$ converges **if and only if** $\sum_{n=1}^\infty b_n$ converges.
+
+<h4>Alternating series test</h4>
+
+Also known as the [Leibniz criterion](https://en.wikipedia.org/wiki/Alternating_series_test){:target="_blank"},
+the [<span class="define">alternating series test</span>](https://en.wikipedia.org/wiki/Alternating_series_test){:target="_blank"}
+states that for an [alternating series](https://en.wikipedia.org/wiki/Alternating_series){:target="_blank"}
+of the form
+
+\begin{equation}
+\label{eq:alt-series}
+	\sum_{n=1}^\infty (-1)^n a_n
+\end{equation}
+
+if $$\{a_n\}_{n=1}^\infty$$ is monotonically decreasing, and has a limit of $0$ at infinity,
+then the series converges.
 
 ## Ordinary Differential Equations (ODE)
 
@@ -1360,10 +1676,10 @@ $$
 \begin{eqnarray*}
 \frac{dT}{T-20} = -\frac{1}{4} dt
 &\Leftrightarrow&
-	\ln (T-20)  = -\frac{1}{4} t + C
+	\ln (T-20) = -\frac{1}{4} t + C
 \\
 &\Leftrightarrow&
-	T(t)  = 20 + e^{-\frac{1}{4} t + C}
+	T(t) = 20 + e^{-\frac{1}{4} t + C}
 \end{eqnarray*}
 $$
 
@@ -1376,7 +1692,7 @@ $$
 hence
 
 $$
-	T(t)  = 20 + e^{-\frac{1}{4} t + \ln(80)} = 20 + 80 e^{-\frac{1}{4}t}
+	T(t) = 20 + e^{-\frac{1}{4} t + \ln(80)} = 20 + 80 e^{-\frac{1}{4}t}
 $$
 
 </p>
@@ -1712,3 +2028,11 @@ For which of the following functions can the Maclaurin series representation be 
 - <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/c_11_review.pdf">c_11_review.pdf</a>
 - <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_on_area_and_volume.pdf">free_response_on_area_and_volume.pdf</a>
 - <a target="_blank" href="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_answers_on_area_and_volume.pdf">free_response_answers_on_area_and_volume.pdf</a>
+
+---
+
+<ol>
+<li id="footnote01">
+	The notion of a sequence can be generalized to an indexed family, defined as a function from an arbitrary index set.
+	&nbsp;<a href="#ref01">↩</a></li>
+</ol>
