@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Thu Mar  5 05:27:26 PST 2026
+last_modified_at: Thu Mar  5 21:08:50 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -500,9 +500,168 @@ $$
 \end{eqnarray*}
 $$
 
-## Length / Distance / Velocity / Acceleration
+## Distance / Velocity / Acceleration / Length
 
-(WIP)
+### One-dimensional case
+
+In physics classes,
+we've learned movement of objects
+on a line,
+*i.e.*,
+in one-dimensional line.
+
+Suppose
+the location (or displacement) $d(t)\in\reals$,
+the velocity $v(t)\in\reals$,
+and
+the acceleration $a(t)\in\reals$
+of an (rigid) object (or point mass).
+Then we have
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+v(t)
+	&=&
+		d'(t)
+\\
+	&=&
+		\dfrac{d}{dt} d(t)
+\end{array}
+\end{eqnarray}
+$$
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+a(t)
+	&=&
+		v'(t) = d^{\prime\prime}(t)
+\\
+	&=&
+		\dfrac{d}{dt} v(t) = \dfrac{d^2}{dt^2} d(t)
+\end{array}
+\end{eqnarray}
+$$
+
+Therefore
+
+\begin{equation}
+\label{eq:vel-int-dis-1}
+	d(t) = \int_{t_0}^t v(\tau) d\tau + d(t_0)
+\end{equation}
+
+and
+
+\begin{equation}
+	v(t) = \int_{t_0}^t a(\tau) d\tau + v(t_0)
+\end{equation}
+
+### Two-dimensional case
+
+We can very naturally extend what we did in 1-dimensional line
+to a 2-dimensional plane
+with the concept of a vector
+and its representation using a Cartesian coordinate system.
+
+Let $\vec{d}(t) = (x(t), y(t))\in\reals^2$ be the location of an object in a 2-dimensional space.
+Then the velocity $\vec{v}(t) = (v_x(t), v_y(t))\in\reals^2$ is
+
+\begin{equation}
+(v_x(t), v_y(t))
+	=
+		\dfrac{d}{dt} \vec{d}(t)
+	=
+		\left(
+			\dfrac{d}{dt} x(t),
+			\dfrac{d}{dt} y(t)
+		\right)
+	=
+		(x'(t), y'(t))
+\end{equation}
+
+hence
+
+\begin{equation}
+	v_x(t) = x'(t),\quad
+	v_y(t) = y'(t)
+\end{equation}
+
+and the acceleration $\vec{a}(t) = (a_x(t), a_y(t)) \in\reals^2$ is
+
+\begin{equation}
+(a_x(t), a_y(t))
+	=
+		\frac{d}{dt} \vec{v}(t)
+	=
+		\left(
+			\frac{d}{dt} v_x(t),
+			\frac{d}{dt} v_y(t)
+		\right)
+	=
+		(v_x'(t), v_y'(t))
+\end{equation}
+
+hence
+
+\begin{equation}
+	a_x(t) = v_x'(t) = x^{\prime\prime}(t),\quad
+	a_y(t) = v_y'(t) = y^{\prime\prime}(t)
+\end{equation}
+
+Therefore
+
+\begin{equation}
+	\vec{d}(t) = \int_{t_0}^t \vec{v}(\tau) d\tau + \vec{d}(t_0)
+\end{equation}
+
+or equivalently
+
+\begin{equation}
+	(x(t),y(t)) = \int_{t_0}^t (x(\tau), y(\tau)) d\tau + (x(t_0), y(t_0))
+\end{equation}
+
+hence
+
+\begin{equation}
+	x(t) = \int_{t_0}^t v_x(\tau) d\tau + x(t_0),\;
+	y(t) = \int_{t_0}^t v_y(\tau) d\tau + y(t_0)
+\end{equation}
+
+Also
+
+\begin{equation}
+	\vec{v}(t) = \int_{t_0}^t \vec{a}(\tau) d\tau + \vec{v}(t_0)
+\end{equation}
+
+or equivalently
+
+\begin{equation}
+	(v_x(t),v_y(t)) = \int_{t_0}^t (a_x(\tau), a_y(\tau)) d\tau + (v_x(t_0), v_y(t_0))
+\end{equation}
+
+hence
+
+\begin{equation}
+	v_x(t) = \int_{t_0}^t a_x(\tau) d\tau + v_x(t_0),\;
+	v_y(t) = \int_{t_0}^t a_y(\tau) d\tau + v_y(t_0)
+\end{equation}
+
+This can be also extended to the 3-dimensional case in a similar way.
+
+### Parameterized curve
+
+The length of a curve parameterized by $(x(t),y(t))$ from $t=t_1$ to $t=t_2$ is
+
+\begin{equation}
+\label{eq:vel-int-len}
+	\mathrm{length}
+	=
+	\int_{t_1}^{t_2} \left|\vec{v}(t)\right| dt
+\end{equation}
+
+because this can be thought of an object moving along a 1-dimensional curve,
+hence \eqref{eq:vel-int-dis-1} applies.
 
 ## Area and Volume
 
@@ -1017,6 +1176,7 @@ $$
 	\int_0^{2\pi} |\vec{v}(t)| dt
 $$
 
+by \eqref{eq:vel-int-len}
 where $\vec{v}(t)$ is the velocity vector.
 
 Now the displacement (<i>i.e.,</i> location) vector is given by
