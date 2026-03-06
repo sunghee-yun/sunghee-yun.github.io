@@ -1,5 +1,5 @@
 ---
-last_modified_at: Thu Mar  5 17:01:58 PST 2026
+last_modified_at: Thu Mar  5 17:06:05 PST 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -62,7 +62,6 @@ toc_sticky: true
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<!--strong>Deconstructing a Digital Polymath - Unpacking Sunghee Yun's Interconnected Mind and Multifaceted Journey</strong-->
 			<strong>A Digital Polymath - Unpacking Sunghee's Interconnected Mind and Multifaceted Journey</strong>
 			<span style="opacity: 0.8;">(16:16)</span>
 		</div>
