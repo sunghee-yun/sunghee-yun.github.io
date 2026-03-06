@@ -1,6 +1,6 @@
 ---
 date: Fri Feb 20 17:20:13 PST 2026
-last_modified_at: Tue Mar  3 15:40:21 PST 2026
+last_modified_at: Fri Mar  6 02:50:26 PST 2026
 title: "Shadow Prices and Genuine Understanding - A Journey Through the Soul of Optimization"
 permalink: /prajna/glimpse-of-universal-truths-via-shadow-prices
 categories:
@@ -4587,23 +4587,30 @@ because if it did, the market would clear differently.</span>
 	&nbsp;<a href="#ref2">↩</a></li>
 <li id="footnote3">
 	The proof is amazingly simple!
-	Assume a function $f:X \times Y \to \reals$ and two subsets $A\subset X$ and $B\subset Y$.
-	For each $x\in A$ and $y\in B$, we have
+	Assume a function $f:D \to \reals$.
+	Let
 
 	$$
-		f(x,y) \leq \sup_{y'\in B} f(x,y')
+		X = \{x|(\exists y)((x,y)\in D)\},\;
+		Y = \{y|(\exists x)((x,y)\in D)\}.
 	$$
 
-	thus, for each $y\in B$, we have
+	For each $(x,y)\in D$, we have
 
 	$$
-		\inf_{\tilde{x}\in A} f(\tilde{x},y) \leq \inf_{x'\in A} \sup_{y'\in B} f(x',y')
+		f(x,y) \leq \sup_{y': (x,y')\in D} f(x,y')
+	$$
+
+	thus, for each $y\in Y$, we have
+
+	$$
+		\inf_{\tilde{x}: (\tilde{x},y) \in D} f(\tilde{x},y) \leq \inf_{x'\in X} \sup_{y': (x',y')\in D} f(x',y')
 	$$
 
 	which leads to
 
 	$$
-		\sup_{\tilde{y}\in B} \inf_{\tilde{x}\in A} f(\tilde{x}, \tilde{y}) \leq \inf_{x'\in A} \sup_{y'\in B} f(x',y')
+		\sup_{\tilde{y}\in Y} \inf_{\tilde{x}: (\tilde{x},\tilde{y}) \in D} f(\tilde{x}, \tilde{y}) \leq \inf_{x'\in X} \sup_{y': (x',y')\in D} f(x',y')
 	$$
 
 	hence, the proof!
