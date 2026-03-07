@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Mar  6 02:10:00 PST 2026
+last_modified_at: Fri Mar  6 18:03:51 PST 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -206,7 +206,7 @@ which is mentioned in [here](/contributions/my-entrepreneurial-journey/#cognitiv
 &ndash; first read in ~ 2016
 - [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow){:target="_blank"}
 &ndash; first read in 2016
-- [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War){:target="_blank"}
+- {: #chip-war} [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War){:target="_blank"}
 &ndash; first read in 2024
 - [Four Wise Men - The Lives and Teachings of Confucius, the Buddha, Jesus, and Muhammad - by Mark William Muesse](https://www.google.com/books/edition/Four_Wise_Men/70Q0vgAACAAJ?hl=en){:target="_blank"}
 &ndash; first read in 2024
