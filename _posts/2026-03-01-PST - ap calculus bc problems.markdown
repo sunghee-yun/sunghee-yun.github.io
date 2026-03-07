@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Fri Mar  6 23:58:54 PST 2026
+last_modified_at: Sat Mar  7 01:47:00 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -489,13 +489,54 @@ which (of course) coincides with \eqref{eq:prob-int-by-sub-01}!
 $$
 \begin{eqnarray}
 \label{eq:int-arcsin}
-\int \sin^{-1}(x) dx &=& x \sin^{-1}(x) + \sqrt{1-x^2} + C
+	\int \sin^{-1}(x) dx
+		&=&
+			x \sin^{-1}(x) + \sqrt{1-x^2} + C
 \\
 \label{eq:int-arccos}
-\int \cos^{-1}(x) dx &=& x \cos^{-1}(x) - \sqrt{1-x^2} + C
+	\int \cos^{-1}(x) dx
+		&=&
+			x \cos^{-1}(x) - \sqrt{1-x^2} + C
 \\
 \label{eq:int-arctan}
-\int \tan^{-1}(x) dx &=& x \tan^{-1}(x) - \frac{1}{2} \ln(x^2+1) + C
+	\int \tan^{-1}(x) dx
+		&=&
+			x \tan^{-1}(x) - \frac{1}{2} \ln(x^2+1) + C
+\\
+\label{eq:int-arcsin-a}
+	\int \sin^{-1}(ax) dx
+		&=&
+			x \sin^{-1}(ax) + \frac{\sqrt{1-a^2x^2}}{a} + C
+\\
+\nonumber
+	\int \sin^{-1}(ax)^2 dx
+		&=&
+			-2x + x \sin^{-1}(ax)^2
+\\
+\label{eq:int-arcsin-squared}
+		&&
+			\quad
+			+ \frac{2\sqrt{1-a^2x^2}\sin^{-1}(ax)}{a} + C
+\\
+\label{eq:int-arccos-a}
+	\int \cos^{-1}(ax) dx
+		&=&
+			x \cos^{-1}(ax) - \frac{\sqrt{1-a^2x^2}}{a} + C
+\\
+\nonumber
+	\int \cos^{-1}(ax)^2 dx
+		&=&
+			-2x + x \cos^{-1}(ax)^2
+\\
+\label{eq:int-arccos-squared}
+		&&
+			\quad
+			- \frac{2\sqrt{1-a^2x^2}\cos^{-1}(ax)}{a} + C
+\\
+\label{eq:int-arctan-a}
+	\int \tan^{-1}(ax) dx
+		&=&
+			x \tan^{-1}(ax) - \frac{\ln(a^2x^2+1)}{2a} + C
 \end{eqnarray}
 $$
 
@@ -813,7 +854,7 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
 where $R(x)$ is the radius of the outside of the object and
 $r(x)$ is the radius of the inside of the object
 
-<h4>Shell method for volume calculation</h4>
+<h4><span id="shell-method">Shell method for volume calculation</span></h4>
 
 [<span class="define">Shell integration</span>](https://en.wikipedia.org/wiki/Shell_integration){:target="_blank"}
 (the <span class="define">shell method</span> in integral calculus)
@@ -839,9 +880,23 @@ If the function is of the $y$ coordinate and the axis of rotation is the $x$-axi
 
 <h4>Equilateral Triangle Cross-Sections</h4>
 
-The interactive figure below shows the solid whose cross-sections
-perpendicular to the $x$-axis are *equilateral triangles* with
-side length $s = x^2$, for $x \in [0,2]$.
+<ul>
+<li>
+The solid whose cross-sections
+perpendicular to the $x$-axis are <i>equilateral triangles</i> with
+side length $s = x^2$ for $x \in [0,2]$.
+
+$$
+	V
+	=
+		\frac{\sqrt{3}}{4} \int_{0}^{2} (x^2)^2 dx
+	=
+		\frac{\sqrt{3}}{20} \int_{0}^{2} \left.\left(x^5\right)\right|_{x=0}^2
+	=
+		\frac{8\sqrt{3}}{5}
+	\simeq
+		2.7713
+$$
 
 <div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
@@ -862,7 +917,154 @@ side length $s = x^2$, for $x \in [0,2]$.
     style="display:block;">
   </iframe>
 </div>
+</li>
 
+<li>
+The volume of the solid of revolution obtained
+by rotating about the $x$-axis
+the area under $y = \sin(x)$ from $x = 0$ to $x = \pi/2$.
+
+$$
+\begin{eqnarray*}
+V
+	&=&
+		\int_{0}^{\pi/2} \pi y^2 dx
+	=
+		\pi \int_{0}^{\pi/2} \sin(x)^2 dx
+	=
+		\frac{\pi}{2} \int_{0}^{\pi/2} (1-\cos(2x)) dx
+\\
+	&=&
+		\frac{\pi}{2} \left.\left(x + \frac{1}{2}\sin(2x)\right)\right|_{0}^{\pi/2}
+	=
+		\frac{\pi^2}{4}
+	\simeq
+		2.4674
+\end{eqnarray*}
+$$
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
+  <div style="background-color: #2c3e50; color: white;
+              padding: 10px 16px; font-size: 13px;">
+    <strong>3D Solid of Revolution — y = sin(x) about the x-axis</strong>
+    <span style="opacity:0.7; margin-left:8px; font-size:11px">Drag to rotate</span>
+  </div>
+  <iframe
+	src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/solid-revolution-sinx.html"
+    width="100%" height="520" frameborder="0" loading="lazy"
+    title="Solid of revolution: y=sin(x) rotated about x-axis from 0 to pi/2"
+    style="display:block;">
+  </iframe>
+</div>
+</li>
+
+<li>
+The volume of the solid of revolution obtained
+by rotating about the $y$-axis ($x=0$)
+the region bounded by the $y$-axis and the curve $y = \sin(x)$ from $y = 0$ to $y = 1$.
+
+$$
+\begin{eqnarray*}
+V
+	&=&
+		\int_{0}^{1} \pi x^2 dy
+	=
+		\pi \int_{0}^{1} \sin^{-1}(y)^2 dy
+\\
+	&=&
+		\pi \left.\left(
+			-2y + y \sin^{-1}(y)^2 + 2\sqrt{1-y^2}\sin^{-1}(y)
+			\right)\right|_{y=0}^1
+\\
+	&=&
+		\pi \left(-2+\frac{\pi^2}{4}\right)
+	=
+		\frac{\pi^3}{4} - 2\pi
+	\simeq
+		1.4684
+\end{eqnarray*}
+$$
+where \eqref{eq:int-arcsin-squared} is used.
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
+  <div style="background-color: #2c3e50; color: white;
+              padding: 10px 16px; font-size: 13px;">
+    <strong>3D Solid of Revolution — y = sin(x) rotated about the y-axis</strong>
+    <span style="opacity:0.7; margin-left:8px; font-size:11px">Drag to rotate</span>
+  </div>
+  <iframe
+	src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/solid-revolution-sinx-yaxis.html"
+    width="100%" height="520" frameborder="0" loading="lazy"
+    title="Solid of revolution: region between y-axis and y=sin(x), rotated about y-axis"
+    style="display:block;">
+  </iframe>
+</div>
+</li>
+
+<li>
+The volume of the solid of revolution obtained
+by rotating about the $y$-axis ($x=0$)
+the region bounded by the $y$-axis, $x=\pi/2$, the $x$-axis, and the curve $y = \sin(x)$,
+from $y = 0$ to $y = 1$.
+
+<p>
+<br>
+<span class="emph">Daddy's Solution 1</span>
+
+If we simply use the above result,
+
+$$
+	V
+		=
+			\pi (\pi/2)^2 \cdot 1 - \left( \frac{\pi^3}{4} - 2\pi \right)
+		=
+			2\pi
+$$
+
+Beautifully clean answer!
+</p>
+
+<p>
+<span class="emph">Daddy's Solution 2</span>
+
+Now let's try to use the <a href="#shell-method">shell method</a>
+$$
+\begin{eqnarray*}
+	V
+	&=&
+		2 \pi \int_{0}^{\pi/2} x y \,dx
+	=
+		2 \pi \int_{0}^{\pi/2} x \sin(x) \,dx
+\\
+	&=&
+		2 \pi \left.\left( - x \cos(x)  + \sin(x)\right)\right|_{x=0}^{\pi/2}
+	=
+		2 \pi
+\end{eqnarray*}
+$$
+
+which is almost as simple as the previous one except that we don't need to go through the complicated integration
+using formula such as \eqref{eq:int-arcsin-squared}.
+</p>
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
+  <div style="background-color: #2c3e50; color: white;
+              padding: 10px 16px; font-size: 13px;">
+    <strong>3D Solid of Revolution — washer method, y = sin(x) about the y-axis</strong>
+    <span style="opacity:0.7; margin-left:8px; font-size:11px">Drag to rotate</span>
+  </div>
+  <iframe
+    src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/solid-revolution-washer-yaxis.html"
+    width="100%" height="520" frameborder="0" loading="lazy"
+    title="Solid of revolution: washer method, region under y=sin(x) rotated about y-axis"
+    style="display:block;">
+  </iframe>
+</div>
+</li>
+</ul>
 
 ## Infinite Sequences and Series
 
