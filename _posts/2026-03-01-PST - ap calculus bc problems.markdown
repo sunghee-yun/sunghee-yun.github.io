@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 12:55:33 PST 2026
+last_modified_at: Sat Mar  7 14:34:47 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -136,6 +136,30 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 \label{eq:chain-rule}
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
+
+We can recursively apply this to derive,
+*e.g.*, the following rules.
+
+\begin{equation}
+\label{eq:chain-rule-3}
+\frac{d}{dx} f(g(h(x))) = f'(g(h(x))) g'(h(x)) h'(x)
+\end{equation}
+
+\begin{equation}
+\label{eq:chain-rule-4}
+\frac{d}{dx} f(g(h(p(x)))) = f'(g(h(p(x)))) g'(h(p(x))) h'(p(x)) p'(x)
+\end{equation}
+
+$$
+\begin{eqnarray}
+\label{eq:chain-rule-5}
+\begin{array}{l}
+\dfrac{d}{dx} f(g(h(p(q(x)))))
+\\
+= f'(g(h(p(q(x))))) g'(h(p(q(x)))) h'(p(q(x))) p'(q(x)) q'(x)
+\end{array}
+\end{eqnarray}
+$$
 
 ### Basic properties {#differentiation-basic-properties}
 
