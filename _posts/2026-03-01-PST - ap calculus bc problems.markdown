@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 03:01:25 PST 2026
+last_modified_at: Sat Mar  7 03:26:43 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -1089,7 +1089,7 @@ A = \int_a^b \left|f(x) - g(x)\right| dx
 A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
 \end{equation}
 
-**The area between two polar curves**
+<h4>The area between two polar curves</h4>
 
 \begin{equation}
 A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
@@ -1112,7 +1112,8 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
 where $R(x)$ is the radius of the outside of the object and
 $r(x)$ is the radius of the inside of the object
 
-<h4><span id="shell-method">Shell method for volume calculation</span></h4>
+<span id="shell-method"></span>
+<h4>Shell method for volume calculation</h4>
 
 [<span class="define">Shell integration</span>](https://en.wikipedia.org/wiki/Shell_integration){:target="_blank"}
 (the <span class="define">shell method</span> in integral calculus)
