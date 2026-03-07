@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Fri Mar  6 18:30:21 PST 2026
+last_modified_at: Fri Mar  6 18:33:37 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -34,7 +34,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(18:48)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+			<audio id="podcast-audio-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/An_AI_Expert's_Calculus_Guide_For_Beth.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -43,10 +43,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>An AI Expert's Calculus Blueprint for Beth</strong>
-			<span style="opacity: 0.8;">(20:56)</span>
+			<span style="opacity: 0.8;">(20:55)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+			<audio id="podcast-audio-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/An_AI_Expert_s_Calculus_Blueprint_for_Beth.m4a">
 				Your browser does not support this audio element.
 			</audio>
