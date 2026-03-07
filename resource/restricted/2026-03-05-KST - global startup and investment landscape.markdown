@@ -1,6 +1,6 @@
 ---
 date: Thu Mar  5 16:42:39 PST 2026
-last_modified_at: Sat Mar  7 03:39:25 PST 2026
+last_modified_at: Sat Mar  7 04:07:18 PST 2026
 layout: single
 #title: "&ldquo;지원 중심 한국, 성과 중심 미국&rdquo;&hellip; 글로벌 창업가가 본 투자 생태계 차이"
 title: "&ldquo;정부 주도 vs 시장 검증&rdquo;&hellip; 한미 스타트업 생태계의 서로 다른 길"
@@ -40,7 +40,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(49:49)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Deep Dive - The_US_Korea_Hybrid_Biotech_Playbook.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -52,7 +52,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(34:26)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Deep Dive - Bridging_Korean_Execution_and_American_Risk.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -67,7 +67,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(22:44)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Deep Dive - Winning_with_US_South_Korean_Structural_Arbitrage.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -79,7 +79,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(21:01)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Deep Dive - Hacking_the_US_and_Korean_Startup_Ecosystems.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -94,7 +94,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(21:56)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Debate - Silicon_Valley_Capital_Versus_Korean_Infrastructure.m4a">
 				Your browser does not support this audio element.
 			</audio>
@@ -106,7 +106,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			<span style="opacity: 0.8;">(19:11)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-05-KST - global startup and investment landscape/Debate - US_Venture_Capital_versus_South_Korean_Biotech.m4a">
 				Your browser does not support this audio element.
 			</audio>
