@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Fri Mar  6 18:33:37 PST 2026
+last_modified_at: Fri Mar  6 18:51:35 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -48,6 +48,60 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		<div style="padding: 10px; background-color: #ecf0f1;">
 			<audio id="podcast-audio-02" controls style="width: 100%;">
 				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/An_AI_Expert_s_Calculus_Blueprint_for_Beth.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>A CTO's Fatherly Guide to Calculus</strong>
+			<span style="opacity: 0.8;">(35:44)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/A_CTO_s_fatherly_guide_to_calculus.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>A CTO's Calculus Guide for Beth</strong>
+			<span style="opacity: 0.8;">(49:30)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/A_CTO_s_calculus_guide_for_Beth.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>An AI Expert's Calculus Guide for Beth</strong>
+			<span style="opacity: 0.8;">(41:31)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/An_AI_Expert_s_Calculus_Guide_for_Beth.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Applied Modeling Versus Pure Mathematical Rigor</strong>
+			<span style="opacity: 0.8;">(20:11)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https:/workspace/sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/Debate - Applied_Modeling_Versus_Pure_Mathematical_Rigor.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
