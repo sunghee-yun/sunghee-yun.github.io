@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 12:21:49 PST 2026
+last_modified_at: Sat Mar  7 12:55:33 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -363,6 +363,355 @@ With $a = 0$, the <span class="define">Maclaurin series</span> takes the form
 	+ \frac{f^{\prime\prime}(0)}{2!}x^2
 	+ \cdots
 \end{equation}
+
+#### Interactive visualization
+
+Watch how each successive Taylor term *sculpts* the approximation closer and closer to the true curve.
+Drag the **order** slider to add terms one by one, and drag the **center** slider to move the expansion point $a$.
+Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only converges for $|x| \le 1$!
+
+<div id="taylor-viz" style="background:linear-gradient(135deg,#0f172a,#1a1040,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#34d399;text-transform:uppercase;margin-bottom:6px;">Taylor / Maclaurin Series</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Polynomial Approximation</div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">Adding one term at a time — watch the polynomial curve hug the function</div>
+  </div>
+
+  <!-- Function selector -->
+  <div style="display:flex;gap:8px;margin-bottom:14px;justify-content:center;flex-wrap:wrap;" id="taylor-fnbtns"></div>
+
+  <canvas id="taylor-canvas" style="width:100%;display:block;border-radius:8px;background:#0a0f1e;"></canvas>
+
+  <!-- Formula display -->
+  <div id="taylor-formula" style="background:rgba(20,30,60,.7);border:1px solid rgba(52,211,153,.3);border-radius:10px;padding:12px 16px;margin:14px 0;text-align:center;font-size:13px;color:#f1f5f9;min-height:44px;line-height:1.7;box-shadow:0 0 16px rgba(52,211,153,.1);"></div>
+
+  <!-- Order slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:90px;font-style:italic;" id="taylor-orderlabel">order = 0</span>
+    <input id="taylor-slider" type="range" min="0" max="30" value="0" style="flex:1;accent-color:#34d399;" />
+    <span style="color:#64748b;font-size:11px;min-width:60px;text-align:right;">higher → better</span>
+  </div>
+
+  <!-- Center slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:90px;font-style:italic;" id="taylor-centerlabel">a = 0</span>
+    <input id="taylor-cslider" type="range" min="-200" max="200" value="0" style="flex:1;accent-color:#fb923c;" />
+    <span style="color:#64748b;font-size:11px;min-width:60px;text-align:right;">move center</span>
+  </div>
+
+  <!-- Stats row -->
+  <div style="display:flex;gap:10px;" id="taylor-stats"></div>
+  <div style="text-align:center;margin-top:12px;font-size:11px;color:#475569;">
+    Green = true function &nbsp;|&nbsp; Orange = Taylor approximation &nbsp;|&nbsp; Orange dot = expansion point <em>a</em>
+  </div>
+</div>
+
+<script>
+(function(){
+  // ── function definitions ──────────────────────────────────────────────
+  var FNS = {
+    "sin x": {
+      f: function(x){ return Math.sin(x); },
+      // coefficients of Maclaurin: sin x = x - x³/3! + x⁵/5! - ...
+      coeff: function(n, a){
+        // General Taylor: sum f^(n)(a)/n! * (x-a)^n
+        // We'll compute numerically
+        return null; // use numerical differentiation
+      },
+      label: "sin(x)",
+      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5
+    },
+    "cos x": {
+      f: function(x){ return Math.cos(x); },
+      label: "cos(x)",
+      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5
+    },
+    "eˣ": {
+      f: function(x){ return Math.exp(x); },
+      label: "eˣ",
+      xmin: -3, xmax: 3, ymin: -1, ymax: 12
+    },
+    "ln(1+x)": {
+      f: function(x){ return (x > -1) ? Math.log(1+x) : NaN; },
+      label: "ln(1+x)",
+      xmin: -1.5, xmax: 3, ymin: -3, ymax: 3
+    }
+  };
+  var FN_KEYS = Object.keys(FNS);
+  var curFn = "sin x";
+  var curOrder = 0;
+  var curA = 0;
+
+  var PAD = {top:28, right:28, bottom:44, left:52};
+  var W, H;
+  var canvas = document.getElementById("taylor-canvas");
+
+  function factorial(n){ var r=1; for(var i=2;i<=n;i++) r*=i; return r; }
+
+  // ── Exact analytical nth derivative at point a for each function ──────
+  // Returns f^(n)(a) exactly — no numerical error.
+  function exactDeriv(fn, n, a) {
+    if(fn === "eˣ") {
+      // d^n/dx^n e^x = e^x
+      return Math.exp(a);
+    }
+    if(fn === "sin x") {
+      // cycle: sin, cos, -sin, -cos, sin, ...
+      var cycle = n % 4;
+      if(cycle === 0) return  Math.sin(a);
+      if(cycle === 1) return  Math.cos(a);
+      if(cycle === 2) return -Math.sin(a);
+                      return -Math.cos(a);
+    }
+    if(fn === "cos x") {
+      // cycle: cos, -sin, -cos, sin, cos, ...
+      var cycle = n % 4;
+      if(cycle === 0) return  Math.cos(a);
+      if(cycle === 1) return -Math.sin(a);
+      if(cycle === 2) return -Math.cos(a);
+                      return  Math.sin(a);
+    }
+    if(fn === "ln(1+x)") {
+      // f(x)   = ln(1+x),  f^(0)(a) = ln(1+a)
+      // f^(n)(x) = (-1)^(n+1) * (n-1)! / (1+x)^n  for n >= 1
+      if(a <= -1) return NaN;
+      if(n === 0) return Math.log(1 + a);
+      var sign = (n % 2 === 1) ? 1 : -1;
+      return sign * factorial(n - 1) / Math.pow(1 + a, n);
+    }
+    return NaN;
+  }
+
+  // Evaluate Taylor polynomial of given order centered at a
+  function taylorVal(fn, order, a, x) {
+    var sum = 0;
+    for(var n=0; n<=order; n++){
+      var dn = exactDeriv(fn, n, a);
+      if(!isFinite(dn)) return NaN;
+      sum += dn / factorial(n) * Math.pow(x - a, n);
+    }
+    return sum;
+  }
+
+  // ── Canvas helpers ────────────────────────────────────────────────────
+  function toC(x, y, xmin, xmax, ymin, ymax){
+    var cx = PAD.left + (x - xmin)/(xmax - xmin)*(W - PAD.left - PAD.right);
+    var cy = H - PAD.bottom - (y - ymin)/(ymax - ymin)*(H - PAD.top - PAD.bottom);
+    return [cx, cy];
+  }
+
+  function resize(){
+    var cont = document.getElementById("taylor-viz");
+    W = cont.clientWidth - 48;
+    H = Math.round(W * 0.52);
+    canvas.width = W; canvas.height = H;
+    draw();
+  }
+
+  // ── Build term label for formula display ─────────────────────────────
+  function termStr(n, a, dn) {
+    if(!isFinite(dn) || Math.abs(dn) < 1e-10) return null;
+    var coef = dn / factorial(n);
+    var sign = coef >= 0 ? "+" : "−";
+    var absCoef = Math.abs(coef);
+    var coefStr = absCoef.toFixed(3).replace(/\.?0+$/, "");
+    if(coefStr === "1" && n > 0) coefStr = "";
+    var xpart = n === 0 ? "" : n === 1 ? (a===0?"x":"(x−"+a.toFixed(1)+")") : (a===0?"x":"(x−"+a.toFixed(1)+")")+"<sup>"+n+"</sup>";
+    return sign + " " + coefStr + xpart;
+  }
+
+  function updateFormula(){
+    var terms = [];
+    for(var n=0; n<=curOrder; n++){
+      var dn = exactDeriv(curFn, n, curA);
+      var s = termStr(n, curA, dn);
+      if(s) terms.push(s);
+    }
+    var str = terms.join(" ").replace(/^\+\s*/,"");
+    var order_names = ["0th","1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","17th","18th","19th","20th","21st","22nd","23rd","24th","25th","26th","27th","28th","29th","30th"];
+    document.getElementById("taylor-formula").innerHTML =
+      '<span style="color:#94a3b8;font-size:12px;">'+order_names[curOrder]+'-order approx:&nbsp;&nbsp;</span>'
+      +'<span style="color:#fb923c;">T<sub>'+curOrder+'</sub>(x) = '+str+'</span>';
+  }
+
+  // ── Max error in visible window ───────────────────────────────────────
+  function maxError(){
+    var cfg = FNS[curFn];
+    var f = cfg.f;
+    var worst = 0;
+    var steps = 80;
+    for(var i=0;i<=steps;i++){
+      var x = cfg.xmin + i/steps*(cfg.xmax - cfg.xmin);
+      var tv = taylorVal(curFn, curOrder, curA, x);
+      var fv = f(x);
+      if(isFinite(tv) && isFinite(fv)){
+        var err = Math.abs(tv - fv);
+        if(err > worst) worst = err;
+      }
+    }
+    return worst;
+  }
+
+  // ── Main draw ─────────────────────────────────────────────────────────
+  function draw(){
+    var ctx = canvas.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    var cfg = FNS[curFn];
+    var xmin=cfg.xmin, xmax=cfg.xmax, ymin=cfg.ymin, ymax=cfg.ymax;
+    var f = cfg.f;
+    var steps = 500;
+
+    // Grid
+    ctx.strokeStyle = "rgba(148,163,184,.12)"; ctx.lineWidth = 1;
+    var yStep = (ymax-ymin) > 8 ? 2 : 1;
+    for(var y=Math.ceil(ymin); y<=Math.floor(ymax); y+=yStep){
+      var gy = toC(0,y,xmin,xmax,ymin,ymax)[1];
+      ctx.beginPath(); ctx.moveTo(PAD.left,gy); ctx.lineTo(W-PAD.right,gy); ctx.stroke();
+    }
+    var xStep = (xmax-xmin) > 8 ? 2 : 1;
+    for(var x=Math.ceil(xmin); x<=Math.floor(xmax); x+=xStep){
+      var gx = toC(x,0,xmin,xmax,ymin,ymax)[0];
+      ctx.beginPath(); ctx.moveTo(gx,PAD.top); ctx.lineTo(gx,H-PAD.bottom); ctx.stroke();
+    }
+
+    // Axes
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.5;
+    var ax0=toC(xmin,0,xmin,xmax,ymin,ymax), ax1=toC(xmax,0,xmin,xmax,ymin,ymax);
+    var ay0=toC(0,ymin,xmin,xmax,ymin,ymax), ay1=toC(0,ymax,xmin,xmax,ymin,ymax);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0]+8,ax1[1]); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(ay0[0],ay0[1]); ctx.lineTo(ay1[0],ay1[1]-8); ctx.stroke();
+    // arrowheads
+    ctx.fillStyle="#475569";
+    ctx.beginPath(); ctx.moveTo(ax1[0]+8,ax1[1]-4); ctx.lineTo(ax1[0]+15,ax1[1]); ctx.lineTo(ax1[0]+8,ax1[1]+4); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(ay1[0]-4,ay1[1]-8); ctx.lineTo(ay1[0],ay1[1]-15); ctx.lineTo(ay1[0]+4,ay1[1]-8); ctx.fill();
+
+    // Tick labels
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b";
+    for(var xi=Math.ceil(xmin); xi<=Math.floor(xmax); xi+=xStep){
+      if(xi===0) continue;
+      var tp=toC(xi,0,xmin,xmax,ymin,ymax);
+      ctx.textAlign="center"; ctx.fillText(xi===Math.PI?"π":xi===-Math.PI?"-π":(xi===2*Math.PI?"2π":xi===-2*Math.PI?"-2π":xi), tp[0], tp[1]+14);
+    }
+    for(var yi=Math.ceil(ymin); yi<=Math.floor(ymax); yi+=yStep){
+      if(yi===0) continue;
+      var tp2=toC(0,yi,xmin,xmax,ymin,ymax);
+      ctx.textAlign="right"; ctx.fillText(yi, tp2[0]-6, tp2[1]+4);
+    }
+    ctx.textAlign="center"; ctx.fillStyle="#64748b";
+    ctx.fillText("x", ax1[0]+18, ax1[1]+4);
+    ctx.textAlign="left"; ctx.fillText("y", ay1[0]+5, ay1[1]-16);
+
+    // True function (green)
+    ctx.strokeStyle="#4ade80"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(74,222,128,.4)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    var started=false;
+    for(var i=0;i<=steps;i++){
+      var xv=xmin+i/steps*(xmax-xmin);
+      var yv=f(xv);
+      if(!isFinite(yv)||yv<ymin-5||yv>ymax+5){ started=false; continue; }
+      var p=toC(xv,yv,xmin,xmax,ymin,ymax);
+      started?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); started=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // Taylor approximation (orange)
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(251,146,60,.4)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    var tstarted=false;
+    for(var i=0;i<=steps;i++){
+      var xv=xmin+i/steps*(xmax-xmin);
+      var tv=taylorVal(curFn,curOrder,curA,xv);
+      if(!isFinite(tv)||tv<ymin-8||tv>ymax+8){ tstarted=false; continue; }
+      var p=toC(xv,tv,xmin,xmax,ymin,ymax);
+      tstarted?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); tstarted=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // Expansion point dot
+    var aVal = curA;
+    var faVal = f(aVal);
+    if(isFinite(faVal)){
+      var ap=toC(aVal,faVal,xmin,xmax,ymin,ymax);
+      ctx.fillStyle="#fb923c";
+      ctx.shadowColor="rgba(251,146,60,.8)"; ctx.shadowBlur=10;
+      ctx.beginPath(); ctx.arc(ap[0],ap[1],6,0,Math.PI*2); ctx.fill();
+      ctx.shadowBlur=0;
+      // label
+      ctx.fillStyle="#fb923c"; ctx.font="12px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText("a="+aVal.toFixed(1), ap[0]+9, ap[1]-6);
+    }
+
+    // f(x) label
+    var labelX=xmin+(xmax-xmin)*0.72;
+    var labelY=f(labelX);
+    if(isFinite(labelY)){
+      var lp=toC(labelX,labelY,xmin,xmax,ymin,ymax);
+      ctx.fillStyle="#4ade80"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText(cfg.label, lp[0]+6, lp[1]-8);
+    }
+
+    // Stats
+    var err=maxError();
+    var errCol=err<0.01?"#4ade80":err<0.5?"#fbbf24":"#f87171";
+    var order_names=["0th","1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","17th","18th","19th","20th","21st","22nd","23rd","24th","25th","26th","27th","28th","29th","30th"];
+    document.getElementById("taylor-stats").innerHTML=[
+      ["Function", cfg.label, "#4ade80"],
+      ["Order", order_names[curOrder], "#fb923c"],
+      ["Max error", err<1e-6?"≈ 0":err.toFixed(4), errCol]
+    ].map(function(d){
+      return '<div style="flex:1;background:rgba(10,15,30,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
+        +'<div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">'+d[0]+'</div>'
+        +'<div style="font-size:16px;color:'+d[2]+';font-family:monospace;">'+d[1]+'</div></div>';
+    }).join("");
+
+    updateFormula();
+  }
+
+  // ── Function buttons ──────────────────────────────────────────────────
+  var btnC = document.getElementById("taylor-fnbtns");
+  FN_KEYS.forEach(function(k){
+    var btn=document.createElement("button");
+    btn.id="taylor-fnbtn-"+k;
+    btn.textContent=k;
+    function styleAll(){
+      FN_KEYS.forEach(function(kk){
+        var b=document.getElementById("taylor-fnbtn-"+kk);
+        if(!b) return;
+        if(kk===curFn){
+          b.style.cssText="padding:6px 14px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.2);color:#34d399;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;";
+        } else {
+          b.style.cssText="padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+        }
+      });
+    }
+    btn.addEventListener("click",function(){ curFn=k; curOrder=0; document.getElementById("taylor-slider").value=0; document.getElementById("taylor-orderlabel").textContent="order = 0"; styleAll(); draw(); });
+    btnC.appendChild(btn);
+    // initial style
+    btn.style.cssText=k===curFn
+      ?"padding:6px 14px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.2);color:#34d399;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+      :"padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+  });
+
+  // ── Sliders ───────────────────────────────────────────────────────────
+  document.getElementById("taylor-slider").addEventListener("input",function(){
+    curOrder=+this.value;
+    var names=["0th","1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th"];
+    document.getElementById("taylor-orderlabel").textContent="order = "+curOrder+" ("+names[curOrder]+")";
+    draw();
+  });
+  document.getElementById("taylor-cslider").addEventListener("input",function(){
+    curA=+this.value/100;
+    document.getElementById("taylor-centerlabel").textContent="a = "+curA.toFixed(2);
+    draw();
+  });
+
+  window.addEventListener("resize",resize);
+  resize();
+})();
+</script>
+
 
 <h4>Examples</h4>
 
