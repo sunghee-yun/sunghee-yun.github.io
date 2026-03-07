@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 01:47:00 PST 2026
+last_modified_at: Sat Mar  7 03:01:25 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -413,13 +413,12 @@ More formula can be found [here](https://en.wikipedia.org/wiki/Inverse_trigonome
 
 ## Integration / Integral
 
-<!--
 ### Riemann integral
 
-The <span class="define">Riemann integral</span>,
+The [<span class="define">Riemann integral</span>](https://en.wikipedia.org/wiki/Riemann_integral){:target="_blank"},
 created by [Bernhard Riemann](https://en.wikipedia.org/wiki/Bernhard_Riemann){:target="_blank"},
 was the first rigorous definition of the integral of a function on an interval.
-It was presented to the faculty at the University of Göttingen in 1854,
+It was presented to the faculty at the [University of Göttingen](https://en.wikipedia.org/wiki/University_of_G%C3%B6ttingen){:target="_blank"} in 1854,
 but not published in a journal until 1868.
 
 For many functions and practical applications,
@@ -427,7 +426,266 @@ the Riemann integral can be evaluated by
 the [{{ page.sections.fundamental-theorem-of-calculus }}](#fundamental-theorem-of-calculus)
 or approximated by [numerical integration](https://en.wikipedia.org/wiki/Numerical_integration){:target="_blank"},
 or simulated using [Monte Carlo integration](https://en.wikipedia.org/wiki/Monte_Carlo_integration){:target="_blank"}.
--->
+
+<h4>The big idea - slicing areas into rectangles</h4>
+
+Imagine you want to find the area under a curve $f(x)$ between $x = a$ and $x = b$.
+The key idea is simple
+
+> slice the interval $[a, b]$ into $n$ thin vertical strips, approximate each strip as a rectangle, and add up all the rectangle areas!
+
+As you use more and more slices (i.e., as $n \to \infty$), the approximation gets better and better — and in the limit, it becomes exact.
+That limit is precisely the <span class="define">definite integral</span>!
+
+$$
+\int_a^b f(x)\, dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i) \cdot \Delta x
+$$
+
+where $\Delta x = \dfrac{b-a}{n}$ is the width of each slice,
+and $x_i$ is any chosen point inside the $i$-th slice.
+The sum $\displaystyle\sum_{i=1}^{n} f(x_i) \cdot \Delta x$ is called a
+[<span class="define">Riemann sum</span>](https://en.wikipedia.org/wiki/Riemann_integral#Riemann_sum){:target="_blank"}.
+
+### Four practical approximation methods (AP exam favorites!)
+
+Depending on *where* you pick $x_i$ inside each slice, you get different approximation methods.
+The AP Calculus BC exam tests all four of these.
+
+| Method | Where $x_i$ is chosen | Character |
+|---|---|---|
+| **Left Riemann sum** | Left endpoint of each slice | Underestimates if $f$ is increasing; overestimates if decreasing |
+| **Right Riemann sum** | Right endpoint of each slice | Overestimates if $f$ is increasing; underestimates if decreasing |
+| **Midpoint rule** | Midpoint of each slice | Generally more accurate than left or right |
+| **Trapezoidal rule** | Uses trapezoids instead of rectangles | Exact for linear $f$; see formula below |
+
+The <span class="emph">trapezoidal rule</span> replaces each rectangle with a trapezoid
+whose two parallel sides are $f(x_{i-1})$ and $f(x_i)$.
+This gives:
+
+\begin{equation}
+\label{eq:trapezoidal-rule}
+	\frac{\Delta x}{2} \left( f(x_0) + 2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_n) \right)
+\end{equation}
+
+Note that the first and last terms have coefficient $1$, while all interior terms have coefficient $2$.
+Refer to [LibreTexts - Numerical Integration - Midpoint, Trapezoid, Simpson's rule](https://math.libretexts.org/Courses/Mount_Royal_University/Calculus_for_Scientists_II/2%3A_Techniques_of_Integration/2.5%3A_Numerical_Integration_-_Midpoint%2C_Trapezoid%2C_Simpson's_rule){:target="_blank"}
+for more details.
+
+<h4>Over- or underestimate? It depends on concavity!</h4>
+
+A key AP exam question type asks - *"Is this approximation an overestimate or underestimate?"*
+The answer depends on the **concavity** of $f$ on the interval:
+
+- If $f$ is <span class="emph">concave up</span> ($f'' > 0$): the trapezoidal rule **overestimates**, and the midpoint rule **underestimates**.
+- If $f$ is <span class="emph">concave down</span> ($f'' < 0$): the trapezoidal rule **underestimates**, and the midpoint rule **overestimates**.
+
+For left/right Riemann sums, the over/underestimate depends on whether $f$ is increasing or decreasing (as shown in the table above).
+
+#### Interactive visualization
+
+Try it yourself, Beth! Drag the slider to increase $n$ and watch how the rectangles converge to the exact area.
+Toggle between methods to see Left, Right, Midpoint, and Trapezoidal approximations.
+
+<div id="riemann-viz" style="background:linear-gradient(135deg,#0f172a,#1e1b4b,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#818cf8;text-transform:uppercase;margin-bottom:6px;">Riemann Integration</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Area Under a Curve</div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">Slice into rectangles → sum up → take the limit as n → ∞</div>
+  </div>
+  <canvas id="riemann-canvas" style="width:100%;display:block;border-radius:8px;background:#0f172a;"></canvas>
+  <div id="riemann-formula" style="background:rgba(30,27,75,.6);border-radius:10px;padding:12px;margin:14px 0;text-align:center;font-size:14px;color:#f1f5f9;">
+    S<sub>n</sub> = Σ f(x*<sub>i</sub>) · Δx &nbsp;→&nbsp; ∫<sub>a</sub><sup>b</sup> f(x) dx
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:14px;justify-content:center;flex-wrap:wrap;" id="riemann-btns"></div>
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span id="riemann-nlabel" style="color:#94a3b8;font-size:13px;min-width:72px;font-style:italic;">n = 6 slices</span>
+    <input id="riemann-slider" type="range" min="1" max="50" value="6" style="flex:1;accent-color:#818cf8;" />
+    <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">n → ∞ for exact</span>
+  </div>
+  <div style="display:flex;gap:10px;" id="riemann-stats"></div>
+  <div style="text-align:center;margin-top:12px;font-size:11px;color:#475569;">Drag the slider — more slices → smaller error → exact integral</div>
+</div>
+
+<script>
+(function(){
+  var A=0.5, B=5.5;
+  function f(x){ return 0.6*Math.sin(x-0.5)*x+1.8; }
+  var METHODS=["left","right","midpoint","trapezoid"];
+  var LABELS={left:"Left",right:"Right",midpoint:"Midpoint",trapezoid:"Trapezoid"};
+  var COLORS={
+    left:  {fill:"rgba(96,165,250,.35)", stroke:"#3b82f6"},
+    right: {fill:"rgba(52,211,153,.35)", stroke:"#10b981"},
+    midpoint:{fill:"rgba(251,191,36,.35)",stroke:"#f59e0b"},
+    trapezoid:{fill:"rgba(232,121,249,.35)",stroke:"#d946ef"}
+  };
+  var PAD={top:28,right:28,bottom:44,left:48};
+  var yMin=0, yMax=5.5;
+  var curMethod="left", curN=6;
+
+  // True integral via Simpson
+  function trueVal(){
+    var n=1000,dx=(B-A)/n,s=f(A)+f(B);
+    for(var i=1;i<n;i++) s+=(i%2===0?2:4)*f(A+i*dx);
+    return dx/3*s;
+  }
+  var TRUE=trueVal();
+
+  function rSum(method,n){
+    var dx=(B-A)/n,s=0;
+    for(var i=0;i<n;i++){
+      var x0=A+i*dx,x1=x0+dx;
+      if(method==="left") s+=f(x0)*dx;
+      else if(method==="right") s+=f(x1)*dx;
+      else if(method==="midpoint") s+=f((x0+x1)/2)*dx;
+      else s+=(f(x0)+f(x1))/2*dx;
+    }
+    return s;
+  }
+
+  var canvas=document.getElementById("riemann-canvas");
+  var W,H;
+  function resize(){
+    var cont=document.getElementById("riemann-viz");
+    W=cont.clientWidth-48; H=Math.round(W*0.52);
+    canvas.width=W; canvas.height=H;
+    draw();
+  }
+
+  function toC(x,y){
+    var cx=PAD.left+(x-A)/(B-A)*(W-PAD.left-PAD.right);
+    var cy=H-PAD.bottom-(y-yMin)/(yMax-yMin)*(H-PAD.top-PAD.bottom);
+    return [cx,cy];
+  }
+
+  function draw(){
+    var ctx=canvas.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    var n=curN, method=curMethod, col=COLORS[method];
+    var dx=(B-A)/n;
+    var baseY=toC(A,0)[1];
+
+    // rectangles / trapezoids
+    for(var i=0;i<n;i++){
+      var x0=A+i*dx,x1=x0+dx;
+      var cx0=toC(x0,0)[0],cx1=toC(x1,0)[0];
+      ctx.fillStyle=col.fill; ctx.strokeStyle=col.stroke; ctx.lineWidth=1.5;
+      if(method!=="trapezoid"){
+        var xs=method==="left"?x0:method==="right"?x1:(x0+x1)/2;
+        var cyT=toC(x0,f(xs))[1];
+        ctx.beginPath(); ctx.rect(cx0,cyT,cx1-cx0,baseY-cyT); ctx.fill(); ctx.stroke();
+        var cxs=toC(xs,0)[0], cys=toC(xs,f(xs))[1];
+        ctx.fillStyle=col.stroke; ctx.beginPath(); ctx.arc(cxs,cys,3,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle=col.fill;
+      } else {
+        var cyL=toC(x0,f(x0))[1],cyR=toC(x1,f(x1))[1];
+        ctx.beginPath(); ctx.moveTo(cx0,baseY); ctx.lineTo(cx0,cyL); ctx.lineTo(cx1,cyR); ctx.lineTo(cx1,baseY); ctx.closePath(); ctx.fill(); ctx.stroke();
+      }
+    }
+
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.15)"; ctx.lineWidth=1;
+    for(var y=1;y<=5;y++){ var gy=toC(A,y)[1]; ctx.beginPath(); ctx.moveTo(PAD.left,gy); ctx.lineTo(W-PAD.right,gy); ctx.stroke(); }
+
+    // axes
+    ctx.strokeStyle="#94a3b8"; ctx.lineWidth=1.5;
+    var cxA=toC(A,0)[0],cxB=toC(B,0)[0];
+    ctx.beginPath(); ctx.moveTo(cxA,baseY); ctx.lineTo(cxB+10,baseY); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cxA,baseY); ctx.lineTo(cxA,PAD.top-8); ctx.stroke();
+    ctx.fillStyle="#94a3b8";
+    ctx.beginPath(); ctx.moveTo(cxB+10,baseY-4); ctx.lineTo(cxB+17,baseY); ctx.lineTo(cxB+10,baseY+4); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(cxA-4,PAD.top-8); ctx.lineTo(cxA,PAD.top-15); ctx.lineTo(cxA+4,PAD.top-8); ctx.fill();
+    ctx.font="12px Georgia,serif"; ctx.textAlign="center"; ctx.fillText("x",cxB+21,baseY+4);
+    ctx.textAlign="left"; ctx.fillText("y",cxA+5,PAD.top-16);
+
+    // ticks
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b";
+    for(var xi=Math.ceil(A);xi<=Math.floor(B);xi++){
+      var tc=toC(xi,0); ctx.strokeStyle="#94a3b8"; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(tc[0],tc[1]); ctx.lineTo(tc[0],tc[1]+4); ctx.stroke();
+      ctx.textAlign="center"; ctx.fillText(xi,tc[0],tc[1]+14);
+    }
+    ctx.textAlign="right";
+    for(var yi=1;yi<=5;yi++){
+      var tc2=toC(A,yi); ctx.strokeStyle="#94a3b8"; ctx.lineWidth=1;
+      ctx.beginPath(); ctx.moveTo(tc2[0]-3,tc2[1]); ctx.lineTo(tc2[0],tc2[1]); ctx.stroke();
+      ctx.fillText(yi,tc2[0]-6,tc2[1]+4);
+    }
+
+    // curve
+    ctx.strokeStyle="#f8fafc"; ctx.lineWidth=2.5; ctx.shadowColor="rgba(248,250,252,.4)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var si=0;si<=400;si++){
+      var xv=A+(si/400)*(B-A), cv=toC(xv,f(xv));
+      si===0?ctx.moveTo(cv[0],cv[1]):ctx.lineTo(cv[0],cv[1]);
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // f(x) label
+    var lp=toC(4.0,f(4.0)); ctx.fillStyle="#f8fafc"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left"; ctx.fillText("y = f(x)",lp[0]+6,lp[1]-8);
+
+    // update stats
+    var approx=rSum(method,n);
+    var err=(approx-TRUE)/TRUE*100;
+    var errCol=Math.abs(err)<1?"#4ade80":Math.abs(err)<5?"#fbbf24":"#f87171";
+    var stats=document.getElementById("riemann-stats");
+    stats.innerHTML=[
+      ["Approximation",approx.toFixed(5),COLORS[method].stroke],
+      ["True Value",TRUE.toFixed(5),"#94a3b8"],
+      ["Error",(err>0?"+":"")+err.toFixed(2)+"%",errCol]
+    ].map(function(d){
+      return '<div style="flex:1;background:rgba(15,23,42,.6);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
+        +'<div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">'+d[0]+'</div>'
+        +'<div style="font-size:16px;color:'+d[2]+';font-family:monospace;">'+d[1]+'</div></div>';
+    }).join("");
+
+    // update formula border color
+    document.getElementById("riemann-formula").style.borderColor=COLORS[method].stroke+"55";
+    document.getElementById("riemann-formula").style.boxShadow="0 0 16px "+COLORS[method].stroke+"22";
+  }
+
+  // Build buttons
+  var btnContainer=document.getElementById("riemann-btns");
+  METHODS.forEach(function(m){
+    var btn=document.createElement("button");
+    btn.id="riemann-btn-"+m;
+    btn.textContent=LABELS[m];
+    btn.style.cssText="padding:6px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-family:Georgia,serif;transition:all .2s;";
+    function styleBtn(){
+      if(curMethod===m){
+        btn.style.border="2px solid "+COLORS[m].stroke;
+        btn.style.background=COLORS[m].fill;
+        btn.style.color=COLORS[m].stroke;
+        btn.style.fontWeight="bold";
+      } else {
+        btn.style.border="2px solid rgba(148,163,184,.2)";
+        btn.style.background="rgba(15,23,42,.5)";
+        btn.style.color="#94a3b8";
+        btn.style.fontWeight="normal";
+      }
+    }
+    btn.addEventListener("click",function(){
+      curMethod=m;
+      METHODS.forEach(function(mm){ document.getElementById("riemann-btn-"+mm) && (function(b2,m2){ if(curMethod===m2){b2.style.border="2px solid "+COLORS[m2].stroke;b2.style.background=COLORS[m2].fill;b2.style.color=COLORS[m2].stroke;b2.style.fontWeight="bold";}else{b2.style.border="2px solid rgba(148,163,184,.2)";b2.style.background="rgba(15,23,42,.5)";b2.style.color="#94a3b8";b2.style.fontWeight="normal";}})(document.getElementById("riemann-btn-"+mm),mm); });
+      draw();
+    });
+    styleBtn();
+    btnContainer.appendChild(btn);
+  });
+
+  // Slider
+  var slider=document.getElementById("riemann-slider");
+  slider.style.accentColor=COLORS[curMethod].stroke;
+  slider.addEventListener("input",function(){
+    curN=+this.value;
+    document.getElementById("riemann-nlabel").textContent="n = "+curN+" slices";
+    draw();
+  });
+
+  // Init
+  window.addEventListener("resize",resize);
+  resize();
+})();
+</script>
 
 ### Integration by Substitution
 
