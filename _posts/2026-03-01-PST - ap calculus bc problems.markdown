@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 04:55:06 PST 2026
+last_modified_at: Sat Mar  7 12:21:49 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -1179,29 +1179,53 @@ on $[a,b]$ then
 
 **Examples** using \eqref{eq:fund-theorem-of-calculus-1}
 
+<ol>
+<li> &nbsp;
+<p>
 $$
-\begin{eqnarray*}
 \frac{d}{dx} \int_2^x \sqrt{1+t^2} \, dt
-	&=&
+	=
 		\sqrt{1+x^2}
-\\
-\lim_{h\to 0} \frac{\int_1^{1+h} \sqrt{x^5+8} \, dx}{h}
-	&=&
-		\sqrt{1^5+8} = 3
-\\
-\frac{d}{dx} \int_a^{g(x)} f(t) \, dt
-	&=&
-		f(g(x)) g'(x)
-\\
-\frac{d}{dx} \int_{h(x)}^{g(x)} f(t) \, dt
-	&=&
-		f(g(x)) g'(x) - f(h(x)) h'(x)
-\\
-\frac{d}{dx} \int_2^{x^2} \sqrt{1+t^2} \, dt
-	&=&
-		2x \sqrt{1+x^4}
-\end{eqnarray*}
 $$
+</p>
+</li>
+<li> &nbsp;
+<p>
+$$
+\lim_{h\to 0} \frac{\int_1^{1+h} \sqrt{x^5+8} \, dx}{h}
+	=
+		\sqrt{1^5+8} = 3
+$$
+</p>
+</li>
+<li> &nbsp;
+<p>
+$$
+\frac{d}{dx} \int_a^{g(x)} f(t) \, dt
+	=
+		f(g(x)) g'(x)
+$$
+</p>
+</li>
+<li> &nbsp;
+<p>
+$$
+\frac{d}{dx} \int_{h(x)}^{g(x)} f(t) \, dt
+	=
+		f(g(x)) g'(x) - f(h(x)) h'(x)
+$$
+</p>
+</li>
+<li> &nbsp;
+<p>
+$$
+\frac{d}{dx} \int_2^{x^2} \sqrt{1+t^2} \, dt
+	=
+		2x \sqrt{1+x^4}
+$$
+</p>
+</li>
+</ol>
 
 ## Distance / Velocity / Acceleration / Length
 
@@ -1455,7 +1479,7 @@ $$
 	=
 		\frac{\sqrt{3}}{4} \int_{0}^{2} (x^2)^2 dx
 	=
-		\frac{\sqrt{3}}{20} \int_{0}^{2} \left.\left(x^5\right)\right|_{x=0}^2
+		\frac{\sqrt{3}}{4} \cdot \frac{1}{5} \Bigl.\Bigl(x^5\Bigr)\Bigr|_{x=0}^2
 	=
 		\frac{8\sqrt{3}}{5}
 	\simeq
@@ -1603,7 +1627,7 @@ $$
 		2 \pi \int_{0}^{\pi/2} x \sin(x) \,dx
 \\
 	&=&
-		2 \pi \left.\left( - x \cos(x)  + \sin(x)\right)\right|_{x=0}^{\pi/2}
+		2 \pi \Bigl.\Bigl( - x \cos(x)  + \sin(x)\Bigr)\Bigr|_{x=0}^{\pi/2}
 	=
 		2 \pi
 \end{eqnarray*}
