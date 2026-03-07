@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Fri Mar  6 21:34:29 PST 2026
+last_modified_at: Fri Mar  6 23:29:21 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -14,6 +14,8 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
+sections:
+  fundamental-theorem-of-calculus: "Fundamental theorem of calculus"
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -410,6 +412,22 @@ $$
 More formula can be found [here](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Derivatives_of_inverse_trigonometric_functions){:target="_blank"}!
 
 ## Integration / Integral
+
+<!--
+### Riemann integral
+
+The <span class="define">Riemann integral</span>,
+created by [Bernhard Riemann](https://en.wikipedia.org/wiki/Bernhard_Riemann){:target="_blank"},
+was the first rigorous definition of the integral of a function on an interval.
+It was presented to the faculty at the University of Göttingen in 1854,
+but not published in a journal until 1868.
+
+For many functions and practical applications,
+the Riemann integral can be evaluated by
+the [{{ page.sections.fundamental-theorem-of-calculus }}](#fundamental-theorem-of-calculus)
+or approximated by [numerical integration](https://en.wikipedia.org/wiki/Numerical_integration){:target="_blank"},
+or simulated using [Monte Carlo integration](https://en.wikipedia.org/wiki/Monte_Carlo_integration){:target="_blank"}.
+-->
 
 ### Integration by Substitution
 
@@ -816,6 +834,35 @@ If the function is of the $y$ coordinate and the axis of rotation is the $x$-axi
 \begin{equation}
 	V = 2 \pi \int_a^b y f(y) dy
 \end{equation}
+
+### Interactive 3D Visualizations
+
+<h4>Equilateral Triangle Cross-Sections</h4>
+
+The interactive figure below shows the solid whose cross-sections
+perpendicular to the $x$-axis are *equilateral triangles* with
+side length $s = x^2$, for $x \in [0,2]$.
+
+<div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
+  <div style="background-color: #2c3e50; color: white;
+              padding: 10px 16px; font-size: 13px;">
+    <strong>3D Solid — Equilateral Triangle Cross-Sections</strong>
+    <span style="opacity:0.7; margin-left:8px; font-size:11px">
+      Drag to rotate · Auto-rotating
+    </span>
+  </div>
+  <iframe
+	src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/solid-visualization.html"
+    width="100%"
+    height="520"
+    frameborder="0"
+    loading="lazy"
+    title="3D solid with equilateral triangle cross-sections, y=x², x from 0 to 2"
+    style="display:block;">
+  </iframe>
+</div>
+
 
 ## Infinite Sequences and Series
 
