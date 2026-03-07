@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 03:26:43 PST 2026
+last_modified_at: Sat Mar  7 04:55:06 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -136,6 +136,64 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 \label{eq:chain-rule}
 \frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
 \end{equation}
+
+### Basic properties {#differentiation-basic-properties}
+
+For differentiable functions $f$ and $g$, and a constant $c$, the following rules hold.
+
+<span id="differentiation-linearity"></span>
+<h4>Linearity</h4>
+
+Differentiation is a <span class="emph">linear</span> operation!
+
+$$
+	(f + g)' = f' + g'
+	\;
+	\mbox{and}
+	\;
+	(cf)' = c f'
+$$
+
+So in one line
+
+\begin{equation}
+\label{eq:der-linearity}
+	(c_1 f + c_2 g)' = c_1 f' + c_2 g'
+\end{equation}
+
+<span class="emph">This is arguably the single most useful structural fact about derivatives.</span>
+
+<span id="differentiation-product-rule"></span>
+<h4>Product rule</h4>
+
+The derivative of a product is <span style="color: red; font-weight: bold;">not</span> just $f'g'$!
+
+\begin{equation}
+\label{eq:der-product-rule}
+(fg)' = f'g + fg'
+\end{equation}
+
+A handy way to remember this
+&ndash;
+<span class="emph">"derivative of first times second, plus first times derivative of second."</span>
+
+> **Why the product rule matters for integration:** The product rule $(fg)' = f'g + fg'$ can be rearranged as
+> $f'g = (fg)' - fg'$, and integrating both sides gives exactly
+> the **integration by parts** formula — so the product rule is the *parent* of one of the most important integration techniques!
+> We'll see this connection in the integration section below.
+
+<h4>Quotient rule</h4>
+
+It follows directly from the product rule!
+
+\begin{equation}
+\label{eq:der-quotient-rule}
+\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}
+\end{equation}
+
+A mnemonic
+&ndash;
+<span class="emph">"low d-high minus high d-low, over low squared."</span>
 
 ### Mean value theorem {#mean-value-theorem}
 
@@ -686,6 +744,253 @@ Toggle between methods to see Left, Right, Midpoint, and Trapezoidal approximati
   resize();
 })();
 </script>
+
+### Basic properties {#integration-properties}
+
+<h4>Linearity</h4>
+
+Just like differentiation, integration is a <span class="emph">linear</span> operation:
+
+$$
+\int \bigl(f(x) + g(x)\bigr)\, dx = \int f(x)\, dx + \int g(x)\, dx
+$$
+
+$$
+\int c\, f(x)\, dx = c \int f(x)\, dx
+$$
+
+<!--
+So in one line: $\displaystyle\int \bigl(c_1 f + c_2 g\bigr)\, dx = c_1 \int f\, dx + c_2 \int g\, dx$.
+This lets you split up and scale integrals freely — use it constantly!
+-->
+
+So in one line
+
+\begin{equation}
+\label{eq:int-linearity}
+	\int \bigl(c_1 f + c_2 g\bigr)\, dx = c_1 \int f\, dx + c_2 \int g\, dx
+\end{equation}
+
+This lets you split up and scale integrals freely — use it constantly!
+
+<h4>Some useful properties to know</h4>
+
+For definite integrals, a few more properties are worth knowing!
+
+\begin{equation}
+	\int_a^b f(x)\,dx = -\int_b^a f(x)\,dx
+\end{equation}
+
+\begin{equation}
+	\int_a^a f(x)\,dx = 0
+\end{equation}
+
+\begin{equation}
+	\int_a^b f(x)\,dx = \int_a^c f(x)\,dx + \int_c^b f(x)\,dx
+\end{equation}
+
+### Integration by parts {#integration-by-parts}
+
+[<span class="emph">Integration by parts</span>](https://en.wikipedia.org/wiki/Integration_by_parts){:target="_blank"}
+is the integration counterpart of the [product rule](#differentiation-product-rule).
+Recall the product rule &ndash; $(fg)' = f'g + fg'$.
+Integrating both sides and rearranging gives
+
+\begin{equation}
+\label{eq:int-by-parts}
+	\int f'(x)\, g(x)\, dx = f(x)g(x) - \int f(x)\, g'(x)\, dx
+\end{equation}
+
+In the shorthand $u = g(x)$, $dv = f'(x)\,dx$ (so $v = f(x)$, $du = g'(x)\,dx$), this is the form you'll see most often:
+
+\begin{equation}
+\label{eq:int-by-parts-uv}
+\int u\, dv = uv - \int v\, du
+\end{equation}
+
+<span class="emph">The art of integration by parts is choosing $u$ and $dv$ smartly.</span>
+<!--
+A useful mnemonic for priority of $u$: **LIATE** — Logarithm, Inverse trig, Algebraic, Trig, Exponential.
+Pick $u$ from whichever category appears earliest in that list.
+-->
+
+For definite integrals, we have
+
+\begin{equation}
+\label{eq:int-by-parts-definite}
+	\int_a^b f'(x)\, g(x)\, dx = \Bigl.\Bigl(f(x)g(x)\Bigr)\Bigr|_{x=a}^b - \int_a^b f(x)\, g'(x)\, dx
+\end{equation}
+
+\begin{equation}
+	\int_a^b f'(x)\, g(x)\, dx = \Bigl[f(x)g(x)\Bigr]_a^b - \int_a^b f(x)\, g'(x)\, dx
+\end{equation}
+
+<h4>Examples</h4>
+
+<ol>
+<li>
+Find an indefinite integral $\displaystyle\int x e^x\,dx$
+
+<p>
+<strong>Solution 1</strong>
+Choose $f(x) = e^x$ and $g(x) = x$. Then $f'(x) = e^x$ and $g'(x) = 1$, hence
+\eqref{eq:int-by-parts} gives
+
+\begin{equation}
+\label{eq:int-by-parts-exam-01}
+\int x e^x\, dx = x e^x - \int e^x\, dx = x e^x - e^x + C = (x-1)e^x + C
+\end{equation}
+</p>
+
+<p>
+<strong>Solution 2</strong>
+Choose $u = x$ and $v = e^x$. Then $du = dx$ and $dv = e^x dx$, thus
+\eqref{eq:int-by-parts-uv} gives
+
+$$
+\int x e^x\, dx = x e^x - \int e^x\, dx = x e^x - e^x + C = (x-1)e^x + C
+$$
+</p>
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int \ln x\,dx$
+
+<p>
+<strong>Solution 1</strong>
+Choose $f(x) = x$ and $g(x) = \ln x$. Then $f'(x) = 1$ and $g'(x) = 1/x$, hence
+\eqref{eq:int-by-parts} gives
+
+$$
+	\int \ln x \, dx
+		=
+			x \ln x - \int 1\, dx
+		=
+			x \ln x - x + C
+$$
+</p>
+
+<p>
+<strong>Solution 2</strong>
+Choose $u = \ln x$ and $v = x$. Then $du = (1/x)dx$ and $dv = dx$, thus
+\eqref{eq:int-by-parts-uv} gives
+
+$$
+	\int \ln x \, dx
+		=
+			x \ln x - \int 1\, dx
+		=
+			x \ln x - x + C
+$$
+</p>
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int x \sin x\,dx$
+
+<p>
+<strong>Solution 1</strong>
+Choose $f(x) = -\cos x$ and $g(x) = x$. Then $f'(x) = \sin x$ and $g'(x) = 1$, hence
+\eqref{eq:int-by-parts} gives
+
+$$
+	\int x \sin x \, dx
+		=
+			- x \cos x + \int \cos x\, dx
+		=
+			- x \cos x + \sin x + C
+$$
+</p>
+
+<p>
+<strong>Solution 2</strong>
+Choose $u = x$ and $v = -\cos x$. Then $du = dx$ and $dv = \sin x dx$, thus
+\eqref{eq:int-by-parts-uv} gives
+
+$$
+	\int x \sin x \, dx
+		=
+			- x \cos x + \int \cos x\, dx
+		=
+			- x \cos x + \sin x + C
+$$
+</p>
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int x^2 e^x \,dx$
+
+<p>
+<strong>Solution</strong>
+Choose $f(x) = e^x$ and $g(x) = x^2$. Then $f'(x) = e^x$ and $g'(x) = 2x$, hence
+\eqref{eq:int-by-parts} gives
+
+$$
+\begin{eqnarray*}
+	\int x^2 e^x \, dx
+		&=&
+			x^2 e^x - 2 \int x e^x \, dx
+		=
+			x^2 e^x - 2 (x-1) e^x + C
+\\
+		&=&
+			(x^2 -2x+2)e^x + C
+\end{eqnarray*}
+$$
+where \eqref{eq:int-by-parts-exam-01} is used
+</p>
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int e^x \sin x \,dx$
+
+<p>
+<strong>Solution</strong>
+We let $\displaystyle I = \int e^x \sin x \,dx$.
+Now choose $f(x) = e^x$ and $g(x) = \sin x$. Then $f'(x) = e^x$ and $g'(x) = \cos x$, hence
+\eqref{eq:int-by-parts} gives
+
+\begin{equation}
+\label{eq:01}
+	I = \int e^x \sin x \, dx
+		=
+			e^x \sin x - \int e^x \cos x \, dx
+\end{equation}
+
+Now to find $\displaystyle\int e^x \cos x \,dx$,
+we let $f(x) = e^x$ and $g(x) = \cos x$. Then $f'(x) = e^x$ and $g'(x) = - \sin x$, hence
+
+\begin{equation}
+\label{eq:02}
+	\int e^x \cos x \, dx
+		=
+			e^x \cos x + \int e^x \sin x \, dx = e^x \cos x + I
+\end{equation}
+
+Now if we combine \eqref{eq:01} and \eqref{eq:02},
+we have
+
+$$
+	I = e^x \sin x - e^x \cos x - I
+$$
+
+thus,
+
+$$
+	\int e^x \sin x \, dx = I = \frac{1}{2} e^x (\sin x - \cos x) + C
+$$
+
+</p>
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int e^x \cos x \,dx$
+</li>
+
+<li>
+Find an indefinite integral $\displaystyle\int x \ln x \,dx$
+</li>
+</ol>
 
 ### Integration by Substitution
 
