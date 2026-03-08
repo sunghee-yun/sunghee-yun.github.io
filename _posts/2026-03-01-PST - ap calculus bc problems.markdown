@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 17:19:10 PST 2026
+last_modified_at: Sat Mar  7 17:55:27 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -2038,7 +2038,7 @@ using formula such as \eqref{eq:int-arcsin-squared}.
 
 ### Sequences
 
-A [sequence](https://en.wikipedia.org/wiki/Sequence#Finite_and_infinite){:target="_blank"}
+A [sequence](https://en.wikipedia.org/wiki/Sequence){:target="_blank"}
 is a collection of objects possibly with repetition, that come in a specified order.
 Like a set, it contains members (also called elements, or terms).
 Unlike a set, the same elements can appear multiple times at different positions in a sequence, and unlike a set, the order does matter.<sup><a href="#footnote01" id="ref01">1</a></sup>
@@ -2049,6 +2049,86 @@ Also, the sequence (1, 1, 2, 3, 5, 8), which contains the number 1 at two differ
 Sequences can be finite, as in these examples, or infinite, such as the sequence of even positive integers (2, 4, 6, &hellip;).
 
 <h4>Examples</h4>
+
+<h5>Sign sequence</h5>
+
+A
+[<span class="define">sign sequence</span>
+or
+<span class="define">$\pm1$-sequence</span>
+or
+<span class="define">bipolar sequence</span>](https://en.wikipedia.org/wiki/Sign_sequence){:target="_blank"}
+is a sequence of numbers,
+each of which is either $1$ or $−1$. One example is the sequence $(1, −1, 1, −1, \ldots)$,
+*i.e.*,
+
+\begin{equation}
+\label{eq:sign-seq}
+	a_n = (-1)^n
+\end{equation}
+
+<h5>Arithmetic sequence</h5>
+
+An
+[<span class="define">arithmetic progression</span>
+or
+<span class="define">arithmetic sequence</span>
+or
+<span class="define">linear sequence</span>](https://en.wikipedia.org/wiki/Arithmetic_progression){:target="_blank"}
+is
+a sequence of numbers such that the difference from any succeeding term to its preceding term remains constant throughout the sequence.
+The constant difference is called <span class="defien">common difference</span> of that arithmetic progression.
+For instance, the sequence $5, 7, 9, 11, 13, 15, \ldots$ is an arithmetic progression with a common difference of $2$.
+
+If the initial term of an arithmetic progression is $a_{1}$ and the common difference of successive members is $d$,
+then the $n$-th term of the sequence $$\{a_n\}$$ is given by
+
+\begin{equation}
+\label{eq:arith-seq}
+	a_n = a_1 + (n-1)d
+\end{equation}
+
+<h5>Geometric sequence</h5>
+
+An
+[<span class="define">geometric progression</span>
+or
+<span class="define">geometric sequence</span>](https://en.wikipedia.org/wiki/Geometric_progression){:target="_blank"}
+is a mathematical sequence of non-zero numbers where each term after the first is found by multiplying the previous one by a fixed number
+called the <span class="define">common ratio</span>.
+
+For example, the sequence $2, 6, 18, 54, \ldots$ is a geometric progression with a common ratio of $3$.
+Similarly $10, 5, 2.5, 1.25, \ldots$ is a geometric sequence with a common ratio of $1/2$.
+
+The general form of a geometric sequence is
+
+\begin{equation}
+\label{eq:geo-seq}
+	a_n = a r^{n-1}
+\end{equation}
+
+where $r$ is the common ratio and $a$ is the <span class="define">initial value</span>.
+
+<span id="constant-recursive-sequence"></span>
+<h5>Constant-recursive sequence</h5>
+
+An infinite sequence of numbers $$\{a_n\}_{n=1}^\infty$$
+is called <span class="define">constant-recursive</span>
+if it satisfies an equation of the form
+
+\begin{equation}
+\label{eq:recursion}
+	a_n = c_1 a_{n-1} + c_2 a_{n-2} + \cdots + c_d a_{n-d}
+\end{equation}
+
+for all $n>d$ where $c_i$ are constants.
+The equation is called a <span class="define">linear recurrence relation</span>.
+The concept is also known as a
+[<span class="define">linear recurrence sequence</span>,
+<span class="define">linear-recursive sequence</span>,
+<span class="define">linear-recurrent sequence</span>,
+or
+<span class="define">a C-finite sequence</span>](https://en.wikipedia.org/wiki/Constant-recursive_sequence){:target="_blank"}.
 
 <h5>Fibonacci sequence</h5>
 
@@ -2069,6 +2149,9 @@ $$
 	\mbox{for } n \geq 2
 \end{eqnarray}
 $$
+
+thus
+Fibonacci sequence is a [constant-recursive sequence](#constant-recursive-sequence) with $d=2$.
 
 The sequence is $(0, 1, 1, 2, 3, 5, 8, 13, 21, 34, \ldots)$.
 
@@ -2189,7 +2272,7 @@ then it is convergent.
 
 ### Series
 
-A <span class="define">series</span> is, informally speaking, the sum of the terms of a sequence. That is, it is an expression of the form
+A [<span class="define">series</span>](https://en.wikipedia.org/wiki/Sequence#Series){:target="_blank"} is, informally speaking, the sum of the terms of a sequence. That is, it is an expression of the form
 
 \begin{equation}
 \sum _{n=1}^{\infty} a_n
