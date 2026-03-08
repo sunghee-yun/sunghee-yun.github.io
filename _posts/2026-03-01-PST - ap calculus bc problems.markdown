@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 18:37:12 PST 2026
+last_modified_at: Sat Mar  7 20:02:57 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -136,6 +136,281 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 \label{eq:def-derivative}
 	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
 \end{equation}
+
+#### Interactive visualization — finite difference approximations
+
+The derivative is defined as a limit, but in practice we approximate it with finite differences.
+Watch how all three methods converge to the true tangent as $h \to 0$ — and notice how the
+<span class="emph">centered difference</span> is dramatically more accurate than the other two!
+
+<div id="deriv-viz" style="background:linear-gradient(135deg,#0f172a,#0f2027,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#a78bfa;text-transform:uppercase;margin-bottom:6px;">Finite Difference Approximations</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Approximating the Derivative</div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">Drag <em>h</em> toward 0 — watch all three methods converge to the true tangent</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:12px;justify-content:center;flex-wrap:wrap;" id="deriv-fnbtns"></div>
+  <canvas id="deriv-canvas" style="width:100%;display:block;border-radius:8px;background:#080d1a;"></canvas>
+
+  <!-- Formula box -->
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:14px 0;">
+    <div style="background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.4);border-radius:8px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#ef4444;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;">Forward</div>
+      <div style="font-size:12px;color:#fca5a5;font-style:italic;">[f(x+h)−f(x)] / h</div>
+      <div style="font-size:13px;color:#ef4444;font-family:monospace;margin-top:4px;" id="deriv-fwd-val">—</div>
+    </div>
+    <div style="background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.4);border-radius:8px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#3b82f6;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;">Backward</div>
+      <div style="font-size:12px;color:#93c5fd;font-style:italic;">[f(x)−f(x−h)] / h</div>
+      <div style="font-size:13px;color:#3b82f6;font-family:monospace;margin-top:4px;" id="deriv-bwd-val">—</div>
+    </div>
+    <div style="background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.4);border-radius:8px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#22c55e;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;">Centered ⭐</div>
+      <div style="font-size:12px;color:#86efac;font-style:italic;">[f(x+h)−f(x−h)] / 2h</div>
+      <div style="font-size:13px;color:#22c55e;font-family:monospace;margin-top:4px;" id="deriv-ctr-val">—</div>
+    </div>
+  </div>
+  <div style="background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.3);border-radius:8px;padding:10px;text-align:center;margin-bottom:14px;">
+    <span style="color:#94a3b8;font-size:12px;">True f′(x) = </span>
+    <span style="color:#a78bfa;font-size:15px;font-family:monospace;" id="deriv-true-val">—</span>
+    &nbsp;&nbsp;
+    <span style="color:#64748b;font-size:11px;" id="deriv-error-summary"></span>
+  </div>
+
+  <!-- x slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:72px;font-style:italic;" id="deriv-xlabel">x = 1.00</span>
+    <input id="deriv-xslider" type="range" min="-200" max="200" value="100" style="flex:1;accent-color:#a78bfa;" />
+    <span style="color:#64748b;font-size:11px;min-width:72px;text-align:right;">move point x</span>
+  </div>
+  <!-- h slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:72px;font-style:italic;" id="deriv-hlabel">h = 1.00</span>
+    <input id="deriv-hslider" type="range" min="1" max="200" value="100" style="flex:1;accent-color:#f97316;" />
+    <span style="color:#64748b;font-size:11px;min-width:72px;text-align:right;">h → 0 for exact</span>
+  </div>
+
+  <div style="text-align:center;font-size:11px;color:#475569;">
+    Red = forward &nbsp;|&nbsp; Blue = backward &nbsp;|&nbsp; Green = centered &nbsp;|&nbsp; White = true tangent &nbsp;|&nbsp; Orange dot = point x
+  </div>
+</div>
+
+<script>
+(function(){
+  var DFNS = {
+    "sin x": {
+      f:  function(x){ return Math.sin(x); },
+      df: function(x){ return Math.cos(x); },
+      label: "sin(x)", xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -1.8, ymax: 1.8
+    },
+    "x³−3x": {
+      f:  function(x){ return x*x*x - 3*x; },
+      df: function(x){ return 3*x*x - 3; },
+      label: "x³−3x", xmin: -2.5, xmax: 2.5, ymin: -4, ymax: 4
+    },
+    "eˣ": {
+      f:  function(x){ return Math.exp(x); },
+      df: function(x){ return Math.exp(x); },
+      label: "eˣ", xmin: -2.5, xmax: 2.5, ymin: -0.5, ymax: 10
+    },
+    "ln x": {
+      f:  function(x){ return x > 0 ? Math.log(x) : NaN; },
+      df: function(x){ return x > 0 ? 1/x : NaN; },
+      label: "ln(x)", xmin: 0.05, xmax: 5, ymin: -2.5, ymax: 2
+    }
+  };
+  var DFN_KEYS = Object.keys(DFNS);
+  var curDFn = "sin x";
+  var curX = 1.0;
+  var curH = 1.0;
+  var PAD = {top:24,right:24,bottom:40,left:48};
+  var DW, DH;
+  var dcanvas = document.getElementById("deriv-canvas");
+
+  function dtoC(x,y,xmin,xmax,ymin,ymax){
+    var cx = PAD.left+(x-xmin)/(xmax-xmin)*(DW-PAD.left-PAD.right);
+    var cy = DH-PAD.bottom-(y-ymin)/(ymax-ymin)*(DH-PAD.top-PAD.bottom);
+    return [cx,cy];
+  }
+
+  function dresize(){
+    var cont=document.getElementById("deriv-viz");
+    DW=cont.clientWidth-48; DH=Math.round(DW*0.48);
+    dcanvas.width=DW; dcanvas.height=DH;
+    ddraw();
+  }
+
+  function drawLine(ctx,x1,y1,x2,y2){ ctx.beginPath(); ctx.moveTo(x1,y1); ctx.lineTo(x2,y2); ctx.stroke(); }
+
+  function ddraw(){
+    var ctx=dcanvas.getContext("2d");
+    ctx.clearRect(0,0,DW,DH);
+    var cfg=DFNS[curDFn];
+    var xmin=cfg.xmin,xmax=cfg.xmax,ymin=cfg.ymin,ymax=cfg.ymax;
+    var f=cfg.f, df=cfg.df;
+    var x=curX, h=curH;
+
+    // clamp x to visible range (no h-based clamping — let diff formulas return NaN when out of domain)
+    var xc = Math.max(xmin+0.001, Math.min(xmax-0.001, x));
+
+    // Grid
+    ctx.strokeStyle="rgba(148,163,184,.1)"; ctx.lineWidth=1;
+    for(var yi=Math.ceil(ymin);yi<=Math.floor(ymax);yi++){
+      var gy=dtoC(0,yi,xmin,xmax,ymin,ymax)[1];
+      drawLine(ctx,PAD.left,gy,DW-PAD.right,gy);
+    }
+
+    // Axes
+    ctx.strokeStyle="#334155"; ctx.lineWidth=1.5;
+    var ay=dtoC(0,0,xmin,xmax,ymin,ymax)[1];
+    var ax=dtoC(0,0,xmin,xmax,ymin,ymax)[0];
+    drawLine(ctx,PAD.left,ay,DW-PAD.right+8,ay);
+    drawLine(ctx,ax,DH-PAD.bottom,ax,PAD.top-8);
+
+    // Tick labels
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b";
+    var xstep=(xmax-xmin)>10?2:1;
+    for(var xi=Math.ceil(xmin);xi<=Math.floor(xmax);xi+=xstep){
+      var tp=dtoC(xi,0,xmin,xmax,ymin,ymax);
+      ctx.textAlign="center"; ctx.fillText(xi,tp[0],tp[1]+14);
+    }
+    var ystep=(ymax-ymin)>10?2:1;
+    for(var yi2=Math.ceil(ymin);yi2<=Math.floor(ymax);yi2+=ystep){
+      if(yi2===0) continue;
+      var tp2=dtoC(0,yi2,xmin,xmax,ymin,ymax);
+      ctx.textAlign="right"; ctx.fillText(yi2,tp2[0]-5,tp2[1]+4);
+    }
+
+    // True function
+    ctx.strokeStyle="#f8fafc"; ctx.lineWidth=2.2;
+    ctx.shadowColor="rgba(248,250,252,.3)"; ctx.shadowBlur=4;
+    ctx.beginPath(); var fstarted=false;
+    for(var i=0;i<=500;i++){
+      var xv=xmin+i/500*(xmax-xmin), fv=f(xv);
+      if(!isFinite(fv)||fv<ymin-5||fv>ymax+5){fstarted=false;continue;}
+      var p=dtoC(xv,fv,xmin,xmax,ymin,ymax);
+      fstarted?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); fstarted=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // Helper: draw a secant / tangent line through (x0,y0) with slope m
+    function drawTangentLine(color, lw, x0, y0, m, dashArr){
+      // find endpoints within view
+      var t1=(xmin-x0)/m+0, t2=(xmax-x0)/m+0; // x extent
+      var xl=x0+(xmin-x0), xr=x0+(xmax-x0);
+      var p1=dtoC(xmin, y0+m*(xmin-x0),xmin,xmax,ymin,ymax);
+      var p2=dtoC(xmax, y0+m*(xmax-x0),xmin,xmax,ymin,ymax);
+      ctx.strokeStyle=color; ctx.lineWidth=lw;
+      if(dashArr) ctx.setLineDash(dashArr); else ctx.setLineDash([]);
+      drawLine(ctx,p1[0],p1[1],p2[0],p2[1]);
+      ctx.setLineDash([]);
+    }
+
+    var fy=f(xc), dfy=df(xc);
+    var fwd=(f(xc+h)-f(xc))/h;
+    var bwd=(f(xc)-f(xc-h))/h;
+    var ctr=(f(xc+h)-f(xc-h))/(2*h);
+
+    // True tangent (white dashed)
+    if(isFinite(dfy)) drawTangentLine("rgba(248,250,252,.6)",1.5,xc,fy,dfy,[6,4]);
+
+    // Forward secant (red)
+    if(isFinite(fwd)) drawTangentLine("rgba(239,68,68,.8)",2,xc,fy,fwd,[]);
+
+    // Backward secant (blue)
+    if(isFinite(bwd)) drawTangentLine("rgba(59,130,246,.8)",2,xc,fy,bwd,[]);
+
+    // Centered secant (green)
+    if(isFinite(ctr)) drawTangentLine("rgba(34,197,94,.9)",2.5,xc,fy,ctr,[]);
+
+    // Mark x, x+h, x-h on curve
+    function dotOnCurve(xv,color,r){
+      var yv=f(xv); if(!isFinite(yv)) return;
+      var p=dtoC(xv,yv,xmin,xmax,ymin,ymax);
+      ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=8;
+      ctx.beginPath(); ctx.arc(p[0],p[1],r,0,Math.PI*2); ctx.fill();
+      ctx.shadowBlur=0;
+    }
+    dotOnCurve(xc,        "#f97316",6);   // x — orange
+    dotOnCurve(xc+h,      "#ef4444",4);   // x+h — red
+    dotOnCurve(xc-h,      "#3b82f6",4);   // x-h — blue
+
+    // f(x) label
+    var lx=xmin+(xmax-xmin)*0.75, ly=f(lx);
+    if(isFinite(ly)){
+      var lp=dtoC(lx,ly,xmin,xmax,ymin,ymax);
+      ctx.fillStyle="#f8fafc"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText(cfg.label,lp[0]+6,lp[1]-8);
+    }
+
+    // Update value displays
+    function fmt(v){ return isFinite(v)?v.toFixed(5):"—"; }
+    function errFmt(approx,truth){
+      if(!isFinite(approx)||!isFinite(truth)) return "";
+      var e=Math.abs(approx-truth);
+      return e<1e-9?"≈ 0":e.toFixed(6);
+    }
+    document.getElementById("deriv-fwd-val").textContent=fmt(fwd)+" (err: "+errFmt(fwd,dfy)+")";
+    document.getElementById("deriv-bwd-val").textContent=fmt(bwd)+" (err: "+errFmt(bwd,dfy)+")";
+    document.getElementById("deriv-ctr-val").textContent=fmt(ctr)+" (err: "+errFmt(ctr,dfy)+")";
+    document.getElementById("deriv-true-val").textContent=fmt(dfy);
+    // error ratio summary
+    if(isFinite(fwd)&&isFinite(bwd)&&isFinite(ctr)&&isFinite(dfy)){
+      var ef=Math.abs(fwd-dfy), eb=Math.abs(bwd-dfy), ec=Math.abs(ctr-dfy);
+      if(ec>1e-12&&ef>1e-12){
+        var ratio=ef/ec;
+        document.getElementById("deriv-error-summary").textContent=
+          "Centered is ~"+ratio.toFixed(0)+"× more accurate than forward!";
+      } else {
+        document.getElementById("deriv-error-summary").textContent="All converged to true value ✓";
+      }
+    }
+  }
+
+  // Function buttons
+  var dbtnC=document.getElementById("deriv-fnbtns");
+  DFN_KEYS.forEach(function(k){
+    var btn=document.createElement("button");
+    btn.id="deriv-fnbtn-"+k; btn.textContent=k;
+    function styleAll(){
+      DFN_KEYS.forEach(function(kk){
+        var b=document.getElementById("deriv-fnbtn-"+kk); if(!b) return;
+        b.style.cssText=kk===curDFn
+          ?"padding:6px 14px;border-radius:8px;border:2px solid #a78bfa;background:rgba(167,139,250,.2);color:#a78bfa;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+          :"padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+      });
+    }
+    btn.addEventListener("click",function(){
+      curDFn=k;
+      // reset x to center of range and update slider bounds to match function domain
+      var cfg=DFNS[k]; curX=(cfg.xmin+cfg.xmax)/2;
+      var sl=document.getElementById("deriv-xslider");
+      sl.min=Math.round(cfg.xmin*100); sl.max=Math.round(cfg.xmax*100);
+      sl.value=Math.round(curX*100);
+      document.getElementById("deriv-xlabel").textContent="x = "+curX.toFixed(2);
+      styleAll(); ddraw();
+    });
+    btn.style.cssText=k===curDFn
+      ?"padding:6px 14px;border-radius:8px;border:2px solid #a78bfa;background:rgba(167,139,250,.2);color:#a78bfa;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+      :"padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+    dbtnC.appendChild(btn);
+  });
+
+  document.getElementById("deriv-xslider").addEventListener("input",function(){
+    curX=+this.value/100;
+    document.getElementById("deriv-xlabel").textContent="x = "+curX.toFixed(2);
+    ddraw();
+  });
+  document.getElementById("deriv-hslider").addEventListener("input",function(){
+    curH=+this.value/100;
+    document.getElementById("deriv-hlabel").textContent="h = "+curH.toFixed(2);
+    ddraw();
+  });
+
+  window.addEventListener("resize",dresize);
+  dresize();
+})();
+</script>
 
 ### Chain rule {#chain-rule}
 
@@ -466,6 +741,18 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
       f: function(x){ return (x > -1) ? Math.log(1+x) : NaN; },
       label: "ln(1+x)",
       xmin: -1.5, xmax: 3, ymin: -3, ymax: 3
+    },
+    "x²+x−2": {
+      f: function(x){ return x*x + x - 2; },
+      label: "(x−1)(x+2)",
+      xmin: -3.5, xmax: 3.5, ymin: -3.5, ymax: 8,
+      note: "Exact at order 2!"
+    },
+    "x⁵−5x³+4x": {
+      f: function(x){ return x*x*x*x*x - 5*x*x*x + 4*x; },
+      label: "x⁵−5x³+4x",
+      xmin: -2.5, xmax: 2.5, ymin: -5, ymax: 5,
+      note: "Exact at order 5!"
     }
   };
   var FN_KEYS = Object.keys(FNS);
@@ -509,6 +796,31 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
       if(n === 0) return Math.log(1 + a);
       var sign = (n % 2 === 1) ? 1 : -1;
       return sign * factorial(n - 1) / Math.pow(1 + a, n);
+    }
+    if(fn === "x²+x−2") {
+      // f(x) = x² + x - 2  (degree 2 polynomial)
+      // f^(0)(a) = a²+a-2,  f^(1)(a) = 2a+1,  f^(2)(a) = 2,  f^(n≥3)(a) = 0
+      if(n === 0) return a*a + a - 2;
+      if(n === 1) return 2*a + 1;
+      if(n === 2) return 2;
+      return 0;
+    }
+    if(fn === "x⁵−5x³+4x") {
+      // f(x) = x⁵ - 5x³ + 4x  (degree 5 polynomial, roots at 0,±1,±2)
+      // f^(0)(a) = a⁵-5a³+4a
+      // f^(1)(a) = 5a⁴-15a²+4
+      // f^(2)(a) = 20a³-30a
+      // f^(3)(a) = 60a²-30
+      // f^(4)(a) = 120a
+      // f^(5)(a) = 120
+      // f^(n≥6)(a) = 0
+      if(n === 0) return a*a*a*a*a - 5*a*a*a + 4*a;
+      if(n === 1) return 5*a*a*a*a - 15*a*a + 4;
+      if(n === 2) return 20*a*a*a - 30*a;
+      if(n === 3) return 60*a*a - 30;
+      if(n === 4) return 120*a;
+      if(n === 5) return 120;
+      return 0;
     }
     return NaN;
   }
@@ -560,9 +872,12 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
     }
     var str = terms.join(" ").replace(/^\+\s*/,"");
     var order_names = ["0th","1st","2nd","3rd","4th","5th","6th","7th","8th","9th","10th","11th","12th","13th","14th","15th","16th","17th","18th","19th","20th","21st","22nd","23rd","24th","25th","26th","27th","28th","29th","30th"];
+    var note = FNS[curFn].note || "";
+    var exactFlag = (curFn === "x²+x−2" && curOrder >= 2) || (curFn === "x⁵−5x³+4x" && curOrder >= 5);
+    var noteHtml = exactFlag ? ' &nbsp;<span style="color:#4ade80;font-size:11px;font-style:normal;">✓ EXACT FIT</span>' : (note ? ' &nbsp;<span style="color:#94a3b8;font-size:11px;">'+note+'</span>' : "");
     document.getElementById("taylor-formula").innerHTML =
       '<span style="color:#94a3b8;font-size:12px;">'+order_names[curOrder]+'-order approx:&nbsp;&nbsp;</span>'
-      +'<span style="color:#fb923c;">T<sub>'+curOrder+'</sub>(x) = '+str+'</span>';
+      +'<span style="color:#fb923c;">T<sub>'+curOrder+'</sub>(x) = '+str+'</span>'+noteHtml;
   }
 
   // ── Max error in visible window ───────────────────────────────────────
@@ -1770,6 +2085,294 @@ The length of a curve parameterized by $(x(t),y(t))$ from $t=t_1$ to $t=t_2$ is
 because this can be thought of an object moving along a 1-dimensional curve,
 hence \eqref{eq:vel-int-dis-1} applies.
 
+#### Interactive visualization — arc length as a limit of chord sums
+
+Watch how approximating the curve by $n$ straight chords converges to the true arc length $\int_{t_1}^{t_2} \lvert\vec{v}(t)\rvert\,dt$.
+The lower panel shows $\lvert\vec{v}(t)\rvert = \sqrt{x'(t)^2 + y'(t)^2}$ — its integral is exactly the arc length!
+
+<div id="arc-viz" style="background:linear-gradient(135deg,#0f172a,#1a0f2e,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#e879f9;text-transform:uppercase;margin-bottom:6px;">Arc Length</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">∫ |<span style="font-style:italic;">v</span>(t)| dt — Summing Infinitesimal Steps</div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">Each chord approximates a tiny piece of the curve — more chords → exact length</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:12px;justify-content:center;flex-wrap:wrap;" id="arc-fnbtns"></div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+    <div>
+      <div style="font-size:11px;color:#94a3b8;text-align:center;margin-bottom:6px;letter-spacing:.05em;">PARAMETRIC CURVE (x(t), y(t))</div>
+      <canvas id="arc-canvas-curve" style="width:100%;display:block;border-radius:8px;background:#080a14;"></canvas>
+    </div>
+    <div>
+      <div style="font-size:11px;color:#94a3b8;text-align:center;margin-bottom:6px;letter-spacing:.05em;">SPEED |v(t)| — INTEGRATE FOR LENGTH</div>
+      <canvas id="arc-canvas-speed" style="width:100%;display:block;border-radius:8px;background:#080a14;"></canvas>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div style="display:flex;gap:10px;margin:14px 0;" id="arc-stats"></div>
+
+  <!-- n slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="arc-nlabel">n = 4 chords</span>
+    <input id="arc-slider" type="range" min="1" max="60" value="4" style="flex:1;accent-color:#e879f9;" />
+    <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">n → ∞ for exact</span>
+  </div>
+  <div style="text-align:center;font-size:11px;color:#475569;">
+    Purple chords = chord approximation &nbsp;|&nbsp; White curve = true path &nbsp;|&nbsp; Shaded area = ∫|v(t)|dt ≈ arc length
+  </div>
+</div>
+
+<script>
+(function(){
+  var ARC_CURVES = {
+    "Circle": {
+      x:  function(t){ return Math.cos(t); },
+      y:  function(t){ return Math.sin(t); },
+      dx: function(t){ return -Math.sin(t); },
+      dy: function(t){ return  Math.cos(t); },
+      t1: 0, t2: 2*Math.PI,
+      xmin:-1.4,xmax:1.4,ymin:-1.4,ymax:1.4,
+      trueLen: 2*Math.PI
+    },
+    "Spiral": {
+      x:  function(t){ return t*Math.cos(t)/4; },
+      y:  function(t){ return t*Math.sin(t)/4; },
+      dx: function(t){ return (Math.cos(t)-t*Math.sin(t))/4; },
+      dy: function(t){ return (Math.sin(t)+t*Math.cos(t))/4; },
+      t1: 0, t2: 4*Math.PI,
+      xmin:-3.5,xmax:3.5,ymin:-3.5,ymax:3.5,
+      trueLen: null  // computed numerically
+    },
+    "Lemniscate": {
+      // x=cos(t), y=sin(t)cos(t)  — figure-8 like
+      x:  function(t){ return Math.cos(t); },
+      y:  function(t){ return Math.sin(t)*Math.cos(t); },
+      dx: function(t){ return -Math.sin(t); },
+      dy: function(t){ return Math.cos(2*t); },
+      t1: 0, t2: 2*Math.PI,
+      xmin:-1.4,xmax:1.4,ymin:-0.8,ymax:0.8,
+      trueLen: null
+    },
+    "Cycloid": {
+      x:  function(t){ return t - Math.sin(t); },
+      y:  function(t){ return 1 - Math.cos(t); },
+      dx: function(t){ return 1 - Math.cos(t); },
+      dy: function(t){ return Math.sin(t); },
+      t1: 0, t2: 2*Math.PI,
+      xmin:-0.5,xmax:7,ymin:-0.3,ymax:2.5,
+      trueLen: 8  // exact: 8r = 8 for r=1
+    }
+  };
+  var ARC_KEYS = Object.keys(ARC_CURVES);
+  var curArc = "Cycloid";
+  var curN = 4;
+  var APADc={top:16,right:16,bottom:32,left:40};
+  var APADs={top:16,right:16,bottom:32,left:40};
+  var ACW,ACH;
+
+  function speed(cfg,t){ return Math.sqrt(cfg.dx(t)*cfg.dx(t)+cfg.dy(t)*cfg.dy(t)); }
+
+  // numerical arc length via Simpson
+  function trueArcLen(cfg){
+    if(cfg.trueLen!==null) return cfg.trueLen;
+    var n=1000, dt=(cfg.t2-cfg.t1)/n, s=speed(cfg,cfg.t1)+speed(cfg,cfg.t2);
+    for(var i=1;i<n;i++) s+=(i%2===0?2:4)*speed(cfg,cfg.t1+i*dt);
+    return dt/3*s;
+  }
+
+  function chordLen(cfg,n){
+    var dt=(cfg.t2-cfg.t1)/n, s=0;
+    for(var i=0;i<n;i++){
+      var t0=cfg.t1+i*dt, t1=cfg.t1+(i+1)*dt;
+      var dx=cfg.x(t1)-cfg.x(t0), dy=cfg.y(t1)-cfg.y(t0);
+      s+=Math.sqrt(dx*dx+dy*dy);
+    }
+    return s;
+  }
+
+  function actoC(x,y,xmin,xmax,ymin,ymax,w,h,pad){
+    return [pad.left+(x-xmin)/(xmax-xmin)*(w-pad.left-pad.right),
+            h-pad.bottom-(y-ymin)/(ymax-ymin)*(h-pad.top-pad.bottom)];
+  }
+
+  function arcResize(){
+    var cc=document.getElementById("arc-canvas-curve");
+    var cs=document.getElementById("arc-canvas-speed");
+    var cont=document.getElementById("arc-viz");
+    var half=(cont.clientWidth-48-12)/2;
+    ACW=Math.round(half); ACH=Math.round(half*0.85);
+    cc.width=ACW; cc.height=ACH;
+    cs.width=ACW; cs.height=ACH;
+    arcDraw();
+  }
+
+  function arcDraw(){
+    var cfg=ARC_CURVES[curArc];
+    var n=curN;
+    var t1=cfg.t1, t2=cfg.t2;
+
+    // ── Curve canvas ──────────────────────────────────────────────
+    var cc=document.getElementById("arc-canvas-curve");
+    var ctx=cc.getContext("2d");
+    ctx.clearRect(0,0,ACW,ACH);
+    var xmin=cfg.xmin,xmax=cfg.xmax,ymin=cfg.ymin,ymax=cfg.ymax;
+    function cp(x,y){ return actoC(x,y,xmin,xmax,ymin,ymax,ACW,ACH,APADc); }
+
+    // Grid
+    ctx.strokeStyle="rgba(232,121,249,.07)"; ctx.lineWidth=1;
+    for(var yi=Math.ceil(ymin);yi<=Math.floor(ymax);yi++){
+      var gy=cp(0,yi)[1]; ctx.beginPath(); ctx.moveTo(APADc.left,gy); ctx.lineTo(ACW-APADc.right,gy); ctx.stroke();
+    }
+
+    // Axes
+    ctx.strokeStyle="#2d1b3d"; ctx.lineWidth=1.5;
+    var axy=cp(0,0)[1], axx=cp(0,0)[0];
+    ctx.beginPath(); ctx.moveTo(APADc.left,axy); ctx.lineTo(ACW-APADc.right,axy); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(axx,ACH-APADc.bottom); ctx.lineTo(axx,APADc.top); ctx.stroke();
+    ctx.font="10px Georgia,serif"; ctx.fillStyle="#4a2d5a"; ctx.textAlign="center";
+    ctx.fillText("x",ACW-APADc.right+10,axy+4);
+    ctx.textAlign="left"; ctx.fillText("y",axx+4,APADc.top+10);
+
+    // Chords (purple)
+    var dt=(t2-t1)/n;
+    ctx.strokeStyle="rgba(232,121,249,.7)"; ctx.lineWidth=1.5;
+    ctx.beginPath();
+    for(var i=0;i<=n;i++){
+      var t=t1+i*dt, p=cp(cfg.x(t),cfg.y(t));
+      i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);
+    }
+    ctx.stroke();
+
+    // Chord endpoint dots
+    ctx.fillStyle="#e879f9";
+    for(var i=0;i<=n;i++){
+      var t=t1+i*dt, p=cp(cfg.x(t),cfg.y(t));
+      ctx.beginPath(); ctx.arc(p[0],p[1],3,0,Math.PI*2); ctx.fill();
+    }
+
+    // True curve (white)
+    ctx.strokeStyle="#f1f5f9"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(241,245,249,.3)"; ctx.shadowBlur=4;
+    ctx.beginPath(); var started=false;
+    for(var i=0;i<=400;i++){
+      var t=t1+i/400*(t2-t1), p=cp(cfg.x(t),cfg.y(t));
+      started?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); started=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // Start dot (green) & end dot (orange)
+    var ps=cp(cfg.x(t1),cfg.y(t1)), pe=cp(cfg.x(t2),cfg.y(t2));
+    ctx.fillStyle="#4ade80"; ctx.beginPath(); ctx.arc(ps[0],ps[1],5,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle="#fb923c"; ctx.beginPath(); ctx.arc(pe[0],pe[1],5,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle="#94a3b8"; ctx.font="11px Georgia,serif"; ctx.textAlign="left";
+    ctx.fillText("start",ps[0]+6,ps[1]-4);
+    ctx.fillText("end",pe[0]+6,pe[1]-4);
+
+    // ── Speed canvas ──────────────────────────────────────────────
+    var cs=document.getElementById("arc-canvas-speed");
+    var ctx2=cs.getContext("2d");
+    ctx2.clearRect(0,0,ACW,ACH);
+
+    // compute speed range
+    var speeds=[]; for(var i=0;i<=200;i++) speeds.push(speed(cfg,t1+i/200*(t2-t1)));
+    var smax=Math.max.apply(null,speeds)*1.15;
+    function sp(t,s){ return actoC(t,s,t1,t2,0,smax,ACW,ACH,APADs); }
+
+    // Shaded area under |v(t)| for chord segments (Riemann-style)
+    for(var i=0;i<n;i++){
+      var ta=t1+i*dt, tb=t1+(i+1)*dt;
+      var smid=speed(cfg,(ta+tb)/2);
+      var p0=sp(ta,0), p1=sp(ta,smid), p2=sp(tb,smid), p3=sp(tb,0);
+      ctx2.fillStyle="rgba(232,121,249,.2)";
+      ctx2.strokeStyle="rgba(232,121,249,.5)"; ctx2.lineWidth=1;
+      ctx2.beginPath(); ctx2.moveTo(p0[0],p0[1]); ctx2.lineTo(p1[0],p1[1]);
+      ctx2.lineTo(p2[0],p2[1]); ctx2.lineTo(p3[0],p3[1]); ctx2.closePath();
+      ctx2.fill(); ctx2.stroke();
+    }
+
+    // True speed curve shaded
+    ctx2.fillStyle="rgba(241,245,249,.06)";
+    ctx2.beginPath();
+    var basePt=sp(t1,0);
+    ctx2.moveTo(basePt[0],basePt[1]);
+    for(var i=0;i<=300;i++){
+      var t=t1+i/300*(t2-t1), p=sp(t,speed(cfg,t));
+      ctx2.lineTo(p[0],p[1]);
+    }
+    ctx2.lineTo(sp(t2,0)[0],sp(t2,0)[1]); ctx2.closePath(); ctx2.fill();
+
+    // True speed curve (white)
+    ctx2.strokeStyle="#f1f5f9"; ctx2.lineWidth=2;
+    ctx2.beginPath(); var s2started=false;
+    for(var i=0;i<=300;i++){
+      var t=t1+i/300*(t2-t1), p=sp(t,speed(cfg,t));
+      s2started?ctx2.lineTo(p[0],p[1]):ctx2.moveTo(p[0],p[1]); s2started=true;
+    }
+    ctx2.stroke();
+
+    // Axes for speed plot
+    ctx2.strokeStyle="#2d1b3d"; ctx2.lineWidth=1.5;
+    var sax=sp(t1,0); ctx2.beginPath(); ctx2.moveTo(sax[0],sax[1]); ctx2.lineTo(sp(t2,0)[0],sp(t2,0)[1]); ctx2.stroke();
+    ctx2.font="10px Georgia,serif"; ctx2.fillStyle="#4a2d5a";
+    ctx2.textAlign="center";
+    ctx2.fillText("t",sp(t2,0)[0]+10,sp(t2,0)[1]);
+    ctx2.textAlign="left"; ctx2.fillStyle="#94a3b8";
+    ctx2.fillText("|v(t)|",APADs.left+2,APADs.top+12);
+
+    // t tick labels
+    ctx2.fillStyle="#4a2d5a"; ctx2.font="10px Georgia,serif"; ctx2.textAlign="center";
+    for(var i=0;i<=4;i++){
+      var t=t1+i/4*(t2-t1), p=sp(t,0);
+      ctx2.fillText((t/(Math.PI)).toFixed(1)+"π",p[0],p[1]+13);
+    }
+
+    // Stats
+    var cl=chordLen(cfg,n), tl=trueArcLen(cfg);
+    var err=Math.abs(cl-tl)/tl*100;
+    var errCol=err<0.1?"#4ade80":err<2?"#fbbf24":"#f87171";
+    document.getElementById("arc-stats").innerHTML=[
+      ["Chord sum",cl.toFixed(5),"#e879f9"],
+      ["True length",tl.toFixed(5),"#f1f5f9"],
+      ["Error",err.toFixed(3)+"%",errCol]
+    ].map(function(d){
+      return '<div style="flex:1;background:rgba(10,5,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
+        +'<div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">'+d[0]+'</div>'
+        +'<div style="font-size:15px;color:'+d[2]+';font-family:monospace;">'+d[1]+'</div></div>';
+    }).join("");
+  }
+
+  // Buttons
+  var abtnC=document.getElementById("arc-fnbtns");
+  ARC_KEYS.forEach(function(k){
+    var btn=document.createElement("button");
+    btn.id="arc-fnbtn-"+k; btn.textContent=k;
+    function styleAll(){
+      ARC_KEYS.forEach(function(kk){
+        var b=document.getElementById("arc-fnbtn-"+kk); if(!b) return;
+        b.style.cssText=kk===curArc
+          ?"padding:6px 14px;border-radius:8px;border:2px solid #e879f9;background:rgba(232,121,249,.15);color:#e879f9;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+          :"padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,5,20,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+      });
+    }
+    btn.addEventListener("click",function(){ curArc=k; styleAll(); arcDraw(); });
+    btn.style.cssText=k===curArc
+      ?"padding:6px 14px;border-radius:8px;border:2px solid #e879f9;background:rgba(232,121,249,.15);color:#e879f9;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+      :"padding:6px 14px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,5,20,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+    abtnC.appendChild(btn);
+  });
+
+  document.getElementById("arc-slider").addEventListener("input",function(){
+    curN=+this.value;
+    document.getElementById("arc-nlabel").textContent="n = "+curN+" chord"+(curN>1?"s":"");
+    arcDraw();
+  });
+
+  window.addEventListener("resize",arcResize);
+  arcResize();
+})();
+</script>
+
 ## Area and Volume
 
 The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
@@ -2693,6 +3296,271 @@ and is *concave down* where $t>0.21972$!
 <div class="img-container">
 <img src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/logistic_fcn_01.png">
 </div>
+
+#### Interactive animation — watch the solution evolve in real time
+
+<div id="ode-viz" style="background:linear-gradient(135deg,#0f172a,#001a0f,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#34d399;text-transform:uppercase;margin-bottom:6px;">Ordinary Differential Equations</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Solution Curves in Motion</div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">The moving dot traces the particle's position — watch how parameters change its fate</div>
+  </div>
+
+  <!-- ODE type toggle -->
+  <div style="display:flex;gap:8px;margin-bottom:14px;justify-content:center;">
+    <button id="ode-btn-linear" onclick="odeSwitch('linear')" style="padding:7px 20px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.2);color:#34d399;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;">Linear ODE</button>
+    <button id="ode-btn-logistic" onclick="odeSwitch('logistic')" style="padding:7px 20px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;">Logistic ODE</button>
+  </div>
+
+  <canvas id="ode-canvas" style="width:100%;display:block;border-radius:8px;background:#060e0a;"></canvas>
+
+  <!-- Play/Pause -->
+  <div style="display:flex;justify-content:center;gap:12px;margin:14px 0 10px;">
+    <button id="ode-playbtn" style="padding:8px 28px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.15);color:#34d399;font-size:14px;font-family:Georgia,serif;cursor:pointer;">▶ Play</button>
+    <button onclick="odeReset()" style="padding:8px 20px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:14px;font-family:Georgia,serif;cursor:pointer;">↺ Reset</button>
+  </div>
+
+  <!-- Parameter sliders — shown/hidden by mode -->
+  <div id="ode-linear-controls">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-lin-a-label">a = −0.50</span>
+      <input id="ode-lin-a" type="range" min="-150" max="150" value="-50" style="flex:1;accent-color:#34d399;" oninput="odeLinParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">growth rate a</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-lin-b-label">b = 1.00</span>
+      <input id="ode-lin-b" type="range" min="-200" max="200" value="100" style="flex:1;accent-color:#34d399;" oninput="odeLinParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">constant b</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-lin-y0-label">y₀ = 3.00</span>
+      <input id="ode-lin-y0" type="range" min="-400" max="400" value="300" style="flex:1;accent-color:#fb923c;" oninput="odeLinParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">initial value y₀</span>
+    </div>
+  </div>
+  <div id="ode-logistic-controls" style="display:none;">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-log-a-label">a = 0.50</span>
+      <input id="ode-log-a" type="range" min="10" max="200" value="50" style="flex:1;accent-color:#34d399;" oninput="odeLogParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">growth rate a</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-log-b-label">b = 10.00</span>
+      <input id="ode-log-b" type="range" min="100" max="2000" value="1000" style="flex:1;accent-color:#34d399;" oninput="odeLogParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">carrying capacity b</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+      <span style="color:#94a3b8;font-size:13px;min-width:80px;font-style:italic;" id="ode-log-y0-label">y₀ = 1.00</span>
+      <input id="ode-log-y0" type="range" min="10" max="950" value="100" style="flex:1;accent-color:#fb923c;" oninput="odeLogParamChange()"/>
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">initial value y₀</span>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:11px;color:#475569;margin-top:10px;" id="ode-formula-display"></div>
+</div>
+
+<script>
+(function(){
+  var odeMode="linear";
+  var odeAnimId=null, odePlaying=false;
+  var odeT=0, odeTMax=8;
+  var OW,OH;
+  var oc=document.getElementById("ode-canvas");
+  var PAD={top:24,right:28,bottom:40,left:52};
+
+  // params
+  var linA=-0.5, linB=1.0, linY0=3.0;
+  var logA=0.5,  logB=10.0, logY0=1.0;
+
+  window.odeSwitch=function(mode){
+    odeMode=mode; odeReset();
+    document.getElementById("ode-linear-controls").style.display=mode==="linear"?"block":"none";
+    document.getElementById("ode-logistic-controls").style.display=mode==="logistic"?"block":"none";
+    document.getElementById("ode-btn-linear").style.cssText=mode==="linear"
+      ?"padding:7px 20px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.2);color:#34d399;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+      :"padding:7px 20px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+    document.getElementById("ode-btn-logistic").style.cssText=mode==="logistic"
+      ?"padding:7px 20px;border-radius:8px;border:2px solid #34d399;background:rgba(52,211,153,.2);color:#34d399;font-size:13px;font-family:Georgia,serif;cursor:pointer;font-weight:bold;"
+      :"padding:7px 20px;border-radius:8px;border:2px solid rgba(148,163,184,.2);background:rgba(10,15,30,.5);color:#94a3b8;font-size:13px;font-family:Georgia,serif;cursor:pointer;";
+    odeDraw(0);
+  };
+
+  window.odeLinParamChange=function(){
+    linA=+document.getElementById("ode-lin-a").value/100;
+    linB=+document.getElementById("ode-lin-b").value/100;
+    linY0=+document.getElementById("ode-lin-y0").value/100;
+    document.getElementById("ode-lin-a-label").textContent="a = "+linA.toFixed(2);
+    document.getElementById("ode-lin-b-label").textContent="b = "+linB.toFixed(2);
+    document.getElementById("ode-lin-y0-label").textContent="y₀ = "+linY0.toFixed(2);
+    odeReset();
+  };
+  window.odeLogParamChange=function(){
+    logA=+document.getElementById("ode-log-a").value/100;
+    logB=+document.getElementById("ode-log-b").value/100;
+    logY0=+document.getElementById("ode-log-y0").value/100;
+    document.getElementById("ode-log-a-label").textContent="a = "+logA.toFixed(2);
+    document.getElementById("ode-log-b-label").textContent="b = "+logB.toFixed(2);
+    document.getElementById("ode-log-y0-label").textContent="y₀ = "+logY0.toFixed(2);
+    odeReset();
+  };
+
+  // Solution functions
+  function linSol(t){ return (linY0+linB/linA)*Math.exp(linA*t) - linB/linA; }
+  function logSol(t){
+    // y(t) = b / (1 + (b/y0 - 1)*e^{-abt}) = b / (1 + e^{C - abt}), C = ln(b/y0 - 1)
+    var C=Math.log(logB/logY0-1);
+    return logB/(1+Math.exp(C-logA*logB*t));
+  }
+  function curSol(t){ return odeMode==="linear"?linSol(t):logSol(t); }
+
+  function odeYRange(){
+    var vals=[];
+    for(var i=0;i<=100;i++) vals.push(curSol(i/100*odeTMax));
+    vals=vals.filter(isFinite);
+    var mn=Math.min.apply(null,vals), mx=Math.max.apply(null,vals);
+    var pad=(mx-mn)*0.2+0.5;
+    return [mn-pad, mx+pad];
+  }
+
+  function otoC(t,y,yr){
+    var cx=PAD.left+(t/odeTMax)*(OW-PAD.left-PAD.right);
+    var cy=OH-PAD.bottom-(y-yr[0])/(yr[1]-yr[0])*(OH-PAD.top-PAD.bottom);
+    return [cx,cy];
+  }
+
+  window.odeReset=function(){
+    odePlaying=false; odeT=0;
+    if(odeAnimId){cancelAnimationFrame(odeAnimId);odeAnimId=null;}
+    document.getElementById("ode-playbtn").textContent="▶ Play";
+    odeDraw(0);
+  };
+
+  function odeDraw(t){
+    var ctx=oc.getContext("2d");
+    ctx.clearRect(0,0,OW,OH);
+    var yr=odeYRange();
+
+    // Grid
+    ctx.strokeStyle="rgba(52,211,153,.08)"; ctx.lineWidth=1;
+    var yStep=Math.pow(10,Math.floor(Math.log10((yr[1]-yr[0])/5)));
+    for(var yg=Math.ceil(yr[0]/yStep)*yStep;yg<=yr[1];yg+=yStep){
+      var gy=otoC(0,yg,yr)[1];
+      ctx.beginPath(); ctx.moveTo(PAD.left,gy); ctx.lineTo(OW-PAD.right,gy); ctx.stroke();
+    }
+    for(var tg=0;tg<=odeTMax;tg++){
+      var gx=otoC(tg,0,yr)[0];
+      ctx.beginPath(); ctx.moveTo(gx,PAD.top); ctx.lineTo(gx,OH-PAD.bottom); ctx.stroke();
+    }
+
+    // Axes
+    ctx.strokeStyle="#1e3a2a"; ctx.lineWidth=1.5;
+    var ay=otoC(0,0,yr)[1], ax=otoC(0,yr[0],yr)[0];
+    ctx.beginPath(); ctx.moveTo(PAD.left,ay); ctx.lineTo(OW-PAD.right+8,ay); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(ax,OH-PAD.bottom); ctx.lineTo(ax,PAD.top-8); ctx.stroke();
+
+    // Axis labels
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#4b7a5c"; ctx.textAlign="center";
+    for(var ti=0;ti<=odeTMax;ti++) ctx.fillText(ti,otoC(ti,yr[0],yr)[0],OH-PAD.bottom+14);
+    ctx.textAlign="right";
+    var yStep2=Math.pow(10,Math.floor(Math.log10((yr[1]-yr[0])/5)));
+    for(var yi=Math.ceil(yr[0]/yStep2)*yStep2;yi<=yr[1];yi+=yStep2){
+      ctx.fillText(yi.toFixed(1),PAD.left-5,otoC(0,yi,yr)[1]+4);
+    }
+    ctx.fillStyle="#4b7a5c"; ctx.font="12px Georgia,serif";
+    ctx.textAlign="center"; ctx.fillText("t",OW-PAD.right+16,ay+4);
+    ctx.textAlign="left"; ctx.fillText("y",ax+5,PAD.top-10);
+
+    // Equilibrium line for logistic
+    if(odeMode==="logistic"){
+      var ep=otoC(0,logB,yr)[1];
+      ctx.strokeStyle="rgba(251,191,36,.4)"; ctx.lineWidth=1; ctx.setLineDash([5,4]);
+      ctx.beginPath(); ctx.moveTo(PAD.left,ep); ctx.lineTo(OW-PAD.right,ep); ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle="rgba(251,191,36,.7)"; ctx.font="11px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText("y = b = "+logB.toFixed(1),PAD.left+4,ep-5);
+    }
+
+    // Full solution curve (dim trail)
+    ctx.strokeStyle="rgba(52,211,153,.3)"; ctx.lineWidth=1.5;
+    ctx.beginPath(); var started=false;
+    for(var i=0;i<=300;i++){
+      var tv=i/300*odeTMax, yv=curSol(tv);
+      if(!isFinite(yv)){started=false;continue;}
+      var p=otoC(tv,yv,yr);
+      started?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); started=true;
+    }
+    ctx.stroke();
+
+    // Traced portion (bright)
+    ctx.strokeStyle="#34d399"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(52,211,153,.5)"; ctx.shadowBlur=6;
+    ctx.beginPath(); var tstarted=false;
+    for(var i=0;i<=300;i++){
+      var tv=i/300*t, yv=curSol(tv);
+      if(tv>t) break;
+      if(!isFinite(yv)){tstarted=false;continue;}
+      var p=otoC(tv,yv,yr);
+      tstarted?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]); tstarted=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // Moving dot
+    if(t>0){
+      var yd=curSol(t);
+      if(isFinite(yd)){
+        var dp=otoC(t,yd,yr);
+        ctx.fillStyle="#fb923c"; ctx.shadowColor="rgba(251,146,60,.9)"; ctx.shadowBlur=14;
+        ctx.beginPath(); ctx.arc(dp[0],dp[1],7,0,Math.PI*2); ctx.fill();
+        ctx.shadowBlur=0;
+        ctx.fillStyle="#f1f5f9"; ctx.font="12px Georgia,serif"; ctx.textAlign="left";
+        ctx.fillText("y("+t.toFixed(1)+") = "+yd.toFixed(3),dp[0]+10,dp[1]-6);
+      }
+    }
+
+    // Formula display
+    var fml=odeMode==="linear"
+      ? "y′ = "+linA.toFixed(2)+"y + "+linB.toFixed(2)+"  →  y(t) = (y₀ + b/a)eᵃᵗ − b/a"
+      : "y′ = "+logA.toFixed(2)+"·y·("+logB.toFixed(2)+"−y)  →  y(t) = b / (1 + e^{−abt−C})";
+    document.getElementById("ode-formula-display").textContent=fml;
+  }
+
+  // Animation loop
+  var odePrevTime=null, odeSpeed=1.2;
+  function odeAnimate(ts){
+    if(!odePrevTime) odePrevTime=ts;
+    var dt=(ts-odePrevTime)/1000*odeSpeed;
+    odePrevTime=ts;
+    odeT=Math.min(odeT+dt,odeTMax);
+    odeDraw(odeT);
+    if(odeT<odeTMax) odeAnimId=requestAnimationFrame(odeAnimate);
+    else { odePlaying=false; document.getElementById("ode-playbtn").textContent="▶ Play"; }
+  }
+
+  document.getElementById("ode-playbtn").addEventListener("click",function(){
+    if(odeT>=odeTMax) odeT=0;
+    if(odePlaying){
+      odePlaying=false; cancelAnimationFrame(odeAnimId); odeAnimId=null;
+      this.textContent="▶ Play";
+    } else {
+      odePlaying=true; odePrevTime=null;
+      this.textContent="⏸ Pause";
+      odeAnimId=requestAnimationFrame(odeAnimate);
+    }
+  });
+
+  function odeResize(){
+    var cont=document.getElementById("ode-viz");
+    OW=cont.clientWidth-48; OH=Math.round(OW*0.45);
+    oc.width=OW; oc.height=OH;
+    odeDraw(odeT);
+  }
+  window.addEventListener("resize",odeResize);
+  odeResize();
+  odeDraw(0);
+  document.getElementById("ode-formula-display").textContent=
+    "y′ = −0.50·y + 1.00  →  y(t) = (y₀ + b/a)eᵃᵗ − b/a";
+})();
+</script>
 
 # Exercise Problems
 
