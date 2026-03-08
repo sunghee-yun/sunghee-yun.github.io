@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 23:33:35 PST 2026
+last_modified_at: Sat Mar  7 23:59:26 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -22,6 +22,8 @@ sections:
   iv-arc-length: "Interactive visualization - arc length"
   iv-volumes: "Interactive 3D Visualizations - Volumes"
   iv-ode: "Interactive animation — watch the solution evolve in real time"
+  iv-deri-power-functions: "Power Functions"
+  iv-anti-deri-power-functions: "Antiderivative of Power Functions"
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -158,6 +160,8 @@ table, tr, td, th {
 - [{{ page.sections.iv-arc-length }}](#iv-arc-length)
 - [{{ page.sections.iv-volumes}}](#iv-volumes)
 - [{{ page.sections.iv-ode}}](#iv-ode)
+- [{{ page.sections.iv-deri-power-functions }}](#iv-deri-power-functions)
+- [{{ page.sections.iv-anti-deri-power-functions }}](#iv-anti-deri-power-functions)
 
 # Important Topics, Patterns, and Rules
 
@@ -5249,13 +5253,582 @@ Some (tedious) calculations also lead to
 </li>
 </ul>
 
-<!--
 ## Interactive Visualization Tools
 
-### power functions
+### Power Functions {#iv-deri-power-functions}
 
-XXX
--->
+Drag the slider to sweep $p$ continuously from $-3$ to $3$.
+The tool draws $f(x) = x^p$ and its derivative $f'(x) = p\,x^{p-1}$ live for $x \ge 0$,
+so you can watch the geometry morph in real time — and see exactly how the derivative rule works across every case
+&ndash;
+integer, fractional, negative, and zero exponents!
+
+<div id="power-viz" style="background:linear-gradient(135deg,#0f172a,#1a1200,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#fbbf24;text-transform:uppercase;margin-bottom:6px;">Power Functions</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">f(x) = x<sup>p</sup> &nbsp;and&nbsp; f'(x) = p·x<sup>p−1</sup></div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">Drag p and watch f and f' morph continuously — notice what happens at p = 0, 1, 2 …</div>
+  </div>
+
+  <canvas id="power-canvas" style="width:100%;display:block;border-radius:8px;background:#080910;"></canvas>
+
+  <!-- formula display -->
+  <div id="power-formula" style="background:rgba(26,18,0,.8);border:1px solid rgba(251,191,36,.3);border-radius:10px;padding:12px 20px;margin:14px 0;text-align:center;font-size:15px;color:#f1f5f9;box-shadow:0 0 16px rgba(251,191,36,.1);"></div>
+
+  <!-- p slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#fbbf24;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="power-plabel">p = 1</span>
+    <input id="power-pslider" type="range" min="-300" max="300" value="100" step="1" style="flex:1;accent-color:#fbbf24;" />
+    <span style="color:#64748b;font-size:11px;min-width:56px;">p ∈ [−3, 3]</span>
+  </div>
+
+  <!-- x0 hover: show tangent -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="power-x0label">x₀ = 1.0</span>
+    <input id="power-x0slider" type="range" min="1" max="300" value="100" step="1" style="flex:1;accent-color:#a78bfa;" />
+    <span style="color:#64748b;font-size:11px;min-width:56px;">move x₀</span>
+  </div>
+
+  <!-- stats row -->
+  <div style="display:flex;gap:10px;" id="power-stats"></div>
+
+  <div style="text-align:center;margin-top:12px;font-size:11px;color:#475569;">
+    Gold = f(x) = x<sup>p</sup> &nbsp;|&nbsp; Teal = f'(x) = p·x<sup>p−1</sup> &nbsp;|&nbsp; Purple dot = (x₀, f(x₀)) with tangent line
+  </div>
+</div>
+
+<script>
+(function(){
+  var curP = 1.0;
+  var curX0 = 1.0;
+  var PAD = {top:28, right:28, bottom:44, left:52};
+  var W, H;
+  var canvas = document.getElementById("power-canvas");
+
+  // fixed window: x in [0, 3], y auto-scaled per p
+  var XMIN = 0, XMAX = 3;
+
+  function safeF(x, p){
+    if(x < 0) return NaN;
+    if(x === 0){
+      if(p > 0) return 0;
+      if(p === 0) return 1;
+      return NaN; // x^negative at 0 = ±∞
+    }
+    return Math.pow(x, p);
+  }
+
+  function safeDf(x, p){
+    if(x <= 0) return NaN;
+    if(p === 0) return 0;
+    return p * Math.pow(x, p - 1);
+  }
+
+  function getYBounds(p){
+    // sample f and f' over [0.01, 3] and pick nice bounds
+    var vals = [], steps = 300;
+    for(var i=1; i<=steps; i++){
+      var x = 0.01 + (i/steps)*(XMAX - 0.01);
+      var fv = safeF(x, p);
+      var dfv = safeDf(x, p);
+      if(isFinite(fv))  vals.push(fv);
+      if(isFinite(dfv)) vals.push(dfv);
+    }
+    if(vals.length === 0) return {ymin:-2, ymax:2};
+    var lo = Math.min.apply(null, vals);
+    var hi = Math.max.apply(null, vals);
+    // clamp extremes
+    lo = Math.max(lo, -6);
+    hi = Math.min(hi,  6);
+    // add margin
+    var margin = (hi - lo) * 0.12 || 0.5;
+    return {ymin: lo - margin, ymax: hi + margin};
+  }
+
+  function toC(x, y, ymin, ymax){
+    var cx = PAD.left + (x - XMIN)/(XMAX - XMIN)*(W - PAD.left - PAD.right);
+    var cy = H - PAD.bottom - (y - ymin)/(ymax - ymin)*(H - PAD.top - PAD.bottom);
+    return [cx, cy];
+  }
+
+  function pLabel(p){
+    // nice fraction display for common values
+    var fracs = {"-3":"-3", "-2.5":"-5/2", "-2":"-2", "-1.5":"-3/2", "-1":"-1",
+                 "-0.5":"-1/2", "0":"0", "0.5":"1/2", "1":"1", "1.5":"3/2",
+                 "2":"2", "2.5":"5/2", "3":"3"};
+    var key = p.toFixed(1);
+    return fracs[key] || p.toFixed(2);
+  }
+
+  function draw(){
+    var ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, W, H);
+    var p = curP;
+    var x0 = curX0;
+    var bounds = getYBounds(p);
+    var ymin = bounds.ymin, ymax = bounds.ymax;
+    var steps = 600;
+
+    // ── grid ──
+    ctx.strokeStyle = "rgba(148,163,184,.1)"; ctx.lineWidth = 1;
+    for(var y = Math.ceil(ymin); y <= Math.floor(ymax); y++){
+      if(Math.abs(y) > 10) continue;
+      var gy = toC(0, y, ymin, ymax)[1];
+      ctx.beginPath(); ctx.moveTo(PAD.left, gy); ctx.lineTo(W - PAD.right, gy); ctx.stroke();
+    }
+    // y=0 line
+    var y0line = toC(0, 0, ymin, ymax)[1];
+    ctx.strokeStyle = "rgba(148,163,184,.35)"; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(PAD.left, y0line); ctx.lineTo(W-PAD.right, y0line); ctx.stroke();
+
+    // ── axes ──
+    ctx.strokeStyle = "#475569"; ctx.lineWidth = 1.5;
+    // x-axis at y=0 (or bottom if y=0 out of range)
+    var axY = Math.max(PAD.top, Math.min(H - PAD.bottom, toC(0,0,ymin,ymax)[1]));
+    ctx.beginPath(); ctx.moveTo(PAD.left, axY); ctx.lineTo(W-PAD.right+10, axY); ctx.stroke();
+    // y-axis at x=0 (left edge since domain is x>=0)
+    ctx.beginPath(); ctx.moveTo(PAD.left, PAD.top-8); ctx.lineTo(PAD.left, H-PAD.bottom); ctx.stroke();
+    // arrowhead x
+    ctx.fillStyle="#475569";
+    ctx.beginPath(); ctx.moveTo(W-PAD.right+10,axY-4); ctx.lineTo(W-PAD.right+17,axY); ctx.lineTo(W-PAD.right+10,axY+4); ctx.fill();
+    // arrowhead y
+    ctx.beginPath(); ctx.moveTo(PAD.left-4,PAD.top-8); ctx.lineTo(PAD.left,PAD.top-15); ctx.lineTo(PAD.left+4,PAD.top-8); ctx.fill();
+
+    // tick labels
+    ctx.font = "11px Georgia,serif"; ctx.fillStyle = "#64748b";
+    ctx.textAlign = "center";
+    for(var xi = 0; xi <= 3; xi++){
+      var tp = toC(xi, 0, ymin, ymax);
+      ctx.fillText(xi, tp[0], axY + 14);
+    }
+    ctx.textAlign = "right";
+    for(var yi = Math.ceil(ymin); yi <= Math.floor(ymax); yi++){
+      if(yi === 0 || Math.abs(yi) > 6) continue;
+      var tp2 = toC(0, yi, ymin, ymax);
+      if(tp2[1] < PAD.top || tp2[1] > H-PAD.bottom+5) continue;
+      ctx.fillText(yi, PAD.left - 6, tp2[1] + 4);
+    }
+    ctx.textAlign = "center";
+    ctx.fillStyle="#475569"; ctx.font="12px Georgia,serif";
+    ctx.fillText("x", W-PAD.right+21, axY+4);
+    ctx.textAlign="left"; ctx.fillText("y", PAD.left+5, PAD.top-16);
+
+    // ── draw f(x) = x^p (gold) ──
+    ctx.strokeStyle = "#fbbf24"; ctx.lineWidth = 2.5;
+    ctx.shadowColor = "rgba(251,191,36,.4)"; ctx.shadowBlur = 6;
+    ctx.beginPath();
+    var fStarted = false;
+    for(var i = 0; i <= steps; i++){
+      var xv = XMIN + (i/steps)*(XMAX - XMIN);
+      if(xv < 1e-4 && p < 0){ fStarted=false; continue; } // avoid singularity
+      var yv = safeF(xv, p);
+      if(!isFinite(yv) || yv < ymin - 5 || yv > ymax + 5){ fStarted=false; continue; }
+      var cp = toC(xv, yv, ymin, ymax);
+      fStarted ? ctx.lineTo(cp[0], cp[1]) : ctx.moveTo(cp[0], cp[1]);
+      fStarted = true;
+    }
+    ctx.stroke(); ctx.shadowBlur = 0;
+
+    // ── draw f'(x) = p x^{p-1} (teal) ──
+    ctx.strokeStyle = "#2dd4bf"; ctx.lineWidth = 2;
+    ctx.shadowColor = "rgba(45,212,191,.35)"; ctx.shadowBlur = 5;
+    ctx.beginPath();
+    var dStarted = false;
+    for(var i = 0; i <= steps; i++){
+      var xv = 0.01 + (i/steps)*(XMAX - 0.01); // start slightly above 0
+      var yv = safeDf(xv, p);
+      if(!isFinite(yv) || yv < ymin - 5 || yv > ymax + 5){ dStarted=false; continue; }
+      var cp = toC(xv, yv, ymin, ymax);
+      dStarted ? ctx.lineTo(cp[0], cp[1]) : ctx.moveTo(cp[0], cp[1]);
+      dStarted = true;
+    }
+    ctx.stroke(); ctx.shadowBlur = 0;
+
+    // ── tangent line at x0 ──
+    var fx0  = safeF(x0, p);
+    var dfx0 = safeDf(x0, p);
+    if(isFinite(fx0) && isFinite(dfx0)){
+      // tangent: y = fx0 + dfx0*(x - x0)
+      var txL = toC(XMIN, fx0 + dfx0*(XMIN - x0), ymin, ymax);
+      var txR = toC(XMAX, fx0 + dfx0*(XMAX - x0), ymin, ymax);
+      ctx.strokeStyle = "rgba(167,139,250,.7)"; ctx.lineWidth = 1.5;
+      ctx.setLineDash([5, 4]);
+      ctx.beginPath(); ctx.moveTo(txL[0], txL[1]); ctx.lineTo(txR[0], txR[1]); ctx.stroke();
+      ctx.setLineDash([]);
+
+      // dot on f at x0
+      var dotP = toC(x0, fx0, ymin, ymax);
+      ctx.fillStyle = "#a78bfa";
+      ctx.shadowColor = "rgba(167,139,250,.8)"; ctx.shadowBlur = 12;
+      ctx.beginPath(); ctx.arc(dotP[0], dotP[1], 6, 0, Math.PI*2); ctx.fill();
+      ctx.shadowBlur = 0;
+
+      // dot on f' at x0
+      var dotDP = toC(x0, dfx0, ymin, ymax);
+      ctx.fillStyle = "#2dd4bf";
+      ctx.beginPath(); ctx.arc(dotDP[0], dotDP[1], 4, 0, Math.PI*2); ctx.fill();
+
+      // vertical dashed line at x0
+      var vtop = toC(x0, ymax, ymin, ymax);
+      var vbot = toC(x0, ymin, ymin, ymax);
+      ctx.strokeStyle = "rgba(167,139,250,.3)"; ctx.lineWidth = 1;
+      ctx.setLineDash([3, 4]);
+      ctx.beginPath(); ctx.moveTo(dotP[0], vtop[1]); ctx.lineTo(dotP[0], vbot[1]); ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    // ── curve labels ──
+    var labelX = 2.2;
+    var fLabel = safeF(labelX, p);
+    if(isFinite(fLabel) && fLabel >= ymin && fLabel <= ymax){
+      var lp = toC(labelX, fLabel, ymin, ymax);
+      ctx.fillStyle = "#fbbf24"; ctx.font = "italic 13px Georgia,serif"; ctx.textAlign = "left";
+      ctx.fillText("f(x)=x^"+pLabel(p), lp[0]+6, lp[1]-8);
+    }
+    var dfLabel = safeDf(labelX, p);
+    if(isFinite(dfLabel) && dfLabel >= ymin && dfLabel <= ymax){
+      var dlp = toC(labelX, dfLabel, ymin, ymax);
+      ctx.fillStyle = "#2dd4bf"; ctx.font = "italic 13px Georgia,serif"; ctx.textAlign = "left";
+      ctx.fillText("f'(x)="+pLabel(p)+"x^"+(p-1).toFixed(p%1===0?0:2), dlp[0]+6, dlp[1]+14);
+    }
+
+    // ── formula box ──
+    var fx0v  = safeF(x0, p);
+    var dfx0v = safeDf(x0, p);
+    var pStr  = pLabel(p);
+    var pm1Str = pLabel(p-1);
+    document.getElementById("power-formula").innerHTML =
+      '<span style="color:#fbbf24;">f(x) = x<sup>'+pStr+'</sup></span>'
+      +'&nbsp;&nbsp;&nbsp;&nbsp;'
+      +'<span style="color:#2dd4bf;">f\'(x) = '+pStr+' · x<sup>'+pm1Str+'</sup></span>'
+      +(isFinite(fx0v) && isFinite(dfx0v)
+        ? '&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a78bfa;">at x₀='+x0.toFixed(2)+': &nbsp;f='+fx0v.toFixed(4)+', &nbsp;f\'='+dfx0v.toFixed(4)+'</span>'
+        : '');
+
+    // ── stats ──
+    document.getElementById("power-stats").innerHTML=[
+      ["p", pStr, "#fbbf24"],
+      ["f(x₀) = x₀^p", isFinite(fx0v)?fx0v.toFixed(4):"∞", "#fbbf24"],
+      ["f'(x₀) = slope", isFinite(dfx0v)?dfx0v.toFixed(4):"∞", "#2dd4bf"]
+    ].map(function(d){
+      return '<div style="flex:1;background:rgba(10,8,0,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
+        +'<div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">'+d[0]+'</div>'
+        +'<div style="font-size:16px;color:'+d[2]+';font-family:monospace;">'+d[1]+'</div></div>';
+    }).join("");
+  }
+
+  function resize(){
+    var cont = document.getElementById("power-viz");
+    W = cont.clientWidth - 48;
+    H = Math.round(W * 0.52);
+    canvas.width = W; canvas.height = H;
+    draw();
+  }
+
+  // p slider — mapped linearly from -3 to 3, step 0.01
+  document.getElementById("power-pslider").addEventListener("input", function(){
+    curP = +this.value / 100;
+    document.getElementById("power-plabel").textContent = "p = " + pLabel(curP);
+    draw();
+  });
+
+  // x0 slider — mapped from 0.05 to 3
+  document.getElementById("power-x0slider").addEventListener("input", function(){
+    curX0 = 0.05 + (+this.value - 1) / 299 * (3 - 0.05);
+    document.getElementById("power-x0label").textContent = "x₀ = " + curX0.toFixed(2);
+    draw();
+  });
+
+  window.addEventListener("resize", resize);
+  resize();
+})();
+</script>
+
+### Antiderivative of Power Functions {#iv-anti-deri-power-functions}
+
+This is the *flip side* of the previous tool — now we look at $f(x) = \dfrac{x^p}{p}$ and its derivative $f'(x) = x^{p-1}$.
+This is exactly the **power rule for integration**!
+
+$$
+	\int x^{p-1}\,dx = \frac{x^p}{p} + C
+		\quad
+			\mbox{for }p \neq 0
+$$
+
+Drag $p$ and notice the beautiful symmetry with the previous tool
+&ndash;
+the derivative of $\displaystyle \frac{x^p}{p}$ is always $x^{p-1}$ — watch how $f'(x) = x^{p-1}$ changes shape as $p$ sweeps,
+and observe the **special cases** carefully!
+
+- What happens at $p=1$?
+- What happens at $p=0.5$?
+- What happens at $p=0$ (the famous exception where $\displaystyle \int x^{-1} dx = \ln x$, not a power function!)?
+
+<div id="antipow-viz" style="background:linear-gradient(135deg,#0f172a,#00121a,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#38bdf8;text-transform:uppercase;margin-bottom:6px;">Antiderivative of Power Functions</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">f(x) = x<sup>p</sup>/p &nbsp;and&nbsp; f'(x) = x<sup>p−1</sup></div>
+    <div style="font-size:12px;color:#94a3b8;font-style:italic;margin-top:4px;">The power rule for integration: ∫x<sup>p−1</sup>dx = x<sup>p</sup>/p + C &nbsp;(p ≠ 0)</div>
+  </div>
+
+  <canvas id="antipow-canvas" style="width:100%;display:block;border-radius:8px;background:#050a10;"></canvas>
+
+  <!-- formula display -->
+  <div id="antipow-formula" style="background:rgba(0,18,26,.8);border:1px solid rgba(56,189,248,.3);border-radius:10px;padding:12px 20px;margin:14px 0;text-align:center;font-size:15px;color:#f1f5f9;box-shadow:0 0 16px rgba(56,189,248,.1);"></div>
+
+  <!-- p slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#38bdf8;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="antipow-plabel">p = 1</span>
+    <input id="antipow-pslider" type="range" min="-300" max="300" value="100" step="1" style="flex:1;accent-color:#38bdf8;" />
+    <span style="color:#64748b;font-size:11px;min-width:56px;">p ∈ [−3, 3]</span>
+  </div>
+
+  <!-- x0 slider -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
+    <span style="color:#94a3b8;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="antipow-x0label">x₀ = 1.0</span>
+    <input id="antipow-x0slider" type="range" min="1" max="300" value="100" step="1" style="flex:1;accent-color:#a78bfa;" />
+    <span style="color:#64748b;font-size:11px;min-width:56px;">move x₀</span>
+  </div>
+
+  <!-- stats row -->
+  <div style="display:flex;gap:10px;" id="antipow-stats"></div>
+
+  <div style="text-align:center;margin-top:12px;font-size:11px;color:#475569;">
+    Sky blue = f(x) = x<sup>p</sup>/p &nbsp;|&nbsp; Teal = f'(x) = x<sup>p−1</sup> &nbsp;|&nbsp; Purple dot = (x₀, f(x₀)) with tangent
+  </div>
+</div>
+
+<script>
+(function(){
+  var curP = 1.0;
+  var curX0 = 1.0;
+  var PAD = {top:28, right:28, bottom:44, left:52};
+  var W, H;
+  var canvas = document.getElementById("antipow-canvas");
+  var XMIN = 0, XMAX = 3;
+
+  function safeF(x, p){
+    // f(x) = x^p / p
+    if(p === 0) return NaN; // undefined at p=0
+    if(x < 0) return NaN;
+    if(x === 0){
+      if(p > 0) return 0;
+      return NaN; // singularity
+    }
+    return Math.pow(x, p) / p;
+  }
+
+  function safeDf(x, p){
+    // f'(x) = x^{p-1}
+    if(x <= 0) return NaN;
+    if(p - 1 === 0) return 1; // x^0 = 1
+    return Math.pow(x, p - 1);
+  }
+
+  function getYBounds(p){
+    var vals = [], steps = 300;
+    for(var i=1; i<=steps; i++){
+      var x = 0.01 + (i/steps)*(XMAX - 0.01);
+      var fv  = safeF(x, p);
+      var dfv = safeDf(x, p);
+      if(isFinite(fv))  vals.push(fv);
+      if(isFinite(dfv)) vals.push(dfv);
+    }
+    if(vals.length === 0) return {ymin:-2, ymax:2};
+    var lo = Math.max(Math.min.apply(null, vals), -6);
+    var hi = Math.min(Math.max.apply(null, vals),  6);
+    var margin = (hi - lo) * 0.12 || 0.5;
+    return {ymin: lo - margin, ymax: hi + margin};
+  }
+
+  function toC(x, y, ymin, ymax){
+    var cx = PAD.left + (x - XMIN)/(XMAX - XMIN)*(W - PAD.left - PAD.right);
+    var cy = H - PAD.bottom - (y - ymin)/(ymax - ymin)*(H - PAD.top - PAD.bottom);
+    return [cx, cy];
+  }
+
+  function pFmt(v){
+    var fracs = {"-3":"-3","-2.5":"-5/2","-2":"-2","-1.5":"-3/2","-1":"-1",
+                 "-0.5":"-1/2","0":"0","0.5":"1/2","1":"1","1.5":"3/2",
+                 "2":"2","2.5":"5/2","3":"3"};
+    return fracs[v.toFixed(1)] || v.toFixed(2);
+  }
+
+  function draw(){
+    var ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, W, H);
+    var p = curP, x0 = curX0;
+    var b = getYBounds(p);
+    var ymin = b.ymin, ymax = b.ymax;
+    var steps = 600;
+
+    // grid
+    ctx.strokeStyle = "rgba(148,163,184,.1)"; ctx.lineWidth = 1;
+    for(var y = Math.ceil(ymin); y <= Math.floor(ymax); y++){
+      if(Math.abs(y) > 10) continue;
+      var gy = toC(0, y, ymin, ymax)[1];
+      ctx.beginPath(); ctx.moveTo(PAD.left, gy); ctx.lineTo(W-PAD.right, gy); ctx.stroke();
+    }
+    // y=0 baseline
+    ctx.strokeStyle = "rgba(148,163,184,.35)"; ctx.lineWidth = 1.5;
+    var y0line = toC(0, 0, ymin, ymax)[1];
+    ctx.beginPath(); ctx.moveTo(PAD.left, y0line); ctx.lineTo(W-PAD.right, y0line); ctx.stroke();
+
+    // axes
+    ctx.strokeStyle = "#1e3a4a"; ctx.lineWidth = 1.5;
+    var axY = Math.max(PAD.top, Math.min(H-PAD.bottom, toC(0,0,ymin,ymax)[1]));
+    ctx.beginPath(); ctx.moveTo(PAD.left, axY); ctx.lineTo(W-PAD.right+10, axY); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(PAD.left, PAD.top-8); ctx.lineTo(PAD.left, H-PAD.bottom); ctx.stroke();
+    ctx.fillStyle="#1e3a4a";
+    ctx.beginPath(); ctx.moveTo(W-PAD.right+10,axY-4); ctx.lineTo(W-PAD.right+17,axY); ctx.lineTo(W-PAD.right+10,axY+4); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(PAD.left-4,PAD.top-8); ctx.lineTo(PAD.left,PAD.top-15); ctx.lineTo(PAD.left+4,PAD.top-8); ctx.fill();
+
+    // tick labels
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b";
+    ctx.textAlign="center";
+    for(var xi=0; xi<=3; xi++){
+      var tp = toC(xi, 0, ymin, ymax);
+      ctx.fillText(xi, tp[0], axY+14);
+    }
+    ctx.textAlign="right";
+    for(var yi=Math.ceil(ymin); yi<=Math.floor(ymax); yi++){
+      if(yi===0 || Math.abs(yi)>6) continue;
+      var tp2 = toC(0, yi, ymin, ymax);
+      if(tp2[1]<PAD.top || tp2[1]>H-PAD.bottom+5) continue;
+      ctx.fillText(yi, PAD.left-6, tp2[1]+4);
+    }
+    ctx.textAlign="center"; ctx.fillStyle="#1e3a4a"; ctx.font="12px Georgia,serif";
+    ctx.fillText("x", W-PAD.right+21, axY+4);
+    ctx.textAlign="left"; ctx.fillText("y", PAD.left+5, PAD.top-16);
+
+    // p=0 warning banner
+    if(Math.abs(p) < 0.05){
+      ctx.fillStyle="rgba(251,191,36,.15)";
+      ctx.fillRect(PAD.left, PAD.top, W-PAD.left-PAD.right, H-PAD.top-PAD.bottom);
+      ctx.fillStyle="#fbbf24"; ctx.font="14px Georgia,serif"; ctx.textAlign="center";
+      ctx.fillText("p ≈ 0: f(x)=xᵖ/p is undefined  (this is the ln(x) exception!)", W/2, H/2);
+      document.getElementById("antipow-formula").innerHTML=
+        '<span style="color:#fbbf24;">⚠ p = 0 is the special case: ∫x⁻¹dx = ln(x)+C, not xᵖ/p</span>';
+      document.getElementById("antipow-stats").innerHTML="";
+      return;
+    }
+
+    // f(x) = x^p / p  (sky blue)
+    ctx.strokeStyle="#38bdf8"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(56,189,248,.4)"; ctx.shadowBlur=6;
+    ctx.beginPath();
+    var fStarted=false;
+    for(var i=0; i<=steps; i++){
+      var xv = XMIN + (i/steps)*(XMAX-XMIN);
+      if(xv < 1e-4 && p < 0){ fStarted=false; continue; }
+      var yv = safeF(xv, p);
+      if(!isFinite(yv)||yv<ymin-5||yv>ymax+5){ fStarted=false; continue; }
+      var cp = toC(xv, yv, ymin, ymax);
+      fStarted?ctx.lineTo(cp[0],cp[1]):ctx.moveTo(cp[0],cp[1]); fStarted=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // f'(x) = x^{p-1}  (teal)
+    ctx.strokeStyle="#2dd4bf"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(45,212,191,.35)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    var dStarted=false;
+    for(var i=0; i<=steps; i++){
+      var xv = 0.01 + (i/steps)*(XMAX-0.01);
+      var yv = safeDf(xv, p);
+      if(!isFinite(yv)||yv<ymin-5||yv>ymax+5){ dStarted=false; continue; }
+      var cp = toC(xv, yv, ymin, ymax);
+      dStarted?ctx.lineTo(cp[0],cp[1]):ctx.moveTo(cp[0],cp[1]); dStarted=true;
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // tangent at x0
+    var fx0  = safeF(x0, p);
+    var dfx0 = safeDf(x0, p);
+    if(isFinite(fx0) && isFinite(dfx0)){
+      var txL = toC(XMIN, fx0+dfx0*(XMIN-x0), ymin, ymax);
+      var txR = toC(XMAX, fx0+dfx0*(XMAX-x0), ymin, ymax);
+      ctx.strokeStyle="rgba(167,139,250,.7)"; ctx.lineWidth=1.5;
+      ctx.setLineDash([5,4]);
+      ctx.beginPath(); ctx.moveTo(txL[0],txL[1]); ctx.lineTo(txR[0],txR[1]); ctx.stroke();
+      ctx.setLineDash([]);
+      // dot on f
+      var dp = toC(x0, fx0, ymin, ymax);
+      ctx.fillStyle="#a78bfa"; ctx.shadowColor="rgba(167,139,250,.8)"; ctx.shadowBlur=12;
+      ctx.beginPath(); ctx.arc(dp[0],dp[1],6,0,Math.PI*2); ctx.fill();
+      ctx.shadowBlur=0;
+      // dot on f'
+      var ddp = toC(x0, dfx0, ymin, ymax);
+      ctx.fillStyle="#2dd4bf";
+      ctx.beginPath(); ctx.arc(ddp[0],ddp[1],4,0,Math.PI*2); ctx.fill();
+      // vertical dashed
+      ctx.strokeStyle="rgba(167,139,250,.25)"; ctx.lineWidth=1; ctx.setLineDash([3,4]);
+      var vt=toC(x0,ymax,ymin,ymax), vb=toC(x0,ymin,ymin,ymax);
+      ctx.beginPath(); ctx.moveTo(dp[0],vt[1]); ctx.lineTo(dp[0],vb[1]); ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    // curve labels
+    var lx = 2.1;
+    var fy  = safeF(lx, p);
+    var dfy = safeDf(lx, p);
+    if(isFinite(fy) && fy>=ymin && fy<=ymax){
+      var lp2=toC(lx,fy,ymin,ymax);
+      ctx.fillStyle="#38bdf8"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText("f(x)=x^"+pFmt(p)+"/"+pFmt(p), lp2[0]+6, lp2[1]-8);
+    }
+    if(isFinite(dfy) && dfy>=ymin && dfy<=ymax){
+      var dlp=toC(lx,dfy,ymin,ymax);
+      ctx.fillStyle="#2dd4bf"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+      ctx.fillText("f'(x)=x^"+pFmt(p-1), dlp[0]+6, dlp[1]+14);
+    }
+
+    // formula box
+    var pS=pFmt(p), pm1S=pFmt(p-1);
+    var noteP1 = (Math.abs(p-1)<0.01) ? ' &nbsp;<span style="color:#fbbf24;font-size:11px;">← f(x)=x, f\'(x)=1 ✓</span>' : '';
+    var noteP2 = (Math.abs(p-2)<0.01) ? ' &nbsp;<span style="color:#fbbf24;font-size:11px;">← f(x)=x²/2, f\'(x)=x ✓</span>' : '';
+    document.getElementById("antipow-formula").innerHTML=
+      '<span style="color:#38bdf8;">f(x) = x<sup>'+pS+'</sup> / '+pS+'</span>'
+      +'&nbsp;&nbsp;&nbsp;&nbsp;'
+      +'<span style="color:#2dd4bf;">f\'(x) = x<sup>'+pm1S+'</sup></span>'
+      +noteP1+noteP2
+      +(isFinite(fx0)&&isFinite(dfx0)
+        ?'&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a78bfa;">at x₀='+x0.toFixed(2)+': &nbsp;f='+fx0.toFixed(4)+', &nbsp;f\'='+dfx0.toFixed(4)+'</span>'
+        :'');
+
+    // stats
+    document.getElementById("antipow-stats").innerHTML=[
+      ["p", pS, "#38bdf8"],
+      ["f(x₀) = x₀ᵖ/p", isFinite(fx0)?fx0.toFixed(4):"∞", "#38bdf8"],
+      ["f'(x₀) = x₀ᵖ⁻¹", isFinite(dfx0)?dfx0.toFixed(4):"∞", "#2dd4bf"]
+    ].map(function(d){
+      return '<div style="flex:1;background:rgba(0,8,15,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
+        +'<div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">'+d[0]+'</div>'
+        +'<div style="font-size:16px;color:'+d[2]+';font-family:monospace;">'+d[1]+'</div></div>';
+    }).join("");
+  }
+
+  function resize(){
+    var cont=document.getElementById("antipow-viz");
+    W=cont.clientWidth-48; H=Math.round(W*0.52);
+    canvas.width=W; canvas.height=H; draw();
+  }
+
+  document.getElementById("antipow-pslider").addEventListener("input",function(){
+    curP=+this.value/100;
+    document.getElementById("antipow-plabel").textContent="p = "+pFmt(curP);
+    draw();
+  });
+  document.getElementById("antipow-x0slider").addEventListener("input",function(){
+    curX0=0.05+(+this.value-1)/299*(3-0.05);
+    document.getElementById("antipow-x0label").textContent="x₀ = "+curX0.toFixed(2);
+    draw();
+  });
+
+  window.addEventListener("resize",resize);
+  resize();
+})();
+</script>
 
 ---
 
