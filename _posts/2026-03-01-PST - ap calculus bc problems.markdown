@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 20:02:57 PST 2026
+last_modified_at: Sat Mar  7 21:45:40 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -16,6 +16,11 @@ toc_sticky: true
 usemathjax: true
 sections:
   fundamental-theorem-of-calculus: "Fundamental theorem of calculus"
+  iv-finite-diff: "Interactive visualization - finite difference approximation"
+  iv-taylor-approximation: "Interactive visualization - Taylor approximation"
+  iv-integral-approximation: "Interactive visualization - integral approximation"
+  iv-arc-length: "Interactive visualization - arc length"
+  iv-volumes: "Interactive 3D Visualizations - Volumes"
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -117,6 +122,14 @@ table, tr, td, th {
 	</div>
 </div>
 
+# Interactive Visualization Tools
+
+- [{{ page.sections.iv-finite-diff }}](#iv-finite-diff)
+- [{{ page.sections.iv-taylor-approximation }}](#iv-taylor-approximation)
+- [{{ page.sections.iv-integral-approximation }}](#iv-integral-approximation)
+- [{{ page.sections.iv-arc-length }}](#iv-arc-length)
+- [{{ page.sections.iv-volumes}}](#iv-volumes)
+
 # Important Topics, Patterns, and Rules
 
 ## Differentiation / Derivatives
@@ -137,7 +150,7 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
 \end{equation}
 
-#### Interactive visualization — finite difference approximations
+#### Interactive visualization - finite difference approximations {#iv-finite-diff}
 
 The derivative is defined as a limit, but in practice we approximate it with finite differences.
 Watch how all three methods converge to the true tangent as $h \to 0$ — and notice how the
@@ -670,7 +683,7 @@ With $a = 0$, the <span class="define">Maclaurin series</span> takes the form
 	+ \cdots
 \end{equation}
 
-#### Interactive visualization
+#### Interactive visualization - Taylor approximation {#iv-taylor-approximation}
 
 Watch how each successive Taylor term *sculpts* the approximation closer and closer to the true curve.
 Drag the **order** slider to add terms one by one, and drag the **center** slider to move the expansion point $a$.
@@ -1234,7 +1247,7 @@ The answer depends on the **concavity** of $f$ on the interval:
 
 For left/right Riemann sums, the over/underestimate depends on whether $f$ is increasing or decreasing (as shown in the table above).
 
-#### Interactive visualization
+#### Interactive visualization - integral approximation {#iv-integral-approximation}
 
 Try it yourself, Beth! Drag the slider to increase $n$ and watch how the rectangles converge to the exact area.
 Toggle between methods to see Left, Right, Midpoint, and Trapezoidal approximations.
@@ -2085,7 +2098,7 @@ The length of a curve parameterized by $(x(t),y(t))$ from $t=t_1$ to $t=t_2$ is
 because this can be thought of an object moving along a 1-dimensional curve,
 hence \eqref{eq:vel-int-dis-1} applies.
 
-#### Interactive visualization — arc length as a limit of chord sums
+#### Interactive visualization - arc length {#iv-arc-length}
 
 Watch how approximating the curve by $n$ straight chords converges to the true arc length $\int_{t_1}^{t_2} \lvert\vec{v}(t)\rvert\,dt$.
 The lower panel shows $\lvert\vec{v}(t)\rvert = \sqrt{x'(t)^2 + y'(t)^2}$ — its integral is exactly the arc length!
@@ -2447,7 +2460,7 @@ If the function is of the $y$ coordinate and the axis of rotation is the $x$-axi
 	V = 2 \pi \int_a^b y f(y) dy
 \end{equation}
 
-### Interactive 3D Visualizations
+### Interactive 3D Visualizations - Volumes {#iv-volumes}
 
 <h4>Equilateral Triangle Cross-Sections</h4>
 
