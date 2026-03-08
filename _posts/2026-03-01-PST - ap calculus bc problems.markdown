@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sun Mar  8 00:49:43 PST 2026
+last_modified_at: Sun Mar  8 01:28:21 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -20,7 +20,8 @@ sections:
   iv-taylor-approximation: "Interactive visualization - Taylor approximation"
   iv-integral-approximation: "Interactive visualization - integral approximation"
   iv-arc-length: "Interactive visualization - arc length"
-  iv-volumes: "Interactive 3D Visualizations - Volumes"
+  iv-shell-method: "Interactive 3D visualization — shell method"
+  iv-volumes: "Interactive 3D visualizations - volumes"
   iv-ode: "Interactive animation — watch the solution evolve in real time"
   iv-deri-power-functions: "Power Functions"
   iv-anti-deri-power-functions: "Antiderivative of Power Functions"
@@ -158,6 +159,7 @@ table, tr, td, th {
 - [{{ page.sections.iv-taylor-approximation }}](#iv-taylor-approximation)
 - [{{ page.sections.iv-integral-approximation }}](#iv-integral-approximation)
 - [{{ page.sections.iv-arc-length }}](#iv-arc-length)
+- [{{ page.sections.iv-shell-method}}](#iv-shell-method)
 - [{{ page.sections.iv-volumes}}](#iv-volumes)
 - [{{ page.sections.iv-ode}}](#iv-ode)
 - [{{ page.sections.iv-deri-power-functions }}](#iv-deri-power-functions)
@@ -2503,18 +2505,13 @@ The lower panel shows $\lvert\vec{v}(t)\rvert = \sqrt{x'(t)^2 + y'(t)^2}$ — it
 
 ## Area and Volume
 
+### Area
+
 The area can be calculated by the integration of the **length** $l(x)$ of a cross section perpendicular to the $x$-axis,
 *i.e.*,
 
 \begin{equation}
 A = \int_a^b l(x) dx
-\end{equation}
-
-The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
-*i.e.*,
-
-\begin{equation}
-V = \int_a^b A(x) dx
 \end{equation}
 
 <h4>The area between two curves</h4>
@@ -2533,6 +2530,15 @@ A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 d\theta
 
 \begin{equation}
 A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}(\theta)^2) d\theta
+\end{equation}
+
+### Volume
+
+The volume can be calculated by the integration of the **area** $A(x)$ of a cross section perpendicular to the $x$-axis,
+*i.e.*,
+
+\begin{equation}
+V = \int_a^b A(x) dx
 \end{equation}
 
 <h4>Disc method for volume calculation</h4>
@@ -2578,7 +2584,453 @@ If the function is of the $y$ coordinate and the axis of rotation is the $x$-axi
 	V = 2 \pi \int_a^b y f(y) dy
 \end{equation}
 
-### Interactive 3D Visualizations - Volumes {#iv-volumes}
+#### Interactive 3D visualization — shell method {#iv-shell-method}
+
+<div id="shell-viz" style="background:linear-gradient(135deg,#020b14,#0f1f0a,#020b14);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+
+  <!-- Title -->
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#4ade80;text-transform:uppercase;margin-bottom:4px;">Volume of Revolution</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Shell Method — Interactive Visualization</div>
+    <div style="font-size:13px;color:#94a3b8;font-style:italic;margin-top:4px;">
+      V = 2&pi; &int; x &middot; f(x) dx &nbsp;=&nbsp; sum of hollow cylindrical shells
+    </div>
+  </div>
+
+  <!-- Function buttons -->
+  <div id="shell-fn-btns" style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;"></div>
+
+  <!-- Two canvases side by side -->
+  <div style="display:flex;gap:10px;margin-bottom:12px;">
+    <div style="flex:1;background:rgba(5,10,20,.8);border-radius:12px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="shell-canvas-2d" width="420" height="270" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(5,10,20,.8);border-radius:12px;border:1px solid rgba(56,189,248,.2);overflow:hidden;position:relative;">
+      <canvas id="shell-canvas-3d" width="420" height="270" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:7px;right:9px;font-size:10px;color:rgba(56,189,248,.55);font-style:italic;background:rgba(0,0,0,.45);padding:2px 7px;border-radius:4px;pointer-events:none;">
+        🖱 drag to rotate
+      </div>
+    </div>
+  </div>
+
+  <!-- Highlighted shell formula -->
+  <div id="shell-formula" style="background:rgba(251,146,60,.08);border:1px solid rgba(251,146,60,.4);border-radius:10px;padding:11px 18px;margin-bottom:12px;text-align:center;font-size:14px;color:#f1f5f9;"></div>
+
+  <!-- Sliders -->
+  <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:12px;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="shell-n-label" style="color:#94a3b8;font-size:13px;min-width:100px;font-style:italic;">n = 6 shells</span>
+      <input id="shell-n-slider" type="range" min="2" max="24" value="6" style="flex:1;accent-color:#38bdf8;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">more &rarr; exact</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="shell-hl-label" style="color:#94a3b8;font-size:13px;min-width:100px;font-style:italic;">shell #3</span>
+      <input id="shell-hl-slider" type="range" min="0" max="5" value="2" style="flex:1;accent-color:#fb923c;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">highlight</span>
+    </div>
+  </div>
+
+  <!-- Stats row -->
+  <div style="display:flex;gap:10px;margin-bottom:10px;">
+    <div style="flex:1;background:rgba(5,10,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">True Volume</div>
+      <div id="shell-stat-true" style="font-size:15px;color:#4ade80;font-family:monospace;">—</div>
+    </div>
+    <div style="flex:1;background:rgba(5,10,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Shell Sum</div>
+      <div id="shell-stat-sum" style="font-size:15px;color:#38bdf8;font-family:monospace;">—</div>
+    </div>
+    <div style="flex:1;background:rgba(5,10,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Error</div>
+      <div id="shell-stat-err" style="font-size:15px;font-family:monospace;">—</div>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:11px;color:#475569;">
+    <span style="color:#38bdf8;">n slider</span>: more shells &rarr; converges to exact &nbsp;|&nbsp;
+    <span style="color:#fb923c;">highlight slider</span>: inspect each &Delta;V &nbsp;|&nbsp;
+    <span style="color:rgba(56,189,248,.6);">drag 3D panel</span>: spin &amp; tilt freely
+  </div>
+</div>
+
+<script>
+(function(){
+  // ── Functions ──────────────────────────────────────────────────────
+  var FUNS = {
+    "\u221ax":     { f: function(x){ return Math.sqrt(x); },           label:"\u221ax",     xmax:2.5, ymax:2.2 },
+    "x\u00b2":    { f: function(x){ return x*x; },                     label:"x\u00b2",    xmax:2.2, ymax:2.2 },
+    "x(2\u2212x)":{ f: function(x){ return x*(2-x); },                 label:"x(2\u2212x)",xmax:2.0, ymax:1.2 },
+    "sin(\u03c0x)":{ f: function(x){ return Math.sin(Math.PI*x); },    label:"sin(\u03c0x)",xmax:1.0, ymax:1.1 }
+  };
+  var FN_KEYS = Object.keys(FUNS);
+
+  // ── State ──────────────────────────────────────────────────────────
+  var state = { fnKey: FN_KEYS[0], n: 6, hl: 2, az: Math.PI/4, el: Math.PI/6 };
+
+  // ── 3D projection ──────────────────────────────────────────────────
+  function proj3(r, theta, z, az, el) {
+    var X = r*Math.cos(theta), Y = r*Math.sin(theta);
+    var X1 = X*Math.cos(az) - Y*Math.sin(az);
+    var Y1 = X*Math.sin(az) + Y*Math.cos(az);
+    var Y2 = Y1*Math.cos(el) - z*Math.sin(el);
+    var Z2 = Y1*Math.sin(el) + z*Math.cos(el);
+    return [X1, -Z2, Y2]; // [sx, sy, depth]
+  }
+
+  // ── Canvas elements ────────────────────────────────────────────────
+  var c2d = document.getElementById("shell-canvas-2d");
+  var c3d = document.getElementById("shell-canvas-3d");
+
+  // ── 2D draw ────────────────────────────────────────────────────────
+  function draw2D() {
+    var ctx = c2d.getContext("2d");
+    var W = c2d.width, H = c2d.height;
+    var PAD = {l:48,r:16,t:20,b:40};
+    var fn = FUNS[state.fnKey], nv = state.n, hl = state.hl;
+    var xmax = fn.xmax, ymax = fn.ymax, dx = xmax/nv;
+
+    function toC(x,y){ return [PAD.l+x/xmax*(W-PAD.l-PAD.r), H-PAD.b-y/ymax*(H-PAD.t-PAD.b)]; }
+
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#050a14"; ctx.fillRect(0,0,W,H);
+
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.1)"; ctx.lineWidth=1;
+    for(var g=0;g<=Math.ceil(ymax);g++){
+      var gc=toC(0,g); ctx.beginPath(); ctx.moveTo(PAD.l,gc[1]); ctx.lineTo(W-PAD.r,gc[1]); ctx.stroke();
+    }
+
+    // shells as rectangles
+    for(var i=0;i<nv;i++){
+      var xm=(i+.5)*dx, h=fn.f(xm);
+      var c0=toC(i*dx,0), c1=toC((i+1)*dx,h);
+      var isHi=(i===hl);
+      ctx.fillStyle   = isHi?"rgba(251,146,60,.45)":i%2===0?"rgba(56,189,248,.15)":"rgba(56,189,248,.10)";
+      ctx.strokeStyle = isHi?"#fb923c":"rgba(56,189,248,.5)";
+      ctx.lineWidth   = isHi?2:1;
+      ctx.fillRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      ctx.strokeRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      if(isHi){
+        var cm=toC(xm,0);
+        ctx.strokeStyle="#fb923c"; ctx.lineWidth=1.5; ctx.setLineDash([3,3]);
+        ctx.beginPath(); ctx.moveTo(PAD.l,cm[1]); ctx.lineTo(cm[0],cm[1]); ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle="#fb923c"; ctx.font="bold 11px Georgia,serif"; ctx.textAlign="center";
+        ctx.fillText("r = x",(PAD.l+cm[0])/2,cm[1]-5);
+        var cmh=toC(xm,h/2);
+        ctx.fillText("h=f(x)",cmh[0],cmh[1]);
+      }
+    }
+
+    // curve
+    ctx.strokeStyle="#2dd4bf"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(45,212,191,.5)"; ctx.shadowBlur=6;
+    ctx.beginPath();
+    for(var k=0;k<=400;k++){
+      var xk=k/400*xmax, ck=toC(xk,fn.f(xk));
+      k===0?ctx.moveTo(ck[0],ck[1]):ctx.lineTo(ck[0],ck[1]);
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // axes
+    var a0=toC(0,0), a1x=toC(xmax,0), a1y=toC(0,ymax);
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(a0[0],a0[1]); ctx.lineTo(a1x[0]+10,a0[1]); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(a0[0],a0[1]); ctx.lineTo(a0[0],a1y[1]-8); ctx.stroke();
+    ctx.fillStyle="#475569";
+    ctx.beginPath(); ctx.moveTo(a1x[0]+10,a0[1]-4); ctx.lineTo(a1x[0]+17,a0[1]); ctx.lineTo(a1x[0]+10,a0[1]+4); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(a0[0]-4,a1y[1]-8); ctx.lineTo(a0[0],a1y[1]-15); ctx.lineTo(a0[0]+4,a1y[1]-8); ctx.fill();
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b"; ctx.textAlign="center";
+    for(var xi=0.5;xi<=xmax;xi+=0.5){var tc=toC(xi,0);ctx.fillText(xi,tc[0],tc[1]+14);}
+    ctx.textAlign="right";
+    for(var yi=1;yi<=Math.floor(ymax);yi++){var tc2=toC(0,yi);ctx.fillText(yi,tc2[0]-6,tc2[1]+4);}
+    ctx.fillStyle="#2dd4bf"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+    var lp=toC(xmax*.65,fn.f(xmax*.65));
+    ctx.fillText("y = "+fn.label,lp[0]+6,lp[1]-8);
+    ctx.fillStyle="#475569"; ctx.font="13px Georgia,serif";
+    ctx.textAlign="center"; ctx.fillText("x",a1x[0]+21,a0[1]+4);
+    ctx.textAlign="left";   ctx.fillText("y",a0[0]+6,a1y[1]-16);
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Cross-Section",W/2,14);
+  }
+
+  // ── 3D draw ────────────────────────────────────────────────────────
+  function draw3D() {
+    var ctx = c3d.getContext("2d");
+    var W = c3d.width, H = c3d.height;
+    var az=state.az, el=state.el;
+    var fn=FUNS[state.fnKey], nv=state.n, hl=state.hl, dx=fn.xmax/nv;
+
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#050a14"; ctx.fillRect(0,0,W,H);
+
+    var ocx=W*.5, ocy=H*.55, scale=Math.min(W,H)*.27;
+    var SEGS=52;
+
+    function p3(r,theta,z){
+      var s=proj3(r,theta,z,az,el);
+      return [ocx+s[0]*scale, ocy+s[1]*scale];
+    }
+    function depth3(r,theta,z){ return proj3(r,theta,z,az,el)[2]; }
+
+    // ── Draw annulus (ring cap) ──
+    function drawAnnulus(r0,r1,z,fill,stroke,lw){
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){
+        var th=s/SEGS*2*Math.PI, pt=p3(r1,th,z);
+        s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);
+      }
+      for(var s=SEGS;s>=0;s--){
+        var th=s/SEGS*2*Math.PI, pt=p3(r0,th,z);
+        ctx.lineTo(pt[0],pt[1]);
+      }
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    // ── Draw cylindrical wall arc ──
+    function drawWall(r,zBot,zTop,tStart,tEnd,fill,stroke,lw){
+      var steps=Math.max(4,Math.round(SEGS*Math.abs(tEnd-tStart)/(2*Math.PI)));
+      ctx.beginPath();
+      for(var s=0;s<=steps;s++){
+        var th=tStart+s/steps*(tEnd-tStart), pt=p3(r,th,zBot);
+        s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);
+      }
+      for(var s=steps;s>=0;s--){
+        var th=tStart+s/steps*(tEnd-tStart), pt=p3(r,th,zTop);
+        ctx.lineTo(pt[0],pt[1]);
+      }
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    // sort shells back-to-front
+    var order=[];
+    for(var i=0;i<nv;i++) order.push(i);
+    order.sort(function(a,b){
+      return depth3((a+.5)*dx,0,fn.f((a+.5)*dx)*.5)
+           - depth3((b+.5)*dx,0,fn.f((b+.5)*dx)*.5);
+    });
+
+    for(var oi=0;oi<order.length;oi++){
+      var i=order[oi];
+      var r0=i*dx, r1=(i+1)*dx, rm=(r0+r1)/2;
+      var h=fn.f(rm), isHi=(i===hl);
+
+      var outerFill   = isHi?"rgba(251,146,60,0.22)":"rgba(56,189,248,0.10)";
+      var outerStroke = isHi?"#fb923c":"rgba(56,189,248,0.55)";
+      var innerFill   = isHi?"rgba(251,100,20,0.30)":"rgba(14,116,163,0.22)";
+      var innerStroke = isHi?"rgba(251,146,60,0.80)":"rgba(56,189,248,0.70)";
+      var capFill     = isHi?"rgba(251,146,60,0.50)":"rgba(56,189,248,0.28)";
+      var capStroke   = isHi?"#fb923c":"rgba(56,189,248,0.80)";
+      var botFill     = isHi?"rgba(251,100,20,0.18)":"rgba(14,100,140,0.15)";
+      var lw          = isHi?1.5:0.7;
+
+      var backStart=az+Math.PI/2, backEnd=az+3*Math.PI/2;
+      var frontStart=az-Math.PI/2, frontEnd=az+Math.PI/2;
+
+      // 1. bottom annulus
+      drawAnnulus(r0,r1,0,botFill,innerStroke,lw*.6);
+      // 2. back outer wall
+      drawWall(r1,0,h,backStart,backEnd,outerFill,outerStroke,lw);
+      // 3. full inner wall (shows the hollow)
+      drawWall(r0,0,h,0,2*Math.PI,innerFill,innerStroke,lw);
+      // 4. front outer wall (semi-transparent)
+      drawWall(r1,0,h,frontStart,frontEnd,outerFill,outerStroke,lw);
+      // 5. top annulus (glowing ring — shows donut cross-section)
+      drawAnnulus(r0,r1,h,capFill,capStroke,lw*1.2);
+    }
+
+    // rotation axis
+    var zb=p3(0,0,-0.08), zt=p3(0,0,fn.ymax*1.15);
+    ctx.strokeStyle="rgba(148,163,184,.4)"; ctx.lineWidth=1.2; ctx.setLineDash([5,4]);
+    ctx.beginPath(); ctx.moveTo(zb[0],zb[1]); ctx.lineTo(zt[0],zt[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle="#94a3b8"; ctx.font="11px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("axis",zt[0],zt[1]-8);
+
+    // surface curve on front face
+    ctx.strokeStyle="#2dd4bf"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(45,212,191,.5)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var k=0;k<=120;k++){
+      var r=k/120*fn.xmax, pt=p3(r,0,fn.f(r));
+      k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // ── Annotations on highlighted shell ──
+    var rm=(hl+.5)*dx, hh=fn.f(rm);
+    var r0h=hl*dx, r1h=(hl+1)*dx;
+
+    // radius arrow
+    var p0=p3(0,0,0), p1=p3(r1h,0,0);
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=1.8;
+    ctx.beginPath(); ctx.moveTo(p0[0],p0[1]); ctx.lineTo(p1[0],p1[1]); ctx.stroke();
+    var angR=Math.atan2(p1[1]-p0[1],p1[0]-p0[0]);
+    ctx.fillStyle="#fb923c";
+    ctx.beginPath(); ctx.moveTo(p1[0],p1[1]);
+    ctx.lineTo(p1[0]-8*Math.cos(angR-.4),p1[1]-8*Math.sin(angR-.4));
+    ctx.lineTo(p1[0]-8*Math.cos(angR+.4),p1[1]-8*Math.sin(angR+.4));
+    ctx.fill();
+    ctx.font="bold 12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("r = x",(p0[0]+p1[0])/2,(p0[1]+p1[1])/2+15);
+
+    // height arrow
+    var frontTh=-az;
+    var hb=p3(r1h*1.04,frontTh,0), ht=p3(r1h*1.04,frontTh,hh);
+    ctx.strokeStyle="#2dd4bf"; ctx.lineWidth=1.8;
+    ctx.beginPath(); ctx.moveTo(hb[0],hb[1]); ctx.lineTo(ht[0],ht[1]); ctx.stroke();
+    var angH=Math.atan2(ht[1]-hb[1],ht[0]-hb[0]);
+    ctx.fillStyle="#2dd4bf";
+    ctx.beginPath(); ctx.moveTo(ht[0],ht[1]);
+    ctx.lineTo(ht[0]-7*Math.cos(angH-.4),ht[1]-7*Math.sin(angH-.4));
+    ctx.lineTo(ht[0]-7*Math.cos(angH+.4),ht[1]-7*Math.sin(angH+.4));
+    ctx.fill();
+    ctx.font="bold 12px Georgia,serif"; ctx.textAlign="left";
+    ctx.fillText("h=f(x)",ht[0]+6,(hb[1]+ht[1])/2+4);
+
+    // thickness Δx
+    var topTh=-az+Math.PI*.7;
+    var t0=p3(r0h,topTh,hh*1.12), t1=p3(r1h,topTh,hh*1.12);
+    ctx.strokeStyle="#a78bfa"; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(t0[0],t0[1]); ctx.lineTo(t1[0],t1[1]); ctx.stroke();
+    ctx.fillStyle="#a78bfa"; ctx.font="bold 11px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("\u0394x",(t0[0]+t1[0])/2,(t0[1]+t1[1])/2-8);
+
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Shell View  \u2014  drag to rotate",W/2,14);
+  }
+
+  // ── Stats update ───────────────────────────────────────────────────
+  function updateStats() {
+    var fn=FUNS[state.fnKey], nv=state.n, hl=state.hl;
+    var dx=fn.xmax/nv;
+    var xm=(hl+.5)*dx, hv=fn.f(xm);
+    var shellVol=2*Math.PI*xm*hv*dx;
+
+    // true volume
+    var tv=0, di=fn.xmax/1000;
+    for(var i=0;i<1000;i++){var xi=(i+.5)*di; tv+=2*Math.PI*xi*fn.f(xi)*di;}
+
+    // shell sum
+    var ss=0;
+    for(var i=0;i<nv;i++){var xi=(i+.5)*dx; ss+=2*Math.PI*xi*fn.f(xi)*dx;}
+
+    var err=Math.abs(ss-tv)/tv*100;
+    var errCol=err<1?"#4ade80":err<5?"#fbbf24":"#f87171";
+
+    document.getElementById("shell-formula").innerHTML=
+      "<span style='color:#fb923c'>Shell #"+(hl+1)+"</span>"
+      +"<span style='color:#94a3b8;margin:0 10px'>|</span>"
+      +"\u0394V = 2\u03c0 &middot; <span style='color:#fb923c'>r</span>"
+      +" &middot; <span style='color:#2dd4bf'>h</span>"
+      +" &middot; <span style='color:#a78bfa'>\u0394x</span>"
+      +" = 2\u03c0 &middot; <span style='color:#fb923c'>"+xm.toFixed(3)+"</span>"
+      +" &middot; <span style='color:#2dd4bf'>"+hv.toFixed(3)+"</span>"
+      +" &middot; <span style='color:#a78bfa'>"+dx.toFixed(3)+"</span>"
+      +" = <span style='color:#fbbf24;font-weight:bold'>"+shellVol.toFixed(4)+"</span>";
+
+    document.getElementById("shell-stat-true").textContent=tv.toFixed(5);
+    document.getElementById("shell-stat-sum").textContent=ss.toFixed(5);
+    var errEl=document.getElementById("shell-stat-err");
+    errEl.textContent=err.toFixed(3)+"%";
+    errEl.style.color=errCol;
+  }
+
+  // ── Full redraw ────────────────────────────────────────────────────
+  function redraw(){ draw2D(); draw3D(); updateStats(); }
+
+  // ── Build function buttons ─────────────────────────────────────────
+  var btnContainer=document.getElementById("shell-fn-btns");
+  FN_KEYS.forEach(function(k){
+    var btn=document.createElement("button");
+    btn.textContent="y = "+FUNS[k].label;
+    btn.dataset.key=k;
+    btn.style.cssText="padding:6px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-family:Georgia,serif;";
+    btn.addEventListener("click",function(){
+      state.fnKey=k;
+      state.hl=Math.floor(state.n/3);
+      updateButtons();
+      redraw();
+    });
+    btnContainer.appendChild(btn);
+  });
+
+  function updateButtons(){
+    btnContainer.querySelectorAll("button").forEach(function(b){
+      var active=(b.dataset.key===state.fnKey);
+      b.style.border=active?"2px solid #4ade80":"2px solid rgba(148,163,184,.2)";
+      b.style.background=active?"rgba(74,222,128,.2)":"rgba(5,10,20,.5)";
+      b.style.color=active?"#4ade80":"#94a3b8";
+      b.style.fontWeight=active?"bold":"normal";
+    });
+  }
+  updateButtons();
+
+  // ── Sliders ────────────────────────────────────────────────────────
+  var nSlider=document.getElementById("shell-n-slider");
+  var hlSlider=document.getElementById("shell-hl-slider");
+
+  nSlider.addEventListener("input",function(){
+    state.n=parseInt(this.value);
+    state.hl=Math.min(state.hl,state.n-1);
+    hlSlider.max=state.n-1;
+    hlSlider.value=state.hl;
+    document.getElementById("shell-n-label").textContent="n = "+state.n+" shells";
+    document.getElementById("shell-hl-label").textContent="shell #"+(state.hl+1);
+    redraw();
+  });
+  hlSlider.addEventListener("input",function(){
+    state.hl=parseInt(this.value);
+    document.getElementById("shell-hl-label").textContent="shell #"+(state.hl+1);
+    redraw();
+  });
+
+  // ── Mouse/touch drag on 3D canvas ─────────────────────────────────
+  var drag={active:false,lastX:0,lastY:0};
+
+  function getXY(e){
+    if(e.touches) return {x:e.touches[0].clientX,y:e.touches[0].clientY};
+    return {x:e.clientX,y:e.clientY};
+  }
+  c3d.addEventListener("mousedown",function(e){
+    e.preventDefault();
+    var p=getXY(e); drag={active:true,lastX:p.x,lastY:p.y};
+    c3d.style.cursor="grabbing";
+  });
+  c3d.addEventListener("touchstart",function(e){
+    e.preventDefault();
+    var p=getXY(e); drag={active:true,lastX:p.x,lastY:p.y};
+  },{passive:false});
+  window.addEventListener("mousemove",function(e){
+    if(!drag.active) return;
+    var p=getXY(e);
+    state.az += (p.x-drag.lastX)*0.010;
+    state.el  = Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,state.el-(p.y-drag.lastY)*0.010));
+    drag.lastX=p.x; drag.lastY=p.y;
+    draw3D();
+  });
+  window.addEventListener("touchmove",function(e){
+    if(!drag.active) return;
+    e.preventDefault();
+    var p=getXY(e);
+    state.az += (p.x-drag.lastX)*0.010;
+    state.el  = Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,state.el-(p.y-drag.lastY)*0.010));
+    drag.lastX=p.x; drag.lastY=p.y;
+    draw3D();
+  },{passive:false});
+  window.addEventListener("mouseup",function(){ drag.active=false; c3d.style.cursor="grab"; });
+  window.addEventListener("touchend",function(){ drag.active=false; });
+
+  // ── Initial draw ───────────────────────────────────────────────────
+  redraw();
+})();
+</script>
+
+#### Interactive 3D visualizations - volumes {#iv-volumes}
 
 <h4>Equilateral Triangle Cross-Sections</h4>
 
