@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 22:47:37 PST 2026
+last_modified_at: Sat Mar  7 23:33:35 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -178,6 +178,57 @@ if its domain contains an open interval containing $a$, and the limit in \eqref{
 \label{eq:def-derivative}
 	\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
 \end{equation}
+
+<h4>Examples</h4>
+
+$$
+\begin{eqnarray}
+\label{eq:der-examples}
+\begin{array}{lcl}
+	\dfrac{d}{dx} c
+		&=&
+			0
+	\quad\mbox{for every } c \in \reals
+\\
+	\dfrac{d}{dx} x
+		&=&
+			1
+\\
+	\dfrac{d}{dx} x^2
+		&=&
+			2x
+\\
+	\dfrac{d}{dx} \left(\dfrac{1}{x}\right)
+		&=&
+			- \dfrac{1}{x^2}
+\\
+	\dfrac{d}{dx} \left(\dfrac{1}{x^2}\right)
+		&=&
+			- \dfrac{2}{x^3}
+\\
+	\dfrac{d}{dx} x^p
+		&=&
+			p x^{p-1}
+				\quad\mbox{for every nonzero } p\in \reals
+\\
+	\dfrac{d}{dx} e^x
+		&=&
+			e^x
+\\
+	\dfrac{d}{dx} \ln x
+		&=&
+			\dfrac{1}{x}
+\\
+	\dfrac{d}{dx} \sin x
+		&=&
+			\cos x
+\\
+	\dfrac{d}{dx} \cos x
+		&=&
+			- \sin x
+\end{array}
+\end{eqnarray}
+$$
 
 #### Interactive visualization - finite difference approximations {#iv-finite-diff}
 
@@ -506,7 +557,7 @@ So in one line
 
 \begin{equation}
 \label{eq:der-linearity}
-	(c_1 f + c_2 g)' = c_1 f' + c_2 g'
+	(a f + b g)' = a f' + b g'
 \end{equation}
 
 <span class="emph">This is arguably the single most useful structural fact about derivatives.</span>
@@ -525,23 +576,57 @@ A handy way to remember this
 &ndash;
 <span class="emph">"derivative of first times second, plus first times derivative of second."</span>
 
-> **Why the product rule matters for integration:** The product rule $(fg)' = f'g + fg'$ can be rearranged as
+> **Why the product rule matters for integration** The product rule $(fg)' = f'g + fg'$ can be rearranged as
 > $f'g = (fg)' - fg'$, and integrating both sides gives exactly
 > the **integration by parts** formula — so the product rule is the *parent* of one of the most important integration techniques!
 > We'll see this connection in the integration section below.
 
 <h4>Quotient rule</h4>
 
-It follows directly from the product rule!
+It follows directly from the chain rule and the product rule!
 
 \begin{equation}
 \label{eq:der-quotient-rule}
-\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}
+	\left(\frac{f}{g}\right)' = \frac{f'g - fg'}{g^2}
 \end{equation}
+
+because
+<!--
+the linearity of differentiation \eqref{eq:der-linearity},
+-->
+the chain rule \eqref{eq:chain-rule}
+and
+the product rule \eqref{eq:der-product-rule}
+(together with basic derivative formulas in \eqref{eq:der-examples})
+imply
+
+$$
+	\left(\frac{f}{g}\right)'
+		=
+			\left(f\cdot\frac{1}{g}\right)'
+		=
+			f' \left(\frac{1}{g}\right) + f \left(\frac{1}{g}\right)'
+		=
+			f' \cdot \frac{1}{g} - f \cdot \frac{g'}{g^2}
+		=
+			\frac{f'g - fg'}{g^2}
+$$
 
 A mnemonic
 &ndash;
 <span class="emph">"low d-high minus high d-low, over low squared."</span>
+
+Indeed,
+using
+the linearity of differentiation \eqref{eq:der-linearity}
+with the two rules,
+*i.e.*,
+the chain rule \eqref{eq:chain-rule}
+and
+the product rule \eqref{eq:der-product-rule}
+(together with basic derivative formulas in \eqref{eq:der-examples}),
+<span style="color: red;">we can derive every single formula related to differentiation in the whole universe!
+Actually, even in every multiverse! &#x2605;^^&#x2605;</span><sup><a href="#footnote01" id="ref01">1</a></sup>
 
 ### Mean value theorem {#mean-value-theorem}
 
@@ -1496,16 +1581,11 @@ $$
 \int c\, f(x)\, dx = c \int f(x)\, dx
 $$
 
-<!--
-So in one line: $\displaystyle\int \bigl(c_1 f + c_2 g\bigr)\, dx = c_1 \int f\, dx + c_2 \int g\, dx$.
-This lets you split up and scale integrals freely — use it constantly!
--->
-
 So in one line
 
 \begin{equation}
 \label{eq:int-linearity}
-	\int \bigl(c_1 f + c_2 g\bigr)\, dx = c_1 \int f\, dx + c_2 \int g\, dx
+	\int \bigl(a f + b g\bigr)\, dx = a \int f\, dx + b \int g\, dx
 \end{equation}
 
 This lets you split up and scale integrals freely — use it constantly!
@@ -1553,12 +1633,14 @@ Pick $u$ from whichever category appears earliest in that list.
 
 For definite integrals, we have
 
+<!--
 \begin{equation}
-\label{eq:int-by-parts-definite}
 	\int_a^b f'(x)\, g(x)\, dx = \Bigl.\Bigl(f(x)g(x)\Bigr)\Bigr|_{x=a}^b - \int_a^b f(x)\, g'(x)\, dx
 \end{equation}
+-->
 
 \begin{equation}
+\label{eq:int-by-parts-definite}
 	\int_a^b f'(x)\, g(x)\, dx = \Bigl[f(x)g(x)\Bigr]_a^b - \int_a^b f(x)\, g'(x)\, dx
 \end{equation}
 
@@ -2686,7 +2768,7 @@ using formula such as \eqref{eq:int-arcsin-squared}.
 A [sequence](https://en.wikipedia.org/wiki/Sequence){:target="_blank"}
 is a collection of objects possibly with repetition, that come in a specified order.
 Like a set, it contains members (also called elements, or terms).
-Unlike a set, the same elements can appear multiple times at different positions in a sequence, and unlike a set, the order does matter.<sup><a href="#footnote01" id="ref01">1</a></sup>
+Unlike a set, the same elements can appear multiple times at different positions in a sequence, and unlike a set, the order does matter.<sup><a href="#footnote02" id="ref02">2</a></sup>
 
 For example, (M, A, R, Y) is a sequence of letters with the letter &ldquo;M&rdquo; first and &ldquo;Y&rdquo; last.
 This sequence differs from (A, R, M, Y).
@@ -5103,7 +5185,7 @@ $$
 
 ### Power-reduction formulas
 
-Once again, everything here can be deduced from what we've already studied!<sup><a href="#footnote02" id="ref02">2</a></sup>
+Once again, everything here can be deduced from what we've already studied!<sup><a href="#footnote03" id="ref03">3</a></sup>
 
 <span class="emph">So in a sense, essentially, no addition knowledge adds up here, but it's always good to know and get accustomed to these patterns,
 *e.g.*, to get good grades on AP Calculus BC tests! &#x2605;^^&#x2605;</span>
@@ -5167,13 +5249,44 @@ Some (tedious) calculations also lead to
 </li>
 </ul>
 
+<!--
+## Interactive Visualization Tools
+
+### power functions
+
+XXX
+-->
+
 ---
 
 <ol>
 <li id="footnote01">
-	The notion of a sequence can be generalized to an indexed family, defined as a function from an arbitrary index set.
+For example,
+for every trigonometric differentiation formulas can be derived from this single formula!
+
+$$
+	\frac{d}{dx} \sin x = \cos x
+$$
+
+*i.e.*, we can even derive the derivative of the cosine function from this
+by
+
+$$
+	\frac{d}{dx} \cos x
+		=
+			\frac{d}{dx} \sin \left(x + \frac{\pi}{2}\right)
+		=
+			\cos \left(x + \frac{\pi}{2}\right) \frac{d}{dx} \left(x + \frac{\pi}{2}\right)
+		=
+			- \sin x
+$$
+
+where the chain rule \eqref{eq:chain-rule} is used!
 	&nbsp;<a href="#ref01">↩</a></li>
 <li id="footnote02">
+	The notion of a sequence can be generalized to an indexed family, defined as a function from an arbitrary index set.
+	&nbsp;<a href="#ref02">↩</a></li>
+<li id="footnote03">
 	Indeed, we do <span style="color: red; font-weight: bold;">NOT</span> even need both \eqref{eq:tri-sin-sum-identity} and \eqref{eq:tri-cos-sum-identity},
 	because one readily implies the other.
 	For example,
@@ -5216,5 +5329,5 @@ Some (tedious) calculations also lead to
 				\sin\alpha \cos\beta + \cos\alpha \cos\beta
 	$$
 
-	&nbsp;<a href="#ref02">↩</a></li>
+	&nbsp;<a href="#ref03">↩</a></li>
 </ol>
