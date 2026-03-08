@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 17:55:27 PST 2026
+last_modified_at: Sat Mar  7 18:32:51 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -2077,7 +2077,7 @@ or
 <span class="define">linear sequence</span>](https://en.wikipedia.org/wiki/Arithmetic_progression){:target="_blank"}
 is
 a sequence of numbers such that the difference from any succeeding term to its preceding term remains constant throughout the sequence.
-The constant difference is called <span class="defien">common difference</span> of that arithmetic progression.
+The constant difference is called <span class="define">common difference</span> of that arithmetic progression.
 For instance, the sequence $5, 7, 9, 11, 13, 15, \ldots$ is an arithmetic progression with a common difference of $2$.
 
 If the initial term of an arithmetic progression is $a_{1}$ and the common difference of successive members is $d$,
@@ -2286,6 +2286,97 @@ a_1 + a_2 + a_3 + \cdots
 
 where $$\{a_n\}_{n=1}^\infty$$ is a sequence of real or complex numbers.
 
+<h4>Examples</h4>
+
+<h5><a target="_blank" href="https://en.wikipedia.org/wiki/Geometric_series">Geometric series</a></h5>
+
+\begin{equation}
+\label{eq:geo-series}
+	\sum_{n} a r^{n-1}
+\end{equation}
+
+- The finite sum
+
+\begin{equation}
+\label{eq:geo-series-finite-sum}
+	\sum_{k=1}^n a r^{k-1}
+		=
+			a \frac{r^n-1}{r-1}
+		=
+			a \frac{1-r^n}{1-r}
+\end{equation}
+
+- The infinite sum ($a\neq0$)
+
+$$
+\begin{equation}
+\label{eq:geo-series-infinite-sum}
+	\sum_{n=1}^\infty a r^{n-1}
+		= \left\{ \begin{array}{ll}
+				\dfrac{a}{1-r}	&\mbox{if } |r| < 1
+			\\
+				\infty	&\mbox{if } r = 1,\; a >0
+			\\
+				-\infty	&\mbox{if } r = 1,\; a <0
+			\\
+				\mbox{oscillates, hence diverges}	&\mbox{if } r = -1
+			\\
+				\mbox{diverges}	&\mbox{if } |r|>1
+		\end{array}
+		\right.
+\end{equation}
+$$
+
+<h5><a target="_blank" href="https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)">Harmonic series</a></h5>
+
+\begin{equation}
+\label{eq:harmonic-series}
+	\sum_{n} \frac{1}{n}
+\end{equation}
+
+- The infinite sum diverges!
+
+\begin{equation}
+\label{eq:harmonic-series-infinite-sum}
+	\sum_{n} \frac{1}{n} = \infty
+\end{equation}
+
+<h5><a target="_blank" href="https://en.wikipedia.org/wiki/Alternating_series">Alternating series</a></h5>
+
+An alternating series is an infinite series of terms that alternate between positive and negative signs.
+
+<ul>
+<li>
+Some examples
+
+\begin{equation}
+\label{eq:alternating-series-example-01}
+	\sum_{n=1}^\infty \frac{(-1)^{n+1}}{n} = 1 - \frac{1}{2} + \frac{1}{3} - \cdots = \ln 2
+\end{equation}
+
+\begin{equation}
+\label{eq:alternating-series-example-02}
+	\sum_{n=1}^\infty \frac{(-1)^{n+1}}{2n-1} = 1 - \frac{1}{3} + \frac{1}{5} - \cdots = \frac{\pi}{4}
+\end{equation}
+</li>
+</ul>
+
+<h5><a target="_blank" href="https://en.wikipedia.org/wiki/Dirichlet_series">Dirichlet series</a></h5>
+
+\begin{equation}
+\label{eq:dirichlet-series}
+	\sum_{n} \frac{1}{n^p}
+\end{equation}
+
+- The infinite sum converges if and only if $p>1$.
+
+- when $p=2$
+
+\begin{equation}
+\label{eq:dirichlet-series-2}
+	\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}
+\end{equation}
+
 ### Series Convergence
 
 The <span class="define">partial sums</span> of a series are the expressions resulting from replacing the infinity symbol with a finite number,
@@ -2313,8 +2404,43 @@ The same notation is used to denote a series and its value, *i.e.*, we write
 
 <h4>Examples</h4>
 
+<!--
 $$
-\begin{eqnarray*}
+\begin{eqnarray}
+	\sum_{n=1}^\infty \dfrac{1}{n}
+		&=&
+			\infty
+\\
+	\sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{n}
+		&=&
+			\ln 2
+\\
+	\sum_{p: \text{prime number}}^\infty \dfrac{1}{p}
+		&=&
+			\dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{5} + \dfrac{1}{7} + \dfrac{1}{11} + \cdots = \infty
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n(n+1)}
+		&=&
+			1
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n!}
+		&=&
+			e
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n^2}
+		&=&
+			\dfrac{\pi^2}{6}
+\\
+	\sum_{n=0}^\infty r^n
+		&=&
+			\dfrac{1}{1-r}
+			\; \mbox{assuming } |r| < 1
+\end{eqnarray}
+$$
+-->
+
+$$
+\begin{eqnarray}
 \begin{array}{lcl}
 	\sum_{n=1}^\infty \dfrac{1}{n}
 		&=&
@@ -2345,7 +2471,7 @@ $$
 			\dfrac{1}{1-r}
 			\; \mbox{assuming } |r| < 1
 \end{array}
-\end{eqnarray*}
+\end{eqnarray}
 $$
 
 ### Conditional and Absolute Convergence
