@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 21:45:40 PST 2026
+last_modified_at: Sat Mar  7 22:08:43 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -21,6 +21,7 @@ sections:
   iv-integral-approximation: "Interactive visualization - integral approximation"
   iv-arc-length: "Interactive visualization - arc length"
   iv-volumes: "Interactive 3D Visualizations - Volumes"
+  iv-ode: "Interactive animation — watch the solution evolve in real time"
 ---
 
 posted: {{ page.date| date: "%d-%b-%Y" }}
@@ -129,6 +130,7 @@ table, tr, td, th {
 - [{{ page.sections.iv-integral-approximation }}](#iv-integral-approximation)
 - [{{ page.sections.iv-arc-length }}](#iv-arc-length)
 - [{{ page.sections.iv-volumes}}](#iv-volumes)
+- [{{ page.sections.iv-ode}}](#iv-ode)
 
 # Important Topics, Patterns, and Rules
 
@@ -3310,7 +3312,7 @@ and is *concave down* where $t>0.21972$!
 <img src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/logistic_fcn_01.png">
 </div>
 
-#### Interactive animation — watch the solution evolve in real time
+#### Interactive animation — watch the solution evolve in real time {#iv-ode}
 
 <div id="ode-viz" style="background:linear-gradient(135deg,#0f172a,#001a0f,#0f172a);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
   <div style="text-align:center;margin-bottom:16px;">
