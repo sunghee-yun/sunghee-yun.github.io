@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 18:32:51 PST 2026
+last_modified_at: Sat Mar  7 18:37:12 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -2048,6 +2048,7 @@ This sequence differs from (A, R, M, Y).
 Also, the sequence (1, 1, 2, 3, 5, 8), which contains the number 1 at two different positions, is a valid sequence.
 Sequences can be finite, as in these examples, or infinite, such as the sequence of even positive integers (2, 4, 6, &hellip;).
 
+<span id="sequence-examples"></span>
 <h4>Examples</h4>
 
 <h5>Sign sequence</h5>
@@ -2286,6 +2287,7 @@ a_1 + a_2 + a_3 + \cdots
 
 where $$\{a_n\}_{n=1}^\infty$$ is a sequence of real or complex numbers.
 
+<span id="series-examples"></span>
 <h4>Examples</h4>
 
 <h5><a target="_blank" href="https://en.wikipedia.org/wiki/Geometric_series">Geometric series</a></h5>
