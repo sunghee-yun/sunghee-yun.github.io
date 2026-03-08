@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 14:34:47 PST 2026
+last_modified_at: Sat Mar  7 17:19:10 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -22,6 +22,13 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+<style>
+table, tr, td, th {
+    font-size: inherit !important;
+    font-family: inherit !important;
+}
+</style>
 
 **Share this on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }})
@@ -3657,10 +3664,436 @@ $$
 - <a target="_blank" href="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_on_area_and_volume.pdf">free_response_on_area_and_volume.pdf</a>
 - <a target="_blank" href="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/area-and-volume/free_response_answers_on_area_and_volume.pdf">free_response_answers_on_area_and_volume.pdf</a>
 
+# Appendix
+
+## Some trigonometric equivalences
+
+[source](https://en.wikipedia.org/wiki/List_of_trigonometric_identities){:target="_blank"}
+
+### Pythagorean Identities {#pythagorean-identities}
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity}
+	\sin^2 \theta + \cos^2 \theta = 1
+\end{equation}
+
+which implies
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity-sin}
+	\sin \theta = \pm \sqrt{1-\cos^2\theta}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity-cos}
+	\cos \theta = \pm \sqrt{1-\sin^2\theta}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity-csc}
+	1 + \cot^2\theta = \csc^2 \theta
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity-sec}
+	1 + \tan^2\theta = \sec^2 \theta
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-pythagorean-identity-sec-csc}
+	\sec^2\theta + \csc^2\theta = \sec^2 \theta \csc^2\theta
+\end{equation}
+
+### Shifts and Periodicity
+
+<figure>
+  <div class="img-container">
+    <img style="max-width: 60%;" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/Unit_Circle_-_shifts.svg.png">
+  </div>
+  <figcaption>Transformation of coordinates $(a,b)$ when shifting the reflection angle $\alpha$ in increments of $\dfrac{\pi}{4}$</figcaption>
+</figure>
+
+|function|period|shift by $\dfrac{\pi}{2}$|shift by $\pi$|shift by multiples of $2\pi$|
+|$\sin$|$2\pi$|$\sin\left(\theta \pm \dfrac{\pi}{2}\right) = \pm \cos\theta$|$\sin(\theta+\pi) = - \sin\theta$|$\sin(\theta + k\cdot 2\pi) = + \sin\theta$|
+|$\cos$|$2\pi$|$\cos\left(\theta \pm \dfrac{\pi}{2}\right) = \mp \sin\theta$|$\cos(\theta+\pi) = - \cos\theta$|$\cos(\theta + k\cdot 2\pi) = + \cos\theta$|
+|$\tan$|$\pi$|$\tan\left(\theta \pm \dfrac{\pi}{2}\right) = - \cot\theta$|$\tan(\theta+\pi) = + \tan\theta$|$\tan(\theta + k\cdot 2\pi) = + \tan\theta$|
+|$\csc$|$2\pi$|$\csc\left(\theta \pm \dfrac{\pi}{2}\right) = \pm \sec\theta$|$\csc(\theta+\pi) = - \csc\theta$|$\csc(\theta + k\cdot 2\pi) = + \csc\theta$|
+|$\sec$|$2\pi$|$\sec\left(\theta \pm \dfrac{\pi}{2}\right) = \mp \csc\theta$|$\sec(\theta+\pi) = - \sec\theta$|$\sec(\theta + k\cdot 2\pi) = + \sec\theta$|
+|$\cot$|$\pi$|$\cot\left(\theta \pm \dfrac{\pi}{2}\right) = - \tan\theta$|$\cot(\theta+\pi) = + \cot\theta$|$\cot(\theta + k\cdot 2\pi) = + \tan\theta$|
+
+|function|shift by $\dfrac{\pi}{4}$|shift by $\dfrac{\pi}{2}$|shift by multiples of $\pi$|
+|$\tan$|$\tan\left(\theta \pm \dfrac{\pi}{4}\right) = \dfrac{\tan\theta \pm 1}{1 \mp \tan \theta}$|$\tan\left(\theta + \dfrac{\pi}{2}\right) = - \cot\theta$|$\tan(\theta + k\cdot \pi) = + \tan\theta$|
+|$\cot$|$\cot\left(\theta \pm \dfrac{\pi}{4}\right) = \dfrac{\cot\theta \mp 1}{1 \pm \cot \theta}$|$\cot\left(\theta + \dfrac{\pi}{2}\right) = - \tan\theta$|$\cot(\theta + k\cdot \pi) = + \cot\theta$|
+
+### Reflections, Shifts, and Periodicity
+
+<figure>
+  <div class="img-container">
+    <img style="max-width: 60%;" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-03-01-PST - ap calculus bc problems/Unit_Circle_-_symmetry.svg.png">
+  </div>
+  <figcaption>Transformation of coordinates $(a,b)$ when shifting the reflection angle $\alpha$ in increments of $\dfrac{\pi}{4}$</figcaption>
+</figure>
+
+|$\theta$ reflected in $\alpha=0$|$\theta$ reflected in $\alpha=\dfrac{\pi}{4}$|$\theta$ reflected in $\alpha=\dfrac{\pi}{2}$|$\theta$ reflected in $\alpha=\dfrac{3\pi}{4}$|$\theta$ reflected in $\alpha=\pi$|
+|$\sin(-\theta) = - \sin\theta$|$\sin\left(\dfrac{\pi}{2}-\theta\right) = + \cos\theta$|$\sin(\pi-\theta) = + \sin\theta$|$\sin\left(\dfrac{3\pi}{2}-\theta\right) = - \cos\theta$|$\sin(2\pi-\theta) = \sin(-\theta) = - \sin \theta$|
+|$\cos(-\theta) = + \cos\theta$|$\cos\left(\dfrac{\pi}{2}-\theta\right) = + \sin\theta$|$\cos(\pi-\theta) = - \cos\theta$|$\cos\left(\dfrac{3\pi}{2}-\theta\right) = - \sin\theta$|$\cos(2\pi-\theta) = \cos(-\theta) = + \cos \theta$|
+|$\tan(-\theta) = - \tan\theta$|$\tan\left(\dfrac{\pi}{2}-\theta\right) = + \cot\theta$|$\tan(\pi-\theta) = - \tan\theta$|$\tan\left(\dfrac{3\pi}{2}-\theta\right) = + \cot\theta$|$\tan(2\pi-\theta) = \tan(-\theta) = - \tan \theta$|
+|$\csc(-\theta) = - \csc\theta$|$\csc\left(\dfrac{\pi}{2}-\theta\right) = + \sec\theta$|$\csc(\pi-\theta) = + \csc\theta$|$\csc\left(\dfrac{3\pi}{2}-\theta\right) = - \sec\theta$|$\csc(2\pi-\theta) = \csc(-\theta) = - \csc \theta$|
+|$\sec(-\theta) = + \sec\theta$|$\sec\left(\dfrac{\pi}{2}-\theta\right) = + \csc\theta$|$\sec(\pi-\theta) = - \sec\theta$|$\sec\left(\dfrac{3\pi}{2}-\theta\right) = - \csc\theta$|$\sec(2\pi-\theta) = \sec(-\theta) = + \sec \theta$|
+|$\cot(-\theta) = - \cot\theta$|$\cot\left(\dfrac{\pi}{2}-\theta\right) = + \tan\theta$|$\cot(\pi-\theta) = - \cot\theta$|$\cot\left(\dfrac{3\pi}{2}-\theta\right) = + \tan\theta$|$\cot(2\pi-\theta) = \cot(-\theta) = - \cot \theta$|
+
+### Sum and Difference Identities
+
+$$
+\begin{eqnarray}
+\label{eq:tri-sin-sum-identity}
+	\sin(\alpha + \beta)
+		&=&
+			\sin\alpha \cos\beta + \cos\alpha \sin\beta
+\\
+\label{eq:tri-cos-sum-identity}
+	\cos(\alpha + \beta)
+		&=&
+			\cos\alpha \cos\beta - \sin\alpha \sin\beta
+\end{eqnarray}
+$$
+
+hence
+
+$$
+\begin{eqnarray}
+	\sin(\alpha - \beta)
+		&=&
+			\sin\alpha \cos\beta - \cos\alpha \sin\beta
+\\
+	\cos(\alpha - \beta)
+		&=&
+			\cos\alpha \cos\beta + \sin\alpha \sin\beta
+\end{eqnarray}
+$$
+
+which imply
+
+$$
+\begin{eqnarray}
+	\tan(\alpha + \beta)
+		&=&
+			\frac{\tan\alpha + \tan \beta}{1 - \tan\alpha\tan\beta}
+\\
+	\tan(\alpha - \beta)
+		&=&
+			\frac{\tan\alpha - \tan \beta}{1 + \tan\alpha\tan\beta}
+\end{eqnarray}
+$$
+
+### Multiple-angle Formulas
+
+We can derive all the formula here essentially using these two formulas; \eqref{eq:tri-sin-sum-identity} and \eqref{eq:tri-cos-sum-identity}!
+
+<ul>
+<li>
+\eqref{eq:tri-sin-sum-identity}
+implies
+
+\begin{equation}
+\label{eq:tri-sin-2-theta}
+	\sin(2\theta) = 2\sin\theta \cos\theta
+\end{equation}
+</li>
+
+<li>
+\eqref{eq:tri-cos-sum-identity}
+(together with \eqref{eq:tri-pythagorean-identity})
+implies
+
+\begin{equation}
+\label{eq:tri-cos-2-theta}
+	\cos(2\theta) = \cos^2 \theta - \sin^2\theta = 1 - 2\sin^2\theta = 2\cos^2\theta - 1
+\end{equation}
+</li>
+
+<li>
+\eqref{eq:tri-sin-2-theta} and \eqref{eq:tri-cos-2-theta} imply
+
+\begin{equation}
+\label{eq:tri-tan-2-theta}
+	\tan(2\theta) = \frac{2\tan\theta}{1 - \tan^2\theta}
+\end{equation}
+</li>
+
+<li>
+\eqref{eq:tri-sin-sum-identity}, \eqref{eq:tri-sin-2-theta}, and \eqref{eq:tri-cos-2-theta}
+(together with \eqref{eq:tri-pythagorean-identity})
+imply
+
+\begin{equation}
+\label{eq:tri-sin-3-theta}
+	\sin(3\theta) = 3\sin\theta - 4\sin^3\theta
+\end{equation}
+
+because
+
+$$
+\begin{eqnarray*}
+	\sin(3\theta)
+		&=&
+			\sin(\theta + 2\theta)
+		=
+			\sin\theta \cos(2\theta) + \cos\theta \sin(2\theta)
+\\
+		&=&
+			\sin\theta (1-2\sin^2\theta) + 2\cos^2\theta \sin\theta
+\\
+		&=&
+			\sin\theta (1-2\sin^2\theta) + 2(1-\sin^2\theta) \sin\theta
+\\
+		&=&
+			3\sin\theta - 4\sin^3\theta
+\end{eqnarray*}
+$$
+</li>
+
+<li>
+\eqref{eq:tri-sin-3-theta} implies
+
+\begin{equation}
+\label{eq:tri-cos-3-theta}
+	\cos(3\theta) = -3\cos\theta + 4\cos^3\theta
+\end{equation}
+
+because
+
+$$
+\begin{eqnarray*}
+	\cos(3\theta)
+		&=&
+			- \sin \left(3\theta + \frac{3\pi}{2} \right)
+		=
+			- \sin \left(3\left(\theta + \frac{\pi}{2}\right) \right)
+\\
+		&=&
+			- 3\sin\left(\theta + \frac{\pi}{2}\right) + 4\sin^3\left(\theta + \frac{\pi}{2}\right)
+\\
+		&=&
+			- 3\cos\theta + 4\cos^3\theta
+\end{eqnarray*}
+$$
+</li>
+
+<li>
+Now
+\eqref{eq:tri-sin-3-theta},
+\eqref{eq:tri-cos-3-theta},
+and
+\eqref{eq:tri-pythagorean-identity-sec}
+imply
+
+\begin{equation}
+\label{eq:tri-tan-3-theta}
+	\tan(3\theta)
+		=
+			\frac{3\tan\theta - \tan^3\theta}{1 - 3\tan^2\theta}
+\end{equation}
+
+because
+
+$$
+\begin{eqnarray*}
+	\tan(3\theta)
+		&=&
+			\frac{3\sin\theta - 4\sin^3\theta}{-3\cos\theta + 4\cos^3\theta}
+		=
+			\frac{3\tan\theta \sec^2\theta - 4\tan^3\theta}{-3\sec^2\theta + 4}
+\\
+		&=&
+			\frac{3\tan\theta (1+\tan^2\theta) - 4\tan^3\theta}{-3(1+\tan^2\theta) + 4}
+\\
+		&=&
+			\frac{3\tan\theta - \tan^3\theta}{1 - 3\tan^2\theta}
+\end{eqnarray*}
+$$
+</li>
+</ul>
+
+### Half-angle formulas
+
+Similarly, all the formulas here can be (easily) derived from what we have studied so far.
+
+<ul>
+<li>
+	\eqref{eq:tri-cos-2-theta} readily implies
+
+\begin{equation}
+\label{eq:tri-sin-half-theta}
+	\sin^2\frac{\theta}{2} = \frac{1-\cos\theta}{2}
+\end{equation}
+</li>
+
+<li>
+	Also, \eqref{eq:tri-cos-2-theta} readily implies
+\begin{equation}
+\label{eq:tri-cos-half-theta}
+	\cos^2\frac{\theta}{2} = \frac{1+\cos\theta}{2}
+\end{equation}
+</li>
+
+<li>
+Now
+\eqref{eq:tri-sin-2-theta},
+\eqref{eq:tri-sin-half-theta},
+and
+\eqref{eq:tri-cos-half-theta},
+imply
+
+\begin{equation}
+\label{eq:tri-tan-half-theta}
+	\tan\frac{\theta}{2}
+		=
+			\frac{1-\cos\theta}{\sin\theta}
+		=
+			\frac{\sin\theta}{1+\cos\theta}
+		=
+			\frac{\tan\theta}{1+\sec\theta}
+\end{equation}
+
+because
+
+$$
+\begin{eqnarray*}
+	\tan\frac{\theta}{2}
+		&=&
+			\frac{\sin(\theta/2)}{\cos(\theta/2)}
+\\
+		&=&
+			\frac{2\sin^2(\theta/2)}{2\sin(\theta/2)\cos(\theta/2)}
+				=
+					\frac{1-\cos\theta}{\sin\theta}
+\\
+		&=&
+			\frac{2\cos(\theta/2)\sin(\theta/2)}{2\cos^2(\theta/2)}
+				=
+					\frac{\sin\theta}{1+\cos\theta}
+					=
+						\frac{\tan\theta}{\sec\theta+1}
+\end{eqnarray*}
+$$
+</li>
+</ul>
+
+### Power-reduction formulas
+
+Once again, everything here can be deduced from what we've already studied!<sup><a href="#footnote02" id="ref02">2</a></sup>
+
+<span class="emph">So in a sense, essentially, no addition knowledge adds up here, but it's always good to know and get accustomed to these patterns,
+*e.g.*, to get good grades on AP Calculus BC tests! &#x2605;^^&#x2605;</span>
+
+<ul>
+<li>
+\eqref{eq:tri-cos-2-theta}
+implies
+
+\begin{equation}
+\label{eq:tri-sin-squared}
+	\sin^2\theta = \frac{1 - \cos(2\theta)}{2}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-cos-squared}
+	\cos^2\theta = \frac{1 + \cos(2\theta)}{2}
+\end{equation}
+</li>
+
+<li>
+\eqref{eq:tri-sin-3-theta}
+and
+\eqref{eq:tri-cos-3-theta}
+respectively
+imply
+
+\begin{equation}
+\label{eq:tri-sin-cubed}
+	\sin^3\theta = \frac{3\sin\theta - \sin(3\theta)}{4}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-cos-cubed}
+	\cos^3\theta = \frac{3\cos\theta + \cos(3\theta)}{4}
+\end{equation}
+</li>
+
+<li>
+Some (tedious) calculations also lead to
+
+\begin{equation}
+\label{eq:tri-sin-power-4}
+	\sin^4\theta = \frac{3 - 4\cos(2\theta) + \cos(4\theta)}{8}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-cos-power-4}
+	\cos^4\theta = \frac{3 + 4\cos(2\theta) + \cos(4\theta)}{8}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-sin-power-5}
+	\sin^5\theta = \frac{10\sin\theta - 5\sin(3\theta) + \sin(5\theta)}{16}
+\end{equation}
+
+\begin{equation}
+\label{eq:tri-cos-power-5}
+	\cos^5\theta = \frac{10\cos\theta + 5\cos(3\theta) + \cos(5\theta)}{16}
+\end{equation}
+</li>
+</ul>
+
 ---
 
 <ol>
 <li id="footnote01">
 	The notion of a sequence can be generalized to an indexed family, defined as a function from an arbitrary index set.
 	&nbsp;<a href="#ref01">↩</a></li>
+<li id="footnote02">
+	Indeed, we do <span style="color: red; font-weight: bold;">NOT</span> even need both \eqref{eq:tri-sin-sum-identity} and \eqref{eq:tri-cos-sum-identity},
+	because one readily implies the other.
+	For example,
+	assume that we only knew \eqref{eq:tri-sin-sum-identity}.
+	Then we can derive
+	$$
+	\begin{eqnarray*}
+		\cos(\alpha + \beta)
+			&=&
+				\sin\left(\alpha + \beta + \frac{\pi}{2}\right)
+					=
+						\sin\left(\alpha + \left(\beta + \frac{\pi}{2}\right) \right)
+	\\
+			&=&
+				\sin\alpha \cos\left(\beta + \frac{\pi}{2}\right)
+				+
+				\cos\alpha \sin\left(\beta + \frac{\pi}{2}\right)
+	\\
+			&=&
+				- \sin\alpha \sin\beta
+				+ \cos\alpha \cos\beta
+	\end{eqnarray*}
+	$$
+
+	hence, \eqref{eq:tri-sin-sum-identity} immeidately implies \eqref{eq:tri-cos-sum-identity}!
+	And (of course) vice versa!
+
+	So in a sense, we can derive <span style="color: red; font-weight: bold;">every single trigonometric identity existing in the whole universe</span>
+	from these two; the very basic <a href="#pythagorean-identities">Pythagorean identity</a> \eqref{eq:tri-pythagorean-identity}
+	and the two-term summuation formula for $\sin$ \eqref{eq:tri-sin-sum-identity}!
+	They are
+
+	$$
+		\sin^2\theta + \cos^2\theta = 1
+	$$
+	and
+	$$
+		\sin(\alpha + \beta)
+			=
+				\sin\alpha \cos\beta + \cos\alpha \cos\beta
+	$$
+
+	&nbsp;<a href="#ref02">↩</a></li>
 </ol>
