@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sat Mar  7 23:59:26 PST 2026
+last_modified_at: Sun Mar  8 00:49:43 PST 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -2538,6 +2538,7 @@ A = \frac{1}{2} \int_\alpha^\beta (r_\mathrm{outer}(\theta)^2 - r_\mathrm{inner}
 <h4>Disc method for volume calculation</h4>
 
 \begin{equation}
+\label{eq:vol-disc-method}
 	V = \pi \int_a^b R(x)^2 dx
 \end{equation}
 
@@ -2566,12 +2567,14 @@ Suppose the cross-section is defined by the graph of the positive function $f(x)
 Then the formula for the volume will be
 
 \begin{equation}
+\label{eq:vol-shell-method-rot-y}
 	V = 2 \pi \int_a^b x f(x) dx
 \end{equation}
 
 If the function is of the $y$ coordinate and the axis of rotation is the $x$-axis then the formula becomes
 
 \begin{equation}
+\label{eq:vol-shell-method-rot-x}
 	V = 2 \pi \int_a^b y f(y) dy
 \end{equation}
 
@@ -2623,7 +2626,12 @@ The volume of the solid of revolution obtained
 by rotating about the $x$-axis
 the area under $y = \sin(x)$ from $x = 0$ to $x = \pi/2$.
 
-$$
+<p>
+<br>
+<span class="emph">Daddy's Solution 1</span>
+We can use the disc method \eqref{eq:vol-disc-method}
+to have
+
 \begin{eqnarray*}
 V
 	&=&
@@ -2634,13 +2642,41 @@ V
 		\frac{\pi}{2} \int_{0}^{\pi/2} (1-\cos(2x)) dx
 \\
 	&=&
-		\frac{\pi}{2} \left.\left(x + \frac{1}{2}\sin(2x)\right)\right|_{0}^{\pi/2}
+		\frac{\pi}{2} \left[x + \frac{1}{2}\sin(2x)\right]_{0}^{\pi/2}
 	=
 		\frac{\pi^2}{4}
 	\simeq
 		2.4674
 \end{eqnarray*}
-$$
+</p>
+
+<p>
+<span class="emph">Daddy's Solution 2</span>
+We can try to use the <a href="#shell-method">shell method</a> \eqref{eq:vol-shell-method-rot-x}
+to have
+
+\begin{eqnarray*}
+V
+	&=&
+		2\pi \int_{0}^{1} y f(y) dy
+			=
+				2\pi \int_{0}^{1} y \left(\frac{\pi}{2} - \sin^{-1} y \right) dy
+\\
+	&=&
+		2\pi \left[
+			\frac{\pi}{4}y^2 - \frac{y^2\sin^{-1} y}{2} + \frac{\sin^{-1} y}{4} - \frac{y\sqrt{1-y^2}}{4}
+		\right]_{0}^{1}
+\\
+	&=&
+		2\pi \left(\frac{\pi}{4} - \frac{\pi}{4} + \frac{\pi}{8}\right)
+			=
+				\frac{\pi^2}{4}
+			\simeq
+				2.4674
+\end{eqnarray*}
+where
+the integration by parts \eqref{eq:int-by-parts} together with \eqref{eq:int-arcsin} is used!
+</p>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
@@ -2661,9 +2697,14 @@ $$
 <li>
 The volume of the solid of revolution obtained
 by rotating about the $y$-axis ($x=0$)
-the region bounded by the $y$-axis and the curve $y = \sin(x)$ from $y = 0$ to $y = 1$.
+the region bounded by the $y$-axis, $y=1$, and the curve $y = \sin(x)$ ($0\leq x\leq \pi/2$) from $y = 0$ to $y = 1$.
 
-$$
+<p>
+<br>
+<span class="emph">Daddy's Solution 1</span>
+We can use the disc method \eqref{eq:vol-disc-method}
+to get
+
 \begin{eqnarray*}
 V
 	&=&
@@ -2683,8 +2724,42 @@ V
 	\simeq
 		1.4684
 \end{eqnarray*}
-$$
 where \eqref{eq:int-arcsin-squared} is used.
+Note that \eqref{eq:int-arcsin-squared} is a very complicated
+hard-to-remember indefinite integral formula!
+</p>
+
+<p>
+<span class="emph">Daddy's Solution 2</span>
+We can try to use the <a href="#shell-method">shell method</a> \eqref{eq:vol-shell-method-rot-y}
+to have
+
+\begin{eqnarray*}
+V
+	&=&
+		2\pi \int_{0}^{\pi/2} x f(x) dx
+			=
+				2\pi \int_{0}^{\pi/2} x (1 - \sin x) dx
+\\
+	&=&
+		2\pi\left[
+			\frac{x^2}{2} + x \cos x - \sin x
+		\right]_{0}^{\pi/2}
+			=
+				2\pi\left(
+					\frac{\pi^2}{8} - 1
+				\right)
+\\
+	&=&
+		\frac{\pi^3}{4} - 2\pi
+			\simeq
+				1.4684
+\end{eqnarray*}
+where
+the integration by parts \eqref{eq:int-by-parts} is used!
+Note that <i>in this case</i>, we don't need to use a complicated indefinite integral formula as above
+if we use the shell method!
+</p>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.15); margin: 24px 0;">
@@ -2705,7 +2780,7 @@ where \eqref{eq:int-arcsin-squared} is used.
 <li>
 The volume of the solid of revolution obtained
 by rotating about the $y$-axis ($x=0$)
-the region bounded by the $y$-axis, $x=\pi/2$, the $x$-axis, and the curve $y = \sin(x)$,
+the region bounded by the $x=\pi/2$, the $x$-axis, and the curve $y = \sin(x)$ ($0\leq x\leq \pi/2$),
 from $y = 0$ to $y = 1$.
 
 <p>
@@ -2728,12 +2803,12 @@ Beautifully clean answer!
 <p>
 <span class="emph">Daddy's Solution 2</span>
 
-Now let's try to use the <a href="#shell-method">shell method</a>
+Now let's try to use the <a href="#shell-method">shell method</a> \eqref{eq:vol-shell-method-rot-y}
 $$
 \begin{eqnarray*}
 	V
 	&=&
-		2 \pi \int_{0}^{\pi/2} x y \,dx
+		2 \pi \int_{0}^{\pi/2} x f(x) \,dx
 	=
 		2 \pi \int_{0}^{\pi/2} x \sin(x) \,dx
 \\
@@ -2744,8 +2819,7 @@ $$
 \end{eqnarray*}
 $$
 
-which is almost as simple as the previous one except that we don't need to go through the complicated integration
-using formula such as \eqref{eq:int-arcsin-squared}.
+which is almost as simple as the previous one except that we don't need to depend on the solution of the previous problem!
 </p>
 
 <div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;
