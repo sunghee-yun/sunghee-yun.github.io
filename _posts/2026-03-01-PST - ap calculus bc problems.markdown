@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sun Mar  8 01:28:21 PST 2026
+last_modified_at: Sun Mar  8 11:11:09 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -20,6 +20,8 @@ sections:
   iv-taylor-approximation: "Interactive visualization - Taylor approximation"
   iv-integral-approximation: "Interactive visualization - integral approximation"
   iv-arc-length: "Interactive visualization - arc length"
+  iv-disc-method: "Interactive visualization — disc method"
+  iv-washer-method: "Interactive 3D visualization — washer method"
   iv-shell-method: "Interactive 3D visualization — shell method"
   iv-volumes: "Interactive 3D visualizations - volumes"
   iv-ode: "Interactive animation — watch the solution evolve in real time"
@@ -159,6 +161,8 @@ table, tr, td, th {
 - [{{ page.sections.iv-taylor-approximation }}](#iv-taylor-approximation)
 - [{{ page.sections.iv-integral-approximation }}](#iv-integral-approximation)
 - [{{ page.sections.iv-arc-length }}](#iv-arc-length)
+- [{{ page.sections.iv-disc-method }}](#iv-disc-method)
+- [{{ page.sections.iv-washer-method }}](#iv-washer-method)
 - [{{ page.sections.iv-shell-method}}](#iv-shell-method)
 - [{{ page.sections.iv-volumes}}](#iv-volumes)
 - [{{ page.sections.iv-ode}}](#iv-ode)
@@ -2550,6 +2554,316 @@ V = \int_a^b A(x) dx
 
 where $R(x)$ is the distance between the axis of revolution and the outside of the object
 
+#### Interactive visualization — disc method {#iv-disc-method}
+
+
+<div id="disc-viz" style="background:linear-gradient(135deg,#020814,#0a1628,#020814);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#60a5fa;text-transform:uppercase;margin-bottom:4px;">Volume of Revolution</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Disc Method — Interactive Visualization</div>
+    <div style="font-size:13px;color:#94a3b8;font-style:italic;margin-top:4px;">
+      V = &pi; &int;<sub>a</sub><sup>b</sup> R(x)<sup>2</sup> dx &nbsp;=&nbsp; sum of solid circular discs
+    </div>
+  </div>
+
+  <div id="disc-fn-btns" style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;"></div>
+
+  <div style="display:flex;gap:10px;margin-bottom:12px;">
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:12px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="disc-canvas-2d" width="420" height="270" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:12px;border:1px solid rgba(96,165,250,.2);overflow:hidden;position:relative;">
+      <canvas id="disc-canvas-3d" width="420" height="270" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:7px;right:9px;font-size:10px;color:rgba(96,165,250,.55);font-style:italic;background:rgba(0,0,0,.45);padding:2px 7px;border-radius:4px;pointer-events:none;">&#x1F5B1; drag to rotate</div>
+    </div>
+  </div>
+
+  <div id="disc-formula" style="background:rgba(96,165,250,.08);border:1px solid rgba(96,165,250,.4);border-radius:10px;padding:11px 18px;margin-bottom:12px;text-align:center;font-size:14px;color:#f1f5f9;"></div>
+
+  <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:12px;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="disc-n-label" style="color:#94a3b8;font-size:13px;min-width:100px;font-style:italic;">n = 6 discs</span>
+      <input id="disc-n-slider" type="range" min="2" max="24" value="6" style="flex:1;accent-color:#60a5fa;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">more &rarr; exact</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="disc-hl-label" style="color:#94a3b8;font-size:13px;min-width:100px;font-style:italic;">disc #3</span>
+      <input id="disc-hl-slider" type="range" min="0" max="5" value="2" style="flex:1;accent-color:#f472b6;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">highlight</span>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:10px;margin-bottom:10px;">
+    <div style="flex:1;background:rgba(2,8,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">True Volume</div>
+      <div id="disc-stat-true" style="font-size:15px;color:#4ade80;font-family:monospace;">&#x2014;</div>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Disc Sum</div>
+      <div id="disc-stat-sum" style="font-size:15px;color:#60a5fa;font-family:monospace;">&#x2014;</div>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Error</div>
+      <div id="disc-stat-err" style="font-size:15px;font-family:monospace;">&#x2014;</div>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:11px;color:#475569;">
+    <span style="color:#60a5fa;">n slider</span>: more discs &rarr; converges &nbsp;|&nbsp;
+    <span style="color:#f472b6;">highlight slider</span>: inspect each &Delta;V &nbsp;|&nbsp;
+    <span style="color:rgba(96,165,250,.6);">drag 3D panel</span>: spin &amp; tilt freely
+  </div>
+</div>
+
+<script>
+(function(){
+  var DFUNS = {
+    "\u221ax":       { f:function(x){return Math.sqrt(x);},         label:"\u221ax",        xmax:3.0, ymax:2.0 },
+    "x/2":           { f:function(x){return x/2;},                  label:"x/2",            xmax:3.0, ymax:1.6 },
+    "sin(\u03c0x/2)":{ f:function(x){return Math.sin(Math.PI*x/2);},label:"sin(\u03c0x/2)", xmax:2.0, ymax:1.2 },
+    "1+x/4":         { f:function(x){return 1+x/4;},                label:"1+x/4",          xmax:3.0, ymax:2.0 }
+  };
+  var DFK = Object.keys(DFUNS);
+  var dst = { fnKey:DFK[0], n:6, hl:2, az:Math.PI/3, el:Math.PI/7 };
+
+  // project (xpos along axis, r=radius, theta=angle around axis)
+  function dproj(xpos, r, theta, az, el) {
+    var X=xpos, Y=r*Math.cos(theta), Z=r*Math.sin(theta);
+    var X1=X*Math.cos(az)-Y*Math.sin(az);
+    var Y1=X*Math.sin(az)+Y*Math.cos(az);
+    var Y2=Y1*Math.cos(el)-Z*Math.sin(el);
+    var Z2=Y1*Math.sin(el)+Z*Math.cos(el);
+    return [X1,-Z2,Y2];
+  }
+
+  var dc2=document.getElementById("disc-canvas-2d");
+  var dc3=document.getElementById("disc-canvas-3d");
+
+  function drawDisc2D(){
+    var ctx=dc2.getContext("2d");
+    var W=dc2.width,H=dc2.height;
+    var PAD={l:48,r:16,t:20,b:40};
+    var fn=DFUNS[dst.fnKey],nv=dst.n,hl=dst.hl;
+    var xmax=fn.xmax,ymax=fn.ymax,dx=xmax/nv;
+    function toC(x,y){return[PAD.l+x/xmax*(W-PAD.l-PAD.r),H-PAD.b-y/ymax*(H-PAD.t-PAD.b)];}
+    ctx.clearRect(0,0,W,H); ctx.fillStyle="#020814"; ctx.fillRect(0,0,W,H);
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.1)"; ctx.lineWidth=1;
+    for(var g=0;g<=Math.ceil(ymax);g++){var gc=toC(0,g);ctx.beginPath();ctx.moveTo(PAD.l,gc[1]);ctx.lineTo(W-PAD.r,gc[1]);ctx.stroke();}
+    // disc slices
+    for(var i=0;i<nv;i++){
+      var xm=(i+.5)*dx,R=fn.f(xm);
+      var c0=toC(i*dx,0),c1=toC((i+1)*dx,R);
+      var isHi=(i===hl);
+      ctx.fillStyle=isHi?"rgba(244,114,182,.45)":i%2===0?"rgba(96,165,250,.18)":"rgba(96,165,250,.12)";
+      ctx.strokeStyle=isHi?"#f472b6":"rgba(96,165,250,.55)";
+      ctx.lineWidth=isHi?2:1;
+      ctx.fillRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      ctx.strokeRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      if(isHi){
+        var cR=toC((i+.5)*dx,R/2);
+        ctx.fillStyle="#f472b6"; ctx.font="bold 11px Georgia,serif"; ctx.textAlign="center";
+        ctx.fillText("R=f(x)",cR[0],cR[1]);
+        // double-headed radius arrow
+        var cb=toC((i+1)*dx-.5,0),ct=toC((i+1)*dx-.5,R);
+        ctx.strokeStyle="#f472b6"; ctx.lineWidth=1.5; ctx.setLineDash([3,3]);
+        ctx.beginPath();ctx.moveTo(cb[0],cb[1]);ctx.lineTo(ct[0],ct[1]);ctx.stroke();
+        ctx.setLineDash([]);
+      }
+    }
+    // curve
+    ctx.strokeStyle="#60a5fa"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(96,165,250,.5)"; ctx.shadowBlur=6;
+    ctx.beginPath();
+    for(var k=0;k<=400;k++){var xk=k/400*xmax,ck=toC(xk,fn.f(xk));k===0?ctx.moveTo(ck[0],ck[1]):ctx.lineTo(ck[0],ck[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // axes
+    var a0=toC(0,0),a1x=toC(xmax,0),a1y=toC(0,ymax);
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(a0[0],a0[1]);ctx.lineTo(a1x[0]+10,a0[1]);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(a0[0],a0[1]);ctx.lineTo(a0[0],a1y[1]-8);ctx.stroke();
+    ctx.fillStyle="#475569";
+    ctx.beginPath();ctx.moveTo(a1x[0]+10,a0[1]-4);ctx.lineTo(a1x[0]+17,a0[1]);ctx.lineTo(a1x[0]+10,a0[1]+4);ctx.fill();
+    ctx.beginPath();ctx.moveTo(a0[0]-4,a1y[1]-8);ctx.lineTo(a0[0],a1y[1]-15);ctx.lineTo(a0[0]+4,a1y[1]-8);ctx.fill();
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b"; ctx.textAlign="center";
+    for(var xi=0.5;xi<=xmax+.01;xi+=0.5){var tc=toC(xi,0);ctx.fillText(xi.toFixed(1),tc[0],tc[1]+14);}
+    ctx.textAlign="right";
+    for(var yi=1;yi<=Math.floor(ymax);yi++){var tc2=toC(0,yi);ctx.fillText(yi,tc2[0]-6,tc2[1]+4);}
+    ctx.fillStyle="#60a5fa"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+    var lp=toC(xmax*.55,fn.f(xmax*.55));ctx.fillText("y = "+fn.label,lp[0]+6,lp[1]-8);
+    ctx.fillStyle="#475569"; ctx.font="13px Georgia,serif";
+    ctx.textAlign="center"; ctx.fillText("x",a1x[0]+21,a0[1]+4);
+    ctx.textAlign="left";   ctx.fillText("R(x)",a0[0]+6,a1y[1]-16);
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Cross-Section (side view)",W/2,14);
+  }
+
+  function drawDisc3D(){
+    var ctx=dc3.getContext("2d");
+    var W=dc3.width,H=dc3.height;
+    var az=dst.az,el=dst.el;
+    var fn=DFUNS[dst.fnKey],nv=dst.n,hl=dst.hl,dx=fn.xmax/nv;
+    ctx.clearRect(0,0,W,H); ctx.fillStyle="#020814"; ctx.fillRect(0,0,W,H);
+    var ocx=W*.45,ocy=H*.55,scale=Math.min(W,H)*.21;
+    var SEGS=52;
+
+    function p3(xp,r,th){var s=dproj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return dproj(xp,r,th,az,el)[2];}
+
+    // draw a filled disc face (circle) at xpos with radius R
+    function drawFace(xp,R,fill,stroke,lw){
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(xp,R,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      // fill to center
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    // draw cylindrical outer wall (full rotation) between x0..x1 at radius R
+    function drawOuterWall(x0,x1,R,tStart,tEnd,fill,stroke,lw){
+      var steps=Math.max(4,Math.round(SEGS*Math.abs(tEnd-tStart)/(2*Math.PI)));
+      ctx.beginPath();
+      for(var s=0;s<=steps;s++){var th=tStart+s/steps*(tEnd-tStart),pt=p3(x0,R,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=steps;s>=0;s--){var th=tStart+s/steps*(tEnd-tStart),pt=p3(x1,R,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    // sort discs: farthest x first if x-axis goes "into" scene, else closest
+    var order=[];
+    for(var i=0;i<nv;i++) order.push(i);
+    order.sort(function(a,b){
+      return dep((a+.5)*dx,0,0)-dep((b+.5)*dx,0,0);
+    });
+
+    for(var oi=0;oi<order.length;oi++){
+      var i=order[oi];
+      var x0=i*dx,x1=(i+1)*dx,xm=(x0+x1)/2;
+      var R=fn.f(xm),isHi=(i===hl);
+      var wFill  =isHi?"rgba(244,114,182,0.20)":"rgba(96,165,250,0.10)";
+      var wStroke=isHi?"#f472b6":"rgba(96,165,250,0.50)";
+      var fFill  =isHi?"rgba(244,114,182,0.45)":"rgba(96,165,250,0.25)";
+      var lw     =isHi?1.6:0.7;
+      var backS=az+Math.PI/2,backE=az+3*Math.PI/2;
+      var frontS=az-Math.PI/2,frontE=az+Math.PI/2;
+
+      // back face at x0
+      var bfDepx0=dep(x0,0,0), bfDepx1=dep(x1,0,0);
+      // draw back face first (whichever face is farther)
+      if(bfDepx0<bfDepx1){
+        drawFace(x0,R,fFill,wStroke,lw*.8);
+        drawOuterWall(x0,x1,R,backS,backE,wFill,wStroke,lw);
+        drawOuterWall(x0,x1,R,frontS,frontE,wFill,wStroke,lw);
+        drawFace(x1,R,fFill,wStroke,lw);
+      } else {
+        drawFace(x1,R,fFill,wStroke,lw*.8);
+        drawOuterWall(x0,x1,R,backS,backE,wFill,wStroke,lw);
+        drawOuterWall(x0,x1,R,frontS,frontE,wFill,wStroke,lw);
+        drawFace(x0,R,fFill,wStroke,lw);
+      }
+    }
+
+    // x-axis (revolution axis)
+    var ax0=p3(-0.1,0,0),ax1=p3(fn.xmax*1.12,0,0);
+    ctx.strokeStyle="rgba(148,163,184,.45)"; ctx.lineWidth=1.3; ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(ax0[0],ax0[1]);ctx.lineTo(ax1[0],ax1[1]);ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle="#94a3b8"; ctx.font="11px Georgia,serif"; ctx.textAlign="left";
+    ctx.fillText("x (axis)",ax1[0]+4,ax1[1]+4);
+
+    // surface curve on top (theta=π/2 slice)
+    ctx.strokeStyle="#60a5fa"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(96,165,250,.5)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var k=0;k<=120;k++){
+      var xk=k/120*fn.xmax,pt=p3(xk,fn.f(xk),Math.PI/2);
+      k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);
+    }
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // annotations on highlighted disc
+    var xmh=(hl+.5)*dx,Rh=fn.f(xmh),x0h=hl*dx,x1h=(hl+1)*dx;
+    // radius arrow (vertical on front face)
+    var pc=p3(xmh,0,Math.PI/2),pr=p3(xmh,Rh,Math.PI/2);
+    ctx.strokeStyle="#f472b6"; ctx.lineWidth=1.8;
+    ctx.beginPath();ctx.moveTo(pc[0],pc[1]);ctx.lineTo(pr[0],pr[1]);ctx.stroke();
+    var angR=Math.atan2(pr[1]-pc[1],pr[0]-pc[0]);
+    ctx.fillStyle="#f472b6";
+    ctx.beginPath();ctx.moveTo(pr[0],pr[1]);
+    ctx.lineTo(pr[0]-7*Math.cos(angR-.4),pr[1]-7*Math.sin(angR-.4));
+    ctx.lineTo(pr[0]-7*Math.cos(angR+.4),pr[1]-7*Math.sin(angR+.4));
+    ctx.fill();
+    ctx.font="bold 12px Georgia,serif"; ctx.textAlign="right";
+    ctx.fillText("R=f(x)",pr[0]-8,(pc[1]+pr[1])/2);
+    // thickness arrow on outer edge
+    var pe0=p3(x0h,Rh*1.08,Math.PI*.6),pe1=p3(x1h,Rh*1.08,Math.PI*.6);
+    ctx.strokeStyle="#a78bfa"; ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(pe0[0],pe0[1]);ctx.lineTo(pe1[0],pe1[1]);ctx.stroke();
+    ctx.fillStyle="#a78bfa"; ctx.font="bold 11px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("\u0394x",(pe0[0]+pe1[0])/2,(pe0[1]+pe1[1])/2-8);
+
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Disc View  \u2014  drag to rotate",W/2,14);
+  }
+
+  function discStats(){
+    var fn=DFUNS[dst.fnKey],nv=dst.n,hl=dst.hl,dx=fn.xmax/nv;
+    var xm=(hl+.5)*dx,R=fn.f(xm),dv=Math.PI*R*R*dx;
+    var tv=0,di=fn.xmax/1000;
+    for(var i=0;i<1000;i++){var xi=(i+.5)*di,ri=fn.f(xi);tv+=Math.PI*ri*ri*di;}
+    var ss=0;
+    for(var i=0;i<nv;i++){var xi=(i+.5)*dx,ri=fn.f(xi);ss+=Math.PI*ri*ri*dx;}
+    var err=Math.abs(ss-tv)/tv*100;
+    var ec=err<1?"#4ade80":err<5?"#fbbf24":"#f87171";
+    document.getElementById("disc-formula").innerHTML=
+      "<span style='color:#f472b6'>Disc #"+(hl+1)+"</span>"
+      +"<span style='color:#94a3b8;margin:0 10px'>|</span>"
+      +"\u0394V = \u03c0 &middot; <span style='color:#f472b6'>R</span><sup>2</sup>"
+      +" &middot; <span style='color:#a78bfa'>\u0394x</span>"
+      +" = \u03c0 &middot; <span style='color:#f472b6'>"+R.toFixed(3)+"</span><sup>2</sup>"
+      +" &middot; <span style='color:#a78bfa'>"+dx.toFixed(3)+"</span>"
+      +" = <span style='color:#fbbf24;font-weight:bold'>"+dv.toFixed(4)+"</span>";
+    document.getElementById("disc-stat-true").textContent=tv.toFixed(5);
+    document.getElementById("disc-stat-sum").textContent=ss.toFixed(5);
+    var ee=document.getElementById("disc-stat-err");
+    ee.textContent=err.toFixed(3)+"%"; ee.style.color=ec;
+  }
+
+  function discRedraw(){drawDisc2D();drawDisc3D();discStats();}
+
+  // buttons
+  var dbc=document.getElementById("disc-fn-btns");
+  DFK.forEach(function(k){
+    var b=document.createElement("button");
+    b.textContent="y = "+DFUNS[k].label; b.dataset.key=k;
+    b.style.cssText="padding:6px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-family:Georgia,serif;";
+    b.addEventListener("click",function(){dst.fnKey=k;dst.hl=Math.floor(dst.n/3);updDiscBtns();discRedraw();});
+    dbc.appendChild(b);
+  });
+  function updDiscBtns(){dbc.querySelectorAll("button").forEach(function(b){var a=(b.dataset.key===dst.fnKey);b.style.border=a?"2px solid #60a5fa":"2px solid rgba(148,163,184,.2)";b.style.background=a?"rgba(96,165,250,.2)":"rgba(2,8,20,.5)";b.style.color=a?"#60a5fa":"#94a3b8";b.style.fontWeight=a?"bold":"normal";});}
+  updDiscBtns();
+
+  var dns=document.getElementById("disc-n-slider"),dhs=document.getElementById("disc-hl-slider");
+  dns.addEventListener("input",function(){dst.n=parseInt(this.value);dst.hl=Math.min(dst.hl,dst.n-1);dhs.max=dst.n-1;dhs.value=dst.hl;document.getElementById("disc-n-label").textContent="n = "+dst.n+" discs";document.getElementById("disc-hl-label").textContent="disc #"+(dst.hl+1);discRedraw();});
+  dhs.addEventListener("input",function(){dst.hl=parseInt(this.value);document.getElementById("disc-hl-label").textContent="disc #"+(dst.hl+1);discRedraw();});
+
+  var ddrag={active:false,lastX:0,lastY:0};
+  function dxy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  dc3.addEventListener("mousedown",function(e){e.preventDefault();var p=dxy(e);ddrag={active:true,lastX:p.x,lastY:p.y};dc3.style.cursor="grabbing";});
+  dc3.addEventListener("touchstart",function(e){e.preventDefault();var p=dxy(e);ddrag={active:true,lastX:p.x,lastY:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!ddrag.active)return;var p=dxy(e);dst.az+=(p.x-ddrag.lastX)*.010;dst.el=Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,dst.el-(p.y-ddrag.lastY)*.010));ddrag.lastX=p.x;ddrag.lastY=p.y;drawDisc3D();});
+  window.addEventListener("touchmove",function(e){if(!ddrag.active)return;e.preventDefault();var p=dxy(e);dst.az+=(p.x-ddrag.lastX)*.010;dst.el=Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,dst.el-(p.y-ddrag.lastY)*.010));ddrag.lastX=p.x;ddrag.lastY=p.y;drawDisc3D();},{passive:false});
+  window.addEventListener("mouseup",function(){ddrag.active=false;dc3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){ddrag.active=false;});
+
+  discRedraw();
+})();
+</script>
+
+
 <h4>Washer method for volume calculation</h4>
 
 \begin{equation}
@@ -2558,6 +2872,345 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
 
 where $R(x)$ is the radius of the outside of the object and
 $r(x)$ is the radius of the inside of the object
+
+#### Interactive 3D visualization — washer method {#iv-washer-method}
+
+
+<div id="washer-viz" style="background:linear-gradient(135deg,#0a0014,#1a000a,#0a0014);border-radius:16px;padding:24px;margin:24px 0;font-family:Georgia,serif;">
+
+  <div style="text-align:center;margin-bottom:16px;">
+    <div style="font-size:11px;letter-spacing:.3em;color:#f87171;text-transform:uppercase;margin-bottom:4px;">Volume of Revolution</div>
+    <div style="font-size:22px;color:#f1f5f9;font-weight:normal;">Washer Method — Interactive Visualization</div>
+    <div style="font-size:13px;color:#94a3b8;font-style:italic;margin-top:4px;">
+      V = &pi; &int;<sub>a</sub><sup>b</sup> [R(x)<sup>2</sup> &minus; r(x)<sup>2</sup>] dx &nbsp;=&nbsp; sum of hollow washers
+    </div>
+  </div>
+
+  <div id="washer-fn-btns" style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:14px;"></div>
+
+  <div style="display:flex;gap:10px;margin-bottom:12px;">
+    <div style="flex:1;background:rgba(10,0,20,.8);border-radius:12px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="washer-canvas-2d" width="420" height="270" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(10,0,20,.8);border-radius:12px;border:1px solid rgba(248,113,113,.2);overflow:hidden;position:relative;">
+      <canvas id="washer-canvas-3d" width="420" height="270" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:7px;right:9px;font-size:10px;color:rgba(248,113,113,.55);font-style:italic;background:rgba(0,0,0,.45);padding:2px 7px;border-radius:4px;pointer-events:none;">&#x1F5B1; drag to rotate</div>
+    </div>
+  </div>
+
+  <div id="washer-formula" style="background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.4);border-radius:10px;padding:11px 18px;margin-bottom:12px;text-align:center;font-size:14px;color:#f1f5f9;"></div>
+
+  <div style="display:flex;flex-direction:column;gap:9px;margin-bottom:12px;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="washer-n-label" style="color:#94a3b8;font-size:13px;min-width:110px;font-style:italic;">n = 6 washers</span>
+      <input id="washer-n-slider" type="range" min="2" max="24" value="6" style="flex:1;accent-color:#f87171;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">more &rarr; exact</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <span id="washer-hl-label" style="color:#94a3b8;font-size:13px;min-width:110px;font-style:italic;">washer #3</span>
+      <input id="washer-hl-slider" type="range" min="0" max="5" value="2" style="flex:1;accent-color:#fbbf24;">
+      <span style="color:#64748b;font-size:11px;min-width:80px;text-align:right;">highlight</span>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:10px;margin-bottom:10px;">
+    <div style="flex:1;background:rgba(10,0,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">True Volume</div>
+      <div id="washer-stat-true" style="font-size:15px;color:#4ade80;font-family:monospace;">&#x2014;</div>
+    </div>
+    <div style="flex:1;background:rgba(10,0,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Washer Sum</div>
+      <div id="washer-stat-sum" style="font-size:15px;color:#f87171;font-family:monospace;">&#x2014;</div>
+    </div>
+    <div style="flex:1;background:rgba(10,0,20,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">
+      <div style="font-size:10px;color:#64748b;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;">Error</div>
+      <div id="washer-stat-err" style="font-size:15px;font-family:monospace;">&#x2014;</div>
+    </div>
+  </div>
+
+  <div style="text-align:center;font-size:11px;color:#475569;">
+    <span style="color:#f87171;">outer R(x)</span> &minus; <span style="color:#fbbf24;">inner r(x)</span>: region between two curves &nbsp;|&nbsp;
+    <span style="color:rgba(248,113,113,.6);">drag 3D panel</span>: spin &amp; tilt
+  </div>
+</div>
+
+<script>
+(function(){
+  var WFUNS = {
+    "\u221ax vs x":     { R:function(x){return Math.sqrt(x);},   r:function(x){return x;},              Rl:"\u221ax",         rl:"x",        xmax:1.0, ymax:1.15 },
+    "2 vs x\u00b2":     { R:function(x){return 2;},              r:function(x){return x*x;},             Rl:"2",               rl:"x\u00b2",  xmax:1.4, ymax:2.2  },
+    "cos+1 vs 0.4":     { R:function(x){return Math.cos(Math.PI*x/4)+1;}, r:function(x){return 0.4;},   Rl:"cos(\u03c0x/4)+1",rl:"0.4",      xmax:2.0, ymax:2.2  },
+    "x+0.5 vs 0.5x":   { R:function(x){return x+0.5;},          r:function(x){return 0.5*x;},           Rl:"x+0.5",           rl:"x/2",      xmax:1.5, ymax:2.1  }
+  };
+  var WFK=Object.keys(WFUNS);
+  var wst={fnKey:WFK[0],n:6,hl:2,az:Math.PI/3,el:Math.PI/7};
+
+  function wproj(xpos,r,theta,az,el){
+    var X=xpos,Y=r*Math.cos(theta),Z=r*Math.sin(theta);
+    var X1=X*Math.cos(az)-Y*Math.sin(az);
+    var Y1=X*Math.sin(az)+Y*Math.cos(az);
+    var Y2=Y1*Math.cos(el)-Z*Math.sin(el);
+    var Z2=Y1*Math.sin(el)+Z*Math.cos(el);
+    return [X1,-Z2,Y2];
+  }
+
+  var wc2=document.getElementById("washer-canvas-2d");
+  var wc3=document.getElementById("washer-canvas-3d");
+
+  function drawWasher2D(){
+    var ctx=wc2.getContext("2d");
+    var W=wc2.width,H=wc2.height;
+    var PAD={l:48,r:16,t:20,b:40};
+    var fn=WFUNS[wst.fnKey],nv=wst.n,hl=wst.hl;
+    var xmax=fn.xmax,ymax=fn.ymax,dx=xmax/nv;
+    function toC(x,y){return[PAD.l+x/xmax*(W-PAD.l-PAD.r),H-PAD.b-y/ymax*(H-PAD.t-PAD.b)];}
+    ctx.clearRect(0,0,W,H); ctx.fillStyle="#0a0014"; ctx.fillRect(0,0,W,H);
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.1)"; ctx.lineWidth=1;
+    for(var g=0;g<=Math.ceil(ymax);g++){var gc=toC(0,g);ctx.beginPath();ctx.moveTo(PAD.l,gc[1]);ctx.lineTo(W-PAD.r,gc[1]);ctx.stroke();}
+    // shaded region between curves (background)
+    ctx.fillStyle="rgba(248,113,113,.06)";
+    ctx.beginPath();
+    for(var k=0;k<=200;k++){var xk=k/200*xmax,ck=toC(xk,fn.R(xk));k===0?ctx.moveTo(ck[0],ck[1]):ctx.lineTo(ck[0],ck[1]);}
+    for(var k=200;k>=0;k--){var xk=k/200*xmax,ck=toC(xk,fn.r(xk));ctx.lineTo(ck[0],ck[1]);}
+    ctx.closePath(); ctx.fill();
+    // washer slices (rectangles from r to R)
+    for(var i=0;i<nv;i++){
+      var xm=(i+.5)*dx,R=fn.R(xm),ri=fn.r(xm);
+      var c0=toC(i*dx,ri),c1=toC((i+1)*dx,R);
+      var isHi=(i===hl);
+      // outer rect
+      ctx.fillStyle=isHi?"rgba(248,113,113,.40)":i%2===0?"rgba(248,113,113,.16)":"rgba(248,113,113,.10)";
+      ctx.strokeStyle=isHi?"#f87171":"rgba(248,113,113,.50)";
+      ctx.lineWidth=isHi?2:1;
+      ctx.fillRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      ctx.strokeRect(c0[0],c1[1],c1[0]-c0[0],c0[1]-c1[1]);
+      // inner "hole" (erase)
+      var cr0=toC(i*dx,0),cr1=toC((i+1)*dx,ri);
+      ctx.fillStyle="#0a0014";
+      ctx.fillRect(cr0[0]+1,cr1[1],cr1[0]-cr0[0]-2,cr0[1]-cr1[1]);
+      ctx.strokeStyle=isHi?"rgba(251,191,36,.8)":"rgba(251,191,36,.3)";
+      ctx.lineWidth=isHi?1.5:0.8;
+      ctx.strokeRect(cr0[0],cr1[1],cr1[0]-cr0[0],cr0[1]-cr1[1]);
+      if(isHi){
+        // R arrow
+        var ca=toC((i+1)*dx-.5,0),cb=toC((i+1)*dx-.5,R);
+        ctx.strokeStyle="#f87171"; ctx.lineWidth=1.5; ctx.setLineDash([3,3]);
+        ctx.beginPath();ctx.moveTo(ca[0],ca[1]);ctx.lineTo(cb[0],cb[1]);ctx.stroke();
+        // r arrow
+        var cc=toC(i*dx+.5,0),cd=toC(i*dx+.5,ri);
+        ctx.strokeStyle="#fbbf24";
+        ctx.beginPath();ctx.moveTo(cc[0],cc[1]);ctx.lineTo(cd[0],cd[1]);ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.fillStyle="#f87171"; ctx.font="bold 10px Georgia,serif"; ctx.textAlign="right";
+        ctx.fillText("R",cb[0]-3,(ca[1]+cb[1])/2);
+        ctx.fillStyle="#fbbf24"; ctx.textAlign="left";
+        ctx.fillText("r",cd[0]+3,(cc[1]+cd[1])/2);
+      }
+    }
+    // outer curve (R)
+    ctx.strokeStyle="#f87171"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(248,113,113,.5)"; ctx.shadowBlur=6;
+    ctx.beginPath();
+    for(var k=0;k<=400;k++){var xk=k/400*xmax,ck=toC(xk,fn.R(xk));k===0?ctx.moveTo(ck[0],ck[1]):ctx.lineTo(ck[0],ck[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // inner curve (r)
+    ctx.strokeStyle="#fbbf24"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(251,191,36,.4)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var k=0;k<=400;k++){var xk=k/400*xmax,ck=toC(xk,fn.r(xk));k===0?ctx.moveTo(ck[0],ck[1]):ctx.lineTo(ck[0],ck[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // legend
+    ctx.fillStyle="#f87171"; ctx.font="italic 12px Georgia,serif"; ctx.textAlign="left";
+    var lp=toC(xmax*.5,fn.R(xmax*.5));ctx.fillText("R(x)="+fn.Rl,lp[0]+5,lp[1]-7);
+    ctx.fillStyle="#fbbf24";
+    var lp2=toC(xmax*.55,fn.r(xmax*.55));ctx.fillText("r(x)="+fn.rl,lp2[0]+5,lp2[1]+14);
+    // axes
+    var a0=toC(0,0),a1x=toC(xmax,0),a1y=toC(0,ymax);
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(a0[0],a0[1]);ctx.lineTo(a1x[0]+10,a0[1]);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(a0[0],a0[1]);ctx.lineTo(a0[0],a1y[1]-8);ctx.stroke();
+    ctx.fillStyle="#475569";
+    ctx.beginPath();ctx.moveTo(a1x[0]+10,a0[1]-4);ctx.lineTo(a1x[0]+17,a0[1]);ctx.lineTo(a1x[0]+10,a0[1]+4);ctx.fill();
+    ctx.font="11px Georgia,serif"; ctx.fillStyle="#64748b"; ctx.textAlign="center";
+    for(var xi=0.25;xi<=xmax+.01;xi+=0.25){var tc=toC(xi,0);if(xi%0.5<0.01)ctx.fillText(xi.toFixed(2),tc[0],tc[1]+14);}
+    ctx.textAlign="right";
+    for(var yi=0;yi<=Math.floor(ymax);yi++){var tc2=toC(0,yi);ctx.fillText(yi,tc2[0]-6,tc2[1]+4);}
+    ctx.fillStyle="#475569"; ctx.font="13px Georgia,serif";
+    ctx.textAlign="center"; ctx.fillText("x",a1x[0]+21,a0[1]+4);
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Cross-Section (side view)",W/2,14);
+  }
+
+  function drawWasher3D(){
+    var ctx=wc3.getContext("2d");
+    var W=wc3.width,H=wc3.height;
+    var az=wst.az,el=wst.el;
+    var fn=WFUNS[wst.fnKey],nv=wst.n,hl=wst.hl,dx=fn.xmax/nv;
+    ctx.clearRect(0,0,W,H); ctx.fillStyle="#0a0014"; ctx.fillRect(0,0,W,H);
+    var ocx=W*.45,ocy=H*.55,scale=Math.min(W,H)*.22;
+    var SEGS=52;
+
+    function p3(xp,r,th){var s=wproj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return wproj(xp,r,th,az,el)[2];}
+
+    // draw annular face at xpos, between r0..r1
+    function drawAnnFace(xp,r0,r1,fill,stroke,lw){
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(xp,r1,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=SEGS;s>=0;s--){var th=s/SEGS*2*Math.PI,pt=p3(xp,r0,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    // draw cylindrical wall arc at radius r between x0..x1
+    function drawCylWall(x0,x1,r,tStart,tEnd,fill,stroke,lw){
+      var steps=Math.max(4,Math.round(SEGS*Math.abs(tEnd-tStart)/(2*Math.PI)));
+      ctx.beginPath();
+      for(var s=0;s<=steps;s++){var th=tStart+s/steps*(tEnd-tStart),pt=p3(x0,r,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=steps;s>=0;s--){var th=tStart+s/steps*(tEnd-tStart),pt=p3(x1,r,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();
+      ctx.fillStyle=fill; ctx.strokeStyle=stroke; ctx.lineWidth=lw;
+      ctx.fill(); ctx.stroke();
+    }
+
+    var order=[];
+    for(var i=0;i<nv;i++) order.push(i);
+    order.sort(function(a,b){return dep((a+.5)*dx,0,0)-dep((b+.5)*dx,0,0);});
+
+    for(var oi=0;oi<order.length;oi++){
+      var i=order[oi];
+      var x0=i*dx,x1=(i+1)*dx,xm=(x0+x1)/2;
+      var R=fn.R(xm),ri=fn.r(xm),isHi=(i===hl);
+
+      var outerFill  =isHi?"rgba(248,113,113,0.22)":"rgba(248,113,113,0.09)";
+      var outerStroke=isHi?"#f87171":"rgba(248,113,113,0.50)";
+      var innerFill  =isHi?"rgba(251,191,36,0.28)":"rgba(200,150,20,0.18)";
+      var innerStroke=isHi?"rgba(251,191,36,0.90)":"rgba(251,191,36,0.55)";
+      var faceFill   =isHi?"rgba(248,113,113,0.42)":"rgba(248,113,113,0.20)";
+      var lw         =isHi?1.5:0.7;
+
+      var backS=az+Math.PI/2,backE=az+3*Math.PI/2;
+      var frontS=az-Math.PI/2,frontE=az+Math.PI/2;
+
+      var nearX=(dep(x0,0,0)<dep(x1,0,0))?x1:x0;
+      var farX =(nearX===x0)?x1:x0;
+
+      // painter's order: far annular face, back outer wall, full inner wall, front outer wall, near annular face
+      drawAnnFace(farX,ri,R,faceFill,outerStroke,lw*.8);
+      drawCylWall(x0,x1,R,backS,backE,outerFill,outerStroke,lw);
+      drawCylWall(x0,x1,ri,0,2*Math.PI,innerFill,innerStroke,lw*.9);
+      drawCylWall(x0,x1,R,frontS,frontE,outerFill,outerStroke,lw);
+      drawAnnFace(nearX,ri,R,faceFill,outerStroke,lw);
+    }
+
+    // x-axis
+    var ax0=p3(-0.05,0,0),ax1=p3(fn.xmax*1.12,0,0);
+    ctx.strokeStyle="rgba(148,163,184,.45)"; ctx.lineWidth=1.3; ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(ax0[0],ax0[1]);ctx.lineTo(ax1[0],ax1[1]);ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle="#94a3b8"; ctx.font="11px Georgia,serif"; ctx.textAlign="left";
+    ctx.fillText("x (axis)",ax1[0]+4,ax1[1]+4);
+
+    // outer surface curve
+    ctx.strokeStyle="#f87171"; ctx.lineWidth=2;
+    ctx.shadowColor="rgba(248,113,113,.5)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var k=0;k<=120;k++){var xk=k/120*fn.xmax,pt=p3(xk,fn.R(xk),Math.PI/2);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke();
+    // inner surface curve
+    ctx.strokeStyle="#fbbf24"; ctx.lineWidth=1.8;
+    ctx.shadowColor="rgba(251,191,36,.4)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var k=0;k<=120;k++){var xk=k/120*fn.xmax,pt=p3(xk,fn.r(xk),Math.PI/2);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+
+    // annotations on highlighted washer
+    var xmh=(hl+.5)*dx,Rh=fn.R(xmh),rh=fn.r(xmh),x0h=hl*dx,x1h=(hl+1)*dx;
+    // R arrow (outer radius)
+    var pc=p3(xmh,0,Math.PI/2),pR=p3(xmh,Rh,Math.PI/2);
+    ctx.strokeStyle="#f87171"; ctx.lineWidth=1.8;
+    ctx.beginPath();ctx.moveTo(pc[0],pc[1]);ctx.lineTo(pR[0],pR[1]);ctx.stroke();
+    ctx.fillStyle="#f87171";
+    var angR=Math.atan2(pR[1]-pc[1],pR[0]-pc[0]);
+    ctx.beginPath();ctx.moveTo(pR[0],pR[1]);ctx.lineTo(pR[0]-7*Math.cos(angR-.4),pR[1]-7*Math.sin(angR-.4));ctx.lineTo(pR[0]-7*Math.cos(angR+.4),pR[1]-7*Math.sin(angR+.4));ctx.fill();
+    ctx.font="bold 11px Georgia,serif"; ctx.textAlign="right"; ctx.fillText("R",(pc[0]+pR[0])/2-4,(pc[1]+pR[1])/2);
+    // r arrow (inner radius)
+    var pr=p3(xmh,rh,Math.PI/2);
+    ctx.strokeStyle="#fbbf24"; ctx.lineWidth=1.8;
+    ctx.beginPath();ctx.moveTo(pc[0],pc[1]);ctx.lineTo(pr[0],pr[1]);ctx.stroke();
+    ctx.fillStyle="#fbbf24";
+    var angr=Math.atan2(pr[1]-pc[1],pr[0]-pc[0]);
+    ctx.beginPath();ctx.moveTo(pr[0],pr[1]);ctx.lineTo(pr[0]-7*Math.cos(angr-.4),pr[1]-7*Math.sin(angr-.4));ctx.lineTo(pr[0]-7*Math.cos(angr+.4),pr[1]-7*Math.sin(angr+.4));ctx.fill();
+    ctx.font="bold 11px Georgia,serif"; ctx.textAlign="left"; ctx.fillText("r",pr[0]+5,(pc[1]+pr[1])/2+4);
+    // thickness
+    var pe0=p3(x0h,Rh*1.08,Math.PI*.65),pe1=p3(x1h,Rh*1.08,Math.PI*.65);
+    ctx.strokeStyle="#a78bfa"; ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(pe0[0],pe0[1]);ctx.lineTo(pe1[0],pe1[1]);ctx.stroke();
+    ctx.fillStyle="#a78bfa"; ctx.font="bold 11px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("\u0394x",(pe0[0]+pe1[0])/2,(pe0[1]+pe1[1])/2-8);
+
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Washer View  \u2014  drag to rotate",W/2,14);
+  }
+
+  function washerStats(){
+    var fn=WFUNS[wst.fnKey],nv=wst.n,hl=wst.hl,dx=fn.xmax/nv;
+    var xm=(hl+.5)*dx,R=fn.R(xm),ri=fn.r(xm),dv=Math.PI*(R*R-ri*ri)*dx;
+    var tv=0,di=fn.xmax/1000;
+    for(var i=0;i<1000;i++){var xi=(i+.5)*di,Ri=fn.R(xi),rii=fn.r(xi);tv+=Math.PI*(Ri*Ri-rii*rii)*di;}
+    var ss=0;
+    for(var i=0;i<nv;i++){var xi=(i+.5)*dx,Ri=fn.R(xi),rii=fn.r(xi);ss+=Math.PI*(Ri*Ri-rii*rii)*dx;}
+    var err=Math.abs(ss-tv)/tv*100;
+    var ec=err<1?"#4ade80":err<5?"#fbbf24":"#f87171";
+    document.getElementById("washer-formula").innerHTML=
+      "<span style='color:#fbbf24'>Washer #"+(hl+1)+"</span>"
+      +"<span style='color:#94a3b8;margin:0 10px'>|</span>"
+      +"\u0394V = \u03c0 [<span style='color:#f87171'>R</span><sup>2</sup>"
+      +" \u2212 <span style='color:#fbbf24'>r</span><sup>2</sup>]"
+      +" &middot; <span style='color:#a78bfa'>\u0394x</span>"
+      +" = \u03c0 [<span style='color:#f87171'>"+R.toFixed(3)+"</span><sup>2</sup>"
+      +" \u2212 <span style='color:#fbbf24'>"+ri.toFixed(3)+"</span><sup>2</sup>]"
+      +" &middot; <span style='color:#a78bfa'>"+dx.toFixed(3)+"</span>"
+      +" = <span style='color:#fbbf24;font-weight:bold'>"+dv.toFixed(4)+"</span>";
+    document.getElementById("washer-stat-true").textContent=tv.toFixed(5);
+    document.getElementById("washer-stat-sum").textContent=ss.toFixed(5);
+    var ee=document.getElementById("washer-stat-err");
+    ee.textContent=err.toFixed(3)+"%"; ee.style.color=ec;
+  }
+
+  function washerRedraw(){drawWasher2D();drawWasher3D();washerStats();}
+
+  // buttons
+  var wbc=document.getElementById("washer-fn-btns");
+  WFK.forEach(function(k){
+    var b=document.createElement("button");
+    b.textContent="R="+WFUNS[k].Rl+", r="+WFUNS[k].rl; b.dataset.key=k;
+    b.style.cssText="padding:6px 14px;border-radius:8px;cursor:pointer;font-size:12px;font-family:Georgia,serif;";
+    b.addEventListener("click",function(){wst.fnKey=k;wst.hl=Math.floor(wst.n/3);updWBtns();washerRedraw();});
+    wbc.appendChild(b);
+  });
+  function updWBtns(){wbc.querySelectorAll("button").forEach(function(b){var a=(b.dataset.key===wst.fnKey);b.style.border=a?"2px solid #f87171":"2px solid rgba(148,163,184,.2)";b.style.background=a?"rgba(248,113,113,.18)":"rgba(10,0,20,.5)";b.style.color=a?"#f87171":"#94a3b8";b.style.fontWeight=a?"bold":"normal";});}
+  updWBtns();
+
+  var wns=document.getElementById("washer-n-slider"),whs=document.getElementById("washer-hl-slider");
+  wns.addEventListener("input",function(){wst.n=parseInt(this.value);wst.hl=Math.min(wst.hl,wst.n-1);whs.max=wst.n-1;whs.value=wst.hl;document.getElementById("washer-n-label").textContent="n = "+wst.n+" washers";document.getElementById("washer-hl-label").textContent="washer #"+(wst.hl+1);washerRedraw();});
+  whs.addEventListener("input",function(){wst.hl=parseInt(this.value);document.getElementById("washer-hl-label").textContent="washer #"+(wst.hl+1);washerRedraw();});
+
+  var wdrag={active:false,lastX:0,lastY:0};
+  function wxy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  wc3.addEventListener("mousedown",function(e){e.preventDefault();var p=wxy(e);wdrag={active:true,lastX:p.x,lastY:p.y};wc3.style.cursor="grabbing";});
+  wc3.addEventListener("touchstart",function(e){e.preventDefault();var p=wxy(e);wdrag={active:true,lastX:p.x,lastY:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!wdrag.active)return;var p=wxy(e);wst.az+=(p.x-wdrag.lastX)*.010;wst.el=Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,wst.el-(p.y-wdrag.lastY)*.010));wdrag.lastX=p.x;wdrag.lastY=p.y;drawWasher3D();});
+  window.addEventListener("touchmove",function(e){if(!wdrag.active)return;e.preventDefault();var p=wxy(e);wst.az+=(p.x-wdrag.lastX)*.010;wst.el=Math.max(-Math.PI/2+.05,Math.min(Math.PI/2-.05,wst.el-(p.y-wdrag.lastY)*.010));wdrag.lastX=p.x;wdrag.lastY=p.y;drawWasher3D();},{passive:false});
+  window.addEventListener("mouseup",function(){wdrag.active=false;wc3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){wdrag.active=false;});
+
+  washerRedraw();
+})();
+</script>
+
 
 <span id="shell-method"></span>
 <h4>Shell method for volume calculation</h4>
