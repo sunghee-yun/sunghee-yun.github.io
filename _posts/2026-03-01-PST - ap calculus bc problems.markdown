@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 03:34:21 PDT 2026
+last_modified_at: Mon Mar  9 03:57:20 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -552,6 +552,7 @@ the cursively applying the [chain rule](#chain-rule) $n$ times yields
 
 $$
 \begin{eqnarray}
+\label{eq:chain-rule-n}
 \begin{array}{rcl}
 	\dfrac{d}{dx} f_1(f_2(\cdots f_n(x)\cdots))
 		&=&
@@ -570,6 +571,7 @@ If we express this using the standard function composition notion $f \circ g$,
 
 $$
 \begin{eqnarray}
+\label{eq:chain-rule-n-fcn-comp}
 \begin{array}{rcl}
 	\dfrac{d}{dx} (f_1\circ f_2\circ f_3\circ \cdots \circ f_n)(x)
 		&=&
