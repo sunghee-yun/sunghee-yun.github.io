@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Thu Feb 26 01:54:44 PST 2026
+last_modified_at: Mon Mar  9 07:11:06 PDT 2026
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 permalink: /prajna/coincidence-vs-inevitability
 categories:
@@ -615,32 +615,159 @@ Does what I said above even make sense to you?
 
 ## Sums of sequences
 
-(WIP)
+First observe the following!
 
 $$
-\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+\begin{eqnarray*}
+	\sum_{n=1}^{\infty} \frac{1}{n^2}
+		= 1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots
+			&=&
+				\frac{\pi^2}{6}
+					\simeq 1.644934067
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^4}
+		= 1 + \frac{1}{16} + \frac{1}{81} + \frac{1}{256} + \cdots
+			&=&
+				\frac{\pi^4}{90}
+					\simeq 1.082323234
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^6}
+		= 1 + \frac{1}{64} + \frac{1}{729} + \frac{1}{4096} + \cdots
+			&=&
+				\frac{\pi^6}{945}
+					\simeq 1.017343062
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^8}
+		= 1 + \frac{1}{256} + \frac{1}{6561} + \frac{1}{65536} + \cdots
+			&=&
+				\frac{\pi^8}{9450}
+					\simeq 1.004077356
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^{10}}
+		= 1 + \frac{1}{1024} + \frac{1}{59049} + \frac{1}{1048576} + \cdots
+			&=&
+				\frac{\pi^{10}}{93555}
+					\simeq 1.000994575
+\end{eqnarray*}
 $$
 
 $$
-\sum_{n=1}^{\infty} \frac{1}{(2n-1)^2} = \frac{\pi^2}{8}
+\begin{eqnarray*}
+	\sum_{n=1}^{\infty} \frac{1}{n^{12}}
+			&=&
+				\frac{691 \pi^{12}}{638,512,875}
+					\simeq 1.000246087
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^{14}}
+			&=&
+				\frac{2 \pi^{14}}{18,243,225}
+					\simeq 1.000061248
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^{16}}
+			&=&
+				\frac{3,617 \pi^{16}}{325,641,566,250}
+					\simeq 1.000015282
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^{18}}
+			&=&
+				\frac{43,867 \pi^{18}}{38,979,295,480,125}
+					\simeq 1.000003817
+\\
+	\sum_{n=1}^{\infty} \frac{1}{n^{20}}
+			&=&
+				\frac{174,611 \pi^{20}}{1,531,329,465,290.625}
+					\simeq 1.000000954
+\\
+			&\vdots&
+\end{eqnarray*}
+$$
+
+Let's play with only odd numbers now!
+
+$$
+	1 - 1/3 + 1/5 - 1/7 + \cdots = \frac{\pi}{4}
 $$
 
 $$
-\sum_{n=1}^{\infty} \frac{1}{n^4} = \frac{\pi^4}{90}
+\begin{eqnarray*}
+	\sum_{n: \text{odd}} \frac{1}{n^2}
+		= 1 + \frac{1}{9} + \frac{1}{25} + \cdots
+			&=&
+				\frac{\pi^2}{8}
+					\simeq 1.23370
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^4}
+		= 1 + \frac{1}{81} + \frac{1}{625} + \cdots
+			&=&
+				\frac{\pi^4}{96}
+					\simeq 1.01467
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^6}
+		= 1 + \frac{1}{729} + \frac{1}{15625} + \cdots
+			&=&
+				\frac{\pi^6}{960}
+					\simeq 1.00145
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^8}
+		= 1 + \frac{1}{6561} + \frac{1}{390625} + \cdots
+			&=&
+				\frac{17 \pi^8}{161,280}
+					\simeq 1.00031
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^{10}}
+		= 1 + \frac{1}{59049} + \frac{1}{9765625} + \cdots
+			&=&
+				\frac{31 \pi^{10}}{2,903,040}
+					\simeq 1.00007
+\end{eqnarray*}
 $$
 
 $$
-\sum_{n=1}^{\infty} \frac{1}{n^6} = \frac{\pi^6}{945}
+\begin{eqnarray*}
+	\sum_{n: \text{odd}} \frac{1}{n^{12}}
+			&=&
+				\frac{691 \pi^{12}}{638,668,800}
+					\simeq 1.000015
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^{14}}
+			&=&
+				\frac{5,461 \pi^{14}}{49,816,166,400}
+					\simeq 1.000000209
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^{16}}
+			&=&
+				\frac{929,569 \pi^{16}}{83,691,159,552,000}
+					\simeq 1.000000023
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^{18}}
+			&=&
+				\frac{3,202,291 \pi^{18}}{2,845,499,424,768,000}
+					\simeq 1.000000003
+\\
+	\sum_{n: \text{odd}} \frac{1}{n^{20}}
+			&=&
+				\frac{221,930,581 \pi^{20}}{1,945,273,030,541,312,000}
+					\simeq 1.000000000
+\\
+			&\vdots&
+\end{eqnarray*}
 $$
 
-$$
-\sum_{n=1}^{\infty} \frac{1}{n^8} = \frac{\pi^8}{9450}
-$$
+<span style="color: red; font-style: italic;">Isn't this truly amazing? Even phenomenal?</span>
 
-$$
-1 - 1/3 + 1/5 - 1/7 + \cdots = \pi/4
-$$
+These patterns reveal something that goes beyond mere mathematical curiosity—they point toward a fundamental **structural inevitability** that would exist even if physical universes never came into being. The appearance of $\pi$ in these infinite series isn't just a coincidence of our particular mathematical system; it emerges from the deep logical relationships that govern how quantities relate to each other in any conceivable framework of rational thought.
 
+Consider what this means
+&ndash;
+whether we're summing inverse squares, inverse fourth powers, or focusing only on odd integers, π keeps emerging with an almost stubborn persistence. This constant—which we typically associate with circles and geometry—appears in contexts that seem to have nothing to do with circular shapes. Yet there it is, threading through these infinite sequences like a universal signature written into the very fabric of mathematical possibility.
+
+What fascinates me most is that these series represent **pure logical relationships**&mdash;relationships that would be true regardless of whether space, time, matter, or even consciousness existed. If the universe had never formed, if no minds had ever evolved to discover mathematics, if reality itself were entirely different from what we experience, these mathematical truths would still hold their eternal validity in some abstract realm of logical possibility.
+
+This brings us to a profound realization about the nature of inevitability itself. While physical laws like Newton's gravitational constant might vary across different universes, and while the specific value of the speed of light might be contingent upon the particular fabric of our spacetime, these mathematical structures reveal something that transcends even the most fundamental physical constants. They point toward what we might call <span style="color: red; font-weight: bold;">logical inevitabilities</span>&mdash;truths that emerge not from the arbitrary choices of universe-creators or the happenstance of cosmic evolution, but from the inescapable logic of relationship itself.
+
+<span class="emph">The fact that $\pi$ appears in these series with such mathematical precision suggests that behind all the apparent arbitrariness in our physical world, there lies a deeper layer of inevitable structure—a layer where mathematical relationships exist in their pure form, uncontaminated by the contingencies of particular physical implementations. This is perhaps why these discoveries feel so profound
+&ndash;
+they offer us glimpses into that ultimate realm where truth exists not because it happens to be useful for our universe, but because it cannot be otherwise.</span>
 
 # Mass-energy equivalence principle
 
