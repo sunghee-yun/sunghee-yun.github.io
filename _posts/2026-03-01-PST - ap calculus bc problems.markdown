@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 05:52:47 PDT 2026
+last_modified_at: Mon Mar  9 07:21:19 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -154,6 +154,17 @@ table, tr, td, th {
 		</div>
 	</div>
 </div>
+
+# Daily Practice Problems 🗓️
+
+Beth's **daily warm-up sessions** live on a separate page — short, casual, 15–20 minutes.
+Each session has problems + a collapsible answer key so you can self-check.
+
+➡️ **[Beth's Daily Calculus Practice](/math/ap/calculus/bc/daily)**
+
+| Date | Topics |
+|------|--------|
+| [March 9, 2026](/math/ap/calculus/bc/daily#mar-9-2026) | Limits at 0 and ∞ · Series convergence · FTC Part 1 |
 
 # Interactive Visualization Tools
 
