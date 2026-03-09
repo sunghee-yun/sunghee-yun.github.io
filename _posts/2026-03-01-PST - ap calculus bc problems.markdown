@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sun Mar  8 11:11:09 PDT 2026
+last_modified_at: Mon Mar  9 03:34:21 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -542,6 +542,53 @@ $$
 \dfrac{d}{dx} f(g(h(p(q(x)))))
 \\
 = f'(g(h(p(q(x))))) g'(h(p(q(x)))) h'(p(q(x))) p'(q(x)) q'(x)
+\end{array}
+\end{eqnarray}
+$$
+
+And in general,
+for $n$ functions $f_1, f_2, \ldots, f_n$,
+the cursively applying the [chain rule](#chain-rule) $n$ times yields
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+	\dfrac{d}{dx} f_1(f_2(\cdots f_n(x)\cdots))
+		&=&
+			f_1'(f_2(\cdots f_n(x)\cdots))
+			f_2'(\cdots f_n(x)\cdots)
+	\\
+		&&
+			\cdots
+			f_{n-1}'(f_n(x)) f_n'(x)
+\end{array}
+\end{eqnarray}
+$$
+
+If we express this using the standard function composition notion $f \circ g$,
+*i.e.*, $(f\circ g)(x)$ is defined to be $f(g(x))$,
+
+$$
+\begin{eqnarray}
+\begin{array}{rcl}
+	\dfrac{d}{dx} (f_1\circ f_2\circ f_3\circ \cdots \circ f_n)(x)
+		&=&
+			f_1'( (f_2\circ f_3\circ \cdots \circ f_n)(x) )
+	\\
+		&&
+			f_2'( (f_3\circ \cdots \circ f_n)(x) )
+	\\
+		&&
+			\qquad
+			\qquad
+			\vdots
+	\\
+		&&
+			f_{n-2}'((f_{n-1}\circ f_n)(x))
+	\\
+		&&
+			f_{n-1}'(f_n(x))
+			f_n'(x)
 \end{array}
 \end{eqnarray}
 $$
