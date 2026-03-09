@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 03:57:20 PDT 2026
+last_modified_at: Mon Mar  9 04:45:24 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -509,6 +509,19 @@ Watch how all three methods converge to the true tangent as $h \to 0$ — and no
     document.getElementById("deriv-hlabel").textContent="h = "+curH.toFixed(2);
     ddraw();
   });
+
+  // Initialize slider bounds to match the default function (sin x has xmin=-2π, xmax=2π,
+  // but the HTML slider is hardcoded min="-200" max="200" — without this init block the
+  // x slider is stuck at [-2, 2] on first load until the user clicks another function and back.
+  (function(){
+    var cfg = DFNS[curDFn];
+    curX = (cfg.xmin + cfg.xmax) / 2;
+    var sl = document.getElementById("deriv-xslider");
+    sl.min   = Math.round(cfg.xmin * 100);
+    sl.max   = Math.round(cfg.xmax * 100);
+    sl.value = Math.round(curX * 100);
+    document.getElementById("deriv-xlabel").textContent = "x = " + curX.toFixed(2);
+  })();
 
   window.addEventListener("resize",dresize);
   dresize();
