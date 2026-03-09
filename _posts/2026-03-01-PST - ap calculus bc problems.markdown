@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 04:45:24 PDT 2026
+last_modified_at: Mon Mar  9 05:52:47 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -6520,7 +6520,7 @@ integer, fractional, negative, and zero exponents!
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
     <span style="color:#fbbf24;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="power-plabel">p = 1</span>
     <input id="power-pslider" type="range" min="-300" max="300" value="100" step="1" style="flex:1;accent-color:#fbbf24;" />
-    <span style="color:#64748b;font-size:11px;min-width:56px;">p ∈ [−3, 3]</span>
+    <span style="color:#64748b;font-size:11px;min-width:56px;">p ∈ [-3, 3]</span>
   </div>
 
   <!-- x0 hover: show tangent -->
@@ -6820,8 +6820,8 @@ and observe the **special cases** carefully!
   <!-- p slider -->
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:14px;">
     <span style="color:#38bdf8;font-size:13px;min-width:56px;font-style:italic;text-align:right;" id="antipow-plabel">p = 1</span>
-    <input id="antipow-pslider" type="range" min="-300" max="300" value="100" step="1" style="flex:1;accent-color:#38bdf8;" />
-    <span style="color:#64748b;font-size:11px;min-width:56px;">p ∈ [−3, 3]</span>
+    <input id="antipow-pslider" type="range" min="-500" max="500" value="100" step="1" style="flex:1;accent-color:#38bdf8;" />
+    <span onclick="document.getElementById('antipow-pslider').value=0;document.getElementById('antipow-plabel').textContent='p = 0';document.getElementById('antipow-pslider').dispatchEvent(new Event('input'));" style="color:#64748b;font-size:11px;min-width:56px;cursor:pointer;user-select:none;">p ∈ [−5, 5] ↺</span>
   </div>
 
   <!-- x0 slider -->
@@ -6849,8 +6849,8 @@ and observe the **special cases** carefully!
   var XMIN = 0, XMAX = 3;
 
   function safeF(x, p){
-    // f(x) = x^p / p
-    if(p === 0) return NaN; // undefined at p=0
+    // f(x) = x^p / p  — but at p=0 the antiderivative is ln(x), not x^0/0
+    if(Math.abs(p) < 0.005) return x > 0 ? Math.log(x) : NaN;
     if(x < 0) return NaN;
     if(x === 0){
       if(p > 0) return 0;
@@ -6942,16 +6942,10 @@ and observe the **special cases** carefully!
     ctx.fillText("x", W-PAD.right+21, axY+4);
     ctx.textAlign="left"; ctx.fillText("y", PAD.left+5, PAD.top-16);
 
-    // p=0 warning banner
-    if(Math.abs(p) < 0.05){
-      ctx.fillStyle="rgba(251,191,36,.15)";
+    // p=0 note (no longer an error — we now plot ln(x) as the correct antiderivative)
+    if(Math.abs(p) < 0.005){
+      ctx.fillStyle="rgba(251,191,36,.10)";
       ctx.fillRect(PAD.left, PAD.top, W-PAD.left-PAD.right, H-PAD.top-PAD.bottom);
-      ctx.fillStyle="#fbbf24"; ctx.font="14px Georgia,serif"; ctx.textAlign="center";
-      ctx.fillText("p ≈ 0: f(x)=xᵖ/p is undefined  (this is the ln(x) exception!)", W/2, H/2);
-      document.getElementById("antipow-formula").innerHTML=
-        '<span style="color:#fbbf24;">⚠ p = 0 is the special case: ∫x⁻¹dx = ln(x)+C, not xᵖ/p</span>';
-      document.getElementById("antipow-stats").innerHTML="";
-      return;
     }
 
     // f(x) = x^p / p  (sky blue)
@@ -7016,7 +7010,8 @@ and observe the **special cases** carefully!
     if(isFinite(fy) && fy>=ymin && fy<=ymax){
       var lp2=toC(lx,fy,ymin,ymax);
       ctx.fillStyle="#38bdf8"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
-      ctx.fillText("f(x)=x^"+pFmt(p)+"/"+pFmt(p), lp2[0]+6, lp2[1]-8);
+      var fLabel = Math.abs(p)<0.005 ? "f(x)=ln(x)" : "f(x)=x^"+pFmt(p)+"/"+pFmt(p);
+      ctx.fillText(fLabel, lp2[0]+6, lp2[1]-8);
     }
     if(isFinite(dfy) && dfy>=ymin && dfy<=ymax){
       var dlp=toC(lx,dfy,ymin,ymax);
@@ -7026,21 +7021,28 @@ and observe the **special cases** carefully!
 
     // formula box
     var pS=pFmt(p), pm1S=pFmt(p-1);
+    var isP0 = Math.abs(p) < 0.005;
     var noteP1 = (Math.abs(p-1)<0.01) ? ' &nbsp;<span style="color:#fbbf24;font-size:11px;">← f(x)=x, f\'(x)=1 ✓</span>' : '';
     var noteP2 = (Math.abs(p-2)<0.01) ? ' &nbsp;<span style="color:#fbbf24;font-size:11px;">← f(x)=x²/2, f\'(x)=x ✓</span>' : '';
+    var noteP0 = isP0 ? ' &nbsp;<span style="color:#fbbf24;font-size:11px;">← the famous exception: ∫x⁻¹dx = ln(x)+C ✓</span>' : '';
     document.getElementById("antipow-formula").innerHTML=
-      '<span style="color:#38bdf8;">f(x) = x<sup>'+pS+'</sup> / '+pS+'</span>'
-      +'&nbsp;&nbsp;&nbsp;&nbsp;'
-      +'<span style="color:#2dd4bf;">f\'(x) = x<sup>'+pm1S+'</sup></span>'
-      +noteP1+noteP2
+      (isP0
+        ? '<span style="color:#38bdf8;">f(x) = ln(x)</span>'
+          +'&nbsp;&nbsp;&nbsp;&nbsp;'
+          +'<span style="color:#2dd4bf;">f\'(x) = x<sup>-1</sup> = 1/x</span>'
+        : '<span style="color:#38bdf8;">f(x) = x<sup>'+pS+'</sup> / '+pS+'</span>'
+          +'&nbsp;&nbsp;&nbsp;&nbsp;'
+          +'<span style="color:#2dd4bf;">f\'(x) = x<sup>'+pm1S+'</sup></span>'
+      )
+      +noteP0+noteP1+noteP2
       +(isFinite(fx0)&&isFinite(dfx0)
         ?'&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a78bfa;">at x₀='+x0.toFixed(2)+': &nbsp;f='+fx0.toFixed(4)+', &nbsp;f\'='+dfx0.toFixed(4)+'</span>'
         :'');
 
     // stats
     document.getElementById("antipow-stats").innerHTML=[
-      ["p", pS, "#38bdf8"],
-      ["f(x₀) = x₀ᵖ/p", isFinite(fx0)?fx0.toFixed(4):"∞", "#38bdf8"],
+      ["p", isP0 ? "0  (ln)" : pS, "#38bdf8"],
+      [isP0 ? "f(x₀) = ln(x₀)" : "f(x₀) = x₀ᵖ/p", isFinite(fx0)?fx0.toFixed(4):"∞", "#38bdf8"],
       ["f'(x₀) = x₀ᵖ⁻¹", isFinite(dfx0)?dfx0.toFixed(4):"∞", "#2dd4bf"]
     ].map(function(d){
       return '<div style="flex:1;background:rgba(0,8,15,.7);border:1px solid rgba(148,163,184,.1);border-radius:10px;padding:10px;text-align:center;">'
@@ -7061,7 +7063,7 @@ and observe the **special cases** carefully!
     draw();
   });
   document.getElementById("antipow-x0slider").addEventListener("input",function(){
-    curX0=0.05+(+this.value-1)/299*(3-0.05);
+    curX0=0.01+(+this.value-1)/299*(3-0.01);
     document.getElementById("antipow-x0label").textContent="x₀ = "+curX0.toFixed(2);
     draw();
   });
