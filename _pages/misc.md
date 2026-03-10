@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed Mar  4 01:37:52 PST 2026
+last_modified_at: Mon Mar  9 19:40:02 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -202,7 +202,7 @@ toc_sticky: true
 	Family
 	-
 	Hamilton @ <a href="https://maps.app.goo.gl/zzWXVSkoKck3C89x9">Richard Rodgers Theatre</a>
-	- 2pm on 26-Jul-2024 EDT
+	- 2pm on 26-Jul-2023 EDT
 	<a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=XzZ0bG5hcXJsZTVwNmNwYjRkaG1qNHBocGVoaGo2ZDloZTRwNjRxMzRlOHFqaWNyaGRkazNhc2oyZHBoamlzMzg2dG9qY3QzaTZsbjM0ZDlwY3RsNzZjOWc3MXFuNmMzZGQ0cm5hcGo4Y2dxNmUgc3VuZ2hlZS55dW5AbQ&amp;tmsrc=sunghee.yun%40gmail.com"><img src="/resource/favicons/icons8-google-calendar-96.png" width=20 height=20></a>
 </li>
 <li>
