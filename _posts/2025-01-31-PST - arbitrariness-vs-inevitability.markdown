@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 31 03:46:27 PST 2025
-last_modified_at: Mon Mar  9 07:11:06 PDT 2026
+last_modified_at: Tue Mar 10 01:55:29 PDT 2026
 title: From Prime Numbers to Physical Laws - Arbitrariness or Inevitability?
 permalink: /prajna/coincidence-vs-inevitability
 categories:
@@ -20,21 +20,86 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-<!--
-# NotebookLM Podcasts
--->
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Are Physical Laws Arbitrary or Inevitable?</strong>
+			<span style="opacity: 0.8;">(46:43)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Deep Dive - Are_physical_laws_arbitrary_or_inevitable.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Are Physical Laws Arbitrary or Inevitable?</strong>
+			<span style="opacity: 0.8;">(27:55)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Deep Dive - Are_physical_laws_arbitrary_or_inevitable - 02.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
-<!--h2>based on this blog</h2-->
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Are physical Laws Just Local Ordinances?</strong>
+			<span style="opacity: 0.8;">(20:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Deep Dive - Are_physical_laws_just_local_ordinances.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Are Physical Laws Mathematically Inevitable?</strong>
+			<span style="opacity: 0.8;">(11:58)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Deep Dive - Are_physical_laws_mathematically_inevitable-2.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
-<!--audio id="podcast-1" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Inevitability of Mathematical Truths in Physical Laws-01.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
-
-<!--audio id="podcast-2" controls>
-	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-01-31-PST - arbitrariness-vs-inevitability/NotebookLM/Truth in Numbers and the Cosmos-01.wav">
-	Your browser does not support this shorter audio element.
-</audio-->
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Are Physical Laws Mathematically Inevitable?</strong>
+			<span style="opacity: 0.8;">(18:00)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Debate - Are_physical_laws_mathematically_inevitable - 02.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Are Physical Laws Mathematically Inevitable?</strong>
+			<span style="opacity: 0.8;">(16:33)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-01-31-PST - arbitrariness-vs-inevitability/Debate - Are_Physical_Laws_Mathematically_Inevitable.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
