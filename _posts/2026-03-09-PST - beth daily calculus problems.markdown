@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Tue Mar 10 03:24:58 PDT 2026
+last_modified_at: Tue Mar 10 04:55:49 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -55,7 +55,7 @@ HOW TO ADD A NEW DAY:
 *New sessions are prepended at the top of each day's section — most recent first.*
 
 - [10-Mar-2026](#mar-10-2026)
-- [09-Mar-2027](#mar-09-2026)
+- [09-Mar-2026](#mar-09-2026)
 
 # March 2026
 
