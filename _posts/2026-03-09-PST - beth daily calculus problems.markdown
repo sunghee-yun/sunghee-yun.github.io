@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Tue Mar 10 04:55:49 PDT 2026
+last_modified_at: Tue Mar 10 05:16:44 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -111,19 +111,19 @@ Try both — they should give the same answer!
 <li>
 <span class="ans">$12$</span><br>
 <span class="hint"><strong>Method B (derivative):</strong> This is $f'(2)$ for $f(x)=x^3$, so $f'(2)=3\cdot 2^2=12$.</span><br>
-<span class="hint"><strong>Method A (L'Hôpital):</strong> $\frac{0}{0}$ form; diff top/bottom w.r.t. $h$: $\frac{3(2+h)^2}{1}\big|_{h=0} = 12$. ✓</span>
+<span class="hint"><strong>Method A (L'Hôpital):</strong> $\frac{0}{0}$ form; diff top/bottom w.r.t. $h$: $\displaystyle\frac{3(2+h)^2}{1}\big|_{h=0} = 12$. ✓</span>
 </li>
 
 <li>
 <span class="ans">$\dfrac{1}{4}$</span><br>
 <span class="hint"><strong>Method B:</strong> $f'(4)$ for $f(x)=\sqrt{x}$; $f'(x)=\frac{1}{2\sqrt{x}}$, so $f'(4)=\frac{1}{4}$.</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\frac{1/(2\sqrt{4+h})}{1}\big|_{h=0}=\frac{1}{4}$. ✓</span>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{1/(2\sqrt{4+h})}{1}\big|_{h=0}=\frac{1}{4}$. ✓</span>
 </li>
 
 <li>
 <span class="ans">$1$</span><br>
 <span class="hint"><strong>Method B:</strong> $f'(0)$ for $f(x)=\sin x$; $f'(0)=\cos 0=1$.</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\frac{\cos x}{1}\big|_{x=0}=1$. ✓</span>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{\cos x}{1}\big|_{x=0}=1$. ✓</span>
 </li>
 
 <li>
@@ -153,25 +153,25 @@ No need for #3 this time! The $\sin x$ cancels itself top and bottom. ✓</span>
 <li>
 <span class="ans">$1$</span><br>
 <span class="hint"><strong>Method B:</strong> $f'(0)$ for $f(x)=e^x$; $f'(0)=e^0=1$.</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\frac{e^x}{1}\big|_{x=0}=1$. ✓</span>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{e^x}{1}\big|_{x=0}=1$. ✓</span>
 </li>
 
 <li>
 <span class="ans">$1$</span><br>
 <span class="hint"><strong>Method B:</strong> $f'(0)$ for $f(x)=\ln(1+x)$; $f'(x)=\frac{1}{1+x}$, so $f'(0)=1$.</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\frac{1/(1+x)}{1}\big|_{x=0}=1$. ✓</span>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{1/(1+x)}{1}\big|_{x=0}=1$. ✓</span>
 </li>
 
 <li>
 <span class="ans">$\dfrac{1}{2}$</span><br>
-<span class="hint"><strong>Method B:</strong> $-f''(0)/2!$ for $\cos x$... actually: rewrite as $\frac{1-\cos x}{x^2}$. Note $1-\cos x = 2\sin^2(x/2)$, so $\frac{2\sin^2(x/2)}{x^2}=\frac{1}{2}\left(\frac{\sin(x/2)}{x/2}\right)^2\to\frac{1}{2}$.</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$ twice: $\frac{\sin x}{2x}\big|_{x=0}$ → still $\frac{0}{0}$ → $\frac{\cos x}{2}\big|_{x=0}=\frac{1}{2}$. ✓</span>
+<span class="hint"><strong>Method B:</strong> $-f''(0)/2!$ for $\cos x$... actually: rewrite as $\displaystyle\frac{1-\cos x}{x^2}$. Note $1-\cos x = 2\sin^2(x/2)$, so $\displaystyle\frac{2\sin^2(x/2)}{x^2}=\frac{1}{2}\left(\frac{\sin(x/2)}{x/2}\right)^2\to\frac{1}{2}$.</span><br>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$ twice: $\displaystyle\frac{\sin x}{2x}\big|_{x=0}$ → still $\frac{0}{0}$ → $\displaystyle\frac{\cos x}{2}\big|_{x=0}=\frac{1}{2}$. ✓</span>
 </li>
 
 <li>
 <span class="ans">$3$</span><br>
-<span class="hint"><strong>Method B (slick):</strong> Let $u=3x$; as $x\to 0$, $u\to 0$, so $\frac{e^{3x}-1}{x}=3\cdot\frac{e^u-1}{u}\to 3\cdot 1=3$. Uses result from <strong>#7</strong>!</span><br>
-<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\frac{3e^{3x}}{1}\big|_{x=0}=3$. ✓</span>
+<span class="hint"><strong>Method B (slick):</strong> Let $u=3x$; as $x\to 0$, $u\to 0$, so $\displaystyle\frac{e^{3x}-1}{x}=3\cdot\frac{e^u-1}{u}\to 3\cdot 1=3$. Uses result from <strong>#7</strong>!</span><br>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{3e^{3x}}{1}\big|_{x=0}=3$. ✓</span>
 </li>
 
 <li>
@@ -215,19 +215,19 @@ One of them secretly reuses a result from Part 1 — can you spot which one?
 <span class="ans">$1$</span><br>
 <span class="hint">Let $u=\dfrac{1}{x}$; as $x\to\infty$, $u\to 0^+$, so
 $x\sin\dfrac{1}{x} = \dfrac{\sin u}{u} \to 1$ by Part 1 <strong>#3</strong>! ✓<br>
-That's the hidden connection — the same $\frac{\sin\theta}{\theta}\to 1$ just wearing a disguise.</span>
+That's the hidden connection — the same $\displaystyle\frac{\sin\theta}{\theta}\to 1$ just wearing a disguise.</span>
 </li>
 
 <li>
 <span class="ans">$e \approx 2.718\ldots$</span><br>
 <span class="hint">This is the <em>definition</em> of $e$. Memorise it — it appears everywhere.<br>
-More generally: $\displaystyle\lim_{n\to\infty}\!\left(1+\frac{a}{n}\right)^n = e^a$.</span>
+More generally: $\displaystyle\lim_{n\to\infty}\!\left(1+\frac{a}{n}\right)^n = \lim_{n\to\infty}\!\left(\left(1+\frac{a}{n}\right)^{\frac{n}{a}}\right)^{a} = e^a$.</span>
 </li>
 
 <li>
 <span class="ans">$e^6$</span><br>
-<span class="hint">Rewrite the exponent: $\left(1+\dfrac{3}{n}\right)^{2n} = \left(\left(1+\dfrac{3}{n}\right)^{n}\right)^2$.<br>
-Inner limit $\to e^3$ by the formula from #2 with $a=3$; square it: $(e^3)^2 = e^6$.</span>
+<span class="hint">Rewrite the exponent: $\left(1+\dfrac{3}{n}\right)^{2n} = \left(\left(1+\dfrac{3}{n}\right)^{\frac{n}{3}}\right)^6$.<br>
+Inner limit $\to e$ by the formula from #2 with $a=1$; $(e)^6 = e^6$.</span>
 </li>
 
 <li>
@@ -273,37 +273,37 @@ Converge or diverge? Give exact value when possible.
 <ol>
 <li>
 <span class="ans">Converges $= 1$</span><br>
-<span class="hint">Partial fractions: $\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}$. Telescoping sum: all middle terms cancel, leaving $1 - \lim_{N\to\infty}\frac{1}{N+1} = 1$.</span>
+<span class="hint">Partial fractions: $\displaystyle\frac{1}{n(n+1)}=\frac{1}{n}-\frac{1}{n+1}$. Telescoping sum: all middle terms cancel, leaving $\displaystyle 1 - \lim_{N\to\infty}\frac{1}{N+1} = 1$.</span>
 </li>
 
 <li>
 <span class="ans">Converges $= 2$</span><br>
-<span class="hint">Ratio test: $\frac{(n+1)/2^{n+1}}{n/2^n}=\frac{n+1}{2n}\to\frac{1}{2}<1$. Value: differentiate the geometric series $\sum x^n = \frac{1}{1-x}$ to get $\sum nx^{n-1}=\frac{1}{(1-x)^2}$; multiply by $x$: $\sum nx^n = \frac{x}{(1-x)^2}$; at $x=\frac{1}{2}$: $\frac{1/2}{1/4}=2$.</span>
+<span class="hint">Ratio test: $\displaystyle\frac{(n+1)/2^{n+1}}{n/2^n}=\frac{n+1}{2n}\to\frac{1}{2}<1$. Value: differentiate the geometric series $\displaystyle\sum x^n = \frac{1}{1-x}$ to get $\displaystyle\sum nx^{n-1}=\frac{1}{(1-x)^2}$; multiply by $x$: $\displaystyle\sum nx^n = \frac{x}{(1-x)^2}$; at $\displaystyle x=\frac{1}{2}$: $\displaystyle\frac{1/2}{1/4}=2$.</span>
 </li>
 
 <li>
 <span class="ans">Converges</span> (value not elementary)<br>
-<span class="hint">Leibniz alternating series test: $\frac{1}{\sqrt{n}}$ is decreasing and $\to 0$. ✓ (Value $\approx -0.6049$, related to Dirichlet eta function.)</span>
+<span class="hint">Leibniz alternating series test: $\displaystyle\frac{1}{\sqrt{n}}$ is decreasing and $\to 0$. ✓ (Value $\approx -0.6049$, related to Dirichlet eta function.)</span>
 </li>
 
 <li>
 <span class="ans">Diverges ($\infty$)</span><br>
-<span class="hint">Integral test: $\int_2^\infty \frac{dx}{x\ln x} = \ln(\ln x)\Big|_2^\infty = \infty$. (Or: $p$-series-like with $p=1$ — just barely diverges!)</span>
+<span class="hint">Integral test: $\displaystyle\int_2^\infty \frac{dx}{x\ln x} = \ln(\ln x)\Big|_2^\infty = \infty$. (Or: $p$-series-like with $p=1$ — just barely diverges!)</span>
 </li>
 
 <li>
 <span class="ans">Converges $= e^3 - 1 \approx 19.09$</span><br>
-<span class="hint">Ratio test: $\frac{3^{n+1}/(n+1)!}{3^n/n!}=\frac{3}{n+1}\to 0 < 1$. Value: $\sum_{n=0}^{\infty}\frac{3^n}{n!}=e^3$, minus the $n=0$ term ($=1$): answer $= e^3-1$.</span>
+<span class="hint">Ratio test: $\displaystyle\frac{3^{n+1}/(n+1)!}{3^n/n!}=\frac{3}{n+1}\to 0 < 1$. Value: $\displaystyle\sum_{n=0}^{\infty}\frac{3^n}{n!}=e^3$, minus the $n=0$ term ($=1$): answer $= e^3-1$.</span>
 </li>
 
 <li>
 <span class="ans">Diverges ($\infty$)</span><br>
-<span class="hint">Limit comparison with $\frac{1}{n}$: $\frac{(n^2+1)/(n^3+1)}{1/n}=\frac{n(n^2+1)}{n^3+1}\to 1>0$. Since $\sum\frac{1}{n}$ diverges, so does this.</span>
+<span class="hint">Limit comparison with $\displaystyle\frac{1}{n}$: $\displaystyle\frac{(n^2+1)/(n^3+1)}{1/n}=\frac{n(n^2+1)}{n^3+1}\to 1>0$. Since $\sum\dfrac{1}{n}$ diverges, so does this.</span>
 </li>
 
 <li>
 <span class="ans">Converges</span><br>
-<span class="hint">$p$-series with $p=\frac{3}{2}>1$. (Value $= \zeta(3/2)\approx 2.612$, no simple closed form.)</span>
+<span class="hint">$p$-series with $p=\dfrac{3}{2}>1$. (Value $= \zeta(3/2)\approx 2.612$, no simple closed form.)</span>
 </li>
 </ol>
 </div>
@@ -334,9 +334,9 @@ $= e^{-(x^2)^2}\cdot 2x = 2x\,e^{-x^4}$.</span>
 
 <li>
 <span class="ans">$2x\sin(x^4) - \sin(x^2)$</span><br>
-<span class="hint">Split: $\int_x^{x^2} = \int_0^{x^2} - \int_0^{x}$.<br>
-Differentiate each: $\frac{d}{dx}\int_0^{x^2}\sin(t^2)\,dt = \sin(x^4)\cdot 2x$;&nbsp; $\frac{d}{dx}\int_0^{x}\sin(t^2)\,dt = \sin(x^2)\cdot 1$.<br>
-Answer: $2x\sin(x^4) - \sin(x^2)$.</span>
+<span class="hint">Split: $\displaystyle\int_x^{x^2} = \int_0^{x^2} - \int_0^{x}$.<br>
+Differentiate each: $\displaystyle\frac{d}{dx}\int_0^{x^2}\sin(t^2)\,dt = \sin(x^4)\cdot 2x$;&nbsp; $\displaystyle\frac{d}{dx}\int_0^{x}\sin(t^2)\,dt = \sin(x^2)\cdot 1$.<br>
+Answer: $\displaystyle 2x\sin(x^4) - \sin(x^2)$.</span>
 </li>
 </ol>
 </div>
@@ -376,13 +376,31 @@ $$= 2\pi\left[y^2 - \frac{2}{5}y^{5/2}\right]_0^4 = 2\pi\!\left(16 - \frac{2}{5}
 
 <strong>Washer method</strong> (integrate along $x$; outer radius $R=\sqrt{x}$, inner radius $r=x$)
 
-$$V = \pi\int_0^1\Bigl((\sqrt{x})^2 - x^2\Bigr)\,dx = \pi\int_0^1(x - x^2)\,dx = \pi\left[\frac{x^2}{2}-\frac{x^3}{3}\right]_0^1 = \boxed{\dfrac{\pi}{6}}$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\Bigl((\sqrt{x})^2 - x^2\Bigr)\,dx = \pi\int_0^1(x - x^2)\,dx
+\\
+		&=&
+			\pi\left[\frac{x^2}{2}-\frac{x^3}{3}\right]_0^1 = \boxed{\dfrac{\pi}{6}}
+\end{eqnarray*}
+$$
 
 <strong>Shell method</strong> (horizontal shells, integrate along $y$; for a given $y$ - $x$ runs from $y^2$ to $y$)
 
 Shell radius $= y$, shell height $= y - y^2$.
 
-$$V = 2\pi\int_0^1 y\bigl(y - y^2\bigr)\,dy = 2\pi\int_0^1(y^2 - y^3)\,dy = 2\pi\left[\frac{y^3}{3}-\frac{y^4}{4}\right]_0^1 = 2\pi\cdot\frac{1}{12} = \boxed{\dfrac{\pi}{6}}\checkmark$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^1 y\bigl(y - y^2\bigr)\,dy = 2\pi\int_0^1(y^2 - y^3)\,dy
+\\
+		&=&
+			2\pi\left[\frac{y^3}{3}-\frac{y^4}{4}\right]_0^1 = 2\pi\cdot\frac{1}{12} = \boxed{\dfrac{\pi}{6}}\checkmark
+\end{eqnarray*}
+$$
 
 <p class="hint">🔍 Both methods are equally clean here! Washer thinks in $x$ (natural for rotation around $x$-axis); shell thinks in $y$ and requires rewriting $y=\sqrt{x}\Rightarrow x=y^2$ and $y=x\Rightarrow x=y$.</p>
 </div>
@@ -401,8 +419,18 @@ $$= 2\pi\left[\frac{2x^3}{3} - \frac{x^4}{4}\right]_0^2 = 2\pi\!\left(\frac{16}{
 
 <strong>Washer method</strong> (integrate along $y$; for a given $y$ - outer radius from $y=x^2\Rightarrow x=\sqrt{y}$, inner radius from $y=2x\Rightarrow x=y/2$)
 
-$$V = \pi\int_0^4\Bigl((\sqrt{y})^2 - \left(\dfrac{y}{2}\right)^2\Bigr)\,dy = \pi\int_0^4\!\left(y - \frac{y^2}{4}\right)\!dy = \pi\left[\frac{y^2}{2}-\frac{y^3}{12}\right]_0^4$$
-$$= \pi\!\left(8 - \frac{64}{12}\right) = \pi\cdot\frac{8}{3} = \boxed{\dfrac{8\pi}{3}}\checkmark$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^4\Bigl((\sqrt{y})^2 - \left(\dfrac{y}{2}\right)^2\Bigr)\,dy = \pi\int_0^4\!\left(y - \frac{y^2}{4}\right)\!dy
+\\
+		&=&
+			\pi\left[\frac{y^2}{2}-\frac{y^3}{12}\right]_0^4
+				=
+					\pi\!\left(8 - \frac{64}{12}\right) = \pi\cdot\frac{8}{3} = \boxed{\dfrac{8\pi}{3}}\checkmark
+\end{eqnarray*}
+$$
 
 <p class="hint">🔍 Shell was much easier here — rotating around the $y$-axis with functions given in $x$ is exactly what shell method is designed for. Washer forced us to invert both curves and integrate in $y$.</p>
 </div>
