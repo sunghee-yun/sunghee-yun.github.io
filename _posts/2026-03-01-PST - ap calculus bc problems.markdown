@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar 10 01:56:03 PDT 2026
+last_modified_at: Tue Mar 10 02:21:46 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -166,6 +166,7 @@ Each session has problems + a collapsible answer key so you can self-check.
 
 | Date | Topics |
 |------|--------|
+| [10-Mar-2026](/math/ap/calculus/bc/daily#mar-10-2026){:target="_blank"} | Limits (two methods) · Series · FTC + chain rule · Volumes of revolution (disc & shell) |
 | [09-Mar-2026](/math/ap/calculus/bc/daily#mar-09-2026){:target="_blank"} | Limits at 0 and $\infty$ · Series convergence · FTC Part 1 |
 
 # Interactive Visualization Tools
