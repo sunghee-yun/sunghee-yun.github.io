@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 22:28:38 PDT 2026
+last_modified_at: Tue Mar 10 01:56:03 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -40,6 +40,8 @@ table, tr, td, th {
     font-family: inherit !important;
 }
 </style>
+
+{% assign inevitability = site.posts | where: "permalink", "/prajna/coincidence-vs-inevitability" | first %}
 
 **Share this on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }})
@@ -4426,38 +4428,80 @@ $$
 
 $$
 \begin{eqnarray}
-\begin{array}{lcl}
+\label{eq:infinite-series-sums}
+\begin{array}{lllc}
+	\sum_{n=0}^\infty r^n
+		&=
+			\dfrac{1}{1-r}
+			\qquad \mbox{assuming } |r| < 1
+\\
 	\sum_{n=1}^\infty \dfrac{1}{n}
-		&=&
-			\infty
+		&=
+			\dfrac{1}{1} + \dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{4} + \dfrac{1}{5} + \cdots
+		&=
+			&\infty
+\\
+	\sum_{p:\;\text{prime number}}^\infty \dfrac{1}{p}
+		&=
+			\dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{5} + \dfrac{1}{7} + \dfrac{1}{11} + \cdots
+		&=
+			&\infty
 \\
 	\sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{n}
-		&=&
-			\ln 2
+		&=
+			\dfrac{1}{1} - \dfrac{1}{2} + \dfrac{1}{3} - \dfrac{1}{4} + \dfrac{1}{5} - \cdots
+		&=
+			&\ln 2
 \\
-	\sum_{p: \text{prime number}}^\infty \dfrac{1}{p}
-		&=&
-			\dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{5} + \dfrac{1}{7} + \dfrac{1}{11} + \cdots = \infty
+	\sum_{n=1}^\infty \dfrac{(-1)^{n+1}}{2n-1}
+		&=
+			\dfrac{1}{1} - \dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7} + \dfrac{1}{9} - \cdots
+		&=
+			&\dfrac{\pi}{4}
 \\
 	\sum_{n=1}^\infty \dfrac{1}{n(n+1)}
-		&=&
-			1
-\\
-	\sum_{n=1}^\infty \dfrac{1}{n!}
-		&=&
-			e
+		&=
+			\dfrac{1}{1\cdot 2} + \dfrac{1}{2\cdot 3} + \dfrac{1}{3\cdot 4} + \cdots
+		&=
+			&1
 \\
 	\sum_{n=1}^\infty \dfrac{1}{n^2}
-		&=&
-			\dfrac{\pi^2}{6}
+		&=
+			\dfrac{1}{1^2} + \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{4^2} + \cdots
+		&=
+			&\dfrac{\pi^2}{6}
 \\
-	\sum_{n=0}^\infty r^n
-		&=&
-			\dfrac{1}{1-r}
-			\; \mbox{assuming } |r| < 1
+	\sum_{n=1}^\infty \dfrac{1}{(2n-1)^2}
+		&=
+			\dfrac{1}{1^2} + \dfrac{1}{3^2} + \dfrac{1}{5^2} + \dfrac{1}{7^2} + \cdots
+		&=
+			&\dfrac{\pi^2}{8}
+\\
+	\sum_{n=1}^\infty \dfrac{1}{n^4}
+		&=
+			\dfrac{1}{1^4} + \dfrac{1}{2^4} + \dfrac{1}{3^4} + \dfrac{1}{4^4} + \cdots
+		&=
+			&\dfrac{\pi^4}{90}
+\\
+	\sum_{n=1}^\infty \dfrac{1}{(2n-1)^4}
+		&=
+			\dfrac{1}{1^4} + \dfrac{1}{3^4} + \dfrac{1}{5^4} + \dfrac{1}{7^4} + \cdots
+		&=
+			&\dfrac{\pi^4}{96}
+\\
+	\sum_{n=0}^\infty \dfrac{1}{n!}
+		&=
+			\dfrac{1}{0!} + \dfrac{1}{1!} + \dfrac{1}{2!} + \dfrac{1}{3!} + \cdots
+		&=
+			&e
 \end{array}
 \end{eqnarray}
 $$
+
+Please refer to [Sums of Sequences](/prajna/coincidence-vs-inevitability#sums-of-sequences){:target="_blank"}
+of [{{ inevitability.title }}]({{ inevitability.url }}){:target="_blank"},
+which is Daddy's Philosophical and Existential Exploratory blogs,
+if you want to know more fun results for some of infinite series!
 
 ### Conditional and Absolute Convergence
 
