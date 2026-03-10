@@ -1,5 +1,5 @@
 ---
-last_modified_at: Mon Mar  9 19:40:02 PDT 2026
+last_modified_at: Mon Mar  9 22:18:06 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -19,6 +19,10 @@ toc_sticky: true
 # Erudio
 
 - AFP, CA19-9, CA125 II, CEA, FT4 IV, TSH
+
+# Linux Commands
+
+- `du -sh sunghee-yun.github.io/*(D) | sort -rh`
 
 # English expressions
 
