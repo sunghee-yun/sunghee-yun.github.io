@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Mon Mar  9 07:21:19 PDT 2026
+last_modified_at: Mon Mar  9 22:28:38 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -160,11 +160,11 @@ table, tr, td, th {
 Beth's **daily warm-up sessions** live on a separate page — short, casual, 15–20 minutes.
 Each session has problems + a collapsible answer key so you can self-check.
 
-➡️ **[Beth's Daily Calculus Practice](/math/ap/calculus/bc/daily)**
+[➡️ **Beth's Daily Calculus Practice**](/math/ap/calculus/bc/daily){:target="_blank"}
 
 | Date | Topics |
 |------|--------|
-| [March 9, 2026](/math/ap/calculus/bc/daily#mar-9-2026) | Limits at 0 and ∞ · Series convergence · FTC Part 1 |
+| [09-Mar-2026](/math/ap/calculus/bc/daily#mar-09-2026){:target="_blank"} | Limits at 0 and $\infty$ · Series convergence · FTC Part 1 |
 
 # Interactive Visualization Tools
 
@@ -2010,14 +2010,14 @@ More formula can be found [here](https://en.wikipedia.org/wiki/List_of_integrals
 
 ## Fundamental theorem of calculus {#fundamental-theorem-of-calculus}
 
-The [fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus){:target="_blank"}
+The [fundamental theorem of calculus (FTC)](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus){:target="_blank"}
 is
 a theorem that links the concept of differentiating a function (calculating its slopes, or rate of change at every point on its domain)
 with the concept of integrating a function (calculating the area under its graph, or the cumulative effect of small contributions).
 Roughly speaking, the two operations can be thought of as inverses of each other.
 
 The first part of the theorem,
-[the first fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#First_part){:target="_blank"},
+[the first FTC](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#First_part){:target="_blank"},
 states that for a continuous function $f$,
 an [antiderivative](https://en.wikipedia.org/wiki/Antiderivative){:target="_blank"}
 or indefinite integral $F$ can be obtained
@@ -2055,7 +2055,7 @@ $$
 $$
 -->
 
-Conversely, [the second part of the theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#Second_part){:target="_blank"}
+Conversely, [the second part of FTC](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus#Second_part){:target="_blank"}
 (sometimes referred to as **Newton–Leibniz theorem**),
 states that the integral of a function $f$ over a fixed interval is equal to the change of any [antiderivative](https://en.wikipedia.org/wiki/Antiderivative){:target="_blank"} $F$
 between the ends of the interval.
@@ -5221,7 +5221,7 @@ the [chain rule](#chain-rule),
 \eqref{eq:chain-rule}
 and
 -->
-the first part of <a href="#fundamental-theorem-of-calculus">the fundamental theorem of calculus</a>
+the first part of <a href="#fundamental-theorem-of-calculus">FTC</a>
 <i>i.e.</i>,
 \eqref{eq:fund-theorem-of-calculus-1}
 to get

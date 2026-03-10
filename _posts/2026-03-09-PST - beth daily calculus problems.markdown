@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Mon Mar  9 07:04:38 PDT 2026
+last_modified_at: Mon Mar  9 22:44:55 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -15,6 +15,11 @@ toc_icon: "fa-solid fa-list"
 toc_sticky: true
 usemathjax: true
 ---
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
 
 <!--style>
 .daily-intro {
@@ -114,6 +119,12 @@ details.answers li { margin: 6px 0; line-height: 1.7; }
 }
 </style-->
 
+**Share this on**
+[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }})
+| [Instagram](https://www.instagram.com/)
+| [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
+| [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
+
 <div class="daily-intro">
 Short daily sessions — <strong>15–20 min</strong>, casual, no pressure. 🧠<br>
 Think of it like a daily stretch before a game. The goal is <em>exposure</em>, not perfection.<br>
@@ -124,7 +135,7 @@ not to stare at it once for three hours.&rdquo; — Daddy
 </blockquote>
 </div>
 
-[← Back to main reference page](/math/ap/calculus/bc)
+[← Back to main reference page](/math/ap/calculus/bc){:target="_blank"}
 
 <!--
 =================================================================
@@ -137,9 +148,11 @@ HOW TO ADD A NEW DAY:
 =================================================================
 -->
 
+*New sessions are prepended at the top of each day's section — most recent first.*
+
 # March 2026
 
-## March 9, 2026 {#mar-9-2026}
+## March 9, 2026 {#mar-09-2026}
 
 <div class="date-banner">
 📅 <strong>Mon, March 9, 2026</strong> &nbsp;|&nbsp;
@@ -354,7 +367,3 @@ would be a sign confusion — that's exactly why the dummy variable matters!
 </p>
 </div>
 </details>
-
----
-
-*New sessions are prepended at the top of each month's section — most recent first.*
