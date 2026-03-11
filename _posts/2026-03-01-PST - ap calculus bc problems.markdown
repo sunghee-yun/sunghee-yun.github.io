@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar 10 18:28:41 PDT 2026
+last_modified_at: Tue Mar 10 22:13:37 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -2714,17 +2714,19 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
   <div style="text-align:center;font-size:11px;color:#475569;">
     <span style="color:#60a5fa;">n slider</span>: more discs &rarr; converges &nbsp;|&nbsp;
     <span style="color:#f472b6;">highlight slider</span>: inspect each &Delta;V &nbsp;|&nbsp;
-    <span style="color:rgba(96,165,250,.6);">drag 3D panel</span>: spin &amp; tilt freely
+    <span style="color:rgba(96,165,250,.6);">drag 3D panel</span>: spin &amp; tilt freely &nbsp;|&nbsp;
+    <span style="color:#4ade80;">&#10003;</span>: f(x)&sup2; is linear &mdash; disc sum is <em>always</em> exact (interesting edge case!)
   </div>
 </div>
 
 <script>
 (function(){
   var DFUNS = {
-    "\u221ax":       { f:function(x){return Math.sqrt(x);},         label:"\u221ax",        xmax:3.0, ymax:2.0 },
     "x/2":           { f:function(x){return x/2;},                  label:"x/2",            xmax:3.0, ymax:1.6 },
-    "sin(\u03c0x/2)":{ f:function(x){return Math.sin(Math.PI*x/2);},label:"sin(\u03c0x/2)", xmax:2.0, ymax:1.2 },
-    "1+x/4":         { f:function(x){return 1+x/4;},                label:"1+x/4",          xmax:3.0, ymax:2.0 }
+    "x\u00b2":       { f:function(x){return x*x;},                  label:"x\u00b2",        xmax:2.0, ymax:4.2 },
+    "1+x/4":         { f:function(x){return 1+x/4;},                label:"1+x/4",          xmax:3.0, ymax:2.0 },
+    "\u221ax":       { f:function(x){return Math.sqrt(x);},         label:"\u221ax",        xmax:3.0, ymax:2.0, exact:true },
+    "sin(\u03c0x/2)":{ f:function(x){return Math.sin(Math.PI*x/2);},label:"sin(\u03c0x/2)", xmax:2.0, ymax:1.2, exact:true }
   };
   var DFK = Object.keys(DFUNS);
   var dst = { fnKey:DFK[0], n:6, hl:2, az:Math.PI/3, el:Math.PI/7 };
@@ -2931,7 +2933,11 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
     document.getElementById("disc-stat-true").textContent=tv.toFixed(5);
     document.getElementById("disc-stat-sum").textContent=ss.toFixed(5);
     var ee=document.getElementById("disc-stat-err");
-    ee.textContent=err.toFixed(3)+"%"; ee.style.color=ec;
+    if(fn.exact){
+      ee.textContent="\u2713 Exact!"; ee.style.color="#4ade80"; ee.title="f(x)\u00b2 is linear or symmetric \u2014 midpoint rule is perfectly exact for any n";
+    } else {
+      ee.textContent=err.toFixed(3)+"%"; ee.style.color=ec; ee.title="";
+    }
   }
 
   function discRedraw(){drawDisc2D();drawDisc3D();discStats();}
@@ -2940,7 +2946,7 @@ where $R(x)$ is the distance between the axis of revolution and the outside of t
   var dbc=document.getElementById("disc-fn-btns");
   DFK.forEach(function(k){
     var b=document.createElement("button");
-    b.textContent="y = "+DFUNS[k].label; b.dataset.key=k;
+    b.textContent="y = "+DFUNS[k].label+(DFUNS[k].exact?" ✓":""); b.dataset.key=k;
     b.style.cssText="padding:6px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-family:Georgia,serif;";
     b.addEventListener("click",function(){dst.fnKey=k;dst.hl=Math.floor(dst.n/3);updDiscBtns();discRedraw();});
     dbc.appendChild(b);
