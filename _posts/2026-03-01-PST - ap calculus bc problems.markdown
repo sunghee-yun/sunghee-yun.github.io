@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Tue Mar 10 02:21:46 PDT 2026
+last_modified_at: Tue Mar 10 18:28:41 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -938,34 +938,40 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
         return null; // use numerical differentiation
       },
       label: "sin(x)",
-      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5
+      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5,
+      cmin: -628, cmax: 628   // ≈ ±2π ×100
     },
     "cos x": {
       f: function(x){ return Math.cos(x); },
       label: "cos(x)",
-      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5
+      xmin: -2*Math.PI, xmax: 2*Math.PI, ymin: -2.5, ymax: 2.5,
+      cmin: -628, cmax: 628
     },
     "eˣ": {
       f: function(x){ return Math.exp(x); },
       label: "eˣ",
-      xmin: -3, xmax: 3, ymin: -1, ymax: 12
+      xmin: -3, xmax: 3, ymin: -1, ymax: 12,
+      cmin: -300, cmax: 300
     },
     "ln(1+x)": {
       f: function(x){ return (x > -1) ? Math.log(1+x) : NaN; },
       label: "ln(1+x)",
-      xmin: -1.5, xmax: 3, ymin: -3, ymax: 3
+      xmin: -1.5, xmax: 3, ymin: -3, ymax: 3,
+      cmin: -80, cmax: 280    // a must stay > -1; keep comfortable margin
     },
     "x²+x−2": {
       f: function(x){ return x*x + x - 2; },
       label: "(x−1)(x+2)",
       xmin: -3.5, xmax: 3.5, ymin: -3.5, ymax: 8,
-      note: "Exact at order 2!"
+      note: "Exact at order 2!",
+      cmin: -350, cmax: 350
     },
     "x⁵−5x³+4x": {
       f: function(x){ return x*x*x*x*x - 5*x*x*x + 4*x; },
       label: "x⁵−5x³+4x",
       xmin: -2.5, xmax: 2.5, ymin: -5, ymax: 5,
-      note: "Exact at order 5!"
+      note: "Exact at order 5!",
+      cmin: -250, cmax: 250
     }
   };
   var FN_KEYS = Object.keys(FNS);
@@ -1228,6 +1234,19 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
     updateFormula();
   }
 
+  // ── Helper: sync center slider bounds + value to current function ────
+  function updateCenterSlider(fn, newA) {
+    var cfg = FNS[fn];
+    var sl = document.getElementById("taylor-cslider");
+    sl.min   = cfg.cmin;
+    sl.max   = cfg.cmax;
+    // clamp newA to valid range, then set
+    var aReal = Math.max(cfg.cmin/100, Math.min(cfg.cmax/100, (newA !== undefined ? newA : 0)));
+    sl.value = Math.round(aReal * 100);
+    curA = aReal;
+    document.getElementById("taylor-centerlabel").textContent = "a = " + curA.toFixed(2);
+  }
+
   // ── Function buttons ──────────────────────────────────────────────────
   var btnC = document.getElementById("taylor-fnbtns");
   FN_KEYS.forEach(function(k){
@@ -1245,7 +1264,11 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
         }
       });
     }
-    btn.addEventListener("click",function(){ curFn=k; curOrder=0; document.getElementById("taylor-slider").value=0; document.getElementById("taylor-orderlabel").textContent="order = 0"; styleAll(); draw(); });
+    btn.addEventListener("click",function(){
+      curFn=k;
+      updateCenterSlider(k, 0);   // reset a=0 and fix slider range for new function
+      styleAll(); draw();
+    });
     btnC.appendChild(btn);
     // initial style
     btn.style.cssText=k===curFn
@@ -1265,6 +1288,9 @@ Try different functions — $e^x$ converges everywhere, while $\ln(1+x)$ only co
     document.getElementById("taylor-centerlabel").textContent="a = "+curA.toFixed(2);
     draw();
   });
+
+  // ── Init: set correct slider range for the default function ──────────
+  updateCenterSlider(curFn, 0);
 
   window.addEventListener("resize",resize);
   resize();
