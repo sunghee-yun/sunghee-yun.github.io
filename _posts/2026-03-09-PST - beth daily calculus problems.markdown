@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Tue Mar 10 05:16:44 PDT 2026
+last_modified_at: Tue Mar 10 18:06:42 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -365,6 +365,171 @@ $$V = 2\pi\int_0^4 y\bigl(2-\sqrt{y}\bigr)\,dy = 2\pi\int_0^4\bigl(2y - y^{3/2}\
 $$= 2\pi\left[y^2 - \frac{2}{5}y^{5/2}\right]_0^4 = 2\pi\!\left(16 - \frac{2}{5}\cdot 32\right) = 2\pi\cdot\frac{16}{5} = \boxed{\dfrac{32\pi}{5}}\checkmark$$
 
 <p class="hint">🔍 Disc was easier here — one clean integral vs a fractional power. Shell required inverting $y=x^2$ to $x=\sqrt{y}$ and thinking in $y$.</p>
+
+<div id="p1-viz" style="background:linear-gradient(135deg,#020814,#0a1628,#020814);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#60a5fa;text-transform:uppercase;">Problem 1 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=x^2$, $x\in[0,2]$, rotated around $x$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="p1-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(96,165,250,.2);overflow:hidden;position:relative;">
+      <canvas id="p1-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(96,165,250,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#38bdf8;">blue region</span> = area rotated &nbsp;|&nbsp;
+    <span style="color:#f87171;">red dashed</span> = axis of rotation ($x$-axis) &nbsp;|&nbsp;
+    <span style="color:#60a5fa;">3D solid</span> = disc stack $V=\frac{32\pi}{5}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("p1-2d");
+  var c3=document.getElementById("p1-3d");
+  var az=Math.PI/3, el=Math.PI/8;
+  var drag={on:false,lx:0,ly:0};
+
+  function initSize(){
+    var w=c2.parentElement.clientWidth;
+    var h=Math.round(w*0.72);
+    c2.width=w; c2.height=h;
+    c3.width=w; c3.height=h;
+  }
+
+  function draw2D(){
+    var W=c2.width, H=c2.height;
+    var ctx=c2.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    var pl=44,pr=18,pt=18,pb=36;
+    var xmin=-0.3,xmax=2.5,ymin=-0.5,ymax=4.5;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr), H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.08)"; ctx.lineWidth=1;
+    for(var i=0;i<=4;i++){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();}
+    for(var i=0;i<=2;i++){var p=tc(i,0);ctx.beginPath();ctx.moveTo(p[0],pt);ctx.lineTo(p[0],H-pb);ctx.stroke();}
+    // shaded region
+    ctx.beginPath();
+    var p0=tc(0,0); ctx.moveTo(p0[0],p0[1]);
+    for(var i=0;i<=120;i++){var x=i/120*2; var p=tc(x,x*x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    var pb2=tc(2,0); ctx.lineTo(pb2[0],pb2[1]); ctx.closePath();
+    ctx.fillStyle="rgba(56,189,248,.18)"; ctx.fill();
+    ctx.strokeStyle="rgba(56,189,248,.4)"; ctx.lineWidth=1; ctx.stroke();
+    // axis of rotation — x-axis dashed red
+    var ax0=tc(xmin,0),ax1=tc(xmax,0);
+    ctx.strokeStyle="#f87171"; ctx.lineWidth=2; ctx.setLineDash([6,4]);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0],ax1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // y-axis
+    var ay0=tc(0,ymin),ay1=tc(0,ymax);
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.5;
+    ctx.beginPath(); ctx.moveTo(ay0[0],ay0[1]); ctx.lineTo(ay1[0],ay1[1]); ctx.stroke();
+    // curve y=x²
+    ctx.strokeStyle="#38bdf8"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(56,189,248,.5)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var i=0;i<=120;i++){var x=i/120*2.3; var p=tc(x,x*x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // boundary lines
+    ctx.strokeStyle="rgba(248,250,252,.35)"; ctx.lineWidth=1.2; ctx.setLineDash([4,4]);
+    var bx2a=tc(2,0),bx2b=tc(2,4);
+    ctx.beginPath(); ctx.moveTo(bx2a[0],bx2a[1]); ctx.lineTo(bx2b[0],bx2b[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // labels
+    ctx.fillStyle="#38bdf8"; ctx.font="italic 13px Georgia,serif"; ctx.textAlign="left";
+    var lp=tc(1.3,1.3*1.3); ctx.fillText("y = x²",lp[0]+6,lp[1]-6);
+    ctx.fillStyle="#f87171"; ctx.font="11px Georgia,serif"; ctx.textAlign="center";
+    var axp=tc(2.2,0.15); ctx.fillText("axis of rotation",axp[0],axp[1]);
+    ctx.fillStyle="#94a3b8"; ctx.font="11px Georgia,serif";
+    var p2=tc(2,-0.3); ctx.textAlign="center"; ctx.fillText("x=2",p2[0],p2[1]);
+    ctx.textAlign="center"; ctx.fillStyle="#64748b"; ctx.font="11px Georgia,serif";
+    for(var i=0;i<=2;i++){var tp=tc(i,0);ctx.fillText(i,tp[0],tp[1]+13);}
+    ctx.textAlign="right";
+    for(var i=1;i<=4;i++){var tp=tc(0,i);ctx.fillText(i,tp[0]-5,tp[1]+4);}
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Region",W/2,12);
+  }
+
+  function proj(xp,r,th,az,el){
+    var X=xp,Y=r*Math.cos(th),Z=r*Math.sin(th);
+    var X1=X*Math.cos(az)-Y*Math.sin(az);
+    var Y1=X*Math.sin(az)+Y*Math.cos(az);
+    var Y2=Y1*Math.cos(el)-Z*Math.sin(el);
+    var Z2=Y1*Math.sin(el)+Z*Math.cos(el);
+    return [X1,-Z2,Y2];
+  }
+
+  function draw3D(){
+    var W=c3.width, H=c3.height;
+    var ctx=c3.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#020814"; ctx.fillRect(0,0,W,H);
+    var ocx=W*0.45, ocy=H*0.55, scale=Math.min(W,H)*0.17;
+    var N=40, SEGS=48;
+    function p3(xp,r,th){var s=proj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return proj(xp,r,th,az,el)[2];}
+
+    // draw discs from x=0 to x=2
+    var discs=[];
+    for(var i=0;i<N;i++){
+      var xm=(i+0.5)/N*2;
+      discs.push({x0:i/N*2, x1:(i+1)/N*2, R:xm*xm});
+    }
+    // sort by depth
+    discs.sort(function(a,b){return dep((a.x0+a.x1)/2,0,0)-dep((b.x0+b.x1)/2,0,0);});
+
+    for(var di=0;di<discs.length;di++){
+      var d=discs[di];
+      var R=d.R, x0=d.x0, x1=d.x1;
+      var isBack=dep((x0+x1)/2,0,0)<0;
+      // back wall
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(x0,R,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(56,189,248,0.12)"; ctx.strokeStyle="rgba(56,189,248,0.35)"; ctx.lineWidth=0.6; ctx.fill(); ctx.stroke();
+      // outer wall
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(x0,R,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=SEGS;s>=0;s--){var th=s/SEGS*2*Math.PI,pt=p3(x1,R,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(56,189,248,0.08)"; ctx.fill(); ctx.stroke();
+      // front wall
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(x1,R,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(56,189,248,0.18)"; ctx.fill(); ctx.stroke();
+    }
+    // axis
+    var ax0=p3(-0.1,0,0), ax1=p3(2.2,0,0);
+    ctx.strokeStyle="rgba(248,113,113,.7)"; ctx.lineWidth=1.5; ctx.setLineDash([5,4]);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0],ax1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // surface curve
+    ctx.strokeStyle="#38bdf8"; ctx.lineWidth=1.8;
+    ctx.shadowColor="rgba(56,189,248,.5)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var i=0;i<=60;i++){var x=i/60*2,pt=p3(x,x*x,Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Solid  —  drag to rotate", W/2, 13);
+  }
+
+  function redraw(){draw2D();draw3D();}
+
+  // drag
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+
+  initSize(); redraw();
+  window.addEventListener("resize",function(){initSize();redraw();});
+})();
+</script>
+
 </div>
 </details>
 
@@ -403,6 +568,183 @@ $$
 $$
 
 <p class="hint">🔍 Both methods are equally clean here! Washer thinks in $x$ (natural for rotation around $x$-axis); shell thinks in $y$ and requires rewriting $y=\sqrt{x}\Rightarrow x=y^2$ and $y=x\Rightarrow x=y$.</p>
+
+<div id="p2-viz" style="background:linear-gradient(135deg,#0a0014,#1a000a,#0a0014);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#f87171;text-transform:uppercase;">Problem 2 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=\sqrt{x}$ and $y=x$, rotated around $x$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(10,0,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="p2-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(10,0,20,.8);border-radius:10px;border:1px solid rgba(248,113,113,.2);overflow:hidden;position:relative;">
+      <canvas id="p2-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(248,113,113,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#4ade80;">green</span> = $y=\sqrt{x}$ (outer) &nbsp;|&nbsp;
+    <span style="color:#fb923c;">orange</span> = $y=x$ (inner) &nbsp;|&nbsp;
+    <span style="color:#f87171;">red dashed</span> = axis &nbsp;|&nbsp;
+    <span style="color:#f87171;">3D washer</span> = hollow solid $V=\frac{\pi}{6}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("p2-2d");
+  var c3=document.getElementById("p2-3d");
+  var az=Math.PI/3, el=Math.PI/8;
+  var drag={on:false,lx:0,ly:0};
+
+  function initSize(){
+    var w=c2.parentElement.clientWidth;
+    var h=Math.round(w*0.72);
+    c2.width=w; c2.height=h;
+    c3.width=w; c3.height=h;
+  }
+
+  function draw2D(){
+    var W=c2.width, H=c2.height;
+    var ctx=c2.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#0a0014"; ctx.fillRect(0,0,W,H);
+    var pl=40,pr=18,pt=18,pb=34;
+    var xmin=-0.15,xmax=1.35,ymin=-0.2,ymax=1.25;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr), H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.07)"; ctx.lineWidth=1;
+    for(var i=0;i<=1;i++){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();}
+    for(var i=0;i<=1;i++){var p=tc(i,0);ctx.beginPath();ctx.moveTo(p[0],pt);ctx.lineTo(p[0],H-pb);ctx.stroke();}
+    // shaded region between curves
+    ctx.beginPath();
+    for(var i=0;i<=80;i++){var x=i/80; var p=tc(x,Math.sqrt(x)); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    for(var i=80;i>=0;i--){var x=i/80; var p=tc(x,x); ctx.lineTo(p[0],p[1]);}
+    ctx.closePath();
+    ctx.fillStyle="rgba(248,113,113,.15)"; ctx.fill();
+    ctx.strokeStyle="rgba(248,113,113,.3)"; ctx.lineWidth=1; ctx.stroke();
+    // axis of rotation — x-axis dashed red
+    var ax0=tc(xmin,0),ax1=tc(xmax,0);
+    ctx.strokeStyle="#f87171"; ctx.lineWidth=2; ctx.setLineDash([6,4]);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0],ax1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // y-axis
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.2;
+    var ay0=tc(0,ymin),ay1=tc(0,ymax);
+    ctx.beginPath(); ctx.moveTo(ay0[0],ay0[1]); ctx.lineTo(ay1[0],ay1[1]); ctx.stroke();
+    // curve y=sqrt(x) — green
+    ctx.strokeStyle="#4ade80"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(74,222,128,.5)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var i=0;i<=100;i++){var x=i/100*1.25; var p=tc(x,Math.sqrt(x)); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // curve y=x — orange
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(251,146,60,.5)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var i=0;i<=100;i++){var x=i/100*1.25; var p=tc(x,x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // intersection dots
+    function dot(x,y,color){var p=tc(x,y);ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=8;ctx.beginPath();ctx.arc(p[0],p[1],4,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}
+    dot(0,0,"#f1f5f9"); dot(1,1,"#f1f5f9");
+    // labels
+    ctx.fillStyle="#4ade80"; ctx.font="italic 12px Georgia,serif"; ctx.textAlign="left";
+    var lp=tc(0.65,Math.sqrt(0.65)); ctx.fillText("y=√x",lp[0]+5,lp[1]-6);
+    ctx.fillStyle="#fb923c";
+    var lp2=tc(0.72,0.72); ctx.fillText("y=x",lp2[0]+5,lp2[1]+13);
+    ctx.fillStyle="#f87171"; ctx.font="11px Georgia,serif"; ctx.textAlign="center";
+    var axp=tc(1.15,0.12); ctx.fillText("axis of rotation",axp[0],axp[1]);
+    ctx.fillStyle="#94a3b8"; ctx.font="10px Georgia,serif";
+    var p1=tc(1,-0.12); ctx.textAlign="center"; ctx.fillText("(1,1)",tc(1,1)[0]+10,tc(1,1)[1]-6);
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Region",W/2,12);
+  }
+
+  function proj(xp,r,th,az,el){
+    var X=xp,Y=r*Math.cos(th),Z=r*Math.sin(th);
+    var X1=X*Math.cos(az)-Y*Math.sin(az);
+    var Y1=X*Math.sin(az)+Y*Math.cos(az);
+    var Y2=Y1*Math.cos(el)-Z*Math.sin(el);
+    var Z2=Y1*Math.sin(el)+Z*Math.cos(el);
+    return [X1,-Z2,Y2];
+  }
+
+  function draw3D(){
+    var W=c3.width, H=c3.height;
+    var ctx=c3.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#0a0014"; ctx.fillRect(0,0,W,H);
+    var ocx=W*0.45, ocy=H*0.55, scale=Math.min(W,H)*0.32;
+    var N=36, SEGS=48;
+    function p3(xp,r,th){var s=proj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return proj(xp,r,th,az,el)[2];}
+
+    var washers=[];
+    for(var i=0;i<N;i++){
+      var x0=i/N, x1=(i+1)/N, xm=(x0+x1)/2;
+      washers.push({x0:x0, x1:x1, Ro:Math.sqrt(xm), Ri:xm});
+    }
+    washers.sort(function(a,b){return dep((a.x0+a.x1)/2,0,0)-dep((b.x0+b.x1)/2,0,0);});
+
+    for(var di=0;di<washers.length;di++){
+      var w=washers[di];
+      var Ro=w.Ro, Ri=w.Ri, x0=w.x0, x1=w.x1;
+      // draw washer face at x0
+      for(var face=0;face<2;face++){
+        var xf=face===0?x0:x1;
+        // outer ring to inner ring (annulus)
+        ctx.beginPath();
+        for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(xf,Ro,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        // inner hole (reverse)
+        for(var s=SEGS;s>=0;s--){var th=s/SEGS*2*Math.PI,pt=p3(xf,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();
+        ctx.fillStyle=face===0?"rgba(248,113,113,0.12)":"rgba(248,113,113,0.22)";
+        ctx.strokeStyle="rgba(248,113,113,0.45)"; ctx.lineWidth=0.6;
+        ctx.fill(); ctx.stroke();
+      }
+      // outer wall
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(x0,Ro,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=SEGS;s>=0;s--){var th=s/SEGS*2*Math.PI,pt=p3(x1,Ro,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(248,113,113,0.07)"; ctx.strokeStyle="rgba(248,113,113,0.3)"; ctx.lineWidth=0.5; ctx.fill(); ctx.stroke();
+      // inner wall
+      ctx.beginPath();
+      for(var s=0;s<=SEGS;s++){var th=s/SEGS*2*Math.PI,pt=p3(x0,Ri,th);s===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var s=SEGS;s>=0;s--){var th=s/SEGS*2*Math.PI,pt=p3(x1,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(251,146,60,0.05)"; ctx.strokeStyle="rgba(251,146,60,0.25)"; ctx.lineWidth=0.5; ctx.fill(); ctx.stroke();
+    }
+    // axis
+    var ax0=p3(-0.05,0,0), ax1=p3(1.15,0,0);
+    ctx.strokeStyle="rgba(248,113,113,.7)"; ctx.lineWidth=1.5; ctx.setLineDash([5,4]);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0],ax1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // outer surface curve
+    ctx.strokeStyle="#4ade80"; ctx.lineWidth=1.5; ctx.shadowColor="rgba(74,222,128,.4)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var i=0;i<=60;i++){var x=i/60,pt=p3(x,Math.sqrt(x),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke();
+    // inner surface curve
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=1.5; ctx.shadowColor="rgba(251,146,60,.4)";
+    ctx.beginPath();
+    for(var i=0;i<=60;i++){var x=i/60,pt=p3(x,x,Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Washer Solid  —  drag to rotate", W/2, 13);
+  }
+
+  function redraw(){draw2D();draw3D();}
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize(); redraw();
+  window.addEventListener("resize",function(){initSize();redraw();});
+})();
+</script>
+
 </div>
 </details>
 
@@ -433,6 +775,194 @@ $$
 $$
 
 <p class="hint">🔍 Shell was much easier here — rotating around the $y$-axis with functions given in $x$ is exactly what shell method is designed for. Washer forced us to invert both curves and integrate in $y$.</p>
+
+<div id="p3-viz" style="background:linear-gradient(135deg,#001408,#0a1a00,#001408);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#4ade80;text-transform:uppercase;">Problem 3 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=x^2$ and $y=2x$, rotated around $y$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(0,20,8,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="p3-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(0,20,8,.8);border-radius:10px;border:1px solid rgba(74,222,128,.2);overflow:hidden;position:relative;">
+      <canvas id="p3-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(74,222,128,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#fb923c;">orange</span> = $y=2x$ (inner boundary) &nbsp;|&nbsp;
+    <span style="color:#a78bfa;">purple</span> = $y=x^2$ (outer boundary) &nbsp;|&nbsp;
+    <span style="color:#4ade80;">green dashed</span> = $y$-axis (axis of rotation)
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("p3-2d");
+  var c3=document.getElementById("p3-3d");
+  var az=Math.PI/4, el=Math.PI/9;
+  var drag={on:false,lx:0,ly:0};
+
+  function initSize(){
+    var w=c2.parentElement.clientWidth;
+    var h=Math.round(w*0.72);
+    c2.width=w; c2.height=h;
+    c3.width=w; c3.height=h;
+  }
+
+  function draw2D(){
+    var W=c2.width, H=c2.height;
+    var ctx=c2.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#001408"; ctx.fillRect(0,0,W,H);
+    var pl=42,pr=18,pt=18,pb=34;
+    var xmin=-0.35,xmax=2.5,ymin=-0.5,ymax=4.8;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr), H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    // grid
+    ctx.strokeStyle="rgba(148,163,184,.07)"; ctx.lineWidth=1;
+    for(var i=0;i<=4;i++){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();}
+    for(var i=0;i<=2;i++){var p=tc(i,0);ctx.beginPath();ctx.moveTo(p[0],pt);ctx.lineTo(p[0],H-pb);ctx.stroke();}
+    // shaded region between curves
+    ctx.beginPath();
+    for(var i=0;i<=80;i++){var x=i/80*2; var p=tc(x,2*x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    for(var i=80;i>=0;i--){var x=i/80*2; var p=tc(x,x*x); ctx.lineTo(p[0],p[1]);}
+    ctx.closePath();
+    ctx.fillStyle="rgba(74,222,128,.13)"; ctx.fill();
+    ctx.strokeStyle="rgba(74,222,128,.3)"; ctx.lineWidth=1; ctx.stroke();
+    // axis of rotation — y-axis dashed green
+    var ay0=tc(0,ymin),ay1=tc(0,ymax);
+    ctx.strokeStyle="#4ade80"; ctx.lineWidth=2; ctx.setLineDash([6,4]);
+    ctx.beginPath(); ctx.moveTo(ay0[0],ay0[1]); ctx.lineTo(ay1[0],ay1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // x-axis
+    ctx.strokeStyle="#475569"; ctx.lineWidth=1.2;
+    var ax0=tc(xmin,0),ax1=tc(xmax,0);
+    ctx.beginPath(); ctx.moveTo(ax0[0],ax0[1]); ctx.lineTo(ax1[0],ax1[1]); ctx.stroke();
+    // curve y=2x — orange
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(251,146,60,.5)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var i=0;i<=100;i++){var x=i/100*2.3; var p=tc(x,2*x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // curve y=x² — purple
+    ctx.strokeStyle="#a78bfa"; ctx.lineWidth=2.5;
+    ctx.shadowColor="rgba(167,139,250,.5)"; ctx.shadowBlur=5;
+    ctx.beginPath();
+    for(var i=0;i<=100;i++){var x=i/100*2.3; var p=tc(x,x*x); i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    // dots at intersections
+    function dot(x,y,color){var p=tc(x,y);ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=8;ctx.beginPath();ctx.arc(p[0],p[1],4,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}
+    dot(0,0,"#f1f5f9"); dot(2,4,"#f1f5f9");
+    ctx.fillStyle="#f1f5f9"; ctx.font="10px Georgia,serif"; ctx.textAlign="left";
+    var p22=tc(2,4); ctx.fillText("(2,4)",p22[0]+5,p22[1]-5);
+    // labels
+    ctx.fillStyle="#fb923c"; ctx.font="italic 12px Georgia,serif"; ctx.textAlign="left";
+    var lp=tc(1.6,2*1.6); ctx.fillText("y=2x",lp[0]+5,lp[1]-6);
+    ctx.fillStyle="#a78bfa";
+    var lp2=tc(1.7,1.7*1.7); ctx.fillText("y=x²",lp2[0]+5,lp2[1]+13);
+    ctx.fillStyle="#4ade80"; ctx.font="11px Georgia,serif"; ctx.textAlign="center";
+    var ayp=tc(-0.22,3.5); ctx.fillText("axis",ayp[0],ayp[1]);
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("2D Region",W/2,12);
+    ctx.fillStyle="#64748b"; ctx.font="11px Georgia,serif";
+    for(var i=0;i<=2;i++){var tp=tc(i,0);ctx.textAlign="center";ctx.fillText(i,tp[0],tp[1]+13);}
+    ctx.textAlign="right";
+    for(var i=1;i<=4;i++){var tp=tc(0,i);ctx.fillText(i,tp[0]-5,tp[1]+4);}
+  }
+
+  function proj(xp,r,th,az,el){
+    // for y-axis rotation: the y-axis is the rotation axis
+    // map: xpos=y(height), r=x(radius), theta=angle
+    var X=xp,Y=r*Math.cos(th),Z=r*Math.sin(th);
+    var X1=X*Math.cos(az)-Y*Math.sin(az);
+    var Y1=X*Math.sin(az)+Y*Math.cos(az);
+    var Y2=Y1*Math.cos(el)-Z*Math.sin(el);
+    var Z2=Y1*Math.sin(el)+Z*Math.cos(el);
+    return [X1,-Z2,Y2];
+  }
+
+  function draw3D(){
+    var W=c3.width, H=c3.height;
+    var ctx=c3.getContext("2d");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle="#001408"; ctx.fillRect(0,0,W,H);
+    var ocx=W*0.48, ocy=H*0.60, scale=Math.min(W,H)*0.16;
+    var N=40, SEGS=48;
+    // rotation around y-axis: shells at each x, y goes from x² to 2x
+    // project: ypos along y-axis, radius = x
+    function p3(ypos,r,th){var s=proj(ypos,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(ypos,r,th){return proj(ypos,r,th,az,el)[2];}
+
+    // Build shells: for each x strip, the shell spans y from x² to 2x at radius x
+    // In 3D this is a cylindrical shell at radius x, height from x² to 2x
+    // We'll approximate by slicing in x, drawing annular rings at each y level
+    // Actually let's draw it as discs in y: for each y, outer x = sqrt(y), inner x = y/2
+    // This gives washer solid — visually clearer
+    var slices=[];
+    for(var i=0;i<N;i++){
+      var y0=i/N*4, y1=(i+1)/N*4, ym=(y0+y1)/2;
+      var Ro=Math.sqrt(ym), Ri=ym/2;
+      if(Ro>Ri) slices.push({y0:y0,y1:y1,Ro:Ro,Ri:Ri});
+    }
+    slices.sort(function(a,b){return dep((a.y0+a.y1)/2,0,0)-dep((b.y0+b.y1)/2,0,0);});
+
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di];
+      var Ro=s.Ro, Ri=s.Ri, y0=s.y0, y1=s.y1;
+      // washer faces
+      for(var face=0;face<2;face++){
+        var yf=face===0?y0:y1;
+        ctx.beginPath();
+        for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();
+        ctx.fillStyle=face===0?"rgba(74,222,128,0.10)":"rgba(74,222,128,0.20)";
+        ctx.strokeStyle="rgba(74,222,128,0.35)"; ctx.lineWidth=0.6;
+        ctx.fill(); ctx.stroke();
+      }
+      // outer wall
+      ctx.beginPath();
+      for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ro,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(167,139,250,0.07)"; ctx.strokeStyle="rgba(167,139,250,0.3)"; ctx.lineWidth=0.5; ctx.fill(); ctx.stroke();
+      // inner wall
+      ctx.beginPath();
+      for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ri,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath(); ctx.fillStyle="rgba(251,146,60,0.05)"; ctx.strokeStyle="rgba(251,146,60,0.2)"; ctx.lineWidth=0.5; ctx.fill(); ctx.stroke();
+    }
+    // y-axis (rotation axis)
+    var ay0=p3(-0.2,0,0), ay1=p3(4.4,0,0);
+    ctx.strokeStyle="rgba(74,222,128,.7)"; ctx.lineWidth=1.5; ctx.setLineDash([5,4]);
+    ctx.beginPath(); ctx.moveTo(ay0[0],ay0[1]); ctx.lineTo(ay1[0],ay1[1]); ctx.stroke();
+    ctx.setLineDash([]);
+    // outer surface curve (y=x² => x=sqrt(y))
+    ctx.strokeStyle="#a78bfa"; ctx.lineWidth=1.5; ctx.shadowColor="rgba(167,139,250,.4)"; ctx.shadowBlur=4;
+    ctx.beginPath();
+    for(var i=0;i<=60;i++){var y=i/60*4,pt=p3(y,Math.sqrt(y),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke();
+    // inner surface curve (y=2x => x=y/2)
+    ctx.strokeStyle="#fb923c"; ctx.lineWidth=1.5; ctx.shadowColor="rgba(251,146,60,.4)";
+    ctx.beginPath();
+    for(var i=0;i<=60;i++){var y=i/60*4,pt=p3(y,y/2,Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.stroke(); ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8"; ctx.font="12px Georgia,serif"; ctx.textAlign="center";
+    ctx.fillText("3D Solid  —  drag to rotate", W/2, 13);
+  }
+
+  function redraw(){draw2D();draw3D();}
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize(); redraw();
+  window.addEventListener("resize",function(){initSize();redraw();});
+})();
+</script>
+
 </div>
 </details>
 
