@@ -2,7 +2,7 @@
 permalink: /math/landscape
 title: Mathematical Explorer's Serendipitous Creation &ndash; A Thousand Pages of Mathematical Odyssey
 date: Mon Feb  3 20:42:17 PST 2025
-last_modified_at: Wed Dec 31 14:52:42 PST 2025
+last_modified_at: Fri Mar 13 22:28:52 PDT 2026
 categories:
  - blog
 tags:
@@ -130,18 +130,18 @@ Stay connected for these mathematical adventures!
 {% assign measstat = site.posts | where: "permalink", "/math/measure-theoretic-statistics" | first %}
 {% assign cvxopt = site.posts | where: "permalink", "/math/cvxopt" | first %}
 
-- [{{ inequalities.title }}]({{ inequalities.url }})
-- [{{ abstract_algebra.title }}]({{ abstract_algebra.url }})
-- [{{ measure_theory.title }}]({{ measure_theory.url }})
-- [{{ topological_spaces.title }}]({{ topological_spaces.url }})
-- [{{ absmeas.title }}]({{ absmeas.url }})
-- [{{ measstat.title }}]({{ measstat.url }})
-- [{{ cvxopt.title }}]({{ cvxopt.url }})
+- [{{ inequalities.title }}]({{ inequalities.url }}){:target="_blank"}
+- [{{ abstract_algebra.title }}]({{ abstract_algebra.url }}){:target="_blank"}
+- [{{ measure_theory.title }}]({{ measure_theory.url }}){:target="_blank"}
+- [{{ topological_spaces.title }}]({{ topological_spaces.url }}){:target="_blank"}
+- [{{ absmeas.title }}]({{ absmeas.url }}){:target="_blank"}
+- [{{ measstat.title }}]({{ measstat.url }}){:target="_blank"}
+- [{{ cvxopt.title }}]({{ cvxopt.url }}){:target="_blank"}
 
 # Math Codex {#math-codex}
 
-- [Searching for Universal Truths (PDF slides)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math.pdf){:target="_blank"}
-- [Searching for Universal Truths - article version (PDF)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_article.pdf){:target="_blank"}
+- [Searching for Universal Truths (PDF slides)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math.pdf){:target="_blank"}{:target="_blank"}
+- [Searching for Universal Truths - article version (PDF)](https://sungheeyun-seminars-01.github.io/resource/fun math/fun_math_article.pdf){:target="_blank"}{:target="_blank"}
 
 # A Journey Through Mathematical Beauty
 
