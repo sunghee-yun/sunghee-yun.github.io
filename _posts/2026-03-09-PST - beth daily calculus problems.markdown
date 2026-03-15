@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Sun Mar 15 05:10:48 PDT 2026
+last_modified_at: Sun Mar 15 16:45:06 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -419,14 +419,42 @@ Notice how **the choice of method** matters much more when the function involves
 
 <strong>Disc method</strong> (integrate along $x$ — natural for $x$-axis rotation)
 
-$$V = \pi\int_0^1\bigl(e^x\bigr)^2\,dx = \pi\int_0^1 e^{2x}\,dx = \pi\left[\frac{e^{2x}}{2}\right]_0^1 = \frac{\pi}{2}(e^2-1) = \boxed{\dfrac{\pi(e^2-1)}{2}}$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\bigl(e^x\bigr)^2\,dx
+		=
+			\pi\int_0^1 e^{2x}\,dx
+\\
+		&=&
+			\pi\left[\frac{e^{2x}}{2}\right]_0^1
+		=
+			\frac{\pi}{2}(e^2-1)
+		=
+			\boxed{\dfrac{\pi(e^2-1)}{2}}
+\end{eqnarray*}
+$$
 
 <strong>Shell method</strong> (horizontal shells, integrate along $y$)
 
 The region has two parts: for $y\in[0,1]$ (below the left edge $e^0=1$), $x$ runs the full width $0$ to $1$; for $y\in[1,e]$, $x$ runs from $\ln y$ to $1$.
 
-$$V = 2\pi\int_0^1 y\cdot 1\,dy + 2\pi\int_1^e y\bigl(1-\ln y\bigr)\,dy = \pi + 2\pi\!\left(\frac{e^2-1}{2}-\left[\frac{y^2}{2}\ln y - \frac{y^2}{4}\right]_1^e\right)$$
-$$= \pi + 2\pi\!\left(\frac{e^2-1}{2}-\frac{e^2}{4}-\frac{1}{4}\right) = \boxed{\dfrac{\pi(e^2-1)}{2}}\checkmark$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^1 y\cdot 1\,dy + 2\pi\int_1^e y\bigl(1-\ln y\bigr)\,dy
+\\
+		&=&
+			\pi + 2\pi\!\left(\frac{e^2-1}{2}-\left[\frac{y^2}{2}\ln y - \frac{y^2}{4}\right]_1^e\right)
+\\
+		&=&
+			\pi + 2\pi\!\left(\frac{e^2-1}{2}-\frac{e^2}{4}-\frac{1}{4}\right)
+		=
+			\boxed{\dfrac{\pi(e^2-1)}{2}}\checkmark
+\end{eqnarray*}
+$$
 
 <p class="hint">🔍 Disc is <em>dramatically</em> easier — one clean integral. Shell requires splitting into two regions and integration by parts inside! When the rotation axis matches the integration variable ($x$-axis, integrate in $x$), disc/washer almost always wins.</p>
 
@@ -543,13 +571,39 @@ $$= \pi + 2\pi\!\left(\frac{e^2-1}{2}-\frac{e^2}{4}-\frac{1}{4}\right) = \boxed{
 
 $$V = 2\pi\int_1^e x\ln x\,dx$$
 
-Apply integration by parts: $u=\ln x$, $dv=x\,dx$ $\Rightarrow$ $du=\frac{1}{x}dx$, $v=\frac{x^2}{2}$
+Apply integration by parts: $u=\ln x$, $dv=x\,dx$ $\Rightarrow$ $\displaystyle du=\frac{1}{x}dx$, $\displaystyle v=\frac{x^2}{2}$
 
-$$= 2\pi\left[\frac{x^2}{2}\ln x - \int\frac{x}{2}\,dx\right]_1^e = 2\pi\left[\frac{x^2}{2}\ln x - \frac{x^2}{4}\right]_1^e = 2\pi\!\left(\frac{e^2}{4}+\frac{1}{4}\right) = \boxed{\dfrac{\pi(e^2+1)}{2}}$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\left[\frac{x^2}{2}\ln x\right]_1^e - \int\frac{x}{2}\,dx
+		=
+			2\pi\left[\frac{x^2}{2}\ln x - \frac{x^2}{4}\right]_1^e
+\\
+		&=&
+			2\pi\!\left(\frac{e^2}{4}+\frac{1}{4}\right)
+		=
+			\boxed{\dfrac{\pi(e^2+1)}{2}}
+\end{eqnarray*}
+$$
 
 <strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; at height $y$, outer radius $R=e$ from $x=e$, inner radius $r=e^y$ from $y=\ln x\Rightarrow x=e^y$)
 
-$$V = \pi\int_0^1\Bigl(e^2 - e^{2y}\Bigr)\,dy = \pi\left[e^2 y - \frac{e^{2y}}{2}\right]_0^1 = \pi\!\left(e^2-\frac{e^2}{2}+\frac{1}{2}\right) = \boxed{\dfrac{\pi(e^2+1)}{2}}\checkmark$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\Bigl(e^2 - e^{2y}\Bigr)\,dy
+		=
+			\pi\left[e^2 y - \frac{e^{2y}}{2}\right]_0^1
+\\
+		&=&
+			\pi\!\left(e^2-\frac{e^2}{2}+\frac{1}{2}\right)
+		=
+			\boxed{\dfrac{\pi(e^2+1)}{2}}\checkmark
+\end{eqnarray*}
+$$
 
 <p class="hint">🔍 Shell required integration by parts, but was still one integral. Washer was clean once you correctly identified $R=e$ (constant outer wall from $x=e$) and $r=e^y$ (inner from the curve). Notice the outer radius is the <em>boundary line</em> $x=e$, not the curve!</p>
 
