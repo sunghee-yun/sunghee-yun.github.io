@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Sun Mar 15 00:41:50 PDT 2026
+last_modified_at: Sun Mar 15 05:10:48 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -54,11 +54,740 @@ HOW TO ADD A NEW DAY:
 
 *New sessions are prepended at the top of each day's section — most recent first.*
 
+- [15-Mar-2026](#mar-15-2026)
 - [11-Mar-2026](#mar-11-2026)
 - [10-Mar-2026](#mar-10-2026)
 - [09-Mar-2026](#mar-09-2026)
 
 # March 2026
+
+## March 15, 2026 {#mar-15-2026}
+
+<div class="date-banner">
+📅 <strong>Sun, March 15, 2026</strong> &nbsp;|&nbsp;
+Topics
+&ndash;
+<strong>Limits (higher-order)</strong> · <strong>Series &amp; radius of convergence</strong> · <strong>Integration by parts (solve for $I$!)</strong> · <strong>Volumes (mixed rotation axes)</strong>
+</div>
+
+### Part 1 — Limits: Sharper Tools
+
+Same two methods — but the forms are trickier this time.
+Several need **L'Hôpital's rule applied more than once**, or a **Taylor series shortcut** that beats L'Hôpital cold.
+
+- **Method A** &ndash; L'Hôpital's rule
+- **Method B** &ndash; Derivative definition
+
+$$
+	f'(a)=\lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+$$
+
+or Taylor series
+
+<ol>
+<li>$\displaystyle\lim_{h\to 0}\frac{\cos\!\left(\tfrac{\pi}{3}+h\right)-\tfrac{1}{2}}{h}$
+&nbsp;&nbsp;<!--em>(Method B: which derivative? at which point?)</em-->
+</li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{e^{2x}-1-2x}{x^2}$
+&nbsp;&nbsp;<!--em>(L'Hôpital twice, or write out the Taylor series of $e^{2x}$)</em--></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{1-\cos 2x}{x^2}$
+&nbsp;&nbsp;<!--em>(use the identity $1-\cos u = 2\sin^2\!\tfrac{u}{2}$, or L'Hôpital twice)</em--></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\sin x - x}{x^3}$
+&nbsp;&nbsp;<em>(L'Hôpital three times, or Taylor — which is slicker?)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\tan x - x}{x^3}$
+&nbsp;&nbsp;<em>(similar to #4, but answer is different — compare!)</em></li>
+
+<li>$\displaystyle\lim_{x\to 1}\frac{x^n - 1}{x-1}$ &nbsp; (for general $n$)
+&nbsp;&nbsp;<!--em>(Method B: derivative of $x^n$ at $x=1$)</em--></li>
+
+<li>$\displaystyle\lim_{x\to 0^+} x\ln x$
+&nbsp;&nbsp;<em>(rewrite as $\frac{\ln x}{1/x}$ for L'Hôpital)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0^+} x^x$
+&nbsp;&nbsp;<!--em>(write $x^x = e^{x\ln x}$ and use #7!)</em--></li>
+
+<li>$\displaystyle\lim_{x\to\infty}\left(1+\frac{a}{x}\right)^{\!x}$ &nbsp; (for general constant $a$)
+&nbsp;&nbsp;<!--em>(generalises the $e$ definition — answer is $e^a$)</em--></li>
+
+<li>$\displaystyle\lim_{x\to\infty} x\sin\frac{1}{x}$
+&nbsp;&nbsp;<!--em>(substitute $u=\frac{1}{x}$ and reuse a known result)</em--></li>
+
+<li>$\displaystyle\lim_{x\to\pi}\frac{\sin x}{\pi - x}$
+&nbsp;&nbsp;<!--em>(substitute $u=\pi-x$, or: what derivative does this resemble?)</em--></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 1</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$-\dfrac{\sqrt{3}}{2}$</span><br>
+<span class="hint"><strong>Method B:</strong> $f'(\pi/3)$ for $f(x)=\cos x$; $f'(x)=-\sin x$, so $f'(\pi/3)=-\sin(\pi/3)=-\dfrac{\sqrt{3}}{2}$.</span><br>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{-\sin(\pi/3+h)}{1}\big|_{h=0}=-\sin(\pi/3)=-\dfrac{\sqrt{3}}{2}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$2$</span><br>
+<span class="hint"><strong>Taylor (slicker):</strong> $e^{2x}=1+2x+\frac{(2x)^2}{2}+\cdots = 1+2x+2x^2+\cdots$; so $e^{2x}-1-2x=2x^2+\cdots$; divide by $x^2$: limit $=2$.</span><br>
+<span class="hint"><strong>L'Hôpital twice:</strong> $\displaystyle\frac{2e^{2x}-2}{2x}\xrightarrow{\text{L'H}}\frac{4e^{2x}}{2}\big|_{x=0}=2$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$2$</span><br>
+<span class="hint"><strong>Identity:</strong> $1-\cos 2x = 2\sin^2 x$, so $\displaystyle\frac{1-\cos 2x}{x^2}=2\!\left(\frac{\sin x}{x}\right)^{\!2}\to 2\cdot 1^2=2$. ✓</span><br>
+<span class="hint"><strong>L'Hôpital twice:</strong> $\displaystyle\frac{2\sin 2x}{2x}\xrightarrow{\text{L'H}}\frac{4\cos 2x}{2}\big|_{x=0}=2$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$-\dfrac{1}{6}$</span><br>
+<span class="hint"><strong>Taylor (much slicker!):</strong> $\sin x = x - \dfrac{x^3}{6}+\cdots$; so $\sin x - x = -\dfrac{x^3}{6}+\cdots$; divide by $x^3$: limit $=-\dfrac{1}{6}$.</span><br>
+<span class="hint"><strong>L'Hôpital three times:</strong> $\displaystyle\frac{\cos x-1}{3x^2}\to\frac{-\sin x}{6x}\to\frac{-\cos x}{6}\big|_{x=0}=-\frac{1}{6}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{1}{3}$</span><br>
+<span class="hint"><strong>Taylor:</strong> $\tan x = x + \dfrac{x^3}{3}+\cdots$; so $\tan x - x = \dfrac{x^3}{3}+\cdots$; divide by $x^3$: limit $=\dfrac{1}{3}$.</span><br>
+<span class="hint">Compare with #4: $\tan x$ grows <em>faster</em> than $\sin x$ near $0$, so $\frac{1}{3}>-\frac{1}{6}$. Makes sense! ✓</span>
+</li>
+
+<li>
+<span class="ans">$n$</span><br>
+<span class="hint"><strong>Method B:</strong> $f'(1)$ for $f(x)=x^n$; $f'(x)=nx^{n-1}$, so $f'(1)=n$. ✓<br>
+<strong>Direct factor:</strong> $x^n-1=(x-1)(x^{n-1}+x^{n-2}+\cdots+1)$; cancel $(x-1)$; at $x=1$: sum of $n$ ones $= n$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$0$</span><br>
+<span class="hint">Rewrite: $x\ln x = \dfrac{\ln x}{1/x}$. L'Hôpital ($\frac{-\infty}{\infty}$): $\displaystyle\frac{1/x}{-1/x^2}=-x\to 0$. ✓<br>
+Pattern: $x^p\ln x\to 0$ as $x\to 0^+$ for <em>any</em> $p>0$. Power always beats $\ln$.</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Write $x^x = e^{x\ln x}$. From <strong>#7</strong>: $x\ln x\to 0$ as $x\to 0^+$. So $x^x = e^{x\ln x}\to e^0=1$. ✓<br>
+This is the classic $0^0$ indeterminate form — the answer is $1$, not $0$ or undefined!</span>
+</li>
+
+<li>
+<span class="ans">$e^a$</span><br>
+<span class="hint">$\displaystyle\left(1+\frac{a}{x}\right)^{\!x}=\left(\!\left(1+\frac{a}{x}\right)^{\!x/a}\right)^{\!a}\to (e)^a = e^a$.<br>
+This is the master formula: $e^x = \displaystyle\lim_{n\to\infty}\!\left(1+\frac{x}{n}\right)^n$. Every compound-interest variant follows from it. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Let $u=1/x$; as $x\to\infty$, $u\to 0^+$: $\displaystyle x\sin\frac{1}{x}=\frac{\sin u}{u}\to 1$. ✓<br>
+(You saw this as Mar 10 #1 with a different disguise — same $\frac{\sin\theta}{\theta}\to 1$ core.)</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Let $u=\pi-x$; as $x\to\pi$, $u\to 0$: $\displaystyle\frac{\sin x}{\pi-x}=\frac{\sin(\pi-u)}{u}=\frac{\sin u}{u}\to 1$. ✓<br>
+(Used $\sin(\pi-u)=\sin u$.)<br>
+<strong>Method B:</strong> Note $\displaystyle\frac{\sin x-\sin\pi}{\pi-x}=-\frac{\sin x-0}{x-\pi}\to -f'(\pi)=-\cos\pi=1$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 2 — The Trickiest Infinity Forms: Logarithm to the Rescue
+
+These are all **indeterminate forms** that don't yield to direct substitution — $1^\infty$, $0^0$, $\infty^0$, $0\cdot\infty$.
+The key trick: **take the natural log first**, evaluate the resulting limit, then exponentiate.
+
+<ol>
+<li>$\displaystyle\lim_{x\to\infty} x^{1/x}$
+&nbsp;&nbsp;<em>($\infty^0$ form — let $L$ be the limit, find $\ln L$ first)</em></li>
+
+<li>$\displaystyle\lim_{x\to\infty}\left(1+\frac{1}{x^2}\right)^{\!x^2}$
+&nbsp;&nbsp;<em>(let $u=x^2$, then recognise the $e$ definition)</em></li>
+
+<li>$\displaystyle\lim_{x\to\infty}\left(\frac{x}{x+1}\right)^{\!x}$
+&nbsp;&nbsp;<em>(rewrite as $\left(1-\frac{1}{x+1}\right)^x$ and use the master formula from Part 1 #9)</em></li>
+
+<!--li>$\displaystyle\lim_{x\to\infty} x\!\left(\frac{\pi}{2}-\arctan x\right)$
+&nbsp;&nbsp;<em>(hint: $\frac{\pi}{2}-\arctan x = \arctan\frac{1}{x}$ for $x>0$; then substitute $u=\frac{1}{x}$)</em></li-->
+
+<li>$\displaystyle\lim_{x\to 0}\bigl(1+\sin x\bigr)^{1/x}$
+&nbsp;&nbsp;<em>($1^\infty$ form — take $\ln$, L'Hôpital, then exponentiate)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 2</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Let $L=\lim x^{1/x}$. Then $\ln L = \lim\dfrac{\ln x}{x}$. L'Hôpital: $\displaystyle\frac{1/x}{1}\to 0$. So $\ln L=0$, $L=e^0=1$. ✓<br>
+Intuition: as $x\to\infty$, the exponent $1/x\to 0$ "squashes" $x$ down to $1$.</span>
+</li>
+
+<li>
+<span class="ans">$e$</span><br>
+<span class="hint">Let $u=x^2$; as $x\to\infty$, $u\to\infty$: $\displaystyle\left(1+\frac{1}{x^2}\right)^{x^2}=\left(1+\frac{1}{u}\right)^u\to e$. ✓<br>
+The substitution reveals the hidden $e$ definition in disguise.</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{1}{e}$</span><br>
+<span class="hint">$\ln L = \lim x\ln\!\left(\dfrac{x}{x+1}\right) = \lim x\ln\!\left(1-\dfrac{1}{x+1}\right)$.<br>
+Let $u=\frac{1}{x+1}\to 0^+$: $= \lim\dfrac{\ln(1-u)}{u}\cdot\dfrac{x}{x+1}\cdot(x+1)$... more directly:<br>
+$x\ln\!\left(1-\frac{1}{x+1}\right)\approx x\cdot\left(-\frac{1}{x+1}\right)\to -1$. So $L=e^{-1}=\dfrac{1}{e}$. ✓</span>
+</li>
+
+<!--li>
+<span class="ans">$1$</span><br>
+<span class="hint">Use the identity $\dfrac{\pi}{2}-\arctan x = \arctan\dfrac{1}{x}$ (for $x>0$).<br>
+So $\displaystyle x\!\left(\frac{\pi}{2}-\arctan x\right)=\frac{\arctan(1/x)}{1/x}$. Let $u=1/x\to 0^+$: $\dfrac{\arctan u}{u}\to 1$ (derivative of $\arctan$ at $0$). ✓</span>
+</li-->
+
+<li>
+<span class="ans">$e$</span><br>
+<span class="hint">$\ln L = \lim_{x\to 0}\dfrac{\ln(1+\sin x)}{x}$. This is $\frac{0}{0}$; L'Hôpital: $\displaystyle\frac{\cos x/(1+\sin x)}{1}\big|_{x=0}=1$.<br>
+Or: $\ln(1+\sin x)/x\approx \sin x/x\to 1$ (since $\ln(1+u)\approx u$). So $L=e^1=e$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 3 — Series: Harder Tests &amp; First Taste of Power Series
+
+The last two problems introduce **radius of convergence** — a new idea!
+A power series $\displaystyle\sum_{n=0}^{\infty} a_n x^n$ converges for $|x|<R$ and diverges for $|x|>R$, where $\displaystyle R = \lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|$ (if this limit exists).
+
+<ol>
+<li>$\displaystyle\sum_{n=1}^{\infty} \frac{n}{3^n}$
+&nbsp;&nbsp;<em>(ratio test for convergence; exact value is a beautiful bonus)</em></li>
+
+<li>$\displaystyle\sum_{n=2}^{\infty} \frac{1}{n^2-1}$
+&nbsp;&nbsp;<em>(partial fractions — this one telescopes, just like Mar 9!)</em></li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty} (-1)^n \frac{n^2}{n^2+1}$</li>
+
+<li>$\displaystyle\sum_{n=0}^{\infty} \frac{n!}{(2n)!}$
+&nbsp;&nbsp;<em>(ratio test — the factorial growth may surprise you)</em></li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty}\frac{n^2}{\left(\frac{3}{2}\right)^n}$
+&nbsp;&nbsp;<em>(ratio test for convergence; exact value optional)</em></li>
+
+<li>$\displaystyle\sum_{n=0}^{\infty}\left(\frac{x}{2}\right)^{\!n}$ &nbsp; — find the <strong>radius of convergence</strong> $R$
+&nbsp;&nbsp;<em>(recognise this as a geometric series)</em></li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty} n\,x^n$ &nbsp; — find the <strong>radius of convergence</strong> $R$
+&nbsp;&nbsp;<em>(ratio test: ratio of consecutive terms involves $x$)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 3</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">Converges $= \dfrac{3}{4}$</span><br>
+<span class="hint">Ratio test: $\dfrac{(n+1)/3^{n+1}}{n/3^n}=\dfrac{n+1}{3n}\to\dfrac{1}{3}<1$. ✓<br>
+<strong>Exact value (bonus):</strong> Differentiate $\sum_{n=0}^\infty x^n=\frac{1}{1-x}$ to get $\sum nx^{n-1}=\frac{1}{(1-x)^2}$; multiply by $x$: $\sum nx^n=\frac{x}{(1-x)^2}$. At $x=\frac{1}{3}$: $\dfrac{1/3}{(2/3)^2}=\dfrac{1/3}{4/9}=\dfrac{3}{4}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">Converges $= \dfrac{3}{4}$</span><br>
+<span class="hint">Partial fractions: $\dfrac{1}{n^2-1}=\dfrac{1}{(n-1)(n+1)}=\dfrac{1}{2}\!\left(\dfrac{1}{n-1}-\dfrac{1}{n+1}\right)$.<br>
+Telescoping (write out a few terms!): all but $\frac{1}{2}\!\left(1+\frac{1}{2}\right)=\frac{3}{4}$ cancel. ✓<br>
+<em>Coincidence alert: the exact value matches #1!</em></span>
+</li>
+
+<li>
+<span class="ans">Diverges</span><br>
+<span class="hint">Check the necessary condition first: $\displaystyle\lim_{n\to\infty}\frac{n^2}{n^2+1}=1\neq 0$.<br>
+The terms do not approach $0$, so the series <strong>cannot converge</strong> — divergence test. No need for alternating series test! ✓</span>
+</li>
+
+<li>
+<span class="ans">Converges</span><br>
+<span class="hint">Ratio test: $\dfrac{(n+1)!/(2n+2)!}{n!/(2n)!}=\dfrac{n+1}{(2n+2)(2n+1)}=\dfrac{1}{2(2n+1)}\to 0 < 1$. ✓<br>
+Factorials in the denominator growing as $(2n)!$ crush the numerator $n!$ — ratio $\to 0$ is a strong signal!</span>
+</li>
+
+<li>
+<span class="ans">Converges</span><br>
+<span class="hint">Ratio test: $\dfrac{(n+1)^2/(3/2)^{n+1}}{n^2/(3/2)^n}=\dfrac{(n+1)^2}{n^2}\cdot\dfrac{2}{3}\to 1\cdot\dfrac{2}{3}<1$. ✓<br>
+<strong>Exact value (bonus):</strong> $\sum n^2 x^n = \dfrac{x(1+x)}{(1-x)^3}$. At $x=\frac{2}{3}$: $\dfrac{(2/3)(5/3)}{(1/3)^3}=\dfrac{10/9}{1/27}=30$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$R = 2$</span><br>
+<span class="hint">This is a geometric series with ratio $r=x/2$. It converges iff $|x/2|<1$, i.e., $|x|<2$. So $R=2$. ✓<br>
+When $|x|<2$: sum $= \dfrac{1}{1-x/2} = \dfrac{2}{2-x}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$R = 1$</span><br>
+<span class="hint">Ratio test on the power series: $\left|\dfrac{(n+1)x^{n+1}}{nx^n}\right|=\dfrac{n+1}{n}|x|\to |x|$.<br>
+Converges when $|x|<1$, diverges when $|x|>1$. So $R=1$. ✓<br>
+<strong>Bonus:</strong> Inside its radius, $\sum_{n=1}^\infty nx^n = \dfrac{x}{(1-x)^2}$ — this is the derivative trick from #1!</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 4 — Integration by Parts: The "Solve for $I$" Trick
+
+The first two problems are practice. Problem 3 is the highlight — a brand new technique where the integral **reappears on the right side** and you solve algebraically for $I$! ★
+
+<ol>
+<li>$\displaystyle\int x\sin(2x)\,dx$
+&nbsp;&nbsp;<em>($u=x$, $dv=\sin(2x)\,dx$)</em></li>
+
+<li>$\displaystyle\int x^2\cos x\,dx$
+&nbsp;&nbsp;<em>(parts twice; reuse the result from Mar 11 #2)</em></li>
+
+<li>$\displaystyle\int e^x \sin x\,dx$ &nbsp; ★
+&nbsp;&nbsp;<em>(parts twice — the original integral comes back! Set $I = \int e^x\sin x\,dx$ and solve for $I$.)</em></li>
+
+<li>$\displaystyle\int \arctan x\,dx$
+&nbsp;&nbsp;<em>(sneaky: $u=\arctan x$, $dv=dx$; you'll need $\int\frac{x}{1+x^2}\,dx$)</em></li>
+
+<li>$\displaystyle\int x\arctan x\,dx$
+&nbsp;&nbsp;<em>($u=\arctan x$, $dv=x\,dx$; then split $\frac{x^2}{1+x^2}=1-\frac{1}{1+x^2}$)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 4</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$-\dfrac{x\cos(2x)}{2} + \dfrac{\sin(2x)}{4} + C$</span><br>
+<span class="hint">$u=x$, $dv=\sin(2x)\,dx$ $\Rightarrow$ $du=dx$, $v=-\dfrac{\cos(2x)}{2}$.<br>
+$\displaystyle\int x\sin(2x)\,dx = -\frac{x\cos(2x)}{2}+\int\frac{\cos(2x)}{2}\,dx = -\frac{x\cos(2x)}{2}+\frac{\sin(2x)}{4}+C$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$x^2\sin x + 2x\cos x - 2\sin x + C$</span><br>
+<span class="hint">$u=x^2$, $v=\sin x$ $\Rightarrow$ $x^2\sin x - 2\displaystyle\int x\sin x\,dx$.<br>
+For $\displaystyle\int x\sin x\,dx$: use Mar 11 style ($u=x$, $v=-\cos x$): $-x\cos x+\sin x$.<br>
+Total: $x^2\sin x - 2(-x\cos x + \sin x) = x^2\sin x + 2x\cos x - 2\sin x + C$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{e^x(\sin x - \cos x)}{2} + C$</span><br>
+<span class="hint">Let $I = \displaystyle\int e^x\sin x\,dx$.<br>
+<strong>First parts:</strong> $u=e^x$, $dv=\sin x\,dx$ $\Rightarrow$ $-e^x\cos x + \displaystyle\int e^x\cos x\,dx$.<br>
+<strong>Second parts:</strong> $\displaystyle\int e^x\cos x\,dx$ with $u=e^x$, $dv=\cos x\,dx$ $\Rightarrow$ $e^x\sin x - \displaystyle\int e^x\sin x\,dx = e^x\sin x - I$.<br>
+So: $I = -e^x\cos x + e^x\sin x - I$.<br>
+$2I = e^x(\sin x - \cos x)$ $\Rightarrow$ $\boxed{I = \dfrac{e^x(\sin x-\cos x)}{2}+C}$. ✓<br>
+<em>This trick works whenever parts leads you back to the original integral — just name it $I$ and solve!</em></span>
+</li>
+
+<li>
+<span class="ans">$x\arctan x - \dfrac{1}{2}\ln(1+x^2) + C$</span><br>
+<span class="hint">$u=\arctan x$, $dv=dx$ $\Rightarrow$ $du=\dfrac{1}{1+x^2}dx$, $v=x$.<br>
+$\displaystyle\int\arctan x\,dx = x\arctan x - \int\frac{x}{1+x^2}\,dx = x\arctan x - \frac{1}{2}\ln(1+x^2)+C$.<br>
+(For the last integral: substitution $w=1+x^2$, $dw=2x\,dx$.) ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{x^2+1}{2}\arctan x - \dfrac{x}{2} + C$</span><br>
+<span class="hint">$u=\arctan x$, $dv=x\,dx$ $\Rightarrow$ $du=\dfrac{1}{1+x^2}dx$, $v=\dfrac{x^2}{2}$.<br>
+$\displaystyle\int x\arctan x\,dx = \frac{x^2}{2}\arctan x - \frac{1}{2}\int\frac{x^2}{1+x^2}\,dx$.<br>
+Split: $\dfrac{x^2}{1+x^2}=1-\dfrac{1}{1+x^2}$, so $\displaystyle\int\frac{x^2}{1+x^2}dx = x - \arctan x$.<br>
+Total: $\dfrac{x^2}{2}\arctan x - \dfrac{1}{2}(x-\arctan x) = \dfrac{x^2+1}{2}\arctan x - \dfrac{x}{2}+C$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 5 — Volumes: Choose Your Weapon
+
+For each problem, solve **both ways** and verify they agree.
+Notice how **the choice of method** matters much more when the function involves $e^x$ or $\ln x$!
+
+<h4>Problem 1.</h4> The region bounded by $y = e^x$, $x = 0$, $x = 1$, and $y = 0$ is rotated around the **$x$-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 1</summary>
+<div class="answer-body">
+
+<strong>Disc method</strong> (integrate along $x$ — natural for $x$-axis rotation)
+
+$$V = \pi\int_0^1\bigl(e^x\bigr)^2\,dx = \pi\int_0^1 e^{2x}\,dx = \pi\left[\frac{e^{2x}}{2}\right]_0^1 = \frac{\pi}{2}(e^2-1) = \boxed{\dfrac{\pi(e^2-1)}{2}}$$
+
+<strong>Shell method</strong> (horizontal shells, integrate along $y$)
+
+The region has two parts: for $y\in[0,1]$ (below the left edge $e^0=1$), $x$ runs the full width $0$ to $1$; for $y\in[1,e]$, $x$ runs from $\ln y$ to $1$.
+
+$$V = 2\pi\int_0^1 y\cdot 1\,dy + 2\pi\int_1^e y\bigl(1-\ln y\bigr)\,dy = \pi + 2\pi\!\left(\frac{e^2-1}{2}-\left[\frac{y^2}{2}\ln y - \frac{y^2}{4}\right]_1^e\right)$$
+$$= \pi + 2\pi\!\left(\frac{e^2-1}{2}-\frac{e^2}{4}-\frac{1}{4}\right) = \boxed{\dfrac{\pi(e^2-1)}{2}}\checkmark$$
+
+<p class="hint">🔍 Disc is <em>dramatically</em> easier — one clean integral. Shell requires splitting into two regions and integration by parts inside! When the rotation axis matches the integration variable ($x$-axis, integrate in $x$), disc/washer almost always wins.</p>
+
+<div id="p1-15mar-viz" style="background:linear-gradient(135deg,#020814,#0a1628,#020814);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#60a5fa;text-transform:uppercase;">Problem 1 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=e^x$, $x\in[0,1]$, rotated around $x$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m15p1-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(96,165,250,.2);overflow:hidden;position:relative;">
+      <canvas id="m15p1-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(96,165,250,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#38bdf8;">blue</span> = $y=e^x$ &nbsp;|&nbsp;
+    <span style="color:#f87171;">red dashed</span> = $x$-axis (rotation axis) &nbsp;|&nbsp;
+    <span style="color:#60a5fa;">3D</span>: widening trumpet horn, $V=\tfrac{\pi(e^2-1)}{2}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m15p1-2d"),c3=document.getElementById("m15p1-3d");
+  var az=Math.PI/3,el=Math.PI/8,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#020814";ctx.fillRect(0,0,W,H);
+    var pl=44,pr=18,pt=18,pb=34,xmin=-0.2,xmax=1.4,ymin=-0.5,ymax=3.2;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [1,2,3].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    [0,1].forEach(function(i){var p=tc(i,0);ctx.beginPath();ctx.moveTo(p[0],pt);ctx.lineTo(p[0],H-pb);ctx.stroke();});
+    // shaded region
+    ctx.beginPath();ctx.moveTo(tc(0,0)[0],tc(0,0)[1]);
+    for(var i=0;i<=80;i++){var x=i/80,p=tc(x,Math.exp(x));ctx.lineTo(p[0],p[1]);}
+    ctx.lineTo(tc(1,0)[0],tc(1,0)[1]);ctx.closePath();
+    ctx.fillStyle="rgba(56,189,248,.17)";ctx.fill();
+    // x-axis rotation axis — red dashed
+    ctx.strokeStyle="#f87171";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // y-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();
+    // x=1 dashed
+    ctx.strokeStyle="rgba(248,250,252,.3)";ctx.lineWidth=1.2;ctx.setLineDash([4,4]);
+    ctx.beginPath();ctx.moveTo(tc(1,0)[0],tc(1,0)[1]);ctx.lineTo(tc(1,3)[0],tc(1,3)[1]);ctx.stroke();ctx.setLineDash([]);
+    // curve y=e^x
+    ctx.strokeStyle="#38bdf8";ctx.lineWidth=2.5;ctx.shadowColor="rgba(56,189,248,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*1.3,p=tc(x,Math.exp(x));i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // labels
+    ctx.fillStyle="#38bdf8";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=eˣ",tc(0.6,Math.exp(0.6))[0]+5,tc(0.6,Math.exp(0.6))[1]-6);
+    ctx.fillStyle="#f87171";ctx.font="11px Georgia,serif";ctx.textAlign="center";ctx.fillText("axis of rotation",tc(0.7,0.18)[0],tc(0.7,0.18)[1]);
+    ctx.fillStyle="rgba(248,250,252,.5)";ctx.font="11px Georgia,serif";ctx.fillText("x=1",tc(1,0)[0],tc(1,0)[1]+13);
+    // dots
+    [tc(0,1),tc(1,Math.E)].forEach(function(dp){ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;});
+    ctx.fillStyle="#f1f5f9";ctx.font="10px Georgia,serif";ctx.textAlign="left";ctx.fillText("(1,e)",tc(1,Math.E)[0]+5,tc(1,Math.E)[1]-4);
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(xp,r,th,az,el){var X=xp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#020814";ctx.fillRect(0,0,W,H);
+    var ocx=W*.42,ocy=H*.55,scale=Math.min(W,H)*.19,SEGS=52,N=40;
+    function p3(xp,r,th){var s=proj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return proj(xp,r,th,az,el)[2];}
+    var slices=[];
+    for(var i=0;i<N;i++){var x0=i/N,x1=(i+1)/N,xm=(x0+x1)/2;slices.push({x0:x0,x1:x1,R:Math.exp(xm)});}
+    slices.sort(function(a,b){return dep((a.x0+a.x1)/2,0,0)-dep((b.x0+b.x1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],R=s.R,x0=s.x0,x1=s.x1;
+      for(var face=0;face<2;face++){
+        var xf=face===0?x0:x1;
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(xf,R,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(56,189,248,.14)":"rgba(56,189,248,.30)";ctx.strokeStyle="rgba(56,189,248,.45)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(x0,R,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(x1,R,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(56,189,248,.10)";ctx.strokeStyle="rgba(56,189,248,.30)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    // x-axis (rotation axis)
+    ctx.strokeStyle="rgba(248,113,113,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.1,0,0)[0],p3(-0.1,0,0)[1]);ctx.lineTo(p3(1.2,0,0)[0],p3(1.2,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // profile curve on top
+    ctx.strokeStyle="#38bdf8";ctx.lineWidth=2;ctx.shadowColor="rgba(56,189,248,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=60;i++){var x=i/60,pt=p3(x,Math.exp(x),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.beginPath();for(var i=0;i<=60;i++){var x=i/60,pt=p3(x,Math.exp(x),-Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
+
+<h4>Problem 2.</h4> The region bounded by $y = \ln x$, $x = e$, and $y = 0$ is rotated around the $\boldsymbol{y}$**-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 2</summary>
+<div class="answer-body">
+
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $= x$, height $= \ln x$, from $x=1$ to $x=e$)
+
+$$V = 2\pi\int_1^e x\ln x\,dx$$
+
+Apply integration by parts: $u=\ln x$, $dv=x\,dx$ $\Rightarrow$ $du=\frac{1}{x}dx$, $v=\frac{x^2}{2}$
+
+$$= 2\pi\left[\frac{x^2}{2}\ln x - \int\frac{x}{2}\,dx\right]_1^e = 2\pi\left[\frac{x^2}{2}\ln x - \frac{x^2}{4}\right]_1^e = 2\pi\!\left(\frac{e^2}{4}+\frac{1}{4}\right) = \boxed{\dfrac{\pi(e^2+1)}{2}}$$
+
+<strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; at height $y$, outer radius $R=e$ from $x=e$, inner radius $r=e^y$ from $y=\ln x\Rightarrow x=e^y$)
+
+$$V = \pi\int_0^1\Bigl(e^2 - e^{2y}\Bigr)\,dy = \pi\left[e^2 y - \frac{e^{2y}}{2}\right]_0^1 = \pi\!\left(e^2-\frac{e^2}{2}+\frac{1}{2}\right) = \boxed{\dfrac{\pi(e^2+1)}{2}}\checkmark$$
+
+<p class="hint">🔍 Shell required integration by parts, but was still one integral. Washer was clean once you correctly identified $R=e$ (constant outer wall from $x=e$) and $r=e^y$ (inner from the curve). Notice the outer radius is the <em>boundary line</em> $x=e$, not the curve!</p>
+
+<div id="p2-15mar-viz" style="background:linear-gradient(135deg,#0a1400,#001a08,#0a1400);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#4ade80;text-transform:uppercase;">Problem 2 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=\ln x$, $x=e$, $y=0$, rotated around $y$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(10,20,0,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m15p2-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(10,20,0,.8);border-radius:10px;border:1px solid rgba(74,222,128,.2);overflow:hidden;position:relative;">
+      <canvas id="m15p2-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(74,222,128,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#fbbf24;">gold</span> = $y=\ln x$ &nbsp;|&nbsp;
+    <span style="color:#4ade80;">green dashed</span> = $y$-axis &nbsp;|&nbsp;
+    outer wall $R=e$, inner $r=e^y$ &nbsp;|&nbsp; $V=\tfrac{\pi(e^2+1)}{2}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m15p2-2d"),c3=document.getElementById("m15p2-3d");
+  var az=Math.PI/3.5,el=Math.PI/8,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#0a1400";ctx.fillRect(0,0,W,H);
+    var pl=42,pr=18,pt=18,pb=34,xmin=-0.2,xmax=3.2,ymin=-0.2,ymax=1.3;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [0,1].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    // shaded region: under ln(x) from x=1 to x=e
+    ctx.beginPath();ctx.moveTo(tc(1,0)[0],tc(1,0)[1]);
+    for(var i=0;i<=80;i++){var x=1+i/80*(Math.E-1),p=tc(x,Math.log(x));ctx.lineTo(p[0],p[1]);}
+    ctx.lineTo(tc(Math.E,0)[0],tc(Math.E,0)[1]);ctx.closePath();
+    ctx.fillStyle="rgba(74,222,128,.15)";ctx.fill();
+    // y-axis rotation axis — green dashed
+    ctx.strokeStyle="#4ade80";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();ctx.setLineDash([]);
+    // x-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();
+    // x=e dashed
+    ctx.strokeStyle="rgba(248,250,252,.3)";ctx.lineWidth=1.2;ctx.setLineDash([4,4]);
+    ctx.beginPath();ctx.moveTo(tc(Math.E,0)[0],tc(Math.E,0)[1]);ctx.lineTo(tc(Math.E,1.2)[0],tc(Math.E,1.2)[1]);ctx.stroke();ctx.setLineDash([]);
+    // curve y=ln(x)
+    ctx.strokeStyle="#fbbf24";ctx.lineWidth=2.5;ctx.shadowColor="rgba(251,191,36,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=0.2+i/100*3,p=tc(x,Math.log(x));i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // labels
+    ctx.fillStyle="#fbbf24";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=ln x",tc(1.8,Math.log(1.8))[0]+5,tc(1.8,Math.log(1.8))[1]-6);
+    ctx.fillStyle="rgba(248,250,252,.5)";ctx.font="11px Georgia,serif";ctx.textAlign="center";ctx.fillText("x=e",tc(Math.E,0)[0],tc(Math.E,0)[1]+13);
+    ctx.fillStyle="#4ade80";ctx.font="11px Georgia,serif";ctx.textAlign="right";ctx.fillText("axis",tc(0,0.7)[0]-4,tc(0,0.7)[1]);
+    // dots
+    var dp=tc(Math.E,1);ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle="#f1f5f9";ctx.font="10px Georgia,serif";ctx.textAlign="left";ctx.fillText("(e,1)",dp[0]+4,dp[1]-4);
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(yp,r,th,az,el){var X=yp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#0a1400";ctx.fillRect(0,0,W,H);
+    var ocx=W*.44,ocy=H*.60,scale=Math.min(W,H)*.14,SEGS=52,N=40;
+    function p3(yp,r,th){var s=proj(yp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(yp,r,th){return proj(yp,r,th,az,el)[2];}
+    // washers: outer R=e (constant), inner r=e^y
+    var slices=[];
+    for(var i=0;i<N;i++){var y0=i/N,y1=(i+1)/N,ym=(y0+y1)/2;slices.push({y0:y0,y1:y1,Ro:Math.E,Ri:Math.exp(ym)});}
+    slices.sort(function(a,b){return dep((a.y0+a.y1)/2,0,0)-dep((b.y0+b.y1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],Ro=s.Ro,Ri=s.Ri,y0=s.y0,y1=s.y1;
+      for(var face=0;face<2;face++){
+        var yf=face===0?y0:y1;
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(74,222,128,.14)":"rgba(74,222,128,.30)";ctx.strokeStyle="rgba(74,222,128,.45)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ro,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(74,222,128,.08)";ctx.strokeStyle="rgba(74,222,128,.28)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ri,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(251,191,36,.05)";ctx.strokeStyle="rgba(251,191,36,.28)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    // glowing top rim at y=1 (where R=e meets r=e^1=e — they close!)
+    ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(1,Math.E,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+    ctx.closePath();ctx.strokeStyle="#4ade80";ctx.lineWidth=2;ctx.shadowColor="rgba(74,222,128,.8)";ctx.shadowBlur=8;ctx.stroke();ctx.shadowBlur=0;
+    // y-axis
+    ctx.strokeStyle="rgba(74,222,128,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.06,0,0)[0],p3(-0.06,0,0)[1]);ctx.lineTo(p3(1.15,0,0)[0],p3(1.15,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // inner surface curve profile
+    ctx.strokeStyle="#fbbf24";ctx.lineWidth=2;ctx.shadowColor="rgba(251,191,36,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60,pt=p3(y,Math.exp(y),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60,pt=p3(y,Math.exp(y),-Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
+
+<h4>Problem 3.</h4> The region bounded by $y = x$ and $y = x^3$ (they meet at $(0,0)$ and $(1,1)$ for $x\geq 0$) is rotated around the $\boldsymbol{y}$**-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 3</summary>
+<div class="answer-body">
+
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $= x$, height $= x - x^3$, from $x=0$ to $x=1$)
+
+$$V = 2\pi\int_0^1 x(x-x^3)\,dx = 2\pi\int_0^1(x^2-x^4)\,dx = 2\pi\left[\frac{x^3}{3}-\frac{x^5}{5}\right]_0^1 = 2\pi\cdot\frac{2}{15} = \boxed{\dfrac{4\pi}{15}}$$
+
+<strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; invert: $y=x\Rightarrow x=y$ (inner), $y=x^3\Rightarrow x=y^{1/3}$ (outer))
+
+$$V = \pi\int_0^1\Bigl(\bigl(y^{1/3}\bigr)^2 - y^2\Bigr)\,dy = \pi\int_0^1\bigl(y^{2/3}-y^2\bigr)\,dy = \pi\left[\frac{3y^{5/3}}{5}-\frac{y^3}{3}\right]_0^1 = \pi\!\left(\frac{3}{5}-\frac{1}{3}\right) = \boxed{\dfrac{4\pi}{15}}\checkmark$$
+
+<p class="hint">🔍 Shell wins cleanly again — one polynomial integral, no inversion needed. Washer required recognising which curve is outer ($y=x^3$ inverts to $x=y^{1/3}$, which is larger) and computing a fractional-power integral. Both work, but shell is the elegant choice here.</p>
+
+<div id="p3-15mar-viz" style="background:linear-gradient(135deg,#140014,#0a000a,#140014);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#e879f9;text-transform:uppercase;">Problem 3 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=x^3$ and $y=x$, rotated around $y$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(20,0,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m15p3-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(20,0,20,.8);border-radius:10px;border:1px solid rgba(232,121,249,.2);overflow:hidden;position:relative;">
+      <canvas id="m15p3-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(232,121,249,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#38bdf8;">blue</span> = $y=x$ &nbsp;|&nbsp;
+    <span style="color:#e879f9;">pink</span> = $y=x^3$ &nbsp;|&nbsp;
+    <span style="color:#4ade80;">green dashed</span> = $y$-axis &nbsp;|&nbsp;
+    outer $r=y^{1/3}$, inner $r=y$, $V=\tfrac{4\pi}{15}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m15p3-2d"),c3=document.getElementById("m15p3-3d");
+  var az=Math.PI/4,el=Math.PI/9,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#140014";ctx.fillRect(0,0,W,H);
+    var pl=42,pr=18,pt=18,pb=34,xmin=-0.15,xmax=1.3,ymin=-0.15,ymax=1.2;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [0,1].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    [0,1].forEach(function(i){var p=tc(i,0);ctx.beginPath();ctx.moveTo(p[0],pt);ctx.lineTo(p[0],H-pb);ctx.stroke();});
+    // shaded region between curves
+    ctx.beginPath();ctx.moveTo(tc(0,0)[0],tc(0,0)[1]);
+    for(var i=0;i<=80;i++){var x=i/80,p=tc(x,x);ctx.lineTo(p[0],p[1]);}
+    for(var i=80;i>=0;i--){var x=i/80,p=tc(x,x*x*x);ctx.lineTo(p[0],p[1]);}
+    ctx.closePath();ctx.fillStyle="rgba(232,121,249,.14)";ctx.fill();
+    // y-axis — green dashed
+    ctx.strokeStyle="#4ade80";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();ctx.setLineDash([]);
+    // x-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();
+    // curve y=x
+    ctx.strokeStyle="#38bdf8";ctx.lineWidth=2.5;ctx.shadowColor="rgba(56,189,248,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*1.2,p=tc(x,x);i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // curve y=x^3
+    ctx.strokeStyle="#e879f9";ctx.lineWidth=2.5;ctx.shadowColor="rgba(232,121,249,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*1.1,p=tc(x,x*x*x);i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // labels
+    ctx.fillStyle="#38bdf8";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=x",tc(0.8,0.8)[0]+5,tc(0.8,0.8)[1]-6);
+    ctx.fillStyle="#e879f9";ctx.fillText("y=x³",tc(0.85,0.85**3)[0]+5,tc(0.85,0.85**3)[1]+13);
+    ctx.fillStyle="#4ade80";ctx.font="11px Georgia,serif";ctx.textAlign="right";ctx.fillText("axis",tc(0,0.6)[0]-4,tc(0,0.6)[1]);
+    // dots
+    var dp=tc(1,1);ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle="#f1f5f9";ctx.font="10px Georgia,serif";ctx.textAlign="left";ctx.fillText("(1,1)",dp[0]+4,dp[1]-4);
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(yp,r,th,az,el){var X=yp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#140014";ctx.fillRect(0,0,W,H);
+    var ocx=W*.45,ocy=H*.57,scale=Math.min(W,H)*.32,SEGS=52,N=40;
+    function p3(yp,r,th){var s=proj(yp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(yp,r,th){return proj(yp,r,th,az,el)[2];}
+    // washers: outer R=y^(1/3), inner r=y
+    var slices=[];
+    for(var i=0;i<N;i++){var y0=i/N,y1=(i+1)/N,ym=(y0+y1)/2;slices.push({y0:y0,y1:y1,Ro:Math.pow(ym,1/3),Ri:ym});}
+    slices.sort(function(a,b){return dep((a.y0+a.y1)/2,0,0)-dep((b.y0+b.y1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],Ro=s.Ro,Ri=s.Ri,y0=s.y0,y1=s.y1;
+      for(var face=0;face<2;face++){
+        var yf=face===0?y0:y1;
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(232,121,249,.13)":"rgba(232,121,249,.28)";ctx.strokeStyle="rgba(232,121,249,.42)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ro,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(232,121,249,.07)";ctx.strokeStyle="rgba(232,121,249,.28)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ri,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(56,189,248,.05)";ctx.strokeStyle="rgba(56,189,248,.22)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    // y-axis
+    ctx.strokeStyle="rgba(74,222,128,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.06,0,0)[0],p3(-0.06,0,0)[1]);ctx.lineTo(p3(1.15,0,0)[0],p3(1.15,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // profile curves
+    ctx.strokeStyle="#e879f9";ctx.lineWidth=2;ctx.shadowColor="rgba(232,121,249,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60,pt=p3(y,Math.pow(y,1/3),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.strokeStyle="#38bdf8";ctx.shadowColor="rgba(56,189,248,.5)";
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60,pt=p3(y,y,Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
 
 ## March 11, 2026 {#mar-11-2026}
 
