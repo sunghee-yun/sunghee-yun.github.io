@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Wed Mar 11 00:02:27 PDT 2026
+last_modified_at: Sun Mar 15 00:41:50 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -416,18 +416,34 @@ For each problem, solve **both ways** and confirm they agree.
 <summary>▶ Solution — Problem 1</summary>
 <div class="answer-body">
 
-<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $= x$, height $= 1 - \sqrt{x}$, from $x=0$ to $x=1$)
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $= x$, height $=  \sqrt{x}$, from $x=0$ to $x=1$)
 
-$$V = 2\pi\int_0^1 x\bigl(1 - \sqrt{x}\bigr)\,dx = 2\pi\int_0^1\bigl(x - x^{3/2}\bigr)\,dx$$
-$$= 2\pi\left[\frac{x^2}{2} - \frac{2x^{5/2}}{5}\right]_0^1 = 2\pi\!\left(\frac{1}{2} - \frac{2}{5}\right) = 2\pi\cdot\frac{1}{10} = \boxed{\dfrac{\pi}{5}}$$
+$$
+	V
+		=
+			2\pi\int_0^1 x \sqrt{x}\,dx
+		=
+			2\pi\left[\frac{2}{5} x^{5/2} \right]_0^1
+		=
+			\boxed{\dfrac{4\pi}{5}}
+$$
 
-<strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; for a given $y$, $x$ runs from $0$ to $y^2$, so outer radius $R = y^2$, inner radius $r=0$)
+<strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; for a given $y$, $x$ runs from $0$ to $y^2$,
+so outer radius $R = 1$, inner radius $r=y^2$)
 
-Wait — actually there is no inner hole here! The solid is a full disc of radius $y^2$ at each height $y$. (The region is between $x=0$ and the curve $x=y^2$.)
+$$
+	V
+		=
+			\pi\int_0^1 \left( 1^2 - \bigl(y^2\bigr)^2\right)\,dy
+		=
+			\pi\int_0^1 (1-y^4)\,dy
+		=
+			\pi\left[y-\frac{y^5}{5}\right]_0^1
+		=
+			\boxed{\dfrac{4\pi}{5}}\checkmark
+$$
 
-$$V = \pi\int_0^1 \bigl(y^2\bigr)^2\,dy = \pi\int_0^1 y^4\,dy = \pi\left[\frac{y^5}{5}\right]_0^1 = \boxed{\dfrac{\pi}{5}}\checkmark$$
-
-<p class="hint">🔍 Shell was easier — one integral in $x$, no need to invert $y=\sqrt{x}$. Disc/washer required rewriting the curve as $x = y^2$ and integrating in $y$.</p>
+<p class="hint">🔍 Shell was easier.</p>
 
 <div id="p1-11mar-viz" style="background:linear-gradient(135deg,#020814,#0a1628,#020814);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
   <div style="text-align:center;margin-bottom:10px;">
@@ -583,10 +599,17 @@ $$V = \pi\int_0^1 \bigl(y^2\bigr)^2\,dy = \pi\int_0^1 y^4\,dy = \pi\left[\frac{y
 <summary>▶ Solution — Problem 2</summary>
 <div class="answer-body">
 
-<strong>Shell method</strong> (vertical shells, integrate in $x$ from $0$ to $2$; radius $= x$, height $= 4 - x^2$)
+<strong>Shell method</strong> (vertical shells, integrate in $x$ from $0$ to $2$; radius $= x$, height $= x^2$)
 
-$$V = 2\pi\int_0^2 x\bigl(4 - x^2\bigr)\,dx = 2\pi\int_0^2\bigl(4x - x^3\bigr)\,dx$$
-$$= 2\pi\left[2x^2 - \frac{x^4}{4}\right]_0^2 = 2\pi\!\left(8 - 4\right) = \boxed{8\pi}$$
+$$
+	V
+		=
+			2\pi\int_0^2 x\bigl( x^2\bigr)\,dx
+		=
+			\frac{\pi}{2}\Bigl[{x^4}\Bigr]_0^2
+		=
+			\boxed{8\pi}
+$$
 
 <strong>Washer method</strong> (integrate in $y$ from $0$ to $4$; outer radius $R = 2$ (from $x=2$ boundary), inner radius $r = \sqrt{y}$ (from $y=x^2$))
 
