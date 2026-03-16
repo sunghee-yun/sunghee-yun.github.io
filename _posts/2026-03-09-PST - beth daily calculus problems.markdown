@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Sun Mar 15 16:45:06 PDT 2026
+last_modified_at: Sun Mar 15 20:04:15 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -725,11 +725,39 @@ $$
 
 <strong>Shell method</strong> (vertical shells, integrate in $x$; radius $= x$, height $= x - x^3$, from $x=0$ to $x=1$)
 
-$$V = 2\pi\int_0^1 x(x-x^3)\,dx = 2\pi\int_0^1(x^2-x^4)\,dx = 2\pi\left[\frac{x^3}{3}-\frac{x^5}{5}\right]_0^1 = 2\pi\cdot\frac{2}{15} = \boxed{\dfrac{4\pi}{15}}$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^1 x(x-x^3)\,dx
+		=
+			2\pi\int_0^1(x^2-x^4)\,dx
+\\
+		&=&
+			2\pi\left[\frac{x^3}{3}-\frac{x^5}{5}\right]_0^1
+		=
+			2\pi\cdot\frac{2}{15} = \boxed{\dfrac{4\pi}{15}}
+\end{eqnarray*}
+$$
 
 <strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; invert: $y=x\Rightarrow x=y$ (inner), $y=x^3\Rightarrow x=y^{1/3}$ (outer))
 
-$$V = \pi\int_0^1\Bigl(\bigl(y^{1/3}\bigr)^2 - y^2\Bigr)\,dy = \pi\int_0^1\bigl(y^{2/3}-y^2\bigr)\,dy = \pi\left[\frac{3y^{5/3}}{5}-\frac{y^3}{3}\right]_0^1 = \pi\!\left(\frac{3}{5}-\frac{1}{3}\right) = \boxed{\dfrac{4\pi}{15}}\checkmark$$
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\Bigl(\bigl(y^{1/3}\bigr)^2 - y^2\Bigr)\,dy
+		=
+			\pi\int_0^1\bigl(y^{2/3}-y^2\bigr)\,dy
+\\
+		&=&
+			\pi\left[\frac{3y^{5/3}}{5}-\frac{y^3}{3}\right]_0^1
+		=
+			\pi\!\left(\frac{3}{5}-\frac{1}{3}\right)
+		=
+			\boxed{\dfrac{4\pi}{15}}\checkmark
+\end{eqnarray*}
+$$
 
 <p class="hint">🔍 Shell wins cleanly again — one polynomial integral, no inversion needed. Washer required recognising which curve is outer ($y=x^3$ inverts to $x=y^{1/3}$, which is larger) and computing a fractional-power integral. Both work, but shell is the elegant choice here.</p>
 
