@@ -1,8 +1,8 @@
 ---
 date: Mon Dec  1 04:16:13 PST 2025
-last_modified_at: Sat Jan 24 11:57:33 PST 2026
+last_modified_at: Mon Mar 16 04:27:05 PDT 2026
 layout: single
-title: "Beyond the Hype: A Technologist and Anthropologist Decode AI's Promise and Limits"
+title: "Beyond the Hype &ndash; A Technologist and Anthropologist Decode AI's Promise and Limits"
 permalink: /books/beyond-the-hype
 categories:
  - book
@@ -20,6 +20,35 @@ posted: {{ page.date| date: "%d-%b-%Y" }}
 &amp;
 updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {: .notice--primary}
+
+# Table of Contents
+
+- [Prologue: The Question Behind the Algorithm](#prologue-the-question-behind-the-algorithm)
+- [**PART I: THE REAL AI JOURNEY — From Mathematics to Medicine**](#part-i-the-real-ai-journey--from-mathematics-to-medicine)
+  - [Chapter 1: The Foundation — Stanford, Boyd, and the Mathematics of Optimization](#chapter-1-the-foundation--stanford-boyd-and-the-mathematics-of-optimization)
+  - [Chapter 2: Samsung — When AI Met Silicon (2004–2017)](#chapter-2-samsung--when-ai-met-silicon-2004-2017)
+  - [Chapter 3: Amazon — When Optimization Met Scale (2017–2020)](#chapter-3-amazon--when-optimization-met-scale-2017-2020)
+  - [Chapter 4: Gauss Labs — Industrial AI and the Bayesian Reality Check (2020–2023)](#chapter-4-gauss-labs--industrial-ai-and-the-bayesian-reality-check-2020-2023)
+  - [Chapter 5: Erudio Bio — AI Meets the Complexity of Life (2023–Present)](#chapter-5-erudio-bio--ai-meets-the-complexity-of-life-2023-present)
+  - [Interlude: The Pattern Emerges](#interlude-the-pattern-emerges)
+- [**PART II: DEMYSTIFYING AI — What It Is, What It Isn't, and What It Means**](#part-ii-demystifying-ai--what-it-is-what-it-isnt-and-what-it-means)
+  - [Chapter 6: What LLMs Actually Do — The Conditional Probability Truth](#chapter-6-what-llms-actually-do--the-conditional-probability-truth)
+  - [Chapter 7: AI Cannot Believe, Reason, Know, or Think](#chapter-7-ai-cannot-believe-reason-know-or-think)
+  - [Chapter 8: The Hallucination Problem — Not a Bug, a Feature](#chapter-8-the-hallucination-problem--not-a-bug-a-feature)
+  - [Chapter 9: AI Fairness, Bias, and the Inequality Accelerator](#chapter-9-ai-fairness-bias-and-the-inequality-accelerator)
+  - [Chapter 10: The Energy Crisis Nobody Talks About](#chapter-10-the-energy-crisis-nobody-talks-about)
+  - [Chapter 11: Why Digital Transformation Fails — The Human Factor](#chapter-11-why-digital-transformation-fails--the-human-factor)
+  - [Chapter 12: Data is Destiny — The Real Competitive Advantage](#chapter-12-data-is-destiny--the-real-competitive-advantage)
+  - [Chapter 13: Multi-Agent AI — The Next Paradigm](#chapter-13-multi-agent-ai--the-next-paradigm)
+  - [Chapter 14: The Healthspan Revolution — AI's Most Important Application](#chapter-14-the-healthspan-revolution--ais-most-important-application)
+  - [Chapter 15: The Future We Choose — Technology, Wisdom, and Values](#chapter-15-the-future-we-choose--technology-wisdom-and-values)
+- [Epilogue: Optimizing for Humanity](#epilogue-optimizing-for-humanity)
+- [**Appendices**](#appendices)
+  - [Appendix A: Glossary of Technical Terms (for non-technical readers)](#appendix-a-glossary-of-technical-terms-for-non-technical-readers)
+  - [Appendix B: Mathematical Foundations — A Primer on Convex Optimization and Neural Networks](#appendix-b-mathematical-foundations--a-primer-on-convex-optimization-and-neural-networks)
+  - [Appendix C: Resources for Further Learning (Books, Papers, Courses)](#appendix-c-resources-for-further-learning-books-papers-courses)
+  - [Appendix D: The K-PAI Framework — Building Responsible AI Communities](#appendix-d-the-k-pai-framework--building-responsible-ai-communities)
+  - [Appendix E: Interview Guide — Questions for Evaluating AI Solutions in Your Organization](#appendix-e-interview-guide--questions-for-evaluating-ai-solutions-in-your-organization)
 
 # Prologue: The Question Behind the Algorithm
 
