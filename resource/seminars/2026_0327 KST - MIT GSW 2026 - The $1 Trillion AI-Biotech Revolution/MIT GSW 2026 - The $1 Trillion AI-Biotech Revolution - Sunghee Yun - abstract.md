@@ -1,11 +1,11 @@
 ---
 date: Tue Mar 17 01:27:21 PDT 2026
-last_modified_at: Tue Mar 17 02:15:12 PDT 2026
+last_modified_at: Tue Mar 17 02:49:25 PDT 2026
 layout: single
 title: "[MIT GSW 2026 Special AI Lecture] The $1 Trillion AI-Biotech Revolution - Technology Foundations, Market Dynamics, and Why This Convergence Will Create the Next Unicorns"
 permalink: /seminars/2026_0327 KST - MIT GSW 2026 - The $1 Trillion AI-Biotech Revolution/abstract
 author_profile: true
-toc: true
+toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
