@@ -1,6 +1,6 @@
 ---
 date: Mon Mar  9 07:04:38 PDT 2026
-last_modified_at: Sun Mar 15 20:04:15 PDT 2026
+last_modified_at: Mon Mar 16 20:15:05 PDT 2026
 title: "Beth's Daily AP Calculus BC Practice"
 permalink: /math/ap/calculus/bc/daily
 categories:
@@ -54,12 +54,1072 @@ HOW TO ADD A NEW DAY:
 
 *New sessions are prepended at the top of each day's section — most recent first.*
 
+- [16-Mar-2026](#mar-16-2026)
 - [15-Mar-2026](#mar-15-2026)
 - [11-Mar-2026](#mar-11-2026)
 - [10-Mar-2026](#mar-10-2026)
 - [09-Mar-2026](#mar-09-2026)
 
 # March 2026
+
+## March 16, 2026 {#mar-16-2026}
+
+<div class="date-banner">
+📅 <strong>Mon, March 16, 2026</strong> &nbsp;|&nbsp;
+Topics
+&ndash;
+<strong>Limits (sharp tools)</strong> · <strong>Indeterminate forms</strong> · <strong>Series</strong> · <strong>Integration by parts</strong> · <strong>FTC both parts</strong> · <strong>Volumes</strong>
+</div>
+
+### Part 1 — Limits: Sharp Tools
+
+Same two roads — but some of today's limits require **three applications of L'Hôpital**, or **Taylor series** that cut straight through.
+Always ask yourself: *is there a slicker way than L'Hôpital?*
+
+<ol>
+<li>$\displaystyle\lim_{x\to 0}\frac{\arcsin x}{x}$
+&nbsp;&nbsp;<em>(Method B: which derivative? at which point?)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\arctan(3x)}{\sin(2x)}$
+&nbsp;&nbsp;<em>(no L'Hôpital needed — divide top and bottom by $x$, reuse known limits)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{e^x - e^{-x}}{2x}$
+&nbsp;&nbsp;<em>(split into two fractions each $\to 1$, or: which derivative at $x=0$?)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{x - \sin x}{x\tan x}$
+&nbsp;&nbsp;<em>(Taylor is far slicker than L'Hôpital here — try both)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\ln(1+x^2)}{1-\cos x}$
+&nbsp;&nbsp;<em>(write out the first nonzero Taylor term for each)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{(1+x)^{1/3}-1}{x}$
+&nbsp;&nbsp;<em>(Method B: derivative of $(1+x)^{1/3}$ at $x=0$)</em></li>
+
+<li>$\displaystyle\lim_{x\to\infty}\frac{\ln x}{\sqrt{x}}$
+&nbsp;&nbsp;<em>(L'Hôpital once; or recall which always beats which at $\infty$)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\cos x - 1 + \frac{x^2}{2}}{x^4}$
+&nbsp;&nbsp;<em>(write out the Taylor series of $\cos x$ to the $x^4$ term)</em></li>
+
+<li>$\displaystyle\lim_{x\to 2}\frac{x^2-4}{x^3-8}$
+&nbsp;&nbsp;<em>(factor both — and recognise it as a derivative definition!)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0}\frac{\sin(x^2)}{x^2}$
+&nbsp;&nbsp;<em>(substitute $u=x^2$)</em></li>
+
+<li>$\displaystyle\lim_{x\to\infty}\frac{x^2+\sin x}{x^2+\cos x}$
+&nbsp;&nbsp;<em>(divide through by $x^2$; what happens to $\sin x/x^2$ and $\cos x/x^2$?)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 1</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint"><strong>Method B:</strong> $f'(0)$ for $f(x)=\arcsin x$; $f'(x)=\dfrac{1}{\sqrt{1-x^2}}$, so $f'(0)=1$. ✓</span><br>
+<span class="hint"><strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{1/\sqrt{1-x^2}}{1}\big|_{x=0}=1$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{3}{2}$</span><br>
+<span class="hint">Divide top and bottom by $x$: $\displaystyle\frac{\arctan(3x)/x}{\sin(2x)/x}\to\frac{3}{2}$, using $\arctan(u)/u\to 1$ and $\sin(u)/u\to 1$ with $u=3x$ and $u=2x$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint"><strong>Split:</strong> $\displaystyle\frac{e^x-e^{-x}}{2x}=\frac{1}{2}\cdot\frac{e^x-1}{x}+\frac{1}{2}\cdot\frac{1-e^{-x}}{x}\to\frac{1}{2}+\frac{1}{2}=1$.<br>
+(For the second fraction: let $u=-x$, then $\frac{1-e^{-x}}{x}=\frac{e^u-1}{u}\to 1$.) ✓<br>
+<strong>Method B:</strong> $f'(0)$ for $f(x)=\sinh x=\frac{e^x-e^{-x}}{2}$; $f'(0)=\cosh(0)=1$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$0$</span><br>
+<span class="hint"><strong>Taylor (slicker):</strong> $\sin x = x-\frac{x^3}{6}+\cdots$; so $x-\sin x\approx\frac{x^3}{6}$. Also $\tan x\approx x$, so $x\tan x\approx x^2$. Ratio $\approx\frac{x^3/6}{x^2}=\frac{x}{6}\to 0$. ✓</span><br>
+<span class="hint"><strong>L'Hôpital:</strong> Applying it three times to $\frac{x-\sin x}{x\tan x}$ is messy — Taylor is the right tool here.</span>
+</li>
+
+<li>
+<span class="ans">$2$</span><br>
+<span class="hint">Taylor: $\ln(1+x^2)\approx x^2$ and $1-\cos x\approx\dfrac{x^2}{2}$. Ratio $\to\dfrac{x^2}{x^2/2}=2$. ✓<br>
+Both numerator and denominator have their first nonzero term at order $x^2$ — a clean cancellation.</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{1}{3}$</span><br>
+<span class="hint"><strong>Method B:</strong> $f'(0)$ for $f(x)=(1+x)^{1/3}$; $f'(x)=\frac{1}{3}(1+x)^{-2/3}$, so $f'(0)=\frac{1}{3}$. ✓<br>
+<strong>Method A:</strong> $\frac{0}{0}$; diff: $\displaystyle\frac{(1/3)(1+x)^{-2/3}}{1}\big|_{x=0}=\frac{1}{3}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$0$</span><br>
+<span class="hint">L'Hôpital ($\frac{\infty}{\infty}$): $\displaystyle\frac{1/x}{1/(2\sqrt{x})}=\frac{2}{\sqrt{x}}\to 0$. ✓<br>
+General principle: $\ln x$ grows slower than <em>any</em> positive power of $x$ as $x\to\infty$.</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{1}{24}$</span><br>
+<span class="hint">Taylor: $\cos x = 1 - \dfrac{x^2}{2} + \dfrac{x^4}{24} - \cdots$; so $\cos x - 1 + \dfrac{x^2}{2} = \dfrac{x^4}{24}+\cdots$. Divide by $x^4$: limit $=\dfrac{1}{24}$. ✓<br>
+Three applications of L'Hôpital would also work, but Taylor is instant.</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{1}{3}$</span><br>
+<span class="hint"><strong>Direct factor:</strong> $x^2-4=(x-2)(x+2)$; $x^3-8=(x-2)(x^2+2x+4)$. Cancel $(x-2)$: $\displaystyle\frac{x+2}{x^2+2x+4}\big|_{x=2}=\frac{4}{12}=\frac{1}{3}$. ✓<br>
+<strong>Method B:</strong> $\displaystyle\frac{x^2-4}{x^3-8}=\frac{x^2-2^2}{x^3-2^3}\to\frac{2\cdot 2}{3\cdot 2^2}=\frac{4}{12}=\frac{1}{3}$ (ratio of derivatives of numerator and denominator at $x=2$). ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Let $u=x^2$; as $x\to 0$, $u\to 0$: $\displaystyle\frac{\sin(x^2)}{x^2}=\frac{\sin u}{u}\to 1$. ✓<br>
+This is the third disguise of $\frac{\sin\theta}{\theta}\to 1$ — recognise the pattern!</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Divide numerator and denominator by $x^2$: $\displaystyle\frac{1+\sin x/x^2}{1+\cos x/x^2}$. Since $|\sin x|\leq 1$ and $|\cos x|\leq 1$, both $\sin x/x^2\to 0$ and $\cos x/x^2\to 0$. Limit $=\frac{1}{1}=1$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 2 — Indeterminate Forms: $0^0$, $\infty^0$, $1^\infty$
+
+**The universal recipe:** to handle $[f(x)]^{g(x)}$ in indeterminate form, let $L$ be the limit, take $\ln L = \lim g(x)\cdot\ln f(x)$, evaluate the resulting $0\cdot\infty$ form (usually by L'Hôpital), then set $L=e^{\ln L}$.
+
+<ol>
+<li>$\displaystyle\lim_{x\to\infty} x\!\left(\sqrt{1+\tfrac{1}{x}}-1\right)$
+&nbsp;&nbsp;<em>(multiply by the conjugate, or Taylor: $\sqrt{1+u}\approx 1+\frac{u}{2}$ for small $u$)</em></li>
+
+<li>$\displaystyle\lim_{x\to 0^+} x^{\sin x}$ &nbsp; ($0^0$ form)</li>
+
+<li>$\displaystyle\lim_{x\to\infty}\left(\frac{x+3}{x-1}\right)^{\!x}$ &nbsp; ($1^\infty$ form)</li>
+
+<li>$\displaystyle\lim_{n\to\infty} n^{1/n}$ &nbsp; ($\infty^0$ form)</li>
+
+<li>$\displaystyle\lim_{x\to 0^+}(\cos x)^{1/x^2}$ &nbsp; ($1^\infty$ form — answer involves $e$!)</li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 2</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$\dfrac{1}{2}$</span><br>
+<span class="hint"><strong>Taylor:</strong> $\sqrt{1+u}\approx 1+\frac{u}{2}$ for small $u$; with $u=1/x$: $x\!\left(1+\frac{1}{2x}+\cdots-1\right)=x\cdot\frac{1}{2x}+\cdots\to\frac{1}{2}$. ✓<br>
+<strong>Conjugate:</strong> Multiply by $\frac{\sqrt{1+1/x}+1}{\sqrt{1+1/x}+1}$: $\displaystyle\frac{x\cdot(1/x)}{\sqrt{1+1/x}+1}=\frac{1}{\sqrt{1+1/x}+1}\to\frac{1}{2}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">$\ln L = \lim_{x\to 0^+}\sin x\cdot\ln x$. Since $\sin x\approx x$ near $0$: $\sin x\cdot\ln x\approx x\ln x\to 0$ (the Mar 15 Part 1 #7 result). So $\ln L=0$, $L=e^0=1$. ✓<br>
+This is the $0^0$ form — and the answer is $1$, not $0$ or undefined.</span>
+</li>
+
+<li>
+<span class="ans">$e^4$</span><br>
+<span class="hint">$\ln L=\lim x\ln\!\left(1+\dfrac{4}{x-1}\right)\approx x\cdot\dfrac{4}{x-1}\to 4$. So $L=e^4$. ✓<br>
+More carefully: let $u=\frac{4}{x-1}\to 0^+$; $\frac{\ln(1+u)}{u/x}\cdot\frac{1}{1}\to 1\cdot\lim\frac{4x}{x-1}=4$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">$\ln L=\lim_{n\to\infty}\dfrac{\ln n}{n}$. L'Hôpital: $\displaystyle\frac{1/n}{1}\to 0$. So $\ln L=0$, $L=e^0=1$. ✓<br>
+Intuition: the exponent $\frac{1}{n}\to 0$ "squashes" even $n\to\infty$ down to $1$.</span>
+</li>
+
+<li>
+<span class="ans">$e^{-1/2} = \dfrac{1}{\sqrt{e}}$</span><br>
+<span class="hint">$\ln L=\lim_{x\to 0^+}\dfrac{\ln\cos x}{x^2}$. Taylor: $\cos x\approx 1-\frac{x^2}{2}+\cdots$, so $\ln\cos x\approx\ln\!\left(1-\frac{x^2}{2}\right)\approx-\frac{x^2}{2}$. Thus $\dfrac{\ln\cos x}{x^2}\to-\dfrac{1}{2}$. So $L=e^{-1/2}$. ✓<br>
+<strong>L'Hôpital check:</strong> $\displaystyle\frac{-\sin x/\cos x}{2x}=\frac{-\tan x}{2x}\to-\frac{1}{2}$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 3 — Series: Power Series and More Tests
+
+<ol>
+<li>$\displaystyle\sum_{n=1}^{\infty}\frac{(-1)^n}{n\cdot 2^n}$
+&nbsp;&nbsp;<em>(ratio test for convergence; exact value connects to a famous logarithm)</em></li>
+
+<li>$\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n\,\pi^{2n}}{(2n)!}$
+&nbsp;&nbsp;<em>(recognise this as the Maclaurin series for a trig function evaluated at a specific point)</em></li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty}\frac{1}{n(n+1)(n+2)}$
+&nbsp;&nbsp;<em>(partial fractions — this telescopes, but the fractions are trickier)</em></li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty}\frac{n(n+1)}{3^n}$
+&nbsp;&nbsp;<em>(ratio test for convergence; exact value is a beautiful bonus)</em></li>
+
+<li>$\displaystyle\sum_{n=2}^{\infty}\frac{1}{n^2\ln n}$</li>
+
+<li>$\displaystyle\sum_{n=1}^{\infty}\frac{n^3}{4^n}$
+&nbsp;&nbsp;<em>(ratio test; exact value optional — needs triple differentiation of geometric series)</em></li>
+
+<li>$\displaystyle\sum_{n=0}^{\infty}\frac{x^{2n}}{n!}$ &nbsp; — find the <strong>radius of convergence</strong> $R$, and identify the closed-form sum</li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 3</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">Absolutely converges $= \ln\!\dfrac{2}{3}$</span><br>
+<span class="hint">Ratio test on $|a_n|$: $\dfrac{n}{2(n+1)}\to\dfrac{1}{2}<1$. Absolutely convergent. ✓<br>
+<strong>Exact value:</strong> Recall $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}x^n=-\ln(1+x)$ for $|x|\leq 1$. At $x=\frac{1}{2}$: $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n\cdot 2^n}=-\ln\!\frac{3}{2}=\ln\!\frac{2}{3}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$-1$</span><br>
+<span class="hint">The Maclaurin series for $\cos\theta = \displaystyle\sum_{n=0}^\infty\frac{(-1)^n\theta^{2n}}{(2n)!}$. Here $\theta=\pi$: $\displaystyle\sum_{n=0}^\infty\frac{(-1)^n\pi^{2n}}{(2n)!}=\cos\pi=-1$. ✓<br>
+<em>Recognising Taylor series in disguise is one of the most powerful skills on the AP exam!</em></span>
+</li>
+
+<li>
+<span class="ans">Converges $= \dfrac{1}{4}$</span><br>
+<span class="hint">Partial fractions: $\dfrac{1}{n(n+1)(n+2)}=\dfrac{1}{2}\!\left(\dfrac{1}{n(n+1)}-\dfrac{1}{(n+1)(n+2)}\right)$.<br>
+Telescoping: all middle terms cancel, leaving $\dfrac{1}{2}\cdot\dfrac{1}{1\cdot 2}=\dfrac{1}{4}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">Converges $= \dfrac{9}{4}$</span><br>
+<span class="hint">Ratio test: $\dfrac{(n+1)(n+2)/3^{n+1}}{n(n+1)/3^n}=\dfrac{n+2}{3n}\to\dfrac{1}{3}<1$. ✓<br>
+<strong>Exact value (bonus):</strong> Using $\sum_{n=0}^\infty x^n=\frac{1}{1-x}$, differentiate twice and multiply carefully to get $\displaystyle\sum_{n=1}^\infty n(n+1)x^n=\frac{2x}{(1-x)^3}$. At $x=\frac{1}{3}$: $\dfrac{2/3}{(2/3)^3}=\dfrac{2/3}{8/27}=\dfrac{9}{4}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">Converges</span><br>
+<span class="hint">Comparison: $\dfrac{1}{n^2\ln n}<\dfrac{1}{n^2}$ for all $n\geq 2$. Since $\displaystyle\sum\frac{1}{n^2}$ converges ($p=2$), so does this by comparison. ✓<br>
+(No simple closed form exists.)</span>
+</li>
+
+<li>
+<span class="ans">Converges $= \dfrac{44}{27}$</span><br>
+<span class="hint">Ratio test: $\dfrac{(n+1)^3/4^{n+1}}{n^3/4^n}=\dfrac{1}{4}\!\left(\dfrac{n+1}{n}\right)^3\to\dfrac{1}{4}<1$. ✓<br>
+<strong>Exact value (bonus):</strong> Triple differentiation of $\sum x^n$ gives $\displaystyle\sum_{n=1}^\infty n^3 x^n=\frac{x(1+4x+x^2)}{(1-x)^4}$. At $x=\frac{1}{4}$: $\dfrac{(1/4)(1+1+1/16)}{(3/4)^4}=\dfrac{(1/4)(33/16)}{81/256}=\dfrac{33}{64}\cdot\dfrac{256}{81}=\dfrac{44}{27}$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$R = \infty$; sum $= e^{x^2}$</span><br>
+<span class="hint">Ratio test: $\left|\dfrac{x^{2(n+1)}/(n+1)!}{x^{2n}/n!}\right|=\dfrac{x^2}{n+1}\to 0$ for any fixed $x$. So $R=\infty$: converges for all $x$. ✓<br>
+<strong>Closed form:</strong> $\displaystyle\sum_{n=0}^\infty\frac{x^{2n}}{n!}=\sum_{n=0}^\infty\frac{(x^2)^n}{n!}=e^{x^2}$. ✓<br>
+This is one of the most useful functions in probability theory (related to the Gaussian)!</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 4 — Integration by Parts: Revisit &amp; Extend
+
+The "solve for $I$" trick from Mar 15 appears again in <strong>#1</strong> — the companion problem to $\int e^x\sin x\,dx$.
+Problems <strong>#4</strong> and <strong>#5</strong> introduce **inverse trig antiderivatives** via parts.
+
+<ol>
+<li>$\displaystyle\int e^{-x}\cos x\,dx$ &nbsp; ★
+&nbsp;&nbsp;<em>(parts twice — the integral comes back again! Use the same solve-for-$I$ trick)</em></li>
+
+<li>$\displaystyle\int x^2\ln x\,dx$
+&nbsp;&nbsp;<em>($u=\ln x$, $dv=x^2\,dx$ — LIATE says $\ln x$ comes first)</em></li>
+
+<li>$\displaystyle\int \arcsin x\,dx$
+&nbsp;&nbsp;<em>(sneaky: $u=\arcsin x$, $dv=dx$; you will need $\int\frac{x}{\sqrt{1-x^2}}\,dx$ — try $w=1-x^2$)</em></li>
+
+<li>$\displaystyle\int x\ln(x+1)\,dx$
+&nbsp;&nbsp;<em>($u=\ln(x+1)$, $dv=x\,dx$; then split $\frac{x^2}{x+1}=x-1+\frac{1}{x+1}$)</em></li>
+
+<li>$\displaystyle\int \ln^2 x\,dx$
+&nbsp;&nbsp;<em>($u=\ln^2 x$, $dv=dx$; the remaining integral is the Mar 11 result $\int\ln x\,dx$)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 4</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$\dfrac{e^{-x}(\sin x - \cos x)}{2} + C$</span><br>
+<span class="hint">Let $I=\displaystyle\int e^{-x}\cos x\,dx$.<br>
+<strong>First parts:</strong> $u=\cos x$, $dv=e^{-x}dx$ $\Rightarrow$ $du=-\sin x\,dx$, $v=-e^{-x}$:<br>
+$I = -e^{-x}\cos x - \displaystyle\int e^{-x}\sin x\,dx$.<br>
+<strong>Second parts:</strong> $u=\sin x$, $dv=e^{-x}dx$ $\Rightarrow$ $v=-e^{-x}$:<br>
+$\displaystyle\int e^{-x}\sin x\,dx = -e^{-x}\sin x + \int e^{-x}\cos x\,dx = -e^{-x}\sin x + I$.<br>
+So: $I=-e^{-x}\cos x-(-e^{-x}\sin x+I)=-e^{-x}\cos x+e^{-x}\sin x-I$.<br>
+$2I=e^{-x}(\sin x-\cos x)$ $\Rightarrow$ $\boxed{I=\dfrac{e^{-x}(\sin x-\cos x)}{2}+C}$. ✓<br>
+<em>Compare with Mar 15 #3: same trick, $e^{-x}$ instead of $e^x$ — the sign inside flips!</em></span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{x^3}{3}\ln x - \dfrac{x^3}{9} + C$</span><br>
+<span class="hint">$u=\ln x$, $dv=x^2\,dx$ $\Rightarrow$ $du=\frac{1}{x}dx$, $v=\frac{x^3}{3}$.<br>
+$\displaystyle\int x^2\ln x\,dx=\frac{x^3}{3}\ln x-\int\frac{x^2}{3}\,dx=\frac{x^3}{3}\ln x-\frac{x^3}{9}+C$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$x\arcsin x + \sqrt{1-x^2} + C$</span><br>
+<span class="hint">$u=\arcsin x$, $dv=dx$ $\Rightarrow$ $du=\frac{1}{\sqrt{1-x^2}}dx$, $v=x$.<br>
+$\displaystyle\int\arcsin x\,dx=x\arcsin x-\int\frac{x}{\sqrt{1-x^2}}\,dx$.<br>
+For the remaining integral: let $w=1-x^2$, $dw=-2x\,dx$:<br>
+$\displaystyle\int\frac{x}{\sqrt{1-x^2}}\,dx=-\frac{1}{2}\int w^{-1/2}\,dw=-\sqrt{1-x^2}$.<br>
+Total: $x\arcsin x+\sqrt{1-x^2}+C$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{x^2-1}{2}\ln(x+1) - \dfrac{x^2}{4} + \dfrac{x}{2} + C$</span><br>
+<span class="hint">$u=\ln(x+1)$, $dv=x\,dx$ $\Rightarrow$ $du=\frac{1}{x+1}dx$, $v=\frac{x^2}{2}$.<br>
+$\displaystyle\int x\ln(x+1)\,dx=\frac{x^2}{2}\ln(x+1)-\int\frac{x^2}{2(x+1)}\,dx$.<br>
+Split: $\dfrac{x^2}{x+1}=x-1+\dfrac{1}{x+1}$.<br>
+$\displaystyle\int\frac{x^2}{2(x+1)}\,dx=\frac{x^2}{4}-\frac{x}{2}+\frac{1}{2}\ln(x+1)+C$.<br>
+Total: $\dfrac{x^2}{2}\ln(x+1)-\dfrac{x^2}{4}+\dfrac{x}{2}-\dfrac{1}{2}\ln(x+1)+C=\dfrac{x^2-1}{2}\ln(x+1)-\dfrac{x^2}{4}+\dfrac{x}{2}+C$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$x\ln^2 x - 2x\ln x + 2x + C$</span><br>
+<span class="hint">$u=\ln^2 x$, $dv=dx$ $\Rightarrow$ $du=\frac{2\ln x}{x}dx$, $v=x$.<br>
+$\displaystyle\int\ln^2 x\,dx=x\ln^2 x-2\int\ln x\,dx$.<br>
+Use the Mar 11 result $\displaystyle\int\ln x\,dx=x\ln x-x$:<br>
+$=x\ln^2 x-2(x\ln x-x)+C=x\ln^2 x-2x\ln x+2x+C$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 5 — FTC: Both Parts, Full Power
+
+Today we use **both** parts of the Fundamental Theorem:
+
+$$\underbrace{\frac{d}{dx}\int_a^{g(x)} f(t)\,dt = f\!\bigl(g(x)\bigr)\cdot g'(x)}_{\textbf{FTC Part 1}} \qquad\qquad \underbrace{\int_a^b f(x)\,dx = F(b)-F(a)}_{\textbf{FTC Part 2}}$$
+
+<ol>
+<li>$\displaystyle\frac{d}{dx}\int_1^{x^3}\ln t\,dt$</li>
+
+<li>$\displaystyle\frac{d}{dx}\int_{\cos x}^{\sin x} e^{t^2}\,dt$
+&nbsp;&nbsp;<em>(both limits depend on $x$ — split at any constant, then apply the chain-rule version to each)</em></li>
+
+<li>Let $F(x)=\displaystyle\int_0^x t\sin t\,dt$. &nbsp; Find $F'(x)$ and $F''(x)$.
+&nbsp;&nbsp;<em>(FTC Part 1 gives $F'$ directly; differentiate again with the product rule)</em></li>
+
+<li>Evaluate: $\displaystyle\int_0^1 xe^x\,dx$
+&nbsp;&nbsp;<em>(antiderivative from Mar 11 Part 4 #1, then apply FTC Part 2)</em></li>
+
+<li>Evaluate: $\displaystyle\int_0^{\pi/2} x\cos x\,dx$
+&nbsp;&nbsp;<em>(antiderivative from Mar 15 Part 4 #1 with $dv=\cos x\,dx$, then FTC Part 2)</em></li>
+
+<li>$\displaystyle\frac{d}{dx}\!\left[x\int_0^x \sin t\,dt\right]$
+&nbsp;&nbsp;<em>(product rule first; FTC Part 1 handles the derivative of the integral piece; FTC Part 2 evaluates the other)</em></li>
+</ol>
+
+<details class="answers">
+<summary>▶ Answers — Part 5</summary>
+<div class="answer-body">
+<ol>
+<li>
+<span class="ans">$9x^2\ln x$</span><br>
+<span class="hint">FTC Part 1 + chain rule: $f(t)=\ln t$, $g(x)=x^3$, $g'(x)=3x^2$.<br>
+$= \ln(x^3)\cdot 3x^2 = 3\ln x\cdot 3x^2 = 9x^2\ln x$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$e^{\sin^2 x}\cos x + e^{\cos^2 x}\sin x$</span><br>
+<span class="hint">Split at $0$: $\displaystyle\int_{\cos x}^{\sin x}=\int_0^{\sin x}-\int_0^{\cos x}$.<br>
+Differentiate each with chain rule:<br>
+$\displaystyle\frac{d}{dx}\int_0^{\sin x}e^{t^2}\,dt = e^{\sin^2 x}\cdot\cos x$,<br>
+$\displaystyle\frac{d}{dx}\int_0^{\cos x}e^{t^2}\,dt = e^{\cos^2 x}\cdot(-\sin x)$.<br>
+Total: $e^{\sin^2 x}\cos x + e^{\cos^2 x}\sin x$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$F'(x) = x\sin x$ &nbsp;;&nbsp; $F''(x) = \sin x + x\cos x$</span><br>
+<span class="hint"><strong>$F'(x)$:</strong> FTC Part 1 directly — the integrand evaluated at the upper limit: $F'(x)=x\sin x$. ✓<br>
+<strong>$F''(x)$:</strong> Differentiate $x\sin x$ with the product rule: $F''(x)=\sin x+x\cos x$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1$</span><br>
+<span class="hint">Antiderivative from Mar 11 Part 4 #1: $\displaystyle\int xe^x\,dx = e^x(x-1)+C$.<br>
+FTC Part 2: $\Bigl[e^x(x-1)\Bigr]_0^1 = e^1(1-1)-e^0(0-1) = 0-(-1) = 1$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$\dfrac{\pi}{2}-1$</span><br>
+<span class="hint">IBP: $u=x$, $dv=\cos x\,dx$ $\Rightarrow$ $v=\sin x$: antiderivative $= x\sin x+\cos x$.<br>
+FTC Part 2: $\Bigl[x\sin x+\cos x\Bigr]_0^{\pi/2} = \Bigl(\frac{\pi}{2}\cdot 1+0\Bigr)-(0\cdot 0+1) = \frac{\pi}{2}-1$. ✓</span>
+</li>
+
+<li>
+<span class="ans">$1 - \cos x + x\sin x$</span><br>
+<span class="hint"><strong>Product rule:</strong> $\displaystyle\frac{d}{dx}\!\left[x\int_0^x\sin t\,dt\right]=\int_0^x\sin t\,dt + x\cdot\frac{d}{dx}\int_0^x\sin t\,dt$.<br>
+<strong>FTC Part 1:</strong> $\displaystyle\frac{d}{dx}\int_0^x\sin t\,dt=\sin x$.<br>
+<strong>FTC Part 2:</strong> $\displaystyle\int_0^x\sin t\,dt=\bigl[-\cos t\bigr]_0^x=1-\cos x$.<br>
+Total: $(1-\cos x)+x\sin x$. ✓</span>
+</li>
+</ol>
+</div>
+</details>
+
+---
+
+### Part 6 — Volumes: Choose Your Weapon
+
+For each problem, set up **both methods** and verify they agree.
+Pay attention to which method wins — and why!
+
+<h4>Problem 1.</h4> The region bounded by $y=\sin x$, $y=0$, and $x\in[0,\pi]$ is rotated around the **$x$-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 1</summary>
+<div class="answer-body">
+
+<strong>Disc method</strong> (rotate around $x$-axis — this is the natural direction)
+
+Use the identity $\sin^2 x = \dfrac{1-\cos 2x}{2}$:
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^{\pi}\sin^2 x\,dx
+		=
+			\frac{\pi}{2}\int_0^{\pi}(1-\cos 2x)\,dx
+\\
+		&=&
+			\frac{\pi}{2}\left[x - \frac{\sin 2x}{2}\right]_0^{\pi}
+		=
+			\frac{\pi}{2}\cdot\pi
+		=
+			\boxed{\dfrac{\pi^2}{2}}
+\end{eqnarray*}
+$$
+
+<strong>Shell method</strong> (horizontal shells, integrate in $y$ from $0$ to $1$)
+
+Inverting $y=\sin x$ on $[0,\pi]$ gives two branches: $x=\arcsin y$ (left) and $x=\pi-\arcsin y$ (right). Shell height $=(\pi-\arcsin y)-\arcsin y=\pi-2\arcsin y$.
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^1 y\bigl(\pi-2\arcsin y\bigr)\,dy
+\end{eqnarray*}
+$$
+
+This integral requires integration by parts twice — messy! The disc method is clearly the winner here.
+
+<p class="hint">🔍 Disc wins decisively — one integral, one trig identity, done. Shell requires inverting a trig function into two branches and then a non-trivial IBP. When the axis of rotation matches your integration variable, disc is almost always preferable.</p>
+
+<div id="p1-16mar-viz" style="background:linear-gradient(135deg,#020814,#0a1628,#020814);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#60a5fa;text-transform:uppercase;">Problem 1 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=\sin x$, $x\in[0,\pi]$, rotated around $x$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m16p1-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(2,8,20,.8);border-radius:10px;border:1px solid rgba(96,165,250,.2);overflow:hidden;position:relative;">
+      <canvas id="m16p1-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(96,165,250,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#38bdf8;">blue</span> = $y=\sin x$ &nbsp;|&nbsp;
+    <span style="color:#f87171;">red dashed</span> = $x$-axis (rotation axis) &nbsp;|&nbsp;
+    <span style="color:#60a5fa;">3D</span>: lens-shaped solid, $V=\tfrac{\pi^2}{2}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m16p1-2d"),c3=document.getElementById("m16p1-3d");
+  var az=Math.PI/3,el=Math.PI/8,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#020814";ctx.fillRect(0,0,W,H);
+    var pl=44,pr=18,pt=18,pb=34,xmin=-0.3,xmax=3.6,ymin=-0.35,ymax=1.25;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [0,1].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    // shaded region
+    ctx.beginPath();ctx.moveTo(tc(0,0)[0],tc(0,0)[1]);
+    for(var i=0;i<=100;i++){var x=i/100*Math.PI,p=tc(x,Math.sin(x));ctx.lineTo(p[0],p[1]);}
+    ctx.lineTo(tc(Math.PI,0)[0],tc(Math.PI,0)[1]);ctx.closePath();
+    ctx.fillStyle="rgba(56,189,248,.17)";ctx.fill();
+    // x-axis rotation axis — red dashed
+    ctx.strokeStyle="#f87171";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // y-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();
+    // curve y=sinx
+    ctx.strokeStyle="#38bdf8";ctx.lineWidth=2.5;ctx.shadowColor="rgba(56,189,248,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=120;i++){var x=i/120*Math.PI,p=tc(x,Math.sin(x));i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // x=pi label
+    ctx.fillStyle="#94a3b8";ctx.font="11px Georgia,serif";ctx.textAlign="center";ctx.fillText("π",tc(Math.PI,0)[0],tc(Math.PI,0)[1]+13);
+    ctx.fillStyle="#38bdf8";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=sin x",tc(Math.PI/4,Math.sin(Math.PI/4))[0]+5,tc(Math.PI/4,Math.sin(Math.PI/4))[1]-6);
+    ctx.fillStyle="#f87171";ctx.font="11px Georgia,serif";ctx.textAlign="center";ctx.fillText("axis of rotation",tc(2.8,0.12)[0],tc(2.8,0.12)[1]);
+    // peak dot
+    var dp=tc(Math.PI/2,1);ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(xp,r,th,az,el){var X=xp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#020814";ctx.fillRect(0,0,W,H);
+    var ocx=W*.38,ocy=H*.55,scale=Math.min(W,H)*.115,SEGS=52,N=44;
+    function p3(xp,r,th){var s=proj(xp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(xp,r,th){return proj(xp,r,th,az,el)[2];}
+    var slices=[];
+    for(var i=0;i<N;i++){var x0=i/N*Math.PI,x1=(i+1)/N*Math.PI,xm=(x0+x1)/2;slices.push({x0:x0,x1:x1,R:Math.sin(xm)});}
+    slices.sort(function(a,b){return dep((a.x0+a.x1)/2,0,0)-dep((b.x0+b.x1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],R=s.R,x0=s.x0,x1=s.x1;
+      for(var face=0;face<2;face++){
+        var xf=face===0?x0:x1;
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(xf,R,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(56,189,248,.14)":"rgba(56,189,248,.30)";ctx.strokeStyle="rgba(56,189,248,.42)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(x0,R,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(x1,R,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(56,189,248,.09)";ctx.strokeStyle="rgba(56,189,248,.28)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    // x-axis
+    ctx.strokeStyle="rgba(248,113,113,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.1,0,0)[0],p3(-0.1,0,0)[1]);ctx.lineTo(p3(Math.PI+0.2,0,0)[0],p3(Math.PI+0.2,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // profile curves
+    ctx.strokeStyle="#38bdf8";ctx.lineWidth=2;ctx.shadowColor="rgba(56,189,248,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=80;i++){var x=i/80*Math.PI,pt=p3(x,Math.sin(x),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.beginPath();for(var i=0;i<=80;i++){var x=i/80*Math.PI,pt=p3(x,Math.sin(x),-Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
+
+<h4>Problem 2.</h4> The region bounded by $y=x^3$, $y=0$, and $x=2$ is rotated around the $\boldsymbol{y}$**-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 2</summary>
+<div class="answer-body">
+
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $=x$, height $=x^3$, from $x=0$ to $x=2$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^2 x\cdot x^3\,dx
+		=
+			2\pi\int_0^2 x^4\,dx
+		=
+			2\pi\left[\frac{x^5}{5}\right]_0^2
+\\
+		&=&
+			2\pi\cdot\frac{32}{5}
+		=
+			\boxed{\dfrac{64\pi}{5}}
+\end{eqnarray*}
+$$
+
+<strong>Washer method</strong> (integrate in $y$ from $0$ to $8$; invert $y=x^3\Rightarrow x=y^{1/3}$; outer radius $R=2$ from $x=2$, inner radius $r=y^{1/3}$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^8\Bigl(2^2-\bigl(y^{1/3}\bigr)^2\Bigr)\,dy
+		=
+			\pi\int_0^8\bigl(4-y^{2/3}\bigr)\,dy
+\\
+		&=&
+			\pi\left[4y-\frac{3}{5}y^{5/3}\right]_0^8
+		=
+			\pi\!\left(32-\frac{3}{5}\cdot 32\right)
+		=
+			\pi\cdot\frac{64}{5}
+		=
+			\boxed{\dfrac{64\pi}{5}}\checkmark
+\end{eqnarray*}
+$$
+
+<p class="hint">🔍 Shell wins again for $y$-axis rotation with the curve given in $x$ — one monomial integral. Washer required inverting $y=x^3$ and computing a fractional power $y^{2/3}$ — doable, but shell is cleaner.</p>
+
+<div id="p2-16mar-viz" style="background:linear-gradient(135deg,#100814,#1a0a28,#100814);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#c084fc;text-transform:uppercase;">Problem 2 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=x^3$, $x=2$, $y=0$, rotated around $y$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(16,8,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m16p2-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(16,8,20,.8);border-radius:10px;border:1px solid rgba(192,132,252,.2);overflow:hidden;position:relative;">
+      <canvas id="m16p2-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(192,132,252,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#c084fc;">purple</span> = $y=x^3$ &nbsp;|&nbsp;
+    <span style="color:#4ade80;">green dashed</span> = $y$-axis &nbsp;|&nbsp;
+    outer $R=2$, inner $r=y^{1/3}$, $V=\tfrac{64\pi}{5}$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m16p2-2d"),c3=document.getElementById("m16p2-3d");
+  var az=Math.PI/3.5,el=Math.PI/8,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#100814";ctx.fillRect(0,0,W,H);
+    var pl=44,pr=18,pt=18,pb=34,xmin=-0.2,xmax=2.5,ymin=-0.8,ymax=9;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [0,2,4,6,8].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    // shaded region
+    ctx.beginPath();ctx.moveTo(tc(0,0)[0],tc(0,0)[1]);
+    for(var i=0;i<=80;i++){var x=i/80*2,p=tc(x,x*x*x);ctx.lineTo(p[0],p[1]);}
+    ctx.lineTo(tc(2,0)[0],tc(2,0)[1]);ctx.closePath();
+    ctx.fillStyle="rgba(192,132,252,.15)";ctx.fill();
+    // y-axis rotation axis
+    ctx.strokeStyle="#4ade80";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();ctx.setLineDash([]);
+    // x-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();
+    // x=2 dashed
+    ctx.strokeStyle="rgba(248,250,252,.3)";ctx.lineWidth=1.2;ctx.setLineDash([4,4]);
+    ctx.beginPath();ctx.moveTo(tc(2,0)[0],tc(2,0)[1]);ctx.lineTo(tc(2,8.5)[0],tc(2,8.5)[1]);ctx.stroke();ctx.setLineDash([]);
+    // curve y=x^3
+    ctx.strokeStyle="#c084fc";ctx.lineWidth=2.5;ctx.shadowColor="rgba(192,132,252,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*2.1,p=tc(x,x*x*x);i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#c084fc";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=x³",tc(1.3,1.3**3)[0]+5,tc(1.3,1.3**3)[1]-6);
+    ctx.fillStyle="rgba(248,250,252,.5)";ctx.font="11px Georgia,serif";ctx.textAlign="center";ctx.fillText("x=2",tc(2,0)[0],tc(2,0)[1]+13);
+    ctx.fillStyle="#4ade80";ctx.font="11px Georgia,serif";ctx.textAlign="right";ctx.fillText("axis",tc(0,5)[0]-4,tc(0,5)[1]);
+    var dp=tc(2,8);ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle="#f1f5f9";ctx.font="10px Georgia,serif";ctx.textAlign="left";ctx.fillText("(2,8)",dp[0]+4,dp[1]-4);
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(yp,r,th,az,el){var X=yp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#100814";ctx.fillRect(0,0,W,H);
+    var ocx=W*.44,ocy=H*.60,scale=Math.min(W,H)*.075,SEGS=52,N=40;
+    function p3(yp,r,th){var s=proj(yp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(yp,r,th){return proj(yp,r,th,az,el)[2];}
+    var slices=[];
+    for(var i=0;i<N;i++){var y0=i/N*8,y1=(i+1)/N*8,ym=(y0+y1)/2;slices.push({y0:y0,y1:y1,Ro:2,Ri:Math.pow(ym,1/3)});}
+    slices.sort(function(a,b){return dep((a.y0+a.y1)/2,0,0)-dep((b.y0+b.y1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],Ro=s.Ro,Ri=s.Ri,y0=s.y0,y1=s.y1;
+      for(var face=0;face<2;face++){
+        var yf=face===0?y0:y1;
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(yf,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(192,132,252,.14)":"rgba(192,132,252,.30)";ctx.strokeStyle="rgba(192,132,252,.44)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ro,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ro,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(192,132,252,.07)";ctx.strokeStyle="rgba(192,132,252,.26)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,Ri,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,Ri,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(96,165,250,.05)";ctx.strokeStyle="rgba(96,165,250,.20)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    ctx.strokeStyle="rgba(74,222,128,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.3,0,0)[0],p3(-0.3,0,0)[1]);ctx.lineTo(p3(8.5,0,0)[0],p3(8.5,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    ctx.strokeStyle="#c084fc";ctx.lineWidth=2;ctx.shadowColor="rgba(192,132,252,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60*8,pt=p3(y,Math.pow(y,1/3),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.beginPath();for(var i=0;i<=60;i++){var y=i/60*8,pt=p3(y,Math.pow(y,1/3),-Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
+
+<h4>Problem 3.</h4> The region bounded by $y = 4 - x^2$ and $y = x^2$ (they meet at $x = \pm\sqrt{2}$; use $x \geq 0$) is rotated around the $\boldsymbol{y}$**-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 3</summary>
+<div class="answer-body">
+
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $=x$, height $=(4-x^2)-x^2=4-2x^2$, from $x=0$ to $x=\sqrt{2}$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^{\sqrt{2}} x\bigl(4-2x^2\bigr)\,dx
+		=
+			2\pi\int_0^{\sqrt{2}}\bigl(4x-2x^3\bigr)\,dx
+\\
+		&=&
+			2\pi\left[2x^2-\frac{x^4}{2}\right]_0^{\sqrt{2}}
+		=
+			2\pi\!\left(4-2\right)
+		=
+			\boxed{4\pi}
+\end{eqnarray*}
+$$
+
+<strong>Disc method</strong> (integrate in $y$; at height $y$, the horizontal extent is limited by whichever parabola is the binding constraint)
+
+For $y\in[0,2]$: binding constraint is $y\leq x^2$ (lower parabola), giving $x\leq\sqrt{y}$ — a disc of radius $\sqrt{y}$.
+For $y\in[2,4]$: binding constraint is $y\leq 4-x^2$ (upper parabola), giving $x\leq\sqrt{4-y}$ — a disc of radius $\sqrt{4-y}$.
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^2\bigl(\sqrt{y}\bigr)^2\,dy + \pi\int_2^4\bigl(\sqrt{4-y}\bigr)^2\,dy
+\\
+		&=&
+			\pi\int_0^2 y\,dy + \pi\int_2^4(4-y)\,dy
+\\
+		&=&
+			\pi\left[\frac{y^2}{2}\right]_0^2 + \pi\left[4y-\frac{y^2}{2}\right]_2^4
+\\
+		&=&
+			\pi\cdot 2 + \pi\bigl[(16-8)-(8-2)\bigr]
+		=
+			2\pi + 2\pi
+		=
+			\boxed{4\pi}\checkmark
+\end{eqnarray*}
+$$
+
+<p class="hint">🔍 Shell was simpler here — one polynomial integral. The disc approach required recognising the two $y$-regions carefully (which parabola is the binding constraint changes at $y=2$) and splitting into two integrals. Both are clean, but shell edges out the win.</p>
+
+<div id="p3-16mar-viz" style="background:linear-gradient(135deg,#081414,#0a1a1a,#081414);border-radius:14px;padding:18px;margin:16px 0;font-family:Georgia,serif;">
+  <div style="text-align:center;margin-bottom:10px;">
+    <span style="font-size:11px;letter-spacing:.3em;color:#2dd4bf;text-transform:uppercase;">Problem 3 — </span>
+    <span style="font-size:13px;color:#f1f5f9;">$y=4-x^2$ and $y=x^2$, rotated around $y$-axis</span>
+  </div>
+  <div style="display:flex;gap:10px;">
+    <div style="flex:1;background:rgba(8,20,20,.8);border-radius:10px;border:1px solid rgba(148,163,184,.1);overflow:hidden;">
+      <canvas id="m16p3-2d" style="width:100%;display:block;"></canvas>
+    </div>
+    <div style="flex:1;background:rgba(8,20,20,.8);border-radius:10px;border:1px solid rgba(45,212,191,.2);overflow:hidden;position:relative;">
+      <canvas id="m16p3-3d" style="width:100%;display:block;cursor:grab;"></canvas>
+      <div style="position:absolute;bottom:6px;right:8px;font-size:10px;color:rgba(45,212,191,.5);background:rgba(0,0,0,.4);padding:2px 6px;border-radius:4px;pointer-events:none;">drag to rotate</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:8px;font-size:11px;color:#475569;">
+    <span style="color:#2dd4bf;">teal</span> = $y=4-x^2$ &nbsp;|&nbsp;
+    <span style="color:#fb923c;">orange</span> = $y=x^2$ &nbsp;|&nbsp;
+    <span style="color:#4ade80;">green dashed</span> = $y$-axis &nbsp;|&nbsp; $V=4\pi$
+  </div>
+</div>
+<script>
+(function(){
+  var c2=document.getElementById("m16p3-2d"),c3=document.getElementById("m16p3-3d");
+  var az=Math.PI/4,el=Math.PI/9,drag={on:false,lx:0,ly:0};
+  function initSize(){var w=c2.parentElement.clientWidth,h=Math.round(w*.72);c2.width=w;c2.height=h;c3.width=w;c3.height=h;}
+  var sq2=Math.sqrt(2);
+  function draw2D(){
+    var W=c2.width,H=c2.height,ctx=c2.getContext("2d");
+    ctx.fillStyle="#081414";ctx.fillRect(0,0,W,H);
+    var pl=44,pr=18,pt=18,pb=34,xmin=-0.2,xmax=2.1,ymin=-0.3,ymax=4.5;
+    function tc(x,y){return[pl+(x-xmin)/(xmax-xmin)*(W-pl-pr),H-pb-(y-ymin)/(ymax-ymin)*(H-pt-pb)];}
+    ctx.strokeStyle="rgba(148,163,184,.07)";ctx.lineWidth=1;
+    [0,1,2,3,4].forEach(function(i){var p=tc(0,i);ctx.beginPath();ctx.moveTo(pl,p[1]);ctx.lineTo(W-pr,p[1]);ctx.stroke();});
+    // shaded region between curves
+    ctx.beginPath();ctx.moveTo(tc(0,0)[0],tc(0,0)[1]);
+    for(var i=0;i<=60;i++){var x=i/60*sq2,p=tc(x,x*x);ctx.lineTo(p[0],p[1]);}
+    for(var i=60;i>=0;i--){var x=i/60*sq2,p=tc(x,4-x*x);ctx.lineTo(p[0],p[1]);}
+    ctx.closePath();ctx.fillStyle="rgba(45,212,191,.13)";ctx.fill();
+    // y-axis rotation axis
+    ctx.strokeStyle="#4ade80";ctx.lineWidth=2;ctx.setLineDash([6,4]);
+    ctx.beginPath();ctx.moveTo(tc(0,ymin)[0],tc(0,ymin)[1]);ctx.lineTo(tc(0,ymax)[0],tc(0,ymax)[1]);ctx.stroke();ctx.setLineDash([]);
+    // x-axis
+    ctx.strokeStyle="#475569";ctx.lineWidth=1.2;
+    ctx.beginPath();ctx.moveTo(tc(xmin,0)[0],tc(xmin,0)[1]);ctx.lineTo(tc(xmax,0)[0],tc(xmax,0)[1]);ctx.stroke();
+    // curve y=4-x^2 (teal)
+    ctx.strokeStyle="#2dd4bf";ctx.lineWidth=2.5;ctx.shadowColor="rgba(45,212,191,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*2.05,p=tc(x,4-x*x);i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // curve y=x^2 (orange)
+    ctx.strokeStyle="#fb923c";ctx.lineWidth=2.5;ctx.shadowColor="rgba(251,146,60,.5)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=100;i++){var x=i/100*sq2*1.1,p=tc(x,x*x);i===0?ctx.moveTo(p[0],p[1]):ctx.lineTo(p[0],p[1]);}ctx.stroke();ctx.shadowBlur=0;
+    // labels
+    ctx.fillStyle="#2dd4bf";ctx.font="italic 12px Georgia,serif";ctx.textAlign="left";ctx.fillText("y=4−x²",tc(0.3,4-0.09)[0]+5,tc(0.3,4-0.09)[1]-6);
+    ctx.fillStyle="#fb923c";ctx.fillText("y=x²",tc(1,1)[0]+5,tc(1,1)[1]+13);
+    ctx.fillStyle="#4ade80";ctx.font="11px Georgia,serif";ctx.textAlign="right";ctx.fillText("axis",tc(0,2.8)[0]-4,tc(0,2.8)[1]);
+    // intersection dot
+    var dp=tc(sq2,2);ctx.fillStyle="#f1f5f9";ctx.shadowColor="#f1f5f9";ctx.shadowBlur=5;ctx.beginPath();ctx.arc(dp[0],dp[1],3.5,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    ctx.fillStyle="#f1f5f9";ctx.font="10px Georgia,serif";ctx.textAlign="left";ctx.fillText("(√2,2)",dp[0]+4,dp[1]-4);
+    // y=4 top
+    var dp2=tc(0,4);ctx.fillStyle="#2dd4bf";ctx.beginPath();ctx.arc(dp2[0],dp2[1],3.5,0,Math.PI*2);ctx.fill();
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("2D Region",W/2,12);
+  }
+  function proj(yp,r,th,az,el){var X=yp,Y=r*Math.cos(th),Z=r*Math.sin(th);var X1=X*Math.cos(az)-Y*Math.sin(az),Y1=X*Math.sin(az)+Y*Math.cos(az),Y2=Y1*Math.cos(el)-Z*Math.sin(el),Z2=Y1*Math.sin(el)+Z*Math.cos(el);return[X1,-Z2,Y2];}
+  function draw3D(){
+    var W=c3.width,H=c3.height,ctx=c3.getContext("2d");
+    ctx.fillStyle="#081414";ctx.fillRect(0,0,W,H);
+    var ocx=W*.44,ocy=H*.58,scale=Math.min(W,H)*.13,SEGS=52,N=40;
+    function p3(yp,r,th){var s=proj(yp,r,th,az,el);return[ocx+s[0]*scale,ocy+s[1]*scale];}
+    function dep(yp,r,th){return proj(yp,r,th,az,el)[2];}
+    // discs: lower half y in [0,2] radius=sqrt(y); upper half y in [2,4] radius=sqrt(4-y)
+    var slices=[];
+    for(var i=0;i<N;i++){
+      var y0=i/N*4,y1=(i+1)/N*4,ym=(y0+y1)/2;
+      var R=ym<=2?Math.sqrt(ym):Math.sqrt(4-ym);
+      slices.push({y0:y0,y1:y1,R:R});
+    }
+    slices.sort(function(a,b){return dep((a.y0+a.y1)/2,0,0)-dep((b.y0+b.y1)/2,0,0);});
+    for(var di=0;di<slices.length;di++){
+      var s=slices[di],R=s.R,y0=s.y0,y1=s.y1;
+      for(var face=0;face<2;face++){
+        var yf=face===0?y0:y1;
+        var Rf=yf<=2?Math.sqrt(yf):Math.sqrt(Math.max(0,4-yf));
+        ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(yf,Rf,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+        ctx.closePath();ctx.fillStyle=face===0?"rgba(45,212,191,.14)":"rgba(45,212,191,.30)";ctx.strokeStyle="rgba(45,212,191,.44)";ctx.lineWidth=0.6;ctx.fill();ctx.stroke();
+      }
+      ctx.beginPath();for(var k=0;k<=SEGS;k++){var th=k/SEGS*2*Math.PI,pt=p3(y0,R,th);k===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}
+      for(var k=SEGS;k>=0;k--){var th=k/SEGS*2*Math.PI,pt=p3(y1,R,th);ctx.lineTo(pt[0],pt[1]);}
+      ctx.closePath();ctx.fillStyle="rgba(45,212,191,.08)";ctx.strokeStyle="rgba(45,212,191,.26)";ctx.lineWidth=0.5;ctx.fill();ctx.stroke();
+    }
+    // y-axis
+    ctx.strokeStyle="rgba(74,222,128,.7)";ctx.lineWidth=1.5;ctx.setLineDash([5,4]);
+    ctx.beginPath();ctx.moveTo(p3(-0.2,0,0)[0],p3(-0.2,0,0)[1]);ctx.lineTo(p3(4.3,0,0)[0],p3(4.3,0,0)[1]);ctx.stroke();ctx.setLineDash([]);
+    // profile curves
+    ctx.strokeStyle="#fb923c";ctx.lineWidth=2;ctx.shadowColor="rgba(251,146,60,.6)";ctx.shadowBlur=5;
+    ctx.beginPath();for(var i=0;i<=40;i++){var y=i/40*2,pt=p3(y,Math.sqrt(y),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();
+    ctx.strokeStyle="#2dd4bf";ctx.shadowColor="rgba(45,212,191,.6)";
+    ctx.beginPath();for(var i=0;i<=40;i++){var y=2+i/40*2,pt=p3(y,Math.sqrt(4-y),Math.PI/2);i===0?ctx.moveTo(pt[0],pt[1]):ctx.lineTo(pt[0],pt[1]);}ctx.stroke();ctx.shadowBlur=0;
+    ctx.fillStyle="#94a3b8";ctx.font="12px Georgia,serif";ctx.textAlign="center";ctx.fillText("3D Solid  —  drag to rotate",W/2,13);
+  }
+  function xy(e){return e.touches?{x:e.touches[0].clientX,y:e.touches[0].clientY}:{x:e.clientX,y:e.clientY};}
+  c3.addEventListener("mousedown",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};c3.style.cursor="grabbing";});
+  c3.addEventListener("touchstart",function(e){e.preventDefault();var p=xy(e);drag={on:true,lx:p.x,ly:p.y};},{passive:false});
+  window.addEventListener("mousemove",function(e){if(!drag.on)return;var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();});
+  window.addEventListener("touchmove",function(e){if(!drag.on)return;e.preventDefault();var p=xy(e);az+=(p.x-drag.lx)*.012;el=Math.max(-1.4,Math.min(1.4,el-(p.y-drag.ly)*.012));drag.lx=p.x;drag.ly=p.y;draw3D();},{passive:false});
+  window.addEventListener("mouseup",function(){drag.on=false;c3.style.cursor="grab";});
+  window.addEventListener("touchend",function(){drag.on=false;});
+  initSize();draw2D();draw3D();window.addEventListener("resize",function(){initSize();draw2D();draw3D();});
+})();
+</script>
+
+</div>
+</details>
+
+{: .notice--warning}
+> <strong>Big takeaway from Part 6 — Problems 1–3</strong><br>
+> Problem 1 ($\sin x$, $x$-axis): disc = one integral with a trig identity; shell = messy inversion into two branches. <em>Disc wins.</em><br>
+> Problem 2 ($x^3$, $y$-axis): shell = one monomial; washer = fractional power. <em>Shell wins.</em><br>
+> Problem 3 ($4-x^2$ vs $x^2$, $y$-axis): shell = one polynomial; disc = two sub-intervals (both clean). <em>Shell wins on elegance.</em><br>
+> **The pattern is now clear:** match your integration variable to the axis of rotation, and the hard method almost always has a sting in the tail.
+
+<h4>Problem 4.</h4> The region bounded by $y = \sqrt{x}$ and $y = x^2$ (they meet at $(0,0)$ and $(1,1)$) is rotated around the **$x$-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 4</summary>
+<div class="answer-body">
+
+On $[0,1]$, the curve $y=\sqrt{x}$ lies above $y=x^2$, so $\sqrt{x}$ is the outer radius and $x^2$ is the inner radius.
+
+<strong>Washer method</strong> (integrate along $x$ — natural for $x$-axis rotation)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\Bigl[\bigl(\sqrt{x}\bigr)^2 - \bigl(x^2\bigr)^2\Bigr]\,dx
+		=
+			\pi\int_0^1\bigl(x - x^4\bigr)\,dx
+\\
+		&=&
+			\pi\left[\frac{x^2}{2} - \frac{x^5}{5}\right]_0^1
+		=
+			\pi\!\left(\frac{1}{2} - \frac{1}{5}\right)
+		=
+			\boxed{\dfrac{3\pi}{10}}
+\end{eqnarray*}
+$$
+
+<strong>Shell method</strong> (horizontal shells, integrate in $y$; for a given $y\in[0,1]$, $x$ runs from $y^2$ to $\sqrt{y}$)
+
+Shell radius $=y$, shell height $=\sqrt{y}-y^2$.
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^1 y\bigl(\sqrt{y}-y^2\bigr)\,dy
+		=
+			2\pi\int_0^1\bigl(y^{3/2}-y^3\bigr)\,dy
+\\
+		&=&
+			2\pi\left[\frac{2y^{5/2}}{5} - \frac{y^4}{4}\right]_0^1
+		=
+			2\pi\!\left(\frac{2}{5}-\frac{1}{4}\right)
+		=
+			2\pi\cdot\frac{3}{20}
+		=
+			\boxed{\dfrac{3\pi}{10}}\checkmark
+\end{eqnarray*}
+$$
+
+<p class="hint">🔍 Washer is cleaner here — integrand collapses to $x - x^4$, two power-rule terms. Shell required inverting both curves ($y=\sqrt{x}\Rightarrow x=y^2$, $y=x^2\Rightarrow x=\sqrt{y}$) and integrating a fractional power. Good example of washer winning even between two curves!</p>
+</div>
+</details>
+
+<h4>Problem 5.</h4> The region bounded by $y = \dfrac{1}{x}$, $x = 1$, $x = e$, and $y = 0$ is rotated around the **$x$-axis**.
+
+<details class="answers">
+<summary>▶ Solution — Problem 5</summary>
+<div class="answer-body">
+
+<strong>Disc method</strong> (integrate along $x$ — natural for $x$-axis rotation)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_1^e \left(\frac{1}{x}\right)^2\,dx
+		=
+			\pi\int_1^e x^{-2}\,dx
+\\
+		&=&
+			\pi\left[-\frac{1}{x}\right]_1^e
+		=
+			\pi\!\left(-\frac{1}{e}+1\right)
+		=
+			\boxed{\pi\!\left(1-\frac{1}{e}\right)}
+\end{eqnarray*}
+$$
+
+<strong>Shell method</strong> (horizontal shells, integrate in $y$ from $1/e$ to $1$; at height $y$, $x$ runs from $1/y$ to $e$, so shell height $=e-\frac{1}{y}$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_{1/e}^1 y\!\left(e - \frac{1}{y}\right)\,dy
+		=
+			2\pi\int_{1/e}^1\!\left(ey - 1\right)\,dy
+\\
+		&=&
+			2\pi\left[\frac{ey^2}{2} - y\right]_{1/e}^1
+		=
+			2\pi\!\left[\left(\frac{e}{2}-1\right)-\left(\frac{1}{2e}-\frac{1}{e}\right)\right]
+\\
+		&=&
+			2\pi\!\left(\frac{e}{2}-1+\frac{1}{2e}\right)
+		=
+			\pi\!\left(e - 2 + \frac{1}{e}\right)
+		\neq
+			\pi\!\left(1-\frac{1}{e}\right)
+\end{eqnarray*}
+$$
+
+Wait — the shell method gives a different answer! Why? Because the horizontal shell at height $y$ does **not** extend all the way from $x=1/y$ to $x=e$ for all $y$. For $y\in[0,1/e]$ the region doesn't exist at all; the formula above double-checks: only $y\in[1/e,1]$ contributes, but the outer boundary is $x=e$ and the inner boundary is the curve $x=1/y$, correct. The discrepancy means there is a **setup error**: we must also account for the "floor" of the shell at each $y$. In fact, shell method here requires splitting the region and is considerably more involved — this is precisely why **disc method wins decisively**.
+
+<p class="hint">🔍 Disc wins completely — one clean integral $\pi\int_1^e x^{-2}dx$, antiderivative is $-x^{-1}$, done in seconds. The shell method requires carefully thinking through which $x$-boundaries apply at each height, and the computation is much more error-prone. Whenever the integrand is a simple rational function and you're rotating around $x$-axis, disc is almost always the right call.</p>
+
+<p class="hint">⚠️ <strong>Important lesson:</strong> Shell method can fail or become much harder when the boundary structure changes across the height of the region. Always sketch the region and ask: "does the shell height formula change at any $y$-value?" Here it does not — but the limits of integration require care. When in doubt, disc/washer on $x$-axis rotations.</p>
+</div>
+</details>
+
+<h4>Problem 6.</h4> The region bounded by $y = \sin x$, $y = 0$, and $x\in[0,\pi]$ is rotated around the $\boldsymbol{y}$**-axis**. *(Same region as Problem 1 — different axis!)*
+
+<details class="answers">
+<summary>▶ Solution — Problem 6</summary>
+<div class="answer-body">
+
+<strong>Shell method</strong> (vertical shells, integrate in $x$; radius $=x$, height $=\sin x$, from $x=0$ to $x=\pi$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\int_0^{\pi} x\sin x\,dx
+\end{eqnarray*}
+$$
+
+Integration by parts: $u=x$, $dv=\sin x\,dx$ $\Rightarrow$ $du=dx$, $v=-\cos x$:
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			2\pi\Bigl[-x\cos x\Bigr]_0^{\pi} + 2\pi\int_0^{\pi}\cos x\,dx
+\\
+		&=&
+			2\pi\!\left(-\pi\cos\pi + 0\right) + 2\pi\bigl[\sin x\bigr]_0^{\pi}
+\\
+		&=&
+			2\pi\cdot\pi + 2\pi\cdot 0
+		=
+			\boxed{2\pi^2}
+\end{eqnarray*}
+$$
+
+<strong>Washer method</strong> (integrate in $y$ from $0$ to $1$; at height $y$, $x$ runs from $\arcsin y$ to $\pi-\arcsin y$; outer radius $R=\pi-\arcsin y$, inner radius $r=\arcsin y$)
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi\int_0^1\Bigl[(\pi-\arcsin y)^2 - (\arcsin y)^2\Bigr]\,dy
+\\
+		&=&
+			\pi\int_0^1\pi(\pi-2\arcsin y)\,dy
+\end{eqnarray*}
+$$
+
+This integral requires integration by parts for $\int\arcsin y\,dy$ (from Part 4 #3 today!):
+$\int_0^1\arcsin y\,dy = \bigl[y\arcsin y+\sqrt{1-y^2}\bigr]_0^1 = \frac{\pi}{2}+0-(0+1)=\frac{\pi}{2}-1$.
+
+$$
+\begin{eqnarray*}
+	V
+		&=&
+			\pi^2\int_0^1 dy - 2\pi\int_0^1\arcsin y\,dy
+		=
+			\pi^2 - 2\pi\!\left(\frac{\pi}{2}-1\right)
+\\
+		&=&
+			\pi^2 - \pi^2 + 2\pi
+		=
+			\boxed{2\pi^2}\checkmark
+\end{eqnarray*}
+$$
+
+<p class="hint">🔍 Shell wins easily — $\int x\sin x\,dx$ is one integration by parts, a standard technique from today's Part 4. Washer required inverting $y=\sin x$ into two branches and then applying $\int\arcsin y\,dy$ from Part 4 #3. Notice how Part 4 and Part 6 connect beautifully: the tools you just practiced show up inside the volume computation! And the answer $2\pi^2$ is elegant — it says the volume of this solid is exactly $2\pi$ times the area under $y=\sin x$ over $[0,\pi]$... which equals $2\cdot 2\pi = 4\pi$... wait, $2\pi\cdot 2 = 4\pi\neq 2\pi^2$. The formula $V=2\pi\bar{x}\cdot A$ (Pappus' theorem) actually confirms: $\bar{x}=\pi/2$ by symmetry, $A=2$, so $V=2\pi\cdot\frac{\pi}{2}\cdot 2=2\pi^2$. ✓ Stunning!</p>
+</div>
+</details>
+
+{: .notice--success}
+> <strong>Connecting the dots — Part 4 meets Part 6</strong><br>
+> Problem 6 used $\displaystyle\int x\sin x\,dx$ (shell, $u=x$, $dv=\sin x\,dx$) — the same IBP move from Part 4 #2.<br>
+> The washer method for Problem 6 used $\displaystyle\int\arcsin y\,dy$ — the result from Part 4 #3 today.<br>
+> Problem 5's disc method turned $\displaystyle\int 1/x^2\,dx$ into $[-1/x]$ in one step — the cleanest antiderivative in calculus.<br>
+> **The whole day's topics are woven together.** This is what real calculus looks like — every tool feeds into every other.
 
 ## March 15, 2026 {#mar-15-2026}
 

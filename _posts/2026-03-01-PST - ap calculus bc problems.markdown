@@ -1,6 +1,6 @@
 ---
 date: Sun Mar  1 23:13:06 PST 2026
-last_modified_at: Sun Mar 15 05:12:07 PDT 2026
+last_modified_at: Mon Mar 16 20:15:57 PDT 2026
 title: "Daddy's AP Calculus BC for Beth"
 permalink: /math/ap/calculus/bc
 categories:
@@ -166,6 +166,7 @@ Each session has problems + a collapsible answer key so you can self-check.
 
 | Date | Topics |
 |------|--------|
+| [16-Mar-2026](/math/ap/calculus/bc/daily#mar-16-2026){:target="_blank"} | Limits · Indeterminate forms · Series · Integration by parts · **FTC both parts** · Volumes |
 | [15-Mar-2026](/math/ap/calculus/bc/daily#mar-15-2026){:target="_blank"} | Limits (higher-order · $0^0$ · $1^\infty$) · Series &amp; radius of convergence · Integration by parts (solve for $I$!) · Volumes (mixed axes) |
 | [11-Mar-2026](/math/ap/calculus/bc/daily#mar-11-2026){:target="_blank"} | Limits (two methods) · Series · Integration by parts · Volumes around $y$-axis (shell vs. washer) |
 | [10-Mar-2026](/math/ap/calculus/bc/daily#mar-10-2026){:target="_blank"} | Limits (two methods) · Series · FTC + chain rule · Volumes of revolution (disc & shell) |
