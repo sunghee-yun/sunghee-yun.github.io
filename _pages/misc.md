@@ -1,5 +1,5 @@
 ---
-last_modified_at: Mon Mar  9 22:18:06 PDT 2026
+last_modified_at: Sun Mar 22 23:50:13 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -298,6 +298,10 @@ toc_sticky: true
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:35am PDT on 06-Apr-2026
 		(10h 45m)
 	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- 2 night trip to Daegu; invited to  to attend BSR Korea &amp; Jeonbuk office
+		- 26-Mar-2026 ~ 28-Mar-2026
+		- KTX069 &ndash; Seoul @ 9:28pm to Dongdaegu @ 11:17pm [train ticket](/resource/trips/2026-03 - biz trip to Seoul/36_Sunghee Yun_Daegu Bound.pdf){:target="_blank"}
+		- KTX-산천4120 &ndash; Dongdaegu @ 9:10pm to Seoul @ 11:12pm [train ticket](/resource/trips/2026-03 - biz trip to Seoul/36_Sunghee Yun_Seoul Bound.pdf){:target="_blank"}
 
 <h4>Feb</h4>
 
@@ -333,7 +337,6 @@ toc_sticky: true
 		- KTX 209 &ndash; from Gwangmyeong @ 10:26am to Daejeon @ 11:12am [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 42,400 - KTX - Gwangmyeong to Daejeon - Sunghee & Jinyoung.pdf){:target="_blank"}
 		- ~~SRT 332 &ndash; from Daejeon @ 2:16pm to Osong @ 2:32pm &amp;~~ SRT 611 &ndash; from Osong @ 2:51pm to Iksan @ 3:19pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 58,600 - SRT - Daejeon to Iksan - Sunghee & Jinyoung.pdf){:target="_blank"}
 		- KTX-산천 518 &ndash; from Iksan @ 6:16pm to Gwangmyeong @ 7:18pm [receipt](/resource/trips/2026-01 - biz trip to Seoul/2026 0205 - KRW 60,200 - KTX - Iksan to Gwangmyeong - Sunghee & Jinyoung.pdf){:target="_blank"}
-
 
 ## 2021 &#126; 2025 {#trips-2021-2025}
 
