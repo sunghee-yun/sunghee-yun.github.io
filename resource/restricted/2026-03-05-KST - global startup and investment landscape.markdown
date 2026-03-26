@@ -1,10 +1,10 @@
 ---
 date: Thu Mar  5 16:42:39 PST 2026
-last_modified_at: Sat Mar  7 04:07:18 PST 2026
+last_modified_at: Thu Mar 26 09:01:58 KST 2026
 layout: single
 #title: "&ldquo;지원 중심 한국, 성과 중심 미국&rdquo;&hellip; 글로벌 창업가가 본 투자 생태계 차이"
 title: "&ldquo;정부 주도 vs 시장 검증&rdquo;&hellip; 한미 스타트업 생태계의 서로 다른 길"
-permalink: /article/global-entrepreneurship-investment
+permalink: /article/archive/global-entrepreneurship-investment
 categories:
  - blog
 tags:
