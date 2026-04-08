@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sat Feb 14 21:00:49 CST 2026
+last_modified_at: Wed Apr  8 01:52:14 PDT 2026
 layout: single
 title: About
 permalink: /about/
@@ -267,7 +267,7 @@ My life goal is to help build a future where humanity thrives through the advanc
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
-the Leader of Silicon Valley AI Nexus (SVAIN),
+Co-Founder &amp; Leader of Silicon Valley AI Nexus (SVAIN),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
 AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
@@ -277,7 +277,7 @@ His extensive experience in semiconductor and AI technologies includes notable c
 His current company, Erudio Bio, recently received $1M Grant from Gates Foundation
 supporting bioTCAD, an AI drug discovery platform.
 
-He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on Convex Optimization.
+He holds BS degree in Electrical Engineering from Seoul National University and MS & Ph.D. degrees from Stanford University under Prof. Stephen P. Boyd, the world's singular authority on [Convex Optimization](/prajna/glimpse-of-universal-truths-via-shadow-prices).
 [Sunghee](/)'s expertise spans agentic AI, large language models (LLMs), and multimodal generative AI (genAI), while serving in active roles as a Visiting Professor at Sogang University, Advisory Professor at DGIST, and Global Advisory Board Member for Innovative Future Brain-Inspired Intelligence System Semiconductor at Sogang University.
 
 ## long
@@ -285,7 +285,7 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of Erudio Bio, Inc.,
 Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
-the Leader of Silicon Valley AI Nexus (SVAIN),
+Co-Founder &amp; Leader of Silicon Valley AI Nexus (SVAIN),
 Advisor to Korean American Semiconductor Professional Alliance (KASPA),
 CGO &amp; Global Managing Partner of LULUMEDIC,
 AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
@@ -301,7 +301,7 @@ supporting bioTCAD, an AI drug discovery platform.
 
 He holds BS degree in Electrical Engineering from Seoul National University
 and MS & Ph.D. degrees in Electrical Engineering from Stanford University,
-where he studied under Prof. Stephen P. Boyd, the world's singular authority on Convex Optimization.
+where he studied under Prof. Stephen P. Boyd, the world's singular authority on [Convex Optimization](/prajna/glimpse-of-universal-truths-via-shadow-prices).
 He uniquely masters every aspect of the field—from theoretical foundations
 to practical implementations, applications, and statistical methods.
 
