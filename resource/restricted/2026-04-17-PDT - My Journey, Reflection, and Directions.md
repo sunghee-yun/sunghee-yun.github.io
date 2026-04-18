@@ -1,6 +1,6 @@
 ---
 date: Fri Apr 17 17:33:19 PDT 2026
-last_modified_at: Fri Apr 17 18:19:08 PDT 2026
+last_modified_at: Fri Apr 17 18:36:29 PDT 2026
 layout: single
 title: "My Journey, Reflection, and Direction"
 permalink: /personal/journey-reflection-directions
@@ -123,6 +123,42 @@ real and valuable. However:
 - Reduce operational involvement, maintain strategic relationships
 - The June 2026 "Silicon Stethoscope" forum is well-positioned as
   a platform for Erudio Bio's thesis
+
+## Network Leverage Strategy
+
+The K-PAI network represents a genuinely valuable strategic asset
+for Erudio Bio - not something to manage separately, but something
+to deploy actively. Key leverage points:
+
+**Fundraising:**
+- The Korean-American investor community accessible through K-PAI
+  is an underutilized channel for Korean biotech startups
+- KOTRA Silicon Valley specifically bridges Korean companies to US
+  investment - a natural ally for Erudio Bio's fundraising effort
+- Speaking reputation and community trust create warm introductions
+  that cold outreach cannot replicate
+- The $5M Gates Foundation commitment, once unlocked by a lead
+  investor, is a powerful signal to share within this network
+
+**Business Development:**
+- K-BioX connections are directly relevant to Erudio Bio's
+  biotech positioning and potential partnerships
+- Korean medical institution relationships (e.g., SNUBH) become
+  more accessible through established community credibility
+- The Silicon Valley-Korea bridge I've built is exactly the
+  infrastructure Erudio Bio needs for its dual-market strategy
+
+**Strategic Visibility:**
+- The June 2026 K-PAI "Silicon Stethoscope" forum ("The Great
+  Convergence") positions Erudio Bio's thesis in front of exactly
+  the right audience: Korean-Silicon Valley AI and biotech leaders
+- Selective speaking engagements should explicitly connect to
+  Erudio Bio's mission and technology
+
+**The Operating Principle:**
+Let K-PAI work FOR Erudio Bio passively rather than actively
+managing K-PAI as a separate commitment. The community I've built
+is the infrastructure. Erudio Bio is the mission it now serves.
 
 ## Speaking and Thought Leadership
 
