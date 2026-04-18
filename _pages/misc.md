@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sun Mar 22 23:50:13 PDT 2026
+last_modified_at: Mon Apr 13 16:18:08 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -284,6 +284,22 @@ toc_sticky: true
 ## 2026 &#126; 2030 {#trips-2021-2030}
 
 <h3>2026</h3>
+
+<h4>May</h4>
+
+- biz trip to Seoul &ndash; 12 nights
+	- 22-May-2026 PDT ~ 03-Jun-2026 PDT
+	- flight
+		&ndash; KE24
+		&ndash; from SFO @ 12:40pm on 22-May-2026 PDT to ICN @ 5:20pm on 23-May-2026 KST
+		(12h 40m)
+	- return flight
+		&ndash; KE23
+		&ndash; from ICN @ 4pm KST to SFO @ 10:40am PDT on 03-Jun-2026
+		(10h 40m)
+	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- 2 night stay in Suwon; invited to 3 day KOBRA Conference
+		- 27-May-2026 ~ 29-May-2026
 
 <h4>Mar</h4>
 
