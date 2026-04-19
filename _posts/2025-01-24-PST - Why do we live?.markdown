@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon Mar  2 16:48:42 PST 2026
+last_modified_at: Sun Apr 19 00:09:56 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -85,7 +85,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	</div>
 </div>
 
-<div class="img-container-justified">
+<!--div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 			<strong>Debate - New Meaning Question Choice Versus Constraints</strong>
@@ -110,9 +110,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			</audio>
 		</div>
 	</div>
-</div>
+</div-->
 
-<div id="podcast-seminars-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
+<!--div id="podcast-seminars-video-01" style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; display: inline-block; vertical-align: top;">
 	<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
 		<strong>Why Do We Live?</strong>
 		<span style="opacity: 0.8;">(06:11)</span>
@@ -123,7 +123,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 			Your browser does not support this video element.
 		</video>
 	</div>
-</div>
+</div-->
 
 <div class="img-container">
 	<img style="max-width: 100%;" src="https://sungheeyun-photos-01.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/infographics/infographic.png">
