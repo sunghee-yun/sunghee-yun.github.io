@@ -1,7 +1,7 @@
 ---
 title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Mon Feb 23 18:35:06 PST 2026
+last_modified_at: Sat Apr 18 23:53:01 PDT 2026
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -38,7 +38,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign why_do_we_live = site.posts | where: "url", "/blog/PST-Why-do-we-live/" | first %}
 
 {: .notice--success}
-This article will be a sister blog of [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}).
+This article is a sequel to [{{ strategic_ignorance.title }}]({{ strategic_ignorance.url }}).
 
 <!--
 
