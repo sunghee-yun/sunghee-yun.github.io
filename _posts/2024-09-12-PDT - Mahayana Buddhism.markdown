@@ -1,7 +1,8 @@
 ---
-title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
 date: 2024-09-12 PDT
 last_modified_at: Fri Jan  2 11:20:22 PST 2026
+title: Mahayana Buddhism - 대승불교大乘佛敎의 가르침
+permalink: /prajna/mahayana-buddhism
 categories:
  - blog
  - Philosophy
