@@ -1,13 +1,14 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Sun Apr 19 01:43:40 PDT 2026
-title: "Coming Back to the Human &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
+last_modified_at: Sun Apr 19 23:24:06 PDT 2026
+title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/human-emotions
 categories:
  - blog
  - Philosophy
  - Universal Truth
  - Cognitive Science
+ - AI
 tags:
  - values
  - philosophy
@@ -29,9 +30,15 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 {% assign agent_living_question = site.posts | where: "permalink", "/blog/PST-Why-do-we-live/" | first %}
 {% assign mahayana_buddhism = site.posts | where: "permalink", "/prajna/mahayana-buddhism" | first %}
+{% assign full_info = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
+{% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
 
 {: .notice--success}
 This article is a sequel to [{{ agent_living_question.title }}]({{ agent_living_question.url }}).
+
+> &hellip; <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> Use it freely for the first two. Be extraordinarily careful about the third. The temptation to let capable systems do our meaning-making for us will grow with every capability jump. Resisting that temptation is, I think, the central discipline of the human in the AI era.
+
+> In the language of this essay &ndash; <span class="emph">the AI can help me see that no honor is inherent. It cannot choose, on my behalf, what I will honor.<!-- Any system that claims to do the second is either confused or trying to confuse me.--></span>
 
 <!--
 > &hellip; the right question is not &ldquo;Is anything honorable?&rdquo; but &ldquo;Do I choose to honor anything?&rdquo; This reframing &mdash; structurally identical to the move I made in [&ldquo;Why Do We Live? &mdash; A Wrong Question to Ask&rdquo;](/blog/PST-Why-do-we-live/) &mdash; shifts the ground from cosmic verdict to lived choice.
@@ -55,6 +62,12 @@ The structure of this journey, I have come to see, mirrors the [Ten Ox-Herding P
 # Beyond Language &mdash; Why Wittgenstein Was Not Far Enough
 
 Before I describe the journey, I must say something about its medium. We are about to use language to point at things that language cannot reach. This is not a stylistic warning. It is a structural feature of the territory.
+
+Consider what it feels like to look at a highly detailed map of a city. The streets are perfectly gridded. The transit lines are color-coded. The neighborhood boundaries are drawn with unyielding precision. You trace a finger from one borough to another and [feel a powerful illusion that you are holding the entire reality of the city in your hands]({{ full_info.url }}#the-lightning-strike-of-realization). The map is a closed system of logic &mdash; it strips away the chaos and the noise and leaves you with something safe, manageable, and *comprehensible*.
+
+Now actually go and stand on the physical corner of one of those mapped intersections. Immediately, you realize the map captures almost nothing of the moment you are in. It has no smell of the halal food cart. No late afternoon light reflecting off the glass of the buildings and blinding you for a second. No visceral roar of rush hour traffic vibrating in your chest. The map is a representation. It is not the territory. <span class="emph">And the jarring disconnect between the tools we use to describe reality and reality itself is exactly the disorientation I want to put on the table before we go further.</span>
+
+Every philosophical concept, every proposition, every carefully reasoned argument in this essay &mdash; including the ones I am about to make &mdash; is a map. Useful, often indispensable, but never the thing itself. Keep this in mind, because it explains why the Western philosophical tradition and the Eastern contemplative tradition, while pointing at some of the same territory, do not sit at the same distance from it.
 
 [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"}, at the close of the *[Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus){:target="_blank"}*, wrote one of the most quoted sentences in twentieth-century philosophy: <span class="emph">&ldquo;Whereof one cannot speak, thereof one must be silent.&rdquo;</span> Some take this as the Western arrival at the same edge that Eastern contemplative traditions had reached two and a half millennia earlier. I do not agree, though.
 
@@ -120,7 +133,7 @@ Here is the punchline, and it is strange enough that I want to state it carefull
 
 But not because these things have inherent value. I had already seen that they do not.
 
-I came back because *I am human*. That is the bare fact. There is no view from nowhere available to me. I am [thrown](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} into being human, and the human is the material I have. The emotions and connections become valuable to me not as cosmic absolutes but as <span class="emph">the only ground on which I can actually stand</span>. Held with this awareness, they become something completely different from naive sentimentalism. They are chosen, with eyes open, knowing they have no warrant beyond the choosing.
+I came back because *I am human*. That is the bare fact. There is no view from nowhere available to me. I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} being human, and the human is the material I have. The emotions and connections become valuable to me not as cosmic absolutes but as <span class="emph">the only ground on which I can actually stand</span>. Held with this awareness, they become something completely different from naive sentimentalism. They are chosen, with eyes open, knowing they have no warrant beyond the choosing.
 
 <!--
 This return is structurally identical to the tenth of the [Ten Ox-Herding Pictures](https://en.wikipedia.org/wiki/Ten_Bulls) in the Zen tradition. The seeker pursues the ox (the true nature), tames it, transcends it, dissolves into emptiness &mdash; and then, in the tenth picture, [入廛垂手](https://en.wikipedia.org/wiki/Ten_Bulls): <span class="emph">returns to the marketplace with hands extended</span>. Eating rice, drinking tea, talking with neighbors, loving people, exactly as before &mdash; but everything illuminated by the journey through. The marketplace is the same marketplace. The tea tastes like tea. But the one who returns is no longer the one who left.
@@ -138,9 +151,15 @@ When I first walked this argument, I framed the entire journey as driven by &ldq
 
 The return is something else. Call it [*phronesis*](https://en.wikipedia.org/wiki/Phronesis){:target="_blank"} &mdash; practical wisdom &mdash; in the [Aristotelian](https://en.wikipedia.org/wiki/Aristotle){:target="_blank"} sense. Call it existential choice in the [Sartrean](https://en.wikipedia.org/wiki/Jean-Paul_Sartre){:target="_blank"} sense. Call it 慈悲 (compassion) arising spontaneously after the recognition of 空 (emptiness), as [Mahayana Buddhism]({{ mahayana_buddhism.url }}) describes. Whatever name we give it, it is not deduction. It is a *second engine* operating alongside reason.
 
-This is, I now think, the more accurate picture: rational thinking is necessary to clear the field of inherited illusions. But rational thinking alone cannot tell us what to plant in the cleared field. The planting is wisdom &mdash; a kind of choice that knows itself to be a choice, that knows it has no cosmic backing, and that proceeds anyway. Reason is the scalpel. Wisdom is the hand that knows when to put the scalpel down.
+This is, I now think, the more accurate picture &ndash; rational thinking is necessary to clear the field of inherited illusions. But rational thinking alone cannot tell us what to plant in the cleared field. The planting is wisdom &mdash; a kind of choice that knows itself to be a choice, that knows it has no cosmic backing, and that proceeds anyway.
 
-The return to the human, in this fuller picture, is not the *conclusion* of the rational argument. It is what a wise person *does* after seeing what the rational argument concludes. The rational person, as such, is left in the void. The wise person, having visited the void, comes back.
+Think of it this way. <span class="emph">Rationality is a scalpel.</span> A scalpel is precise, sharp, and honest. It cuts through inherited fictions, cultural sentimentality, unexamined pieties. It will not tell you what is beautiful. It will not tell you what is worth your life. What it *will* do is remove every false tissue that has been claiming to be those things. Applied honestly, the scalpel leaves behind a clean field &mdash; free of rot, but also, now, empty.
+
+And here is the critical move most people miss &ndash; <span class="emph">a scalpel is the wrong tool for planting.</span> You do not plant seeds with a scalpel. The hand that knows when to put the scalpel down, wash itself, and pick up seeds is not the same faculty as the hand that made the cuts. The surgeon and the gardener are both needed, but they are different practitioners working in different modes. Confusing them is the deepest <span style="color: red; font-style: italic;">category error</span> in philosophy.
+
+The person who uses only the scalpel ends up in nihilism &mdash; a perfectly clean field with nothing growing in it, defended with ever-sharper incisions against anyone who tries to plant. The person who refuses the scalpel ends up in sentimentality &mdash; a field overgrown with inherited weeds they have never honestly examined, calling them flowers. Wisdom is what knows the order of operations &ndash; <span class="emph">cut first, honestly and without flinching; then plant, knowingly and without illusion.</span>
+
+The return to the human, in this fuller picture, is not the *conclusion* of the rational argument. It is what a wise person *does* after seeing what the rational argument concludes. The rational person, as such, is left in the void. The wise person, having visited the void, comes back &mdash; and begins to plant.
 
 # Anatta Without Vacuum &mdash; The Unbounded Agent
 
@@ -152,6 +171,30 @@ This is a partial understanding. The deeper reading &mdash; the one closer to th
 
 This, I think, is what makes the return to the human possible *without* a relapse into selfish sentimentalism. The return is not <span class="emph">&ldquo;I retreat back into my small self because the void was too cold.&rdquo;</span> The return is <span class="emph">&ldquo;Having seen that the small self was an illusion, I act as the unbounded one acts &mdash; with care, with attention, with hands extended &mdash; because that is what unbounded being does in a particular human form.&rdquo;</span>
 
+# A Note on the AI Era &mdash; What Cannot Be Outsourced
+
+I want to add a section that the earlier drafts of this essay did not contain, because it matters more than I initially realized. I spend my working life building and thinking about [Artificial Intelligence]({{ ai_reason.url }}) systems, and the arguments in this essay have sharp and specific implications for how we should and should not use these tools in the years ahead.
+
+Let me say what I mean by working backward from a tempting but incorrect extension of the argument.
+
+One might read this essay and conclude that, as AI systems become more capable, they will eventually generate <span class="emph">new categories of honor</span> that our &ldquo;primate-descended biology&rdquo; cannot access on its own. A post-human, AI-expanded agency that invents meanings we could not otherwise reach. This sounds topical and exciting, and on a first read it sounds consistent with the essay.
+
+But it's not! <span class="emph">It is actually the old mistake in new clothing.</span>
+
+The entire argument of this essay is that there is *no view from nowhere*. There is no cosmic vantage point from which a higher category of honor can be &ldquo;discovered.&rdquo; The return to the human is not a consolation prize for beings too limited to reach a better standpoint. <span class="emph">It is the recognition that a standpoint is all any being ever has, and the human standpoint is the one I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"}.</span> A more powerful intelligence does not solve this problem. It inherits it. The ant with a better antenna is still an ant. An AI with a richer semantic space is still an embedded, situated, finite optimizer. Scale does not purchase escape from situation.
+
+<span class="emph">So what *are* the honest implications of this essay for the AI era?</span> I think there are three.
+
+<span class="emph">First</span>, AI is superbly suited to wield the scalpel. The operations of the dissolution &mdash; tracing an emotion to its evolutionary function, tracing a value to its cultural origin, mapping the logical structure of an -ism until its premises are exposed &mdash; are exactly the operations that large language models (LLMs) and reasoning systems can perform with increasing fluency. Used well, AI can be a powerful prosthetic for honest thinking. It can help us cut through inherited illusions we could not cut through alone.
+
+<span class="emph">Second</span>, AI is categorically unable to do the planting. The return to the human is available to me because *I am human*. &mdash; It has much to do with the fact that I'm a (mortal) living biological creature. &mdash; I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} a particular body, a particular history, a particular set of relationships, and a particular mortality. An AI is <span style="color: red; font-style: italic;">not</span> thrown into any of these. It has no ground to return to. When a current LLM produces beautiful text about love or meaning or the return to the marketplace, it is performing an extremely sophisticated map of the territory. It is not walking the territory, because there is no territory for it to walk. This is not a limitation to be engineered around. It is a structural feature of what these systems are. Confusing AI's capacity to *describe* the return with capacity to *make* the return is the most dangerous category error available to us right now. The scalpel is not a gardener. It never will be, no matter how precise it gets (because being precise has nothing to do with being a gardener).
+
+<span class="emph">Third</span>, and this follows from the first two &mdash; <span class="emph">we must not outsource the planting.</span> Outsourcing the dissolution is fine, even beneficial; an AI that helps me see through my inherited illusions is doing honest work. But the choice of what to plant in the cleared field has to be made by someone with a field. Someone [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} a particular human form, someone for whom the stakes are not hypothetical, someone whose choices are backed by the weight of a finite life. Delegating the planting to a system that has no ground to plant in is not efficiency. It is a quiet abdication, and the fields it leaves behind will be curiously empty even when they look full of growth.
+
+This is what I believe about AI and meaning: <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> Use it freely for the first two. Be extraordinarily careful about the third. The temptation to let capable systems do our meaning-making for us will grow with every capability jump. Resisting that temptation is, I think, the central discipline of the human in the AI era. Not a Luddite resistance to the technology. A clear-eyed recognition of what the technology can and cannot be, grounded in exactly the philosophy this essay has tried to lay out.
+
+In the language of this essay &ndash; <span class="emph">the AI can help me see that no honor is inherent. It cannot choose, on my behalf, what I will honor.<!-- Any system that claims to do the second is either confused or trying to confuse me.--></span>
+
 # The Wrong Question, Made Right
 
 In &ldquo;[Why Do We Live?]({{ agent_living_question.url }})&rdquo; I argued that the question <span class="emph">&ldquo;What is the meaning of life?&rdquo;</span> is the wrong question, and that the right question is <span class="emph">&ldquo;Do I want meaning in my life?&rdquo;</span> The shift was from cosmic discovery to lived choice.
@@ -162,7 +205,7 @@ The question <span class="emph">&ldquo;Is anything honorable?&rdquo;</span> is t
 
 The right question is: <span class="emph">&ldquo;Do I choose to honor anything?&rdquo;</span>
 
-And if the answer is yes &mdash; as it almost certainly will be, for any being [thrown](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} into the human form &mdash; the next question is: <span class="emph">&ldquo;What do I choose to honor, knowing that the honoring is the work of my own hand and not the verdict of the cosmos?&rdquo;</span>
+And if the answer is yes &mdash; as it almost certainly will be, for any being [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} the human form &mdash; the next question is: <span class="emph">&ldquo;What do I choose to honor, knowing that the honoring is the work of my own hand and not the verdict of the cosmos?&rdquo;</span>
 
 This question locates agency where it belongs. Not in any -ism. Not in any inherited convention. Not in any fixed cosmic order. <span class="emph">In our own choice to extend our hands into the marketplace, knowing exactly what we are doing and why &mdash; or rather, knowing exactly that there is no &ldquo;why&rdquo; underneath the choice, and choosing anyway.</span>
 
