@@ -79,6 +79,13 @@
       var arrow = li.querySelector('.toc-arrow');
       if (arrow) arrow.click();
     });
+
+	// Also expand 2026 under Seminars
+    var link2026 = tocMenu.querySelector('a[href="#sem-2026"]');
+    if (link2026) {
+      var li2026 = link2026.closest('li[data-toc-open]');
+      if (li2026) { var a = li2026.querySelector('.toc-arrow'); if (a) a.click(); }
+    }
   }
 
   if (document.readyState === 'loading') {
