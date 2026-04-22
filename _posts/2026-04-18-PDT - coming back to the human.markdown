@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Tue Apr 21 18:13:50 PDT 2026
+last_modified_at: Wed Apr 22 10:45:58 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -292,7 +292,7 @@ At dinner, I will share small talk and laughter with my wife and daughter. The c
 
 In my work, there are laughs I share with colleagues, and moments of quiet solitude I feel *while sitting among them* &mdash; that particular form of being alone-together that is one of the stranger gifts of human existence. And with those colleagues who are walking roughly the same path I am &mdash; the like-minded ones, the fellow travelers &mdash; there is something different again: a quiet solidarity, the recognition that we are, for a while, in this together. None of these is noble, and none needs to be. They are what the days are made of.
 
-And in [K-PAI](https://nexus-pai.github.io/){:target="_blank"}, when a forum ends and people stay in the hall still talking an hour later, when someone tells me that an evening there mattered to them, when I feel the warm and slightly disbelieving recognition that something I helped create made other human beings a little happier &mdash; there is a feeling I can only describe as &ndash; <span class="emph">how could I possibly hope for more?</span> Not as resignation. Not as settling. As recognition that this, actually, is what being a human being in a community of human beings *is*. There is nothing beyond it to reach for. The reaching-for-something-beyond-this is the very delusion the dissolution cut through.
+And in [K-PAI](https://nexus-pai.github.io/){:target="_blank"}, when a forum ends and people stay in the hall still talking an hour later, when someone tells me that an evening there mattered to them, when I feel the warm and slightly disbelieving recognition that something I helped create made other human beings a little happier &mdash; there is a feeling I can only describe as &ndash; <span class="emph">what could I possibly hope for more?</span> Not as resignation. Not as settling. As recognition that this, actually, is what being a human being in a community of human beings *is*. There is nothing beyond it to reach for. The reaching-for-something-beyond-this is the very delusion the dissolution cut through.
 
 <span class="emph">This is the essence of why I came back to humanism after walking through the undeniable emptiness of the universe.</span>
 
