@@ -1,5 +1,5 @@
 ---
-last_modified_at: Fri Mar  6 18:03:51 PST 2026
+last_modified_at: Tue Apr 21 22:25:20 PDT 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -222,6 +222,10 @@ which is mentioned in [here](/contributions/my-entrepreneurial-journey/#cognitiv
 - [<i class="fa-brands fa-square-youtube"></i> Anne Marie - 2002 Song #livevideo #viral #shorts](https://youtube.com/shorts/kecpfUbdBFM?si=mImWS92ebYAyZs_r){:target="_blank"}
 - [<i class="fa-brands fa-youtube"></i> Anne-Marie - 2002 (Glastonbury 2019)](https://youtu.be/PRXCbRzTeGA?si=4qFtqHGpmmXil6gv){:target="_blank"}
 - [<i class="fa-brands fa-youtube"></i> 앤-마리(Anne-Marie)의 킬링보이스를 라이브로! – 2002, FRIENDS, Birthday, PSYCHO, Beautiful, Perfect to Me - 딩고뮤직](https://youtu.be/SAzUYWru-w0?si=3-INmLd1VM8WcEqu){:target="_blank"}
+
+### Michael Jackson
+
+- [<i class="fa-brands fa-youtube"></i> Michael Jackson Billie Jean Live First Time Moonwalk](https://youtu.be/XS9oPdlax0s?si=iECgyitL_AuBXTok){:target="_blank"}
 
 ### 정홍일
 
