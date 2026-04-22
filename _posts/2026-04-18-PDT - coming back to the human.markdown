@@ -1,8 +1,8 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Mon Apr 20 09:30:00 PDT 2026
+last_modified_at: Tue Apr 21 18:13:50 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
-permalink: /prajna/human-emotions
+permalink: /prajna/coming-back-to-the-human
 categories:
  - blog
  - Philosophy
