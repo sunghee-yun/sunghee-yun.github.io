@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Mon Jan 19 01:28:12 PST 2026
+last_modified_at: Wed Apr 22 00:39:20 PDT 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1330,29 +1330,85 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="74">제74장 - 사살死殺</h2>
+
+> 목수도 아니면서 나무를 깎으려고 달려드는 사람,
+> <br>
+> 그 손을 다칠 것이다.
+
+<div class="translation-container">
+<p>
+	民不畏死&nbsp;
+	奈何以死懼之
+<span class="chinese-korean-transliteration">
+	민불외사&nbsp;
+	나하이사구지
+</span>
+<span class="chinese-korean-translation">
+	사람이 죽음을 두려워하지 않으면
+	<br>
+	어떻게 죽음으로 그들을 위협할 수 있겠는가?
+</span>
+</p>
+
+<p>
+	若使民常畏死而爲奇者
+	吾得執而殺之
+	孰敢
+<span class="chinese-korean-transliteration">
+	약사민상외사이위기자
+	오득집이살지
+	숙감
+</span>
+<span class="chinese-korean-translation">
+	사람들로 하여금 언제나 죽음을 두려워하도록 하고 이상스런 짓을 하는 자가 있어
+	<br>
+	내가 그를 잡아 죽인다면
+	<br>
+	누가 감히 그런 일을 하겠는가?
+</span>
+</p>
+
+<p>
+	常有司殺者殺
+<span class="chinese-korean-transliteration">
+	상유사살자살
+</span>
+<span class="chinese-korean-translation">
+	하지만 항상 사람 죽이는 일을 맡은 이라야 사람을 죽인다.
+</span>
+</p>
+
+<p>
+	夫代司殺者殺
+	是謂代大匠斲
+<span class="chinese-korean-transliteration">
+	부대사살자살
+	시위대대장착
+</span>
+<span class="chinese-korean-translation">
+	사람 죽이는 일 맡은 이를 대신해서 사람을 죽이는 것
+	<br>
+	이것을 일컬어 위대한 목수를 대신해서 나무를 깎는 일과 같다고 하겠다.
+</span>
+</p>
+
+<p>
+	夫代大匠斲者
+	希有不傷其手矣
+<span class="chinese-korean-transliteration">
+	부대대장착자
+	희유불상기수의
+</span>
+<span class="chinese-korean-translation">
+	위대한 목수를 대신해서 나무를 깎는 자
+	<br>
+	그 손을 다치지 않는다는 것은 극히 드물 것이다.
+</span>
+</p>
+</div>
+
 <!--
-74. 死殺(사살)
-
-
-
-목수도 아니면서 나무를 깎으려고 달려드는 사람,
-
-그 손을 다칠 것이다.
-
-
-民不畏死(민불외사) : 사람이 죽음을 두려워하지 않으면
-奈何以死懼之(나하이사구지) : 어떻게 죽음으로 그들을 위협할 수 있겠는가?
-若使民常畏死而爲奇者(약사민상외사이위기자) : 사람들로 하여금 언제나 죽음을 두려워하도록 하고 이상스런 짓을 하는 자가 있어
-吾得執而殺之(오득집이살지) : 내가 그를 잡아 죽인다면,
-孰敢(숙감) : 누가 감히 그런 일을 하겠는가?
-常有司殺者殺(상유사살자살) : 하지만 항상 사람 죽이는 일을 맡은 이라야 사람을 죽인다.
-夫代司殺者殺(부대사살자살) : 사람 죽이는 일 맡은 이를 대신해서 사람을 죽이는 것,
-是謂代大匠斲(시위대대장착) : 이것을 일컬어 위대한 목수를 대신해서 나무를 깎는 일과 같다고 하겠다.
-夫代大匠斲者(부대대장착자) : 위대한 목수를 대신해서 나무를 깎는 자,
-希有不傷其手矣(희유불상기수의) : 그 손을 다치지 않는다는 것은 극히 드물 것이다.
-
-
-
 75. 貴生(귀생)
 
 
