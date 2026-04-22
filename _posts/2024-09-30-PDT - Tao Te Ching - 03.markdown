@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Wed Apr 22 00:39:20 PDT 2026
+last_modified_at: Wed Apr 22 01:05:02 PDT 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1338,10 +1338,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <div class="translation-container">
 <p>
-	民不畏死&nbsp;
+	民不畏死
 	奈何以死懼之
 <span class="chinese-korean-transliteration">
-	민불외사&nbsp;
+	민불외사
 	나하이사구지
 </span>
 <span class="chinese-korean-translation">
