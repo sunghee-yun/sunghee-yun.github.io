@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Wed Apr 22 01:05:02 PDT 2026
+last_modified_at: Thu Apr 23 18:24:40 PDT 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1408,30 +1408,83 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="75">제75장 - 귀생貴生</h2>
+
+> 뭔가를 하려고 하지 말고
+> <br>
+> 그저 지켜보기만 하라.
+
+<div class="translation-container">
+	民之饑
+	以其上食稅之多
+	是以饑
+<p>
+<span class="chinese-korean-transliteration">
+	민지기
+	이기상식세지다
+	시이기
+</span>
+<span class="chinese-korean-translation">
+	백성이 굶주리는 것은
+	<br>
+	윗사람이 세금을 너무 많이 받아 먹기 때문이다.
+	<br>
+	그래서 굶주리는 것이다.
+</span>
+</p>
+
+<p>
+	民之難治
+	以其上之有爲
+	是以難治
+<span class="chinese-korean-transliteration">
+	민지난치
+	이기상지유위
+	시이난치
+</span>
+<span class="chinese-korean-translation">
+	백성을 다스리기 어려운 것은
+	<br>
+	윗사람이 뭔가를 한다고 하기 때문이다.
+	<br>
+	그해서 다스리기 어려운 것이다.
+</span>
+</p>
+
+<p>
+	民之輕死
+	以其上求生之厚
+	是以輕死
+<span class="chinese-korean-transliteration">
+	민지경사
+	이기상구생지후
+	시이경사
+</span>
+<span class="chinese-korean-translation">
+	백성이 죽음을 가볍게 여기는 것은
+	<br>
+	윗사람이 지나치게 생에 집착하기 때문이다.
+	<br>
+	그래서 죽음을 가볍게 여기는 것이다.
+</span>
+</p>
+
+<p>
+	夫唯無以生爲者
+	是賢於貴生
+<span class="chinese-korean-transliteration">
+	부유무이생위자
+	시현어귀생
+</span>
+<span class="chinese-korean-translation">
+	생을 추구하지 않는 사람은
+	<br>
+	생을 귀하게 여기는 사람보다 더 현명하다.
+</span>
+</p>
+</div>
+
 <!--
-75. 貴生(귀생)
-
-
-
-뭔가를 하려고 하지 말고
-
-그저 지켜보기만 하라.
-
-
-民之饑(민지기) : 백성이 굶주리는 것은
-以其上食稅之多(이기상식세지다) : 윗사람이 세금을 너무 많이 받아 먹기 때문이다.
-是以饑(시이기) : 그래서 굶주리는 것이다.
-民之難治(민지난치) : 백성을 다스리기 어려운 것은
-以其上之有爲(이기상지유위) : 윗사람이 뭔가를 한다고 하기 때문이다.
-是以難治(시이난치) : 그해서 다스리기 어려운 것이다.
-民之輕死(민지경사) : 백성이 죽음을 가볍게 여기는 것은
-以其上求生之厚(이기상구생지후) : 윗사람이 지나치게 생에 집착하기 때문이다.
-是以輕死(시이경사) : 그래서 죽음을 가볍게 여기는 것이다.
-夫唯無以生爲者(부유무이생위자) : 생을 추구하지 않는 사람은
-是賢於貴生(시현어귀생) : 생을 귀하게 여기는 사람보다 더 현명하다.
-
-
-
 76. 柔弱(유약)
 
 
