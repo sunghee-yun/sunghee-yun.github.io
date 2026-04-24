@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Wed Apr 22 10:45:58 PDT 2026
+last_modified_at: Thu Apr 23 18:49:46 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -51,51 +51,24 @@ This article is a sequel to [{{ agent_living_question.title }}]({{ agent_living_
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Choosing to be Human in the Void</strong>
-			<span style="opacity: 0.8;">(48:14)</span>
+			<strong>Deep Dive - Why AI cannot be the Gardener?</strong>
+			<span style="opacity: 0.8;">(42:43)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Choosing_to_be_human_in_the_void.m4a">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Why_AI_cannot_be_the_gardener.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Choosing What Matters in the Void</strong>
-			<span style="opacity: 0.8;">(33:12)</span>
+			<strong>Deep Dive - Don't Outsource Your Meaning to AI!</strong>
+			<span style="opacity: 0.8;">(40:02)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Choosing_What_Matters_in_the_Void.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div>
-
-<div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Meaning is Created, not Discovered</strong>
-			<span style="opacity: 0.8;">(20:11)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Meaning_is_created_not_discovered.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Build your Meaning from the Void</strong>
-			<span style="opacity: 0.8;">(19:16)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Build_your_meaning_from_the_void.m4a">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Don_t_outsource_your_meaning_to_AI.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -105,24 +78,24 @@ This article is a sequel to [{{ agent_living_question.title }}]({{ agent_living_
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - Choosing Human Values in the Void</strong>
-			<span style="opacity: 0.8;">(21:22)</span>
+			<strong>Deep Dive - Creating Meaning in the AI Void</strong>
+			<span style="opacity: 0.8;">(37:03)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Debate - Choosing_Human_Values_In_The_Void.m4a">
+			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Creating_Meaning_in_the_AI_Void.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - Choosing Humanity in the Rational Void</strong>
-			<span style="opacity: 0.8;">(20:09)</span>
+			<strong>Deep Dive - Why AI cannot Create Meaning?</strong>
+			<span style="opacity: 0.8;">(21:23)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Debate - Choosing_Humanity_in_the_Rational_Void.m4a">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Why_AI_cannot_create_meaning.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -324,3 +297,113 @@ This is, I think, what the [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/)
 Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
 Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
+
+# Appendix - More Podcasts created by AI!
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - AI is the Scalpel not the Gardener!</strong>
+			<span style="opacity: 0.8;">(18:47)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - AI_is_the_scalpel_not_the_gardener.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why AI Cannot Plant Human Meaning!</strong>
+			<span style="opacity: 0.8;">(18:21)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-05" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Why_AI_cannot_plant_human_meaning.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Choosing to be Human in the Void</strong>
+			<span style="opacity: 0.8;">(48:14)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Choosing_to_be_human_in_the_void.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Choosing What Matters in the Void</strong>
+			<span style="opacity: 0.8;">(33:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Choosing_What_Matters_in_the_Void.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Meaning is Created, not Discovered</strong>
+			<span style="opacity: 0.8;">(20:11)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Meaning_is_created_not_discovered.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Build your Meaning from the Void</strong>
+			<span style="opacity: 0.8;">(19:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Deep Dive - Build_your_meaning_from_the_void.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Choosing Human Values in the Void</strong>
+			<span style="opacity: 0.8;">(21:22)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Debate - Choosing_Human_Values_In_The_Void.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Choosing Humanity in the Rational Void</strong>
+			<span style="opacity: 0.8;">(20:09)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-04-18-PDT - coming back to the human/Debate - Choosing_Humanity_in_the_Rational_Void.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
