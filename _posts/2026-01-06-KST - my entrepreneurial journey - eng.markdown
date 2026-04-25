@@ -1,10 +1,11 @@
 ---
 date: Tue Jan  6 10:14:51 PST 2026
-last_modified_at: Fri Feb 20 01:35:01 PST 2026
+last_modified_at: Sat Apr 25 11:14:04 PDT 2026
 title: "My Entrepreneurial Journey - From Mathematics to Life Sciences"
 permalink: /contributions/my-entrepreneurial-journey/en
 categories:
  - blog
+ - Entrepreneurship
 tags:
  - entrepreneurship
 toc: true
