@@ -1,8 +1,8 @@
 ---
+date: Mon Feb  3 21:25:18 PST 2025
+last_modified_at: Sat Apr 25 02:31:37 PDT 2026
 permalink: /math/inequalities
 title: Elegant Solutions, Endless Applications &ndash; The Living Art of Inequalities
-date: Mon Feb  3 21:25:18 PST 2025
-last_modified_at: Sat Jan  3 18:38:28 PST 2026
 categories:
  - blog
 tags:
@@ -38,34 +38,91 @@ Oh, I love Jensen's inequality! I've loved it ever since I met it for the first 
 
 <h2>based on this blog</h2>
 
-<audio id="podcast-1" controls>
+<!--audio id="podcast-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 04.wav">
 	Your browser does not support this shorter audio element.
-</audio>
-<audio id="podcast-2" controls>
+</audio-->
+
+<!--audio id="podcast-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 03.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
 <!--audio id="podcast-3" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 02.wav">
 	Your browser does not support this shorter audio element.
 </audio-->
+
 <!--audio id="podcast-4" controls>
 	<source type="audio/wav" src="/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 01.wav">
 	Your browser does not support this shorter audio element.
 </audio-->
 
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Living Art of Inequalities - 01</strong>
+			<span style="opacity: 0.8;">(13:00)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 04.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Living Art of Inequalities - 02</strong>
+			<span style="opacity: 0.8;">(15:45)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/The Living Art of Inequalities - 03.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
 <h2>based on Algebra Codex</h2>
 
-<audio id="podcast-slides-1" controls>
+<!--audio id="podcast-slides-1" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-02.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
 
-<audio id="podcast-slides-2" controls>
+<!--audio id="podcast-slides-2" controls>
 	<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-01.wav">
 	Your browser does not support this shorter audio element.
-</audio>
+</audio-->
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Universal Truths of Algebra - Inequalities and Number Theory - 01</strong>
+			<span style="opacity: 0.8;">(14:46)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-1" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-02.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Universal Truths of Algebra - Inequalities and Number Theory - 02</strong>
+			<span style="opacity: 0.8;">(19:19)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-2" controls style="width: 100%;">
+				<source type="audio/wav" src="https://sungheeyun-podcasts.github.io/resource/posts/2025-02-03-PDT - math - inequalities/NotebookLM/Universal Truths of Algebra_ Inequalities and Number Theory-01.wav">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # Parent blog post
 
