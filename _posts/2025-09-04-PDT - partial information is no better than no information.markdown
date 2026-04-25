@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Mon Feb 23 18:34:55 PST 2026
+last_modified_at: Sat Apr 25 11:32:30 PDT 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -22,6 +22,8 @@ posted: {{ page.date | date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 {: .notice--primary}
 
+{% assign entrepreneurship = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey/en" | first %}
+
 **Share on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
 | [Instagram](https://www.instagram.com/)
@@ -36,18 +38,37 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 > In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
 
-<!--h1>NotebookLM Podcasts</h1>
-
-- [The Danger of Knowing (Just) Enough - Why Partial Information Can Be Worse Than Ignorance (19:07)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=3a308f01-0696-4f34-a60d-1d3b7da901a7){:target=" blank"}
-- [The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing (17:13)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=58234e99-fd2f-497b-990e-79e0dade626c){:target=" blank"}
-- [The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance (20:16)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=7ba3b4ae-0f09-40f1-8ac1-a9a87e21e674){:target=" blank"}
-- [The Danger of Partial Information - Why Knowing Less Can Be Better Than Knowing Just Enough (18:27)](https://notebooklm.google.com/notebook/c21c501a-4473-491d-ab55-e4668e859649?artifactId=22f243d3-892b-4484-9341-76c199c7807b){:target=" blank"}
--->
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Partial Information is Worse Than Ignorance?</strong>
+			<span style="opacity: 0.8;">(50:30)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Why_partial_information_is_worse_than_ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Partial Information is Worse Than Ignorance!</strong>
+			<span style="opacity: 0.8;">(44:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Partial_information_is_worse_than_ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Danger of Knowing (Just) Enough: Why Partial Information Can Be Worse Than Ignorance</strong>
+			<strong>Deep Dive - The Danger of Knowing (Just) Enough: Why Partial Information Can Be Worse Than Ignorance</strong>
 			<span style="opacity: 0.8;">(19:07)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -59,7 +80,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing</strong>
+			<strong>Deep Dive - The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing</strong>
 			<span style="opacity: 0.8;">(17:13)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -74,7 +95,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance</strong>
+			<strong>Deep Dive - The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance</strong>
 			<span style="opacity: 0.8;">(20:16)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -86,7 +107,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>The Danger of Partial Information: Why Knowing Less Can Be Better Than Knowing Just Enough</strong>
+			<strong>Deep Dive - The Danger of Partial Information: Why Knowing Less Can Be Better Than Knowing Just Enough</strong>
 			<span style="opacity: 0.8;">(18:27)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
@@ -102,7 +123,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 Engaged in deep discussions about AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious &ndash; the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
 
-This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung](https://www.samsung.com/) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/) &ndash; <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
+This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung]({{ entrepreneurship.url }}#samsung) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/) &ndash; <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
 
 The implications extend far beyond technical domains. Consider how political discourse in our hyper-connected age operates on exactly this principle. Voters receive carefully curated partial information—selective polling data, edited video clips, cherry-picked economic statistics—that triggers their pattern-completion mechanisms to construct complete political narratives. A 30-second campaign ad or a viral social media post provides just enough information to feel informed while systematically omitting context that might complicate the narrative. The result? Millions of people making consequential voting decisions based on elaborate mental models constructed from deliberately incomplete information.
 
