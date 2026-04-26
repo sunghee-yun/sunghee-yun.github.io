@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Thu Apr 23 18:49:46 PDT 2026
+last_modified_at: Sun Apr 26 01:27:50 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -133,7 +133,7 @@ Wittgenstein's silence is the silence of a logician who has *mapped* the boundar
 
 So &ndash; <span class="emph">Wittgenstein indicates the silence; Husserl and Heidegger orient one's whole being toward it.</span> The first is cartographic; the second is practice. Buddha is pure practice &mdash; which is why his deathbed declaration <span class="emph">&ldquo;I have not said a single word&rdquo;</span> makes complete sense from inside his enterprise but would be incoherent from inside Wittgenstein's. The 45 years of teaching were *fingers pointing at the moon*, never the moon itself. The teaching was always [觀](https://en.wikipedia.org/wiki/Vipassan%C4%81){:target="_blank"} &mdash; direct seeing &mdash; and the words were scaffolding meant to collapse the moment seeing happens. The [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/) makes this almost unbearably explicit, again and again: <span class="emph">凡所有相皆是虛妄</span> &mdash; *all forms are illusion*; <span class="emph">如來無所說</span> &mdash; *the Tathāgata has said nothing*.
 
-I will use language in what follows. I have no choice. But I want the reader to know that the conclusions I am about to describe were not reached by language. Language is the trace they leave when written down.
+I will use language in what follows. I have no choice. But I want the reader to know that <span style="color: red; font-style: italic; font-weight: bold;">the conclusions I am about to describe were not reached by language</span>. Language is the trace they leave when written down.
 
 # The Pragmatic Criterion &mdash; Why Rational Thinking Still Matters
 
