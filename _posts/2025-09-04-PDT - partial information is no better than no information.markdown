@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Sat Apr 25 11:32:30 PDT 2026
+last_modified_at: Sun Apr 26 00:40:34 PDT 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -23,6 +23,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 {: .notice--primary}
 
 {% assign entrepreneurship = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey/en" | first %}
+{% assign mahayana = site.posts | where: "permalink", "/prajna/mahayana-buddhism" | first %}
 
 **Share on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
@@ -123,7 +124,7 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 
 Engaged in deep discussions about AI privacy, I found myself confronting a peculiar cognitive phenomenon that extends far beyond cryptography. My colleagues and I were debugging a protocol implementation, and I noticed something curious &ndash; the partial output from our encrypted computation was leading us to construct elaborate theories about what might be going wrong, each of us filling in the gaps with our own assumptions and biases.
 
-This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung]({{ entrepreneurship.url }}#samsung) and developing recommendation algorithms at [Amazon](https://www.aboutamazon.com/) to building AI systems at [Gauss Labs](https://www.gausslabs.ai/) &ndash; <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
+This observation crystallized a realization that had been forming throughout my career&mdash;from optimizing semiconductor circuit design parameters at [Samsung]({{ entrepreneurship.url }}#samsung) and developing recommendation algorithms at [Amazon]({{ entrepreneurship.url }}#amazon) to building AI systems at [Gauss Labs]({{ entrepreneurship.url }}#first-startup) &ndash; <span class="emph">partial information often proves more dangerous than complete ignorance because it triggers our pattern-completion mechanisms without providing sufficient data to verify the patterns we construct.</span>
 
 The implications extend far beyond technical domains. Consider how political discourse in our hyper-connected age operates on exactly this principle. Voters receive carefully curated partial information—selective polling data, edited video clips, cherry-picked economic statistics—that triggers their pattern-completion mechanisms to construct complete political narratives. A 30-second campaign ad or a viral social media post provides just enough information to feel informed while systematically omitting context that might complicate the narrative. The result? Millions of people making consequential voting decisions based on elaborate mental models constructed from deliberately incomplete information.
 
@@ -135,7 +136,7 @@ But in our complex, interconnected world, this same cognitive machinery can lead
 
 > &hellip; Worse, they actively mislead us because they provide the illusion of statistical rigor while violating the fundamental assumptions that make statistics valid.
 
-Consider a fundamental principle from information theory that illuminates this phenomenon. [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon)'s groundbreaking work on information theory defines information content in terms of uncertainty reduction. The information content $I$ of an event with probability $p$ is given by:
+Consider a fundamental principle from information theory that illuminates this phenomenon. [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon)'s groundbreaking work on information theory defines information content in terms of uncertainty reduction. The information content $I$ of an event with probability $p$ is given by
 
 $$I = -\log_2(p)$$
 
@@ -149,7 +150,7 @@ The mathematical principle here is that partial information creates a false conf
 
 > &hellip; The partial information triggers pattern-matching mechanisms that fill in gaps with assumptions derived from science fiction narratives and anthropomorphic projections.
 
-During [my exploration of Buddhist philosophy](/blog/philosophy/PDT-Mahayana-Buddhism/){:target="_blank"} and [my eventual reaching of *nirvāna*](/blog/philosophy/PDT-Mahayana-Buddhism/#intention){:target="_blank"}, I encountered this principle in a different context &ndash; the way the mind constructs stories about the self and reality. The Buddhist concept of [dependent origination](https://en.wikipedia.org/wiki/Pratītyasamutpāda) reveals how we create elaborate mental constructions from partial sensory and conceptual data mistaking these constructions for ultimate reality.
+During [my exploration of Buddhist philosophy]({{ mahayana.url }}){:target="_blank"} and [my eventual reaching of *nirvāna*]({{ mahayana.url }}#intention){:target="_blank"}, I encountered this principle in a different context &ndash; the way the mind constructs stories about the self and reality. The Buddhist concept of [dependent origination](https://en.wikipedia.org/wiki/Pratītyasamutpāda) reveals how we create elaborate mental constructions from partial sensory and conceptual data mistaking these constructions for ultimate reality.
 
 This same mechanism operates in our information processing. When presented with partial data, the mind immediately begins constructing explanatory narratives. These narratives feel complete and coherent, but they're actually projections of our existing beliefs and assumptions onto incomplete information.
 
