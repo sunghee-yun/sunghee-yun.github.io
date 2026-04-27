@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Sun Apr 26 00:40:34 PDT 2026
+last_modified_at: Mon Apr 27 00:33:43 PDT 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -38,6 +38,10 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 > Most critically of all, this shapes how we must fundamentally reconstruct political discourse in democratic societies.
 
 > In our age of information abundance, the scarcest resource may not be data, but wisdom about when to stop collecting it and start acknowledging our fundamental uncertainty. Sometimes the most informed decision is the decision to remain <span class="emph">usefully ignorant rather than confidently wrong</span>.
+
+> &hellip; sometimes the wisest response to partial information is not to seek more information, but to recognize the incompleteness of what we have and maintain appropriate uncertainty.
+>
+> This doesn't mean embracing nihilistic skepticism or paralyzing doubt. Rather, it means developing what I call <span class="emph">&ldquo;dynamic epistemic fluidity&rdquo;</span>&mdash;the ability to hold mental models lightly, update them as new information arrives, and resist the cognitive pressure to complete partial patterns prematurely.
 
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
@@ -197,18 +201,19 @@ This creates what I call the "polarization amplifier effect." Instead of disagre
 Living at the epicenter of the AI revolution in Silicon Valley, I've witnessed this principle operate at scale in ways that could reshape human civilization. The technology industry consistently presents partial information about AI capabilities, creating elaborate public narratives about artificial general intelligence (AGI), consciousness, and technological singularity based on impressive but narrow demonstrations.
 
 {% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
+{% assign inevitabilities = site.posts | where: "permalink", "/prajna/inevitabilities" | first %}
 
 As I argued in my analysis of [{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}, current LLMs are sophisticated conditional probability estimators. But partial demonstrations of their capabilities—cherry-picked examples of apparently creative or reasoning-like outputs—trigger pattern-completion mechanisms that lead people to construct complete mental models of AI consciousness and general intelligence.
 
 This isn't harmless speculation. However, policy decisions worth trillions of dollars, regulation of technologies that could determine humanity's future, and investment of vast resources are being made based on these partial-information-induced mental models, and the consequences of getting this wrong could be civilizational.
 
-The parallel to my earlier discussion of [Mathematical Inevitabilities](/prajna/inevitabilities){:target="_blank"} is instructive &ndash; just as certain mathematical truths transcend all possible universes, certain cognitive biases appear to be universal features of information-processing systems. The tendency to construct complete patterns from partial data may be an inevitable feature of any intelligence complex enough to engage in prediction and planning.<sup><a href="#footnote1" id="ref1">1</a></sup>
+The parallel to my earlier discussion of [Mathematical Inevitabilities]({{ inevitabilities.url }}){:target="_blank"} is instructive &ndash; just as certain mathematical truths transcend all possible universes, certain cognitive biases appear to be universal features of information-processing systems. The tendency to construct complete patterns from partial data may be an inevitable feature of any intelligence complex enough to engage in prediction and planning.<sup><a href="#footnote1" id="ref1">1</a></sup>
 
 # The Zen of Strategic Ignorance
 
 My journey through Buddhist philosophy, particularly the concept of the [Beginner's Mind](https://en.wikipedia.org/wiki/Shoshin){:target="_blank"}, offers a counterintuitive solution &ndash; sometimes the wisest approach is to deliberately maintain ignorance rather than accumulating partial information that triggers false confidence.
 
-This insight connects to my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/){:target="_blank"} from "What is the meaning of life?" to "Do I want meaning in my life?" Sometimes the most profound wisdom lies not in seeking more information, but in recognizing when our current information is insufficient for reliable conclusions and maintaining appropriate uncertainty. In other words, the true wisdom starts from understanding my ignorance level (like my former advisor, [Stephen](https://web.stanford.edu/~boyd/){:target="_blank"}, often mentioned wittily)!
+This insight connects to my reframing of [The Meaning Question](/blog/PST-Why-do-we-live/){:target="_blank"} from "What is the meaning of life?" to "Do I want meaning in my life?" Sometimes the most profound wisdom lies not in seeking more information, but in recognizing when our current information is insufficient for reliable conclusions and maintaining appropriate uncertainty. In other words, the true wisdom starts from understanding my ignorance level (like my former advisor, [Prof. Stephen Boyd](https://web.stanford.edu/~boyd/){:target="_blank"}, often mentioned wittily)!
 
 In practical terms, this suggests several strategies.
 - **epistemic humility** &ndash; actively tracking the completeness and representativeness of our information, not just its quantity or apparent quality.
@@ -247,11 +252,11 @@ ensuring that AI systems can operate on sensitive data without revealing informa
 
 # The Bridge Between Eastern and Western Wisdom
 
-This analysis bridges insights from my exploration of [Buddhist philosophy](/blog/philosophy/PDT-Mahayana-Buddhism/){:target="_blank"} with principles from Western cognitive science and mathematics. The Buddhist recognition that attachment to incomplete mental constructions causes suffering aligns precisely with the cognitive science insight that partial information often leads to overconfident errors.
+This analysis bridges insights from my exploration of [Buddhist philosophy](/prajna/mahayana-buddhism/){:target="_blank"} with principles from Western cognitive science and mathematics. The Buddhist recognition that attachment to incomplete mental constructions causes suffering aligns precisely with the cognitive science insight that partial information often leads to overconfident errors.
 
 Both traditions point toward the same practical wisdom &ndash; sometimes the wisest response to partial information is not to seek more information, but to recognize the incompleteness of what we have and maintain appropriate uncertainty.
 
-This doesn't mean embracing nihilistic skepticism or paralyzing doubt. Rather, it means developing what I call "dynamic epistemic fluidity"&mdash;the ability to hold mental models lightly, update them as new information arrives, and resist the cognitive pressure to complete partial patterns prematurely.
+This doesn't mean embracing nihilistic skepticism or paralyzing doubt. Rather, it means developing what I call <span class="emph">&ldquo;dynamic epistemic fluidity&rdquo;</span>&mdash;the ability to hold mental models lightly, update them as new information arrives, and resist the cognitive pressure to complete partial patterns prematurely.
 
 # Conclusion &ndash; The Wisdom of Informed Ignorance
 
@@ -261,7 +266,7 @@ As I reflect on my journey from pure mathematics through Silicon Valley innovati
 
 This insight doesn't just apply to intellectual puzzles or philosophical questions. It shapes how we should approach AI development, biomedical research, financial decisions, and even personal relationships. <span class="emph">Most critically of all, this shapes how we must fundamentally reconstruct political discourse in democratic societies.</span> The current information environment systematically undermines the epistemic foundations that democracy requires to function.
 
-The path forward requires developing new cognitive skills and social institutions that preserve appropriate uncertainty, resist premature pattern completion, and maintain what Buddhist philosophy calls "don't-know mind"—not as ignorance, but as openness to reality as it actually is rather than as our pattern-completion mechanisms want it to be.
+The path forward requires developing new cognitive skills and social institutions that preserve appropriate uncertainty, resist premature pattern completion, and maintain what Buddhist philosophy calls "don't-know mind"—<span class="emph">not as ignorance, but as openness to reality as it actually is rather than as our pattern-completion mechanisms want it to be</span>.
 
 <span class="emph">Most importantly, recognizing when partial information becomes worse than no information helps us ask better questions—not just "What do we know?" but "What do we think we know that we actually don't know?" and "How might our incomplete information be systematically misleading us?"</span>
 
