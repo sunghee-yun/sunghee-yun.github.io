@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Mon Apr 27 02:29:48 PDT 2026
+last_modified_at: Mon Apr 27 12:07:43 PDT 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -46,51 +46,24 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Partial Information is Worse Than Ignorance?</strong>
-			<span style="opacity: 0.8;">(50:30)</span>
+			<strong>Deep Dive - Partial information is More dangerous than ignorance!</strong>
+			<span style="opacity: 0.8;">(49:28)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Why_partial_information_is_worse_than_ignorance.m4a">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Partial_information_is_more_dangerous_than_ignorance.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Partial Information is Worse Than Ignorance!</strong>
-			<span style="opacity: 0.8;">(44:12)</span>
+			<strong>Deep Dive - How Partial Information Tricks Your Brain</strong>
+			<span style="opacity: 0.8;">(47:30)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Partial_information_is_worse_than_ignorance.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div>
-
-<div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Danger of Knowing (Just) Enough: Why Partial Information Can Be Worse Than Ignorance</strong>
-			<span style="opacity: 0.8;">(19:07)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_(Just)_Enough__Why_Partial_Information_Can_Be_Worse_Than_Ignorance.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing</strong>
-			<span style="opacity: 0.8;">(17:13)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Half-Baked_Truths__Why_Partial_Information_Is_Worse_Than_Knowing_Nothing.m4a">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - How_Partial_Information_Tricks_Your_Brain.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -100,24 +73,51 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance</strong>
-			<span style="opacity: 0.8;">(20:16)</span>
+			<strong>Deep Dive - Why Partial Information is Worse than Ignorance?</strong>
+			<span style="opacity: 0.8;">(22:01)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_Just_Enough__Why_Partial_Information_Trumps_Ignorance.m4a">
+			<audio id="podcast-audio-deep-dive-05" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Why_Partial_Information_Is_Worse_Than_Ignorance - 2.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Danger of Partial Information: Why Knowing Less Can Be Better Than Knowing Just Enough</strong>
-			<span style="opacity: 0.8;">(18:27)</span>
+			<strong>Deep Dive - Why partial data creates false certainty?</strong>
+			<span style="opacity: 0.8;">(21:30)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Partial_Information__Why_Knowing_Less_Can_Be_Better_Than_Knowing_Just_Enough.m4a">
+			<audio id="podcast-audio-deep-dive-06" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Why_partial_data_creates_false_certainty.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Why Partial Information is Worse than Ignorance?</strong>
+			<span style="opacity: 0.8;">(27:27)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Debate - Why_Partial_Information_Is_Worse_Than_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - How Partial Information Traps the Brain</strong>
+			<span style="opacity: 0.8;">(22:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Debate - How_partial_information_traps_the_brain.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -356,6 +356,89 @@ In our age of information abundance, the scarcest resource may not be data, but 
 Mathematician, Thinker &amp; Seeker of Universal Truth
 <br>
 Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
+
+# Appendix - More Podcasts created by AI!
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Partial Information is Worse Than Ignorance?</strong>
+			<span style="opacity: 0.8;">(50:30)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Why_partial_information_is_worse_than_ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Partial Information is Worse Than Ignorance!</strong>
+			<span style="opacity: 0.8;">(44:12)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/Deep Dive - Partial_information_is_worse_than_ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Danger of Knowing (Just) Enough: Why Partial Information Can Be Worse Than Ignorance</strong>
+			<span style="opacity: 0.8;">(19:07)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_(Just)_Enough__Why_Partial_Information_Can_Be_Worse_Than_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Danger of Half-Baked Truths - Why Partial Information Is Worse Than Knowing Nothing</strong>
+			<span style="opacity: 0.8;">(17:13)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Half-Baked_Truths__Why_Partial_Information_Is_Worse_Than_Knowing_Nothing.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Danger of Knowing Just Enough - Why Partial Information Trumps Ignorance</strong>
+			<span style="opacity: 0.8;">(20:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Knowing_Just_Enough__Why_Partial_Information_Trumps_Ignorance.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Danger of Partial Information: Why Knowing Less Can Be Better Than Knowing Just Enough</strong>
+			<span style="opacity: 0.8;">(18:27)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-09-04-PDT - partial information is no better than no information/The_Danger_of_Partial_Information__Why_Knowing_Less_Can_Be_Better_Than_Knowing_Just_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 <hr>
 <ol>
