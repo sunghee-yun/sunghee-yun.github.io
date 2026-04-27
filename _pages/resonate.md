@@ -1,5 +1,5 @@
 ---
-last_modified_at: Tue Apr 21 22:25:20 PDT 2026
+last_modified_at: Mon Apr 27 02:07:52 PDT 2026
 layout: single
 title: Resonate
 permalink: /resonate
@@ -204,7 +204,7 @@ which is mentioned in [here](/contributions/my-entrepreneurial-journey/#cognitiv
 &ndash; first read in 2015
 - [The Signal and the Noise: Why So Many Predictions Fail - but Some Don't - by Nate Silver](https://en.wikipedia.org/wiki/The_Signal_and_the_Noise){:target="_blank"}
 &ndash; first read in ~ 2016
-- [Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow){:target="_blank"}
+- <span id="thinking-fast-and-slow"></span>[Thinking, Fast and Slow - by Daniel Kahneman](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow){:target="_blank"}
 &ndash; first read in 2016
 - {: #chip-war} [Chip War: The Quest to Dominate the World's Most Critical Technology - by Chris Miller](https://en.wikipedia.org/wiki/Chip_War){:target="_blank"}
 &ndash; first read in 2024
