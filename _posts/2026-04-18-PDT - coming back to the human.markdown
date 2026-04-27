@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Sun Apr 26 01:27:50 PDT 2026
+last_modified_at: Mon Apr 27 13:44:23 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -235,7 +235,7 @@ One might read this essay and conclude that, as AI systems become more capable, 
 
 But it's not! <span class="emph">It is actually the old mistake in new clothing.</span>
 
-The entire argument of this essay is that there is *no view from nowhere*. There is no cosmic vantage point from which a higher category of honor can be &ldquo;discovered.&rdquo; The return to the human is not a consolation prize for beings too limited to reach a better standpoint. <span class="emph">It is the recognition that a standpoint is all any being ever has, and the human standpoint is the one I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"}.</span> A more powerful intelligence does not solve this problem. It inherits it. The ant with a better antenna is still an ant. An AI with a richer semantic space is still an embedded, situated, finite optimizer. Scale does not purchase escape from situation.
+The entire argument of this essay is that there is *no view from nowhere*. There is no cosmic vantage point from which a higher category of honor can be &ldquo;discovered.&rdquo; The return to the human is not a consolation prize for beings too limited to reach a better standpoint. <span class="emph">It is the recognition that a standpoint is all any being ever has, and the human standpoint is the one I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"}.</span> A more powerful intelligence does not solve this problem. It inherits it. The ant with a better antenna is still an ant. An AI with a richer semantic space is still an embedded, situated, and finite optimizer. Scale does not purchase escape from situation.
 
 <span class="emph">So what *are* the honest implications of this essay for the AI era?</span> I think there are three.
 
