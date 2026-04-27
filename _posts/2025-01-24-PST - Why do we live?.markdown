@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Sat Apr 25 11:20:16 PDT 2026
+last_modified_at: Mon Apr 27 13:52:32 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -160,7 +160,7 @@ even when I was very little.
 
 As the child of non-religious parents, I didn't rely on divine beings to find meaning. This absence of religious framework, while liberating in some ways, created a particular challenge. Religious traditions, whatever their ultimate truth claims, provide ready-made answers to life's big questions. The religiously raised child receives a complete cosmology: you exist because God created you, your purpose is to serve God and follow divine commandments, and your ultimate destiny lies in an afterlife determined by your earthly conduct. Without this framework, the burden of creating meaning falls entirely upon the individual—a daunting task for a developing mind.
 
-During high school, I explored Christianity but found its answers unsatisfactory, as the Bible failed to convincingly demonstrate God's existence, hence for example, making the "Christian type" of purpose-driven life arguments unconvincing. (I know this cannot disprove anything.) My engagement with Christianity was earnest and thorough—I attended youth groups, read theological texts, and genuinely attempted to embrace faith. The intellectual obstacles, however, proved insurmountable. The problem of evil, the historical inconsistencies in religious texts, and the absence of empirical (and non-empirical) evidence for supernatural claims created cognitive dissonance that I couldn't resolve through faith alone.
+During high school, I explored Christianity but found its answers unsatisfactory, as the Bible failed to convincingly demonstrate God's existence, hence for example, making the "Christian type" of purpose-driven life arguments unconvincing. (I know this cannot disprove anything.<sup><a href="#footnote1" id="ref1">1</a></sup>) My engagement with Christianity was earnest and thorough—I attended youth groups, read theological texts, and genuinely attempted to embrace faith. The intellectual obstacles, however, proved insurmountable. The problem of evil, the historical inconsistencies in religious texts, and the absence of empirical (and non-empirical) evidence for supernatural claims created cognitive dissonance that I couldn't resolve through faith alone.
 
 The philosophical implications of rejecting religious answers to life's meaning are significant. As [Dostoevsky](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky) famously wrote through Ivan Karamazov, "If there is no God, everything is permitted." This statement captures the vertigo that accompanies the loss of divine authority—without a cosmic lawgiver, we must create our own moral frameworks and purposes. Some find this prospect liberating; others find it terrifying. For me, it was both.
 
@@ -200,7 +200,7 @@ When I refer to "Buddha's teachings" (here or anywhere else), I use the term as 
 
 > &hellip; The absence of inherent meaning doesn't end the story—it opens up new possibilities for understanding what meaning might be and how it might function in human experience.
 
-It happened that, since 2015, I had become deeply interested in Buddha's teachings; not the Buddhism as a religion, but his original teachings he taught to help people overcome the (inevitable) suffering, or to be more precise, the [dukkha](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha)<sup><a href="#footnote1" id="ref1">1</a></sup>. As I explored concepts of mercy, compassion, [nirvāna](https://en.wikipedia.org/wiki/Nirvana), enlightenment, and [Anātman](https://en.wikipedia.org/wiki/Anatt%C4%81), these teachings started transforming my life and have eventually *led me to nirvāna*. During this period, influenced by Buddha's teachings, I concluded that life had no inherent meaning (of course!).
+It happened that, since 2015, I had become deeply interested in Buddha's teachings; not the Buddhism as a religion, but his original teachings he taught to help people overcome the (inevitable) suffering, or to be more precise, the [dukkha](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha)<sup><a href="#footnote2" id="ref2">2</a></sup>. As I explored concepts of mercy, compassion, [nirvāna](https://en.wikipedia.org/wiki/Nirvana), enlightenment, and [Anātman](https://en.wikipedia.org/wiki/Anatt%C4%81), these teachings started transforming my life and have eventually *led me to nirvāna*. During this period, influenced by Buddha's teachings, I concluded that life had no inherent meaning (of course!).
 
 The Buddha's approach to life's fundamental questions differs radically from Western philosophical traditions. Rather than asking "What is the meaning of life?" or "Why do we exist?", Buddhism begins with the observation that existence is characterized by [dukkha](https://en.wikipedia.org/wiki/Du%E1%B8%A5kha) (suffering or dissatisfaction). [The Four Noble Truths](https://en.wikipedia.org/wiki/Four_Noble_Truths) diagnose the human condition: life contains suffering, suffering arises from attachment and craving, suffering can cease, and there is a path to end suffering. This framework reframes existential questions entirely—instead of seeking meaning, we should seek liberation from the psychological states that make existence burdensome.
 
@@ -316,10 +316,40 @@ Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
 <hr>
 <ol>
 <li id="footnote1">
+	By &ldquo;I know this cannot disprove anything&rdquo; I mean something more than the obvious
+	logical point that the absence of convincing scriptural evidence does not, by itself,
+	disprove God's existence. I mean something deeper: the very cognitive apparatus we
+	bring to questions of this kind &mdash; logic, language, scientific reasoning, even
+	introspection &mdash; is itself bounded. There is a horizon beyond which our verbal and
+	conceptual tools simply cannot reach. To say <em>"the Bible did not convince me"</em> is a
+	statement within that horizon. To say <em>"therefore there is no God"</em> would be a claim
+	that pretends the horizon is not there. I make the first statement. I do not make the
+	second.
+	<br>
+	This connects to what I mean by <em>religious</em>. By the ordinary definition &mdash; participation
+	in organized worship, allegiance to a particular scripture, regular ritual practice
+	&mdash; I am not religious. But by a deeper definition, I think every human being <i>is</i> religious. We
+	all operate from some <em>belief system</em>, whether we arrived at it through logical
+	reasoning or through some encounter with awe that preceded any reasoning at all. The
+	secular rationalist who rejects all gods has a belief system. The mathematician who
+	trusts that the universe is intelligible has a belief system. So does the mystic, the
+	materialist, the agnostic, and the indifferent. We are all standing on ground we did not
+	fully choose, looking out from a vantage point whose foundations we cannot fully
+	inspect.
+	<br>
+	And this is the point I most want to convey: <em>there is no fundamental cosmic ground
+	from which I can say the religious are wrong, nor from which they can say I am wrong</em>.
+	Neither of us has access to the standpoint that would settle the question. The sincere
+	believer and the sincere skeptic are not adversaries holding incompatible truths; they
+	are fellow finite beings, each looking out from a different position on the same
+	horizon, neither able to step outside it. Recognizing this does not weaken my own
+	position. It clarifies what kind of position any of us can ever hold.
+&nbsp;<a href="#ref1">↩</a></li>
+<li id="footnote2">
 	Duḥkha (/ˈduːkə/; Sanskrit: दुःख, Pali: dukkha)
 	is an important concept in Buddhism, Jainism and Hinduism
 	meaning something like &ldquo;suffering&rdquo;, &ldquo;pain&rdquo;, &ldquo;unease&rdquo;, or &ldquo;unsatisfactoriness&rdquo;.
 	However, (for obvious reasons)
 	there is no English word exactly describing it.
-&nbsp;<a href="#ref1">↩</a></li>
+&nbsp;<a href="#ref2">↩</a></li>
 </ol>
