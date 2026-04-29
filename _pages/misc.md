@@ -1,5 +1,5 @@
 ---
-last_modified_at: Mon Apr 13 16:18:08 PDT 2026
+last_modified_at: Tue Apr 28 21:18:42 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -284,6 +284,16 @@ toc_sticky: true
 ## 2026 &#126; 2030 {#trips-2021-2030}
 
 <h3>2026</h3>
+
+<h4>Aug</h4>
+
+- biz trip to Orlando; invited by 특구재단 to Global Deep Tech Commercialization Forum within UKC 2026
+	- 05-Aug-2026 PDT ~ 07-Aug-2026 PDT
+
+<h4>Jun</h4>
+
+- biz trip to San Diego; invited by BSR Korea for [Bio International Convention](https://convention.bio.org/){:target="_blank"}
+	- 22-Jun-2026 PDT ~ 24-Jun-2026 PDT
 
 <h4>May</h4>
 
