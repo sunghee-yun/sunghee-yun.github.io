@@ -1,7 +1,7 @@
 ---
-title: "Nor is Complete Information Sufficient!"
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Wed Apr 29 02:35:20 PDT 2026
+last_modified_at: Wed Apr 29 02:47:54 PDT 2026
+title: "Nor is Complete Information Sufficient!"
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
  - blog
@@ -487,20 +487,22 @@ WYSIATI, in other words, is not merely a bias that more information corrects. It
 
 ## The Illusion of Explanatory Depth — The Deepest Version
 
-[Rozenblit and Keil](https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth)'s discovery of the **illusion of explanatory depth** — that people vastly overestimate how deeply they understand things they can describe — takes on new significance in the context of this article.
+[Rozenblit and Keil's discovery of the **illusion of explanatory depth**](https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth){:target="_blank"}
+&mdash; that people vastly overestimate how deeply they understand things they can describe &mdash;
+takes on new significance in the context of this article.
 
-In my previous article, the illusion operated on *partial* information: people thought their fragmentary knowledge constituted real understanding. Here, the illusion operates even more insidiously. Consider my younger self's conviction that recording every particle's position and velocity would yield objective historical understanding. This was the illusion of explanatory depth operating at maximum intensity — the belief that *complete* information would suffice for understanding — without recognizing that understanding and information are categorically different things.
+In my previous article, the illusion operated on *partial* information; people thought their fragmentary knowledge constituted real understanding. Here, the illusion operates even more insidiously. Consider my younger self's conviction that recording every particle's position and velocity would yield objective historical understanding. This was the illusion of explanatory depth operating at maximum intensity — the belief that *complete* information would suffice for understanding — without recognizing that understanding and information are categorically different things.
 
 The illusion of explanatory depth does not dissolve when information becomes complete. It transforms. We move from "I understand this because I know the key facts" to "complete information would yield complete understanding" — and both are expressions of the same underlying confusion between information and understanding.
 
 ## The McNamara Fallacy — When Complete Data Becomes the Enemy of Understanding
 
-The **McNamara Fallacy** — named after U.S. Secretary of Defense Robert McNamara's approach to the Vietnam War — describes a systematic cognitive error with four steps:
+The [**McNamara Fallacy**](https://en.wikipedia.org/wiki/McNamara_fallacy){:target="_blank"} — named after U.S. Secretary of Defense Robert McNamara's approach to the Vietnam War — describes a systematic cognitive error with four steps:
 
 1. Measure what can be measured
-2. Disregard what cannot be measured
-3. Treat what can be measured as the only thing that matters
-4. Manage accordingly — with catastrophic results
+1. Disregard what cannot be measured
+1. Treat what can be measured as the only thing that matters
+1. Manage accordingly — with catastrophic results
 
 McNamara had access to extraordinarily complete quantitative data about the Vietnam War: body counts, sortie rates, tonnage dropped, economic indicators, population metrics. By any informational standard, the data was comprehensive. Yet the resulting decisions were catastrophic precisely *because* the complete measurable information systematically excluded everything that actually mattered — the will of the Vietnamese people, the legitimacy of the South Vietnamese government, the cultural and historical dimensions of the conflict, the experiential reality of the war on the ground.
 
