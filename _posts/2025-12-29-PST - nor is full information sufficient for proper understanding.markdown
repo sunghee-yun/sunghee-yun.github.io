@@ -1,6 +1,6 @@
 ---
 date: Mon Dec 29 10:01:24 PST 2025
-last_modified_at: Wed Apr 29 02:47:54 PDT 2026
+last_modified_at: Fri May  1 01:45:20 PDT 2026
 title: "Nor is Complete Information Sufficient!"
 permalink: /prajna/impossibility-of-full-knowledge
 categories:
@@ -55,51 +55,24 @@ This article is a sequel to [{{ strategic_ignorance.title }}]({{ strategic_ignor
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Data Does Not Equal Reality?</strong>
-			<span style="opacity: 0.8;">(39:23)</span>
+			<strong>Deep Dive - Why Complete Information is Not Enough?</strong>
+			<span style="opacity: 0.8;">(47:54)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Data_Does_Not_Equal_Reality.m4a">
+			<audio id="podcast-audio-deep-dive-long-06" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Complete_Information_Is_Not_Enough.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Myth of Complete Information</strong>
-			<span style="opacity: 0.8;">(34:51)</span>
+			<strong>Deep Dive - Why complete information is Not understanding?</strong>
+			<span style="opacity: 0.8;">(40:56)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Myth_of_Complete_Information.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div>
-
-<div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Complete Information Is Never Enough?</strong>
-			<span style="opacity: 0.8;">(33:47)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Complete_Information_Is_Never_Enough.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Having All The Data Isn't Enough?</strong>
-			<span style="opacity: 0.8;">(39:07)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Having_All_The_Data_Isn_t_Enough.m4a">
+			<audio id="podcast-audio-deep-dive-long-07" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_complete_information_is_not_understanding.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -109,51 +82,24 @@ This article is a sequel to [{{ strategic_ignorance.title }}]({{ strategic_ignor
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Knowing Everything Is Not Enough?</strong>
-			<span style="opacity: 0.8;">(37:29)</span>
+			<strong>Deep Dive - Why Complete Information is Not Enough?</strong>
+			<span style="opacity: 0.8;">(37:44)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Knowing_Everything_Is_Not_Enough.m4a">
+			<audio id="podcast-audio-deep-dive-long-08" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive -Why_complete_information_is_not_enough - 2.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Debate - Why Having All the Facts Isn't Enough?</strong>
-			<span style="opacity: 0.8;">(22:09)</span>
+			<strong>Deep Dive - Why more data makes you blind?</strong>
+			<span style="opacity: 0.8;">(20:44)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Debate - Why_Having_All_the_Facts_Isn_t_Enough.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-</div>
-
-<div class="img-container-justified">
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Knowing Everything Isn't Enough?</strong>
-			<span style="opacity: 0.8;">(16:48)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Knowing_Everything_Isn_t_Enough.m4a">
-				Your browser does not support this audio element.
-			</audio>
-		</div>
-	</div>
-	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
-		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Illusion of Complete Information</strong>
-			<span style="opacity: 0.8;">(17:32)</span>
-		</div>
-		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Illusion_of_Complete_Information.m4a">
+			<audio id="podcast-audio-deep-dive-05" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_more_data_makes_you_blind.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -163,24 +109,24 @@ This article is a sequel to [{{ strategic_ignorance.title }}]({{ strategic_ignor
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - The Trap of Confusing Data With Understanding</strong>
-			<span style="opacity: 0.8;">(18:30)</span>
+			<strong>Deep Dive - Why Perfect Data is Not Understanding?</strong>
+			<span style="opacity: 0.8;">(19:36)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Trap_of_Confusing_Data_With_Understanding.m4a">
+			<audio id="podcast-audio-deep-dive-06" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_perfect_data_is_not_understanding.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
 	</div>
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
 		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
-			<strong>Deep Dive - Why Complete Information Is Not Understanding?</strong>
-			<span style="opacity: 0.8;">(15:34)</span>
+			<strong>Debate - Why data cannot tell the human story?</strong>
+			<span style="opacity: 0.8;">(25:19)</span>
 		</div>
 		<div style="padding: 10px; background-color: #ecf0f1;">
-			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
-				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Complete_Information_Is_Not_Understanding.m4a">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Debate - Why_data_cannot_tell_the_human_story.m4a">
 				Your browser does not support this audio element.
 			</audio>
 		</div>
@@ -894,8 +840,144 @@ Philosopher, Mathematician, Thinker, and Universal Truth Seeker
 <br>
 Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, PEOPLE!](/)
 
----
+# Appendix - More Podcasts created by AI!
 
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Data Does Not Equal Reality?</strong>
+			<span style="opacity: 0.8;">(39:23)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Data_Does_Not_Equal_Reality.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Myth of Complete Information</strong>
+			<span style="opacity: 0.8;">(34:52)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Myth_of_Complete_Information.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Complete Information Is Never Enough?</strong>
+			<span style="opacity: 0.8;">(33:47)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Complete_Information_Is_Never_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Having All The Data Isn't Enough?</strong>
+			<span style="opacity: 0.8;">(39:08)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Having_All_The_Data_Isn_t_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Knowing Everything Is Not Enough?</strong>
+			<span style="opacity: 0.8;">(37:29)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-05" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Knowing_Everything_Is_Not_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Why Having All the Facts Isn't Enough?</strong>
+			<span style="opacity: 0.8;">(22:10)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Debate - Why_Having_All_the_Facts_Isn_t_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Knowing Everything Isn't Enough?</strong>
+			<span style="opacity: 0.8;">(16:48)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Knowing_Everything_Isn_t_Enough.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Illusion of Complete Information</strong>
+			<span style="opacity: 0.8;">(17:32)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Illusion_of_Complete_Information.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Trap of Confusing Data With Understanding</strong>
+			<span style="opacity: 0.8;">(18:31)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - The_Trap_of_Confusing_Data_With_Understanding.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why Complete Information Is Not Understanding?</strong>
+			<span style="opacity: 0.8;">(15:35)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-03.github.io/resource/sungheeyun.github.io/posts/2025-12-29-PST - nor is full information sufficient for proper understanding/Deep Dive - Why_Complete_Information_Is_Not_Understanding.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<hr>
 <ol>
 <li id="footnote1">
 	The unconscious mind's capacity for problem-solving—continuing to work on questions during sleep and periods of conscious distraction—is well documented in cognitive science. My suspicion is that much of my subsequent clarity about this insight came from this unconscious processing, occurring in parallel with my conscious thoughts across those weeks. This, itself, might be an example of understanding emerging through processes that transcend conscious information processing.
