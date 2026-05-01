@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Fri Feb 20 17:18:07 PST 2026
+last_modified_at: Thu Apr 30 21:15:36 PDT 2026
 permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
@@ -135,7 +135,7 @@ Let me be honest about the logistics first, because they set the stage for every
 The morning lecture at Texas A&M was titled "[AI Technology, Trends, and Market - Industrial AI](/#ai-lecture-texas-a-and-m-feb-2026){:target="_blank"}." The invitation came from [Professor Su-in Yi](https://www.linkedin.com/in/su-in-yi-32b76b66/){:target="_blank"}, who had arranged for me to speak to engineering students and faculty about how AI actually works in production environments—not the sanitized version you read about in press releases, but the messy, complex, fascinating reality of deploying AI systems at scale across semiconductor manufacturing, e-commerce, and biotech.
 
 <div class="img-container">
-<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_2732-25-reduced.jpeg">
+<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-02.github.io/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_2732-25-reduced.jpeg">
 </div>
 
 More than anything, though, I wanted to give students something rarely offered in traditional AI courses—a panoramic, historically grounded view of how we arrived here, and why the current moment is as consequential as it feels.
@@ -153,7 +153,7 @@ Perhaps the lecture's most distinctive moment came when I laid out my own framew
 The evening lecture in Austin, "[Beyond ChatGPT - The Complete AI Landscape of Technology, Hardware, Markets, and Bridging Research to Startup Reality](/#ksea-austin-ai-talk-feb-2026){:target="_blank"}," addressed a different hunger while conveying similar basic messages that I delivered at Texas A&M University—the Korean-American professionals, researchers, and entrepreneurs trying to navigate career decisions in an AI-saturated world. How do you identify genuine opportunities versus hype? Why are biotech and physical AI new promising lands of AI? What does it actually take to go from research to startup, from large company to founding your own venture? And philosophical questions and extremely grand questions regarding Artificial General Intelligence (AGI)!
 
 <div class="img-container">
-<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/2026/02/13 CST - KSEA Austin Chapter AI Lecture/KakaoTalk_Photo_2026-02-16-16-58-27 001-50-reduced.jpeg">
+<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-02.github.io/resource/2026/02/13 CST - KSEA Austin Chapter AI Lecture/KakaoTalk_Photo_2026-02-16-16-58-27 001-50-reduced.jpeg">
 </div>
 
 The same speaker. The same core material. But different framing, pacing, and emphasis.
@@ -167,7 +167,7 @@ The Texas A&M lecture started at 11:30 AM. I had prepared what I thought was a c
 What I didn't anticipate was the level of engagement.
 
 <div class="img-container">
-<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0913-25-reduced.jpg">
+<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-02.github.io/resource/2026/02/13 CST - Texas A&M AI Lecture/IMG_0913-25-reduced.jpg">
 </div>
 
 Questions started after I finished delivering my main points—not polite, perfunctory questions, but genuine intellectual sparring. Students asked profound and fundamental questions - Should we trust AI more than human experts in clinical settings—say, in radiology, where AI systems now achieve diagnostic accuracy that rivals or exceeds board-certified radiologists? What are the ethical guardrails? Who bears responsibility when an AI system errs?
@@ -212,7 +212,7 @@ The title promised the complete AI landscape, and I delivered.
 But the real value—at least according to the feedback I'm getting—wasn't the technical content. It was the *contextual synthesis*. The why and how of AI's current moment. The geopolitical semiconductor dynamics. The market forces driving specific architectural choices. The organizational and cultural factors that determine whether AI research becomes impactful products.
 
 <div class="img-container">
-<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-01.github.io/resource/2026/02/13 CST - KSEA Austin Chapter AI Lecture/KakaoTalk_Photo_2026-02-16-16-54-29 002-50-reduced.jpeg">
+<img style="max-width: 100%; max-height: none;" src="https://sungheeyun-photos-02.github.io/resource/2026/02/13 CST - KSEA Austin Chapter AI Lecture/KakaoTalk_Photo_2026-02-16-16-54-29 002-50-reduced.jpeg">
 </div>
 
 One person told me afterward. <span class="emph">"Your AI talk wasn't just another technical talk. With a truly holistic understanding of not only the technology itself, but also the broader contextual background surrounding AI's development and progress, you let the audience see the whole landscape—how and why AI arrived here, what societal and economic conditions, and even what serendipitous events initiated this whole revolution—and told those stories in a way that made the audience want to know and learn more!"</span>
