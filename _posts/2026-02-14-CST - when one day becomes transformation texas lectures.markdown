@@ -1,6 +1,6 @@
 ---
 date: Sat Feb 14 20:03:47 PST 2026
-last_modified_at: Thu Apr 30 21:15:36 PDT 2026
+last_modified_at: Tue May  5 21:28:45 PDT 2026
 permalink: /ai-lecture/reflections/texas/feb-2026
 layout: single
 title: "When One Day Becomes Transformation - Two Lectures in Texas and the Joy of Teaching at Full Speed"
@@ -299,16 +299,16 @@ Ask me in five years when some of yesterday's attendees are founding companies, 
 
 The answer, I think, will be clear.
 
-[Sunghee
+[Sunghee](/)
 <br>
 <br>
-Co-Founder & CTO @ Erudio Bio, Inc
+Co-Founder & CTO @ [Erudio Bio, Inc.](https://erudio.bio){:target="_blank"}
 <!--br>
 Co-Founder & CEO @ Erudio Bio Korea, Inc.
 -->
 <br>
-Leader of Silicon Valley Privacy-Preserving AI Forum (K-PAI)
+Co-Founder & Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io){:target="_blank"}
 <br>
-Philosopher, Mathematician, Thinker, and Universal Truth Seeker
+[Philosopher](/categories/#philosophy), [Mathematician](/math), [Thinker](/categories/#cognitive-science), and [Universal Truth Seeker](/categories/#universal-truth)
 <br>
-Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, PEOPLE!](/)
+Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, [PEOPLE](https://nexus-pai.github.io){:target="_blank"}!
