@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon Apr 27 13:52:32 PDT 2026
+last_modified_at: Tue May  5 21:40:48 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -306,12 +306,20 @@ The creative view of meaning also suggests that <span class="emph">meaning-makin
 
 <span class="emph">The question "Do I want meaning in my life?" preserves genuine choice while opening creative possibilities.</span> The answer might be yes, leading to active engagement with meaning-making practices. The answer might be no, leading to acceptance of meaninglessness (hopefully) without despair. Most likely, the answer will vary over time and circumstances, leading to a dynamic relationship with meaning that evolves throughout life. In all cases, the question locates <span class="emph">agency</span> where it belongs—<span class="emph">not in cosmic forces beyond our control, but in our own choices about how to live.</span>
 
-[Sunghee
+[Sunghee](/)
 <br>
 <br>
-Mathematician, Thinker &amp; Seeker of Universal Truth
+Co-Founder & CTO @ [Erudio Bio, Inc.](https://erudio.bio){:target="_blank"}
+<!--br>
+Co-Founder & CEO @ [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"}
+-->
+<!--br>
+Co-Founder & Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io){:target="_blank"}
+-->
 <br>
-Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
+[Philosopher](/categories/#philosophy), [Mathematician](/math), [Thinker](/categories/#cognitive-science), and [Universal Truth Seeker](/categories/#universal-truth)
+<br>
+Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, [PEOPLE](https://nexus-pai.github.io){:target="_blank"}!
 
 <hr>
 <ol>
