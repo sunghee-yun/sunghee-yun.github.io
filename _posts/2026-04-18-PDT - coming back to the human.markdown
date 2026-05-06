@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Mon Apr 27 13:44:23 PDT 2026
+last_modified_at: Tue May  5 21:37:28 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -291,12 +291,20 @@ This is, I think, what the [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/)
 
 <span style="color: red; font-style: italic;">That is the return. That is what comes after the dissolution. That is what is left when every honor has been seen through &mdash; and then, with eyes fully open, freely chosen.</span>
 
-[Sunghee
+[Sunghee](/)
 <br>
 <br>
-Mathematician, Thinker &amp; Seeker of Universal Truth
+Co-Founder & CTO @ [Erudio Bio, Inc.](https://erudio.bio){:target="_blank"}
+<!--br>
+Co-Founder & CEO @ [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"}
+-->
+<!--br>
+Co-Founder & Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io){:target="_blank"}
+-->
 <br>
-Entrepreneur, Engineer, Scientist, Creator &amp; Connector of Ideas](/)
+[Philosopher](/categories/#philosophy), [Mathematician](/math), [Thinker](/categories/#cognitive-science), and [Universal Truth Seeker](/categories/#universal-truth)
+<br>
+Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, [PEOPLE](https://nexus-pai.github.io){:target="_blank"}!
 
 # Appendix - More Podcasts created by AI!
 
