@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed May  6 22:45:46 PDT 2026
+last_modified_at: Wed May  6 22:56:15 PDT 2026
 layout: single
 title: About
 permalink: /about/
@@ -267,7 +267,7 @@ My life goal is to help build a future where humanity thrives through the advanc
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"},
 Co-Founder &amp; CEO of [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"},
-Co-Founder &amp; Chair &amp; Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
+[Co-Founder &amp; Chair &amp; Leader](https://nexus-pai.github.io/committee){:target="_blank"} of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
 Advisor to [Korean American Semiconductor Professional Alliance (KASPA)](https://www.koamspa.com/){:target="_blank"},
 CGO &amp; Global Managing Partner of [LULUMEDIC](https://www.lulumedic.com/en/){:target="_blank"},
 AI-Korean Medicine Integration Initiative Task Force Member of [The Association of Korean Medicine](https://www.akom.org/){:target="_blank"},
@@ -285,7 +285,7 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
 Co-Founder &amp; CTO of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"},
 Co-Founder &amp; CEO of [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"},
-Co-Founder &amp; Chair &amp; Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
+[Co-Founder &amp; Chair &amp; Leader](https://nexus-pai.github.io/committee){:target="_blank"} of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
 Advisor to [Korean American Semiconductor Professional Alliance (KASPA)](https://www.koamspa.com/){:target="_blank"},
 CGO &amp; Global Managing Partner of [LULUMEDIC](https://www.lulumedic.com/en/){:target="_blank"},
 AI-Korean Medicine Integration Initiative Task Force Member of [The Association of Korean Medicine](https://www.akom.org/){:target="_blank"},
