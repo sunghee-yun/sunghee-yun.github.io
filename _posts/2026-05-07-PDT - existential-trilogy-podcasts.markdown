@@ -1,7 +1,7 @@
 ---
 date: Thu May  7 09:18:38 PDT 2026
-last_modified_at: Thu May  7 10:19:03 PDT 2026
-permalink: /prajna/authorship-trilogy/podcasts
+last_modified_at: Thu May  7 16:41:39 PDT 2026
+permalink: /prajna/existential-trilogy/podcasts
 layout: single
 title: "The Existential Trilogy - AI Conversations on Becoming the Conscious Author of One's Existence"
 categories:
