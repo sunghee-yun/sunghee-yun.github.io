@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Thu May  7 02:21:41 PDT 2026
+last_modified_at: Thu May  7 10:37:37 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative"
@@ -136,9 +136,9 @@ family traditions, religious frameworks, national identities, and professional r
 But these inherited structures were all built *within* the survival-work framework. When that framework dissolves, the structures built upon it become unstable.
 
 <div class="img-container-justified">
-	<img width="31.20%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Edmund_Husserl_1910s.jpg">
-	<img width="31.72%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Soren_Kierkegaard.jpg">
-	<img width="33.08%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Nietzsche187a.jpg">
+	<img width="29.93%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Edmund_Husserl_1910s.jpg">
+	<img width="30.35%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Soren_Kierkegaard.jpg">
+	<img width="35.72%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Albert_Camus.jpg">
 </div>
 
 This is not a new problem. It is the problem that 19th and early 20th century existentialist and phenomenological philosophers — [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl){:target="_blank"}, [Søren Kierkegaard](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard){:target="_blank"}, [Friedrich Nietzsche](https://en.wikipedia.org/wiki/Friedrich_Nietzsche){:target="_blank"}, [Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger){:target="_blank"}, [Jean-Paul Sartre](https://en.wikipedia.org/wiki/Jean-Paul_Sartre){:target="_blank"}, [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus){:target="_blank"}, [Maurice Merleau-Ponty](https://en.wikipedia.org/wiki/Maurice_Merleau-Ponty){:target="_blank"} — recognized as the fundamental challenge facing modern humanity.
