@@ -275,6 +275,11 @@ figcaption {
 	font-style: italic;
 }
 
+.remph {
+	color: red;
+	font-style: italic;
+}
+
 .eemph {
 	color: rgb(86%, 8%, 24%);
 	font-style: italic;
