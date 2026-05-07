@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed Apr  8 01:52:14 PDT 2026
+last_modified_at: Wed May  6 22:45:46 PDT 2026
 layout: single
 title: About
 permalink: /about/
@@ -17,7 +17,7 @@ Co-founder &amp; CEO
 @ <a target="_blank" href="https://sungheeyun-erudio.github.io/">Erudio Bio Korea, Inc., Korea</a>,
 -->
 Leader
-of <a target="_blank" href="https://nexus-pai.github.io/">Silicon Valley AI Nexus (SVAIN)</a>,
+of <a target="_blank" href="https://nexus-pai.github.io/">Silicon Valley AI Nexus (K-PAI Nexus)</a>,
 Advisor
 @ <a target="_blank" href="https://www.koamspa.com/">Korean American Semiconductor Professional Alliance (KASPA)</a>,
 CGO / Global Managing Partner
@@ -85,7 +85,7 @@ provide policy and technology recommendations
 by understanding and having differentiated insight
 into technology, industry, business, and markets.
 
-As the Leader of <a href="https://nexus-pai.github.io/">Silicon Valley AI Nexus (SVAIN)</a>, I foster collaboration between industry leaders, researchers, and policymakers to advance responsible AI technologies and establish ethical frameworks for AI deployment across critical sectors including healthcare, finance, and biotechnology. SVAIN serves as a vital bridge connecting cutting-edge AI research with real-world applications, where my experience at companies like Erudio Bio, Gauss Labs, Amazon, and Samsung provides unique insights into the practical challenges of implementing secure and trustworthy AI solutions at scale. Through SVAIN's seminars, workshops, and policy discussions, I work to ensure that as AI systems become more pervasive, they are built with responsible design principles that balance innovation with societal benefits, particularly addressing the complex regulatory landscapes across the US, Europe, and Asia-Pacific regions where different technological standards and cultural expectations around AI governance create both challenges and opportunities for sustainable AI development that serves humanity's long-term interests.
+As the Leader of <a href="https://nexus-pai.github.io/">Silicon Valley AI Nexus (K-PAI Nexus)</a>, I foster collaboration between industry leaders, researchers, and policymakers to advance responsible AI technologies and establish ethical frameworks for AI deployment across critical sectors including healthcare, finance, and biotechnology. K-PAI Nexus serves as a vital bridge connecting cutting-edge AI research with real-world applications, where my experience at companies like Erudio Bio, Gauss Labs, Amazon, and Samsung provides unique insights into the practical challenges of implementing secure and trustworthy AI solutions at scale. Through K-PAI Nexus's seminars, workshops, and policy discussions, I work to ensure that as AI systems become more pervasive, they are built with responsible design principles that balance innovation with societal benefits, particularly addressing the complex regulatory landscapes across the US, Europe, and Asia-Pacific regions where different technological standards and cultural expectations around AI governance create both challenges and opportunities for sustainable AI development that serves humanity's long-term interests.
 
 As a
 <a href="https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative">KFAS-Salzburg Global Leadership Initiative Fellow</a>,
@@ -265,14 +265,14 @@ My life goal is to help build a future where humanity thrives through the advanc
 ## short
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
-Co-Founder &amp; CTO of Erudio Bio, Inc.,
-Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
-Co-Founder &amp; Leader of Silicon Valley AI Nexus (SVAIN),
-Advisor to Korean American Semiconductor Professional Alliance (KASPA),
-CGO &amp; Global Managing Partner of LULUMEDIC,
-AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
+Co-Founder &amp; CTO of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"},
+Co-Founder &amp; CEO of [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"},
+Co-Founder &amp; Chair &amp; Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
+Advisor to [Korean American Semiconductor Professional Alliance (KASPA)](https://www.koamspa.com/){:target="_blank"},
+CGO &amp; Global Managing Partner of [LULUMEDIC](https://www.lulumedic.com/en/){:target="_blank"},
+AI-Korean Medicine Integration Initiative Task Force Member of [The Association of Korean Medicine](https://www.akom.org/){:target="_blank"},
 and
-KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
+[KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} of [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor, where he developed AI and optimization tools for chip design and manufacturing, followed by impactful work at Amazon.com where his innovations led to a $200M revenue increase through the Amazon Mobile Shopping App.
 His current company, Erudio Bio, recently received $1M Grant from Gates Foundation
 supporting bioTCAD, an AI drug discovery platform.
@@ -283,14 +283,14 @@ He holds BS degree in Electrical Engineering from Seoul National University and 
 ## long
 
 [Sunghee Yun](/) is a distinguished technology leader and AI pioneer currently serving as
-Co-Founder &amp; CTO of Erudio Bio, Inc.,
-Co-Founder &amp; CEO of Erudio Bio Korea, Inc.,
-Co-Founder &amp; Leader of Silicon Valley AI Nexus (SVAIN),
-Advisor to Korean American Semiconductor Professional Alliance (KASPA),
-CGO &amp; Global Managing Partner of LULUMEDIC,
-AI-Korean Medicine Integration Initiative Task Force Member of The Association of Korean Medicine,
+Co-Founder &amp; CTO of [Erudio Bio, Inc.](https://www.erudio.bio/){:target="_blank"},
+Co-Founder &amp; CEO of [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/){:target="_blank"},
+Co-Founder &amp; Chair &amp; Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/){:target="_blank"},
+Advisor to [Korean American Semiconductor Professional Alliance (KASPA)](https://www.koamspa.com/){:target="_blank"},
+CGO &amp; Global Managing Partner of [LULUMEDIC](https://www.lulumedic.com/en/){:target="_blank"},
+AI-Korean Medicine Integration Initiative Task Force Member of [The Association of Korean Medicine](https://www.akom.org/){:target="_blank"},
 and
-KFAS-Salzburg Global Leadership Initiative Fellow of Salzburg Global Semianr.
+[KFAS-Salzburg Global Leadership Initiative Fellow](https://www.salzburgglobal.org/news/latest-news/article/introducing-the-second-cohort-of-the-kfas-salzburg-global-leadership-initiative){:target="_blank"} of [Salzburg Global Seminar](https://www.salzburgglobal.org/){:target="_blank"}.
 His extensive experience in semiconductor and AI technologies includes notable contributions at Samsung Semiconductor,
 where he developed AI and optimization tools for chip design, manufacturing, and testing—solutions
 that continue to be utilized daily by many Samsung engineers.
@@ -321,7 +321,7 @@ where he focuses on addressing the challenges and opportunities presented by AI 
 # Press Exposures
 
 <!--
-## Co-Founder &amp; CTO @ [Erudio Bio](https://www.erudio.bio/) / CEO @ Erudio Bio Korea / [Silicon Valley AI Nexus (SVAIN)](https://nexus-pai.github.io/) Leader
+## Co-Founder &amp; CTO @ [Erudio Bio](https://www.erudio.bio/) / CEO @ Erudio Bio Korea / [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io/) Leader
 
 - [빌 게이츠가 투자한 韓 DNA 바이오회사, AI로 신약개발 성공률 높인다](https://www.mt.co.kr/tech/2025/12/15/2025121200524048774){:target="_blank"}
 	&ndash; 머니투데이
