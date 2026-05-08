@@ -1,6 +1,6 @@
 ---
 date: 2024-09-30
-last_modified_at: Thu Apr 23 18:24:40 PDT 2026
+last_modified_at: Fri May  8 01:21:53 PDT 2026
 title: Tao Te Ching - 도덕경道德經 (61~81)
 permalink: /tao-te-ching/03
 categories:
@@ -1484,29 +1484,84 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 </p>
 </div>
 
+<h2 id="76">제76장 - 유약柔弱</h2>
+
+> 부드럽고 약한 것은 산 것이고,<br>
+> 단단하고 강한 것은 죽은 것이다.
+
+<div class="translation-container">
+<p>
+	人之生也柔弱
+	其死也堅强
+<span class="chinese-korean-transliteration">
+	인지생야유약
+	기사야견강
+</span>
+<span class="chinese-korean-translation">
+	사람이 살아 있을 때는 부드럽고 약하지만
+	<br>
+	죽으면 단단하고 강해진다.
+</span>
+</p>
+
+<p>
+	萬物草木之生也柔脆
+	其死也枯槁
+<span class="chinese-korean-transliteration">
+	만물초목지생야유취
+	기사야고고
+</span>
+<span class="chinese-korean-translation">
+	풀과 나무같은 온갖 것들도 살아 있으면 부드럽고 연하지만
+	<br>
+	죽으면 말라 뻣뻣해진다.
+</span>
+</p>
+
+<p>
+	故堅强者死之徒
+	柔弱者生之徒
+<span class="chinese-korean-transliteration">
+	고견강자사지도
+	유약자생지도
+</span>
+<span class="chinese-korean-translation">
+	그러므로 단단하고 강한 사람은 죽음의 무리이고
+	<br>
+	부드럽고 약한 사람은 삶의 무리이다.
+</span>
+</p>
+
+<p>
+	是以兵强則不勝
+	木强則兵
+<span class="chinese-korean-transliteration">
+	시이병강즉불승
+	목강즉병
+</span>
+<span class="chinese-korean-translation">
+	그래서 군대가 강하면 이기지 못하고
+	<br>
+	나무가 강하면 꺾이고 만다.
+</span>
+</p>
+
+<p>
+	强大處下
+	柔弱處上
+<span class="chinese-korean-transliteration">
+	강대처하
+	유약처상
+</span>
+<span class="chinese-korean-translation">
+	강화고 큰 것은 밑에 놓이고
+	<br>
+	부드럽고 약한 것은 위에 놓이게 된다.
+</span>
+</p>
+</div>
+
 <!--
-76. 柔弱(유약)
-
-
-
-부드럽고 약한 것은 산 것이고,
-
-단단하고 강한 것은 죽은 것이다.
-
-
-人之生也柔弱(인지생야유약) : 사람이 살아 있을 때는 부드럽고 약하지만
-其死也堅强(기사야견강) : 죽으면 단단하고 강해진다.
-萬物草木之生也柔脆(만물초목지생야유취) : 풀과 나무같은 온갖 것들도 살아 있으면 부드럽고 연하지만
-其死也枯槁(기사야고고) : 죽으면 말라 뻣뻣해진다.
-故堅强者死之徒(고견강자사지도) : 그러므로 단단하고 강한 사람은 죽음의 무리이고
-柔弱者生之徒(유약자생지도) : 부드럽고 약한 사람은 삶의 무리이다.
-是以兵强則不勝(시이병강즉불승) : 그래서 군대가 강하면 이기지 못하고
-木强則兵(목강즉병) : 나무가 강하면 꺾이고 만다.
-强大處下(강대처하) : 강화고 큰 것은 밑에 놓이고
-柔弱處上(유약처상) : 부드럽고 약한 것은 위에 놓이게 된다.
-
-
-
 77. 天道(천도)
 
 
