@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Fri May  8 00:04:36 PDT 2026
+last_modified_at: Fri May  8 11:23:54 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative!"
@@ -26,6 +26,20 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
+
+{% assign why_we_live = site.posts | where: "permalink", "/blog/PST-Why-do-we-live/" | first %}
+{% assign back_to_human = site.posts | where: "permalink", "/prajna/coming-back-to-the-human" | first %}
+
+> For nearly the entire span of human existence, the question "should we work?" has been functionally meaningless. Survival demanded labor. The question was never whether to work, but how to work, what to work on, and for whom. Today, for the first time in human history, that question is becoming genuinely possible to ask.
+
+> The Axial Age made it possible for a tiny minority to ask &ndash; what is the good life beyond survival?
+> The age we are entering may make it necessary for everyone to ask this question.
+>
+> This is, I believe, the most important reason to think seriously about AI and Universal Basic Income — not as a policy debate about labor economics, but as a civilizational question about what humans are for.
+
+> Universal Basic Income might be one element of this larger response. But it is this multidimensional work — contemplative, technical, institutional, economic, done seriously, done together — that will determine whether that element functions as part of a coherent response or as an expensive distraction.
+
+> This completely reframes the entire technological panic. We spend so much time fearing the machines, when the real challenge is facing ourselves in the mirror once the machines relieve us of our burdens.
 
 <div class="img-container-justified">
 	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
@@ -134,20 +148,6 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 		</div>
 	</div>
 </div>
-
-{% assign why_we_live = site.posts | where: "permalink", "/blog/PST-Why-do-we-live/" | first %}
-{% assign back_to_human = site.posts | where: "permalink", "/prajna/coming-back-to-the-human" | first %}
-
-> For nearly the entire span of human existence, the question "should we work?" has been functionally meaningless. Survival demanded labor. The question was never whether to work, but how to work, what to work on, and for whom. Today, for the first time in human history, that question is becoming genuinely possible to ask.
-
-> The Axial Age made it possible for a tiny minority to ask &ndash; what is the good life beyond survival?
-> The age we are entering may make it necessary for everyone to ask this question.
->
-> This is, I believe, the most important reason to think seriously about AI and Universal Basic Income — not as a policy debate about labor economics, but as a civilizational question about what humans are for.
-
-> Universal Basic Income might be one element of this larger response. But it is this multidimensional work — contemplative, technical, institutional, economic, done seriously, done together — that will determine whether that element functions as part of a coherent response or as an expensive distraction.
-
-> This completely reframes the entire technological panic. We spend so much time fearing the machines, when the real challenge is facing ourselves in the mirror once the machines relieve us of our burdens.
 
 # The Morning the Ancient Law Vanishes
 
