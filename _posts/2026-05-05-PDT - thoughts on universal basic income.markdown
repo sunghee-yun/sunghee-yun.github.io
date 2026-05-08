@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Thu May  7 23:00:11 PDT 2026
+last_modified_at: Fri May  8 00:04:36 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative!"
@@ -200,7 +200,7 @@ What makes the current moment genuinely different from every other technological
 
 The modern generation of AI systems — and this is not science fiction, this is observable reality in 2026 — can now perform or rapidly approach human-level capability in domains we previously considered uniquely human &ndash; legal analysis, medical diagnosis, software engineering, (creative) writing, strategic planning, and scientific research. These are not niche applications. These are the cognitive foundations of the modern economy.
 
-More importantly, the trajectory is accelerating. Every six months, capabilities that seemed impossible become routine. Tasks that required years of human training are now accomplished by systems trained in weeks. And crucially, unlike human workers, <span id="ai-infinite-parallelism" style="color: red; font-style: italic;">AI systems scale horizontally with near-zero marginal cost.</span> <span class="emph">You cannot hire a thousand brilliant lawyers overnight. You can deploy a thousand instances of an AI legal system in minutes.</span>
+More importantly, the trajectory is accelerating. Every six months, capabilities that seemed impossible become routine. Tasks that required years of human training are now accomplished by systems trained in weeks. And crucially, unlike human workers, <span id="ai-infinite-parallelism" style="color: red; font-style: italic;">AI systems scale horizontally with near-zero marginal cost.</span> <span class="emph">You cannot hire a thousand brilliant lawyers overnight. You can deploy a thousand instances of an AI legal system in minutes.</span><sup><a href="#footnote01" id="ref01">1</a></sup>
 
 <span class="emph">This is not about whether specific jobs will be "safe" or "at risk." That framing misses the point entirely.</span> <span style="color: red; font-style: italic;">The question is whether *human economic necessity itself* — the fundamental coupling of work and survival that has structured civilization for millennia — is entering its terminal phase. And if so, what comes next?</span>
 
@@ -237,7 +237,7 @@ That boarding school graduation is the exact civilizational threshold we are sta
 
 # The Crisis of Inherited Meaning
 
-The modern world operates on a kind of existential autopilot.<sup><a href="#footnote01" id="ref01">1</a></sup> Most people inherit their sense of meaning from cultural structures that pre-exist them
+The modern world operates on a kind of existential autopilot.<sup><a href="#footnote02" id="ref02">2</a></sup> Most people inherit their sense of meaning from cultural structures that pre-exist them
 &ndash;
 family traditions, religious frameworks, national identities, and professional roles. These structures tell you what matters, what is worth pursuing, and what constitutes a good life.
 
@@ -259,7 +259,7 @@ This is not a new problem. It is the problem that 19th and early 20th century ex
 
 Their work was prescient in a way that even they did not fully grasp. They were writing for a future in which the inherited structures of meaning had collapsed but the survival imperative still organized daily life. They were writing for *us* — for a future in which even the survival imperative may finally release its grip.
 
-What they understood, and what we must now confront at civilizational scale, is that *meaning is not discovered; it is created, or rather, should be created*.<sup><a href="#footnote02" id="ref02">2</a></sup> There is no cosmic script that tells you what your life is for. You are the author. And that responsibility — the responsibility to construct purpose consciously rather than inherit it from circumstances — is simultaneously the most profound freedom and the most terrifying burden the human condition offers.
+What they understood, and what we must now confront at civilizational scale, is that *meaning is not discovered; it is created, or rather, should be created*.<sup><a href="#footnote03" id="ref03">3</a></sup> There is no cosmic script that tells you what your life is for. You are the author. And that responsibility — the responsibility to construct purpose consciously rather than inherit it from circumstances — is simultaneously the most profound freedom and the most terrifying burden the human condition offers.
 
 # Why This Matters for Universal Basic Income
 
@@ -359,17 +359,22 @@ Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connect
 <hr>
 <ol>
 <li id="footnote01">
+	Indeed, I was inspired by the conversation I had an honor to have with
+	<a target="_blank" href="https://www.linkedin.com/in/minha-hwang-7440771/">Dr. Minha Hwang</a>
+	one lazy Saturday afternoon in Bay Area!
+	&nbsp;<a href="#ref01">↩</a></li>
+<li id="footnote02">
 	Indeed, this doesn't just apply to the modern world, but every stage of the human history (especially ever since the Axial Age).<br>
 	The inheritance of meaning from pre-existing cultural structures is not a modern phenomenon but the human default across virtually all historical periods.
 	Even the Axial Age, which introduced philosophical traditions of self-examination and conscious meaning-making,
 	remained accessible only to small elites while the vast majority continued to inherit purpose from tradition, religion, and social hierarchy.
 	The unprecedented challenge we face is not that meaning has been inherited
 	&ndash; it always has been — but that the structures from which it was inherited are dissolving precisely as the survival imperative that sustained them releases its grip.
-	&nbsp;<a href="#ref01">↩</a></li>
-<li id="footnote02">
+	&nbsp;<a href="#ref02">↩</a></li>
+<li id="footnote03">
 	This claim — that meaning is constructed rather than discovered — deserves more development than this essay can provide.
 	I have explored its implications at length in "<a target="_blank" href="{{ why_we_live.url }}">{{ why_we_live.title }}</a>"
 	and its sequel "<a target="_blank" href="{{ back_to_human.url }}">{{ back_to_human.title }}</a>",
 	where I trace what it means, both philosophically and as lived practice, to become the author of one's own purpose.
-	&nbsp;<a href="#ref02">↩</a></li>
+	&nbsp;<a href="#ref03">↩</a></li>
 </ol>
