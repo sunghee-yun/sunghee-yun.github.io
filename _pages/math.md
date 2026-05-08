@@ -1,4 +1,5 @@
 ---
+last_modified_at: Thu May  7 21:29:33 PDT 2026
 layout: single
 title: Mathematics
 permalink: /math
@@ -7,7 +8,6 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 date: Wed Jul 30 10:32:17 PDT 2025
-last_modified_at: Tue Aug  5 01:36:57 PDT 2025
 ---
 
 {: .notice--primary}
@@ -39,26 +39,26 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # My Math Journey
 
-- [{{ math_landscape.title }}]({{ math_landscape.url }})
-	- [{{ algebra.title }}]({{ algebra.url }})
-	- [{{ aalgebra.title }}]({{ aalgebra.url }})
-	- [{{ mtheory.title }}]({{ mtheory.url }})
-	- [{{ topspaces.title }}]({{ topspaces.url }})
-	- [{{ absmeas.title }}]({{ absmeas.url }})
-	- [{{ measprob.title }}]({{ measprob.url }})
-	- [{{ cvxopt.title }}]({{ cvxopt.url }})
-- [{{ linalg.title }}]({{ linalg.url }})
+- [{{ math_landscape.title }}]({{ math_landscape.url }}) ({{ math_landscape.date | date: "%d-%b-%Y" }})
+	- [{{ algebra.title }}]({{ algebra.url }}) ({{ algebra.date | date: "%d-%b-%Y" }})
+	- [{{ aalgebra.title }}]({{ aalgebra.url }}) ({{ aalgebra.date | date: "%d-%b-%Y" }})
+	- [{{ mtheory.title }}]({{ mtheory.url }}) ({{ mtheory.date | date: "%d-%b-%Y" }})
+	- [{{ topspaces.title }}]({{ topspaces.url }}) ({{ topspaces.date | date: "%d-%b-%Y" }})
+	- [{{ absmeas.title }}]({{ absmeas.url }}) ({{ absmeas.date | date: "%d-%b-%Y" }})
+	- [{{ measprob.title }}]({{ measprob.url }}) ({{ measprob.date | date: "%d-%b-%Y" }})
+	- [{{ cvxopt.title }}]({{ cvxopt.url }}) ({{ cvxopt.date | date: "%d-%b-%Y" }})
+- [{{ linalg.title }}]({{ linalg.url }}) ({{ linalg.date | date: "%d-%b-%Y" }})
 
 # Rigorously
 
-- [{{ rig_math_stories.title }}]({{ rig_math_stories.url }})
-- [{{ rig_algebra.title }}]({{ rig_algebra.url }})
-- [{{ rig_linalg.title }}]({{ rig_linalg.url }})
-- [{{ rig_aalgebra.title }}]({{ rig_aalgebra.url }})
-- [{{ rig_mtheory.title }}]({{ rig_mtheory.url }})
-- [{{ rig_topspaces.title }}]({{ rig_topspaces.url }})
-- [{{ rig_absmeas.title }}]({{ rig_absmeas.url }})
-- [{{ rig_measprob.title }}]({{ rig_measprob.url }})
-- [{{ rig_cvxopt.title }}]({{ rig_cvxopt.url }})
+- [{{ rig_math_stories.title }}]({{ rig_math_stories.url }}) ({{ rig_math_stories.date | date: "%d-%b-%Y" }})
+- [{{ rig_algebra.title }}]({{ rig_algebra.url }}) ({{ rig_algebra.date | date: "%d-%b-%Y" }})
+- [{{ rig_linalg.title }}]({{ rig_linalg.url }}) ({{ rig_linalg.date | date: "%d-%b-%Y" }})
+- [{{ rig_aalgebra.title }}]({{ rig_aalgebra.url }}) ({{ rig_aalgebra.date | date: "%d-%b-%Y" }})
+- [{{ rig_mtheory.title }}]({{ rig_mtheory.url }}) ({{ rig_mtheory.date | date: "%d-%b-%Y" }})
+- [{{ rig_topspaces.title }}]({{ rig_topspaces.url }}) ({{ rig_topspaces.date | date: "%d-%b-%Y" }})
+- [{{ rig_absmeas.title }}]({{ rig_absmeas.url }}) ({{ rig_absmeas.date | date: "%d-%b-%Y" }})
+- [{{ rig_measprob.title }}]({{ rig_measprob.url }}) ({{ rig_measprob.date | date: "%d-%b-%Y" }})
+- [{{ rig_cvxopt.title }}]({{ rig_cvxopt.url }}) ({{ rig_cvxopt.date | date: "%d-%b-%Y" }})
 
-- [{{ rig_all_math.title }}]({{ rig_all_math.url }})
+- [{{ rig_all_math.title }}]({{ rig_all_math.url }}) ({{ rig_all_math.date | date: "%d-%b-%Y" }})
