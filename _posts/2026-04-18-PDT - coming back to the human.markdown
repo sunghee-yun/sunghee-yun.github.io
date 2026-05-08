@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Tue May  5 21:37:28 PDT 2026
+last_modified_at: Fri May  8 01:40:38 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -209,7 +209,7 @@ This is, I now think, the more accurate picture &ndash; rational thinking is nec
 
 Think of it this way. <span class="emph">Rationality is a scalpel.</span> A scalpel is precise, sharp, and honest. It cuts through inherited fictions, cultural sentimentality, unexamined pieties. It will not tell you what is beautiful. It will not tell you what is worth your life. What it *will* do is remove every false tissue that has been claiming to be those things. Applied honestly, the scalpel leaves behind a clean field &mdash; free of rot, but also, now, empty.
 
-And here is the critical move most people miss &ndash; <span class="emph">a scalpel is the wrong tool for planting.</span> You do not plant seeds with a scalpel. The hand that knows when to put the scalpel down, wash itself, and pick up seeds is not the same faculty as the hand that made the cuts. The surgeon and the gardener are both needed, but they are different practitioners working in different modes. Confusing them is the deepest <span style="color: red; font-style: italic;">category error</span> in philosophy.
+And here is the critical move most people miss &ndash; <span class="emph">a scalpel is the wrong tool for planting.</span> You do not plant seeds with a scalpel. The hand that knows when to put the scalpel down, wash itself, and pick up seeds is not the same faculty as the hand that made the cuts. The surgeon and the gardener are both needed, but they are different practitioners working in different modes. Confusing them is the deepest <span class="eemph">category error</span> in philosophy.
 
 The person who uses only the scalpel ends up in nihilism &mdash; a perfectly clean field with nothing growing in it, defended with ever-sharper incisions against anyone who tries to plant. The person who refuses the scalpel ends up in sentimentality &mdash; a field overgrown with inherited weeds they have never honestly examined, calling them flowers. Wisdom is what knows the order of operations &ndash; <span class="emph">cut first, honestly and without flinching; then plant, knowingly and without illusion.</span>
 
