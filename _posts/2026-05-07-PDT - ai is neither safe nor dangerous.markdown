@@ -1,6 +1,6 @@
 ---
 date: Thu May  7 15:01:46 PDT 2026
-last_modified_at: Fri May  8 02:55:15 PDT 2026
+last_modified_at: Fri May  8 11:09:14 PDT 2026
 permalink: /ai/future/
 layout: single
 title: "AI is Neither Safe nor Dangerous!"
@@ -50,6 +50,87 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > AI is not like this. AI is a general-purpose cognitive capability that can be applied to virtually any domain of human activity. Calling it &ldquo;safe&rdquo; or &ldquo;dangerous&rdquo; is like calling *thinking* safe or dangerous. The category simply does not apply at the right level of abstraction.
 
 > No AI system has ever caused harm outside of the institutional, economic, and human context in which it was deployed. And no AI system has ever produced benefit outside of such a context, either.
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Why AI Safety Is the Wrong Question?</strong>
+			<span style="opacity: 0.8;">(39:23)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Deep Dive - Why_AI_Safety_Is_the_Wrong_Question.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - AI Safety Is a Category Error!</strong>
+			<span style="opacity: 0.8;">(38:35)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Deep Dive - AI_Safety_Is_a_Category_Error.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Stop Asking if AI Is Safe!</strong>
+			<span style="opacity: 0.8;">(22:42)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Deep Dive - Stop_Asking_if_AI_Is_Safe.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The Illusion of AI Safety!</strong>
+			<span style="opacity: 0.8;">(18:21)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Deep Dive - The_Illusion_of_AI_Safety.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Is AI Safety a Category Error?</strong>
+			<span style="opacity: 0.8;">(22:29)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Debate - Is_AI_safety_a_category_error.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - AI is Neither Safe Nor Dangerous!</strong>
+			<span style="opacity: 0.8;">(19:53)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-07-PDT - ai is neither safe nor dangerous/Debate - AI_is_neither_safe_nor_dangerous.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # The Question Everyone Is Asking Wrong
 
