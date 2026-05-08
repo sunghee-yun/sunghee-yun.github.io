@@ -1,9 +1,9 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Thu May  7 20:22:18 PDT 2026
+last_modified_at: Thu May  7 23:00:11 PDT 2026
 permalink: /ai/future/ubi
 layout: single
-title: "AI and Universal Basic Income - The End of the Survival Imperative"
+title: "AI and Universal Basic Income - The End of the Survival Imperative!"
 categories:
  - blog
  - AI
