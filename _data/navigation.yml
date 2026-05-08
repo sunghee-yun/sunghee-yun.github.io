@@ -3,22 +3,24 @@ main:
     url: /about
   - title: "activities"
     url: /recent-activities
-  - title: "podcasts"
-    url: /podcasts
-  - title: "posts"
-    url: /posts
+  - title: "resonate"
+    url: /resonate
+  - title: "triptych"
+    url: /triptych
   - title: "math"
     url: /math
+  - title: "posts"
+    url: /posts
   - title: "ai insights"
     url: /articles
   - title: "ai papers"
     url: /papers
   - title: "ai learning"
     url: /ai-learning
-  - title: "resonate"
-    url: /resonate
   - title: "cats"
     url: /categories
+  - title: "podcasts"
+    url: /podcasts
   - title: "tags"
     url: /tags
   - title: "books"

@@ -10,6 +10,11 @@ date: Wed Jul 30 10:32:17 PDT 2025
 last_modified_at: Tue Aug  5 01:36:57 PDT 2025
 ---
 
+{: .notice--primary}
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+
 {% assign math_landscape = site.posts | where: "permalink", "/math/landscape" | first %}
 
 {% assign algebra = site.posts | where: "permalink", "/math/inequalities" | first %}
