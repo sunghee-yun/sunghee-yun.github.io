@@ -1,9 +1,9 @@
 ---
 date: Thu May  7 15:01:46 PDT 2026
-last_modified_at: Fri May  8 02:45:49 PDT 2026
+last_modified_at: Fri May  8 02:55:15 PDT 2026
 permalink: /ai/future/
 layout: single
-title: "AI IS Neither Safe NOR Dangerous!"
+title: "AI is Neither Safe nor Dangerous!"
 categories:
  - blog
  - AI
