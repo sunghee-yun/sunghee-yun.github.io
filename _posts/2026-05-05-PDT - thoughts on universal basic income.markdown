@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Thu May  7 10:37:37 PDT 2026
+last_modified_at: Thu May  7 20:22:18 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative"
@@ -26,6 +26,114 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Life Beyond the Survival Imperative</strong>
+			<span style="opacity: 0.8;">(41:28)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Deep Dive - Life_Beyond_the_Survival_Imperative.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Life after the Survival Imperative</strong>
+			<span style="opacity: 0.8;">(40:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Deep Dive - Life_after_the_survival_imperative.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Life after the Survival Imperative</strong>
+			<span style="opacity: 0.8;">(29:17)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-03" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Depp Dive - Life_after_the_survival_imperative - 03.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Life After the Survival Imperative Ends</strong>
+			<span style="opacity: 0.8;">(27:41)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-04" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Deep Dive - Life_after_the_survival_imperative_ends.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Life After the Survival Imperative</strong>
+			<span style="opacity: 0.8;">(21:21)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Deep Dive - Life_After_the_Survival_Imperative - 02.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Humanity after the Survival Imperative</strong>
+			<span style="opacity: 0.8;">(20:01)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Deep Dive - Humanity_after_the_survival_imperative.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Who are We Without the Survival Treadmill?</strong>
+			<span style="opacity: 0.8;">(20:35)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Debate - Who_are_we_without_the_survival_treadmill.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - The End of the Survival Imperative!</strong>
+			<span style="opacity: 0.8;">(20:14)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/sungheeyun.github.io/posts/2026-05-05-PST - thoughts on universal basic income/Debate - The_End_of_the_Survival_Imperative.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 {% assign why_we_live = site.posts | where: "permalink", "/blog/PST-Why-do-we-live/" | first %}
 {% assign back_to_human = site.posts | where: "permalink", "/prajna/coming-back-to-the-human" | first %}
