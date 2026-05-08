@@ -1,6 +1,6 @@
 ---
 date: Thu May  7 16:34:36 PDT 2026
-last_modified_at: Thu May  7 16:56:00 PDT 2026
+last_modified_at: Thu May  7 17:30:03 PDT 2026
 layout: single
 title: Triptych
 permalink: /triptych
@@ -33,15 +33,26 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 # Three Trilogy Articles
 
-- [{{ inevitabilities_trilogy.title }}]({{ inevitabilities_trilogy.url }}){:target="_blank"} @ {{ inevitabilities_trilogy.date | date: "%d-%b-%Y" }}
-	- [{{ arbitrariness.title }}]({{ arbitrariness.url }}){:target="_blank"} @ {{ arbitrariness.date | date: "%d-%b-%Y" }}
-	- [{{ inevitabilities.title }}]({{ inevitabilities.url }}){:target="_blank"} @ {{ inevitabilities.date | date: "%d-%b-%Y" }}
-	- [{{ shadow_prices.title }}]({{ shadow_prices.url }}){:target="_blank"} @ {{ shadow_prices.date | date: "%d-%b-%Y" }}
-- [{{ epistemic.title }}]({{ epistemic.url }}){:target="_blank"} @ {{ epistemic.date | date: "%d-%b-%Y" }}
-	- [{{ partial_info.title }}]({{ partial_info.url }}){:target="_blank"} @ {{ partial_info.date | date: "%d-%b-%Y" }}
-	- [{{ full_info.title }}]({{ full_info.url }}){:target="_blank"} @ {{ full_info.date | date: "%d-%b-%Y" }}
-	- [{{ shadow_price.title }}]({{ shadow_price.url }}){:target="_blank"} @ {{ shadow_price.date | date: "%d-%b-%Y" }}
-- [{{ existential.title }}]({{ existential.url }}){:target="_blank"} @ {{ existential.date | date: "%d-%b-%Y" }}
-	- [{{ why_do_we_live.title }}]({{ why_do_we_live.url }}){:target="_blank"} @ {{ why_do_we_live.date | date: "%d-%b-%Y" }}
-	- [{{ coming_back.title }}]({{ coming_back.url }}){:target="_blank"} @ {{ coming_back.date | date: "%d-%b-%Y" }}
-	- [{{ ubi.title }}]({{ ubi.url }}){:target="_blank"} @ {{ ubi.date | date: "%d-%b-%Y" }}
+# Inevitabilities
+
+**[{{ inevitabilities_trilogy.title }}]({{ inevitabilities_trilogy.url }}){:target="_blank"}** @ {{ inevitabilities_trilogy.date | date: "%d-%b-%Y" }}
+
+- [{{ arbitrariness.title }}]({{ arbitrariness.url }}){:target="_blank"} @ {{ arbitrariness.date | date: "%d-%b-%Y" }}
+- [{{ inevitabilities.title }}]({{ inevitabilities.url }}){:target="_blank"} @ {{ inevitabilities.date | date: "%d-%b-%Y" }}
+- [{{ shadow_prices.title }}]({{ shadow_prices.url }}){:target="_blank"} @ {{ shadow_prices.date | date: "%d-%b-%Y" }}
+
+# Epistemology
+
+**[{{ epistemic.title }}]({{ epistemic.url }}){:target="_blank"}** @ {{ epistemic.date | date: "%d-%b-%Y" }}
+
+- [{{ partial_info.title }}]({{ partial_info.url }}){:target="_blank"} @ {{ partial_info.date | date: "%d-%b-%Y" }}
+- [{{ full_info.title }}]({{ full_info.url }}){:target="_blank"} @ {{ full_info.date | date: "%d-%b-%Y" }}
+- [{{ shadow_price.title }}]({{ shadow_price.url }}){:target="_blank"} @ {{ shadow_price.date | date: "%d-%b-%Y" }}
+
+# Existential
+
+**[{{ existential.title }}]({{ existential.url }}){:target="_blank"}** @ {{ existential.date | date: "%d-%b-%Y" }}
+
+- [{{ why_do_we_live.title }}]({{ why_do_we_live.url }}){:target="_blank"} @ {{ why_do_we_live.date | date: "%d-%b-%Y" }}
+- [{{ coming_back.title }}]({{ coming_back.url }}){:target="_blank"} @ {{ coming_back.date | date: "%d-%b-%Y" }}
+- [{{ ubi.title }}]({{ ubi.url }}){:target="_blank"} @ {{ ubi.date | date: "%d-%b-%Y" }}
