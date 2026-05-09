@@ -1,5 +1,5 @@
 ---
-last_modified_at: Thu May  7 21:29:33 PDT 2026
+last_modified_at: Sat May  9 01:50:55 PDT 2026
 layout: single
 title: Mathematics
 permalink: /math
@@ -37,6 +37,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign rig_cvxopt = site.posts | where: "permalink", "/math/rig/convex-optimization" | first %}
 {% assign rig_all_math = site.posts | where: "permalink", "/math/rig/everything" | first %}
 
+{% assign vitamin = site.posts | where: "permalink", "/prajna/glimpse-of-universal-truths-via-shadow-prices" | first %}
+
 # My Math Journey
 
 - [{{ math_landscape.title }}]({{ math_landscape.url }}) ({{ math_landscape.date | date: "%d-%b-%Y" }})
@@ -48,6 +50,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	- [{{ measprob.title }}]({{ measprob.url }}) ({{ measprob.date | date: "%d-%b-%Y" }})
 	- [{{ cvxopt.title }}]({{ cvxopt.url }}) ({{ cvxopt.date | date: "%d-%b-%Y" }})
 - [{{ linalg.title }}]({{ linalg.url }}) ({{ linalg.date | date: "%d-%b-%Y" }})
+- [{{ vitamin.title }}]({{ vitamin.url }}) ({{ vitamin.date | date: "%d-%b-%Y" }})
 
 # Rigorously
 
