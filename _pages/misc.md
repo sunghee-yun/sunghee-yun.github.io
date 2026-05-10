@@ -1,5 +1,5 @@
 ---
-last_modified_at: Tue Apr 28 21:18:42 PDT 2026
+last_modified_at: Sun May 10 02:02:38 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -288,7 +288,16 @@ toc_sticky: true
 <h4>Aug</h4>
 
 - biz trip to Orlando; invited by 특구재단 to Global Deep Tech Commercialization Forum within UKC 2026
-	- 05-Aug-2026 PDT ~ 07-Aug-2026 PDT
+	- 05-Aug-2026 PDT ~ 07-Aug-2026 PDT &ndash; [flight itinerary](https://sungheeyun-seminars-02.github.io/resource/trips/2026/08 - Orlandor for UKC/www.expedia.com-egti-6LS-C0F-4QXT.pdf){:target="_blank"}
+	- flight
+		&ndash; United 583
+		&ndash; from SFO @ 7:05am PDT to MCO @ 3:39pm EDT on 05-Aug-2026
+		(5h 34m)
+	- return flight
+		&ndash; United 2620
+		&ndash; from MCO @ 7:03pm EDT to SFO @ 9:50pm PDT on 08-Aug-2026
+		(5h 47m)
+	- stay @ [Omni Orlando Resort at ChampionsGate](https://maps.app.goo.gl/k3GJtNvw5wuvNr2w6){:target="_blank"}
 
 <h4>Jun</h4>
 
@@ -307,7 +316,7 @@ toc_sticky: true
 		&ndash; KE23
 		&ndash; from ICN @ 4pm KST to SFO @ 10:40am PDT on 03-Jun-2026
 		(10h 40m)
-	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- stay @ [수지](https://naver.me/FbqzqrjR):{:target="_blank"}
 	- 2 night stay in Suwon; invited to 3 day KOBRA Conference
 		- 27-May-2026 ~ 29-May-2026
 
@@ -323,7 +332,7 @@ toc_sticky: true
 		&ndash; United 892
 		&ndash; from ICN @ 4:50pm KST to SFO @ 11:35am PDT on 06-Apr-2026
 		(10h 45m)
-	- stay @ [수지](https://naver.me/FbqzqrjR)
+	- stay @ [수지](https://naver.me/FbqzqrjR){:target="_blank"}
 	- 2 night trip to Daegu; invited to  to attend BSR Korea &amp; Jeonbuk office
 		- 26-Mar-2026 ~ 28-Mar-2026
 		- KTX069 &ndash; Seoul @ 9:28pm to Dongdaegu @ 11:17pm [train ticket](/resource/trips/2026-03 - biz trip to Seoul/36_Sunghee Yun_Daegu Bound.pdf){:target="_blank"}
@@ -343,7 +352,7 @@ toc_sticky: true
 		&ndash; United 292
 		&ndash; from AUS-Austin-Bergstrom Intl. @ ~~5:58pm~~ 5:50pm 14-Feb-2026 SFO to SJC @ ~~8:08pm~~ 7:45pm on 14-Feb-2026 PST
 		(~~4h 10m~~ 3h 55m)
-	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}!
+	- stay @ Seungho's house in [Austin, Texas](https://maps.app.goo.gl/eFDegyVL3tssCPSj6){:target="_blank"}
 
 <h4>Jan</h4>
 
