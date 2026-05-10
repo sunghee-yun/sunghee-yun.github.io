@@ -1,9 +1,9 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Sun May  3 02:35:57 PDT 2026
+last_modified_at: Sun May 10 03:24:50 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
-permalink: /pr-faq/ai-humanity-council/2029/12
+permalink: /pr-faq/ai-humanity-council/2029
 categories:
  - council
  - vision
@@ -33,71 +33,78 @@ The FAQ section addresses both external and internal questions about the AI & Hu
 This document is intended to align K-PAI Nexus leadership on the Council's mission, methodology, and path to global impact.
 {: .notice--info}
 
+> Five landmark reports have shaped legislation in 12 countries, influenced Fortune 500 AI governance frameworks, and become required reading in 50+ universities. What sets the Council apart is not just its impact, but how that impact was achieved: through a unique methodology that integrates 15 disciplines, grounds analysis in practitioner insight rather than abstract theory, and commits to producing actionable guidance that policymakers can actually implement. This approach—rigorous yet accessible, interdisciplinary yet coherent, ambitious yet practical—has fundamentally changed how the world navigates AI's transformation of human society, proving that the most consequential questions about technology cannot be answered through technical expertise alone.
+
 # PRESS RELEASE
 
 ## AI & Humanity Council Recognized as World's Most Influential Think Tank on AI's Societal Impact
 
-*Five landmark reports have shaped legislation in 12 countries, influenced Fortune 500 AI governance frameworks, and become required reading in 50+ universities. The Council's unique methodology—integrating 15 disciplines, grounded in practitioner insight, committed to actionable guidance—has fundamentally changed how the world navigates AI's transformation of human society*
 
-**SILICON VALLEY, CA — December 15, 2029** — The [AI & Humanity Council](https://nexus-pai.github.io/committee/#ai-and-humanity-council){:target="_blank"}, a multidisciplinary think tank operating under [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}, today announced that its work has directly influenced AI policy in 12 countries, shaped corporate governance frameworks at 30+ Fortune 500 companies, and become required reading in graduate programs at more than 50 universities worldwide. Since its launch in September 2026, the Council has published five comprehensive reports addressing AI's most consequential implications for humanity—from labor market transformation and democratic governance to existential risk and human flourishing.
+<!--
+**SILICON VALLEY, CA — August 15, 2029** — The [AI & Humanity Council](https://nexus-pai.github.io/committee/#ai-and-humanity-council){:target="_blank"}, a multidisciplinary think tank operating under [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}, today announced that its work has directly influenced AI policy in 12 countries, shaped corporate governance frameworks at 30+ Fortune 500 companies, and become required reading in graduate programs at more than 50 universities worldwide. Since its launch in September 2026, the Council has published five comprehensive reports addressing AI's most consequential implications for humanity—from labor market transformation and democratic governance to existential risk and human flourishing.
+-->
 
-What distinguishes the AI & Humanity Council from conventional technology think tanks is its refusal to reduce AI's implications to narrow technical or economic frames. Instead, the Council examines AI through an unprecedented integration of 15 disciplines: computer science, engineering, cognitive science, psychology, philosophy, ethics, economics, sociology, political science, law, policy studies, organizational behavior, education, medicine, and theology/religious studies. More than 120 leading experts have contributed to the Council's work, representing institutions including Stanford, MIT, Harvard, Berkeley, Princeton, Oxford, Seoul National University, KAIST, Tsinghua, and major AI research labs.
+**SILICON VALLEY, CA — August 15, 2029** — The AI & Humanity Council, a multidisciplinary think tank operating under K-PAI, today announced that its work has directly influenced AI policy in 12 countries, shaped corporate governance frameworks at 30+ Fortune 500 companies, and become required reading in graduate programs at more than 50 universities worldwide. Since its launch in September 2026, the Council has published five comprehensive reports addressing AI's most consequential implications for humanity—from labor market transformation and democratic governance to existential risk and human flourishing.
+
+What distinguishes the AI & Humanity Council from conventional technology think tanks is its refusal to reduce AI's implications to narrow technical or economic frames. Instead, the Council examines AI through an unprecedented integration of 15 disciplines: computer science, engineering, cognitive science, psychology, philosophy, ethics, economics, sociology, political science, law, policy studies, organizational behavior, education, medicine, and theology/religious studies. More than 120 leading experts have contributed to the Council's work, representing institutions including Stanford University, Massachusetts Institute of Technology (MIT), Harvard University, UC Berkeley, Princeton University, University of Oxford, Seoul National University (SNU), Korea Advanced Institute of Science and Technology (KAIST), Pohang University of Science and Technology (POSTECH), Stanford University Human-Centered Artificial Intelligence (HAI) and major AI research labs.
 
 "The AI & Humanity Council has accomplished something genuinely rare in policy research," said **Dr. Daron Acemoglu**, Institute Professor at MIT and co-author of *Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity*. "They've produced reports that are simultaneously rigorous enough to influence academic discourse, accessible enough to inform public understanding, and actionable enough to guide real policy decisions. That combination is extraordinarily difficult to achieve."
 
 ## Five Reports That Changed the Conversation
 
-Since September 2026, the Council has published five landmark reports, each addressing a critical dimension of AI's impact on humanity:
+Since September 2026, the Council has published five landmark reports, each addressing a critical dimension of AI's impact on humanity!
 
-**Report #1: "AI and the Future of Work: Beyond Automation Anxiety" (Q2 2027)**
+**Report #1 - "AI and the Future of Work: Beyond Automation Anxiety" (Q2 2027)**
 - Examined AI's impact on 50 occupational categories across 8 countries
 - Provided concrete policy recommendations for labor market transition
 - Cited in 8 national AI workforce strategies
 - Required reading in 20+ university labor economics programs
 
-**Report #2: "Democratic Governance in the Age of AI: Preserving Human Agency" (Q4 2027)**
+**Report #2 - "Democratic Governance in the Age of AI: Preserving Human Agency" (Q4 2027)**
 - Analyzed AI's effects on political discourse, election integrity, and civic participation
 - Proposed governance frameworks balancing innovation and democratic values
 - Influenced AI regulation in 5 countries (including provisions in EU AI Act amendments)
 - Cited in 12 Congressional/Parliamentary testimonies
 
-**Report #3: "AI Safety: Technical Challenges and Societal Imperatives" (Q2 2028)**
+**Report #3 - "AI Safety: Technical Challenges and Societal Imperatives" (Q2 2028)**
 - First comprehensive report integrating technical AI safety research with societal risk analysis
 - Co-authored by leading AI safety researchers and social scientists
 - Shaped corporate AI safety protocols at 15+ major tech companies
 - Cited by White House Office of Science and Technology Policy
 
-**Report #4: "Education Transformed: Learning, Teaching, and Human Development with AI" (Q4 2028)**
+**Report #4 - "Education Transformed: Learning, Teaching, and Human Development with AI" (Q4 2028)**
 - Examined AI's impact on K-12 education, higher education, and lifelong learning
 - Provided concrete guidance for educators, administrators, and policymakers
 - Adopted by 20+ school districts and 10+ universities as policy framework
 - Downloaded 150,000+ times in first 6 months
 
-**Report #5: "The Flourishing Question: AI, Meaning, and What It Means to Be Human" (Q3 2029)**
+**Report #5 - "The Flourishing Question: AI, Meaning, and What It Means to Be Human" (Q2 2029)**
 - Explored AI's implications for human purpose, creativity, relationships, and existential meaning
 - Integrated perspectives from philosophy, theology, psychology, and neuroscience
 - Featured in major media outlets (New York Times, The Economist, Financial Times)
 - Sparked global conversation about technology and human values
 
-Each report follows the Council's distinctive methodology: identify critical questions, assemble relevant experts across all necessary disciplines, facilitate intensive research and deliberation, subject findings to rigorous peer review, and publish reports that translate complex interdisciplinary insights into actionable guidance for individuals, corporations, and governments.
+Each report follows the Council's distinctive methodology
+&ndash;
+identify critical questions, assemble relevant experts across all necessary disciplines, facilitate intensive research and deliberation, subject findings to rigorous peer review, and publish reports that translate complex interdisciplinary insights into actionable guidance for individuals, corporations, and governments.
 
 ## Impact Across Sectors
 
 The Council's influence extends far beyond academic citations:
 
-**Legislative Impact:** Council reports have been cited in legislative proceedings in the United States, European Union, United Kingdom, South Korea, Japan, Singapore, Canada, Australia, and four other countries. Two Council members have provided testimony to the U.S. Congress, three to Parliamentary committees in the UK and EU, and five to national legislative bodies in Asian democracies.
+**Legislative Impact** Council reports have been cited in legislative proceedings in the United States, European Union, United Kingdom, South Korea, Japan, Singapore, Canada, Australia, and four other countries. Two Council members have provided testimony to the U.S. Congress, three to Parliamentary committees in the UK and EU, and five to national legislative bodies in Asian democracies.
 
-**Corporate Governance:** More than 30 Fortune 500 companies have adopted AI governance frameworks directly influenced by Council recommendations. Tech giants, financial institutions, healthcare organizations, and manufacturing companies have all incorporated Council guidance into their responsible AI strategies.
+**Corporate Governance** More than 30 Fortune 500 companies have adopted AI governance frameworks directly influenced by Council recommendations. Tech giants, financial institutions, healthcare organizations, and manufacturing companies have all incorporated Council guidance into their responsible AI strategies.
 
-**Educational Integration:** Over 50 universities now include Council reports in graduate curricula across computer science, policy studies, ethics, law, and business programs. Three universities have built entire courses around Council frameworks.
+**Educational Integration** Over 50 universities now include Council reports in graduate curricula across computer science, various engineering disciplines, policy studies, ethics, law, philosophy, social sciences, economics, and business programs. Three universities have built entire courses around Council frameworks.
 
-**Media and Public Discourse:** Council reports and Council members have been featured in The New York Times, The Economist, Financial Times, Wall Street Journal, Washington Post, Nature, Science, Foreign Affairs, and major international publications. Council frameworks have shaped public discourse on AI's societal implications.
+**Media and Public Discourse** Council reports and Council members have been featured in The New York Times, The Economist, Financial Times, Wall Street Journal, Washington Post, Nature, Science, Foreign Affairs, and major international publications. Council frameworks have shaped public discourse on AI's societal implications.
 
-**Global Reach:** While rooted in Silicon Valley and Korea-US collaboration, the Council's influence spans North America, Europe, East Asia, and increasingly Latin America, Africa, and Southeast Asia. Reports have been translated into 8 languages.
+**Global Reach** While rooted in Silicon Valley and Korea-US collaboration, the Council's influence spans North America, Europe, East Asia, and increasingly Latin America, Africa, and Southeast Asia. Reports have been translated into 57 languages.
 
 ## A New Model of Think Tank Excellence
 
-What makes the AI & Humanity Council's success particularly notable is its operational model. Unlike traditional think tanks that employ full-time researchers isolated from industry practice, the Council operates as a convening mechanism that brings together:
+What makes [the AI & Humanity Council](#top)'s success particularly notable is its operational model. Unlike traditional think tanks that employ full-time researchers isolated from industry practice, the Council operates as a convening mechanism that brings together:
 
 - **Academic researchers** from world-leading universities across 15 disciplines
 - **Industry practitioners** actually building, deploying, and governing AI systems
@@ -105,27 +112,29 @@ What makes the AI & Humanity Council's success particularly notable is its opera
 - **Civil society leaders** representing affected communities and public interest
 - **Philosophers and ethicists** examining fundamental questions of value and meaning
 
-This "practitioner-grounded, academically rigorous, philosophically informed" approach produces reports that are simultaneously:
-- Technically accurate (vetted by leading AI researchers)
-- Empirically grounded (informed by industry practitioners)
-- Philosophically sophisticated (examining fundamental questions)
-- Practically actionable (useful to decision-makers)
+This <span class="emph">"practitioner-grounded, academically rigorous, philosophically informed"</span> approach produces reports that are simultaneously
+- <span class="emph">Technically accurate (vetted by leading AI researchers)</span>
+- <span class="emph">Empirically grounded (informed by industry practitioners)</span>
+- <span class="emph">Philosophically sophisticated (examining fundamental questions)</span>
+- <span class="emph">Practically actionable (useful to decision-makers)</span>
 
-"The Council has proven that you don't need a $100 million endowment and 50 full-time staff to produce world-class thought leadership," said **Sunghee Yun, Chair of K-PAI Nexus and AI & Humanity Council Convener**. "What you need is a clear mission, intellectual rigor, the right convening power, and commitment to serving the public good. The Council demonstrates that a relatively lean operation, properly structured, can have outsized global impact."
+"The Council has proven that you don't need a $100 million endowment and 50 full-time staff to produce world-class thought leadership," said **[Sunghee Yun](https://sungheeyun.github.io/), Chair of <!--K-PAI Nexus and--> AI & Humanity Council Convener**. "What you need is a <span class="eemph">clear mission, intellectual rigor, the right convening power, and commitment to serving the public good.</span> The Council demonstrates that a relatively lean operation, properly structured, can have outsized global impact."
 
-## Looking Ahead: The Next Chapter
+## Looking Ahead - The Next Chapter
 
-The Council's leadership announced today that the next phase will focus on three priorities:
+The Council's leadership announced today that the next phase will focus on three priorities!
 
-**1. Deepening Policy Impact:** Building on existing relationships with legislative bodies and regulatory agencies, the Council will expand direct advisory relationships with governments worldwide.
+**1. Deepening Policy Impact** Building on existing relationships with legislative bodies and regulatory agencies, the Council will expand direct advisory relationships with governments worldwide.
 
-**2. Expanding Global Reach:** While maintaining roots in Silicon Valley and Korea-US collaboration, the Council will establish regional working groups in Europe, East Asia, Southeast Asia, Latin America, and Africa to ensure truly global perspective.
+**2. Expanding Global Reach** While maintaining roots in Silicon Valley and Korea-US collaboration, the Council will establish regional working groups in Europe, East Asia, Southeast Asia, Latin America, and Africa to ensure truly global perspective.
 
-**3. Addressing Emerging Challenges:** Future reports will tackle AI's implications for healthcare delivery, climate change mitigation, scientific discovery, creative expression, and the future of human consciousness and identity.
+**3. Addressing Emerging Challenges** Future reports will tackle AI's implications for healthcare delivery, climate change mitigation, scientific discovery, creative expression, and the future of human consciousness and identity.
 
-"AI is not slowing down. Its implications grow more profound by the month," Yun concluded. "The AI & Humanity Council exists to ensure that as AI advances, humanity doesn't just cope with change—we actively shape it toward human flourishing. The work is just beginning."
+"AI is not slowing down. Its implications grow more profound by the month," [Yun](https://sungheeyun.github.io) concluded. "The AI & Humanity Council exists to ensure that as AI advances, humanity doesn't just cope with change—we actively shape it toward human flourishing. The work is just beginning."
 
+<!--
 **For more information, visit [https://nexus-pai.github.io/committee/#ai-and-humanity-council](https://nexus-pai.github.io/committee/#ai-and-humanity-council){:target="_blank"}.**
+-->
 
 # FREQUENTLY ASKED QUESTIONS
 
