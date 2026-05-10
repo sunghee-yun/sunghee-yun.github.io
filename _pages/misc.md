@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sun May 10 02:12:37 PDT 2026
+last_modified_at: Sun May 10 02:15:38 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -307,7 +307,7 @@ toc_sticky: true
 <h4>May</h4>
 
 - biz trip to Seoul &ndash; 12 nights
-	- 22-May-2026 PDT ~ 03-Jun-2026 PDT [flight itinerary & receipt](https://sungheeyun-seminars-02.github.io/resource/trips/2026/05\ -\ Seoul/05.22\~06.03\ YUN\ SUNGHEE\ SFO-ICN\ ETK-1.pdf){:target="_blank"}
+	- 22-May-2026 PDT ~ 03-Jun-2026 PDT [flight itinerary & receipt](https://sungheeyun-seminars-02.github.io/resource/trips/2026/05 - Seoul/05.22~06.03 YUN SUNGHEE SFO-ICN ETK-1.pdf){:target="_blank"}
 	- flight
 		&ndash; KE24
 		&ndash; from SFO @ 12:40pm on 22-May-2026 PDT to ICN @ 5:20pm on 23-May-2026 KST
@@ -316,7 +316,7 @@ toc_sticky: true
 		&ndash; KE23
 		&ndash; from ICN @ 4pm KST to SFO @ 10:40am PDT on 03-Jun-2026
 		(10h 40m)
-	- stay @ [수지](https://naver.me/FbqzqrjR):{:target="_blank"}
+	- stay @ [수지](https://naver.me/FbqzqrjR){:target="_blank"}
 	- 2 night stay in Suwon; invited to 3 day KOBRA Conference
 		- 27-May-2026 ~ 29-May-2026
 
@@ -2137,7 +2137,7 @@ toc_sticky: true
 	Family Trip to Guam - 4 nights
 	<ul>
 	<li>
-		w/ Parents-in-law, Chewon's \&amp; Sooyoung's
+		w/ Parents-in-law, Chewon's &amp; Sooyoung's
 	</li>
 	<li>
 		21-Jul-2016 ~ 25-Jul-2016 KST
