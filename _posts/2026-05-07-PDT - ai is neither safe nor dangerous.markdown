@@ -1,6 +1,6 @@
 ---
 date: Thu May  7 15:01:46 PDT 2026
-last_modified_at: Fri May  8 11:09:14 PDT 2026
+last_modified_at: Sun May 10 14:30:14 PDT 2026
 permalink: /ai/future/
 layout: single
 title: "AI is Neither Safe nor Dangerous!"
@@ -190,7 +190,7 @@ AI is not like this. <span class="emph">AI is a general-purpose cognitive capabi
 
 # The Sociotechnical Reality
 
-In my lectures &ndash; from [San Jose State University]({{ teaching_sjsu.url }}){:target="_blank"} to [Texas A&M](/ai-lecture/reflections/texas/feb-2026){:target="_blank"} to [MIT GSW 2026](/#mit-gsw-2026-ai-lecture-mar-2026){:target="_blank"} &ndash; I have repeatedly made an observation that students tell me I have reframed their entire understanding of the field immediately during my lectures:
+In my lectures &ndash; from [San Jose State University]({{ teaching_sjsu.url }}){:target="_blank"} to [Texas A&M University](/ai-lecture/reflections/texas/feb-2026){:target="_blank"} to [MIT GSW 2026](/#mit-gsw-2026-ai-lecture-mar-2026){:target="_blank"} &ndash; I have repeatedly made an observation that students tell me I have reframed their entire understanding of the field immediately during my lectures:
 
 <span class="eemph">AI is not merely a collection of algorithms &ndash; it is a sociotechnical system embedded in markets, organizations, power structures, epistemological frameworks, and human meaning-making practices.</span>
 
