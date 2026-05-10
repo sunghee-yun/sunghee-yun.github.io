@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Fri May  8 11:23:54 PDT 2026
+last_modified_at: Sat May  9 23:32:32 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative!"
@@ -165,7 +165,7 @@ In a conversation with Professor Jaeseok Huh at Soongsil University in November 
 
 This essay is an attempt to think through what I have come to believe is one of the most important questions our generation will face: *given the trajectory of Artificial Intelligence (AI), what becomes of work, meaning, and human flourishing in a world where human labor may no longer be economically necessary?* And more pointedly: *what happens to the survival imperative that has structured nearly all of human civilization?*
 
-I want to be honest at the outset that I am not certain Universal Basic Income is the right answer. What I am certain of is that the question we have been asking — *which jobs will be replaced and which will survive?* — is the wrong question. It assumes the old frame. It assumes work as we have known it must persist. The deeper question is whether the historical accident of the survival-work coupling, which has persisted even past the Axial Age, is finally coming to its end — and what that means for what it means to be human.
+I want to be honest at the outset that I am not certain Universal Basic Income is the right answer. What I am certain of is that the question we have been asking — *which jobs will be replaced and which will survive?* — is the wrong question. It assumes the old frame. It assumes work as we have known it must persist. The deeper question is whether the historical accident of the survival-work coupling, which has persisted even past the [Axial Age](https://en.wikipedia.org/wiki/Axial_Age){:target="_blank"}, is finally coming to its end — and what that means for what it means to be human.
 
 # The Long Arc — From Survival to Meaning to What?
 
@@ -176,7 +176,7 @@ Then something remarkable happened. Around the middle of the first millennium BC
 
 <span class="emph">This is one of the most extraordinary facts about human history: at multiple points around the globe, more or less simultaneously, humans began pursuing meaning, beauty, virtue, and transcendence as ends in themselves. For the first time, an organism programmed by millions of years of evolution to seek food and shelter suddenly sat down and asked questions that offered absolutely zero caloric value. Artists pursued beauty. Philosophers pursued truth. Mystics pursued union with the divine.</span>
 
-Yet here is the crucial observation: *this philosophical explosion was essentially a luxury product*. The Axial Age awakening, this beautiful pursuit of the good life beyond survival, was reserved for a tiny, tiny fraction of society — the elite, the mystics, the upper classes, whose leisure to think was entirely subsidized by the brutal, backbreaking labor of the 99% beneath them. To sit in an olive grove and debate the nature of the soul with Socrates, you needed to not be in the fields harvesting grain. You needed someone else doing the work.
+Yet here is the crucial observation: *this philosophical explosion was essentially a luxury product*. The [Axial Age](https://en.wikipedia.org/wiki/Axial_Age){:target="_blank"} awakening, this beautiful pursuit of the good life beyond survival, was reserved for a tiny, tiny fraction of society — the elite, the mystics, the upper classes, whose leisure to think was entirely subsidized by the brutal, backbreaking labor of the 99% beneath them. To sit in an olive grove and debate the nature of the soul with Socrates, you needed to not be in the fields harvesting grain. You needed someone else doing the work.
 
 <span class="emph">For the vast majority of human beings, the survival imperative remained dominant even past the Axial Age.</span> The contemplative life, the artistic life, the philosophical life — these remained the privileges of small elites, often supported by the labor of others or by inherited resources. The fundamental human condition, for nearly everyone, remained: *work to live*.
 
@@ -327,9 +327,9 @@ The solution is not one thing. It is everything, done together, done seriously, 
 
 # The Question Remains
 
-The hunter-gatherer worked to survive. The Axial Age contemplative worked partly to survive and partly to seek meaning. The industrial worker worked to survive within new institutions. <span class="emph">We may be entering an age in which the question is no longer how to survive, but how to live.</span>
+The hunter-gatherer worked to survive. The [Axial Age](https://en.wikipedia.org/wiki/Axial_Age){:target="_blank"} contemplative worked partly to survive and partly to seek meaning. The industrial worker worked to survive within new institutions. <span class="emph">We may be entering an age in which the question is no longer how to survive, but how to live.</span>
 
-I do not claim to have answered this question. <span class="emph">I claim only to have recognized its urgency and begun the contemplative work it demands. The Axial Age made it possible for a tiny minority to ask &ndash; what is the good life beyond survival?</span> <span class="remph">The age of AI may make it necessary for everyone to ask this question.</span>
+I do not claim to have answered this question. <span class="emph">I claim only to have recognized its urgency and begun the contemplative work it demands. The [Axial Age](https://en.wikipedia.org/wiki/Axial_Age){:target="_blank"} made it possible for a tiny minority to ask &ndash; what is the good life beyond survival?</span> <span class="remph">The age of AI may make it necessary for everyone to ask this question.</span>
 
 This is not a transition we can navigate through policy papers and committee meetings alone. It will require the deepest resources of human wisdom — philosophical, psychological, spiritual, and practical — brought to bear on the most consequential question our generation will face.
 
@@ -364,7 +364,7 @@ Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connect
 	one lazy Saturday afternoon in Bay Area!
 	&nbsp;<a href="#ref01">↩</a></li>
 <li id="footnote02">
-	Indeed, this doesn't just apply to the modern world, but every stage of the human history (especially ever since the Axial Age).<br>
+	Indeed, this doesn't just apply to the modern world, but every stage of the human history (especially ever since the [Axial Age](https://en.wikipedia.org/wiki/Axial_Age){:target="_blank"}).<br>
 	The inheritance of meaning from pre-existing cultural structures is not a modern phenomenon but the human default across virtually all historical periods.
 	Even the Axial Age, which introduced philosophical traditions of self-examination and conscious meaning-making,
 	remained accessible only to small elites while the vast majority continued to inherit purpose from tradition, religion, and social hierarchy.
