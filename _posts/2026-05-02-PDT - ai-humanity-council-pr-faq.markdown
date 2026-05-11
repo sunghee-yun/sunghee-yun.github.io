@@ -1,6 +1,6 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Mon May 11 00:22:36 PDT 2026
+last_modified_at: Mon May 11 00:44:26 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
 permalink: /pr-faq/ai-humanity-council/2029
@@ -41,6 +41,87 @@ This document is intended to align K-PAI Nexus leadership on the Council's missi
 *Intellectual Foundation: [The Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"} + [KFAS-Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"}*
 
 > Five landmark reports have shaped legislation in 12 countries, influenced Fortune 500 AI governance frameworks, and become required reading in 50+ universities. What sets the Council apart is not just its impact, but how that impact was achieved: through a unique methodology that integrates 15 disciplines, grounds analysis in practitioner insight rather than abstract theory, and commits to producing actionable guidance that policymakers can actually implement. This approach—rigorous yet accessible, interdisciplinary yet coherent, ambitious yet practical—has fundamentally changed how the world navigates AI's transformation of human society, proving that the most consequential questions about technology cannot be answered through technical expertise alone.
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Turning AI Research into Ethical Startups</strong>
+			<span style="opacity: 0.8;">(41:46)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Deep Dive - Turning_AI_Research_into_Ethical_Startups.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The AI and Humanity Council Venture Roadmap!</strong>
+			<span style="opacity: 0.8;">(35:46)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-long-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Deep Dive - The_AI_and_Humanity_Council_venture_roadmap.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - The AI and Humanity Council Blueprint</strong>
+			<span style="opacity: 0.8;">(20:16)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Deep Dive - The_AI_and_Humanity_Council_Blueprint - 02.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Deep Dive - Turning AI Ethics Into Real Startups</strong>
+			<span style="opacity: 0.8;">(12:44)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-deep-dive-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Deep Dive - Turning_AI_Ethics_Into_Real_Startups.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
+
+<div class="img-container-justified">
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - AI Think Tanks Launching For-Profit Startups</strong>
+			<span style="opacity: 0.8;">(23:51)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-01" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Debate - AI_Think_Tanks_Launching_For-Profit_Startups.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+	<div style="width: 49%; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0;">
+		<div style="background-color: #2c3e50; color: white; padding: 10px 15px; font-size: 14px;">
+			<strong>Debate - Should AI Think Tanks Launch Startups?</strong>
+			<span style="opacity: 0.8;">(22:03)</span>
+		</div>
+		<div style="padding: 10px; background-color: #ecf0f1;">
+			<audio id="podcast-audio-debate-02" controls style="width: 100%;">
+				<source type="audio/mp4" src="https://sungheeyun-podcasts-04.github.io/resource/nexus-pai.github.io/posts/2026-05-02-PDT - ai-humanity-council-pr-faq/Debate - Should_AI_think_tanks_launch_startups_.m4a">
+				Your browser does not support this audio element.
+			</audio>
+		</div>
+	</div>
+</div>
 
 # THE INTELLECTUAL FOUNDATION
 
