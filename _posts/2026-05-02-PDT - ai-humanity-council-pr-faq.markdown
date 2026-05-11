@@ -1,6 +1,6 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Sun May 10 18:36:56 PDT 2026
+last_modified_at: Mon May 11 00:22:36 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
 permalink: /pr-faq/ai-humanity-council/2029
@@ -35,10 +35,50 @@ This document is intended to align K-PAI Nexus leadership on the Council's missi
 
 *This PR/FAQ is a strategic document prepared for K-PAI Member review.*\
 *Press Release Date: August 15, 2029*\
-*Draft Version 2.0 — May 10, 2026*\
-*Author: [Sunghee Yun](https://sungheeyun.github.io)*
+<!--*Draft Version 2.0 — May 10, 2026*\-->
+*Draft Version 2.1 — May 10, 2026*\
+*Author: [Sunghee Yun](https://sungheeyun.github.io)*\
+*Intellectual Foundation: [The Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"} + [KFAS-Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"}*
 
 > Five landmark reports have shaped legislation in 12 countries, influenced Fortune 500 AI governance frameworks, and become required reading in 50+ universities. What sets the Council apart is not just its impact, but how that impact was achieved: through a unique methodology that integrates 15 disciplines, grounds analysis in practitioner insight rather than abstract theory, and commits to producing actionable guidance that policymakers can actually implement. This approach—rigorous yet accessible, interdisciplinary yet coherent, ambitious yet practical—has fundamentally changed how the world navigates AI's transformation of human society, proving that the most consequential questions about technology cannot be answered through technical expertise alone.
+
+# THE INTELLECTUAL FOUNDATION
+
+**How This Vision Emerged**
+
+The AI & Humanity Council did not emerge from a conference room brainstorming session. It is the institutional embodiment of more than a decade of sustained philosophical inquiry and international collaboration that crystallized into precise institutional architecture.
+
+**The Existential Trilogy - Philosophical (and Existential) DNA**
+
+The Council's comprehensive scope—spanning technology, ethics, economics, governance, education, and existential meaning—is grounded in [**The Existential Trilogy**](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"}, a body of philosophical work developed by Council Chair [Sunghee Yun](https://sungheeyun.github.io) over 10+ years:
+
+1. **["Why Do We Live? — A Wrong Question to Ask"](https://sungheeyun.github.io/blog/PST-Why-do-we-live/){:target="_blank"}** establishes that meaning is <span class="emph">created, not discovered</span>—shifting from metaphysics to agency, from obligation to choice. This philosophical move underlies the Council's conviction that technology must serve human agency rather than determine it.
+
+1. **["Coming Back to the Human in the AI Era"](https://sungheeyun.github.io/prajna/coming-back-to-the-human){:target="_blank"}** demonstrates that <span class="emph">AI is the scalpel, not the gardener</span>—AI can help analyze and cut away illusions, but cannot plant meaning for us. The central discipline of the AI era is resisting the temptation to outsource meaning-making to machines. This insight shapes the Council's focus on preserving human agency in all recommendations.
+
+1. **["AI and Universal Basic Income — The End of the Survival Imperative"](https://sungheeyun.github.io/ai/future/ubi){:target="_blank"}** argues that when AI ends the survival imperative, <span class="emph">meaning-making becomes the new literacy</span>—as fundamental as learning to read or farm. The essay calls for an "Avengers-level assembly" doing genuine contemplative work across technical, philosophical, governance, economic, and cultural dimensions. The AI & Humanity Council **is** that assembly.
+
+<span class="eemph">This trilogy progresses from "I" (individual agency) to "I as human" (embodied existence) to "we" (collective civilizational challenge)—descending each time from abstraction toward the irreducible textures of actual human existence. The Council's structure—philosophical rigor, institutional partnerships, entrepreneurial action—mirrors this progression from pure philosophy to lived philosophy to applied philosophy.</span>
+
+**The Salzburg Proof-of-Concept**
+
+The Council's methodology was validated at the [**KFAS-Salzburg Global Leadership Initiative**](https://sungheeyun.github.io/ai/bridging-technology-and-humanity){:target="_blank"} (December 2024), where [Sunghee Yun](https://sungheeyun.github.io) participated as a Fellow. The multi-day convening at Schloss Leopoldskron brought together global leaders across government, academia, industry, and civil society to address AI's societal implications.
+
+[Yun](https://sungheeyun.github.io)'s group produced [**"Technology, Growth, and Inequality: The Case of AI"**](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"}—a collaborative report addressing AI fairness, digital ethics, equitable access, and governance frameworks. The report's recommendations (collaborative governance, educational innovation, infrastructure investment, diverse development teams, continuous monitoring) map directly to the five Council reports planned for 2026-2029.
+
+The Salzburg experience demonstrated that
+- Diverse stakeholders **can** engage in genuine contemplative work (not performative engagement)
+- Technical depth, ethical principles, and policy recommendations **can** coexist in rigorous analysis
+- International collaboration **can** produce actionable frameworks
+- The "Avengers-level assembly" called for in the UBI essay **is achievable**
+
+**From (Existential) Philosophy to Institution**
+
+The AI & Humanity Council transforms contemplative insight into institutional reality. The philosophical conviction that AI cannot create meaning for humans becomes **Report #5: The Flourishing Question**. The recognition that survival-free existence demands new educational paradigms becomes **Report #4: Education Transformed**. The commitment to protecting human agency becomes **Report #2: Democratic Governance in the Age of AI**. The insistence that solutions must be implemented, not just described, becomes the **Innovation Venture Studio** and its 7 spin-off companies.
+
+This is why the Council can credibly claim to address AI's implications across 15 disciplines with genuine integration rather than parallel consultations. The work isn't siloed by discipline because the underlying philosophical framework—developed over a decade, tested in international convenings, refined through cross-cultural dialogue—already synthesized these dimensions before the institutional structure was designed.
+
+The Council doesn't bring together disparate perspectives and hope they cohere. It offers a <span class="eemph">coherent philosophical architecture</span> first, then recruits world-leading experts to elaborate, challenge, refine, and implement it through rigorous research, institutional partnerships, and mission-aligned ventures.
 
 # PRESS RELEASE
 
@@ -189,7 +229,7 @@ The Council's leadership announced today that the next phase will focus on four 
 
 **4. Addressing Emerging Challenges:** Future reports will tackle AI's implications for healthcare delivery, climate change mitigation, scientific discovery, creative expression, and the future of human consciousness and identity—all co-authored with institutional partners and designed to spawn actionable solutions.
 
-"AI is not slowing down. Its implications grow more profound by the month," [Yun](https://sungheeyun.github.io) concluded. "The AI & Humanity Council exists to ensure that as AI advances, humanity doesn't just cope with change—we actively shape it toward human flourishing. And we don't just write about it—we build it, through research, policy, **and** entrepreneurship. The work is just beginning."
+"AI is not slowing down. Its implications grow more profound by the month," [Yun](https://sungheeyun.github.io) concluded. "For more than a decade, I have grappled with the deepest questions about meaning, human agency, and what it means to live well in a world where the survival imperative may dissolve. The [Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"} crystallized these insights: <span class="eemph">meaning is created, not discovered; AI is the scalpel, not the gardener; and meaning-making becomes the new literacy when machines free us from survival.</span> The [Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"} proved that the 'Avengers-level assembly' I called for—bringing together philosophers, AI researchers, policymakers, economists, and civil society—can actually work. The AI & Humanity Council is that assembly, institutionalized and operationalized. <span class="eemph">We exist to ensure that as AI advances, humanity doesn't just cope with change—we actively shape it toward human flourishing. And we don't just write about it—we build it, through research, policy, **and** entrepreneurship. The work is just beginning.</span>"
 
 <!--
 **For more information, visit [https://nexus-pai.github.io/committee/#ai-and-humanity-council](https://nexus-pai.github.io/committee/#ai-and-humanity-council){:target="_blank"}.**
@@ -266,6 +306,10 @@ The AI & Humanity Council is a multidisciplinary think tank operating under K-PA
 - Operates from Korea-US bilateral foundation while serving universal human questions
 - Makes work accessible to general public while maintaining scholarly rigor
 
+**The Salzburg Validation**
+
+The Council's model was validated at the [KFAS-Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/bridging-technology-and-humanity){:target="_blank"} (December 2024), where diverse stakeholders—government officials, academics, industry practitioners, civil society leaders—collaborated on AI governance challenges. The experience proved that genuine contemplative work (not performative stakeholder engagement) is possible when the right framework, convening power, and intellectual rigor are present. The collaborative [report](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"} produced there—addressing AI fairness, digital ethics, equitable access, and governance—demonstrated the viability of multidisciplinary integration around complex AI challenges. The Council operationalizes and scales this model.
+
 ### Q3: What are the Council's core operating principles?
 
 The Council operates according to six non-negotiable principles:
@@ -302,6 +346,7 @@ The Council operates according to six non-negotiable principles:
 - Recognition that technology serves humanity, not the reverse
 - Commitment to ensuring AI benefits all humanity, not just elites
 - **Business models aligned with human welfare, not just shareholder returns**
+- Grounded in the philosophical conviction ([The Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"}) that meaning is created by humans, not discovered or computed—and that AI, however capable, cannot plant meaning for us
 
 **6. Mission-Commercial Integration**
 - Belief that profit and purpose can coexist
@@ -335,7 +380,7 @@ The AI & Humanity Council operates under K-PAI (a California 501(c)(3) nonprofit
 - Final authority on report topics and timelines
 - Primary spokesperson for Council
 - Oversight of Innovation Venture Studio
-- Currently: Sunghee Yun
+- Currently: **[Sunghee Yun](https://sungheeyun.github.io)**
 
 **Executive Committee** (5-7 members)
 - Approves report topics and research agendas
@@ -1694,6 +1739,19 @@ The Council scales activity to available resources:
 ### Q17: What are the Council's core values and philosophical commitments?
 
 The Council's work is grounded in explicit values and philosophical commitments. These aren't hidden—they shape topic selection, methodology, and conclusions.
+
+**The Philosophical Foundation:**
+
+The Council's approach emerges directly from [The Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"}—a decade-long philosophical inquiry into meaning, agency, and human flourishing in the AI era. The three essays establish that: (1) **meaning is created, not discovered**, shifting from metaphysics to human agency; (2) **AI is the scalpel, not the gardener**—it can analyze but cannot plant meaning for us; and (3) **meaning-making becomes the new literacy** when AI ends the survival imperative, requiring an "Avengers-level assembly" to navigate this transition.
+
+The Council's **five reports** directly instantiate this philosophical framework:
+- **Report #1 (Future of Work)** addresses economic transitions when work is no longer survival-driven—exploring what happens when the "survival imperative dissolves" (Trilogy Essay 3)
+- **Report #2 (Democratic Governance)** protects human agency in AI-mediated decision-making—implementing the principle that "meaning must be created by humans" (Trilogy Essay 1)
+- **Report #3 (AI Safety)** establishes technical and societal safeguards—ensuring AI remains "the scalpel, not the gardener" (Trilogy Essay 2)
+- **Report #4 (Education Transformed)** teaches autonomous meaning-making as fundamental literacy—preparing humans for post-survival existence (Trilogy Essay 3)
+- **Report #5 (The Flourishing Question)** examines AI's implications for meaning, purpose, and human identity—synthesizing all three essays into civilizational guidance
+
+This isn't philosophy borrowed for credibility—it's philosophy **operationalized**. The contemplative insights become institutional architecture; the abstract arguments become concrete recommendations; the theoretical frameworks become mission-aligned ventures.
 
 **Core Values:**
 
