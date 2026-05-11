@@ -1,6 +1,6 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Mon May 11 00:44:26 PDT 2026
+last_modified_at: Mon May 11 02:53:26 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
 permalink: /pr-faq/ai-humanity-council/2029
@@ -30,7 +30,6 @@ updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 This document follows [Amazon's PR/FAQ ("Working Backwards") methodology](https://workingbackwards.com/resources/working-backwards-pr-faq/){:target="_blank"}.
 The Press Release is written as if the vision has already been realized on **15-Aug-2029**.
 The FAQ section addresses both external and internal questions about the AI & Humanity Council.
-This document is intended to align K-PAI Nexus leadership on the Council's mission, methodology, and path to global impact.
 {: .notice--info}
 
 *This PR/FAQ is a strategic document prepared for K-PAI Member review.*\
