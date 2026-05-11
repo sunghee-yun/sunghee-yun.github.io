@@ -1,6 +1,6 @@
 ---
 date: Thu Sep  4 17:36:00 PDT 2025
-last_modified_at: Mon Apr 27 12:07:43 PDT 2026
+last_modified_at: Mon May 11 02:04:56 PDT 2026
 title: "Partial information is not (necessarily) better than ignorance - Wisdom of Strategic Ignorance"
 permalink: /prajna/wisdom-of-strategic-ignorance
 categories:
@@ -22,14 +22,18 @@ posted: {{ page.date | date: "%d-%b-%Y" }}
 updated: {{ page.last_modified_at | date: "%d-%b-%Y" }}
 {: .notice--primary}
 
-{% assign entrepreneurship = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey/en" | first %}
-{% assign mahayana = site.posts | where: "permalink", "/prajna/mahayana-buddhism" | first %}
-
 **Share on**
 [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
 | [Instagram](https://www.instagram.com/)
 | [Twitter (X)](https://x.com/intent/tweet?text=Partial+information+is+not+%28necessarily%29+better+than+no+information%20{{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&quote=Partial+information+is+not+%28necessarily%29+better+than+ignorance)
+
+{% assign entrepreneurship = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey/en" | first %}
+{% assign mahayana = site.posts | where: "permalink", "/prajna/mahayana-buddhism" | first %}
+{% assign full_knowledge = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
+
+{: .notice--success}
+This article is a prequel to [{{ full_knowledge.title }}]({{ full_knowledge.url }}).
 
 > The human mind's tendency to construct complete narratives from incomplete data isn't a bug—it's a feature that once ensured our survival. But in our information-saturated age, this same cognitive mechanism can lead us astray in ways our ancestors never could have imagined.
 

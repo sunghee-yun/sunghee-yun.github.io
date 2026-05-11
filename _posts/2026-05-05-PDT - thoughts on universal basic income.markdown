@@ -1,6 +1,6 @@
 ---
 date: Tue May  5 22:53:49 PDT 2026
-last_modified_at: Sat May  9 23:32:32 PDT 2026
+last_modified_at: Mon May 11 02:00:49 PDT 2026
 permalink: /ai/future/ubi
 layout: single
 title: "AI and Universal Basic Income - The End of the Survival Imperative!"
@@ -29,6 +29,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 {% assign why_we_live = site.posts | where: "permalink", "/blog/PST-Why-do-we-live/" | first %}
 {% assign back_to_human = site.posts | where: "permalink", "/prajna/coming-back-to-the-human" | first %}
+
+{: .notice--success}
+This article is a sequel to [{{ back_to_human.title }}]({{ back_to_human.url }}).
 
 > For nearly the entire span of human existence, the question "should we work?" has been functionally meaningless. Survival demanded labor. The question was never whether to work, but how to work, what to work on, and for whom. Today, for the first time in human history, that question is becoming genuinely possible to ask.
 

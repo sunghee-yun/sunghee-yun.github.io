@@ -1,6 +1,6 @@
 ---
 date: Sat Apr 18 23:48:37 PDT 2026
-last_modified_at: Fri May  8 01:40:38 PDT 2026
+last_modified_at: Mon May 11 02:45:14 PDT 2026
 title: "Coming Back to the Human in the AI Era &mdash; A Sequel to &ldquo;Why Do We Live?&rdquo;"
 permalink: /prajna/coming-back-to-the-human
 categories:
@@ -32,9 +32,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign mahayana_buddhism = site.posts | where: "permalink", "/prajna/mahayana-buddhism" | first %}
 {% assign full_info = site.posts | where: "permalink", "/prajna/impossibility-of-full-knowledge" | first %}
 {% assign ai_reason = site.posts | where: "permalink", "/ai/reason" | first %}
+{% assign ubi = site.posts | where: "permalink", "/ai/future/ubi" | first %}
 
 {: .notice--success}
-This article is a sequel to [{{ agent_living_question.title }}]({{ agent_living_question.url }}).
+This article is a sequel to [{{ agent_living_question.title }}]({{ agent_living_question.url }})
+and a prequel to [{{ ubi.title }}]({{ ubi.url }}).
 
 > &hellip; <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> Use it freely for the first two. Be extraordinarily careful about the third. The temptation to let capable systems do our meaning-making for us will grow with every capability jump. Resisting that temptation is, I think, the central discipline of the human in the AI era.
 
@@ -123,17 +125,17 @@ Now actually go and stand on the physical corner of one of those mapped intersec
 
 Every philosophical concept, every proposition, every carefully reasoned argument in this essay &mdash; including the ones I am about to make &mdash; is a map. Useful, often indispensable, but never the thing itself. Keep this in mind, because it explains why the Western philosophical tradition and the Eastern contemplative tradition, while pointing at some of the same territory, do not sit at the same distance from it.
 
-[Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"}, at the close of the *[Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus){:target="_blank"}*, wrote one of the most quoted sentences in twentieth-century philosophy: <span class="emph">&ldquo;Whereof one cannot speak, thereof one must be silent.&rdquo;</span> Some take this as the Western arrival at the same edge that Eastern contemplative traditions had reached two and a half millennia earlier. I do not agree, though.
+[Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"}, at the close of the *[Tractatus Logico-Philosophicus](https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus){:target="_blank"}*, wrote one of the most quoted sentences in twentieth-century philosophy: <span class="emph">&ldquo;Whereof one cannot speak, thereof one must be silent.&rdquo;</span> Some take this as the Western arrival at the same edge that Eastern contemplative traditions had reached two and a half millennia earlier. <span class="eemph">I do not agree, though.</span>
 
 Wittgenstein's silence is the silence of a logician who has *mapped* the boundary of language from the inside. The *Tractatus* is a ladder you climb and then throw away (proposition 6.54), but the climbing and the throwing are still operations within thought. Wittgenstein points at the silence; he does not enter it. He cartographs the edge of the speakable; he does not cross it.
 
 [Edmund Husserl](https://en.wikipedia.org/wiki/Edmund_Husserl){:target="_blank"} was closer. The phenomenological [*epoch&eacute;*](https://en.wikipedia.org/wiki/Epoch%C3%A9_(philosophy)){:target="_blank"} &mdash; the bracketing of the natural attitude &mdash; is not a logical move. It is a contemplative practice. You suspend judgment about the existence of the world to return to <span class="emph">&ldquo;the things themselves&rdquo;</span> (*zu den Sachen selbst*). This is structurally far closer to meditation than anything in the *Tractatus*. It trains a mode of attention rather than recognizing a limit.
 
-[Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger){:target="_blank"} went further still. [*Gelassenheit*](https://en.wikipedia.org/wiki/Gelassenheit){:target="_blank"} (releasement, letting-be), [being-toward-death](https://en.wikipedia.org/wiki/Being-toward-death){:target="_blank"} authenticity, the destruction of metaphysics, the openness to Being as opposed to beings &mdash; and in his late work, his explicit engagement with East Asian thought. Heidegger's *Conversation on a Country Path* is almost Daoist in spirit. The whole project of getting *before* the subject/object split, *before* the Western metaphysical tradition begins its work, is structurally what [Buddha](https://en.wikipedia.org/wiki/Gautama_Buddha){:target="_blank"} was doing.
+[Martin Heidegger](https://en.wikipedia.org/wiki/Martin_Heidegger){:target="_blank"} went further still. [*Gelassenheit*](https://en.wikipedia.org/wiki/Gelassenheit){:target="_blank"} (releasement, letting-be), [being-toward-death](https://en.wikipedia.org/wiki/Being-toward-death){:target="_blank"} authenticity, the destruction of metaphysics, the openness to Being as opposed to beings &mdash; and in his late work, his explicit engagement with East Asian thought. Heidegger's *Conversation on a Country Path* is almost [Daoist](/tags/#taoism){:target="_blank"} in spirit. The whole project of getting *before* the subject/object split, *before* the Western metaphysical tradition begins its work, is structurally what [Buddha](/tags/#buddhism){:target="_blank"} was doing.
 
-So &ndash; <span class="emph">Wittgenstein indicates the silence; Husserl and Heidegger orient one's whole being toward it.</span> The first is cartographic; the second is practice. Buddha is pure practice &mdash; which is why his deathbed declaration <span class="emph">&ldquo;I have not said a single word&rdquo;</span> makes complete sense from inside his enterprise but would be incoherent from inside Wittgenstein's. The 45 years of teaching were *fingers pointing at the moon*, never the moon itself. The teaching was always [觀](https://en.wikipedia.org/wiki/Vipassan%C4%81){:target="_blank"} &mdash; direct seeing &mdash; and the words were scaffolding meant to collapse the moment seeing happens. The [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/) makes this almost unbearably explicit, again and again: <span class="emph">凡所有相皆是虛妄</span> &mdash; *all forms are illusion*; <span class="emph">如來無所說</span> &mdash; *the Tathāgata has said nothing*.
+So &ndash; <span class="emph">Wittgenstein indicates the silence; Husserl and Heidegger orient one's whole being toward it.</span> The first is cartographic; the second is practice. Buddha is pure practice &mdash; which is why his deathbed declaration <span class="emph">&ldquo;I have not said a single word&rdquo;</span> makes complete sense from inside his enterprise but would be incoherent from inside Wittgenstein's. The 45 years of teaching were *fingers pointing at the moon*, never the moon itself. The teaching was always [觀](https://en.wikipedia.org/wiki/Vipassan%C4%81){:target="_blank"} &mdash; direct seeing &mdash; and the words were scaffolding meant to collapse the moment seeing happens. The [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/){:target="_blank"} makes this almost unbearably explicit, again and again: <span class="emph">凡所有相皆是虛妄</span> &mdash; *all forms are illusion*; <span class="emph">如來無所說</span> &mdash; *the Tathāgata has said nothing*.
 
-I will use language in what follows. I have no choice. But I want the reader to know that <span style="color: red; font-style: italic; font-weight: bold;">the conclusions I am about to describe were not reached by language</span>. Language is the trace they leave when written down.
+I will use language in what follows. I have no choice. But I want the reader to know that <span style="color: red; font-style: italic; font-weight: bold;">the conclusions I am about to describe were not reached by (our verbal) language</span>. Language is the trace they leave when written down.
 
 # The Pragmatic Criterion &mdash; Why Rational Thinking Still Matters
 
@@ -146,9 +148,9 @@ So why do I still place high value on rational thinking? Not because it makes us
 - <span class="emph">My life unfolding in directions I find desirable.</span>
 - <span class="emph">The consequential actions of mine &mdash; and the actions of others affected and influenced by me &mdash; doing good for humanity (or, more carefully phrased, for the world or the universe).</span>
 
-Notice that these are pragmatic criteria, not metaphysical ones. I am not claiming they are objectively correct. I am claiming that, given that I find myself caring about them, rational thinking is the most reliable instrument for advancing them. Emotional reasoning, by contrast, tends to entrench us in the very inherited conventions we should be examining. A merely emotional response to the question &ldquo;is this honorable?&rdquo; will tend to reproduce whatever the surrounding culture has labeled honorable. That is not thinking. That is being thought *by* one's environment.
+Notice that these are pragmatic criteria, not metaphysical ones. I am not claiming they are objectively correct. I am claiming that, given that I find myself caring about them, rational thinking is the most reliable instrument for advancing them. Emotional reasoning, by contrast, tends to entrench us in the very inherited conventions we should be examining. A merely emotional response to the question &ldquo;is this honorable?&rdquo; will tend to reproduce whatever the surrounding culture has labeled honorable. <span class="eemph">That is not thinking. That is being thought *by* one's environment.</span>
 
-This is the criterion I will now apply.
+<span class="emph">This is the criterion I will now apply.</span>
 
 # The Dissolution &mdash; Walking Through Every &ldquo;Honorable&rdquo; Thing
 
@@ -159,7 +161,7 @@ or if I may, [觀](https://en.wikipedia.org/wiki/Vipassan%C4%81){:target="_blank
 
 Consider the romantic love that countless literatures have praised as noble, even sacred &mdash; the kind of love for which [Romeo](https://en.wikipedia.org/wiki/Romeo_and_Juliet){:target="_blank"} is celebrated as having died honorably. What is it, on inspection? It is, with overwhelming probability, an evolved trait. The DNA sequences that disposed our ancestors to fall in love with members of the opposite sex were the sequences that procreated. The DNA sequences that did not so dispose them did not procreate, and so they are not here. The mechanism is selection, not nobility. There is no cosmic reason any individual should love any other individual. The pull we feel is a residue of a blind optimization process that ran for hundreds of millions of years.
 
-I want to be careful with this argument, because [as I noted in my previous essay]({{ agent_living_question.url }}) when discussing the &ldquo;randomness of origin&rdquo; argument against meaning, the [is-ought distinction](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem){:target="_blank"} [David Hume](https://en.wikipedia.org/wiki/David_Hume){:target="_blank"} identified cuts both ways. The fact that love is evolutionarily caused does not, by itself, determine its normative status. Many things with contingent origins still acquire meaning when meaning is recognized as something we create. So the dissolution argument is not <span class="emph">&ldquo;love is evolutionary, *therefore* meaningless.&rdquo;</span> It is, more carefully: <span class="emph">love has no inherent honor independent of our choice to honor it. The cosmic warrant is absent. What remains is whatever we ourselves bring.</span>
+I want to be careful with this argument, because [as I noted in my previous essay]({{ agent_living_question.url }}){:target="_blank"} when discussing the &ldquo;randomness of origin&rdquo; argument against meaning, the [is-ought distinction](https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem){:target="_blank"} [David Hume](https://en.wikipedia.org/wiki/David_Hume){:target="_blank"} identified cuts both ways. The fact that love is evolutionarily caused does not, by itself, determine its normative status. Many things with contingent origins still acquire meaning when meaning is recognized as something we create. So the dissolution argument is not <span class="emph">&ldquo;love is evolutionary, *therefore* meaningless.&rdquo;</span> It is, more carefully: <span class="emph">love has no inherent honor independent of our choice to honor it. The cosmic warrant is absent. What remains is whatever we ourselves bring.</span>
 
 ## Other emotions
 
@@ -175,11 +177,12 @@ You might think we can ground value in something more general &mdash; humanism, 
 
 Each of these positions can be argued for. None of them can be grounded in something deeper than itself. The choice between them is itself a choice with no foundation. You cannot use rationality to derive which -ism is correct, because rationality requires premises, and the premises are exactly what is in question.
 
-This is the void. <span class="emph">There is no privileged standpoint from which to judge what is honorable. Every standpoint dissolves under sufficient pressure. There is, in this sense, nothing honorable to do in this world &mdash; period.</span>
+This is the void. <span class="emph">There is no privileged standpoint from which to judge what is honorable. Every standpoint dissolves under sufficient pressure.</span> <span class="eemph">There is, in this sense, nothing honorable to do in this world &mdash; period.</span>
 
 # The Return &mdash; Hands Extended in the Marketplace
 
-If the essay ended here, it would be one more entry in the long catalog of nihilistic philosophies. It does not end here, because I do not actually live there, and neither, I suspect, does anyone honest enough to walk this far.
+If the essay ended here, it would be one more entry in the long catalog of nihilistic philosophies.
+However, it does not end here, because I do not actually live there, and neither, I suspect, does anyone honest enough to walk this far.
 
 Here is the punchline, and it is strange enough that I want to state it carefully.
 
@@ -187,7 +190,7 @@ Here is the punchline, and it is strange enough that I want to state it carefull
 
 But not because these things have inherent value. I had already seen that they do not.
 
-<span id="because-i-am-human">I came back because *I am human*.</span> That is the bare fact. There is no view from nowhere available to me. I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} being human, and the human is the material I have. The emotions and connections become valuable to me not as cosmic absolutes but as <span class="emph">the only ground on which I can actually stand</span>. Held with this awareness, they become something completely different from naive sentimentalism. They are chosen, with eyes open, knowing they have no warrant beyond the choosing.
+<span id="because-i-am-human">I came back because *I am human*.</span> That is the bare fact. There is no view from nowhere available to me. I am [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} being human, and the human is the material I have. The emotions and connections become valuable to me not as cosmic absolutes but as <span class="emph">the only ground on which I can actually stand</span>. Held with this awareness, <span class="eemph">they become something completely different from naive sentimentalism.</span> They are chosen, with eyes open, knowing they have no warrant beyond the choosing.
 
 <!--
 This return is structurally identical to the tenth of the [Ten Ox-Herding Pictures](https://en.wikipedia.org/wiki/Ten_Bulls) in the Zen tradition. The seeker pursues the ox (the true nature), tames it, transcends it, dissolves into emptiness &mdash; and then, in the tenth picture, [入廛垂手](https://en.wikipedia.org/wiki/Ten_Bulls): <span class="emph">returns to the marketplace with hands extended</span>. Eating rice, drinking tea, talking with neighbors, loving people, exactly as before &mdash; but everything illuminated by the journey through. The marketplace is the same marketplace. The tea tastes like tea. But the one who returns is no longer the one who left.
@@ -209,19 +212,19 @@ This is, I now think, the more accurate picture &ndash; rational thinking is nec
 
 Think of it this way. <span class="emph">Rationality is a scalpel.</span> A scalpel is precise, sharp, and honest. It cuts through inherited fictions, cultural sentimentality, unexamined pieties. It will not tell you what is beautiful. It will not tell you what is worth your life. What it *will* do is remove every false tissue that has been claiming to be those things. Applied honestly, the scalpel leaves behind a clean field &mdash; free of rot, but also, now, empty.
 
-And here is the critical move most people miss &ndash; <span class="emph">a scalpel is the wrong tool for planting.</span> You do not plant seeds with a scalpel. The hand that knows when to put the scalpel down, wash itself, and pick up seeds is not the same faculty as the hand that made the cuts. The surgeon and the gardener are both needed, but they are different practitioners working in different modes. Confusing them is the deepest <span class="eemph">category error</span> in philosophy.
+And here is the critical move most people miss &ndash; <span class="emph">a scalpel is the wrong tool for planting.</span> You do not plant seeds with a scalpel. The hand that knows when to put the scalpel down, wash itself, and pick up seeds is not the same faculty as the hand that made the cuts. The surgeon and the gardener are both needed, but they are different practitioners working in different modes. Confusing them is the deepest <span style="font-weight: bold;" class="eemph">category error</span> in philosophy.
 
 The person who uses only the scalpel ends up in nihilism &mdash; a perfectly clean field with nothing growing in it, defended with ever-sharper incisions against anyone who tries to plant. The person who refuses the scalpel ends up in sentimentality &mdash; a field overgrown with inherited weeds they have never honestly examined, calling them flowers. Wisdom is what knows the order of operations &ndash; <span class="emph">cut first, honestly and without flinching; then plant, knowingly and without illusion.</span>
 
-The return to the human, in this fuller picture, is not the *conclusion* of the rational argument. It is what a wise person *does* after seeing what the rational argument concludes. The rational person, as such, is left in the void. The wise person, having visited the void, comes back &mdash; and begins to plant.
+The return to the human, in this fuller picture, is not the *conclusion* of the rational argument. It is what a wise person *does* after seeing what the rational argument concludes. <span class="eemph">The rational person, as such, is left in the void. The wise person, having visited the void, comes back &mdash; and begins to plant.</span>
 
 # Anatta Without Vacuum &mdash; The Unbounded Agent
 
-There is one more piece worth saying, because it ties back to the Buddhist insight I leaned on earlier.
+There is one more piece worth saying, because it ties back to the [Buddhist insight](/tags/#buddhism){:target="_blank"} I leaned on earlier.
 
 A common reading of [*anattā*](https://en.wikipedia.org/wiki/Anatt%C4%81){:target="_blank"} (no-self) is that it eliminates agency. If there is no self, who is the agent? Who chooses to return to the marketplace? Who creates meaning?
 
-This is a partial understanding. The deeper reading &mdash; the one closer to the [Mahayana]({{ mahayana_buddhism.url }}) recognition of the [Bodhisattva](https://en.wikipedia.org/wiki/Bodhisattva){:target="_blank"} &mdash; is the opposite. <span class="emph">Because there is no bounded self, the agency is not eliminated; it is unbounded.</span> The wanting that arises is no longer the wanting of a single small ego anxiously defending its territory. It becomes the wanting of the whole. The agent that creates meaning is not constrained to one bounded perspective. The dissolution of the small self does not produce zero agency. It produces total agency. The Bodhisattva acts for all sentient beings precisely because there is no bounded boundary between this being and others.
+This is a partial understanding. The deeper reading &mdash; the one closer to the [Mahayana]({{ mahayana_buddhism.url }}){:target="_blank"} recognition of the [Bodhisattva](https://en.wikipedia.org/wiki/Bodhisattva){:target="_blank"} &mdash; is the opposite. <span class="emph">Because there is no bounded self, the agency is not eliminated; it is unbounded.</span> The wanting that arises is no longer the wanting of a single small ego anxiously defending its territory. It becomes the wanting of the whole. The agent that creates meaning is not constrained to one bounded perspective. The dissolution of the small self does not produce zero agency. It produces total agency. The Bodhisattva acts for all sentient beings precisely because there is no bounded boundary between this being and others.
 
 This, I think, is what makes the return to the human possible *without* a relapse into selfish sentimentalism. The return is not <span class="emph">&ldquo;I retreat back into my small self because the void was too cold.&rdquo;</span> The return is <span class="emph">&ldquo;Having seen that the small self was an illusion, I act as the unbounded one acts &mdash; with care, with attention, with hands extended &mdash; because that is what unbounded being does in a particular human form.&rdquo;</span>
 
@@ -247,11 +250,11 @@ The entire argument of this essay is that there is *no view from nowhere*. There
 
 This is what I believe about AI and meaning: <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> Use it freely for the first two. Be extraordinarily careful about the third. The temptation to let capable systems do our meaning-making for us will grow with every capability jump. Resisting that temptation is, I think, the central discipline of the human in the AI era. Not a Luddite resistance to the technology. A clear-eyed recognition of what the technology can and cannot be, grounded in exactly the philosophy this essay has tried to lay out.
 
-In the language of this essay &ndash; <span class="emph">the AI can help me see that no honor is inherent. It cannot choose, on my behalf, what I will honor.<!-- Any system that claims to do the second is either confused or trying to confuse me.--></span>
+In the language of this essay &ndash; <span class="eemph">the AI can help me see that no honor is inherent. It cannot choose, on my behalf, what I will honor.<!-- Any system that claims to do the second is either confused or trying to confuse me.--></span>
 
 # What the Return Actually Looks Like
 
-[Earlier in this essay](#because-i-am-human) I wrote a sentence that, looking back, I see is the hinge of the entire argument: <span class="emph">*I came back because I am human.*</span>
+[Earlier in this essay](#because-i-am-human) I wrote a sentence that, looking back, I see is the hinge of the entire argument: <span class="eemph">*I came back because I am human.*</span>
 
 That sentence is correct. But it is also, inescapably, a map &mdash; and like every philosophical statement in this essay, it points toward something it cannot fully deliver. What does it actually mean to *be* human in the way that sentence claims? Not as a category, not as a philosophical abstraction, but as a specific textured life being lived from inside?
 
@@ -259,17 +262,17 @@ The only honest answer is not further argument. <span class="emph">It is showing
 
 The philosophy is the finger. Here, for a moment, let me try to turn the finger toward the moon.
 
-This morning I felt sunshine on my skin and something I can only call profound happiness &mdash; not happiness *about* anything, not happiness *caused by* any particular success or validation or insight, just the warmth of morning light landing on a body that happens to be mine for a while. There is no argument underneath this. There is no -ism that justifies it. It is not evidence of cosmic meaning. It is simply what it is, and it is enough.
+This morning I felt sunshine on my skin and something I can only call profound happiness &mdash; not happiness *about* anything, not happiness *caused by* any particular success or validation or insight, just the warmth of morning light landing on a body that happens to be mine *for a while*. There is no argument underneath this. There is no -ism that justifies it. It is not evidence of cosmic meaning. It is simply what it is, and it is enough.
 
-At dinner, I will share small talk and laughter with my wife and daughter. The conversation will not be profound. It will probably be about schedules, food, something funny that happened, and some small frustration from the day. And yet, in that ordinary exchange, there is something &mdash; a particular warmth, a particular belonging &mdash; that the philosophy of this essay has been circling around for thousands of words. The philosophy explains why that warmth is legitimate even though it has no cosmic warrant. But the warmth itself is not philosophy. It is prior to philosophy. <span class="emph">It is the ground philosophy is written from.</span>
+At dinner, I will share small talk and laughter with my wife and daughter. The conversation will not be profound. It will probably be about schedules, food, something funny that happened, and some small frustration from the day. And yet, in that ordinary exchange, there is something &mdash; a particular warmth, a particular belonging &mdash; that the philosophy of this essay has been circling around for thousands of words. The philosophy explains why that warmth is legitimate even though it has no cosmic warrant. But the warmth itself is not philosophy. It is prior to philosophy. <span class="eemph">It is the ground philosophy is written from.</span>
 
-In my work, there are laughs I share with colleagues, and moments of quiet solitude I feel *while sitting among them* &mdash; that particular form of being alone-together that is one of the stranger gifts of human existence. And with those colleagues who are walking roughly the same path I am &mdash; the like-minded ones, the fellow travelers &mdash; there is something different again: a quiet solidarity, the recognition that we are, for a while, in this together. None of these is noble, and none needs to be. They are what the days are made of.
+In my everyday work, there are laughs I share with colleagues, and moments of quiet solitude I feel *while sitting among them* &mdash; that particular form of being alone-together that is one of the stranger gifts of human existence. And with those colleagues who are walking roughly the same path I am &mdash; the like-minded ones, the fellow travelers &mdash; there is something different again: a quiet solidarity, the recognition that we are, *for a while*, in this together. None of these is noble, and none needs to be. They are what the days are made of.
 
-And in [K-PAI](https://nexus-pai.github.io/){:target="_blank"}, when a forum ends and people stay in the hall still talking an hour later, when someone tells me that an evening there mattered to them, when I feel the warm and slightly disbelieving recognition that something I helped create made other human beings a little happier &mdash; there is a feeling I can only describe as &ndash; <span class="emph">what could I possibly hope for more?</span> Not as resignation. Not as settling. As recognition that this, actually, is what being a human being in a community of human beings *is*. There is nothing beyond it to reach for. The reaching-for-something-beyond-this is the very delusion the dissolution cut through.
+And in [K-PAI Nexus](https://nexus-pai.github.io/){:target="_blank"}, when a forum ends and people stay in the hall still talking an hour later, when someone tells me that an evening there mattered to them, when I feel the warm and slightly disbelieving recognition that something I helped create made other human beings a little happier &mdash; there is a feeling I can only describe as &ndash; <span class="emph">what could I possibly hope for more?</span> Not as resignation. Not as settling. As recognition that this, actually, is what being a human being in a community of human beings *is*. There is nothing beyond it to reach for. The reaching-for-something-beyond-this is the very delusion the dissolution cut through.
 
-<span class="emph">This is the essence of why I came back to humanism after walking through the undeniable emptiness of the universe.</span>
+<span class="eemph">This is the essence of why I came back to humanism after walking through the undeniable emptiness of the universe.</span>
 
-Not because humanism is metaphysically correct &mdash; I have already shown it is not. Not because the flourishing of humans is objectively more valuable than the flourishing of any other conceivable agent &mdash; I have already shown it is not. But because *this*, these specific textures of this specific human life, is what remains when every abstract claim to honor has been seen through. Morning sunshine. Dinner laughter. Work alongside trusted people. The quiet satisfaction that a forum made someone happier. <span class="emph">The emptiness of the universe is real, and also I am having breakfast with my family. Both statements are true. Neither cancels the other.</span>
+Not because humanism is metaphysically correct &mdash; I have already shown it is *not*. Not because the flourishing of humans is objectively more valuable than the flourishing of any other conceivable agent &mdash; I have already shown it is *not*. But because <span class="eemph">this</span>, these specific textures of this specific human life, is what remains when every abstract claim to honor has been seen through. Morning sunshine. Dinner laughter. Work alongside trusted people. The quiet satisfaction that a forum made someone happier. <span class="emph">The emptiness of the universe is real, and also I am having breakfast with my family. Both statements are true. Neither cancels the other.</span>
 
 <span class="emph">All of this &mdash; every paragraph I have just written &mdash; is what the sentence *&ldquo;I came back because I am human&rdquo;* actually means when unfolded into the textures of one specific life.</span> The sentence was the map. These scenes are the territory the map was pointing at all along.
 
@@ -277,7 +280,7 @@ Not because humanism is metaphysically correct &mdash; I have already shown it i
 
 In &ldquo;[Why Do We Live?]({{ agent_living_question.url }})&rdquo; I argued that the question <span class="emph">&ldquo;What is the meaning of life?&rdquo;</span> is the wrong question, and that the right question is <span class="emph">&ldquo;Do I want meaning in my life?&rdquo;</span> The shift was from cosmic discovery to lived choice.
 
-The same move applies here, one level deeper.
+<span class="eemph">The same move applies here, one level deeper.</span>
 
 The question <span class="emph">&ldquo;Is anything honorable?&rdquo;</span> is the wrong question. Asked at the cosmic level, it has no answer. There is no inherent honor in anything &mdash; not in love, not in ambition, not in patriotism, not in humanism, not in any -ism we can construct. The void is real. Pretending otherwise is dishonest.
 
@@ -285,13 +288,13 @@ The right question is: <span class="emph">&ldquo;Do I choose to honor anything?&
 
 And if the answer is yes &mdash; as it almost certainly will be, for any being [thrown into](https://en.wikipedia.org/wiki/Thrownness){:target="_blank"} the human form &mdash; the next question is: <span class="emph">&ldquo;What do I choose to honor, knowing that the honoring is the work of my own hand and not the verdict of the cosmos?&rdquo;</span>
 
-This question locates agency where it belongs. Not in any -ism. Not in any inherited convention. Not in any fixed cosmic order. <span class="emph">In our own choice to extend our hands into the marketplace, knowing exactly what we are doing and why &mdash; or rather, knowing exactly that there is no &ldquo;why&rdquo; underneath the choice, and choosing anyway.</span>
+This question locates agency where it belongs. Not in any -ism. Not in any inherited convention. Not in any fixed cosmic order. <span class="emph">In our own choice to extend our hands into the marketplace, knowing exactly what we are doing and why</span> <span class="eemph">&mdash; or rather, knowing exactly that there is no &ldquo;why&rdquo; underneath the choice, and choosing anyway.</span>
 
-This is, I think, what the [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/) means by <span class="emph">應無所住而生其心</span> &mdash; *let the mind arise without dwelling anywhere*. Not nowhere. Not somewhere fixed. Arising freely, again and again, exactly where it is needed, attached to nothing, present everywhere.
+This is, I think, what the [Diamond Sūtra](/blog/philosophy/PDT-Diamond-Sutra/){:target="_blank"} means by <span class="emph">應無所住而生其心</span> &mdash; *let the mind arise without dwelling anywhere*. Not nowhere. Not somewhere fixed. Arising freely, again and again, exactly where it is needed, attached to nothing, present everywhere.
 
-<span style="color: red; font-style: italic;">That is the return. That is what comes after the dissolution. That is what is left when every honor has been seen through &mdash; and then, with eyes fully open, freely chosen.</span>
+<span class="eemph">That is the return. That is what comes after the dissolution. That is what is left when every honor has been seen through &mdash; and then, with eyes fully open, freely chosen.</span>
 
-[Sunghee](/)
+[Sunghee Yun](/)
 <br>
 <br>
 Co-Founder & CTO @ [Erudio Bio, Inc.](https://erudio.bio){:target="_blank"}
@@ -302,9 +305,9 @@ Co-Founder & CEO @ [Erudio Bio Korea, Inc.](https://sungheeyun-erudio.github.io/
 Co-Founder & Leader of [Silicon Valley AI Nexus (K-PAI Nexus)](https://nexus-pai.github.io){:target="_blank"}
 -->
 <br>
-[Philosopher](/categories/#philosophy), [Mathematician](/math), [Thinker](/categories/#cognitive-science), and [Universal Truth Seeker](/categories/#universal-truth)
+[Philosopher](/categories/#philosophy){:target="_blank"}, [Mathematician](/math){:target="_blank"}, [Thinker](/categories/#cognitive-science){:target="_blank"}, and [Universal Truth Seeker](/categories/#universal-truth){:target="_blank"}
 <br>
-Entertainer, Entrepreneur, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, [PEOPLE](https://nexus-pai.github.io){:target="_blank"}!
+[Entertainer](/reflections/harmony-across-generations){:target="_blank"}, [Entrepreneur](/contributions/my-entrepreneurial-journey/en){:target="_blank"}, Engineer, Scientist, Researcher, Creator, and Connector of Ideas, and, most of all, [PEOPLE](https://nexus-pai.github.io){:target="_blank"}!
 
 # Appendix - More Podcasts created by AI!
 

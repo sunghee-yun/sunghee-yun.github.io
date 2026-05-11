@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Wed May  6 00:37:51 PDT 2026
+last_modified_at: Mon May 11 01:53:39 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -27,7 +27,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign coming_back_to_human = site.posts | where: "permalink", "/prajna/coming-back-to-the-human" | first %}
 
 {: .notice--success}
-A sequel to this article can be found [here]({{ coming_back_to_human.url }}) - [{{ coming_back_to_human.title }}]({{ coming_back_to_human.url }}).
+This article is a prequel to [{{ coming_back_to_human.title }}]({{ coming_back_to_human.url }}).
 
 > &hellip; the right question to ask is "Do I want meaning of my life?"
 > This reframing represents a crucial philosophical move that shifts the entire ground of the discussion from metaphysics to pragmatics, from discovery to creation, from obligation to choice.
