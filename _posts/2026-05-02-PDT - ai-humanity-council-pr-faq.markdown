@@ -1,6 +1,6 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Mon May 11 02:53:26 PDT 2026
+last_modified_at: Mon May 11 19:00:17 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
 permalink: /pr-faq/ai-humanity-council/2029
@@ -124,11 +124,11 @@ The FAQ section addresses both external and internal questions about the AI & Hu
 
 # THE INTELLECTUAL FOUNDATION
 
-**How This Vision Emerged**
+## How This Vision Emerged
 
 The AI & Humanity Council did not emerge from a conference room brainstorming session. It is the institutional embodiment of more than a decade of sustained philosophical inquiry and international collaboration that crystallized into precise institutional architecture.
 
-**The Existential Trilogy - Philosophical (and Existential) DNA**
+## The Existential Trilogy - Philosophical (and Existential) DNA
 
 The Council's comprehensive scope—spanning technology, ethics, economics, governance, education, and existential meaning—is grounded in [**The Existential Trilogy**](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"}, a body of philosophical work developed by Council Chair [Sunghee Yun](https://sungheeyun.github.io) over 10+ years:
 
@@ -140,7 +140,7 @@ The Council's comprehensive scope—spanning technology, ethics, economics, gove
 
 <span class="eemph">This trilogy progresses from "I" (individual agency) to "I as human" (embodied existence) to "we" (collective civilizational challenge)—descending each time from abstraction toward the irreducible textures of actual human existence. The Council's structure—philosophical rigor, institutional partnerships, entrepreneurial action—mirrors this progression from pure philosophy to lived philosophy to applied philosophy.</span>
 
-**The Salzburg Proof-of-Concept**
+## The Salzburg Proof-of-Concept
 
 The Council's methodology was validated at the [**KFAS-Salzburg Global Leadership Initiative**](https://sungheeyun.github.io/ai/bridging-technology-and-humanity){:target="_blank"} (December 2024), where [Sunghee Yun](https://sungheeyun.github.io) participated as a Fellow. The multi-day convening at Schloss Leopoldskron brought together global leaders across government, academia, industry, and civil society to address AI's societal implications.
 
@@ -152,7 +152,7 @@ The Salzburg experience demonstrated that
 - International collaboration **can** produce actionable frameworks
 - The "Avengers-level assembly" called for in the UBI essay **is achievable**
 
-**From (Existential) Philosophy to Institution**
+## From (Existential) Philosophy to Institution
 
 The AI & Humanity Council transforms contemplative insight into institutional reality. The philosophical conviction that AI cannot create meaning for humans becomes **Report #5: The Flourishing Question**. The recognition that survival-free existence demands new educational paradigms becomes **Report #4: Education Transformed**. The commitment to protecting human agency becomes **Report #2: Democratic Governance in the Age of AI**. The insistence that solutions must be implemented, not just described, becomes the **Innovation Venture Studio** and its 7 spin-off companies.
 
