@@ -1,6 +1,6 @@
 ---
 date: Thu May  7 15:01:46 PDT 2026
-last_modified_at: Tue May 12 19:14:35 PDT 2026
+last_modified_at: Tue May 12 19:20:30 PDT 2026
 permalink: /ai/future/
 layout: single
 title: "Is AI Safe or Dangerous? - A Wrong Question to Ask!"
@@ -138,7 +138,7 @@ Walk into any conference on Artificial Intelligence (AI) in 2026 &ndash; I have 
 
 *Is AI safe? Or is AI dangerous?*
 
-The audience will nod gravely. Panels will be assembled. Position papers will be written. Governments will form committees. And an enormous amount of intellectual energy will be spent on what I have come to believe is a fundamentally malformed question.
+The audience will nod gravely. Panels will be assembled. Position papers will be written. Governments will form committees. And an enormous amount of intellectual energy will be spent on what I have come to believe is <span class="eemph">a fundamentally malformed question</span>.
 
 I want to explain why.
 
