@@ -1,6 +1,6 @@
 ---
 date: Sun May 10 01:07:48 PDT 2026
-last_modified_at: Wed May 13 02:20:27 PDT 2026
+last_modified_at: Wed May 13 03:33:20 PDT 2026
 permalink: /ai/new-ai-human-collaboration-model
 layout: single
 title: "Would AI Replace or Assist Humans? &mdash; (Yet Another) Wrong Question to Ask!"
@@ -55,6 +55,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 > The question &ldquo;Will AI replace humans or assist them?&rdquo; is seductive because it offers exactly two options, both of which feel meaningful. But the binary is a trap. What is actually happening between human intelligence and AI is something that neither word captures &mdash; something richer, stranger, more intimate, and far more consequential than either &ldquo;replacement&rdquo; or &ldquo;assistance.&rdquo;
 
 > If I had to name it, I would call it <span class="emph">cognitive resonance</span> &mdash; a sustained, iterative process in which AI stimulates my brain, strengthens my insight, broadens the landscape of my knowledge, and even helps me develop creativity. Not by doing my thinking *for* me. But by doing something *to* my thinking that no tool, no textbook, and no search engine has ever done before.
+
+> If I must name what AI does in this new mode of interaction, I would call it <span class="eemph">cognitive catalysis</span>.
 
 > And yet &mdash; precisely because of this experience &mdash; I am more convinced than ever that AI will never replace humans. Because what makes this process work is the very thing that only humans bring to it: intuition, judgment, lived experience, and the capacity for meaning.
 
@@ -166,17 +168,17 @@ A painter describes a concept &ndash; &ldquo;I want to express the tension betwe
 
 ### Narrative structure development
 
-A novelist has a character but not a plot. Through iterative dialogue, the AI offers structural patterns &mdash; not plots, but *patterns*: the spiral structure of *One Hundred Years of Solitude*, the temporal fragmentation of *Slaughterhouse-Five*, the epistolary constraint of *Dangerous Liaisons*. The novelist sees her character in the spiral structure and something ignites. The novel is hers. The ignition was catalyzed.
+A novelist has a character but not a plot. Through iterative dialogue, the AI offers structural patterns &mdash; not plots, but *patterns* &ndash; the spiral structure of *One Hundred Years of Solitude*, the temporal fragmentation of *Slaughterhouse-Five*, the epistolary constraint of *Dangerous Liaisons*. The novelist sees her character in the spiral structure and something ignites. <span class="emph">The novel is hers. The ignition was catalyzed.</span>
 
 ### Lecture design
 
-Every major lecture I deliver goes through an AI dialogue. Not to generate content &mdash; the content comes from decades of experience. But to find the *order*, the *arc*, the moment where the audience's assumptions will be most productively disrupted. As I reflected in &ldquo;[{{ teaching_sjsu.title }}]({{ teaching_sjsu.url }})&rdquo;, I was not just teaching content &mdash; I was facilitating paradigm shifts. The AI helps me find the sharpest path to that shift.
+Every major lecture I deliver goes through an AI dialogue. Not to generate content &mdash; <span class="eemph">the content comes from decades of experience.</span> But to find the *order*, the *arc*, the moment where the audience's assumptions will be most productively disrupted. As I reflected in &ldquo;[{{ teaching_sjsu.title }}]({{ teaching_sjsu.url }}){:target="_blank"}&rdquo;, I was not just teaching content &mdash; <span class="eemph">I was facilitating paradigm shifts.</span> <span class="emph">The AI helps me find the sharpest path to that shift.</span>
 
 ## Accelerating Research
 
 ### Literature landscape mapping
 
-A researcher entering a new subfield can, in two hours of iterative AI dialogue, build a mental map that would otherwise take two months of reading. The map is not the territory &mdash; as I argued in &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }})&rdquo;, [the map is never the territory]({{ back_to_human.url }}). But having a map before you enter the territory is transformative.
+A researcher entering a new subfield can, in two hours of iterative AI dialogue, build a mental map that would otherwise take two months of reading. The map is not the territory &mdash; as I argued in &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }})&rdquo;, [the map is never the territory]({{ back_to_human.url }}). But <span class="emph">having a map before you enter the territory is transformative.</span>
 
 ### Cross-disciplinary translation
 
@@ -184,29 +186,29 @@ A neuroscientist and an economist are working on the same problem from different
 
 ### Experimental design refinement
 
-A graduate student describes a proposed experiment. The AI identifies confounding variables the student had not considered, suggests control conditions drawn from adjacent fields, and points out a statistical subtlety in the proposed analysis. The advisor might have caught these in time. The AI caught them in minutes.
+A graduate student describes a proposed experiment. The AI identifies confounding variables the student had not considered, suggests control conditions drawn from adjacent fields, and points out a statistical subtlety in the proposed analysis. <span class="emph">The advisor might have caught these in time. The AI caught them in minutes.</span>
 
 ### Data pattern recognition and hypothesis prompting
 
-A researcher stares at a dataset that looks anomalous. She describes what she sees. The AI suggests seven interpretive frameworks. She eliminates five instantly from domain knowledge. The remaining two prompt a new analysis she had not conceived. The discovery &mdash; if it comes &mdash; is hers. The prompt was co-created.
+A researcher stares at a dataset that looks anomalous. She describes what she sees. The AI suggests seven interpretive frameworks. She eliminates five instantly from domain knowledge. The remaining two prompt a new analysis she had not conceived. The discovery &mdash; if it comes &mdash; is hers. <span class="emph">The prompt was co-created.</span>
 
 ### Historical source analysis
 
-A historian uploads primary documents and engages the AI in interpretation. The AI offers contextual knowledge the historian lacked about contemporary events in another country. This recontextualization changes the historian's reading of the document entirely. The interpretation is the historian's. The context was machine-delivered, human-evaluated, human-integrated.
+A historian uploads primary documents and engages the AI in interpretation. The AI offers contextual knowledge the historian lacked about contemporary events in another country. This recontextualization changes the historian's reading of the document entirely. <span class="emph">The interpretation is the historian's. The context was machine-delivered, human-evaluated, and human-integrated.</span>
 
 ## Strengthening Professional Practice
 
 ### Legal argument construction
 
-A lawyer preparing a brief uses AI not to write the brief but to find the weakest links in her own argument. &ldquo;If opposing counsel were brilliant, what would they attack?&rdquo; The resulting brief is harder to dismantle &mdash; not because AI wrote it, but because AI stress-tested it.
+A lawyer preparing a brief uses AI not to write the brief but to find the weakest links in her own argument. &ldquo;If opposing counsel were brilliant, what would they attack?&rdquo; The resulting brief is harder to dismantle &mdash; not because AI wrote it, <span class="emph">but because AI stress-tested it.</span>
 
 ### Medical differential diagnosis broadening
 
-A physician describes symptoms. The AI offers fifteen possible diagnoses, including three from rare conditions the physician has never encountered. The physician evaluates each against the clinical picture. Two rare conditions warrant further testing. The diagnosis is the physician's. The expanded possibility space was AI-provided.
+A physician describes symptoms. The AI offers fifteen possible diagnoses, including three from rare conditions the physician has never encountered. The physician evaluates each against the clinical picture. Two rare conditions warrant further testing. The diagnosis is the physician's. <span class="emph">The expanded possibility space was AI-provided.</span>
 
 ### Strategic consulting synthesis
 
-A consultant has twenty interview transcripts from a client organization. Rather than spending three days manually coding themes, she engages AI in an iterative dialogue: &ldquo;What patterns do you see?&rdquo; &ldquo;No, that's superficial &mdash; look deeper.&rdquo; &ldquo;Now consider what is *not* being said.&rdquo; The insight about organizational silence is hers. The velocity of reaching it is new.
+A consultant has twenty interview transcripts from a client organization. Rather than spending three days manually coding themes, she engages AI in an iterative dialogue: &ldquo;What patterns do you see?&rdquo; &ldquo;No, that's superficial &mdash; look deeper.&rdquo; &ldquo;Now consider what is *not* being said.&rdquo; <span class="emph">The insight about organizational silence is hers. The velocity of reaching it is new.</span>
 
 ### Engineering design review
 
@@ -214,99 +216,101 @@ An engineer describes a structural design. The AI identifies a resonance risk th
 
 ### Teaching preparation and anticipation of student questions
 
-Before a lecture, I ask the AI: &ldquo;Given this material, what are the ten most likely misconceptions students will bring? And what is the most productive way to disrupt each one?&rdquo; The teaching is mine. The anticipation of student minds is AI-amplified.
+Before a lecture, I ask the AI &ndash; &ldquo;Given this material, what are the ten most likely misconceptions students will bring? And what is the most productive way to disrupt each one?&rdquo; <span class="emph">The teaching is mine. The anticipation of student minds is AI-amplified.</span>
 
 ## Expanding Cognitive Horizons
 
 ### Philosophical dialogue as cognitive training
 
-I engage in extended dialogues about epistemology, ethics, or the philosophy of mathematics &mdash; not to receive answers, but to train my own thinking. The AI provides resistance, like a sparring partner in boxing. The strength that develops is mine. The resistance was provided.
+I engage in extended dialogues about epistemology, ethics, or the philosophy of mathematics &mdash; not to receive answers, but to train my own thinking. <span class="emph">The AI provides resistance, like a sparring partner in boxing.</span> <span class="eemph">The strength that develops is mine!</span> <span class="emph">The resistance was provided.</span>
 
 ### Language learning through contextual immersion
 
-Rather than memorizing vocabulary, a learner engages in sustained conversation about topics she cares about &mdash; in the target language. The AI adjusts complexity, offers corrections, and maintains the thread. This is not a tutor. This is not a replacement for immersion. It is something new: synthetic immersion with infinite patience.
+Rather than memorizing vocabulary, a learner engages in sustained conversation about topics she cares about &mdash; in the target language. The AI adjusts complexity, offers corrections, and maintains the thread. This is not a tutor. This is not a replacement for immersion. It is something new &ndash; <span class="emph">synthetic immersion with infinite patience.</span>
 
 ### Worldview expansion
 
-I ask: &ldquo;Explain to me the strongest version of a philosophical position I disagree with.&rdquo; The AI delivers. I find myself genuinely persuaded on two points I had dismissed. My position shifts &mdash; not because the AI convinced me, but because it *presented* the argument more fairly than any partisan advocate would have.
+I ask &ndash; &ldquo;Explain to me the strongest version of a philosophical position I disagree with.&rdquo; The AI delivers. I find myself genuinely persuaded on two points I had dismissed. My position shifts &mdash; <span class="emph">not because the AI convinced me, but because it *presented* the argument more fairly</span> than any partisan advocate would have.
 
 ### Emotional intelligence calibration
 
-A manager drafts a difficult message to an underperforming employee. She asks the AI: &ldquo;How might this be received by someone who is already anxious about their performance?&rdquo; The AI offers five possible emotional reactions. The manager revises. The empathy is hers. The anticipation of emotional impact was AI-assisted. (Or is it? This is precisely the kind of interaction that breaks the assist/replace binary.)
+A manager drafts a difficult message to an underperforming employee. She asks the AI &ndash; &ldquo;How might this be received by someone who is already anxious about their performance?&rdquo; The AI offers five possible emotional reactions. The manager revises. <span class="emph">The empathy is hers. The anticipation of emotional impact was AI-assisted.</span> <span class="eemph">Or is it? This is precisely the kind of interaction that breaks the assist/replace binary!</span>
 
 ### Metacognitive reflection
 
-After a long work session, I describe to the AI what I think I learned, what confuses me, and what I suspect I'm wrong about. The AI reflects back patterns in my own thinking that I cannot see from inside. This is not assistance. This is not replacement. This is something for which we do not yet have a word.
+After a long work session, I describe to the AI what I think I learned, what confuses me, and what I suspect I'm wrong about. The AI reflects back patterns in my own thinking that I cannot see from inside. <span class="emph">This is not assistance. This is not replacement.</span> <span class="eemph">This is something for which we do not yet have a word.</span>
 
 # The Conference Analogy &mdash; Why Smart People Fly Across the World
 
-Consider a phenomenon so familiar that we rarely examine it: why do people pay for plane tickets and hotel rooms to attend academic conferences?
+Consider a phenomenon so familiar that we rarely examine it &ndash; why do people pay for plane tickets and hotel rooms to attend academic conferences?
 
 Every technical paper presented at these conferences is available online. The slides will be uploaded. The video will be streamed. We live in an era of essentially universal access to the world's academic output. And yet, brilliant people who could read every paper from the comfort of their offices spend thousands of dollars and days of their time to physically convene in a single location.
 
 *Why?*
 
-Because something happens when a group of people with deep expertise in a field gather in the same room and converse. The value is not in the information transfer &mdash; that can happen through PDFs. The value is in the *network effect of intelligence*. A remark by one researcher triggers an association in another. A question from the audience reframes a problem in a way the presenter had not considered. A hallway conversation between two people who had never met produces a collaboration that reshapes a field. The whole becomes dramatically greater than the sum of its parts.
+<span class="emph">Because something happens when a group of people with deep expertise in a field gather in the same room and converse.</span> The value is not in the information transfer &mdash; that can happen through PDFs. The value is in the <span class="eemph">network effect of intelligence</span>. A remark by one researcher triggers an association in another. A question from the audience reframes a problem in a way the presenter had not considered. A hallway conversation between two people who had never met produces a collaboration that reshapes a field. The whole becomes dramatically greater than the sum of its parts.
 
 <span class="eemph">This is what AI is doing for individual cognition &mdash; at a scale and speed that conferences cannot match.</span>
 
+{: .notice--info}
 But here is what AI cannot do &ndash; it cannot replace the conference itself. Because while AI can catalyze individual understanding, the network effect of collective intelligence &mdash; when multiple deeply knowledgeable humans engage together, each bringing their own intuition, expertise, and perspective &mdash; produces something that neither individual cognition nor AI catalysis alone can achieve. This is why I created spaces like the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, which brings together researchers, professors, and practitioners who recognize the difference between knowing formulas and understanding mathematical truth. The forum meets bi-continentally in Korea and Silicon Valley, creating the very network effects that conferences provide, but with a singular focus &ndash; the pursuit of genuine understanding rather than the accumulation of knowledge. AI can catalyze each member's thinking. But the cross-pollination of insights, the unexpected connections between different domains, the collective pushing past superficial understanding &mdash; these require human community.
 
 # One Hundred Experts in My Living Room
 
 Let me make this concrete with the most personal example I can offer.
 
-I earned my PhD at Stanford under [Stephen Boyd](https://web.stanford.edu/~boyd/), one of the world's foremost experts in convex optimization. I can claim, without false modesty, that there are probably fewer than a hundred people on this planet who have reached a certain level of understanding and insight in this topic &mdash; the level of my criteria, which is not merely being able to solve problems or prove theorems, but having the kind of deep, intuitive grasp that lets you *see* why the mathematics works the way it does.
+I earned my PhD at Stanford under [Stephen Boyd](https://web.stanford.edu/~boyd/){:target="_blank"}, one singular figure in [Convex Optimization]({{ shadow_prices.url }}){:target="_blank"}! I can claim, without false modesty, that there are probably fewer than a hundred people on this planet who have reached a certain level of understanding and insight in this topic &mdash; the level of my criteria, which is not merely being able to solve problems or prove theorems, but having the kind of deep, intuitive grasp that lets you *see* why the mathematics works the way it does
+(to the level that I tried to explain in the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"})!
 
-One day, in the middle of yet another extended AI dialogue about optimization theory, I had a realization that stopped me cold:
+One day, in the middle of yet another extended AI dialogue about optimization theory, I had a realization that stopped me cold!
 
 <span class="eemph">It felt as though all one hundred of those people were sitting in front of me, and I could converse with them ceaselessly.</span>
 
-Not one at a time. Not by appointment. Not with the social friction of academic hierarchy. Not with the limitations of anyone's patience. But all of them, all at once, available for any question I cared to ask, from any angle, at any depth, at any hour.
+<span class="emph">Not one at a time. Not by appointment. Not with the social friction of academic hierarchy. Not with the limitations of anyone's patience. But all of them, all at once, available for any question I cared to ask, from any angle, at any depth, and at any hour.</span>
 
-Imagine what happens to your intelligence when you have that kind of access.
+<span class="eemph">Imagine what happens to your intelligence when you have that kind of access.</span>
 
-I want to be very honest here. Ever since I graduated from Stanford, there was one concept that haunted me: **Duality**. I could prove every theorem related to duality in convex optimization. The mathematics was never the problem. But you know that kind of understanding &mdash; the *insight*, the moment when the formalism stops being a sequence of logical steps and becomes something you can *see*, something you can feel in your bones? That understanding, I longed for it for years. I read. I re-derived. I taught. I lectured. And still, the deep intuitive grasp eluded me.
+I want to be very honest here. Ever since I graduated from Stanford, there was one concept that haunted me! **Duality**! I could prove every theorem related to duality in convex optimization. The mathematics was never the problem. But you know that kind of understanding &mdash; the *insight*, the moment when the formalism stops being a sequence of logical steps and becomes <span class="eemph">something you can *see*, something you can feel in your bones?</span> That understanding, I longed for it for years. I read. I re-derived. I taught. I lectured. And still, the deep intuitive grasp eluded me.
 
-Through sustained, iterative, relentless dialogue with AI &mdash; asking the same question from twenty different angles, challenging every explanation, injecting my own partial intuitions and asking the AI to build on them, correcting its errors, being corrected in turn &mdash; I finally arrived at the understanding I had sought for over a decade.
+Through sustained, iterative, and relentless dialogue with AI &mdash; <span class="emph">asking the same question from twenty different angles, challenging every explanation, injecting my own partial intuitions and asking the AI to build on them, correcting its errors, being corrected in turn</span> &mdash; <span class="eemph">I finally arrived at the understanding I had sought for over a decade.</span>
 
-The AI did not *understand* duality. As I argued at length in &ldquo;[{{ ai_reason.title }}]({{ ai_reason.url }})&rdquo;, LLMs do not understand anything in the philosophically meaningful sense. But the *process* of engaging with an AI about duality produced understanding in *me*. And that understanding is genuine, deep, and permanent.
+The AI did <span class="eemph" style="font-weight: bold;">not</span> *understand* duality. As I argued at length in &ldquo;[{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}&rdquo;, LLMs do not understand anything in the philosophically or cognitive scientifically meaningful sense. But <span class="eemph">the *process* of engaging with an AI about duality produced understanding in *me*! And that understanding is genuine, deep, and permanent.</span>
 
-Is this replacement? Absurd. The AI has no understanding to replace mine with.
+Is this replacement? Absurd! The AI has no understanding to replace mine with.
 
-Is this assistance? The word is laughably inadequate. An assistant helps you do what you already know how to do. This helped me achieve what I had *failed* to achieve for over a decade through every other means available.
+Is this assistance? The word is laughably inadequate! An assistant helps you do what you already know how to do. This helped me achieve what I had *failed* to achieve for over a decade through every other means available.
 
 <span class="eemph">This is something else entirely.</span>
 
-This experience &mdash; of achieving genuine mathematical understanding through AI-catalyzed exploration &mdash; has profoundly shaped my thinking about how we cultivate deep expertise. It is precisely why I created the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, a community for mathematicians, researchers, and practitioners who recognize that there is a profound difference between knowing that something is true and understanding *why* it must be true. The forum exists for those who have taught convex optimization, published papers using it, implemented successful systems with it &mdash; and yet possess the self-awareness to recognize that their understanding remains mechanical rather than deep, one-dimensional rather than multi-faceted. AI can catalyze that journey from knowing to understanding, but the journey requires human curiosity, human judgment, and human community.
+This experience &mdash; of achieving genuine mathematical understanding through AI-catalyzed exploration &mdash; has profoundly shaped my thinking about how we cultivate deep expertise. It is precisely why I created the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, a community for mathematicians, researchers, and practitioners who recognize that there is a profound difference between knowing that something is true and understanding *why* it must be true. The forum exists for those who have taught convex optimization, published papers using it, implemented successful systems with it &mdash; and yet possess the self-awareness to recognize that their understanding remains mechanical rather than deep, one-dimensional rather than multi-faceted. <span class="emph">AI can catalyze that journey from knowing to understanding, but the journey requires human curiosity, human judgment, and human community.</span>
 
 # The Right Name
 
-If I must name what AI does in this new mode of interaction, I would call it <span class="eemph">cognitive catalysis</span>.
+If I must name what AI does in this new mode of interaction, I would call it <span class="eemph">cognitive catalysis!</span>
 
 A catalyst in chemistry does not become part of the final product. It does not replace the reactants. It does not merely &ldquo;assist&rdquo; them. It creates conditions under which reactions become possible that would otherwise not occur &mdash; or would occur so slowly as to be practically meaningless.
 
-AI is a cognitive catalyst. It does not think for us. It does not replace our judgment. But it creates conditions under which our thinking reaches places it could not otherwise reach &mdash; or could reach only over timescales that render the achievement practically meaningless (like my decade-long quest for understanding duality).
+<span class="emph">AI is a cognitive catalyst!</span> It does not think for us. It does not replace our judgment. But it creates conditions under which our thinking reaches places it could not otherwise reach &mdash; or could reach only over timescales that render the achievement practically meaningless (like my decade-long quest for understanding duality).
 
-And like a chemical catalyst, it remains unchanged. The AI that helped me understand duality did not itself gain any understanding. The AI that helped a researcher generate a hypothesis did not itself hypothesize. The AI that helped a pianist find a harmonic progression did not itself hear the music.
+And like a chemical catalyst, it remains unchanged. The AI that helped me understand duality <span class="eemph">did not itself gain any understanding.</span> The AI that helped a researcher generate a hypothesis <span class="eemph">did not itself hypothesize.</span> The AI that helped a pianist find a harmonic progression <span class="eemph">did not itself hear the music.</span>
 
-<span class="emph">The transformation happens entirely in the human.</span>
+<span class="eemph">The transformation happens entirely in the human.</span>
 
 This is why the replace/assist binary is not merely imprecise but actively harmful. It directs our attention to the wrong place. It asks us to stare at the AI and decide what it is doing. The real action is happening in the human mind.
 
 # Why AI Will Never Replace Humans
 
-And this brings me to what might seem like a paradox: precisely because AI is so extraordinarily powerful as a cognitive catalyst, I am more convinced than ever that it will never replace humans.
+And this brings me to what might seem like a paradox &ndash; precisely because AI is so extraordinarily powerful as a cognitive catalyst, I am more convinced than ever that it will never replace humans.
 
 Here is why.
 
-Every single one of the thirty examples I described above shares a common structure: <span class="emph">the human provides something that the AI cannot.</span>
+Every single one of the thirty examples I described above shares a common structure &ndash; <span class="emph">the human provides something that the AI cannot.</span>
 
 In the hypothesis generation example, the researcher provides domain expertise that allows her to eliminate four of seven suggestions instantly. In the lecture design example, I provide decades of experience with audiences that tells me where the paradigm shift will land. In the duality example, I provide the very *desire* for understanding &mdash; a desire that the AI does not and cannot have.
 
-As I argued in &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }})&rdquo;, <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> The gardener decides what to plant, what to tend, what to let grow. The gardener brings intuition &mdash; that felt sense of what matters, what is beautiful, what is worth pursuing &mdash; that has no counterpart in conditional probability estimation.<sup><a href="#footnote2" id="ref2">2</a></sup>
+As I argued in &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }}){:target="_blank"}&rdquo;, <span class="emph">AI is a magnificent ally for the scalpel, a useful map-maker for the territory, and an impossible substitute for the gardener.</span> The gardener decides what to plant, what to tend, what to let grow. The gardener brings intuition &mdash; that felt sense of what matters, what is beautiful, what is worth pursuing &mdash; that has no counterpart in conditional probability estimation.<sup><a href="#footnote2" id="ref2">2</a></sup>
 
-Intuition. Aesthetic judgment. The sense that an argument is *almost* right but not quite. The recognition that a research direction *feels* promising before you can articulate why. The capacity to be moved by music, by mathematics, by another human being's suffering. The will to create meaning in a universe that provides none, which I explored at length in &ldquo;[{{ why_we_live.title }}]({{ why_we_live.url }})&rdquo;.
+Intuition. Aesthetic judgment. The sense that an argument is *almost* right but not quite. The recognition that a research direction *feels* promising before you can articulate why. <span class="eemph">The capacity to be moved by music, by mathematics, by another human being's suffering.</span> The will to create meaning in a universe that provides none, which I explored at length in &ldquo;[{{ why_we_live.title }}]({{ why_we_live.url }})&rdquo;.
 
 These are not things that AI does poorly. They are things that AI does not do *at all*. And they are precisely the things that make the cognitive catalysis work. Without the human bringing intuition, judgment, lived experience, and the desire for understanding, the catalyst has nothing to catalyze.
 
@@ -314,19 +318,19 @@ The irony is exquisite: <span class="eemph">the more powerful AI becomes as a co
 
 # Beyond the Binary
 
-In &ldquo;[{{ ai_safety.title }}]({{ ai_safety.url }})&rdquo;, I argued that the safety-danger binary prevents the cross-boundary thinking our era demands. The replace-assist binary does the same thing. It forces a multidimensional phenomenon into a one-dimensional axis and thereby renders invisible the most important thing that is happening.
+In &ldquo;[{{ ai_safety.title }}]({{ ai_safety.url }}){:target="_blank"}&rdquo;, I argued that the safety-danger binary prevents the cross-boundary thinking our era demands. The replace-assist binary does the same thing. It forces a multidimensional phenomenon into a one-dimensional axis and thereby renders invisible the most important thing that is happening.
 
-What is happening is this: for the first time in human history, individual human beings have access to a cognitive catalyst of essentially unlimited breadth, infinite patience, and zero social friction. This catalyst does not replace human intelligence. It does not merely assist it. It *amplifies* it, *provokes* it, *expands* it, and *accelerates* it &mdash; but only when the human brings genuine expertise, genuine curiosity, and genuine judgment to the interaction.
+What is happening is this &ndash; for the first time in human history, individual human beings have access to a <span class="eemph">cognitive catalyst</span> of essentially <span class="emph">unlimited breadth, infinite patience, and zero social friction.</span> This catalyst does <span class="emph">not replace</span> human intelligence. It does <span class="emph">not merely assist</span> it. It <span class="eemph">*amplifies* it, *provokes* it, *expands* it, and *accelerates* it</span> &mdash; but only when the human brings genuine expertise, genuine curiosity, and genuine judgment to the interaction.
 
-The people who will thrive in this era are not those who use AI as a replacement for thinking, nor those who use it merely as a faster search engine. They are those who learn to engage AI as what it actually is: a catalyst for cognitive processes that remain irreducibly human.
+The people who will thrive in this era are not those who use AI as a replacement for thinking, nor those who use it merely as a faster search engine. They are <span class="emph">those who learn to engage AI as what it actually is! &ndash; a catalyst for cognitive processes that remain irreducibly human.</span>
 
-And the civilization that will thrive is not one that asks &ldquo;Will AI replace us or help us?&rdquo; but one that asks: <span class="eemph">&ldquo;Are we cultivating the human capacities &mdash; intuition, judgment, wisdom, creativity, the desire for understanding &mdash; that make AI's catalytic power worth having?&rdquo;</span>
+And the civilization that will thrive is not one that asks &ldquo;Will AI replace us or help us?&rdquo; but one that asks: <span class="eemph">&ldquo;Are we cultivating the human capacities &mdash; intuition, judgment, wisdom, creativity, and the desire for understanding &mdash; that make AI's catalytic power worth having?&rdquo;</span>
 
-This is not an abstract question. It requires concrete action. It requires creating spaces &mdash; educational, communal, institutional &mdash; where these capacities are not merely acknowledged but actively developed. It requires recognizing that <span class="emph">genuine understanding cannot be automated, only catalyzed.</span> And it requires building communities of practice, like the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, where the pursuit of deep understanding is valued over the accumulation of superficial knowledge, where self-awareness about what we don't know is celebrated rather than hidden, and where AI serves as a catalyst for human insight rather than a replacement for human thought.
+This is not an abstract question. It requires concrete action. It requires creating spaces &mdash; educational, communal, institutional &mdash; where these capacities are not merely acknowledged but actively developed. It requires recognizing that <span class="emph">genuine understanding cannot be automated, but only catalyzed.</span> And it requires building communities of practice, like the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, where the pursuit of deep understanding is valued over the accumulation of superficial knowledge, where self-awareness about what we don't know is celebrated rather than hidden, and where AI serves as a catalyst for human insight rather than a replacement for human thought.
 
-That is the question worth asking.
+<span class="emph">That is the question worth asking.</span>
 
-And as with every question worth asking, the answer is not found. [It is created]({{ why_we_live.url }}).
+<span class="emph">And as with every question worth asking, the answer is not found.</span> [<span class="eemph">It is created!</span>]({{ why_we_live.url }}){:target="_blank"}
 
 [Sunghee Yun](/)
 <br>
