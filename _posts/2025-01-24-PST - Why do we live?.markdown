@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Tue May 12 20:06:28 PDT 2026
+last_modified_at: Tue May 12 22:48:12 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -173,6 +173,17 @@ The philosophical implications of rejecting religious answers to life's meaning 
 
 A turning point came in around 2000 when I read the two-volume biography of [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein){:target="_blank"}, subtitled "The Duty of Genius" ([this](https://product.kyobobook.co.kr/detail/S000001364617){:target="_blank"} and [this](https://product.kyobobook.co.kr/detail/S000001364618){:target="_blank"}). The moment I saw that subtitle, something stirred within me—which is probably what drew me to pick up those books at the bookstore in the first place. I still can't fully explain that impulse or why those particular volumes called to me that day. (They weren't gifts or recommendations from friends; the choice was entirely my own, though I only recognized its significance in retrospect.) Though I couldn't articulate why the subtitle struck me so powerfully at the time,
 I came to understand it this way after reading the biography: Wittgenstein recognized his exceptional intellect and understood that he had no intellectual equal among his contemporaries. He knew he surpassed even his mentor and thesis advisor [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell){:target="_blank"} in many respects, particularly in philosophy of mathematics, language, and logic. This awareness of his rare gift created a sense of obligation—a duty to contribute something meaningful to humanity, (simply) because he had been given this extraordinary capacity, whether he had asked for it or not.
+
+<!--div class="img-container-justified">
+&nbsp;
+	<img width="45.11%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/scm370002460784.jpg">
+	<img width="44.89%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/9788986598216.jpg">
+&nbsp;
+</div-->
+
+<div class="img-container">
+	<img width="45%" src="https://sungheeyun-photos-02.github.io/resource/sungheeyun.github.io/posts/2025-01-24-PST - Why do we live/Screenshot 2026-05-12 at 10.43.46 PM.png">
+</div>
 
 The concept of the <span class="emph">"Duty of Genius"</span> reveals a particular approach to life's meaning that deserves deeper examination. Wittgenstein's biography portrays a man tormented by his own intellectual gifts—he felt compelled to use his extraordinary mind not for personal gain or comfort, but for humanity's benefit. This created an almost unbearable psychological burden. He abandoned a promising career in engineering, gave away his inherited fortune, and subjected himself to intense philosophical labor that often left him mentally and physically exhausted.
 
