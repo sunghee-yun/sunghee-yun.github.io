@@ -1,12 +1,13 @@
 ---
 date: Fri May  8 11:46:52 PDT 2026
-last_modified_at: Fri May  8 11:46:52 PDT 2026
+last_modified_at: Tue May 12 20:05:26 PDT 2026
 permalink: /ai/new-jobs-to-create
 layout: single
 title: "(WIP) Which jobs are safe against AI? - (still another) Wrong Question to Ask!"
 categories:
  - blog
  - AI
+ - Wrong Question
 tags:
  - AI
 toc: false

@@ -1,6 +1,6 @@
 ---
 date: Fri Jan 24 01:41:51 PST 2025
-last_modified_at: Mon May 11 01:53:39 PDT 2026
+last_modified_at: Tue May 12 20:06:28 PDT 2026
 title: Why Do We Live? &ndash; A Wrong Question to Ask
 permalink: /blog/PST-Why-do-we-live/
 categories:
@@ -8,6 +8,7 @@ categories:
  - Philosophy
  - Universal Truth
  - Cognitive Science
+ - Wrong Question
 tags:
  - values
  - philosophy

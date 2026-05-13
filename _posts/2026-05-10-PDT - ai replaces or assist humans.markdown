@@ -1,6 +1,6 @@
 ---
-date: Mon May 11 01:07:48 PDT 2026
-last_modified_at: Mon May 11 03:34:03 PDT 2026
+date: Sun May 10 01:07:48 PDT 2026
+last_modified_at: Tue May 12 20:04:37 PDT 2026
 permalink: /ai/new-ai-human-collaboration-model
 layout: single
 title: "Would AI Replace or Assist Humans? &mdash; (Yet Another) Wrong Question to Ask!"
@@ -9,6 +9,7 @@ categories:
  - AI
  - Philosophy
  - Cognitive Science
+ - Wrong Question
 tags:
  - AI
  - philosophy

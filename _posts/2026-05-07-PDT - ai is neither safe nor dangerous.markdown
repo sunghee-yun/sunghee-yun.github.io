@@ -1,6 +1,6 @@
 ---
 date: Thu May  7 15:01:46 PDT 2026
-last_modified_at: Tue May 12 19:20:30 PDT 2026
+last_modified_at: Tue May 12 20:05:58 PDT 2026
 permalink: /ai/future/
 layout: single
 title: "Is AI Safe or Dangerous? - A Wrong Question to Ask!"
@@ -8,6 +8,7 @@ categories:
  - blog
  - AI
  - Philosophy
+ - Wrong Question
 tags:
  - AI
  - philosophy
