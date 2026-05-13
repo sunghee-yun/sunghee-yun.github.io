@@ -1,6 +1,6 @@
 ---
 date: Sun May 10 01:07:48 PDT 2026
-last_modified_at: Tue May 12 20:04:37 PDT 2026
+last_modified_at: Wed May 13 02:20:27 PDT 2026
 permalink: /ai/new-ai-human-collaboration-model
 layout: single
 title: "Would AI Replace or Assist Humans? &mdash; (Yet Another) Wrong Question to Ask!"
@@ -50,7 +50,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign data_essay = site.posts | where: "permalink", "/ai/data" | first %}
 {% assign multi_agent = site.posts | where: "permalink", "/multi-agent-ai-biz-landscape" | first %}
 {% assign salzburg_report = site.posts | where: "permalink", "/ai/salzburg-report-case-of-ai" | first %}
-{% assign music = site.posts | where: "permalink", "/prajna/richness-of-music-notes" | first %}
+{% assign music = site.posts | where: "permalink", "/prajna/wonders/richness-of-musical-notes" | first %}
 
 > The question &ldquo;Will AI replace humans or assist them?&rdquo; is seductive because it offers exactly two options, both of which feel meaningful. But the binary is a trap. What is actually happening between human intelligence and AI is something that neither word captures &mdash; something richer, stranger, more intimate, and far more consequential than either &ldquo;replacement&rdquo; or &ldquo;assistance.&rdquo;
 
@@ -88,7 +88,7 @@ But it is also not mere assistance. An assistant retrieves information you reque
 
 # Thirty Examples of What &ldquo;Neither Replace Nor Assist&rdquo; Looks Like
 
-The single example I gave above barely scratches the surface. Let me offer a far more comprehensive landscape of what this new mode of human-AI interaction looks like in practice. None of these are hypothetical. All of them either come from my own experience or from patterns I have observed directly in the people around me.
+The single example I gave above barely scratches the surface. Let me offer a far more comprehensive landscape of what this new mode of human-AI interaction looks like in practice. <span class="emph">None of these are hypothetical. All of them either come from my own experience or from patterns I have observed directly in the people around me.</span>
 
 ## Deepening Understanding
 
@@ -96,13 +96,29 @@ The single example I gave above barely scratches the surface. Let me offer a far
 
 I could prove the theorems of convex optimization duality for decades &mdash; I had the mathematical machinery. But the *understanding*, the deep insight into *why* duality works, what it really means at an intuitive level &mdash; that eluded me for years after graduating from Stanford. Through sustained, iterative dialogue with AI, asking the same question from fifteen different angles, challenging each explanation, and feeding in my own partial intuitions for refinement, I finally arrived at the understanding I had longed for. (I wrote about this journey in &ldquo;[{{ shadow_prices.title }}]({{ shadow_prices.url }})&rdquo;.) The AI did not give me the insight. But it would not have come without the AI, either. *That* is the phenomenon we need a new word for.
 
+This experience has led me to a philosophical claim that some will find audacious, perhaps even absurd, but which I believe is defensible: <span class="eemph">I do not believe any human being, living or dead, has ever achieved the kind of genuine understanding I describe in the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"} &mdash; not for Riemann's Hypothesis, and not even for Fermat's Last Theorem.</span>
+
+Consider Fermat's Last Theorem. Andrew Wiles proved it in 1995 after seven years of solitary work, deploying machinery so sophisticated that only a few hundred mathematicians in the world could even verify the proof. The proof runs to over one hundred pages and requires modular forms, elliptic curves, Galois representations &mdash; concepts that did not exist when Fermat first wrote his famous marginal note. <span class="emph">We *know* Fermat's Last Theorem is true. We can verify the proof. But do we *understand* it in the sense I mean?</span>
+
+As I argue in the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, genuine understanding means being able to see the result from multiple perspectives, to grasp the geometric essence of why it must be true, to feel it in your bones, to explain it in ways that make it *obvious* rather than merely *provable*. <span class="eemph">By this standard, Fermat's Last Theorem remains ununderstood</span> &mdash; <span class="emph">not because the proof is wrong, but because the very fact that it requires such elaborate machinery suggests we are verifying rather than comprehending.</span> If someone genuinely understood *why* these particular Diophantine equations have no solutions, the explanation might be more direct, more elegant, less dependent on hundreds of pages of technical apparatus.
+
+And Riemann's Hypothesis? For over 160 years, the greatest mathematical minds have studied this problem. They know the statement perfectly. They have explored implications, investigated special cases, connected it to the distribution of primes. But not a single person has proven it &mdash; which means, by the strict standard of understanding I propose, not a single person truly understands why it works. <span class="eemph">If they did, the proof would already exist.</span>
+
+<span class="emph">Here is where AI becomes genuinely revolutionary.</span> AI might help us achieve, for the first time in human history, the kind of deep, multi-perspectival, from-first-principles understanding of these great mathematical truths that has eluded humanity for centuries. Not by proving the theorems *for* us &mdash; AI cannot do that, as I have argued repeatedly. But by serving as an inexhaustible cognitive catalyst, allowing mathematicians to explore these problems from thousands of angles, to test intuitions relentlessly, to discover connections that would take lifetimes to uncover through traditional methods alone.
+
+Perhaps, through sustained dialogue between human mathematical intuition and AI's encyclopedic pattern-matching across all of mathematics, we will finally *understand* &mdash; genuinely, deeply, multi-dimensionally understand &mdash; why Fermat's Last Theorem is true and why the Riemann Hypothesis must hold (or must fail). And when that understanding comes, the proofs may follow almost as an afterthought, the way a solution becomes obvious once you see the problem from the right angle.
+
+<span class="emph">This is not replacement. This is not assistance. This is the possibility of achieving something humanity has never achieved before: genuine understanding of our deepest mathematical truths.</span>
+
+I described my own small version of this journey &mdash; how AI catalyzed the understanding of duality that had eluded me for over a decade &mdash; in &ldquo;[{{ shadow_prices.title }}]({{ shadow_prices.url }}){:target="_blank"}&rdquo;. If AI could do that for one mathematician's struggle with one concept in convex optimization, imagine what it might do for humanity's centuries-long struggle with the deepest truths in all of mathematics.
+
 ### Exploring the philosophical foundations of a technical concept
 
-When I am preparing a lecture on, say, the nature of hallucination in LLMs, I engage AI not to *get* a definition of hallucination, but to pressure-test my own argument that [hallucination is not a bug but a structural engine of creativity]({{ teaching_sjsu.url }}){:target="_blank"}. I throw my argument at the system. It finds the weak points. I strengthen them. It finds more. The resulting lecture is mine &mdash; entirely mine &mdash; but it has been forged in a dialogue that no textbook or colleague could have provided at that speed, depth, and breadth.
+When I am preparing a lecture on, say, the nature of hallucination in LLMs, I engage AI not to *get* a definition of hallucination, but to pressure-test my own argument that [hallucination is not a bug but a structural engine of creativity]({{ teaching_sjsu.url }}){:target="_blank"}. I throw my argument at the system. It finds the weak points. I strengthen them. It finds more. <span class="emph">The resulting lecture is mine &mdash; entirely mine &mdash; but it has been forged in a dialogue that no textbook or colleague could have provided at that speed, depth, and breadth.</span>
 
 ### Connecting disparate domains
 
-I ask: &ldquo;Is there a structural parallel between Wittgenstein's language games and the conditional probability estimation in Transformers?&rdquo; The AI offers one. I see a flaw. I propose a better one. It refines. Within thirty minutes, I have an argument that connects two domains in a way that might take months to develop through reading alone. As I wrote in &ldquo;[{{ ai_reason.title }}]({{ ai_reason.url }})&rdquo;, LLMs are [sophisticated conditional probability estimators]({{ ai_reason.url }}), not reasoners &mdash; but this does not diminish the fact that interacting with such a system *catalyzes* genuine reasoning in the human.
+I ask &ndash; &ldquo;Is there a structural parallel between Wittgenstein's language games and the conditional probability estimation in Transformers?&rdquo; The AI offers one. I see a flaw. I propose a better one. It refines. Within thirty minutes, I have an argument that connects two domains in a way that might take months to develop through reading alone. As I wrote in &ldquo;[{{ ai_reason.title }}]({{ ai_reason.url }}){:target="_blank"}&rdquo;, LLMs are [sophisticated conditional probability estimators]({{ ai_reason.url }}){:target="_blank"}, not reasoners &mdash; but this does not diminish the fact that interacting with such a system *catalyzes* genuine reasoning in the human.
 
 ### Testing historical claims against multiple perspectives
 
@@ -110,45 +126,43 @@ Is the standard narrative about the fall of the Roman Republic actually well-sup
 
 ### Understanding the implications of a mathematical proof
 
-You can follow every line of a proof and still not *understand* it. AI allows me to ask: &ldquo;What would break if this lemma were false?&rdquo; &ldquo;What is the geometric intuition behind this algebraic step?&rdquo; &ldquo;Why did the author choose *this* approach rather than the obvious alternative?&rdquo; Each answer generates three new questions. The understanding that emerges is mine, but the velocity at which it emerges is new.
+You can follow every line of a proof and still not *understand* it. AI allows me to ask &ndash; &ldquo;What would break if this lemma were false?&rdquo; &ldquo;What is the geometric intuition behind this algebraic step?&rdquo; &ldquo;Why did the author choose *this* approach rather than the obvious alternative?&rdquo; Each answer generates three new questions. <span class="emph">The understanding that emerges is mine, but the velocity at which it emerges is new.</span>
 
 ## Generating and Testing Hypotheses
 
-{:start="6"}
 ### Scientific hypothesis generation
 
-A biotech researcher notices an anomaly in assay data. She describes the anomaly to the AI, which proposes seven possible explanations drawn from across the biomedical literature. She eliminates four based on her domain expertise. She had not considered two of the remaining three. One of those two becomes the basis for a new experimental design. The hypothesis is *hers*. The AI did not &ldquo;discover&rdquo; anything. But the hypothesis would not exist without the interaction.
+A biotech researcher notices an anomaly in assay data. She describes the anomaly to the AI, which proposes seven possible explanations drawn from across the biomedical literature. She eliminates four based on her domain expertise. She had not considered two of the remaining three. One of those two becomes the basis for a new experimental design. The hypothesis is *hers*. <span class="emph">The AI did not &ldquo;discover&rdquo; anything. But the hypothesis would not exist without the interaction.</span>
 
 ### Business model stress-testing
 
-At [Erudio Bio](https://erudio.bio){:target="_blank"}, I have used AI to pressure-test our [VSA platform](https://erudio.bio){:target="_blank"}'s market positioning. Not by asking &ldquo;Is this a good business model?&rdquo; but by asking: &ldquo;What are the three strongest arguments *against* this model?&rdquo; Then: &ldquo;Now steelman each of those arguments.&rdquo; Then: &ldquo;Now help me dismantle them.&rdquo; The resulting pitch is infinitely sharper than what I would have produced alone &mdash; not because the AI wrote it, but because the AI *pressured* it.
+At [Erudio Bio](https://erudio.bio){:target="_blank"}, I have used AI to pressure-test our [VSA platform](https://sungheeyun-erudio.github.io/technology/){:target="_blank"}'s market positioning. Not by asking &ldquo;Is this a good business model?&rdquo; but by asking &ndash; &ldquo;What are the three strongest arguments *against* this model?&rdquo; Then &ndash; &ldquo;Now steelman each of those arguments.&rdquo; Then &ndash; &ldquo;Now help me dismantle them.&rdquo; The resulting pitch is infinitely sharper than what I would have produced alone &mdash; not because the AI wrote it, but because the AI *pressured* it.
 
 ### Investment thesis development
 
-An investor describes a startup's technology. The AI maps it against adjacent technologies, identifies potential market overlaps, and surfaces regulatory risks the investor had not considered. The investor's thesis is now informed by a broader landscape &mdash; but the *judgment* about whether to invest remains entirely human.
+An investor describes a startup's technology. The AI maps it against adjacent technologies, identifies potential market overlaps, and surfaces regulatory risks the investor had not considered. The investor's thesis is now informed by a broader landscape &mdash; but <span class="emph">the *judgment* about whether to invest remains entirely human.</span>
 
 ### Policy scenario modeling
 
-A policymaker considering AI regulation describes a proposed framework. The AI generates second-order effects, unintended consequences, and historical parallels from other technology regulations. The policymaker's proposal is now stronger &mdash; not because the AI wrote policy, but because it served as a relentless devil's advocate.
+A policymaker considering AI regulation describes a proposed framework. The AI generates second-order effects, unintended consequences, and historical parallels from other technology regulations. The policymaker's proposal is now stronger &mdash; not because the AI wrote policy, but <span class="emph">because it served as a relentless devil's advocate.</span>
 
 ### Architectural design exploration
 
-An architect describes a spatial constraint. The AI proposes structural approaches from traditions the architect has not studied &mdash; Islamic geometric patterns, Japanese joinery, brutalist cantilevers. The architect selects, combines, and transforms. The design is original. The inspiration landscape was AI-expanded.
+An architect describes a spatial constraint. The AI proposes structural approaches from traditions the architect has not studied &mdash; Islamic geometric patterns, Japanese joinery, brutalist cantilevers. The architect selects, combines, and transforms. The design is original. <span class="emph">The inspiration landscape was AI-expanded.</span>
 
 ## Enhancing Creativity
 
-{:start="11"}
 ### Writing refinement through dialogue
 
-When I write a philosophical essay &mdash; as I did with &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }})&rdquo; &mdash; I do not ask the AI to write *for* me. I write a draft, then ask the AI: &ldquo;Where is this argument weakest?&rdquo; &ldquo;What would Schopenhauer say to this?&rdquo; &ldquo;Is there a more precise word for what I mean here?&rdquo; The final essay is mine in voice, argument, and conviction. But it has been sharpened by a dialogue partner that can summon Schopenhauer in an instant.
+When I write a philosophical essay &mdash; as I did with &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }}){:target="_blank"}&rdquo; &mdash; I do not ask the AI to write *for* me. I write a draft, then ask the AI &ndash; &ldquo;Where is this argument weakest?&rdquo; &ldquo;What would Schopenhauer say to this?&rdquo; &ldquo;Is there a more precise word for what I mean here?&rdquo; The final essay is mine in voice, argument, and conviction. But it has been <span class="emph">sharpened by a dialogue partner that can summon Schopenhauer in an instant.</span>
 
 ### Musical composition exploration
 
-A pianist &mdash; [and I am one]({{ music.url }}) &mdash; can describe an emotional texture to the AI: &ldquo;I want something that feels like late autumn light through stained glass.&rdquo; The AI suggests harmonic progressions, voice leading patterns, and references to specific pieces. The pianist selects, transforms, and creates something the AI could never have composed &mdash; because composition requires not just knowledge of harmony but the lived experience of what autumn light *feels* like.
+A pianist &mdash; [and I am one](/#piano) &mdash; [can describe an emotional texture to the AI]({{ music.url }}){:target="_blank"} &ndash; &ldquo;I want something that feels like late autumn light through stained glass.&rdquo; The <span class="emph">AI suggests</span> harmonic progressions, voice leading patterns, and references to specific pieces. The <span class="emph">pianist selects, transforms, and creates</span> something the AI could never have composed &mdash; because composition requires not just knowledge of harmony but the lived experience of what autumn light *feels* like.
 
 ### Visual art conceptualization
 
-A painter describes a concept: &ldquo;I want to express the tension between geological time and human time.&rdquo; The AI offers references &mdash; Anselm Kiefer's layered surfaces, the deep time photography of Edward Burtynsky, Japanese *mono no aware*. The painter had not encountered Kiefer. The resulting work is a conversation between the painter's vision and an expanded landscape of possibility.
+A painter describes a concept &ndash; &ldquo;I want to express the tension between geological time and human time.&rdquo; The AI offers references &mdash; Anselm Kiefer's layered surfaces, the deep time photography of Edward Burtynsky, Japanese *mono no aware*. The painter had not encountered Kiefer. The resulting work is a <span class="emph">conversation between the painter's vision and an expanded landscape of possibility.</span>
 
 ### Narrative structure development
 
@@ -160,7 +174,6 @@ Every major lecture I deliver goes through an AI dialogue. Not to generate conte
 
 ## Accelerating Research
 
-{:start="16"}
 ### Literature landscape mapping
 
 A researcher entering a new subfield can, in two hours of iterative AI dialogue, build a mental map that would otherwise take two months of reading. The map is not the territory &mdash; as I argued in &ldquo;[{{ back_to_human.title }}]({{ back_to_human.url }})&rdquo;, [the map is never the territory]({{ back_to_human.url }}). But having a map before you enter the territory is transformative.
@@ -183,7 +196,6 @@ A historian uploads primary documents and engages the AI in interpretation. The 
 
 ## Strengthening Professional Practice
 
-{:start="21"}
 ### Legal argument construction
 
 A lawyer preparing a brief uses AI not to write the brief but to find the weakest links in her own argument. &ldquo;If opposing counsel were brilliant, what would they attack?&rdquo; The resulting brief is harder to dismantle &mdash; not because AI wrote it, but because AI stress-tested it.
@@ -206,7 +218,6 @@ Before a lecture, I ask the AI: &ldquo;Given this material, what are the ten mos
 
 ## Expanding Cognitive Horizons
 
-{:start="26"}
 ### Philosophical dialogue as cognitive training
 
 I engage in extended dialogues about epistemology, ethics, or the philosophy of mathematics &mdash; not to receive answers, but to train my own thinking. The AI provides resistance, like a sparring partner in boxing. The strength that develops is mine. The resistance was provided.
@@ -239,6 +250,8 @@ Because something happens when a group of people with deep expertise in a field 
 
 <span class="eemph">This is what AI is doing for individual cognition &mdash; at a scale and speed that conferences cannot match.</span>
 
+But here is what AI cannot do &ndash; it cannot replace the conference itself. Because while AI can catalyze individual understanding, the network effect of collective intelligence &mdash; when multiple deeply knowledgeable humans engage together, each bringing their own intuition, expertise, and perspective &mdash; produces something that neither individual cognition nor AI catalysis alone can achieve. This is why I created spaces like the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, which brings together researchers, professors, and practitioners who recognize the difference between knowing formulas and understanding mathematical truth. The forum meets bi-continentally in Korea and Silicon Valley, creating the very network effects that conferences provide, but with a singular focus &ndash; the pursuit of genuine understanding rather than the accumulation of knowledge. AI can catalyze each member's thinking. But the cross-pollination of insights, the unexpected connections between different domains, the collective pushing past superficial understanding &mdash; these require human community.
+
 # One Hundred Experts in My Living Room
 
 Let me make this concrete with the most personal example I can offer.
@@ -264,6 +277,8 @@ Is this replacement? Absurd. The AI has no understanding to replace mine with.
 Is this assistance? The word is laughably inadequate. An assistant helps you do what you already know how to do. This helped me achieve what I had *failed* to achieve for over a decade through every other means available.
 
 <span class="eemph">This is something else entirely.</span>
+
+This experience &mdash; of achieving genuine mathematical understanding through AI-catalyzed exploration &mdash; has profoundly shaped my thinking about how we cultivate deep expertise. It is precisely why I created the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, a community for mathematicians, researchers, and practitioners who recognize that there is a profound difference between knowing that something is true and understanding *why* it must be true. The forum exists for those who have taught convex optimization, published papers using it, implemented successful systems with it &mdash; and yet possess the self-awareness to recognize that their understanding remains mechanical rather than deep, one-dimensional rather than multi-faceted. AI can catalyze that journey from knowing to understanding, but the journey requires human curiosity, human judgment, and human community.
 
 # The Right Name
 
@@ -306,6 +321,8 @@ What is happening is this: for the first time in human history, individual human
 The people who will thrive in this era are not those who use AI as a replacement for thinking, nor those who use it merely as a faster search engine. They are those who learn to engage AI as what it actually is: a catalyst for cognitive processes that remain irreducibly human.
 
 And the civilization that will thrive is not one that asks &ldquo;Will AI replace us or help us?&rdquo; but one that asks: <span class="eemph">&ldquo;Are we cultivating the human capacities &mdash; intuition, judgment, wisdom, creativity, the desire for understanding &mdash; that make AI's catalytic power worth having?&rdquo;</span>
+
+This is not an abstract question. It requires concrete action. It requires creating spaces &mdash; educational, communal, institutional &mdash; where these capacities are not merely acknowledged but actively developed. It requires recognizing that <span class="emph">genuine understanding cannot be automated, only catalyzed.</span> And it requires building communities of practice, like the [Convex Optimization Forum](https://convex-optimization-99.github.io/){:target="_blank"}, where the pursuit of deep understanding is valued over the accumulation of superficial knowledge, where self-awareness about what we don't know is celebrated rather than hidden, and where AI serves as a catalyst for human insight rather than a replacement for human thought.
 
 That is the question worth asking.
 
