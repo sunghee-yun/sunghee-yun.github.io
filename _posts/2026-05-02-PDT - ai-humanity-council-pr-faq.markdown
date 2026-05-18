@@ -1,6 +1,6 @@
 ---
 date: Sun May  3 02:32:34 PDT 2026
-last_modified_at: Mon May 18 04:38:06 PDT 2026
+last_modified_at: Mon May 18 05:12:15 PDT 2026
 layout: single
 title: "[PR/FAQ] AI & Humanity Council - The Definitive Think Tank for AI's Human Impact"
 permalink: /pr-faq/ai-humanity-council/2029
@@ -32,10 +32,11 @@ The Press Release is written as if the vision has already been realized on **15-
 The FAQ section addresses both external and internal questions about the AI & Humanity Council.
 {: .notice--info}
 
-*This PR/FAQ is a strategic document prepared for K-PAI Nexus Member review.*\
+*This PR/FAQ is a strategic document prepared for [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} Member review.*\
 *Press Release Date: August 15, 2029*\
-<!--*Draft Version 2.0 — May 10, 2026*\-->
-*Draft Version 2.1 — May 10, 2026*\
+*Draft Version 1.0 — May 02, 2026*\
+*Draft Version 1.1 — May 10, 2026*\
+*Draft Version 1.2 — May 18, 2026*\
 *Author: [Sunghee Yun](https://sungheeyun.github.io)*\
 *Intellectual Foundation: [The Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"} + [KFAS-Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"}*
 
@@ -164,7 +165,7 @@ The Council doesn't bring together disparate perspectives and hope they cohere. 
 
 ## AI & Humanity Council Recognized as World's Most Influential Think Tank on AI's Societal Impact
 
-**SILICON VALLEY, CA — August 15, 2029** — The [AI & Humanity Council](#top), a multidisciplinary think tank operating under K-PAI Nexus, today announced that its work has directly influenced AI policy in 12 countries, shaped corporate governance frameworks at 30+ Fortune 500 companies, and become required reading in graduate programs at more than 50 universities worldwide. Since its launch in September 2026, the Council has published five comprehensive reports—**co-authored with leading institutions including Stanford HAI, MIT CSAIL, Berkeley BAIR, Seoul National University, KAIST, and the California Governor's Office of Planning and Research**—addressing AI's most consequential implications for humanity. Beyond research impact, the Council has catalyzed the creation of **7 spin-off companies** whose business models directly advance the Council's mission, collectively raising over $370 million and creating 300+ jobs while delivering AI solutions aligned with human flourishing.
+**SILICON VALLEY, CA — August 15, 2029** — The [AI & Humanity Council](#top), a multidisciplinary think tank operating under [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}, today announced that its work has directly influenced AI policy in 12 countries, shaped corporate governance frameworks at 30+ Fortune 500 companies, and become required reading in graduate programs at more than 50 universities worldwide. Since its launch in September 2026, the Council has published five comprehensive reports—**co-authored with leading institutions including Stanford HAI, MIT CSAIL, Berkeley BAIR, Seoul National University, KAIST, and the California Governor's Office of Planning and Research**—addressing AI's most consequential implications for humanity. Beyond research impact, the Council has catalyzed the creation of **7 spin-off companies** whose business models directly advance the Council's mission, collectively raising over $370 million and creating 300+ jobs while delivering AI solutions aligned with human flourishing.
 
 What distinguishes the AI & Humanity Council from conventional technology think tanks is its **refusal to stop at analysis**. While traditional think tanks produce reports that gather dust on shelves, the Council operates on three integrated pillars:
 
@@ -295,7 +296,7 @@ The Council's Innovation Venture Studio operates on clear principles:
 - **Council oversight:** Ongoing advisory relationship, but operational independence
 - **For-profit structures:** Sustainable business models, not donor-dependent nonprofits
 
-"The Council has proven that you don't need a $100 million endowment and 50 full-time staff to produce world-class thought leadership **and catalyze real-world solutions**," said **[Sunghee Yun](https://sungheeyun.github.io), Chair of <!--[K-PAI Nexus](https://nexus-pai.github.io) and -->AI & Humanity Council Convener**. "What you need is a clear mission, intellectual rigor, the right convening power, institutional partnerships that provide real research capacity, and commitment to serving the public good not just through ideas but through action. The Council demonstrates that a relatively lean operation, properly structured, can have outsized global impact—in research, policy, **and** the marketplace."
+"The Council has proven that you don't need a $100 million endowment and 50 full-time staff to produce world-class thought leadership **and catalyze real-world solutions**," said **[Sunghee Yun](https://sungheeyun.github.io), Co-Founder & Leader & Chair of [K-PAI Nexus](https://nexus-pai.github.io) and AI & Humanity Council Convener**. "What you need is a clear mission, intellectual rigor, the right convening power, institutional partnerships that provide real research capacity, and commitment to serving the public good not just through ideas but through action. The Council demonstrates that a relatively lean operation, properly structured, can have outsized global impact—in research, policy, **and** the marketplace."
 
 ## Looking Ahead: The Next Chapter
 
@@ -311,9 +312,7 @@ The Council's leadership announced today that the next phase will focus on four 
 
 "AI is not slowing down. Its implications grow more profound by the month," [Yun](https://sungheeyun.github.io) concluded. "For more than a decade, I have grappled with the deepest questions about meaning, human agency, and what it means to live well in a world where the survival imperative may dissolve. The [Existential Trilogy](https://sungheeyun.github.io/prajna/existential-trilogy/podcasts){:target="_blank"} crystallized these insights: <span class="eemph">meaning is created, not discovered; AI is the scalpel, not the gardener; and meaning-making becomes the new literacy when machines free us from survival.</span> The [Salzburg Global Leadership Initiative](https://sungheeyun.github.io/ai/salzburg-report-case-of-ai){:target="_blank"} proved that the 'Avengers-level assembly' I called for—bringing together philosophers, AI researchers, policymakers, economists, and civil society—can actually work. The AI & Humanity Council is that assembly, institutionalized and operationalized. <span class="eemph">We exist to ensure that as AI advances, humanity doesn't just cope with change—we actively shape it toward human flourishing. And we don't just write about it—we build it, through research, policy, **and** entrepreneurship. The work is just beginning.</span>"
 
-<!--
 **For more information, visit [https://nexus-pai.github.io/committee/#ai-and-humanity-council](https://nexus-pai.github.io/committee/#ai-and-humanity-council){:target="_blank"}.**
--->
 
 # FREQUENTLY ASKED QUESTIONS
 
@@ -321,7 +320,7 @@ The Council's leadership announced today that the next phase will focus on four 
 
 ### Q1: What is the AI & Humanity Council?
 
-The AI & Humanity Council is a multidisciplinary think tank operating under K-PAI Nexus that examines Artificial Intelligence's implications for humanity across technology, society, economics, ethics, philosophy, and existential dimensions. Unlike traditional think tanks that stop at analysis, the Council produces rigorous, comprehensive reports that translate complex interdisciplinary insights into actionable guidance for policymakers, corporate leaders, educators, and engaged citizens—**and then catalyzes real-world solutions through mission-aligned venture creation**.
+The AI & Humanity Council is a multidisciplinary think tank operating under [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} that examines Artificial Intelligence's implications for humanity across technology, society, economics, ethics, philosophy, and existential dimensions. Unlike traditional think tanks that stop at analysis, the Council produces rigorous, comprehensive reports that translate complex interdisciplinary insights into actionable guidance for policymakers, corporate leaders, educators, and engaged citizens—**and then catalyzes real-world solutions through mission-aligned venture creation**.
 
 **Core Mission:** Ensure that AI advances human flourishing by illuminating the path between rapid technological transformation and humanity's deepest values—through research, policy influence, AND entrepreneurial action.
 
@@ -443,19 +442,15 @@ These principles are not aspirational—they're operational. Every Council repor
 
 **Organizational Structure:**
 
-The AI & Humanity Council operates under K-PAI Nexus, but maintains intellectual and operational independence. This structure provides:
-
-<!--
-The AI & Humanity Council operates under K-PAI Nexus (a California 501(c)(3) nonprofit) but maintains intellectual and operational independence. This structure provides:
-- Legal and financial infrastructure (K-PAI Nexus)
-- Community access and practitioner grounding (K-PAI Nexus's 2,000+ members)
-- Institutional partnerships (K-PAI Nexus's 30+ MOUs)
+The AI & Humanity Council operates under [K-PAI Nexus](https://nexus-pai.github.io/){:target="_blank"} (a California 501(c)(3) nonprofit) but maintains intellectual and operational independence. This structure provides:
+- Legal and financial infrastructure ([K-PAI Nexus](https://nexus-pai.github.io/){:target="_blank"})
+- Community access and practitioner grounding ([K-PAI Nexus](https://nexus-pai.github.io/){:target="_blank"}'s 2,000+ members)
+- Institutional partnerships ([K-PAI Nexus](https://nexus-pai.github.io/){:target="_blank"}'s 30+ MOUs)
 - Independence in topic selection and findings (Council autonomy)
--->
 
 **Governance Model**
 
-**Council Chair** <!--(Appointed by [K-PAI Nexus Board](https://nexus-pai.github.io/committee/#board-of-directors){:target="_blank"})-->
+**Council Chair** (Appointed by [K-PAI Nexus Board](https://nexus-pai.github.io/committee/#board-of-directors){:target="_blank"})
 - Overall vision and strategic direction
 - Final authority on report topics and timelines
 - Primary spokesperson for Council
@@ -468,10 +463,7 @@ The AI & Humanity Council operates under K-PAI Nexus (a California 501(c)(3) non
 - Approves venture creation proposals
 - Ensures quality and consistency across reports and ventures
 - Manages budget and operations
-
-<!--
-- Appointed by Council Chair with K-PAI Nexus Board approval
--->
+- Appointed by Council Chair with [K-PAI Nexus Board](https://nexus-pai.github.io/committee/#board-of-directors){:target="_blank"} approval
 
 **Expert Working Groups** (Formed per report)
 - 8-15 experts assembled for each specific report
@@ -620,14 +612,12 @@ This is a critical question. The Council's credibility depends on genuine indepe
 
 **Structural Independence:**
 
-<!--
 **From K-PAI Nexus:**
-- Council has separate budget line in K-PAI Nexus financials
-- K-PAI Nexus Board appoints Council Chair but doesn't approve report topics or findings
+- Council has separate budget line in [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} financials
+- [K-PAI Nexus Board](https://nexus-pai.github.io/committee/#board-of-directors){:target="_blank"} appoints Council Chair but doesn't approve report topics or findings
 - Council Chair has final authority on all intellectual content
-- K-PAI Nexus provides infrastructure but not editorial control
+- [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} provides infrastructure but not editorial control
 - Written into governance documents
--->
 
 **From Institutional Partners:**
 - Partners provide faculty time and resources but don't control findings
@@ -667,11 +657,9 @@ This is a critical question. The Council's credibility depends on genuine indepe
 
 **Potential Tensions:**
 
-<!--
-What if a Council report criticizes a K-PAI Nexus corporate sponsor or MOU partner?
+What if a Council report criticizes a [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} corporate sponsor or MOU partner?
 
-**The Answer:** The Council publishes the report. K-PAI Nexus's bylaws explicitly protect Council independence. If this creates friction with sponsors, that's a cost K-PAI Nexus accepts to maintain credibility. A think tank that censors findings to please sponsors has no credibility.
--->
+**The Answer:** The Council publishes the report. [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}'s bylaws explicitly protect Council independence. If this creates friction with sponsors, that's a cost [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} accepts to maintain credibility. A think tank that censors findings to please sponsors has no credibility.
 
 What if a spin-off company's business interests conflict with a future Council report?
 
@@ -689,7 +677,7 @@ This is written into Council governance documents: **No sponsor, partner, board 
 
 **Week 1-2: Topic Identification**
 - Council Chair and Executive Committee identify critical questions
-- Input from K-PAI Nexus community, Advisory Board, external experts
+- Input from [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} community, Advisory Board, external experts
 - **Scan for venture opportunities** (could this research spawn mission-aligned companies?)
 - Prioritization based on: urgency, impact potential, disciplinary fit, resource availability
 
@@ -783,11 +771,8 @@ This is written into Council governance documents: **No sponsor, partner, board 
 
 **Week 3: Launch**
 
-<!--
-- Publish report on K-PAI Nexus website (co-branded with partner institutions)
-- Presentation at K-PAI Nexus forum
--->
-
+- Publish report on [K-PAI Nexus website](https://nexus-pai.github.io){:target="_blank"} (co-branded with partner institutions)
+- Presentation at [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} forum
 - Press release and media outreach
 - Distribution to Advisory Board, partners, policymakers
 - Social media campaign
@@ -909,7 +894,7 @@ Multiple founder archetypes:
 - Access to Council network (customers, partners, investors)
 - Research insights and ongoing collaboration
 - Co-marketing opportunities (where appropriate)
-- Recruiting support from K-PAI Nexus community
+- Recruiting support from [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} community
 
 **Company Milestones:**
 - Product development and MVP launch
@@ -1006,7 +991,7 @@ Multiple founder archetypes:
 - Integration meetings ensure coherence across sections
 
 **6. Stakeholder Feedback (without capture)**
-- Circulate draft to K-PAI Nexus members for practitioner feedback
+- Circulate draft to [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} members for practitioner feedback
 - NOT subject to approval (feedback considered, not binding)
 - Identify practical implementation challenges
 - Reality-check policy recommendations
@@ -1163,10 +1148,10 @@ Academic rigor doesn't require impenetrable prose. If an argument can't be expla
 - **Target by August 2029:** 8+ formal partnerships, 5+ co-authored reports, 100+ faculty contributors
 
 **Tier 7: Community Integration**
-- K-PAI Nexus members citing Council work
+- [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} members citing Council work
 - Interest group discussions sparked by reports
 - Educational programs built around Council frameworks
-- **Target by August 2029:** 80% of K-PAI Nexus members aware of Council reports, 20+ interest groups engaging with findings
+- **Target by August 2029:** 80% of [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} members aware of Council reports, 20+ interest groups engaging with findings
 
 **Qualitative Impact Indicators:**
 
@@ -1276,18 +1261,18 @@ The Council doesn't just publish reports and hope people read them. We actively 
 - Online courses or modules (Coursera, edX, etc.)
 - **Partner institutions integrate into existing courses**
 
-**Channel 6: K-PAI Nexus Community**
+**Channel 6: [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} Community**
 
-- Present at K-PAI Nexus forums (2,000+ member audience)
-- Distribute through K-PAI Nexus Members chatroom
+- Present at [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} forums (2,000+ member audience)
+- Distribute through [K-PAI Nexus Members chatroom](https://invite.kakao.com/tc/WILY3ul3un){:target="_blank"}
 - Interest group discussions and deep dives
 - Follow-up workshops on specific report sections
-- **Venture pitch events** (connect founders with K-PAI Nexus network)
+- **Venture pitch events** (connect founders with [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} network)
 
 **Channel 7: International Translation**
 
 Priority languages for translation:
-- Korean (given K-PAI Nexus's Korea-US roots)
+- Korean (given [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}'s Korea-US roots)
 - Spanish (Latin America reach)
 - Mandarin (China/Taiwan reach, where politically feasible)
 - French (EU and Africa reach)
@@ -1374,7 +1359,7 @@ A great report that nobody reads has zero impact. Distribution is not an afterth
 Council on Foreign Relations (CFR) took 30+ years to become the definitive foreign policy voice. We're attempting to compress that timeline through:
 - **Narrow focus** (AI only, not all technology policy)
 - **Critical timing window** (AI policy being written NOW)
-- **Existing networks** (K-PAI Nexus's Silicon Valley and Korea connections)
+- **Existing networks** ([K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}'s Silicon Valley and Korea connections)
 - **Quality over quantity** (5 exceptional reports > 20 mediocre ones)
 - **Institutional partnerships** (instant credibility from co-authorship)
 - **Tangible solutions** (ventures prove insights work in practice)
@@ -1509,12 +1494,10 @@ The goal is not to be a lobbying organization. We don't advocate for specific bi
   - No sponsor can veto or substantially alter findings
   - Corporate Advisory Board (input) separate from governance (control)
 
-<!--
-**K-PAI Nexus General Operating Budget (Target: 5% of budget, ~$90K)**
+**[K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} General Operating Budget (Target: 5% of budget, ~$90K)**
 - Infrastructure support
 - Staff time allocation
 - Community access
--->
 
 **Venture Returns (Future, not budgeted initially)**
 - If spin-off companies exit successfully, Council may receive modest returns
@@ -1566,18 +1549,18 @@ The Council scales activity to available resources:
 - Quality assurance
 - Partner institution liaison
 
-**Administrative Coordinator** (0.5 FTE, K-PAI Nexus shared)
+**Administrative Coordinator** (0.5 FTE, [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} shared)
 - Logistics and scheduling
 - Budget tracking
 - Travel coordination
 - Meeting support
 
-**Communications Support** (0.5 FTE, K-PAI Nexus shared)
+**Communications Support** (0.5 FTE, [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} shared)
 - Media outreach
 - Social media
 - Website updates
 
-**Plus:** K-PAI Nexus infrastructure (accounting, legal, HR, IT)
+**Plus:** [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} infrastructure (accounting, legal, HR, IT)
 
 **Year 2 (2027): Expanded Operations (4.5 FTE)**
 
@@ -1662,11 +1645,8 @@ The Council scales activity to available resources:
 
 **Q2 2026:**
 
-<!--
-- ✅ K-PAI Nexus Board approves AI & Humanity Council formation
--->
-
-- ✅ Council Chair appointed (Sunghee Yun)
+- [K-PAI Nexus Board](https://nexus-pai.github.io/committee/#board-of-directors){:target="_blank"} approves AI & Humanity Council formation
+- Council Chair appointed (Sunghee Yun)
 - Hire Research Manager (June)
 - Form Executive Committee (5 members)
 - Develop governance documents and operating procedures
@@ -1683,7 +1663,7 @@ The Council scales activity to available resources:
 **Q4 2026:**
 - Report #1 research and deliberation phase
 - Begin fundraising (foundation grant applications)
-- Present Council vision at K-PAI Nexus forums
+- Present Council vision at [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} forums
 - Initial media outreach
 - **Identify first venture opportunity from Report #1**
 
@@ -1703,7 +1683,7 @@ The Council scales activity to available resources:
 
 **Q2 2027:**
 - **Publish Report #1: "AI and the Future of Work" (May)** (co-authored with Stanford HAI, MIT)
-- Major launch event at K-PAI Nexus forum
+- Major launch event at [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"} forum
 - Op-eds in NYT, WSJ, Economist
 - Congressional staff briefings (5+)
 - **SkillBridge AI raises $500K seed round**
@@ -2005,10 +1985,7 @@ Controversial topics are often the most consequential. If we avoid them to seem 
    - Governance structure
    - Roles and responsibilities
    - **Innovation Venture Studio governance**
-
-   <!--
-   - Relationship to K-PAI Nexus
-   -->
+   - Relationship to [K-PAI Nexus](https://nexus-pai.github.io){:target="_blank"}
 
 2. **Conflict of Interest Policy**
    - Definition of conflicts
