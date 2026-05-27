@@ -1,6 +1,6 @@
 ---
 date: Tue May 26 23:51:03 KST 2026
-last_modified_at: Thu May 28 00:52:25 KST 2026
+last_modified_at: Thu May 28 00:56:07 KST 2026
 permalink: /ai/keit-special-session-rnd-manufacturing-ai-era
 layout: single
 title: "KEIT Special Session &ndash; The Future of Industrial Technology R&D and Manufacturing Innovation in the AI Era"
@@ -48,14 +48,14 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - My one-line anchor across every answer: across Samsung, Amazon, Gauss Labs, and now Erudio Bio, the work has been the same — AI and convex optimization finding patterns and optimal points in complex systems; only the target changed, from silicon chips to life.
 - I speak as a *connector* who has actually stood on the fab floor, not a single-domain specialist.
 
-## 1. Special Session Configuration
+# Special Session Configuration
 
 - **Theme**: The Future of Industrial Technology R&D and Manufacturing Innovation in the AI Era
 - **Format**: Round table
 - **Time / Venue**: May 29, 2026 (Fri) 13:30–14:45 KST, Korea University (Centennial Memorial Samsung Hall — Global Conference Hall, B1)
 - **Structure**: Intro (10 min, Prof. Songhee Kang, TU Korea) → Discussion (60 min) → Wrap-up (10 min)
 
-## 2. Speaker Lineup
+# Speaker Lineup
 
 - **Chair**: Prof. Keun Lee (Seoul National University / Chung-Ang University)
 - **UK**: Prof. Tim Minshall (University of Cambridge)
@@ -63,9 +63,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - **Japan**: Prof. Kazuyuki Motohashi (University of Tokyo)
 - **USA / Korea**: Sunghee Yun (Erudio Bio; former CTO of Gauss Labs, VP of SK Hynix)
 
-## 3. Discussion Questions & Draft Answers
+# Discussion Questions & Draft Answers
 
-### [Topic 1] How is AI changing R&D planning and evaluation methodologies?
+## How is AI changing R&D planning and evaluation methodologies?
 
 **Q1. As AI automates trend analysis and roadmapping, in which areas is human expert-based Technology Foresight still indispensable?** *(Minshall, Motohashi)*
 
@@ -88,7 +88,7 @@ Planning moved from a periodic, document-driven ritual to a continuous, data-dri
 - **The real prize is a faster, confident *no*** — kill weak branches before they burn fab time or wet-lab cost. KPI shifts from "milestones hit" to "good decisions per unit of experimental budget."
 - **Caution:** don't let the metric become the target — we kept a human "reality gate" before any big commitment. The lesson I carried from Samsung's iOpt platform still holds: a model is only good if the field engineers actually use it; an interim check-up the team doesn't trust changes nothing.
 
-### [Topic 2] AI Integration and Industrial R&D Productivity (Manufacturing / Materials)
+## AI Integration and Industrial R&D Productivity (Manufacturing / Materials)
 
 **Q1. To what extent is AI replacing or compressing the "wet lab" cycle in semiconductors, batteries, and bio, and how is this reshaping the workforce structure?** *(Sunghee Yun)*
 
@@ -123,7 +123,7 @@ Almost the opposite of the consumer-AI headlines: **process knowledge first, dat
 - **Data is necessary but overrated alone** — mostly noise until someone who understands the process knows what it means.
 - **Process knowledge is the moat** — knowing which variables matter and which prediction is safe to act on is what makes a fab engineer trust the output. At Gauss Labs the hard part was never the algorithm. This is the throughline of my whole career: the same AI-plus-convex-optimization lens worked at Samsung (wafer yield), Amazon (recommendations), and now Erudio Bio (drug design) — what travels across domains is the optimization-and-pattern lens *plus* domain knowledge, never the model alone. One-liner: competitiveness lives at the intersection of proprietary data and the domain knowledge to use it — the algorithm is the easy 10%.
 
-### [Topic 3] The Future of Manufacturing: What will factories look like in 2035?
+## The Future of Manufacturing: What will factories look like in 2035?
 
 **Q1. How will the job structure of the Korean industrial workforce be reorganized as AI transformation accelerates? What policies are the UK, Japan, and China testing?** *(Minshall, Motohashi, Yuan Zhou)*
 
@@ -151,7 +151,7 @@ The hard part isn't robotics — it's the long tail of exceptions.
 
 > Defer to Minshall on KTN/Catapult. One line from industry: pilots succeed in curated conditions with the original team; diffusion fails because the receiving plant lacks the data infrastructure and domain-fluent people to sustain it — and because the demo was never built for the field engineer who has to live with it. A technology is only good if the people on the floor actually use it. Fund integration and skills, not more demos.
 
-### [Topic 4] The Future of Global AI R&D Cooperation
+## The Future of Global AI R&D Cooperation
 
 **Q1. How should international R&D portfolios be redesigned amidst the US-China tech decoupling?** *(Common)*
 
@@ -179,7 +179,7 @@ Not *no* regulation — **predictable, proportionate, portable** regulation. Unc
 - **Portable** — fragmentation across EU/US-states/federal is pure deadweight cost; we want mutual recognition and common standards.
 - **On arbitrage:** it's a symptom, not a strategy — adds overhead, signals fragility to investors. Regulators should compete on clarity and sandbox quality, not a race to the bottom.
 
-### [Topic 5] The Emergence of Non-Human Innovators and R&D Governance
+## The Emergence of Non-Human Innovators and R&D Governance
 
 **Q1. How should patent attribution, research-fund settlement, and performance evaluation for AI-generated inventions be designed?** *(Minshall, Motohashi, Yuan Zhou)*
 
