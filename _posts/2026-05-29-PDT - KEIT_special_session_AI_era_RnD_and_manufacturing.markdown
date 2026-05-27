@@ -1,6 +1,6 @@
 ---
 date: Tue May 26 23:51:03 KST 2026
-last_modified_at: Thu May 28 00:24:05 KST 2026
+last_modified_at: Thu May 28 00:36:48 KST 2026
 permalink: /ai/keit-special-session-rnd-manufacturing-ai-era
 layout: single
 title: "KEIT Special Session &ndash; The Future of Industrial Technology R&D and Manufacturing Innovation in the AI Era"
@@ -42,13 +42,17 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign salzburg_report = site.posts | where: "permalink", "/ai/salzburg-report-case-of-ai" | first %}
 {% assign journey = site.posts | where: "permalink", "/contributions/my-entrepreneurial-journey/en" | first %}
 
-Prep notes for the KEIT round table — tight, spoken talking points. Full answers are for the questions directed to me and the **Common** ones; the rest are one-line hand-offs. Blog frameworks ([cognitive catalysis](https://sungheeyun.github.io/ai/new-ai-human-collaboration-model), [data-as-moat](https://sungheeyun.github.io/ai/data), [AI-isn't-safe-or-dangerous](https://sungheeyun.github.io/ai/future/), the connector's mindset) are woven in only where they sharpen the point. My one-line anchor across every answer: across Samsung, Amazon, Gauss Labs, and now Erudio Bio, the work has been the same — AI and convex optimization finding patterns and optimal points in complex systems; only the target changed, from silicon chips to life. I speak as a *connector* who has actually stood on the fab floor, not a single-domain specialist.
+- Prep notes for the KEIT round table — tight, spoken talking points.
+- Full answers are for the questions directed to me and the **Common** ones; the rest are one-line hand-offs.
+- Blog frameworks ([cognitive catalysis](https://sungheeyun.github.io/ai/new-ai-human-collaboration-model), [data-as-moat](https://sungheeyun.github.io/ai/data), [AI-isn't-safe-or-dangerous](https://sungheeyun.github.io/ai/future/), the connector's mindset) are woven in only where they sharpen the point.
+- My one-line anchor across every answer: across Samsung, Amazon, Gauss Labs, and now Erudio Bio, the work has been the same — AI and convex optimization finding patterns and optimal points in complex systems; only the target changed, from silicon chips to life.
+- I speak as a *connector* who has actually stood on the fab floor, not a single-domain specialist.
 
 ## 1. Special Session Configuration
 
 - **Theme**: The Future of Industrial Technology R&D and Manufacturing Innovation in the AI Era
 - **Format**: Round table
-- **Time / Venue**: May 29, 2026 (Fri) 13:30–14:45, Korea University (Centennial Memorial Samsung Hall — Global Conference Hall, B1)
+- **Time / Venue**: May 29, 2026 (Fri) 13:30–14:45 KST, Korea University (Centennial Memorial Samsung Hall — Global Conference Hall, B1)
 - **Structure**: Intro (10 min, Prof. Songhee Kang, TU Korea) → Discussion (60 min) → Wrap-up (10 min)
 
 ## 2. Speaker Lineup
