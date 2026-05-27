@@ -1,6 +1,6 @@
 ---
 date: Tue May 26 23:51:03 KST 2026
-last_modified_at: Thu May 28 00:36:48 KST 2026
+last_modified_at: Thu May 28 00:52:25 KST 2026
 permalink: /ai/keit-special-session-rnd-manufacturing-ai-era
 layout: single
 title: "KEIT Special Session &ndash; The Future of Industrial Technology R&D and Manufacturing Innovation in the AI Era"
@@ -16,7 +16,7 @@ tags:
  - semiconductors
  - panel
  - KEIT
-toc: false
+toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
