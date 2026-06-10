@@ -1,5 +1,5 @@
 ---
-last_modified_at: Sun May 10 02:15:38 PDT 2026
+last_modified_at: Wed Jun 10 01:03:56 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -287,8 +287,8 @@ toc_sticky: true
 
 <h4>Aug</h4>
 
-- biz trip to Orlando; invited by 특구재단 to Global Deep Tech Commercialization Forum within UKC 2026
-	- 05-Aug-2026 PDT ~ 07-Aug-2026 PDT &ndash; [flight itinerary & receipt](https://sungheeyun-seminars-02.github.io/resource/trips/2026/08 - Orlandor for UKC/www.expedia.com-egti-6LS-C0F-4QXT.pdf){:target="_blank"}
+- biz trip to Orlando &ndash; 3 nights; invited by 특구재단 to Global Deep Tech Commercialization Forum within UKC 2026
+	- 05-Aug-2026 PDT ~ 08-Aug-2026 PDT &ndash; [flight itinerary & receipt](https://sungheeyun-seminars-02.github.io/resource/trips/2026/08 - Orlandor for UKC/www.expedia.com-egti-6LS-C0F-4QXT.pdf){:target="_blank"}
 	- flight
 		&ndash; United 583
 		&ndash; from SFO @ 7:05am PDT to MCO @ 3:39pm EDT on 05-Aug-2026
@@ -301,8 +301,8 @@ toc_sticky: true
 
 <h4>Jun</h4>
 
-- biz trip to San Diego; invited by BSR Korea for [Bio International Convention](https://convention.bio.org/){:target="_blank"}
-	- 22-Jun-2026 PDT ~ 24-Jun-2026 PDT
+- biz trip to San Diego &ndash; 3 nights; invited by BSR Korea for [Bio International Convention](https://convention.bio.org/){:target="_blank"}
+	- 22-Jun-2026 PDT ~ 25-Jun-2026 PDT
 
 <h4>May</h4>
 
