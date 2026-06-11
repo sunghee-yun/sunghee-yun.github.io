@@ -1,11 +1,11 @@
 ---
 date: Mon Jun  8 04:16:52 PDT 2026
-last_modified_at: Wed Jun 10 18:50:07 PDT 2026
+last_modified_at: Wed Jun 10 19:00:50 PDT 2026
 layout: single
 title: "[KOLIS x K-BioX AI Talk] From AlphaFold to Agentic AI - Technology Breakthroughs, Market Forces, and Strategic Thinking for the Next Decade"
 permalink: /seminars/2026_0711 PDT - KOLIS x K-BioX AI Talk - From AlphaFold to Agentic AI/abstract
 author_profile: true
-toc: false
+toc: true
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
