@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed Jun 10 01:03:56 PDT 2026
+last_modified_at: Wed Jun 17 00:32:17 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -302,7 +302,7 @@ toc_sticky: true
 <h4>Jun</h4>
 
 - biz trip to San Diego &ndash; 3 nights; invited by BSR Korea for [Bio International Convention](https://convention.bio.org/){:target="_blank"}
-	- 22-Jun-2026 PDT ~ 25-Jun-2026 PDT
+	- 20-Jun-2026 PDT ~ 23-Jun-2026 PDT
 
 <h4>May</h4>
 
