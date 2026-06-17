@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed Jun 17 00:32:17 PDT 2026
+last_modified_at: Wed Jun 17 01:02:19 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -287,6 +287,17 @@ toc_sticky: true
 
 <h4>Aug</h4>
 
+- biz trip to Seoul &ndash; XX nights
+	- 13-Aug-2026 PDT ~ 25-Aug-2026 PDT
+	- flight
+		&ndash; KE24
+		&ndash; from SFO @ 1:10pm on 13-Aug-2026 PDT to ICN @ 5:20pm on 14-Aug-2026 KST
+		(12h 10m)
+	- return flight
+		&ndash; KE23
+		&ndash; from ICN @ 4pm KST to SFO @ 11am PDT on 25-Aug-2026
+		(11h)
+	- stay @ [수지](https://naver.me/FbqzqrjR){:target="_blank"}
 - biz trip to Orlando &ndash; 3 nights; invited by 특구재단 to Global Deep Tech Commercialization Forum within UKC 2026
 	- 05-Aug-2026 PDT ~ 08-Aug-2026 PDT &ndash; [flight itinerary & receipt](https://sungheeyun-seminars-02.github.io/resource/trips/2026/08 - Orlandor for UKC/www.expedia.com-egti-6LS-C0F-4QXT.pdf){:target="_blank"}
 	- flight
