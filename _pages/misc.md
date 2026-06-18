@@ -1,5 +1,5 @@
 ---
-last_modified_at: Wed Jun 17 01:02:19 PDT 2026
+last_modified_at: Wed Jun 17 22:24:22 PDT 2026
 layout: single
 title: Miscellaneous
 permalink: /misc
@@ -287,7 +287,7 @@ toc_sticky: true
 
 <h4>Aug</h4>
 
-- biz trip to Seoul &ndash; XX nights
+- biz trip to Seoul &ndash; 12 nights
 	- 13-Aug-2026 PDT ~ 25-Aug-2026 PDT
 	- flight
 		&ndash; KE24
