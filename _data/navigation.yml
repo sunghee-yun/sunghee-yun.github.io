@@ -29,9 +29,9 @@ main:
     url: /lectures
   - title: "music"
     url: /music
-  - title: "todo"
-    url: /todo-list
-  - title: "misc"
-    url: /misc
+#  - title: "todo"
+#    url: /todo-list
+#  - title: "misc"
+#    url: /misc
   - title: "SGS"
     url: /salzburg-global-seminar
