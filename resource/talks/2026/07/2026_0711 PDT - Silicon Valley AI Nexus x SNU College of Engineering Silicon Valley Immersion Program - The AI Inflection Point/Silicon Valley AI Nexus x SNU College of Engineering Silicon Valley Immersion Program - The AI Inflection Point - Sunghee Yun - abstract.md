@@ -1,11 +1,11 @@
 ---
 date: Sat Jul 11 01:18:22 PDT 2026
-last_modified_at: Sat Jul 11 01:45:35 PDT 2026
+last_modified_at: Sat Jul 11 01:54:52 PDT 2026
 layout: single
 title: "[Silicon Valley AI Nexus x SNU College of Engineering Silicon Valley Immersion Program] The AI Inflection Point - Where AI Technology, Economic Transformation, and Human Questions Collide in the Age of Agentic Intelligence"
 permalink: /talks/2026_0711 PDT - Silicon Valley AI Nexus x SNU College of Engineering Silicon Valley Immersion Program - The AI Inflection Point/abstract
-author_profile: false
-toc: true
+author_profile: true
+toc: false
 toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
