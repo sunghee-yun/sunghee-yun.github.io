@@ -1,6 +1,6 @@
 ---
 date: Wed Jul 22 03:03:00 PDT 2026
-last_modified_at: Wed Jul 22 09:12:09 PDT 2026
+last_modified_at: Wed Jul 22 10:10:50 PDT 2026
 permalink: /ai/seoul-bio-hub-from-lab-to-life-us-market-entry
 layout: single
 title: "From Lab to Life &ndash; US Market Entry Advising for Korean Healthcare Startups (Seoul Bio Hub x Stanford d.school)"
@@ -131,13 +131,13 @@ toc_sticky: true
 
 **Q1. 매출 직전 단계에서 첫 KOL·CLIA 랩 파트너와 첫 RUO 고객 확보 순서는?**
 
-- **RUO부터.** 유방종양·CTC 연구 KOL 랩 1–2곳에 기기+카트리지 공급 → 이들이 **성능 레퍼런스·논문·advocacy**를 생성. RUO는 규제 부담 낮고 초기 매출·KOL 옹호를 동시에.
+- **RUO부터.** 유방종양·CTC 연구 KOL 랩 1–2곳에 기기+카트리지 공급 → 이들이 **성능 레퍼런스·논문·advocacy**를 생성. RUO는 규제 부담 낮고 초기 매출·KOL 옹호를 동시에. (CTC: Circulating Tumor Cells)
 - **순서: KOL 랩(RUO, 공동연구) → publication/reference → CLIA 랩 파트너(LDT) → 확장.**
 
 **Q2. 연구용(RUO)에서 임상 진단으로 확장하는 타이밍은?**
 
 - **다음 3가지가 갖춰진 뒤에만 임상으로:** ① peer-reviewed 분석·초기 임상 validity 데이터, ② 명확한 intended-use / CDx 클레임(예: 특정 치료제의 동반진단), ③ 상환 thesis.
-- **상환 마일스톤은 MolDx / Medicare(Z-code) → NCCN 등재**를 향해 설계. 회수율(70–90%) 성능이 RUO에서 입증되고 임상 질문이 정의되기 전엔 **점프 금지**(임상/IVD는 자본·시간 집약).
+- **상환 마일스톤은 MolDx / Medicare(Z-code) → NCCN 등재**를 향해 설계. 회수율(70–90%) 성능이 RUO에서 입증되고 임상 질문이 정의되기 전엔 **점프 금지**(임상/IVD는 자본·시간 집약). (MolDx: Molecular Diagnostics Services Program, NCCN: National Comprehensive Cancer Network)
 
 # 제로더 · 김진욱 (Tech Lead) — 바로도리, 영아 사경·사두증 가정재활 앱
 
@@ -149,7 +149,7 @@ toc_sticky: true
 **Q2. 미국 PMF 검증에서 우선적으로 확인할 것은?**
 
 - **진짜 리텐션 드라이버가 무엇인지:** 기록 간편성(팀 가설)인지, 아니면 "우리 아이가 정상 궤도에 있다"는 임상적 안심(clinician reassurance)인지.
-- **⚠️ 규제/프라이버시 트리거를 미리:** 아동 데이터 → **COPPA**, 의료 편입 시 **HIPAA**. wellness 포지션이 유지되는지, 그리고 **누가 지불하는가**(보호자 cash vs 커버) willingness-to-pay 확인.
+- **⚠️ 규제/프라이버시 트리거를 미리:** 아동 데이터 → **COPPA**, 의료 편입 시 **HIPAA**. wellness 포지션이 유지되는지, 그리고 **누가 지불하는가**(보호자 cash vs 커버) willingness-to-pay 확인. (COPPA: Children's Online Privacy Protection Act, HIPAA: Health Insurance Portability and Accountability Act)
 
 # 파마로보틱스 · 유현우 (COO) — 주사제 조제 자동화 로봇 (의료기기)
 
