@@ -1,6 +1,6 @@
 ---
 date: Wed Jul 22 03:03:00 PDT 2026
-last_modified_at: Wed Jul 22 03:13:58 PDT 2026
+last_modified_at: Wed Jul 22 08:09:04 PDT 2026
 permalink: /ai/seoul-bio-hub-from-lab-to-life-us-market-entry
 layout: single
 title: "From Lab to Life &ndash; US Market Entry Advising for Korean Healthcare Startups (Seoul Bio Hub x Stanford d.school)"
@@ -41,7 +41,7 @@ toc_sticky: true
 
 # 관통하는 5가지 원칙
 
-1. **미국에서 진짜 moat는 기술이 아니라 "누가·왜·어떻게 돈을 내는가"(payment/reimbursement path)** — 9개 팀 중 대부분의 성패가 여기서 갈립니다.
+1. **미국에서 진짜 moat는 기술이 아니라 "누가·왜·어떻게 돈을 내는가"(payment/reimbursement path)** — 대부분의 성패가 여기서 갈립니다.
 2. **첫 고객은 "큰 로고"가 아니라 "도입 사이클이 짧은 beachhead 세그먼트"** — mid-market, urgent care, 단일 챔피언 사이트.
 3. **규제 포지셔닝이 속도를 결정** — wellness vs medical, CLIA-waiver, 510(k), RUO→LDT 중 어디에 서느냐가 GTM 속도를 좌우.
 4. **KOL + reference site = 미국에서의 신뢰 화폐(credibility currency)** — 이름 있는 KOL 1–2명과 첫 레퍼런스 사이트가 투자·세일즈 양쪽을 엽니다.
