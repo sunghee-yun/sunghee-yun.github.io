@@ -1,6 +1,6 @@
 ---
 date: Wed Jul  1 23:50:38 PDT 2026
-last_modified_at: Wed Jul 22 15:06:21 PDT 2026
+last_modified_at: Wed Jul 22 22:00:29 PDT 2026
 layout: single
 title: "Master Page for Restricted Pages"
 permalink: /sayunint-restricted-pages
@@ -30,6 +30,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign boyd = site.pages | where: "permalink", "/krcho/prof-boyd" | first %}
 {% assign k_ai_summit_v1 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v1" | first %}
 {% assign k_ai_summit_v2 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v2" | first %}
+{% assign k_ai_summit_v3 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v3" | first %}
 
 # Blogs
 
@@ -50,3 +51,4 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - [{{ global_entrepreneurship.title }}]({{ global_entrepreneurship.url }}){:target="_blank"}
 - [{{ k_ai_summit_v1.title }}]({{ k_ai_summit_v1.url }}){:target="_blank"}
 - [{{ k_ai_summit_v2.title }}]({{ k_ai_summit_v2.url }}){:target="_blank"}
+- [{{ k_ai_summit_v3.title }}]({{ k_ai_summit_v3.url }}){:target="_blank"}
