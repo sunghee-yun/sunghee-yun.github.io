@@ -1,8 +1,8 @@
 ---
 date: Wed Jul 22 14:35:46 PDT 2026
-last_modified_at: Wed Jul 22 14:35:46 PDT 2026
+last_modified_at: Wed Jul 22 20:48:40 PDT 2026
 layout: single
-title: "그날 샌프란시스코, K-AI가 판을 깔았다!"
+title: "그날 샌프란시스코, K-AI가 판을 깔았다! - v1"
 permalink: /articles/k-ai-summit-2026/v1
 categories:
 tags:
