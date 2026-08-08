@@ -1,12 +1,11 @@
 ---
 date: Wed Jul 22 03:03:00 PDT 2026
-last_modified_at: Wed Jul 22 10:10:50 PDT 2026
+last_modified_at: Sat Aug  8 03:10:51 EDT 2026
 permalink: /ai/seoul-bio-hub-from-lab-to-life-us-market-entry
 layout: single
 title: "From Lab to Life &ndash; US Market Entry Advising for Korean Healthcare Startups (Seoul Bio Hub x Stanford d.school)"
 categories:
  - blog
- - AI
  - biotech
  - healthcare
  - startups
@@ -27,6 +26,11 @@ toc_label: "&nbsp;Table of Contents"
 toc_icon: "fa-solid fa-list"
 toc_sticky: true
 ---
+
+posted: {{ page.date| date: "%d-%b-%Y" }}
+&amp;
+updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
+{: .notice--primary}
 
 <!--
 # From Lab to Life · 팀별 미국 진출 질문 — 답변 메모
