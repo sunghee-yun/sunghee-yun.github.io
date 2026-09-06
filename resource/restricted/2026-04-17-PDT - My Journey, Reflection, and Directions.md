@@ -1,6 +1,6 @@
 ---
 date: Fri Apr 17 17:33:19 PDT 2026
-last_modified_at: Fri Apr 17 18:36:29 PDT 2026
+last_modified_at: Tue Aug 25 19:07:37 KST 2026
 layout: single
 title: "My Journey, Reflection, and Direction"
 permalink: /personal/journey-reflection-directions
@@ -30,10 +30,10 @@ previously experienced. This led to:
 
 - 800+ pages of mathematics notes covering real analysis, abstract
   algebra, measure-theoretic probability, and convex optimization
-- 53 AI special lectures at universities and corporations
-- Founding Erudio Bio Korea, Inc.
-- Building K-PAI into a recognized Silicon Valley-Korea AI community
-- Gates Foundation grant for Erudio Bio's cancer diagnostics platform
+- 53 AI special lectures at universities and corporations in 2025, probably more in 2026!
+- Founding Erudio Bio Korea, Inc. in July, 2025!
+- Building [Silicon Valley AI Nexus](https://sv-ai-nexus.github.io){:target="_blank"} into a recognized Silicon Valley-Korea AI community
+- $1M Gates Foundation grant for Erudio Bio's cancer diagnostics platform
 - SNUBH research partnership (something a mentor said was impossible)
 - KFAS-Salzburg Global Leadership Initiative Fellowship
 - Significant media exposure and growing reputation
@@ -56,7 +56,7 @@ created patterns worth attending to:
 - Need for constant stimulation while working
 - Friends have expressed concern about burnout for about 6 months
 - Recent loss of motivation and interest across multiple domains
-  including Erudio Bio, K-PAI, and the planned book project
+  including Erudio Bio, AI Nexus, and the planned book project
 
 <!--
 These patterns - both the high-intensity period and the current
@@ -111,14 +111,14 @@ maximum leverage.
 - Keep the human mission central: inexpensive cancer detection
   reduces suffering for people who couldn't otherwise afford it
 
-## K-PAI - Calibrated Engagement
+## AI Nexus - Calibrated Engagement
 
-K-PAI has grown into a genuine community over 18 months, which is
+AI Nexus has grown into a genuine community over 18 months, which is
 real and valuable. However:
 
 - It should no longer consume primary energy
 - The right frame: leverage the network I've built FOR Erudio Bio
-- K-PAI connections (KOTRA, Korean Consulate, K-BioX, K-ASIC) are
+- AI Nexus connections (KOTRA, Korean Consulate, K-BioX, K-ASIC) are
   strategic assets for Erudio Bio's Korea strategy
 - Reduce operational involvement, maintain strategic relationships
 - The June 2026 "Silicon Stethoscope" forum is well-positioned as
@@ -126,12 +126,12 @@ real and valuable. However:
 
 ## Network Leverage Strategy
 
-The K-PAI network represents a genuinely valuable strategic asset
+The AI Nexus network represents a genuinely valuable strategic asset
 for Erudio Bio - not something to manage separately, but something
 to deploy actively. Key leverage points:
 
 **Fundraising:**
-- The Korean-American investor community accessible through K-PAI
+- The Korean-American investor community accessible through AI Nexus
   is an underutilized channel for Korean biotech startups
 - KOTRA Silicon Valley specifically bridges Korean companies to US
   investment - a natural ally for Erudio Bio's fundraising effort
@@ -149,15 +149,15 @@ to deploy actively. Key leverage points:
   infrastructure Erudio Bio needs for its dual-market strategy
 
 **Strategic Visibility:**
-- The June 2026 K-PAI "Silicon Stethoscope" forum ("The Great
+- The June 2026 AI Nexus "Silicon Stethoscope" forum ("The Great
   Convergence") positions Erudio Bio's thesis in front of exactly
   the right audience: Korean-Silicon Valley AI and biotech leaders
 - Selective speaking engagements should explicitly connect to
   Erudio Bio's mission and technology
 
 **The Operating Principle:**
-Let K-PAI work FOR Erudio Bio passively rather than actively
-managing K-PAI as a separate commitment. The community I've built
+Let AI Nexus work FOR Erudio Bio passively rather than actively
+managing AI Nexus as a separate commitment. The community I've built
 is the infrastructure. Erudio Bio is the mission it now serves.
 
 ## Speaking and Thought Leadership
