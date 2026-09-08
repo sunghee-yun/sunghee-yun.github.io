@@ -1,6 +1,6 @@
 ---
 date: Wed Jul  1 23:50:38 PDT 2026
-last_modified_at: Thu Jul 23 11:37:18 PDT 2026
+last_modified_at: Sun Sep  6 12:39:43 PDT 2026
 layout: single
 title: "Master Page for Restricted Pages"
 permalink: /sayunint-restricted-pages
@@ -28,6 +28,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign my_journey = site.pages | where: "permalink", "/personal/journey-reflection-directions" | first %}
 {% assign korean_profs = site.pages | where: "permalink", "/stanford-berkeley-korean-professors/v1" | first %}
 {% assign boyd = site.pages | where: "permalink", "/krcho/prof-boyd" | first %}
+{% assign pivoting_50 = site.pages | where: "permalink", "/personal/major-pivoting-in-50" | first %}
+
 {% assign k_ai_summit_v1 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v1" | first %}
 {% assign k_ai_summit_v2 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v2" | first %}
 {% assign k_ai_summit_v3 = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v3" | first %}
@@ -45,6 +47,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - [{{ my_journey.title }}]({{ my_journey.url }}){:target="_blank"}
 - [{{ korean_profs.title }}]({{ korean_profs.url }}){:target="_blank"}
 - [{{ boyd.title }}]({{ boyd.url }}){:target="_blank"}
+- [{{ pivoting_50.title }}]({{ pivoting_50.url }}){:target="_blank"}
 
 # Books
 
