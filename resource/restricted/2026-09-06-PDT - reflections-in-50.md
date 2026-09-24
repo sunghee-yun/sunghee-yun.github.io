@@ -1,6 +1,6 @@
 ---
 date: Sun Sep  6 12:37:22 PDT 2026
-last_modified_at: Wed Sep 16 16:32:02 PDT 2026
+last_modified_at: Thu Sep 24 14:23:01 PDT 2026
 layout: single
 title: "Reflections in 50"
 permalink: /personal/major-pivoting-in-50
@@ -26,7 +26,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - 명상록
 	- 모든 것을 철저히 검토한 뒤에야 결정을 내리는 확고부동함
 	- 칭찬에 한들리지 않는 것
-	- 자신의 영광에 관심이 없는
+	- 자신의 영광에 관심이 없는 것
 	- 화려한 의식 없이도 위엄을 잃지 않는 것
 	- 화려한 황궁에서도 권력의 장식 없이 거의 사인처럼 살 수 있다는 것을 몸소 보여준 것
 - 내 조건에서 내가 걸어온 길, 했던 선택은 최선의 선택들이었다는 것을 상기하라. 그 선택들을 하지 않았다면 지금 같은 위치, 명예, 조건 등을 얻지 못했을 것. 따라서 나는 최선의, 최고의 삶을 살아왔다.
