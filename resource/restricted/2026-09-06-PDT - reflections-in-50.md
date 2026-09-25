@@ -1,6 +1,6 @@
 ---
 date: Sun Sep  6 12:37:22 PDT 2026
-last_modified_at: Thu Sep 24 14:23:01 PDT 2026
+last_modified_at: Fri Sep 25 14:52:46 PDT 2026
 layout: single
 title: "Reflections in 50"
 permalink: /personal/major-pivoting-in-50
@@ -31,7 +31,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 	- 화려한 황궁에서도 권력의 장식 없이 거의 사인처럼 살 수 있다는 것을 몸소 보여준 것
 - 내 조건에서 내가 걸어온 길, 했던 선택은 최선의 선택들이었다는 것을 상기하라. 그 선택들을 하지 않았다면 지금 같은 위치, 명예, 조건 등을 얻지 못했을 것. 따라서 나는 최선의, 최고의 삶을 살아왔다.
 - 지금 내가 누리고 있는 지위, 위치, 명예를 생각해 보라. 이 보다 더 좋을 수는 없을 것.
-- 내가 되고픈 사람이 있는가?
+- 내가 되고픈 다른 어떤 사람이 있는가?
 
 # 해야할 일
 
