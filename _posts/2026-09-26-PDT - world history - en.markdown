@@ -1,6 +1,6 @@
 ---
 date: Sat Sep 26 01:09:34 PDT 2026
-last_modified_at: Sat Sep 26 01:09:34 PDT 2026
+last_modified_at: Sat Sep 26 02:23:50 PDT 2026
 permalink: /history/world-history/summary-en
 layout: single
 title: "World History"
@@ -21,6 +21,8 @@ tags:
  - European history
  - Islamic history
  - Mongol history
+ - Germanic migrations
+ - Steppe nomads
  - Indian history
  - Pre-Columbian America
 toc: true
@@ -49,8 +51,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | [Twitter (X)](https://x.com/intent/tweet?text={{ site.url }}{{ site.baseurl }}{{ page.url }})
 | [Facebook](https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }})
 
+[Korean Version](/history/world-history/summary)
 
-One table per civilization or region, in this order: East Asia → Near East → Mediterranean → Western Europe → Iran & Islam → Mongols & India → the Americas.
+One table per civilization or region, in this order: East Asia → Near East → Mediterranean → Germanic peoples & Western Europe → Iran & Islam → steppe nomads, Mongols & India → the Americas.
 
 - [Korea](#korea)
 - [China](#china)
@@ -59,9 +62,11 @@ One table per civilization or region, in this order: East Asia → Near East →
 - [Judea · Israel](#israel)
 - [Greece · Macedon](#greece)
 - [Rome (→ Eastern Rome, 1453)](#rome)
+- [The Germanic Migrations](#germanic)
 - [Western Europe (Middle Ages → Modern)](#europe)
 - [Iran (Persia · Parthia · Sasanians → modern Iran)](#iran)
 - [The Islamic World (→ Ottomans)](#islam)
+- [Steppe Nomads (before the Mongols)](#steppe)
 - [The Mongol Empire](#mongol)
 - [India](#india)
 - [The Americas (Maya · Aztec · Inca)](#americas)
@@ -80,7 +85,7 @@ The Korean, Chinese and Japanese tables include Chinese characters (Hanja / Kanj
 | Baekje | 百濟 | BC 18~660 | Onjo | 31 kings — [Baekje table](#baekje) |
 | Silla | 新羅 | BC 57~935 | Bak Hyeokgeose | 56 rulers — [Three Kingdoms period](#silla) · [Unified period](#unified-silla) |
 | Gaya | 加耶(伽倻) | 42~562 | Kim Suro (金首露) | Geumgwan Gaya → Dae Gaya. Iron production. Absorbed by Silla (532, 562) |
-| Balhae | 渤海 | 698~926 | Dae Joyeong (大祚榮) | Goguryeo refugees + Mohe. "Flourishing land of the East" (海東盛國). Destroyed by the Khitan (Liao) → **North–South States period** |
+| Balhae | 渤海 | 698~926 | Dae Joyeong (大祚榮) | Goguryeo refugees + Mohe. "Flourishing land of the East" (海東盛國). Destroyed by the Khitan (Liao, [Steppe table](#steppe)) → **North–South States period** |
 | Later Three Kingdoms | 後三國 | 892~936 | Later Baekje: Gyeon Hwon (甄萱, 900) / Later Goguryeo (Taebong): Gung Ye (弓裔, 901) | Regional strongmen rise as Silla collapses |
 | Goryeo | 高麗 | 918~1392 | Taejo Wang Geon | 34 kings — [Goryeo table](#goryeo) |
 | Joseon | 朝鮮 | 1392~1897 | Taejo Yi Seong-gye | 27 kings — [Joseon table](#joseon) |
@@ -241,7 +246,7 @@ Middle period (中代, 30~36: Muyeol's line, strong monarchy) / Late period (下
 | 5 | Gyeongjong | 景宗 | 975~981 | First stipend land system (976) |
 | 6 | Seongjong | 成宗 | 981~997 | **Choe Seungno's 28-point memorial**; 12 provincial governors; two chancelleries and six ministries; national university — Confucian state apparatus |
 | 7 | Mokjong | 穆宗 | 997~1009 | Deposed in Gang Jo's coup |
-| 8 | Hyeonjong | 顯宗 | 1009~1031 | Second (1010) and third Khitan invasions → **Battle of Gwiju (1019, Gang Gam-chan)**. First Tripitaka |
+| 8 | Hyeonjong | 顯宗 | 1009~1031 | Second (1010) and third Khitan ([Steppe table](#steppe)) invasions → **Battle of Gwiju (1019, Gang Gam-chan)**. First Tripitaka |
 | 9 | Deokjong | 德宗 | 1031~1034 | Began the Thousand-li Wall |
 | 10 | Jeongjong | 靖宗 | 1034~1046 | Completed the Thousand-li Wall |
 | 11 | Munjong | 文宗 | 1046~1083 | **Golden age.** Revised stipend land; Choe Chung's private academies (the "Twelve Assemblies") |
@@ -320,15 +325,15 @@ Middle period (中代, 30~36: Muyeol's line, strong monarchy) / Late period (下
 | Han | 漢 | BC 202~AD 220 | Gaozu, Liu Bang (高祖 劉邦) | Western Han (~8) / Xin (新, 8~23, Wang Mang) / Eastern Han (25~220, Emperor Guangwu, Liu Xiu) |
 | Three Kingdoms | 三國 | 220~280 | Wei: Cao Pi (曹丕); Shu: Liu Bei (劉備); Wu: Sun Quan (孫權) | Wei 220, Shu Han 221, Wu 229 |
 | Jin | 晉 | 265~420 | Emperor Wu, Sima Yan (武帝 司馬炎) | Western Jin (unified 280) / Eastern Jin (317~, Sima Rui) |
-| Sixteen Kingdoms | 五胡十六國 | 304~439 | — | Northern non-Han regimes (Eastern Jin in the south) |
-| Northern and Southern Dynasties | 南北朝 | 420~589 | South: Liu Song, Liu Yu (劉裕) / North: Northern Wei, Tuoba Gui (拓跋珪) | South: Song · Qi · Liang · Chen / North: Northern Wei → Eastern & Western Wei → Northern Qi & Zhou |
+| Sixteen Kingdoms | 五胡十六國 | 304~439 | — | Northern non-Han regimes (Xiongnu, Xianbei, Jie, Di, Qiang — [Steppe table](#steppe)); Eastern Jin in the south |
+| Northern and Southern Dynasties | 南北朝 | 420~589 | South: Liu Song, Liu Yu (劉裕) / North: Northern Wei, Tuoba Gui (拓跋珪, Xianbei) | South: Song · Qi · Liang · Chen / North: Northern Wei → Eastern & Western Wei → Northern Qi & Zhou |
 | Sui | 隋 | 581~618 | Emperor Wen, Yang Jian (文帝 楊堅) | Reunification (589); Grand Canal; civil-service examinations |
 | Tang | 唐 | 618~907 | Gaozu, Li Yuan (高祖 李淵) | Taizong's Zhenguan era; Wu Zetian (Zhou 周, 690~705). Battle of Talas (751, lost to the Abbasids) |
 | Five Dynasties and Ten Kingdoms | 五代十國 | 907~979 | — | Later Liang, Tang, Jin, Han, Zhou + ten regional states |
-| Song | 宋 | 960~1279 | Taizu, Zhao Kuangyin (太祖 趙匡胤) | Northern Song (~1127) / Southern Song (1127~). Liao (遼, Khitan), Jin (金, Jurchen), Western Xia (西夏) in the north |
+| Song | 宋 | 960~1279 | Taizu, Zhao Kuangyin (太祖 趙匡胤) | Northern Song (~1127) / Southern Song (1127~). Liao (遼, Khitan), Jin (金, Jurchen), Western Xia (西夏) in the north — [Steppe table](#steppe) |
 | Yuan | 元 | 1271~1368 | Kublai Khan (世祖 忽必烈) | Successor to the Mongol Empire (1206, Genghis); Southern Song destroyed 1279 |
 | Ming | 明 | 1368~1644 | Hongwu, Zhu Yuanzhang (洪武帝 朱元璋) | Yongle moves the capital to Beijing; Zheng He's voyages |
-| Qing | 淸 | 1636~1912 | Hong Taiji (皇太極) | Later Jin (後金, 1616, Nurhaci) → renamed Qing 1636 → entered Beijing 1644 (Shunzhi). Kangxi · Yongzheng · Qianlong golden age |
+| Qing | 淸 | 1636~1912 | Hong Taiji (皇太極) | Later Jin (後金, 1616, Nurhaci) → renamed Qing 1636 → entered Beijing 1644 (Shunzhi). Kangxi · Yongzheng · Qianlong golden age. The Manchus descend from the Jurchens — [Steppe table](#steppe) |
 | Republic of China | 中華民國 | 1912~ | Sun Yat-sen (孫文, provisional president) | Xinhai Revolution (1911). Relocated to Taiwan after 1949 |
 | People's Republic of China | 中華人民共和國 | 1949~ | Mao Zedong (毛澤東) | Founded in Beijing after winning the civil war |
 
@@ -470,7 +475,7 @@ Jewish history hinges on the two destructions of the Temple — 586 (Babylon) an
 | Dominate · Tetrarchy | 284~305 | **Diocletian** | Two Augusti + two Caesars (293) — prototype of the East–West split. Last great persecution of Christians (303) |
 | Constantine the Great | 306~337 | Constantine I | Milvian Bridge (312) → **Edict of Milan (313)** legalizes Christianity. Council of Nicaea (325). **Constantinople founded (330)** on old Byzantium |
 | Theodosius I · division | 379~395 | Theodosius I; Arcadius (East), Honorius (West) | Christianity the state religion (380/392); Olympic Games abolished (393). **Permanent division (395)** |
-| Fall of the West | 395~476 | Alaric, Aetius, Attila, **Odoacer, Romulus Augustulus** | Rome sacked (410 Visigoths, 455 Vandals). Catalaunian Fields (451). **476: fall** — the Germanic general Odoacer deposes the last emperor, who bears the founder's name Romulus. The West continues in the [Western Europe table](#europe) |
+| Fall of the West | 395~476 | Alaric, Aetius, Attila, **Odoacer, Romulus Augustulus** | Rome sacked (410 Visigoths, 455 Vandals). Catalaunian Fields (451, against Attila's Huns — [Steppe table](#steppe)). **476: fall** — the Germanic general Odoacer deposes the last emperor, who bears the founder's name Romulus. Each people's route is in the [Germanic table](#germanic); the West continues in the [Western Europe table](#europe) |
 | East: Justinian the Great | 527~565 | Empress Theodora, Belisarius | ***Corpus Iuris Civilis***, **Hagia Sophia** (537). Vandals and Ostrogoths conquered; Mediterranean reunited. Nika riots (532), plague (541) |
 | Heraclius · Hellenization | 610~641 | Heraclius | Crushes the Sasanians (628), then **Islam erupts** → Yarmouk (636): Syria and Egypt lost. **Greek** becomes the official language; the emperor is ***basileus***. Later called the "Byzantine Empire", but to the end it called itself Roman |
 | Arab sieges repelled · Iconoclasm | 674~843 | Leo III, Irene | Sieges of Constantinople repelled (674~678, 717~718) with "Greek fire". Iconoclast controversy (726~843). Charlemagne's coronation as western emperor (800) is a challenge to the East |
@@ -484,13 +489,34 @@ Jewish history hinges on the two destructions of the Temple — 586 (Babylon) an
 - West: Latin → Romance languages; East: Greek — a split that persists today.
 - Cleopatra was a Macedonian Greek; her ties to Caesar and to Antony were both political choices to keep Egypt from becoming a Roman province. Both times she ended up on the losing side of a Roman civil war.
 
+# The Germanic Migrations {#germanic}
+
+The bridge between 476 in the [Rome table](#rome) and the "Germanic kingdoms" row of the [Western Europe table](#europe). The Germanic peoples were Indo-European farmers and warriors from Scandinavia and northern Germany — a different category from the mounted steppe nomads ([Steppe table](#steppe)). Around 370 the **Huns** crossed the Volga and drove the Goths westward, setting off a chain of migrations; Adrianople (378, where the eastern emperor Valens fell) was the opening shot and the fall of the West (476) the conclusion.
+
+| People | Route | State founded | Fate |
+|---|---|---|---|
+| Goths (common origin) | Scandinavia → Vistula → north shore of the Black Sea (3rd c.) | — | Split into Visigoths and Ostrogoths under Hunnic pressure (c. 370) |
+| **Visigoths** | Cross the Danube (376) → **Adrianople (378)** → Balkans → Italy: **Alaric sacks Rome (410)** → southern Gaul | Kingdom of Toulouse (418) → defeated by the Franks at Vouillé (507), withdraw to Iberia → **Kingdom of Toledo** | Destroyed by Islam (Tariq) at Guadalete (711). Survivors in Asturias begin the Reconquista |
+| **Ostrogoths** | Under Hunnic rule, then independent after Attila's death → Pannonia → Italy | **Theodoric the Great** kills Odoacer and rules from Ravenna (493~553), keeping Roman institutions; employs Boethius | Destroyed in Justinian's Gothic War (535~554; Belisarius, Narses) |
+| **Vandals** | Cross the Rhine (406) → Gaul → Iberia (one theory derives "Andalusia" from them) → **Gaiseric** crosses to North Africa (429) | **Vandal Kingdom** (435~534, Carthage). Mediterranean piracy; **sack of Rome (455)** — origin of the word "vandalism" | Destroyed by Belisarius (534) |
+| Burgundians | Middle Rhine (411) → crushed by Hunnic mercenaries (436; the setting of the *Nibelungenlied*) → Rhône valley and Savoy | Kingdom of Burgundy (~534, Lyon) | Absorbed by the Franks (534). Survives as the place-name Burgundy |
+| **Franks** | Gradual expansion from the lower Rhine into Gaul (3rd~5th c.) — expansion rather than migration | **Clovis** (481~511): defeats the last Roman forces at Soissons (486), **converts to Catholicism (496)**, defeats Alemanni and Visigoths → Merovingians → Carolingians | **The only kingdom to survive and grow** — parent of France, Germany and the Low Countries. Origin of the name "France" |
+| Anglo-Saxons (Angles · Saxons · Jutes) | Northern Germany and Denmark → Britain (c. 449, after the Roman withdrawal) | Seven kingdoms (Heptarchy: Wessex, Mercia, Northumbria …) → Alfred the Great repels the Vikings → **Kingdom of England (927)** | The Norman Conquest (1066) changes the dynasty; people and language survive. "England" = land of the Angles |
+| Lombards | Pannonia → northern Italy (568, Alboin) — the last wave of the migrations | Lombard Kingdom (568~774, Pavia). Threatens the Papal States → the pope appeals to the Franks | Destroyed by Charlemagne (774). Survives as the place-name Lombardy |
+| Suebi · Alemanni | Suebi: north-western Iberia (409) / Alemanni: upper Rhine and Alsace | Suebic Kingdom (Galicia) / Alemannia | Absorbed by the Visigoths (585) and Franks (496) respectively. Origin of the French name for Germany, *Allemagne* |
+
+- The Goths, Vandals and Lombards were **Arian** Christians; only the Franks converted to **Catholicism** — and the support of the Roman population and Church is the decisive reason the Franks survived.
+- The conquerors were few, the conquered Romans many: within two or three centuries the Germanic languages vanished into Latin (the Romance languages). Germanic speech survived only where Romanization had been weak — Britain (English) and east of the Rhine.
+- The migrating peoples survive not as states but as **place-names**: Burgundy, Lombardy, England, France, Andalusia (one theory), Allemagne.
+- The Huns themselves never settled and scattered after Attila's death (453) — [Steppe table](#steppe).
+
 # Western Europe (Middle Ages → Modern) {#europe}
 
 The western half, cut off at 476 in the [Rome table](#rome). Roman inheritance (Latin, law, the Church) fuses with the Germanic kingdoms into medieval Europe, then passes through Renaissance, Reformation and revolution into the modern age.
 
 | Period | Years | Key figures | Notes |
 |---|---|---|---|
-| Germanic kingdoms | 476~750 | Theodoric (Ostrogoths), **Clovis** (Franks) | Visigoths (Iberia), Ostrogoths and Lombards (Italy), Vandals (North Africa), Anglo-Saxons (Britain). Clovis converts to Catholicism (496) — the Franks bind themselves to the Church. Benedictine order (529) |
+| Germanic kingdoms | 476~750 | Theodoric (Ostrogoths), **Clovis** (Franks) | Routes and fates of each people: [Germanic table](#germanic). Visigoths (Iberia), Ostrogoths and Lombards (Italy), Vandals (North Africa), Anglo-Saxons (Britain). Clovis converts to Catholicism (496) — the Franks bind themselves to the Church. Benedictine order (529) |
 | Carolingians | 751~987 | Charles Martel, Pepin III, **Charlemagne** | Charles Martel halts Islam at Tours-Poitiers (732). Donation of Pepin (756) → Papal States. **Charlemagne crowned emperor of the West (800)**; Carolingian Renaissance. **Treaty of Verdun (843)** — three-way split, prototype of France, Germany and Italy |
 | Vikings · Normans | 793~1066 | Rollo, **William the Conqueror** | Raid on Lindisfarne (793). Normandy (911), Kievan Rus' (862, Rurik), Sicily. **Hastings (1066)** — Norman conquest of England |
 | Holy Roman Empire | 962~1806 | **Otto I**, Henry IV, Frederick I and II | Otto crowned (962). **Walk to Canossa (1077)** — Investiture Controversy (emperor vs Pope Gregory VII). In practice a federation of German princes |
@@ -556,9 +582,36 @@ The western half, cut off at 476 in the [Rome table](#rome). Roman inheritance (
 - The **caliphate** ("successorship"): Rashidun → Umayyads → Abbasids (fell 1258; nominal line continued in Cairo) → Ottomans (1517~1924).
 - In names, "ibn" means "son of" and "abu" means "father of".
 
+# Steppe Nomads (before the Mongols) {#steppe}
+
+The steppe belt running some 8,000 km from Manchuria to Hungary was a single highway. The mounted peoples who rode out of it were recorded as "barbarians" (胡) by China ([China table](#china)) and by the West alike; pushed out in the east, they flowed west to shake Persia, Rome and Europe. The climax is the [Mongol Empire](#mongol). The Germanic peoples were not nomads and have their own [Germanic table](#germanic).
+
+| People | Characters / native name | Period | State · leaders | Civilizations they struck · notes |
+|---|---|---|---|---|
+| Scythians | Σκύθαι | 8th~3rd c. BC | Steppes north of the Black Sea | **The first mounted nomadic culture** (horse archery without stirrups, golden animal-style art). Foiled Darius I's invasion by scorched earth (BC 513). Recorded by Herodotus |
+| **Xiongnu** | 匈奴 | 3rd c. BC~1st c. CE | United by **Modu Chanyu** (冒頓單于, BC 209~174) | The reason Qin Shi Huang built the **Great Wall**. Siege of Baideng (BC 200): Han Gaozu humiliated → marriage alliances and tribute. **Emperor Wu's** counter-offensive (BC 129~119; Wei Qing, Huo Qubing); Zhang Qian sent to the Western Regions. Split north/south (48) → southern Xiongnu submit to Han, northern Xiongnu migrate west (91) — **possibly the ancestors of the Huns**. Liu Yuan, a Xiongnu, founds the first of the Sixteen Kingdoms (304) |
+| **Xianbei** | 鮮卑 | 2nd~6th c. | Murong (慕容), Tuoba (拓跋), Yuwen (宇文) clans. **Tuoba Northern Wei** (北魏, 386~534) | Took over the Mongolian steppe after the Xiongnu. Northern Wei unifies the north (439) → Northern and Southern Dynasties. **Emperor Xiaowen's Sinicization** (capital to Luoyang 494; Xianbei language and surnames banned). Eastern and Western Wei → Northern Qi and Zhou. **Both Yang Jian of Sui and Li Yuan of Tang came from the part-Xianbei Guanlong aristocracy** — Sui and Tang were half-steppe empires |
+| **Huns** | Huns | 4th~5th c. | **Attila** (434~453) — "the Scourge of God" (*Flagellum Dei*) | Cross the Volga c. 370 and crush the Ostrogoths → **trigger the Germanic migrations** ([Germanic table](#germanic)). Extract huge tribute from Eastern Rome. Stopped at the **Catalaunian Fields (451)** by Aetius and the Visigoths. Invade Italy (452) → withdraw after meeting Pope Leo I. Attila dies suddenly (453) → empire collapses at Nedao (454) |
+| Rouran → Avars | 柔然 / Avars | 5th~8th c. | Rouran: Mongolian steppe / Avars: Avar Khaganate in Pannonia (567~796) | The Rouran were the **first to use the title *khagan*** (可汗) — origin of khan/khagan. Destroyed by the Türks (552). The Avars (possibly Rouran remnants) press Eastern Rome and the Franks; **siege of Constantinople (626, with the Sasanians)**. Destroyed by Charlemagne (796) |
+| **Göktürks** | 突厥 | 552~744 | Bumin Khagan (土門) overthrows the Rouran. Split into Eastern and Western Türks (583) | The first **Turkic** empire — from Manchuria to the Caspian. The Western Türks ally with Eastern Rome against the Sasanians. Tang Taizong destroys the Eastern Türks (630) and takes the title "Heavenly Khagan" (天可汗). The Second Türk Khaganate (682~744) leaves the **Orkhon inscriptions** — the earliest Turkic writing. Uyghurs, Seljuks, Ottomans and modern Türkiye all descend from this Turkic line ([Islam table](#islam)) |
+| Uyghurs | 回鶻 | 744~840 | Uyghur Khaganate (Orkhon) | Overthrow the Türks. **Help the Tang crush the An Lushan rebellion** (757, 763) → the silk-for-horses trade drains the Tang treasury. Manichaeism as state religion. Destroyed by the Kyrgyz (840) → migrate to the Tarim Basin (today's Xinjiang), settle down, later Islamized |
+| Khazars · Bulgars · Magyars | Khazars / Bulgars / Magyars | 7th~10th c. | Khazar Khaganate (650~969, north of the Caspian and Black Seas) / Danube Bulgaria (681, Asparuh) / Hungary (896, Árpád) | Khazars: the only steppe empire to **convert to Judaism**; blocked Islam's advance north into Europe. Bulgars: Slavicized into today's Bulgaria; three centuries of war with Eastern Rome. Magyars: raid western Europe → defeated at **Lechfeld (955, Otto I)**, settle; Stephen I converts to Catholicism (1000) → Kingdom of Hungary. The only non-Indo-European nations left in Europe |
+| **Khitan → Liao** | 契丹 → 遼 | 916~1125 | **Yelü Abaoji** (耶律阿保機) | **Destroy Balhae (926)** ([Korea table](#korea)). Take the Sixteen Prefectures (936). Invade Goryeo (993: Seo Hui's negotiation; 1010; 1018~19: **Battle of Gwiju**). Treaty of Chanyuan (1004) extracts annual tribute from the Song. Destroyed by the Jurchens → Yelü Dashi's **Western Liao (Kara-Khitai, 1124~1218)**. Origin of the Western name for China, **"Cathay"**, and of Russian *Kitai* |
+| **Jurchens → Jin** | 女眞 → 金 | 1115~1234 | **Wanyan Aguda** (完顏阿骨打) | Destroy the Liao (1125). **Jingkang Incident (1127)** — Northern Song falls; emperors Huizong and Qinzong taken captive. Demand submission from Goryeo (1126, accepted by Yi Jagyeom). Rule northern China, Sinicize. Destroyed by the Mongols (1234). **Their descendants are the Manchus** |
+| Tanguts → Western Xia | 党項 → 西夏 | 1038~1227 | Li Yuanhao (李元昊) | Tibetan-related. Coexist with Song, Liao and Jin; their own **Tangut script**. Destroyed in Genghis Khan's last campaign (1227) — Genghis died during it |
+| **→ Mongol Empire** | 蒙古 | 1206~ | Genghis Khan | The apex of the nomad empires — [Mongol table](#mongol) |
+| Oirats · Tatars · Dzungars | 瓦剌 · 韃靼 · 準噶爾 | 15th~18th c. | Esen Taishi / Altan Khan / Galdan | Esen's **Tumu Crisis (1449)** — the Ming emperor Yingzong captured. Altan Khan makes peace with the Ming (1571), adopts Tibetan Buddhism and confers the title "Dalai Lama". The **Dzungars (1630s~1758)**, the last steppe empire, are wiped out by the Qing under Kangxi, Yongzheng and Qianlong (1758). **Gunpowder ends the military superiority of the mounted nomad** |
+| **Manchus → Qing** | 滿洲 → 淸 | 1616~1912 | **Nurhaci** (Later Jin, 1616), **Hong Taiji** (state renamed Qing, people renamed Manchu, 1635~36) | Descendants of the Jurchens. The Eight Banners. Invade Joseon (1627; **1636~37**). Enter Beijing (1644) and rule all China — the Qing of the China table. Bind Manchuria, Mongolia, Tibet and Xinjiang together: the template of modern China's territory. Sinicized → the Manchu language is now virtually extinct |
+
+- **East to west**: Xiongnu (3rd c. BC) → Huns (4th c.), Rouran (5th c.) → Avars (6th c.) — a people pushed off the Mongolian steppe tends to reappear in Europe two or three centuries later.
+- **Conquest dynasties Sinicize**: Northern Wei, Liao, Jin and Qing were all absorbed by Chinese culture after ruling China. Only the Yuan kept a Mongol identity to the end — and were driven out.
+- China's **"Five Barbarians" (五胡)** — Xiongnu, Xianbei, Jie (羯), Di (氐), Qiang (羌) — were distinct peoples: the Jie related to the Xiongnu, the Di and Qiang Tibetan.
+- The titles **khan / khagan** (汗 / 可汗) began with the Rouran and passed to the Türks, Uyghurs, Mongols and Manchus; Tang Taizong took "Heavenly Khagan" as well, claiming overlordship of the steppe.
+- The nomads' edge was **mobility** (horse and bow); it ended with the spread of gunpowder and cannon in the 17th~18th centuries and the destruction of the Dzungars.
+
 # The Mongol Empire {#mongol}
 
-The protagonist of the 13th century, scattered across the other tables until now. It runs through [Korea](#korea) (invasions of Goryeo), [China](#china) (Yuan), [Iran](#iran) (Ilkhanate), [Islam](#islam) (sack of Baghdad), [Western Europe](#europe) (Legnica), [Japan](#japan) (the Mongol invasions) and [India](#india) (Mughals).
+The protagonist of the 13th century, scattered across the other tables until now. It runs through [Korea](#korea) (invasions of Goryeo), [China](#china) (Yuan), [Iran](#iran) (Ilkhanate), [Islam](#islam) (sack of Baghdad), [Western Europe](#europe) (Legnica), [Japan](#japan) (the Mongol invasions) and [India](#india) (Mughals). The steppe empires before them (Xiongnu, Türks, Khitan, Jurchens) are in the [Steppe table](#steppe).
 
 | Period | Years | Key figures | Notes |
 |---|---|---|---|
