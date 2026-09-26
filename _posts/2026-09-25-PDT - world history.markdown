@@ -1,9 +1,9 @@
 ---
 date: Fri Sep 25 21:45:47 PDT 2026
-last_modified_at: Sat Sep 26 00:50:42 PDT 2026
+last_modified_at: Sat Sep 26 01:16:42 PDT 2026
 permalink: /history/world-history/summary
 layout: single
-title: "World History"
+title: "World History (Korean)"
 categories:
  - blog
  - history
@@ -36,8 +36,11 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 <!--script src="{{ '/assets/js/toc-collapse.js' | relative_url }}"></script-->
 <style>
+.page__content table { font-size: .9em; }
 .page__content table td,
-.page__content table th { word-break: keep-all; }
+.page__content table th { word-break: keep-all; text-align: center; }
+.page__content table td:last-child,
+.page__content table th:last-child { text-align: left; }
 </style>
 
 **Share on**
@@ -72,7 +75,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | 시대 / 나라 | 한자 | 연도 | 건국자 | 비고 |
 |---|---|---|---|---|
 | 고조선 | 古朝鮮 | BC 2333(전승)~108 | 단군왕검(檀君王儉) | 청동기 문명. 기자조선(箕子) 전승 → 위만조선(衛滿, BC 194) → 한 무제에게 멸망, 한사군(漢四郡) 설치 |
-| 부여 · 옥저 · 동예 · 삼한 | 夫餘·沃沮·東濊·三韓 | BC 2세기~AD 4세기 | — | 열국 시대. 삼한(마한·진한·변한)에서 백제·신라·가야가 나옴 |
+| 부여 · 옥저 ·<br>동예 · 삼한 | 夫餘·沃沮·<br>東濊·三韓 | BC 2세기~AD 4세기 | — | 열국 시대. 삼한(마한·진한·변한)에서 백제·신라·가야가 나옴 |
 | 고구려 | 高句麗 | BC 37~668 | 동명성왕 주몽 | 28대 — [고구려 표](#goguryeo) |
 | 백제 | 百濟 | BC 18~660 | 온조 | 31대 — [백제 표](#baekje) |
 | 신라 | 新羅 | BC 57~935 | 박혁거세 | 56대 — [삼국기](#silla)·[통일기](#unified-silla) 표 |
@@ -84,7 +87,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 | 대한제국 | 大韓帝國 | 1897~1910 | 고종(高宗) 황제 | 광무개혁. 을사늑약(1905), 헤이그 특사(1907), 경술국치(1910) |
 | 일제강점기 | 日帝强占期 | 1910~1945 | — | 3·1 운동(1919), **대한민국 임시정부**(大韓民國臨時政府, 상하이 1919, 이승만·김구), 청산리(1920), 광복(1945. 8. 15) |
 | 대한민국 | 大韓民國 | 1948~ | 이승만(李承晩, 초대 대통령) | 정부 수립 1948. 8. 15. 6·25 전쟁(1950~53), 4·19(1960), 5·16(1961), 유신(1972), 5·18(1980), 6월 항쟁·민주화(1987) |
-| 조선민주주의인민공화국 | 朝鮮民主主義人民共和國 | 1948~ | 김일성(金日成) | 1948. 9. 9 수립 |
+| 조선민주주의<br>인민공화국 | 朝鮮民主主義<br>人民共和國 | 1948~ | 김일성(金日成) | 1948. 9. 9 수립 |
 
 **순서:** 고조선 → 열국 → 삼국(고구려·백제·신라·가야) → 남북국(통일신라·발해) → 후삼국 → 고려 → 조선 → 대한제국 → 일제강점기 → 대한민국
 
