@@ -1,7 +1,7 @@
 ---
 date: Wed May 13 01:47:32 PDT 2026
-last_modified_at: Wed May 13 01:48:24 PDT 2026
-permalink: /ai/halluciation-not-a-bug
+last_modified_at: Sun Sep 27 01:49:03 PDT 2026
+permalink: /ai/hallucination-not-a-bug
 layout: single
 title: "(WIP) Hallucination is Not a Bug, but Structural Engine of Creativity"
 categories:
