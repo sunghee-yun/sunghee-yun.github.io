@@ -1,6 +1,6 @@
 ---
 date: Wed Jul  1 23:50:38 PDT 2026
-last_modified_at: Sun Sep  6 12:39:43 PDT 2026
+last_modified_at: Sat Oct 17 19:21:00 PDT 2026
 layout: single
 title: "Master Page for Restricted Pages"
 permalink: /sayunint-restricted-pages
@@ -39,6 +39,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 {% assign k_ai_summit_v5_shorter = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v5-shorter" | first %}
 {% assign k_ai_summit_v6_shorter = site.pages | where: "permalink", "/articles/k-ai-summit-2026/v6-shorter" | first %}
 
+{% assign book_reset_chp_06 = site.pages | where: "permalink", "/books/paradigm-reset/06" | first %}
+
 # Blogs
 
 - [{{ bio_revolution.title }}]({{ bio_revolution.url }}){:target="_blank"}
@@ -53,6 +55,8 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 - [{{ book_1.title }}]({{ book_1.url }}){:target="_blank"}
 - [{{ book_2.title }}]({{ book_2.url }}){:target="_blank"}
+	- [{{ book_reset_chp_06.title }}]({{ book_reset_chp_06.url }}){:target="_blank"}
+
 
 # Articles
 
