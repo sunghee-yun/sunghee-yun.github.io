@@ -1,6 +1,6 @@
 ---
 date: Fri Oct 30 17:34:19 PDT 2026
-last_modified_at: Fri Oct 30 17:51:42 PDT 2026
+last_modified_at: Sat Oct 31 14:58:08 PDT 2026
 permalink: /biz/suwon-sv-investor-meeting-agenda-2026-11-04
 layout: single
 title: "수원시 실리콘밸리 방문단 간담회 &ndash; Agenda (04-Nov-2026 @ Oregon @ KOTRA/KIC SV)"
@@ -30,10 +30,10 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 {: .notice--info}
 > **수원특례시 첨단산업과 · 수원시정연구원 실리콘밸리 방문단 간담회**
-> 2026-11-04 (수) 15:00–17:00 · KIC SV Oregon Room (예약 확정)
+> 2026-11-04 (수) 15:00–17:00 · Oregon Room @ KOTRA / KIC SV (예약 확정)
 > 주제: **제3회 광교 양자 바이오 서밋 2027 (2027-05-20~21) 글로벌 투자 프로그램 &ndash; 실리콘밸리 투자사 유치를 위한 사전 준비 미팅**
 >
-> 아래는 윤성희 대표가 제안한 Agenda임. 본 미팅은 1시간으로 잡고, 룸은 여유 있게 2시간 예약해 둠. 남는 시간은 자유 네트워킹 및 개별 질의에 활용.
+> 아래는 윤성희 대표가 제안한 Agenda임. 본 미팅은 1시간으로 잡고, 룸은 여유 있게 2시간 예약해 둠. 남는 시간은 자유 네트워킹 및 개별 질의에 활용. KIC SV 배정융 센터장은 15:00–16:00 참석 예정이므로 본 Agenda는 16:00 안에 마무리.
 
 # 참석자
 
@@ -52,7 +52,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 **현지**
 
 - 윤성희 ([Silicon Valley AI Nexus](https://sv-ai-nexus.github.io/){:target="_blank"} · Erudio Bio, Inc. Co-Founder & CTO)
-- KIC SV (Korea Innovation Center Silicon Valley) 참석자 &ndash; *TBD*
+- 배정융 센터장 (KIC SV, Korea Innovation Center Silicon Valley) &ndash; 15:00–16:00 참석
 
 # 미팅의 목적
 
@@ -66,9 +66,9 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 
 | 시간 | 항목 | 리드 |
 |---|---|---|
-| 15:00–15:10 (10') | 인사 및 소개 · KIC SV 소개 | 수원시 · KIC SV |
+| 15:00–15:10 (10') | 인사 및 소개 · KIC SV 소개 | 수원시 · 배정융 센터장 |
 | 15:10–15:25 (15') | 광교 양자 바이오 서밋 2027 및 글로벌 투자 프로그램(안) 소개 | 수원시 (김지영 팀장) |
-| 15:25–15:45 (20') | 실리콘밸리 투자자 관점 피드백 및 토론 | Silicon Valley AI Nexus · KIC SV |
+| 15:25–15:45 (20') | 실리콘밸리 투자자 관점 피드백 및 토론 | Silicon Valley AI Nexus · 배정융 센터장 |
 | 15:45–15:55 (10') | 투자사 유치 전략 및 역할 분담 | 전체 |
 | 15:55–16:00 (5') | 액션 아이템 및 후속 일정 정리 | 수원시 · Silicon Valley AI Nexus |
 | 16:00–17:00 | (여유 시간) 자유 네트워킹 · 개별 질의 | &ndash; |
@@ -76,7 +76,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 ## 1. 인사 및 소개 (10분)
 
 - 수원시 방문단 소개 및 방문 목적.
-- KIC SV 소개 &ndash; 하시는 일 중 서밋 투자 프로그램과 연결될 수 있는 부분.
+- KIC SV 소개 (배정융 센터장) &ndash; KIC SV가 하는 일 중 서밋 투자 프로그램과 연결될 수 있는 부분.
 - 윤성희 &ndash; 수원시와의 협력 배경 간단 소개.
 
 ## 2. 서밋 2027 및 글로벌 투자 프로그램(안) 소개 (15분)
@@ -124,7 +124,7 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 - 역할 분담(안)
   - 수원시: 참가 기업 선별 기준·일정, 투자사 제공 혜택 확정, 영문 one-pager 개정.
   - [Silicon Valley AI Nexus](https://sv-ai-nexus.github.io/){:target="_blank"}: 네트워크 기반 투자사 후보 발굴 및 warm intro, 자료 피드백.
-  - KIC SV: *(참석 시)* 협력 가능한 범위 논의 &ndash; 네트워크 연결, 현지 설명회 공간, 공동 프로그램 등.
+  - KIC SV (배정융 센터장): 협력 가능한 범위 논의 &ndash; 네트워크 연결, 현지 설명회 공간, 공동 프로그램 등.
 - 2027년 5월까지의 **역산 일정(backward schedule)** 초안
   - 2026-12: 타깃 리스트 확정, 영문 자료 v2.
   - 2027-01~02: 1차 컨택 및 관심 확인 (save-the-date).
@@ -148,4 +148,4 @@ updated: {{ page.last_modified_at| date: "%d-%b-%Y" }}
 # 참고 자료
 
 - 수원시 브리핑 자료: [*Suwon Silicon Valley Delegation &ndash; Investor Meeting Brief (Bilingual, 2026-11-04)*](/resource/posts/2026-10-30 - suwon sv investor meeting/Suwon_Silicon_Valley_Investor_Meeting_Bilingual_EN_Main_FINAL.pdf){:target="_blank"}
-- 장소: [KIC SV / KOTRA Silicon Valley](https://maps.app.goo.gl/fwfistkdDHgdhYfM9){:target="_blank"}
+- 장소: [Oregon Room @ KOTRA / KIC SV](https://maps.app.goo.gl/fwfistkdDHgdhYfM9){:target="_blank"}
